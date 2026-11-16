@@ -1,0 +1,1067 @@
+{
+  "schema": "quiz-capitol-v3",
+  "capitol": 9,
+  "titlu": "Testarea ipotezelor despre diferențele dintre două populații",
+  "sursa": "Analiza superioară a datelor, Unitatea IX, pp. 115–123",
+  "runde": [
+    {
+      "id": "T",
+      "tip_runda": "baza",
+      "eticheta": "Runda 1 · Teorie",
+      "titlu": "Runda 1 — Teorie",
+      "desc": "Întrebări directe și scurte: ce măsoară un indicator, când se folosește o metodă, ce deosebește două concepte.",
+      "intrebari": [
+        {
+          "q": "Ce întrebare încearcă să lămurească testele pentru diferența dintre două populații?",
+          "opts": [
+            "Dacă media unui eșantion diferă de o valoare cunoscută dinainte",
+            "Dacă cele două eșantioane au abateri standard egale între ele",
+            "Dacă diferența dintre eșantioane e prea mare ca să fie întâmplătoare",
+            "Cât de puternică e legătura dintre două variabile ale aceluiași grup"
+          ],
+          "correct": 2,
+          "explain": "Problema centrală: diferența observată între două eșantioane e suficient de mare ca să conchidem, cu o probabilitate de eroare cunoscută, că populațiile diferă? Compararea cu o valoare cunoscută e testul pentru o singură populație, din Cap. 8 (Testarea ipotezelor despre o singură populație); egalitatea abaterilor standard e doar o supoziție a testului t, iar tăria legăturii dintre variabile ține de corelație.",
+          "tag": "Problema centrală",
+          "tip": "concept"
+        },
+        {
+          "q": "Ce condiție privind selecția cazurilor cer testele Z și t pentru două medii?",
+          "opts": [
+            "Alegerea dintr-un grup să nu o influențeze pe cea din celălalt",
+            "Cele două grupuri să aibă exact același număr de cazuri selectate",
+            "Aceleași persoane să fie măsurate în ambele condiții",
+            "Cazurile să fie împerecheate după vârstă și după sex"
+          ],
+          "correct": 0,
+          "explain": "Testele din unitate cer eșantioane independente. Măsurarea acelorași persoane sau formarea de perechi face eșantioanele dependente, situație în care testele nu se aplică. Egalitatea efectivelor nu e cerută (are rol doar ca indiciu practic pentru σ1 = σ2 la testul t).",
+          "tag": "Eșantioane independente",
+          "tip": "design"
+        },
+        {
+          "q": "Care dintre aceste situații produce eșantioane dependente?",
+          "opts": [
+            "Aceiași pacienți, testați înainte și după un tratament",
+            "Un eșantion aleatoriu împărțit apoi după sexul persoanelor",
+            "Studenți extrași separat din două facultăți diferite",
+            "Elevi repartizați aleatoriu în două clase diferite"
+          ],
+          "correct": 0,
+          "explain": "Înainte/după pe aceleași persoane e exemplul tipic de eșantioane dependente: scorurile de după depind de ale acelorași oameni. Împărțirea unui eșantion după sex, extragerea separată din două facultăți și repartizarea aleatorie în clase dau grupuri independente — fiecare caz intră într-un singur grup.",
+          "tag": "Eșantioane dependente",
+          "tip": "design"
+        },
+        {
+          "q": "Despre ce mărimi face afirmații ipoteza de nul la compararea a două medii?",
+          "opts": [
+            "Despre mediile celor două populații",
+            "Despre mediile celor două eșantioane",
+            "Despre abaterile standard ale eșantioanelor",
+            "Despre diferența proporțiilor din eșantioane"
+          ],
+          "correct": 0,
+          "explain": "H0: μ1 = μ2 (μ1 − μ2 = 0) privește parametrii populațiilor. Mediile eșantioanelor sunt cunoscute și aproape mereu diferă puțin; ele sunt materialul testului, nu obiectul ipotezei. Abaterile standard intră în eroarea standard, iar proporțiile țin de alt test.",
+          "tag": "H0 pentru două populații",
+          "tip": "ipoteza"
+        },
+        {
+          "q": "Când se alege ipoteza alternativă bilaterală, μ1 ≠ μ2?",
+          "opts": [
+            "Când fiecare grup are sub 30 de cazuri",
+            "Când cercetătorul nu prezice sensul diferenței",
+            "Când variabila e măsurată la nivel nominal",
+            "Când se prezice că grupul 1 va avea media mai mare"
+          ],
+          "correct": 1,
+          "explain": "Forma lui Ha urmează predicția: fără un sens prezis, testul e bilateral și zona critică se împarte în ambele extremități. O predicție de sens duce la o Ha unilaterală. Mărimea eșantioanelor decide distribuția (Z sau t), iar nivelul nominal cere compararea proporțiilor.",
+          "tag": "Ha bilaterală",
+          "tip": "ipoteza"
+        },
+        {
+          "q": "Unde se află zona critică dacă Ha este μ1 < μ2?",
+          "opts": [
+            "În întregime în extremitatea dreaptă",
+            "Împărțită egal între cele două extremități",
+            "În jurul diferenței zero, la mijlocul curbei",
+            "În întregime în extremitatea stângă"
+          ],
+          "correct": 3,
+          "explain": "Dacă se prezice μ1 < μ2, diferențele X̄1 − X̄2 care sprijină predicția sunt negative, deci toată zona critică stă în stânga (sub −1,65 la α = 0,05). Extremitatea dreaptă corespunde formei μ1 > μ2, iar împărțirea pe două cozi — testului bilateral. Zona din jurul lui 0 e tocmai cea în care H0 nu se respinge.",
+          "tag": "Ha unilaterală",
+          "tip": "ipoteza"
+        },
+        {
+          "q": "Ce distribuție are, la eșantioane mari, diferența dintre mediile a două eșantioane?",
+          "opts": [
+            "O distribuție χ² cu un grad de libertate",
+            "O distribuție F cu k − 1 grade de libertate",
+            "Distribuția scorurilor individuale din populații",
+            "O distribuție normală, descrisă prin Z"
+          ],
+          "correct": 3,
+          "explain": "Distribuția de eșantionare a diferențelor X̄1 − X̄2 e normală dacă distribuțiile separate ale mediilor sunt normale, iar teorema limitei centrale, din Cap. 6 (Eșantionarea și distribuții de eșantionare), garantează asta tot mai bine pe măsură ce eșantioanele cresc. χ² servește la frecvențe, F la compararea a k medii, iar scorurile individuale nu sunt diferențe de medii.",
+          "tag": "Distribuția diferențelor dintre medii",
+          "tip": "concept"
+        },
+        {
+          "q": "De ce termenul μ1 − μ2 din numărătorul lui Z se înlocuiește cu zero?",
+          "opts": [
+            "Calculul îl înlocuiește cu diferența mediilor din eșantioane",
+            "Calculul îl elimină pentru că σ1 și σ2 nu se cunosc",
+            "Calculul se face presupunând că ipoteza de nul e adevărată",
+            "Calculul îl neglijează când grupurile au peste 30 de cazuri"
+          ],
+          "correct": 2,
+          "explain": "Testul întreabă cât de neobișnuită ar fi diferența observată dacă populațiile nu ar diferi, deci μ1 − μ2 = 0, ca în H0. Dacă ai pune în loc diferența eșantioanelor, numărătorul ar ieși mereu zero. Necunoașterea lui σ1, σ2 și mărimea eșantioanelor privesc numitorul și alegerea distribuției.",
+          "tag": "Media diferențelor sub H0",
+          "tip": "principiu"
+        },
+        {
+          "q": "Cum se combină erorile standard ale celor două medii în eroarea standard a diferenței?",
+          "opts": [
+            "Se adună direct cele două abateri standard",
+            "Se ia media celor două abateri standard",
+            "Se adună varianțele, apoi se extrage radicalul",
+            "Se scade eroarea mai mică din cea mai mare"
+          ],
+          "correct": 2,
+          "explain": "σ(X̄1 − X̄2) = √(σ1²/n1 + σ2²/n2): se adună varianțele mediilor, nu abaterile standard. De aceea eroarea diferenței e mai mare decât fiecare eroare separată, dar mai mică decât suma lor. Scăderea erorilor ar presupune că mediile deviază împreună, adică eșantioane dependente.",
+          "tag": "Eroarea standard a diferenței",
+          "tip": "principiu"
+        },
+        {
+          "q": "De ce s1² și s2² se împart la n − 1 când se estimează eroarea standard a diferenței?",
+          "opts": [
+            "Abaterea standard calculată cu n subestimează σ",
+            "Împărțirea transformă distribuția Z în distribuția t",
+            "Eșantioanele mari tind să supraestimeze pe σ",
+            "Testul pierde două grade de libertate din total"
+          ],
+          "correct": 0,
+          "explain": "σ1 și σ2 nu se cunosc aproape niciodată; s calculat cu n e un estimator distorsionat, care subestimează σ, de aceea se corectează cu n − 1, ca în Cap. 4 (Mărimile dispersiei) și Cap. 7 (Proceduri de estimare statistică). Corecția nu schimbă distribuția folosită, iar cele două grade de libertate pierdute țin de testul t, nu de această formulă.",
+          "tag": "Corecția pentru distorsiune",
+          "tip": "principiu"
+        },
+        {
+          "q": "Ce condiții cere testul Z pentru diferența dintre două medii?",
+          "opts": [
+            "Grupuri dependente, date de interval sau raport, n1 + n2 ≥ 30",
+            "Grupuri independente, date de nivel nominal, σ1 și σ2 cunoscute dinainte",
+            "Grupuri independente, date de interval sau raport, n1 + n2 ≥ 30",
+            "Grupuri independente, date de interval sau raport, n1 ≥ 30 și n2 ≥ 30"
+          ],
+          "correct": 3,
+          "explain": "Pe lângă independență, testul cere o variabilă de interval sau de raport și eșantioane relativ mari, fiecare cu cel puțin 30 de cazuri. Condiția privește fiecare eșantion, nu totalul; datele nominale se compară prin proporții, iar grupurile dependente nu intră în testele din unitate.",
+          "tag": "Condițiile testului Z",
+          "tip": "test"
+        },
+        {
+          "q": "Când se folosește distribuția t la compararea a două medii?",
+          "opts": [
+            "Când σ1, σ2 se cunosc și ambele grupuri au peste 30 de cazuri",
+            "Când variabila e nominală și grupurile sunt dependente",
+            "Când σ1, σ2 nu se cunosc și măcar un grup are sub 30 de cazuri",
+            "Când se compară simultan mediile a trei sau mai multe grupuri"
+          ],
+          "correct": 2,
+          "explain": "Cu abateri standard ale populațiilor necunoscute și eșantioane mici (n1 < 30 sau/și n2 < 30), distribuția de eșantionare e t-Student. Cu eșantioane mari se folosește Z; variabilele nominale cer proporții; trei sau mai multe medii se compară prin ANOVA, în Cap. 10 (Analiza de varianță (ANOVA)).",
+          "tag": "Când se folosește t",
+          "tip": "test"
+        },
+        {
+          "q": "Câte grade de libertate are distribuția t la testul pentru două medii?",
+          "opts": [
+            "n1 + n2 − 1",
+            "n1 + n2 − 2",
+            "n − 1, după grupul mic",
+            "(n1 − 1)(n2 − 1)"
+          ],
+          "correct": 1,
+          "explain": "Se pierde câte un grad de libertate pentru fiecare medie estimată, deci gl = n1 + n2 − 2 (12 + 13 elevi → 23 gl). n1 + n2 − 1 tratează cele două grupuri ca pe unul singur; n − 1 e regula pentru o singură medie, din Cap. 8 (Testarea ipotezelor despre o singură populație).",
+          "tag": "Grade de libertate n1 + n2 − 2",
+          "tip": "calcul"
+        },
+        {
+          "q": "Ce supoziție despre populații cere testul t pentru două medii?",
+          "opts": [
+            "Populațiile să aibă medii egale",
+            "Populațiile să fie egal dispersate",
+            "Populațiile să aibă proporții egale",
+            "Eșantioanele să depășească 30 de cazuri"
+          ],
+          "correct": 1,
+          "explain": "Testul t pentru două medii se poate folosi doar dacă σ1 = σ2, condiție necesară pentru estimarea combinată a abaterii standard. Mediile egale sunt chiar ipoteza de nul, testată, nu presupusă; proporțiile țin de alt test; cu eșantioane de peste 30 s-ar folosi Z.",
+          "tag": "Supoziția σ1 = σ2",
+          "tip": "principiu"
+        },
+        {
+          "q": "Ce se calculează, sub H0, înaintea lui Z pentru diferența dintre două proporții?",
+          "opts": [
+            "Media simplă a celor două proporții observate",
+            "O estimare comună, din datele ambelor eșantioane",
+            "Proporția prudentă P = 0,5, ca la intervale",
+            "Diferența dintre proporțiile observate în cele două grupuri"
+          ],
+          "correct": 1,
+          "explain": "Sub H0, P1 = P2, deci proporția comună se estimează din toate datele: P̂ = (n1p1 + n2p2)/(n1 + n2), o medie ponderată cu mărimile eșantioanelor. Media simplă ignoră mărimile diferite; P = 0,5 e alegerea prudentă la intervale, din Cap. 7 (Proceduri de estimare statistică), când lipsește o estimare; diferența proporțiilor merge la numărător.",
+          "tag": "Estimarea combinată a proporției",
+          "tip": "concept"
+        }
+      ],
+      "ascunse": [
+        {
+          "q": "Ce indiciu practic arată că supoziția σ1 = σ2 poate fi acceptată la testul t?",
+          "opts": [
+            "Grupuri de dimensiuni apropiate",
+            "Medii foarte apropiate ale grupurilor",
+            "Grupuri cu peste 30 de cazuri",
+            "Scoruri de nivel de interval"
+          ],
+          "correct": 0,
+          "explain": "Egalitatea dispersiilor se poate testa formal, dar practic se consideră satisfăcută când eșantioanele au dimensiuni apropiate (13 și 15, nu 6 și 24). Mediile apropiate privesc ipoteza testată, peste 30 de cazuri s-ar folosi Z, iar nivelul de interval e o condiție separată.",
+          "tag": "Supoziția σ1 = σ2",
+          "tip": "principiu"
+        },
+        {
+          "q": "Ce condiții cere testul Z pentru diferența dintre două proporții?",
+          "opts": [
+            "Variabilă nominală, grupuri independente și mari",
+            "Variabilă de interval, grupuri independente și mici",
+            "Variabilă ordinală, grupuri dependente și mari",
+            "Variabilă nominală, grupuri împerecheate și mici"
+          ],
+          "correct": 0,
+          "explain": "Proporțiile se folosesc pentru categorii (de acord / împotrivă), iar testul cere eșantioane independente cu n1 ≥ 30 și n2 ≥ 30. Variabilele de interval se compară prin medii; perechile și măsurătorile repetate fac eșantioanele dependente.",
+          "tag": "Condițiile testului pentru proporții",
+          "tip": "test"
+        },
+        {
+          "q": "Ce arată respingerea lui H0 la compararea a două grupuri?",
+          "opts": [
+            "Că diferența dintre populații e mare și are importanță practică",
+            "Că diferența greu se explică prin întâmplare, la riscul ales",
+            "Că fiecare membru al unui grup îl depășește pe celălalt",
+            "Că mediile eșantioanelor coincid cu cele ale populațiilor"
+          ],
+          "correct": 1,
+          "explain": "Semnificația spune că diferența observată ar fi puțin probabilă dacă populațiile nu ar diferi, cu riscul de eroare α. Ea nu măsoară mărimea sau importanța diferenței (cu eșantioane uriașe, diferențe mici ies semnificative), nu privește persoane luate una câte una și nu face mediile eșantioanelor egale cu ale populațiilor.",
+          "tag": "Semnificație statistică",
+          "tip": "concept"
+        },
+        {
+          "q": "Ce înseamnă că H0 nu a putut fi respinsă la compararea a două grupuri?",
+          "opts": [
+            "S-a demonstrat că populațiile au aceeași medie",
+            "Eșantioanele au fost prea mari pentru acest test",
+            "Datele nu permit concluzia că populațiile diferă",
+            "Diferența ar ieși semnificativă la un α mai strict"
+          ],
+          "correct": 2,
+          "explain": "Nerespingerea arată doar că diferența observată poate fi pusă pe seama întâmplării; egalitatea populațiilor nu e dovedită, ca în Cap. 8 (Testarea ipotezelor despre o singură populație). Eșantioanele mari fac testul mai sensibil, nu nepotrivit, iar un α mai strict face respingerea și mai grea.",
+          "tag": "Nerespingerea lui H0",
+          "tip": "concept"
+        },
+        {
+          "q": "Ce se întâmplă cu Z dacă diferența dintre medii și abaterile standard rămân aceleași, dar grupurile cresc?",
+          "opts": [
+            "Z scade, pentru că eroarea standard crește",
+            "Z rămâne același, depinzând doar de diferență",
+            "Z crește, pentru că diferența dintre medii crește",
+            "Z crește, pentru că eroarea standard scade"
+          ],
+          "correct": 3,
+          "explain": "n apare la numitorul varianțelor din eroarea standard: grupuri mai mari dau o eroare mai mică, deci, la aceeași diferență, un Z mai mare (eroarea scade cu √n). Diferența dintre medii e presupusă neschimbată, iar Z depinde și de numitor, nu doar de diferență.",
+          "tag": "Mărimea eșantioanelor și semnificația",
+          "tip": "principiu"
+        }
+      ]
+    },
+    {
+      "id": "1",
+      "eticheta": "Runda 2 · Bază",
+      "titlu": "Runda 2 — Concepte de bază",
+      "desc": "Situații scurte: recunoști testul, ipoteza sau regula potrivită și faci un calcul direct.",
+      "intrebari": [
+        {
+          "q": "Psihologul A compară anxietatea a 40 de studenți la medicină cu a 40 de studenți la drept, aleși separat din cele două facultăți. Psihologul B măsoară anxietatea acelorași 40 de studenți înainte și după sesiune. Pentru care dintre ei sunt potrivite testele pentru diferența dintre două populații prezentate aici?",
+          "opts": [
+            "Pentru B: aceiași studenți fac grupurile perfect comparabile",
+            "Pentru amândoi, fiindcă fiecare grup are cel puțin 30 de cazuri",
+            "Pentru A: alegerea unui grup nu influențează alegerea celuilalt",
+            "Pentru amândoi, dacă anxietatea e măsurată la nivel de interval"
+          ],
+          "correct": 2,
+          "explain": "Testele din capitol cer eșantioane independente: selectarea cazurilor pentru un eșantion nu influențează selectarea pentru celălalt. La B, scorurile de după sesiune aparțin acelorași persoane, deci cele două serii sunt legate — exact situația înainte/după pe care capitolul o exclude. Mărimea grupurilor și nivelul de măsură sunt condiții suplimentare; nu compensează lipsa independenței.",
+          "tag": "Eșantioane independente",
+          "tip": "design"
+        },
+        {
+          "q": "O cercetătoare compară stima de sine medie a adolescenților din mediul urban (populația 1) cu a celor din mediul rural (populația 2), fără să prezică vreun sens al diferenței. Ce ipoteză de nul testează?",
+          "opts": [
+            "X̄1 − X̄2 = 0",
+            "μ1 − μ2 = 0",
+            "μ1 − μ2 ≠ 0",
+            "μ1 − μ2 > 0"
+          ],
+          "correct": 1,
+          "explain": "Ipoteza de nul e un enunț de tipul „nicio diferență” despre populații: μ1 = μ2, adică μ1 − μ2 = 0. Mediile eșantioanelor (X̄1, X̄2) sunt cunoscute și aproape sigur diferite — despre ele nu are sens o ipoteză. „≠ 0” este ipoteza alternativă bilaterală, iar „> 0” o alternativă unilaterală, pe care cercetătoarea n-a formulat-o.",
+          "tag": "H0 pentru două populații",
+          "tip": "ipoteza"
+        },
+        {
+          "q": "Un cercetător prezice că angajații din ture de noapte (grupul 1) au un scor mediu de oboseală mai mare decât cei din ture de zi (grupul 2). Ce ipoteză alternativă scrie și unde plasează zona critică?",
+          "opts": [
+            "Ha: μ1 > μ2, cu zona critică în extremitatea dreaptă",
+            "Ha: μ1 < μ2, cu zona critică în extremitatea stângă",
+            "Ha: μ1 ≠ μ2, cu zona critică în ambele extremități",
+            "Ha: μ1 < μ2, cu zona critică în extremitatea dreaptă"
+          ],
+          "correct": 0,
+          "explain": "Predicția are un sens: grupul 1 peste grupul 2, deci Ha: μ1 > μ2, iar toată zona critică stă în dreapta (acolo cad valorile pozitive mari ale lui X̄1 − X̄2). „μ1 < μ2” ar fi predicția inversă; „≠” ar corespunde unei întrebări fără sens prezis. Combinația „μ1 < μ2 cu zona în dreapta” amestecă cele două forme.",
+          "tag": "Ha unilaterală",
+          "tip": "ipoteza"
+        },
+        {
+          "q": "Se compară timpii de reacție (în milisecunde) ai unui eșantion de 45 de șoferi profesioniști cu ai unui eșantion de 52 de șoferi amatori; abaterile standard ale populațiilor nu se cunosc. Ce test e potrivit?",
+          "opts": [
+            "Testul t pentru diferența dintre două medii",
+            "Testul Z pentru diferența dintre două medii",
+            "Testul Z pentru diferența dintre două proporții",
+            "Testul t pentru media unei singure populații"
+          ],
+          "correct": 1,
+          "explain": "Timpul de reacție e o variabilă de raport, eșantioanele sunt independente și ambele au cel puțin 30 de cazuri, deci se folosește distribuția Z, cu s1 și s2 corectate în locul lui σ1 și σ2. Testul t ar fi cerut dacă măcar un grup ar avea sub 30 de cazuri. Testul pentru proporții e pentru categorii (de pildă „a trecut / n-a trecut”), iar testul pentru o singură populație, din Cap. 8 (Testarea ipotezelor despre o singură populație), compară o medie cu o valoare fixă.",
+          "tag": "Condițiile testului Z",
+          "tip": "test"
+        },
+        {
+          "q": "O psihologă compară scorul mediu de depresie (scală de interval) la 18 pacienți tratați cu terapia A și la 20 de pacienți tratați cu terapia B. Abaterile standard ale populațiilor nu se cunosc. Ce folosește?",
+          "opts": [
+            "Testul t, cu 36 de grade de libertate",
+            "Testul t, cu 37 de grade de libertate",
+            "Testul t, cu 17 grade de libertate",
+            "Testul Z, fiindcă totalul trece de 30"
+          ],
+          "correct": 0,
+          "explain": "Ambele grupuri au sub 30 de cazuri, deci distribuția de eșantionare e t, cu n1 + n2 − 2 = 18 + 20 − 2 = 36 grade de libertate (câte un grad se pierde pentru fiecare medie estimată). 37 ar fi n − 1 aplicat totalului de 38, ca la o singură populație; 17 folosește doar grupul mic. Condiția pentru Z privește fiecare eșantion în parte, nu totalul.",
+          "tag": "Grade de libertate n1 + n2 − 2",
+          "tip": "test"
+        },
+        {
+          "q": "Într-un sondaj, 120 de studenți din anul I și 110 din anul III răspund „da” sau „nu” la întrebarea dacă au lucrat în timpul facultății. Cercetătorul vrea să știe dacă procentul celor care au lucrat diferă între ani. Ce test aplică?",
+          "opts": [
+            "Testul Z pentru diferența dintre două medii",
+            "Testul t pentru diferența dintre două medii",
+            "Testul Z pentru proporția unei singure populații",
+            "Testul Z pentru diferența dintre două proporții"
+          ],
+          "correct": 3,
+          "explain": "Variabila e nominală (da/nu), deci se compară proporțiile celor care au lucrat, iar eșantioanele mari (120 și 110) permit distribuția Z. Testele pentru medii cer o variabilă de interval sau de raport — o medie a răspunsurilor „da/nu” nu are sensul unui scor. Testul pentru o singură proporție, din Cap. 8 (Testarea ipotezelor despre o singură populație), ar compara un singur an cu o valoare fixă.",
+          "tag": "Condițiile testului pentru proporții",
+          "tip": "test"
+        },
+        {
+          "q": "La firma A, 80 din 200 de angajați folosesc sala de sport (p1 = 0,40); la firma B, 10 din 50 (p2 = 0,20). Pentru testul diferenței dintre proporții, cât este estimarea combinată P̂?",
+          "opts": [
+            "0,30",
+            "0,24",
+            "0,20",
+            "0,36"
+          ],
+          "correct": 3,
+          "explain": "P̂ = (n1·p1 + n2·p2)/(n1 + n2) = (80 + 10)/250 = 0,36: toți cei care folosesc sala, împărțiți la toți angajații. 0,30 e media simplă a proporțiilor, care ignoră că A are de patru ori mai mulți angajați. 0,24 inversează ponderile (50·0,40 + 200·0,20)/250. 0,20 este diferența dintre proporții, nu o proporție comună.",
+          "tag": "Estimarea combinată a proporției",
+          "tip": "calcul"
+        },
+        {
+          "q": "Comparând fumătorii cu nefumătorii la un test de atenție (câte peste 30 de persoane în fiecare grup), un student obține s1²/(n1 − 1) = 4 și s2²/(n2 − 1) = 5. Diferența dintre medii este de 6 puncte. Cât este Z?",
+          "opts": [
+            "2,00",
+            "0,67",
+            "1,41",
+            "6,00"
+          ],
+          "correct": 0,
+          "explain": "Eroarea standard a diferenței e √(4 + 5) = √9 = 3, deci Z = 6/3 = 2,00. 0,67 împarte la 9, varianța, fără radical (aceeași scăpare apare în calculul din exemplul cărții cu bărbați și femei). 1,41 împarte la √4 + √5 ≈ 4,24, adică adună abaterile standard în loc de varianțe. 6,00 uită numitorul.",
+          "tag": "Calculul lui Z pentru două medii",
+          "tip": "calcul"
+        },
+        {
+          "q": "Comparând elevii a două școli (60 și 70 de elevi) la un test de vocabular, un psiholog obține Z = −2,20 la un test bilateral cu α = 0,05. Ce decide?",
+          "opts": [
+            "Nu respinge H0, fiindcă −2,20 e sub +1,96",
+            "Respinge H0 doar dacă Ha era μ1 > μ2",
+            "Nu respinge H0, fiindcă −2,20 e peste −2,58",
+            "Respinge H0, fiindcă −2,20 e dincolo de −1,96"
+          ],
+          "correct": 3,
+          "explain": "La un test bilateral cu α = 0,05, zonele critice sunt sub −1,96 și peste +1,96; −2,20 cade în cea din stânga, deci H0 se respinge. A compara doar cu +1,96 ignoră coada negativă. Cu Ha: μ1 > μ2 zona critică ar fi doar în dreapta, unde −2,20 nu ajunge. ±2,58 sunt pragurile pentru α = 0,01, nu 0,05.",
+          "tag": "Decizia la testul Z",
+          "tip": "regula"
+        },
+        {
+          "q": "Calculând Z pentru diferența dintre doi grupuri de clienți, o studentă vede în numărător termenul μ1 − μ2, pe care nu-l cunoaște. Ce valoare pune pentru el?",
+          "opts": [
+            "Diferența mediilor eșantioanelor, ca estimare",
+            "Zero, fiindcă testul pornește de la H0 adevărată",
+            "Diferența dintre abaterile standard ale grupurilor",
+            "Valoarea critică 1,96, fiindcă α este 0,05"
+          ],
+          "correct": 1,
+          "explain": "Testul calculează cât de neobișnuită ar fi diferența observată dacă H0 (μ1 − μ2 = 0) ar fi adevărată, deci termenul se reduce la zero. Dacă ai pune în locul lui diferența eșantioanelor, numărătorul ar deveni zero la orice date. Abaterile standard intră în numitor, iar valoarea critică se folosește abia la decizie.",
+          "tag": "Media diferențelor sub H0",
+          "tip": "principiu"
+        },
+        {
+          "q": "Pentru 50 de liceeni, abaterea standard s1 = 10 a fost calculată împărțind la n. Ce termen pune cercetătorul pentru acest grup în eroarea standard a diferenței dintre medii?",
+          "opts": [
+            "100/50",
+            "10/49",
+            "100/49",
+            "10/√50"
+          ],
+          "correct": 2,
+          "explain": "Sub radical intră varianța împărțită la n − 1: s1²/(n1 − 1) = 100/49. Împărțirea la n − 1 corectează distorsiunea lui s calculat cu n, care subestimează σ (Cap. 4 (Mărimile dispersiei) și Cap. 7 (Proceduri de estimare statistică)). 100/50 uită corecția; 10/49 pune abaterea standard în loc de varianță; 10/√50 e eroarea standard a unei singure medii, fără corecție, nu termenul de sub radical.",
+          "tag": "Corecția pentru distorsiune",
+          "tip": "calcul"
+        },
+        {
+          "q": "Un profesor extrage, de 1000 de ori, câte un eșantion de 40 de băieți și unul de 40 de fete și notează de fiecare dată diferența dintre mediile lor la un test. Ce distribuție a construit?",
+          "opts": [
+            "Distribuția de eșantionare a mediilor unei populații",
+            "Distribuția de eșantionare a diferențelor dintre medii",
+            "Distribuția scorurilor individuale ale celor 80 de elevi",
+            "Distribuția t cu 78 de grade de libertate a scorurilor"
+          ],
+          "correct": 1,
+          "explain": "Fiecare punct al distribuției e o diferență X̄1 − X̄2, calculată pe o pereche de eșantioane; aceasta e distribuția pe care se sprijină testele din capitol. Distribuția mediilor, din Cap. 6 (Eșantionarea și distribuții de eșantionare), are câte o singură medie pe eșantion. Scorurile individuale descriu elevii, nu mediile. Gradele de libertate țin de modelul teoretic folosit la eșantioane mici, nu de o distribuție construită din scoruri.",
+          "tag": "Distribuția diferențelor dintre medii",
+          "tip": "concept"
+        },
+        {
+          "q": "Un studiu cu 800 de femei și 800 de bărbați găsește că femeile au un scor mediu de optimism cu 0,8 puncte mai mare, pe o scală de la 0 la 100; Z = 3,10. Ce concluzie este potrivită?",
+          "opts": [
+            "Diferența e semnificativă statistic, dar poate fi mică practic",
+            "Diferența e mare practic, fiindcă Z trece și de pragul 2,58",
+            "Diferența nu e semnificativă, fiind sub un punct pe scală",
+            "Diferența arată că o femeie aleasă la întâmplare e mai optimistă"
+          ],
+          "correct": 0,
+          "explain": "Z = 3,10 depășește și 1,96, și 2,58, deci H0 se respinge: populațiile diferă. Semnificația spune doar că diferența greu se explică prin întâmplare; cu eșantioane uriașe, chiar 0,8 puncte din 100 ajung semnificative, deși pot conta puțin practic (Cap. 8 (Testarea ipotezelor despre o singură populație)). Pragul lui Z nu măsoară mărimea efectului. O diferență între medii nu spune nimic sigur despre două persoane luate la întâmplare.",
+          "tag": "Semnificație statistică",
+          "tip": "concept"
+        },
+        {
+          "q": "Un studiu cu 35 de băieți și 38 de fete obține Z = 1,10 pentru diferența dintre scorurile medii de empatie (test bilateral, α = 0,05). Ce concluzie este corectă?",
+          "opts": [
+            "Datele arată că băieții și fetele au aceeași empatie medie",
+            "Datele arată o diferență, semnificativă însă doar la α = 0,10",
+            "Datele nu permit concluzia că cele două populații diferă",
+            "Datele arată o diferență reală, dar mică din punct de vedere practic"
+          ],
+          "correct": 2,
+          "explain": "Z = 1,10 nu ajunge la ±1,96, deci H0 nu se respinge. Nerespingerea înseamnă că diferența observată poate fi pusă pe seama întâmplării — nu că s-a demonstrat egalitatea mediilor (Cap. 8 (Testarea ipotezelor despre o singură populație)). La α = 0,10, pragul bilateral e 1,65, pe care 1,10 nu-l atinge nici el. „Diferență reală, dar mică” presupune o respingere care n-a avut loc.",
+          "tag": "Nerespingerea lui H0",
+          "tip": "concept"
+        },
+        {
+          "q": "Două clase obțin mediile 7,4 și 7,9 la același test. Directorul spune: „Mediile diferă, deci și clasele diferă.” Ce întrebare a lăsat deoparte?",
+          "opts": [
+            "Dacă diferența e mai mare decât abaterea standard a fiecărei clase",
+            "Dacă media întregii școli se află între cele două valori obținute",
+            "Dacă diferența e prea mare pentru a fi pusă pe seama întâmplării",
+            "Dacă cele două clase au exact același număr de elevi înscriși"
+          ],
+          "correct": 2,
+          "explain": "Problema centrală a capitolului: este diferența dintre eșantioane destul de mare încât să conchidem, cu o probabilitate de eroare cunoscută, că populațiile diferă? Răspunsul cere raportarea diferenței la eroarea standard a diferenței, nu la abaterea standard a scorurilor. Media școlii și egalitatea efectivelor nu decid dacă diferența e întâmplătoare.",
+          "tag": "Problema centrală",
+          "tip": "concept"
+        }
+      ],
+      "ascunse": [
+        {
+          "q": "Un cercetător vrea să afle dacă două metode de antrenament duc la rezultate diferite, fără să știe dinainte care ar fi mai bună (α = 0,05). Cum împarte zona critică?",
+          "opts": [
+            "În două, câte 0,025 în fiecare extremitate",
+            "Într-una, toată de 0,05 în extremitatea dreaptă",
+            "Într-una, toată de 0,05 în extremitatea stângă",
+            "În două, câte 0,05 în fiecare extremitate"
+          ],
+          "correct": 0,
+          "explain": "Fără un sens prezis, Ha: μ1 ≠ μ2 și testul e bilateral: α se împarte în două, câte α/2 = 0,025 în fiecare coadă (de aici pragul ±1,96). O singură coadă ar însemna o predicție de sens pe care cercetătorul n-o are. Câte 0,05 în fiecare coadă ar dubla riscul total, la 0,10.",
+          "tag": "Ha bilaterală",
+          "tip": "ipoteza"
+        },
+        {
+          "q": "Un cercetător compară două orașe (câte 200 de locuitori) după încrederea medie în instituții, pe o scală de la 1 la 10 tratată ca de interval, și după procentul celor care au votat la ultimele alegeri. Ce teste folosește?",
+          "opts": [
+            "Z pentru două medii la încredere și Z pentru două proporții la vot",
+            "Z pentru două medii la amândouă, votul fiind codat cu 0 și 1",
+            "Z pentru două proporții la amândouă, scala având categorii",
+            "t pentru două medii la încredere și Z pentru proporții la vot"
+          ],
+          "correct": 0,
+          "explain": "Încrederea, tratată ca variabilă de interval, se compară prin medii; votul (a votat / n-a votat) e nominal, deci se compară proporții. Codurile 0/1 nu transformă o variabilă nominală în una de interval (Cap. 1 (Introducere în statistică)). Testul t e pentru eșantioane mici; cu 200 de persoane în fiecare oraș, distribuția e Z.",
+          "tag": "Alegerea testului",
+          "tip": "test"
+        },
+        {
+          "q": "Pentru două grupuri de câte 36 de participanți, un student pune sub radical s1²/36 + s2²/36, deși s1 și s2 au fost calculate împărțind la n. Ce efect are scăparea?",
+          "opts": [
+            "Eroarea iese puțin prea mare, deci Z iese puțin prea mic",
+            "Eroarea iese aceeași, corecția contând doar sub 30 de cazuri",
+            "Eroarea iese puțin prea mică, deci Z iese puțin prea mic",
+            "Eroarea iese puțin prea mică, deci Z iese puțin prea mare"
+          ],
+          "correct": 3,
+          "explain": "Abaterea standard calculată cu n subestimează σ; împărțind varianța la n în loc de n − 1, eroarea standard a diferenței iese mai mică, iar Z — care are eroarea la numitor — iese mai mare decât ar trebui. Cu 36 de cazuri efectul e mic, dar există; corecția se aplică la orice n. Un numitor mai mic nu poate micșora raportul.",
+          "tag": "Corecția pentru distorsiune",
+          "tip": "principiu"
+        },
+        {
+          "q": "Un terapeut măsoară anxietatea a 45 de pacienți înainte și după 10 ședințe și vrea să compare cele două medii cu testul Z pentru două medii. De ce nu este potrivit testul?",
+          "opts": [
+            "Seriile au doar 45 de scoruri, prea puține pentru distribuția Z",
+            "Scorurile de după depind de ale acelorași persoane de dinainte",
+            "Anxietatea se măsoară la nivel ordinal, nu la nivel de interval",
+            "Testul Z presupune că cele două medii sunt egale de la început"
+          ],
+          "correct": 1,
+          "explain": "Testele din capitol cer eșantioane independente; înainte/după pe aceleași persoane e exemplul dat explicit de situație dependentă. 45 de scoruri pe serie depășesc pragul de 30. Nivelul de măsură al unui scor de anxietate standardizat e tratat obișnuit ca interval. Egalitatea mediilor e ipoteza testată, nu o condiție a testului.",
+          "tag": "Eșantioane dependente",
+          "tip": "design"
+        },
+        {
+          "q": "Comparând două grupuri de câte 80 de angajați, o psihologă obține Z = 2,40 la un test bilateral, dar a stabilit dinainte α = 0,01. Ce decide?",
+          "opts": [
+            "Respinge H0, fiindcă 2,40 depășește 1,96",
+            "Respinge H0, fiindcă 2,40 depășește 2,33",
+            "Nu respinge H0, fiindcă 2,40 nu depășește 2,58",
+            "Nu respinge H0, fiindcă 2,40 nu depășește 3,00"
+          ],
+          "correct": 2,
+          "explain": "La α = 0,01 bilateral, pragurile sunt ±2,58, pe care 2,40 nu le atinge. 1,96 e pragul pentru α = 0,05, care nu mai e cel stabilit. 2,33 e pragul unilateral pentru α = 0,01. 3,00 nu corespunde niciunui α obișnuit; decizia e aceeași, dar motivul e greșit.",
+          "tag": "Decizia la testul Z",
+          "tip": "regula"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "eticheta": "Runda 3 · Aplicații",
+      "titlu": "Runda 3 — Scenarii și raționament",
+      "desc": "Situații cu mai mulți pași: alegi testul, calculezi, decizi și interpretezi.",
+      "intrebari": [
+        {
+          "q": "Un cercetător compară la un test de rezolvare de probleme 324 de bărbați (media 62, s = 13) cu 317 femei (media 65, s = 14), fără să prezică un sens; α = 0,05. Ce obține și ce poate conchide?",
+          "opts": [
+            "Z ≈ −2,81: populațiile nu diferă, Z fiind sub +1,96",
+            "Z ≈ −0,22: populațiile nu diferă, diferența e sub un s",
+            "Z ≈ −2,81: populațiile diferă mult, Z trecând de 2,58",
+            "Z ≈ −2,81: populațiile diferă la rezolvarea de probleme"
+          ],
+          "correct": 3,
+          "explain": "Eroarea standard a diferenței e √(169/323 + 196/316) ≈ √1,14 ≈ 1,07, deci Z = −3/1,07 ≈ −2,81, dincolo de −1,96: H0 se respinge (cartea tipărește −2,63, împărțind la 1,14 fără radical; decizia e aceeași). Compararea doar cu +1,96 ignoră coada stângă a testului bilateral. Raportarea diferenței la s ≈ 13,5 (dispersia scorurilor) în loc de eroarea standard dă −0,22. Pragul 2,58 spune doar că rezultatul e semnificativ și la 0,01, nu cât de mare e diferența.",
+          "tag": "Exemplul rezolvării de probleme",
+          "tip": "calcul",
+          "exemplu_nou": false
+        },
+        {
+          "q": "Un cercetător crede că o metodă modernă de predare a matematicii dă rezultate mai bune. După un an, 12 elevi învățați modern au media 8,80 (s = 1,70), iar 13 elevi învățați tradițional au media 8,20 (s = 1,20); α = 0,05. Eroarea standard combinată iese aproximativ 0,61. Ce decizie e corect fundamentată?",
+          "opts": [
+            "t ≈ 0,98, sub pragul bilateral 2,069 cu 23 gl: nu se respinge H0",
+            "t ≈ 0,98, sub pragul unilateral 1,714 cu 23 gl: nu se respinge H0",
+            "t ≈ 0,98, sub pragul 1,96 al distribuției Z: nu se respinge H0",
+            "t ≈ 0,98, sub pragul unilateral 1,711 cu 24 gl: nu se respinge H0"
+          ],
+          "correct": 1,
+          "explain": "t = (8,80 − 8,20)/0,61 ≈ 0,98. Predicția are un sens (metoda modernă mai bună), deci testul e unilateral; grupurile mici cer distribuția t cu n1 + n2 − 2 = 23 gl, cu pragul 1,714. Toate variantele ajung la aceeași decizie, dar doar una o întemeiază corect: 2,069 e pragul bilateral, 1,96 aparține distribuției Z (pentru eșantioane mari), iar 24 gl aplică n − 1 totalului. În carte, t e tipărit 0,31, pentru că 1,52 și 0,40 au fost adunate în loc să fie înmulțite.",
+          "tag": "Exemplul metodei de predare",
+          "tip": "test",
+          "exemplu_nou": false
+        },
+        {
+          "q": "Se întreabă 83 de studenți de la Universitatea A și 103 de la Universitatea B dacă sunt de acord cu o anumită interdicție; de acord sunt 0,34 în A și 0,25 în B. Testul e bilateral, cu α = 0,05. Ce rezultă?",
+          "opts": [
+            "P̂ ≈ 0,29, Z ≈ 1,34: nu se poate conchide că studenții diferă",
+            "P̂ ≈ 0,29, Z ≈ 1,34: studenții celor două universități gândesc la fel",
+            "P̂ ≈ 0,29, Z ≈ 1,34: diferența e semnificativă, trecând de 1,28",
+            "P̂ ≈ 0,295, media simplă, Z ≈ 1,34: nu se respinge ipoteza de nul"
+          ],
+          "correct": 0,
+          "explain": "P̂ = (83·0,34 + 103·0,25)/186 ≈ 0,29; numitorul √(0,29·0,71)·√(186/(83·103)) ≈ 0,067, deci Z ≈ 0,09/0,067 ≈ 1,34 (cartea, rotunjind la 0,07, obține 1,29), sub 1,96: H0 nu se respinge. Nerespingerea nu dovedește că opiniile coincid. 1,28 e pragul unilateral pentru α = 0,10, alt test. Media simplă 0,295 ignoră mărimile diferite ale eșantioanelor, chiar dacă aici decizia nu se schimbă.",
+          "tag": "Exemplul universităților",
+          "tip": "calcul",
+          "exemplu_nou": false
+        },
+        {
+          "q": "O cercetătoare prezice că elevii care fac sport (grupul 1) au timpi de reacție mai mici decât elevii sedentari (grupul 2). Obține X̄1 − X̄2 = −15 ms și Z = −2,10 (unilateral, α = 0,05). Colegul ei reface analiza punând sedentarii ca grup 1. Ce obține el?",
+          "opts": [
+            "Z = −2,10 cu Ha: μ1 < μ2; respinge H0, ca și ea",
+            "Z = +2,10 cu Ha: μ1 < μ2; nu respinge H0, Z fiind pozitiv",
+            "Z = +2,10 cu Ha: μ1 > μ2; respinge H0, ca și ea",
+            "Z = +2,10 cu Ha: μ1 > μ2; nu respinge H0, pragul fiind −1,65"
+          ],
+          "correct": 2,
+          "explain": "Inversarea grupurilor schimbă semnul diferenței (+15 ms) și al lui Z (+2,10); aceeași predicție — sedentarii mai lenți — se scrie acum Ha: μ1 > μ2, cu zona critică în dreapta, peste +1,65. Concluzia rămâne aceeași. (Interpretare: numerotarea grupurilor e o convenție; contează ca Ha să urmeze predicția.) Păstrarea vechii Ha cu noua ordine pune zona critică în coada greșită, iar pragul −1,65 aparține formei vechi.",
+          "tag": "Ordinea grupurilor",
+          "tip": "ipoteza",
+          "exemplu_nou": true
+        },
+        {
+          "q": "Un psiholog compară scorul de stres (scală de interval) al 32 de asistente din ATI cu al 24 de asistente din pediatrie; abaterile standard ale populațiilor nu se cunosc. Colegul lui propune testul Z, „pentru că avem 56 de persoane”. Ce e corect?",
+          "opts": [
+            "Testul Z, fiindcă grupul mare compensează grupul mic",
+            "Testul t, cu 54 gl, fiindcă un grup are sub 30 de cazuri",
+            "Testul t, cu 23 gl, stabilite după grupul cel mai mic",
+            "Testul Z, dar cu pragul 2,58 în loc de 1,96 la α = 0,05"
+          ],
+          "correct": 1,
+          "explain": "Distribuția Z cere ca ambele eșantioane să aibă cel puțin 30 de cazuri; dacă n1 sau n2 e sub 30, se folosește t, cu n1 + n2 − 2 = 32 + 24 − 2 = 54 gl. Totalul nu contează, iar grupul mare nu „repară” estimarea din cel mic. 23 gl ar fi n − 1 pentru un singur grup. Un prag mai strict schimbă α, nu distribuția potrivită.",
+          "tag": "Când se folosește t",
+          "tip": "test",
+          "exemplu_nou": true
+        },
+        {
+          "q": "Doi cercetători compară câte două grupuri mici cu testul t. Primul are grupuri de 13 și 15 participanți, al doilea de 6 și 24. Pentru care e mai ușor de admis, practic, supoziția pe care o cere testul t și ce supoziție e aceasta?",
+          "opts": [
+            "Pentru al doilea: populații egal dispersate, σ1 = σ2",
+            "Pentru primul: populații egal dispersate, σ1 = σ2",
+            "Pentru primul: populații cu medii egale, μ1 = μ2",
+            "Pentru al doilea: eșantioane cu total de cel puțin 30"
+          ],
+          "correct": 1,
+          "explain": "Testul t pentru două medii presupune populații egal dispersate (σ1 = σ2). Egalitatea se poate testa formal, dar practic se consideră satisfăcută când eșantioanele au dimensiuni apropiate — 13 și 15, nu 6 și 24. μ1 = μ2 e ipoteza de nul, pe care o testăm, nu o supoziție. Un total de 30 nu e o condiție a testului t.",
+          "tag": "Supoziția σ1 = σ2",
+          "tip": "principiu",
+          "exemplu_nou": true
+        },
+        {
+          "q": "Un program de mindfulness e evaluat pe 50 de angajați participanți (stres mediu 22,4, s = 6) și 50 de neparticipanți (stres mediu 25,0, s = 8). Ipoteza: participanții au stres mai mic; α = 0,05. Ce rezultă?",
+          "opts": [
+            "Z ≈ −1,82; nu se respinge H0, fiind peste −1,96",
+            "Z ≈ −1,30; nu se respinge H0, fiind peste −1,65",
+            "Z ≈ −0,37; nu se respinge H0, diferența fiind mică",
+            "Z ≈ −1,82; se respinge H0, fiind dincolo de −1,65"
+          ],
+          "correct": 3,
+          "explain": "Eroarea standard e √(36/49 + 64/49) = 10/7 ≈ 1,43, iar Z = −2,6/1,43 ≈ −1,82. Predicția are sens, deci testul e unilateral stânga, cu pragul −1,65, depășit. −1,96 ar fi pragul bilateral. −1,30 vine din adunarea abaterilor standard (6/7 + 8/7 = 2), nu a varianțelor. −0,37 raportează diferența la dispersia scorurilor (s ≈ 7), nu la eroarea standard a diferenței.",
+          "tag": "Calculul lui Z pentru două medii",
+          "tip": "calcul",
+          "exemplu_nou": true
+        },
+        {
+          "q": "Într-un spital, 45 din 150 de pacienți care au primit informare preoperatorie raportează anxietate mare (0,30), față de 60 din 150 de pacienți fără informare (0,40). Testul e bilateral, cu α = 0,05. Ce rezultă?",
+          "opts": [
+            "P̂ = 0,35; Z ≈ −1,82: se respinge H0, fiind dincolo de −1,65",
+            "P̂ = 0,35; Z ≈ −1,82: nu se respinge H0 la testul bilateral",
+            "P̂ = 0,35; Z ≈ −0,21: nu se respinge H0, diferența fiind mică",
+            "P̂ = 0,35; Z ≈ −1,82: nu se respinge H0, informarea n-are efect"
+          ],
+          "correct": 1,
+          "explain": "P̂ = 105/300 = 0,35; numitorul √(0,35·0,65)·√(300/22 500) ≈ 0,055; Z = −0,10/0,055 ≈ −1,82, între ±1,96. −1,65 e pragul unilateral, dar testul a fost stabilit bilateral. −0,21 uită factorul √((n1 + n2)/(n1·n2)), care ține de mărimea eșantioanelor. Nerespingerea lui H0 nu arată că informarea nu are efect, doar că datele nu sunt suficiente pentru a o afirma.",
+          "tag": "Calculul lui Z pentru două proporții",
+          "tip": "calcul",
+          "exemplu_nou": true
+        },
+        {
+          "q": "Un cercetător compară procentul studenților care citesc zilnic: 0,60 la Litere (40 de studenți) și 0,30 la Politehnică (160 de studenți). La numitor folosește P̂ = 0,45, media celor două proporții. Ce ar trebui să facă?",
+          "opts": [
+            "Să pondereze cu mărimile eșantioanelor: P̂ = 0,36",
+            "Să ia diferența proporțiilor, P̂ = 0,30, ca sub H0",
+            "Să ia P̂ = 0,50, varianta cea mai prudentă posibilă",
+            "Să pondereze invers cu mărimile: P̂ = 0,54, mai precis"
+          ],
+          "correct": 0,
+          "explain": "Sub H0 cele două populații au aceeași proporție, estimată din toate datele: P̂ = (40·0,60 + 160·0,30)/200 = 72/200 = 0,36 — mai aproape de Politehnică, care are mai mulți studenți. Diferența proporțiilor merge la numărător, nu în P̂. P = 0,50 e alegerea prudentă la intervalele de încredere fără o estimare (Cap. 7 (Proceduri de estimare statistică)), nu aici, unde avem date. Ponderarea inversă dă grupului mic greutatea celui mare.",
+          "tag": "Estimarea combinată a proporției",
+          "tip": "calcul",
+          "exemplu_nou": true
+        },
+        {
+          "q": "O cercetătoare formează 35 de perechi de gemeni: un geamăn din fiecare pereche urmează un program de lectură rapidă, celălalt nu. Apoi compară viteza medie de citire a celor 35 care au urmat programul cu a celor 35 care nu l-au urmat, prin testul Z pentru două medii. Ce problemă are analiza?",
+          "opts": [
+            "Grupurile nu sunt independente: fiecare geamăn are pereche în celălalt",
+            "Grupurile au aceeași mărime, deci trebuia folosit testul t în loc de Z",
+            "Viteza de citire e ordinală, deci mediile nu au sens la acest nivel",
+            "Gemenii au σ egale, deci trebuia folosit testul pentru proporții"
+          ],
+          "correct": 0,
+          "explain": "Alegerea unui geamăn în grupul cu program determină cine ajunge în celălalt grup, iar gemenii seamănă între ei: eșantioanele sunt dependente, ca la măsurătorile înainte/după, iar testele din capitol nu se aplică. Mărimea egală a grupurilor nu cere t (35 ≥ 30). Viteza de citire (cuvinte pe minut) e de raport. Egalitatea dispersiilor e o supoziție a testului t, nu un motiv pentru proporții.",
+          "tag": "Eșantioane dependente",
+          "tip": "design",
+          "exemplu_nou": true
+        },
+        {
+          "q": "Două studii despre satisfacția în muncă găsesc aceeași diferență de 2 puncte între bărbați și femei, cu s ≈ 10 în fiecare grup. Studiul A are 50 + 50 de participanți, studiul B are 500 + 500. Test bilateral, α = 0,05. Ce rezultă?",
+          "opts": [
+            "A și B: Z ≈ 0,20, nesemnificativ, diferența fiind 0,2 s",
+            "A: Z ≈ 0,99, nesemnificativ; B: Z ≈ 9,90, semnificativ",
+            "A: Z ≈ 0,99, nesemnificativ; B: Z ≈ 3,16, semnificativ",
+            "A și B: Z ≈ 0,99, fiindcă diferența și s sunt aceleași"
+          ],
+          "correct": 2,
+          "explain": "Eroarea standard a diferenței scade cu √n: la A, √(100/49 + 100/49) ≈ 2,02 (Z ≈ 0,99); la B, √(100/499 + 100/499) ≈ 0,63 (Z ≈ 3,16). De zece ori mai mulți participanți micșorează eroarea de circa √10 ≈ 3,2 ori, nu de 10 ori. 0,20 raportează diferența la s, nu la eroarea standard. Aceeași diferență poate fi nesemnificativă cu eșantioane mici și semnificativă cu eșantioane mari.",
+          "tag": "Mărimea eșantioanelor și semnificația",
+          "tip": "regula",
+          "exemplu_nou": true
+        },
+        {
+          "q": "Un studiu compară două terapii pe câte 10 pacienți: noua terapie are scorul mediu de simptome 14, cea standard 18. Rădăcina √[(n1·s1² + n2·s2²)/(n1 + n2 − 2)] iese 5. Ipoteza: noua terapie reduce simptomele; α = 0,05. Ce rezultă?",
+          "opts": [
+            "t ≈ −1,79, între ±2,101 (18 gl): nu se respinge H0",
+            "t ≈ −0,80, peste −1,734 (18 gl): nu se respinge H0",
+            "t ≈ −1,79, peste −1,833 (9 gl): nu se respinge H0",
+            "t ≈ −1,79, dincolo de −1,734 (18 gl): se respinge H0"
+          ],
+          "correct": 3,
+          "explain": "Eroarea standard combinată e 5·√((10 + 10)/(10·10)) = 5·0,447 ≈ 2,24, iar t = −4/2,24 ≈ −1,79. Testul e unilateral stânga (predicție de sens), cu 18 gl și pragul −1,734, depășit. ±2,101 sunt pragurile bilaterale. −0,80 împarte doar la 5, fără factorul care ține de n. 9 gl aplică n − 1 unui singur grup.",
+          "tag": "Eroarea standard combinată",
+          "tip": "calcul",
+          "exemplu_nou": true
+        },
+        {
+          "q": "O psihologă știe că media națională la un test de memorie este 100. Întâi compară 40 de vârstnici activi fizic cu media națională, apoi îi compară pe aceiași 40 cu 40 de vârstnici sedentari, testați și ei. Ce tip de test cere fiecare comparație?",
+          "opts": [
+            "Amândouă, diferența a două medii, media națională fiind a doua medie",
+            "Prima, diferența a două medii; a doua, diferența a două proporții",
+            "Prima, o populație față de o valoare; a doua, diferența a două medii",
+            "Amândouă, o populație, media sedentarilor devenind valoarea fixă"
+          ],
+          "correct": 2,
+          "explain": "Media națională e o valoare cunoscută, fără eroare de eșantionare, deci prima comparație e testul pentru o singură populație din Cap. 8 (Testarea ipotezelor despre o singură populație). A doua compară două eșantioane, fiecare cu eroarea lui, deci intră în numitor amândouă — testul pentru diferența dintre două medii. A trata media sedentarilor ca valoare fixă ar ignora eroarea ei de eșantionare. Scorurile de memorie se compară prin medii, nu prin proporții.",
+          "tag": "Problema centrală",
+          "tip": "test",
+          "exemplu_nou": true
+        },
+        {
+          "q": "Un sondaj găsește că declară că fac sport săptămânal 0,45 din 200 de femei și 0,38 din 25 de bărbați. Cercetătorul vrea să aplice testul Z pentru diferența dintre două proporții. Ce poate face?",
+          "opts": [
+            "Îl poate aplica: totalul de 225 de cazuri trece de prag",
+            "Îl poate aplica, folosind t cu 223 gl în loc de Z",
+            "Nu-l poate aplica: eșantionul de bărbați are sub 30 de cazuri",
+            "Îl poate aplica, dacă ia P̂ = 0,50 ca estimare prudentă"
+          ],
+          "correct": 2,
+          "explain": "Testul Z pentru două proporții cere ca ambele eșantioane să fie mari (n1 ≥ 30 și n2 ≥ 30); 25 de bărbați nu ajung. Condiția privește fiecare eșantion, nu totalul. Distribuția t cu n1 + n2 − 2 gl e pentru medii, nu pentru proporții. Schimbarea lui P̂ nu rezolvă problema eșantionului mic.",
+          "tag": "Condițiile testului pentru proporții",
+          "tip": "regula",
+          "exemplu_nou": true
+        },
+        {
+          "q": "Un cercetător alcătuiește un eșantion aleatoriu de 400 de angajați dintr-o firmă și îl împarte după tipul de contract: 230 permanenți și 170 temporari. Vrea să compare satisfacția medie a celor două grupuri. Poate aplica testul pentru eșantioane independente?",
+          "opts": [
+            "Da: contractul unuia nu decide cine intră în celălalt grup",
+            "Nu: provenind din același eșantion, grupurile sunt dependente",
+            "Nu: grupurile ar trebui formate prin repartizare aleatorie",
+            "Da, dar doar cu testul t, grupurile nefiind extrase separat"
+          ],
+          "correct": 0,
+          "explain": "Ca în exemplul cu bărbați și femei (un singur eșantion, împărțit apoi după sex), fiecare angajat intră într-un singur grup, iar apartenența lui nu influențează cine ajunge în celălalt: grupurile sunt independente. Dependența ar apărea dacă aceleași persoane ar fi măsurate de două ori sau dacă ar exista perechi. Repartizarea aleatorie ține de experiment, nu de independența eșantioanelor. Cu 230 și 170 de cazuri, distribuția potrivită e Z.",
+          "tag": "Eșantioane independente",
+          "tip": "design",
+          "exemplu_nou": true
+        }
+      ],
+      "ascunse": [
+        {
+          "q": "Se compară epuizarea profesională a 61 de profesori din mediul urban (media 34, s = 12) cu a 65 de profesori din mediul rural (media 30, s = 16), fără a prezice un sens; α = 0,05. Ce rezultă?",
+          "opts": [
+            "Z ≈ 0,63: nu se respinge H0 la 95%",
+            "Z ≈ 1,58: nu se respinge H0 la 95%",
+            "Z ≈ 1,13: nu se respinge H0 la 95%",
+            "Z ≈ 1,58: se respinge H0 la 90%, deci și la 95%"
+          ],
+          "correct": 1,
+          "explain": "Eroarea standard e √(144/60 + 256/64) = √6,4 ≈ 2,53, deci Z = 4/2,53 ≈ 1,58, sub 1,96. 0,63 împarte la 6,4, varianța, fără radical. 1,13 adună erorile standard (1,55 + 2,00) în loc de varianțe. Respingerea la 90% (prag 1,65) nici nu are loc, iar raționamentul e inversat: ce trece de un prag mai strict trece și de unul mai lejer, nu invers.",
+          "tag": "Calculul lui Z pentru două medii",
+          "tip": "calcul",
+          "exemplu_nou": true
+        },
+        {
+          "q": "Comparând timpul de studiu al 9 studenți la psihologie cu al 11 studenți la sociologie, un cercetător obține t = 2,05 la un test bilateral cu α = 0,05. Ce decide?",
+          "opts": [
+            "Respinge H0: 2,05 e peste 1,96, pragul distribuției Z",
+            "Respinge H0: 2,05 e peste 1,734, pragul pentru 18 gl",
+            "Nu respinge H0: 2,05 e sub 2,101, pragul pentru 18 gl",
+            "Nu respinge H0: 2,05 e sub 2,306, pragul pentru 8 gl"
+          ],
+          "correct": 2,
+          "explain": "Cu grupuri mici, distribuția e t cu 9 + 11 − 2 = 18 gl; pragul bilateral la 0,05 e 2,101, deci H0 nu se respinge. 1,96 aparține distribuției Z, prea „îngăduitoare” la eșantioane mici. 1,734 e pragul unilateral. 8 gl ar veni din n − 1 pentru grupul mic; decizia coincide, dar pragul e greșit.",
+          "tag": "Grade de libertate n1 + n2 − 2",
+          "tip": "test",
+          "exemplu_nou": true
+        },
+        {
+          "q": "Într-o firmă, 30 din 60 de angajați din vânzări (0,50) și 20 din 80 de angajați din IT (0,25) se declară epuizați. Testul e bilateral, cu α = 0,05. Ce rezultă?",
+          "opts": [
+            "P̂ ≈ 0,36; Z ≈ 3,05: se respinge H0",
+            "P̂ = 0,375, media simplă; Z ≈ 3,02: se respinge H0",
+            "P̂ ≈ 0,36; Z ≈ 0,52: nu se respinge H0",
+            "P̂ = 0,25, diferența; Z ≈ 3,38: se respinge H0"
+          ],
+          "correct": 0,
+          "explain": "P̂ = 50/140 ≈ 0,36; numitorul √(0,36·0,64)·√(140/4800) ≈ 0,082; Z = 0,25/0,082 ≈ 3,05, peste 1,96. Media simplă 0,375 ignoră mărimile diferite ale grupurilor. 0,52 uită factorul √((n1 + n2)/(n1·n2)). Diferența proporțiilor merge la numărător, nu în estimarea combinată.",
+          "tag": "Calculul lui Z pentru două proporții",
+          "tip": "calcul",
+          "exemplu_nou": true
+        },
+        {
+          "q": "Mediile a două grupuri au fiecare o eroare standard de 2 puncte. Un student spune că diferența dintre medii va avea eroarea standard zero, pentru că erorile egale „se anulează”. Cât este, de fapt?",
+          "opts": [
+            "√(2² + 2²) ≈ 2,83: incertitudinile se cumulează",
+            "2 + 2 = 4: abaterile standard se adună direct",
+            "2: grupurile au aceeași eroare, deci rămâne 2",
+            "0: are dreptate, erorile egale se compensează"
+          ],
+          "correct": 0,
+          "explain": "Fiecare medie poate devia independent în sus sau în jos, deci diferența lor variază mai mult decât fiecare medie: se adună varianțele, σ²(X̄1 − X̄2) = 4 + 4 = 8, iar eroarea e √8 ≈ 2,83. Adunarea abaterilor standard (4) supraestimează eroarea. Erorile s-ar anula doar dacă mediile ar devia mereu împreună — ceea ce ar însemna eșantioane dependente.",
+          "tag": "Eroarea standard a diferenței",
+          "tip": "principiu",
+          "exemplu_nou": true
+        },
+        {
+          "q": "Se prezice că studenții la psihologie (grupul 1) fac mai des voluntariat decât cei la drept (grupul 2); câte 120 de studenți în fiecare eșantion. Testul diferenței dintre proporții dă Z = 1,80, cu α = 0,05. Ce decide cercetătorul?",
+          "opts": [
+            "Nu respinge H0: 1,80 nu depășește pragul 1,96",
+            "Nu respinge H0: la proporții se folosește t, cu 2,02",
+            "Respinge H0: 1,80 depășește pragul unilateral 1,28",
+            "Respinge H0: 1,80 depășește pragul unilateral 1,65"
+          ],
+          "correct": 3,
+          "explain": "Predicția de sens dă Ha: P1 > P2 și un test unilateral dreapta, cu pragul 1,65 la α = 0,05; 1,80 îl depășește. 1,96 e pragul bilateral, potrivit doar fără predicție. La proporții cu eșantioane mari se folosește Z, nu t. 1,28 e pragul unilateral pentru α = 0,10.",
+          "tag": "Ha unilaterală",
+          "tip": "regula",
+          "exemplu_nou": true
+        }
+      ]
+    }
+  ],
+  "harta": {
+    "centru": "Testarea ipotezelor despre diferențele dintre două populații",
+    "ramuri": [
+      {
+        "titlu": "Eșantioane independente și problema centrală",
+        "noduri": [
+          {
+            "t": "Problema centrală",
+            "d": "Diferența dintre două eșantioane e destul de mare pentru a conchide, cu o probabilitate de eroare cunoscută, că populațiile pe care le reprezintă diferă? Diferența se judecă raportată la eroarea standard a diferenței, nu la dispersia scorurilor. Spre deosebire de Cap. 8 (Testarea ipotezelor despre o singură populație), ambele medii au eroare de eșantionare."
+          },
+          {
+            "t": "Eșantioane independente",
+            "d": "Selectarea cazurilor pentru un eșantion nu influențează selectarea pentru celălalt. Ex. din carte: un eșantion aleatoriu împărțit apoi după sex (bărbați/femei); elevi repartizați aleatoriu în două clase."
+          },
+          {
+            "t": "Eșantioane dependente",
+            "d": "Aceiași subiecți testați înainte și după un tratament, sau perechi legate (interpretare: gemeni, soț–soție). Testele din această unitate nu se aplică."
+          }
+        ]
+      },
+      {
+        "titlu": "Ipotezele pentru două populații",
+        "noduri": [
+          {
+            "t": "H0 pentru două populații",
+            "d": "Enunț de tipul „nicio diferență” despre populații: H0: μ1 = μ2 (μ1 − μ2 = 0), iar pentru proporții H0: P1 = P2. Mediile eșantioanelor sunt cunoscute; ipoteza privește parametrii."
+          },
+          {
+            "t": "Ha bilaterală",
+            "d": "Ha: μ1 ≠ μ2, fără sens prezis; zona critică e împărțită în ambele extremități (câte α/2), de unde ±1,96 la α = 0,05."
+          },
+          {
+            "t": "Ha unilaterală",
+            "d": "Ha: μ1 > μ2 — toată zona critică în extremitatea dreaptă (+1,65 la α = 0,05); Ha: μ1 < μ2 — toată în stânga (−1,65). Cartea scrie, din scăpare, „ipoteza de nul poate lua una dintre formele…” — e vorba de ipoteza alternativă."
+          },
+          {
+            "t": "Ordinea grupurilor",
+            "d": "Interpretare: care grup e „1” e o convenție. Inversarea grupurilor schimbă semnul lui X̄1 − X̄2 și al lui Z și, odată cu el, forma lui Ha (> devine <); concluzia rămâne aceeași."
+          }
+        ],
+        "figuri": [
+          {
+            "titlu": "Unde stă zona critică",
+            "nota": "Forma lui Ha decide zona critică: bilateral, câte 0,025 în fiecare extremitate; unilateral, tot α într-o singură extremitate, cea prezisă.",
+            "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 300\" role=\"img\" aria-label=\"Zona critică pentru Ha bilaterală, unilaterală dreapta și unilaterală stânga\" font-family=\"Georgia, serif\" font-size=\"13\"><text x=\"160.0\" y=\"20.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.8\">Ha: μ1 ≠ μ2 (bilateral)</text><path d=\"M30.0,74.0 L30.0,73.9 L30.7,73.9 L31.4,73.9 L32.2,73.9 L32.9,73.9 L33.6,73.9 L34.3,73.9 L35.1,73.9 L35.8,73.9 L36.5,73.9 L37.2,73.9 L37.9,73.9 L38.7,73.8 L39.4,73.8 L40.1,73.8 L40.8,73.8 L41.6,73.8 L42.3,73.8 L43.0,73.8 L43.7,73.8 L44.4,73.7 L45.2,73.7 L45.9,73.7 L46.6,73.7 L47.3,73.7 L48.1,73.6 L48.8,73.6 L49.5,73.6 L50.2,73.6 L50.9,73.5 L51.7,73.5 L52.4,73.5 L53.1,73.5 L53.8,73.4 L54.6,73.4 L55.3,73.3 L56.0,73.3 L56.7,73.3 L57.4,73.2 L58.2,73.2 L58.9,73.1 L59.6,73.1 L60.3,73.0 L61.1,73.0 L61.8,72.9 L62.5,72.9 L63.2,72.8 L63.9,72.7 L64.7,72.7 L65.4,72.6 L66.1,72.5 L66.8,72.4 L67.6,72.4 L68.3,72.3 L69.0,72.2 L69.7,72.1 L70.4,72.0 L71.2,71.9 L71.9,71.8 L72.6,71.7 L73.3,71.5 L74.1,71.4 L74.8,71.3 L75.5,71.2 L76.2,71.0 L76.9,70.9 L77.7,70.8 L78.4,70.6 L79.1,70.4 L79.8,70.3 L80.6,70.1 L81.3,69.9 L82.0,69.8 L82.7,69.6 L83.4,69.4 L84.2,69.2 L84.9,69.0 L85.6,68.8 L86.3,68.5 L87.1,68.3 L87.8,68.1 L88.5,67.8 L89.2,67.6 L89.2,74.0 Z\" fill=\"#b5453a\" fill-opacity=\"0.35\" stroke=\"none\"/><path d=\"M230.8,74.0 L230.8,67.6 L231.5,67.8 L232.2,68.1 L232.9,68.3 L233.7,68.5 L234.4,68.8 L235.1,69.0 L235.8,69.2 L236.6,69.4 L237.3,69.6 L238.0,69.8 L238.7,69.9 L239.4,70.1 L240.2,70.3 L240.9,70.4 L241.6,70.6 L242.3,70.8 L243.1,70.9 L243.8,71.0 L244.5,71.2 L245.2,71.3 L245.9,71.4 L246.7,71.5 L247.4,71.7 L248.1,71.8 L248.8,71.9 L249.6,72.0 L250.3,72.1 L251.0,72.2 L251.7,72.3 L252.4,72.4 L253.2,72.4 L253.9,72.5 L254.6,72.6 L255.3,72.7 L256.1,72.7 L256.8,72.8 L257.5,72.9 L258.2,72.9 L258.9,73.0 L259.7,73.0 L260.4,73.1 L261.1,73.1 L261.8,73.2 L262.6,73.2 L263.3,73.3 L264.0,73.3 L264.7,73.3 L265.4,73.4 L266.2,73.4 L266.9,73.5 L267.6,73.5 L268.3,73.5 L269.1,73.5 L269.8,73.6 L270.5,73.6 L271.2,73.6 L271.9,73.6 L272.7,73.7 L273.4,73.7 L274.1,73.7 L274.8,73.7 L275.6,73.7 L276.3,73.8 L277.0,73.8 L277.7,73.8 L278.4,73.8 L279.2,73.8 L279.9,73.8 L280.6,73.8 L281.3,73.8 L282.1,73.9 L282.8,73.9 L283.5,73.9 L284.2,73.9 L284.9,73.9 L285.7,73.9 L286.4,73.9 L287.1,73.9 L287.8,73.9 L288.6,73.9 L289.3,73.9 L290.0,73.9 L290.0,74.0 Z\" fill=\"#b5453a\" fill-opacity=\"0.35\" stroke=\"none\"/><polyline points=\"30.0,73.9 31.8,73.9 33.6,73.9 35.4,73.9 37.2,73.9 39.0,73.8 40.8,73.8 42.6,73.8 44.4,73.7 46.2,73.7 48.1,73.6 49.9,73.6 51.7,73.5 53.5,73.4 55.3,73.3 57.1,73.2 58.9,73.1 60.7,73.0 62.5,72.9 64.3,72.7 66.1,72.5 67.9,72.3 69.7,72.1 71.5,71.8 73.3,71.5 75.1,71.2 76.9,70.9 78.7,70.5 80.6,70.1 82.4,69.7 84.2,69.2 86.0,68.7 87.8,68.1 89.6,67.5 91.4,66.8 93.2,66.1 95.0,65.4 96.8,64.6 98.6,63.7 100.4,62.8 102.2,61.9 104.0,60.9 105.8,59.8 107.6,58.7 109.4,57.6 111.2,56.4 113.1,55.2 114.9,54.0 116.7,52.7 118.5,51.4 120.3,50.1 122.1,48.8 123.9,47.5 125.7,46.2 127.5,44.9 129.3,43.6 131.1,42.3 132.9,41.0 134.7,39.8 136.5,38.6 138.3,37.5 140.1,36.4 141.9,35.4 143.7,34.5 145.6,33.7 147.4,32.9 149.2,32.2 151.0,31.7 152.8,31.2 154.6,30.8 156.4,30.5 158.2,30.4 160.0,30.3 161.8,30.4 163.6,30.5 165.4,30.8 167.2,31.2 169.0,31.7 170.8,32.2 172.6,32.9 174.4,33.7 176.2,34.5 178.1,35.4 179.9,36.4 181.7,37.5 183.5,38.6 185.3,39.8 187.1,41.0 188.9,42.3 190.7,43.6 192.5,44.9 194.3,46.2 196.1,47.5 197.9,48.8 199.7,50.1 201.5,51.4 203.3,52.7 205.1,54.0 206.9,55.2 208.7,56.4 210.6,57.6 212.4,58.7 214.2,59.8 216.0,60.9 217.8,61.9 219.6,62.8 221.4,63.7 223.2,64.6 225.0,65.4 226.8,66.1 228.6,66.8 230.4,67.5 232.2,68.1 234.0,68.7 235.8,69.2 237.6,69.7 239.4,70.1 241.2,70.5 243.1,70.9 244.9,71.2 246.7,71.5 248.5,71.8 250.3,72.1 252.1,72.3 253.9,72.5 255.7,72.7 257.5,72.9 259.3,73.0 261.1,73.1 262.9,73.2 264.7,73.3 266.5,73.4 268.3,73.5 270.1,73.6 271.9,73.6 273.7,73.7 275.6,73.7 277.4,73.8 279.2,73.8 281.0,73.8 282.8,73.9 284.6,73.9 286.4,73.9 288.2,73.9 290.0,73.9\" fill=\"none\" stroke=\"#2a78d6\" stroke-width=\"1.8\"/><line x1=\"30.0\" y1=\"74.0\" x2=\"290.0\" y2=\"74.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><line x1=\"89.2\" y1=\"74.0\" x2=\"89.2\" y2=\"78.0\" stroke=\"#2c2a26\" stroke-width=\"1\"/><text x=\"89.2\" y=\"89.0\" text-anchor=\"middle\" fill=\"#b5453a\" font-size=\"10.2\">−1,96</text><line x1=\"230.8\" y1=\"74.0\" x2=\"230.8\" y2=\"78.0\" stroke=\"#2c2a26\" stroke-width=\"1\"/><text x=\"230.8\" y=\"89.0\" text-anchor=\"middle\" fill=\"#b5453a\" font-size=\"10.2\">+1,96</text><text x=\"160.0\" y=\"89.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">0</text><text x=\"160.0\" y=\"112.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.8\">Ha: μ1 &gt; μ2 (unilateral dreapta)</text><path d=\"M219.6,166.0 L219.6,154.8 L220.3,155.2 L221.0,155.5 L221.8,155.9 L222.5,156.2 L223.2,156.6 L223.9,156.9 L224.6,157.2 L225.4,157.5 L226.1,157.8 L226.8,158.1 L227.5,158.4 L228.2,158.7 L229.0,158.9 L229.7,159.2 L230.4,159.5 L231.1,159.7 L231.9,160.0 L232.6,160.2 L233.3,160.4 L234.0,160.7 L234.8,160.9 L235.5,161.1 L236.2,161.3 L236.9,161.5 L237.6,161.7 L238.4,161.9 L239.1,162.0 L239.8,162.2 L240.5,162.4 L241.3,162.5 L242.0,162.7 L242.7,162.8 L243.4,163.0 L244.1,163.1 L244.9,163.2 L245.6,163.4 L246.3,163.5 L247.0,163.6 L247.8,163.7 L248.5,163.8 L249.2,163.9 L249.9,164.0 L250.6,164.1 L251.4,164.2 L252.1,164.3 L252.8,164.4 L253.5,164.5 L254.2,164.6 L255.0,164.6 L255.7,164.7 L256.4,164.8 L257.1,164.8 L257.9,164.9 L258.6,164.9 L259.3,165.0 L260.0,165.1 L260.8,165.1 L261.5,165.2 L262.2,165.2 L262.9,165.2 L263.6,165.3 L264.4,165.3 L265.1,165.4 L265.8,165.4 L266.5,165.4 L267.2,165.5 L268.0,165.5 L268.7,165.5 L269.4,165.6 L270.1,165.6 L270.9,165.6 L271.6,165.6 L272.3,165.7 L273.0,165.7 L273.8,165.7 L274.5,165.7 L275.2,165.7 L275.9,165.7 L276.6,165.8 L277.4,165.8 L278.1,165.8 L278.8,165.8 L279.5,165.8 L280.3,165.8 L281.0,165.8 L281.7,165.9 L282.4,165.9 L283.1,165.9 L283.9,165.9 L284.6,165.9 L285.3,165.9 L286.0,165.9 L286.8,165.9 L287.5,165.9 L288.2,165.9 L288.9,165.9 L289.6,165.9 L290.0,166.0 Z\" fill=\"#b5453a\" fill-opacity=\"0.35\" stroke=\"none\"/><polyline points=\"30.0,165.9 31.8,165.9 33.6,165.9 35.4,165.9 37.2,165.9 39.0,165.8 40.8,165.8 42.6,165.8 44.4,165.7 46.2,165.7 48.1,165.6 49.9,165.6 51.7,165.5 53.5,165.4 55.3,165.3 57.1,165.2 58.9,165.1 60.7,165.0 62.5,164.9 64.3,164.7 66.1,164.5 67.9,164.3 69.7,164.1 71.5,163.8 73.3,163.5 75.1,163.2 76.9,162.9 78.7,162.5 80.6,162.1 82.4,161.7 84.2,161.2 86.0,160.7 87.8,160.1 89.6,159.5 91.4,158.8 93.2,158.1 95.0,157.4 96.8,156.6 98.6,155.7 100.4,154.8 102.2,153.9 104.0,152.9 105.8,151.8 107.6,150.7 109.4,149.6 111.2,148.4 113.1,147.2 114.9,146.0 116.7,144.7 118.5,143.4 120.3,142.1 122.1,140.8 123.9,139.5 125.7,138.2 127.5,136.9 129.3,135.6 131.1,134.3 132.9,133.0 134.7,131.8 136.5,130.6 138.3,129.5 140.1,128.4 141.9,127.4 143.7,126.5 145.6,125.7 147.4,124.9 149.2,124.2 151.0,123.7 152.8,123.2 154.6,122.8 156.4,122.5 158.2,122.4 160.0,122.3 161.8,122.4 163.6,122.5 165.4,122.8 167.2,123.2 169.0,123.7 170.8,124.2 172.6,124.9 174.4,125.7 176.2,126.5 178.1,127.4 179.9,128.4 181.7,129.5 183.5,130.6 185.3,131.8 187.1,133.0 188.9,134.3 190.7,135.6 192.5,136.9 194.3,138.2 196.1,139.5 197.9,140.8 199.7,142.1 201.5,143.4 203.3,144.7 205.1,146.0 206.9,147.2 208.7,148.4 210.6,149.6 212.4,150.7 214.2,151.8 216.0,152.9 217.8,153.9 219.6,154.8 221.4,155.7 223.2,156.6 225.0,157.4 226.8,158.1 228.6,158.8 230.4,159.5 232.2,160.1 234.0,160.7 235.8,161.2 237.6,161.7 239.4,162.1 241.2,162.5 243.1,162.9 244.9,163.2 246.7,163.5 248.5,163.8 250.3,164.1 252.1,164.3 253.9,164.5 255.7,164.7 257.5,164.9 259.3,165.0 261.1,165.1 262.9,165.2 264.7,165.3 266.5,165.4 268.3,165.5 270.1,165.6 271.9,165.6 273.7,165.7 275.6,165.7 277.4,165.8 279.2,165.8 281.0,165.8 282.8,165.9 284.6,165.9 286.4,165.9 288.2,165.9 290.0,165.9\" fill=\"none\" stroke=\"#2a78d6\" stroke-width=\"1.8\"/><line x1=\"30.0\" y1=\"166.0\" x2=\"290.0\" y2=\"166.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><line x1=\"219.6\" y1=\"166.0\" x2=\"219.6\" y2=\"170.0\" stroke=\"#2c2a26\" stroke-width=\"1\"/><text x=\"219.6\" y=\"181.0\" text-anchor=\"middle\" fill=\"#b5453a\" font-size=\"10.2\">+1,65</text><text x=\"160.0\" y=\"181.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">0</text><text x=\"160.0\" y=\"204.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.8\">Ha: μ1 &lt; μ2 (unilateral stânga)</text><path d=\"M30.0,258.0 L30.0,257.9 L30.7,257.9 L31.4,257.9 L32.2,257.9 L32.9,257.9 L33.6,257.9 L34.3,257.9 L35.1,257.9 L35.8,257.9 L36.5,257.9 L37.2,257.9 L37.9,257.9 L38.7,257.8 L39.4,257.8 L40.1,257.8 L40.8,257.8 L41.6,257.8 L42.3,257.8 L43.0,257.8 L43.7,257.8 L44.4,257.7 L45.2,257.7 L45.9,257.7 L46.6,257.7 L47.3,257.7 L48.1,257.6 L48.8,257.6 L49.5,257.6 L50.2,257.6 L50.9,257.5 L51.7,257.5 L52.4,257.5 L53.1,257.5 L53.8,257.4 L54.6,257.4 L55.3,257.3 L56.0,257.3 L56.7,257.3 L57.4,257.2 L58.2,257.2 L58.9,257.1 L59.6,257.1 L60.3,257.0 L61.1,257.0 L61.8,256.9 L62.5,256.9 L63.2,256.8 L63.9,256.7 L64.7,256.7 L65.4,256.6 L66.1,256.5 L66.8,256.4 L67.6,256.4 L68.3,256.3 L69.0,256.2 L69.7,256.1 L70.4,256.0 L71.2,255.9 L71.9,255.8 L72.6,255.7 L73.3,255.5 L74.1,255.4 L74.8,255.3 L75.5,255.2 L76.2,255.0 L76.9,254.9 L77.7,254.8 L78.4,254.6 L79.1,254.4 L79.8,254.3 L80.6,254.1 L81.3,253.9 L82.0,253.8 L82.7,253.6 L83.4,253.4 L84.2,253.2 L84.9,253.0 L85.6,252.8 L86.3,252.5 L87.1,252.3 L87.8,252.1 L88.5,251.8 L89.2,251.6 L89.9,251.3 L90.7,251.1 L91.4,250.8 L92.1,250.5 L92.8,250.3 L93.6,250.0 L94.3,249.7 L95.0,249.4 L95.7,249.0 L96.4,248.7 L97.2,248.4 L97.9,248.0 L98.6,247.7 L99.3,247.3 L100.1,247.0 L100.4,258.0 Z\" fill=\"#b5453a\" fill-opacity=\"0.35\" stroke=\"none\"/><polyline points=\"30.0,257.9 31.8,257.9 33.6,257.9 35.4,257.9 37.2,257.9 39.0,257.8 40.8,257.8 42.6,257.8 44.4,257.7 46.2,257.7 48.1,257.6 49.9,257.6 51.7,257.5 53.5,257.4 55.3,257.3 57.1,257.2 58.9,257.1 60.7,257.0 62.5,256.9 64.3,256.7 66.1,256.5 67.9,256.3 69.7,256.1 71.5,255.8 73.3,255.5 75.1,255.2 76.9,254.9 78.7,254.5 80.6,254.1 82.4,253.7 84.2,253.2 86.0,252.7 87.8,252.1 89.6,251.5 91.4,250.8 93.2,250.1 95.0,249.4 96.8,248.6 98.6,247.7 100.4,246.8 102.2,245.9 104.0,244.9 105.8,243.8 107.6,242.7 109.4,241.6 111.2,240.4 113.1,239.2 114.9,238.0 116.7,236.7 118.5,235.4 120.3,234.1 122.1,232.8 123.9,231.5 125.7,230.2 127.5,228.9 129.3,227.6 131.1,226.3 132.9,225.0 134.7,223.8 136.5,222.6 138.3,221.5 140.1,220.4 141.9,219.4 143.7,218.5 145.6,217.7 147.4,216.9 149.2,216.2 151.0,215.7 152.8,215.2 154.6,214.8 156.4,214.5 158.2,214.4 160.0,214.3 161.8,214.4 163.6,214.5 165.4,214.8 167.2,215.2 169.0,215.7 170.8,216.2 172.6,216.9 174.4,217.7 176.2,218.5 178.1,219.4 179.9,220.4 181.7,221.5 183.5,222.6 185.3,223.8 187.1,225.0 188.9,226.3 190.7,227.6 192.5,228.9 194.3,230.2 196.1,231.5 197.9,232.8 199.7,234.1 201.5,235.4 203.3,236.7 205.1,238.0 206.9,239.2 208.7,240.4 210.6,241.6 212.4,242.7 214.2,243.8 216.0,244.9 217.8,245.9 219.6,246.8 221.4,247.7 223.2,248.6 225.0,249.4 226.8,250.1 228.6,250.8 230.4,251.5 232.2,252.1 234.0,252.7 235.8,253.2 237.6,253.7 239.4,254.1 241.2,254.5 243.1,254.9 244.9,255.2 246.7,255.5 248.5,255.8 250.3,256.1 252.1,256.3 253.9,256.5 255.7,256.7 257.5,256.9 259.3,257.0 261.1,257.1 262.9,257.2 264.7,257.3 266.5,257.4 268.3,257.5 270.1,257.6 271.9,257.6 273.7,257.7 275.6,257.7 277.4,257.8 279.2,257.8 281.0,257.8 282.8,257.9 284.6,257.9 286.4,257.9 288.2,257.9 290.0,257.9\" fill=\"none\" stroke=\"#2a78d6\" stroke-width=\"1.8\"/><line x1=\"30.0\" y1=\"258.0\" x2=\"290.0\" y2=\"258.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><line x1=\"100.4\" y1=\"258.0\" x2=\"100.4\" y2=\"262.0\" stroke=\"#2c2a26\" stroke-width=\"1\"/><text x=\"100.4\" y=\"273.0\" text-anchor=\"middle\" fill=\"#b5453a\" font-size=\"10.2\">−1,65</text><text x=\"160.0\" y=\"273.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">0</text><text x=\"160.0\" y=\"292.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">zona critică (roșu), α = 0,05</text></svg>"
+          }
+        ]
+      },
+      {
+        "titlu": "Distribuția de eșantionare a diferențelor",
+        "noduri": [
+          {
+            "t": "Distribuția diferențelor dintre medii",
+            "d": "Distribuția tuturor diferențelor X̄1 − X̄2 obținute din perechi de eșantioane. E normală dacă distribuțiile separate ale mediilor sunt normale; teorema limitei centrale garantează aproximarea cu atât mai bine cu cât eșantioanele sunt mai mari (Cap. 6 (Eșantionarea și distribuții de eșantionare))."
+          },
+          {
+            "t": "Media diferențelor sub H0",
+            "d": "Termenul μ1 − μ2 din numărătorul lui Z e necunoscut, dar devine 0, pentru că testul pornește de la presupunerea că H0 e adevărată. Rămâne Z = (X̄1 − X̄2)/σ(X̄1 − X̄2)."
+          },
+          {
+            "t": "Eroarea standard a diferenței",
+            "d": "σ(X̄1 − X̄2) = √(σ1²/n1 + σ2²/n2): se adună varianțele celor două medii, nu abaterile standard. Consecință: e mai mare decât fiecare eroare separată, dar mai mică decât suma lor."
+          },
+          {
+            "t": "Corecția pentru distorsiune",
+            "d": "σ1 și σ2 nu se cunosc aproape niciodată; se folosesc s1 și s2 cu corecția pentru distorsiune: √(s1²/(n1 − 1) + s2²/(n2 − 1)) — s calculat cu n subestimează σ (Cap. 4 (Mărimile dispersiei), Cap. 7 (Proceduri de estimare statistică))."
+          }
+        ],
+        "figuri": [
+          {
+            "titlu": "Eroarea standard a diferenței",
+            "nota": "Datele exemplului cu bărbați și femei (s corectat cu n − 1). Eroarea diferenței e mai mare decât fiecare eroare separată, dar mai mică decât suma lor.",
+            "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 210\" role=\"img\" aria-label=\"Erorile standard ale celor două medii și eroarea standard a diferenței\" font-family=\"Georgia, serif\" font-size=\"13\"><text x=\"10.0\" y=\"16.0\" text-anchor=\"start\" fill=\"#6b6760\" font-size=\"10.8\">Eroarea standard (puncte de test)</text><text x=\"141.0\" y=\"44.0\" text-anchor=\"end\" fill=\"#2c2a26\" font-size=\"10.2\">bărbați: 13/√323</text><rect x=\"146.0\" y=\"33.0\" width=\"67.8\" height=\"16.0\" fill=\"#2a78d6\"></rect><text x=\"217.8\" y=\"45.0\" text-anchor=\"start\" fill=\"#2c2a26\" font-size=\"10.2\">0,72</text><text x=\"141.0\" y=\"78.0\" text-anchor=\"end\" fill=\"#2c2a26\" font-size=\"10.2\">femei: 14/√316</text><rect x=\"146.0\" y=\"67.0\" width=\"73.8\" height=\"16.0\" fill=\"#eb6834\"></rect><text x=\"223.8\" y=\"79.0\" text-anchor=\"start\" fill=\"#2c2a26\" font-size=\"10.2\">0,79</text><text x=\"141.0\" y=\"112.0\" text-anchor=\"end\" fill=\"#2c2a26\" font-size=\"10.2\">diferența: √(0,72² + 0,79²)</text><rect x=\"146.0\" y=\"101.0\" width=\"100.2\" height=\"16.0\" fill=\"#1baf7a\"></rect><text x=\"250.2\" y=\"113.0\" text-anchor=\"start\" fill=\"#2c2a26\" font-size=\"10.2\">1,07</text><text x=\"141.0\" y=\"146.0\" text-anchor=\"end\" fill=\"#2c2a26\" font-size=\"10.2\">greșit: 0,72 + 0,79</text><rect x=\"146.0\" y=\"135.0\" width=\"141.6\" height=\"16.0\" fill=\"none\" stroke=\"#6b6760\" stroke-width=\"1\"></rect><text x=\"291.6\" y=\"147.0\" text-anchor=\"start\" fill=\"#6b6760\" font-size=\"10.2\">1,51</text><line x1=\"146.0\" y1=\"170.0\" x2=\"286.6\" y2=\"170.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><line x1=\"146.0\" y1=\"170.0\" x2=\"146.0\" y2=\"174.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><text x=\"146.0\" y=\"185.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">0,0</text><line x1=\"192.9\" y1=\"170.0\" x2=\"192.9\" y2=\"174.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><text x=\"192.9\" y=\"185.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">0,5</text><line x1=\"239.8\" y1=\"170.0\" x2=\"239.8\" y2=\"174.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><text x=\"239.8\" y=\"185.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">1,0</text><line x1=\"286.6\" y1=\"170.0\" x2=\"286.6\" y2=\"174.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><text x=\"286.6\" y=\"185.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">1,5</text><text x=\"160.0\" y=\"200.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">se adună varianțele, nu abaterile standard</text></svg>"
+          }
+        ]
+      },
+      {
+        "titlu": "Testul Z pentru două medii",
+        "noduri": [
+          {
+            "t": "Condițiile testului Z",
+            "d": "Eșantioane independente; variabilă de nivel interval sau raport; eșantioane mari: n1 ≥ 30 și n2 ≥ 30 (fiecare, nu totalul)."
+          },
+          {
+            "t": "Calculul lui Z pentru două medii",
+            "d": "Z = (X̄1 − X̄2) / √(s1²/(n1 − 1) + s2²/(n2 − 1)). Ex.: 4 + 5 sub radical → eroarea 3; o diferență de 6 puncte dă Z = 2."
+          },
+          {
+            "t": "Decizia la testul Z",
+            "d": "Bilateral: |Z| > 1,96 la α = 0,05, |Z| > 2,58 la α = 0,01. Unilateral: peste +1,65 sau sub −1,65 (în coada prezisă). Dacă Z cade în zona critică, H0 se respinge și se acceptă ipoteza diferenței."
+          },
+          {
+            "t": "Exemplul rezolvării de probleme",
+            "d": "Bărbați: X̄ = 62, s = 13, n = 324; femei: X̄ = 65, s = 14, n = 317; bilateral, α = 0,05. Eroarea = √(169/323 + 196/316) = √1,14 ≈ 1,07; Z ≈ −2,81 → H0 respinsă. Cartea tipărește Z = −2,63 (împarte la 1,14, fără radical) și anunță „127 de subiecți” în loc de 641; decizia nu se schimbă."
+          }
+        ],
+        "figuri": [
+          {
+            "titlu": "Testul Z: bărbați vs femei",
+            "nota": "Sub H0, diferențele dintre medii se distribuie normal în jurul lui 0. Diferența −3 cade dincolo de −2,10 (adică −1,96 erori standard). Cartea tipărește Z = −2,63: a împărțit la 1,14, varianța, fără radical.",
+            "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 200\" role=\"img\" aria-label=\"Distribuția diferențelor dintre medii sub H0 și diferența observată de −3 puncte\" font-family=\"Georgia, serif\" font-size=\"13\"><path d=\"M25.0,150.0 L25.0,149.9 L25.7,149.9 L26.4,149.9 L27.0,149.9 L27.7,149.9 L28.4,149.9 L29.1,149.9 L29.7,149.9 L30.4,149.9 L31.1,149.8 L31.8,149.8 L32.4,149.8 L33.1,149.8 L33.8,149.8 L34.5,149.8 L35.1,149.8 L35.8,149.8 L36.5,149.7 L37.2,149.7 L37.8,149.7 L38.5,149.7 L39.2,149.7 L39.9,149.7 L40.5,149.6 L41.2,149.6 L41.9,149.6 L42.6,149.6 L43.2,149.5 L43.9,149.5 L44.6,149.5 L45.3,149.4 L45.9,149.4 L46.6,149.4 L47.3,149.3 L48.0,149.3 L48.6,149.2 L49.3,149.2 L50.0,149.1 L50.7,149.1 L51.3,149.0 L52.0,149.0 L52.7,148.9 L53.4,148.9 L54.0,148.8 L54.7,148.7 L55.4,148.7 L56.1,148.6 L56.7,148.5 L57.4,148.4 L58.1,148.3 L58.8,148.3 L59.4,148.2 L60.1,148.1 L60.8,148.0 L61.5,147.9 L62.1,147.7 L62.8,147.6 L63.5,147.5 L64.2,147.4 L64.8,147.2 L65.5,147.1 L66.2,147.0 L66.9,146.8 L67.5,146.6 L68.2,146.5 L68.9,146.3 L69.6,146.1 L70.2,146.0 L70.9,145.8 L71.6,145.6 L72.3,145.4 L72.9,145.1 L73.6,144.9 L74.3,144.7 L75.0,144.4 L75.6,144.2 L76.3,143.9 L77.0,143.7 L77.7,143.4 L78.3,143.1 L79.0,142.8 L79.7,142.5 L80.4,142.2 L81.0,141.9 L81.7,141.5 L82.4,141.2 L83.1,140.8 L83.7,140.4 L84.4,140.0 L85.1,139.7 L85.8,139.2 L86.4,138.8 L87.1,138.4 L87.8,137.9 L88.5,137.5 L89.1,137.0 L89.3,150.0 Z\" fill=\"#b5453a\" fill-opacity=\"0.35\" stroke=\"none\"/><path d=\"M230.7,150.0 L230.7,136.9 L231.4,137.4 L232.1,137.9 L232.8,138.3 L233.4,138.7 L234.1,139.2 L234.8,139.6 L235.5,140.0 L236.1,140.4 L236.8,140.7 L237.5,141.1 L238.2,141.4 L238.8,141.8 L239.5,142.1 L240.2,142.4 L240.9,142.7 L241.5,143.0 L242.2,143.3 L242.9,143.6 L243.6,143.9 L244.2,144.1 L244.9,144.4 L245.6,144.6 L246.3,144.9 L246.9,145.1 L247.6,145.3 L248.3,145.5 L249.0,145.7 L249.6,145.9 L250.3,146.1 L251.0,146.3 L251.7,146.5 L252.3,146.6 L253.0,146.8 L253.7,146.9 L254.4,147.1 L255.0,147.2 L255.7,147.3 L256.4,147.5 L257.1,147.6 L257.7,147.7 L258.4,147.8 L259.1,147.9 L259.8,148.0 L260.4,148.1 L261.1,148.2 L261.8,148.3 L262.5,148.4 L263.1,148.5 L263.8,148.6 L264.5,148.6 L265.2,148.7 L265.8,148.8 L266.5,148.9 L267.2,148.9 L267.9,149.0 L268.5,149.0 L269.2,149.1 L269.9,149.1 L270.6,149.2 L271.2,149.2 L271.9,149.3 L272.6,149.3 L273.3,149.4 L273.9,149.4 L274.6,149.4 L275.3,149.5 L276.0,149.5 L276.6,149.5 L277.3,149.5 L278.0,149.6 L278.7,149.6 L279.3,149.6 L280.0,149.6 L280.7,149.7 L281.4,149.7 L282.0,149.7 L282.7,149.7 L283.4,149.7 L284.1,149.8 L284.7,149.8 L285.4,149.8 L286.1,149.8 L286.8,149.8 L287.4,149.8 L288.1,149.8 L288.8,149.8 L289.5,149.9 L290.1,149.9 L290.8,149.9 L291.5,149.9 L292.2,149.9 L292.8,149.9 L293.5,149.9 L294.2,149.9 L294.9,149.9 L295.0,150.0 Z\" fill=\"#b5453a\" fill-opacity=\"0.35\" stroke=\"none\"/><polyline points=\"25.0,149.9 26.7,149.9 28.4,149.9 30.1,149.9 31.7,149.8 33.4,149.8 35.1,149.8 36.8,149.7 38.5,149.7 40.2,149.6 41.9,149.6 43.6,149.5 45.2,149.4 46.9,149.3 48.6,149.2 50.3,149.1 52.0,149.0 53.7,148.8 55.4,148.7 57.1,148.5 58.7,148.3 60.4,148.0 62.1,147.7 63.8,147.4 65.5,147.1 67.2,146.7 68.9,146.3 70.6,145.9 72.2,145.4 73.9,144.8 75.6,144.2 77.3,143.5 79.0,142.8 80.7,142.0 82.4,141.2 84.1,140.2 85.7,139.2 87.4,138.2 89.1,137.0 90.8,135.8 92.5,134.5 94.2,133.1 95.9,131.6 97.6,130.0 99.2,128.3 100.9,126.6 102.6,124.8 104.3,122.8 106.0,120.8 107.7,118.8 109.4,116.6 111.1,114.4 112.7,112.1 114.4,109.8 116.1,107.4 117.8,104.9 119.5,102.4 121.2,99.9 122.9,97.4 124.6,94.9 126.2,92.3 127.9,89.8 129.6,87.3 131.3,84.9 133.0,82.5 134.7,80.2 136.4,77.9 138.1,75.8 139.7,73.7 141.4,71.8 143.1,70.0 144.8,68.3 146.5,66.7 148.2,65.4 149.9,64.2 151.6,63.1 153.2,62.3 154.9,61.6 156.6,61.1 158.3,60.8 160.0,60.7 161.7,60.8 163.4,61.1 165.1,61.6 166.7,62.3 168.4,63.1 170.1,64.2 171.8,65.4 173.5,66.7 175.2,68.3 176.9,70.0 178.6,71.8 180.2,73.7 181.9,75.8 183.6,77.9 185.3,80.2 187.0,82.5 188.7,84.9 190.4,87.3 192.1,89.8 193.7,92.3 195.4,94.9 197.1,97.4 198.8,99.9 200.5,102.4 202.2,104.9 203.9,107.4 205.6,109.8 207.2,112.1 208.9,114.4 210.6,116.6 212.3,118.8 214.0,120.8 215.7,122.8 217.4,124.8 219.1,126.6 220.7,128.3 222.4,130.0 224.1,131.6 225.8,133.1 227.5,134.5 229.2,135.8 230.9,137.0 232.6,138.2 234.2,139.2 235.9,140.2 237.6,141.2 239.3,142.0 241.0,142.8 242.7,143.5 244.4,144.2 246.1,144.8 247.7,145.4 249.4,145.9 251.1,146.3 252.8,146.7 254.5,147.1 256.2,147.4 257.9,147.7 259.6,148.0 261.2,148.3 262.9,148.5 264.6,148.7 266.3,148.8 268.0,149.0 269.7,149.1 271.4,149.2 273.1,149.3 274.7,149.4 276.4,149.5 278.1,149.6 279.8,149.6 281.5,149.7 283.2,149.7 284.9,149.8 286.6,149.8 288.2,149.8 289.9,149.9 291.6,149.9 293.3,149.9 295.0,149.9\" fill=\"none\" stroke=\"#2a78d6\" stroke-width=\"1.8\"/><line x1=\"25.0\" y1=\"150.0\" x2=\"295.0\" y2=\"150.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><line x1=\"25.0\" y1=\"150.0\" x2=\"25.0\" y2=\"154.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><text x=\"25.0\" y=\"165.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">−4</text><line x1=\"92.5\" y1=\"150.0\" x2=\"92.5\" y2=\"154.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><text x=\"92.5\" y=\"165.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">−2</text><line x1=\"160.0\" y1=\"150.0\" x2=\"160.0\" y2=\"154.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><text x=\"160.0\" y=\"165.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">0</text><line x1=\"227.5\" y1=\"150.0\" x2=\"227.5\" y2=\"154.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><text x=\"227.5\" y=\"165.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">2</text><line x1=\"295.0\" y1=\"150.0\" x2=\"295.0\" y2=\"154.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><text x=\"295.0\" y=\"165.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">4</text><text x=\"160.0\" y=\"180.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">X̄1 − X̄2 (puncte), dacă H0 e adevărată</text><line x1=\"89.3\" y1=\"150.0\" x2=\"89.3\" y2=\"46.0\" stroke=\"#b5453a\" stroke-width=\"1\" stroke-dasharray=\"3 2\"/><text x=\"89.3\" y=\"40.0\" text-anchor=\"middle\" fill=\"#b5453a\" font-size=\"10.2\">−2,10</text><line x1=\"230.7\" y1=\"150.0\" x2=\"230.7\" y2=\"46.0\" stroke=\"#b5453a\" stroke-width=\"1\" stroke-dasharray=\"3 2\"/><text x=\"230.7\" y=\"40.0\" text-anchor=\"middle\" fill=\"#b5453a\" font-size=\"10.2\">+2,10</text><line x1=\"58.8\" y1=\"150.0\" x2=\"58.8\" y2=\"46.0\" stroke=\"#2c2a26\" stroke-width=\"2\"/><circle cx=\"58.8\" cy=\"150.0\" r=\"4.5\" fill=\"#2c2a26\" stroke=\"#faf8f3\" stroke-width=\"1.5\"><title>diferența observată −3</title></circle><text x=\"58.8\" y=\"40.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.8\">−3</text><text x=\"160.0\" y=\"16.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.8\">eroarea standard ≈ 1,07 · Z = −3 / 1,07 ≈ −2,81</text></svg>"
+          }
+        ]
+      },
+      {
+        "titlu": "Testul t pentru două medii",
+        "noduri": [
+          {
+            "t": "Când se folosește t",
+            "d": "Când σ1 și σ2 nu se cunosc și eșantioanele sunt mici: n1 < 30 sau/și n2 < 30 — e suficient ca unul să fie sub 30."
+          },
+          {
+            "t": "Grade de libertate n1 + n2 − 2",
+            "d": "Distribuția t-Student are n1 + n2 − 2 grade de libertate (se pierde câte un grad pentru fiecare medie). Ex.: 12 + 13 elevi → 23 gl, prag unilateral 1,714 la α = 0,05."
+          },
+          {
+            "t": "Eroarea standard combinată",
+            "d": "σ(X̄1 − X̄2) = √[(n1·s1² + n2·s2²)/(n1 + n2 − 2)] · √[(n1 + n2)/(n1·n2)]: abaterile standard ale celor două grupuri sunt combinate (ponderate cu n), apoi înmulțite cu un factor care scade când n crește. t = (X̄1 − X̄2) / această eroare."
+          },
+          {
+            "t": "Supoziția σ1 = σ2",
+            "d": "Testul t pentru două medii se folosește doar dacă populațiile sunt egal dispersate (σ1 = σ2). Egalitatea se poate testa formal; practic, se consideră satisfăcută când eșantioanele au dimensiuni apropiate."
+          },
+          {
+            "t": "Exemplul metodei de predare",
+            "d": "Metoda modernă: X̄ = 8,80, s = 1,70, n = 12; tradițională: X̄ = 8,20, s = 1,20, n = 13; Ha: μ1 > μ2, α = 0,05, 23 gl, prag 1,714. √(53,4/23) = 1,52 și √(25/156) = 0,40; eroarea = 1,52 · 0,40 ≈ 0,61, t ≈ 0,98 → H0 nu se respinge. Cartea adună 1,52 + 0,40 și obține t = 0,31; decizia e aceeași."
+          }
+        ],
+        "figuri": [
+          {
+            "titlu": "Testul t: metoda de predare",
+            "nota": "Exemplul din carte, cu calculul refăcut: eroarea standard e 1,52 · 0,40 ≈ 0,61, deci t ≈ 0,98 (cartea a adunat 1,52 + 0,40 și a obținut 0,31). Decizia rămâne aceeași.",
+            "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 200\" role=\"img\" aria-label=\"Testul t unilateral pentru metoda de predare: t = 0,98 sub pragul 1,714\" font-family=\"Georgia, serif\" font-size=\"13\"><path d=\"M217.8,150.0 L217.8,129.1 L218.5,129.8 L219.2,130.4 L219.9,131.0 L220.5,131.7 L221.2,132.2 L221.9,132.8 L222.6,133.4 L223.2,133.9 L223.9,134.5 L224.6,135.0 L225.3,135.5 L225.9,136.0 L226.6,136.5 L227.3,137.0 L228.0,137.4 L228.6,137.9 L229.3,138.3 L230.0,138.7 L230.7,139.1 L231.3,139.5 L232.0,139.9 L232.7,140.3 L233.4,140.6 L234.0,141.0 L234.7,141.3 L235.4,141.6 L236.1,141.9 L236.7,142.3 L237.4,142.5 L238.1,142.8 L238.8,143.1 L239.4,143.4 L240.1,143.6 L240.8,143.9 L241.5,144.1 L242.1,144.4 L242.8,144.6 L243.5,144.8 L244.2,145.0 L244.8,145.2 L245.5,145.4 L246.2,145.6 L246.9,145.8 L247.5,145.9 L248.2,146.1 L248.9,146.3 L249.6,146.4 L250.2,146.6 L250.9,146.7 L251.6,146.9 L252.3,147.0 L252.9,147.1 L253.6,147.2 L254.3,147.4 L255.0,147.5 L255.6,147.6 L256.3,147.7 L257.0,147.8 L257.7,147.9 L258.3,148.0 L259.0,148.1 L259.7,148.1 L260.4,148.2 L261.0,148.3 L261.7,148.4 L262.4,148.4 L263.1,148.5 L263.7,148.6 L264.4,148.6 L265.1,148.7 L265.8,148.8 L266.4,148.8 L267.1,148.9 L267.8,148.9 L268.5,149.0 L269.1,149.0 L269.8,149.1 L270.5,149.1 L271.2,149.1 L271.8,149.2 L272.5,149.2 L273.2,149.3 L273.9,149.3 L274.5,149.3 L275.2,149.4 L275.9,149.4 L276.6,149.4 L277.2,149.4 L277.9,149.5 L278.6,149.5 L279.3,149.5 L279.9,149.5 L280.6,149.6 L281.3,149.6 L282.0,149.6 L282.6,149.6 L283.3,149.6 L284.0,149.7 L284.7,149.7 L285.3,149.7 L286.0,149.7 L286.7,149.7 L287.4,149.7 L288.0,149.7 L288.7,149.8 L289.4,149.8 L290.1,149.8 L290.7,149.8 L291.4,149.8 L292.1,149.8 L292.8,149.8 L293.4,149.8 L294.1,149.8 L294.8,149.8 L295.0,150.0 Z\" fill=\"#b5453a\" fill-opacity=\"0.35\" stroke=\"none\"/><polyline points=\"25.0,149.8 26.7,149.8 28.4,149.8 30.1,149.8 31.7,149.7 33.4,149.7 35.1,149.7 36.8,149.6 38.5,149.6 40.2,149.5 41.9,149.5 43.6,149.4 45.2,149.3 46.9,149.2 48.6,149.2 50.3,149.1 52.0,148.9 53.7,148.8 55.4,148.7 57.1,148.5 58.7,148.3 60.4,148.1 62.1,147.9 63.8,147.7 65.5,147.4 67.2,147.1 68.9,146.8 70.6,146.4 72.2,146.0 73.9,145.5 75.6,145.1 77.3,144.5 79.0,144.0 80.7,143.3 82.4,142.6 84.1,141.9 85.7,141.1 87.4,140.2 89.1,139.2 90.8,138.2 92.5,137.1 94.2,135.9 95.9,134.6 97.6,133.3 99.2,131.8 100.9,130.3 102.6,128.7 104.3,126.9 106.0,125.1 107.7,123.2 109.4,121.2 111.1,119.1 112.7,116.9 114.4,114.6 116.1,112.3 117.8,109.9 119.5,107.4 121.2,104.8 122.9,102.3 124.6,99.6 126.2,97.0 127.9,94.3 129.6,91.7 131.3,89.1 133.0,86.5 134.7,83.9 136.4,81.4 138.1,79.0 139.7,76.7 141.4,74.5 143.1,72.4 144.8,70.5 146.5,68.7 148.2,67.1 149.9,65.7 151.6,64.5 153.2,63.5 154.9,62.7 156.6,62.1 158.3,61.8 160.0,61.7 161.7,61.8 163.4,62.1 165.1,62.7 166.7,63.5 168.4,64.5 170.1,65.7 171.8,67.1 173.5,68.7 175.2,70.5 176.9,72.4 178.6,74.5 180.2,76.7 181.9,79.0 183.6,81.4 185.3,83.9 187.0,86.5 188.7,89.1 190.4,91.7 192.1,94.3 193.7,97.0 195.4,99.6 197.1,102.3 198.8,104.8 200.5,107.4 202.2,109.9 203.9,112.3 205.6,114.6 207.2,116.9 208.9,119.1 210.6,121.2 212.3,123.2 214.0,125.1 215.7,126.9 217.4,128.7 219.1,130.3 220.7,131.8 222.4,133.3 224.1,134.6 225.8,135.9 227.5,137.1 229.2,138.2 230.9,139.2 232.6,140.2 234.2,141.1 235.9,141.9 237.6,142.6 239.3,143.3 241.0,144.0 242.7,144.5 244.4,145.1 246.1,145.5 247.7,146.0 249.4,146.4 251.1,146.8 252.8,147.1 254.5,147.4 256.2,147.7 257.9,147.9 259.6,148.1 261.2,148.3 262.9,148.5 264.6,148.7 266.3,148.8 268.0,148.9 269.7,149.1 271.4,149.2 273.1,149.2 274.7,149.3 276.4,149.4 278.1,149.5 279.8,149.5 281.5,149.6 283.2,149.6 284.9,149.7 286.6,149.7 288.2,149.7 289.9,149.8 291.6,149.8 293.3,149.8 295.0,149.8\" fill=\"none\" stroke=\"#2a78d6\" stroke-width=\"1.8\"/><line x1=\"25.0\" y1=\"150.0\" x2=\"295.0\" y2=\"150.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><line x1=\"25.0\" y1=\"150.0\" x2=\"25.0\" y2=\"154.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><text x=\"25.0\" y=\"165.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">−4</text><line x1=\"92.5\" y1=\"150.0\" x2=\"92.5\" y2=\"154.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><text x=\"92.5\" y=\"165.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">−2</text><line x1=\"160.0\" y1=\"150.0\" x2=\"160.0\" y2=\"154.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><text x=\"160.0\" y=\"165.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">0</text><line x1=\"227.5\" y1=\"150.0\" x2=\"227.5\" y2=\"154.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><text x=\"227.5\" y=\"165.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">2</text><line x1=\"295.0\" y1=\"150.0\" x2=\"295.0\" y2=\"154.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><text x=\"295.0\" y=\"165.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">4</text><line x1=\"217.8\" y1=\"150.0\" x2=\"217.8\" y2=\"46.0\" stroke=\"#b5453a\" stroke-width=\"1\" stroke-dasharray=\"3 2\"/><text x=\"220.8\" y=\"40.0\" text-anchor=\"start\" fill=\"#b5453a\" font-size=\"10.2\">+1,714</text><line x1=\"193.1\" y1=\"150.0\" x2=\"193.1\" y2=\"46.0\" stroke=\"#2c2a26\" stroke-width=\"2\"/><circle cx=\"193.1\" cy=\"150.0\" r=\"4.5\" fill=\"#2c2a26\" stroke=\"#faf8f3\" stroke-width=\"1.5\"><title>t = 0,98</title></circle><text x=\"190.1\" y=\"40.0\" text-anchor=\"end\" fill=\"#2c2a26\" font-size=\"10.8\">t ≈ 0,98</text><line x1=\"170.5\" y1=\"150.0\" x2=\"170.5\" y2=\"128.0\" stroke=\"#6b6760\" stroke-width=\"1\" stroke-dasharray=\"2 2\"/><text x=\"167.5\" y=\"141.0\" text-anchor=\"end\" fill=\"#6b6760\" font-size=\"10.2\">0,31 tipărit</text><text x=\"160.0\" y=\"16.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.8\">distribuția t cu 23 gl · Ha: μ1 &gt; μ2 · α = 0,05</text><text x=\"160.0\" y=\"180.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">t ≈ 0,98 nu ajunge în zona critică</text></svg>"
+          }
+        ]
+      },
+      {
+        "titlu": "Testul Z pentru două proporții",
+        "noduri": [
+          {
+            "t": "Condițiile testului pentru proporții",
+            "d": "Variabilă nominală (o categorie: „de acord”, „a votat”), comparată prin proporții; eșantioane independente și mari: n1 ≥ 30 și n2 ≥ 30. Ha poate fi direcțională sau nedirecțională."
+          },
+          {
+            "t": "Estimarea combinată a proporției",
+            "d": "Sub H0, P1 = P2, deci proporția comună se estimează din toate datele: P̂ = (n1·p1 + n2·p2)/(n1 + n2) — media ponderată cu mărimile eșantioanelor (nu media simplă a celor două proporții)."
+          },
+          {
+            "t": "Calculul lui Z pentru două proporții",
+            "d": "Z = (p1 − p2) / [√(P̂(1 − P̂)) · √((n1 + n2)/(n1·n2))]; termenul P1 − P2 devine 0 sub H0."
+          },
+          {
+            "t": "Exemplul universităților",
+            "d": "A: 83 de studenți, p1 = 0,34; B: 103 studenți, p2 = 0,25; bilateral, α = 0,05. P̂ = 53,97/186 ≈ 0,29; numitorul ≈ 0,067; Z ≈ 1,34 (cartea rotunjește numitorul la 0,07 → 1,29) → H0 nu se respinge. În decizie, cartea scrie „1,69” în loc de pragul 1,96."
+          }
+        ],
+        "figuri": [
+          {
+            "titlu": "Testul Z pentru proporții: universitățile A și B",
+            "nota": "Cu numitorul nerotunjit (0,067) Z ≈ 1,34; cartea rotunjește la 0,07 și obține 1,29. Ambele sunt între ±1,96: H0 nu se respinge.",
+            "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 200\" role=\"img\" aria-label=\"Testul Z pentru diferența dintre două proporții: Z = 1,34 între ±1,96\" font-family=\"Georgia, serif\" font-size=\"13\"><path d=\"M25.0,150.0 L25.0,150.0 L25.7,150.0 L26.4,150.0 L27.0,150.0 L27.7,150.0 L28.4,150.0 L29.1,150.0 L29.7,149.9 L30.4,149.9 L31.1,149.9 L31.8,149.9 L32.4,149.9 L33.1,149.9 L33.8,149.9 L34.5,149.9 L35.1,149.9 L35.8,149.9 L36.5,149.9 L37.2,149.9 L37.8,149.9 L38.5,149.9 L39.2,149.9 L39.9,149.8 L40.5,149.8 L41.2,149.8 L41.9,149.8 L42.6,149.8 L43.2,149.8 L43.9,149.8 L44.6,149.7 L45.3,149.7 L45.9,149.7 L46.6,149.7 L47.3,149.7 L48.0,149.6 L48.6,149.6 L49.3,149.6 L50.0,149.6 L50.7,149.5 L51.3,149.5 L52.0,149.5 L52.7,149.4 L53.4,149.4 L54.0,149.4 L54.7,149.3 L55.4,149.3 L56.1,149.2 L56.7,149.2 L57.4,149.1 L58.1,149.1 L58.8,149.0 L59.4,148.9 L60.1,148.9 L60.8,148.8 L61.5,148.7 L62.1,148.7 L62.8,148.6 L63.5,148.5 L64.2,148.4 L64.8,148.3 L65.5,148.2 L66.2,148.1 L66.9,148.0 L67.5,147.9 L68.2,147.8 L68.9,147.7 L69.6,147.5 L70.2,147.4 L70.9,147.3 L71.6,147.1 L72.3,147.0 L72.9,146.8 L73.6,146.6 L74.3,146.5 L75.0,146.3 L75.6,146.1 L76.3,145.9 L77.0,145.7 L77.7,145.5 L78.3,145.2 L79.0,145.0 L79.7,144.7 L80.4,144.5 L81.0,144.2 L81.7,143.9 L82.4,143.7 L83.1,143.4 L83.7,143.1 L84.4,142.7 L85.1,142.4 L85.8,142.1 L86.4,141.7 L87.1,141.3 L87.8,141.0 L88.5,140.6 L89.1,140.2 L89.8,139.7 L90.5,139.3 L91.2,138.9 L91.8,138.4 L92.5,137.9 L93.2,137.4 L93.9,136.9 L93.8,150.0 Z\" fill=\"#b5453a\" fill-opacity=\"0.35\" stroke=\"none\"/><path d=\"M226.2,150.0 L226.2,136.9 L226.8,137.4 L227.5,137.9 L228.2,138.4 L228.8,138.9 L229.5,139.3 L230.2,139.7 L230.9,140.2 L231.6,140.6 L232.2,141.0 L232.9,141.3 L233.6,141.7 L234.2,142.1 L234.9,142.4 L235.6,142.7 L236.3,143.1 L237.0,143.4 L237.6,143.7 L238.3,143.9 L239.0,144.2 L239.7,144.5 L240.3,144.7 L241.0,145.0 L241.7,145.2 L242.4,145.5 L243.0,145.7 L243.7,145.9 L244.4,146.1 L245.1,146.3 L245.7,146.5 L246.4,146.6 L247.1,146.8 L247.8,147.0 L248.4,147.1 L249.1,147.3 L249.8,147.4 L250.5,147.5 L251.1,147.7 L251.8,147.8 L252.5,147.9 L253.2,148.0 L253.8,148.1 L254.5,148.2 L255.2,148.3 L255.9,148.4 L256.5,148.5 L257.2,148.6 L257.9,148.7 L258.6,148.7 L259.2,148.8 L259.9,148.9 L260.6,148.9 L261.2,149.0 L261.9,149.1 L262.6,149.1 L263.3,149.2 L264.0,149.2 L264.6,149.3 L265.3,149.3 L266.0,149.4 L266.7,149.4 L267.3,149.4 L268.0,149.5 L268.7,149.5 L269.4,149.5 L270.0,149.6 L270.7,149.6 L271.4,149.6 L272.1,149.6 L272.7,149.7 L273.4,149.7 L274.1,149.7 L274.8,149.7 L275.4,149.7 L276.1,149.8 L276.8,149.8 L277.5,149.8 L278.1,149.8 L278.8,149.8 L279.5,149.8 L280.2,149.8 L280.8,149.9 L281.5,149.9 L282.2,149.9 L282.9,149.9 L283.5,149.9 L284.2,149.9 L284.9,149.9 L285.6,149.9 L286.2,149.9 L286.9,149.9 L287.6,149.9 L288.3,149.9 L288.9,149.9 L289.6,149.9 L290.3,149.9 L291.0,150.0 L291.6,150.0 L292.3,150.0 L293.0,150.0 L293.7,150.0 L294.3,150.0 L295.0,150.0 L295.0,150.0 Z\" fill=\"#b5453a\" fill-opacity=\"0.35\" stroke=\"none\"/><polyline points=\"25.0,150.0 26.7,150.0 28.4,150.0 30.1,149.9 31.7,149.9 33.4,149.9 35.1,149.9 36.8,149.9 38.5,149.9 40.2,149.8 41.9,149.8 43.6,149.8 45.2,149.7 46.9,149.7 48.6,149.6 50.3,149.5 52.0,149.5 53.7,149.4 55.4,149.3 57.1,149.1 58.7,149.0 60.4,148.8 62.1,148.7 63.8,148.5 65.5,148.2 67.2,148.0 68.9,147.7 70.6,147.3 72.2,147.0 73.9,146.5 75.6,146.1 77.3,145.6 79.0,145.0 80.7,144.4 82.4,143.7 84.1,142.9 85.7,142.1 87.4,141.1 89.1,140.2 90.8,139.1 92.5,137.9 94.2,136.7 95.9,135.3 97.6,133.9 99.2,132.3 100.9,130.7 102.6,129.0 104.3,127.1 106.0,125.2 107.7,123.1 109.4,121.0 111.1,118.8 112.7,116.5 114.4,114.1 116.1,111.6 117.8,109.1 119.5,106.5 121.2,103.9 122.9,101.2 124.6,98.6 126.2,95.8 127.9,93.1 129.6,90.4 131.3,87.8 133.0,85.2 134.7,82.6 136.4,80.1 138.1,77.7 139.7,75.4 141.4,73.2 143.1,71.2 144.8,69.3 146.5,67.6 148.2,66.0 149.9,64.6 151.6,63.5 153.2,62.5 154.9,61.7 156.6,61.2 158.3,60.8 160.0,60.7 161.7,60.8 163.4,61.2 165.1,61.7 166.7,62.5 168.4,63.5 170.1,64.6 171.8,66.0 173.5,67.6 175.2,69.3 176.9,71.2 178.6,73.2 180.2,75.4 181.9,77.7 183.6,80.1 185.3,82.6 187.0,85.2 188.7,87.8 190.4,90.4 192.1,93.1 193.7,95.8 195.4,98.6 197.1,101.2 198.8,103.9 200.5,106.5 202.2,109.1 203.9,111.6 205.6,114.1 207.2,116.5 208.9,118.8 210.6,121.0 212.3,123.1 214.0,125.2 215.7,127.1 217.4,129.0 219.1,130.7 220.7,132.3 222.4,133.9 224.1,135.3 225.8,136.7 227.5,137.9 229.2,139.1 230.9,140.2 232.6,141.1 234.2,142.1 235.9,142.9 237.6,143.7 239.3,144.4 241.0,145.0 242.7,145.6 244.4,146.1 246.1,146.5 247.7,147.0 249.4,147.3 251.1,147.7 252.8,148.0 254.5,148.2 256.2,148.5 257.9,148.7 259.6,148.8 261.2,149.0 262.9,149.1 264.6,149.3 266.3,149.4 268.0,149.5 269.7,149.5 271.4,149.6 273.1,149.7 274.7,149.7 276.4,149.8 278.1,149.8 279.8,149.8 281.5,149.9 283.2,149.9 284.9,149.9 286.6,149.9 288.2,149.9 289.9,149.9 291.6,150.0 293.3,150.0 295.0,150.0\" fill=\"none\" stroke=\"#2a78d6\" stroke-width=\"1.8\"/><line x1=\"25.0\" y1=\"150.0\" x2=\"295.0\" y2=\"150.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><line x1=\"25.0\" y1=\"150.0\" x2=\"25.0\" y2=\"154.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><text x=\"25.0\" y=\"165.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">−4</text><line x1=\"92.5\" y1=\"150.0\" x2=\"92.5\" y2=\"154.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><text x=\"92.5\" y=\"165.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">−2</text><line x1=\"160.0\" y1=\"150.0\" x2=\"160.0\" y2=\"154.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><text x=\"160.0\" y=\"165.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">0</text><line x1=\"227.5\" y1=\"150.0\" x2=\"227.5\" y2=\"154.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><text x=\"227.5\" y=\"165.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">2</text><line x1=\"295.0\" y1=\"150.0\" x2=\"295.0\" y2=\"154.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><text x=\"295.0\" y=\"165.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">4</text><line x1=\"93.8\" y1=\"150.0\" x2=\"93.8\" y2=\"46.0\" stroke=\"#b5453a\" stroke-width=\"1\" stroke-dasharray=\"3 2\"/><text x=\"93.8\" y=\"40.0\" text-anchor=\"middle\" fill=\"#b5453a\" font-size=\"10.2\">−1,96</text><line x1=\"226.2\" y1=\"150.0\" x2=\"226.2\" y2=\"46.0\" stroke=\"#b5453a\" stroke-width=\"1\" stroke-dasharray=\"3 2\"/><text x=\"226.2\" y=\"40.0\" text-anchor=\"middle\" fill=\"#b5453a\" font-size=\"10.2\">+1,96</text><line x1=\"205.2\" y1=\"150.0\" x2=\"205.2\" y2=\"46.0\" stroke=\"#2c2a26\" stroke-width=\"2\"/><circle cx=\"205.2\" cy=\"150.0\" r=\"4.5\" fill=\"#2c2a26\" stroke=\"#faf8f3\" stroke-width=\"1.5\"><title>Z = 1,34</title></circle><text x=\"202.2\" y=\"40.0\" text-anchor=\"end\" fill=\"#2c2a26\" font-size=\"10.8\">Z ≈ 1,34</text><text x=\"160.0\" y=\"16.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.8\">P̂ ≈ 0,29 · Z = 0,09 / 0,067 ≈ 1,34 (tipărit 1,29)</text><text x=\"160.0\" y=\"180.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">Z (bilateral, α = 0,05)</text></svg>"
+          }
+        ]
+      },
+      {
+        "titlu": "Alegerea testului și interpretarea",
+        "tabel": {
+          "cap": [
+            "Situația",
+            "Testul",
+            "Distribuția",
+            "Numitorul"
+          ],
+          "randuri": [
+            [
+              "Medii, n1 ≥ 30 și n2 ≥ 30",
+              "Z pentru două medii",
+              "Z",
+              "√(s1²/(n1 − 1) + s2²/(n2 − 1))"
+            ],
+            [
+              "Medii, n1 < 30 sau/și n2 < 30",
+              "t pentru două medii (cere σ1 = σ2)",
+              "t, n1 + n2 − 2 gl",
+              "estimarea combinată a abaterii standard"
+            ],
+            [
+              "Proporții, n1 ≥ 30 și n2 ≥ 30",
+              "Z pentru două proporții",
+              "Z",
+              "√(P̂(1 − P̂)) · √((n1 + n2)/(n1·n2))"
+            ],
+            [
+              "Aceiași subiecți / perechi",
+              "alt test (nu cele din unitate)",
+              "—",
+              "—"
+            ]
+          ]
+        },
+        "noduri": [
+          {
+            "t": "Alegerea testului",
+            "d": "Întâi tipul variabilei (scoruri de interval/raport → medii; categorii → proporții), apoi independența eșantioanelor, apoi mărimea fiecărui eșantion (≥ 30 → Z; altfel t, pentru medii)."
+          },
+          {
+            "t": "Semnificație statistică",
+            "d": "Respingerea lui H0 spune că diferența greu se explică prin întâmplare, la riscul α ales; nu spune cât de mare sau de importantă e diferența (Cap. 8 (Testarea ipotezelor despre o singură populație))."
+          },
+          {
+            "t": "Nerespingerea lui H0",
+            "d": "Datele nu permit concluzia că populațiile diferă; asta nu dovedește că sunt egale."
+          },
+          {
+            "t": "Mărimea eșantioanelor și semnificația",
+            "d": "Consecință a formulelor: aceeași diferență și aceleași s dau un Z mai mare cu eșantioane mai mari (eroarea scade cu √n). De 10 ori mai mulți participanți → Z de circa 3,2 ori mai mare."
+          }
+        ],
+        "figuri": [
+          {
+            "titlu": "Aceeași diferență, eșantioane mai mari",
+            "nota": "Ilustrativ: mediile și abaterile standard din exemplul cu bărbați și femei, cu n egal în cele două grupuri. Diferența nu se schimbă; scade doar eroarea standard.",
+            "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 200\" role=\"img\" aria-label=\"Valoarea lui Z crește cu mărimea eșantioanelor pentru aceeași diferență\" font-family=\"Georgia, serif\" font-size=\"13\"><line x1=\"45.0\" y1=\"160.0\" x2=\"300.0\" y2=\"160.0\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><text x=\"41.0\" y=\"163.5\" text-anchor=\"end\" fill=\"#6b6760\" font-size=\"10.2\">0</text><line x1=\"45.0\" y1=\"127.5\" x2=\"300.0\" y2=\"127.5\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><text x=\"41.0\" y=\"131.0\" text-anchor=\"end\" fill=\"#6b6760\" font-size=\"10.2\">1</text><line x1=\"45.0\" y1=\"95.0\" x2=\"300.0\" y2=\"95.0\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><text x=\"41.0\" y=\"98.5\" text-anchor=\"end\" fill=\"#6b6760\" font-size=\"10.2\">2</text><line x1=\"45.0\" y1=\"62.5\" x2=\"300.0\" y2=\"62.5\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><text x=\"41.0\" y=\"66.0\" text-anchor=\"end\" fill=\"#6b6760\" font-size=\"10.2\">3</text><line x1=\"45.0\" y1=\"30.0\" x2=\"300.0\" y2=\"30.0\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><text x=\"41.0\" y=\"33.5\" text-anchor=\"end\" fill=\"#6b6760\" font-size=\"10.2\">4</text><line x1=\"45.0\" y1=\"96.3\" x2=\"300.0\" y2=\"96.3\" stroke=\"#b5453a\" stroke-width=\"1.2\" stroke-dasharray=\"4 3\"/><text x=\"298.0\" y=\"92.3\" text-anchor=\"end\" fill=\"#b5453a\" font-size=\"10.2\">1,96</text><polyline points=\"60.3,132.5 70.5,124.3 96.0,109.2 147.0,88.0 198.0,71.8 300.0,46.0\" fill=\"none\" stroke=\"#2a78d6\" stroke-width=\"2\"/><circle cx=\"60.3\" cy=\"132.5\" r=\"4.5\" fill=\"#2a78d6\" stroke=\"#faf8f3\" stroke-width=\"1.5\"><title>n = 30 pe grup: Z = 0,85</title></circle><circle cx=\"70.5\" cy=\"124.3\" r=\"4.5\" fill=\"#2a78d6\" stroke=\"#faf8f3\" stroke-width=\"1.5\"><title>n = 50 pe grup: Z = 1,10</title></circle><circle cx=\"96.0\" cy=\"109.2\" r=\"4.5\" fill=\"#2a78d6\" stroke=\"#faf8f3\" stroke-width=\"1.5\"><title>n = 100 pe grup: Z = 1,56</title></circle><circle cx=\"147.0\" cy=\"88.0\" r=\"4.5\" fill=\"#2a78d6\" stroke=\"#faf8f3\" stroke-width=\"1.5\"><title>n = 200 pe grup: Z = 2,22</title></circle><circle cx=\"198.0\" cy=\"71.8\" r=\"4.5\" fill=\"#2a78d6\" stroke=\"#faf8f3\" stroke-width=\"1.5\"><title>n = 300 pe grup: Z = 2,72</title></circle><circle cx=\"300.0\" cy=\"46.0\" r=\"4.5\" fill=\"#2a78d6\" stroke=\"#faf8f3\" stroke-width=\"1.5\"><title>n = 500 pe grup: Z = 3,51</title></circle><text x=\"96.0\" y=\"174.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">100</text><text x=\"198.0\" y=\"174.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">300</text><text x=\"300.0\" y=\"174.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">500</text><text x=\"60.3\" y=\"174.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">30</text><text x=\"172.0\" y=\"192.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">subiecți în fiecare grup</text><text x=\"14.0\" y=\"95.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">|Z|</text><text x=\"172.0\" y=\"16.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.8\">diferența 3 puncte, s1 = 13, s2 = 14</text></svg>"
+          }
+        ]
+      }
+    ]
+  }
+}

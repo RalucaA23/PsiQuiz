@@ -1,0 +1,1553 @@
+{
+ "schema": "quiz-capitol-v3",
+ "capitol": 9,
+ "titlu": "Atenția",
+ "sursa": "Manual Psihologie experimentală (UTM), Capitolul 9",
+ "reconstituit": "Reconstituit pe 16 nov. 2026 din pagina publicată Psihologie_experimentala.html (capitolele erau încorporate în pagină). Lipsesc câmpurile 'tip' și 'exemplu_nou', care nu ajung în pagină; restul (hartă, runde, întrebări vizibile și ascunse) e identic cu pagina.",
+ "harta": {
+  "centru": "Atenția",
+  "ramuri": [
+   {
+    "titlu": "1. Natura atenției",
+    "noduri": [
+     {
+      "t": "Definiția atenției",
+      "d": "Focalizarea resurselor interioare și a stării de conștiință. În 2.1: capacitatea de a focaliza resursele cognitive asupra unui stimul sau unei sarcini, reducând interferența altor stimuli; o resursă limitată."
+     },
+     {
+      "t": "Elementele esențiale ale atenției",
+      "d": "(1) obiectul focalizării e în fruntea conștiinței; (2) devine mai clar și mai viu decât alte obiecte; (3) atenția selectează unul dintre mai mulți stimuli; (4) ceilalți stimuli cad în afara conștientizării până la deconectarea de la focalizare."
+     },
+     {
+      "t": "Funcțiile atenției",
+      "d": "Reduce cantitatea de informație procesată suplimentar; adecvează intrarea la capacitatea disponibilă (metafora diafragmei camerei); e o poartă pentru fluxul de informații; direcționează comportamentul după caracteristicile spațiale și temporale ale situației."
+     },
+     {
+      "t": "Atenția nu e un proces unitar",
+      "d": "La mijlocul secolului XX era definită ca un singur proces de filtrare; ulterior a devenit clar că e o clasă (un domeniu) de procese comportamentale și cognitive distincte."
+     },
+     {
+      "t": "De ce a crescut interesul (5 factori)",
+      "d": "Atenția guvernează interfața experiență internă – lume exterioară; e una dintre cele mai vulnerabile funcții cognitive; poate fi operaționalizată mai precis; viața modernă o solicită tot mai mult; imagistica funcțională permite măsurarea activității cerebrale."
+     },
+     {
+      "t": "Constrângeri asupra atenției",
+      "d": "Neuronale (organizarea creierului, ignorată de multe teorii cognitive); viteza de procesare și resurse (au dus la analize cronometrice); memorie și atenție (unii au considerat atenția sinonimă cu memoria pe termen scurt); spațio-temporale."
+     },
+     {
+      "t": "Viteza de procesare și resurse",
+      "d": "Viteza operațiilor din creier limitează unele aspecte ale performanței; de aici, analizele cronometrice (de exemplu, timpul de a mișca un deget după activarea corticală). În 2.23: viteza variază cu vârsta, sănătatea, pregătirea cognitivă."
+     },
+     {
+      "t": "Conștiință și conștientizare",
+      "d": "Stările experiențiale asociate atenției. În teoriile cognitive timpurii, conștientizarea era condiție a atenției; azi există dovezi că nu toate procesele atenționale o cer. Atenția ineficientă: neatenție, oboseală, distractibilitate, confuzie, impersistență, neglijare."
+     }
+    ]
+   },
+   {
+    "titlu": "2. Tipurile de atenție",
+    "tabel": {
+     "cap": [
+      "Tip",
+      "Ce înseamnă",
+      "Exemplu din carte"
+     ],
+     "randuri": [
+      [
+       "Selectivă (concentrată)",
+       "Concentrată: informația selectată în raport cu constrângerile temporal-spațiale; selectivă: alegerea, prioritatea unor informații",
+       "Ecuația complexă, șahul (concentrată); radioul ascultat pentru o melodie, girofarul poliției (selectivă)"
+      ],
+      [
+       "Distributivă (divizată)",
+       "Împărțirea între mai multe surse; limitată, depinde de automatizarea sarcinilor",
+       "Adolescentul care face teme la TV; dactilograful care vorbește în timp ce scrie"
+      ],
+      [
+       "Susținută",
+       "Persistență pe o perioadă lungă; uneori vigilență mare cu puține răspunsuri",
+       "Paznicul de noapte (motivație, oboseală, plictiseală)"
+      ],
+      [
+       "Executivă (focusată către un scop)",
+       "Procesare controlată, cu efort, dirijată de scop (vectorul de dirijare)",
+       "Radio la mers – ușor; la efort fizic extrem atenția se mută pe semnalele corpului"
+      ],
+      [
+       "Intenție și atenție direcționată",
+       "Selecția are loc în raport cu cerințele de răspuns, ca parte a intenției de a acționa",
+       "Alegerea comportamentului care aduce cel mai bun rezultat"
+      ],
+      [
+       "Alternantă (2.1)",
+       "Schimbarea rapidă între sarcini sau stimuli",
+       "—"
+      ]
+     ]
+    },
+    "noduri": [
+     {
+      "t": "Atenția selectivă (concentrată)",
+      "d": "Selecția: unor elemente informaționale li se acordă prioritate față de altele, mereu în raport cu un cadru temporal-spațial. Exemplu: ascultăm radioul pentru o anumită melodie; lumina intermitentă a poliției ne atrage atenția spre locul ei."
+     },
+     {
+      "t": "Atenția distributivă (divizată)",
+      "d": "Dificilă din cauza interferenței stimulilor concurenți; capacitatea e limitată, iar calitatea performanței depinde de cât de automate sunt sarcinile (dactilograful a cărui tastare s-a „automatizat”)."
+     },
+     {
+      "t": "Atenția susținută",
+      "d": "Performanța variază cu caracteristicile temporale ale sarcinii. Paznicul care veghează o noapte întreagă: evenimente de joasă frecvență, vigilență mare, puține răspunsuri; factori: motivația, oboseala, plictiseala."
+     },
+     {
+      "t": "Atenția executivă (focusată către un scop)",
+      "d": "Cere efort susținut și conștientizare; la efort fizic extrem devenim conștienți de semnalele corpului (bătăile inimii) – efecte de interferență datorate solicitărilor de efort. Vectorul de dirijare: scopul ce trebuie atins."
+     },
+     {
+      "t": "Atenția alternantă",
+      "d": "Abilitatea de a schimba rapid între sarcini sau stimuli (2.1). Înrudit: switching-ul atențional (2.3), opus divertismentului atențional (dificultatea de a rămâne pe sarcină din cauza distragerilor)."
+     },
+     {
+      "t": "Atenția exogenă și endogenă",
+      "d": "Exogenă: orientată de stimulii din mediu (vizuali, auditivi). Endogenă: orientată voluntar de individ spre un obiectiv, independent de stimuli externi. Corespund atenției involuntare și voluntare."
+     },
+     {
+      "t": "Procesare paralelă și serială",
+      "d": "Paralelă: mai mulți stimuli simultan; serială: pas cu pas. Folosirea lor depinde de context și de sarcină (2.3)."
+     },
+     {
+      "t": "Divertismentul și switching-ul atențional",
+      "d": "2.3: divertismentul atențional e dificultatea de a menține atenția pe o sarcină din cauza distragerilor; switching-ul atențional e capacitatea de a trece rapid între sarcini sau stimuli, crucială într-un mediu care se schimbă repede."
+     }
+    ]
+   },
+   {
+    "titlu": "3. Modelul neuropsihologic cu patru factori",
+    "noduri": [
+     {
+      "t": "Modelul neuropsihologic cu patru factori",
+      "d": "Atenția e produsul secundar a patru seturi de procese: selecția senzorială; executiv – selecția și controlul răspunsului; capacitatea de concentrare; atenția susținută, vigilența și persistența. Nu sunt complet ortogonali (pot împărți mecanisme neuronale)."
+     },
+     {
+      "t": "Selecția senzorială",
+      "d": "Trei procese: filtrarea, focalizarea, schimbarea automată. Schimbarea automată e legată de răspunsul de orientare, controlat prin obișnuință și sensibilizare."
+     },
+     {
+      "t": "Executiv – selecția și controlul răspunsului",
+      "d": "Patru procese: intenția de răspuns; inițierea și inhibiția; comutarea activă; controlul executiv de supraveghere. Sunt sub influența sistemelor anterioare din cortexul premotor și prefrontal."
+     },
+     {
+      "t": "Comutarea activă",
+      "d": "Diferă de schimbarea automată (răspunsul de orientare) pentru că implică o căutare exploratorie a mediului; privirea și comportamentele de observare sunt expresia ei."
+     },
+     {
+      "t": "Capacitatea de concentrare",
+      "d": "Atenția e o resursă limitată. Factori structurali: memoria, viteza de procesare neuronală, reprezentarea temporal-spațială. Factori energetici: capacitatea pe termen scurt – excitarea și efortul."
+     },
+     {
+      "t": "Atenția susținută (ca factor)",
+      "d": "Produsul final al celorlalți factori, dar factor separat, pentru că descrie distribuția lor în timp. Poate fi afectată de oboseală (ore de calcule) sau de absența cererii cognitive; depinde de ceilalți trei factori."
+     },
+     {
+      "t": "Intenția, selecția răspunsului și atenția executivă",
+      "d": "2.5: intenția – starea mentală în care individul își propune o acțiune sau un scop; selecția răspunsului – alegerea unui răspuns după evaluarea opțiunilor; atenția executivă – formă superioară de control (planificare, organizare, adaptare, menținerea obiectivelor). Intenția influențează ce informații sunt selectate."
+     }
+    ]
+   },
+   {
+    "titlu": "4. Repere istorice și filozofice",
+    "noduri": [
+     {
+      "t": "Antichitate și Evul Mediu",
+      "d": "Platon și Aristotel – natura minții; pentru Aristotel, experiența senzorială ia forma lumii exterioare. Evul Mediu: Sf. Augustin și Toma d'Aquino – concentrarea minții în relație cu credința."
+     },
+     {
+      "t": "Descartes și Locke",
+      "d": "Descartes distinge senzația stimulilor externi de percepția clară și distinctă; simțurile duc la „un impuls spontan de a crede ceva”. Locke (iluminism): mintea e la început tabula rasa, cunoașterea vine din experiență și observație atentă."
+     },
+     {
+      "t": "Wundt",
+      "d": "Fondator al psihologiei experimentale; atenția și conștiința erau probleme centrale; primul capitol al manualului său introductiv a fost dedicat atenției și relației ei cu experiența conștientă."
+     },
+     {
+      "t": "Titchener (structuralism)",
+      "d": "Elev al lui Wundt; toate modelele atenției implică claritatea sporită a senzațiilor și ideilor asistate; a studiat influențele contextuale; „legea intrării prealabile”."
+     },
+     {
+      "t": "James (funcționalism)",
+      "d": "„Principiile psihologiei”; atenția discutată pe dimensiuni: sursa conținutului, sursa interesului, caracterul activ sau pasiv."
+     },
+     {
+      "t": "Behaviorismul și atenția",
+      "d": "30–50 de ani atenția a dispărut în mare parte din cercetarea americană; behaviorismul a evitat termenul, dar teoria învățării a contribuit (răspunsul de orientare, obișnuința)."
+     },
+     {
+      "t": "Gestalt",
+      "d": "Derivă din raționalismul german (Kant); percepțiile depind de context – relația figură-fond, „întregul e mai mult decât suma părților”."
+     },
+     {
+      "t": "Secolul XX",
+      "d": "Cognitivismul aduce o perspectivă științifică asupra proceselor mentale; sunt numiți William James, Jean Piaget, Ulric Neisser. Din anii 1970, schimbare majoră odată cu era informației."
+     }
+    ]
+   },
+   {
+    "titlu": "5. Procesarea informației și ascultarea dihotică",
+    "noduri": [
+     {
+      "t": "Shannon și Weaver (1949)",
+      "d": "„The Mathematical Theory of Communication”. Niveluri: A – problema tehnică (cât de exact se transmit simbolurile); B – semantică (cât de precis transmit sensul); C – eficiența (cât de bine afectează sensul comportamentul). Schema: sursă → transmițător → canal → receptor → destinație. Comunicarea: toate procedurile prin care o minte o poate afecta pe alta (sau un mecanism, pe altul)."
+     },
+     {
+      "t": "Broadbent (1958)",
+      "d": "„Perception and Communication”; diagrama fluxului de informații a organismului. Sistemul nervos acționează ca un singur canal cu capacitate limitată (sistemul P), deci se face o selecție a intrărilor."
+     },
+     {
+      "t": "Ascultarea dihotică",
+      "d": "Procedură introdusă de Cherry: în căști se redau simultan două mesaje; ascultătorul monitorizează unul, repetându-l cuvânt cu cuvânt – umbrirea mesajului. Rezultatele au dus la conceptul de blocaj atențional."
+     },
+     {
+      "t": "Neisser",
+      "d": "A încercat să elimine rolul filtrului atențional și a argumentat împotriva capacității limitate: nimic din structura creierului nu arată unde ar apărea limitări de canal. A studiat și clipuri video suprapuse (1979)."
+     },
+     {
+      "t": "Moray și Navon",
+      "d": "Moray: pentru tipuri diferite de input sunt implicate mecanisme diferite. Navon: teoria resurselor a fost acceptată din lipsa alternativelor; un model al sarcinilor multiple poate porni de la premisa că resursele nu sunt necesare."
+     },
+     {
+      "t": "Vigilența (Broadbent, Parasuraman)",
+      "d": "Teoria detectării semnalului e o metodologie puternică pentru performanța atențională. Excitarea afectează nivelul general și sensibilitatea; schimbările de criterii și sarcini explică scăderea performanței în timp."
+     },
+     {
+      "t": "Legea intrării prealabile",
+      "d": "Atenția scurtează timpul de reacție; reacționăm mai repede la evenimente așteptate. Titchener: stimulii la care receptorul e predispus ajung în conștiință mai repede decât un stimul nou."
+     },
+     {
+      "t": "Tehnicile lui Hirst pentru sarcini duble",
+      "d": "Integrare (două sarcini contopite într-una de ordin superior – salopeta); automaticitate (o sarcină exersată până devine automată – condus și vorbit); segregare (sarcini izolate, fără „dialog încrucișat”); partajarea timpului (atenția comutată la intersecții – prelegerea)."
+     },
+     {
+      "t": "Concluziile cercetării timpurii",
+      "d": "A operaționalizat constructele, a găsit selecție timpurie, a plasat atenția între percepție, memorie și răspuns. Limite: modele de mașini (ignoră motivația), atenția ca proces unitar, accent pe stadiile timpurii. Rămân: automat vs controlat, capacitatea, amorsarea; metodele cronometrice. Influență durabilă: timpul de răspuns, împreună cu datele de acuratețe, ca măsură a funcțiilor atenționale."
+     }
+    ]
+   },
+   {
+    "titlu": "6. Modelele atenției",
+    "tabel": {
+     "cap": [
+      "Model",
+      "Autor",
+      "Ideea centrală"
+     ],
+     "randuri": [
+      [
+       "Filtru (selecție timpurie)",
+       "Broadbent (1958)",
+       "Selecție după trăsături fizice; sensul canalului ignorat nu e procesat"
+      ],
+      [
+       "Atenuare",
+       "Treisman (1960)",
+       "Canalul ignorat e slăbit, nu blocat; informația pertinentă (propriul nume) trece"
+      ],
+      [
+       "Selecție târzie",
+       "Deutsch (1963)",
+       "Totul e procesat pentru sens; doar ce e relevant pentru răspuns devine conștient"
+      ],
+      [
+       "Multimodal",
+       "Johnston și Heinz (1978)",
+       "Stadiul selecției se schimbă după sarcină; selecția târzie cere mai mult efort"
+      ],
+      [
+       "Feature Integration Theory",
+       "Treisman",
+       "Atenția integrează trăsăturile vizuale separate într-o percepție unitară"
+      ],
+      [
+       "Load Theory",
+       "Nilli Lavie",
+       "Încărcarea sarcinii afectează detectarea stimulilor irelevanți"
+      ],
+      [
+       "Spotlight",
+       "Michael Posner",
+       "Atenția ca reflector îndreptat spre o zonă a spațiului"
+      ],
+      [
+       "Resource Model",
+       "Kahneman",
+       "Atenția e o resursă finită împărțită între activități"
+      ],
+      [
+       "Guided Search",
+       "Jeremy Wolfe",
+       "Atenția e ghidată de trăsăturile obiectelor (culoare, formă)"
+      ]
+     ]
+    },
+    "noduri": [
+     {
+      "t": "Modelul filtrului (Broadbent)",
+      "d": "Selecție foarte timpurie, după trăsături fizice: urechea (canalul), înălțimea vocii, culoarea sau fontul. Oamenii sunt vag conștienți de trăsăturile fizice ale mesajului ignorat, dar nu de sens."
+     },
+     {
+      "t": "Modelul de atenuare (Treisman)",
+      "d": "Explică efectul cocktail party: ne auzim numele într-o conversație ignorată. În experimentul cu poveștile schimbate între urechi, participanții urmau spontan povestea. Selecția începe la nivel fizic, dar informația ignorată e doar atenuată."
+     },
+     {
+      "t": "Modele de selecție târzie (Deutsch)",
+      "d": "Toată informația din urechea nesupravegheată e procesată pentru sens; doar cea relevantă pentru răspuns devine conștientă. Compatibil cu ideea de percepție subliminală."
+     },
+     {
+      "t": "Modelul multimodal (Johnston și Heinz)",
+      "d": "Selecția poate avea loc foarte devreme (voce masculină/feminină – ușor, automat) sau târziu, după sens (mai dificil, cu efort). Avantajul: flexibilitate după scop."
+     },
+     {
+      "t": "Orbirea neatențională",
+      "d": "Neisser (1979): clipuri suprapuse, spectatorii nu observă ce se întâmplă în celălalt. Simons și Chabris (1999) au extins rezultatele – un stimul clar vizibil rămâne neobservat când atenția e prinsă de altă sarcină."
+     },
+     {
+      "t": "Feature Integration Theory (FIT)",
+      "d": "Treisman: atenția e esențială pentru a uni trăsăturile vizuale separate ale unui obiect într-o percepție unitară."
+     },
+     {
+      "t": "Load Theory (Lavie)",
+      "d": "Atenția are capacitate limitată; sarcinile se clasifică după încărcare; cele cu încărcare ridicată afectează detectarea stimulilor irelevanți."
+     },
+     {
+      "t": "Modelul Spotlight (Posner)",
+      "d": "Atenția ca un proiector/reflector îndreptat spre o zonă a spațiului, mutat rapid după cerințe. În 2.20, și modelul Posner al atenției spațiale (voluntară sau captată involuntar)."
+     },
+     {
+      "t": "Resource Model (Kahneman)",
+      "d": "Atenția e o resursă finită; concentrarea intensă pe o sarcină reduce resursele pentru altele. În 2.20 cartea pomenește și „atenția duală” a lui Kahneman: Sistemul 1 (rapid, automat) și Sistemul 2 (lent, conștient)."
+     },
+     {
+      "t": "Modelul Guided Search (Wolfe)",
+      "d": "Atenția e ghidată de caracteristicile obiectelor (culoare, formă) în selecția stimulilor."
+     },
+     {
+      "t": "Modele neuropsihologice (2.20)",
+      "d": "Selectarea stimulilor (Broadbent); focalizare și distribuție (Spotlight); procesare seriată și paralelă (Treisman); susținută și selectivă (Kahneman, Sistemul 1/2); voluntară și involuntară (Posner)."
+     }
+    ]
+   },
+   {
+    "titlu": "7. Răspunsul de orientare și bazele neuronale",
+    "noduri": [
+     {
+      "t": "Răspunsul de orientare (RO)",
+      "d": "Indicele atenției: reacții automate, fiziologice și comportamentale, la stimuli noi sau semnificativi (orientarea capului, creșterea vigilenței, dilatarea pupilelor). Se măsoară prin EEG, EDA, mișcările capului și ochilor. RO exogen (stimul extern) și endogen (atenție voluntară). Funcție adaptativă."
+     },
+     {
+      "t": "Obișnuința și sensibilizarea",
+      "d": "Răspunsul de orientare și obișnuința sunt printre cele mai simple forme de comportament atențional, descrise întâi în teoriile învățării; schimbarea automată a atenției e controlată prin obișnuință și sensibilizare."
+     },
+     {
+      "t": "Perspective comportamentale",
+      "d": "Observarea directă a comportamentelor atenționale, experimente de laborator (timp de reacție, distrageri), antrenament atențional, condiționarea răspunsurilor atenționale, competiția stimulilor pentru resurse."
+     },
+     {
+      "t": "Electroencefalografia (EEG)",
+      "d": "Non-invazivă, electrozi pe scalp; variații ale undelor alfa, beta, theta, delta după tipul de atenție; rezoluție temporală înaltă. Baza aplicațiilor BCI și a antrenării atenției prin biofeedback (cu RV și RA)."
+     },
+     {
+      "t": "MEG",
+      "d": "Magnetoencefalografia măsoară câmpurile magnetice ale activității electrice; mai puțin folosită decât EEG, dar cu rezoluție spațială mai bună."
+     },
+     {
+      "t": "Potențiale evocate (ERP) și P300",
+      "d": "Răspunsuri electrice la stimuli specifici, înregistrate prin EEG; P300 = vârf de undă la circa 300 ms după stimul. Oscilațiile și sincronizarea dintre regiuni reflectă coordonarea atențională."
+     },
+     {
+      "t": "Controlul top-down și bottom-up",
+      "d": "Top-down: atenția dirijată de obiectivele și intențiile individului. Bottom-up: atenția captată involuntar de stimuli externi și semnale neașteptate."
+     },
+     {
+      "t": "Structuri cerebrale",
+      "d": "Rețeaua atenției: cortex prefrontal (control, decizie; DLPFC, VLPFC), cortex parietal (atenție spațială; lobul parietal inferior), coliculi superiori, sistemul reticular activator (veghe, alertă), talamus (filtrare), cingular anterior și posterior, ganglioni bazali și striatum (recompensă), amigdală (valoare emoțională). Striatumul e parte a ganglionilor bazali: procesează recompensa și direcționează atenția după calitățile de întărire ale stimulilor."
+     },
+     {
+      "t": "Neurotransmițătorii",
+      "d": "Dopamina și noradrenalina – jucătorii cheie; acetilcolina influențează alerta; GABA și glutamatul – inhibiție și excitație. Sistemul dopaminergic (nucleul accumbens, cortex prefrontal): recompensă, motivație, control."
+     },
+     {
+      "t": "Neuroimagistica atenției",
+      "d": "fMRI – fluxul de sânge, localizarea regiunilor active; EEG – rezoluție temporală înaltă; PET – activitate metabolică (glucoză); sMRI – anatomie. Plus conectivitate funcțională și evaluarea antrenamentelor."
+     },
+     {
+      "t": "Abordări computaționale",
+      "d": "Rețele neuronale artificiale, modele de atenție vizuală (contrast, mișcare, saliență), simularea atenției selective; utile în IA și designul interfețelor, dar sunt simplificări validate prin date empirice."
+     },
+     {
+      "t": "Constrângeri neuronale (2.22)",
+      "d": "Sistemul reticular activator (trunchiul cerebral: veghe, alertă generală); nucleul anterior al talamusului (filtrează și direcționează informația spre cortex); cortexul parietal (atenție spațială); cortexul prefrontal (control, comutare, impulsuri); oscilațiile alfa, beta, gama; neurotransmițătorii (dopamină, noradrenalină, acetilcolină); plasticitatea sinaptică."
+     },
+     {
+      "t": "Rețele neuronale și conectivitate funcțională",
+      "d": "Cuvinte cheie: rețele neuronale – grupuri de neuroni care îndeplinesc împreună o funcție; conectivitate funcțională – gradul în care regiuni diferite lucrează împreună în timpul unui proces; procesare recursivă – informația prelucrată și reprelucrată, adesea repetitiv; plasticitate sinaptică – modificarea sinapselor după experiență."
+     }
+    ]
+   },
+   {
+    "titlu": "8. Tulburări, evaluare clinică și autoreglare",
+    "noduri": [
+     {
+      "t": "Tulburări ale atenției senzoriale selective (2.12)",
+      "d": "TDAH; agnozia asociativă; neglijența spațială unilaterală; asomatognosia (nu e conștientă de părți ale propriului corp); sindromul atenției selective auditive (filtrarea sunetelor în zgomot); tulburările de procesare senzorială (reacții excesive sau insuficiente)."
+     },
+     {
+      "t": "Neglijența spațială unilaterală",
+      "d": "Adesea după leziuni cerebrale (frecvent ale cortexului parietal): pacientul ignoră stimulii din partea neglijată a spațiului sau a câmpului vizual."
+     },
+     {
+      "t": "Agnozia asociativă",
+      "d": "Persoana vede obiectul, dar nu îl poate asocia cu numele sau cu utilizarea lui obișnuită."
+     },
+     {
+      "t": "Tulburări neurologice și factori de risc",
+      "d": "Boli neurologice: AVC, Alzheimer, Parkinson, scleroza multiplă. Tulburări medicale: boli cronice, tulburări de somn. Factori comportamentali: alcool, fumat, alimentație necorespunzătoare, lipsa exercițiului."
+     },
+     {
+      "t": "Tulburări psihiatrice ale atenției",
+      "d": "TDAH, schizofrenie, depresie, anxietate, TOC (atenție prinsă de obsesii), TSPT (hipervigilență la stimulii legați de traumă), tulburările de alimentație."
+     },
+     {
+      "t": "Tulburări de dezvoltare ale atenției",
+      "d": "TDAH, tulburările de dezvoltare a învățării (dislexie, discalculie), a coordonării motorii, a limbajului, TOD, tulburarea ticurilor, autismul (mai ales în situații sociale)."
+     },
+     {
+      "t": "Evaluarea clinică",
+      "d": "Anamneza (istoria simptomelor, dezvoltării, factorilor de mediu); interviul clinic (contextul și impactul, cu persoana sau părinții); instrumente standardizate. Urmează diagnosticul, planul individualizat, intervențiile (comportamentală, medicamentoasă, consiliere), monitorizarea și educația. Monitorizarea și revizuirea tratamentului: evaluarea periodică și colaborarea cu părinții, profesorii și echipa."
+     },
+     {
+      "t": "Conștientizare și atenție autodirecționată",
+      "d": "Conștientizarea atenției; atenția autodirecționată; atenția conștientă plină de intenție; reglarea după obiective; atenția deschisă și nejudicătoare (observarea gândurilor fără a le judeca). Se dezvoltă prin meditație și antrenament."
+     }
+    ]
+   }
+  ]
+ },
+ "runde": [
+  {
+   "id": "1",
+   "eticheta": "Runda 1 · Bază",
+   "titlu": "Runda 1 — Concepte de bază",
+   "desc": "Recunoaștere: definiția și funcțiile atenției, tipurile ei, modelul cu patru factori, reperele istorice, teoria informației și modelele selecției.",
+   "intrebari": [
+    {
+     "q": "Ce reprezintă atenția, în definiția ei generală?",
+     "opts": [
+      "Reținerea selectivă a informației în memoria de scurtă durată",
+      "Transformarea energiei stimulului în impuls nervos",
+      "Focalizarea resurselor interioare și a stării de conștiință",
+      "Organizarea senzațiilor într-o imagine unitară a obiectului"
+     ],
+     "correct": 2,
+     "explain": "Manualul spune că atenția reprezintă focalizarea resurselor interioare și a stării de conștiință. Reținerea în memoria de scurtă durată e o capcană: unii cercetători au tratat atenția ca sinonim al memoriei pe termen scurt, dar asta e o constrângere asupra atenției, nu definiția ei. Transformarea energiei stimulului în impuls nervos e transducția din Cap. 7 (Procese senzoriale), iar organizarea senzațiilor într-o imagine unitară descrie percepția din Cap. 8 (Procese perceptive).",
+     "tag": "Definiția atenției"
+    },
+    {
+     "q": "Care dintre afirmații este unul dintre cele patru elemente esențiale ale atenției?",
+     "opts": [
+      "Obiectul focalizării devine mai clar și mai viu decât celelalte",
+      "Stimulii neselectați rămân conștienți, dar sunt mai puțin clari",
+      "Mai mulți stimuli sunt cuprinși deodată, la fel de clar",
+      "Obiectul focalizării se află la periferia conștiinței"
+     ],
+     "correct": 0,
+     "explain": "Al doilea element esențial: obiectul focalizării devine mai clar și mai viu în raport cu alte obiecte sau gânduri posibile. Varianta cu stimulii neselectați „conștienți, dar mai puțin clari” contrazice al patrulea element: ceilalți stimuli cad în afara conștientizării până la deconectarea de la focalizare. Atenția implică selecția unuia dintre mai mulți stimuli, nu cuprinderea lor egală, iar obiectul focalizării e în fruntea conștiinței, nu la periferie.",
+     "tag": "Elementele esențiale ale atenției"
+    },
+    {
+     "q": "Cu ce este comparată atenția, ca funcție care adecvează intrarea la capacitatea disponibilă a individului?",
+     "opts": [
+      "Cu un reflector care luminează o anumită zonă a spațiului",
+      "Cu o tablă goală, pe care se înscrie experiența",
+      "Cu un canal unic de comunicare, cu capacitate limitată",
+      "Cu diafragma sistemului de lentile al unei camere"
+     ],
+     "correct": 3,
+     "explain": "Metafora din secțiunea despre funcțiile atenției e diafragma camerei: schimbând profunzimea câmpului și punctul focal, atenția ne orientează spre aspectele potrivite. Reflectorul e și el în capitol, dar e modelul Spotlight al lui Posner, nu metafora funcțiilor. Tabla goală (tabula rasa) e ideea lui Locke despre minte, iar canalul unic cu capacitate limitată e concepția lui Broadbent despre sistemul nervos.",
+     "tag": "Funcțiile atenției"
+    },
+    {
+     "q": "Ce au constatat cercetătorii cognitivi și comportamentali, spre deosebire de psihologii cognitivi de la mijlocul secolului XX?",
+     "opts": [
+      "Că atenția e un singur proces, care filtrează stimulii",
+      "Că atenția e o clasă de procese distincte, nu un proces unitar",
+      "Că atenția e o funcție identică memoriei de scurtă durată",
+      "Că atenția e un răspuns învățat prin condiționare operantă"
+     ],
+     "correct": 1,
+     "explain": "Psihologii de la mijlocul secolului XX defineau atenția ca un singur proces de filtrare; abordând varietatea experienței atenționale, cercetătorii au constatat că ea nu e un proces unitar, ci un domeniu de procese comportamentale și cognitive. „Un singur proces de filtrare” e exact poziția depășită. Identitatea cu memoria de scurtă durată e doar opinia unor cercetători, iar condiționarea operantă vine din behaviorism, prezentat în Cap. 1 (Psihologia experimentală. Știință și metodă), nu e o concluzie a capitolului.",
+     "tag": "Atenția nu e un proces unitar"
+    },
+    {
+     "q": "Care exemplu ilustrează atenția selectivă, cea legată de alegere?",
+     "opts": [
+      "Dactilograful care vorbește în timp ce scrie la mașină",
+      "Ascultarea radioului în așteptarea unei anumite melodii",
+      "Paznicul care urmărește o noapte întreagă intrușii",
+      "Alergătorul care nu mai poate urmări radioul la efort extrem"
+     ],
+     "correct": 1,
+     "explain": "Când ascultăm radioul pentru o anumită melodie, dăm prioritate unor informații față de altele: asta e selecția. Dactilograful care vorbește în timp ce scrie ilustrează atenția divizată și automatizarea, paznicul ilustrează atenția susținută (vigilență, puține răspunsuri), iar interferența la efort fizic extrem e exemplul pentru atenția executivă.",
+     "tag": "Atenția selectivă (concentrată)"
+    },
+    {
+     "q": "De ce depinde calitatea performanței în mai multe sarcini simultane?",
+     "opts": [
+      "De câte canale senzoriale sunt implicate",
+      "De nivelul de vigilență al subiectului",
+      "De durata totală a sarcinilor executate",
+      "De cât de automatizate sunt sarcinile"
+     ],
+     "correct": 3,
+     "explain": "Calitatea performanței în sarcini simultane depinde de cât de automate sunt sarcinile, ca la dactilograful a cărui tastare a devenit „automatizată” și cere puține resurse cognitive. Numărul de canale nu e criteriul dat în carte, vigilența ține de atenția susținută, iar durata sarcinii e caracteristica temporală care definește atenția susținută, nu pe cea divizată.",
+     "tag": "Atenția distributivă (divizată)"
+    },
+    {
+     "q": "Cu ce factori temporali se confruntă paznicul care veghează o noapte întreagă?",
+     "opts": [
+      "Motivația susținută, oboseala și plictiseala",
+      "Intensitatea, durata și frecvența stimulilor",
+      "Filtrarea, focalizarea și schimbarea automată",
+      "Integrarea, segregarea și partajarea timpului"
+     ],
+     "correct": 0,
+     "explain": "Paznicul se confruntă cu nivelul de motivație susținut, oboseala și plictiseala. Intensitatea, durata și frecvența sunt particularități ale stimulilor din studiul percepției din Cap. 8 (Procese perceptive), filtrarea, focalizarea și schimbarea automată sunt componentele selecției senzoriale, iar integrarea, segregarea și partajarea timpului sunt tehnici ale lui Hirst pentru sarcini duble.",
+     "tag": "Atenția susținută"
+    },
+    {
+     "q": "Ce este „vectorul de dirijare” al atenției executive?",
+     "opts": [
+      "Stimulul cel mai intens din mediu",
+      "Semnalele transmise de propriul corp",
+      "Scopul care trebuie atins",
+      "Răspunsul de orientare declanșat automat"
+     ],
+     "correct": 2,
+     "explain": "Manualul spune că atenția executivă „are un vector de dirijare care este scopul ce trebuie atins”, de aceea e numită focusată către un scop. Stimulul intens atrage atenția involuntar (bottom-up, exogen), semnalele corpului sunt ceea ce acaparează atenția la efort extrem, iar răspunsul de orientare e o reacție automată, nu dirijată de un scop.",
+     "tag": "Atenția executivă (focusată către un scop)"
+    },
+    {
+     "q": "Ce este atenția alternantă?",
+     "opts": [
+      "Abilitatea de a schimba rapid între sarcini sau stimuli",
+      "Capacitatea de a distribui atenția pe mai mulți stimuli deodată",
+      "Capacitatea de a menține concentrarea o perioadă îndelungată",
+      "Abilitatea de a ignora distragerile, rămânând pe un aspect"
+     ],
+     "correct": 0,
+     "explain": "Atenția alternantă e abilitatea de a schimba rapid între diferite sarcini sau stimuli (cu switching-ul atențional din 2.3 ca idee apropiată). Distribuirea pe mai mulți stimuli în același timp e atenția distribuită, menținerea îndelungată e atenția susținută, iar concentrarea pe un aspect ignorând altele e atenția selectivă.",
+     "tag": "Atenția alternantă"
+    },
+    {
+     "q": "Ce este atenția endogenă?",
+     "opts": [
+      "Atenția orientată de stimulii din mediu, vizuali sau auditivi",
+      "Atenția captată involuntar de o noutate puternică din mediu",
+      "Atenția orientată voluntar de individ, independent de stimuli externi",
+      "Atenția menținută mult timp fără a se lăsa distrasă"
+     ],
+     "correct": 2,
+     "explain": "Atenția endogenă e orientată voluntar de individ către un aspect sau obiectiv, independent de stimuli externi. Orientarea de către stimulii din mediu e definiția atenției exogene, iar captarea involuntară de o noutate e tot latura exogenă (bottom-up). Menținerea îndelungată fără distragere e atenția susținută.",
+     "tag": "Atenția exogenă și endogenă"
+    },
+    {
+     "q": "Ce fapt a condus la analizele cronometrice ale atenției?",
+     "opts": [
+      "Atenția a fost considerată sinonimă cu memoria pe termen scurt",
+      "Viteza operațiilor din creier limitează performanța atențională",
+      "Realitatea externă ne apare într-o organizare spațio-temporală",
+      "Multe teorii cognitive ignoră complet organizarea creierului"
+     ],
+     "correct": 1,
+     "explain": "Constrângerea „viteza de procesare și resurse”: viteza cu care se efectuează operațiile în creier limitează unele aspecte ale performanței atenționale, iar acest fapt a dus la analize cronometrice (de exemplu, timpul necesar pentru a mișca un deget după activarea corticală). Celelalte trei variante sunt adevărate, dar descriu celelalte constrângeri: memoria și atenția, constrângerile spațio-temporale și cele neuronale.",
+     "tag": "Viteza de procesare și resurse"
+    },
+    {
+     "q": "Care sunt cele patru seturi de procese din modelul neuropsihologic unificat al atenției?",
+     "opts": [
+      "Selecția senzorială, atenția alternantă, capacitatea de concentrare, atenția susținută",
+      "Filtrarea, focalizarea, schimbarea automată, controlul executiv de supraveghere",
+      "Constrângerile neuronale, viteza de procesare, memoria, constrângerile spațio-temporale",
+      "Selecția senzorială, controlul executiv, capacitatea de concentrare, atenția susținută"
+     ],
+     "correct": 3,
+     "explain": "Modelul are patru factori: selecția senzorială; executiv – selecția și controlul răspunsului; concentrarea în raport cu limitările de capacitate; atenția susținută, vigilența și persistența. Varianta cu „atenția alternantă” schimbă un singur termen (alternanța apare abia în 2.1, ca tip, nu ca factor). Filtrarea, focalizarea și schimbarea automată sunt componentele primului factor, iar a patra listă enumeră constrângerile asupra atenției, nu factorii modelului.",
+     "tag": "Modelul neuropsihologic cu patru factori"
+    },
+    {
+     "q": "Ce procese componente implică selecția senzorială timpurie?",
+     "opts": [
+      "Intenția de răspuns, inițierea și inhibiția",
+      "Filtrarea, focalizarea și schimbarea automată",
+      "Excitarea, efortul și viteza de procesare",
+      "Comutarea activă și controlul de supraveghere"
+     ],
+     "correct": 1,
+     "explain": "Trei procese înrudite intră în selecția senzorială timpurie: filtrarea, focalizarea și schimbarea automată (legată de răspunsul de orientare). Intenția, inițierea și inhibiția și comutarea activă cu controlul de supraveghere sunt componentele factorului executiv. Excitarea și efortul sunt factorii energetici ai capacității, iar viteza de procesare ține de capacitatea structurală.",
+     "tag": "Selecția senzorială"
+    },
+    {
+     "q": "Ce reflectă factorii energetici ai capacității atenționale?",
+     "opts": [
+      "Constrângerile memoriei și viteza de procesare neuronală",
+      "Natura reprezentării temporal-spațiale a informației",
+      "Variabilitatea performanței atenționale de-a lungul timpului",
+      "Capacitatea pe termen scurt a sistemului: excitarea și efortul"
+     ],
+     "correct": 3,
+     "explain": "Factorii energetici reflectă capacitatea pe termen scurt a sistemului: excitarea și efortul. Constrângerile memoriei, viteza de procesare și natura reprezentării temporal-spațiale limitează capacitatea structurală (celălalt tip de factor). Variabilitatea performanței în timp e ceea ce caracterizează atenția susținută.",
+     "tag": "Capacitatea de concentrare"
+    },
+    {
+     "q": "Ce contribuție la studiul atenției i se atribuie lui Wilhelm Wundt?",
+     "opts": [
+      "A formulat legea intrării prealabile a stimulilor",
+      "A descris atenția după sursa interesului și caracterul activ",
+      "Primul capitol al manualului său a fost dedicat atenției",
+      "A propus diagrama fluxului informațional al organismului"
+     ],
+     "correct": 2,
+     "explain": "Wundt a considerat atenția și conștiința probleme centrale ale psihologiei experimentale, iar primul capitol al manualului său introductiv a fost dedicat atenției și relației ei cu experiența conștientă. Legea intrării prealabile e a lui Titchener, dimensiunile (sursa conținutului, a interesului, caracter activ sau pasiv) sunt ale lui William James, iar diagrama fluxului informațional e a lui Broadbent.",
+     "tag": "Wundt"
+    },
+    {
+     "q": "Ce idee comună tuturor modelelor de atenție a susținut Titchener?",
+     "opts": [
+      "Claritatea sporită a senzațiilor și ideilor asistate",
+      "Primatul comportamentului deschis și observabil",
+      "Întregul e adesea mai mult decât suma părților",
+      "Experiența senzorială ia forma lumii exterioare"
+     ],
+     "correct": 0,
+     "explain": "Titchener, elevul lui Wundt și reprezentantul structuralismului, a susținut că toate modelele de atenție implică ideea de claritate sporită a senzațiilor și ideilor asistate; el a studiat și influențele contextuale. Comportamentul deschis e accentul behaviorismului, întregul mai mare decât suma părților e ideea gestaltistă, din Cap. 1 (Psihologia experimentală. Știință și metodă) și Cap. 8 (Procese perceptive), iar experiența senzorială care ia forma lumii exterioare e concepția lui Aristotel.",
+     "tag": "Titchener (structuralism)"
+    },
+    {
+     "q": "În schema sistemului de comunicare a lui Shannon și Weaver, ce componentă schimbă mesajul într-un semnal care poate fi transmis prin canal?",
+     "opts": [
+      "Sursa de informații",
+      "Receptorul",
+      "Destinația",
+      "Transmițătorul"
+     ],
+     "correct": 3,
+     "explain": "Sursa de informații selectează mesajul dintr-un set de mesaje, transmițătorul îl schimbă într-un semnal transmisibil prin canal, receptorul transformă semnalul înapoi în mesaj, iar destinația îl primește. Sursa alege mesajul, receptorul face operația inversă, iar destinația doar primește.",
+     "tag": "Shannon și Weaver (1949)"
+    },
+    {
+     "q": "Cum se numește, în ascultarea dihotică, repetarea cu voce tare, cuvânt cu cuvânt, a mesajului monitorizat?",
+     "opts": [
+      "Atenuarea mesajului",
+      "Umbrirea mesajului",
+      "Amorsarea mesajului",
+      "Filtrarea mesajului"
+     ],
+     "correct": 1,
+     "explain": "În procedura introdusă de Cherry, ascultătorul repetă cuvânt cu cuvânt mesajul pe care îl monitorizează; această repetiție rostită se numește umbrirea mesajului. Atenuarea e mecanismul din modelul lui Treisman, amorsarea e un efect asupra atenției selective (printre constructele rămase importante), iar filtrarea e mecanismul din modelul lui Broadbent.",
+     "tag": "Ascultarea dihotică"
+    },
+    {
+     "q": "Pe baza căror trăsături selectează oamenii informația, în modelul filtrului al lui Broadbent?",
+     "opts": [
+      "Semnificația mesajului, analizată înainte de selecție",
+      "Pertinența mesajului, de exemplu propriul nume rostit",
+      "Trăsături fizice: urechea, înălțimea vocii, culoarea sau fontul",
+      "Cerințele sarcinii, care mută stadiul selecției"
+     ],
+     "correct": 2,
+     "explain": "Broadbent a găsit că selecția se face după trăsături fizice (canalul senzorial sau urechea, înălțimea vocii, culoarea ori fontul), deci foarte devreme. Analiza semnificației înainte de selecție e modelul de selecție târzie al lui Deutsch, pertinența (propriul nume) trece prin filtru în modelul de atenuare al lui Treisman, iar stadiul variabil după sarcină e modelul multimodal (Johnston și Heinz).",
+     "tag": "Modelul filtrului (Broadbent)"
+    },
+    {
+     "q": "Ce se întâmplă cu informația nesupravegheată în modelul lui Anne Treisman?",
+     "opts": [
+      "Nu e blocată complet, ci doar slăbită (atenuată)",
+      "E blocată complet la nivelul analizei fizice",
+      "E procesată integral pentru sens înainte de selecție",
+      "E transferată direct în memoria de scurtă durată"
+     ],
+     "correct": 0,
+     "explain": "Treisman a propus că selecția începe la nivel fizic sau perceptiv, dar informația nesupravegheată e doar atenuată; dacă e foarte pertinentă (propriul nume), controlul atenuării o întărește. Blocarea completă la analiza fizică e modelul lui Broadbent, procesarea integrală pentru sens e selecția târzie a lui Deutsch, iar în memoria de scurtă durată ajunge informația selectată, nu cea ignorată.",
+     "tag": "Modelul de atenuare (Treisman)"
+    }
+   ],
+   "ascunse": [
+    {
+     "q": "Ce este răspunsul de orientare, considerat indicele atenției?",
+     "opts": [
+      "Scăderea treptată a sensibilității receptorilor la un stimul constant",
+      "Reacții automate ale organismului la stimuli noi sau semnificativi",
+      "Căutarea exploratorie voluntară a mediului, prin mișcările privirii",
+      "Orientarea deliberată a atenției spre un obiectiv propus"
+     ],
+     "correct": 1,
+     "explain": "Răspunsul de orientare (RO) e ansamblul de reacții automate, fiziologice și comportamentale (orientarea capului, creșterea vigilenței, dilatarea pupilelor), la stimuli noi sau semnificativi. Scăderea sensibilității la un stimul constant e adaptarea senzorială din Cap. 7 (Procese senzoriale), căutarea exploratorie cu privirea e comutarea activă, iar orientarea deliberată spre un obiectiv e atenția direcționată (endogenă).",
+     "tag": "Răspunsul de orientare (RO)"
+    },
+    {
+     "q": "Ce avantaj are magnetoencefalografia (MEG) față de EEG?",
+     "opts": [
+      "O rezoluție temporală mai bună a activității electrice",
+      "Măsurarea directă a consumului de glucoză al creierului",
+      "Măsurarea modificărilor fluxului de sânge din creier",
+      "O rezoluție spațială mai bună în localizarea surselor"
+     ],
+     "correct": 3,
+     "explain": "MEG măsoară câmpurile magnetice generate de activitatea electrică; e mai puțin folosită decât EEG, dar are rezoluție spațială mai bună și detectează precis sursele. Rezoluția temporală înaltă e punctul forte al EEG, consumul de glucoză îl urmărește PET, iar fluxul sanguin îl măsoară fMRI.",
+     "tag": "MEG"
+    },
+    {
+     "q": "Ce este P300?",
+     "opts": [
+      "O componentă ERP, un vârf de undă la circa 300 ms după stimul",
+      "O undă EEG de repaus, prezentă când subiectul stă cu ochii închiși",
+      "Un indice electrodermal al răspunsului de orientare",
+      "Pragul de 300 ms sub care un stimul devine subliminal"
+     ],
+     "correct": 0,
+     "explain": "Potențialele evocate (ERP) sunt răspunsurile electrice ale creierului la stimuli specifici, înregistrate prin EEG; P300 e vârful observat în jur de 300 ms după stimul și e folosit pentru a studia atenția. Nu e o undă de repaus (acestea sunt benzile alfa, beta, theta, delta), nu e un indice electrodermal, ca EDA sau EDR din Cap. 3 (Metoda observației), și nu e un prag de percepție subliminală, temă din Cap. 7 (Procese senzoriale) și Cap. 8 (Procese perceptive).",
+     "tag": "Potențiale evocate (ERP) și P300"
+    },
+    {
+     "q": "Cu leziuni în ce regiune este asociată adesea neglijarea spațială unilaterală?",
+     "opts": [
+      "Cortexul prefrontal",
+      "Formațiunea reticulară",
+      "Cortexul parietal",
+      "Nucleul accumbens"
+     ],
+     "correct": 2,
+     "explain": "Rezumatul spune că neglijarea spațială unilaterală, în care pacienții ignoră stimulii dintr-o parte a spațiului, e asociată adesea cu leziuni ale cortexului parietal, regiunea orientării spațiale a atenției. Cortexul prefrontal ține de control, decizie și planificare, formațiunea reticulară de starea de alertă, iar nucleul accumbens de sistemul dopaminergic al recompensei.",
+     "tag": "Neglijența spațială unilaterală"
+    },
+    {
+     "q": "Care sunt cele patru tehnici rezumate de Hirst pentru performanța în sarcini duble?",
+     "opts": [
+      "Filtrare, focalizare, schimbare automată, comutare activă",
+      "Integrare, atenuare, segregare, selecție târzie",
+      "Integrare, automaticitate, segregare, partajarea timpului",
+      "Intenție, inițiere, inhibiție, control de supraveghere"
+     ],
+     "correct": 2,
+     "explain": "Hirst a rezumat patru tehnici: integrare, automaticitate, segregare și partajarea timpului. Lista cu „atenuare” și „selecție târzie” amestecă termeni din modelele lui Treisman și Deutsch. Filtrarea, focalizarea și schimbarea automată țin de selecția senzorială, iar intenția, inițierea, inhibiția și controlul de supraveghere sunt componentele factorului executiv.",
+     "tag": "Tehnicile lui Hirst pentru sarcini duble"
+    },
+    {
+     "q": "Ce susține Load Theory, dezvoltată de Nilli Lavie?",
+     "opts": [
+      "Sarcinile cu încărcare mare afectează detectarea stimulilor irelevanți",
+      "Atenția integrează trăsăturile vizuale separate ale unui obiect perceput",
+      "Atenția e ghidată de culoarea sau forma obiectelor căutate",
+      "Atenția e o resursă finită, împărțită între mai multe activități"
+     ],
+     "correct": 0,
+     "explain": "Load Theory clasifică sarcinile după nivelul de încărcare a atenției pe care îl cer; cele cu încărcare ridicată afectează capacitatea de a detecta stimuli irelevanți. Integrarea trăsăturilor e teoria FIT a lui Treisman, ghidarea după culoare sau formă e Guided Search (Wolfe), iar resursa finită împărțită între activități e modelul resurselor al lui Kahneman.",
+     "tag": "Load Theory (Lavie)"
+    },
+    {
+     "q": "În ce termeni a discutat William James atenția?",
+     "opts": [
+      "Claritatea sporită și influențele contextuale ale senzațiilor",
+      "Relația figură-fond și organizarea întregului perceput",
+      "Comportamentul deschis și relațiile stimul-răspuns",
+      "Sursa conținutului, sursa interesului, caracterul activ sau pasiv"
+     ],
+     "correct": 3,
+     "explain": "James, reprezentantul funcționalismului și autorul „Principiilor psihologiei”, a discutat atenția pe mai multe dimensiuni: sursa conținutului, sursa interesului și caracterul activ sau pasiv. Claritatea sporită și influențele contextuale sunt ale lui Titchener, figura-fond e tema gestaltiștilor, iar comportamentul deschis și relațiile stimul-răspuns sunt behaviorismul.",
+     "tag": "James (funcționalism)"
+    },
+    {
+     "q": "Sub influența căror sisteme cerebrale se află, în mare măsură, procesele factorului executiv (intenție, inițiere, inhibiție, comutare activă)?",
+     "opts": [
+      "Sistemele posterioare din cortexul vizual și parietal",
+      "Sistemele anterioare din cortexul premotor și prefrontal",
+      "Sistemele subcorticale din talamus și hipotalamus",
+      "Sistemele limbice din amigdală și din hipocamp"
+     ],
+     "correct": 1,
+     "explain": "Manualul spune că aceste procese sunt în mare măsură sub influența sistemelor cerebrale anterioare din cortexul premotor și prefrontal. Cortexul vizual și parietal țin de atenția vizuală și spațială, talamusul și hipotalamusul sunt influențele subcorticale, iar amigdala și hipocampul sunt influențele limbice (emoție, motivație).",
+     "tag": "Executiv – selecția și controlul răspunsului"
+    },
+    {
+     "q": "Care neurotransmițători sunt considerați „jucătorii cheie” în reglarea atenției?",
+     "opts": [
+      "Dopamina și noradrenalina",
+      "GABA și glutamatul",
+      "Serotonina și melatonina",
+      "Acetilcolina și histamina"
+     ],
+     "correct": 0,
+     "explain": "Rezumatul îi numește pe dopamina și noradrenalina jucătorii cheie în reglarea atenției și focalizarea pe stimulii relevanți. GABA și glutamatul apar tot în rezumat, dar cu rol în inhibiție și excitație. Acetilcolina e pomenită la constrângerile neuronale, fără a fi „jucător cheie”, iar serotonina, melatonina și histamina nu sunt discutate în capitol.",
+     "tag": "Neurotransmițătorii"
+    },
+    {
+     "q": "Ce s-a întâmplat cu studiul atenției în Statele Unite în perioada de 30–50 de ani dominată de behaviorism?",
+     "opts": [
+      "A devenit tema centrală, studiată mai ales prin introspecție controlată",
+      "A fost redusă la studiul relației figură-fond din percepție",
+      "A dispărut în mare parte, deși teoria învățării a contribuit indirect",
+      "A fost studiată mai ales prin neuroimagistică funcțională"
+     ],
+     "correct": 2,
+     "explain": "Behaviorismul a concentrat experimentarea pe comportamentul deschis și a evitat termenul „atenție”, care a dispărut în mare măsură din investigații; totuși, teoria învățării și descoperirile behavioriștilor au contribuit semnificativ la înțelegerea atenției (de pildă, răspunsul de orientare și obișnuința). Introspecția ține de Wundt și Titchener, figura-fond de Gestalt, iar neuroimagistica e mult mai recentă.",
+     "tag": "Behaviorismul și atenția"
+    }
+   ]
+  },
+  {
+   "id": "2",
+   "eticheta": "Runda 2 · Aplicații",
+   "titlu": "Runda 2 — Scenarii și raționament",
+   "desc": "Aplică modelele atenției, tehnicile lui Hirst, răspunsul de orientare, metodele de investigare și tulburările pe situații concrete.",
+   "intrebari": [
+    {
+     "q": "Ioana discută într-o cafenea aglomerată și nu reține nimic din conversația de la masa vecină, dar tresare când cineva de acolo îi rostește numele. Ce model explică cel mai bine faptul că numele a ajuns la ea?",
+     "opts": [
+      "Modelul filtrului timpuriu al lui Broadbent",
+      "Modelul de atenuare al lui Treisman",
+      "Modelul reflectorului (Spotlight) al lui Posner",
+      "Teoria integrării trăsăturilor (FIT)"
+     ],
+     "correct": 1,
+     "explain": "E efectul cocktail party: informația nesupravegheată nu e blocată, ci atenuată, iar ceva foarte pertinent (propriul nume) trece de filtru. Filtrul lui Broadbent nu poate explica faptul, fiindcă blochează complet sensul canalului ignorat. Spotlight descrie deplasarea atenției în spațiu, iar FIT (tot a lui Treisman, dar alt model) privește integrarea trăsăturilor vizuale.",
+     "tag": "Modelul de atenuare (Treisman)"
+    },
+    {
+     "q": "Într-un experiment, participanții umbresc un text în urechea dreaptă, iar în stânga aud o listă de cuvinte. La final știu că în stânga vorbea o femeie, dar nu pot reproduce niciun cuvânt. Cum ar interpreta Broadbent rezultatul?",
+     "opts": [
+      "Informația ignorată e procesată pentru sens, dar nu devine conștientă",
+      "Informația ignorată e slăbită și trece doar dacă e pertinentă",
+      "Stadiul selecției s-a mutat după cerințele acestei sarcini",
+      "Informația ignorată nu depășește analiza fizică de bază"
+     ],
+     "correct": 3,
+     "explain": "Pentru Broadbent, oamenii sunt vag conștienți de caracteristicile fizice ale informației nesupravegheate (aici, vocea feminină), dar nu de sens, pentru că filtrul lasă să treacă doar canalul ales. Procesarea pentru sens fără conștientizare e interpretarea lui Deutsch, atenuarea cu trecerea informației pertinente e a lui Treisman, iar stadiul care se mută după sarcină e modelul multimodal.",
+     "tag": "Modelul filtrului (Broadbent)"
+    },
+    {
+     "q": "Participanții umbresc mesajul dintr-o ureche. Ulterior, în sarcini de completare a cuvintelor, sunt influențați de sensul cuvintelor din urechea nesupravegheată, deși nu le pot raporta. Cu ce model e cel mai compatibil rezultatul?",
+     "opts": [
+      "Modelul de selecție târzie al lui Deutsch",
+      "Modelul filtrului timpuriu al lui Broadbent",
+      "Teoria integrării trăsăturilor a lui Treisman",
+      "Modelul căutării ghidate al lui Wolfe"
+     ],
+     "correct": 0,
+     "explain": "Deutsch (1963) susține că toate informațiile din urechea nesupravegheată sunt procesate pentru sens, dar doar cele relevante pentru răspuns devin conștiente; modelul e în acord cu ideea de percepție subliminală. Filtrul lui Broadbent ar opri sensul la analiza fizică. Capcana e numele lui Treisman: FIT e despre integrarea trăsăturilor vizuale, nu despre urechea nesupravegheată. Guided Search privește căutarea vizuală după trăsături.",
+     "tag": "Modele de selecție târzie (Deutsch)"
+    },
+    {
+     "q": "Un pilot recunoaște ușor vocea controlorului după timbru, fără efort. Când trebuie să urmărească sensul mai multor mesaje radio înainte să decidă la care răspunde, obosește mult mai repede. Ce model descrie cel mai bine situația?",
+     "opts": [
+      "Modelul filtrului timpuriu al lui Broadbent",
+      "Modelul de atenuare al lui Treisman",
+      "Modelul multimodal al lui Johnston și Heinz",
+      "Modelul resurselor al lui Kahneman"
+     ],
+     "correct": 2,
+     "explain": "Modelul multimodal spune că stadiul selecției se schimbă după sarcină: selecția după trăsături fizice (voce masculină sau feminină, timbru) e ușoară și automată, iar selecția târzie, după procesarea conținutului tuturor mesajelor, cere mult mai mult efort. Broadbent și Treisman fixează selecția devreme; Kahneman explică împărțirea unei resurse finite între activități, nu mutarea stadiului selecției.",
+     "tag": "Modelul multimodal (Johnston și Heinz)"
+    },
+    {
+     "q": "Un chelner începător se concentrează doar să nu scape tava. După câteva luni, dusul tăvii nu-i mai cere atenție și poate discuta liniștit cu clienții. Ce tehnică a lui Hirst ilustrează?",
+     "opts": [
+      "Integrarea",
+      "Segregarea",
+      "Partajarea timpului",
+      "Automaticitatea"
+     ],
+     "correct": 3,
+     "explain": "Automaticitatea înseamnă exersarea unei sarcini până devine automată, apoi combinarea ei cu alta (ca la condus și vorbit). Integrarea ar contopi cele două sarcini într-o singură acțiune de ordin superior, segregarea ar menține sarcinile izolate cognitiv una de alta, iar partajarea timpului ar presupune alternarea atenției între ele.",
+     "tag": "Tehnicile lui Hirst pentru sarcini duble"
+    },
+    {
+     "q": "Un DJ își mixează setul, iar în cele câteva secunde de tranziție dintre melodii răspunde la mesajele organizatorului, apoi revine complet la mixaj. Ce tehnică a lui Hirst folosește?",
+     "opts": [
+      "Partajarea timpului",
+      "Automaticitatea",
+      "Integrarea",
+      "Segregarea"
+     ],
+     "correct": 0,
+     "explain": "În partajarea timpului, atenția nu e împărțită, ci comutată de la o sarcină la alta la „intersecții”, aici la tranzițiile dintre melodii. Automaticitatea ar presupune că mixajul nu mai cere atenție, integrarea ar contopi sarcinile într-una singură, iar segregarea le-ar menține izolate ca să funcționeze în paralel.",
+     "tag": "Tehnicile lui Hirst pentru sarcini duble"
+    },
+    {
+     "q": "Un agent de pază urmărește toată noaptea monitorul unei parcări goale, unde se întâmplă ceva poate o dată pe lună. Ce tip de atenție îi solicită în principal sarcina?",
+     "opts": [
+      "Atenția divizată între mai multe surse simultane",
+      "Atenția executivă sub efort fizic extrem",
+      "Atenția susținută, cu vigilență mare și puține răspunsuri",
+      "Atenția alternantă, cu comutări rapide între sarcini"
+     ],
+     "correct": 2,
+     "explain": "Sarcina e de lungă durată, cu evenimente de joasă frecvență: exact profilul atenției susținute descrise prin exemplul paznicului (vigilență ridicată, puține răspunsuri, cu motivația, oboseala și plictiseala ca factori). Nu sunt mai multe surse simultane (divizată), nici efort fizic (executivă), nici comutări rapide (alternantă).",
+     "tag": "Atenția susținută"
+    },
+    {
+     "q": "Un maratonist observă că în ultimii kilometri nu mai poate urmări podcastul din căști și devine tot mai conștient de bătăile propriei inimi. Ce fenomen descrie acest tip de situație?",
+     "opts": [
+      "Adaptarea senzorială la un stimul auditiv constant",
+      "Interferența datorată solicitărilor de efort",
+      "Orbirea neatențională la un stimul neașteptat",
+      "Atenuarea mesajului nesupravegheat"
+     ],
+     "correct": 1,
+     "explain": "La secțiunea despre atenția executivă, manualul arată că la efort fizic extrem oamenii devin tot mai conștienți de semnalele corpului, iar atenția continuă la alte informații devine imposibilă: sunt efecte de interferență datorate solicitărilor de efort. Adaptarea senzorială din Cap. 7 (Procese senzoriale) e scăderea sensibilității receptorilor la un stimul constant, orbirea neatențională privește un stimul neașteptat neobservat, iar atenuarea e mecanismul lui Treisman.",
+     "tag": "Atenția executivă (focusată către un scop)"
+    },
+    {
+     "q": "În sala de lectură, cineva scapă o carte grea și toți cei prezenți întorc brusc capul spre zgomot. Ce reacție a apărut?",
+     "opts": [
+      "Un răspuns de orientare endogen",
+      "O comutare activă a atenției",
+      "Un răspuns de orientare exogen",
+      "O obișnuință față de stimul"
+     ],
+     "correct": 2,
+     "explain": "Reacția automată (orientarea capului) la un sunet puternic și neașteptat e un răspuns de orientare exogen, declanșat de un stimul extern. RO endogen ar fi generat de atenția voluntară, fără stimul extern, comutarea activă e o căutare exploratorie deliberată, iar obișnuința ar însemna tocmai scăderea reacției după repetare.",
+     "tag": "Răspunsul de orientare (RO)"
+    },
+    {
+     "q": "Într-un birou, imprimanta scoate același bip de zeci de ori pe zi. După o săptămână, nimeni nu mai ridică privirea când bipăie. Ce proces controlează această scădere a răspunsului de orientare?",
+     "opts": [
+      "Sensibilizarea",
+      "Obișnuința",
+      "Adaptarea senzorială",
+      "Comutarea activă"
+     ],
+     "correct": 1,
+     "explain": "Manualul spune că schimbarea automată a atenției, legată de răspunsul de orientare, e controlată prin obișnuință și sensibilizare; scăderea reacției la un stimul repetat, fără importanță, e obișnuința. Sensibilizarea ar crește reacția. Adaptarea senzorială din Cap. 7 (Procese senzoriale) e scăderea sensibilității receptorilor la un stimul continuu, nu la unul intermitent, deja cunoscut. Comutarea activă e căutare voluntară.",
+     "tag": "Obișnuința și sensibilizarea"
+    },
+    {
+     "q": "O cercetătoare vrea să afle exact după câte milisecunde creierul diferențiază un stimul-țintă rar de stimulii frecvenți. Ce tehnică i se potrivește cel mai bine?",
+     "opts": [
+      "Tomografia cu emisie de pozitroni (PET)",
+      "Rezonanța magnetică structurală (sMRI)",
+      "Înregistrarea activității electrodermale (EDA)",
+      "Potențialele evocate (ERP), înregistrate prin EEG"
+     ],
+     "correct": 3,
+     "explain": "ERP sunt răspunsurile electrice la stimuli specifici, înregistrate prin EEG, care are rezoluție temporală înaltă; componente ca P300 (circa 300 ms după stimul) arată cum creierul atribuie atenție anumitor stimuli. PET urmărește metabolismul glucozei, cu rezoluție temporală slabă; sMRI arată doar anatomia; EDA, activitatea electrodermală înrudită cu EDR din Cap. 3 (Metoda observației), e un indice periferic al activării, fără precizia de milisecunde.",
+     "tag": "Potențiale evocate (ERP) și P300"
+    },
+    {
+     "q": "Un neuropsiholog vrea să localizeze regiunile cerebrale active în timpul unei sarcini de atenție spațială, pe baza modificărilor fluxului de sânge. Ce tehnică alege?",
+     "opts": [
+      "Rezonanța magnetică funcțională (fMRI)",
+      "Electroencefalografia (EEG)",
+      "Rezonanța magnetică structurală (sMRI)",
+      "Tomografia cu emisie de pozitroni (PET)"
+     ],
+     "correct": 0,
+     "explain": "fMRI măsoară modificările fluxului de sânge asociate cu activitatea neuronală și permite localizarea regiunilor active. EEG are rezoluție temporală înaltă, dar localizează slab; sMRI dă doar detalii anatomice, fără activitate; PET urmărește activitatea metabolică (consumul de glucoză), nu fluxul de sânge.",
+     "tag": "Neuroimagistica atenției"
+    },
+    {
+     "q": "După un accident vascular cerebral, un pacient mănâncă doar din jumătatea dreaptă a farfuriei și nu observă vizitatorii care stau în stânga patului. Ce tulburare descrie situația?",
+     "opts": [
+      "Neglijența spațială unilaterală",
+      "Agnozia asociativă",
+      "Asomatognosia",
+      "Sindromul atenției selective auditive"
+     ],
+     "correct": 0,
+     "explain": "Neglijența spațială unilaterală apare adesea după leziuni cerebrale (frecvent parietale) și constă în dificultatea de a da atenție stimulilor dintr-o parte a spațiului. Agnozia asociativă privește asocierea obiectului cu semnificația lui, asomatognosia privește conștiința propriului corp, iar sindromul auditiv privește selecția sunetelor într-un mediu zgomotos.",
+     "tag": "Neglijența spațială unilaterală"
+    },
+    {
+     "q": "Un pacient privește o cheie și o descrie corect („metalică, cu dinți, cu un inel”), dar nu poate spune cum se numește sau la ce folosește. Ce tulburare sugerează cazul?",
+     "opts": [
+      "Neglijența spațială unilaterală",
+      "Asomatognosia",
+      "Agnozia asociativă",
+      "Tulburarea de procesare senzorială"
+     ],
+     "correct": 2,
+     "explain": "În agnozia asociativă, persoana vede obiectul, dar nu îl poate asocia cu numele sau cu utilizarea lui obișnuită. Neglijența ar face pacientul să ignore o parte a spațiului, asomatognosia privește părți ale propriului corp, iar tulburările de procesare senzorială înseamnă reacții excesive sau insuficiente la stimuli.",
+     "tag": "Agnozia asociativă"
+    },
+    {
+     "q": "La prima întâlnire, psihologul unui copil cu probleme de atenție adună istoria detaliată a simptomelor, a dezvoltării și a factorilor de mediu. Ce componentă a evaluării clinice aplică?",
+     "opts": [
+      "Interviul clinic",
+      "Anamneza cazului",
+      "Testele standardizate",
+      "Evaluarea periodică"
+     ],
+     "correct": 1,
+     "explain": "În 2.19, anamneza înseamnă adunarea unei istorii detaliate a simptomelor, dezvoltării și factorilor de mediu; metoda e descrisă și în Cap. 3 (Metoda observației). Interviul clinic e discuția cu persoana sau părinții pentru a înțelege contextul și impactul problemelor, instrumentele standardizate sunt testele, iar evaluarea periodică ține de monitorizarea tratamentului, nu de evaluarea inițială.",
+     "tag": "Evaluarea clinică"
+    },
+    {
+     "q": "Mihai își caută pe birou cheile cu breloc roșu, iar privirea îi trece repede peste obiectele de alte culori. Ce tip de control al atenției și ce model se potrivesc situației?",
+     "opts": [
+      "Control bottom-up; modelul Guided Search (Wolfe)",
+      "Control top-down; modelul filtrului (Broadbent)",
+      "Control bottom-up; teoria încărcării (Lavie)",
+      "Control top-down; modelul Guided Search (Wolfe)"
+     ],
+     "correct": 3,
+     "explain": "Atenția e dirijată de obiectivul lui Mihai (control top-down), iar Guided Search spune că atenția e ghidată de caracteristicile obiectelor, cum ar fi culoarea. Varianta „bottom-up” ar presupune că un stimul extern neașteptat captează atenția involuntar. Filtrul lui Broadbent descrie selecția auditivă după canal, iar Load Theory privește efectul încărcării asupra detectării stimulilor irelevanți. Termenii bottom-up și top-down apar și în Cap. 8 (Procese perceptive), acolo pentru procesarea perceptivă.",
+     "tag": "Controlul top-down și bottom-up"
+    },
+    {
+     "q": "Fără să-și miște ochii, un șofer își mută atenția în colțul din stânga al parbrizului, unde știe că se va aprinde semnalizarea mașinii din față. Ce model descrie mai bine această deplasare?",
+     "opts": [
+      "Teoria integrării trăsăturilor (Treisman)",
+      "Modelul Spotlight (Posner)",
+      "Modelul resurselor (Kahneman)",
+      "Modelul Guided Search (Wolfe)"
+     ],
+     "correct": 1,
+     "explain": "Modelul Spotlight compară atenția cu un reflector care poate fi îndreptat spre o anumită zonă a spațiului și mutat rapid între locuri după cerințele sarcinii. FIT explică integrarea trăsăturilor unui obiect, modelul resurselor explică împărțirea unei resurse finite între activități, iar Guided Search explică ghidarea după trăsături ca culoarea sau forma, nu după o locație anticipată.",
+     "tag": "Modelul Spotlight (Posner)"
+    },
+    {
+     "q": "Când un ecran cu un X roșu și un O verde e prezentat foarte scurt, iar atenția participanților e ocupată în altă parte, unii raportează că au văzut un „O roșu”. Ce model explică cel mai bine eroarea?",
+     "opts": [
+      "Teoria integrării trăsăturilor (Treisman)",
+      "Modelul de atenuare a informației (Treisman)",
+      "Modelul reflectorului spațial (Posner)",
+      "Teoria încărcării perceptive (Lavie)"
+     ],
+     "correct": 0,
+     "explain": "FIT susține că atenția e necesară pentru a integra trăsăturile separate (culoare, formă) într-o percepție unitară; fără atenție, trăsăturile se pot combina greșit. Capcana e modelul de atenuare, tot al lui Treisman, dar despre informația auditivă nesupravegheată. Spotlight descrie deplasarea în spațiu, iar Load Theory privește detectarea stimulilor irelevanți sub încărcare.",
+     "tag": "Feature Integration Theory (FIT)"
+    },
+    {
+     "q": "Pe o stradă aglomerată, un șofer care negociază la telefon ratează un indicator, deși îl conduce bine pe autostradă goală. Ce model pune accentul pe faptul că atenția e o resursă finită, împărțită între activități?",
+     "opts": [
+      "Modelul filtrului (Broadbent)",
+      "Modelul de atenuare (Treisman)",
+      "Modelul resurselor (Kahneman)",
+      "Modelul Guided Search (Wolfe)"
+     ],
+     "correct": 2,
+     "explain": "Modelul resurselor al lui Kahneman: atenția e o resursă finită; dacă e intens concentrată pe o sarcină (negocierea), resursele pentru alte activități (observarea indicatoarelor) scad. Filtrul lui Broadbent și atenuarea lui Treisman descriu ce se întâmplă cu un canal nesupravegheat, nu împărțirea resurselor, iar Guided Search descrie căutarea după trăsături.",
+     "tag": "Resource Model (Kahneman)"
+    },
+    {
+     "q": "Participanții numără pasele unei echipe într-un clip video și mulți nu observă o persoană costumată care traversează scena. Cum se numește fenomenul studiat de Simons și Chabris (1999)?",
+     "opts": [
+      "Neglijența spațială unilaterală",
+      "Percepția subliminală",
+      "Adaptarea senzorială",
+      "Orbirea neatențională"
+     ],
+     "correct": 3,
+     "explain": "Simons și Chabris au extins rezultatele lui Neisser cu clipuri suprapuse și au declanșat lucrările despre orbirea neatențională: un stimul clar vizibil rămâne neobservat când atenția e prinsă de altă sarcină. Neglijența e o tulburare după leziuni, percepția subliminală privește stimuli prezentați sub pragul de conștientizare (temă din Cap. 7 (Procese senzoriale) și Cap. 8 (Procese perceptive)), iar adaptarea senzorială e scăderea sensibilității la un stimul constant din Cap. 7 (Procese senzoriale).",
+     "tag": "Orbirea neatențională"
+    }
+   ],
+   "ascunse": [
+    {
+     "q": "Un copil învață să-și încheie fermoarul gecii în timp ce coboară scările, până când mișcările mâinilor și ale picioarelor devin o singură acțiune coordonată. Ce tehnică a lui Hirst ilustrează?",
+     "opts": [
+      "Automaticitatea",
+      "Segregarea",
+      "Partajarea timpului",
+      "Integrarea"
+     ],
+     "correct": 3,
+     "explain": "Integrarea înseamnă coordonarea și combinarea a două sarcini într-o singură sarcină de ordin superior, ca la îmbrăcarea salopetei din carte, nivel la care copilul ajunge greu. Automaticitatea ar exersa o sarcină separat până devine automată, segregarea ar ține sarcinile izolate, iar partajarea timpului ar alterna atenția între ele.",
+     "tag": "Tehnicile lui Hirst pentru sarcini duble"
+    },
+    {
+     "q": "Într-o sarcină de vigilență de două ore, performanța unui operator radar scade treptat. Ce factori fac responsabili Broadbent și Parasuraman pentru această scădere în timp?",
+     "opts": [
+      "Schimbările de criteriu și de sarcină care afectează sensibilitatea",
+      "Nivelul general de excitare, care fixează performanța medie",
+      "Creșterea treptată a pragului absolut al receptorilor vizuali",
+      "Stingerea efectului Hawthorne după primele minute de sarcină"
+     ],
+     "correct": 0,
+     "explain": "Pentru Broadbent și Parasuraman, excitarea afectează nivelul general de performanță și sensibilitatea observatorului, în timp ce schimbările de criterii și de sarcină care influențează sensibilitatea par responsabile de scăderea performanței în timp. Excitarea e deci capcana: ea ține de nivelul general, nu de scădere. Pragul absolut e un concept din Cap. 7 (Procese senzoriale), iar efectul Hawthorne, din Cap. 1 (Psihologia experimentală. Știință și metodă), e o eroare de cercetare, nu un factor al vigilenței.",
+     "tag": "Vigilența (Broadbent, Parasuraman)"
+    },
+    {
+     "q": "Un sprinter concentrat pe focul de start reacționează mult mai repede la el decât la un zgomot neprevăzut din tribună. Ce principiu formulat de Titchener descrie situația?",
+     "opts": [
+      "Legea pragului diferențial",
+      "Legea figurii și a fondului",
+      "Legea intrării prealabile",
+      "Legea răspunsului de orientare"
+     ],
+     "correct": 2,
+     "explain": "Titchener a avansat „legea intrării prealabile”: stimulii la care receptorul e predispus ajung în conștiință mai repede decât un stimul nou; în general, reacționăm mai rapid la un eveniment așteptat. Pragul diferențial ține de psihofizică din Cap. 7 (Procese senzoriale), figura-fond e o temă gestaltistă din Cap. 8 (Procese perceptive), iar „legea răspunsului de orientare” nu există în carte: RO e o reacție la noutate, deci ar favoriza tocmai stimulul neprevăzut.",
+     "tag": "Legea intrării prealabile"
+    },
+    {
+     "q": "Un turist intră într-o piață și își plimbă deliberat privirea de la o tarabă la alta, căutând un anumit suvenir. Ce proces atențional descrie comportamentul?",
+     "opts": [
+      "Schimbarea automată, legată de orientare",
+      "Comutarea activă, o căutare exploratorie",
+      "Filtrarea senzorială timpurie a stimulilor",
+      "Atenția susținută, cu vigilență ridicată"
+     ],
+     "correct": 1,
+     "explain": "Comutarea activă diferă de schimbările automate asociate răspunsului de orientare, pentru că implică o căutare exploratorie a mediului; privirea și alte comportamente de observare sunt expresia ei comportamentală. Schimbarea automată e declanșată de stimul, filtrarea e o componentă a selecției senzoriale, iar atenția susținută privește persistența în timp, nu căutarea activă.",
+     "tag": "Comutarea activă"
+    },
+    {
+     "q": "Un dispozitiv de tip BCI estimează nivelul de atenție al utilizatorului din benzile alfa, beta, theta și delta, cu electrozi pe scalp. Ce tehnică folosește?",
+     "opts": [
+      "Magnetoencefalografia (MEG)",
+      "Electroencefalografia (EEG)",
+      "Tomografia cu emisie de pozitroni (PET)",
+      "Electromiografia (EMG)"
+     ],
+     "correct": 1,
+     "explain": "EEG e tehnica non-invazivă cu electrozi pe scalp, în care se observă variații ale undelor alfa, beta, theta și delta în funcție de tipul de atenție; capitolul o leagă de sistemele BCI și de antrenarea atenției prin biofeedback. MEG măsoară câmpuri magnetice, PET metabolismul glucozei, iar EMG, biosemnal din Cap. 3 (Metoda observației), înregistrează activitatea mușchilor, nu a creierului.",
+     "tag": "Electroencefalografia (EEG)"
+    },
+    {
+     "q": "Un adult are dificultăți mari de concentrare și e hipervigilent la zgomotele care îi amintesc de un eveniment traumatic trăit. Ce tulburare psihiatrică a atenției se potrivește cel mai bine?",
+     "opts": [
+      "Tulburarea obsesiv-compulsivă (TOC)",
+      "Tulburarea de deficit de atenție (TDAH)",
+      "Tulburarea opoziționist-defiantă (TOD)",
+      "Tulburarea de stres post-traumatic (TSPT)"
+     ],
+     "correct": 3,
+     "explain": "Manualul descrie persoanele cu TSPT ca având dificultăți în menținerea atenției și hipervigilență față de stimulii legați de traume. În TOC atenția e prinsă excesiv de obsesii și compulsiuni, TDAH combină deficitul de atenție cu hiperactivitatea și impulsivitatea, fără legătură cu o traumă, iar TOD e trecută la tulburările de dezvoltare, nu la cele psihiatrice.",
+     "tag": "Tulburări psihiatrice ale atenției"
+    },
+    {
+     "q": "Un elev cu dislexie are și dificultăți de atenție la citit. În ce categorie de tulburări ale atenției se încadrează cazul?",
+     "opts": [
+      "Tulburările de dezvoltare a învățării",
+      "Tulburările atenției senzoriale selective",
+      "Tulburările asociate bolilor neurologice",
+      "Tulburările de procesare senzorială"
+     ],
+     "correct": 0,
+     "explain": "La 2.18, manualul spune că unele tulburări ale atenției pot fi asociate cu dificultăți de învățare, cum ar fi dislexia sau discalculia, și le trece la tulburările de dezvoltare. Tulburările atenției senzoriale selective (2.12) includ neglijența și agnozia, cele neurologice (2.15) includ AVC, Alzheimer, Parkinson, scleroza multiplă, iar tulburările de procesare senzorială privesc reacțiile la stimuli.",
+     "tag": "Tulburări de dezvoltare ale atenției"
+    },
+    {
+     "q": "Într-un program de meditație, participanții învață să-și observe gândurile și emoțiile fără să le eticheteze drept „bune” sau „rele”. Ce aspect al atenției autodirecționate exersează?",
+     "opts": [
+      "Atenția conștientă plină de intenție",
+      "Reglarea atenției după obiective",
+      "Atenția deschisă și nejudicătoare",
+      "Atenția endogenă orientată spre scop"
+     ],
+     "correct": 2,
+     "explain": "Atenția deschisă și nejudicătoare e abilitatea de a observa gândurile și sentimentele fără a le evalua sau judeca. Atenția conștientă plină de intenție înseamnă prezență deplină în sarcină, cu eliminarea distragerilor; reglarea după obiective înseamnă a decide strategic ce merită atenție; atenția endogenă e orientarea voluntară spre un obiectiv, nu observarea fără judecată.",
+     "tag": "Conștientizare și atenție autodirecționată"
+    },
+    {
+     "q": "Care cercetător a susținut că nimic din structura creierului nu indică dacă și unde ar apărea limitări de canal în procesarea informației?",
+     "opts": [
+      "Ulric Neisser",
+      "Donald Broadbent",
+      "David Navon",
+      "Neville Moray"
+     ],
+     "correct": 0,
+     "explain": "Neisser a argumentat împotriva capacității limitate și a filtrului atențional din creier, susținând că structura creierului nu sugerează unde ar apărea limitări de canal. Broadbent a propus tocmai canalul unic cu capacitate limitată. Navon a criticat teoria resurselor (un model fără resurse necesare), iar Moray a concluzionat că pentru tipuri diferite de input sunt implicate mecanisme diferite.",
+     "tag": "Neisser"
+    },
+    {
+     "q": "Un SMS ajunge întreg, fără nicio literă lipsă, dar destinatarul înțelege altceva decât voia expeditorul. La ce nivel din clasificarea lui Shannon și Weaver apare problema?",
+     "opts": [
+      "Nivelul A, problema tehnică",
+      "Nivelul C, problema eficienței",
+      "Nivelul B, problema semantică",
+      "Nivelul canalului, problema zgomotului"
+     ],
+     "correct": 2,
+     "explain": "Nivelul B întreabă cât de precis transmit simbolurile semnificația dorită; aici simbolurile au ajuns exact, dar sensul nu. Nivelul A (tehnic) ar privi exactitatea transmiterii simbolurilor, care e în regulă; nivelul C privește cât de eficient sensul primit afectează comportamentul în modul dorit. Un „nivel al canalului” nu există în clasificare: canalul e o componentă a schemei.",
+     "tag": "Shannon și Weaver (1949)"
+    }
+   ]
+  },
+  {
+   "id": "3",
+   "eticheta": "Runda 3 · Bază II",
+   "titlu": "Runda 3 — Concepte de bază (extindere)",
+   "desc": "Recunoaștere, partea a doua: factorii interesului, reperele istorice, teoria informației, concluziile cercetării timpurii, conceptele din 2.3–2.5 și cuvintele cheie neuronale.",
+   "intrebari": [
+    {
+     "q": "Care dintre următoarele este unul dintre cei cinci factori care au crescut interesul neuroștiințelor, IA și BCI pentru atenție?",
+     "opts": [
+      "Atenția e singura funcție cognitivă complet conștientă",
+      "Atenția e una dintre cele mai vulnerabile funcții cognitive",
+      "Atenția e o funcție care nu depinde de organizarea creierului",
+      "Atenția poate fi măsurată doar prin introspecție controlată"
+     ],
+     "correct": 1,
+     "explain": "Al doilea factor din listă: atenția e una dintre cele mai vulnerabile funcții cognitive, afectată de multe afecțiuni psihologice și medicale. Capitolul spune chiar că nu toate procesele atenționale cer conștientizare, deci atenția nu e „complet conștientă”. Constrângerile neuronale arată că depinde de organizarea creierului, iar unul dintre factori e tocmai faptul că azi o putem operaționaliza și măsura mai precis, inclusiv prin imagistică, nu doar prin introspecție.",
+     "tag": "De ce a crescut interesul (5 factori)"
+    },
+    {
+     "q": "Cu ce este asociată, de obicei, atenția ineficientă?",
+     "opts": [
+      "Vigilența, orientarea, controlul executiv, intenția, căutarea activă",
+      "Filtrarea, focalizarea, schimbarea automată, comutarea activă",
+      "Concentrarea, selecția, divizarea, susținerea, alternanța",
+      "Neatenția, oboseala, distractibilitatea, confuzia, impersistența"
+     ],
+     "correct": 3,
+     "explain": "Atenția ineficientă e asociată cu neatenția, oboseala, distractibilitatea, confuzia, impersistența, neglijarea sau lipsa controlului. Vigilența, orientarea, controlul executiv, intenția și căutarea sunt „alte fenomene legate de atenție”, nu semne ale ineficienței. Filtrarea și ceilalți termeni sunt procese ale modelului cu patru factori, iar ultima listă enumeră tipuri de atenție.",
+     "tag": "Conștiință și conștientizare"
+    },
+    {
+     "q": "Ce distincție a făcut Descartes, în istoria studiului atenției?",
+     "opts": [
+      "Între senzația stimulilor externi și percepția clară și distinctă",
+      "Între mintea ca tabula rasa și cunoașterea dobândită din experiență",
+      "Între sursa conținutului și sursa interesului atenției",
+      "Între claritatea senzațiilor asistate și cea a celor neasistate"
+     ],
+     "correct": 0,
+     "explain": "Descartes a distins clar senzația stimulilor „externi” de percepția cu adevărat clară și distinctă; pentru el, simțurile externe duc la „un impuls spontan de a crede ceva”. Tabula rasa și cunoașterea din experiență sunt ideile lui Locke, sursa conținutului și a interesului sunt dimensiunile lui James, iar claritatea sporită a senzațiilor asistate e ideea lui Titchener.",
+     "tag": "Descartes și Locke"
+    },
+    {
+     "q": "Din ce tradiție filozofică derivă psihologia Gestalt?",
+     "opts": [
+      "Din empirismul englez, caracterizat de opera lui Locke",
+      "Din funcționalismul american, caracterizat de opera lui James",
+      "Din raționalismul german, caracterizat de opera lui Kant",
+      "Din structuralismul lui Wundt, continuat de Titchener"
+     ],
+     "correct": 2,
+     "explain": "Capitolul spune că psihologia Gestalt a fost o consecință a abordării filozofice raționaliste germane, caracterizată de opera lui Kant; gestaltiștii au studiat relația figură-fond și ideea că întregul e mai mult decât suma părților. Locke reprezintă empirismul (tabula rasa), James funcționalismul, iar Wundt și Titchener structuralismul, cu care Gestalt a polemizat (vezi curentele din Cap. 1 (Psihologia experimentală. Știință și metodă)).",
+     "tag": "Gestalt"
+    },
+    {
+     "q": "Cum au definit Shannon și Weaver comunicarea, în sensul ei cel mai larg?",
+     "opts": [
+      "Transmiterea fără pierderi a simbolurilor printr-un canal unic",
+      "Schimbul de semnale electrice dintre receptorul senzorial și creier",
+      "Procedurile prin care o minte, sau un mecanism, îl afectează pe altul",
+      "Selecția unui mesaj dorit dintr-un set de mesaje posibile"
+     ],
+     "correct": 2,
+     "explain": "Comunicarea a fost definită ca toate procedurile prin care o minte o poate afecta pe alta sau, mai general, prin care un mecanism afectează un alt mecanism; asta a legitimat studiul „cutiei negre” dintre stimul și răspuns. Transmiterea exactă a simbolurilor e doar nivelul A (problema tehnică), relația receptor–creier e metafora folosită ulterior de Broadbent, iar selecția mesajului dintr-un set e rolul sursei de informații.",
+     "tag": "Shannon și Weaver (1949)"
+    },
+    {
+     "q": "Cum se numește, în diagrama lui Broadbent, sistemul central de procesare cu capacitate limitată, care impune o operație selectivă asupra intrărilor?",
+     "opts": [
+      "Sistemul P",
+      "Sistemul 1",
+      "Sistemul reticular activator",
+      "Bucla fonologică"
+     ],
+     "correct": 0,
+     "explain": "Broadbent a propus că, din cauza capacității limitate a sistemului central de procesare (sistemul P), se face o operație selectivă asupra intrărilor, alegând informațiile cu anumite caracteristici comune. Sistemul 1 e modul rapid și automat din atenția duală a lui Kahneman, sistemul reticular activator reglează veghea, iar bucla fonologică e o componentă a memoriei de lucru din modelul lui Baddeley, în Cap. 10 (Memoria).",
+     "tag": "Broadbent (1958)"
+    },
+    {
+     "q": "Ce a concluzionat Moray după analiza literaturii despre atenția selectivă?",
+     "opts": [
+      "Că în creierul perceptorului nu există un sistem de filtrare",
+      "Că un model al sarcinilor multiple nu are nevoie de resurse",
+      "Că selecția are loc abia după analiza sensului mesajelor",
+      "Că pentru tipuri diferite de input sunt implicate mecanisme diferite"
+     ],
+     "correct": 3,
+     "explain": "Moray a concluzionat că pentru tipuri diferite de input sunt implicate mecanisme diferite. Absența unui sistem de filtrare în creier e poziția lui Neisser, modelul fără resurse e propunerea lui Navon, iar selecția după analiza sensului e modelul de selecție târzie al lui Deutsch.",
+     "tag": "Moray și Navon"
+    },
+    {
+     "q": "Care e una dintre limitările abordărilor cognitive timpurii ale atenției, potrivit concluziilor?",
+     "opts": [
+      "Au respins măsurarea timpului de răspuns ca indicator al atenției",
+      "Au ignorat în mare măsură factori organismici, precum motivația",
+      "S-au concentrat aproape numai pe stadiile târzii ale procesării",
+      "Au tratat atenția ca pe o clasă largă de procese distincte"
+     ],
+     "correct": 1,
+     "explain": "Fiind derivate din modele de mașini de prelucrare a informației, abordările timpurii au ignorat factori organismici precum motivația. Ele au introdus tocmai metodele cronometrice (timpul de răspuns), s-au concentrat pe stadiile incipiente ale procesării, nu pe cele târzii, și au tratat atenția ca proces unitar, nu ca o clasă de procese – fiecare distractor inversează o limitare reală.",
+     "tag": "Concluziile cercetării timpurii"
+    },
+    {
+     "q": "Ce influență semnificativă a lăsat cercetarea cognitivă timpurie asupra măsurării funcțiilor atenționale?",
+     "opts": [
+      "Introspecția controlată, alături de autoobservarea sistematică",
+      "Neuroimagistica funcțională, alături de înregistrarea EEG a creierului",
+      "Chestionarele standardizate, alături de interviul clinic",
+      "Timpul de răspuns (metodele cronometrice), alături de acuratețe"
+     ],
+     "correct": 3,
+     "explain": "Concluziile spun că una dintre influențele semnificative a fost folosirea metodelor cronometrice, adică a timpului de răspuns, împreună cu datele de acuratețe, pentru a măsura funcțiile atenționale și factorii care le facilitează sau le perturbă. Introspecția ține de Wundt și Titchener, neuroimagistica a venit mult mai târziu, iar chestionarele și interviul sunt metode prezentate în Cap. 3 (Metoda observației), nu moștenirea cercetării cognitive timpurii.",
+     "tag": "Concluziile cercetării timpurii"
+    },
+    {
+     "q": "Ce este intenția, în studiul atenției?",
+     "opts": [
+      "Procesul prin care individul alege un răspuns dintre mai multe opțiuni",
+      "Forma superioară de control care coordonează celelalte procese",
+      "Starea mentală în care individul își propune o acțiune sau un scop",
+      "Reacția automată a organismului la un stimul nou din mediu"
+     ],
+     "correct": 2,
+     "explain": "Intenția e starea mentală în care individul își propune sau își dorește să facă o acțiune ori să atingă un obiectiv, un angajament mental orientat spre scop. Alegerea unui răspuns dintre opțiuni e selecția răspunsului, coordonarea celorlalte procese (planificare, organizare) e atenția executivă, iar reacția automată la noutate e răspunsul de orientare.",
+     "tag": "Intenția, selecția răspunsului și atenția executivă"
+    },
+    {
+     "q": "Ce înseamnă procesarea serială, în psihologia cognitivă a atenției?",
+     "opts": [
+      "Abordarea informațiilor pas cu pas, una după alta",
+      "Procesarea mai multor stimuli în același timp",
+      "Trecerea rapidă între sarcini sau stimuli diferiți",
+      "Prelucrarea repetată a aceleiași informații de către creier"
+     ],
+     "correct": 0,
+     "explain": "Procesarea serială abordează informațiile pas cu pas, iar cea paralelă procesează mai mulți stimuli simultan; folosirea lor depinde de context și de sarcină. Trecerea rapidă între sarcini e switching-ul atențional, iar prelucrarea repetată a aceleiași informații e „procesarea recursivă” din cuvintele cheie.",
+     "tag": "Procesare paralelă și serială"
+    },
+    {
+     "q": "Ce este divertismentul atențional?",
+     "opts": [
+      "Dificultatea de a menține atenția pe o sarcină din cauza distragerilor",
+      "Capacitatea de a trece rapid de la o sarcină sau un stimul la altul",
+      "Captarea involuntară a atenției de o noutate puternică din mediu",
+      "Plăcerea legată de recompensă, care orientează atenția spre stimuli"
+     ],
+     "correct": 0,
+     "explain": "În 2.3, divertismentul atențional e dificultatea de a menține atenția pe o sarcină dată din cauza distragerilor. Capacitatea de a trece rapid între sarcini e switching-ul atențional, pereche cu el în aceeași secțiune. Captarea involuntară de noutăți e atenția involuntară (exogenă), iar orientarea după recompensă ține de recompensa dopaminergică – sensul cotidian al cuvântului „divertisment” e capcana.",
+     "tag": "Divertismentul și switching-ul atențional"
+    },
+    {
+     "q": "Ce rol are sistemul reticular activator (SRA), una dintre constrângerile neuronale ale atenției?",
+     "opts": [
+      "Filtrează informația senzorială înainte de a ajunge la cortex",
+      "Procesează informația spațială și generează atenția spațială",
+      "Reglează starea de veghe și nivelul general de alertă",
+      "Atribuie valoare emoțională informației care atrage atenția"
+     ],
+     "correct": 2,
+     "explain": "SRA e o rețea de neuroni din trunchiul cerebral care reglează starea de veghe și nivelul general de alertă; activarea lui crește excitabilitatea și influențează atenția globală. Filtrarea și direcționarea informației senzoriale spre cortex e rolul nucleului anterior al talamusului, atenția spațială ține de cortexul parietal, iar valoarea emoțională e atribuită de amigdală.",
+     "tag": "Constrângeri neuronale (2.22)"
+    },
+    {
+     "q": "Ce este striatumul?",
+     "opts": [
+      "Parte a sistemului limbic, care atribuie valoare emoțională informației",
+      "Parte a ganglionilor bazali, legată de recompensă și de direcția atenției",
+      "Parte a cortexului frontal, responsabilă de controlul executiv",
+      "Parte a lobului parietal, asociată cu atenția spațială"
+     ],
+     "correct": 1,
+     "explain": "Striatumul e parte a ganglionilor bazali, implicat în procesarea recompensei și în direcționarea atenției după calitățile de întărire ale stimulilor. Valoarea emoțională e atribuită de amigdală, controlul executiv și atenția supervizoare țin de cortexul frontal, iar atenția spațială de lobul parietal inferior.",
+     "tag": "Structuri cerebrale"
+    },
+    {
+     "q": "Ce este conectivitatea funcțională?",
+     "opts": [
+      "Capacitatea sinapselor de a se modifica în funcție de experiență",
+      "Gradul în care regiuni diferite ale creierului lucrează împreună",
+      "Prelucrarea repetată a informației de către aceleași regiuni",
+      "Totalitatea neuronilor care îndeplinesc o anumită funcție"
+     ],
+     "correct": 1,
+     "explain": "Conectivitatea funcțională e gradul în care diferite regiuni ale creierului lucrează împreună și sunt interconectate în timpul unui proces cognitiv; analizele de conectivitate dezvăluie rețelele care colaborează în timpul atenției. Modificarea sinapselor după experiență e plasticitatea sinaptică, prelucrarea repetată e procesarea recursivă, iar grupurile de neuroni cu o funcție comună sunt rețelele neuronale.",
+     "tag": "Rețele neuronale și conectivitate funcțională"
+    }
+   ],
+   "ascunse": []
+  },
+  {
+   "id": "4",
+   "eticheta": "Runda 4 · Aplicații II",
+   "titlu": "Runda 4 — Scenarii și raționament (extindere)",
+   "desc": "Aplicații, partea a doua: factorul executiv și capacitatea, segregarea, nivelurile lui Shannon și Weaver, răspunsul de orientare, încărcarea, atenția duală, tulburările, etapele clinice și abordările computaționale.",
+   "intrebari": [
+    {
+     "q": "Într-o sarcină pe calculator, participanții apasă un buton la cercurile verzi, dar trebuie să se abțină la cele roșii, care apar rar. Ce proces al factorului executiv e solicitat în principal la cercurile roșii?",
+     "opts": [
+      "Comutarea activă a atenției",
+      "Filtrarea senzorială timpurie",
+      "Inițierea și inhibiția răspunsului",
+      "Intenția de răspuns, ca angajament de a acționa"
+     ],
+     "correct": 2,
+     "explain": "Abținerea de la un răspuns pregătit cere inhibiția, care, împreună cu inițierea, e unul dintre cele patru procese ale factorului executiv (alături de intenția de răspuns, comutarea activă și controlul de supraveghere). Comutarea activă e o căutare exploratorie a mediului, filtrarea ține de selecția senzorială, iar intenția de răspuns e angajamentul de a acționa – aici problema e tocmai oprirea acțiunii.",
+     "tag": "Executiv – selecția și controlul răspunsului"
+    },
+    {
+     "q": "După o noapte nedormită, Andrei are rezultate slabe la un test de atenție; după o oră de odihnă și o cafea, performanța lui revine în aceeași zi. Ce tip de factor al capacității atenționale s-a schimbat?",
+     "opts": [
+      "Un factor energetic: excitarea și efortul",
+      "Un factor structural: viteza de procesare",
+      "Un factor structural: limitele memoriei",
+      "Un proces al selecției senzoriale: filtrarea"
+     ],
+     "correct": 0,
+     "explain": "Factorii energetici reflectă capacitatea pe termen scurt a sistemului – excitarea și efortul –, care variază de la o oră la alta, ca la Andrei. Factorii structurali (viteza de procesare neuronală, constrângerile memoriei, reprezentarea temporal-spațială) sunt caracteristici mai stabile ale sistemului, care nu se refac după o cafea. Filtrarea e un proces al selecției senzoriale, nu un factor al capacității.",
+     "tag": "Capacitatea de concentrare"
+    },
+    {
+     "q": "La o linie de producție complet automatizată aproape nimic nu se întâmplă. După o oră, operatorul, deloc obosit fizic, începe să rateze rarele alarme. Ce explicație din modelul cu patru factori se potrivește?",
+     "opts": [
+      "Selecția senzorială e afectată de oboseala biologică",
+      "Capacitatea structurală e depășită de prea multă informație",
+      "Răspunsul de orientare crește prin sensibilizare repetată",
+      "Atenția susținută e afectată de absența cererii cognitive"
+     ],
+     "correct": 3,
+     "explain": "Modelul spune că atenția susținută poate fi afectată nu doar de oboseala din sarcinile solicitante, ci și de absența cererii cognitive sau a evenimentelor importante – exact situația operatorului. Oboseala biologică e exclusă de enunț, prea multă informație e opusul situației, iar sensibilizarea ar face alarmele mai ușor de observat, nu mai greu.",
+     "tag": "Atenția susținută (ca factor)"
+    },
+    {
+     "q": "Elena, bilingvă, ascultă un podcast în engleză în timp ce scrie un e-mail în română și a învățat să nu lase cuvintele dintr-o limbă să se strecoare în cealaltă. Ce tehnică a lui Hirst folosește?",
+     "opts": [
+      "Integrarea",
+      "Segregarea",
+      "Automaticitatea",
+      "Partajarea timpului"
+     ],
+     "correct": 1,
+     "explain": "Segregarea înseamnă a învăța să menții sarcinile izolate cognitiv sau neuronal una de cealaltă, reducând „dialogul încrucișat” – aici, interferența dintre cele două limbi. Integrarea ar contopi sarcinile într-una singură, de ordin superior, automaticitatea ar presupune că una dintre sarcini nu mai cere atenție, iar partajarea timpului ar însemna alternarea atenției între ele.",
+     "tag": "Tehnicile lui Hirst pentru sarcini duble"
+    },
+    {
+     "q": "Un afiș antifumat e citit fără greșeli și înțeles perfect de toți trecătorii, dar niciunul nu renunță la fumat. La ce nivel din clasificarea lui Shannon și Weaver apare problema?",
+     "opts": [
+      "Nivelul C, problema eficienței",
+      "Nivelul B, problema semantică",
+      "Nivelul A, problema tehnică",
+      "Nivelul D, problema receptorului"
+     ],
+     "correct": 0,
+     "explain": "Nivelul C întreabă cât de eficient afectează sensul primit comportamentul în modul dorit; mesajul a ajuns (nivelul A e în regulă) și a fost înțeles (nivelul B e în regulă), dar nu a schimbat comportamentul. Clasificarea are doar trei niveluri, A, B și C, deci „nivelul D” nu există; receptorul e o componentă a schemei, nu un nivel.",
+     "tag": "Shannon și Weaver (1949)"
+    },
+    {
+     "q": "Într-un experiment de umbrire, povestea din urechea dreaptă trece brusc în urechea stângă, iar participantul continuă câteva cuvinte să repete povestea din urechea „greșită”, apoi revine. Ce arată rezultatul?",
+     "opts": [
+      "Că informația nesupravegheată e blocată complet la analiza fizică",
+      "Că selecția se face exclusiv după urechea în care sosește mesajul",
+      "Că informația nesupravegheată e monitorizată, într-o măsură, după sens",
+      "Că participantul are o neglijență spațială pentru o parte a spațiului"
+     ],
+     "correct": 2,
+     "explain": "E experimentul lui Treisman (1960): participanții urmăreau spontan povestea, adică sensul, când aceasta trecea în cealaltă ureche – deci monitorizăm, într-o anumită măsură, informația nesupravegheată pe baza semnificației. Blocarea completă și selecția exclusiv după ureche sunt predicțiile filtrului lui Broadbent, pe care rezultatul le contrazice. Neglijența spațială e o tulburare după leziuni, nu un efect al sarcinii.",
+     "tag": "Modelul de atenuare (Treisman)"
+    },
+    {
+     "q": "Un cercetător vrea să înregistreze răspunsul de orientare la un sunet neașteptat fără electrozi pe scalp, prin modificările conductanței pielii. Ce măsură folosește?",
+     "opts": [
+      "Potențialele evocate (ERP)",
+      "Activitatea electrodermală (EDA)",
+      "Magnetoencefalografia (MEG)",
+      "Electromiografia (EMG)"
+     ],
+     "correct": 1,
+     "explain": "Capitolul spune că RO poate fi măsurat prin EEG, prin EDA (activitatea electrodermală) și prin observarea mișcărilor capului sau ochilor; conductanța pielii e o măsură electrodermală, înrudită cu EDR din Cap. 3 (Metoda observației). ERP se înregistrează prin EEG, deci cu electrozi pe scalp, MEG măsoară câmpurile magnetice ale creierului, iar EMG înregistrează activitatea mușchilor, nu conductanța pielii.",
+     "tag": "Răspunsul de orientare (RO)"
+    },
+    {
+     "q": "Ana își îndreaptă intenționat atenția spre ușa sălii, pentru că știe că în curând va intra profesorul, deși nu s-a auzit încă nimic. Ce fel de răspuns de orientare ilustrează?",
+     "opts": [
+      "Un răspuns de orientare exogen",
+      "O obișnuință față de stimul",
+      "O sensibilizare față de stimul",
+      "Un răspuns de orientare endogen"
+     ],
+     "correct": 3,
+     "explain": "RO endogen e generat de atenția voluntară a individului, fără să depindă de stimuli externi – aici, de așteptarea Anei. RO exogen ar fi declanșat de un stimul extern (un zgomot la ușă), care încă nu există. Obișnuința și sensibilizarea sunt scăderea, respectiv creșterea reacției după stimulări repetate, deci presupun un stimul care s-a produs deja.",
+     "tag": "Răspunsul de orientare (RO)"
+    },
+    {
+     "q": "Când rezolvă o sarcină foarte grea, participanții nu observă un pătrat irelevant care clipește în colțul ecranului; la varianta ușoară a sarcinii, aproape toți îl observă. Ce model explică cel mai direct diferența?",
+     "opts": [
+      "Modelul Spotlight (Posner)",
+      "Modelul de atenuare (Treisman)",
+      "Legea intrării prealabile (Titchener)",
+      "Teoria încărcării (Lavie)"
+     ],
+     "correct": 3,
+     "explain": "Load Theory clasifică sarcinile după încărcarea atenției: încărcarea ridicată afectează capacitatea de a detecta stimuli irelevanți, iar cea scăzută lasă resurse pentru ei – exact diferența dintre cele două variante. Spotlight descrie deplasarea atenției spre o zonă a spațiului, atenuarea privește mesajul auditiv nesupravegheat, iar legea intrării prealabile privește stimulii așteptați, nu pe cei irelevanți.",
+     "tag": "Load Theory (Lavie)"
+    },
+    {
+     "q": "Un șofer experimentat frânează instinctiv când îi apare o minge în fața mașinii, dar își calculează lent și deliberat ruta alternativă după un ocol. Ce model distinge exact aceste două moduri de funcționare?",
+     "opts": [
+      "Atenția duală a lui Kahneman: Sistemul 1 și Sistemul 2",
+      "Selecția timpurie și târzie a lui Broadbent și Deutsch",
+      "Procesarea seriată și paralelă a lui Treisman",
+      "Atenția voluntară și involuntară a lui Posner"
+     ],
+     "correct": 0,
+     "explain": "În 2.20, modelul Kahneman al atenției duale distinge Sistemul 1 (rapid, automat) de Sistemul 2 (mai lent, conștient) – reacția instinctivă și calculul deliberat. Broadbent și Deutsch dezbat unde se face selecția, Treisman descrie procesarea seriată și paralelă a trăsăturilor, iar Posner privește direcționarea voluntară sau captarea involuntară a atenției spațiale, nu două moduri de gândire și acțiune.",
+     "tag": "Resource Model (Kahneman)"
+    },
+    {
+     "q": "O pacientă cu boala Parkinson se plânge că nu se mai poate concentra ca înainte. În ce categorie de tulburări ale atenției se încadrează cazul?",
+     "opts": [
+      "Tulburări psihiatrice ale atenției",
+      "Tulburări asociate bolilor neurologice",
+      "Tulburări de dezvoltare ale atenției",
+      "Tulburări ale atenției senzoriale selective"
+     ],
+     "correct": 1,
+     "explain": "Secțiunea 2.15 enumeră, printre bolile neurologice care pot afecta atenția, AVC-ul, boala Alzheimer, boala Parkinson și scleroza multiplă. Tulburările psihiatrice (TDAH, depresie, anxietate, TOC, TSPT) țin de sănătatea mintală, cele de dezvoltare apar în copilărie, iar tulburările atenției senzoriale selective (neglijența, agnozia) privesc focalizarea pe un anumit tip de stimuli.",
+     "tag": "Tulburări neurologice și factori de risc"
+    },
+    {
+     "q": "După un accident vascular cerebral, un pacient susține că brațul lui stâng „nu e al lui” și nu-l ia în seamă când se îmbracă. Ce tulburare a atenției descrie cel mai exact cazul?",
+     "opts": [
+      "Neglijența spațială unilaterală",
+      "Agnozia asociativă",
+      "Asomatognosia",
+      "Tulburarea de procesare senzorială"
+     ],
+     "correct": 2,
+     "explain": "Asomatognosia înseamnă dificultatea de a percepe sau de a fi conștient de anumite părți ale propriului corp, inclusiv neconștientizarea existenței lor. Neglijența spațială unilaterală e capcana: privește stimulii dintr-o parte a spațiului sau a câmpului vizual, nu apartenența unei părți a corpului. Agnozia asociativă privește asocierea obiectelor cu semnificația lor, iar tulburările de procesare senzorială, reacțiile la stimuli.",
+     "tag": "Tulburări ale atenției senzoriale selective (2.12)"
+    },
+    {
+     "q": "După trei luni de terapie comportamentală, psihologul îl reevaluează pe un copil cu TDAH, discută cu părinții și profesorii și ajustează planul. Ce etapă a abordării clinice aplică?",
+     "opts": [
+      "Evaluarea clinică inițială, prin anamneză",
+      "Stabilirea diagnosticului pe baza evaluării",
+      "Educația pacientului și a familiei",
+      "Monitorizarea și revizuirea tratamentului"
+     ],
+     "correct": 3,
+     "explain": "A patra etapă din 2.19, monitorizarea și revizuirea tratamentului, cuprinde evaluarea periodică (urmărirea progresului și ajustarea planului) și colaborarea cu echipa de tratament (părinți, profesori). Anamneza ține de evaluarea inițială, diagnosticul se stabilește înainte de tratament, iar educația și consilierea informează familia despre tulburare și strategii, fără reevaluare.",
+     "tag": "Evaluarea clinică"
+    },
+    {
+     "q": "O echipă de inteligență artificială construiește un program care analizează fotografii și prioritizează automat zonele cu contrast puternic și mișcare. În ce categorie de abordări ale atenției se încadrează?",
+     "opts": [
+      "Un model de procesare bazat pe filtrul auditiv al lui Broadbent",
+      "Un model computațional de atenție vizuală, bazat pe saliență",
+      "Un studiu de neuroimagistică bazat pe fluxul sanguin cerebral",
+      "Un antrenament atențional bazat pe biofeedback prin EEG"
+     ],
+     "correct": 1,
+     "explain": "Abordările computaționale (2.27) includ modele de atenție vizuală care arată cum contrastul, mișcarea sau saliența influențează orientarea atenției; aplicațiile lor includ inteligența artificială. Filtrul lui Broadbent e un model al selecției auditive, neuroimagistica (fMRI) studiază creierul real, iar biofeedbackul prin EEG, prezentat și în Cap. 7 (Procese senzoriale), antrenează atenția unei persoane, nu a unui program.",
+     "tag": "Abordări computaționale"
+    },
+    {
+     "q": "Un copil se concentrează mult mai ușor pe exercițiile de matematică pentru care primește puncte și insigne într-un joc educațional. Ce mecanism neural explică cel mai bine efectul?",
+     "opts": [
+      "Recompensa dopaminergică, care influențează direcția atenției",
+      "Obișnuința, care scade răspunsul la stimulii repetați",
+      "Sistemul reticular activator, care reglează starea de veghe",
+      "Atenuarea, care slăbește informația nesupravegheată"
+     ],
+     "correct": 0,
+     "explain": "Cuvintele cheie definesc recompensa dopaminergică drept eliberarea de dopamină asociată cu recompense și stimuli motivaționali, care influențează direcția atenției; sistemul dopaminergic (nucleul accumbens, cortexul prefrontal) e implicat în recompensă, motivație și controlul atenției. Obișnuința ar reduce interesul pentru exerciții, SRA reglează nivelul general de alertă, nu direcția atenției, iar atenuarea e un mecanism al atenției selective auditive.",
+     "tag": "Neurotransmițătorii"
+    }
+   ],
+   "ascunse": []
+  }
+ ]
+}

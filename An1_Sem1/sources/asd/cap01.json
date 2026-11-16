@@ -1,0 +1,1048 @@
+{
+  "schema": "quiz-capitol-v3",
+  "capitol": 1,
+  "titlu": "Introducere în statistică",
+  "sursa": "Analiza superioară a datelor (UTM), Unitatea I, pp. 9–20",
+  "runde": [
+    {
+      "id": "T",
+      "tip_runda": "baza",
+      "eticheta": "Runda 1 · Teorie",
+      "titlu": "Runda 1 — Teorie",
+      "desc": "Întrebări directe și scurte: ce măsoară un indicator, când se folosește o metodă, ce deosebește două concepte.",
+      "intrebari": [
+        {
+          "q": "În ce etapă a unei cercetări devine statistica direct importantă?",
+          "opts": [
+            "În formularea problemei, pornind de la teorii",
+            "În proiect, când se aleg cazurile și numărul lor",
+            "În alegerea sursei problemei, din comenzi de cercetare",
+            "În analiza rezultatelor, după culegerea datelor"
+          ],
+          "correct": 3,
+          "explain": "Statistica devine direct importantă după ce cazurile au fost investigate și datele culese, la analiza rezultatelor. Formularea problemei (din teorii, cercetări anterioare, comenzi) și proiectul (ce cazuri, câte, cum) vin înainte — iar dacă ele sunt greșite, nici cea mai sofisticată analiză nu le repară.",
+          "tag": "Etapele cercetării",
+          "tip": "etapa"
+        },
+        {
+          "q": "Ce pot face statisticile inferențiale, dar nu și cele descriptive?",
+          "opts": [
+            "Să prezinte și să clasifice scorurile unei singure variabile",
+            "Să tragă concluzii despre o populație pornind de la un eșantion",
+            "Să însumeze scorurile unei variabile într-o formă ușor de citit",
+            "Să aranjeze scorurile astfel încât să fie evaluate rapid"
+          ],
+          "correct": 1,
+          "explain": "Generalizarea de la eșantion la populație e rostul statisticilor inferențiale. Prezentarea, clasificarea, însumarea și aranjarea scorurilor pentru a fi înțelese rapid sunt tocmai sarcinile statisticilor descriptive.",
+          "tag": "Statistici descriptive vs inferențiale",
+          "tip": "concept"
+        },
+        {
+          "q": "Ce deosebește un eșantion de populația din care provine?",
+          "opts": [
+            "Eșantionul e o parte strictă a populației, aleasă pentru studiu",
+            "Eșantionul cuprinde toate cazurile de care e interesat cercetătorul",
+            "Eșantionul e alcătuit din variabile, populația din cazuri",
+            "Eșantionul se folosește doar în statisticile descriptive"
+          ],
+          "correct": 0,
+          "explain": "Populația include toate cazurile de interes; eșantionul e o submulțime strictă a ei, folosită pentru că populațiile sunt, de regulă, prea mari ca să fie cercetate. Și eșantionul, și populația sunt formate din cazuri, iar eșantioanele sunt chiar baza statisticilor inferențiale.",
+          "tag": "Variabilă, populație, eșantion",
+          "tip": "concept"
+        },
+        {
+          "q": "Ce adaugă nivelul ordinal față de nivelul nominal?",
+          "opts": [
+            "Un punct zero care marchează absența trăsăturii",
+            "Categorii omogene față de scopul cercetării",
+            "Ordonarea cazurilor de la inferior la superior",
+            "Posibilitatea de a aduna scorurile cazurilor"
+          ],
+          "correct": 2,
+          "explain": "La nivel ordinal, pe lângă clasificare, cazurile se pot ordona după gradul în care au trăsătura. Zeroul natural apare abia la nivelul de raport, omogenitatea e o regulă a măsurării nominale, iar adunarea cere intervale egale, pe care nivelul ordinal nu le are.",
+          "tag": "Nivelul ordinal",
+          "tip": "nivel_masura"
+        },
+        {
+          "q": "Ce adaugă nivelul de interval față de nivelul ordinal?",
+          "opts": [
+            "Un zero natural, ca absență a trăsăturii",
+            "Categorii reciproc exclusive și exhaustive",
+            "Rapoarte cu sens între scorurile cazurilor",
+            "Distanțe egale între categoriile succesive"
+          ],
+          "correct": 3,
+          "explain": "Nivelul de interval păstrează clasificarea și ordonarea și adaugă intervale egale (de pildă, un an între două clase succesive). Zeroul natural și rapoartele cu sens („de două ori mai mult”) apar abia la nivelul de raport; categoriile exclusive și exhaustive se cer deja la nivel nominal.",
+          "tag": "Nivelul de interval",
+          "tip": "nivel_masura"
+        },
+        {
+          "q": "Ce înseamnă că o scală are un zero arbitrar?",
+          "opts": [
+            "Zeroul e doar un punct de referință pe scală",
+            "Zeroul marchează absența trăsăturii măsurate",
+            "Zeroul arată că intervalele nu sunt egale",
+            "Zeroul e cel mai mic scor din eșantion"
+          ],
+          "correct": 0,
+          "explain": "Un zero arbitrar e doar unul dintre punctele scalei (0 °C nu înseamnă lipsa temperaturii), de aceea nu permite rapoarte. Zeroul care marchează absența trăsăturii e zeroul natural, specific nivelului de raport; scalele cu zero arbitrar au, totuși, intervale egale.",
+          "tag": "Zero arbitrar vs zero natural",
+          "tip": "concept"
+        },
+        {
+          "q": "Ce cere regula exhaustivității categoriilor?",
+          "opts": [
+            "Un caz să facă parte dintr-o singură categorie",
+            "Categoriile să servească explicației și înțelegerii",
+            "Cazurile dintr-o categorie să aibă ceva important în comun",
+            "Să existe o categorie pentru fiecare manifestare a variabilei"
+          ],
+          "correct": 3,
+          "explain": "Exhaustivitatea cere ca fiecare caz de interes să aibă unde să intre — de aceea se adaugă adesea categoria „Alții/Altele”. Un caz într-o singură categorie e regula excluderii, sensul teoretic cere ca clasificarea să servească explicației, iar trăsăturile comune importante țin de omogenitate.",
+          "tag": "Regula exhaustivității",
+          "tip": "regula"
+        },
+        {
+          "q": "De ce depinde dacă un set de categorii e omogen?",
+          "opts": [
+            "De numărul de cazuri din fiecare dintre categorii",
+            "De nivelul de măsură la care e înregistrată variabila",
+            "De scopul cercetării pentru care se face clasificarea",
+            "De existența unei categorii „Altele” la sfârșitul listei"
+          ],
+          "correct": 2,
+          "explain": "Categoriile sunt omogene dacă ce au în comun cazurile contează mai mult, pentru scopurile cercetării, decât ce le deosebește — aceleași persoane se clasifică altfel pentru un distribuitor de aspirină și altfel pentru unul de cafea. Numărul de cazuri nu decide omogenitatea, iar categoria „Altele” ține de exhaustivitate.",
+          "tag": "Regula omogenității",
+          "tip": "regula"
+        },
+        {
+          "q": "Ce două erori încalcă regula excluderii categoriilor?",
+          "opts": [
+            "Categorii care lipsesc și categorii fără sens teoretic",
+            "Categorii prea largi și categorii cu prea puține cazuri",
+            "Categorii cu cazuri comune și categorii incluse una în alta",
+            "Categorii care nu se pot ordona și intervale inegale"
+          ],
+          "correct": 2,
+          "explain": "Excluderea cere ca un caz să nu fie în mai multe categorii; o încalcă suprapunerea parțială (cazuri comune) și incluziunea (orice caz dintr-o categorie e și în cealaltă). Categoriile lipsă încalcă exhaustivitatea, lipsa de sens teoretic e al patrulea criteriu, iar ordonarea și intervalele egale țin de alte niveluri de măsură.",
+          "tag": "Regula excluderii",
+          "tip": "regula"
+        },
+        {
+          "q": "Ce rol are nivelul de măsură în alegerea unei tehnici statistice?",
+          "opts": [
+            "Poate exclude o tehnică, dar nu o impune singur",
+            "Decide singur ce tehnică trebuie folosită",
+            "Contează doar la statisticile inferențiale",
+            "Contează doar când variabila e nominală"
+          ],
+          "correct": 0,
+          "explain": "Nivelul de măsură e un criteriu necesar, nu și suficient: media e exclusă la date nominale, dar faptul că e permisă la interval nu înseamnă că e tehnica potrivită. El contează la orice tehnică ce cere operații (ordonare, adunare), descriptivă sau inferențială, și la toate nivelurile.",
+          "tag": "Criteriu necesar, nu suficient",
+          "tip": "principiu"
+        },
+        {
+          "q": "Ce adună operatorul Σ când sub și deasupra lui nu e trecut niciun indice?",
+          "opts": [
+            "Doar primul și ultimul termen al seriei",
+            "Toată seria, de la primul până la ultimul termen",
+            "Termenii seriei până la al zecelea, prin convenție",
+            "Pătratele termenilor, de la primul la ultimul"
+          ],
+          "correct": 1,
+          "explain": "Indicii arată unde începe și unde se oprește însumarea; când lipsesc, Σ adună toată seria. Ridicarea la pătrat ar fi indicată separat, prin exponent, iar nicio convenție nu oprește suma la un anumit termen.",
+          "tag": "Operatorul Σ",
+          "tip": "operatie"
+        },
+        {
+          "q": "Ce se poate face cu o constantă care înmulțește fiecare termen al unei sume?",
+          "opts": [
+            "Se adaugă o singură dată la sumă",
+            "Se poate scoate în fața semnului Σ",
+            "Se ridică la pătrat înainte de însumare",
+            "Se împarte la numărul de termeni"
+          ],
+          "correct": 1,
+          "explain": "Regula 1 a operatorului Σ: Σ C·Xi = C · Σ Xi — înmulțești constanta cu suma seriei, în loc să înmulțești fiecare termen. Adăugarea constantei o singură dată confundă înmulțirea cu adunarea, iar împărțirea la numărul de termeni ar da o medie.",
+          "tag": "Regula 1 a operatorului Σ",
+          "tip": "regula"
+        },
+        {
+          "q": "Ce proprietate permite să aduni sau să înmulțești două numere în orice ordine?",
+          "opts": [
+            "Comutativitatea",
+            "Asociativitatea",
+            "Distributivitatea",
+            "Regula semnelor"
+          ],
+          "correct": 0,
+          "explain": "Comutativitatea: 15 + 5 = 5 + 15, 15 · 5 = 5 · 15. Asociativitatea privește gruparea termenilor, distributivitatea — produsul unui număr cu o sumă, iar regula semnelor — semnul rezultatului.",
+          "tag": "Proprietăți ale numerelor reale",
+          "tip": "operatie"
+        },
+        {
+          "q": "Ce semn are câtul a două numere cu semne diferite?",
+          "opts": [
+            "Pozitiv",
+            "Negativ",
+            "Semnul numărătorului",
+            "Semnul celui mai mare în modul"
+          ],
+          "correct": 1,
+          "explain": "La împărțire (ca la înmulțire), semnele diferite dau un rezultat negativ, iar același semn dă un rezultat pozitiv: +15 / −10 = −1,50. Semnul numărului mai mare în modul se păstrează la adunarea a două numere cu semne opuse, nu la împărțire.",
+          "tag": "Reguli ale semnelor",
+          "tip": "operatie"
+        },
+        {
+          "q": "Ce verificare însoțește supoziția că o scală nesigură, ordinală sau de interval, e de interval?",
+          "opts": [
+            "Recodarea scalei ca variabilă nominală",
+            "Adăugarea unei categorii „Altele” în scală",
+            "Compararea analizelor făcute la ambele niveluri",
+            "Calcularea mediei pe un eșantion mai mare"
+          ],
+          "correct": 2,
+          "explain": "Supoziția nivelului de interval permite tehnici mai sofisticate, dar are riscuri: datele se analizează la ambele niveluri, iar dacă rezultatele diferă substanțial, supoziția se abandonează. Mărimea eșantionului nu schimbă nivelul de măsură, iar recodarea ca nominală ar pierde chiar ordonarea.",
+          "tag": "Dilema ordinal / interval",
+          "tip": "principiu"
+        }
+      ],
+      "ascunse": [
+        {
+          "q": "Ce sunt datele unei cercetări, înainte de a fi prelucrate?",
+          "opts": [
+            "Concluzii despre populație, gata de interpretat",
+            "Informații mai ales numerice, de organizat și analizat",
+            "Ipoteze formulate înainte de culegerea scorurilor",
+            "Tehnici de organizare și analiză a scorurilor unei variabile"
+          ],
+          "correct": 1,
+          "explain": "Datele sunt informații, în principal numerice, despre anumite caracteristici (de pildă scoruri de anxietate); luate ca atare nu „spun” mare lucru, de aceea trebuie organizate și analizate. Concluziile vin abia după analiză, ipotezele preced culegerea, iar tehnicile de organizare sunt chiar statistica.",
+          "tag": "Date",
+          "tip": "concept"
+        },
+        {
+          "q": "Ce indică exponentul dintr-o expresie precum X⁴?",
+          "opts": [
+            "Rădăcina care se extrage din numărul X",
+            "Numărul de termeni care se adună în serie",
+            "Numărul la care se împarte valoarea lui X",
+            "Puterea la care se ridică numărul X"
+          ],
+          "correct": 3,
+          "explain": "Exponentul arată de câte ori numărul se înmulțește cu sine: X⁴ = X · X · X · X. Extragerea rădăcinii e indicată de radical (sau de exponentul fracțional ½), iar numărul de termeni însumați apare în indicii operatorului Σ.",
+          "tag": "Exponent și radical",
+          "tip": "operatie"
+        },
+        {
+          "q": "Ce afirmație despre două cazuri devine posibilă abia la nivelul de raport?",
+          "opts": [
+            "Că unul are mai mult decât celălalt",
+            "Că diferențele dintre cazuri sunt egale",
+            "Că unul are de două ori mai mult decât celălalt",
+            "Că sunt în categorii diferite ale variabilei"
+          ],
+          "correct": 2,
+          "explain": "Rapoartele cer un zero natural, deci apar abia la nivelul de raport (10 ani vechime = de două ori 5 ani). „Mai mult” e posibil de la nivelul ordinal, diferențele egale de la cel de interval, iar categoriile diferite de la cel nominal.",
+          "tag": "Nivelul de raport",
+          "tip": "nivel_masura"
+        },
+        {
+          "q": "Ce criteriu respinge o clasificare corectă formal, dar inutilă pentru cunoaștere?",
+          "opts": [
+            "Sensul teoretic",
+            "Exhaustivitatea",
+            "Excluderea reciprocă",
+            "Omogenitatea"
+          ],
+          "correct": 0,
+          "explain": "Al patrulea criteriu cere ca o clasificare să servească explicației și înțelegerii: „bursuci / non-bursuci” e exclusivă și exhaustivă, dar nu aduce nimic cunoașterii. Exhaustivitatea și excluderea sunt tocmai regulile formale pe care o astfel de clasificare le respectă.",
+          "tag": "Criteriul sensului teoretic",
+          "tip": "regula"
+        },
+        {
+          "q": "Ce procedură de măsurare e permisă la nivel nominal?",
+          "opts": [
+            "Clasificarea cazurilor în categorii",
+            "Ordonarea categoriilor după rang",
+            "Măsurarea distanțelor dintre categorii",
+            "Media codurilor date categoriilor"
+          ],
+          "correct": 0,
+          "explain": "La nivel nominal clasificarea e singura procedură permisă; categoriile se compară doar după numărul de cazuri. Ordonarea apare la nivelul ordinal, distanțele egale la cel de interval, iar media codurilor nominale nu are sens, codurile fiind simple etichete.",
+          "tag": "Nivelul nominal",
+          "tip": "nivel_masura"
+        }
+      ]
+    },
+    {
+      "id": "1",
+      "eticheta": "Runda 2 · Bază",
+      "titlu": "Runda 2 — Concepte de bază",
+      "desc": "Recunoaștere: definiții, termeni, reguli și exemple din unitate.",
+      "intrebari": [
+        {
+          "q": "Un psiholog are scorurile a 200 de elevi la un test de anxietate și vrea să afle dacă anxietatea diferă între clase. Ce rol are statistica în acest demers?",
+          "opts": [
+            "Studiază proprietățile numerelor obținute, independent de întrebarea pusă",
+            "Culege scorurile elevilor prin chestionare, teste și observație directă",
+            "Organizează și prelucrează scorurile, ca să răspundă la o întrebare",
+            "Formulează direct din scorurile brute o teorie despre anxietatea elevilor"
+          ],
+          "correct": 2,
+          "explain": "Statistica e un set de metode și tehnici matematice de organizare și prelucrare a datelor, cu scopul de a răspunde la întrebări și de a testa ipoteze — aici, dacă anxietatea diferă între clase. Culegerea scorurilor ține de metodele de cercetare, nu de statistică; proprietățile numerelor în sine țin de matematica pură, iar datele brute „nu spun” mare lucru fără analiză, deci nu dau direct o teorie.",
+          "tag": "Definiția statisticii",
+          "tip": "definitie"
+        },
+        {
+          "q": "Ce subliniază regula IGIG — „introduci gunoaie, ies gunoaie”?",
+          "opts": [
+            "Analizele nu pot compensa o problemă sau un proiect de cercetare greșit",
+            "Scorurile extreme trebuie eliminate înainte de orice prelucrare statistică",
+            "Calculatorul produce erori dacă datele nu sunt introduse în ordinea corectă",
+            "Statisticile descriptive sunt inutile dacă nu sunt urmate de cele inferențiale"
+          ],
+          "correct": 0,
+          "explain": "IGIG exprimă limita statisticii: dacă problema sau proiectul sunt greșite, „cele mai sofisticate analize statistice sunt lipsite de valoare”. Statistica nu se poate substitui conceptualizării riguroase.",
+          "tag": "Rolul și limitele statisticii",
+          "tip": "principiu"
+        },
+        {
+          "q": "Rezultatul înmulțirii se numește …, iar numerele înmulțite se numesc …",
+          "opts": [
+            "cât; numărători",
+            "sumă; termeni",
+            "diferență; factori",
+            "produs; factori"
+          ],
+          "correct": 3,
+          "explain": "Înmulțirea dă un produs, iar numerele înmulțite sunt factori. Suma vine din adunare, diferența din scădere, câtul din împărțire (cu numărător și numitor).",
+          "tag": "Terminologia operațiilor",
+          "tip": "operatie"
+        },
+        {
+          "q": "Cât este valoarea absolută (modulul) a numărului −7?",
+          "opts": [
+            "−7, pentru că semnul numărului se păstrează",
+            "7, adică valoarea numărului indiferent de semn",
+            "0, pentru că semnul minus anulează valoarea",
+            "49, adică numărul ridicat la pătrat"
+          ],
+          "correct": 1,
+          "explain": "Valoarea absolută ignoră semnul algebric: |−7| = |+7| = 7. Ridicarea la pătrat (49) este o altă operație.",
+          "tag": "Numere reale și valoare absolută",
+          "tip": "operatie"
+        },
+        {
+          "q": "Aplicând regulile cursului, cât este (−10) − (−25)?",
+          "opts": [
+            "−35",
+            "−15",
+            "+15",
+            "+35"
+          ],
+          "correct": 2,
+          "explain": "La scădere se schimbă semnul scăzătorului: (−10) − (−25) = (−10) + (+25). Semnele fiind opuse, scazi modulele (25 − 10 = 15) și păstrezi semnul celui mai mare în modul: +15.",
+          "tag": "Reguli ale semnelor",
+          "tip": "calcul"
+        },
+        {
+          "q": "Ce proprietate ilustrează egalitatea 5(−10 + 15) = 5(−10) + 5 · 15?",
+          "opts": [
+            "Comutativitatea adunării și a înmulțirii",
+            "Distributivitatea înmulțirii față de adunare",
+            "Asociativitatea termenilor unei sume",
+            "Regula 2 a operatorului însumării Σ"
+          ],
+          "correct": 1,
+          "explain": "Produsul unui număr cu o sumă este egal cu suma produselor: X(Y + Z) = XY + XZ — distributivitatea. Comutativitatea schimbă ordinea, asociativitatea schimbă gruparea.",
+          "tag": "Proprietăți ale numerelor reale",
+          "tip": "operatie"
+        },
+        {
+          "q": "Ce indică operatorul Σ (sigma majusculă)?",
+          "opts": [
+            "Însumarea a ceea ce urmează imediat în expresie",
+            "Înmulțirea tuturor termenilor unei serii",
+            "Extragerea rădăcinii pătrate a unui număr",
+            "Ridicarea la putere a fiecărui termen din serie"
+          ],
+          "correct": 0,
+          "explain": "Σ este operatorul însumării: Σ Xi de la i = 1 la N adună termenii de la primul la al N-lea. Radicalul (√) și exponentul sunt alți indicatori speciali.",
+          "tag": "Operatorul Σ",
+          "tip": "operatie"
+        },
+        {
+          "q": "Ce este, în statistică, un eșantion?",
+          "opts": [
+            "Grupul tuturor cazurilor de care este interesat cercetătorul",
+            "Orice trăsătură care își poate schimba valoarea de la caz la caz",
+            "Grupul de persoane care au acceptat voluntar să răspundă",
+            "O submulțime strictă a populației de referință, selectată pentru studiu"
+          ],
+          "correct": 3,
+          "explain": "Eșantionul este o submulțime strictă a populației, folosită când populația e prea mare pentru a fi cercetată. „Toate cazurile de interes” definește populația, iar „trăsătura care variază” definește variabila.",
+          "tag": "Variabilă, populație, eșantion",
+          "tip": "definitie"
+        },
+        {
+          "q": "La ce folosesc statisticile inferențiale?",
+          "opts": [
+            "La prezentarea, clasificarea și însumarea scorurilor unei variabile",
+            "La generalizări despre o populație, pe baza studiului unui eșantion",
+            "La descrierea exclusivă a variabilelor măsurate la nivel nominal",
+            "La verificarea corectitudinii culegerii datelor din teren"
+          ],
+          "correct": 1,
+          "explain": "Statisticile inferențiale trag concluzii despre populație din caracteristicile unui eșantion. „Prezintă, clasifică, însumează” este definiția statisticilor descriptive.",
+          "tag": "Statistici descriptive vs inferențiale",
+          "tip": "definitie"
+        },
+        {
+          "q": "Care este ordinea crescătoare a complexității nivelurilor de măsură?",
+          "opts": [
+            "Ordinal, nominal, de raport, de interval",
+            "Nominal, de interval, ordinal, de raport",
+            "Nominal, ordinal, de interval, de raport",
+            "De raport, de interval, ordinal, nominal"
+          ],
+          "correct": 2,
+          "explain": "Ierarhia este: nominal (clasificare) → ordinal (+ ordonare) → de interval (+ intervale egale) → de raport (+ zero natural). Fiecare nivel păstrează proprietățile celui anterior.",
+          "tag": "Ierarhia nivelurilor",
+          "tip": "nivel_masura"
+        },
+        {
+          "q": "Care dintre următoarele NU este un criteriu al măsurării nominale corecte?",
+          "opts": [
+            "Categoriile să fie reciproc exclusive",
+            "Categoriile să fie exhaustive",
+            "Categoriile să fie omogene față de scopul cercetării",
+            "Intervalele dintre categorii să fie egale"
+          ],
+          "correct": 3,
+          "explain": "Măsurarea nominală cere excludere reciprocă, exhaustivitate, omogenitate și sens teoretic. Intervalele egale țin de nivelul de interval — la nivel nominal categoriile nici măcar nu pot fi ordonate.",
+          "tag": "Reguli ale măsurării nominale",
+          "tip": "regula"
+        },
+        {
+          "q": "Ce aduce în plus nivelul de raport față de nivelul de interval?",
+          "opts": [
+            "Un punct zero natural, care reflectă absența caracteristicii măsurate",
+            "Intervale egale între oricare două categorii succesive",
+            "Posibilitatea de a ordona cazurile de la inferior la superior",
+            "Clasificarea cazurilor în categorii reciproc exclusive"
+          ],
+          "correct": 0,
+          "explain": "Intervalele egale există deja la nivelul de interval, ordonarea la cel ordinal, clasificarea la cel nominal. Doar zeroul natural (absența trăsăturii) e specific nivelului de raport și permite afirmații de tip „de două ori mai mult”.",
+          "tag": "Nivelul de raport",
+          "tip": "nivel_masura"
+        },
+        {
+          "q": "Care variabilă poate fi măsurată numai la nivel nominal?",
+          "opts": [
+            "Nivelul de școlarizare",
+            "Culoarea ochilor",
+            "Anul emiterii unui timbru",
+            "Vechimea în muncă"
+          ],
+          "correct": 1,
+          "explain": "Culoarea ochilor permite doar clasificarea (ca sexul sau denominația religioasă). Școlarizarea e ordinală, anul emiterii e de interval, vechimea în muncă e de raport.",
+          "tag": "Exemple pe niveluri",
+          "tip": "nivel_masura"
+        },
+        {
+          "q": "Rădăcina pătrată a lui 36 se poate scrie și ca:",
+          "opts": [
+            "36²",
+            "36 / 2",
+            "36^(1/2)",
+            "2 · √36"
+          ],
+          "correct": 2,
+          "explain": "Rădăcina pătrată poate fi indicată prin exponentul fracțional ½: √36 = 36^½ = 6. 36² înseamnă ridicare la pătrat, iar 36/2 = 18 este o împărțire.",
+          "tag": "Exponent și radical",
+          "tip": "operatie"
+        },
+        {
+          "q": "Ce este, în statistică, o variabilă?",
+          "opts": [
+            "Grupul tuturor cazurilor de care este interesat cercetătorul",
+            "Un număr fix folosit ca factor constant într-o formulă statistică",
+            "O submulțime strictă a populației, aleasă pentru a fi studiată",
+            "Orice trăsătură care își poate schimba valoarea de la caz la caz"
+          ],
+          "correct": 3,
+          "explain": "Variabila e o trăsătură care variază de la caz la caz (sex, vârstă, venit). „Toate cazurile de interes” definește populația, „submulțimea strictă” definește eșantionul, iar un număr fix este o constantă — opusul unei variabile.",
+          "tag": "Variabilă, populație, eșantion",
+          "tip": "definitie"
+        }
+      ],
+      "ascunse": [
+        {
+          "q": "Care sunt, în ordine, cele trei etape principale ale unei cercetări?",
+          "opts": [
+            "Formularea problemei, proiectarea cercetării, analiza rezultatelor",
+            "Culegerea datelor, formularea problemei, analiza rezultatelor",
+            "Proiectarea cercetării, analiza rezultatelor, formularea problemei",
+            "Formularea ipotezelor, testarea statistică, publicarea rezultatelor"
+          ],
+          "correct": 0,
+          "explain": "Cursul descrie: 1) formularea problemei (din teorii, cercetări anterioare, comenzi), 2) proiectul — ce cazuri, câte și cum sunt investigate, 3) analiza rezultatelor, unde statistica devine direct importantă. Culegerea datelor vine după proiectare, nu înaintea problemei.",
+          "tag": "Etapele cercetării",
+          "tip": "etapa"
+        },
+        {
+          "q": "Aplicând regulile semnelor, cât este (−10) · (−25)?",
+          "opts": [
+            "−250",
+            "−35",
+            "+250",
+            "+35"
+          ],
+          "correct": 2,
+          "explain": "La înmulțire, două numere cu același semn dau un produs pozitiv: (−10)(−25) = +250. −35 și +35 ar veni din adunare sau scădere, nu din înmulțire.",
+          "tag": "Reguli ale semnelor",
+          "tip": "calcul"
+        },
+        {
+          "q": "Ce afirmă proprietatea de asociativitate?",
+          "opts": [
+            "Numerele pot fi adunate sau înmulțite în orice ordine",
+            "Termenii unei sume sau factorii unui produs pot fi grupați oricum",
+            "Produsul unui număr cu o sumă egalează suma produselor",
+            "Semnul unui produs depinde de semnele factorilor săi"
+          ],
+          "correct": 1,
+          "explain": "Asociativitatea privește gruparea: −10 + (15 + 5) = (−10 + 15) + 5. „În orice ordine” descrie comutativitatea, iar „produsul cu o sumă” descrie distributivitatea.",
+          "tag": "Proprietăți ale numerelor reale",
+          "tip": "operatie"
+        },
+        {
+          "q": "Un colecționar își descrie timbrele după mai multe variabile. Care dintre ele e măsurată la nivel de interval?",
+          "opts": [
+            "Țara care a emis timbrul",
+            "Starea de conservare a timbrului",
+            "Valoarea de piață a timbrului",
+            "Anul în care a fost emis timbrul"
+          ],
+          "correct": 3,
+          "explain": "Anul emiterii are intervale egale (un an) și permite ordonarea, dar zeroul calendarului e arbitrar: un timbru din 1990 nu e „de 60 de ori mai recent” decât unul din 1930. Țara e nominală, starea de conservare e ordinală, valoarea în bani are zero natural.",
+          "tag": "Exemple pe niveluri",
+          "tip": "nivel_masura"
+        },
+        {
+          "q": "De ce nu se pot aplica operațiile aritmetice variabilelor măsurate la nivel ordinal?",
+          "opts": [
+            "Pentru că valorile categoriilor ordinale nu pot fi numărate",
+            "Pentru că le lipsește un punct zero natural, așa cum are nivelul de raport",
+            "Pentru că nu se poate presupune că distanțele dintre scoruri sunt egale",
+            "Pentru că categoriile ordinale nu sunt reciproc exclusive"
+          ],
+          "correct": 2,
+          "explain": "Adunarea, scăderea, înmulțirea și împărțirea cer intervale egale între scoruri, iar la nivel ordinal distanțele nu sunt precizate. Lipsa zeroului natural nu e motivul: nici nivelul de interval nu are zero natural, și totuși permite aceste operații.",
+          "tag": "Operații aritmetice și nivel de măsură",
+          "tip": "nivel_masura"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "eticheta": "Runda 3 · Aplicații",
+      "titlu": "Runda 3 — Scenarii și raționament",
+      "desc": "Situații noi: identifici nivelul de măsură, regula încălcată sau consecința logică.",
+      "intrebari": [
+        {
+          "q": "Un cercetător clasifică participanții după religie în: „ortodox”, „creștin”, „catolic”, „fără religie”, „altele”. Ce regulă a măsurării nominale e încălcată?",
+          "opts": [
+            "Exhaustivitatea, pentru că lipsesc unele denominații din listă",
+            "Excluderea reciprocă, pentru că „ortodox” e inclus în „creștin”",
+            "Omogenitatea, pentru că persoanele fără religie nu au o trăsătură comună",
+            "Sensul teoretic, pentru că religia nu e o variabilă psihologică"
+          ],
+          "correct": 1,
+          "explain": "Orice ortodox este și creștin — categoriile sunt în raport de incluziune, a doua eroare față de regula excluderii. Exhaustivitatea e acoperită de categoria „altele”, deci varianta cu „lipsesc denominații” ignoră această categorie.",
+          "tag": "Regula excluderii",
+          "tip": "regula",
+          "exemplu_nou": true
+        },
+        {
+          "q": "Ieri au fost +5 °C, azi sunt +10 °C. De ce NU putem spune că azi e de două ori mai cald?",
+          "opts": [
+            "Scala Celsius e ordinală, deci distanțele dintre grade nu sunt egale",
+            "Scala Celsius e de raport, dar raportul se poate calcula corect doar în Fahrenheit",
+            "Afirmația ar fi corectă doar pentru diferențe mai mari de 10 grade",
+            "Scala Celsius e de interval: zeroul ei e arbitrar, nu absența temperaturii"
+          ],
+          "correct": 3,
+          "explain": "Celsius are intervale egale (deci nu e ordinală), dar 0 °C e doar un punct de referință, nu absența temperaturii. Fără zero natural, rapoartele nu au sens. Doar scala Kelvin are zero absolut.",
+          "tag": "Zero arbitrar vs zero natural",
+          "tip": "nivel_masura",
+          "exemplu_nou": false
+        },
+        {
+          "q": "Ana are scorul 20, iar Mihai scorul 10 pe o scală de stabilitate emoțională. Este Ana „de două ori mai stabilă emoțional”?",
+          "opts": [
+            "Nu: scala e de interval, fără zero absolut care să indice lipsa trăsăturii",
+            "Da: scorurile sunt numere, deci raportul dintre ele este interpretabil",
+            "Nu: scala e nominală, iar scorurile sunt doar etichete ale categoriilor",
+            "Da, cu condiția ca eșantionul de normare al scalei să fie suficient de mare"
+          ],
+          "correct": 0,
+          "explain": "Scalele de personalitate sunt exemplul de interval din curs: diferențele au sens, rapoartele nu, fiindcă scorul 0 nu înseamnă absența stabilității emoționale. Faptul că sunt numere nu garantează un zero natural; mărimea eșantionului nu schimbă nivelul de măsură.",
+          "tag": "Nivelul de interval",
+          "tip": "nivel_masura",
+          "exemplu_nou": false
+        },
+        {
+          "q": "Nivelul de școlarizare e codat 1–6. Un student calculează media codurilor grupului: 3,4. Unde e problema?",
+          "opts": [
+            "Fiind nominal, nivelul nu permite nici măcar ordonarea categoriilor",
+            "Media e corectă, dar trebuie rotunjită la cel mai apropiat cod întreg",
+            "Fiind ordinal, distanțele dintre coduri nu sunt egale, deci nu le poți aduna",
+            "Media e legitimă, problema e doar lipsa unei categorii „Altele”"
+          ],
+          "correct": 2,
+          "explain": "Școlarizarea e ordinală: putem spune cine are mai multă școală, dar nu că distanța 2→3 egalează distanța 3→4. Adunarea și împărțirea cer intervale egale, deci media nu e justificată. Variabila nu e nominală — categoriile se pot ordona.",
+          "tag": "Operații aritmetice și nivel de măsură",
+          "tip": "nivel_masura",
+          "exemplu_nou": true
+        },
+        {
+          "q": "Pentru aceeași populație, un distribuitor de medicamente clasifică oamenii după tipul de aspirină folosit, iar unul de cafea — după tipul de cafea. Ce ilustrează exemplul?",
+          "opts": [
+            "Exhaustivitatea depinde de numărul de categorii ales",
+            "Omogenitatea categoriilor se judecă în raport cu scopul cercetării",
+            "Excluderea reciprocă depinde de cine face clasificarea",
+            "Sensul teoretic cere aceleași categorii pentru orice cercetare"
+          ],
+          "correct": 1,
+          "explain": "Categoriile sunt omogene dacă proprietățile comune cazurilor sunt mai importante pentru scopul cercetării decât cele care le diferențiază. Pentru farmacist contează aspirina, pentru distribuitorul de cafea — cafeaua. Exemplul arată exact această relativitate față de scop.",
+          "tag": "Regula omogenității",
+          "tip": "regula",
+          "exemplu_nou": false
+        },
+        {
+          "q": "Variabila „numărul de copii dintr-o familie”: la ce nivel e măsurată și ce afirmație e permisă?",
+          "opts": [
+            "Raport: o familie cu 4 copii are de două ori mai mulți copii decât una cu 2",
+            "Interval: putem face diferențe, dar nu rapoarte, pentru că zeroul e arbitrar",
+            "Ordinal: familiile pot fi ordonate, dar distanțele dintre ele nu sunt egale",
+            "Nominal: numărul de copii funcționează doar ca etichetă a familiei"
+          ],
+          "correct": 0,
+          "explain": "0 copii înseamnă absența copiilor — un zero natural, deci nivel de raport, unde rapoartele au sens. Varianta „de interval” presupune greșit un zero arbitrar; numărul de copii e citat explicit în curs printre variabilele de raport.",
+          "tag": "Nivelul de raport",
+          "tip": "nivel_masura",
+          "exemplu_nou": false
+        },
+        {
+          "q": "Clasificarea universului în „bursuci” și „non-bursuci” are categorii exclusive și exhaustive. De ce e totuși inacceptabilă?",
+          "opts": [
+            "Încalcă excluderea, pentru că unele obiecte ar intra în ambele clase",
+            "Încalcă exhaustivitatea, pentru că unele obiecte nu intră în nicio clasă",
+            "Este acceptabilă, pentru că respectă primele trei reguli ale măsurării",
+            "Nu are sens teoretic: categoriile nu servesc explicației și înțelegerii"
+          ],
+          "correct": 3,
+          "explain": "Al patrulea criteriu cere ca o clasificare să aibă sens teoretic. Logic, „bursuc / non-bursuc” e impecabil (exclusiv și exhaustiv), dar nu aduce nimic cunoașterii. Respectarea regulilor formale nu e suficientă.",
+          "tag": "Criteriul sensului teoretic",
+          "tip": "regula",
+          "exemplu_nou": false
+        },
+        {
+          "q": "Un student constată că scorurile unui test de memorie sunt la nivel de interval și conchide că trebuie să le analizeze cu media aritmetică. Ce greșește în raționament?",
+          "opts": [
+            "Confundă nivelul de interval cu cel de raport, singurul care permite media",
+            "Uită că media cere un eșantion suficient de mare, oricare ar fi nivelul",
+            "Ia drept suficientă o condiție care doar permite media, fără s-o impună",
+            "Ignoră că la nivel de interval se folosesc numai tehnicile ordinale"
+          ],
+          "correct": 2,
+          "explain": "Nivelul de măsură e un criteriu necesar, nu și suficient: fără nivelul potrivit tehnica e exclusă (media unei variabile nominale nu se poate calcula), dar nivelul potrivit doar permite tehnica, nu o impune. Studentul transformă condiția necesară într-una suficientă. Media nu e rezervată nivelului de raport, mărimea eșantionului nu schimbă nivelul de măsură, iar la interval sunt permise și tehnicile nivelurilor inferioare, nu numai ele.",
+          "tag": "Criteriu necesar, nu suficient",
+          "tip": "principiu",
+          "exemplu_nou": true
+        },
+        {
+          "q": "O cercetătoare nu e sigură dacă scala ei de atitudini e ordinală sau de interval. Cum procedează corect?",
+          "opts": [
+            "O tratezi ca nominală, pentru siguranță, renunțând la ordonare",
+            "Presupui intervalul, dar compari analizele la ambele niveluri",
+            "Presupui intervalul fără verificare, pentru că permite tehnici mai sofisticate",
+            "O tratezi ca scală de raport, ca să poți face și afirmații despre proporții"
+          ],
+          "correct": 1,
+          "explain": "Cursul spune că e util să presupui intervalul (tehnici mai sofisticate), dar decizia nu e lipsită de riscuri: compari analizele la ambele niveluri, iar dacă rezultatele diferă substanțial, abandonezi supoziția. Varianta „fără verificare” păstrează avantajul, dar ignoră tocmai riscul.",
+          "tag": "Dilema ordinal / interval",
+          "tip": "principiu",
+          "exemplu_nou": true
+        },
+        {
+          "q": "Pentru patru scoruri știm că Σ Xi = 15. Cât este Σ 3Xi, fără a înmulți fiecare scor?",
+          "opts": [
+            "18",
+            "45",
+            "60",
+            "225"
+          ],
+          "correct": 1,
+          "explain": "Regula 1: constanta iese în fața sumei, Σ C·Xi = C · Σ Xi = 3 · 15 = 45. 18 ar însemna adunarea constantei (15 + 3), nu înmulțirea.",
+          "tag": "Regula 1 a operatorului Σ",
+          "tip": "calcul",
+          "exemplu_nou": true
+        },
+        {
+          "q": "Pentru două serii de câte 4 numere, Σ Xi = 11 și Σ Yi = 27. Cât este Σ (Xi + Yi)?",
+          "opts": [
+            "297",
+            "16",
+            "27",
+            "38"
+          ],
+          "correct": 3,
+          "explain": "Regula 2: suma sumelor este egală cu suma fiecărei serii, adunate: Σ(Xi + Yi) = Σ Xi + Σ Yi = 11 + 27 = 38. 297 ar fi produsul sumelor, 16 diferența lor.",
+          "tag": "Regula 2 a operatorului Σ",
+          "tip": "calcul",
+          "exemplu_nou": true
+        },
+        {
+          "q": "Un psiholog testează 200 de studenți ai unei universități și trage concluzii despre toți studenții acelei universități. Ce fel de statistică folosește?",
+          "opts": [
+            "Descriptivă: rezumă scorurile celor 200 de studenți testați",
+            "Descriptivă: eșantionul e destul de mare ca să descrie toată universitatea",
+            "Inferențială: generalizează de la un eșantion la populația de referință",
+            "Niciuna: concluziile despre populație cer testarea tuturor studenților"
+          ],
+          "correct": 2,
+          "explain": "Trecerea de la eșantion (200) la populație (toți studenții) e chiar definiția statisticii inferențiale. Mărimea eșantionului nu transformă inferența în descriere, iar tocmai pentru că populațiile sunt prea mari se lucrează cu eșantioane.",
+          "tag": "Statistici descriptive vs inferențiale",
+          "tip": "definitie",
+          "exemplu_nou": true
+        },
+        {
+          "q": "Un chestionar întreabă „Câte ore dormi pe noapte?”, cu variantele „sub 5”, „5–7”, „7–9” și „peste 6”. Ce regulă e încălcată?",
+          "opts": [
+            "Excluderea reciprocă: „peste 6” se suprapune parțial cu alte categorii",
+            "Exhaustivitatea: lipsește o categorie pentru cei care dorm peste 9 ore",
+            "Omogenitatea: orele de somn nu sunt relevante pentru o cercetare",
+            "Niciuna: categoriile acoperă toate valorile posibile ale somnului"
+          ],
+          "correct": 0,
+          "explain": "Cine doarme 6,5 ore intră și în „5–7”, și în „peste 6”: categoriile au cazuri comune, prima eroare față de regula excluderii. Varianta cu exhaustivitatea nu observă că „peste 6” îi cuprinde deja pe cei care dorm peste 9 ore. Faptul că sunt acoperite toate valorile nu e suficient.",
+          "tag": "Regula excluderii",
+          "tip": "regula",
+          "exemplu_nou": true
+        },
+        {
+          "q": "De ce putem spune că 300 K e de două ori mai mult decât 150 K, dar nu că 20 °C e de două ori mai mult decât 10 °C?",
+          "opts": [
+            "Scala Kelvin are intervale egale între grade, iar Celsius nu are",
+            "Scala Kelvin e o scală ordinală mai precisă decât scala Celsius",
+            "Valorile Kelvin sunt mai mari, deci raportul lor e mai stabil",
+            "Scala Kelvin are un zero absolut, care indică absența caracteristicii"
+          ],
+          "correct": 3,
+          "explain": "Ambele scale au intervale egale; diferența e zeroul. Pe Kelvin, 0 marchează absența „mișcării” moleculelor — zero natural, deci nivel de raport. La Celsius, 0 °C e doar un punct de referință, deci nivel de interval.",
+          "tag": "Zero arbitrar vs zero natural",
+          "tip": "nivel_masura",
+          "exemplu_nou": false
+        },
+        {
+          "q": "Religia e codată 1 = ortodox, 2 = catolic, 3 = protestant. Media codurilor grupului iese 1,7. Cum interpretezi?",
+          "opts": [
+            "Grupul e, în medie, mai aproape de ortodox decât de catolic",
+            "Media e corectă, dar trebuie raportată cu o zecimală mai puțin",
+            "Rezultatul nu are sens: codurile nominale sunt etichete, nu cantități",
+            "Media are sens doar dacă eșantionul e reprezentativ pentru populație"
+          ],
+          "correct": 2,
+          "explain": "La nivel nominal singura operație permisă e clasificarea; numerele sunt doar nume ale categoriilor și pot fi schimbate oricum (3 = ortodox ar da altă „medie”). Interpretarea „mai aproape de ortodox” tratează etichetele ca pe o scală, iar reprezentativitatea nu repară nivelul de măsură.",
+          "tag": "Operații aritmetice și nivel de măsură",
+          "tip": "nivel_masura",
+          "exemplu_nou": true
+        }
+      ],
+      "ascunse": [
+        {
+          "q": "Un studiu de marketing îi clasifică pe clienți în „tineri”, „adulți” și „pensionari”. Ce problemă apare?",
+          "opts": [
+            "Ordonarea: categoriile de vârstă nu pot fi ordonate în niciun fel",
+            "Excluderea: „pensionari” ține de alt criteriu, deci clasele se suprapun",
+            "Omogenitatea: pensionarii nu au nicio trăsătură comună relevantă",
+            "Sensul teoretic: vârsta nu poate explica deloc comportamentul de cumpărare"
+          ],
+          "correct": 1,
+          "explain": "„Tineri” și „adulți” sunt categorii de vârstă, „pensionari” e o categorie de statut ocupațional. Amestecul de criterii face ca un adult pensionat să aparțină ambelor clase — încălcarea excluderii reciproce. Categoriile de vârstă se pot ordona, deci varianta cu ordonarea e falsă.",
+          "tag": "Regula excluderii",
+          "tip": "regula",
+          "exemplu_nou": true
+        },
+        {
+          "q": "Un psiholog clinician nu face cercetare, dar citește studii cu rezultate prelucrate statistic. De ce are nevoie de statistică?",
+          "opts": [
+            "Ca să judece ce informații oferă rezultatele și ce concluzii se pot trage",
+            "Ca să poată recalcula singur toate analizele raportate în fiecare studiu",
+            "Pentru că psihologii clinicieni sunt obligați să publice cercetări proprii",
+            "Ca să poată înlocui proiectarea unui studiu cu analize mai sofisticate"
+          ],
+          "correct": 0,
+          "explain": "Cursul vorbește despre „consumatori avizați” de rezultate — manageri din educație, consilieri, clinicieni — care trebuie să înțeleagă ce informații oferă statistica și ce concluzii permite. Nu e nevoie să refacă analizele, iar analizele nu pot înlocui proiectarea (IGIG).",
+          "tag": "Consumatori de rezultate",
+          "tip": "principiu",
+          "exemplu_nou": true
+        },
+        {
+          "q": "Un cercetător alege un eșantion nepotrivit pentru întrebarea lui, dar aplică tehnici statistice foarte avansate. Ce rezultă?",
+          "opts": [
+            "Tehnicile avansate compensează eșantionul, dacă sunt aplicate corect",
+            "Problema se rezolvă trecând de la statistici descriptive la inferențiale",
+            "Rezultatele rămân valide, dar numai pentru variabilele de raport",
+            "Analizele nu salvează cercetarea, pentru că eroarea vine din proiectare"
+          ],
+          "correct": 3,
+          "explain": "Alegerea cazurilor ține de etapa a doua, proiectul de cercetare. Regula IGIG spune că un proiect greșit face lipsite de valoare chiar și cele mai sofisticate analize. Varianta cu „compensează” presupune exact ce neagă cursul: că statistica poate înlocui un proiect corect.",
+          "tag": "Rolul și limitele statisticii",
+          "tip": "principiu",
+          "exemplu_nou": true
+        },
+        {
+          "q": "Pentru seria 1, 3, 4, 7 (N = 4), cât este Σ (Xi + 2)?",
+          "opts": [
+            "17",
+            "30",
+            "23",
+            "60"
+          ],
+          "correct": 2,
+          "explain": "Constanta se adaugă la fiecare dintre cei 4 termeni. Aplicând regula 2, cu a doua serie 2, 2, 2, 2: Σ Xi + Σ 2 = 15 + 8 = 23. 17 adună constanta o singură dată, iar 30 = Σ 2Xi confundă adunarea cu înmulțirea (regula 1).",
+          "tag": "Regula 2 a operatorului Σ",
+          "tip": "calcul",
+          "exemplu_nou": true
+        },
+        {
+          "q": "Anul nașterii și vârsta în ani poartă practic aceeași informație. La ce nivel de măsură e fiecare?",
+          "opts": [
+            "Ambele sunt de raport, pentru că amândouă se exprimă în ani",
+            "Vârsta e de raport (zero natural), anul nașterii e de interval (zero arbitrar)",
+            "Ambele sunt de interval, pentru că diferențele dintre ele sunt egale",
+            "Anul nașterii e de raport, iar vârsta e doar o variabilă ordinală"
+          ],
+          "correct": 1,
+          "explain": "Vârsta 0 înseamnă absența anilor trăiți — zero natural, deci raport: 40 de ani e de două ori 20. Anul 0 al calendarului e o convenție, ca la timbre, deci anul nașterii e de interval. Aceeași unitate de măsură (anul) nu garantează același nivel.",
+          "tag": "Nivelul de raport",
+          "tip": "nivel_masura",
+          "exemplu_nou": true
+        }
+      ]
+    }
+  ],
+  "harta": {
+    "centru": "Introducere în statistică",
+    "ramuri": [
+      {
+        "titlu": "Ce este statistica",
+        "noduri": [
+          {
+            "t": "Definiția statisticii",
+            "d": "Pentru psiholog, statistica este un set de metode și tehnici matematice de organizare și prelucrare a datelor, folosite pentru a răspunde la întrebări și a testa ipoteze."
+          },
+          {
+            "t": "Date",
+            "d": "Informații, în principal numerice, despre anumite caracteristici (de exemplu scoruri pe o scală de anxietate). Luate ca atare nu „spun” mare lucru: trebuie organizate, evaluate și analizate."
+          },
+          {
+            "t": "Statistica ca instrument",
+            "d": "Cursul tratează statistica drept „instrument” al psihologului, nu ca scop în sine: atâta matematică cât e nevoie ca să înțelegi ce face și cum face statistica."
+          }
+        ]
+      },
+      {
+        "titlu": "Statistica în cercetare",
+        "noduri": [
+          {
+            "t": "Etapele cercetării",
+            "d": "1) formularea problemei (din teorii, cercetări anterioare, comenzi de cercetare); 2) proiectul: ce cazuri, câte și cum sunt investigate; 3) analiza rezultatelor, unde statistica devine direct importantă."
+          },
+          {
+            "t": "Rolul și limitele statisticii",
+            "d": "Regula IGIG — „introduci gunoaie, ies gunoaie”: dacă problema e formulată greșit sau proiectul e greșit, cele mai sofisticate analize sunt lipsite de valoare. Statistica nu înlocuiește conceptualizarea riguroasă."
+          },
+          {
+            "t": "Consumatori de rezultate",
+            "d": "Și cine nu face cercetare (manageri din educație, consilieri, psihologi clinicieni) trebuie să înțeleagă ce informații oferă statistica și ce concluzii permite."
+          }
+        ]
+      },
+      {
+        "titlu": "Operații și numere reale",
+        "noduri": [
+          {
+            "t": "Terminologia operațiilor",
+            "d": "Adunare → sumă; scădere → diferență; înmulțire → produs (numerele înmulțite sunt factori); împărțire → cât (numărător / numitor). X / Y = (X)(1/Y)."
+          },
+          {
+            "t": "Numere reale și valoare absolută",
+            "d": "Numerele reale: toate numerele de la −∞ la +∞ (întregi, fracții, zecimale). Valoarea absolută (modulul) ignoră semnul: |−7| = |+7| = 7."
+          },
+          {
+            "t": "Reguli ale semnelor",
+            "d": "Adunare cu același semn: aduni modulele și păstrezi semnul; cu semne opuse: scazi modulele, semnul celui mai mare în modul. Scădere: schimbi semnul scăzătorului și aduni. Înmulțire/împărțire: același semn → +, semne diferite → −."
+          },
+          {
+            "t": "Proprietăți ale numerelor reale",
+            "d": "Comutativitatea (ordinea nu contează), asociativitatea (gruparea nu contează), distributivitatea înmulțirii față de adunare: X(Y + Z) = XY + XZ."
+          }
+        ]
+      },
+      {
+        "titlu": "Indicatori speciali",
+        "noduri": [
+          {
+            "t": "Exponent și radical",
+            "d": "Exponentul arată puterea: X² = X · X. Radicalul: rădăcina pătrată, numărul care ridicat la pătrat dă numărul inițial; se scrie și cu exponentul ½: √36 = 36^½ = 6."
+          },
+          {
+            "t": "Operatorul Σ",
+            "d": "Σ (sigma majusculă) indică însumarea a ceea ce urmează; Σ Xi de la i = 1 la N adună de la primul la al N-lea termen. Fără indici, Σ adună toată seria."
+          },
+          {
+            "t": "Regula 1 a operatorului Σ",
+            "d": "Constanta iese în fața sumei: Σ C·Xi = C · Σ Xi."
+          },
+          {
+            "t": "Regula 2 a operatorului Σ",
+            "d": "Suma unor sume: Σ (Xi + Yi) = Σ Xi + Σ Yi."
+          }
+        ]
+      },
+      {
+        "titlu": "Concepte de bază",
+        "noduri": [
+          {
+            "t": "Variabilă, populație, eșantion",
+            "d": "Variabila: trăsătură care își schimbă valoarea de la caz la caz (sex, vârstă, venit). Populația: toate cazurile de interes. Eșantionul: submulțime strictă a populației, folosită când populația e prea mare."
+          },
+          {
+            "t": "Statistici descriptive vs inferențiale",
+            "d": "Descriptive: prezintă, clasifică și însumează scorurile unei variabile. Inferențiale: generalizează de la un eșantion la populația din care provine."
+          }
+        ]
+      },
+      {
+        "titlu": "Niveluri de măsură",
+        "noduri": [
+          {
+            "t": "Ierarhia nivelurilor",
+            "d": "În ordinea crescătoare a complexității: nominal, ordinal, de interval, de raport. Fiecare nivel păstrează proprietățile celui anterior și adaugă una."
+          },
+          {
+            "t": "Nivelul nominal",
+            "d": "Doar clasificare în categorii; categoriile nu pot fi ordonate, se compară doar după numărul de cazuri (sex, denominație religioasă, culoarea ochilor)."
+          },
+          {
+            "t": "Nivelul ordinal",
+            "d": "Clasificare + ordonare de la inferior la superior, dar distanțele dintre categorii nu sunt precizate (nivelul de școlarizare, categoriile 1–6)."
+          },
+          {
+            "t": "Nivelul de interval",
+            "d": "Plus intervale egale între categorii succesive, dar zero arbitrar: nu putem spune „de două ori mai…” (°C/°F, anul emiterii unui timbru, scale de personalitate precum stabilitatea emoțională)."
+          },
+          {
+            "t": "Nivelul de raport",
+            "d": "Plus un zero natural care reflectă absența caracteristicii, deci rapoartele au sens (vechimea în muncă, venitul, numărul de copii, anii de căsnicie, temperatura Kelvin)."
+          },
+          {
+            "t": "Zero arbitrar vs zero natural",
+            "d": "Zero arbitrar = simplu punct de referință (0 °C nu înseamnă lipsa temperaturii). Zero natural = absența trăsăturii (0 K, 0 ani vechime)."
+          },
+          {
+            "t": "Exemple pe niveluri",
+            "d": "Culoarea ochilor – nominal; școlarizarea – ordinal; anul emiterii – interval; vechimea în muncă – raport."
+          }
+        ],
+        "tabel": {
+          "cap": [
+            "Nivel",
+            "Clasificare",
+            "Ordonare",
+            "Intervale egale",
+            "Zero natural",
+            "Exemple din carte"
+          ],
+          "randuri": [
+            [
+              "Nominal",
+              "da",
+              "nu",
+              "nu",
+              "nu",
+              "sex, religie, culoarea ochilor"
+            ],
+            [
+              "Ordinal",
+              "da",
+              "da",
+              "nu",
+              "nu",
+              "nivelul de școlarizare"
+            ],
+            [
+              "De interval",
+              "da",
+              "da",
+              "da",
+              "nu (arbitrar)",
+              "°C, anul emiterii, scale de personalitate"
+            ],
+            [
+              "De raport",
+              "da",
+              "da",
+              "da",
+              "da",
+              "vechime, venit, nr. de copii, Kelvin"
+            ]
+          ]
+        }
+      },
+      {
+        "titlu": "Reguli ale măsurării nominale",
+        "noduri": [
+          {
+            "t": "Regula excluderii",
+            "d": "Categoriile trebuie să fie reciproc exclusive. Două erori: categorii care au cazuri comune (suprapunere parțială) și categorii în raport de incluziune."
+          },
+          {
+            "t": "Regula exhaustivității",
+            "d": "O categorie pentru fiecare manifestare a variabilei; de obicei se adaugă „Alții/Altele”."
+          },
+          {
+            "t": "Regula omogenității",
+            "d": "Ce au în comun cazurile dintr-o categorie trebuie să conteze mai mult, pentru scopul cercetării, decât ce le deosebește (aspirina pentru farmacist, cafeaua pentru distribuitorul de cafea)."
+          },
+          {
+            "t": "Criteriul sensului teoretic",
+            "d": "Clasificarea trebuie să servească explicației și înțelegerii: „bursuci / non-bursuci” e corectă formal, dar inutilă."
+          }
+        ]
+      },
+      {
+        "titlu": "Alegerea tehnicii statistice",
+        "noduri": [
+          {
+            "t": "Criteriu necesar, nu suficient",
+            "d": "Nivelul de măsură permite sau exclude o tehnică, dar nu o impune singur."
+          },
+          {
+            "t": "Operații aritmetice și nivel de măsură",
+            "d": "Adunarea, scăderea, înmulțirea și împărțirea cer intervale egale: media aritmetică are sens doar la interval și raport, nu la coduri nominale sau ordinale."
+          },
+          {
+            "t": "Dilema ordinal / interval",
+            "d": "Când nu e clar, se poate presupune nivelul de interval (tehnici mai sofisticate), dar se verifică prin analize la ambele niveluri; dacă rezultatele diferă substanțial, supoziția se abandonează."
+          }
+        ]
+      }
+    ]
+  }
+}

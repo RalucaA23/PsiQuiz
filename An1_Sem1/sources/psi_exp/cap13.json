@@ -1,0 +1,835 @@
+{
+ "schema": "quiz-capitol-v3",
+ "capitol": 13,
+ "titlu": "Motivația",
+ "sursa": "Manual Psihologie experimentală (UTM), Capitolul 13",
+ "reconstituit": "Reconstituit pe 16 nov. 2026 din pagina publicată Psihologie_experimentala.html (capitolele erau încorporate în pagină). Lipsesc câmpurile 'tip' și 'exemplu_nou', care nu ajung în pagină; restul (hartă, runde, întrebări vizibile și ascunse) e identic cu pagina.",
+ "harta": {
+  "centru": "Motivația",
+  "ramuri": [
+   {
+    "titlu": "1. Definiția și structura capitolului",
+    "noduri": [
+     {
+      "t": "Definiția motivației",
+      "d": "Forțele interne și externe (procesul) care determină direcția, intensitatea și persistența comportamentului uman în atingerea unor obiective sau satisfacerea unor nevoi. Influențează deciziile, acțiunile și performanța în învățare, muncă, relații și obiective personale."
+     },
+     {
+      "t": "Criteriile de clasificare",
+      "d": "Tipurile de motivație pot fi clasificate după sursa sau natura motivației. Motivația e influențată de trăsăturile individuale, de mediu și de contextul social și cultural."
+     },
+     {
+      "t": "Cele cinci teme ale capitolului",
+      "d": "Tipurile de motivație; teoriile motivației; factorii care o influențează; importanța motivației; managementul motivației. Fiecare temă începe cu un rezumat în puncte și apoi e reluată pe larg."
+     },
+     {
+      "t": "Definiția din Cap. 1 (Psihologia experimentală. Știință și metodă)",
+      "d": "Motivația e acolo unul dintre domeniile studiate de psihologia experimentală: forța internă sau externă care direcționează comportamentul, furnizând energie și orientare spre scopuri, necesități sau dorințe."
+     }
+    ]
+   },
+   {
+    "titlu": "2. Tipurile de motivație",
+    "tabel": {
+     "cap": [
+      "Tip",
+      "Sursa",
+      "Exemple din carte"
+     ],
+     "randuri": [
+      [
+       "Intrinsecă",
+       "interiorul individului: plăcerea și interesul pentru activitate",
+       "persistă pentru că îi place sau îl interesează subiectul"
+      ],
+      [
+       "Extrinsecă",
+       "recompense externe sau evitarea pedepselor",
+       "bani, recunoaștere socială, note bune, sancțiuni, evaluări externe"
+      ],
+      [
+       "Biologică",
+       "nevoile de bază ale organismului",
+       "foame, sete, somn, sex, protecție de pericole"
+      ],
+      [
+       "Socială",
+       "interacțiunile și relațiile sociale",
+       "dorința de a fi acceptat, apreciat, conectat, integrat; conformitate"
+      ],
+      [
+       "De realizare",
+       "dorința de autodepășire",
+       "caută provocări, își stabilește obiective ambițioase"
+      ],
+      [
+       "De putere",
+       "dorința de a influența, controla, domina",
+       "caută autoritate; satisfacția vine din control"
+      ]
+     ]
+    },
+    "noduri": [
+     {
+      "t": "Motivația intrinsecă",
+      "d": "Provine din interiorul individului, din satisfacția și plăcerea date de activitatea în sine, fără recompense externe; persoana se simte împlinită de realizarea sarcinii."
+     },
+     {
+      "t": "Motivația extrinsecă",
+      "d": "Provine din recompense externe sau din evitarea pedepselor: bani, recunoaștere socială, note bune, alte beneficii tangibile sau intangibile."
+     },
+     {
+      "t": "Motivația biologică",
+      "d": "Legată de nevoile biologice de bază (foamea, setea, somnul, sexul, protecția împotriva pericolelor), satisfăcute pentru supraviețuire și sănătate."
+     },
+     {
+      "t": "Motivația socială",
+      "d": "Derivă din interacțiuni și relații: dorința de a fi acceptat, apreciat, conectat și integrat; rol în conformitatea socială și în adoptarea normelor grupului."
+     },
+     {
+      "t": "Motivația de realizare",
+      "d": "Dorința de a-și atinge potențialul și de a se autodepăși prin obiective personale și profesionale; persoana caută provocări și obiective ambițioase."
+     },
+     {
+      "t": "Motivația de putere",
+      "d": "Dorința de a influența, controla sau domina alți oameni ori resursele; satisfacția vine din controlul situațiilor și al celor din jur. Capcană: realizarea privește autodepășirea, puterea privește controlul asupra altora."
+     }
+    ]
+   },
+   {
+    "titlu": "3. Teoriile motivației",
+    "tabel": {
+     "cap": [
+      "Teorie",
+      "Autor",
+      "Ideea centrală"
+     ],
+     "randuri": [
+      [
+       "Ierarhia nevoilor",
+       "Abraham Maslow",
+       "nevoi ierarhice, de la hrană și adăpost la autorealizare"
+      ],
+      [
+       "Stimulilor și răspunsurilor",
+       "B.F. Skinner",
+       "comportamentul recompensat se repetă, cel pedepsit e suprimat"
+      ],
+      [
+       "Așteptărilor",
+       "Victor Vroom",
+       "așteptarea de reușită, valoarea și atractivitatea recompensei"
+      ],
+      [
+       "Autodeterminării",
+       "Edward Deci și Richard Ryan",
+       "autonomie, competență, legătură socială → motivație intrinsecă"
+      ],
+      [
+       "Stimulării cognitive",
+       "Robert White (în carte)",
+       "nivelul optim de stimulare sau provocare"
+      ]
+     ]
+    },
+    "noduri": [
+     {
+      "t": "Ierarhia nevoilor (Maslow)",
+      "d": "Nevoile sunt aranjate ierarhic și satisfăcute într-o anumită ordine, de la cele de bază (hrană, adăpost) la cele superioare (autorealizare, împlinire de sine). Maslow e, în Cap. 1 (Psihologia experimentală. Știință și metodă), întemeietor al psihologiei umaniste, alături de Carl Rogers."
+     },
+     {
+      "t": "Teoria stimulilor și răspunsurilor (Skinner)",
+      "d": "Recompensele și pedepsele influențează comportamentul: ce e recompensat tinde să se repete, ce e pedepsit tinde să fie suprimat."
+     },
+     {
+      "t": "Teoria așteptărilor (Vroom)",
+      "d": "Motivația e determinată de așteptările legate de capacitatea de a îndeplini sarcina, de valoarea acordată recompensei și de atractivitatea recompensei. În rezumatul secțiunii: comportamentul depinde de așteptările privind consecințele și probabilitatea de a le obține."
+     },
+     {
+      "t": "Teoria autodeterminării (Deci și Ryan)",
+      "d": "Oamenii sunt motivați să acționeze autonom, după propriile valori și interese, nu din recompense sau pedepse. Satisfacerea nevoilor de autonomie, competență și legătură socială promovează motivația intrinsecă și bunăstarea psihologică."
+     },
+     {
+      "t": "Teoria stimulării cognitive (White)",
+      "d": "Nivelul de stimulare (activare) influențează motivația; oamenii caută un echilibru și preferă activitățile cu un nivel optim de excitație sau provocare."
+     }
+    ]
+   },
+   {
+    "titlu": "4. Factorii care influențează motivația",
+    "tabel": {
+     "cap": [
+      "Categorie",
+      "Ce cuprinde"
+     ],
+     "randuri": [
+      [
+       "Interni",
+       "nevoi și dorințe; crezuri și valori personale; percepții și interpretări"
+      ],
+      [
+       "Externi",
+       "recompense și pedepse (recunoaștere, bani, promovare, daruri, critică); așteptările și feedback-ul celorlalți"
+      ],
+      [
+       "Biologici",
+       "neurotransmițători (dopamina, serotonina, noradrenalina); genetică și moștenire"
+      ],
+      [
+       "Psihologici",
+       "autonomie și control; competență și încredere"
+      ],
+      [
+       "Sociali",
+       "cultură și norme sociale; suportul social și relațiile interpersonale"
+      ]
+     ]
+    },
+    "noduri": [
+     {
+      "t": "Factori interni",
+      "d": "Nevoile și dorințele (a mânca, a dormi, siguranță, apartenență, realizare), crezurile și valorile personale (ce e important și satisfăcător) și percepțiile și interpretările situațiilor."
+     },
+     {
+      "t": "Factori externi",
+      "d": "Sistemele de recompense și pedepse din mediu și așteptările și feedback-ul celorlalți (supervizori, colegi, familie), care schimbă percepția persoanei despre competența și succesul ei."
+     },
+     {
+      "t": "Factori biologici",
+      "d": "Neurotransmițătorii și substanțele chimice cerebrale (dopamina, serotonina, noradrenalina) influențează starea de spirit, nivelul de energie și motivația."
+     },
+     {
+      "t": "Genetică și moștenire",
+      "d": "Factorii genetici pot influența sensibilitatea la recompense și la motivare și predispoziția spre anumite comportamente (tot factori biologici)."
+     },
+     {
+      "t": "Factori psihologici",
+      "d": "Sentimentul de autonomie și control asupra propriilor acțiuni (motivație intrinsecă) și sentimentul de competență și încredere în propriile abilități."
+     },
+     {
+      "t": "Factori sociali",
+      "d": "Normele culturale și sociale și așteptările grupului (cum își definește persoana succesul și satisfacția) și suportul social din partea familiei, prietenilor și colegilor."
+     },
+     {
+      "t": "Interacțiunea factorilor",
+      "d": "Factorii interacționează complex și variabil, determinând nivelul și direcția motivației; în rezumat sunt grupați în caracteristici individuale, context social și mediul de lucru sau de învățare."
+     }
+    ]
+   },
+   {
+    "titlu": "5. Importanța motivației",
+    "noduri": [
+     {
+      "t": "Direcționează comportamentul",
+      "d": "Acționează ca un impuls intern: oamenii își îndeplinesc nevoile, evită disconfortul și obțin recompense."
+     },
+     {
+      "t": "Sprijină realizarea obiectivelor",
+      "d": "Persoanele motivate își stabilesc obiective clare, lucrează persistent și depun efort."
+     },
+     {
+      "t": "Crește performanța și productivitatea",
+      "d": "Mai ales motivația intrinsecă alimentează angajamentul și pasiunea, cu performanță și creativitate mai ridicate."
+     },
+     {
+      "t": "Conduce la satisfacție și bunăstare",
+      "d": "Atingerea obiectivelor și răsplătirea eforturilor aduc un sentiment de împlinire și mulțumire."
+     },
+     {
+      "t": "Ajută la depășirea obstacolelor",
+      "d": "Oferă o putere internă: persoanele motivate își mențin determinarea și găsesc soluții creative."
+     },
+     {
+      "t": "Stimulează dezvoltarea personală",
+      "d": "Persoanele motivate își asumă riscuri, își îmbunătățesc abilitățile și explorează noi oportunități."
+     }
+    ]
+   },
+   {
+    "titlu": "6. Managementul motivației",
+    "noduri": [
+     {
+      "t": "Scopul managementului motivației",
+      "d": "În organizații și instituții educaționale: un mediu care îi încurajează pe angajați sau studenți să-și atingă potențialul maxim (obiective clare, feedback și recompense, autonomie și creativitate, relații pozitive)."
+     },
+     {
+      "t": "Înțelegerea nevoilor și așteptărilor",
+      "d": "Comunicare regulată cu angajații, sondaje sau evaluări de satisfacție, sesiuni de feedback."
+     },
+     {
+      "t": "Crearea unui mediu de lucru stimulativ",
+      "d": "Angajații se simt valorizați și apreciați: recunoaștere și recompense, cultură a colaborării și sprijinului, oportunități de dezvoltare."
+     },
+     {
+      "t": "Obiective SMART",
+      "d": "Setarea de obiective clare și relevante: specifice, măsurabile, atingibile, relevante și limitate în timp; angajații știu exact ce li se cere și de ce contează."
+     },
+     {
+      "t": "Oferirea de feedback și susținere",
+      "d": "Feedback regulat și constructiv și aprecierea muncii consolidează sentimentul de realizare și încrederea în propriile abilități."
+     },
+     {
+      "t": "Promovarea autonomiei și responsabilității",
+      "d": "Controlul asupra modului de lucru și implicarea în decizii cresc responsabilitatea și angajamentul."
+     },
+     {
+      "t": "Echilibrul muncă–viață personală",
+      "d": "Flexibilitate în program, programe de wellness, mediu de lucru sănătos și echilibrat."
+     }
+    ]
+   },
+   {
+    "titlu": "7. Legături cu alte capitole",
+    "noduri": [
+     {
+      "t": "Skinner și condiționarea",
+      "d": "Cap. 1 (Psihologia experimentală. Știință și metodă): Skinner, reprezentant al behaviorismului, a dezvoltat condiționarea operantă. Cap. 11 (Învățarea) descrie și alte teorii ale condiționării: Thorndike, Pavlov, Guthrie (contiguitate), Hull (nevoi, stimulente, răspunsuri, satisfacții), Köhler (intuiție)."
+     },
+     {
+      "t": "Dopamina și recompensa",
+      "d": "Cap. 9 (Atenția): sistemul dopaminergic (nucleul accumbens, cortexul prefrontal) e implicat în recompensare, motivație și controlul atenției; GABA și glutamatul țin de inhibiție și excitație."
+     },
+     {
+      "t": "Motivația și atenția (paznicul)",
+      "d": "Cap. 9 (Atenția): în atenția susținută, paznicul care veghează toată noaptea se confruntă cu factori temporali: nivelul de motivație susținut, oboseala și plictiseala."
+     },
+     {
+      "t": "Motivația și observația",
+      "d": "Cap. 3 (Metoda observației): motivația și scopul influențează atenția și ce observă o persoană, precum și felul în care interpretează evenimentele."
+     },
+     {
+      "t": "Erori de interacțiune",
+      "d": "Cap. 1 (Psihologia experimentală. Știință și metodă): efectul VI se schimbă din cauza interacțiunii cu o variabilă necontrolată; exemplul dat e o intervenție care funcționează diferit după nivelul inițial al personalității sau motivației."
+     },
+     {
+      "t": "Recompensă și pedeapsă în învățare",
+      "d": "Cap. 11 (Învățarea): recompensa și pedeapsa sunt factori motivaționali ai învățării, iar motivația individului e una dintre variabilele experimentale ale studiului învățării."
+     }
+    ]
+   },
+   {
+    "titlu": "8. Note de studiu",
+    "noduri": [
+     {
+      "t": "Teoria lui White",
+      "d": "Cartea îi atribuie lui Robert White „teoria stimulării cognitive” (nivelul optim de stimulare). În literatură, White e cunoscut mai ales pentru motivația de competență, iar ideea nivelului optim de activare e asociată de obicei cu alți autori. Quiz-ul folosește atribuirea din carte."
+     },
+     {
+      "t": "Factorii lui Vroom",
+      "d": "Cartea dă trei factori: așteptarea de a reuși, valoarea și atractivitatea recompensei. Literatura vorbește de obicei de așteptare, instrumentalitate și valență. Quiz-ul folosește formularea din carte și nu întreabă de instrumentalitate."
+     },
+     {
+      "t": "Autonomia apare de trei ori",
+      "d": "Ca nevoie în teoria autodeterminării, ca factor psihologic (autonomie și control) și ca aspect al managementului (promovarea autonomiei și responsabilității). Întrebarea arată de obicei care dintre ele e vizată."
+     },
+     {
+      "t": "Structura textului",
+      "d": "Capitolul nu are rezumat, cuvinte cheie, întrebări de verificare sau bibliografie, iar secțiunile sunt numerotate inconsecvent (1, 2, apoi din nou 1, 2, 3). Aceeași teorie apare sub două nume: „relația socială” (rezumat) și „legătura socială” (pe larg)."
+     }
+    ]
+   }
+  ]
+ },
+ "runde": [
+  {
+   "id": "1",
+   "eticheta": "Runda 1 · Bază",
+   "titlu": "Runda 1 — Concepte de bază",
+   "desc": "Recunoaștere: definiția motivației, cele șase tipuri, cele cinci teorii și autorii lor, categoriile de factori, importanța și managementul motivației.",
+   "intrebari": [
+    {
+     "q": "Ce trei caracteristici ale comportamentului determină motivația?",
+     "opts": [
+      "Direcția, intensitatea și persistența comportamentului",
+      "Codificarea, stocarea și recuperarea informațiilor",
+      "Detecția, discriminarea și scalarea stimulilor fizici",
+      "Filtrarea, focalizarea și schimbarea automată a atenției"
+     ],
+     "correct": 0,
+     "explain": "Capitolul definește motivația ca forțele interne și externe (procesul) care determină direcția, intensitatea și persistența comportamentului în atingerea unor obiective sau satisfacerea unor nevoi. Codificarea, stocarea și recuperarea sunt procesele memoriei din Cap. 10 (Memoria), detecția, discriminarea și scalarea țin de psihofizica din Cap. 7 (Procese senzoriale), iar filtrarea, focalizarea și schimbarea automată sunt componentele selecției din Cap. 9 (Atenția).",
+     "tag": "Definiția motivației"
+    },
+    {
+     "q": "Ce este motivația intrinsecă?",
+     "opts": [
+      "Vine din recompensele primite din afară sau din evitarea pedepselor",
+      "Vine din nevoile de bază: foame, sete, somn, protecție",
+      "Vine din satisfacția și plăcerea dată de activitatea în sine",
+      "Vine din dorința de a fi acceptat și integrat într-un grup"
+     ],
+     "correct": 2,
+     "explain": "Motivația intrinsecă provine din interiorul individului: persoana se angajează și persistă într-o activitate pentru că îi place sau o interesează, fără să fie nevoie de recompense externe. Recompensele și evitarea pedepselor definesc motivația extrinsecă, nevoile de bază motivația biologică, iar dorința de acceptare motivația socială.",
+     "tag": "Motivația intrinsecă"
+    },
+    {
+     "q": "Ce tip de motivație se referă la dorința de a influența, controla sau domina alți oameni sau resursele?",
+     "opts": [
+      "Motivația de realizare",
+      "Motivația de putere",
+      "Motivația socială",
+      "Motivația extrinsecă"
+     ],
+     "correct": 1,
+     "explain": "Motivația de putere înseamnă dorința de a influența, controla sau domina; satisfacția vine din controlul situațiilor și al celor din jur. Motivația de realizare privește autodepășirea și atingerea propriului potențial (nu controlul asupra altora), cea socială dorința de a fi acceptat și integrat, iar cea extrinsecă recompensele venite din afară.",
+     "tag": "Motivația de putere"
+    },
+    {
+     "q": "De ce nevoi ține motivația biologică?",
+     "opts": [
+      "Autonomia, competența și legătura cu ceilalți oameni",
+      "Acceptarea, aprecierea și integrarea într-o comunitate",
+      "Recunoașterea, banii, promovarea și darurile primite",
+      "Foamea, setea, somnul, sexul și protecția de pericole"
+     ],
+     "correct": 3,
+     "explain": "Motivația biologică e legată de nevoile de bază ale organismului (foame, sete, somn, sex, protecție împotriva pericolelor), satisfăcute pentru supraviețuire și sănătate. Autonomia, competența și legătura socială sunt nevoile psihologice din teoria autodeterminării, acceptarea și integrarea țin de motivația socială, iar recunoașterea, banii, promovarea și darurile sunt exemplele de factori externi (recompense).",
+     "tag": "Motivația biologică"
+    },
+    {
+     "q": "Ce susține teoria nevoilor a lui Abraham Maslow?",
+     "opts": [
+      "Nevoile sunt ierarhice, satisfăcute de la cele de bază la autorealizare",
+      "Comportamentul care e recompensat se repetă, iar cel pedepsit e suprimat",
+      "Oamenii caută activitățile cu un nivel optim de stimulare și provocare",
+      "Motivația depinde de așteptări și de valoarea acordată recompensei"
+     ],
+     "correct": 0,
+     "explain": "La Maslow nevoile sunt aranjate ierarhic și satisfăcute într-o anumită ordine, de la nevoile de bază (hrană, adăpost) la cele superioare (autorealizare, împlinire de sine). Repetarea comportamentului recompensat e teoria lui Skinner, nivelul optim de stimulare e teoria atribuită lui Robert White, iar așteptările și valoarea recompensei definesc teoria lui Victor Vroom.",
+     "tag": "Ierarhia nevoilor (Maslow)"
+    },
+    {
+     "q": "Ce nevoi psihologice de bază subliniază teoria autodeterminării?",
+     "opts": [
+      "Hrana, adăpostul și siguranța fizică de bază",
+      "Puterea, realizarea și recunoașterea",
+      "Autonomia, competența și legătura socială",
+      "Așteptarea, valoarea și atractivitatea"
+     ],
+     "correct": 2,
+     "explain": "Teoria autodeterminării pune accent pe satisfacerea nevoilor de autonomie, competență și legătură (relație) socială, care susțin motivația intrinsecă și bunăstarea psihologică. Hrana și adăpostul sunt nevoile de bază din ierarhia lui Maslow, puterea și realizarea sunt tipuri de motivație, iar așteptarea, valoarea și atractivitatea recompensei sunt factorii din teoria lui Vroom.",
+     "tag": "Teoria autodeterminării (Deci și Ryan)"
+    },
+    {
+     "q": "Cui i se atribuie teoria autodeterminării?",
+     "opts": [
+      "Lui Abraham Maslow și Carl Rogers",
+      "Lui Edward Deci și Richard Ryan",
+      "Lui Richard Atkinson și Richard Shiffrin",
+      "Lui Alan Baddeley și Graham Hitch"
+     ],
+     "correct": 1,
+     "explain": "Teoria autodeterminării le aparține lui Edward Deci și Richard Ryan. Maslow și Rogers sunt întemeietorii psihologiei umaniste din Cap. 1 (Psihologia experimentală. Știință și metodă) (Maslow apare aici cu ierarhia nevoilor), iar Atkinson și Shiffrin, respectiv Baddeley și Hitch, sunt autorii unor modele ale memoriei din Cap. 10 (Memoria).",
+     "tag": "Teoria autodeterminării (Deci și Ryan)"
+    },
+    {
+     "q": "Ce trei factori determină motivația în teoria așteptărilor a lui Victor Vroom?",
+     "opts": [
+      "Autonomia, competența și legătura cu ceilalți oameni",
+      "Nevoile de bază, nevoile de siguranță și cele de autorealizare",
+      "Nevoile, stimulentele, răspunsurile și satisfacțiile",
+      "Așteptarea reușitei, valoarea și atractivitatea recompensei"
+     ],
+     "correct": 3,
+     "explain": "Capitolul spune că, la Vroom, motivația depinde de așteptările legate de capacitatea de a îndeplini sarcina, de valoarea acordată recompensei și de atractivitatea recompensei în sine. Autonomia, competența și legătura socială sunt nevoile din teoria autodeterminării, nevoile ordonate până la autorealizare țin de Maslow, iar nevoile, stimulentele, răspunsurile și satisfacțiile sunt elementele teoriei lui Hull din Cap. 11 (Învățarea).",
+     "tag": "Teoria așteptărilor (Vroom)"
+    },
+    {
+     "q": "Ce susține teoria stimulării cognitive, atribuită lui Robert White?",
+     "opts": [
+      "Oamenii acționează autonom, după valorile lor proprii",
+      "Oamenii preferă activitățile cu un nivel optim de stimulare",
+      "Comportamentul urmat de recompensă tinde să se repete",
+      "Nevoile se satisfac într-o ordine ierarhică, de jos în sus"
+     ],
+     "correct": 1,
+     "explain": "Teoria stimulării cognitive spune că nivelul de stimulare (activare) influențează motivația: oamenii caută un echilibru și preferă activitățile care le oferă un nivel optim de excitație sau provocare. Acțiunea autonomă, după propriile valori, e ideea teoriei autodeterminării, repetarea comportamentului recompensat e teoria lui Skinner, iar ordinea ierarhică a nevoilor e teoria lui Maslow.",
+     "tag": "Teoria stimulării cognitive (White)"
+    },
+    {
+     "q": "Ce susține teoria stimulilor și răspunsurilor a lui B.F. Skinner?",
+     "opts": [
+      "Un reflex ajunge asociat cu un stimul care la început era neutru",
+      "Stimulul și răspunsul se asociază când apar în același timp",
+      "Comportamentul răsplătit se repetă, cel pedepsit e suprimat",
+      "Învățarea rezultă din nevoi, stimulente și satisfacții"
+     ],
+     "correct": 2,
+     "explain": "Teoria lui Skinner se concentrează pe felul în care recompensele și pedepsele influențează comportamentul: ce e recompensat tinde să se repete, ce e pedepsit tinde să fie suprimat. Celelalte variante sunt alte teorii ale condiționării din Cap. 11 (Învățarea): asocierea unui reflex cu un stimul neutru e condiționarea clasică (Pavlov), asocierea prin apariție simultană e condiționarea prin contiguitate (Guthrie), iar nevoile, stimulentele și satisfacțiile țin de teoria lui Hull.",
+     "tag": "Teoria stimulilor și răspunsurilor (Skinner)"
+    },
+    {
+     "q": "Ce substanțe chimice cerebrale se numără printre factorii biologici ai motivației?",
+     "opts": [
+      "Dopamina, serotonina și noradrenalina",
+      "Acetilcolina, GABA și glutamatul",
+      "Serotonina, glutamatul și GABA",
+      "Dopamina, acetilcolina și GABA"
+     ],
+     "correct": 0,
+     "explain": "Capitolul enumeră dopamina, serotonina și noradrenalina, care pot influența starea de spirit, nivelul de energie și motivația. Acetilcolina, GABA și glutamatul apar în Cap. 9 (Atenția), printre substanțele care reglează atenția (GABA și glutamatul în inhibiție și excitație); variantele care le amestecă pe acestea cu dopamina sau serotonina nu corespund listei capitolului.",
+     "tag": "Factori biologici"
+    },
+    {
+     "q": "Ce factori intră în categoria factorilor psihologici ai motivației?",
+     "opts": [
+      "Nevoile și dorințele, crezurile și valorile proprii",
+      "Recompensele și pedepsele, feedback-ul celorlalți",
+      "Cultura și normele, suportul social și relațiile",
+      "Autonomia și controlul, competența și încrederea"
+     ],
+     "correct": 3,
+     "explain": "Factorii psihologici sunt sentimentul de autonomie și control asupra propriilor acțiuni și sentimentul de competență și încredere în propriile abilități. Nevoile, dorințele, crezurile și valorile sunt factori interni, recompensele, pedepsele și feedback-ul celorlalți sunt factori externi, iar cultura, normele și suportul social sunt factori sociali.",
+     "tag": "Factori psihologici"
+    },
+    {
+     "q": "Ce tip de motivație alimentează în special angajamentul, pasiunea și creativitatea, ducând la performanțe mai ridicate?",
+     "opts": [
+      "Motivația extrinsecă",
+      "Motivația de putere",
+      "Motivația intrinsecă",
+      "Motivația biologică"
+     ],
+     "correct": 2,
+     "explain": "La rolul „crește performanța și productivitatea”, capitolul precizează că mai ales motivația intrinsecă alimentează angajamentul și pasiunea pentru activități, cu niveluri mai ridicate de performanță și creativitate. Motivația extrinsecă depinde de recompense externe, cea de putere de dorința de control asupra altora, iar cea biologică de nevoile de bază ale organismului; niciuna nu e numită aici.",
+     "tag": "Crește performanța și productivitatea"
+    },
+    {
+     "q": "Ce înseamnă criteriile SMART pentru obiectivele din managementul motivației?",
+     "opts": [
+      "Simple, motivante, ambițioase, recompensate, transparente",
+      "Specifice, măsurabile, atingibile, relevante, limitate în timp",
+      "Standardizate, măsurabile, aleatorizate, replicabile și testate",
+      "Specifice, motivante, autonome, realiste, temporare"
+     ],
+     "correct": 1,
+     "explain": "Capitolul cere obiective SMART: specifice, măsurabile, atingibile, relevante și limitate în timp, ca să fie mai motivante și mai ușor de urmărit. Varianta cu „standardizate” și „aleatorizate” amestecă cuvintele cheie ale metodei experimentale din Cap. 4 (Metoda experimentului), iar celelalte două păstrează inițialele, dar schimbă criteriile (de pildă „motivante” sau „autonome” în loc de „măsurabile” și „atingibile”).",
+     "tag": "Obiective SMART"
+    },
+    {
+     "q": "Prin ce mijloace pot fi înțelese nevoile și așteptările angajaților?",
+     "opts": [
+      "Observarea lor pe ascuns, fără ca ei să știe că sunt urmăriți",
+      "Teste proiective aplicate tuturor angajaților la angajare",
+      "Analiza strictă a rezultatelor, fără discuții individuale",
+      "Comunicare regulată, sondaje de satisfacție, sesiuni de feedback"
+     ],
+     "correct": 3,
+     "explain": "Capitolul propune comunicarea regulată cu angajații, sondaje sau evaluări de satisfacție și sesiuni de feedback, pentru a afla ce îi motivează. Observarea pe ascuns ridică problema deontologică a observării fără știrea persoanei, discutată în Cap. 3 (Metoda observației) și Cap. 5 (Probleme etice ale experimentului psihologic), testele proiective sunt instrumente de evaluare a personalității din Cap. 3 (Metoda observației), iar analiza rezultatelor fără discuții ignoră tocmai comunicarea cerută.",
+     "tag": "Înțelegerea nevoilor și așteptărilor"
+    }
+   ],
+   "ascunse": [
+    {
+     "q": "Ce tip de motivație descrie dorința de a-ți atinge potențialul și de a te autodepăși?",
+     "opts": [
+      "Motivația de realizare",
+      "Motivația de putere",
+      "Motivația socială",
+      "Motivația biologică"
+     ],
+     "correct": 0,
+     "explain": "Motivația de realizare înseamnă dorința de a-ți atinge potențialul și de a te autodepăși prin obiective personale și profesionale; aceste persoane caută provocări și obiective ambițioase. Motivația de putere privește controlul asupra altora, cea socială acceptarea în grup, iar cea biologică nevoile de bază ale organismului.",
+     "tag": "Motivația de realizare"
+    },
+    {
+     "q": "Care sunt exemple de factori externi ai motivației?",
+     "opts": [
+      "Nevoile și dorințele, crezurile, valorile, percepțiile și interpretările",
+      "Neurotransmițătorii, genetica și moștenirea fiecărei persoane",
+      "Recompensele și pedepsele, așteptările și feedback-ul celorlalți",
+      "Autonomia, controlul, competența și încrederea în sine"
+     ],
+     "correct": 2,
+     "explain": "Factorii externi sunt sistemele de recompense și pedepse (recunoaștere, bani, promovare, daruri, critică) și așteptările și feedback-ul celorlalți (supervizori, colegi, familie). Nevoile, crezurile, percepțiile și interpretările sunt factori interni, neurotransmițătorii și genetica factori biologici, iar autonomia, competența și încrederea factori psihologici.",
+     "tag": "Factori externi"
+    },
+    {
+     "q": "Care dintre următoarele se numără printre aspectele importanței motivației?",
+     "opts": [
+      "Stimulează dezvoltarea personală și asumarea de riscuri",
+      "Elimină nevoia de feedback din partea celorlalți oameni",
+      "Garantează succesul, oricât de mari ar fi obstacolele",
+      "Reduce influența factorilor sociali asupra persoanei"
+     ],
+     "correct": 0,
+     "explain": "Capitolul numește șase roluri: direcționează comportamentul, sprijină realizarea obiectivelor, crește performanța și productivitatea, conduce la satisfacție și bunăstare, ajută la depășirea obstacolelor și stimulează dezvoltarea personală (persoanele motivate își asumă riscuri și explorează oportunități). Capitolul spune că motivația ajută la depășirea obstacolelor, nu că garantează succesul, iar feedback-ul și factorii sociali rămân importanți pentru motivație.",
+     "tag": "Stimulează dezvoltarea personală"
+    },
+    {
+     "q": "Ce măsuri ajută la gestionarea echilibrului dintre muncă și viața personală?",
+     "opts": [
+      "Bonusuri mai mari pentru fiecare oră suplimentară lucrată în firmă",
+      "Obiective mai ambițioase, cu termene de predare mai scurte",
+      "Evaluări mai dese și competiție deschisă între colegi",
+      "Program flexibil, programe de wellness, mediu de lucru sănătos"
+     ],
+     "correct": 3,
+     "explain": "Capitolul propune flexibilitate în programul de lucru, programe de wellness și un mediu de lucru sănătos și echilibrat. Bonusurile pentru ore suplimentare încurajează, dimpotrivă, mai multă muncă, iar termenele scurte și competiția între colegi nu țin de echilibrul muncă–viață și nu sunt recomandate în capitol.",
+     "tag": "Echilibrul muncă–viață personală"
+    },
+    {
+     "q": "Ce pot influența factorii genetici și de moștenire?",
+     "opts": [
+      "Doar nivelul de energie, fără vreun efect asupra motivației",
+      "Sensibilitatea la recompense, predispoziția spre unele conduite",
+      "Felul în care persoana își definește succesul și satisfacția",
+      "Sentimentul de control asupra propriilor acțiuni și alegeri zilnice"
+     ],
+     "correct": 1,
+     "explain": "Capitolul spune că anumiți factori genetici pot influența sensibilitatea unei persoane la recompense și la motivare, precum și predispoziția spre anumite tipuri de comportament. Felul în care persoana își definește succesul ține de factorii sociali (cultură, norme), sentimentul de control de factorii psihologici, iar varianta „fără efect asupra motivației” contrazice capitolul.",
+     "tag": "Genetică și moștenire"
+    }
+   ]
+  },
+  {
+   "id": "2",
+   "eticheta": "Runda 2 · Aplicații",
+   "titlu": "Runda 2 — Scenarii și raționament",
+   "desc": "Recunoaște tipul de motivație, teoria potrivită, categoria de factori și aspectul de management în situații concrete; legături cu Cap. 1 (Psihologia experimentală. Știință și metodă) și Cap. 9 (Atenția).",
+   "intrebari": [
+    {
+     "q": "Maria învață seara să cânte la chitară doar pentru că îi place să descopere piese noi; nu cântă pentru nimeni și nu și-a propus vreun obiectiv. Ce tip de motivație are?",
+     "opts": [
+      "Motivație extrinsecă",
+      "Motivație intrinsecă",
+      "Motivație de realizare",
+      "Motivație socială"
+     ],
+     "correct": 1,
+     "explain": "Plăcerea dată de activitatea în sine, fără recompense externe, e motivația intrinsecă. Nu există recompense sau evaluări din afară (extrinsecă), nici obiective ambițioase de autodepășire (de realizare), nici dorința de a fi acceptată de un grup (socială), pentru că nu cântă pentru nimeni.",
+     "tag": "Motivația intrinsecă"
+    },
+    {
+     "q": "Un student învață pentru examen ca să păstreze bursa de merit și să nu rămână cu restanță. Ce tip de motivație descrie situația?",
+     "opts": [
+      "Motivație intrinsecă",
+      "Motivație biologică",
+      "Motivație de putere",
+      "Motivație extrinsecă"
+     ],
+     "correct": 3,
+     "explain": "Bursa (o recompensă) și evitarea restanței (o consecință negativă) sunt factori exteriori: motivație extrinsecă, pe care capitolul o ilustrează chiar cu note bune, bani și evitarea pedepselor. Intrinsecă ar fi dacă ar învăța din plăcere pentru materie, biologică dacă ar fi vorba de nevoi ale organismului, iar de putere dacă ar urmări controlul asupra altora.",
+     "tag": "Motivația extrinsecă"
+    },
+    {
+     "q": "Un angajat candidează la funcția de director pentru a decide singur cine primește proiectele și a avea ultimul cuvânt în fața echipei. Ce tip de motivație îl conduce?",
+     "opts": [
+      "Motivație de putere",
+      "Motivație de realizare",
+      "Motivație socială",
+      "Motivație extrinsecă"
+     ],
+     "correct": 0,
+     "explain": "Dorința de a controla resursele (proiectele) și de a avea autoritate asupra celorlalți e motivația de putere. Capcana e motivația de realizare: aceea ar privi autodepășirea și demonstrarea propriilor competențe, nu influența asupra altora. Socială ar fi dacă ar căuta acceptarea echipei, iar extrinsecă dacă l-ar atrage în primul rând salariul.",
+     "tag": "Motivația de putere"
+    },
+    {
+     "q": "O alergătoare își propune în fiecare sezon să-și bată recordul personal și se înscrie la curse tot mai dificile. Ce tip de motivație ilustrează?",
+     "opts": [
+      "Motivație de putere",
+      "Motivație extrinsecă",
+      "Motivație de realizare",
+      "Motivație biologică"
+     ],
+     "correct": 2,
+     "explain": "Căutarea constantă de provocări și obiective ambițioase, pentru a se autodepăși, e motivația de realizare. Nu urmărește să-i domine pe alții (putere), nu se menționează premii sau recompense (extrinsecă), iar efortul nu răspunde unei nevoi de bază a organismului (biologică).",
+     "tag": "Motivația de realizare"
+    },
+    {
+     "q": "Un elev nou venit într-o clasă începe să se îmbrace și să vorbească la fel ca noii colegi, ca să fie primit în grupul lor. Ce tip de motivație descrie situația?",
+     "opts": [
+      "Motivație socială",
+      "Motivație de putere",
+      "Motivație intrinsecă",
+      "Motivație biologică"
+     ],
+     "correct": 0,
+     "explain": "Dorința de a fi acceptat și integrat într-un grup, cu adoptarea normelor lui, e motivația socială; capitolul spune că ea joacă un rol în conformitatea socială. Elevul nu vrea să-i controleze pe colegi (putere), nu face asta din plăcerea activității în sine (intrinsecă) și nu răspunde unei nevoi a organismului (biologică).",
+     "tag": "Motivația socială"
+    },
+    {
+     "q": "Un drumeț rătăcit, după o zi întreagă fără apă, se gândește numai la cum să găsească un izvor și nu mai vede peisajul. Ce tip de motivație domină?",
+     "opts": [
+      "Motivație intrinsecă",
+      "Motivație socială",
+      "Motivație de realizare",
+      "Motivație biologică"
+     ],
+     "correct": 3,
+     "explain": "Setea e una dintre nevoile biologice de bază enumerate în capitol, iar satisfacerea ei e necesară supraviețuirii: motivație biologică. Plăcerea drumeției (intrinsecă), dorința de acceptare (socială) sau autodepășirea (de realizare) trec pe plan secund tocmai pentru că o nevoie de bază nu e satisfăcută.",
+     "tag": "Motivația biologică"
+    },
+    {
+     "q": "Un bărbat care și-a pierdut locuința și nu știe ce va mânca mâine refuză un curs gratuit de dezvoltare personală. Ce teorie explică cel mai direct refuzul?",
+     "opts": [
+      "Teoria așteptărilor (Vroom)",
+      "Teoria stimulării cognitive (White)",
+      "Ierarhia nevoilor (Maslow)",
+      "Teoria stimulilor și răspunsurilor (Skinner)"
+     ],
+     "correct": 2,
+     "explain": "La Maslow nevoile se satisfac în ordine: până nu sunt acoperite nevoile de bază (hrană, adăpost), nevoile superioare, precum autorealizarea vizată de curs, nu devin motivante. Teoria lui Vroom ar explica refuzul prin așteptări sau valoarea recompensei, cea a lui White prin nivelul de stimulare, iar cea a lui Skinner prin recompense și pedepse anterioare; niciuna nu pune accentul pe ordinea nevoilor.",
+     "tag": "Ierarhia nevoilor (Maslow)"
+    },
+    {
+     "q": "Un vânzător își dorește mult premiul lunii, dar nu se străduiește pentru el, fiind convins că, oricât ar munci, nu poate atinge ținta. Ce factor din teoria lui Vroom e scăzut?",
+     "opts": [
+      "Așteptarea că poate îndeplini sarcina",
+      "Valoarea pe care o acordă recompensei",
+      "Atractivitatea recompensei în sine",
+      "Nevoia de autonomie în propria muncă"
+     ],
+     "correct": 0,
+     "explain": "Vânzătorul dorește premiul, deci valoarea și atractivitatea recompensei sunt ridicate; ce lipsește e așteptarea legată de capacitatea lui de a îndeplini sarcina, primul factor al lui Vroom, iar fără ea motivația scade. Nevoia de autonomie aparține teoriei autodeterminării, nu teoriei așteptărilor.",
+     "tag": "Teoria așteptărilor (Vroom)"
+    },
+    {
+     "q": "O firmă le permite programatorilor să-și aleagă proiectele și modul de lucru, le oferă cursuri și îi organizează în echipe unite; fără bonusuri noi, implicarea crește. Ce teorie explică rezultatul?",
+     "opts": [
+      "Teoria stimulilor și răspunsurilor (Skinner)",
+      "Teoria autodeterminării (Deci și Ryan)",
+      "Teoria așteptărilor (Vroom)",
+      "Ierarhia nevoilor (Maslow)"
+     ],
+     "correct": 1,
+     "explain": "Firma satisface exact cele trei nevoi ale teoriei autodeterminării: autonomia (alegerea proiectelor), competența (cursurile) și legătura socială (echipele unite), iar motivația crește fără recompense externe. Teoria lui Skinner ar cere recompense sau pedepse, cea a lui Vroom ar pune accentul pe așteptări și pe valoarea recompensei, iar ierarhia lui Maslow ar privi ordinea de satisfacere a nevoilor, nu autonomia.",
+     "tag": "Teoria autodeterminării (Deci și Ryan)"
+    },
+    {
+     "q": "Un pasionat de puzzle-uri renunță la cele de 100 de piese, prea ușoare, dar și la cele de 5.000, prea grele, și le alege pe cele de 1.000. Ce teorie descrie cel mai bine alegerea?",
+     "opts": [
+      "Teoria autodeterminării (Deci și Ryan)",
+      "Ierarhia nevoilor (Maslow)",
+      "Teoria așteptărilor (Vroom)",
+      "Teoria stimulării cognitive (White)"
+     ],
+     "correct": 3,
+     "explain": "Alegerea nivelului de mijloc, nici prea ușor, nici prea greu, ilustrează căutarea unui nivel optim de stimulare sau provocare, ideea teoriei atribuite lui White. Teoria lui Vroom ar putea explica renunțarea la puzzle-urile prea grele (așteptare scăzută de reușită), dar nu și renunțarea la cele prea ușoare. Autodeterminarea și ierarhia nevoilor nu spun nimic despre nivelul de dificultate preferat.",
+     "tag": "Teoria stimulării cognitive (White)"
+    },
+    {
+     "q": "Un copil e lăudat de fiecare dată când își strânge singur jucăriile, iar după câteva săptămâni o face tot mai des. Ce teorie explică schimbarea?",
+     "opts": [
+      "Teoria stimulilor și răspunsurilor (Skinner)",
+      "Condiționarea clasică (Pavlov)",
+      "Teoria autodeterminării (Deci și Ryan)",
+      "Învățarea prin intuiție (Köhler)"
+     ],
+     "correct": 0,
+     "explain": "Lauda e o recompensă care urmează comportamentului, iar comportamentul recompensat tinde să se repete: teoria lui Skinner. Condiționarea clasică (Pavlov) și învățarea prin intuiție (Köhler), din Cap. 11 (Învățarea), privesc asocierea unui reflex cu un stimul neutru, respectiv soluția găsită dintr-odată. Teoria autodeterminării ar explica motivația prin autonomie, nu prin recompense externe.",
+     "tag": "Teoria stimulilor și răspunsurilor (Skinner)"
+    },
+    {
+     "q": "Elena a crescut într-o comunitate în care succesul înseamnă o familie numeroasă, nu o carieră, și de aceea nu e motivată să avanseze profesional. Ce categorie de factori acționează în principal?",
+     "opts": [
+      "Factorii biologici (genetica)",
+      "Factorii externi (recompensele)",
+      "Factorii sociali (cultura și normele)",
+      "Factorii psihologici (competența)"
+     ],
+     "correct": 2,
+     "explain": "Capitolul spune că normele culturale și sociale și așteptările grupului influențează felul în care o persoană definește succesul și satisfacția, deci motivația: factori sociali. Nu se vorbește despre o predispoziție moștenită (biologici), despre recompense sau pedepse (externi) ori despre încrederea Elenei în propriile abilități (psihologici).",
+     "tag": "Factori sociali"
+    },
+    {
+     "q": "Un program de antrenare a memoriei dă rezultate bune doar la elevii care erau de la început foarte motivați, iar cercetătorii nu au măsurat motivația inițială. Ce eroare descrie situația?",
+     "opts": [
+      "Efectul Hawthorne",
+      "Eroarea de generalizare",
+      "Mortalitatea experimentală",
+      "Eroarea de interacțiune"
+     ],
+     "correct": 3,
+     "explain": "Efectul intervenției (VI) se schimbă în funcție de nivelul inițial al unei alte variabile necontrolate, motivația: eroarea de interacțiune, pe care Cap. 1 (Psihologia experimentală. Știință și metodă) o ilustrează chiar cu personalitatea sau motivația. Efectul Hawthorne e schimbarea comportamentului pentru că participanții știu că sunt studiați, eroarea de generalizare e extrapolarea fără dovezi, iar mortalitatea experimentală e pierderea unor participanți pe parcurs.",
+     "tag": "Erori de interacțiune"
+    },
+    {
+     "q": "La finalul unui proiect, un manager îi spune fiecărui membru al echipei ce a reușit concret și discută cu el ce ar putea îmbunătăți data viitoare. Ce aspect al managementului motivației aplică?",
+     "opts": [
+      "Promovarea autonomiei și responsabilității",
+      "Oferirea de feedback și susținere",
+      "Setarea de obiective clare și relevante",
+      "Gestionarea echilibrului muncă–viață"
+     ],
+     "correct": 1,
+     "explain": "Aprecierea concretă a muncii depuse și feedback-ul constructiv consolidează sentimentul de realizare și încrederea angajaților în abilitățile proprii: oferirea de feedback și susținere. Managerul nu le lasă controlul asupra felului de lucru (autonomie), nu stabilește obiective noi și nu intervine asupra programului sau a timpului liber.",
+     "tag": "Oferirea de feedback și susținere"
+    },
+    {
+     "q": "Care dintre următoarele obiective respectă cel mai bine criteriile SMART?",
+     "opts": [
+      "Să devin cel mai bun vânzător din firmă",
+      "Să cresc vânzările cât de mult se poate",
+      "Să cresc vânzările cu 10% până la 30 iunie",
+      "Să muncesc mult mai mult decât anul trecut"
+     ],
+     "correct": 2,
+     "explain": "Obiectivul cu 10% până la 30 iunie e specific, măsurabil, atingibil, relevant și limitat în timp. „Cel mai bun vânzător” nu e măsurabil precis și nu are termen, „cât de mult se poate” nu are o țintă măsurabilă, iar „să muncesc mai mult” nu e specific și nici limitat în timp.",
+     "tag": "Obiective SMART"
+    }
+   ],
+   "ascunse": [
+    {
+     "q": "Participanții mai sensibili la recompense persistă mai mult într-o sarcină plictisitoare. Ce substanță, legată de sistemul recompensei, de motivație și de controlul atenției, e cea mai probabil implicată?",
+     "opts": [
+      "Dopamina",
+      "GABA",
+      "Glutamatul",
+      "Acetilcolina"
+     ],
+     "correct": 0,
+     "explain": "Capitolul numește dopamina printre factorii biologici ai motivației, iar Cap. 9 (Atenția) descrie sistemul dopaminergic (nucleul accumbens, cortexul prefrontal) ca implicat în recompensare, motivație și controlul atenției. GABA și glutamatul sunt asociate acolo cu inhibiția și excitația, iar acetilcolina cu nivelul de atenție, nu cu recompensa.",
+     "tag": "Factori biologici"
+    },
+    {
+     "q": "Un paznic urmărește o noapte întreagă intrușii. Ce factor temporal legat de motivație îl afectează, alături de oboseală și plictiseală?",
+     "opts": [
+      "Pragul diferențial al vederii",
+      "Interferența proactivă",
+      "Nivelul de motivație susținut",
+      "Efectul Hawthorne"
+     ],
+     "correct": 2,
+     "explain": "La atenția susținută, Cap. 9 (Atenția) spune că paznicul se confruntă cu factori temporali: nivelul de motivație susținut, oboseala și plictiseala. Pragul diferențial ține de Cap. 7 (Procese senzoriale), interferența proactivă de uitarea din Cap. 10 (Memoria), iar efectul Hawthorne e o eroare metodologică din Cap. 1 (Psihologia experimentală. Știință și metodă).",
+     "tag": "Motivația și atenția (paznicul)"
+    },
+    {
+     "q": "O profesoară vrea ca elevii să citească de plăcere și pe termen lung. Ce strategie e cea mai potrivită, conform teoriei autodeterminării?",
+     "opts": [
+      "Le dă câte un punct în plus pentru fiecare carte citită",
+      "Scade nota celor care nu citesc o carte în fiecare lună",
+      "Afișează în clasă un clasament al celor mai harnici cititori",
+      "Îi lasă să-și aleagă cărțile și discută cu ei ce le place"
+     ],
+     "correct": 3,
+     "explain": "Teoria autodeterminării spune că motivația intrinsecă e susținută de autonomie (alegerea cărților), competență și legătură socială (discuția), nu de factori externi. Punctele în plus sunt recompense, scăderea notei e o pedeapsă, iar clasamentul o evaluare externă: toate sunt surse de motivație extrinsecă.",
+     "tag": "Teoria autodeterminării (Deci și Ryan)"
+    },
+    {
+     "q": "Doi colegi primesc aceeași observație critică: unul o vede ca pe o șansă de a învăța și muncește mai mult, celălalt ca pe o dovadă că nu e apreciat și renunță. Ce factor intern explică diferența?",
+     "opts": [
+      "Nevoile lor biologice de bază",
+      "Percepțiile și interpretările lor",
+      "Genetica și moștenirea lor",
+      "Normele culturale ale grupului"
+     ],
+     "correct": 1,
+     "explain": "Stimulul extern e identic; diferă felul în care fiecare percepe și interpretează situația, un factor intern care, după capitol, influențează nivelul de motivație. Nevoile biologice nu sunt implicate, nimic nu sugerează o predispoziție moștenită, iar normele grupului sunt aceleași pentru amândoi, deci nu pot explica diferența.",
+     "tag": "Factori interni"
+    },
+    {
+     "q": "O echipă primește obiectivul trimestrului, dar hotărăște singură cum îl atinge și participă la deciziile despre proiect. Ce aspect al managementului motivației se aplică?",
+     "opts": [
+      "Crearea unui mediu de lucru stimulativ și pozitiv",
+      "Oferirea de feedback și susținere",
+      "Promovarea autonomiei și responsabilității",
+      "Înțelegerea nevoilor și așteptărilor"
+     ],
+     "correct": 2,
+     "explain": "Controlul asupra felului în care își îndeplinesc sarcinile și implicarea în luarea deciziilor definesc, în capitol, promovarea autonomiei și responsabilității, care crește angajamentul. Mediul stimulativ privește recunoașterea, cultura de colaborare și dezvoltarea, feedback-ul privește aprecierea muncii, iar înțelegerea nevoilor se face prin comunicare și sondaje.",
+     "tag": "Promovarea autonomiei și responsabilității"
+    }
+   ]
+  }
+ ]
+}

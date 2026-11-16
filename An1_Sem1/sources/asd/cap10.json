@@ -1,0 +1,1282 @@
+{
+  "schema": "quiz-capitol-v3",
+  "capitol": 10,
+  "titlu": "Analiza de varianță (ANOVA)",
+  "sursa": "Manual UTM, Analiza superioară a datelor, Unitatea X, pp. 124–141",
+  "runde": [
+    {
+      "id": "T",
+      "tip_runda": "baza",
+      "eticheta": "Runda 1 · Teorie",
+      "titlu": "Runda 1 — Teorie",
+      "desc": "Întrebări directe și scurte: ce măsoară un indicator, când se folosește o metodă, ce deosebește două concepte.",
+      "intrebari": [
+        {
+          "q": "Ce ipoteză de nul verifică analiza de varianță?",
+          "opts": [
+            "Că varianțele a k eșantioane sunt egale",
+            "Că mediile a k eșantioane sunt egale",
+            "Că mediile a k populații sunt egale",
+            "Că proporțiile a k populații sunt egale"
+          ],
+          "correct": 2,
+          "explain": "În ciuda numelui, ANOVA testează egalitatea mediilor a k populații (k ≥ 2): H0: μ1 = μ2 = … = μk. Varianțele sunt instrumentul comparației (varianța sistematică față de cea de eroare), iar egalitatea dispersiilor e doar o supoziție. Ipoteza privește populațiile, nu eșantioanele; proporțiile se compară cu alte teste.",
+          "tag": "Ipotezele: H0 pentru k medii",
+          "tip": "ipoteza"
+        },
+        {
+          "q": "Ce abateri adună suma de pătrate SS A?",
+          "opts": [
+            "Ale scorurilor față de media grupului lor",
+            "Ale scorurilor față de marea medie",
+            "Ale subiecților față de propria lor medie",
+            "Ale mediilor de grup față de marea medie"
+          ],
+          "correct": 3,
+          "explain": "SS A cuprinde abaterile fiecărei medii de grup față de marea medie (ponderate cu n): variația sistematică a variabilei independente. Abaterile scorurilor față de media grupului dau SS eroare, iar cele față de marea medie dau SS total.",
+          "tag": "SS A (între grupuri)",
+          "tip": "concept"
+        },
+        {
+          "q": "Ce sursă de variație reflectă SS eroare într-o ANOVA cu grupuri independente?",
+          "opts": [
+            "Diferențele dintre mediile grupurilor",
+            "Diferențele dintre condițiile manipulate de cercetător",
+            "Diferențele dintre subiecții aceluiași grup",
+            "Diferențele dintre marea medie și zero"
+          ],
+          "correct": 2,
+          "explain": "SS eroare adună abaterile fiecărui scor față de media grupului său: variația dintre subiecții tratați la fel, atribuită procesului de eșantionare. Diferențele dintre mediile grupurilor (adică dintre condiții) intră în SS A.",
+          "tag": "SS eroare (în interiorul grupurilor)",
+          "tip": "concept"
+        },
+        {
+          "q": "Ce relație servește la controlul calculelor într-o ANOVA cu o variabilă independentă?",
+          "opts": [
+            "MS total = MS A + MS eroare",
+            "SS A = SS total + SS eroare",
+            "SS total = SS A + SS eroare",
+            "F = SS A / SS eroare"
+          ],
+          "correct": 2,
+          "explain": "Sumele de pătrate se adună: variația totală se împarte exact în variația dintre grupuri și cea din interiorul grupurilor (792,93 = 629,73 + 163,20). Mediile sumelor de pătrate nu se adună așa, fiindcă au numitori (gl) diferiți, iar F se calculează din MS, nu din SS.",
+          "tag": "SS total = SS A + SS eroare",
+          "tip": "regula"
+        },
+        {
+          "q": "Câte grade de libertate are SS A într-un experiment cu k grupuri?",
+          "opts": [
+            "k − 1",
+            "N − k",
+            "N − 1",
+            "k"
+          ],
+          "correct": 0,
+          "explain": "glA = k − 1 (3 grupuri → 2 gl). N − k sunt gradele de libertate ale erorii, iar N − 1 ale totalului; împreună, k − 1 și N − k dau N − 1.",
+          "tag": "Grade de libertate: k − 1 și N − k",
+          "tip": "calcul"
+        },
+        {
+          "q": "Ce se obține împărțind SS eroare la N − k?",
+          "opts": [
+            "Varianța sistematică",
+            "Varianța de eroare",
+            "Raportul F obținut",
+            "Marea medie a datelor"
+          ],
+          "correct": 1,
+          "explain": "MS eroare = SS eroare/(N − k) e varianța de eroare (163,20/12 = 13,60). Varianța sistematică, MS A, se obține din SS A împărțit la k − 1; F e raportul dintre cele două MS.",
+          "tag": "MS eroare — varianța de eroare",
+          "tip": "concept"
+        },
+        {
+          "q": "Ce raport exprimă statistica F în ANOVA?",
+          "opts": [
+            "Varianța de eroare față de varianța sistematică",
+            "Varianța sistematică față de varianța de eroare",
+            "Suma de pătrate totală față de numărul de cazuri",
+            "Diferența a două medii față de eroarea ei standard"
+          ],
+          "correct": 1,
+          "explain": "F = MS A/MS eroare: variația dintre mediile grupurilor raportată la variația de fond dintre subiecți. Raportul invers ar da valori mici tocmai când efectul e mare. Diferența a două medii împărțită la eroarea ei standard e statistica t sau Z din Cap. 9 (Testarea ipotezelor despre diferențele dintre două populații).",
+          "tag": "Raportul F",
+          "tip": "concept"
+        },
+        {
+          "q": "Ce valoare se așteaptă pentru F dacă intervin doar factori întâmplători?",
+          "opts": [
+            "Aproximativ 0",
+            "Aproximativ 1",
+            "Valoarea F critică",
+            "Aproximativ 1,96"
+          ],
+          "correct": 1,
+          "explain": "Fără efect al variabilei independente, MS A și MS eroare estimează aceeași varianță, deci raportul lor e în jur de 1,0; cu cât F e mai mare, cu atât întâmplarea explică mai greu rezultatele. 0 ar cere medii de grup perfect egale; 1,96 e pragul lui Z, nu al lui F.",
+          "tag": "F ≈ 1 când intervine doar întâmplarea",
+          "tip": "principiu"
+        },
+        {
+          "q": "Ce stabilește forma exactă a unei curbe F?",
+          "opts": [
+            "Gradele de libertate ale numărătorului și ale erorii",
+            "Nivelul α ales de cercetător înainte de calcul",
+            "Media și abaterea standard ale populației din care provin datele",
+            "Valoarea F obținută efectiv în experiment"
+          ],
+          "correct": 0,
+          "explain": "Forma distribuției F depinde de glA și glEROARE (de pildă 2 și 12). Nivelul α alege doar unde începe zona critică pe curbă, iar valoarea obținută se compară cu acea curbă, fără să o schimbe. F, ca raport de varianțe, nu depinde de media populației.",
+          "tag": "Distribuția F (Fisher)",
+          "tip": "concept"
+        },
+        {
+          "q": "Ce două supoziții cere folosirea distribuției F în ANOVA?",
+          "opts": [
+            "Medii egale ale populațiilor și grupuri cu același număr de subiecți",
+            "Eșantioane dependente și scoruri măsurate ordinal",
+            "Grupuri cu peste 30 de cazuri și σ cunoscute dinainte",
+            "Variabila dependentă normală în populații și dispersii egale"
+          ],
+          "correct": 3,
+          "explain": "Distribuția F cere ca variabila dependentă să fie normal distribuită în cele k populații, iar populațiile să fie egal dispersate. Mediile egale sunt ipoteza de nul, testată; la o singură variabilă grupurile pot fi inegale; scorurile ordinale țin de testul Kruskal–Wallis, din Cap. 11 (Teste nonparametrice).",
+          "tag": "Supozițiile: normalitate și omogenitatea dispersiei",
+          "tip": "principiu"
+        },
+        {
+          "q": "Când se respinge H0 într-o ANOVA?",
+          "opts": [
+            "Când F obținut atinge sau depășește F critic",
+            "Când F obținut rămâne sub valoarea F critic",
+            "Când F obținut depășește pur și simplu 1",
+            "Când MS eroare iese mai mare decât varianța sistematică"
+          ],
+          "correct": 0,
+          "explain": "Regula de decizie: se respinge H0 dacă F (obținut) ≥ F (critic). Un F puțin peste 1 poate apărea din întâmplare; pragul e F critic, din tabel. MS eroare mai mare decât MS A înseamnă F sub 1, deci fără efect.",
+          "tag": "Regula de decizie",
+          "tip": "regula"
+        },
+        {
+          "q": "Ce informație nu oferă un F semnificativ obținut pe trei sau mai multe grupuri?",
+          "opts": [
+            "Că H0 a mediilor egale se respinge",
+            "Că diferențele greu țin de întâmplare",
+            "Care anume grup se abate de celelalte",
+            "Că măcar o medie se abate de celelalte"
+          ],
+          "correct": 2,
+          "explain": "Cu mai mult de două categorii ale variabilei independente, F semnificativ arată că mediile nu sunt toate egale (H0 respinsă, diferențe greu de pus pe seama întâmplării), dar nu și care grup diferă. Pentru asta se fac comparații pe perechi, teste post hoc sau comparații planificate.",
+          "tag": "F nu arată care grup diferă",
+          "tip": "principiu"
+        },
+        {
+          "q": "Prin ce se deosebesc comparațiile planificate de testele post hoc?",
+          "opts": [
+            "Ipotezele lor specifice sunt fixate înainte de analiză",
+            "Se fac doar după ce F a ieșit nesemnificativ",
+            "Compară toate grupurile deodată, nu pe perechi",
+            "Folosesc o altă varianță de eroare decât F"
+          ],
+          "correct": 0,
+          "explain": "Comparațiile a priori (planificate) testează ipoteze specifice despre medii, stabilite dinainte; testele post hoc evaluează diferențele după ce s-a obținut un F semnificativ. Ambele privesc diferențe între grupuri anume, nu toate grupurile deodată, așa cum face F.",
+          "tag": "Teste post hoc și comparații planificate",
+          "tip": "metoda"
+        },
+        {
+          "q": "Ce efecte se pot evalua într-o ANOVA cu două variabile independente?",
+          "opts": [
+            "Un singur efect, cel combinat al variabilelor",
+            "Câte un efect pentru fiecare celulă a designului",
+            "Două efecte principale și efectul subiecților",
+            "Două efecte principale și interacțiunea lor"
+          ],
+          "correct": 3,
+          "explain": "Designul permite evaluarea efectului principal al lui A, al lui B și a interacțiunii A × B, fiecare cu propria ipoteză de nul. Celulele sunt grupurile din care se calculează sumele de pătrate, nu efecte; SS subiecți apare la eșantioanele dependente.",
+          "tag": "Cele trei efecte evaluate",
+          "tip": "concept"
+        },
+        {
+          "q": "Când există interacțiune între două variabile independente?",
+          "opts": [
+            "Când ambele au efecte principale semnificative",
+            "Când efectul uneia diferă după nivelul celeilalte",
+            "Când cele două variabile independente sunt corelate între ele",
+            "Când efectul uneia e același la fiecare nivel"
+          ],
+          "correct": 1,
+          "explain": "Interacțiunea A × B înseamnă că efectul unei variabile independente depinde de nivelul celeilalte (metoda modernă câștigă 16 puncte la IQ sub 90 și 1 punct peste 90). Două efecte principale pot exista și fără interacțiune; un efect constant la fiecare nivel e tocmai lipsa ei.",
+          "tag": "Interacțiunea",
+          "tip": "concept"
+        }
+      ],
+      "ascunse": [
+        {
+          "q": "Ce condiție cer formulele pentru ANOVA cu două variabile, dar nu și cele pentru o variabilă?",
+          "opts": [
+            "Același număr de subiecți în fiecare celulă",
+            "Normalitatea variabilei dependente",
+            "Repartizarea aleatorie a subiecților în grupuri",
+            "Dispersii egale ale populațiilor"
+          ],
+          "correct": 0,
+          "explain": "Formulele pentru două variabile independente sunt aplicabile doar grupurilor independente cu același număr de subiecți; cele pentru o variabilă merg și cu grupuri inegale. Normalitatea și dispersiile egale sunt cerute în ambele cazuri, ca și formarea grupurilor prin repartizare aleatorie.",
+          "tag": "Design cu două variabile independente",
+          "tip": "design"
+        },
+        {
+          "q": "Ce devine sursă separată de varianță în ANOVA pentru eșantioane dependente?",
+          "opts": [
+            "Interacțiunea a două variabile",
+            "Diferențele dintre condiții",
+            "Diferențele dintre subiecți",
+            "Abaterea mediei de la zero"
+          ],
+          "correct": 2,
+          "explain": "Principala diferență față de ANOVA cu o variabilă: efectul diferențelor dintre subiecți devine o sursă de varianță, cu propria sumă de pătrate. Diferențele dintre condiții sunt efectul variabilei independente (SS A), prezent în orice ANOVA; interacțiunea cere două variabile independente.",
+          "tag": "Subiecții ca sursă de varianță",
+          "tip": "concept"
+        },
+        {
+          "q": "La ce folosește SS subiecți în ANOVA pentru eșantioane dependente?",
+          "opts": [
+            "Testează dacă subiecții diferă semnificativ între ei",
+            "Măsoară efectul variabilei independente",
+            "Înlocuiește SS total la calculul lui F",
+            "Micșorează partea de variație pusă pe seama erorii"
+          ],
+          "correct": 3,
+          "explain": "SS eroare = SS total − SS A − SS subiecți: scoaterea variației stabile dintre subiecți reduce eroarea, deci, la același efect, F crește. MS și F pentru subiecți nu se calculează, pentru că de obicei nu interesează dacă subiecții diferă; efectul variabilei independente rămâne SS A.",
+          "tag": "SS eroare = SS total − SS A − SS subiecți",
+          "tip": "principiu"
+        },
+        {
+          "q": "Cât este nS într-un studiu în care 12 subiecți sunt măsurați în patru condiții?",
+          "opts": [
+            "4",
+            "12",
+            "48",
+            "3"
+          ],
+          "correct": 0,
+          "explain": "nS e numărul de eșantioane dependente, adică numărul de scoruri pe care le dă fiecare subiect: aici 4 (în exemplul cu atractivitatea, 2). 12 e numărul de subiecți, 48 numărul total de scoruri, iar 3 sunt gradele de libertate ale condițiilor.",
+          "tag": "Termenul nS",
+          "tip": "calcul"
+        },
+        {
+          "q": "Câte grade de libertate are eroarea în ANOVA pentru eșantioane dependente cu k condiții și s subiecți?",
+          "opts": [
+            "(k − 1) + (s − 1)",
+            "(k − 1)(s − 1)",
+            "N − k",
+            "k(s − 1)"
+          ],
+          "correct": 1,
+          "explain": "glEROARE = (k − 1)(s − 1); subiecții consumă s − 1 gl, iar totalul are N − 1, cu N numărul total de scoruri. Suma (k − 1) + (s − 1) dă gradele de libertate ale condițiilor și ale subiecților luate împreună, nu ale erorii; N − k e eroarea la grupuri independente, unde variația dintre subiecți rămâne în eroare.",
+          "tag": "Grade de libertate: s − 1 și (k − 1)(s − 1)",
+          "tip": "calcul"
+        }
+      ]
+    },
+    {
+      "id": "1",
+      "eticheta": "Runda 2 · Bază",
+      "titlu": "Runda 2 — Concepte de bază",
+      "desc": "Situații scurte: recunoști conceptul potrivit sau aplici direct o regulă.",
+      "intrebari": [
+        {
+          "q": "O psihologă repartizează aleatoriu 30 de studenți în trei condiții de zgomot (liniște, zgomot moderat, zgomot puternic) și numără greșelile pe care le face fiecare la un test de corectură. Care este variabila dependentă?",
+          "opts": [
+            "Nivelul zgomotului din cele trei condiții",
+            "Repartizarea aleatorie a celor 30 de studenți",
+            "Numărul de greșeli de la testul de corectură",
+            "Cele trei grupuri de câte zece participanți"
+          ],
+          "correct": 2,
+          "explain": "Variabila dependentă e cea observată și măsurată: greșelile. Zgomotul e variabila manipulată de cercetătoare (independentă), cu trei categorii; repartizarea aleatorie e procedeul prin care se formează grupurile, iar grupurile sunt categoriile variabilei independente, nu o variabilă separată.",
+          "tag": "Variabila independentă și variabila dependentă",
+          "tip": "variabila"
+        },
+        {
+          "q": "Un cercetător compară prin ANOVA scorurile de anxietate ale pacienților tratați cu patru terapii diferite (câte un grup pe terapie). Cum sună ipoteza alternativă?",
+          "opts": [
+            "Toate cele patru medii ale populațiilor diferă două câte două",
+            "Cel puțin una dintre mediile populațiilor se abate de la celelalte",
+            "Media fiecărui eșantion se abate de la media celorlalte trei",
+            "Media populației tratate cu prima terapie e cea mai mare"
+          ],
+          "correct": 1,
+          "explain": "H0 spune μ1 = μ2 = μ3 = μ4; contrariul ei e că egalitatea nu ține: ajunge ca o singură medie să difere. „Toate diferă două câte două” e o cerință mult mai tare decât negarea lui H0. Ipotezele privesc populațiile, nu eșantioanele (ca în Cap. 8 (Testarea ipotezelor despre o singură populație)), iar ANOVA nu are o direcție prestabilită pentru un anumit grup.",
+          "tag": "Ipotezele: H0 pentru k medii",
+          "tip": "ipoteza"
+        },
+        {
+          "q": "Într-un experiment, grupul 1 (4 elevi) are totalul scorurilor 40, grupul 2 (4 elevi) are totalul 48, iar grupul 3 (8 elevi) are totalul 112. Care este marea medie?",
+          "opts": [
+            "12,5 puncte",
+            "12,0 puncte",
+            "66,7 puncte",
+            "14,0 puncte"
+          ],
+          "correct": 0,
+          "explain": "Marea medie e media tuturor scorurilor: G/N = (40 + 48 + 112)/16 = 200/16 = 12,5. Cu 12,0 se face media celor trei medii de grup (10, 12, 14), ignorând că grupul 3 are de două ori mai mulți elevi; 66,7 împarte totalul la numărul de grupuri; 14,0 e doar media grupului cel mai mare.",
+          "tag": "Marea medie",
+          "tip": "calcul"
+        },
+        {
+          "q": "Într-un experiment cu trei grupuri de câte 6 participanți, cele trei medii de grup ies toate egale cu marea medie, deși scorurile din interiorul fiecărui grup sunt împrăștiate. Care sumă de pătrate este zero?",
+          "opts": [
+            "SS eroare, cea a abaterilor scorurilor față de media grupului lor",
+            "SS A, cea a abaterilor mediilor de grup față de marea medie",
+            "SS total, cea a abaterilor tuturor scorurilor față de marea medie",
+            "SS total și SS eroare, fiindcă au aceeași medie de referință"
+          ],
+          "correct": 1,
+          "explain": "Dacă fiecare medie de grup coincide cu marea medie, toate abaterile (X̄i − marea medie) sunt 0, deci SS A = 0. Scorurile rămân împrăștiate în jurul mediilor de grup, deci SS eroare > 0 și, din SS total = SS A + SS eroare, SS total = SS eroare > 0.",
+          "tag": "SS A (între grupuri)",
+          "tip": "concept"
+        },
+        {
+          "q": "Un coleg îți arată calculele lui pentru o ANOVA cu o variabilă independentă: SS total = 500, SS A = 180 și SS eroare = 290. Ce constați?",
+          "opts": [
+            "Calculele conțin o greșeală: 180 + 290 nu dau 500",
+            "Calculele sunt corecte: SS eroare e mai mare decât SS A",
+            "Calculele sunt corecte: restul de 30 ține de gradele de libertate",
+            "Lipsesc 30 de unități, care revin sumei SS subiecți"
+          ],
+          "correct": 0,
+          "explain": "La grupuri independente SS total se împarte exact în SS A și SS eroare; relația servește chiar la controlul calculelor. Gradele de libertate intervin abia la MS, nu la SS. O SS subiecți apare doar la eșantioane dependente, nu într-o ANOVA cu grupuri independente.",
+          "tag": "SS total = SS A + SS eroare",
+          "tip": "regula"
+        },
+        {
+          "q": "Un cercetător compară patru grupuri independente a câte 8 participanți. Câte grade de libertate au SS A și, respectiv, SS eroare?",
+          "opts": [
+            "4 și 32",
+            "3 și 31",
+            "3 și 7",
+            "3 și 28"
+          ],
+          "correct": 3,
+          "explain": "glA = k − 1 = 4 − 1 = 3; glEROARE = N − k = 32 − 4 = 28. Cu 31 se ia N − 1, adică gradele de libertate ale lui SS total; cu 7 se iau n − 1 dintr-un singur grup; 4 și 32 folosesc numărul de grupuri și de subiecți fără scădere.",
+          "tag": "Grade de libertate: k − 1 și N − k",
+          "tip": "calcul"
+        },
+        {
+          "q": "Într-o ANOVA cu trei grupuri și 33 de participanți în total, SS eroare = 90. Cât este MS eroare?",
+          "opts": [
+            "2,90",
+            "45,00",
+            "2,73",
+            "3,00"
+          ],
+          "correct": 3,
+          "explain": "MS eroare = SS eroare/(N − k) = 90/(33 − 3) = 90/30 = 3,00. Cu 2,90 se împarte la 31, cu 2,73 la N = 33, iar 45,00 împarte la k − 1 = 2, care sunt gradele de libertate ale lui SS A.",
+          "tag": "MS eroare — varianța de eroare",
+          "tip": "calcul"
+        },
+        {
+          "q": "O cercetătoare formează trei grupuri pe care le tratează identic (le dă doar etichete diferite) și obține F = 1,04. Cum interpretezi valoarea?",
+          "opts": [
+            "E cam cât se așteaptă când lucrează doar factorii întâmplători",
+            "Arată un efect, fiindcă orice F peste 1 înseamnă medii diferite",
+            "E imposibilă, fiindcă fără efect raportul ar trebui să fie 0",
+            "Arată că varianța de eroare lipsește din aceste date"
+          ],
+          "correct": 0,
+          "explain": "Dacă intervin doar factori întâmplători, ambele MS estimează aceeași varianță, iar valoarea așteptată pentru F este 1,0. Un F puțin peste 1 nu depășește F critic. F = 0 ar cere medii de grup perfect egale, ceea ce întâmplarea aproape nu produce; MS eroare > 0, altfel F nici nu s-ar putea calcula.",
+          "tag": "F ≈ 1 când intervine doar întâmplarea",
+          "tip": "principiu"
+        },
+        {
+          "q": "Un experiment are 5 grupuri a câte 10 subiecți, iar pragul ales este α = 0,05. Unde cauți F critic în tabelul distribuției F?",
+          "opts": [
+            "La coloana pentru 45 gl, rândul pentru 4 gl, nivelul 0,05",
+            "La coloana pentru 5 gl, rândul pentru 50 gl, nivelul 0,05",
+            "La coloana pentru 4 gl, rândul pentru 49 gl, nivelul 0,05",
+            "La coloana pentru 4 gl, rândul pentru 45 gl, nivelul 0,05"
+          ],
+          "correct": 3,
+          "explain": "În tabelul F, primul rând (coloanele) dă gl ale numărătorului, k − 1 = 4, iar prima coloană (rândurile) gl ale erorii, N − k = 50 − 5 = 45; a doua coloană dă nivelul α. Inversarea rândului cu coloana duce la altă valoare critică; 49 = N − 1 sunt gl ale lui SS total.",
+          "tag": "Tabelul F: rând, coloană, α",
+          "tip": "regula"
+        },
+        {
+          "q": "O analiză cu trei grupuri și 30 de participanți dă F = 3,20, iar F critic pentru 2 și 27 gl la α = 0,05 este 3,35. Ce decizi?",
+          "opts": [
+            "Respingi H0, fiindcă F obținut e mai mare decât valoarea 1",
+            "Păstrezi H0: diferențele dintre medii pot ține de întâmplare",
+            "Respingi H0, fiindcă cele două valori diferă cu doar 0,15",
+            "Ai dovedit că mediile celor trei populații sunt egale"
+          ],
+          "correct": 1,
+          "explain": "Regula: se respinge H0 doar dacă F obținut ≥ F critic; 3,20 < 3,35, deci H0 nu se respinge. Faptul că F > 1 nu ajunge: pragul e F critic. Nerespingerea nu demonstrează egalitatea mediilor, ca în Cap. 8 (Testarea ipotezelor despre o singură populație).",
+          "tag": "Regula de decizie",
+          "tip": "regula"
+        },
+        {
+          "q": "O analiză pe patru grupuri iese semnificativă la α = 0,05. Un coleg conchide: „deci toate cele patru medii diferă între ele”. Ce rezultă de fapt?",
+          "opts": [
+            "Toate mediile diferă, dar numai la nivelul eșantioanelor studiate",
+            "Grupul cu media cea mai mare se abate de la celelalte trei",
+            "Cel puțin o medie se abate; care anume se află prin comparații ulterioare",
+            "Se abate doar primul grup, care e luat drept grup de referință"
+          ],
+          "correct": 2,
+          "explain": "Cu mai mult de două grupuri, F semnificativ respinge egalitatea tuturor mediilor, dar nu spune care grup diferă de care. Pentru asta se fac comparații pe perechi (cu MS eroare), teste post hoc sau comparații planificate. Concluzia ANOVA privește populațiile, nu doar eșantioanele.",
+          "tag": "F nu arată care grup diferă",
+          "tip": "principiu"
+        },
+        {
+          "q": "Un studiu verifică efectul muzicii de fond (cu / fără) și al momentului zilei (dimineața / seara) asupra scorului la un test de concentrare, cu grupuri independente egale. Câte efecte poate evalua?",
+          "opts": [
+            "Două: muzica și momentul zilei, fiecare separat",
+            "Trei: muzica, momentul zilei și interacțiunea lor",
+            "Patru: câte un efect pentru fiecare celulă a designului",
+            "Unul: efectul combinat al celor două variabile"
+          ],
+          "correct": 1,
+          "explain": "Cu două variabile independente se evaluează efectul principal al fiecăreia și interacțiunea A × B (dacă efectul unei variabile diferă după nivelul celeilalte); fiecăruia îi corespunde o ipoteză de nul. Celulele nu sunt efecte, ci grupurile din care se calculează SS A × B și SS eroare.",
+          "tag": "Cele trei efecte evaluate",
+          "tip": "concept"
+        },
+        {
+          "q": "Un medicament reduce mult anxietatea la femei, dar foarte puțin la bărbați, deși ambele grupuri primesc aceeași doză. Ce efect descrie această situație?",
+          "opts": [
+            "O interacțiune între medicament și sexul participanților",
+            "Un efect principal al medicamentului asupra anxietății",
+            "Un efect principal al sexului participanților",
+            "Diferențele individuale dintre subiecți, din eroare"
+          ],
+          "correct": 0,
+          "explain": "Interacțiunea înseamnă că efectul unei variabile (medicamentul) diferă în funcție de nivelul celeilalte (sexul). Un efect principal al medicamentului ar fi un efect mediu, peste ambele sexe; un efect principal al sexului ar compara femeile cu bărbații indiferent de medicament. Diferențele individuale nu explică o diferență sistematică între două categorii.",
+          "tag": "Interacțiunea",
+          "tip": "concept"
+        },
+        {
+          "q": "Aceiași 12 participanți își evaluează starea de spirit după un film trist și după unul vesel. Față de o ANOVA cu grupuri independente, ce sumă de pătrate se calculează în plus?",
+          "opts": [
+            "SS A × B, interacțiunea film × participant",
+            "SS A, variația mediilor celor două filme",
+            "SS subiecți, variația dintre participanți",
+            "SS total, variația față de marea medie"
+          ],
+          "correct": 2,
+          "explain": "Principala diferență a ANOVA pentru eșantioane dependente e că efectul diferențelor dintre subiecți devine o sursă de varianță: se calculează SS total, SS A, SS subiecți și SS eroare. SS A și SS total există și la grupuri independente; o SS A × B apare la două variabile independente, nu aici.",
+          "tag": "Subiecții ca sursă de varianță",
+          "tip": "concept"
+        },
+        {
+          "q": "Înainte de ANOVA, un cercetător calculează abaterea standard în fiecare din cele trei grupuri: 2, 15 și 3. Ce condiție a folosirii distribuției F e pusă la îndoială?",
+          "opts": [
+            "Normalitatea variabilei dependente în cele trei populații",
+            "Egalitatea mărimilor celor trei grupuri de participanți",
+            "Omogenitatea: populațiile să aibă aceeași împrăștiere",
+            "Egalitatea mediilor populațiilor, cerută de H0"
+          ],
+          "correct": 2,
+          "explain": "Distribuția F cere ca variabila dependentă să fie normal distribuită în cele k populații și ca populațiile să fie egal dispersate. Abateri standard atât de diferite (2 vs 15) contrazic a doua condiție. Normalitatea ține de formă, nu de mărimea dispersiei; mediile egale sunt ipoteza testată, nu o supoziție; la o singură variabilă formulele merg și cu grupuri inegale.",
+          "tag": "Supozițiile: normalitate și omogenitatea dispersiei",
+          "tip": "principiu"
+        }
+      ],
+      "ascunse": [
+        {
+          "q": "Un student desenează distribuția de eșantionare a lui F sub H0 ca pe o curbă simetrică în jurul lui 0, cu valori negative și pozitive. Ce greșește?",
+          "opts": [
+            "F, raport de două MS, e pozitiv, iar curba nu e simetrică",
+            "Forma e bună, dar curba trebuie centrată pe 1, nu pe 0",
+            "Forma e bună: este distribuția t cu N − k grade de libertate",
+            "Forma e bună pentru gl mari; la gl mici curba se turtește"
+          ],
+          "correct": 0,
+          "explain": "MS A și MS eroare sunt sume de pătrate împărțite la gl, deci pozitive, iar raportul lor nu poate fi negativ; curba F pornește de la 0 și are coada lungă spre dreapta, cu forma dată de glA și glEROARE. Descrierea simetrică în jurul lui 0 e a distribuției t din Cap. 7 (Proceduri de estimare statistică), nu a lui F.",
+          "tag": "Distribuția F (Fisher)",
+          "tip": "concept"
+        },
+        {
+          "q": "Într-un tabel rezumativ ANOVA cu o variabilă independentă, rândul TOTAL are 23 de grade de libertate, iar rândul A are 3. Câte gl are rândul EROARE și câți participanți au fost?",
+          "opts": [
+            "20 gl la eroare; 24 de participanți",
+            "20 gl la eroare; 23 de participanți",
+            "26 gl la eroare; 24 de participanți",
+            "21 gl la eroare; 24 de participanți"
+          ],
+          "correct": 0,
+          "explain": "glTOTAL = N − 1 = 23, deci N = 24; glA = k − 1 = 3, deci k = 4; glEROARE = N − k = 20 (și 3 + 20 = 23). Cu 23 de participanți se confundă N cu N − 1; 26 adună gl în loc să le scadă.",
+          "tag": "Tabelul surselor de variație",
+          "tip": "calcul"
+        },
+        {
+          "q": "Într-un studiu, fiecare din cei 10 participanți evaluează aceeași reclamă în trei versiuni (alb-negru, color, animată). Cât este termenul nS din calculul lui SS subiecți?",
+          "opts": [
+            "10, câți participanți sunt în studiu",
+            "30, câte scoruri sunt în total",
+            "2, câte gl au cele trei versiuni",
+            "3, câte scoruri dă fiecare participant"
+          ],
+          "correct": 3,
+          "explain": "nS e numărul de eșantioane dependente din experiment, adică numărul de scoruri pe care le dă fiecare subiect (în exemplul cu atractivitatea, nS = 2). În formulă, ΣTS² se împarte la nS, fiindcă fiecare TS adună nS scoruri.",
+          "tag": "Termenul nS",
+          "tip": "concept"
+        },
+        {
+          "q": "Două experimente au aceleași medii de grup (10, 14, 18) și câte 10 subiecți pe grup. În primul, scorurile stau strâns în jurul mediei grupului lor; în al doilea, sunt foarte împrăștiate. Ce diferă?",
+          "opts": [
+            "SS A, mai mare în al doilea; SS eroare rămâne aceeași",
+            "SS eroare, mai mare în al doilea; SS A rămâne aceeași",
+            "Marea medie, mai mare în al doilea experiment",
+            "Gradele de libertate ale erorii, mai multe în al doilea"
+          ],
+          "correct": 1,
+          "explain": "SS A depinde doar de mediile de grup, de marea medie și de n, toate identice. Împrăștierea în jurul mediei grupului e exact ce măsoară SS eroare. Marea medie (14) și gl (N − k = 27) sunt aceleași în ambele experimente.",
+          "tag": "SS eroare (în interiorul grupurilor)",
+          "tip": "concept"
+        },
+        {
+          "q": "Un design cu două variabile independente are trei niveluri pentru A, două pentru B și 6 subiecți în fiecare celulă. Câte grade de libertate au interacțiunea A × B și eroarea?",
+          "opts": [
+            "6 și 30",
+            "2 și 35",
+            "2 și 30",
+            "5 și 30"
+          ],
+          "correct": 2,
+          "explain": "glA×B = (kA − 1)(kB − 1) = 2 · 1 = 2; N = 6 celule · 6 = 36, iar glEROARE = N − kA·kB = 36 − 6 = 30. 6 e numărul de celule, 5 = kA·kB − 1, iar 35 = N − 1, gradele de libertate ale lui SS total.",
+          "tag": "Grade de libertate și F pentru fiecare efect",
+          "tip": "calcul"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "eticheta": "Runda 3 · Aplicații",
+      "titlu": "Runda 3 — Scenarii și raționament",
+      "desc": "Situații cu mai mulți pași: calculezi, alegi și interpretezi.",
+      "intrebari": [
+        {
+          "q": "Un cercetător verifică dacă distanța față de intervievator (0,5 m, 1,5 m, 2 m) schimbă numărul de răspunsuri personale. Are 5 subiecți pe grup și obține SS A = 629,73 și SS eroare = 163,20. F critic pentru α = 0,05 este 3,89. Ce F obține și ce decide?",
+          "opts": [
+            "F ≈ 3,86, sub 3,89: H0 nu se poate respinge",
+            "F ≈ 46,30, peste 3,89: mediile diferă semnificativ",
+            "F ≈ 0,04, sub 3,89: H0 nu se poate respinge",
+            "F ≈ 23,15, peste 3,89: mediile diferă semnificativ"
+          ],
+          "correct": 3,
+          "explain": "MS A = 629,73/(3 − 1) = 314,87; MS eroare = 163,20/(15 − 3) = 13,60; F = 314,87/13,60 = 23,15 ≥ 3,89, deci H0 se respinge. Valoarea 3,86 împarte direct SS-urile, fără gl; 46,30 uită să împartă SS A la 2; 0,04 inversează raportul (eroarea la numărător).",
+          "tag": "Raportul F",
+          "tip": "calcul",
+          "exemplu_nou": false
+        },
+        {
+          "q": "După F semnificativ în studiul distanței față de intervievator (MS eroare = 13,60, cu 12 gl), cercetătorul compară doar distanța mică (total 151) cu cea medie (total 118), câte 5 subiecți. Pentru aceste două grupuri obține o sumă de pătrate de 108,9. Ce F rezultă și cu ce gl?",
+          "opts": [
+            "F ≈ 8,01, cu 2 și 12 grade de libertate",
+            "F ≈ 8,01, cu 1 și 12 grade de libertate",
+            "F ≈ 4,00, cu 2 și 8 grade de libertate",
+            "F ≈ 8,01, cu 1 și 8 grade de libertate"
+          ],
+          "correct": 1,
+          "explain": "Pentru două grupuri, gl = 2 − 1 = 1, deci MS = 108,9; ca eroare se folosește MS eroare calculată anterior pe toate cele trei grupuri, cu gl ei (12): F = 108,9/13,60 ≈ 8,01. Varianta cu 8 gl ar recalcula eroarea doar din cele două grupuri; varianta cu 2 gl păstrează gl ale comparației inițiale între trei grupuri.",
+          "tag": "Compararea a două grupuri cu MS eroare",
+          "tip": "calcul",
+          "exemplu_nou": false
+        },
+        {
+          "q": "Două cercetătoare compară trei programe de dezvoltare personală și obțin aceleași medii de grup, cu același număr de participanți. La prima, scorurile din fiecare grup sunt foarte variate; la a doua, foarte omogene. Cine are șanse mai mari să respingă H0?",
+          "opts": [
+            "A doua: aceeași MS A, dar o MS eroare mai mică",
+            "Prima: o variație mai mare arată un efect mai puternic",
+            "Amândouă la fel: F ține doar de diferențele dintre medii",
+            "Prima: o MS eroare mai mare mărește raportul F"
+          ],
+          "correct": 0,
+          "explain": "Cu aceleași medii și același n, SS A și MS A sunt identice. MS eroare e numitorul lui F: scoruri omogene în grupuri înseamnă MS eroare mică și F mare. Variația din interiorul grupurilor e atribuită eșantionării, nu efectului programelor; F compară variația dintre medii cu această variație de fond.",
+          "tag": "MS eroare — varianța de eroare",
+          "tip": "principiu",
+          "exemplu_nou": true
+        },
+        {
+          "q": "O psihologă compară timpul de reacție în trei condiții de oboseală, cu 10 participanți pe condiție, și obține MS A = 42 și MS eroare = 12. Are la îndemână trei valori critice pentru α = 0,05: 3,35 pentru (2, 27) gl, 2,92 pentru (3, 30) gl și 3,32 pentru (2, 30) gl. Cum procedează?",
+          "opts": [
+            "F = 3,50 se compară cu 2,92, iar H0 se respinge",
+            "F = 3,50 se compară cu 3,32, iar H0 se respinge",
+            "F = 3,50 se compară cu 3,35, iar H0 se respinge",
+            "F = 3,50 se compară cu 3,35, iar H0 se păstrează"
+          ],
+          "correct": 2,
+          "explain": "F = MS A/MS eroare = 42/12 = 3,50. gl: k − 1 = 2 și N − k = 30 − 3 = 27, deci F critic = 3,35; 3,50 ≥ 3,35, deci H0 se respinge. (3, 30) folosește k și N fără scădere, (2, 30) ia N în loc de N − k.",
+          "tag": "Tabelul F: rând, coloană, α",
+          "tip": "regula",
+          "exemplu_nou": true
+        },
+        {
+          "q": "Într-un experiment, 20 de elevi sunt instruiți la matematică printr-o metodă tradițională sau una modernă; în fiecare clasă sunt elevi cu IQ sub 90 și peste 90 (câte 5 pe celulă). Se obțin SS total = 1476,55, SS metodă = 361,25, SS IQ = 684,45 și SS eroare = 149,60. Cât este SS pentru interacțiune și ce F îi corespunde?",
+          "opts": [
+            "430,85; F ≈ 46,08",
+            "281,25; F ≈ 30,08",
+            "281,25; F ≈ 1,88",
+            "1045,70; F ≈ 111,84"
+          ],
+          "correct": 1,
+          "explain": "SS A × B = 1476,55 − 361,25 − 684,45 − 149,60 = 281,25; gl = (2 − 1)(2 − 1) = 1, deci MS = 281,25; MS eroare = 149,60/(20 − 4) = 9,35; F = 281,25/9,35 ≈ 30,08. 430,85 uită să scadă SS eroare; 1,88 împarte SS-urile brute; 1045,70 adună cele două efecte principale.",
+          "tag": "Cinci sume de pătrate",
+          "tip": "calcul",
+          "exemplu_nou": false
+        },
+        {
+          "q": "În același experiment cu metodele de instruire, mediile pe celule sunt: tradițională – IQ sub 90: 70,8; tradițională – IQ peste 90: 90,0; modernă – IQ sub 90: 86,8; modernă – IQ peste 90: 91,0. Interacțiunea a ieșit semnificativă. Ce descriu aceste medii?",
+          "opts": [
+            "Metoda modernă aduce câștiguri asemănătoare ambelor grupe de IQ",
+            "Metoda modernă aduce un câștig mare celor cu IQ sub 90, mic celor peste 90",
+            "Elevii peste 90 câștigă mai mult de pe urma metodei moderne",
+            "Elevii peste 90 au rezultate mai bune decât ceilalți la ambele metode"
+          ],
+          "correct": 1,
+          "explain": "Câștigul metodei moderne e 86,8 − 70,8 = 16 puncte la IQ sub 90 și 91,0 − 90,0 = 1 punct la IQ peste 90: efectul metodei depinde de IQ, adică interacțiune. Afirmația că elevii peste 90 au rezultate mai bune la ambele metode e adevărată (efectul principal al IQ), dar nu descrie interacțiunea; celelalte două inversează sau anulează tiparul.",
+          "tag": "Citirea mediilor din celule",
+          "tip": "concept",
+          "exemplu_nou": false
+        },
+        {
+          "q": "Un studiu 2 × 2 cu grupuri egale urmărește motivația după feedback (laudă / critică) la copii și adolescenți. Mediile: copii – laudă 20, copii – critică 10, adolescenți – laudă 20, adolescenți – critică 10. Ce tipar sugerează mediile, înainte de testele F?",
+          "opts": [
+            "Un efect al vârstei, împreună cu o interacțiune feedback × vârstă",
+            "O interacțiune, fiindcă lauda dublează motivația față de critică",
+            "Efecte ale ambelor variabile, dar fără interacțiune între ele",
+            "Un efect al feedbackului, fără efect al vârstei și fără interacțiune"
+          ],
+          "correct": 3,
+          "explain": "Lauda dă 10 puncte în plus atât la copii, cât și la adolescenți (efect principal al feedbackului, același la ambele vârste, deci fără interacțiune); mediile pe vârstă sunt egale (15 și 15), deci fără efect al vârstei. Că lauda dublează scorul descrie mărimea efectului feedbackului, nu dependența lui de vârstă. Dacă diferențele sunt semnificative decid testele F.",
+          "tag": "Efectele principale",
+          "tip": "concept",
+          "exemplu_nou": true
+        },
+        {
+          "q": "Un grafic al mediilor are pe axa orizontală doza unui supliment (mică / mare) și două linii, pentru fumători și nefumători. Liniile sunt paralele: ambele urcă, iar nefumătorii sunt mereu cu 5 puncte mai sus. Ce spui despre interacțiune?",
+          "opts": [
+            "Există: nefumătorii au mereu scoruri mai mari",
+            "Lipsește: doza are același efect în ambele grupe",
+            "Există: ambele linii urcă odată cu doza",
+            "Nu se poate judeca fără un efect al fumatului"
+          ],
+          "correct": 1,
+          "explain": "Interacțiunea ar însemna că efectul dozei diferă între fumători și nefumători; liniile paralele arată aceeași creștere în ambele grupe. Distanța constantă de 5 puncte e un efect principal al fumatului, iar urcarea comună e un efect principal al dozei. Lectura grafică e o interpretare a definiției din carte (cartea nu dă grafice).",
+          "tag": "Linii paralele vs neparalele",
+          "tip": "grafic",
+          "exemplu_nou": true
+        },
+        {
+          "q": "Un design cu două variabile independente are A cu 2 niveluri și B cu 3 niveluri, câte 5 participanți pe celulă. De câte valori critice F diferite are nevoie cercetătorul, la același α?",
+          "opts": [
+            "Două: (1, 24) pentru A și (2, 24) pentru B și pentru A × B",
+            "Una singură, fiindcă toate efectele folosesc aceeași MS eroare",
+            "Trei diferite, câte una pentru A, pentru B și pentru A × B",
+            "Două: (1, 29) pentru A și (2, 29) pentru B și pentru A × B"
+          ],
+          "correct": 0,
+          "explain": "N = 6 celule · 5 = 30; glEROARE = 30 − 6 = 24; glA = 1, glB = 2, glA×B = 1 · 2 = 2. Numitorul e comun, dar F critic depinde și de gl numărătorului, deci B și A × B împart o valoare, iar A are alta. În exemplul din carte toate gl erau 1, de aceea a ajuns un singur F critic; 29 = N − 1 sunt gl ale totalului.",
+          "tag": "Grade de libertate și F pentru fiecare efect",
+          "tip": "regula",
+          "exemplu_nou": true
+        },
+        {
+          "q": "Un cercetător poate face două experimente separate (efectul tipului de pauză; efectul orei din zi) sau un singur experiment cu ambele variabile, cu grupuri independente egale. Ce câștigă în plus cu varianta comună?",
+          "opts": [
+            "Poate verifica dacă efectul pauzei diferă după ora din zi",
+            "Poate renunța la repartizarea aleatorie a participanților",
+            "Poate folosi grupuri de mărimi diferite în fiecare celulă",
+            "Poate ocoli supoziția omogenității dispersiei în celule"
+          ],
+          "correct": 0,
+          "explain": "Analiza simultană face, de fapt, două cercetări deodată și, în plus, permite studiul interacțiunii — adesea un obiectiv important, fiindcă în situații reale efectul unei variabile depinde de altele. Repartizarea aleatorie și supozițiile rămân; formulele din curs pentru două variabile cer chiar același număr de subiecți pe celulă.",
+          "tag": "Avantajele designului cu două variabile",
+          "tip": "design",
+          "exemplu_nou": true
+        },
+        {
+          "q": "Opt subiecți evaluează pe o scală de 10 puncte competența a două candidate filmate (una atractivă, una neatractivă, cu aceeași performanță). Se obțin SS total = 35,44, SS atractivitate = 10,57 și SS subiecți = 15,94. Cât sunt MS eroare și F?",
+          "opts": [
+            "MS eroare ≈ 1,78; F ≈ 5,95",
+            "MS eroare ≈ 0,64; F ≈ 16,57",
+            "MS eroare ≈ 1,28; F ≈ 8,26",
+            "MS eroare ≈ 1,12; F ≈ 9,47"
+          ],
+          "correct": 2,
+          "explain": "SS eroare = 35,44 − 10,57 − 15,94 = 8,93, cu (k − 1)(s − 1) = 1 · 7 = 7 gl: MS eroare ≈ 1,28; MS A = 10,57/1; F ≈ 8,26. Varianta cu 1,78 lasă SS subiecți în eroare, ca la grupuri independente (24,87/14); 0,64 împarte la 14 gl; 1,12 împarte la 8, numărul de subiecți.",
+          "tag": "SS eroare = SS total − SS A − SS subiecți",
+          "tip": "calcul",
+          "exemplu_nou": false
+        },
+        {
+          "q": "Într-un studiu cu măsurători repetate, un student calculează și un F pentru subiecți, obține o valoare foarte mare și vrea să raporteze ca rezultat principal că „participanții diferă semnificativ între ei”. Ce i-ai spune?",
+          "opts": [
+            "Raportarea e potrivită: e chiar rezultatul central al acestui tip de studiu",
+            "Un F mare pentru subiecți arată că efectul condițiilor nu e valid",
+            "SS subiecți trebuie adunată la SS A, ca să crească F pentru condiții",
+            "SS subiecți servește la micșorarea erorii; ipoteza privește condițiile"
+          ],
+          "correct": 3,
+          "explain": "În ANOVA pentru eșantioane dependente, MS și F pentru subiecți nu se calculează: de obicei nu interesează dacă subiecții diferă; SS subiecți se scoate din eroare, ca MS eroare să fie mai mică. Ipoteza de nul privește variabila independentă. Adunată la SS A, variația dintre oameni ar fi luată drept efect al condițiilor.",
+          "tag": "F pentru subiecți nu se calculează",
+          "tip": "principiu",
+          "exemplu_nou": true
+        },
+        {
+          "q": "Un cercetător are 20 de voluntari și vrea să compare memoria în patru condiții de iluminare. Varianta 1: patru grupuri de câte 5; varianta 2: toți trec prin toate condițiile, în ordini contrabalansate. Ce avantaj are varianta 2 pentru test?",
+          "opts": [
+            "Se poate calcula și un F pentru voluntari, ca rezultat suplimentar",
+            "Testul nu mai cere normalitatea scorurilor în cele patru condiții",
+            "Variația stabilă dintre voluntari se scoate din eroare, iar F câștigă sensibilitate",
+            "Se poate testa și interacțiunea iluminare × voluntar, ca la două variabile"
+          ],
+          "correct": 2,
+          "explain": "Cu măsurători repetate, diferențele dintre subiecți devin o sursă separată (SS subiecți), iar SS eroare scade, deci, la același efect, F crește (calculul pe datele cu atractivitatea: 5,94 fără și 8,27 cu SS subiecți). Supozițiile rămân, F pentru subiecți nu se calculează, iar o interacțiune cere a doua variabilă independentă.",
+          "tag": "Eșantioane dependente (măsurători repetate)",
+          "tip": "design",
+          "exemplu_nou": true
+        },
+        {
+          "q": "Zece participanți dau câte un scor în fiecare din trei condiții (eșantioane dependente). Câte grade de libertate au, în ordine, A, subiecții, eroarea și totalul?",
+          "opts": [
+            "2, 9, 27 și 29",
+            "2, 10, 18 și 30",
+            "2, 9, 18 și 29",
+            "3, 9, 18 și 29"
+          ],
+          "correct": 2,
+          "explain": "glA = k − 1 = 2; glSUBIECȚI = s − 1 = 9; glEROARE = (k − 1)(s − 1) = 18; glTOTAL = N − 1 = 30 − 1 = 29, unde N e numărul total de scoruri; 2 + 9 + 18 = 29. Cu 27 se ia N − k, ca la grupuri independente, uitând că subiecții consumă 9 gl.",
+          "tag": "Grade de libertate: s − 1 și (k − 1)(s − 1)",
+          "tip": "calcul",
+          "exemplu_nou": true
+        },
+        {
+          "q": "După o ANOVA cu F(2, 42) = 5,10, semnificativ la α = 0,05, un student scrie: „Probabilitatea ca H0 să fie adevărată este mai mică de 0,05”. Cum sună enunțul de probabilitate corect?",
+          "opts": [
+            "Dacă H0 ar fi adevărată, astfel de diferențe ar apărea din întâmplare cu p < 0,05",
+            "Cu o probabilitate de cel puțin 0,95, toate mediile populațiilor sunt diferite",
+            "Probabilitatea ca un nou studiu să găsească același rezultat trece de 0,95",
+            "Probabilitatea ca diferențele să aibă importanță practică este de 0,95"
+          ],
+          "correct": 0,
+          "explain": "Enunțul se condiționează pe H0: probabilitatea ca diferența observată între medii să apară din întâmplare, dacă H0 ar fi adevărată, e sub 0,05. Nu e probabilitatea lui H0, nici a replicării; Ha spune doar că cel puțin o medie diferă, iar semnificația statistică nu e importanță practică (Cap. 8 (Testarea ipotezelor despre o singură populație)).",
+          "tag": "Modelul în 4 pași și enunțul de probabilitate",
+          "tip": "principiu",
+          "exemplu_nou": true
+        }
+      ],
+      "ascunse": [
+        {
+          "q": "Pentru studiul în care 8 subiecți evaluează competența unei candidate atractive și a uneia neatractive se obține F ≈ 8,26 cu 1 și 7 gl. Valorile critice sunt 5,59 la α = 0,05 și 12,25 la α = 0,01. Ce concluzie e corectă?",
+          "opts": [
+            "H0 se respinge la ambele praguri ale lui α",
+            "H0 se respinge la α = 0,05, dar nu și la α = 0,01",
+            "H0 se păstrează la ambele praguri ale lui α",
+            "H0 se respinge la α = 0,01, dar nu și la α = 0,05"
+          ],
+          "correct": 1,
+          "explain": "8,26 ≥ 5,59, deci la 0,05 atractivitatea are un efect semnificativ asupra judecății despre competență; 8,26 < 12,25, deci la 0,01 nu. Un prag mai strict cere un F mai mare, deci nu se poate respinge la 0,01 fără a respinge și la 0,05. (Cartea lasă decizia ca exercițiu; valorile critice sunt din tabelul F standard.)",
+          "tag": "Decizia pentru exemplul cu atractivitatea",
+          "tip": "regula",
+          "exemplu_nou": false
+        },
+        {
+          "q": "O cercetătoare obține F semnificativ pentru patru grupuri și abia apoi, privind mediile, alege să compare cele două grupuri aflate cel mai departe. Un coleg își fixase dinainte ipoteza că doar terapia nouă diferă de control. Cum se numesc cele două abordări?",
+          "opts": [
+            "Prima e o comparație planificată (a priori), a doua e post hoc",
+            "Ambele sunt comparații post hoc, deoarece urmează analizei F",
+            "Prima e post hoc, a doua e o comparație planificată (a priori)",
+            "Ambele sunt comparații planificate, fiindcă vizează două medii"
+          ],
+          "correct": 2,
+          "explain": "Testele post hoc evaluează diferențele după ce s-a obținut un F semnificativ; comparațiile a priori (planificate) testează ipoteze specifice, stabilite înainte. Contează când a fost aleasă comparația, nu numărul de medii: o comparație aleasă după ce ai văzut datele nu devine planificată (ca alegerea sensului lui Ha în Cap. 8 (Testarea ipotezelor despre o singură populație)).",
+          "tag": "Teste post hoc și comparații planificate",
+          "tip": "metoda",
+          "exemplu_nou": true
+        },
+        {
+          "q": "Un student spune că, sub H0 și sub condițiile cerute de distribuția F, cele trei grupuri pot fi privite ca trei eșantioane extrase din aceeași populație. Pe ce se sprijină afirmația?",
+          "opts": [
+            "Normalitatea și dispersiile egale dau formă și σ comune; H0 dă μ comună",
+            "H0, singură, cere ca populațiile să aibă aceeași formă și aceeași abatere σ",
+            "Repartizarea aleatorie face ca mediile populațiilor să fie egale",
+            "Condițiile cer și ca cele trei eșantioane să aibă aceeași mărime"
+          ],
+          "correct": 0,
+          "explain": "Supoziția normalității și cea a omogenității dispersiei, împreună cu H0, spun că populațiile au aceeași formă, aceeași medie și aceeași abatere standard — deci e vorba de una și aceeași populație. H0 privește doar mediile; repartizarea aleatorie face grupurile comparabile la început, dar nu decide efectul; la o variabilă, n pot diferi.",
+          "tag": "Supozițiile: normalitate și omogenitatea dispersiei",
+          "tip": "principiu",
+          "exemplu_nou": true
+        },
+        {
+          "q": "Un studiu 2 × 2 cu grupuri egale măsoară scăderea anxietății: anxietate socială – cu terapie 12, fără terapie 2; anxietate generalizată – cu terapie 4, fără terapie 2. Ce tipar descriu mediile?",
+          "opts": [
+            "Câștigul adus de terapie e mult mai mare la anxietatea socială",
+            "Câștigul adus de terapie e la fel de mare la ambele tipuri",
+            "Câștigul adus de terapie e mai mare la anxietatea generalizată",
+            "Tipul de anxietate nu schimbă rezultatele; contează doar terapia"
+          ],
+          "correct": 0,
+          "explain": "Efectul terapiei e 12 − 2 = 10 puncte la anxietatea socială și 4 − 2 = 2 puncte la cea generalizată: efectul unei variabile depinde de nivelul celeilalte, deci tiparul e al unei interacțiuni (pe lângă efectele principale). Dacă e semnificativ decide F pentru A × B.",
+          "tag": "Interacțiunea",
+          "tip": "concept",
+          "exemplu_nou": true
+        },
+        {
+          "q": "Un cercetător are trei grupuri independente cu 8, 10 și 12 subiecți și vrea ANOVA cu o variabilă. Apoi vrea să adauge o a doua variabilă independentă, iar celulele ar ieși inegale. Ce permit formulele din curs?",
+          "opts": [
+            "În ambele cazuri merg, fiindcă ANOVA nu ține cont de mărimea grupurilor",
+            "Pentru o variabilă grupurile trebuie egale; pentru două pot fi inegale",
+            "În ambele cazuri merg doar după ce se adaugă scoruri medii în celule",
+            "Pentru o variabilă, grupurile pot fi inegale; pentru două, celulele trebuie egale"
+          ],
+          "correct": 3,
+          "explain": "Formulele pentru o variabilă se aplică și unui număr diferit de subiecți pe grup (ΣT²/n se calculează pe fiecare grup); cele pentru două variabile, din curs, sunt aplicabile doar grupurilor independente cu același număr de subiecți. Mărimea grupurilor intră în formule prin ni și N.",
+          "tag": "Design cu două variabile independente",
+          "tip": "design",
+          "exemplu_nou": true
+        }
+      ]
+    }
+  ],
+  "harta": {
+    "centru": "Analiza de varianță (ANOVA)",
+    "ramuri": [
+      {
+        "titlu": "Experimentul și întrebarea ANOVA",
+        "noduri": [
+          {
+            "t": "Variabila independentă și variabila dependentă",
+            "d": "Într-un experiment, cercetătorul manipulează o variabilă (independentă) și înregistrează răspunsurile la alta (dependentă), ca să vadă efectul primei asupra celei de-a doua. Exemplul cărții: distanța față de intervievator (mică 0,5 m, medie 1,5 m, mare 2 m) și numărul de răspunsuri cu caracter personal."
+          },
+          {
+            "t": "Grupuri independente, repartizate aleatoriu",
+            "d": "Cei 15 subiecți sunt repartizați aleatoriu în cele trei categorii ale variabilei independente, 5 pe grup; toți primesc aceleași întrebări de la același intervievator. Formulele pentru o variabilă merg și cu grupuri de mărimi diferite."
+          },
+          {
+            "t": "Ipotezele: H0 pentru k medii",
+            "d": "ANOVA testează ipoteza că mediile a k populații (k ≥ 2) sunt egale. H0: μ1 = μ2 = μ3; Ha: cel puțin o medie diferă de celelalte. Ipotezele privesc populațiile, ca în Cap. 8 (Testarea ipotezelor despre o singură populație)."
+          },
+          {
+            "t": "De ce o singură analiză pentru k grupuri",
+            "d": "Interpretare, nu apare în carte: cu trei sau mai multe grupuri, un singur test F evită să faci multe teste pe perechi (ca în Cap. 9 (Testarea ipotezelor despre diferențele dintre două populații)), fiecare cu propriul risc α. Cu k = 2, ANOVA compară două medii."
+          }
+        ]
+      },
+      {
+        "titlu": "Sumele de pătrate (SS)",
+        "lat": true,
+        "figuri": [
+          {
+            "titlu": "Cele 15 scoruri: trei grupuri, trei medii, o mare medie",
+            "nota": "Datele exemplului cu distanța față de intervievator. Pentru scorul 33: abaterea față de media grupului (30,20) intră în SS eroare; abaterea mediei grupului față de marea medie (22,73) intră în SS A.",
+            "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 230\" role=\"img\" aria-label=\"Scorurile celor trei grupuri, mediile de grup și marea medie\" font-family=\"Georgia, serif\" font-size=\"13\"><line x1=\"48.0\" y1=\"174.3\" x2=\"300.0\" y2=\"174.3\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><text x=\"44.0\" y=\"177.8\" text-anchor=\"end\" fill=\"#6b6760\" font-size=\"10.2\">10</text><line x1=\"48.0\" y1=\"145.0\" x2=\"300.0\" y2=\"145.0\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><text x=\"44.0\" y=\"148.5\" text-anchor=\"end\" fill=\"#6b6760\" font-size=\"10.2\">15</text><line x1=\"48.0\" y1=\"115.7\" x2=\"300.0\" y2=\"115.7\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><text x=\"44.0\" y=\"119.2\" text-anchor=\"end\" fill=\"#6b6760\" font-size=\"10.2\">20</text><line x1=\"48.0\" y1=\"86.4\" x2=\"300.0\" y2=\"86.4\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><text x=\"44.0\" y=\"89.9\" text-anchor=\"end\" fill=\"#6b6760\" font-size=\"10.2\">25</text><line x1=\"48.0\" y1=\"57.1\" x2=\"300.0\" y2=\"57.1\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><text x=\"44.0\" y=\"60.6\" text-anchor=\"end\" fill=\"#6b6760\" font-size=\"10.2\">30</text><line x1=\"48.0\" y1=\"27.9\" x2=\"300.0\" y2=\"27.9\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><text x=\"44.0\" y=\"31.4\" text-anchor=\"end\" fill=\"#6b6760\" font-size=\"10.2\">35</text><text x=\"14.0\" y=\"104.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\" transform=\"rotate(-90 14 104)\">scor</text><line x1=\"48.0\" y1=\"99.7\" x2=\"300.0\" y2=\"99.7\" stroke=\"#2c2a26\" stroke-width=\"1.2\" stroke-dasharray=\"5 3\"/><text x=\"52.0\" y=\"112.7\" text-anchor=\"start\" fill=\"#2c2a26\" font-size=\"10.2\">marea medie 22,73</text><circle cx=\"83.0\" cy=\"39.6\" r=\"4\" fill=\"#2a78d6\" stroke=\"#faf8f3\" stroke-width=\"1.5\"><title>Mică: 33</title></circle><circle cx=\"89.0\" cy=\"92.3\" r=\"4\" fill=\"#2a78d6\" stroke=\"#faf8f3\" stroke-width=\"1.5\"><title>Mică: 24</title></circle><circle cx=\"95.0\" cy=\"51.3\" r=\"4\" fill=\"#2a78d6\" stroke=\"#faf8f3\" stroke-width=\"1.5\"><title>Mică: 31</title></circle><circle cx=\"101.0\" cy=\"63.0\" r=\"4\" fill=\"#2a78d6\" stroke=\"#faf8f3\" stroke-width=\"1.5\"><title>Mică: 29</title></circle><circle cx=\"107.0\" cy=\"33.7\" r=\"4\" fill=\"#2a78d6\" stroke=\"#faf8f3\" stroke-width=\"1.5\"><title>Mică: 34</title></circle><line x1=\"73.0\" y1=\"56.0\" x2=\"117.0\" y2=\"56.0\" stroke=\"#2a78d6\" stroke-width=\"2.5\"/><text x=\"119.0\" y=\"60.0\" text-anchor=\"start\" fill=\"#2a78d6\" font-size=\"10.2\">30,20</text><text x=\"95.0\" y=\"204.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.8\">Mică</text><circle cx=\"163.0\" cy=\"109.9\" r=\"4\" fill=\"#eb6834\" stroke=\"#faf8f3\" stroke-width=\"1.5\"><title>Medie: 21</title></circle><circle cx=\"169.0\" cy=\"86.4\" r=\"4\" fill=\"#eb6834\" stroke=\"#faf8f3\" stroke-width=\"1.5\"><title>Medie: 25</title></circle><circle cx=\"175.0\" cy=\"121.6\" r=\"4\" fill=\"#eb6834\" stroke=\"#faf8f3\" stroke-width=\"1.5\"><title>Medie: 19</title></circle><circle cx=\"181.0\" cy=\"74.7\" r=\"4\" fill=\"#eb6834\" stroke=\"#faf8f3\" stroke-width=\"1.5\"><title>Medie: 27</title></circle><circle cx=\"187.0\" cy=\"80.6\" r=\"4\" fill=\"#eb6834\" stroke=\"#faf8f3\" stroke-width=\"1.5\"><title>Medie: 26</title></circle><line x1=\"153.0\" y1=\"94.6\" x2=\"197.0\" y2=\"94.6\" stroke=\"#eb6834\" stroke-width=\"2.5\"/><text x=\"199.0\" y=\"98.6\" text-anchor=\"start\" fill=\"#eb6834\" font-size=\"10.2\">23,60</text><text x=\"175.0\" y=\"204.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.8\">Medie</text><circle cx=\"243.0\" cy=\"115.7\" r=\"4\" fill=\"#1baf7a\" stroke=\"#faf8f3\" stroke-width=\"1.5\"><title>Mare: 20</title></circle><circle cx=\"249.0\" cy=\"156.7\" r=\"4\" fill=\"#1baf7a\" stroke=\"#faf8f3\" stroke-width=\"1.5\"><title>Mare: 13</title></circle><circle cx=\"255.0\" cy=\"145.0\" r=\"4\" fill=\"#1baf7a\" stroke=\"#faf8f3\" stroke-width=\"1.5\"><title>Mare: 15</title></circle><circle cx=\"261.0\" cy=\"174.3\" r=\"4\" fill=\"#1baf7a\" stroke=\"#faf8f3\" stroke-width=\"1.5\"><title>Mare: 10</title></circle><circle cx=\"267.0\" cy=\"150.9\" r=\"4\" fill=\"#1baf7a\" stroke=\"#faf8f3\" stroke-width=\"1.5\"><title>Mare: 14</title></circle><line x1=\"233.0\" y1=\"148.5\" x2=\"277.0\" y2=\"148.5\" stroke=\"#1baf7a\" stroke-width=\"2.5\"/><text x=\"279.0\" y=\"152.5\" text-anchor=\"start\" fill=\"#1baf7a\" font-size=\"10.2\">14,40</text><text x=\"255.0\" y=\"204.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.8\">Mare</text><line x1=\"75.0\" y1=\"39.6\" x2=\"75.0\" y2=\"56.0\" stroke=\"#b5453a\" stroke-width=\"1.6\"/><line x1=\"75.0\" y1=\"56.0\" x2=\"75.0\" y2=\"99.7\" stroke=\"#7b5ea7\" stroke-width=\"1.6\"/><text x=\"52.0\" y=\"50.8\" text-anchor=\"end\" fill=\"#b5453a\" font-size=\"10.2\">eroare</text><text x=\"52.0\" y=\"80.6\" text-anchor=\"end\" fill=\"#7b5ea7\" font-size=\"10.2\">A</text><text x=\"160.0\" y=\"222.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">distanța față de intervievator</text></svg>"
+          },
+          {
+            "titlu": "SS total = SS A + SS eroare",
+            "nota": "Exemplul distanței: 792,93 = 629,73 + 163,20. Cea mai mare parte a variației ține de diferențele dintre medii.",
+            "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 80\" role=\"img\" aria-label=\"SS total împărțită în SS A și SS eroare\" font-family=\"Georgia, serif\" font-size=\"13\"><text x=\"12.0\" y=\"20.0\" text-anchor=\"start\" fill=\"#2c2a26\" font-size=\"10.8\">O variabilă, exemplul distanței (SS total = 792,93)</text><rect x=\"12.0\" y=\"26.0\" width=\"235.1\" height=\"22.0\" fill=\"#7b5ea7\"><title>SS A: 629,73</title></rect><text x=\"129.5\" y=\"41.0\" text-anchor=\"middle\" fill=\"#ffffff\" font-size=\"10.2\">79%</text><rect x=\"247.1\" y=\"26.0\" width=\"60.9\" height=\"22.0\" fill=\"#b5453a\"><title>SS eroare: 163,20</title></rect><text x=\"277.5\" y=\"41.0\" text-anchor=\"middle\" fill=\"#ffffff\" font-size=\"10.2\">21%</text><rect x=\"12.0\" y=\"58.0\" width=\"10.0\" height=\"10.0\" fill=\"#7b5ea7\"></rect><text x=\"26.0\" y=\"67.0\" text-anchor=\"start\" fill=\"#2c2a26\" font-size=\"10.8\">SS A = 629,73</text><rect x=\"120.6\" y=\"58.0\" width=\"10.0\" height=\"10.0\" fill=\"#b5453a\"></rect><text x=\"134.6\" y=\"67.0\" text-anchor=\"start\" fill=\"#2c2a26\" font-size=\"10.8\">SS eroare = 163,20</text></svg>"
+          }
+        ],
+        "noduri": [
+          {
+            "t": "Marea medie",
+            "d": "Media tuturor scorurilor din experiment, G/N. În exemplul distanței: 341/15 = 22,73. Cu grupuri inegale nu e media mediilor de grup."
+          },
+          {
+            "t": "SS total",
+            "d": "Suma pătratelor abaterilor fiecărui scor individual față de marea medie. Exemplu: 8545 − 7752,07 = 792,93."
+          },
+          {
+            "t": "SS A (între grupuri)",
+            "d": "Suma pătratelor abaterilor fiecărei medii de grup față de marea medie (ponderate cu n): prima sursă de variație, variația sistematică a variabilei A. Exemplu: 8381,80 − 7752,07 = 629,73. E 0 dacă toate mediile de grup sunt egale."
+          },
+          {
+            "t": "SS eroare (în interiorul grupurilor)",
+            "d": "Suma pătratelor abaterilor fiecărui scor față de media grupului său: a doua sursă, diferențele dintre subiecții aceluiași grup, atribuite eșantionării. Exemplu: 8545 − 8381,80 = 163,20."
+          },
+          {
+            "t": "SS total = SS A + SS eroare",
+            "d": "Relația servește la controlul calculelor: 629,73 + 163,20 = 792,93. Ideea de bază vine din Cap. 4 (Mărimile dispersiei): abaterile față de medie, ridicate la pătrat."
+          },
+          {
+            "t": "Formulele de calcul",
+            "d": "În loc de abateri, trei cantități: ΣX² (suma pătratelor tuturor scorurilor), G²/N (pătratul totalului general împărțit la N) și Σ(Ti²/ni). SS total = ΣX² − G²/N; SS A = Σ(Ti²/ni) − G²/N; SS eroare = ΣX² − Σ(Ti²/ni). Termenii se rețin și se refolosesc."
+          }
+        ]
+      },
+      {
+        "titlu": "Mediile sumelor de pătrate și raportul F",
+        "tabel": {
+          "cap": [
+            "Sursa",
+            "SS",
+            "gl",
+            "MS",
+            "F"
+          ],
+          "randuri": [
+            [
+              "A (distanța)",
+              "629,73",
+              "k − 1 = 2",
+              "314,87",
+              "23,15"
+            ],
+            [
+              "Eroare",
+              "163,20",
+              "N − k = 12",
+              "13,60",
+              ""
+            ],
+            [
+              "Total",
+              "792,93",
+              "N − 1 = 14",
+              "",
+              ""
+            ]
+          ]
+        },
+        "noduri": [
+          {
+            "t": "Grade de libertate: k − 1 și N − k",
+            "d": "SS A are k − 1 gl (k = numărul de grupuri), SS eroare N − k, SS total N − 1; primele două se adună la al treilea. Exemplu: 2 + 12 = 14."
+          },
+          {
+            "t": "MS A — varianța sistematică",
+            "d": "MS A = SS A/(k − 1) = 629,73/2 = 314,87 (MS, de la „mean squares”)."
+          },
+          {
+            "t": "MS eroare — varianța de eroare",
+            "d": "MS eroare = SS eroare/(N − k) = 163,20/12 = 13,60. Cu cât scorurile din grupuri sunt mai împrăștiate, cu atât MS eroare e mai mare."
+          },
+          {
+            "t": "Raportul F",
+            "d": "F (obținut) = MS A/MS eroare = 314,87/13,60 = 23,15: variația dintre medii raportată la variația de fond."
+          },
+          {
+            "t": "F ≈ 1 când intervine doar întâmplarea",
+            "d": "Dacă intervin doar factori întâmplători, valoarea așteptată pentru F este 1,0. Cu cât F e mai mare, cu atât e mai mică probabilitatea ca rezultatele să se datoreze întâmplării."
+          }
+        ]
+      },
+      {
+        "titlu": "Distribuția F și decizia",
+        "figuri": [
+          {
+            "titlu": "Distribuția F și zona critică",
+            "nota": "Curbe exacte. Pentru gl (2, 12), F critic la α = 0,05 este 3,89; F obținut = 23,15 cade mult în dreapta, în zona critică. Forma curbei depinde de cele două grade de libertate (linia punctată: gl 5 și 30). F nu are valori negative.",
+            "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 204\" role=\"img\" aria-label=\"Distribuția F pentru 2 și 12 grade de libertate, cu zona critică\" font-family=\"Georgia, serif\" font-size=\"13\"><line x1=\"30.0\" y1=\"170.0\" x2=\"300.0\" y2=\"170.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><line x1=\"30.0\" y1=\"170.0\" x2=\"300.0\" y2=\"170.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><line x1=\"30.0\" y1=\"170.0\" x2=\"30.0\" y2=\"174.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><text x=\"30.0\" y=\"185.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">0</text><line x1=\"75.0\" y1=\"170.0\" x2=\"75.0\" y2=\"174.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><text x=\"75.0\" y=\"185.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">1</text><line x1=\"120.0\" y1=\"170.0\" x2=\"120.0\" y2=\"174.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><text x=\"120.0\" y=\"185.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">2</text><line x1=\"165.0\" y1=\"170.0\" x2=\"165.0\" y2=\"174.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><text x=\"165.0\" y=\"185.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">3</text><line x1=\"210.0\" y1=\"170.0\" x2=\"210.0\" y2=\"174.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><text x=\"210.0\" y=\"185.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">4</text><line x1=\"255.0\" y1=\"170.0\" x2=\"255.0\" y2=\"174.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><text x=\"255.0\" y=\"185.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">5</text><line x1=\"300.0\" y1=\"170.0\" x2=\"300.0\" y2=\"174.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><text x=\"300.0\" y=\"185.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">6</text><polygon points=\"204.8,170.0 205.5,165.6 206.8,165.7 208.2,165.8 209.5,165.9 210.9,166.0 212.2,166.1 213.6,166.1 214.9,166.2 216.3,166.3 217.7,166.4 219.0,166.4 220.3,166.5 221.7,166.6 223.0,166.7 224.4,166.7 225.8,166.8 227.1,166.9 228.5,166.9 229.8,167.0 231.1,167.0 232.5,167.1 233.9,167.2 235.2,167.2 236.5,167.3 237.9,167.3 239.2,167.4 240.6,167.4 242.0,167.5 243.3,167.5 244.6,167.6 246.0,167.6 247.3,167.7 248.7,167.7 250.0,167.7 251.4,167.8 252.8,167.8 254.1,167.9 255.5,167.9 256.8,168.0 258.1,168.0 259.5,168.0 260.9,168.1 262.2,168.1 263.5,168.1 264.9,168.2 266.2,168.2 267.6,168.2 268.9,168.3 270.3,168.3 271.6,168.3 273.0,168.4 274.4,168.4 275.7,168.4 277.0,168.5 278.4,168.5 279.8,168.5 281.1,168.5 282.4,168.6 283.8,168.6 285.1,168.6 286.5,168.6 287.8,168.7 289.2,168.7 290.6,168.7 291.9,168.7 293.2,168.8 294.6,168.8 295.9,168.8 297.3,168.8 298.6,168.8 300.0,168.9 300.0,170.0\" fill=\"#eb6834\" fill-opacity=\"0.35\"/><polyline points=\"30.0,24.0 31.4,29.0 32.7,33.8 34.0,38.5 35.4,42.9 36.8,47.2 38.1,51.3 39.5,55.2 40.8,59.1 42.1,62.7 43.5,66.2 44.9,69.6 46.2,72.9 47.5,76.0 48.9,79.1 50.2,82.0 51.6,84.8 53.0,87.5 54.3,90.1 55.6,92.7 57.0,95.1 58.3,97.4 59.7,99.7 61.0,101.9 62.4,104.0 63.8,106.0 65.1,107.9 66.4,109.8 67.8,111.7 69.2,113.4 70.5,115.1 71.8,116.8 73.2,118.3 74.6,119.9 75.9,121.4 77.2,122.8 78.6,124.2 79.9,125.5 81.3,126.8 82.7,128.0 84.0,129.3 85.3,130.4 86.7,131.6 88.1,132.6 89.4,133.7 90.8,134.7 92.1,135.7 93.4,136.7 94.8,137.6 96.1,138.5 97.5,139.4 98.9,140.2 100.2,141.0 101.5,141.8 102.9,142.6 104.2,143.3 105.6,144.1 107.0,144.8 108.3,145.4 109.6,146.1 111.0,146.7 112.3,147.3 113.7,147.9 115.0,148.5 116.4,149.1 117.8,149.6 119.1,150.2 120.4,150.7 121.8,151.2 123.1,151.7 124.5,152.1 125.9,152.6 127.2,153.0 128.6,153.5 129.9,153.9 131.2,154.3 132.6,154.7 133.9,155.1 135.3,155.4 136.6,155.8 138.0,156.1 139.3,156.5 140.7,156.8 142.1,157.1 143.4,157.5 144.8,157.8 146.1,158.1 147.4,158.3 148.8,158.6 150.1,158.9 151.5,159.2 152.9,159.4 154.2,159.7 155.6,159.9 156.9,160.2 158.2,160.4 159.6,160.6 160.9,160.8 162.3,161.0 163.7,161.3 165.0,161.5 166.3,161.7 167.7,161.8 169.0,162.0 170.4,162.2 171.8,162.4 173.1,162.6 174.5,162.7 175.8,162.9 177.2,163.1 178.5,163.2 179.8,163.4 181.2,163.5 182.5,163.7 183.9,163.8 185.2,163.9 186.6,164.1 187.9,164.2 189.3,164.3 190.7,164.4 192.0,164.6 193.3,164.7 194.7,164.8 196.0,164.9 197.4,165.0 198.8,165.1 200.1,165.2 201.5,165.3 202.8,165.4 204.1,165.5 205.5,165.6 206.8,165.7 208.2,165.8 209.5,165.9 210.9,166.0 212.2,166.1 213.6,166.1 214.9,166.2 216.3,166.3 217.7,166.4 219.0,166.4 220.3,166.5 221.7,166.6 223.0,166.7 224.4,166.7 225.8,166.8 227.1,166.9 228.5,166.9 229.8,167.0 231.1,167.0 232.5,167.1 233.9,167.2 235.2,167.2 236.5,167.3 237.9,167.3 239.2,167.4 240.6,167.4 242.0,167.5 243.3,167.5 244.6,167.6 246.0,167.6 247.3,167.7 248.7,167.7 250.0,167.7 251.4,167.8 252.8,167.8 254.1,167.9 255.5,167.9 256.8,168.0 258.1,168.0 259.5,168.0 260.9,168.1 262.2,168.1 263.5,168.1 264.9,168.2 266.2,168.2 267.6,168.2 268.9,168.3 270.3,168.3 271.6,168.3 273.0,168.4 274.4,168.4 275.7,168.4 277.0,168.5 278.4,168.5 279.8,168.5 281.1,168.5 282.4,168.6 283.8,168.6 285.1,168.6 286.5,168.6 287.8,168.7 289.2,168.7 290.6,168.7 291.9,168.7 293.2,168.8 294.6,168.8 295.9,168.8 297.3,168.8 298.6,168.8 300.0,168.9\" fill=\"none\" stroke=\"#2a78d6\" stroke-width=\"2.2\"/><polyline points=\"30.9,166.7 32.2,158.2 33.6,148.0 35.0,137.5 36.3,127.2 37.6,117.4 39.0,108.4 40.4,100.1 41.7,92.8 43.1,86.4 44.4,80.8 45.8,76.1 47.1,72.2 48.5,69.0 49.8,66.5 51.1,64.7 52.5,63.4 53.8,62.7 55.2,62.4 56.5,62.6 57.9,63.1 59.2,64.0 60.6,65.2 62.0,66.6 63.3,68.3 64.7,70.1 66.0,72.1 67.3,74.2 68.7,76.4 70.1,78.7 71.4,81.1 72.8,83.5 74.1,85.9 75.4,88.4 76.8,90.9 78.2,93.4 79.5,95.8 80.8,98.3 82.2,100.7 83.6,103.0 84.9,105.4 86.2,107.7 87.6,109.9 88.9,112.1 90.3,114.3 91.7,116.3 93.0,118.4 94.3,120.3 95.7,122.3 97.0,124.1 98.4,125.9 99.8,127.7 101.1,129.4 102.5,131.0 103.8,132.6 105.1,134.1 106.5,135.5 107.9,137.0 109.2,138.3 110.5,139.6 111.9,140.9 113.2,142.1 114.6,143.3 115.9,144.4 117.3,145.4 118.6,146.5 120.0,147.5 121.3,148.4 122.7,149.3 124.0,150.2 125.4,151.1 126.8,151.9 128.1,152.6 129.4,153.4 130.8,154.1 132.1,154.8 133.5,155.4 134.9,156.0 136.2,156.6 137.6,157.2 138.9,157.8 140.2,158.3 141.6,158.8 142.9,159.3 144.3,159.7 145.6,160.2 147.0,160.6 148.4,161.0 149.7,161.4 151.1,161.7 152.4,162.1 153.8,162.4 155.1,162.8 156.4,163.1 157.8,163.4 159.2,163.6 160.5,163.9 161.8,164.2 163.2,164.4 164.5,164.7 165.9,164.9 167.2,165.1 168.6,165.3 169.9,165.5 171.3,165.7 172.7,165.9 174.0,166.0 175.3,166.2 176.7,166.4 178.0,166.5 179.4,166.7 180.8,166.8 182.1,166.9 183.4,167.1 184.8,167.2 186.2,167.3 187.5,167.4 188.8,167.5 190.2,167.6 191.5,167.7 192.9,167.8 194.2,167.9 195.6,168.0 197.0,168.1 198.3,168.2 199.7,168.2 201.0,168.3 202.3,168.4 203.7,168.4 205.0,168.5 206.4,168.6 207.8,168.6 209.1,168.7 210.5,168.7 211.8,168.8 213.1,168.8 214.5,168.9 215.8,168.9 217.2,169.0 218.5,169.0 219.9,169.0 221.2,169.1 222.6,169.1 223.9,169.2 225.3,169.2 226.6,169.2 228.0,169.3 229.3,169.3 230.7,169.3 232.0,169.3 233.4,169.4 234.8,169.4 236.1,169.4 237.4,169.4 238.8,169.5 240.1,169.5 241.5,169.5 242.8,169.5 244.2,169.5 245.5,169.6 246.9,169.6 248.2,169.6 249.6,169.6 250.9,169.6 252.3,169.6 253.6,169.6 255.0,169.7 256.4,169.7 257.7,169.7 259.0,169.7 260.4,169.7 261.8,169.7 263.1,169.7 264.4,169.7 265.8,169.8 267.1,169.8 268.5,169.8 269.8,169.8 271.2,169.8 272.5,169.8 273.9,169.8 275.2,169.8 276.6,169.8 278.0,169.8 279.3,169.8 280.6,169.8 282.0,169.8 283.3,169.8 284.7,169.9 286.1,169.9 287.4,169.9 288.7,169.9 290.1,169.9 291.4,169.9 292.8,169.9 294.1,169.9 295.5,169.9 296.8,169.9 298.2,169.9\" fill=\"none\" stroke=\"#9a9284\" stroke-width=\"1.6\" stroke-dasharray=\"4 3\"/><line x1=\"204.8\" y1=\"170.0\" x2=\"204.8\" y2=\"108.0\" stroke=\"#eb6834\" stroke-width=\"1.4\"/><text x=\"207.8\" y=\"104.0\" text-anchor=\"start\" fill=\"#eb6834\" font-size=\"10.2\">F critic = 3,89</text><text x=\"207.8\" y=\"118.0\" text-anchor=\"start\" fill=\"#eb6834\" font-size=\"10.2\">zona critică, α = 0,05</text><line x1=\"272.0\" y1=\"150.0\" x2=\"298.0\" y2=\"150.0\" stroke=\"#2c2a26\" stroke-width=\"1.4\"/><line x1=\"292.0\" y1=\"146.0\" x2=\"298.0\" y2=\"150.0\" stroke=\"#2c2a26\" stroke-width=\"1.4\"/><line x1=\"292.0\" y1=\"154.0\" x2=\"298.0\" y2=\"150.0\" stroke=\"#2c2a26\" stroke-width=\"1.4\"/><text x=\"298.0\" y=\"142.0\" text-anchor=\"end\" fill=\"#2c2a26\" font-size=\"10.2\">F obținut = 23,15</text><text x=\"45.8\" y=\"40.0\" text-anchor=\"start\" fill=\"#2a78d6\" font-size=\"10.8\">gl (2, 12)</text><text x=\"86.2\" y=\"72.0\" text-anchor=\"start\" fill=\"#9a9284\" font-size=\"10.8\">gl (5, 30)</text><text x=\"165.0\" y=\"196.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">valoarea lui F</text></svg>"
+          }
+        ],
+        "tabel": {
+          "cap": [
+            "gl (numărător, eroare)",
+            "F critic α = 0,05",
+            "F critic α = 0,01",
+            "Unde apare"
+          ],
+          "randuri": [
+            [
+              "(2, 12)",
+              "3,89",
+              "6,93",
+              "exemplul distanței"
+            ],
+            [
+              "(1, 12)",
+              "4,75",
+              "9,33",
+              "două grupuri din exemplul distanței"
+            ],
+            [
+              "(1, 16)",
+              "4,49",
+              "8,53",
+              "metodă × IQ"
+            ],
+            [
+              "(1, 7)",
+              "5,59",
+              "12,25",
+              "atractivitatea (dependente)"
+            ],
+            [
+              "(2, 27)",
+              "3,35",
+              "5,49",
+              "3 grupuri × 10 subiecți"
+            ]
+          ]
+        },
+        "noduri": [
+          {
+            "t": "Distribuția F (Fisher)",
+            "d": "Distribuția de eșantionare din ANOVA, numită după Ronald Fisher (1890–1962), biolog și statistician, inventatorul ANOVA. Forma exactă depinde de glA și glEROARE; F nu ia valori negative (e raport de medii de pătrate), iar curba are coada spre dreapta."
+          },
+          {
+            "t": "Supozițiile: normalitate și omogenitatea dispersiei",
+            "d": "Variabila dependentă trebuie să fie normal distribuită în cele k populații, iar populațiile egal dispersate. Împreună cu H0, supozițiile spun că populațiile au aceeași formă, medie și abatere standard: una și aceeași populație."
+          },
+          {
+            "t": "Tabelul F: rând, coloană, α",
+            "d": "Prima coloană din stânga: gl ale erorii (N − k); a doua: nivelul α; primul rând: gl ale lui MS A (k − 1). La intersecție e F (critic), începutul zonei critice. Anexa D (tabelul F) lipsește din PDF: valorile din tabelul alăturat sunt cele standard, pentru α = 0,05 și 0,01."
+          },
+          {
+            "t": "Regula de decizie",
+            "d": "Se respinge H0 dacă F (obținut) ≥ F (critic). Exemplu: 23,15 ≥ 3,89, deci mediile diferă semnificativ la nivelul populației. Nerespingerea nu demonstrează egalitatea mediilor."
+          },
+          {
+            "t": "Tabelul surselor de variație",
+            "d": "Tabelul ANOVA rezumativ: pe rânduri sursele (A, eroare, total), pe coloane SS, gl, MS și F. Se citește împreună cu tabelul de calcule inițiale (T, n, medie, ΣX², T² pe grup)."
+          },
+          {
+            "t": "Modelul în 4 pași și enunțul de probabilitate",
+            "d": "1) H0: μ1 = μ2 = μ3, Ha: cel puțin o medie diferă; 2) distribuția F, α = 0,05, gl (2, 12), F critic 3,89; 3) tabelul surselor de variație, F = 23,15; 4) H0 respinsă. Enunțul: probabilitatea ca diferența observată să apară din întâmplare, dacă H0 ar fi adevărată, e sub 0,05."
+          }
+        ]
+      },
+      {
+        "titlu": "După un F semnificativ",
+        "noduri": [
+          {
+            "t": "F nu arată care grup diferă",
+            "d": "Cu mai mult de două categorii ale variabilei independente, F semnificativ spune doar că mediile nu sunt toate egale, nu care grup diferă de celelalte."
+          },
+          {
+            "t": "Compararea a două grupuri cu MS eroare",
+            "d": "Se aplică formula SS A doar celor două grupuri (gl = 2 − 1 = 1) și se împarte la MS eroare calculată pe toate grupurile. Calcul propriu pe datele cărții: mică vs medie, SS = 7345 − 7236,1 = 108,9, F(1, 12) = 108,9/13,60 ≈ 8,01 ≥ 4,75."
+          },
+          {
+            "t": "Teste post hoc și comparații planificate",
+            "d": "Metode mai sofisticate: teste de comparare multiplă post hoc (după un F semnificativ) și comparații a priori sau planificate (ipoteze specifice despre medii, stabilite dinainte). Cartea trimite la Hinkle, Wiersma și Jurs (1988)."
+          }
+        ]
+      },
+      {
+        "titlu": "ANOVA cu două variabile independente",
+        "lat": true,
+        "figuri": [
+          {
+            "titlu": "Cinci sume de pătrate: SS total în patru părți",
+            "nota": "Exemplul metodelor de instruire: 1476,55 = 361,25 + 684,45 + 281,25 + 149,60.",
+            "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 80\" role=\"img\" aria-label=\"SS total împărțită în patru părți\" font-family=\"Georgia, serif\" font-size=\"13\"><text x=\"12.0\" y=\"20.0\" text-anchor=\"start\" fill=\"#2c2a26\" font-size=\"10.8\">Două variabile, metoda × IQ (SS total = 1476,55)</text><rect x=\"12.0\" y=\"26.0\" width=\"72.4\" height=\"22.0\" fill=\"#2a78d6\"><title>SS A (metoda): 361,25</title></rect><text x=\"48.2\" y=\"41.0\" text-anchor=\"middle\" fill=\"#ffffff\" font-size=\"10.2\">24%</text><rect x=\"84.4\" y=\"26.0\" width=\"137.2\" height=\"22.0\" fill=\"#eb6834\"><title>SS B (IQ): 684,45</title></rect><text x=\"153.0\" y=\"41.0\" text-anchor=\"middle\" fill=\"#ffffff\" font-size=\"10.2\">46%</text><rect x=\"221.6\" y=\"26.0\" width=\"56.4\" height=\"22.0\" fill=\"#1baf7a\"><title>SS A×B: 281,25</title></rect><text x=\"249.8\" y=\"41.0\" text-anchor=\"middle\" fill=\"#ffffff\" font-size=\"10.2\">19%</text><rect x=\"278.0\" y=\"26.0\" width=\"30.0\" height=\"22.0\" fill=\"#b5453a\"><title>SS eroare: 149,60</title></rect><rect x=\"12.0\" y=\"58.0\" width=\"10.0\" height=\"10.0\" fill=\"#2a78d6\"></rect><text x=\"26.0\" y=\"67.0\" text-anchor=\"start\" fill=\"#2c2a26\" font-size=\"10.8\">A (metoda)</text><rect x=\"102.0\" y=\"58.0\" width=\"10.0\" height=\"10.0\" fill=\"#eb6834\"></rect><text x=\"116.0\" y=\"67.0\" text-anchor=\"start\" fill=\"#2c2a26\" font-size=\"10.8\">B (IQ)</text><rect x=\"167.2\" y=\"58.0\" width=\"10.0\" height=\"10.0\" fill=\"#1baf7a\"></rect><text x=\"181.2\" y=\"67.0\" text-anchor=\"start\" fill=\"#2c2a26\" font-size=\"10.8\">A × B</text><rect x=\"226.2\" y=\"58.0\" width=\"10.0\" height=\"10.0\" fill=\"#b5453a\"></rect><text x=\"240.2\" y=\"67.0\" text-anchor=\"start\" fill=\"#2c2a26\" font-size=\"10.8\">eroare</text></svg>"
+          }
+        ],
+        "tabel": {
+          "cap": [
+            "Sursa",
+            "SS",
+            "gl",
+            "MS",
+            "F"
+          ],
+          "randuri": [
+            [
+              "A (metoda)",
+              "361,25",
+              "kA − 1 = 1",
+              "361,25",
+              "38,64"
+            ],
+            [
+              "B (IQ)",
+              "684,45",
+              "kB − 1 = 1",
+              "684,45",
+              "73,20"
+            ],
+            [
+              "A × B",
+              "281,25",
+              "(kA − 1)(kB − 1) = 1",
+              "281,25",
+              "30,08"
+            ],
+            [
+              "Eroare",
+              "149,60",
+              "N − kA·kB = 16",
+              "9,35",
+              ""
+            ],
+            [
+              "Total",
+              "1476,55",
+              "N − 1 = 19",
+              "",
+              ""
+            ]
+          ]
+        },
+        "noduri": [
+          {
+            "t": "Design cu două variabile independente",
+            "d": "Extindere a ANOVA cu o variabilă; formulele din curs merg doar cu grupuri independente cu același număr de subiecți în fiecare celulă. Exemplul: 20 de elevi, metoda de instruire A (tradițională / modernă) × nivelul IQ B (sub 90 / peste 90), 5 pe celulă; VD = scorul la același test."
+          },
+          {
+            "t": "Cele trei efecte evaluate",
+            "d": "Efectul principal al lui A (o metodă dă rezultate diferite de cealaltă), efectul principal al lui B (elevii cu IQ mai mare obțin altceva) și interacțiunea A × B."
+          },
+          {
+            "t": "Trei ipoteze de nul",
+            "d": "H01: fără diferență între metode; H02: fără diferență între nivelurile IQ; H03: fără interacțiune. H01 privește mediile pe categoriile lui A, H02 pe cele ale lui B, H03 mediile din celulele A × B."
+          },
+          {
+            "t": "Cinci sume de pătrate",
+            "d": "SS total, SS A, SS B, SS A × B și SS eroare. SS A și SS B iau în calcul doar grupurile unei variabile; SS A × B = Σ(Tab²/nab) − G²/N − SS A − SS B; SS eroare = ΣX² − Σ(Tab²/nab). Control: SS total = SS A + SS B + SS A × B + SS eroare."
+          },
+          {
+            "t": "Grade de libertate și F pentru fiecare efect",
+            "d": "glA = kA − 1, glB = kB − 1, glA×B = (kA − 1)(kB − 1), glEROARE = N − kA·kB. Fiecare F = MS efect/MS eroare. În exemplu toate gl ale numărătorului sunt 1, deci un singur F critic (4,49; la 0,01: 8,53); cu gl diferite ar fi mai multe valori critice. Toate trei H0 se resping."
+          },
+          {
+            "t": "Avantajele designului cu două variabile",
+            "d": "Analiza simultană realizează două cercetări altfel distincte și permite studiul interacțiunii, important pentru că în situații reale efectul unei variabile e adesea afectat de altele."
+          }
+        ]
+      },
+      {
+        "titlu": "Interacțiunea A × B",
+        "lat": true,
+        "figuri": [
+          {
+            "titlu": "Interacțiunea metodă × IQ (datele cărții)",
+            "nota": "Metoda modernă câștigă 16 puncte la elevii cu IQ sub 90 și doar 1 punct la cei peste 90: efectul metodei depinde de nivelul IQ. Lectura graficului e o interpretare a mediilor din carte (cartea nu desenează graficul).",
+            "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 216\" role=\"img\" aria-label=\"Mediile celor patru celule: liniile nu sunt paralele\" font-family=\"Georgia, serif\" font-size=\"13\"><line x1=\"46.0\" y1=\"170.0\" x2=\"300.0\" y2=\"170.0\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><text x=\"42.0\" y=\"173.5\" text-anchor=\"end\" fill=\"#6b6760\" font-size=\"10.2\">65</text><line x1=\"46.0\" y1=\"145.7\" x2=\"300.0\" y2=\"145.7\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><text x=\"42.0\" y=\"149.2\" text-anchor=\"end\" fill=\"#6b6760\" font-size=\"10.2\">70</text><line x1=\"46.0\" y1=\"121.3\" x2=\"300.0\" y2=\"121.3\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><text x=\"42.0\" y=\"124.8\" text-anchor=\"end\" fill=\"#6b6760\" font-size=\"10.2\">75</text><line x1=\"46.0\" y1=\"97.0\" x2=\"300.0\" y2=\"97.0\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><text x=\"42.0\" y=\"100.5\" text-anchor=\"end\" fill=\"#6b6760\" font-size=\"10.2\">80</text><line x1=\"46.0\" y1=\"72.7\" x2=\"300.0\" y2=\"72.7\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><text x=\"42.0\" y=\"76.2\" text-anchor=\"end\" fill=\"#6b6760\" font-size=\"10.2\">85</text><line x1=\"46.0\" y1=\"48.3\" x2=\"300.0\" y2=\"48.3\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><text x=\"42.0\" y=\"51.8\" text-anchor=\"end\" fill=\"#6b6760\" font-size=\"10.2\">90</text><line x1=\"46.0\" y1=\"24.0\" x2=\"300.0\" y2=\"24.0\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><text x=\"42.0\" y=\"27.5\" text-anchor=\"end\" fill=\"#6b6760\" font-size=\"10.2\">95</text><text x=\"14.0\" y=\"97.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\" transform=\"rotate(-90 14 97)\">media la test</text><text x=\"90.0\" y=\"188.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.8\">IQ sub 90 (B1)</text><text x=\"230.0\" y=\"188.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.8\">IQ peste 90 (B2)</text><polyline points=\"90.0,141.8 230.0,48.3\" fill=\"none\" stroke=\"#2a78d6\" stroke-width=\"2.4\"/><circle cx=\"90.0\" cy=\"141.8\" r=\"4.5\" fill=\"#2a78d6\" stroke=\"#faf8f3\" stroke-width=\"1.5\"><title>tradițională: 70,8</title></circle><circle cx=\"230.0\" cy=\"48.3\" r=\"4.5\" fill=\"#2a78d6\" stroke=\"#faf8f3\" stroke-width=\"1.5\"><title>tradițională: 90,0</title></circle><text x=\"82.0\" y=\"145.8\" text-anchor=\"end\" fill=\"#2a78d6\" font-size=\"10.2\">70,8</text><text x=\"238.0\" y=\"58.3\" text-anchor=\"start\" fill=\"#2a78d6\" font-size=\"10.2\">90,0</text><polyline points=\"90.0,63.9 230.0,43.5\" fill=\"none\" stroke=\"#eb6834\" stroke-width=\"2.4\"/><circle cx=\"90.0\" cy=\"63.9\" r=\"4.5\" fill=\"#eb6834\" stroke=\"#faf8f3\" stroke-width=\"1.5\"><title>modernă: 86,8</title></circle><circle cx=\"230.0\" cy=\"43.5\" r=\"4.5\" fill=\"#eb6834\" stroke=\"#faf8f3\" stroke-width=\"1.5\"><title>modernă: 91,0</title></circle><text x=\"82.0\" y=\"67.9\" text-anchor=\"end\" fill=\"#eb6834\" font-size=\"10.2\">86,8</text><text x=\"238.0\" y=\"43.5\" text-anchor=\"start\" fill=\"#eb6834\" font-size=\"10.2\">91,0</text><rect x=\"60.0\" y=\"200.0\" width=\"10.0\" height=\"10.0\" fill=\"#2a78d6\"></rect><text x=\"74.0\" y=\"209.0\" text-anchor=\"start\" fill=\"#2c2a26\" font-size=\"10.8\">tradițională</text><rect x=\"162.4\" y=\"200.0\" width=\"10.0\" height=\"10.0\" fill=\"#eb6834\"></rect><text x=\"176.4\" y=\"209.0\" text-anchor=\"start\" fill=\"#2c2a26\" font-size=\"10.8\">modernă</text></svg>"
+          },
+          {
+            "titlu": "Fără interacțiune: linii paralele (ilustrativ)",
+            "nota": "Valori ilustrative. Doza mare adaugă 5 puncte în ambele grupuri, iar grupul 2 e cu 6 puncte peste grupul 1 la ambele doze: două efecte principale, interacțiune absentă.",
+            "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 216\" role=\"img\" aria-label=\"Ilustrativ: linii paralele, fără interacțiune\" font-family=\"Georgia, serif\" font-size=\"13\"><line x1=\"46.0\" y1=\"170.0\" x2=\"300.0\" y2=\"170.0\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><text x=\"42.0\" y=\"173.5\" text-anchor=\"end\" fill=\"#6b6760\" font-size=\"10.2\">10</text><line x1=\"46.0\" y1=\"121.3\" x2=\"300.0\" y2=\"121.3\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><text x=\"42.0\" y=\"124.8\" text-anchor=\"end\" fill=\"#6b6760\" font-size=\"10.2\">15</text><line x1=\"46.0\" y1=\"72.7\" x2=\"300.0\" y2=\"72.7\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><text x=\"42.0\" y=\"76.2\" text-anchor=\"end\" fill=\"#6b6760\" font-size=\"10.2\">20</text><line x1=\"46.0\" y1=\"24.0\" x2=\"300.0\" y2=\"24.0\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><text x=\"42.0\" y=\"27.5\" text-anchor=\"end\" fill=\"#6b6760\" font-size=\"10.2\">25</text><text x=\"14.0\" y=\"97.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\" transform=\"rotate(-90 14 97)\">media (ilustrativ)</text><text x=\"90.0\" y=\"188.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.8\">grupul 1</text><text x=\"230.0\" y=\"188.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.8\">grupul 2</text><polyline points=\"90.0,150.5 230.0,92.1\" fill=\"none\" stroke=\"#2a78d6\" stroke-width=\"2.4\"/><circle cx=\"90.0\" cy=\"150.5\" r=\"4.5\" fill=\"#2a78d6\" stroke=\"#faf8f3\" stroke-width=\"1.5\"><title>doză mică: 12,0</title></circle><circle cx=\"230.0\" cy=\"92.1\" r=\"4.5\" fill=\"#2a78d6\" stroke=\"#faf8f3\" stroke-width=\"1.5\"><title>doză mică: 18,0</title></circle><text x=\"82.0\" y=\"154.5\" text-anchor=\"end\" fill=\"#2a78d6\" font-size=\"10.2\">12,0</text><text x=\"238.0\" y=\"96.1\" text-anchor=\"start\" fill=\"#2a78d6\" font-size=\"10.2\">18,0</text><polyline points=\"90.0,101.9 230.0,43.5\" fill=\"none\" stroke=\"#eb6834\" stroke-width=\"2.4\"/><circle cx=\"90.0\" cy=\"101.9\" r=\"4.5\" fill=\"#eb6834\" stroke=\"#faf8f3\" stroke-width=\"1.5\"><title>doză mare: 17,0</title></circle><circle cx=\"230.0\" cy=\"43.5\" r=\"4.5\" fill=\"#eb6834\" stroke=\"#faf8f3\" stroke-width=\"1.5\"><title>doză mare: 23,0</title></circle><text x=\"82.0\" y=\"105.9\" text-anchor=\"end\" fill=\"#eb6834\" font-size=\"10.2\">17,0</text><text x=\"238.0\" y=\"47.5\" text-anchor=\"start\" fill=\"#eb6834\" font-size=\"10.2\">23,0</text><rect x=\"60.0\" y=\"200.0\" width=\"10.0\" height=\"10.0\" fill=\"#2a78d6\"></rect><text x=\"74.0\" y=\"209.0\" text-anchor=\"start\" fill=\"#2c2a26\" font-size=\"10.8\">doză mică</text><rect x=\"143.8\" y=\"200.0\" width=\"10.0\" height=\"10.0\" fill=\"#eb6834\"></rect><text x=\"157.8\" y=\"209.0\" text-anchor=\"start\" fill=\"#2c2a26\" font-size=\"10.8\">doză mare</text></svg>"
+          }
+        ],
+        "tabel": {
+          "cap": [
+            "Metoda",
+            "IQ sub 90",
+            "IQ peste 90",
+            "Diferența (peste − sub)"
+          ],
+          "randuri": [
+            [
+              "Tradițională",
+              "70,8",
+              "90,0",
+              "19,2"
+            ],
+            [
+              "Modernă",
+              "86,8",
+              "91,0",
+              "4,2"
+            ],
+            [
+              "Câștigul metodei moderne",
+              "16,0",
+              "1,0",
+              ""
+            ]
+          ]
+        },
+        "noduri": [
+          {
+            "t": "Interacțiunea",
+            "d": "Există interacțiune când efectul unei variabile independente diferă în funcție de nivelul celeilalte. În exemplu (F = 30,08), concluzia e că la nivelul populației metoda și IQ-ul interacționează."
+          },
+          {
+            "t": "Efectele principale",
+            "d": "Efectul unei variabile luate în medie peste nivelurile celeilalte: metoda (80,40 vs 88,90; F = 38,64) și IQ-ul (78,80 vs 90,50; F = 73,20)."
+          },
+          {
+            "t": "Citirea mediilor din celule",
+            "d": "Interpretare a mediilor din carte: metoda modernă adaugă 16 puncte la IQ sub 90 și 1 punct la IQ peste 90; elevii peste 90 sunt mai buni la ambele metode (efect B), dar diferența se micșorează la metoda modernă."
+          },
+          {
+            "t": "Linii paralele vs neparalele",
+            "d": "Interpretare, cartea nu dă grafice: în graficul mediilor pe celule, liniile paralele arată același efect al unei variabile la fiecare nivel al celeilalte (fără interacțiune); liniile care se apropie, se depărtează sau se încrucișează sugerează interacțiune — decide F pentru A × B."
+          }
+        ]
+      },
+      {
+        "titlu": "ANOVA pentru eșantioane dependente",
+        "lat": true,
+        "figuri": [
+          {
+            "titlu": "Aceiași 8 subiecți în ambele condiții",
+            "nota": "Datele exemplului cu atractivitatea. Fiecare linie e un subiect; unii notează mereu mai sus, alții mai jos — această variație între subiecți devine o sursă de varianță separată. Doar subiectul 4 (roșu) dă o notă mai mică candidatei atractive; subiectul 7 dă aceeași notă.",
+            "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 204\" role=\"img\" aria-label=\"Cei opt subiecți, fiecare cu două evaluări, și mediile\" font-family=\"Georgia, serif\" font-size=\"13\"><line x1=\"46.0\" y1=\"176.0\" x2=\"300.0\" y2=\"176.0\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><text x=\"42.0\" y=\"179.5\" text-anchor=\"end\" fill=\"#6b6760\" font-size=\"10.2\">2</text><line x1=\"46.0\" y1=\"138.0\" x2=\"300.0\" y2=\"138.0\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><text x=\"42.0\" y=\"141.5\" text-anchor=\"end\" fill=\"#6b6760\" font-size=\"10.2\">4</text><line x1=\"46.0\" y1=\"100.0\" x2=\"300.0\" y2=\"100.0\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><text x=\"42.0\" y=\"103.5\" text-anchor=\"end\" fill=\"#6b6760\" font-size=\"10.2\">6</text><line x1=\"46.0\" y1=\"62.0\" x2=\"300.0\" y2=\"62.0\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><text x=\"42.0\" y=\"65.5\" text-anchor=\"end\" fill=\"#6b6760\" font-size=\"10.2\">8</text><line x1=\"46.0\" y1=\"24.0\" x2=\"300.0\" y2=\"24.0\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><text x=\"42.0\" y=\"27.5\" text-anchor=\"end\" fill=\"#6b6760\" font-size=\"10.2\">10</text><text x=\"14.0\" y=\"100.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\" transform=\"rotate(-90 14 100)\">competența (1–10)</text><polyline points=\"100.0,95.8 220.0,57.8\" fill=\"none\" stroke=\"#9a9284\" stroke-width=\"1.3\"/><polyline points=\"100.0,116.0 220.0,97.0\" fill=\"none\" stroke=\"#9a9284\" stroke-width=\"1.3\"/><polyline points=\"100.0,117.2 220.0,41.2\" fill=\"none\" stroke=\"#9a9284\" stroke-width=\"1.3\"/><polyline points=\"100.0,80.4 220.0,99.4\" fill=\"none\" stroke=\"#b5453a\" stroke-width=\"1.3\"/><polyline points=\"100.0,138.6 220.0,100.6\" fill=\"none\" stroke=\"#9a9284\" stroke-width=\"1.3\"/><polyline points=\"100.0,158.8 220.0,120.8\" fill=\"none\" stroke=\"#9a9284\" stroke-width=\"1.3\"/><polyline points=\"100.0,122.0 220.0,122.0\" fill=\"none\" stroke=\"#9a9284\" stroke-width=\"1.3\"/><polyline points=\"100.0,142.2 220.0,85.2\" fill=\"none\" stroke=\"#9a9284\" stroke-width=\"1.3\"/><circle cx=\"100.0\" cy=\"100.0\" r=\"3.2\" fill=\"#9a9284\" stroke=\"#faf8f3\" stroke-width=\"1.5\"></circle><circle cx=\"220.0\" cy=\"62.0\" r=\"3.2\" fill=\"#9a9284\" stroke=\"#faf8f3\" stroke-width=\"1.5\"></circle><circle cx=\"100.0\" cy=\"119.0\" r=\"3.2\" fill=\"#9a9284\" stroke=\"#faf8f3\" stroke-width=\"1.5\"></circle><circle cx=\"220.0\" cy=\"100.0\" r=\"3.2\" fill=\"#9a9284\" stroke=\"#faf8f3\" stroke-width=\"1.5\"></circle><circle cx=\"100.0\" cy=\"119.0\" r=\"3.2\" fill=\"#9a9284\" stroke=\"#faf8f3\" stroke-width=\"1.5\"></circle><circle cx=\"220.0\" cy=\"43.0\" r=\"3.2\" fill=\"#9a9284\" stroke=\"#faf8f3\" stroke-width=\"1.5\"></circle><circle cx=\"100.0\" cy=\"81.0\" r=\"3.2\" fill=\"#9a9284\" stroke=\"#faf8f3\" stroke-width=\"1.5\"></circle><circle cx=\"220.0\" cy=\"100.0\" r=\"3.2\" fill=\"#9a9284\" stroke=\"#faf8f3\" stroke-width=\"1.5\"></circle><circle cx=\"100.0\" cy=\"138.0\" r=\"3.2\" fill=\"#9a9284\" stroke=\"#faf8f3\" stroke-width=\"1.5\"></circle><circle cx=\"220.0\" cy=\"100.0\" r=\"3.2\" fill=\"#9a9284\" stroke=\"#faf8f3\" stroke-width=\"1.5\"></circle><circle cx=\"100.0\" cy=\"157.0\" r=\"3.2\" fill=\"#9a9284\" stroke=\"#faf8f3\" stroke-width=\"1.5\"></circle><circle cx=\"220.0\" cy=\"119.0\" r=\"3.2\" fill=\"#9a9284\" stroke=\"#faf8f3\" stroke-width=\"1.5\"></circle><circle cx=\"100.0\" cy=\"119.0\" r=\"3.2\" fill=\"#9a9284\" stroke=\"#faf8f3\" stroke-width=\"1.5\"></circle><circle cx=\"220.0\" cy=\"119.0\" r=\"3.2\" fill=\"#9a9284\" stroke=\"#faf8f3\" stroke-width=\"1.5\"></circle><circle cx=\"100.0\" cy=\"138.0\" r=\"3.2\" fill=\"#9a9284\" stroke=\"#faf8f3\" stroke-width=\"1.5\"></circle><circle cx=\"220.0\" cy=\"81.0\" r=\"3.2\" fill=\"#9a9284\" stroke=\"#faf8f3\" stroke-width=\"1.5\"></circle><polyline points=\"100.0,121.4 220.0,90.5\" fill=\"none\" stroke=\"#7b5ea7\" stroke-width=\"3\"/><text x=\"92.0\" y=\"125.4\" text-anchor=\"end\" fill=\"#7b5ea7\" font-size=\"10.2\">4,88</text><text x=\"228.0\" y=\"94.5\" text-anchor=\"start\" fill=\"#7b5ea7\" font-size=\"10.2\">6,50</text><text x=\"100.0\" y=\"194.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.8\">neatractivă (A1)</text><text x=\"220.0\" y=\"194.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.8\">atractivă (A2)</text><text x=\"232.0\" y=\"116.0\" text-anchor=\"start\" fill=\"#b5453a\" font-size=\"10.2\">subiectul 4: 7 → 6</text></svg>"
+          },
+          {
+            "titlu": "De ce contează SS subiecți",
+            "nota": "Calcul propriu pe datele cărții (interpretare, nu apare în carte): analizate ca grupuri independente, diferențele dintre subiecți rămân în eroare și F(1, 14) ≈ 5,94; scoase separat, eroarea scade la 8,94 și F(1, 7) ≈ 8,27 (în carte 8,26).",
+            "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 152\" role=\"img\" aria-label=\"Aceleași date, cu și fără SS subiecți\" font-family=\"Georgia, serif\" font-size=\"13\"><text x=\"12.0\" y=\"20.0\" text-anchor=\"start\" fill=\"#2c2a26\" font-size=\"10.8\">Analizate ca grupuri independente (SS total = 35,44)</text><rect x=\"12.0\" y=\"26.0\" width=\"88.2\" height=\"22.0\" fill=\"#7b5ea7\"><title>SS A: 10,56</title></rect><text x=\"56.1\" y=\"41.0\" text-anchor=\"middle\" fill=\"#ffffff\" font-size=\"10.2\">30%</text><rect x=\"100.2\" y=\"26.0\" width=\"207.8\" height=\"22.0\" fill=\"#b5453a\"><title>SS eroare: 24,88</title></rect><text x=\"204.1\" y=\"41.0\" text-anchor=\"middle\" fill=\"#ffffff\" font-size=\"10.2\">70%</text><text x=\"12.0\" y=\"80.0\" text-anchor=\"start\" fill=\"#2c2a26\" font-size=\"10.8\">Analizate ca eșantioane dependente (SS total = 35,44)</text><rect x=\"12.0\" y=\"86.0\" width=\"88.2\" height=\"22.0\" fill=\"#7b5ea7\"><title>SS A: 10,56</title></rect><text x=\"56.1\" y=\"101.0\" text-anchor=\"middle\" fill=\"#ffffff\" font-size=\"10.2\">30%</text><rect x=\"100.2\" y=\"86.0\" width=\"133.1\" height=\"22.0\" fill=\"#9a9284\"><title>SS subiecți: 15,94</title></rect><text x=\"166.8\" y=\"101.0\" text-anchor=\"middle\" fill=\"#ffffff\" font-size=\"10.2\">45%</text><rect x=\"233.3\" y=\"86.0\" width=\"74.7\" height=\"22.0\" fill=\"#b5453a\"><title>SS eroare: 8,94</title></rect><text x=\"270.7\" y=\"101.0\" text-anchor=\"middle\" fill=\"#ffffff\" font-size=\"10.2\">25%</text><rect x=\"12.0\" y=\"118.0\" width=\"10.0\" height=\"10.0\" fill=\"#7b5ea7\"></rect><text x=\"26.0\" y=\"127.0\" text-anchor=\"start\" fill=\"#2c2a26\" font-size=\"10.8\">SS A</text><rect x=\"64.8\" y=\"118.0\" width=\"10.0\" height=\"10.0\" fill=\"#9a9284\"></rect><text x=\"78.8\" y=\"127.0\" text-anchor=\"start\" fill=\"#2c2a26\" font-size=\"10.8\">SS subiecți</text><rect x=\"161.0\" y=\"118.0\" width=\"10.0\" height=\"10.0\" fill=\"#b5453a\"></rect><text x=\"175.0\" y=\"127.0\" text-anchor=\"start\" fill=\"#2c2a26\" font-size=\"10.8\">SS eroare</text><text x=\"12.0\" y=\"144.0\" text-anchor=\"start\" fill=\"#2c2a26\" font-size=\"10.8\">F(1, 14) ≈ 5,94   →   F(1, 7) ≈ 8,27</text></svg>"
+          }
+        ],
+        "tabel": {
+          "cap": [
+            "",
+            "O variabilă (independente)",
+            "Două variabile (independente)",
+            "Eșantioane dependente"
+          ],
+          "randuri": [
+            [
+              "Sume de pătrate",
+              "total, A, eroare",
+              "total, A, B, A × B, eroare",
+              "total, A, subiecți, eroare"
+            ],
+            [
+              "gl ale erorii",
+              "N − k",
+              "N − kA·kB",
+              "(k − 1)(s − 1)"
+            ],
+            [
+              "F calculate",
+              "MS A/MS eroare",
+              "A, B și A × B, fiecare/MS eroare",
+              "doar MS A/MS eroare"
+            ],
+            [
+              "Exemplul cărții",
+              "distanța: F = 23,15",
+              "metodă × IQ: 38,64; 73,20; 30,08",
+              "atractivitatea: F = 8,26"
+            ]
+          ]
+        },
+        "noduri": [
+          {
+            "t": "Eșantioane dependente (măsurători repetate)",
+            "d": "Selectarea cazurilor pentru un eșantion o influențează pe cea pentru altul, sau aceiași subiecți sunt testați repetat (vezi Cap. 9 (Testarea ipotezelor despre diferențele dintre două populații), unde testele cer eșantioane independente). Exemplul: 8 subiecți evaluează pe o scală de 10 puncte competența a două femei filmate la un test de aptitudini mecanice, una atractivă, una neatractivă, cu aceeași performanță; filmele sunt prezentate de mai multe ori, ca să se controleze efectul ordinii."
+          },
+          {
+            "t": "Subiecții ca sursă de varianță",
+            "d": "Principala diferență față de ANOVA cu o variabilă: efectul diferențelor dintre subiecți devine o sursă de varianță. Se calculează patru SS: total (35,44), A (10,57), subiecți (15,94) și eroare (8,93)."
+          },
+          {
+            "t": "Termenul nS",
+            "d": "Numărul de eșantioane dependente sau de scoruri date de fiecare subiect (aici 2). SS subiecți = ΣTS²/nS − G²/N = 1067/2 − 517,56 = 15,94, unde TS e totalul unui subiect."
+          },
+          {
+            "t": "SS eroare = SS total − SS A − SS subiecți",
+            "d": "Exemplu: 35,44 − 10,57 − 15,94 = 8,93. Scoaterea lui SS subiecți reduce sursa de variație atribuită erorii."
+          },
+          {
+            "t": "Grade de libertate: s − 1 și (k − 1)(s − 1)",
+            "d": "glA = k − 1 = 1; glSUBIECȚI = s − 1 = 7 (s = numărul de subiecți); glEROARE = (k − 1)(s − 1) = 7; glTOTAL = N − 1 = 15, cu N = numărul total de scoruri (16). MS eroare = 8,93/7 = 1,28."
+          },
+          {
+            "t": "F pentru subiecți nu se calculează",
+            "d": "De obicei nu interesează dacă subiecții diferă între ei; SS subiecți e calculată doar ca să micșoreze SS eroare. Singurul F: MS A/MS eroare = 10,57/1,28 = 8,26."
+          },
+          {
+            "t": "Decizia pentru exemplul cu atractivitatea",
+            "d": "Cartea lasă decizia ca exercițiu. Calcul propriu: F critic (1, 7) = 5,59 la α = 0,05; 8,26 ≥ 5,59, deci atractivitatea influențează semnificativ judecata asupra competenței (p < 0,05); la α = 0,01 (12,25) H0 nu s-ar respinge. Mediile: 4,88 (neatractivă) și 6,50 (atractivă)."
+          }
+        ]
+      }
+    ]
+  }
+}

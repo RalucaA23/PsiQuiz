@@ -1,0 +1,652 @@
+{
+ "schema": "quiz-capitol-v3",
+ "capitol": 2,
+ "titlu": "Metodele psihologiei experimentale",
+ "sursa": "Manual Psihologie experimentală (UTM), Capitolul 2",
+ "reconstituit": "Reconstituit pe 16 nov. 2026 din pagina publicată Psihologie_experimentala.html (capitolele erau încorporate în pagină). Lipsesc câmpurile 'tip' și 'exemplu_nou', care nu ajung în pagină; restul (hartă, runde, întrebări vizibile și ascunse) e identic cu pagina.",
+ "harta": {
+  "centru": "Metodele psihologiei experimentale",
+  "ramuri": [
+   {
+    "titlu": "Metodele principale",
+    "noduri": [
+     {
+      "t": "Observația",
+      "d": "Studierea și înregistrarea sistematică a comportamentului, în mediu natural sau controlat. Cercetătorul rămâne neutru; datele pot fi reproduse de alți cercetători."
+     },
+     {
+      "t": "Experimentul natural",
+      "d": "Fenomene care apar natural, fără manipularea VI. Context autentic, dar control limitat și replicare exactă dificilă."
+     },
+     {
+      "t": "Experimentul organizat (de laborator)",
+      "d": "Mediu controlat; cercetătorul manipulează variabile ca să stabilească relații cauzale. Elemente-cheie: control strict, randomizare, analiză statistică. Limită: aplicabilitate redusă în afara laboratorului."
+     },
+     {
+      "t": "Diferența de fond",
+      "d": "Experimentul organizat presupune intervenția activă a cercetătorului; observația și experimentul natural se bazează pe contexte naturale."
+     }
+    ]
+   },
+   {
+    "titlu": "Comparația celor 3 metode",
+    "tabel": {
+     "cap": [
+      "Criteriu",
+      "Observația",
+      "Exp. natural",
+      "Exp. de laborator"
+     ],
+     "randuri": [
+      [
+       "Control",
+       "limitat",
+       "redus",
+       "înalt"
+      ],
+      [
+       "Autenticitate",
+       "autentic",
+       "autentic",
+       "mai puțin autentic"
+      ],
+      [
+       "Fezabilitate",
+       "ridicată",
+       "variabilă",
+       "mai redusă"
+      ],
+      [
+       "Randomizare / cauzalitate",
+       "lipsește → greu de stabilit cauzalitatea",
+       "limitată (fără manipulare)",
+       "permite → relații cauzale"
+      ],
+      [
+       "Generalizare",
+       "dificilă",
+       "limitată",
+       "dificilă în afara laboratorului"
+      ],
+      [
+       "Interacțiune",
+       "limitată",
+       "variabilă",
+       "mai directă"
+      ]
+     ]
+    },
+    "noduri": [
+     {
+      "t": "Concluzie",
+      "d": "Alegerea depinde de obiective, fezabilitate, control și generalizarea dorită. Multe studii combină metodele (abordare mixtă)."
+     }
+    ]
+   },
+   {
+    "titlu": "Ipoteze",
+    "noduri": [
+     {
+      "t": "Cerințe",
+      "d": "Verificabile, economice, exprimate cantitativ, cuantificabile, verosimile."
+     },
+     {
+      "t": "De cercetare vs statistice",
+      "d": "Ipotezele de cercetare afirmă diferențe; cele statistice afirmă absența diferențelor."
+     },
+     {
+      "t": "H0 vs H1 (Ha)",
+      "d": "H0: absența diferențelor. H1/Ha: existența diferențelor semnificative. Rezultatul duce la respingerea sau acceptarea H0."
+     },
+     {
+      "t": "Instrumente statistice",
+      "d": "Testul t, testul chi pătrat, testul F."
+     },
+     {
+      "t": "Etapele testării",
+      "d": "Formularea ipotezei → designul experimental → colectarea datelor → analiza statistică → interpretarea rezultatelor."
+     }
+    ]
+   },
+   {
+    "titlu": "Variabile",
+    "noduri": [
+     {
+      "t": "După rol",
+      "d": "VI: manipulată de cercetător. VD: observată/măsurată. VC: menținută constantă, ca efectele să fie atribuite corect VI."
+     },
+     {
+      "t": "După valori",
+      "d": "Continue: gamă infinită de valori (vârsta). Discrete: valori separate (numărul de copii)."
+     },
+     {
+      "t": "După categorii",
+      "d": "Nominale: categorii distincte (genul). Ordinale: categorii ordonate, fără diferențe uniforme (clasamentul elevilor)."
+     },
+     {
+      "t": "Controlul variabilelor",
+      "d": "Randomizarea, grupurile omogene și măsurile standardizate controlează variabilele confundate."
+     }
+    ]
+   },
+   {
+    "titlu": "Organizare și erori",
+    "noduri": [
+     {
+      "t": "Etapele organizării",
+      "d": "Obiective clare, ipoteză testabilă, identificarea variabilelor, design potrivit, randomizarea participanților, proceduri. Plus: materiale, eșantion reprezentativ, standarde etice."
+     },
+     {
+      "t": "Erori de controlat",
+      "d": "Sistemice, variabile confundate, de măsurare, ale grupului de control, ale participanților, de selecție, de tip experimenter, statistice."
+     },
+     {
+      "t": "Accidentale vs metodologice",
+      "d": "Accidentale: variabilități care apar aleatoriu. Metodologice: neconcordanțe sistematice în proiectarea sau analiza cercetării."
+     }
+    ]
+   },
+   {
+    "titlu": "Date: prelucrare → interpretare → generalizare",
+    "noduri": [
+     {
+      "t": "Prelucrare",
+      "d": "Colectare, verificarea calității, codificare, introducere, analiză statistică."
+     },
+     {
+      "t": "Interpretare",
+      "d": "Analiza rezultatelor și a statisticilor, analiză calitativă (dacă e cazul), compararea cu literatura existentă, explorarea variabilelor confundate."
+     },
+     {
+      "t": "Generalizare",
+      "d": "Validitatea externă, aplicabilitatea, limitele studiului, sugestii pentru cercetări viitoare."
+     }
+    ]
+   },
+   {
+    "titlu": "Tipuri de experimente (design)",
+    "noduri": [
+     {
+      "t": "Între grupuri",
+      "d": "Grupuri diferite, fiecare cu o condiție distinctă."
+     },
+     {
+      "t": "În interiorul grupului",
+      "d": "Aceeași grupă trece prin toate condițiile."
+     },
+     {
+      "t": "Cu măsurători repetate",
+      "d": "Fiecare participant trece prin toate condițiile, cu aceleași măsurători în mai multe momente."
+     },
+     {
+      "t": "Cu control aleator",
+      "d": "Participanții sunt atribuiți condițiilor aleatoriu."
+     },
+     {
+      "t": "Cu control pentru variabile confundate",
+      "d": "Monitorizează variabilele care pot influența rezultatele, ca să izoleze efectul VI."
+     },
+     {
+      "t": "De câmp și cu mascare",
+      "d": "Alte tipuri enumerate în capitol."
+     }
+    ]
+   },
+   {
+    "titlu": "Teste vs experimente",
+    "noduri": [
+     {
+      "t": "Diferența",
+      "d": "Testele măsoară caracteristici; experimentele manipulează VI ca să evalueze cauzalitatea."
+     },
+     {
+      "t": "Tipuri de teste",
+      "d": "Personalitate (trăsături: extroversie, conștiinciozitate), cognitiv (memorie, atenție, rezolvarea problemelor), inteligență (abilități cognitive generale), aptitudini (domenii specifice: matematic, verbal), performanță (o sarcină anume)."
+     }
+    ]
+   }
+  ]
+ },
+ "runde": [
+  {
+   "id": "1",
+   "eticheta": "Runda 1 · Bază",
+   "titlu": "Runda 1 — Concepte de bază",
+   "desc": "Recunoaștere: metode, ipoteze, variabile, erori, tipuri de experimente și teste.",
+   "intrebari": [
+    {
+     "q": "Care sunt metodele principale folosite în psihologia experimentală?",
+     "opts": [
+      "Observația, ancheta psihologică și experimentul de laborator",
+      "Experimentul natural, testul psihologic și interviul",
+      "Observația, experimentul natural și experimentul organizat (de laborator)",
+      "Observația, metoda biografică și experimentul organizat"
+     ],
+     "correct": 2,
+     "explain": "Capitolul numește trei metode principale: observația, experimentul natural și experimentul organizat (de laborator). Ancheta, interviul, testul și metoda biografică sunt alte metode de cercetare, dar nu sunt cele trei enumerate aici.",
+     "tag": "metodele principale"
+    },
+    {
+     "q": "Cum se caracterizează experimentul natural din punctul de vedere al controlului asupra variabilelor?",
+     "opts": [
+      "Control înalt, cu manipularea variabilelor într-un mediu controlat",
+      "Control redus, bazat pe evenimente naturale nemanipulate",
+      "Control limitat, cercetătorul doar observă și înregistrează",
+      "Control variabil, în funcție de interacțiunea cu participanții"
+     ],
+     "correct": 1,
+     "explain": "Experimentul natural are control redus, pentru că se bazează pe evenimente naturale pe care cercetătorul nu le manipulează. Varianta cu „doar observă și înregistrează” descrie observația, iar „control înalt” descrie experimentul de laborator.",
+     "tag": "comparația metodelor: control"
+    },
+    {
+     "q": "Care metodă are fezabilitatea cea mai ridicată, putând fi folosită în diverse contexte fără resurse extinse?",
+     "opts": [
+      "Experimentul de laborator",
+      "Experimentul natural",
+      "Experimentul cu măsurători repetate",
+      "Observația"
+     ],
+     "correct": 3,
+     "explain": "Observația are fezabilitate ridicată. Experimentul natural are fezabilitate variabilă (depinde de apariția unor evenimente potrivite), iar cel de laborator are fezabilitate mai redusă, pentru că necesită resurse pentru un mediu controlat.",
+     "tag": "comparația metodelor: fezabilitate"
+    },
+    {
+     "q": "Ce cerințe trebuie să îndeplinească ipotezele de cercetare?",
+     "opts": [
+      "Să fie verificabile, economice, cuantificabile și verosimile",
+      "Să fie verificabile, exhaustive, cuantificabile și verosimile",
+      "Să fie plauzibile, economice, calitative și verificabile",
+      "Să fie falsificabile, detaliate, cuantificabile și generalizabile"
+     ],
+     "correct": 0,
+     "explain": "Ipotezele trebuie să fie verificabile, economice, exprimate cantitativ, cuantificabile și verosimile. „Exhaustive” și „detaliate” contrazic cerința de a fi economice, iar „calitative” contrazice exprimarea cantitativă.",
+     "tag": "cerințele ipotezei"
+    },
+    {
+     "q": "Ce afirmă ipoteza nulă (H0)?",
+     "opts": [
+      "Existența unor diferențe semnificative între condiții",
+      "Absența diferențelor",
+      "O relație cauzală între VI și VD",
+      "Direcția diferenței dintre grupuri"
+     ],
+     "correct": 1,
+     "explain": "H0 afirmă absența diferențelor; ipoteza alternativă (H1 sau Ha) afirmă existența diferențelor semnificative. Capitolul spune la fel despre ipotezele statistice (absența diferențelor) față de cele de cercetare (care afirmă diferențe).",
+     "tag": "H0 vs H1"
+    },
+    {
+     "q": "Ce instrumente statistice se folosesc pentru testarea ipotezelor?",
+     "opts": [
+      "Testul t, testul Rorschach și testul F",
+      "Corelația, testul Stroop și testul t",
+      "Testul chi pătrat, testul TAT și testul t",
+      "Testul t, testul chi pătrat și testul F"
+     ],
+     "correct": 3,
+     "explain": "Capitolul enumeră testul t, testul chi pătrat și testul F. Rorschach, TAT și Stroop sunt probe psihologice (de personalitate sau cognitive), nu teste statistice.",
+     "tag": "teste statistice"
+    },
+    {
+     "q": "Ce este o variabilă de control (VC)?",
+     "opts": [
+      "Factorul manipulat de cercetător pentru a produce un efect",
+      "Măsura observată pentru a evalua impactul variabilei independente",
+      "Factorul menținut constant pentru a atribui corect efectele VI",
+      "Factorul lăsat să varieze liber pentru a crește generalizarea"
+     ],
+     "correct": 2,
+     "explain": "Variabila de control e menținută constantă ca efectele observate să poată fi atribuite corect VI. Factorul manipulat e VI, iar măsura observată e VD.",
+     "tag": "VI vs VD vs VC"
+    },
+    {
+     "q": "Ce fel de variabilă este „numărul de copii”?",
+     "opts": [
+      "Variabilă continuă",
+      "Variabilă discretă",
+      "Variabilă nominală",
+      "Variabilă ordinală"
+     ],
+     "correct": 1,
+     "explain": "Numărul de copii ia valori separate (0, 1, 2…), deci e o variabilă discretă. Vârsta e exemplul de variabilă continuă, genul de variabilă nominală, iar clasamentul elevilor de variabilă ordinală.",
+     "tag": "tipuri de variabile"
+    },
+    {
+     "q": "Ce fel de variabilă împarte obiectele în categorii ordonate, dar fără măsurarea uniformă a diferențelor dintre ele?",
+     "opts": [
+      "Variabila nominală",
+      "Variabila continuă",
+      "Variabila discretă",
+      "Variabila ordinală"
+     ],
+     "correct": 3,
+     "explain": "Variabila ordinală are categorii ordonate (exemplul din capitol: clasamentul elevilor), dar distanțele dintre ele nu sunt egale. Variabila nominală are categorii fără ordine (de exemplu genul).",
+     "tag": "tipuri de variabile"
+    },
+    {
+     "q": "Ce sunt erorile accidentale?",
+     "opts": [
+      "Variabilități ale rezultatelor care apar aleatoriu",
+      "Neconcordanțe sistematice în proiectarea sau analiza cercetării",
+      "Influențe ale unor variabile necontrolate asupra VD",
+      "Abateri produse de așteptările experimentatorului"
+     ],
+     "correct": 0,
+     "explain": "Erorile accidentale sunt variabilități care apar aleatoriu. „Neconcordanțe sistematice în proiectare sau analiză” este definiția erorilor metodologice; celelalte două descriu variabilele confundate și erorile de tip experimenter.",
+     "tag": "erori accidentale vs metodologice"
+    },
+    {
+     "q": "Ce este un experiment în interiorul grupului?",
+     "opts": [
+      "Participanții sunt împărțiți în grupuri, fiecare cu o condiție distinctă",
+      "Participanții sunt atribuiți condițiilor în mod aleatoriu",
+      "Aceeași grupă de participanți este expusă la toate condițiile",
+      "Variabilele care pot influența rezultatele sunt monitorizate și izolate"
+     ],
+     "correct": 2,
+     "explain": "În designul în interiorul grupului, aceiași participanți trec prin toate condițiile. Împărțirea în grupuri cu condiții distincte e designul între grupuri; atribuirea aleatorie definește experimentul cu control aleator.",
+     "tag": "tipuri de design"
+    },
+    {
+     "q": "Prin ce se deosebesc testele de experimente?",
+     "opts": [
+      "Testele măsoară caracteristici, experimentele manipulează VI pentru a evalua cauzalitatea",
+      "Testele manipulează VI, experimentele măsoară caracteristici ale participanților",
+      "Testele se aplică în laborator, experimentele în mediul natural",
+      "Testele stabilesc cauzalitatea, experimentele descriu trăsături stabile"
+     ],
+     "correct": 0,
+     "explain": "Testele măsoară caracteristici (trăsături, aptitudini, funcții cognitive), iar experimentele manipulează variabile independente ca să evalueze cauzalitatea. Variantele în care testele „manipulează VI” sau „stabilesc cauzalitatea” inversează rolurile; locul desfășurării nu e criteriul de diferențiere.",
+     "tag": "test vs experiment"
+    },
+    {
+     "q": "Ce înseamnă „intervenția” într-un experiment?",
+     "opts": [
+      "Colectarea sistematică a comportamentelor, fără a interveni activ",
+      "Manipularea intenționată a unei variabile pentru a-i evalua impactul",
+      "Atribuirea aleatorie a participanților la condiții diferite",
+      "Înregistrarea rezultatelor produse de variabila independentă"
+     ],
+     "correct": 1,
+     "explain": "Intervenția este manipularea intenționată a unei variabile pentru a evalua impactul asupra rezultatelor. „Colectarea fără a interveni” definește observația, „atribuirea aleatorie” definește randomizarea, iar „înregistrarea rezultatelor” descrie VD.",
+     "tag": "cuvinte cheie"
+    },
+    {
+     "q": "Ce strategii de control al variabilelor confundate se folosesc?",
+     "opts": [
+      "Randomizarea, grupurile eterogene și autoevaluarea participanților",
+      "Observația participativă, grupurile omogene și măsurile standardizate",
+      "Randomizarea, formarea de grupuri omogene și măsurile standardizate",
+      "Randomizarea, creșterea eșantionului și eliminarea grupului de control"
+     ],
+     "correct": 2,
+     "explain": "Capitolul menționează randomizarea, formarea de grupuri omogene și folosirea de măsuri standardizate. Grupurile „eterogene” și eliminarea grupului de control ar slăbi controlul, nu l-ar întări.",
+     "tag": "controlul variabilelor"
+    },
+    {
+     "q": "Ce test măsoară funcții cognitive precum memoria, atenția și rezolvarea problemelor?",
+     "opts": [
+      "Testul cognitiv",
+      "Testul de inteligență",
+      "Testul de aptitudini",
+      "Testul de personalitate"
+     ],
+     "correct": 0,
+     "explain": "Testul cognitiv măsoară funcții cognitive anume (memorie, atenție, rezolvarea problemelor). Testul de inteligență măsoară abilitățile cognitive generale: raționament, învățare, abilități lingvistice.",
+     "tag": "tipuri de teste"
+    }
+   ],
+   "ascunse": [
+    {
+     "q": "Ce fel de variabilă este genul?",
+     "opts": [
+      "Variabilă nominală",
+      "Variabilă ordinală",
+      "Variabilă discretă",
+      "Variabilă continuă"
+     ],
+     "correct": 0,
+     "explain": "Genul împarte obiectele în categorii distincte, fără ordine între ele, deci e o variabilă nominală. Dacă între categorii ar exista o ordine (cum e la un clasament), variabila ar fi ordinală.",
+     "tag": "tipuri de variabile"
+    },
+    {
+     "q": "Ce fel de variabilă este vârsta?",
+     "opts": [
+      "Variabilă nominală",
+      "Variabilă discretă",
+      "Variabilă continuă",
+      "Variabilă ordinală"
+     ],
+     "correct": 2,
+     "explain": "Vârsta poate lua o gamă infinită de valori, deci e o variabilă continuă. Numărul de copii, care ia valori separate, e exemplul de variabilă discretă.",
+     "tag": "tipuri de variabile"
+    },
+    {
+     "q": "Care metodă implică interacțiunea cea mai directă cu participanții?",
+     "opts": [
+      "Observația",
+      "Experimentul natural",
+      "Ancheta pe bază de chestionar",
+      "Experimentul de laborator"
+     ],
+     "correct": 3,
+     "explain": "Experimentul de laborator implică o interacțiune mai directă cu participanții. Observația are interacțiune limitată, iar experimentul natural are interacțiune variabilă, în funcție de context.",
+     "tag": "comparația metodelor: interacțiune"
+    },
+    {
+     "q": "Care dintre următoarele ține de interpretarea datelor, nu de generalizarea rezultatelor?",
+     "opts": [
+      "Examinarea validității externe",
+      "Conștientizarea limitărilor studiului",
+      "Compararea cu literatura existentă",
+      "Sugestiile pentru cercetări viitoare"
+     ],
+     "correct": 2,
+     "explain": "Compararea cu literatura existentă face parte din interpretarea datelor. Validitatea externă, limitările și sugestiile pentru cercetări viitoare țin de generalizarea rezultatelor.",
+     "tag": "etapele prelucrării datelor"
+    },
+    {
+     "q": "Care este ordinea etapelor testării ipotezelor?",
+     "opts": [
+      "Colectarea datelor, formularea ipotezei, designul, analiza, interpretarea",
+      "Formularea ipotezei, designul experimental, colectarea datelor, analiza statistică, interpretarea",
+      "Designul experimental, formularea ipotezei, analiza statistică, colectarea datelor, interpretarea",
+      "Formularea ipotezei, colectarea datelor, designul experimental, interpretarea, analiza statistică"
+     ],
+     "correct": 1,
+     "explain": "Ordinea din capitol este: formularea ipotezei, designul experimental, colectarea datelor, analiza statistică și interpretarea rezultatelor. Ipoteza vine prima, pentru că designul se construiește ca s-o testeze, iar analiza statistică precede interpretarea.",
+     "tag": "etapele testării ipotezelor"
+    }
+   ]
+  },
+  {
+   "id": "2",
+   "eticheta": "Runda 2 · Aplicații",
+   "titlu": "Runda 2 — Scenarii și raționament",
+   "desc": "Aplică conceptele pe situații concrete.",
+   "intrebari": [
+    {
+     "q": "Ministerul schimbă ora de începere a cursurilor, iar un cercetător compară atenția elevilor înainte și după schimbare, fără să fi intervenit el în vreun fel. Ce metodă folosește?",
+     "opts": [
+      "Observația",
+      "Experimentul natural",
+      "Experimentul de laborator",
+      "Testul cognitiv"
+     ],
+     "correct": 1,
+     "explain": "Schimbarea a apărut natural, fără ca cercetătorul să manipuleze VI, dar există două condiții de comparat (înainte/după). Asta e experimentul natural. Simpla observație doar înregistrează comportamentul, iar experimentul de laborator ar cere manipulare într-un mediu controlat.",
+     "tag": "identificarea metodei"
+    },
+    {
+     "q": "Un grup învață o listă de cuvinte cu zgomot de fond, altul în liniște, apoi se numără cuvintele reamintite. Care este variabila independentă?",
+     "opts": [
+      "Numărul de cuvinte reamintite",
+      "Durata sarcinii, identică pentru ambele grupuri",
+      "Vârsta participanților",
+      "Prezența sau absența zgomotului"
+     ],
+     "correct": 3,
+     "explain": "Cercetătorul manipulează zgomotul (prezent/absent), deci acesta e VI. Numărul de cuvinte reamintite este măsurat, deci e VD. Durata menținută identică e variabilă de control.",
+     "tag": "VI vs VD vs VC"
+    },
+    {
+     "q": "În același studiu, lista de cuvinte și timpul de învățare sunt identice pentru ambele grupuri. Ce rol au aceste elemente?",
+     "opts": [
+      "Variabile de control",
+      "Variabile dependente",
+      "Variabile independente secundare",
+      "Variabile confundate"
+     ],
+     "correct": 0,
+     "explain": "Sunt menținute constante tocmai ca diferența de reamintire să poată fi atribuită zgomotului, deci sunt variabile de control. Ar deveni variabile confundate doar dacă ar diferi între grupuri, fără să fie controlate.",
+     "tag": "VI vs VD vs VC"
+    },
+    {
+     "q": "De ce repartizează cercetătorul participanții aleatoriu în cele două grupuri?",
+     "opts": [
+      "Ca să crească numărul total de participanți",
+      "Ca rezultatele să se poată generaliza în afara laboratorului",
+      "Ca diferențele preexistente să se distribuie egal și efectul să poată fi atribuit VI",
+      "Ca să nu mai fie nevoie de un grup de control"
+     ],
+     "correct": 2,
+     "explain": "Randomizarea controlează variabilele confundate: diferențele individuale ajung distribuite egal între grupuri, așa că efectul poate fi atribuit VI. Ea nu rezolvă problema generalizării, care rămâne o limită a experimentului de laborator, și nu înlocuiește grupul de control.",
+     "tag": "rolul randomizării"
+    },
+    {
+     "q": "De ce întâmpină experimentul de laborator dificultăți de generalizare?",
+     "opts": [
+      "Pentru că nu permite randomizarea participanților",
+      "Pentru că mediul controlat e mai puțin autentic și poate influența comportamentul",
+      "Pentru că nu presupune manipularea variabilelor",
+      "Pentru că interacțiunea cu participanții este limitată"
+     ],
+     "correct": 1,
+     "explain": "Contextul de laborator e mai puțin autentic și poate modifica comportamentul participanților, iar asta limitează generalizarea. Lipsa randomizării și interacțiunea limitată sunt caracteristici ale observației; lipsa manipulării caracterizează experimentul natural.",
+     "tag": "comparația metodelor: generalizare"
+    },
+    {
+     "q": "Analiza statistică arată că diferența dintre grupul experimental și cel de control este semnificativă. Ce decizie se ia privind H0?",
+     "opts": [
+      "H0 este acceptată",
+      "H0 este reformulată ca ipoteză de cercetare",
+      "Teoria de la care s-a pornit este confirmată definitiv",
+      "H0 este respinsă"
+     ],
+     "correct": 3,
+     "explain": "H0 afirmă absența diferențelor, iar o diferență semnificativă duce la respingerea ei, în favoarea H1. Respingerea H0 susține ipoteza, dar nu confirmă „definitiv” o teorie.",
+     "tag": "H0 vs H1"
+    },
+    {
+     "q": "Experimentatorul știe care participanți au primit tratamentul și, fără să-și dea seama, îi încurajează mai mult. Ce tip de eroare apare?",
+     "opts": [
+      "Eroare de tip experimenter",
+      "Eroare accidentală",
+      "Eroare de selecție",
+      "Eroare statistică"
+     ],
+     "correct": 0,
+     "explain": "E o eroare de tip experimenter: comportamentul cercetătorului influențează rezultatele. Nu e accidentală, pentru că acționează constant în aceeași direcție. Experimentele cu mascare (în care condiția nu e cunoscută) servesc tocmai la evitarea ei.",
+     "tag": "tipuri de erori"
+    },
+    {
+     "q": "Un psiholog vrea să afle dacă un elev are o înclinație specială pentru matematică. Ce tip de test e cel mai potrivit?",
+     "opts": [
+      "Test de inteligență",
+      "Test cognitiv",
+      "Test de aptitudini",
+      "Test de performanță"
+     ],
+     "correct": 2,
+     "explain": "Testul de aptitudini măsoară aptitudini specifice unui domeniu (matematic, verbal). Testul de inteligență măsoară abilități cognitive generale, iar cel de performanță evaluează reușita într-o sarcină anume.",
+     "tag": "tipuri de teste"
+    },
+    {
+     "q": "Aceiași participanți rezolvă o sarcină întâi în liniște, apoi cu zgomot, iar exersarea din prima condiție îi ajută în a doua. Pentru ce design e tipic acest risc?",
+     "opts": [
+      "Experimentul între grupuri",
+      "Experimentul în interiorul grupului (cu măsurători repetate)",
+      "Experimentul cu control aleator",
+      "Experimentul de câmp"
+     ],
+     "correct": 1,
+     "explain": "Riscul apare doar când aceiași participanți trec prin mai multe condiții, adică în designul în interiorul grupului sau cu măsurători repetate. În designul între grupuri fiecare participant primește o singură condiție, deci nu poate exersa de la una la alta.",
+     "tag": "tipuri de design"
+    },
+    {
+     "q": "De ce adoptă multe studii o abordare mixtă, combinând metodele?",
+     "opts": [
+      "Pentru că experimentul de laborator nu produce date valide",
+      "Pentru că observația poate stabili cauzalitatea dacă e repetată",
+      "Pentru că o abordare mixtă elimină nevoia de analiză statistică",
+      "Pentru că fiecare metodă câștigă la un criteriu și pierde la altul"
+     ],
+     "correct": 3,
+     "explain": "Metodele se completează: laboratorul oferă control și cauzalitate, dar autenticitate redusă, iar observația și experimentul natural oferă autenticitate, dar control slab. Combinate, dau o înțelegere mai cuprinzătoare. Celelalte variante exagerează sau contrazic capitolul.",
+     "tag": "abordarea mixtă"
+    }
+   ],
+   "ascunse": [
+    {
+     "q": "Un studiu testează efectul cafeinei asupra timpului de reacție. Un grup bea cafea obișnuită, celălalt cafea decofeinizată, fără ca participanții să știe ce au primit. Ce rol are al doilea grup?",
+     "opts": [
+      "Grup experimental",
+      "Grup de control",
+      "Variabilă de control",
+      "Eșantion reprezentativ"
+     ],
+     "correct": 1,
+     "explain": "Grupul care primește cafeaua decofeinizată nu e supus manipulării VI (cafeina) și primește practic un placebo, deci e grupul de control, folosit pentru comparație. Variabila de control e un factor menținut constant, nu un grup de participanți.",
+     "tag": "grup experimental vs grup de control"
+    },
+    {
+     "q": "Un cercetător compară memoria studenților care au ales singuri să doarmă 8 ore cu a celor care au ales să doarmă 5 ore. Care este principala problemă a acestui studiu?",
+     "opts": [
+      "Apar prea multe erori accidentale, care nu pot fi controlate",
+      "Variabila dependentă (memoria) nu poate fi măsurată",
+      "Lipsește randomizarea, iar grupurile pot diferi și prin alți factori",
+      "Studiul nu poate avea o ipoteză nulă"
+     ],
+     "correct": 2,
+     "explain": "Studenții s-au repartizat singuri, deci grupurile pot diferi și prin alte variabile (stres, program, motivație), care devin variabile confundate. Fără randomizare, diferența de memorie nu poate fi atribuită cu siguranță somnului.",
+     "tag": "rolul randomizării"
+    },
+    {
+     "q": "Un psiholog stă în fundul clasei și notează, după o grilă, de câte ori ridică mâna fiecare elev, fără să intervină. Constată că elevii din primele bănci ridică mâna mai des. Ce poate concluziona?",
+     "opts": [
+      "Că există o asociere, dar nu că poziția în bancă provoacă participarea",
+      "Că poziția în bancă provoacă o participare mai mare",
+      "Nimic, pentru că datele din observație nu pot fi reproduse",
+      "Că rezultatul se aplică tuturor claselor din țară"
+     ],
+     "correct": 0,
+     "explain": "Observația nu manipulează variabile și nu randomizează, deci poate arăta o asociere, nu o relație cauzală: poate elevii mai implicați își aleg singuri primele bănci. Capitolul precizează că datele din observație pot fi reproduse, iar generalizarea e dificilă.",
+     "tag": "limitele observației"
+    },
+    {
+     "q": "Ipoteza de cercetare este: „Elevii care fac sport au o atenție mai bună decât cei care nu fac sport.” Care este ipoteza nulă corespunzătoare?",
+     "opts": [
+      "Elevii care fac sport au o atenție mai bună decât cei care nu fac",
+      "Sportul cauzează o îmbunătățire a atenției la elevi",
+      "Atenția elevilor depinde de mai mulți factori, nu doar de sport",
+      "Nu există diferențe de atenție între elevii care fac sport și cei care nu fac"
+     ],
+     "correct": 3,
+     "explain": "H0 afirmă absența diferențelor dintre grupuri. Varianta „au o atenție mai bună” repetă ipoteza de cercetare (H1), cea cu „cauzează” o transformă într-o afirmație cauzală, iar cea cu „mai mulți factori” e adevărată, dar nu e o ipoteză testabilă.",
+     "tag": "H0 vs H1"
+    },
+    {
+     "q": "Un cercetător repartizează aleatoriu 90 de participanți în trei grupuri, iar fiecare grup primește o singură condiție experimentală. Ce design folosește?",
+     "opts": [
+      "Design în interiorul grupului",
+      "Design cu măsurători repetate",
+      "Observație structurată",
+      "Design între grupuri, cu control aleator"
+     ],
+     "correct": 3,
+     "explain": "Fiecare grup primește o condiție distinctă, deci designul e între grupuri, iar repartizarea aleatorie adaugă controlul aleator. Designurile în interiorul grupului sau cu măsurători repetate ar expune aceiași participanți la toate condițiile.",
+     "tag": "tipuri de design"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,1156 @@
+{
+  "schema": "quiz-capitol-v3",
+  "capitol": 7,
+  "titlu": "Proceduri de estimare statistică",
+  "sursa": "Manualul, Unitatea VII, pp. 87–102",
+  "runde": [
+    {
+      "id": "T",
+      "tip_runda": "baza",
+      "eticheta": "Runda 1 · Teorie",
+      "titlu": "Runda 1 — Teorie",
+      "desc": "Întrebări directe și scurte: ce măsoară un indicator, când se folosește o metodă, ce deosebește două concepte.",
+      "intrebari": [
+        {
+          "q": "Ce două condiții trebuie să îndeplinească un estimator bun?",
+          "opts": [
+            "Să fie punctual și calculat pe un eșantion mare",
+            "Să fie normal distribuit și să aibă σ cunoscut",
+            "Să fie nedistorsionat și calculat pe peste 30 de cazuri",
+            "Să fie nedistorsionat și relativ eficient"
+          ],
+          "correct": 3,
+          "explain": "Un estimator trebuie să fie nedistorsionat (distribuția lui de eșantionare centrată pe parametru) și relativ eficient (distribuția cât mai grupată). Mărimea eșantionului îmbunătățește eficiența, dar nu e ea însăși o condiție; σ cunoscut ține de alegerea formulei de interval.",
+          "tag": "Eficiența estimatorului",
+          "tip": "concept"
+        },
+        {
+          "q": "Ce deosebește un estimator nedistorsionat de unul distorsionat?",
+          "opts": [
+            "Dacă distribuția lui de eșantionare e foarte grupată",
+            "Dacă distribuția lui de eșantionare e centrată pe parametru",
+            "Dacă eșantionul pe care se calculează e aleatoriu",
+            "Dacă valoarea lui iese mai mică decât parametrul"
+          ],
+          "correct": 1,
+          "explain": "Distorsiunea privește centrul: la un estimator nedistorsionat media distribuției de eșantionare e egală cu parametrul (μ_X̄ = μ). Gruparea ține de eficiență, o proprietate separată; o singură valoare sub parametru nu spune nimic, contează tendința tuturor eșantioanelor.",
+          "tag": "Estimator distorsionat",
+          "tip": "concept"
+        },
+        {
+          "q": "Care dintre aceste statistici sunt estimatori nedistorsionați?",
+          "opts": [
+            "Media și proporția eșantionului",
+            "Abaterea standard și media eșantionului",
+            "Abaterea standard și proporția eșantionului",
+            "Varianța calculată cu n și media eșantionului"
+          ],
+          "correct": 0,
+          "explain": "Media distribuției mediilor e μ, iar media distribuției proporțiilor e P, deci X̄ și p sunt nedistorsionate. Abaterea standard (și varianța împărțită la n) a eșantionului îl subestimează de regulă pe σ, ca în Cap. 4 (Mărimile dispersiei).",
+          "tag": "Estimator nedistorsionat",
+          "tip": "concept"
+        },
+        {
+          "q": "Ce arată eficiența unui estimator?",
+          "opts": [
+            "Cât de aproape e centrul distribuției de parametru",
+            "Cât de mare e eșantionul folosit în calcul",
+            "Cât de grupată e distribuția lui de eșantionare",
+            "Cât de simetrice sunt scorurile din eșantion"
+          ],
+          "correct": 2,
+          "explain": "Un estimator e cu atât mai eficient cu cât abaterea standard a distribuției lui de eșantionare e mai mică. Centrul distribuției privește distorsiunea; mărimea eșantionului influențează eficiența, dar nu o definește.",
+          "tag": "Eficiența estimatorului",
+          "tip": "concept"
+        },
+        {
+          "q": "Prin ce se poate îmbunătăți eficiența mediei ca estimator?",
+          "opts": [
+            "Prin creșterea nivelului de încredere",
+            "Prin folosirea medianei în locul mediei",
+            "Prin împărțirea la n − 1 în loc de n",
+            "Prin extragerea unui eșantion mai mare"
+          ],
+          "correct": 3,
+          "explain": "σ_X̄ = σ/√n scade când n crește, deci distribuția mediilor devine mai grupată. Nivelul de încredere schimbă doar lățimea intervalului, nu distribuția de eșantionare; corecția n − 1 privește distorsiunea lui s, nu eficiența mediei.",
+          "tag": "Eficiență și mărimea eșantionului",
+          "tip": "metoda"
+        },
+        {
+          "q": "Ce oferă estimarea pe interval în plus față de estimarea punctuală?",
+          "opts": [
+            "O probabilitate precisă că parametrul e cuprins în ea",
+            "O valoare calculată direct pe datele eșantionului",
+            "Un eșantion extras printr-o procedură aleatorie",
+            "O medie aritmetică mai exactă a eșantionului"
+          ],
+          "correct": 0,
+          "explain": "Estimarea punctuală declară parametrul egal cu valoarea eșantionului, fără probabilitate atașată; intervalul dă o amplitudine de valori și probabilitatea (nivelul de încredere) ca ea să conțină parametrul. Ambele pornesc de la aceeași statistică, calculată pe un eșantion aleatoriu.",
+          "tag": "Intervalul de încredere",
+          "tip": "metoda"
+        },
+        {
+          "q": "Ce legătură există între nivelul de încredere și nivelul α?",
+          "opts": [
+            "Sunt egale: amândouă exprimă eroarea",
+            "Încrederea e jumătate din α, adică α/2",
+            "Încrederea e α împărțit la mărimea n",
+            "Sunt complementare: încrederea e 1 − α"
+          ],
+          "correct": 3,
+          "explain": "Nivelul de încredere e probabilitatea ca intervalul să conțină parametrul, iar α probabilitatea să nu-l conțină; adunate dau 1 (α = 0,05 ↔ 95%). α/2 e partea de eroare din fiecare extremitate.",
+          "tag": "Nivelul de încredere",
+          "tip": "concept"
+        },
+        {
+          "q": "De ce scorul critic al unui interval de încredere se notează Zα/2?",
+          "opts": [
+            "Intervalul se calculează pe jumătate din eșantion",
+            "Intervalul acoperă doar jumătatea de sus a curbei",
+            "Eroarea se împarte egal între cele două extremități",
+            "Scorul Z se împarte la doi înainte de calcul"
+          ],
+          "correct": 2,
+          "explain": "Probabilitatea de eroare α se împarte în mod egal între extremitatea inferioară și cea superioară a distribuției de eșantionare (la 95%: câte 0,025), de unde limitele inferioară și superioară. Eșantionul și scorul Z rămân întregi.",
+          "tag": "Nivelul de semnificație (α)",
+          "tip": "concept"
+        },
+        {
+          "q": "Ce scor Z se alege când proporția căutată cade între două valori din tabel?",
+          "opts": [
+            "Cel mai mic, ca intervalul să iasă cât mai precis",
+            "Media celor două, ca rezultatul să fie echilibrat",
+            "Cel mai mare, ca intervalul să iasă cât mai larg",
+            "Cel mai apropiat de 1,96, valoarea obișnuită"
+          ],
+          "correct": 2,
+          "explain": "Se ia scorul mai mare (1,65 între 1,64 și 1,65; 2,58 la 99%), pentru ca intervalul să fie cel mai larg posibil în condițiile date — alegerea prudentă. Scorul mai mic ar câștiga precizie pe seama încrederii.",
+          "tag": "Alegerea lui Zα/2",
+          "tip": "regula"
+        },
+        {
+          "q": "În ce situație se folosește intervalul X̄ ± Zα/2 · σ/√n?",
+          "opts": [
+            "Când abaterea standard a populației e cunoscută",
+            "Când σ e necunoscut și eșantionul are sub 30 de cazuri",
+            "Când σ e necunoscut, dar eșantionul are peste 30",
+            "Când se estimează o proporție, nu o medie"
+          ],
+          "correct": 0,
+          "explain": "Formula cu σ/√n cere σ cunoscut (de pildă din testări extinse). Cu σ necunoscut și n ≥ 30 se folosește s/√(n − 1), cu n < 30 distribuția t, iar proporțiile au formula lor, cu P(1 − P).",
+          "tag": "Intervalul cu σ cunoscut",
+          "tip": "metoda"
+        },
+        {
+          "q": "Când se folosește distribuția t în locul distribuției normale standard?",
+          "opts": [
+            "Când σ e necunoscut și eșantionul are peste 30 de cazuri",
+            "Când σ e necunoscut și eșantionul are sub 30 de cazuri",
+            "Când σ e cunoscut, dar eșantionul are puține cazuri",
+            "Când se estimează o proporție cu np sub pragul de 5"
+          ],
+          "correct": 1,
+          "explain": "La eșantioane mici cu σ necunoscut, distribuția mediilor nu mai e descrisă de normala standard, ci de t-Student, cu n − 1 grade de libertate. Peste 30 de cazuri se lucrează cu Z și s/√(n − 1); cu σ cunoscut, cu Z și σ/√n.",
+          "tag": "Distribuția t",
+          "tip": "metoda"
+        },
+        {
+          "q": "Ce se întâmplă cu distribuția t pe măsură ce crește numărul de grade de libertate?",
+          "opts": [
+            "Devine tot mai aplatizată, cu cozi tot mai groase",
+            "Se apropie de normală și coincide cu ea la infinit",
+            "Devine asimetrică, cu o coadă lungă spre dreapta",
+            "Se îndepărtează de normală, devenind mai ascuțită"
+          ],
+          "correct": 1,
+          "explain": "Distribuția t e o familie: la eșantioane mici e mult mai aplatizată decât normala, iar cu cât gradele de libertate cresc, cu atât seamănă mai mult cu ea, până la identitate pentru o infinitate de gl. Rămâne mereu simetrică.",
+          "tag": "Distribuția t",
+          "tip": "concept"
+        },
+        {
+          "q": "Câte grade de libertate are distribuția t pentru media unui eșantion de n scoruri?",
+          "opts": [
+            "n − 1",
+            "n",
+            "n − 2",
+            "n + 1"
+          ],
+          "correct": 0,
+          "explain": "Odată fixată media, doar n − 1 scoruri sunt libere să varieze; ultimul e determinat (5 scoruri cu media 3: dacă patru sunt 1, 2, 3, 4, al cincilea e 5). n uită constrângerea mediei.",
+          "tag": "Gradele de libertate",
+          "tip": "calcul"
+        },
+        {
+          "q": "Ce condiție privind variabila cere intervalul de încredere cu t?",
+          "opts": [
+            "Să fie măsurată la nivel ordinal",
+            "Să fie normal distribuită în populație",
+            "Să aibă abaterea standard cunoscută",
+            "Să fie măsurată pe peste treizeci de cazuri"
+          ],
+          "correct": 1,
+          "explain": "Formula cu t poate fi aplicată doar dacă variabila de interes e normal distribuită; la n mic, teorema limitei centrale nu compensează o populație asimetrică (Cap. 6 (Eșantionarea și distribuții de eșantionare)). t e tocmai soluția pentru σ necunoscut și eșantioane mici.",
+          "tag": "Condiția de normalitate",
+          "tip": "principiu"
+        },
+        {
+          "q": "De ce e considerată conservatoare alegerea P = 0,5 la intervalul pentru proporții?",
+          "opts": [
+            "P = 0,5 e proporția cel mai des întâlnită în populații",
+            "P = 0,5 dă intervalul cel mai îngust, deci cel mai precis",
+            "P(1 − P) e maxim, deci intervalul iese cel mai larg",
+            "P = 0,5 elimină condiția ca np să fie cel puțin 5"
+          ],
+          "correct": 2,
+          "explain": "P(1 − P) are valoarea maximă 0,25 la P = 0,5 (0,4 · 0,6 = 0,24), deci intervalul e cel mai larg pentru p, Zα/2 și n date, iar un interval mai larg e mai probabil să conțină P. Condiția np ≥ 5 rămâne valabilă.",
+          "tag": "Soluția conservatoare P = 0,5",
+          "tip": "principiu"
+        }
+      ],
+      "ascunse": [
+        {
+          "q": "Ce condiții de mărime a eșantionului cer formulele de interval pentru proporții?",
+          "opts": [
+            "n ≥ 30 și σ cunoscut",
+            "np ≥ 30 și p ≤ 0,5",
+            "n ≥ 100, oricare ar fi p",
+            "np ≥ 5 și n(1 − p) ≥ 5"
+          ],
+          "correct": 3,
+          "explain": "Formulele pentru proporții pot fi folosite doar dacă eșantionul e destul de mare ca np și n(1 − p) să fie cel puțin 5. Pragul de 30 și σ privesc mediile; nu există o limită de 0,5 pentru p.",
+          "tag": "Condiția np ≥ 5",
+          "tip": "regula"
+        },
+        {
+          "q": "Cum se schimbă lățimea unui interval de încredere când crește mărimea eșantionului?",
+          "opts": [
+            "Scade în aceeași proporție în care crește n",
+            "Crește, pentru că intră mai multe scoruri",
+            "Scade, dar mai încet decât crește n",
+            "Rămâne aceeași, dacă nivelul de încredere e același"
+          ],
+          "correct": 2,
+          "explain": "Relația e inversă, dar nu liniară: eroarea standard scade cu √n, așa că dublarea lui n îngustează intervalul de circa 1,41 ori, iar pentru o precizie dublă n trebuie să crească de vreo patru ori.",
+          "tag": "Mărimea eșantionului și lățimea",
+          "tip": "principiu"
+        },
+        {
+          "q": "Ce reprezintă limita de eroare L a unui interval de încredere?",
+          "opts": [
+            "Distanța de la statistică la oricare limită",
+            "Lățimea totală a intervalului de încredere",
+            "Probabilitatea α ca intervalul să rateze μ",
+            "Abaterea standard a scorurilor din populație"
+          ],
+          "correct": 0,
+          "explain": "L = Zα/2 · σ/√n e termenul care se scade și se adună la X̄ (nivelul de precizie): intervalul e X̄ ± L, deci lățimea totală e 2L. α e o probabilitate, nu o distanță.",
+          "tag": "Limita de eroare (L)",
+          "tip": "concept"
+        },
+        {
+          "q": "Ce trebuie cunoscut pentru a calcula mărimea eșantionului necesară estimării unei medii?",
+          "opts": [
+            "Media și abaterea standard ale unui eșantion",
+            "Scorul Z ales, σ (sau o aproximare a lui) și L",
+            "Mărimea populației și nivelul de semnificație",
+            "Doar nivelul de încredere dorit pentru interval"
+          ],
+          "correct": 1,
+          "explain": "n = Z²α/2 · σ²/L²: e nevoie de nivelul de încredere (prin Z), de σ — aproximat, la nevoie, prin amplitudine/4 — și de precizia dorită. Eșantionul nu există încă, iar mărimea populației nu apare în formulă.",
+          "tag": "Eșantionul pentru o medie",
+          "tip": "calcul"
+        },
+        {
+          "q": "Ce numără gradele de libertate ale unei distribuții?",
+          "opts": [
+            "Valorile care rămân libere să varieze",
+            "Eșantioanele extrase din populație",
+            "Scorurile egale cu media distribuției",
+            "Scorurile aflate peste medie"
+          ],
+          "correct": 0,
+          "explain": "Gradele de libertate sunt numărul de valori libere să varieze într-o distribuție; fiecare constrângere (de pildă media cunoscută) fixează o valoare, de unde n − 1 pentru media unui eșantion.",
+          "tag": "Gradele de libertate",
+          "tip": "concept"
+        }
+      ]
+    },
+    {
+      "id": "1",
+      "eticheta": "Runda 2 · Bază",
+      "titlu": "Runda 2 — Concepte de bază",
+      "desc": "Situații scurte: recunoști conceptul potrivit sau aplici direct o regulă.",
+      "intrebari": [
+        {
+          "q": "Un cercetător extrage sute de eșantioane aleatorii din aceeași populație și calculează media fiecăruia. Media tuturor acestor medii coincide cu media populației. Ce spune asta despre media eșantionului ca estimator al lui μ?",
+          "opts": [
+            "Că e un estimator distorsionat",
+            "Că e eficient pentru orice n",
+            "Că e un estimator nedistorsionat",
+            "Că e o estimare pe interval"
+          ],
+          "correct": 2,
+          "explain": "Un estimator e nedistorsionat când distribuția lui de eșantionare are media egală cu parametrul — exact ce s-a observat (μ_X̄ = μ, din teorema limitei centrale). Eficiența ține de cât de grupată e distribuția, nu de centrul ei, și depinde de n; iar o singură medie e o estimare punctuală, nu un interval.",
+          "tag": "Estimator nedistorsionat",
+          "tip": "concept"
+        },
+        {
+          "q": "O studentă calculează abaterea standard pe 15 eșantioane mici din aceeași populație, cu σ cunoscut. Aproape toate valorile s ies sub σ. Cum descrie s ca estimator al lui σ?",
+          "opts": [
+            "Distorsionat: tinde să-l supraestimeze pe σ",
+            "Distorsionat: tinde să-l subestimeze pe σ",
+            "Nedistorsionat: media valorilor s este σ",
+            "Ineficient: valorile s sunt prea împrăștiate"
+          ],
+          "correct": 1,
+          "explain": "Dispersia unui eșantion e de regulă mai mică decât a populației, deci distribuția lui s nu e centrată pe σ, ci sub el: estimator distorsionat, cu subestimare (ideea din Cap. 4 (Mărimile dispersiei)). Direcția inversă e greșită, iar „nedistorsionat” ar cere ca media valorilor s să fie chiar σ. Împrăștierea valorilor ar privi eficiența, nu distorsiunea.",
+          "tag": "Estimator distorsionat",
+          "tip": "concept"
+        },
+        {
+          "q": "Doi cercetători estimează aceeași medie din aceeași populație: unul pe n = 100, celălalt pe n = 900. Cum se compară eficiența celor două medii de eșantion?",
+          "opts": [
+            "Media pe 900 e mai eficientă: σ_X̄ e de 3 ori mai mică",
+            "Media pe 900 e mai eficientă: σ_X̄ e de 9 ori mai mică",
+            "Media pe 100 e mai eficientă: σ_X̄ e de 3 ori mai mare",
+            "Sunt la fel de eficiente: μ_X̄ = μ în ambele cazuri"
+          ],
+          "correct": 0,
+          "explain": "Eficiența crește când distribuția de eșantionare e mai grupată, adică σ_X̄ = σ/√n mai mică. √900 / √100 = 30 / 10 = 3, deci de 3 ori, nu de 9 (σ_X̄ scade cu rădăcina lui n, nu proporțional cu n). Faptul că ambele sunt centrate pe μ arată că sunt nedistorsionate, nu că sunt la fel de eficiente.",
+          "tag": "Eficiența estimatorului",
+          "tip": "calcul"
+        },
+        {
+          "q": "Un primar anunță: „venitul mediu în oraș este 4 200 de lei”, cifra fiind media unui eșantion aleatoriu de gospodării. Ce fel de estimare face?",
+          "opts": [
+            "O estimare pe interval a mediei populației",
+            "O estimare punctuală a mediei populației",
+            "O testare a unei ipoteze despre medie",
+            "O simplă descriere, fără nicio inferență"
+          ],
+          "correct": 1,
+          "explain": "Se ia valoarea calculată pe eșantion și se declară că parametrul are exact acea valoare: estimare punctuală. O estimare pe interval ar da o amplitudine de valori și o probabilitate; testarea ipotezelor e alt tip de procedură, din Cap. 8 (Testarea ipotezelor despre o singură populație). Nu e simplă descriere, pentru că cifra e atribuită întregului oraș, nu doar eșantionului.",
+          "tag": "Estimarea punctuală",
+          "tip": "metoda"
+        },
+        {
+          "q": "O cercetătoare raportează: „media populației se află între 48 și 54, cu α = 0,05”. Ce exprimă 0,05?",
+          "opts": [
+            "Probabilitatea ca intervalul să nu conțină μ",
+            "Probabilitatea ca intervalul să conțină μ",
+            "Proporția din eșantion aflată în afara lui",
+            "Eroarea standard a mediei eșantionului"
+          ],
+          "correct": 0,
+          "explain": "α, nivelul de semnificație, e probabilitatea de eroare a estimării: ca intervalul să rateze media populației. Probabilitatea ca intervalul să o conțină e nivelul de încredere, 1 − α = 0,95. α nu descrie persoanele din eșantion și nu e o eroare standard (aceea e σ/√n, o abatere standard, nu o probabilitate).",
+          "tag": "Nivelul de semnificație (α)",
+          "tip": "concept"
+        },
+        {
+          "q": "Un raport precizează un nivel de încredere de 99%. Cât este α și cum se împarte?",
+          "opts": [
+            "α = 0,99, câte 0,495 în fiecare extremitate",
+            "α = 0,01, totul în extremitatea superioară",
+            "α = 0,005, câte 0,0025 în fiecare extremitate",
+            "α = 0,01, câte 0,005 în fiecare extremitate"
+          ],
+          "correct": 3,
+          "explain": "Nivelul de încredere e 1 − α, deci α = 1 − 0,99 = 0,01; probabilitatea de eroare se împarte egal între cele două extremități (α/2 = 0,005), de aceea se caută Zα/2. 0,99 e chiar nivelul de încredere, iar 0,495 e aria dintre medie și o limită. A pune tot α într-o parte sau a-l înjumătăți de două ori sunt greșeli de împărțire.",
+          "tag": "Nivelul de încredere",
+          "tip": "calcul"
+        },
+        {
+          "q": "Pentru un interval de 90% îți trebuie scorul Z care lasă 0,45 din arie între medie și limită. Tabelul curbei normale dă 0,4495 la Z = 1,64 și 0,4505 la Z = 1,65. Ce valoare iei?",
+          "opts": [
+            "1,64, ca intervalul să fie cât mai precis",
+            "1,96, valoarea pentru orice interval",
+            "1,28, care lasă 0,10 într-o singură parte",
+            "1,65, ca intervalul să fie cât mai larg"
+          ],
+          "correct": 3,
+          "explain": "Când proporția căutată cade între două valori din tabel, se ia scorul mai mare (1,65; la 99%, 2,58), ca intervalul să fie cel mai larg posibil în condițiile date — alegerea prudentă. 1,64 ar îngusta intervalul tocmai pe seama încrederii. 1,96 corespunde nivelului de 95%, iar 1,28 ar pune tot α = 0,10 într-o singură extremitate.",
+          "tag": "Alegerea lui Zα/2",
+          "tip": "regula"
+        },
+        {
+          "q": "Un test de inteligență are σ = 15 cunoscut. Pe un eșantion aleatoriu de 100 de elevi, X̄ = 104. Care e intervalul de încredere de 95% pentru μ?",
+          "opts": [
+            "104 ± 2,94, adică 101,06 – 106,94",
+            "104 ± 0,29, adică 103,71 – 104,29",
+            "104 ± 29,4, adică 74,6 – 133,4",
+            "104 ± 2,48, adică 101,52 – 106,48"
+          ],
+          "correct": 0,
+          "explain": "IE = X̄ ± Zα/2 · σ/√n = 104 ± 1,96 · 15/10 = 104 ± 2,94. Varianta ± 0,29 împarte σ la n, nu la √n; ± 29,4 uită să împartă (descrie scorurile individuale, nu mediile); ± 2,48 folosește 1,65, scorul pentru 90%.",
+          "tag": "Intervalul cu σ cunoscut",
+          "tip": "calcul"
+        },
+        {
+          "q": "Un studiu raportează un interval de încredere de 95% pentru media orelor de somn ale studenților: 6,8 – 7,4 ore. Care formulare e corectă?",
+          "opts": [
+            "95% dintre studenți dorm între 6,8 și 7,4 ore",
+            "Media populației se află sigur între 6,8 și 7,4",
+            "95% dintre mediile eșantioanelor sunt chiar 7,1",
+            "E 95% probabil ca intervalul să conțină media populației"
+          ],
+          "correct": 3,
+          "explain": "Intervalul e o amplitudine în care e probabil, nu sigur, să se afle μ, cu probabilitatea dată de nivelul de încredere. El privește media, nu somnul fiecărui student — scorurile individuale sunt mult mai împrăștiate. „Sigur” ignoră cele 5% șanse de eroare (α).",
+          "tag": "Interpretarea intervalului",
+          "tip": "concept"
+        },
+        {
+          "q": "Un psiholog are un eșantion aleatoriu de 64 de elevi; σ populației e necunoscut, așa că folosește s. Cum construiește intervalul pentru μ, cu procedura pentru eșantioane mari?",
+          "opts": [
+            "Cu Zα/2 și s/√n, fără nicio corecție",
+            "Cu Zα/2 și s/√(n − 1) în locul lui σ/√n",
+            "Cu Zα/2 și s/√(n + 1) în locul lui σ/√n",
+            "Nu se poate construi niciun interval fără σ"
+          ],
+          "correct": 1,
+          "explain": "Pentru n ≥ 30, σ se estimează prin s, iar distorsiunea lui s (care îl subestimează pe σ) se corectează împărțind la √(n − 1). Fără corecție, intervalul ar ieși puțin prea îngust; cu √(n + 1) corecția ar merge în direcția greșită. Lipsa lui σ e situația obișnuită și nu împiedică estimarea.",
+          "tag": "Intervalul cu s (n ≥ 30)",
+          "tip": "metoda"
+        },
+        {
+          "q": "Un cercetător cu n = 400 înlocuiește σ (necunoscut) cu s și împarte la √399 în loc de √400. Ce urmărește prin asta?",
+          "opts": [
+            "Compensează faptul că s îl supraestimează pe σ",
+            "Corectează distorsiunea mediei eșantionului",
+            "Compensează faptul că s îl subestimează pe σ",
+            "Face distribuția mediilor să devină normală"
+          ],
+          "correct": 2,
+          "explain": "s e un estimator distorsionat al lui σ: de regulă mai mic. Un numitor ceva mai mic (√(n − 1)) mărește puțin eroarea standard și deci intervalul, compensând subestimarea. Media eșantionului e nedistorsionată, deci nu are ce corecta; normalitatea distribuției mediilor vine din teorema limitei centrale, din Cap. 6 (Eșantionarea și distribuții de eșantionare), nu din această corecție.",
+          "tag": "Corecția n − 1",
+          "tip": "principiu"
+        },
+        {
+          "q": "Un set de 6 scoruri are media 10. Cinci dintre ele sunt 8, 9, 10, 11 și 12. Ce poți spune despre al șaselea?",
+          "opts": [
+            "Poate lua orice valoare; toate 6 sunt libere",
+            "E fixat: trebuie să fie 10; doar 5 sunt libere",
+            "E fixat: trebuie să fie 12; doar 5 sunt libere",
+            "E fixat împreună cu al cincilea; doar 4 sunt libere"
+          ],
+          "correct": 1,
+          "explain": "Media 10 la 6 scoruri înseamnă suma 60; primele cinci dau 50, deci al șaselea e obligatoriu 10. Odată fixată media, doar n − 1 = 5 valori sunt libere să varieze: gradele de libertate. 12 ar da suma 62 (media 10,33), iar o singură constrângere (media) fixează un singur scor, nu două.",
+          "tag": "Gradele de libertate",
+          "tip": "calcul"
+        },
+        {
+          "q": "Un clinician are 12 pacienți, σ e necunoscut, iar scorul măsurat e normal distribuit în populație. Ce distribuție folosește pentru intervalul mediei?",
+          "opts": [
+            "Distribuția t, cu 11 grade de libertate",
+            "Distribuția t, cu 12 grade de libertate",
+            "Normala standard, cu s/√(n − 1)",
+            "Normala standard, cu σ înlocuit de s"
+          ],
+          "correct": 0,
+          "explain": "Cu n < 30 și σ necunoscut, distribuția mediilor nu mai e descrisă de normala standard; se folosește t-Student, cu n − 1 = 11 grade de libertate (o valoare se pierde prin calculul mediei). Corecția s/√(n − 1) cu Z e procedura pentru eșantioane de cel puțin 30.",
+          "tag": "Distribuția t",
+          "tip": "metoda"
+        },
+        {
+          "q": "Pentru un eșantion de 16 persoane vrei un interval de 95% cu distribuția t. Unde cauți tα/2 în tabelul valorilor critice?",
+          "opts": [
+            "În coloana t0,05, pe rândul gl = 15",
+            "În coloana t0,025, pe rândul gl = 16",
+            "În coloana t0,025, pe rândul gl = 15",
+            "În coloana t0,05, pe rândul gl = 16"
+          ],
+          "correct": 2,
+          "explain": "Tabelul dă tα, valoarea cu aria α la dreapta; pentru interval îți trebuie α/2 = 0,025 (cele 0,05 se împart pe două extremități). Rândul e dat de gradele de libertate, n − 1 = 15. Coloana t0,05 ar pune tot α într-o parte, iar gl = 16 uită pierderea unui grad prin medie.",
+          "tag": "Tabelul valorilor critice t",
+          "tip": "regula"
+        },
+        {
+          "q": "Într-un sondaj, 120 din 400 de persoane răspund „da”. Vrei cel mai prudent interval pentru proporția din populație. Ce pui sub radical?",
+          "opts": [
+            "0,3 · 0,7/400, cu P estimat prin p",
+            "0,3/400, doar proporția din eșantion",
+            "0,25/400, ca și cum P ar fi 0,5",
+            "0,25/120, raportat la cei care spun „da”"
+          ],
+          "correct": 2,
+          "explain": "P e necunoscut; varianta cea mai conservatoare pune P = 0,5, pentru că P(1 − P) = 0,25 e valoarea maximă și dă intervalul cel mai larg. Estimarea lui P prin p = 0,3 e cealaltă soluție, corectă, dar dă un interval mai îngust (0,21 < 0,25). Formula cere produsul P(1 − P), nu P singur, și n-ul întregului eșantion.",
+          "tag": "Soluția conservatoare P = 0,5",
+          "tip": "metoda"
+        }
+      ],
+      "ascunse": [
+        {
+          "q": "Vrei să estimezi proporția unei tulburări rare: în 80 de persoane examinate găsești 2 cazuri. Poți folosi intervalul cu Z pentru proporții?",
+          "opts": [
+            "Nu: np = 2 e sub pragul de 5",
+            "Da: n = 80 trece de pragul de 30",
+            "Da: n(1 − p) = 78 trece de 5",
+            "Nu: p ar trebui să fie exact 0,5"
+          ],
+          "correct": 0,
+          "explain": "Formulele pentru proporții cer np ≥ 5 și n(1 − p) ≥ 5; aici np = 80 · 0,025 = 2, deci condiția cade, chiar dacă n(1 − p) e mare. Pragul de 30 privește mediile cu σ necunoscut, nu proporțiile. P = 0,5 e doar o alegere conservatoare în calcul, nu o condiție de aplicare.",
+          "tag": "Condiția np ≥ 5",
+          "tip": "regula"
+        },
+        {
+          "q": "Pe același eșantion, o cercetătoare trece de la un interval de 95% la unul de 99%. Ce se întâmplă cu intervalul?",
+          "opts": [
+            "Se lărgește: Zα/2 crește de la 1,96 la 2,58",
+            "Se îngustează: încrederea mai mare înseamnă precizie",
+            "Rămâne la fel: n și s nu se schimbă",
+            "Se îngustează: α scade de la 0,05 la 0,01"
+          ],
+          "correct": 0,
+          "explain": "Lățimea depinde de Zα/2 și de n; la încredere mai mare, Zα/2 crește, deci și intervalul: un interval mai larg are mai multe șanse să conțină μ. Încrederea și precizia se trag în sens opus la n fix. Scăderea lui α e același lucru cu creșterea încrederii, deci tot lărgire.",
+          "tag": "Nivelul de încredere și lățimea",
+          "tip": "principiu"
+        },
+        {
+          "q": "Timpii de reacție la o sarcină variază între 200 și 600 ms; σ e necunoscut, iar tu planifici mărimea eșantionului. Ce valoare iei pentru σ?",
+          "opts": [
+            "400 ms, adică întreaga amplitudine",
+            "200 ms, amplitudinea împărțită la 2",
+            "50 ms, amplitudinea împărțită la 8",
+            "100 ms, amplitudinea împărțită la 4"
+          ],
+          "correct": 3,
+          "explain": "Aproximarea conservatoare e σ ≈ A/4, cu A = 600 − 200 = 400 ms, deci 100 ms. Întreaga amplitudine sau jumătatea ei ar umfla σ și ar cere un eșantion inutil de mare; A/8 l-ar subestima și ar da un eșantion prea mic.",
+          "tag": "Aproximarea σ ≈ A/4",
+          "tip": "calcul"
+        },
+        {
+          "q": "Distribuția mediilor de eșantion pentru un test e normală, cu σ_X̄ = 2. Cât de probabil e ca media unui eșantion să cadă la cel mult 4 puncte de μ?",
+          "opts": [
+            "Aproximativ 68%",
+            "Aproximativ 95%",
+            "Aproximativ 99,7%",
+            "Aproximativ 47,5%"
+          ],
+          "correct": 1,
+          "explain": "4 puncte înseamnă 2 erori standard (4/2) de o parte și de alta, iar între ±2Z se află circa 95% din medii, ca în Cap. 5 (Distribuția normală). 68% corespunde lui ±1Z, 99,7% lui ±3Z, iar 47,5% e doar o jumătate a intervalului (de la μ la +2Z).",
+          "tag": "Distanța față de parametru",
+          "tip": "calcul"
+        },
+        {
+          "q": "Într-o populație, proporția celor care fac sport e P = 0,2. Se extrag eșantioane aleatorii de câte 100 de persoane. Cât e abaterea standard a proporțiilor din eșantioane?",
+          "opts": [
+            "0,16",
+            "0,016",
+            "0,04",
+            "0,4"
+          ],
+          "correct": 2,
+          "explain": "σp = √(P(1 − P)/n) = √(0,2 · 0,8/100) = √0,0016 = 0,04. 0,16 e produsul P(1 − P), înainte de împărțire și radical; 0,016 e împărțirea fără radical; 0,4 e radicalul produsului, fără împărțirea la n.",
+          "tag": "Distribuția de eșantionare a proporțiilor",
+          "tip": "calcul"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "eticheta": "Runda 3 · Aplicații",
+      "titlu": "Runda 3 — Scenarii și raționament",
+      "desc": "Situații cu mai mulți pași: calculezi, alegi și interpretezi.",
+      "intrebari": [
+        {
+          "q": "Un eșantion aleatoriu de 200 de femei casnice petrece în medie 6 ore pe zi la televizor; din testări extinse se știe că σ = 0,7. Cercetătorul acceptă 10% șanse de eroare. Ce interval obține pentru media populației?",
+          "opts": [
+            "Între 5,90 și 6,10 ore",
+            "Între 4,85 și 7,15 ore",
+            "Între 5,94 și 6,06 ore",
+            "Între 5,92 și 6,08 ore"
+          ],
+          "correct": 3,
+          "explain": "α = 0,10 înseamnă 90% încredere: Zα/2 = 1,65 (scorul mai mare dintre 1,64 și 1,65). σ/√n = 0,7/14,14 = 0,0495, iar 1,65 · 0,0495 ≈ 0,08. 5,90 – 6,10 folosește 1,96 (95%); 4,85 – 7,15 uită să împartă la √n; 5,94 – 6,06 folosește 1,28, care pune tot α într-o singură extremitate.",
+          "tag": "Intervalul cu σ cunoscut",
+          "tip": "calcul",
+          "exemplu_nou": false
+        },
+        {
+          "q": "Pe un eșantion de 500 de persoane, venitul mediu e de 5 000 000 de lei, iar intervalul de 95% se extinde la ± 10 967 lei în jurul mediei. Cât s-ar extinde intervalul de 99%, pe aceleași date?",
+          "opts": [
+            "La circa ± 8 332 de lei",
+            "La circa ± 14 436 de lei",
+            "La circa ± 21 934 de lei",
+            "Tot la ± 10 967 de lei"
+          ],
+          "correct": 1,
+          "explain": "Doar Zα/2 se schimbă, de la 1,96 la 2,58, deci limita crește în raportul 2,58/1,96: 10 967 · 1,316 ≈ 14 436. ± 8 332 aplică raportul invers (ca și cum încrederea mai mare ar îngusta intervalul); ± 21 934 dublează fără temei; „neschimbat” ignoră că lățimea depinde și de nivelul de încredere, nu doar de n.",
+          "tag": "Nivelul de încredere și lățimea",
+          "tip": "calcul",
+          "exemplu_nou": false
+        },
+        {
+          "q": "Un studiu pe 500 de persoane obține un interval de 95% de ± 10 967 lei în jurul venitului mediu (s = 125 000). Se repetă studiul cu 1 000 de persoane, cu aceeași medie și aceeași s. Cât de larg va fi noul interval?",
+          "opts": [
+            "Circa ± 7 753 lei, de vreo 1,41 ori mai îngust",
+            "Circa ± 5 484 lei, exact de 2 ori mai îngust",
+            "Tot ± 10 967 lei, fiindcă s e aceeași",
+            "Circa ± 15 510 lei, de vreo 1,41 ori mai larg"
+          ],
+          "correct": 0,
+          "explain": "Limita e Z · s/√(n − 1), deci scade cu rădăcina lui n: dublarea lui n o împarte la √2 ≈ 1,41 (1,96 · 125 000/√999 ≈ 7 753). „De 2 ori” presupune o relație liniară; „neschimbat” uită că n intră în eroarea standard; „mai larg” inversează relația: eșantioanele mai mari dau estimări mai precise.",
+          "tag": "Mărimea eșantionului și lățimea",
+          "tip": "calcul",
+          "exemplu_nou": false
+        },
+        {
+          "q": "20 de adolescenți cu dificultăți de învățare au la un test de cunoștințe media 24,45 și s = 5,42 (s calculat cu n − 1); scorul e normal distribuit în populație. Din tabelul t: pentru gl = 19, t0,025 = 2,093 și t0,005 = 2,861. Ce interval de 99% obții pentru μ?",
+          "opts": [
+            "Aproximativ 21,9 – 27,0",
+            "Aproximativ 21,3 – 27,6",
+            "Aproximativ 21,0 – 27,9",
+            "Aproximativ 8,9 – 40,0"
+          ],
+          "correct": 2,
+          "explain": "Cu n < 30 și σ necunoscut se folosește t: pentru 99%, α/2 = 0,005, deci 2,861; 5,42/√20 = 1,21, iar 2,861 · 1,21 ≈ 3,46 – 3,47, adică 24,45 ± 3,47. 21,9 – 27,0 ia coloana 0,025 (interval de 95%); 21,3 – 27,6 folosește Z = 2,58 al normalei, nepotrivit la n mic; 8,9 – 40,0 uită să împartă la √n.",
+          "tag": "Intervalul cu t (n < 30)",
+          "tip": "calcul",
+          "exemplu_nou": false
+        },
+        {
+          "q": "Din 500 de angajați chestionați, 100 declară epuizare (p = 0,20). Calculezi două intervale de 95%: 0,20 ± 0,044 și 0,20 ± 0,035. Pe care îl raportezi dacă vrei soluția cea mai prudentă și de ce?",
+          "opts": [
+            "0,20 ± 0,035: calculat cu p, deci cu informația din date",
+            "0,20 ± 0,044: calculat cu P = 0,5, unde P(1 − P) e maxim",
+            "0,20 ± 0,035: calculat cu P = 0,5, unde produsul e 0,16",
+            "0,20 ± 0,044: calculat cu p, căci p(1 − p) e maxim la 0,2"
+          ],
+          "correct": 1,
+          "explain": "Cu P = 0,5: 1,96 · √(0,25/500) ≈ 0,044; cu p: 1,96 · √(0,16/500) ≈ 0,035. Intervalul mai larg e mai probabil să conțină parametrul, deci e soluția conservatoare. Estimarea prin p e legitimă, dar dă un interval mai îngust. Produsul 0,16 vine din p = 0,2, nu din 0,5, iar p(1 − p) are maximul la 0,5, nu la 0,2.",
+          "tag": "Soluția conservatoare P = 0,5",
+          "tip": "metoda",
+          "exemplu_nou": true
+        },
+        {
+          "q": "O școală vrea să estimeze scorul mediu la un chestionar de anxietate (scoruri posibile observate între 10 și 50), cu o precizie de ± 2 puncte, la 95%. σ nu se cunoaște. Cam câți elevi îi trebuie?",
+          "opts": [
+            "Aproximativ 10",
+            "Aproximativ 96",
+            "Aproximativ 384",
+            "Aproximativ 1 537"
+          ],
+          "correct": 1,
+          "explain": "σ ≈ A/4 = (50 − 10)/4 = 10; n = Z² · σ²/L² = 1,96² · 100/4 ≈ 96 (în practică se rotunjește în sus, la 97). 10 vine din Z · σ/L, fără ridicare la pătrat; 384 folosește σ = A/2 = 20; 1 537 folosește întreaga amplitudine ca σ — ambele umflă inutil eșantionul.",
+          "tag": "Eșantionul pentru o medie",
+          "tip": "calcul",
+          "exemplu_nou": true
+        },
+        {
+          "q": "Un institut de sondare vrea să estimeze procentul de votanți ai unui candidat cu o marjă de eroare de ± 4%, la 95%. Cât de mare trebuie să fie eșantionul?",
+          "opts": [
+            "Circa 25 de persoane",
+            "Circa 2 400 de persoane",
+            "Circa 425 de persoane",
+            "Circa 600 de persoane"
+          ],
+          "correct": 3,
+          "explain": "n = Z² · 0,25/L² = 3,8416 · 0,25/0,0016 ≈ 600. 25 vine din Z · 0,5/L, fără pătrat; 2 400 ar corespunde unei marje de ± 2% (dacă ai lua jumătate din 4%); 425 folosește Z = 1,65, adică un nivel de 90%.",
+          "tag": "Eșantionul pentru o proporție",
+          "tip": "calcul",
+          "exemplu_nou": true
+        },
+        {
+          "q": "Un psiholog are 25 de pacienți; σ e necunoscut, iar scorurile în populație au o distribuție puternic asimetrică. Vrea un interval de încredere pentru medie cu distribuția t. Ce problemă are?",
+          "opts": [
+            "Intervalul cu t cere un σ cunoscut al populației",
+            "Intervalul cu t cere o variabilă normal distribuită",
+            "Nu are nicio problemă: σ e necunoscut, deci t",
+            "Trebuie să folosească 25 de grade de libertate"
+          ],
+          "correct": 1,
+          "explain": "Formula cu t se aplică doar dacă variabila e normal distribuită; cu n = 25 nici teorema limitei centrale nu garantează normalitatea mediilor pentru o populație puternic asimetrică (Cap. 6 (Eșantionarea și distribuții de eșantionare)). t e tocmai soluția pentru σ necunoscut, deci nu cere σ. „Nicio problemă” vede doar o condiție din două; gl ar fi 24, nu 25, dar asta n-ar rezolva asimetria.",
+          "tag": "Condiția de normalitate",
+          "tip": "principiu",
+          "exemplu_nou": true
+        },
+        {
+          "q": "Două cercetătoare au aceeași medie și aceeași s, dar una are n = 10, cealaltă n = 25; ambele vor intervale de 95% cu t (gl = 9: t = 2,262; gl = 24: t = 2,064). Al cui interval iese mai larg?",
+          "opts": [
+            "Cel cu n = 10: și t, și s/√n sunt mai mari",
+            "Cel cu n = 25: are mai multe grade de libertate",
+            "Sunt egale: nivelul de încredere e același",
+            "Cel cu n = 10, dar doar fiindcă t e mai mare"
+          ],
+          "correct": 0,
+          "explain": "Limita e t · s/√n: pentru n = 10, 2,262 · s/3,16 ≈ 0,72 s; pentru n = 25, 2,064 · s/5 ≈ 0,41 s. Ambii factori lucrează în aceeași direcție: curba t e mai aplatizată la puține grade de libertate, iar eroarea standard e mai mare la n mic. Mai multe gl îngustează intervalul; varianta „doar t” ignoră efectul lui √n.",
+          "tag": "Distribuția t",
+          "tip": "concept",
+          "exemplu_nou": true
+        },
+        {
+          "q": "Venitul are σ = 275 000 de lei în populație. Se compară distribuțiile mediilor pentru eșantioane de 100 și de 1 000 de persoane. În ce interval în jurul lui μ cad circa 68% dintre medii în fiecare caz?",
+          "opts": [
+            "± 27 500 pentru n = 100 și ± 8 697 pentru n = 1 000",
+            "± 27 500 pentru n = 100 și ± 2 750 pentru n = 1 000",
+            "± 2 750 pentru n = 100 și ± 275 pentru n = 1 000",
+            "± 275 000 pentru ambele, σ nedepinzând de n"
+          ],
+          "correct": 0,
+          "explain": "68% cad între ±1 eroare standard: 275 000/√100 = 27 500 și 275 000/√1 000 ≈ 8 697. ± 2 750 la n = 1 000 presupune scădere proporțională cu n (de 10 ori), nu cu √n; varianta cu 2 750 și 275 împarte σ la n; ± 275 000 descrie scorurile individuale, nu mediile.",
+          "tag": "Eficiență și mărimea eșantionului",
+          "tip": "calcul",
+          "exemplu_nou": false
+        },
+        {
+          "q": "100 de echipe extrag fiecare un eșantion aleatoriu din aceeași populație și construiesc câte un interval de încredere de 90% pentru aceeași medie. La ce te aștepți?",
+          "opts": [
+            "Toate conțin μ, doar că au lățimi diferite",
+            "Circa 10 intervale conțin μ, circa 90 nu",
+            "Circa 90 de intervale conțin μ, circa 10 nu",
+            "Circa 90% din populație cade în fiecare interval"
+          ],
+          "correct": 2,
+          "explain": "Fiecare interval are probabilitatea 0,90 să conțină μ și 0,10 (α) să-l rateze, deci la 100 de intervale te aștepți ca aproximativ 10 să-l rateze. „Toate” ignoră α; varianta 10/90 inversează încrederea cu eroarea; intervalul privește media, nu persoanele din populație.",
+          "tag": "Interpretarea intervalului",
+          "tip": "concept",
+          "exemplu_nou": true
+        },
+        {
+          "q": "Pe un eșantion aleatoriu de 101 angajați, scorul mediu de implicare e 50, cu s = 12; σ nu se cunoaște. Ce interval de 95% obții pentru μ?",
+          "opts": [
+            "Între 48,02 și 51,98",
+            "Între 49,76 și 50,24",
+            "Între 26,48 și 73,52",
+            "Între 47,65 și 52,35"
+          ],
+          "correct": 3,
+          "explain": "n ≥ 30: Z cu corecția s/√(n − 1) = 12/√100 = 1,2; 1,96 · 1,2 = 2,35. 48,02 – 51,98 folosește 1,65 (90%); 49,76 – 50,24 împarte s la n − 1 fără radical; 26,48 – 73,52 nu împarte deloc, adică descrie scorurile, nu media.",
+          "tag": "Intervalul cu s (n ≥ 30)",
+          "tip": "calcul",
+          "exemplu_nou": true
+        },
+        {
+          "q": "O directoare de resurse umane vrea să știe nu doar cât e satisfacția medie a angajaților, ci și cât se poate baza pe cifra obținută dintr-un eșantion. Ce rezultat îi răspunde la ambele întrebări?",
+          "opts": [
+            "Media eșantionului, raportată cu două zecimale",
+            "Media unui eșantion foarte mare, fără alt indicator",
+            "Un interval de încredere, cu nivelul de încredere precizat",
+            "Abaterea standard a eșantionului, ca grad de încredere"
+          ],
+          "correct": 2,
+          "explain": "Estimarea pe interval dă o amplitudine plauzibilă pentru μ și o probabilitate stabilită precis că o conține — exact „cât de mult te poți baza”. O medie, oricât de precis scrisă, e o estimare punctuală fără probabilitate atașată; un n mare o face mai eficientă, dar tot nu spune cât. s descrie împrăștierea scorurilor, nu încrederea în estimare.",
+          "tag": "Intervalul de încredere",
+          "tip": "metoda",
+          "exemplu_nou": true
+        },
+        {
+          "q": "Un sondaj pe 2 500 de persoane costă 50 000 de lei și are o marjă de ± 2%. Sponsorul vrea ± 1%, la același nivel de încredere. Ce presupune asta, dacă costul crește proporțional cu n?",
+          "opts": [
+            "5 000 de persoane, circa 100 000 de lei",
+            "3 536 de persoane, circa 70 700 de lei",
+            "10 000 de persoane, circa 200 000 de lei",
+            "20 000 de persoane, circa 400 000 de lei"
+          ],
+          "correct": 2,
+          "explain": "n = Z² · 0,25/L², deci înjumătățirea lui L cere de 4 ori mai multe persoane (2² = 4) și, la cost proporțional, de 4 ori mai mulți bani. 5 000 presupune o relație liniară (precizia crește mai încet decât n); 3 536 aplică rădăcina invers; 20 000 multiplică cu 8 fără temei.",
+          "tag": "Limita de eroare (L)",
+          "tip": "calcul",
+          "exemplu_nou": true
+        },
+        {
+          "q": "Doi estimatori pentru același parametru: distribuția de eșantionare a lui A e centrată exact pe parametru, cu abaterea standard 6; a lui B e centrată cu 3 unități peste parametru, cu abaterea standard 2. Ce poți spune?",
+          "opts": [
+            "B e distorsionat, dar B e și cel mai eficient",
+            "A e distorsionat, iar B e cel mai eficient",
+            "B e distorsionat, iar A e cel mai eficient",
+            "Niciunul nu e distorsionat; A e cel mai eficient"
+          ],
+          "correct": 0,
+          "explain": "Distorsiunea privește centrul distribuției: B nu e centrat pe parametru, deci e distorsionat. Eficiența privește împrăștierea: B e mai grupat (2 < 6), deci mai eficient. Cele două condiții sunt independente — de aceea se cer amândouă; a lega eficiența de lipsa distorsiunii (sau invers) amestecă proprietățile.",
+          "tag": "Estimator distorsionat",
+          "tip": "concept",
+          "exemplu_nou": true
+        }
+      ],
+      "ascunse": [
+        {
+          "q": "16 voluntari au la o scală de stres media 30 și s = 8 (cu n − 1); scorul e normal distribuit. Din tabelul t, pentru gl = 15: t0,05 = 1,753 și t0,025 = 2,131. Ce interval de 95% obții pentru μ?",
+          "opts": [
+            "Între 26,08 și 33,92",
+            "Între 25,74 și 34,26",
+            "Între 26,49 și 33,51",
+            "Între 12,95 și 47,05"
+          ],
+          "correct": 1,
+          "explain": "Cu n < 30 și σ necunoscut: t0,025 cu 15 gl = 2,131; s/√n = 8/4 = 2; 2,131 · 2 ≈ 4,26. 26,08 – 33,92 folosește 1,96 al normalei, prea mic pentru n = 16; 26,49 – 33,51 ia coloana 0,05, adică tot α într-o parte (interval de 90%); 12,95 – 47,05 uită împărțirea la √n.",
+          "tag": "Intervalul cu t (n < 30)",
+          "tip": "calcul",
+          "exemplu_nou": true
+        },
+        {
+          "q": "Din 300 de studenți, 60 lucrează part-time (p = 0,20). Construiești un interval de 95% estimând P prin p. Ce obții?",
+          "opts": [
+            "Între 0,143 și 0,257",
+            "Între 0,199 și 0,201",
+            "Între 0,155 și 0,245",
+            "Între 0,162 și 0,238"
+          ],
+          "correct": 2,
+          "explain": "√(0,2 · 0,8/300) ≈ 0,0231; 1,96 · 0,0231 ≈ 0,045, deci 0,20 ± 0,045. 0,143 – 0,257 e soluția conservatoare, cu P = 0,5 (mai largă); 0,199 – 0,201 uită radicalul; 0,162 – 0,238 folosește 1,65, adică 90%.",
+          "tag": "Estimarea lui P prin p",
+          "tip": "calcul",
+          "exemplu_nou": true
+        },
+        {
+          "q": "Cu un eșantion de 200 de persoane și σ necunoscut, o colegă vrea să folosească t cu 199 de grade de libertate, iar tu procedura cu Z. Cum vor diferi intervalele?",
+          "opts": [
+            "Aproape deloc: la multe gl, t seamănă cu normala",
+            "Mult: curba t e mult mai aplatizată decât normala",
+            "Intervalul cu t va fi vizibil mai îngust decât cu Z",
+            "Vor coincide doar dacă variabila e uniformă"
+          ],
+          "correct": 0,
+          "explain": "Pe măsură ce gradele de libertate cresc, curba t se apropie de normală și se confundă cu ea la infinit; la 199 gl valorile critice sunt practic cele ale lui Z. Aplatizarea vizibilă apare la eșantioane mici; t nu dă niciodată un interval mai îngust decât Z la același α, iar forma uniformă nu are legătură cu această convergență.",
+          "tag": "Distribuția t",
+          "tip": "concept",
+          "exemplu_nou": true
+        },
+        {
+          "q": "Un psiholog industrial observă că un reglaj durează între 10 și 22 de minute. Vrea să estimeze durata medie cu o precizie de 30 de secunde, la 95%. Cam câți muncitori îi trebuie?",
+          "opts": [
+            "Aproximativ 138",
+            "Aproximativ 12",
+            "Aproximativ 553",
+            "Aproximativ 240"
+          ],
+          "correct": 0,
+          "explain": "σ ≈ A/4 = 12/4 = 3 min = 180 s (precizia e în secunde, deci și σ); n = 1,96² · 180²/30² ≈ 138. 12 vine din Z · σ/L, fără pătrat; 553 folosește σ = A/2; 240 folosește 2,58, adică 99%.",
+          "tag": "Eșantionul pentru o medie",
+          "tip": "calcul",
+          "exemplu_nou": true
+        },
+        {
+          "q": "Pe aceleași date, cercetătorul A raportează un interval de 90%, iar B unul de 99%. Ce caracterizează intervalul lui A, față de al lui B?",
+          "opts": [
+            "E mai larg și are 10% șanse să rateze μ",
+            "E mai îngust și are doar 1% șanse să rateze μ",
+            "E mai larg și are 90% șanse să rateze μ",
+            "E mai îngust, dar are 10% șanse să rateze μ"
+          ],
+          "correct": 3,
+          "explain": "La încredere mai mică, Zα/2 e mai mic (1,65 față de 2,58), deci intervalul e mai îngust, dar riscul de eroare, α = 0,10, e mai mare. 1% e riscul lui B; „mai larg” inversează relația dintre încredere și lățime; 90% e nivelul de încredere al lui A, nu probabilitatea de a greși.",
+          "tag": "Nivelul de semnificație (α)",
+          "tip": "concept",
+          "exemplu_nou": true
+        }
+      ]
+    }
+  ],
+  "harta": {
+    "centru": "Proceduri de estimare statistică",
+    "ramuri": [
+      {
+        "titlu": "Proprietățile estimatorilor",
+        "figuri": [
+          {
+            "titlu": "Nedistorsionat vs distorsionat",
+            "nota": "Curbe ilustrative: distribuția de eșantionare a unui estimator nedistorsionat e centrată pe parametru; s, ca estimator al lui σ, e deplasat în jos.",
+            "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 190\" role=\"img\" aria-label=\"Două distribuții de eșantionare: una centrată pe parametru, alta deplasată spre stânga\" font-family=\"Georgia, serif\" font-size=\"13\"><line x1=\"20.0\" y1=\"130.0\" x2=\"300.0\" y2=\"130.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><polyline points=\"20.0,130.0 22.3,130.0 24.7,129.9 27.0,129.9 29.3,129.9 31.7,129.9 34.0,129.9 36.3,129.8 38.7,129.8 41.0,129.7 43.3,129.7 45.7,129.6 48.0,129.5 50.3,129.3 52.7,129.2 55.0,129.0 57.3,128.8 59.7,128.5 62.0,128.2 64.3,127.9 66.7,127.5 69.0,127.0 71.3,126.4 73.7,125.8 76.0,125.0 78.3,124.2 80.7,123.2 83.0,122.1 85.3,120.9 87.7,119.5 90.0,118.0 92.3,116.3 94.7,114.5 97.0,112.5 99.3,110.3 101.7,107.9 104.0,105.4 106.3,102.6 108.7,99.8 111.0,96.7 113.3,93.6 115.7,90.3 118.0,86.8 120.3,83.4 122.7,79.8 125.0,76.2 127.3,72.6 129.7,69.1 132.0,65.6 134.3,62.2 136.7,59.0 139.0,56.0 141.3,53.1 143.7,50.5 146.0,48.2 148.3,46.1 150.7,44.4 153.0,43.1 155.3,42.1 157.7,41.5 160.0,41.3 162.3,41.5 164.7,42.1 167.0,43.1 169.3,44.4 171.7,46.1 174.0,48.2 176.3,50.5 178.7,53.1 181.0,56.0 183.3,59.0 185.7,62.2 188.0,65.6 190.3,69.1 192.7,72.6 195.0,76.2 197.3,79.8 199.7,83.4 202.0,86.8 204.3,90.3 206.7,93.6 209.0,96.7 211.3,99.8 213.7,102.6 216.0,105.4 218.3,107.9 220.7,110.3 223.0,112.5 225.3,114.5 227.7,116.3 230.0,118.0 232.3,119.5 234.7,120.9 237.0,122.1 239.3,123.2 241.7,124.2 244.0,125.0 246.3,125.8 248.7,126.4 251.0,127.0 253.3,127.5 255.7,127.9 258.0,128.2 260.3,128.5 262.7,128.8 265.0,129.0 267.3,129.2 269.7,129.3 272.0,129.5 274.3,129.6 276.7,129.7 279.0,129.7 281.3,129.8 283.7,129.8 286.0,129.9 288.3,129.9 290.7,129.9 293.0,129.9 295.3,129.9 297.7,130.0 300.0,130.0\" fill=\"none\" stroke=\"#2a78d6\" stroke-width=\"2\"/><polyline points=\"20.0,128.9 22.3,128.6 24.7,128.3 27.0,127.9 29.3,127.5 31.7,126.9 34.0,126.2 36.3,125.5 38.7,124.6 41.0,123.5 43.3,122.3 45.7,121.0 48.0,119.4 50.3,117.6 52.7,115.7 55.0,113.5 57.3,111.0 59.7,108.3 62.0,105.4 64.3,102.3 66.7,98.9 69.0,95.3 71.3,91.5 73.7,87.5 76.0,83.3 78.3,79.0 80.7,74.7 83.0,70.3 85.3,65.8 87.7,61.5 90.0,57.2 92.3,53.1 94.7,49.2 97.0,45.6 99.3,42.3 101.7,39.3 104.0,36.8 106.3,34.8 108.7,33.2 111.0,32.1 113.3,31.6 115.7,31.6 118.0,32.1 120.3,33.2 122.7,34.8 125.0,36.8 127.3,39.3 129.7,42.3 132.0,45.6 134.3,49.2 136.7,53.1 139.0,57.2 141.3,61.5 143.7,65.8 146.0,70.3 148.3,74.7 150.7,79.0 153.0,83.3 155.3,87.5 157.7,91.5 160.0,95.3 162.3,98.9 164.7,102.3 167.0,105.4 169.3,108.3 171.7,111.0 174.0,113.5 176.3,115.7 178.7,117.6 181.0,119.4 183.3,121.0 185.7,122.3 188.0,123.5 190.3,124.6 192.7,125.5 195.0,126.2 197.3,126.9 199.7,127.5 202.0,127.9 204.3,128.3 206.7,128.6 209.0,128.9 211.3,129.1 213.7,129.3 216.0,129.5 218.3,129.6 220.7,129.7 223.0,129.7 225.3,129.8 227.7,129.8 230.0,129.9 232.3,129.9 234.7,129.9 237.0,129.9 239.3,130.0 241.7,130.0 244.0,130.0 246.3,130.0 248.7,130.0 251.0,130.0 253.3,130.0 255.7,130.0 258.0,130.0 260.3,130.0 262.7,130.0 265.0,130.0 267.3,130.0 269.7,130.0 272.0,130.0 274.3,130.0 276.7,130.0 279.0,130.0 281.3,130.0 283.7,130.0 286.0,130.0 288.3,130.0 290.7,130.0 293.0,130.0 295.3,130.0 297.7,130.0 300.0,130.0\" fill=\"none\" stroke=\"#eb6834\" stroke-width=\"2\"/><line x1=\"160.0\" y1=\"130.0\" x2=\"160.0\" y2=\"26.0\" stroke=\"#2c2a26\" stroke-width=\"1\" stroke-dasharray=\"4,3\"/><text x=\"160.0\" y=\"22.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.8\">parametrul (μ, σ, P)</text><line x1=\"114.5\" y1=\"130.0\" x2=\"114.5\" y2=\"31.5\" stroke=\"#eb6834\" stroke-width=\"1\" stroke-dasharray=\"2,3\"/><text x=\"160.0\" y=\"146.0\" text-anchor=\"middle\" fill=\"#2a78d6\" font-size=\"10.2\">centrul = parametrul</text><text x=\"114.5\" y=\"160.0\" text-anchor=\"middle\" fill=\"#eb6834\" font-size=\"10.2\">centrul ≠ parametrul</text><rect x=\"28.0\" y=\"172.0\" width=\"10.0\" height=\"10.0\" fill=\"#2a78d6\"></rect><text x=\"42.0\" y=\"181.0\" text-anchor=\"start\" fill=\"#2c2a26\" font-size=\"10.8\">nedistorsionat (X̄, p)</text><rect x=\"192.4\" y=\"172.0\" width=\"10.0\" height=\"10.0\" fill=\"#eb6834\"></rect><text x=\"206.4\" y=\"181.0\" text-anchor=\"start\" fill=\"#2c2a26\" font-size=\"10.8\">distorsionat (s)</text></svg>"
+          }
+        ],
+        "noduri": [
+          {
+            "t": "Estimator nedistorsionat",
+            "d": "Media distribuției sale de eșantionare e egală cu parametrul. Media eșantionului (μ_X̄ = μ, din teorema limitei centrale) și proporția eșantionului (μp = P) sunt nedistorsionate."
+          },
+          {
+            "t": "Estimator distorsionat",
+            "d": "Media distribuției sale de eșantionare diferă de parametru. Exemplu: s față de σ — dispersia eșantionului e de regulă mai mică, deci s îl subestimează pe σ; distorsiunea se corectează (vezi Cap. 4 (Mărimile dispersiei))."
+          },
+          {
+            "t": "Distanța față de parametru",
+            "d": "Un estimator nedistorsionat permite enunțuri de probabilitate: media unui eșantion se află cu ~68% șanse în ±1Z, ~95% în ±2Z și ~99,7% în ±3Z de μ. Observație: cartea scrie „98%” pentru ±3Z și „2%” în afară; figura alăturată din carte dă corect 0,13% în fiecare extremitate."
+          }
+        ]
+      },
+      {
+        "titlu": "Eficiența estimatorului",
+        "figuri": [
+          {
+            "titlu": "Eficiența crește cu n",
+            "nota": "Exemplul venitului: σ = 275 000; σ_X̄ = 27 500 pentru n = 100 și 8 697 pentru n = 1 000 (curbe exacte).",
+            "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 190\" role=\"img\" aria-label=\"Distribuția mediilor pentru n = 100 este largă; pentru n = 1000 este mult mai îngustă\" font-family=\"Georgia, serif\" font-size=\"13\"><line x1=\"20.0\" y1=\"135.0\" x2=\"300.0\" y2=\"135.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><polyline points=\"20.0,135.0 22.3,134.9 24.7,134.9 27.0,134.9 29.3,134.9 31.7,134.9 34.0,134.9 36.3,134.8 38.7,134.8 41.0,134.7 43.3,134.7 45.7,134.6 48.0,134.5 50.3,134.5 52.7,134.4 55.0,134.2 57.3,134.1 59.7,133.9 62.0,133.8 64.3,133.6 66.7,133.3 69.0,133.1 71.3,132.8 73.7,132.5 76.0,132.1 78.3,131.7 80.7,131.3 83.0,130.8 85.3,130.2 87.7,129.6 90.0,129.0 92.3,128.3 94.7,127.6 97.0,126.8 99.3,125.9 101.7,125.1 104.0,124.1 106.3,123.1 108.7,122.1 111.0,121.1 113.3,120.0 115.7,118.9 118.0,117.7 120.3,116.6 122.7,115.4 125.0,114.3 127.3,113.1 129.7,112.0 132.0,111.0 134.3,109.9 136.7,108.9 139.0,108.0 141.3,107.1 143.7,106.4 146.0,105.7 148.3,105.1 150.7,104.6 153.0,104.2 155.3,103.9 157.7,103.7 160.0,103.7 162.3,103.7 164.7,103.9 167.0,104.2 169.3,104.6 171.7,105.1 174.0,105.7 176.3,106.4 178.7,107.1 181.0,108.0 183.3,108.9 185.7,109.9 188.0,111.0 190.3,112.0 192.7,113.1 195.0,114.3 197.3,115.4 199.7,116.6 202.0,117.7 204.3,118.9 206.7,120.0 209.0,121.1 211.3,122.1 213.7,123.1 216.0,124.1 218.3,125.1 220.7,125.9 223.0,126.8 225.3,127.6 227.7,128.3 230.0,129.0 232.3,129.6 234.7,130.2 237.0,130.8 239.3,131.3 241.7,131.7 244.0,132.1 246.3,132.5 248.7,132.8 251.0,133.1 253.3,133.3 255.7,133.6 258.0,133.8 260.3,133.9 262.7,134.1 265.0,134.2 267.3,134.4 269.7,134.5 272.0,134.5 274.3,134.6 276.7,134.7 279.0,134.7 281.3,134.8 283.7,134.8 286.0,134.9 288.3,134.9 290.7,134.9 293.0,134.9 295.3,134.9 297.7,134.9 300.0,135.0\" fill=\"none\" stroke=\"#eb6834\" stroke-width=\"2\"/><polyline points=\"20.0,135.0 22.3,135.0 24.7,135.0 27.0,135.0 29.3,135.0 31.7,135.0 34.0,135.0 36.3,135.0 38.7,135.0 41.0,135.0 43.3,135.0 45.7,135.0 48.0,135.0 50.3,135.0 52.7,135.0 55.0,135.0 57.3,135.0 59.7,135.0 62.0,135.0 64.3,135.0 66.7,135.0 69.0,135.0 71.3,135.0 73.7,135.0 76.0,135.0 78.3,135.0 80.7,135.0 83.0,135.0 85.3,135.0 87.7,135.0 90.0,135.0 92.3,135.0 94.7,135.0 97.0,135.0 99.3,135.0 101.7,135.0 104.0,135.0 106.3,135.0 108.7,135.0 111.0,135.0 113.3,134.9 115.7,134.9 118.0,134.7 120.3,134.5 122.7,134.1 125.0,133.4 127.3,132.3 129.7,130.6 132.0,128.0 134.3,124.3 136.7,119.2 139.0,112.6 141.3,104.4 143.7,94.7 146.0,83.9 148.3,72.4 150.7,61.2 153.0,51.0 155.3,42.9 157.7,37.7 160.0,35.9 162.3,37.7 164.7,42.9 167.0,51.0 169.3,61.2 171.7,72.4 174.0,83.9 176.3,94.7 178.7,104.4 181.0,112.6 183.3,119.2 185.7,124.3 188.0,128.0 190.3,130.6 192.7,132.3 195.0,133.4 197.3,134.1 199.7,134.5 202.0,134.7 204.3,134.9 206.7,134.9 209.0,135.0 211.3,135.0 213.7,135.0 216.0,135.0 218.3,135.0 220.7,135.0 223.0,135.0 225.3,135.0 227.7,135.0 230.0,135.0 232.3,135.0 234.7,135.0 237.0,135.0 239.3,135.0 241.7,135.0 244.0,135.0 246.3,135.0 248.7,135.0 251.0,135.0 253.3,135.0 255.7,135.0 258.0,135.0 260.3,135.0 262.7,135.0 265.0,135.0 267.3,135.0 269.7,135.0 272.0,135.0 274.3,135.0 276.7,135.0 279.0,135.0 281.3,135.0 283.7,135.0 286.0,135.0 288.3,135.0 290.7,135.0 293.0,135.0 295.3,135.0 297.7,135.0 300.0,135.0\" fill=\"none\" stroke=\"#2a78d6\" stroke-width=\"2\"/><line x1=\"147.8\" y1=\"152.0\" x2=\"172.2\" y2=\"152.0\" stroke=\"#6b6760\" stroke-width=\"1\"/><line x1=\"147.8\" y1=\"148.0\" x2=\"147.8\" y2=\"156.0\" stroke=\"#6b6760\" stroke-width=\"1\"/><line x1=\"172.2\" y1=\"148.0\" x2=\"172.2\" y2=\"156.0\" stroke=\"#6b6760\" stroke-width=\"1\"/><text x=\"160.0\" y=\"166.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.8\">± 8 697</text><line x1=\"121.5\" y1=\"135.0\" x2=\"121.5\" y2=\"128.0\" stroke=\"#eb6834\" stroke-width=\"1.5\"/><line x1=\"198.5\" y1=\"135.0\" x2=\"198.5\" y2=\"128.0\" stroke=\"#eb6834\" stroke-width=\"1.5\"/><text x=\"202.5\" y=\"147.0\" text-anchor=\"start\" fill=\"#eb6834\" font-size=\"10.2\">± 27 500</text><line x1=\"20.0\" y1=\"135.0\" x2=\"20.0\" y2=\"139.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><text x=\"20.0\" y=\"180.0\" text-anchor=\"start\" fill=\"#6b6760\" font-size=\"10.2\">4,9 mil.</text><line x1=\"160.0\" y1=\"135.0\" x2=\"160.0\" y2=\"139.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><text x=\"160.0\" y=\"180.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">μ = 5 mil.</text><line x1=\"300.0\" y1=\"135.0\" x2=\"300.0\" y2=\"139.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><text x=\"300.0\" y=\"180.0\" text-anchor=\"end\" fill=\"#6b6760\" font-size=\"10.2\">5,1 mil.</text><rect x=\"28.0\" y=\"12.0\" width=\"10.0\" height=\"10.0\" fill=\"#eb6834\"></rect><text x=\"42.0\" y=\"21.0\" text-anchor=\"start\" fill=\"#2c2a26\" font-size=\"10.8\">n = 100</text><rect x=\"99.4\" y=\"12.0\" width=\"10.0\" height=\"10.0\" fill=\"#2a78d6\"></rect><text x=\"113.4\" y=\"21.0\" text-anchor=\"start\" fill=\"#2c2a26\" font-size=\"10.8\">n = 1 000</text></svg>"
+          }
+        ],
+        "noduri": [
+          {
+            "t": "Eficiența estimatorului",
+            "d": "Un estimator e cu atât mai eficient cu cât distribuția lui de eșantionare e mai grupată în jurul mediei, adică are o abatere standard mai mică. A doua condiție, alături de lipsa distorsiunii; cele două sunt independente."
+          },
+          {
+            "t": "Eficiență și mărimea eșantionului",
+            "d": "σ_X̄ = σ/√n scade când n crește, deci media devine mai eficientă pe eșantioane mai mari. Exemplul venitului (σ = 275 000): σ_X̄ = 27 500 la n = 100 și 8 697 la n = 1 000. Interpretare: scăderea e cu √n, nu proporțională cu n, deși cartea spune că eficiența e „direct proporțională” cu n."
+          }
+        ]
+      },
+      {
+        "titlu": "Estimarea punctuală și pe interval",
+        "figuri": [
+          {
+            "titlu": "De unde vine 1,96",
+            "nota": "Între medie și ±1,96 se află câte 0,475 din arie; în afară rămân 0,025 + 0,025 = α.",
+            "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 184\" role=\"img\" aria-label=\"Curba normală cu 0,95 între −1,96 și +1,96 și câte 0,025 în fiecare extremitate\" font-family=\"Georgia, serif\" font-size=\"13\"><path d=\"M83.8,140.0 L83.8,124.7 L86.3,122.6 L88.9,120.4 L91.4,118.0 L93.9,115.3 L96.5,112.5 L99.0,109.4 L101.6,106.2 L104.1,102.8 L106.6,99.2 L109.2,95.5 L111.7,91.6 L114.3,87.7 L116.8,83.6 L119.3,79.5 L121.9,75.4 L124.4,71.2 L127.0,67.2 L129.5,63.2 L132.1,59.3 L134.6,55.6 L137.1,52.1 L139.7,48.9 L142.2,45.9 L144.8,43.2 L147.3,40.9 L149.8,39.0 L152.4,37.5 L154.9,36.4 L157.5,35.7 L160.0,35.5 L162.5,35.7 L165.1,36.4 L167.6,37.5 L170.2,39.0 L172.7,40.9 L175.2,43.2 L177.8,45.9 L180.3,48.9 L182.9,52.1 L185.4,55.6 L187.9,59.3 L190.5,63.2 L193.0,67.2 L195.6,71.2 L198.1,75.4 L200.7,79.5 L203.2,83.6 L205.7,87.7 L208.3,91.6 L210.8,95.5 L213.4,99.2 L215.9,102.8 L218.4,106.2 L221.0,109.4 L223.5,112.5 L226.1,115.3 L228.6,118.0 L231.1,120.4 L233.7,122.6 L236.2,124.7 L236.2,140.0 Z\" fill=\"#2a78d6\" fill-opacity=\"0.22\"/><path d=\"M20.0,140.0 L20.0,139.8 L21.1,139.8 L22.1,139.8 L23.2,139.8 L24.3,139.8 L25.3,139.7 L26.4,139.7 L27.4,139.7 L28.5,139.7 L29.6,139.6 L30.6,139.6 L31.7,139.5 L32.8,139.5 L33.8,139.5 L34.9,139.4 L35.9,139.4 L37.0,139.3 L38.1,139.2 L39.1,139.2 L40.2,139.1 L41.3,139.0 L42.3,138.9 L43.4,138.8 L44.4,138.7 L45.5,138.6 L46.6,138.5 L47.6,138.4 L48.7,138.3 L49.8,138.1 L50.8,138.0 L51.9,137.8 L53.0,137.6 L54.0,137.5 L55.1,137.3 L56.1,137.0 L57.2,136.8 L58.3,136.6 L59.3,136.3 L60.4,136.1 L61.5,135.8 L62.5,135.5 L63.6,135.2 L64.6,134.8 L65.7,134.5 L66.8,134.1 L67.8,133.7 L68.9,133.3 L70.0,132.8 L71.0,132.4 L72.1,131.9 L73.1,131.4 L74.2,130.8 L75.3,130.3 L76.3,129.7 L77.4,129.0 L78.5,128.4 L79.5,127.7 L80.6,127.0 L81.7,126.3 L82.7,125.5 L83.8,124.7 L83.8,140.0 Z\" fill=\"#eb6834\" fill-opacity=\"0.55\"/><path d=\"M236.2,140.0 L236.2,124.7 L237.3,125.5 L238.3,126.3 L239.4,127.0 L240.5,127.7 L241.5,128.4 L242.6,129.0 L243.7,129.7 L244.7,130.3 L245.8,130.8 L246.9,131.4 L247.9,131.9 L249.0,132.4 L250.0,132.8 L251.1,133.3 L252.2,133.7 L253.2,134.1 L254.3,134.5 L255.4,134.8 L256.4,135.2 L257.5,135.5 L258.5,135.8 L259.6,136.1 L260.7,136.3 L261.7,136.6 L262.8,136.8 L263.9,137.0 L264.9,137.3 L266.0,137.5 L267.0,137.6 L268.1,137.8 L269.2,138.0 L270.2,138.1 L271.3,138.3 L272.4,138.4 L273.4,138.5 L274.5,138.6 L275.6,138.7 L276.6,138.8 L277.7,138.9 L278.7,139.0 L279.8,139.1 L280.9,139.2 L281.9,139.2 L283.0,139.3 L284.1,139.4 L285.1,139.4 L286.2,139.5 L287.2,139.5 L288.3,139.5 L289.4,139.6 L290.4,139.6 L291.5,139.7 L292.6,139.7 L293.6,139.7 L294.7,139.7 L295.7,139.8 L296.8,139.8 L297.9,139.8 L298.9,139.8 L300.0,139.8 L300.0,140.0 Z\" fill=\"#eb6834\" fill-opacity=\"0.55\"/><polyline points=\"20.0,139.8 22.3,139.8 24.7,139.8 27.0,139.7 29.3,139.6 31.7,139.5 34.0,139.5 36.3,139.3 38.7,139.2 41.0,139.0 43.3,138.8 45.7,138.6 48.0,138.3 50.3,138.0 52.7,137.7 55.0,137.3 57.3,136.8 59.7,136.3 62.0,135.6 64.3,134.9 66.7,134.1 69.0,133.2 71.3,132.2 73.7,131.1 76.0,129.9 78.3,128.5 80.7,127.0 83.0,125.3 85.3,123.5 87.7,121.5 90.0,119.3 92.3,117.0 94.7,114.5 97.0,111.9 99.3,109.1 101.7,106.1 104.0,103.0 106.3,99.7 108.7,96.3 111.0,92.8 113.3,89.1 115.7,85.4 118.0,81.7 120.3,77.9 122.7,74.1 125.0,70.3 127.3,66.6 129.7,62.9 132.0,59.4 134.3,56.0 136.7,52.7 139.0,49.7 141.3,46.9 143.7,44.3 146.0,42.1 148.3,40.1 150.7,38.5 153.0,37.2 155.3,36.3 157.7,35.7 160.0,35.5 162.3,35.7 164.7,36.3 167.0,37.2 169.3,38.5 171.7,40.1 174.0,42.1 176.3,44.3 178.7,46.9 181.0,49.7 183.3,52.7 185.7,56.0 188.0,59.4 190.3,62.9 192.7,66.6 195.0,70.3 197.3,74.1 199.7,77.9 202.0,81.7 204.3,85.4 206.7,89.1 209.0,92.8 211.3,96.3 213.7,99.7 216.0,103.0 218.3,106.1 220.7,109.1 223.0,111.9 225.3,114.5 227.7,117.0 230.0,119.3 232.3,121.5 234.7,123.5 237.0,125.3 239.3,127.0 241.7,128.5 244.0,129.9 246.3,131.1 248.7,132.2 251.0,133.2 253.3,134.1 255.7,134.9 258.0,135.6 260.3,136.3 262.7,136.8 265.0,137.3 267.3,137.7 269.7,138.0 272.0,138.3 274.3,138.6 276.7,138.8 279.0,139.0 281.3,139.2 283.7,139.3 286.0,139.5 288.3,139.5 290.7,139.6 293.0,139.7 295.3,139.8 297.7,139.8 300.0,139.8\" fill=\"none\" stroke=\"#2c2a26\" stroke-width=\"1.6\"/><line x1=\"20.0\" y1=\"140.0\" x2=\"300.0\" y2=\"140.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><text x=\"125.0\" y=\"110.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.8\">0,475</text><text x=\"195.0\" y=\"110.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.8\">0,475</text><text x=\"160.0\" y=\"82.0\" text-anchor=\"middle\" fill=\"#2a78d6\" font-size=\"12.0\">0,95</text><text x=\"55.0\" y=\"125.0\" text-anchor=\"middle\" fill=\"#eb6834\" font-size=\"10.2\">0,025</text><text x=\"265.0\" y=\"125.0\" text-anchor=\"middle\" fill=\"#eb6834\" font-size=\"10.2\">0,025</text><line x1=\"83.8\" y1=\"140.0\" x2=\"83.8\" y2=\"144.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><line x1=\"236.2\" y1=\"140.0\" x2=\"236.2\" y2=\"144.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><text x=\"83.8\" y=\"156.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">−1,96</text><text x=\"236.2\" y=\"156.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">+1,96</text><text x=\"160.0\" y=\"156.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">μ</text><text x=\"160.0\" y=\"176.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">α = 0,05 împărțit egal în cele două extremități</text></svg>"
+          }
+        ],
+        "tabel": {
+          "cap": [
+            "Nivel de încredere (1 − α)·100",
+            "α",
+            "α/2",
+            "Zα/2"
+          ],
+          "randuri": [
+            [
+              "90%",
+              "0,10",
+              "0,050",
+              "1,65"
+            ],
+            [
+              "95%",
+              "0,05",
+              "0,025",
+              "1,96"
+            ],
+            [
+              "99%",
+              "0,01",
+              "0,005",
+              "2,58"
+            ]
+          ]
+        },
+        "noduri": [
+          {
+            "t": "Estimarea punctuală",
+            "d": "Se calculează media sau proporția unui eșantion aleatoriu și se declară că parametrul are exact acea valoare. Simplă, dar fără o probabilitate atașată."
+          },
+          {
+            "t": "Intervalul de încredere",
+            "d": "O amplitudine de valori, centrată pe statistica eșantionului, în care e probabil (nu sigur) să se afle parametrul; probabilitatea poate fi stabilită precis. Mai complicată, dar mai sigură decât estimarea punctuală."
+          },
+          {
+            "t": "Nivelul de semnificație (α)",
+            "d": "Probabilitatea ca intervalul să nu conțină parametrul — probabilitatea de eroare a estimării. Se împarte egal între cele două extremități, de unde Zα/2."
+          },
+          {
+            "t": "Nivelul de încredere",
+            "d": "Probabilitatea ca intervalul să conțină parametrul: 1 − α, sau (1 − α)·100 în procente. α = 0,05 înseamnă încredere de 95%. Obișnuit: 90%, 95%, 99%."
+          }
+        ]
+      },
+      {
+        "titlu": "Media când σ e cunoscut",
+        "figuri": [
+          {
+            "titlu": "Același eșantion, trei niveluri de încredere",
+            "nota": "Exemplul femeilor casnice: σ/√n = 0,0495. Cartea calculează doar intervalul de 90% (± 0,08); cele de 95% și 99% sunt calculate aici.",
+            "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 172\" role=\"img\" aria-label=\"Intervalele de 90, 95 și 99% pentru exemplul vizionării TV, tot mai largi\" font-family=\"Georgia, serif\" font-size=\"13\"><text x=\"24.0\" y=\"44.0\" text-anchor=\"end\" fill=\"#2c2a26\" font-size=\"10.8\">90%</text><line x1=\"91.3\" y1=\"40.0\" x2=\"210.7\" y2=\"40.0\" stroke=\"#2a78d6\" stroke-width=\"3\"/><line x1=\"91.3\" y1=\"34.0\" x2=\"91.3\" y2=\"46.0\" stroke=\"#2a78d6\" stroke-width=\"2\"/><line x1=\"210.7\" y1=\"34.0\" x2=\"210.7\" y2=\"46.0\" stroke=\"#2a78d6\" stroke-width=\"2\"/><circle cx=\"151.0\" cy=\"40.0\" r=\"3.5\" fill=\"#2c2a26\" stroke=\"#faf8f3\" stroke-width=\"1.5\"></circle><text x=\"214.7\" y=\"34.0\" text-anchor=\"start\" fill=\"#2a78d6\" font-size=\"10.2\">± 0,08</text><text x=\"24.0\" y=\"78.0\" text-anchor=\"end\" fill=\"#2c2a26\" font-size=\"10.8\">95%</text><line x1=\"80.1\" y1=\"74.0\" x2=\"221.9\" y2=\"74.0\" stroke=\"#1baf7a\" stroke-width=\"3\"/><line x1=\"80.1\" y1=\"68.0\" x2=\"80.1\" y2=\"80.0\" stroke=\"#1baf7a\" stroke-width=\"2\"/><line x1=\"221.9\" y1=\"68.0\" x2=\"221.9\" y2=\"80.0\" stroke=\"#1baf7a\" stroke-width=\"2\"/><circle cx=\"151.0\" cy=\"74.0\" r=\"3.5\" fill=\"#2c2a26\" stroke=\"#faf8f3\" stroke-width=\"1.5\"></circle><text x=\"225.9\" y=\"68.0\" text-anchor=\"start\" fill=\"#1baf7a\" font-size=\"10.2\">± 0,10</text><text x=\"24.0\" y=\"112.0\" text-anchor=\"end\" fill=\"#2c2a26\" font-size=\"10.8\">99%</text><line x1=\"57.6\" y1=\"108.0\" x2=\"244.4\" y2=\"108.0\" stroke=\"#eb6834\" stroke-width=\"3\"/><line x1=\"57.6\" y1=\"102.0\" x2=\"57.6\" y2=\"114.0\" stroke=\"#eb6834\" stroke-width=\"2\"/><line x1=\"244.4\" y1=\"102.0\" x2=\"244.4\" y2=\"114.0\" stroke=\"#eb6834\" stroke-width=\"2\"/><circle cx=\"151.0\" cy=\"108.0\" r=\"3.5\" fill=\"#2c2a26\" stroke=\"#faf8f3\" stroke-width=\"1.5\"></circle><text x=\"248.4\" y=\"102.0\" text-anchor=\"start\" fill=\"#eb6834\" font-size=\"10.2\">± 0,13</text><line x1=\"34.0\" y1=\"146.0\" x2=\"268.0\" y2=\"146.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><line x1=\"34.0\" y1=\"146.0\" x2=\"34.0\" y2=\"150.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><text x=\"34.0\" y=\"161.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">5,84</text><line x1=\"92.5\" y1=\"146.0\" x2=\"92.5\" y2=\"150.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><text x=\"92.5\" y=\"161.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">5,92</text><line x1=\"151.0\" y1=\"146.0\" x2=\"151.0\" y2=\"150.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><text x=\"151.0\" y=\"161.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">6,00</text><line x1=\"209.5\" y1=\"146.0\" x2=\"209.5\" y2=\"150.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><text x=\"209.5\" y=\"161.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">6,08</text><line x1=\"268.0\" y1=\"146.0\" x2=\"268.0\" y2=\"150.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><text x=\"268.0\" y=\"161.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">6,16</text><text x=\"151.0\" y=\"20.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.8\">X̄ = 6 ore, σ = 0,7, n = 200</text></svg>"
+          }
+        ],
+        "noduri": [
+          {
+            "t": "Intervalul cu σ cunoscut",
+            "d": "IE = X̄ ± Zα/2 · σ/√n. Exemplul femeilor casnice: n = 200, X̄ = 6 ore, σ = 0,7, α = 0,10 → 6 ± 1,65 · 0,0495 = 6 ± 0,08, adică 5,92 – 6,08 ore."
+          },
+          {
+            "t": "Alegerea lui Zα/2",
+            "d": "Se caută în tabelul curbei normale aria 0,5 − α/2 (la 90%: 0,45). Dacă valoarea cade între două rânduri (0,4495 la 1,64; 0,4505 la 1,65), se ia scorul mai mare, ca intervalul să fie cel mai larg posibil: 1,65; la 99%, 2,58. Observație: cartea tipărește „2,57” la ambele rânduri pentru 0,4949 și 0,4951."
+          },
+          {
+            "t": "Interpretarea intervalului",
+            "d": "„Există o probabilitate de 0,90 ca μ să se afle între 5,92 și 6,08” — estimarea are 10% șanse să fie greșită. Intervalul privește media populației, nu scorurile individuale. Interpretare: dacă s-ar construi multe astfel de intervale, circa 90% ar conține μ."
+          }
+        ]
+      },
+      {
+        "titlu": "Media când σ e necunoscut (n ≥ 30)",
+        "noduri": [
+          {
+            "t": "Intervalul cu s (n ≥ 30)",
+            "d": "În aproape toate cercetările reale σ e necunoscut. Pentru n ≥ 30 se estimează prin s: IE = X̄ ± Zα/2 · s/√(n − 1). Exemplul venitului: n = 500, X̄ = 5 000 000, s = 125 000, 95% → 5 000 000 ± 1,96 · 5 595,34 = 5 000 000 ± 10 967 lei."
+          },
+          {
+            "t": "Corecția n − 1",
+            "d": "Înlocuirea lui √n cu √(n − 1) corectează distorsiunea lui s (care îl subestimează pe σ): eroarea standard și intervalul cresc puțin. Interpretare: aici s e calculat cu n la numitor; în exemplul cu t, s e calculat direct cu n − 1 și se împarte la √n — corecția se face o singură dată."
+          }
+        ]
+      },
+      {
+        "titlu": "Distribuția t-Student (n < 30)",
+        "figuri": [
+          {
+            "titlu": "Curba t și curba normală",
+            "nota": "Curbe exacte: cu puține grade de libertate curba t e mai aplatizată, cu cozi mai groase; cu cât gl cresc, cu atât se apropie de normală.",
+            "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 190\" role=\"img\" aria-label=\"Curba t cu 2 grade de libertate e mai aplatizată decât normala; cu 9 grade e aproape de normală\" font-family=\"Georgia, serif\" font-size=\"13\"><line x1=\"20.0\" y1=\"138.0\" x2=\"300.0\" y2=\"138.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><polyline points=\"20.0,138.0 22.3,138.0 24.7,137.9 27.0,137.9 29.3,137.9 31.7,137.9 34.0,137.8 36.3,137.8 38.7,137.7 41.0,137.7 43.3,137.6 45.7,137.5 48.0,137.4 50.3,137.2 52.7,137.0 55.0,136.8 57.3,136.6 59.7,136.3 62.0,135.9 64.3,135.5 66.7,135.0 69.0,134.4 71.3,133.7 73.7,132.9 76.0,132.0 78.3,131.0 80.7,129.8 83.0,128.5 85.3,127.1 87.7,125.4 90.0,123.6 92.3,121.6 94.7,119.4 97.0,116.9 99.3,114.3 101.7,111.5 104.0,108.4 106.3,105.2 108.7,101.7 111.0,98.1 113.3,94.3 115.7,90.3 118.0,86.2 120.3,82.0 122.7,77.8 125.0,73.5 127.3,69.2 129.7,64.9 132.0,60.7 134.3,56.7 136.7,52.8 139.0,49.1 141.3,45.7 143.7,42.6 146.0,39.8 148.3,37.4 150.7,35.3 153.0,33.7 155.3,32.6 157.7,31.9 160.0,31.6 162.3,31.9 164.7,32.6 167.0,33.7 169.3,35.3 171.7,37.4 174.0,39.8 176.3,42.6 178.7,45.7 181.0,49.1 183.3,52.8 185.7,56.7 188.0,60.7 190.3,64.9 192.7,69.2 195.0,73.5 197.3,77.8 199.7,82.0 202.0,86.2 204.3,90.3 206.7,94.3 209.0,98.1 211.3,101.7 213.7,105.2 216.0,108.4 218.3,111.5 220.7,114.3 223.0,116.9 225.3,119.4 227.7,121.6 230.0,123.6 232.3,125.4 234.7,127.1 237.0,128.5 239.3,129.8 241.7,131.0 244.0,132.0 246.3,132.9 248.7,133.7 251.0,134.4 253.3,135.0 255.7,135.5 258.0,135.9 260.3,136.3 262.7,136.6 265.0,136.8 267.3,137.0 269.7,137.2 272.0,137.4 274.3,137.5 276.7,137.6 279.0,137.7 281.3,137.7 283.7,137.8 286.0,137.8 288.3,137.9 290.7,137.9 293.0,137.9 295.3,137.9 297.7,138.0 300.0,138.0\" fill=\"none\" stroke=\"#2a78d6\" stroke-width=\"2\"/><polyline points=\"20.0,137.4 22.3,137.3 24.7,137.2 27.0,137.1 29.3,137.0 31.7,136.9 34.0,136.8 36.3,136.7 38.7,136.5 41.0,136.3 43.3,136.1 45.7,135.9 48.0,135.7 50.3,135.4 52.7,135.1 55.0,134.8 57.3,134.4 59.7,134.0 62.0,133.5 64.3,133.0 66.7,132.4 69.0,131.7 71.3,131.0 73.7,130.2 76.0,129.3 78.3,128.3 80.7,127.2 83.0,126.0 85.3,124.6 87.7,123.2 90.0,121.5 92.3,119.8 94.7,117.9 97.0,115.8 99.3,113.5 101.7,111.0 104.0,108.4 106.3,105.6 108.7,102.6 111.0,99.4 113.3,96.0 115.7,92.4 118.0,88.7 120.3,84.9 122.7,80.9 125.0,76.9 127.3,72.8 129.7,68.7 132.0,64.6 134.3,60.6 136.7,56.7 139.0,53.0 141.3,49.4 143.7,46.2 146.0,43.3 148.3,40.7 150.7,38.5 153.0,36.8 155.3,35.5 157.7,34.8 160.0,34.5 162.3,34.8 164.7,35.5 167.0,36.8 169.3,38.5 171.7,40.7 174.0,43.3 176.3,46.2 178.7,49.4 181.0,53.0 183.3,56.7 185.7,60.6 188.0,64.6 190.3,68.7 192.7,72.8 195.0,76.9 197.3,80.9 199.7,84.9 202.0,88.7 204.3,92.4 206.7,96.0 209.0,99.4 211.3,102.6 213.7,105.6 216.0,108.4 218.3,111.0 220.7,113.5 223.0,115.8 225.3,117.9 227.7,119.8 230.0,121.5 232.3,123.2 234.7,124.6 237.0,126.0 239.3,127.2 241.7,128.3 244.0,129.3 246.3,130.2 248.7,131.0 251.0,131.7 253.3,132.4 255.7,133.0 258.0,133.5 260.3,134.0 262.7,134.4 265.0,134.8 267.3,135.1 269.7,135.4 272.0,135.7 274.3,135.9 276.7,136.1 279.0,136.3 281.3,136.5 283.7,136.7 286.0,136.8 288.3,136.9 290.7,137.0 293.0,137.1 295.3,137.2 297.7,137.3 300.0,137.4\" fill=\"none\" stroke=\"#1baf7a\" stroke-width=\"1.6\"/><polyline points=\"20.0,134.5 22.3,134.3 24.7,134.2 27.0,134.0 29.3,133.8 31.7,133.6 34.0,133.4 36.3,133.2 38.7,132.9 41.0,132.7 43.3,132.4 45.7,132.1 48.0,131.8 50.3,131.4 52.7,131.1 55.0,130.7 57.3,130.3 59.7,129.8 62.0,129.4 64.3,128.9 66.7,128.3 69.0,127.7 71.3,127.1 73.7,126.4 76.0,125.7 78.3,124.9 80.7,124.0 83.0,123.1 85.3,122.1 87.7,121.0 90.0,119.9 92.3,118.6 94.7,117.2 97.0,115.8 99.3,114.2 101.7,112.5 104.0,110.6 106.3,108.6 108.7,106.5 111.0,104.2 113.3,101.7 115.7,99.0 118.0,96.2 120.3,93.2 122.7,90.0 125.0,86.7 127.3,83.2 129.7,79.6 132.0,75.8 134.3,72.0 136.7,68.2 139.0,64.4 141.3,60.8 143.7,57.3 146.0,54.0 148.3,51.1 150.7,48.5 153.0,46.5 155.3,45.0 157.7,44.0 160.0,43.7 162.3,44.0 164.7,45.0 167.0,46.5 169.3,48.5 171.7,51.1 174.0,54.0 176.3,57.3 178.7,60.8 181.0,64.4 183.3,68.2 185.7,72.0 188.0,75.8 190.3,79.6 192.7,83.2 195.0,86.7 197.3,90.0 199.7,93.2 202.0,96.2 204.3,99.0 206.7,101.7 209.0,104.2 211.3,106.5 213.7,108.6 216.0,110.6 218.3,112.5 220.7,114.2 223.0,115.8 225.3,117.2 227.7,118.6 230.0,119.9 232.3,121.0 234.7,122.1 237.0,123.1 239.3,124.0 241.7,124.9 244.0,125.7 246.3,126.4 248.7,127.1 251.0,127.7 253.3,128.3 255.7,128.9 258.0,129.4 260.3,129.8 262.7,130.3 265.0,130.7 267.3,131.1 269.7,131.4 272.0,131.8 274.3,132.1 276.7,132.4 279.0,132.7 281.3,132.9 283.7,133.2 286.0,133.4 288.3,133.6 290.7,133.8 293.0,134.0 295.3,134.2 297.7,134.3 300.0,134.5\" fill=\"none\" stroke=\"#eb6834\" stroke-width=\"2\"/><line x1=\"20.0\" y1=\"138.0\" x2=\"300.0\" y2=\"138.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><line x1=\"20.0\" y1=\"138.0\" x2=\"20.0\" y2=\"142.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><text x=\"20.0\" y=\"153.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">−4</text><line x1=\"90.0\" y1=\"138.0\" x2=\"90.0\" y2=\"142.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><text x=\"90.0\" y=\"153.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">−2</text><line x1=\"160.0\" y1=\"138.0\" x2=\"160.0\" y2=\"142.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><text x=\"160.0\" y=\"153.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">0</text><line x1=\"230.0\" y1=\"138.0\" x2=\"230.0\" y2=\"142.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><text x=\"230.0\" y=\"153.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">2</text><line x1=\"300.0\" y1=\"138.0\" x2=\"300.0\" y2=\"142.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><text x=\"300.0\" y=\"153.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">4</text><text x=\"256.2\" y=\"120.7\" text-anchor=\"start\" fill=\"#eb6834\" font-size=\"10.2\">cozi mai groase</text><rect x=\"24.0\" y=\"172.0\" width=\"10.0\" height=\"10.0\" fill=\"#2a78d6\"></rect><text x=\"38.0\" y=\"181.0\" text-anchor=\"start\" fill=\"#2c2a26\" font-size=\"10.8\">normală</text><rect x=\"95.4\" y=\"172.0\" width=\"10.0\" height=\"10.0\" fill=\"#1baf7a\"></rect><text x=\"109.4\" y=\"181.0\" text-anchor=\"start\" fill=\"#2c2a26\" font-size=\"10.8\">t, gl = 9</text><rect x=\"179.2\" y=\"172.0\" width=\"10.0\" height=\"10.0\" fill=\"#eb6834\"></rect><text x=\"193.2\" y=\"181.0\" text-anchor=\"start\" fill=\"#2c2a26\" font-size=\"10.8\">t, gl = 2</text></svg>"
+          }
+        ],
+        "tabel": {
+          "cap": [
+            "gl",
+            "t0,05",
+            "t0,025",
+            "t0,005"
+          ],
+          "randuri": [
+            [
+              "9",
+              "1,833",
+              "2,262",
+              "3,250"
+            ],
+            [
+              "15",
+              "1,753",
+              "2,131",
+              "2,947"
+            ],
+            [
+              "19",
+              "1,729",
+              "2,093",
+              "2,861"
+            ],
+            [
+              "24",
+              "1,711",
+              "2,064",
+              "2,797"
+            ],
+            [
+              "29",
+              "1,699",
+              "2,045",
+              "2,756"
+            ],
+            [
+              "∞",
+              "1,645",
+              "1,960",
+              "2,576"
+            ]
+          ]
+        },
+        "noduri": [
+          {
+            "t": "Distribuția t",
+            "d": "Pentru n < 30 și σ necunoscut, mediile nu mai urmează normala standard. Curba t (W. S. Gosset, „Student”, 1908) e simetrică, în clopot, dar mai aplatizată la eșantioane mici; e o familie de distribuții care se apropie de normală când n crește și coincide cu ea la infinit."
+          },
+          {
+            "t": "Gradele de libertate",
+            "d": "Numărul de valori libere să varieze: dacă 5 scoruri au media 3 și patru sunt 1, 2, 3, 4, al cincilea e fixat (5). Pentru media unui eșantion de n, gl = n − 1; fiecare curbă t corespunde unui număr de gl."
+          },
+          {
+            "t": "Tabelul valorilor critice t",
+            "d": "Dă tα — valoarea cu aria α la dreapta — pe rânduri de gl (1–30, apoi 40, 60, 120, ∞). Pentru interval îți trebuie tα/2: la 95%, coloana t0,025. Exemplu: n = 30 → gl = 29 → 2,045. Fragmentul alăturat e completat (Anexa C lipsește din PDF); la ∞ coincide cu Z (1,645 / 1,96 / 2,576)."
+          },
+          {
+            "t": "Intervalul cu t (n < 30)",
+            "d": "IE = X̄ ± tα/2 · s/√n. Exemplul celor 20 de adolescenți: X̄ = 24,45, s = 5,42, 99%, gl = 19 → t = 2,861 → 24,45 ± 3,46, adică 21,03 – 27,91 (calculul exact dă ± 3,47)."
+          },
+          {
+            "t": "Condiția de normalitate",
+            "d": "Intervalul cu t poate fi aplicat doar dacă variabila e normal distribuită în populație. Pentru o populație puternic asimetrică și n mic, nici teorema limitei centrale nu ajută (Cap. 6 (Eșantionarea și distribuții de eșantionare))."
+          }
+        ]
+      },
+      {
+        "titlu": "Estimarea proporțiilor",
+        "figuri": [
+          {
+            "titlu": "De ce P = 0,5 e soluția conservatoare",
+            "nota": "P(1 − P) atinge maximul 0,25 la P = 0,5, deci intervalul calculat cu 0,25 e cel mai larg posibil.",
+            "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 182\" role=\"img\" aria-label=\"Produsul P(1 − P) e cel mai mare când P = 0,5\" font-family=\"Georgia, serif\" font-size=\"13\"><line x1=\"40.0\" y1=\"140.0\" x2=\"300.0\" y2=\"140.0\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><text x=\"36.0\" y=\"143.5\" text-anchor=\"end\" fill=\"#6b6760\" font-size=\"10.2\">0,00</text><line x1=\"40.0\" y1=\"118.1\" x2=\"300.0\" y2=\"118.1\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><text x=\"36.0\" y=\"121.6\" text-anchor=\"end\" fill=\"#6b6760\" font-size=\"10.2\">0,05</text><line x1=\"40.0\" y1=\"96.3\" x2=\"300.0\" y2=\"96.3\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><text x=\"36.0\" y=\"99.8\" text-anchor=\"end\" fill=\"#6b6760\" font-size=\"10.2\">0,10</text><line x1=\"40.0\" y1=\"74.4\" x2=\"300.0\" y2=\"74.4\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><text x=\"36.0\" y=\"77.9\" text-anchor=\"end\" fill=\"#6b6760\" font-size=\"10.2\">0,15</text><line x1=\"40.0\" y1=\"52.6\" x2=\"300.0\" y2=\"52.6\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><text x=\"36.0\" y=\"56.1\" text-anchor=\"end\" fill=\"#6b6760\" font-size=\"10.2\">0,20</text><line x1=\"40.0\" y1=\"30.7\" x2=\"300.0\" y2=\"30.7\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><text x=\"36.0\" y=\"34.2\" text-anchor=\"end\" fill=\"#6b6760\" font-size=\"10.2\">0,25</text><polyline points=\"40.0,140.0 42.2,136.4 44.3,132.8 46.5,129.3 48.7,125.9 50.8,122.5 53.0,119.2 55.2,116.0 57.3,112.8 59.5,109.7 61.7,106.6 63.8,103.6 66.0,100.7 68.2,97.8 70.3,95.0 72.5,92.2 74.7,89.5 76.8,86.9 79.0,84.3 81.2,81.8 83.3,79.3 85.5,76.9 87.7,74.6 89.8,72.3 92.0,70.1 94.2,67.9 96.3,65.8 98.5,63.8 100.7,61.8 102.8,59.9 105.0,58.1 107.2,56.3 109.3,54.5 111.5,52.9 113.7,51.3 115.8,49.7 118.0,48.2 120.2,46.8 122.3,45.4 124.5,44.1 126.7,42.9 128.8,41.7 131.0,40.6 133.2,39.5 135.3,38.5 137.5,37.6 139.7,36.7 141.8,35.9 144.0,35.1 146.2,34.4 148.3,33.8 150.5,33.2 152.7,32.7 154.8,32.2 157.0,31.8 159.2,31.5 161.3,31.2 163.5,31.0 165.7,30.9 167.8,30.8 170.0,30.7 172.2,30.8 174.3,30.9 176.5,31.0 178.7,31.2 180.8,31.5 183.0,31.8 185.2,32.2 187.3,32.7 189.5,33.2 191.7,33.8 193.8,34.4 196.0,35.1 198.2,35.9 200.3,36.7 202.5,37.6 204.7,38.5 206.8,39.5 209.0,40.6 211.2,41.7 213.3,42.9 215.5,44.1 217.7,45.4 219.8,46.8 222.0,48.2 224.2,49.7 226.3,51.3 228.5,52.9 230.7,54.5 232.8,56.3 235.0,58.1 237.2,59.9 239.3,61.8 241.5,63.8 243.7,65.8 245.8,67.9 248.0,70.1 250.2,72.3 252.3,74.6 254.5,76.9 256.7,79.3 258.8,81.8 261.0,84.3 263.2,86.9 265.3,89.5 267.5,92.2 269.7,95.0 271.8,97.8 274.0,100.7 276.2,103.6 278.3,106.6 280.5,109.7 282.7,112.8 284.8,116.0 287.0,119.2 289.2,122.5 291.3,125.9 293.5,129.3 295.7,132.8 297.8,136.4 300.0,140.0\" fill=\"none\" stroke=\"#2a78d6\" stroke-width=\"2\"/><circle cx=\"79.0\" cy=\"84.3\" r=\"4.5\" fill=\"#eb6834\" stroke=\"#faf8f3\" stroke-width=\"1.5\"><title>P = 0,15: 0,1275</title></circle><circle cx=\"144.0\" cy=\"35.1\" r=\"4.5\" fill=\"#1baf7a\" stroke=\"#faf8f3\" stroke-width=\"1.5\"><title>P = 0,40: 0,2400</title></circle><circle cx=\"170.0\" cy=\"30.7\" r=\"4.5\" fill=\"#b5453a\" stroke=\"#faf8f3\" stroke-width=\"1.5\"><title>P = 0,50: 0,2500</title></circle><text x=\"85.0\" y=\"96.3\" text-anchor=\"start\" fill=\"#eb6834\" font-size=\"10.2\">0,15 → 0,1275</text><text x=\"140.0\" y=\"27.1\" text-anchor=\"end\" fill=\"#1baf7a\" font-size=\"10.2\">0,4 → 0,24</text><text x=\"176.0\" y=\"24.7\" text-anchor=\"start\" fill=\"#b5453a\" font-size=\"10.2\">0,5 → 0,25 (maxim)</text><line x1=\"40.0\" y1=\"140.0\" x2=\"300.0\" y2=\"140.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><line x1=\"40.0\" y1=\"140.0\" x2=\"40.0\" y2=\"144.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><text x=\"40.0\" y=\"155.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">0,00</text><line x1=\"105.0\" y1=\"140.0\" x2=\"105.0\" y2=\"144.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><text x=\"105.0\" y=\"155.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">0,25</text><line x1=\"170.0\" y1=\"140.0\" x2=\"170.0\" y2=\"144.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><text x=\"170.0\" y=\"155.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">0,50</text><line x1=\"235.0\" y1=\"140.0\" x2=\"235.0\" y2=\"144.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><text x=\"235.0\" y=\"155.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">0,75</text><line x1=\"300.0\" y1=\"140.0\" x2=\"300.0\" y2=\"144.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><text x=\"300.0\" y=\"155.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">1,00</text><text x=\"170.0\" y=\"174.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">P (proporția din populație)</text></svg>"
+          }
+        ],
+        "noduri": [
+          {
+            "t": "Distribuția de eșantionare a proporțiilor",
+            "d": "Proporțiile eșantioanelor (p) au o distribuție aproximativ normală, cu media P și abaterea standard σp = √(P(1 − P)/n). Teoretic, IE = p ± Zα/2 · √(P(1 − P)/n) — dar P e necunoscut."
+          },
+          {
+            "t": "Soluția conservatoare P = 0,5",
+            "d": "Se pune P = 0,5, deci P(1 − P) = 0,25, valoarea maximă: IE = p ± Zα/2 · √(0,25/n), cel mai larg interval posibil. Exemplu: 30 din 200 de studenți au lipsit pe motiv de boală, p = 0,15 → 0,15 ± 0,07, adică 8% – 22%. Cartea consideră această soluție preferabilă statistic."
+          },
+          {
+            "t": "Estimarea lui P prin p",
+            "d": "IE = p ± Zα/2 · √(p(1 − p)/n). Pe aceleași date: 0,15 ± 0,05, adică 10% – 20% — mai îngust, deci mai puțin conservator. Observație: cartea scrie „pe baza proporției de 0,30”, deși p = 0,15."
+          },
+          {
+            "t": "Condiția np ≥ 5",
+            "d": "Formulele pentru proporții se folosesc doar dacă eșantionul e suficient de mare: np ≥ 5 și n(1 − p) ≥ 5."
+          }
+        ]
+      },
+      {
+        "titlu": "Mărimea eșantionului și precizia",
+        "figuri": [
+          {
+            "titlu": "Precizia și mărimea eșantionului (proporții)",
+            "nota": "Curba: 1,96·√(0,25/n); punctele: valorile aproximative din carte (α = 0,05, P = 0,5).",
+            "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 180\" role=\"img\" aria-label=\"Marja de eroare scade tot mai încet pe măsură ce n crește\" font-family=\"Georgia, serif\" font-size=\"13\"><line x1=\"44.0\" y1=\"140.0\" x2=\"300.0\" y2=\"140.0\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><text x=\"40.0\" y=\"143.5\" text-anchor=\"end\" fill=\"#6b6760\" font-size=\"10.2\">0%</text><line x1=\"44.0\" y1=\"118.2\" x2=\"300.0\" y2=\"118.2\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><text x=\"40.0\" y=\"121.7\" text-anchor=\"end\" fill=\"#6b6760\" font-size=\"10.2\">2%</text><line x1=\"44.0\" y1=\"96.4\" x2=\"300.0\" y2=\"96.4\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><text x=\"40.0\" y=\"99.9\" text-anchor=\"end\" fill=\"#6b6760\" font-size=\"10.2\">4%</text><line x1=\"44.0\" y1=\"74.5\" x2=\"300.0\" y2=\"74.5\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><text x=\"40.0\" y=\"78.0\" text-anchor=\"end\" fill=\"#6b6760\" font-size=\"10.2\">6%</text><line x1=\"44.0\" y1=\"52.7\" x2=\"300.0\" y2=\"52.7\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><text x=\"40.0\" y=\"56.2\" text-anchor=\"end\" fill=\"#6b6760\" font-size=\"10.2\">8%</text><line x1=\"44.0\" y1=\"30.9\" x2=\"300.0\" y2=\"30.9\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><text x=\"40.0\" y=\"34.4\" text-anchor=\"end\" fill=\"#6b6760\" font-size=\"10.2\">10%</text><polyline points=\"51.9,20.5 53.8,33.1 55.8,42.4 57.8,49.6 59.8,55.5 61.7,60.3 63.7,64.4 65.7,67.9 67.6,71.0 69.6,73.7 71.6,76.1 73.5,78.3 75.5,80.2 77.5,82.0 79.4,83.7 81.4,85.2 83.4,86.5 85.4,87.8 87.3,89.0 89.3,90.2 91.3,91.2 93.2,92.2 95.2,93.1 97.2,94.0 99.1,94.8 101.1,95.6 103.1,96.4 105.0,97.1 107.0,97.7 109.0,98.4 111.0,99.0 112.9,99.6 114.9,100.2 116.9,100.7 118.8,101.2 120.8,101.7 122.8,102.2 124.7,102.7 126.7,103.1 128.7,103.5 130.6,104.0 132.6,104.4 134.6,104.8 136.6,105.1 138.5,105.5 140.5,105.8 142.5,106.2 144.4,106.5 146.4,106.8 148.4,107.2 150.3,107.5 152.3,107.8 154.3,108.1 156.2,108.3 158.2,108.6 160.2,108.9 162.2,109.1 164.1,109.4 166.1,109.6 168.1,109.9 170.0,110.1 172.0,110.3 174.0,110.6 175.9,110.8 177.9,111.0 179.9,111.2 181.8,111.4 183.8,111.6 185.8,111.8 187.8,112.0 189.7,112.2 191.7,112.4 193.7,112.6 195.6,112.8 197.6,112.9 199.6,113.1 201.5,113.3 203.5,113.4 205.5,113.6 207.4,113.8 209.4,113.9 211.4,114.1 213.4,114.2 215.3,114.4 217.3,114.5 219.3,114.7 221.2,114.8 223.2,114.9 225.2,115.1 227.1,115.2 229.1,115.3 231.1,115.5 233.0,115.6 235.0,115.7 237.0,115.9 239.0,116.0 240.9,116.1 242.9,116.2 244.9,116.3 246.8,116.4 248.8,116.6 250.8,116.7 252.7,116.8 254.7,116.9 256.7,117.0 258.6,117.1 260.6,117.2 262.6,117.3 264.6,117.4 266.5,117.5 268.5,117.6 270.5,117.7 272.4,117.8 274.4,117.9 276.4,118.0 278.3,118.1 280.3,118.2 282.3,118.3 284.2,118.4 286.2,118.4 288.2,118.5 290.2,118.6 292.1,118.7 294.1,118.8 296.1,118.9 298.0,119.0 300.0,119.0\" fill=\"none\" stroke=\"#2a78d6\" stroke-width=\"2\"/><circle cx=\"53.8\" cy=\"30.9\" r=\"4.5\" fill=\"#eb6834\" stroke=\"#faf8f3\" stroke-width=\"1.5\"><title>n ≈ 100: precizie 10%</title></circle><circle cx=\"63.7\" cy=\"63.6\" r=\"4.5\" fill=\"#eb6834\" stroke=\"#faf8f3\" stroke-width=\"1.5\"><title>n ≈ 200: precizie 7%</title></circle><circle cx=\"83.4\" cy=\"85.5\" r=\"4.5\" fill=\"#eb6834\" stroke=\"#faf8f3\" stroke-width=\"1.5\"><title>n ≈ 400: precizie 5%</title></circle><circle cx=\"142.5\" cy=\"107.3\" r=\"4.5\" fill=\"#eb6834\" stroke=\"#faf8f3\" stroke-width=\"1.5\"><title>n ≈ 1000: precizie 3%</title></circle><circle cx=\"280.3\" cy=\"118.2\" r=\"4.5\" fill=\"#eb6834\" stroke=\"#faf8f3\" stroke-width=\"1.5\"><title>n ≈ 2400: precizie 2%</title></circle><text x=\"89.4\" y=\"79.5\" text-anchor=\"start\" fill=\"#eb6834\" font-size=\"10.2\">400 → 5%</text><text x=\"146.5\" y=\"100.3\" text-anchor=\"start\" fill=\"#eb6834\" font-size=\"10.2\">1 000 → 3%</text><text x=\"278.3\" y=\"110.2\" text-anchor=\"end\" fill=\"#eb6834\" font-size=\"10.2\">2 400 → 2%</text><line x1=\"44.0\" y1=\"140.0\" x2=\"290.2\" y2=\"140.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><line x1=\"44.0\" y1=\"140.0\" x2=\"44.0\" y2=\"144.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><text x=\"44.0\" y=\"155.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">0</text><line x1=\"93.2\" y1=\"140.0\" x2=\"93.2\" y2=\"144.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><text x=\"93.2\" y=\"155.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">500</text><line x1=\"142.5\" y1=\"140.0\" x2=\"142.5\" y2=\"144.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><text x=\"142.5\" y=\"155.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">1 000</text><line x1=\"191.7\" y1=\"140.0\" x2=\"191.7\" y2=\"144.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><text x=\"191.7\" y=\"155.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">1 500</text><line x1=\"240.9\" y1=\"140.0\" x2=\"240.9\" y2=\"144.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><text x=\"240.9\" y=\"155.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">2 000</text><line x1=\"290.2\" y1=\"140.0\" x2=\"290.2\" y2=\"144.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><text x=\"290.2\" y=\"155.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">2 500</text><text x=\"172.0\" y=\"172.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">n (1% ar cere ≈ 9 600, în afara graficului)</text></svg>"
+          }
+        ],
+        "lat": true,
+        "tabel": {
+          "cap": [
+            "Precizia (α = 0,05, P = 0,5)",
+            "n aproximativ"
+          ],
+          "randuri": [
+            [
+              "10%",
+              "100"
+            ],
+            [
+              "7%",
+              "200"
+            ],
+            [
+              "5%",
+              "400"
+            ],
+            [
+              "3%",
+              "1 000"
+            ],
+            [
+              "2%",
+              "2 400"
+            ],
+            [
+              "1%",
+              "9 600"
+            ]
+          ]
+        },
+        "noduri": [
+          {
+            "t": "Nivelul de încredere și lățimea",
+            "d": "Relație directă: încredere mai mare → Zα/2 mai mare → interval mai larg. Venitul, n = 500: ± 10 967 lei la 95%, ± 14 436 lei la 99% (Z = 2,58). La fel la proporții."
+          },
+          {
+            "t": "Mărimea eșantionului și lățimea",
+            "d": "Relație inversă, dar nu liniară: n = 1 000 în loc de 500 dă ± 7 753 în loc de ± 10 967 — de circa 1,41 ori mai îngust, nu de 2. Pentru o precizie dublă, n trebuie să crească de vreo 4 ori (cartea spune o dată „de trei sau patru ori”), iar costul crește proporțional cu n."
+          },
+          {
+            "t": "Limita de eroare (L)",
+            "d": "Termenul Zα/2 · σ/√n (sau Zα/2 · √(0,25/n)) — nivelul de precizie al estimării; intervalul e X̄ ± L. Din ecuația L = Zα/2 · σ/√n se scoate n."
+          },
+          {
+            "t": "Eșantionul pentru o medie",
+            "d": "n = Z²α/2 · σ²/L². Reglajul la firma de electronice: durate 10–22 min, precizie 20 s, 95% → σ ≈ 180 s → n ≈ 311 (cartea: „aproximativ 300”); pentru 10 s, n ≈ 1 244 — de 4 ori mai mult."
+          },
+          {
+            "t": "Aproximarea σ ≈ A/4",
+            "d": "Când σ nu se cunoaște, o aproximare conservatoare e amplitudinea împărțită la 4 (12 min / 4 = 3 min = 180 s). Unitățile lui σ și L trebuie să fie aceleași."
+          },
+          {
+            "t": "Eșantionul pentru o proporție",
+            "d": "n = Z²α/2 · 0,25/L². Sondajul electoral cu marjă de 3%, 95%: n ≈ 1 067, „aproximativ 1 000”. Pentru precizie dublă (10% → 5%), n de 4 ori mai mare (tabelul alăturat)."
+          }
+        ]
+      }
+    ]
+  }
+}

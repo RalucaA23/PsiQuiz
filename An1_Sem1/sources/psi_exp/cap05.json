@@ -1,0 +1,709 @@
+{
+ "schema": "quiz-capitol-v3",
+ "capitol": 5,
+ "titlu": "Probleme etice ale experimentului psihologic",
+ "sursa": "Manual Psihologie experimentală (UTM), Capitolul 5",
+ "reconstituit": "Reconstituit pe 16 nov. 2026 din pagina publicată Psihologie_experimentala.html (capitolele erau încorporate în pagină). Lipsesc câmpurile 'tip' și 'exemplu_nou', care nu ajung în pagină; restul (hartă, runde, întrebări vizibile și ascunse) e identic cu pagina.",
+ "harta": {
+  "centru": "Probleme etice ale experimentului psihologic",
+  "ramuri": [
+   {
+    "titlu": "Rolul eticii în experiment",
+    "noduri": [
+     {
+      "t": "Scopul eticii în experiment",
+      "d": "Problemele etice trebuie abordate cu cea mai mare atenție, pentru protecția și binele subiecților. Respectarea principiilor asigură integritatea și valabilitatea cercetării psihologice."
+     },
+     {
+      "t": "Participanți umani și animale de laborator",
+      "d": "Problemele etice implică dileme legate de respectarea drepturilor și bunăstării participanților umani sau ale animalelor de laborator."
+     },
+     {
+      "t": "Coduri etice și protocoale instituționale",
+      "d": "Cercetătorii sunt supuși unor coduri etice și protocoale instituționale care guvernează modul în care trebuie conduse experimentele."
+     },
+     {
+      "t": "Principalele probleme etice",
+      "d": "Din rezumat: consimțământul informat, confidențialitatea și protecția participanților, minimizarea daunelor, transparența și integritatea în raportarea rezultatelor."
+     }
+    ]
+   },
+   {
+    "titlu": "Principiile pe scurt",
+    "tabel": {
+     "cap": [
+      "Principiu",
+      "Ce cere",
+      "Încălcare tipică"
+     ],
+     "randuri": [
+      [
+       "Consimțământul informat",
+       "informare despre natură, proceduri, riscuri, beneficii + acord voluntar",
+       "semnătură fără riscurile explicate"
+      ],
+      [
+       "Nedivulgarea",
+       "a nu induce subiecții în eroare privind scopul; sinceritate",
+       "scop fals prezentat participanților"
+      ],
+      [
+       "Libertatea de a se retrage",
+       "retragere oricând, fără consecințe sau presiuni",
+       "pierderea unui beneficiu promis la renunțare"
+      ],
+      [
+       "Confidențialitatea",
+       "anonimat; date nedivulgate fără acord explicit; stocare protejată",
+       "date care permit identificarea, dosare la vedere"
+      ],
+      [
+       "Protecția împotriva consecințelor dăunătoare",
+       "riscuri evaluate dinainte; bunăstare fizică, mentală, emoțională; asistență",
+       "disconfort lăsat fără sprijin"
+      ],
+      [
+       "Integritatea datelor",
+       "date corecte și autentice; raportare transparentă",
+       "eliminarea sau modificarea datelor incomode"
+      ]
+     ]
+    },
+    "noduri": [
+     {
+      "t": "Cum le deosebești",
+      "d": "Nedivulgarea (a nu minți despre scop) ≠ confidențialitatea (a nu dezvălui datele). Protecția participanților (a evita daunele) ≠ minimizarea daunelor (a reduce disconfortul care apare). Integritatea datelor ≠ fidelitatea testului (stabilitatea rezultatelor, capitolul 3)."
+     }
+    ]
+   },
+   {
+    "titlu": "Consimțământul în cunoștință de cauză",
+    "noduri": [
+     {
+      "t": "Consimțământul informat",
+      "d": "Principiul etic care cere ca subiecții să fie informați adecvat despre studiu și să-și exprime voluntar acordul de a participa. Are două componente: informarea și acordul."
+     },
+     {
+      "t": "Elementele informării",
+      "d": "Natura studiului, procedurile implicate, riscurile și beneficiile. Cuvântul cheie adaugă: natura, scopul și implicațiile experimentului."
+     },
+     {
+      "t": "Caracterul voluntar",
+      "d": "Acordul trebuie exprimat voluntar, fără constrângere. Se dă înainte de participare; comitetul de etică aprobă studiul, nu înlocuiește acordul fiecărui participant."
+     }
+    ]
+   },
+   {
+    "titlu": "Nedivulgarea și libertatea de retragere",
+    "noduri": [
+     {
+      "t": "Nedivulgarea",
+      "d": "Dreptul subiecților de a nu fi induși în eroare cu privire la scopul sau natura studiului; cercetătorii trebuie să fie sinceri și deschiși despre obiective și proceduri. Atenție la nume: nu înseamnă „a nu divulga datele” (asta e confidențialitatea)."
+     },
+     {
+      "t": "Libertatea de a se retrage",
+      "d": "Subiecții se pot retrage din studiu în orice moment, fără consecințe negative sau presiuni, ca să nu fie forțați să rămână într-un studiu în care nu mai vor să participe sau se simt incomod."
+     },
+     {
+      "t": "Retragerea și efectul de mortalitate",
+      "d": "Legătură cu capitolul 1: retragerile produc efectul de mortalitate (cei care rămân pot diferi de cei care pleacă). Dreptul de retragere nu se îngrădește pentru a evita eroarea; ea se ia în calcul la interpretare."
+     }
+    ]
+   },
+   {
+    "titlu": "Confidențialitatea",
+    "noduri": [
+     {
+      "t": "Confidențialitatea",
+      "d": "Cercetătorii trebuie să protejeze informațiile furnizate de subiecți: anonimatul și nedivulgarea datelor personale fără acordul lor explicit."
+     },
+     {
+      "t": "Anonimatul",
+      "d": "Participanții nu trebuie să poată fi identificați din date sau din raport; combinații de detalii (inițiale, vârstă, loc de muncă) pot încălca anonimatul chiar fără nume."
+     },
+     {
+      "t": "Stocarea și protecția datelor",
+      "d": "Metode adecvate de stocare și protecție a datelor, pentru a preveni accesul neautorizat la informații sensibile."
+     }
+    ]
+   },
+   {
+    "titlu": "Protecția împotriva consecințelor dăunătoare",
+    "noduri": [
+     {
+      "t": "Protecția împotriva consecințelor dăunătoare",
+      "d": "Responsabilitatea de a minimiza riscurile și de a proteja bunăstarea fizică, mentală și emoțională a subiecților."
+     },
+     {
+      "t": "Evaluarea riscurilor",
+      "d": "Riscurile potențiale se evaluează și se gestionează înainte de începerea studiului."
+     },
+     {
+      "t": "Asistență și resurse",
+      "d": "Dacă experimentul provoacă disconfort sau alte efecte negative, participanții primesc asistență și resurse adecvate."
+     },
+     {
+      "t": "Protecția participanților",
+      "d": "Cuvânt cheie: asigurarea siguranței fizice și emoționale și evitarea oricăror daune sau efecte adverse cauzate de participare."
+     },
+     {
+      "t": "Minimizarea daunelor",
+      "d": "Cuvânt cheie: măsurile necesare pentru a reduce disconfortul, stresul sau alte efecte negative, în timpul sau după experiment. Se aplică și animalelor de laborator."
+     }
+    ]
+   },
+   {
+    "titlu": "Integritate, transparență, conflicte de interese",
+    "noduri": [
+     {
+      "t": "Integritatea datelor",
+      "d": "Corectitudinea și autenticitatea datelor colectate; evitarea falsificării sau distorsionării lor. Eliminarea deliberată a datelor incomode o încalcă (spre deosebire de o eroare accidentală, din capitolul 1)."
+     },
+     {
+      "t": "Transparența în raportare",
+      "d": "Rezumatul cere transparență și integritate în raportarea rezultatelor: etica privește și etapa de raportare, nu doar desfășurarea experimentului."
+     },
+     {
+      "t": "Conflictele de interese",
+      "d": "Apar doar în întrebările de verificare („cum ar trebui gestionate”): interese ale cercetătorului (de exemplu financiare) care pot influența obiectivitatea studiului și a raportării."
+     }
+    ]
+   },
+   {
+    "titlu": "Legături cu capitolele anterioare",
+    "noduri": [
+     {
+      "t": "Comitetul de etică",
+      "d": "Capitolul 1: experimentul se planifică după standardele etice și se obține aprobarea comitetului de etică în cercetare, dacă e necesar."
+     },
+     {
+      "t": "Experimentul natural ca alternativă etică",
+      "d": "Capitolul 1: când intervenția cercetătorului ar fi imposibilă, inoportună sau etic inacceptabilă, experimentul natural devine o alternativă."
+     },
+     {
+      "t": "Experimentul invocat ca alternativă etică",
+      "d": "Capitolul 3: cvasi-experimentul studiază fenomene produse de natură sau imposibil de introdus, moral și fizic (boli, dezastre, războaie); cercetătorul le studiază doar efectul."
+     },
+     {
+      "t": "Observarea anonimă",
+      "d": "Capitolul 3: provocarea unui comportament cu participarea anonimă a experimentatorului sau prin observare anonimă (subiecții nu se simt observați) ridică serioase probleme deontologice; la fel experimentul psihopedagogic."
+     },
+     {
+      "t": "Etica în celelalte metode",
+      "d": "Capitolul 3: interviul, anamneza, analiza produselor activității și observația cer consimțământ informat, confidențialitate, anonimat și respect pentru bunăstarea participanților."
+     },
+     {
+      "t": "Capitolul 4: etica în etapele experimentului",
+      "d": "„Etică în cercetare” e cuvânt cheie al capitolului 4; formularele de consimțământ se pun în anexe (ca model, fără date care identifică participanții); experimentul pilot permite ajustarea procedurii înainte de studiul complet. Aleatorizarea, standardizarea și grupul de control sunt cerințe metodologice, nu principii etice."
+     },
+     {
+      "t": "Asch, Zimbardo",
+      "d": "Capitolul 1: experimente celebre despre conformism (Asch) și Stanford Prison (Zimbardo), bune exemple pentru discuția despre inducerea în eroare și protecția participanților."
+     }
+    ]
+   }
+  ]
+ },
+ "runde": [
+  {
+   "id": "1",
+   "eticheta": "Runda 1 · Bază",
+   "titlu": "Runda 1 — Concepte de bază",
+   "desc": "Recunoaștere: consimțământul informat, nedivulgarea, retragerea, confidențialitatea, protecția participanților, integritatea datelor.",
+   "intrebari": [
+    {
+     "q": "Ce presupune consimțământul în cunoștință de cauză (consimțământul informat)?",
+     "opts": [
+      "Informarea subiecților despre rezultate, după încheierea studiului",
+      "Informarea adecvată a subiecților și acordul lor voluntar de a participa",
+      "Aprobarea studiului de către comitetul de etică al instituției",
+      "Repartizarea aleatorie a subiecților în grupul experimental sau de control"
+     ],
+     "correct": 1,
+     "explain": "Consimțământul informat cere ca subiecții să fie informați adecvat despre studiu și să-și exprime acordul voluntar înainte de a participa. Informarea despre rezultate vine după studiu și nu înlocuiește acordul. Aprobarea comitetului de etică (capitolul 1) e o etapă instituțională, nu acordul participantului, iar repartizarea aleatorie e randomizarea, o măsură metodologică.",
+     "tag": "Consimțământul informat"
+    },
+    {
+     "q": "Despre ce trebuie informați subiecții pentru ca acordul lor să fie „în cunoștință de cauză”?",
+     "opts": [
+      "Ipotezele, variabilele și pragul de semnificație p < 0,05",
+      "Identitatea și scorurile celorlalți participanți la studiu",
+      "Doar durata studiului și locul în care se desfășoară",
+      "Natura studiului, procedurile implicate, riscurile și beneficiile"
+     ],
+     "correct": 3,
+     "explain": "Capitolul enumeră natura studiului, procedurile, riscurile și beneficiile. Ipotezele și pragul p < 0,05 sunt elemente tehnice din capitolul 1, nu conținutul obligatoriu al informării. Identitatea altor participanți ar încălca chiar confidențialitatea, iar durata și locul, singure, nu spun nimic despre riscuri.",
+     "tag": "Elementele informării"
+    },
+    {
+     "q": "Ce înseamnă nedivulgarea, ca principiu etic al experimentului?",
+     "opts": [
+      "Dreptul subiecților de a nu fi induși în eroare privind scopul studiului",
+      "Obligația de a nu dezvălui datele personale ale subiecților fără acord",
+      "Faptul că subiecții nu știu ce condiție experimentală li se aplică",
+      "Dreptul subiecților de a se retrage fără consecințe negative"
+     ],
+     "correct": 0,
+     "explain": "În carte, nedivulgarea înseamnă dreptul subiecților de a nu fi induși în eroare cu privire la scopul sau natura studiului, iar cercetătorii trebuie să fie sinceri și deschiși. Capcana e numele: nedezvăluirea datelor personale ține de confidențialitate. Necunoașterea condiției aplicate descrie experimentul cu mascare (capitolul 1), iar retragerea e un principiu separat.",
+     "tag": "Nedivulgarea"
+    },
+    {
+     "q": "Ce garantează libertatea subiectului de a se retrage?",
+     "opts": [
+      "Retragerea doar înainte de începerea primei sesiuni a studiului",
+      "Retragerea numai cu acordul scris al cercetătorului responsabil",
+      "Retragerea în orice moment, fără consecințe negative sau presiuni",
+      "Retragerea doar atunci când apare un disconfort fizic serios"
+     ],
+     "correct": 2,
+     "explain": "Capitolul spune că subiecții se pot retrage în orice moment, fără consecințe negative sau presiuni, ca să nu fie forțați să rămână într-un studiu în care nu mai vor să participe sau în care se simt incomod. Limitarea la începutul studiului, condiționarea de acordul cercetătorului sau de un disconfort serios ar restrânge acest drept.",
+     "tag": "Libertatea de a se retrage"
+    },
+    {
+     "q": "Ce implică principiul confidențialității?",
+     "opts": [
+      "Ascunderea scopului real al studiului față de participanți",
+      "Observarea subiecților fără ca aceștia să se simtă observați",
+      "Păstrarea secretului asupra ipotezelor față de alți cercetători",
+      "Menținerea anonimatului și nedivulgarea datelor fără acord explicit"
+     ],
+     "correct": 3,
+     "explain": "Confidențialitatea înseamnă protejarea informațiilor furnizate de subiecți: anonimatul lor și nedivulgarea datelor personale fără acordul lor explicit. Ascunderea scopului real contrazice nedivulgarea, iar observarea fără ca subiecții să se simtă observați e tocmai situația care, în capitolul 3, ridică „serioase probleme deontologice”.",
+     "tag": "Confidențialitatea"
+    },
+    {
+     "q": "Pe lângă anonimat, ce mai cere confidențialitatea?",
+     "opts": [
+      "Metode adecvate de stocare și protecție a datelor",
+      "Codificarea datelor în variabile scor și categoriale",
+      "Distrugerea datelor imediat după analiza statistică",
+      "Publicarea datelor brute, pentru verificare externă"
+     ],
+     "correct": 0,
+     "explain": "Capitolul cere metode adecvate de stocare și protecție a datelor, ca să se prevină accesul neautorizat la informații sensibile. Împărțirea în variabile scor și categoriale ține de SPSS (capitolul 1), nu de etică. Distrugerea imediată a datelor nu e cerută, iar publicarea datelor brute ar putea expune chiar informațiile sensibile.",
+     "tag": "Stocarea și protecția datelor"
+    },
+    {
+     "q": "Ce bunăstare a subiecților trebuie protejată, conform principiului protecției împotriva consecințelor dăunătoare?",
+     "opts": [
+      "Doar bunăstarea fizică, măsurată prin puls",
+      "Bunăstarea fizică, mentală și emoțională",
+      "Doar bunăstarea emoțională, din timpul sesiunii",
+      "Bunăstarea financiară și profesională"
+     ],
+     "correct": 1,
+     "explain": "Cercetătorii trebuie să minimizeze riscurile și să protejeze bunăstarea fizică, mentală și emoțională a subiecților. Variantele cu „doar” restrâng nejustificat principiul: pulsul e un biosemnal (capitolul 3), nu criteriul eticii, iar efectele negative contează și după experiment, nu doar în timpul sesiunii.",
+     "tag": "Protecția împotriva consecințelor dăunătoare"
+    },
+    {
+     "q": "Când trebuie evaluate și gestionate riscurile potențiale ale unui experiment?",
+     "opts": [
+      "Doar după ce apare un efect negativ",
+      "La redactarea raportului de cercetare",
+      "Înainte de începerea studiului",
+      "După încheierea colectării datelor"
+     ],
+     "correct": 2,
+     "explain": "Capitolul cere evaluarea și gestionarea riscurilor înainte de începerea studiului. Dacă riscurile ar fi analizate abia după un efect negativ sau după colectarea datelor, participanții ar fi deja expuși, ceea ce contrazice minimizarea riscurilor.",
+     "tag": "Evaluarea riscurilor"
+    },
+    {
+     "q": "Ce trebuie să primească participanții dacă experimentul le provoacă disconfort sau alte efecte negative?",
+     "opts": [
+      "Asistență și resurse adecvate",
+      "O compensație financiară prin contract",
+      "Excluderea din eșantion, fără explicații",
+      "Repetarea sarcinii, până la obișnuire"
+     ],
+     "correct": 0,
+     "explain": "Capitolul cere ca participanții să primească asistență și resurse adecvate dacă experimentul provoacă disconfort sau alte efecte negative. O compensație bănească nu e menționată și nu repară efectul. Excluderea fără explicații îi lasă singuri cu efectul, iar repetarea sarcinii ar prelungi chiar disconfortul.",
+     "tag": "Asistență și resurse"
+    },
+    {
+     "q": "Ce înseamnă minimizarea daunelor?",
+     "opts": [
+      "Măsuri care reduc erorile accidentale de măsurare și de codificare a datelor",
+      "Măsuri care reduc influența așteptărilor experimentatorului asupra subiecților",
+      "Măsuri care reduc costurile și durata experimentului pentru instituția organizatoare",
+      "Măsuri care reduc disconfortul și stresul participanților în timpul sau după experiment"
+     ],
+     "correct": 3,
+     "explain": "Minimizarea daunelor înseamnă măsurile necesare pentru a reduce disconfortul, stresul sau alte efecte negative asupra participanților, în timpul sau după experiment. Erorile accidentale și efectul experimenterului (capitolul 1) sunt probleme metodologice, care afectează datele, nu bunăstarea participanților.",
+     "tag": "Minimizarea daunelor"
+    },
+    {
+     "q": "Ce înseamnă integritatea datelor?",
+     "opts": [
+      "Stabilitatea rezultatelor la o nouă aplicare a testului",
+      "Corectitudinea și autenticitatea datelor, fără falsificare",
+      "Gradul în care testul măsoară ceea ce și-a propus",
+      "Protejarea datelor personale de accesul neautorizat"
+     ],
+     "correct": 1,
+     "explain": "Integritatea datelor înseamnă corectitudinea și autenticitatea datelor colectate și evitarea falsificării sau distorsionării lor. Stabilitatea la reaplicare e fidelitatea testului, iar măsurarea a ceea ce își propune e validitatea (capitolul 3). Protejarea datelor personale ține de confidențialitate.",
+     "tag": "Integritatea datelor"
+    },
+    {
+     "q": "Care sunt principalele probleme etice ale experimentului, pe lângă consimțământul informat și confidențialitate?",
+     "opts": [
+      "Randomizarea, standardizarea și controlul variabilelor confundate",
+      "Fidelitatea, validitatea, etalonarea și standardizarea testelor",
+      "Protecția participanților, minimizarea daunelor, transparența în raportare",
+      "Selecția voluntarilor, efectul Hawthorne și efectul istoric"
+     ],
+     "correct": 2,
+     "explain": "Rezumatul numește consimțământul informat, confidențialitatea, protecția participanților, minimizarea daunelor și transparența și integritatea în raportarea rezultatelor. Randomizarea și controlul variabilelor sunt măsuri metodologice, calitățile testului țin de capitolul 3, iar efectul Hawthorne și efectul istoric sunt erori metodologice din capitolul 1.",
+     "tag": "Principalele probleme etice"
+    },
+    {
+     "q": "Ale cui drepturi și bunăstare privesc problemele etice ale experimentului?",
+     "opts": [
+      "Ale participanților umani sau ale animalelor de laborator",
+      "Doar ale participanților umani adulți și voluntari",
+      "Ale cercetătorilor și ale instituției care finanțează",
+      "Doar ale participanților din grupul experimental"
+     ],
+     "correct": 0,
+     "explain": "Rezumatul spune că problemele etice privesc drepturile și bunăstarea participanților umani sau ale animalelor de laborator. Principiile nu se opresc la adulții voluntari și nici la grupul experimental: și grupul de control are aceleași drepturi. Interesele cercetătorilor nu sunt obiectul acestor principii.",
+     "tag": "Participanți umani și animale de laborator"
+    },
+    {
+     "q": "Ce guvernează modul în care trebuie conduse experimentele pentru a respecta principiile etice?",
+     "opts": [
+      "Normele de etalonare ale testelor psihologice",
+      "Protocolul observației și grila de înregistrare",
+      "Pragul de semnificație statistică p < 0,05",
+      "Codurile etice și protocoalele instituționale"
+     ],
+     "correct": 3,
+     "explain": "Capitolul spune că cercetătorii sunt supuși unor coduri etice și protocoale instituționale care guvernează modul de conducere a experimentelor. Protocolul observației (capitolul 3) standardizează înregistrarea datelor, nu etica, iar etalonarea și pragul p sunt instrumente de măsurare și de decizie statistică.",
+     "tag": "Coduri etice și protocoale instituționale"
+    },
+    {
+     "q": "De ce este esențială respectarea principiilor etice?",
+     "opts": [
+      "Doar pentru a evita sancțiunile legale aplicate instituției",
+      "Pentru integritatea și valabilitatea cercetării și binele subiecților",
+      "Pentru a crește numărul voluntarilor dispuși să participe",
+      "Pentru a obține mai ușor rezultate semnificative statistic"
+     ],
+     "correct": 1,
+     "explain": "Capitolul spune că respectarea principiilor etice asigură integritatea și valabilitatea cercetării, precum și protecția și binele subiecților. Etica nu e doar o problemă juridică și nu e un mijloc de recrutare, iar semnificația statistică depinde de date, nu de etică.",
+     "tag": "Scopul eticii în experiment"
+    }
+   ],
+   "ascunse": [
+    {
+     "q": "Ce fel de experimente ridică „serioase probleme deontologice”?",
+     "opts": [
+      "Cele desfășurate în laborator, cu control riguros al variabilelor",
+      "Cele cu puțini subiecți, desfășurate înaintea studiului principal",
+      "Cele în care subiecții nu se simt observați de experimentator",
+      "Cele în care se folosesc doar chestionare standardizate"
+     ],
+     "correct": 2,
+     "explain": "Capitolul 3 spune că provocarea unui comportament cu participarea anonimă a experimentatorului sau prin observarea anonimă (subiecții nu se simt observați) ridică serioase probleme deontologice, iar experimentul psihopedagogic ridică aceleași probleme. Prin prisma capitolului 5, subiecții nu și-au dat consimțământul informat. Controlul riguros, experimentul pilot și chestionarele nu ridică, prin ele însele, astfel de probleme.",
+     "tag": "Observarea anonimă"
+    },
+    {
+     "q": "Care noțiune înseamnă asigurarea siguranței fizice și emoționale a participanților și evitarea oricăror daune cauzate de participare?",
+     "opts": [
+      "Protecția participanților",
+      "Minimizarea daunelor",
+      "Integritatea datelor",
+      "Consimțământul informat"
+     ],
+     "correct": 0,
+     "explain": "Protecția participanților înseamnă siguranța fizică și emoțională și evitarea oricăror daune sau efecte adverse. Minimizarea daunelor e apropiată, dar se referă la măsurile care reduc disconfortul și stresul, atunci când acestea nu pot fi evitate complet. Integritatea privește datele, iar consimțământul, acordul informat.",
+     "tag": "Protecția participanților"
+    },
+    {
+     "q": "Ce trebuie obținut, dacă este necesar, înainte de implementarea experimentului, în pașii de organizare a unui experiment?",
+     "opts": [
+      "Etalonarea instrumentelor pe populația-țintă",
+      "Rezultatele unui studiu longitudinal anterior",
+      "Acordul redacției revistei care va publica",
+      "Aprobarea comitetului de etică în cercetare"
+     ],
+     "correct": 3,
+     "explain": "Capitolul 1 cere ca experimentul să fie planificat și implementat conform standardelor etice și să se obțină aprobarea comitetului de etică în cercetare, dacă este necesar. E forma concretă a „protocoalelor instituționale” din capitolul 5. Celelalte variante nu sunt condiții etice ale începerii studiului.",
+     "tag": "Comitetul de etică"
+    },
+    {
+     "q": "Ce trebuie să obțină cercetătorii când analizează produsele activității participanților (desene, compuneri)?",
+     "opts": [
+      "Doar acordul verbal al profesorului clasei",
+      "Consimțământul informat și anonimatul datelor",
+      "Doar semnătura autorului pe fiecare produs",
+      "Nimic, dacă produsele au fost făcute la școală"
+     ],
+     "correct": 1,
+     "explain": "Capitolul 3 cere, la analiza produselor activității, consimțământul informat al participanților și asigurarea anonimatului și confidențialității datelor. Aceleași cerințe apar la interviu, anamneză și observație: principiile capitolului 5 se aplică tuturor metodelor, nu doar experimentului. Acordul altcuiva sau semnătura pe produs nu înlocuiesc consimțământul informat.",
+     "tag": "Etica în celelalte metode"
+    },
+    {
+     "q": "Ce aspect etic privește interesele cercetătorului care pot influența cercetarea?",
+     "opts": [
+      "Gestionarea efectului experimenterului",
+      "Gestionarea variabilelor confundate",
+      "Gestionarea conflictelor de interese",
+      "Gestionarea efectului Hawthorne"
+     ],
+     "correct": 2,
+     "explain": "Întrebările de verificare ale capitolului cer gestionarea conflictelor de interese: interese (de exemplu financiare) care pot afecta obiectivitatea cercetării și a raportării. Efectul experimenterului (capitolul 1) e o eroare metodologică: așteptările lui ajung la subiecți prin semnale nonverbale. Variabilele confundate și efectul Hawthorne sunt tot probleme metodologice, nu etice.",
+     "tag": "Conflictele de interese"
+    }
+   ]
+  },
+  {
+   "id": "2",
+   "eticheta": "Runda 2 · Aplicații",
+   "titlu": "Runda 2 — Scenarii și raționament",
+   "desc": "Recunoaște principiul etic încălcat în situații concrete și leagă-l de metodele, etapele și erorile din capitolele 1–4.",
+   "intrebari": [
+    {
+     "q": "Un student le spune participanților că pot renunța oricând, dar celor care renunță la jumătatea studiului le anulează punctele promise la seminar. Ce principiu încalcă?",
+     "opts": [
+      "Confidențialitatea datelor personale",
+      "Integritatea datelor colectate",
+      "Libertatea subiectului de a se retrage",
+      "Nedivulgarea scopului studiului"
+     ],
+     "correct": 2,
+     "explain": "Retragerea trebuie să fie posibilă în orice moment, fără consecințe negative sau presiuni. Anularea punctelor e exact o consecință negativă, care îi presează pe participanți să rămână. Nu se dezvăluie date personale, iar scopul studiului nu e ascuns, deci confidențialitatea și nedivulgarea nu sunt în joc.",
+     "tag": "Libertatea de a se retrage"
+    },
+    {
+     "q": "Într-un program de 8 săptămâni, mai mulți participanți se retrag, iar cercetătoarea le respectă decizia. Ce problemă metodologică trebuie să ia în calcul la interpretarea rezultatelor?",
+     "opts": [
+      "Efectul de mortalitate",
+      "Efectul Hawthorne",
+      "Efectul istoric",
+      "Eroarea de tip I"
+     ],
+     "correct": 0,
+     "explain": "Pierderea participanților pe parcurs este efectul de mortalitate: cei care rămân pot diferi de cei care pleacă. Etic, dreptul de retragere nu se îngrădește ca să se evite această eroare; ea se tratează metodologic, la analiză și interpretare. Efectul Hawthorne ține de faptul că participanții știu că sunt studiați, iar efectul istoric de un eveniment extern.",
+     "tag": "Retragerea și efectul de mortalitate"
+    },
+    {
+     "q": "Un cercetător publică un tabel cu scorurile de depresie ale participanților, alături de inițialele, vârsta și locul lor de muncă. Ce principiu încalcă?",
+     "opts": [
+      "Nedivulgarea",
+      "Confidențialitatea",
+      "Minimizarea daunelor",
+      "Consimțământul informat"
+     ],
+     "correct": 1,
+     "explain": "Inițialele, vârsta și locul de muncă, puse împreună, permit identificarea persoanelor, deci anonimatul nu mai e păstrat, iar datele personale sunt divulgate fără acord explicit: e încălcată confidențialitatea. Nedivulgarea e o capcană de nume: în carte înseamnă dreptul de a nu fi indus în eroare privind scopul studiului.",
+     "tag": "Confidențialitatea"
+    },
+    {
+     "q": "Participanților li se spune că studiul testează „percepția lungimii unor linii”, deși se studiază conformismul, iar ceilalți membri ai grupului sunt, fără știrea lor, colaboratori ai cercetătorului. Ce principiu etic este pus în discuție în primul rând?",
+     "opts": [
+      "Confidențialitatea",
+      "Libertatea de retragere",
+      "Integritatea datelor",
+      "Nedivulgarea"
+     ],
+     "correct": 3,
+     "explain": "Participanții sunt induși în eroare cu privire la scopul și natura studiului, iar capitolul le cere cercetătorilor să fie sinceri și deschiși privind obiectivele și procedurile: e pus în discuție principiul nedivulgării. Situația seamănă cu studiile despre conformism ale lui Solomon Asch, din capitolul 1. Nimic nu indică divulgarea datelor sau împiedicarea retragerii.",
+     "tag": "Nedivulgarea"
+    },
+    {
+     "q": "După o sarcină care induce frustrare, câțiva participanți pleacă vizibil supărați, iar cercetătorul nu le oferă nicio discuție sau sprijin. Ce cerință etică nu e respectată?",
+     "opts": [
+      "Obținerea consimțământului informat",
+      "Oferirea de asistență și resurse adecvate",
+      "Menținerea anonimatului participanților",
+      "Raportarea transparentă a rezultatelor"
+     ],
+     "correct": 1,
+     "explain": "Când experimentul provoacă disconfort sau alte efecte negative, participanții trebuie să primească asistență și resurse adecvate, iar minimizarea daunelor privește și perioada de după experiment. Consimțământul poate să fi fost obținut corect, iar anonimatul și raportarea nu au legătură cu starea în care pleacă participanții.",
+     "tag": "Asistență și resurse"
+    },
+    {
+     "q": "Un doctorand elimină din baza de date șase participanți ale căror scoruri „strică” rezultatul așteptat și nu menționează asta în raport. Ce principiu încalcă?",
+     "opts": [
+      "Confidențialitatea",
+      "Protecția participanților",
+      "Libertatea de retragere",
+      "Integritatea datelor"
+     ],
+     "correct": 3,
+     "explain": "Datele sunt distorsionate intenționat, ca să confirme ipoteza, iar omisiunea e ascunsă în raport: sunt încălcate integritatea datelor și transparența în raportare. Nu e o eroare accidentală (capitolul 1), pentru că eliminarea e deliberată. Participanții nu sunt afectați direct, iar retragerea ar fi fost decizia lor, nu a doctorandului.",
+     "tag": "Integritatea datelor"
+    },
+    {
+     "q": "Un studiu despre stres le cere participanților să țină un discurs improvizat în fața unei comisii severe. Ce trebuie să facă cercetătorii înainte de începerea studiului?",
+     "opts": [
+      "Să evalueze riscurile potențiale și modul în care vor fi gestionate",
+      "Să ascundă complet sarcina, ca reacțiile să fie cât mai autentice",
+      "Să aleagă doar participanții cu cel mai ridicat nivel de stres",
+      "Să le ceară participanților să renunțe la dreptul de retragere"
+     ],
+     "correct": 0,
+     "explain": "Capitolul cere evaluarea și gestionarea riscurilor potențiale înainte de începerea studiului. Ascunderea sarcinii ar încălca nedivulgarea și consimțământul informat, selectarea celor mai stresați ar crește riscul, iar dreptul de retragere nu poate fi cerut înapoi.",
+     "tag": "Evaluarea riscurilor"
+    },
+    {
+     "q": "De ce nu este valabil un consimțământ semnat de un participant căruia nu i s-au explicat riscurile procedurii?",
+     "opts": [
+      "Consimțământul e valabil doar dacă îl aprobă comitetul",
+      "Consimțământul se semnează doar după încheierea studiului",
+      "Consimțământul cere informarea adecvată, nu doar acordul",
+      "Semnătura e valabilă doar pentru studiile de laborator"
+     ],
+     "correct": 2,
+     "explain": "Consimțământul „în cunoștință de cauză” are două componente: informarea adecvată (natură, proceduri, riscuri, beneficii) și acordul voluntar. Fără riscuri explicate, semnătura acoperă doar a doua componentă. Consimțământul se dă înainte de participare, iar comitetul de etică aprobă studiul, nu acordul fiecărui participant.",
+     "tag": "Consimțământul informat"
+    },
+    {
+     "q": "O cercetătoare vrea să studieze efectul pierderii unei persoane dragi asupra memoriei. De ce nu poate face un experiment de confirmare (provocat) și ce alege?",
+     "opts": [
+      "Lipsește ipoteza de cercetare; alege un experiment de explorare",
+      "Eșantionul disponibil e prea mic; alege un experiment pilot",
+      "Fenomenul e prea rar în populație; alege un studiu transversal",
+      "Fenomenul nu poate fi provocat etic; alege un experiment invocat"
+     ],
+     "correct": 3,
+     "explain": "Doliul nu poate fi provocat în mod deliberat, pentru că asta ar contrazice protecția împotriva consecințelor dăunătoare. De aceea se studiază persoane care au trecut deja prin pierdere: experimentul invocat (cvasi-experimentul), din capitolul 3, sau experimentul natural ca alternativă etică, din capitolul 1. Ipoteza există, iar problema nu e mărimea eșantionului.",
+     "tag": "Experimentul invocat ca alternativă etică"
+    },
+    {
+     "q": "Etica experimentului nu se oprește la protecția participanților. La ce etapă a cercetării se referă cerința de „transparență și integritate”?",
+     "opts": [
+      "La recrutarea participanților",
+      "La raportarea rezultatelor",
+      "La randomizarea pe grupuri",
+      "La etalonarea instrumentelor"
+     ],
+     "correct": 1,
+     "explain": "Rezumatul vorbește despre transparența și integritatea în raportarea rezultatelor: datele trebuie prezentate corect, fără falsificare sau distorsionare, iar limitele și eventualele conflicte de interese nu se ascund. Recrutarea ține de consimțământ, iar randomizarea și etalonarea sunt operații metodologice.",
+     "tag": "Transparența în raportare"
+    },
+    {
+     "q": "O studentă pune în anexele lucrării formularele de consimțământ semnate de participanți, cu numele și semnăturile lor vizibile. Ce principiu etic riscă să încalce?",
+     "opts": [
+      "Confidențialitatea",
+      "Nedivulgarea",
+      "Integritatea datelor",
+      "Libertatea de retragere"
+     ],
+     "correct": 0,
+     "explain": "Capitolul 4 pune formularele de consimțământ printre anexe, dar exemplarele semnate îi identifică pe participanți, iar confidențialitatea cere menținerea anonimatului. Pentru anexe e potrivit formularul ca model, necompletat. Nedivulgarea privește inducerea în eroare despre scop, iar integritatea, corectitudinea datelor.",
+     "tag": "Anonimatul"
+    },
+    {
+     "q": "Pacienții dintr-un studiu despre o terapie sunt informați și acceptă, dar grupul de control nu primește niciun tratament timp de un an, deși simptomele unora se agravează. Ce cerință e pusă în pericol în primul rând?",
+     "opts": [
+      "Standardizarea procedurii experimentale",
+      "Aleatorizarea participanților în grupuri",
+      "Protecția împotriva consecințelor dăunătoare",
+      "Validitatea variabilei independente"
+     ],
+     "correct": 2,
+     "explain": "Grupul de control e necesar metodologic (capitolul 4), dar nu justifică lăsarea participanților să sufere: cercetătorii trebuie să minimizeze riscurile, să protejeze bunăstarea fizică, mentală și emoțională și să ofere asistență. Standardizarea, aleatorizarea și validitatea VI sunt cerințe metodologice din capitolul 4, care pot fi respectate perfect într-un studiu neetic.",
+     "tag": "Protecția împotriva consecințelor dăunătoare"
+    },
+    {
+     "q": "Un cercetător repartizează aleatoriu participanții în două grupuri și, înainte de început, le explică sarcina, durata, riscurile minime și faptul că pot pleca oricând. Ce a asigurat pe plan etic și ce pe plan metodologic?",
+     "opts": [
+      "Etic: consimțământul informat; metodologic: aleatorizarea",
+      "Etic: aleatorizarea; metodologic: consimțământul informat",
+      "Etic: standardizarea; metodologic: confidențialitatea",
+      "Etic: confidențialitatea; metodologic: standardizarea"
+     ],
+     "correct": 0,
+     "explain": "Informarea despre sarcină, durată, riscuri și dreptul de retragere, urmată de acord, înseamnă consimțământ informat (capitolul 5). Repartizarea aleatorie în grupuri este aleatorizarea, cuvânt cheie al capitolului 4, cu rol metodologic: minimizează factorii de confuzie. Varianta inversată schimbă tocmai planurile între ele, iar confidențialitatea și standardizarea nu apar în situație.",
+     "tag": "Consimțământul informat"
+    },
+    {
+     "q": "La experimentul pilot, 3 din 10 participanți au o reacție puternică de anxietate la una dintre sarcini. Ce ar trebui să facă cercetătorii înaintea studiului complet?",
+     "opts": [
+      "Să păstreze sarcina, pentru că pilotul nu face parte din studiu",
+      "Să ajusteze sarcina ca să reducă disconfortul participanților",
+      "Să elimine din date cei trei participanți, ca să nu strice media",
+      "Să continue, fără să menționeze aceste reacții în raportul final"
+     ],
+     "correct": 1,
+     "explain": "Pilotul (capitolul 4) testează și ajustează procedurile înainte de cercetarea completă, iar capitolul 5 cere evaluarea și gestionarea riscurilor înainte de începerea studiului și minimizarea daunelor. Eliminarea celor trei din date ar încălca integritatea datelor, iar tăcerea în raport ar încălca transparența.",
+     "tag": "Evaluarea riscurilor"
+    },
+    {
+     "q": "Etica cercetării cere atât confidențialitate, cât și transparență în raportarea rezultatelor. Cum se împacă cele două cerințe?",
+     "opts": [
+      "Se raportează doar rezultatele favorabile, ca participanții să fie protejați",
+      "Datele personale se publică integral, pentru o transparență totală",
+      "Rezultatele se raportează complet și corect, fără date care identifică persoanele",
+      "Rezultatele nu se mai publică, ca participanții să nu fie expuși deloc"
+     ],
+     "correct": 2,
+     "explain": "Transparența privește rezultatele (complete, nefalsificate, nedistorsionate), iar confidențialitatea privește identitatea participanților: datele se raportează, dar anonimizat. Raportarea selectivă încalcă integritatea, publicarea datelor personale încalcă confidențialitatea, iar nepublicarea nu e cerută nicăieri în capitol.",
+     "tag": "Transparența în raportare"
+    }
+   ],
+   "ascunse": [
+    {
+     "q": "Un cercetător păstrează chestionarele completate, cu numele participanților pe ele, într-un dosar lăsat pe o masă dintr-un birou comun, neîncuiat. Ce principiu este pus în pericol?",
+     "opts": [
+      "Confidențialitatea",
+      "Integritatea datelor",
+      "Nedivulgarea",
+      "Minimizarea daunelor"
+     ],
+     "correct": 0,
+     "explain": "Confidențialitatea cere metode adecvate de stocare și protecție a datelor, ca să se prevină accesul neautorizat la informații sensibile. Un dosar cu nume, la vedere, nu respectă această cerință. Datele nu sunt modificate (integritate), iar participanții nu au fost induși în eroare (nedivulgare).",
+     "tag": "Stocarea și protecția datelor"
+    },
+    {
+     "q": "O firmă finanțează un studiu despre aplicația de meditație pe care o vinde, iar cercetătorul principal deține acțiuni la firmă. Ce aspect etic trebuie gestionat?",
+     "opts": [
+      "Efectul Hawthorne",
+      "Conflictul de interese",
+      "Eroarea de selecție",
+      "Libertatea de retragere"
+     ],
+     "correct": 1,
+     "explain": "Interesul financiar al cercetătorului poate influența obiectivitatea studiului și a raportării: e un conflict de interese, temă din întrebările de verificare ale capitolului. Efectul Hawthorne și eroarea de selecție (capitolul 1) sunt erori metodologice care țin de participanți, nu de interesele cercetătorului.",
+     "tag": "Conflictele de interese"
+    },
+    {
+     "q": "Un laborator studiază învățarea la șobolani folosind șocuri electrice puternice și repetate, deși șocurile slabe ar fi suficiente. Ce principiu etic se aplică și în acest caz?",
+     "opts": [
+      "Minimizarea daunelor",
+      "Consimțământul informat",
+      "Confidențialitatea datelor",
+      "Libertatea de retragere"
+     ],
+     "correct": 0,
+     "explain": "Rezumatul spune că problemele etice privesc și animalele de laborator. Dacă un stimul mai slab e suficient, intensitatea mare produce un disconfort inutil, deci e încălcată minimizarea daunelor. Consimțământul informat e o capcană: un animal nu poate fi informat și nu-și poate exprima acordul, deci nu el e principiul relevant aici.",
+     "tag": "Minimizarea daunelor"
+    },
+    {
+     "q": "Un psiholog observă, din spatele unei oglinzi unidirecționale, cum se joacă părinții cu copiii lor, fără ca ei să știe că sunt observați sau înregistrați. Ce lipsește în primul rând?",
+     "opts": [
+      "Confidențialitatea datelor înregistrate",
+      "Integritatea datelor înregistrate",
+      "Consimțământul informat al participanților",
+      "Transparența în raportarea finală"
+     ],
+     "correct": 2,
+     "explain": "Părinții nu au fost informați și nu și-au dat acordul, deci lipsește consimțământul informat. Capitolul 3 spune că observarea anonimă ridică serioase probleme deontologice. Confidențialitatea e o capcană: ea privește protecția datelor după colectare și poate fi chiar respectată, dar nu înlocuiește acordul.",
+     "tag": "Observarea anonimă"
+    },
+    {
+     "q": "La o lună după un studiu, un participant cere ca datele lui să nu apară într-un raport public în care ar putea fi recunoscut. Ce prevede etica cercetării?",
+     "opts": [
+      "Datele personale nu se divulgă fără acordul lui explicit",
+      "Datele se pot folosi, pentru că studiul s-a încheiat",
+      "Datele se pot folosi, pentru că a semnat consimțământul",
+      "Datele se pot publica, dacă participantul e plătit"
+     ],
+     "correct": 0,
+     "explain": "Confidențialitatea cere ca datele personale să nu fie divulgate fără acordul explicit al participantului și ca anonimatul să fie menținut. Încheierea studiului sau consimțământul de participare nu înseamnă acord pentru o publicare în care participantul poate fi recunoscut, iar plata nu anulează acest drept.",
+     "tag": "Confidențialitatea"
+    }
+   ]
+  }
+ ]
+}

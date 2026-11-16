@@ -1,0 +1,767 @@
+{
+ "schema": "quiz-capitol-v3",
+ "capitol": 14,
+ "titlu": "Afectivitatea",
+ "sursa": "Manual Psihologie experimentală (UTM), Capitolul 14",
+ "reconstituit": "Reconstituit pe 16 nov. 2026 din pagina publicată Psihologie_experimentala.html (capitolele erau încorporate în pagină). Lipsesc câmpurile 'tip' și 'exemplu_nou', care nu ajung în pagină; restul (hartă, runde, întrebări vizibile și ascunse) e identic cu pagina.",
+ "harta": {
+  "centru": "Afectivitatea",
+  "ramuri": [
+   {
+    "titlu": "1. Afectivitatea: definiție, emoție, stare afectivă",
+    "noduri": [
+     {
+      "t": "Definiția afectivității",
+      "d": "Aspectele emoționale și afective ale comportamentului uman: starea emoțională, reacțiile la stimuli sau evenimente și alte aspecte ale experienței subiective. Investigarea experimentală folosește metode și tehnici pentru a studia și a măsura aceste aspecte."
+     },
+     {
+      "t": "Emoția",
+      "d": "Cuvinte cheie: reacție psihologică și fiziologică la stimuli interni sau externi, care implică schimbări cognitive, fiziologice și comportamentale (cele trei componente cerute de prima întrebare de verificare)."
+     },
+     {
+      "t": "Starea afectivă",
+      "d": "Cuvinte cheie: stare mentală sau emoțională generală, de lungă sau scurtă durată, care poate influența percepția și comportamentul unei persoane."
+     },
+     {
+      "t": "Emoție vs stare afectivă",
+      "d": "Interpretare de studiu (a doua întrebare de verificare): emoția e o reacție la un stimul, cu schimbări cognitive, fiziologice și comportamentale; starea afectivă e o stare generală, de fond, care colorează percepția și comportamentul. Cartea nu le deosebește după durată (starea afectivă poate fi și scurtă), deci quiz-ul nu o face nici el."
+     },
+     {
+      "t": "Domeniul afectivității (rezumat)",
+      "d": "Include emoțiile, stările afective și trăirile subiective, de la emoțiile de bază (bucuria, tristețea) la tulburările afective complexe (anxietatea, depresia). Cercetările explorează natura, funcțiile și impactul emoțiilor asupra comportamentului și sănătății mentale."
+     }
+    ]
+   },
+   {
+    "titlu": "2. Reglare, inteligență emoțională, tulburări",
+    "noduri": [
+     {
+      "t": "Reglarea emoțională",
+      "d": "Capacitatea de a modula și controla emoțiile și reacțiile afective pentru a gestiona stresul și a adapta comportamentul la cerințele situațiilor."
+     },
+     {
+      "t": "Inteligența emoțională",
+      "d": "Capacitatea de a recunoaște, înțelege și gestiona propriile emoții și ale altora și de a folosi aceste cunoștințe pentru a naviga în interacțiunile sociale și a rezolva problemele. În bibliografie: Daniel Goleman, „Emotional Intelligence”."
+     },
+     {
+      "t": "Reglare vs inteligență emoțională",
+      "d": "Ambele includ gestionarea propriilor emoții; inteligența emoțională adaugă recunoașterea și înțelegerea emoțiilor altora și folosirea lor în relații și în rezolvarea problemelor."
+     },
+     {
+      "t": "Tulburările afective",
+      "d": "Afecțiuni psihologice caracterizate prin perturbări ale stării afective: anxietatea, depresia, tulburarea bipolară. Notă de studiu: în clasificările clinice actuale, anxietatea are de obicei o categorie separată de tulburările dispoziției; quiz-ul folosește lista din carte. Nu le confunda cu tulburările atenției din Cap. 9 (Atenția)."
+     }
+    ]
+   },
+   {
+    "titlu": "3. Metodele de investigare a afectivității",
+    "tabel": {
+     "cap": [
+      "Metoda",
+      "Ce presupune",
+      "Exemple din carte"
+     ],
+     "randuri": [
+      [
+       "Auto-raportarea",
+       "Subiectul își exprimă singur emoțiile și stările afective",
+       "Chestionare, scale de evaluare subiectivă, întrebări deschise, STAI, interviuri structurate sau semistructurate"
+      ],
+      [
+       "Măsurarea fiziologică",
+       "Reacțiile corpului ca indicii ale stării afective",
+       "EEG (creierul), ECG (inima), conductivitatea pielii, activitatea musculară (expresia facială, postura)"
+      ],
+      [
+       "Observația comportamentală",
+       "Monitorizarea comportamentului nonverbal",
+       "Expresii faciale, gesturi, tonul vocii, postura; video, observatori umani, software"
+      ],
+      [
+       "Testele de laborator pentru inducerea emoțiilor",
+       "Stimuli controlați induc emoții specifice, evaluate apoi prin celelalte metode",
+       "Imagini, videoclipuri, sunete, scenarii"
+      ],
+      [
+       "Studiile neuroimagistice",
+       "Activitatea cerebrală asociată stărilor afective",
+       "fMRI, PET: regiunile implicate și interacțiunile dintre sistemele neuronale"
+      ]
+     ]
+    },
+    "noduri": [
+     {
+      "t": "Paradigmele experimentale ale afectivității",
+      "d": "Prezentarea de stimuli emoționali sau de sarcini care solicită reacții emoționale, evaluate într-un mod controlat și sistematic. Combinația și utilizarea corectă a metodelor oferă o înțelegere mai profundă a naturii, funcției și impactului emoțiilor."
+     },
+     {
+      "t": "Auto-raportarea",
+      "d": "Subiecții își exprimă emoțiile, stările sau reacțiile afective prin scale de evaluare subiectivă sau întrebări deschise: chestionare, scale ale stării afective, interviuri structurate sau semistructurate."
+     },
+     {
+      "t": "Scala STAI",
+      "d": "Cartea o dă ca exemplu de scală a stării afective: „Scala Stării de Dispoziție – State-Trait Anxiety Inventory”. Notă de studiu: numele englez înseamnă inventarul de anxietate ca stare și ca trăsătură (Spielberger)."
+     },
+     {
+      "t": "Măsurarea fiziologică",
+      "d": "EEG pentru activitatea electrică a creierului, ECG pentru activitatea electrică a inimii, conductivitatea pielii pentru reacțiile emoționale, activitatea musculară pentru expresia facială și postură. Biosemnalele corespunzătoare, EDR/GSR și EMG, sunt descrise în Cap. 3 (Metoda observației)."
+     },
+     {
+      "t": "Observația comportamentală",
+      "d": "Monitorizarea și înregistrarea comportamentului nonverbal (expresii faciale, gesturi, tonul vocii, postura), prin înregistrări video, observatori umani sau software de analiză comportamentală."
+     },
+     {
+      "t": "Testele de laborator pentru inducerea emoțiilor",
+      "d": "Stimuli controlați (imagini, videoclipuri, sunete, scenarii) induc emoții specifice în laborator; apoi stările afective se evaluează prin auto-raportare, măsurători fiziologice sau observație comportamentală."
+     },
+     {
+      "t": "Studiile neuroimagistice",
+      "d": "fMRI sau PET: permit observarea regiunilor cerebrale implicate în procesarea emoțiilor și explorarea interacțiunilor dintre sistemele neuronale implicate în afectivitate."
+     }
+    ]
+   },
+   {
+    "titlu": "4. Modelarea: definiție, stimulare, aspirație",
+    "noduri": [
+     {
+      "t": "Definiția modelării",
+      "d": "Procesul de modificare a comportamentului individual prin observație și imitație a comportamentului altora sau prin experimentarea consecințelor propriului comportament. Se bazează pe folosirea modelelor sau a exemplului pentru a influența și forma comportamentul."
+     },
+     {
+      "t": "Trebuința de stimulare și de performanță",
+      "d": "Se explorează cum nivelurile de stimulare influențează motivația și comportamentul. Prin modelare, individul observă și imită oameni motivați, cu performanță ridicată; modelarea poate demonstra strategii de gestionare a stresului, abilități noi și căi de îmbunătățire a performanței."
+     },
+     {
+      "t": "Nivelul de aspirație",
+      "d": "Obiectivele sau standardele individului pentru performanță și realizare. Modelele sau exemplele de succes din domeniul de interes pot crește aspirațiile și pot inspira angajament și efort."
+     }
+    ]
+   },
+   {
+    "titlu": "5. Modelarea: frustrare, agresivitate, conflict",
+    "noduri": [
+     {
+      "t": "Frustrarea, agresivitatea și conflictul",
+      "d": "Fenomene legate de starea emoțională și comportamentală, care pot fi studiate experimental pentru a le înțelege cauzele și consecințele."
+     },
+     {
+      "t": "Modelarea și frustrarea",
+      "d": "Modele care au depășit obstacolele și au perseverat în ciuda dificultăților; observarea celor care gestionează eficient frustrarea oferă strategii și perspective noi."
+     },
+     {
+      "t": "Modelarea și agresivitatea",
+      "d": "Modele pozitive și non-agresive de comportament; promovarea comportamentului non-agresiv și a abordărilor constructive poate reduce agresivitatea."
+     },
+     {
+      "t": "Modelarea și conflictul",
+      "d": "Observarea și imitarea celor care manifestă comunicare eficientă, empatie și rezolvare constructivă a conflictelor interpersonale îmbunătățesc relațiile și reduc tensiunile și ostilitatea."
+     }
+    ]
+   },
+   {
+    "titlu": "6. Studiul comportamentului simulat",
+    "noduri": [
+     {
+      "t": "Definiția comportamentului simulat",
+      "d": "Folosirea simulărilor sau a scenariilor pentru a studia reacțiile și comportamentele indivizilor în situații specifice, în medii controlate, cu condiții realiste, dar gestionabile; util pentru răspunsurile la stimuli emoționali sau situații conflictuale și pentru testarea ipotezelor."
+     },
+     {
+      "t": "Crearea scenariilor și a mediilor de simulare",
+      "d": "Cercetătorii construiesc scenarii care reflectă situațiile de interes: sociale, profesionale, academice sau virtuale."
+     },
+     {
+      "t": "Implicarea participanților",
+      "d": "Participanții se comportă și iau decizii după scenariu; răspunsurile se înregistrează prin observație directă, auto-raportare sau măsurători fiziologice."
+     },
+     {
+      "t": "Manipularea variabilelor",
+      "d": "Caracteristica cheie: se pot manipula variabilele și condițiile experimentale pentru a testa ipoteze și scenarii și a evalua impactul diferiților factori."
+     },
+     {
+      "t": "Obținerea și analiza datelor",
+      "d": "Analiză calitativă și cantitativă a răspunsurilor, identificarea modelelor și a tendințelor, interpretarea semnificației rezultatelor."
+     },
+     {
+      "t": "Domeniile de aplicare",
+      "d": "Psihologia socială, organizațională, clinică și educațională: comportament individual și intergrup, luarea deciziilor, interacțiuni sociale, rezolvarea problemelor."
+     },
+     {
+      "t": "Beneficii și limitări ale simulării",
+      "d": "Beneficii: controlul și standardizarea condițiilor, reproductibilitatea rezultatelor, explorarea fenomenelor complexe în mod sigur și etic. Limitări: mediile și comportamentele reale se reproduc greu complet; trebuie avute în vedere validitatea ecologică și generalizarea rezultatelor."
+     },
+     {
+      "t": "Validitatea ecologică",
+      "d": "Cartea doar o numește ca limită a simulării. Sens uzual (interpretare de studiu): măsura în care condițiile și rezultatele unui studiu corespund vieții reale. Se leagă de „contextul mai puțin autentic” al experimentului de laborator și de validitatea externă din Cap. 1 (Psihologia experimentală. Știință și metodă)."
+     }
+    ]
+   },
+   {
+    "titlu": "7. Dubla natură a motivației și afectivității",
+    "tabel": {
+     "cap": [
+      "Rolul",
+      "Ce înseamnă",
+      "Exemplul din carte"
+     ],
+     "randuri": [
+      [
+       "Variabilă dependentă",
+       "Influențată de manipularea VI și măsurată pentru a evalua efectul",
+       "Program de instruire → motivația studenților, măsurată înainte și după; tipuri de recompense → starea afectivă"
+      ],
+      [
+       "Variabilă de control",
+       "Luată în considerare ca diferențele să fie atribuite VI, nu altor factori",
+       "Terapie pentru depresie → nivelul inițial de motivație sau de afectivitate al participanților"
+      ]
+     ]
+    },
+    "noduri": [
+     {
+      "t": "Dubla natură: definiție",
+      "d": "Motivația și afectivitatea pot fi considerate atât variabile dependente, cât și variabile de control în cercetarea psihologică. Recunoașterea ambelor roluri duce la concluzii mai precise și mai robuste despre efectele intervențiilor."
+     },
+     {
+      "t": "Motivația și afectivitatea ca VD",
+      "d": "Atunci când cercetătorii vor să afle ce le influențează: sunt măsurate după (sau înainte și după) manipularea variabilelor independente."
+     },
+     {
+      "t": "Motivația și afectivitatea ca VC",
+      "d": "Atunci când se studiază alt aspect, iar ele sunt controlate sau luate în calcul, ca diferențele observate să fie cu adevărat efectul VI. Definițiile VI/VD/VC sunt în Cap. 2 (Metodele psihologiei experimentale)."
+     }
+    ]
+   },
+   {
+    "titlu": "8. Legături și capcane",
+    "noduri": [
+     {
+      "t": "Modelare vs metoda modelării și simulării",
+      "d": "Metoda modelării și simulării din Cap. 3 (Metoda observației) înseamnă scheme logice ale funcțiilor psihice simulate pe computer (cibernetică, inteligență artificială). Modelarea din acest capitol e imitarea unor modele umane, iar studiul comportamentului simulat pune participanți reali în scenarii."
+     },
+     {
+      "t": "Modelarea și învățarea socială",
+      "d": "Observarea și imitarea altora definesc învățarea socială din Cap. 11 (Învățarea), unde „paradigma de modelare” apare printre paradigmele învățării; Albert Bandura și învățarea prin observare apar în Cap. 1 (Psihologia experimentală. Știință și metodă)."
+     },
+     {
+      "t": "Măsurătorile fiziologice și biosemnalele",
+      "d": "ECG, EMG și activitatea electrodermală (EDR sau GSR, conductivitatea pielii, influențată de stres și emoții) sunt descrise în Cap. 3 (Metoda observației); indicatorii fiziologici sunt o VD favorizată în Cap. 4 (Metoda experimentului). EEG, fMRI și PET apar și în Cap. 7 (Procese senzoriale), Cap. 8 (Procese perceptive) și Cap. 9 (Atenția)."
+     },
+     {
+      "t": "Auto-raportarea și rapoartele verbale",
+      "d": "În Cap. 12 (Gândirea și rezolvarea de probleme), rapoartele verbale servesc și la evaluarea stării de spirit și a emoțiilor, iar combinarea lor cu observația și măsurătorile fiziologice permite validarea și triangularea datelor."
+     },
+     {
+      "t": "Stimularea, aspirația și motivația",
+      "d": "Legătură de studiu cu Cap. 13 (Motivația): teoria stimulării cognitive a lui Robert White (nivelul optim de stimulare) și motivația de realizare (obiective ambițioase). Dubla natură a variabilelor privește motivația și afectivitatea împreună."
+     },
+     {
+      "t": "Bibliografia capitolului",
+      "d": "Robert Plutchik – Theories of Emotion; Davidson, Scherer, Goldsmith (ed.) – Handbook of Affective Sciences; Daniel Goleman – Emotional Intelligence; „Michael J.” Gross (ed.) – Emotion Regulation (editorul este, de fapt, James J. Gross); Barlow și Durand – Abnormal Psychology."
+     }
+    ]
+   }
+  ]
+ },
+ "runde": [
+  {
+   "id": "1",
+   "eticheta": "Runda 1 · Bază",
+   "titlu": "Runda 1 — Concepte de bază",
+   "desc": "Recunoaștere: definiția afectivității, cuvintele cheie (emoție, stare afectivă, reglare, inteligență emoțională, tulburări afective), cele cinci metode de investigare, modelarea, comportamentul simulat și dubla natură a variabilelor.",
+   "intrebari": [
+    {
+     "q": "Cum este definită afectivitatea?",
+     "opts": [
+      "Forțele interne și externe care determină direcția, intensitatea și persistența comportamentului",
+      "Dobândirea de cunoștințe, abilități sau atitudini noi, ca rezultat al experienței ori al practicii",
+      "Aspectele emoționale ale comportamentului: starea emoțională, reacțiile la stimuli, trăirea subiectivă",
+      "Procesarea informațiilor, generarea ideilor și evaluarea opțiunilor pentru a lua o decizie"
+     ],
+     "correct": 2,
+     "explain": "Afectivitatea se referă la aspectele emoționale și afective ale comportamentului uman: starea emoțională, reacțiile la stimuli sau evenimente și alte aspecte ale experienței subiective. Direcția, intensitatea și persistența comportamentului definesc motivația, din Cap. 13 (Motivația); dobândirea prin experiență e învățarea, din Cap. 11 (Învățarea); iar procesarea informațiilor pentru o decizie e gândirea, din Cap. 12 (Gândirea și rezolvarea de probleme).",
+     "tag": "Definiția afectivității"
+    },
+    {
+     "q": "Cum este definită emoția?",
+     "opts": [
+      "Reacție psihologică și fiziologică la stimuli, cu schimbări cognitive, fiziologice și comportamentale",
+      "Stare mentală sau emoțională generală, de durată variabilă, care influențează percepția și comportamentul",
+      "Capacitatea de a modula și controla emoțiile și reacțiile afective pentru a gestiona stresul",
+      "Reacție automată de orientare spre un stimul nou sau neașteptat, controlată prin obișnuință"
+     ],
+     "correct": 0,
+     "explain": "Emoția e o reacție psihologică și fiziologică la stimuli interni sau externi, care implică schimbări cognitive, fiziologice și comportamentale. Starea generală de durată variabilă e starea afectivă, modularea reacțiilor pentru gestionarea stresului e reglarea emoțională, iar reacția de orientare spre un stimul nou e răspunsul de orientare, din Cap. 9 (Atenția).",
+     "tag": "Emoția"
+    },
+    {
+     "q": "Care este una dintre caracteristicile cheie ale studiului comportamentului simulat?",
+     "opts": [
+      "Observarea comportamentului doar în mediul natural, fără intervenție",
+      "Reproducerea completă și fidelă a mediilor și comportamentelor reale",
+      "Simularea pe computer a funcțiilor psihice, fără participanți umani",
+      "Posibilitatea de a manipula variabilele și condițiile experimentale"
+     ],
+     "correct": 3,
+     "explain": "Capitolul spune că una dintre caracteristicile cheie ale studiului comportamentului simulat e capacitatea de a manipula variabilele și condițiile experimentale, ca să testeze ipoteze și scenarii. Observarea fără intervenție e observația din Cap. 3 (Metoda observației). Reproducerea completă a mediilor reale e tocmai ce simularea nu reușește (una dintre limitele ei), iar simularea pe computer a funcțiilor psihice e metoda modelării și simulării din Cap. 3 (Metoda observației), care nu implică participanți.",
+     "tag": "Manipularea variabilelor"
+    },
+    {
+     "q": "Ce caracterizează starea afectivă?",
+     "opts": [
+      "Este o reacție de scurtă durată, declanșată mereu de un stimul extern precis și identificabil",
+      "Este o stare emoțională generală, lungă sau scurtă, care influențează percepția și comportamentul",
+      "Este o perturbare a dispoziției, specifică afecțiunilor psihologice precum depresia și tulburarea bipolară",
+      "Este o trăsătură stabilă de personalitate, evaluată doar prin teste proiective standardizate"
+     ],
+     "correct": 1,
+     "explain": "Starea afectivă e o stare mentală sau emoțională generală, care poate fi de lungă sau scurtă durată și poate influența percepția și comportamentul. Reacția la un stimul e emoția (care poate avea și stimuli interni), perturbarea stării afective definește tulburările afective, iar trăsătura de personalitate evaluată prin teste proiective trimite la Cap. 3 (Metoda observației).",
+     "tag": "Starea afectivă"
+    },
+    {
+     "q": "Ce este reglarea emoțională?",
+     "opts": [
+      "Capacitatea de a recunoaște și înțelege emoțiile celorlalți pentru a naviga relațiile sociale cu ei",
+      "Inhibarea activă a amintirilor neplăcute, astfel încât să nu mai ajungă în conștiință",
+      "Capacitatea de a modula și controla emoțiile pentru a gestiona stresul și a te adapta situației",
+      "Scăderea treptată a reacției la un stimul repetat, care s-a dovedit lipsit de importanță"
+     ],
+     "correct": 2,
+     "explain": "Reglarea emoțională e capacitatea de a modula și controla emoțiile și reacțiile afective pentru a gestiona stresul și a adapta comportamentul la cerințele situațiilor. Recunoașterea emoțiilor altora ține de inteligența emoțională, inhibarea activă a amintirilor e suprimarea din Cap. 10 (Memoria), iar scăderea reacției la un stimul repetat e obișnuința din Cap. 9 (Atenția).",
+     "tag": "Reglarea emoțională"
+    },
+    {
+     "q": "Ce aduce în plus inteligența emoțională față de reglarea emoțională?",
+     "opts": [
+      "Recunoașterea și înțelegerea emoțiilor altora și folosirea lor în relații și probleme",
+      "Controlul propriilor emoții, pentru a gestiona stresul și a te adapta la cerințele situațiilor",
+      "Măsurarea emoțiilor prin indicatori fiziologici, precum ritmul cardiac",
+      "Evaluarea informației fără a fi influențat de bias-uri cognitive sau emoționale"
+     ],
+     "correct": 0,
+     "explain": "Ambele definiții vorbesc despre gestionarea propriilor emoții, dar inteligența emoțională include și emoțiile altora și folosirea acestor cunoștințe pentru a naviga în interacțiunile sociale și a rezolva probleme. Controlul propriilor emoții pentru stres e chiar reglarea emoțională, deci nu e un „plus”; măsurarea fiziologică e o metodă de investigare, iar evaluarea fără bias-uri e obiectivitatea din Cap. 12 (Gândirea și rezolvarea de probleme).",
+     "tag": "Reglare vs inteligență emoțională"
+    },
+    {
+     "q": "Care sunt exemple de tulburări afective?",
+     "opts": [
+      "Bucuria și tristețea, ca emoții de bază",
+      "Frustrarea, agresivitatea și conflictul",
+      "Neglijența unilaterală și agnozia asociativă",
+      "Anxietatea, depresia și tulburarea bipolară"
+     ],
+     "correct": 3,
+     "explain": "Tulburările afective sunt afecțiuni psihologice caracterizate prin perturbări ale stării afective, cum ar fi anxietatea, depresia și tulburarea bipolară. Bucuria și tristețea sunt date în rezumat ca emoții de bază, frustrarea, agresivitatea și conflictul sunt fenomenele studiate prin modelare, iar neglijența și agnozia sunt tulburări ale atenției din Cap. 9 (Atenția).",
+     "tag": "Tulburările afective"
+    },
+    {
+     "q": "Ce scală poate fi folosită pentru auto-raportarea stării afective?",
+     "opts": [
+      "Electrocardiograma (ECG sau EKG)",
+      "State-Trait Anxiety Inventory (STAI)",
+      "Protocolul de observație structurată",
+      "Testul proiectiv de personalitate"
+     ],
+     "correct": 1,
+     "explain": "La auto-raportare, capitolul dă exemplul scalelor de evaluare a stării afective, „cum ar fi Scala Stării de Dispoziție – State-Trait Anxiety Inventory”, alături de chestionare și interviuri structurate sau semistructurate. ECG-ul e o măsurătoare fiziologică, descrisă și printre biosemnalele din Cap. 3 (Metoda observației), iar protocolul de observație și testele proiective sunt instrumente din Cap. 3 (Metoda observației), nu scale completate de subiect despre propria stare.",
+     "tag": "Scala STAI"
+    },
+    {
+     "q": "Ce înregistrează electrocardiografia (ECG), ca măsurătoare fiziologică în studiul afectivității?",
+     "opts": [
+      "Activitatea electrică a creierului",
+      "Conductivitatea electrică a pielii",
+      "Activitatea electrică a inimii",
+      "Mișcările ochilor și direcția privirii"
+     ],
+     "correct": 2,
+     "explain": "Capitolul numește EEG pentru activitatea electrică a creierului, ECG pentru activitatea electrică a inimii, măsurătorile conductivității pielii pentru reacțiile emoționale și măsurătorile activității musculare pentru expresia facială și postură. Mișcările ochilor sunt înregistrate de electrooculograma (EOG), un biosemnal din Cap. 3 (Metoda observației).",
+     "tag": "Măsurarea fiziologică"
+    },
+    {
+     "q": "Ce înseamnă „dubla natură” a motivației și afectivității?",
+     "opts": [
+      "Pot fi tratate atât ca variabile dependente, cât și ca variabile de control",
+      "Pot fi tratate atât ca variabile independente, cât și ca variabile dependente",
+      "Pot fi atât intrinseci, cât și extrinseci, în funcție de sursa lor",
+      "Pot fi măsurate atât prin auto-raportare, cât și prin metode fiziologice"
+     ],
+     "correct": 0,
+     "explain": "Capitolul spune că motivația și afectivitatea pot fi considerate atât variabile dependente, cât și variabile de control. Varianta cu „independente și dependente” schimbă tocmai unul dintre cele două roluri. Intrinsec/extrinsec e clasificarea tipurilor de motivație din Cap. 13 (Motivația), iar auto-raportarea și măsurătorile fiziologice sunt metode, nu roluri ale variabilei.",
+     "tag": "Dubla natură: definiție"
+    },
+    {
+     "q": "Ce urmărește observația comportamentală în studiul afectivității?",
+     "opts": [
+      "Răspunsurile date de subiect la scale de evaluare și la întrebări deschise",
+      "Schimbările din ritmul cardiac și din conductivitatea electrică a pielii",
+      "Regiunile cerebrale activate și interacțiunile dintre sistemele neuronale",
+      "Comportamentul nonverbal: expresiile faciale, gesturile, tonul vocii și postura"
+     ],
+     "correct": 3,
+     "explain": "Observația comportamentală monitorizează și înregistrează comportamentul nonverbal (expresii faciale, gesturi, tonul vocii, postura), prin înregistrări video, observatori umani sau software de analiză comportamentală; observarea comportamentului nonverbal apare pe larg și în Cap. 3 (Metoda observației). Scalele și întrebările deschise sunt auto-raportare, ritmul cardiac și conductivitatea pielii sunt măsurători fiziologice, iar regiunile cerebrale țin de neuroimagistică.",
+     "tag": "Observația comportamentală"
+    },
+    {
+     "q": "Ce presupun testele de laborator pentru inducerea emoțiilor?",
+     "opts": [
+      "Emoțiile apărute spontan în mediul natural sunt observate fără nicio intervenție",
+      "Stimuli controlați (imagini, sunete, scenarii) induc emoții, evaluate apoi prin alte metode",
+      "Schemele logice ale proceselor emoționale sunt simulate pe computer și testate",
+      "Participanții imită modele care își gestionează eficient emoțiile negative"
+     ],
+     "correct": 1,
+     "explain": "Testele folosesc stimuli controlați (imagini, videoclipuri, sunete sau scenarii) pentru a induce emoții specifice în laborator, apoi stările afective sunt evaluate prin auto-raportare, măsurători fiziologice sau observație comportamentală. Observarea fără intervenție ține de observație și de experimentul natural, din Cap. 1 (Psihologia experimentală. Știință și metodă); simularea pe computer e metoda modelării și simulării din Cap. 3 (Metoda observației), iar imitarea modelelor e modelarea.",
+     "tag": "Testele de laborator pentru inducerea emoțiilor"
+    },
+    {
+     "q": "Ce permit studiile neuroimagistice (fMRI, PET) în cercetarea afectivității?",
+     "opts": [
+      "Înregistrarea activității electrice a inimii în timpul unei reacții emoționale",
+      "Analiza expresiilor faciale filmate, cu ajutorul unui software specializat",
+      "Observarea regiunilor cerebrale implicate în emoții și a interacțiunilor dintre ele",
+      "Urmărirea mișcărilor ochilor și a fixațiilor privirii pe stimulii emoționali"
+     ],
+     "correct": 2,
+     "explain": "Neuroimagistica permite observarea regiunilor cerebrale implicate în procesarea emoțiilor și explorarea interacțiunilor dintre diferitele sisteme neuronale implicate în afectivitate. Activitatea inimii e înregistrată de ECG, analiza video a expresiilor ține de observația comportamentală, iar urmărirea privirii e treaba eye-trackerului din Cap. 8 (Procese perceptive).",
+     "tag": "Studiile neuroimagistice"
+    },
+    {
+     "q": "Ce este modelarea comportamentului?",
+     "opts": [
+      "Schimbarea comportamentului prin observarea și imitarea altora sau prin consecințele propriei conduite",
+      "Realizarea unor scheme logice ale funcțiilor psihice și simularea lor pe computer, prin programe",
+      "Asocierea unui răspuns reflex cu un stimul neutru care, în mod normal, nu îl declanșa deloc",
+      "Crearea unor scenarii controlate în care participanții se comportă ca în situații reale"
+     ],
+     "correct": 0,
+     "explain": "Modelarea comportamentului e procesul de modificare a comportamentului individual prin observație și imitație a comportamentului altora sau prin experimentarea consecințelor propriului comportament. Capcana e „metoda modelării și simulării” din Cap. 3 (Metoda observației): scheme logice simulate pe computer, altceva decât imitarea unui model. Asocierea reflexului cu un stimul neutru e condiționarea clasică din Cap. 11 (Învățarea), iar scenariile controlate cu participanți definesc studiul comportamentului simulat.",
+     "tag": "Definiția modelării"
+    },
+    {
+     "q": "Ce înseamnă nivelul de aspirație?",
+     "opts": [
+      "Felul în care nivelul de stimulare influențează motivația și comportamentul",
+      "Dorința de a influența, controla sau domina alți oameni ori resursele lor",
+      "Obiective specifice, măsurabile, atingibile, relevante și limitate în timp",
+      "Obiectivele sau standardele individului pentru performanță și realizare"
+     ],
+     "correct": 3,
+     "explain": "Nivelul de aspirație se referă la obiectivele sau standardele individului pentru performanță și realizare. Influența nivelului de stimulare asupra motivației e ce se explorează la trebuința de stimulare și de performanță, dorința de a-i domina pe alții e motivația de putere din Cap. 13 (Motivația), iar obiectivele SMART țin de managementul motivației, tot din Cap. 13 (Motivația).",
+     "tag": "Nivelul de aspirație"
+    }
+   ],
+   "ascunse": [
+    {
+     "q": "Ce tipuri de schimbări implică emoția?",
+     "opts": [
+      "Senzoriale, perceptive și motorii",
+      "De codificare, de stocare și de recuperare",
+      "Cognitive, fiziologice și comportamentale",
+      "De direcție, intensitate și persistență"
+     ],
+     "correct": 2,
+     "explain": "Emoția e o reacție la stimuli interni sau externi care implică schimbări cognitive, fiziologice și comportamentale (răspunsul la prima întrebare de verificare). Codificarea, stocarea și recuperarea sunt procesele memoriei din Cap. 10 (Memoria), iar direcția, intensitatea și persistența descriu motivația din Cap. 13 (Motivația).",
+     "tag": "Emoția"
+    },
+    {
+     "q": "Pentru ce se folosesc măsurătorile activității musculare, în studiul afectivității?",
+     "opts": [
+      "Pentru a evalua expresia facială și postura",
+      "Pentru a înregistra direcția privirii",
+      "Pentru a evalua transpirația pielii",
+      "Pentru a localiza regiunile cerebrale implicate"
+     ],
+     "correct": 0,
+     "explain": "Printre măsurătorile fiziologice, capitolul dă măsurătorile activității musculare pentru a evalua expresia facială și postura; biosemnalul corespunzător, descris în Cap. 3 (Metoda observației), e electromiograma (EMG). Direcția privirii e înregistrată de EOG, transpirația se reflectă în conductivitatea pielii, iar localizarea regiunilor cerebrale ține de neuroimagistică.",
+     "tag": "Măsurarea fiziologică"
+    },
+    {
+     "q": "Ce limitări are studiul comportamentului simulat?",
+     "opts": [
+      "Condițiile experimentale nu pot fi controlate și nici standardizate riguros",
+      "Mediile reale se reproduc greu; contează validitatea ecologică și generalizarea",
+      "Variabilele nu pot fi manipulate, deci ipotezele nu pot fi testate deloc",
+      "Situațiile simulate sunt periculoase pentru participanți și ridică mari probleme etice"
+     ],
+     "correct": 1,
+     "explain": "Capitolul numește ca limitări dificultatea de a reproduce complet mediile și comportamentele reale și necesitatea de a ține cont de validitatea ecologică și de generalizarea rezultatelor. Controlul și standardizarea, manipularea variabilelor și explorarea fenomenelor complexe „într-un mod sigur și etic” sunt, dimpotrivă, avantajele simulării.",
+     "tag": "Beneficii și limitări ale simulării"
+    },
+    {
+     "q": "De ce sunt luate în considerare motivația și afectivitatea atunci când au rol de variabile de control?",
+     "opts": [
+      "Ca să fie manipulate de cercetător pentru a produce efectul dorit",
+      "Ca să fie măsurate după intervenție, pentru a-i evalua efectul",
+      "Ca participanții să nu fie induși în eroare privind scopul studiului",
+      "Ca diferențele observate să fie cu adevărat efectul manipulării VI"
+     ],
+     "correct": 3,
+     "explain": "Ca variabile de control, motivația și afectivitatea sunt luate în considerare pentru a asigura că diferențele observate sunt rezultatul manipulării variabilelor independente și nu al altor factori, în acord cu definiția VC din Cap. 2 (Metodele psihologiei experimentale). Manipularea definește VI, măsurarea după intervenție definește rolul de VD, iar dreptul de a nu fi indus în eroare e nedivulgarea din Cap. 5 (Probleme etice ale experimentului psihologic).",
+     "tag": "Motivația și afectivitatea ca VC"
+    },
+    {
+     "q": "Cum poate ajuta modelarea în cazul frustrării?",
+     "opts": [
+      "Prin modele pozitive, non-agresive, de comportament",
+      "Prin modele care au depășit obstacolele și au perseverat",
+      "Prin modele care comunică eficient și empatic în dispute",
+      "Prin exemple de succes care ridică obiectivele personale"
+     ],
+     "correct": 1,
+     "explain": "Pentru frustrare, capitolul vorbește despre modele care au depășit obstacolele și au perseverat în ciuda dificultăților, iar observarea celor care gestionează eficient frustrarea oferă strategii noi. Modelele non-agresive sunt aplicația pentru agresivitate, comunicarea eficientă și empatia în dispute pentru conflict, iar exemplele de succes care ridică obiectivele, pentru nivelul de aspirație.",
+     "tag": "Modelarea și frustrarea"
+    }
+   ]
+  },
+  {
+   "id": "2",
+   "eticheta": "Runda 2 · Aplicații",
+   "titlu": "Runda 2 — Scenarii și raționament",
+   "desc": "Recunoaște metoda de investigare, conceptul afectiv, aplicația modelării, limitele simulării și rolul variabilei în situații concrete.",
+   "intrebari": [
+    {
+     "q": "După un film trist, participanții bifează pe o scală de la 1 la 7 cât de triști se simt în acel moment. Prin ce metodă este evaluată starea lor afectivă?",
+     "opts": [
+      "Observația comportamentală",
+      "Auto-raportarea pe o scală",
+      "Măsurarea fiziologică",
+      "Studiul neuroimagistic"
+     ],
+     "correct": 1,
+     "explain": "Subiecții își exprimă singuri emoția pe o scală de evaluare subiectivă: auto-raportarea. Observația comportamentală ar presupune ca altcineva (sau un software) să urmărească expresiile și gesturile, măsurarea fiziologică ar înregistra reacțiile corpului, iar neuroimagistica activitatea cerebrală. Filmul, ca stimul care induce emoția, ține de testele de laborator pentru inducerea emoțiilor.",
+     "tag": "Auto-raportarea"
+    },
+    {
+     "q": "Unui grup i se arată, timp de cinci minute, fotografii cu pui de animale, iar altui grup fotografii cu obiecte de birou; apoi se compară buna dispoziție a celor două grupuri. Cum se numește procedura folosită pentru a provoca emoția?",
+     "opts": [
+      "Studiul comportamentului într-un scenariu simulat",
+      "Observația comportamentului în mediul natural",
+      "Experimentul natural, cu evenimente nemanipulate",
+      "Test de laborator pentru inducerea emoțiilor"
+     ],
+     "correct": 3,
+     "explain": "Cercetătorii folosesc stimuli controlați (imagini) pentru a induce o emoție specifică în laborator, apoi o evaluează: testul de laborator pentru inducerea emoțiilor. În studiul comportamentului simulat participanții acționează și iau decizii într-un scenariu, nu doar privesc stimuli. Observația în mediul natural și experimentul natural, din Cap. 1 (Psihologia experimentală. Știință și metodă), nu presupun ca cercetătorul să producă el stimulii.",
+     "tag": "Testele de laborator pentru inducerea emoțiilor"
+    },
+    {
+     "q": "Un program analizează înregistrările video ale fețelor jucătorilor în timp ce pierd la un joc pe calculator și numără încruntările și zâmbetele. Ce metodă de investigare a afectivității se folosește?",
+     "opts": [
+      "Observația comportamentală",
+      "Auto-raportarea trăirilor",
+      "Măsurarea activității musculare",
+      "Studiul neuroimagistic"
+     ],
+     "correct": 0,
+     "explain": "Capitolul spune că observația comportamentală poate fi realizată prin înregistrări video, observatori umani sau software specializat pentru analiza comportamentală, iar expresiile faciale sunt comportament nonverbal. Măsurarea activității musculare evaluează și ea expresia facială, dar cu senzori fiziologici pe corp, nu prin analiza imaginilor video. Auto-raportarea ar cere jucătorilor să-și descrie singuri trăirile, iar neuroimagistica ar folosi un scanner cerebral.",
+     "tag": "Observația comportamentală"
+    },
+    {
+     "q": "Unor participanți cu frică de păianjeni li se prind doi electrozi pe degete, care înregistrează cât de mult transpiră pielea când văd imagini cu păianjeni. Ce măsurătoare fiziologică se folosește?",
+     "opts": [
+      "Electrocardiograma (ECG) a inimii",
+      "Electroencefalograma (EEG) a creierului",
+      "Conductivitatea electrică a pielii",
+      "Activitatea musculară a feței"
+     ],
+     "correct": 2,
+     "explain": "Transpirația schimbă conductivitatea pielii, pe care capitolul o dă ca măsurătoare pentru evaluarea reacțiilor emoționale; în Cap. 3 (Metoda observației) apare ca activitatea electrodermală (EDR sau GSR), influențată de stres și emoții. ECG-ul înregistrează activitatea inimii, EEG-ul pe cea a creierului, iar activitatea musculară servește la evaluarea expresiei faciale și a posturii.",
+     "tag": "Măsurarea fiziologică"
+    },
+    {
+     "q": "O echipă vrea să vadă cum interacționează între ele sistemele neuronale implicate în frică, în timp ce participanții, întinși într-un scanner, privesc fețe furioase. Ce tehnică i se potrivește?",
+     "opts": [
+      "ECG, ca măsurătoare fiziologică",
+      "fMRI, ca studiu neuroimagistic",
+      "Eye-trackerul, pentru privire",
+      "Conductivitatea pielii"
+     ],
+     "correct": 1,
+     "explain": "Studiile neuroimagistice (fMRI, PET) permit observarea regiunilor cerebrale implicate în emoții și explorarea interacțiunilor dintre sistemele neuronale. ECG-ul și conductivitatea pielii sunt măsurători periferice, ale inimii și ale pielii, iar eye-trackerul, din Cap. 8 (Procese perceptive), urmărește doar unde privește participantul.",
+     "tag": "Studiile neuroimagistice"
+    },
+    {
+     "q": "Andrei tresare și i se accelerează pulsul când o ușă se trântește brusc. Separat, după o ceartă cu un prieten, e ușor posomorât de două zile și totul i se pare mai cenușiu. Cum se încadrează cele două trăiri?",
+     "opts": [
+      "Prima e o emoție, a doua o stare afectivă",
+      "Prima e o stare afectivă, a doua o emoție",
+      "Amândouă sunt exemple de tulburări afective",
+      "Prima e reglare emoțională, a doua o emoție"
+     ],
+     "correct": 0,
+     "explain": "Tresăritul cu puls accelerat e o reacție psihologică și fiziologică la un stimul extern, cu schimbări fiziologice și comportamentale: o emoție. Posomorârea care colorează totul e o stare emoțională generală care influențează percepția: o stare afectivă (cartea admite și stări de scurtă durată). Inversarea lor e capcana. Tulburările afective sunt afecțiuni psihologice, nu o reacție firească sau o zi proastă, iar reglarea emoțională ar presupune ca Andrei să-și moduleze activ reacția.",
+     "tag": "Emoție vs stare afectivă"
+    },
+    {
+     "q": "Înaintea unui examen oral, Mara simte cum crește panica. Respiră lent, își spune că a învățat bine și, după un minut, își recapătă calmul. Ce concept ilustrează situația?",
+     "opts": [
+      "Suprimarea amintirilor",
+      "Adaptarea senzorială",
+      "Reglarea emoțională",
+      "Incubația soluției"
+     ],
+     "correct": 2,
+     "explain": "Mara își modulează și controlează reacția afectivă ca să gestioneze stresul și să se adapteze situației: reglarea emoțională. Suprimarea, din Cap. 10 (Memoria), e inhibarea activă a unor amintiri, adaptarea senzorială, din Cap. 7 (Procese senzoriale), e scăderea sensibilității receptorilor la un stimul constant, iar incubația, din Cap. 12 (Gândirea și rezolvarea de probleme), e apariția unei soluții după o pauză în rezolvarea unei probleme.",
+     "tag": "Reglarea emoțională"
+    },
+    {
+     "q": "Ioana observă că un coleg e tăcut și încordat, își dă seama că e îngrijorat de termenul limită și își alege cuvintele ca să-l liniștească înainte să discute proiectul. Ce concept ilustrează situația?",
+     "opts": [
+      "Reglarea emoțională",
+      "Nivelul de aspirație",
+      "Modelarea conflictului",
+      "Inteligența emoțională"
+     ],
+     "correct": 3,
+     "explain": "Ioana recunoaște și înțelege emoțiile altcuiva și folosește aceste cunoștințe ca să navigheze interacțiunea și să rezolve o problemă: inteligența emoțională. Reglarea emoțională, în definiția cărții, privește modularea propriilor emoții, nu înțelegerea emoțiilor altora. Nivelul de aspirație privește standardele de performanță, iar modelarea ar presupune ca cineva să imite un model observat.",
+     "tag": "Inteligența emoțională"
+    },
+    {
+     "q": "Într-un program școlar, copiii urmăresc filmulețe cu colegi de vârsta lor care își împart calm jucăriile, fără îmbrânceli; după câteva săptămâni, incidentele violente din pauze scad. Ce aplicare a modelării ilustrează situația?",
+     "opts": [
+      "Modelarea pentru creșterea aspirațiilor",
+      "Modelarea pentru reducerea agresivității",
+      "Condiționarea clasică a fricii de pedeapsă",
+      "Testul de laborator pentru inducerea emoțiilor"
+     ],
+     "correct": 1,
+     "explain": "Copiii văd modele pozitive, non-agresive, de comportament, iar capitolul spune că prezentarea și promovarea comportamentului non-agresiv pot reduce agresivitatea. Modelarea aspirațiilor ar folosi exemple de succes ca să ridice obiectivele personale, condiționarea clasică, din Cap. 11 (Învățarea), ar asocia un stimul neutru cu un răspuns reflex, iar testele de inducere a emoțiilor urmăresc o emoție de moment, nu schimbarea comportamentului.",
+     "tag": "Modelarea și agresivitatea"
+    },
+    {
+     "q": "Elevii unui liceu dintr-un oraș mic ascultă poveștile unor absolvenți ajunși la universități de top. După întâlnire, mulți își propun să dea admitere la facultăți mai exigente decât plănuiseră. Ce ilustrează situația?",
+     "opts": [
+      "Creșterea nivelului de aspirație prin modelare",
+      "Motivația extrinsecă, prin recompense externe",
+      "Reglarea emoțională a anxietății de examen",
+      "Studiul comportamentului într-o simulare"
+     ],
+     "correct": 0,
+     "explain": "Observarea succesului altora poate crește aspirațiile individuale, adică obiectivele și standardele de realizare, iar modelele de succes din domeniul de interes sunt exact mecanismul descris de capitol. Motivația extrinsecă, din Cap. 13 (Motivația), ar presupune recompense sau sancțiuni externe, reglarea emoțională ar privi controlul emoțiilor, iar întâlnirea nu e o simulare cu variabile manipulate.",
+     "tag": "Nivelul de aspirație"
+    },
+    {
+     "q": "Într-un training pentru manageri, participanții urmăresc o colegă experimentată care mediază o dispută între doi angajați, ascultând empatic ambele părți și propunând o soluție acceptată de amândoi. Ce aplicare a modelării ilustrează?",
+     "opts": [
+      "Modelarea în depășirea frustrării",
+      "Metoda modelării și simulării pe computer",
+      "Modelarea în gestionarea conflictelor",
+      "Învățarea prin intuiție (Köhler)"
+     ],
+     "correct": 2,
+     "explain": "Participanții observă pe cineva care manifestă comunicare eficientă, empatie și rezolvare constructivă a unui conflict interpersonal: aplicația modelării pentru conflict. Frustrarea ar cere modele care au trecut peste obstacole și eșecuri, metoda modelării și simulării, din Cap. 3 (Metoda observației), înseamnă simularea pe computer a funcțiilor psihice, iar învățarea prin intuiție, din Cap. 11 (Învățarea), e o soluție găsită brusc, fără model observat.",
+     "tag": "Modelarea și conflictul"
+    },
+    {
+     "q": "Studenții joacă rolul unor angajați într-un birou virtual, unde un „șef” îi critică pe nedrept; cercetătorii variază tonul criticii și le înregistrează deciziile și pulsul. Ce abordare se folosește?",
+     "opts": [
+      "Metoda modelării și simulării",
+      "Experimentul natural, nemanipulat",
+      "Observația în mediul natural",
+      "Studiul comportamentului simulat"
+     ],
+     "correct": 3,
+     "explain": "Participanți reali acționează și iau decizii într-un scenariu creat de cercetători, care manipulează o variabilă (tonul criticii) și înregistrează răspunsurile prin observație și măsurători fiziologice: studiul comportamentului simulat. Metoda modelării și simulării, din Cap. 3 (Metoda observației), simulează pe computer funcțiile psihice, fără participanți. Experimentul natural și observația în mediul natural, din Cap. 1 (Psihologia experimentală. Știință și metodă), nu creează situația.",
+     "tag": "Definiția comportamentului simulat"
+    },
+    {
+     "q": "Într-o „urgență” jucată în laborator, participanții rămân foarte calmi, știind că totul e regizat. Cercetătorul se întreabă dacă ar reacționa la fel într-o urgență reală. Ce limitare a simulării apare?",
+     "opts": [
+      "Validitatea ecologică a rezultatelor",
+      "Lipsa standardizării condițiilor",
+      "Fidelitatea scăzută a instrumentului",
+      "Eroarea de tip I în analiza datelor"
+     ],
+     "correct": 0,
+     "explain": "Întrebarea e dacă rezultatele obținute într-un mediu simulat corespund comportamentului din viața reală: validitatea ecologică și generalizarea, limitele numite în capitol; ideea seamănă cu „contextul mai puțin autentic” al experimentului de laborator din Cap. 1 (Psihologia experimentală. Știință și metodă). Standardizarea e un avantaj al simulării, fidelitatea, din Cap. 3 (Metoda observației), privește stabilitatea în timp a rezultatelor unui test, iar eroarea de tip I, din Cap. 1 (Psihologia experimentală. Știință și metodă), înseamnă a găsi un efect care nu există.",
+     "tag": "Validitatea ecologică"
+    },
+    {
+     "q": "Un studiu testează dacă muzica ambientală dintr-un magazin (veselă sau neutră) schimbă buna dispoziție a clienților, măsurată cu un chestionar la ieșire. Ce rol are afectivitatea în acest studiu?",
+     "opts": [
+      "Variabilă independentă",
+      "Variabilă dependentă",
+      "Variabilă de control",
+      "Variabila subiect"
+     ],
+     "correct": 1,
+     "explain": "Muzica e manipulată (VI), iar buna dispoziție e măsurată pentru a evalua efectul manipulării: afectivitatea are rol de variabilă dependentă, ca în exemplul cărții cu tipurile de recompense. Ar fi fost variabilă de control dacă s-ar fi ținut cont de ea în timp ce se studia altceva, iar variabila subiect, din Cap. 4 (Metoda experimentului), privește caracteristicile participanților.",
+     "tag": "Motivația și afectivitatea ca VD"
+    },
+    {
+     "q": "Se compară două metode de predare a matematicii după scorurile la un test final. La început, cercetătorii măsoară cât de anxioși sunt elevii față de matematică și țin cont de acest nivel la analiză. Ce rol are anxietatea?",
+     "opts": [
+      "Variabilă dependentă",
+      "Variabilă independentă",
+      "Variabilă de control",
+      "Variabila subiect"
+     ],
+     "correct": 2,
+     "explain": "Studiul urmărește efectul metodei (VI) asupra scorurilor (VD); nivelul inițial de anxietate e luat în considerare pentru ca diferențele să poată fi atribuite metodei, nu altor factori: rol de variabilă de control, ca în exemplul cărții cu terapia depresiei. Nu e manipulată (deci nu e VI) și nu e efectul urmărit (deci nu e VD); definiția VC apare și în Cap. 2 (Metodele psihologiei experimentale). Variabila subiect, din Cap. 4 (Metoda experimentului), ar fi o caracteristică a participanților folosită ca factor studiat, nu un nivel de care doar se ține cont.",
+     "tag": "Motivația și afectivitatea ca VC"
+    }
+   ],
+   "ascunse": [
+    {
+     "q": "Un antrenor îi arată unui atlet începător înregistrări cu un campion care își controlează respirația înainte de start ca să-și gestioneze stresul și să performeze. Ce aplicare a modelării ilustrează situația?",
+     "opts": [
+      "Modelarea pentru reducerea agresivității",
+      "Testul de laborator pentru inducerea emoțiilor pozitive",
+      "Modelarea în trebuința de stimulare și de performanță",
+      "Condiționarea operantă, din Cap. 11 (Învățarea)"
+     ],
+     "correct": 2,
+     "explain": "Capitolul spune că, la trebuința de stimulare și de performanță, individul poate observa și imita oameni motivați și performanți, iar modelarea poate demonstra strategii eficiente de gestionare a stresului. Agresivitatea nu apare în situație, testul de laborator ar induce o emoție de moment, iar condiționarea operantă, din Cap. 11 (Învățarea), ar presupune consecințe care urmează comportamentului, nu un model observat.",
+     "tag": "Trebuința de stimulare și de performanță"
+    },
+    {
+     "q": "După un videoclip înfricoșător, cercetătorii notează simultan ritmul cardiac, expresiile faciale filmate și scorurile la o scală completată de participanți. Ce justifică o astfel de alegere?",
+     "opts": [
+      "Combinarea metodelor dă o înțelegere mai profundă a emoțiilor",
+      "Fiecare metodă, folosită singură, e invalidă pentru emoții",
+      "Așa nu mai e nevoie de un grup de control în experiment",
+      "Așa se respectă dreptul la retragere, din Cap. 5 (Probleme etice ale experimentului psihologic)"
+     ],
+     "correct": 0,
+     "explain": "Capitolul încheie lista metodelor spunând că combinația și utilizarea corectă a acestor metode pot oferi o înțelegere mai profundă a naturii, funcției și impactului emoțiilor; ideea seamănă cu validarea și triangularea datelor din Cap. 12 (Gândirea și rezolvarea de probleme). Cartea nu spune că o metodă singură e invalidă, combinarea metodelor nu înlocuiește grupul de control, iar dreptul la retragere e un principiu etic, fără legătură cu numărul de măsurători.",
+     "tag": "Paradigmele experimentale ale afectivității"
+    },
+    {
+     "q": "Pentru a studia reacțiile oamenilor într-un incendiu, cercetătorii folosesc o clădire în realitate virtuală, nu un incendiu real. Ce avantaj al simulării este cel mai evident aici?",
+     "opts": [
+      "Validitatea ecologică garantată a tuturor rezultatelor",
+      "Renunțarea la consimțământul participanților",
+      "Generalizarea automată la orice populație",
+      "Explorarea unui fenomen complex în mod sigur și etic"
+     ],
+     "correct": 3,
+     "explain": "Printre avantaje, capitolul numește controlul și standardizarea, reproductibilitatea și „abilitatea de a explora fenomene complexe într-un mod sigur și etic”. Validitatea ecologică și generalizarea sunt, dimpotrivă, limite ale simulării, iar consimțământul în cunoștință de cauză, din Cap. 5 (Probleme etice ale experimentului psihologic), rămâne obligatoriu și în simulări.",
+     "tag": "Beneficii și limitări ale simulării"
+    },
+    {
+     "q": "Un program de instruire este evaluat după efectele lui asupra motivației studenților. Cum este tratată motivația în acest exemplu?",
+     "opts": [
+      "Măsurată înainte și după intervenție, ca variabilă dependentă",
+      "Măsurată o singură dată, la început, ca variabilă de control",
+      "Manipulată de cercetător, ca variabilă independentă a programului",
+      "Înregistrată continuu prin EEG, ca indicator fiziologic"
+     ],
+     "correct": 0,
+     "explain": "În exemplul cărții, motivația e o variabilă dependentă măsurată înainte și după intervenție, pentru a evalua impactul programului de instruire. Măsurarea inițială pentru a ține cont de ea ar corespunde rolului de VC (exemplul cu terapia depresiei), programul, nu motivația, e cel manipulat, iar EEG-ul nu apare în acest exemplu.",
+     "tag": "Motivația și afectivitatea ca VD"
+    },
+    {
+     "q": "Un psiholog scrie un program de calculator care reproduce, după o schemă logică, felul în care apare frustrarea când un scop e blocat, și îl rulează cu parametri diferiți. Ce metodă folosește?",
+     "opts": [
+      "Modelarea comportamentului prin observație și imitație",
+      "Studiul comportamentului simulat, cu participanți",
+      "Metoda modelării și simulării, din Cap. 3 (Metoda observației)",
+      "Testul de laborator pentru inducerea frustrării"
+     ],
+     "correct": 2,
+     "explain": "Schemele logice ale funcțiilor psihice simulate pe computer definesc metoda modelării și simulării, din Cap. 3 (Metoda observației). Deși au cuvinte comune, modelarea din acest capitol înseamnă schimbarea comportamentului prin observarea și imitarea unor modele, iar studiul comportamentului simulat pune participanți reali într-un scenariu. Aici nu există participanți, deci nici test de laborator.",
+     "tag": "Modelare vs metoda modelării și simulării"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,1184 @@
+{
+  "schema": "quiz-capitol-v3",
+  "capitol": 8,
+  "titlu": "Testarea ipotezelor despre o singură populație",
+  "sursa": "Manual UTM, Unitatea VIII, pp. 103–114",
+  "runde": [
+    {
+      "id": "T",
+      "tip_runda": "baza",
+      "eticheta": "Runda 1 · Teorie",
+      "titlu": "Runda 1 — Teorie",
+      "desc": "Întrebări directe și scurte: ce măsoară un indicator, când se folosește o metodă, ce deosebește două concepte.",
+      "intrebari": [
+        {
+          "q": "Despre ce se formulează ipoteza de nul într-un test pentru o singură populație?",
+          "opts": [
+            "Despre media eșantionului, X̄ = μH",
+            "Despre statistica testului, Z = 0",
+            "Despre diferența dintre două eșantioane",
+            "Despre parametrul populației, μ = μH"
+          ],
+          "correct": 3,
+          "explain": "H0 specifică o valoare pentru parametrul populației (μ = μH). Media eșantionului se măsoară, nu se presupune; Z e rezultatul calculului; două eșantioane se compară în Cap. 9 (Testarea ipotezelor despre diferențele dintre două populații).",
+          "tag": "Ipoteza de nul (H0)",
+          "tip": "ipoteza"
+        },
+        {
+          "q": "Ce afirmă ipoteza de nul despre diferența dintre valoarea efectivă și cea presupusă a parametrului?",
+          "opts": [
+            "Că diferența e mai mare decât α",
+            "Că diferența e nulă: μ − μH = 0",
+            "Că diferența are sensul prezis",
+            "Că diferența e semnificativă la 95%"
+          ],
+          "correct": 1,
+          "explain": "De aici numele: H0 enunță că nu există o diferență între valoarea efectivă și cea presupusă, iar diferența observată se datorează întâmplării. Sensul prezis și semnificația țin de ipoteza alternativă și de decizie.",
+          "tag": "Ipoteza de nul (H0)",
+          "tip": "ipoteza"
+        },
+        {
+          "q": "Ce exprimă, de obicei, ipoteza alternativă?",
+          "opts": [
+            "Opinia cercetătorului că există o diferență reală",
+            "Valoarea presupusă a parametrului populației",
+            "Faptul că diferența observată e întâmplătoare",
+            "Probabilitatea de a respinge greșit ipoteza de nul"
+          ],
+          "correct": 0,
+          "explain": "Cercetătorul crede de obicei că eșantionul diferă semnificativ de populație și vrea să respingă H0; această opinie e Ha, acceptată dacă H0 se respinge. Valoarea presupusă și „întâmplarea” țin de H0, iar probabilitatea respingerii greșite e α.",
+          "tag": "Ipoteza alternativă (Ha)",
+          "tip": "ipoteza"
+        },
+        {
+          "q": "Când se alege un test bilateral?",
+          "opts": [
+            "Când se prezice o creștere a mediei",
+            "Când eșantionul are sub 30 de cazuri",
+            "Când sensul diferenței nu e prezis",
+            "Când σ al populației nu e cunoscut"
+          ],
+          "correct": 2,
+          "explain": "Dacă cercetătorul nu poate sau nu vrea să prezică sensul diferenței, Ha: μ ≠ μH, iar testul e bilateral. O creștere prezisă cere un test unilateral dreapta; mărimea eșantionului și σ decid între Z și t, nu tipul testului.",
+          "tag": "Test bilateral",
+          "tip": "test"
+        },
+        {
+          "q": "Ce deosebește zona critică a unui test unilateral de cea a unuia bilateral?",
+          "opts": [
+            "E de două ori mai mare ca suprafață",
+            "E împărțită egal între cele două cozi",
+            "Se află în jurul mediei distribuției",
+            "Stă în întregime într-o singură extremitate"
+          ],
+          "correct": 3,
+          "explain": "La testul unilateral, tot α stă în coada de interes (prag Zα), iar la cel bilateral α se împarte în două (câte α/2). Suprafața totală a zonei critice e aceeași, α; zona din jurul mediei e cea necritică.",
+          "tag": "Test unilateral",
+          "tip": "test"
+        },
+        {
+          "q": "Ce rol are statistica testului?",
+          "opts": [
+            "Dă valoarea pe care se bazează decizia",
+            "Fixează nivelul α ales pentru test",
+            "Arată importanța practică a diferenței",
+            "Dă probabilitatea ca H0 să fie adevărată"
+          ],
+          "correct": 0,
+          "explain": "Statistica testului e formula care produce valoarea (Z sau t obținut) comparată apoi cu pragul. α se alege înainte, semnificația statistică nu e importanță practică, iar Z nu e o probabilitate.",
+          "tag": "Statistica testului",
+          "tip": "concept"
+        },
+        {
+          "q": "Ce se pune la numitorul lui Z pentru o medie, când σ e cunoscut?",
+          "opts": [
+            "Abaterea standard a populației, σ",
+            "Varianța populației împărțită la n",
+            "Abaterea standard s/√(n − 1)",
+            "Eroarea standard a mediei, σ/√n"
+          ],
+          "correct": 3,
+          "explain": "Statistica e scorul Z al unei medii, deci numitorul e abaterea standard a distribuției mediilor, σ/√n, din Cap. 6 (Eșantionarea și distribuții de eșantionare). σ singur ar fi potrivit pentru un scor individual, iar s/√(n − 1) e varianta pentru σ necunoscut.",
+          "tag": "Eroarea standard a mediei",
+          "tip": "calcul"
+        },
+        {
+          "q": "Ce valori cuprinde zona critică a unui test?",
+          "opts": [
+            "Valorile statisticii care confirmă ipoteza de nul",
+            "Valorile statisticii egale cu valoarea presupusă",
+            "Valorile statisticii care duc la respingerea lui H0",
+            "Valorile din jurul mediei distribuției de eșantionare"
+          ],
+          "correct": 2,
+          "explain": "Zona critică (zona de respingere) cuprinde rezultatele socotite improbabile dacă H0 ar fi adevărată, cu probabilitate de apariție sub α. Valorile din jurul centrului formează zona necritică; niciun rezultat nu confirmă H0, ci doar nu o respinge.",
+          "tag": "Zona critică",
+          "tip": "concept"
+        },
+        {
+          "q": "Pe ce distribuție se stabilește zona critică a unui test pentru o medie?",
+          "opts": [
+            "Pe distribuția scorurilor din eșantionul cercetat",
+            "Pe distribuția mediilor, presupunând Ha adevărată",
+            "Pe distribuția mediilor, presupunând H0 adevărată",
+            "Pe distribuția scorurilor individuale din populație"
+          ],
+          "correct": 2,
+          "explain": "Se presupune că H0 e adevărată și se construiește, prin teorema limitei centrale, distribuția tuturor mediilor posibile pentru acel n; zona critică e capătul (sau capetele) ei. Scorurile individuale și eșantionul propriu nu dau această distribuție.",
+          "tag": "Zona critică",
+          "tip": "principiu"
+        },
+        {
+          "q": "De ce un test unilateral respinge mai ușor ipoteza de nul decât unul bilateral?",
+          "opts": [
+            "Pragul lui e mai aproape de centru",
+            "Are un nivel α de două ori mai mare",
+            "Nu are nevoie de ipoteza de nul",
+            "Folosește distribuția t, nu Z"
+          ],
+          "correct": 0,
+          "explain": "Cu tot α într-o coadă, pragul coboară (1,65 în loc de 1,96 la α = 0,05), deci zona critică e „trasă” mai aproape de medie. α rămâne același; ambele teste au H0 și pot folosi Z sau t.",
+          "tag": "Avantajul testului unilateral",
+          "tip": "principiu"
+        },
+        {
+          "q": "Care e ordinea pașilor în modelul de testare a ipotezelor?",
+          "opts": [
+            "Statistica testului, ipoteze, zonă critică, decizie",
+            "Ipoteze, zonă critică, statistica testului, decizie",
+            "Zonă critică, statistica testului, ipoteze, decizie",
+            "Ipoteze, statistica testului, decizie, zonă critică"
+          ],
+          "correct": 1,
+          "explain": "Pasul 1 enunță H0 și Ha, pasul 2 alege distribuția, α și pragul, pasul 3 calculează Z sau t (obținut), pasul 4 decide. Ipotezele și pragul se fixează înainte de calcul, nu după.",
+          "tag": "Pasul 1 · Enunțarea ipotezelor",
+          "tip": "etapa"
+        },
+        {
+          "q": "Ce deosebește eroarea de tipul I de eroarea de tipul II?",
+          "opts": [
+            "I păstrează o H0 falsă, II respinge o H0 adevărată",
+            "I respinge o H0 adevărată, II păstrează o H0 falsă",
+            "I e o greșeală de calcul, II una de interpretare",
+            "I privește testul bilateral, II testul unilateral"
+          ],
+          "correct": 1,
+          "explain": "Eroarea de tipul I e respingerea unei ipoteze de nul adevărate (probabilitate α); eroarea de tipul II e nerespingerea unei ipoteze de nul false (probabilitate β). Ambele pot apărea la orice tip de test, fără nicio greșeală de calcul.",
+          "tag": "Eroarea de tipul I",
+          "tip": "eroare"
+        },
+        {
+          "q": "De ce nu pot fi micșorate simultan riscurile α și β, pentru aceleași date?",
+          "opts": [
+            "Un α mai mic lărgește zona necritică și crește β",
+            "Amândouă depind doar de mărimea eșantionului",
+            "β e fixat de cercetător înaintea lui α",
+            "Cele două riscuri sunt mereu egale"
+          ],
+          "correct": 0,
+          "explain": "Micșorând α, zona critică se strâmtează și se depărtează de centru, așa că rezultatul cade mai rar în ea, inclusiv când H0 e falsă: β crește. α îl alege cercetătorul; cele două variază în sens invers, nu sunt egale.",
+          "tag": "Relația dintre α și β",
+          "tip": "principiu"
+        },
+        {
+          "q": "Ce corecție se face când σ e estimat prin s, la un eșantion de cel puțin 30?",
+          "opts": [
+            "Se trece la distribuția t cu n grade de libertate",
+            "n se înlocuiește cu n − 1 la numitor",
+            "s se înlocuiește cu s² la numitor",
+            "n se înlocuiește cu n + 1 la numitor"
+          ],
+          "correct": 1,
+          "explain": "Z = (X̄ − μH)/(s/√(n − 1)): n − 1 corectează faptul că s îl subestimează pe σ, ca în Cap. 4 (Mărimile dispersiei). Distribuția t se folosește sub 30 de cazuri, cu n − 1 grade de libertate.",
+          "tag": "Eșantion mare (n ≥ 30)",
+          "tip": "metoda"
+        },
+        {
+          "q": "Când se testează o proporție în locul unei medii?",
+          "opts": [
+            "Când eșantionul are sub 30 de cazuri",
+            "Când abaterea standard a populației nu e cunoscută",
+            "Când variabila nu e de interval sau de raport",
+            "Când sensul diferenței e prezis"
+          ],
+          "correct": 2,
+          "explain": "Dacă variabila nu justifică media aritmetică (de pildă „căsătorit/necăsătorit”), se folosește proporția eșantionului p, după nivelurile de măsură din Cap. 1 (Introducere în statistică). n mic și σ necunoscut duc la t, iar sensul prezis la un test unilateral.",
+          "tag": "Proporția în locul mediei",
+          "tip": "nivel_masura"
+        }
+      ],
+      "ascunse": [
+        {
+          "q": "Ce consecință are faptul că, în științele omului, eroarea de tipul I e socotită mai gravă?",
+          "opts": [
+            "Se aleg valori mari pentru α, ca să scadă β",
+            "Se folosesc doar teste bilaterale, nu unilaterale",
+            "Se fixează β înainte de alegerea nivelului α",
+            "Se aleg valori mici pentru α, cu un β mai mare"
+          ],
+          "correct": 3,
+          "explain": "Pentru că respingerea greșită a unei H0 adevărate e considerată mai gravă, se lucrează cu α mic (0,05 sau 0,01), cu prețul unei probabilități mai mari a erorii de tipul II. Tipul testului depinde de predicția despre sens.",
+          "tag": "Alegerea unui α mic",
+          "tip": "principiu"
+        },
+        {
+          "q": "Ce se întâmplă cu zona critică atunci când nivelul α scade?",
+          "opts": [
+            "Se mărește și se apropie de centru",
+            "Se mută în coada opusă a distribuției de eșantionare",
+            "Se micșorează și se depărtează de centru",
+            "Rămâne la fel, doar pragul are alt nume"
+          ],
+          "correct": 2,
+          "explain": "Cu α mai mic, zona critică e mai mică, iar distanța dintre media distribuției de eșantionare și începutul zonei critice crește (1,96 → 2,58 bilateral). Coada în care stă depinde de Ha, nu de α.",
+          "tag": "Nivelul α",
+          "tip": "principiu"
+        },
+        {
+          "q": "Ce cere testul t pentru o medie în privința populației?",
+          "opts": [
+            "Să fie aproximativ normal distribuită",
+            "Să aibă abaterea standard cunoscută",
+            "Să ofere un eșantion de peste 30 de cazuri",
+            "Să aibă o proporție cu np ≥ 5"
+          ],
+          "correct": 0,
+          "explain": "Testul t se folosește cu σ necunoscut și n < 30 și cere o populație aproximativ normală, ca intervalul cu t din Cap. 7 (Proceduri de estimare statistică). σ cunoscut duce la Z, iar np ≥ 5 e condiția testului pentru proporții.",
+          "tag": "Testul t (n < 30)",
+          "tip": "test"
+        },
+        {
+          "q": "De ce testele din această unitate se numesc parametrice?",
+          "opts": [
+            "Lucrează doar cu variabile nominale, prin proporții",
+            "Privesc parametri ai populației și cer supoziții",
+            "Cer doar un eșantion foarte mare, fără alte condiții",
+            "Compară întotdeauna două eșantioane între ele"
+          ],
+          "correct": 1,
+          "explain": "Sunt teste despre valoarea parametrilor unei populații și cer îndeplinirea unor supoziții despre ea, în principal normalitatea. Proporțiile sunt doar unul dintre cazuri, iar comparația a două eșantioane vine în Cap. 9 (Testarea ipotezelor despre diferențele dintre două populații).",
+          "tag": "Teste parametrice",
+          "tip": "concept"
+        },
+        {
+          "q": "Ce scoruri Z critice are un test bilateral cu α = 0,01?",
+          "opts": [
+            "±2,58",
+            "±1,96",
+            "±2,33",
+            "±1,65"
+          ],
+          "correct": 0,
+          "explain": "La α = 0,01 bilateral, fiecare coadă are 0,005, iar pragul e 2,58. ±1,96 corespunde lui α = 0,05 bilateral, ±1,65 lui α = 0,10 bilateral (sau 0,05 unilateral), iar 2,33 e un prag unilateral la 0,01.",
+          "tag": "Scoruri Z critice",
+          "tip": "regula"
+        }
+      ]
+    },
+    {
+      "id": "1",
+      "eticheta": "Runda 2 · Bază",
+      "titlu": "Runda 2 — Concepte de bază",
+      "desc": "Situații scurte: recunoști ipoteza, pragul sau eroarea potrivită, ori aplici direct o regulă de decizie.",
+      "intrebari": [
+        {
+          "q": "Un psiholog susține că media la un test de atenție, în populația elevilor de clasa a VIII-a, este 50. O colegă alcătuiește un eșantion aleatoriu de 64 de elevi ca să verifice afirmația. Ce scrie ea ca ipoteză de nul?",
+          "opts": [
+            "X̄ = 50: media eșantionului va ieși exact 50 de puncte",
+            "μ ≠ 50: media populației diferă de valoarea presupusă",
+            "μ = 50: media populației e egală cu valoarea presupusă",
+            "X̄ ≠ μ: media eșantionului diferă de media populației"
+          ],
+          "correct": 2,
+          "explain": "H0 fixează o valoare pentru parametrul populației (μ = μH), adică „nicio diferență” între valoarea efectivă și cea presupusă. Varianta cu X̄ = 50 mută ipoteza pe eșantion — dar despre eșantion nu facem ipoteze, îl măsurăm. „μ ≠ 50” este ipoteza alternativă bilaterală, opusul lui H0.",
+          "tag": "Ipoteza de nul (H0)",
+          "tip": "ipoteza"
+        },
+        {
+          "q": "O cercetătoare crede că un program de lectură ridică scorurile la înțelegerea textului peste media populației, 70. Pe ea o interesează doar o eventuală creștere. Ce ipoteză alternativă formulează?",
+          "opts": [
+            "μ ≠ 70, deci un test bilateral",
+            "μ > 70, deci un test unilateral dreapta",
+            "μ < 70, deci un test unilateral stânga",
+            "μ = 70, deci un test unilateral dreapta"
+          ],
+          "correct": 1,
+          "explain": "Când sensul diferenței e prezis (aici, o creștere), Ha e direcțională: μ > μH, iar toată zona critică stă în extremitatea dreaptă. „μ ≠ 70” ar fi potrivită dacă n-ar prezice sensul. „μ = 70” nu e o alternativă: e chiar H0.",
+          "tag": "Test unilateral",
+          "tip": "ipoteza"
+        },
+        {
+          "q": "Un cercetător vrea să afle dacă timpul mediu de reacție al șoferilor profesioniști diferă de 250 ms, fără să aibă vreo predicție despre sens. Cum își organizează testul?",
+          "opts": [
+            "Bilateral: împarte α în mod egal în cele două extremități",
+            "Unilateral dreapta: pune tot α în extremitatea superioară",
+            "Unilateral stânga: pune tot α în extremitatea inferioară",
+            "Bilateral: pune tot α într-o singură extremitate, la alegere"
+          ],
+          "correct": 0,
+          "explain": "Fără predicție de sens, Ha: μ ≠ μH, iar testul e bilateral (nedirecțional): câte α/2 în fiecare coadă (la α = 0,05, pragurile sunt ±1,96). Varianta cu tot α într-o singură coadă descrie, de fapt, un test unilateral.",
+          "tag": "Test bilateral",
+          "tip": "test"
+        },
+        {
+          "q": "Se presupune că media populației la un test de vocabular este 100, cu σ = 15. Un eșantion de 25 de persoane are media 106. Cât este Z (obținut)?",
+          "opts": [
+            "+0,40, adică 6 împărțit la σ = 15",
+            "+2,00, adică 6 împărțit la 15/√25 = 3",
+            "+0,24, adică 6 împărțit la n = 25",
+            "−2,00, adică 100 − 106 împărțit la 3"
+          ],
+          "correct": 1,
+          "explain": "Statistica testului e scorul Z al unei medii: (X̄ − μH) împărțit la eroarea standard σ/√n = 15/5 = 3, deci 6/3 = +2,00. Împărțirea la σ ar fi corectă pentru un scor individual, ca în Cap. 5 (Distribuția normală), nu pentru o medie. Semnul minus apare doar dacă inversezi ordinea: se scade valoarea presupusă din media eșantionului.",
+          "tag": "Z (obținut)",
+          "tip": "calcul"
+        },
+        {
+          "q": "Într-un test bilateral cu α = 0,05, un cercetător obține Z = −2,40. Ce decide?",
+          "opts": [
+            "Respinge H0, deoarece −2,40 este sub pragul critic −1,96",
+            "Nu respinge H0, deoarece un Z negativ arată doar o medie mai mică",
+            "Respinge H0 numai dacă Z ar fi depășit pragul pozitiv +1,96",
+            "Nu respinge H0, deoarece −2,40 rămâne sub pragul de 2,58"
+          ],
+          "correct": 0,
+          "explain": "În testul bilateral se respinge H0 dacă Z ≥ +1,96 sau Z ≤ −1,96: zona critică are două capete. −2,40 cade în cel stâng. Semnul arată doar sensul diferenței, nu o face mai puțin semnificativă. Pragul 2,58 corespunde lui α = 0,01, nu lui 0,05.",
+          "tag": "Regula de decizie bilaterală",
+          "tip": "regula"
+        },
+        {
+          "q": "Într-un test unilateral dreapta (Ha: μ > μH), cu α = 0,05, se obține Z = +1,80. Ce decizie se ia?",
+          "opts": [
+            "Nu se respinge H0, deoarece +1,80 rămâne sub pragul de 1,96",
+            "Nu se respinge H0, deoarece zona critică se află la stânga",
+            "Se respinge H0 doar dacă valoarea depășește și pragul 2,58",
+            "Se respinge H0, deoarece +1,80 depășește pragul +1,65"
+          ],
+          "correct": 3,
+          "explain": "La un test unilateral tot α = 0,05 stă într-o singură coadă, deci pragul e Zα = +1,65, nu Zα/2 = 1,96. Pragul 1,96 ar fi cel al testului bilateral, iar zona critică stă în stânga doar când Ha este μ < μH.",
+          "tag": "Regula de decizie unilaterală",
+          "tip": "regula"
+        },
+        {
+          "q": "Un studiu conclude, cu α = 0,05, că o terapie scurtă reduce anxietatea. Ani mai târziu, studii mari arată că terapia nu are, de fapt, niciun efect. Ce s-a întâmplat în primul studiu?",
+          "opts": [
+            "O eroare de tipul II: a fost păstrată o ipoteză de nul falsă",
+            "O decizie corectă, pentru că diferența a fost semnificativă",
+            "O eroare de estimare: intervalul de încredere a ratat μ",
+            "O eroare de tipul I: s-a respins o ipoteză de nul adevărată"
+          ],
+          "correct": 3,
+          "explain": "H0 (terapia nu are efect) era adevărată, iar studiul a respins-o: asta e eroarea de tipul I, cu probabilitatea α. Eroarea de tipul II e cazul invers (H0 falsă, nerespinsă). „Semnificativ” nu garantează că decizia e corectă. Intervalul care ratează μ ține de estimare, din Cap. 7 (Proceduri de estimare statistică), nu de decizia unui test.",
+          "tag": "Eroarea de tipul I",
+          "tip": "eroare"
+        },
+        {
+          "q": "Un medicament îmbunătățește cu adevărat memoria de lucru, dar testul făcut pe un eșantion mic nu respinge H0. Cum se numește această situație?",
+          "opts": [
+            "Eroare de tipul II, a cărei probabilitate se notează cu β",
+            "Eroare de tipul I, a cărei probabilitate se notează cu α",
+            "Decizie corectă, deoarece H0 n-a fost respinsă pe nedrept",
+            "Eroare de tipul II, a cărei probabilitate este egală cu α"
+          ],
+          "correct": 0,
+          "explain": "H0 (fără efect) era falsă și n-a fost respinsă: eroare de tipul II, cu probabilitatea β. α este probabilitatea erorii de tipul I, adică a respingerii unei H0 adevărate; cele două probabilități nu sunt egale, ci variază invers.",
+          "tag": "Eroarea de tipul II",
+          "tip": "eroare"
+        },
+        {
+          "q": "O cercetătoare fixează α = 0,01 înainte de a-și testa ipoteza, apoi respinge H0. Ce risc și-a asumat prin alegerea lui α?",
+          "opts": [
+            "Riscul de 1% de a nu detecta o diferență care există cu adevărat",
+            "O diferență de 1% între media eșantionului și valoarea presupusă",
+            "Un nivel de încredere de doar 1% în decizia de respingere luată",
+            "Riscul de 1% de a respinge o ipoteză de nul, de fapt, adevărată"
+          ],
+          "correct": 3,
+          "explain": "α este probabilitatea erorii de tipul I: dacă H0 ar fi adevărată și testul s-ar repeta de multe ori, ar fi respinsă greșit în circa 1 caz din 100. Riscul de a rata o diferență reală e β, nu α. Nivelul de încredere corespunzător e 99% (1 − α), nu 1%.",
+          "tag": "Nivelul α",
+          "tip": "concept"
+        },
+        {
+          "q": "Un cercetător are 18 participanți, nu cunoaște σ și vrea să testeze o ipoteză despre media populației, presupusă normală. Ce distribuție de eșantionare folosește?",
+          "opts": [
+            "Distribuția Z, cu s în locul lui σ",
+            "Distribuția t, cu 17 grade de libertate",
+            "Distribuția t, cu 18 grade de libertate",
+            "Distribuția Z, cu σ/√n la numitor"
+          ],
+          "correct": 1,
+          "explain": "Cu σ necunoscut și n < 30, distribuția de eșantionare e t, cu gl = n − 1 = 17, ca la intervalele din Cap. 7 (Proceduri de estimare statistică). Z cu s în loc de σ e permis doar pentru n ≥ 30. 18 gl uită că se pierde un grad de libertate.",
+          "tag": "Testul t (n < 30)",
+          "tip": "test"
+        },
+        {
+          "q": "Un cercetător are 81 de participanți și nu cunoaște σ al populației, ci doar abaterea standard a eșantionului. Cum procedează?",
+          "opts": [
+            "Folosește t cu 80 gl, singura cale când σ e necunoscut",
+            "Nu poate testa ipoteza, deoarece îi lipsește valoarea lui σ",
+            "Folosește Z, cu s în locul lui σ și n − 1 în locul lui n",
+            "Folosește Z cu s și n, fără nicio corecție a lui s"
+          ],
+          "correct": 2,
+          "explain": "Pentru n ≥ 30, σ se estimează prin s, iar numitorul devine s/√(n − 1): n − 1 corectează faptul că s subestimează σ — distorsiunea din Cap. 4 (Mărimile dispersiei). t e necesar doar sub 30 de cazuri; la n mare valorile lui t aproape coincid cu cele Z.",
+          "tag": "Eșantion mare (n ≥ 30)",
+          "tip": "metoda"
+        },
+        {
+          "q": "Un sociolog vrea să testeze afirmația că 30% dintre psihologii din țară lucrează în privat. Pentru fiecare psiholog din eșantion notează doar „da” sau „nu”. Ce test folosește?",
+          "opts": [
+            "Testul t pentru medii, deoarece σ al populației e necunoscut",
+            "Testul Z pentru proporții, comparând p cu proporția presupusă",
+            "Testul Z pentru medii, cu σ estimat din răspunsurile primite",
+            "Niciun test, pentru că o variabilă nominală nu poate fi testată"
+          ],
+          "correct": 1,
+          "explain": "Variabila e nominală („da/nu”), deci media aritmetică nu se justifică, după nivelurile de măsură din Cap. 1 (Introducere în statistică). În locul ei se folosește proporția eșantionului p, comparată cu PH = 0,30. Variabila nominală nu exclude testarea, ci doar testul pentru medii.",
+          "tag": "Proporția în locul mediei",
+          "tip": "test"
+        },
+        {
+          "q": "Un cercetător are 40 de respondenți, dintre care doar 3 au răspuns „da”. Vrea să testeze o ipoteză despre proporția răspunsurilor „da” cu testul Z. Ce constată mai întâi?",
+          "opts": [
+            "Testul nu e potrivit: np = 3, sub minimul de 5 cazuri",
+            "Testul e potrivit: n = 40 trece de pragul de 30 de cazuri",
+            "Testul e potrivit: n(1 − p) = 37 trece de minimul de 5",
+            "Testul nu e potrivit: o proporție nu poate fi sub 0,10"
+          ],
+          "correct": 0,
+          "explain": "Testul Z pentru proporții cere ambele condiții: np ≥ 5 și n(1 − p) ≥ 5. Aici np = 40 · 0,075 = 3, deci prima condiție cade. Pragul de 30 ține de medii (Z vs t), nu de proporții; o singură condiție îndeplinită nu ajunge.",
+          "tag": "Condițiile de aplicare (np ≥ 5)",
+          "tip": "regula"
+        },
+        {
+          "q": "Un student și-a scris deja H0 și Ha. Acum notează: „distribuția Z, α = 0,05, test bilateral, Z critic = 1,96”. În ce pas al modelului de testare se află?",
+          "opts": [
+            "Pasul 3: calcularea valorii statisticii testului",
+            "Pasul 4: compararea cu pragul și luarea deciziei",
+            "Pasul 2: alegerea distribuției și stabilirea zonei critice",
+            "Pasul 1: enunțarea ipotezei de nul și a celei alternative"
+          ],
+          "correct": 2,
+          "explain": "Modelul în 4 pași: (1) ipotezele, (2) distribuția de eșantionare, α și valoarea critică, (3) calculul lui Z sau t (obținut), (4) decizia. Studentul a fixat pragul, dar n-a calculat încă nimic, deci a terminat pasul 2.",
+          "tag": "Pasul 2 · Distribuția și zona critică",
+          "tip": "etapa"
+        },
+        {
+          "q": "O echipă hotărăște să treacă de la α = 0,05 la α = 0,01, păstrând același eșantion și aceeași ipoteză. Ce se întâmplă cu probabilitatea de a nu detecta un efect real?",
+          "opts": [
+            "Scade, pentru că decizia devine mai sigură",
+            "Rămâne aceeași, pentru că n nu s-a schimbat",
+            "Crește, pentru că zona critică devine mai mică",
+            "Scade, pentru că α și β scad împreună"
+          ],
+          "correct": 2,
+          "explain": "Un α mai mic micșorează zona critică și o împinge mai departe de centru, deci e mai greu de respins H0 — inclusiv atunci când e falsă. Astfel β (eroarea de tipul II) crește: cele două riscuri variază în sens invers și nu pot fi minimizate amândouă deodată.",
+          "tag": "Relația dintre α și β",
+          "tip": "principiu"
+        }
+      ],
+      "ascunse": [
+        {
+          "q": "Un cercetător prezice că o intervenție scade timpul de rezolvare a unei sarcini și lucrează cu α = 0,05. Care este pragul critic al testului Z?",
+          "opts": [
+            "−1,65, cu toată zona critică în extremitatea stângă",
+            "−1,96, cu zona critică în extremitatea stângă",
+            "+1,65, cu toată zona critică în extremitatea dreaptă",
+            "±1,96, cu zona critică împărțită pe ambele părți"
+          ],
+          "correct": 0,
+          "explain": "„Scade” înseamnă Ha: μ < μH, test unilateral stânga, cu Zα = −1,65 (0,5 − 0,05 = 0,45 în tabelul curbei normale). −1,96 e pragul unei cozi dintr-un test bilateral (α/2 = 0,025); +1,65 ar corespunde unei creșteri prezise.",
+          "tag": "Scoruri Z critice",
+          "tip": "regula"
+        },
+        {
+          "q": "La un test de stres profesional, media presupusă a populației este 100. Un eșantion de asistente are media 108, iar testul bilateral arată că diferența e statistic semnificativă la α = 0,05. Ce înseamnă asta?",
+          "opts": [
+            "Diferența e prea mare ca să fie pusă, plauzibil, pe seama întâmplării",
+            "Diferența de 8 puncte are o mare importanță practică pentru spital",
+            "Media populației de asistente este, sigur, egală cu 108 puncte",
+            "Peste 95% dintre asistente au scoruri de stres mai mari de 100"
+          ],
+          "correct": 0,
+          "explain": "„Statistic semnificativ” înseamnă că o asemenea medie ar apărea cu probabilitate sub α dacă H0 ar fi adevărată, deci diferența nu se explică prin variația de eșantionare. Nu spune nimic despre importanța practică, nu fixează μ la 108 și nu e o afirmație despre scorurile individuale.",
+          "tag": "Diferență statistic semnificativă",
+          "tip": "concept"
+        },
+        {
+          "q": "Într-un test bilateral cu α = 0,05, un cercetător obține Z = +1,20 și scrie: „am demonstrat că media populației este egală cu cea presupusă”. Ce ar trebui să scrie?",
+          "opts": [
+            "H0 se respinge: o valoare pozitivă susține ipoteza Ha",
+            "H0 se acceptă ca adevărată: diferența a ieșit chiar zero",
+            "H0 nu se respinge: Ha este demonstrată ca fiind falsă",
+            "H0 nu se respinge: datele nu ajung pentru a susține Ha"
+          ],
+          "correct": 3,
+          "explain": "+1,20 nu atinge pragul 1,96, deci H0 nu se respinge — dar „nerespins” nu e „demonstrat”: diferența poate exista și să nu fi fost detectată (eroare de tipul II). Testul decide doar dacă dovezile pentru Ha ajung ca să respingem H0.",
+          "tag": "Respingere vs nerespingere",
+          "tip": "principiu"
+        },
+        {
+          "q": "Un cercetător are 16 voluntari, nu cunoaște σ și face un test t bilateral cu α = 0,05. Unde caută valoarea critică în tabelul t?",
+          "opts": [
+            "În coloana pentru 0,05 și pe rândul cu 16 gl",
+            "În coloana pentru 0,025 și pe rândul cu 15 gl",
+            "În coloana pentru 0,025 și pe rândul cu 16 gl",
+            "În coloana pentru 0,05 și pe rândul cu 15 gl"
+          ],
+          "correct": 1,
+          "explain": "Testul bilateral împarte α în două: coloana α/2 = 0,025. Gradele de libertate sunt n − 1 = 15. Coloana 0,05 ar fi cea a unui test unilateral, iar rândul cu 16 gl uită că s se calculează în jurul mediei eșantionului.",
+          "tag": "Grade de libertate",
+          "tip": "regula"
+        },
+        {
+          "q": "O comisie trebuie să decidă dacă un tratament nou e mai eficient decât cel standard. Ea cere ca testul să se facă la α = 0,01, nu la 0,05. Ce urmărește comisia?",
+          "opts": [
+            "Să scadă riscul de a nu observa un tratament care chiar e bun",
+            "Să facă respingerea lui H0 mai ușoară decât la α = 0,05",
+            "Să scadă riscul de a declara eficient un tratament fără efect",
+            "Să scadă ambele riscuri de eroare, de tipul I și de tipul II"
+          ],
+          "correct": 2,
+          "explain": "Un α mic reduce probabilitatea erorii de tipul I — aici, a declara eficient un tratament fără efect — socotită de obicei mai gravă în științele omului. Prețul e un β mai mare: crește riscul de a rata un tratament bun. Cele două riscuri nu scad împreună.",
+          "tag": "Alegerea unui α mic",
+          "tip": "principiu"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "eticheta": "Runda 3 · Aplicații",
+      "titlu": "Runda 3 — Scenarii și raționament",
+      "desc": "Situații cu mai mulți pași: alegi testul, calculezi statistica, decizi și interpretezi.",
+      "intrebari": [
+        {
+          "q": "Un cercetător presupune că media punctajelor la examenul de rezidențiat dintr-un an este 800. Știe că în populație σ ≈ 152. Un eșantion aleatoriu de 130 de medici are media 755. Testează bilateral, cu α = 0,05. Ce obține și ce decide?",
+          "opts": [
+            "Z ≈ −0,30; nu respinge H0: diferența e mică față de σ",
+            "Z ≈ −3,4; nu respinge H0: zona critică este doar în dreapta",
+            "Z ≈ −0,35; nu respinge H0: diferența e mică față de n",
+            "Z ≈ −3,4; respinge H0: media populației diferă de 800"
+          ],
+          "correct": 3,
+          "explain": "Eroarea standard e 152/√130 ≈ 13,3, deci Z = (755 − 800)/13,3 ≈ −3,4, mult sub −1,96: H0 se respinge, diferența e statistic semnificativă la 95%. −0,30 vine din împărțirea la σ (ca pentru un scor individual), −0,35 din împărțirea la n. Într-un test bilateral zona critică are două capete, deci un Z negativ mare contează la fel ca unul pozitiv.",
+          "tag": "Z (obținut)",
+          "tip": "calcul",
+          "exemplu_nou": false
+        },
+        {
+          "q": "Doi cercetători analizează aceleași date: μH = 50, σ = 10, n = 100, X̄ = 51,8, deci Z = +1,80. Primul face un test bilateral; al doilea prevăzuse dinainte o creștere și face un test unilateral dreapta. Ambii lucrează la α = 0,05. Ce concluzii trag?",
+          "opts": [
+            "Amândoi resping H0, pentru că datele sunt aceleași",
+            "Primul nu respinge H0, iar al doilea respinge H0",
+            "Niciunul nu respinge H0, pentru că 1,80 este sub 1,96",
+            "Primul respinge H0, iar al doilea nu respinge H0"
+          ],
+          "correct": 1,
+          "explain": "Bilateral, pragul e ±1,96, iar 1,80 nu-l atinge. Unilateral, tot α stă în dreapta și pragul coboară la +1,65, pe care 1,80 îl depășește. Asta e avantajul testului unilateral: zona critică e mai aproape de centru, deci H0 se respinge mai ușor — dacă sensul a fost prezis întemeiat. „Datele sunt aceleași” ignoră că regula de decizie diferă.",
+          "tag": "Avantajul testului unilateral",
+          "tip": "test",
+          "exemplu_nou": true
+        },
+        {
+          "q": "O psihologă prezice că un curs de mindfulness crește scorurile de atenție peste media 60 și face un test unilateral dreapta cu α = 0,05. Media eșantionului iese mult sub 60, cu Z = −2,50. Ce decide, conform testului ales?",
+          "opts": [
+            "Nu respinge H0: Z e în coada opusă celei de interes",
+            "Respinge H0, căci |−2,50| depășește pragul de 1,65",
+            "Respinge H0 și acceptă μ < 60, căci −2,50 < −1,65",
+            "Respinge H0, căci −2,50 trece și de pragul de 1,96"
+          ],
+          "correct": 0,
+          "explain": "Într-un test unilateral dreapta se respinge H0 doar dacă Z ≥ +1,65. Un Z negativ, oricât de mare în valoare absolută, nu cade în zona critică. Concluzia „μ < 60” ar cere un test unilateral stânga, ales dinainte; valoarea absolută și pragul 1,96 aparțin altor reguli de decizie.",
+          "tag": "Regula de decizie unilaterală",
+          "tip": "regula",
+          "exemplu_nou": true
+        },
+        {
+          "q": "Se pretinde că participanții la olimpiadele naționale de matematică au, în medie, un IQ de 125. Un cercetător ia un eșantion aleatoriu de 20 de olimpici: media e 123, iar s = 8. Vrea să afle, la 99% încredere, dacă media populației e mai mare de 125. Ce distribuție, ce prag și ce decizie se potrivesc?",
+          "opts": [
+            "Z, prag +2,33; H0 nu se respinge",
+            "t cu 20 gl, prag +2,528; H0 se respinge",
+            "t cu 19 gl, prag +2,539; H0 nu se respinge",
+            "t cu 19 gl, prag ±2,861; H0 nu se respinge"
+          ],
+          "correct": 2,
+          "explain": "σ e necunoscut și n = 20 < 30, deci t cu gl = 19; „mai mare de 125” cere un test unilateral dreapta, la α = 0,01: prag +2,539. Media eșantionului e chiar sub 125, deci t = (123 − 125)/(8/√19) ≈ −1,09 nu poate ajunge în zona critică. Z nu e potrivit sub 30 de cazuri; 20 gl uită pierderea unui grad de libertate; ±2,861 e pragul bilateral la 19 gl.",
+          "tag": "Grade de libertate",
+          "tip": "test",
+          "exemplu_nou": false
+        },
+        {
+          "q": "Se presupune că 20% dintre angajații unei firme mari lucrează de acasă. Într-un eșantion aleatoriu de 400 de angajați, 100 lucrează de acasă. Se testează unilateral dreapta, cu α = 0,05. Ce rezultă?",
+          "opts": [
+            "Z ≈ +0,12; nu se respinge H0: diferența e prea mică",
+            "Z ≈ +2,31; se respinge H0: proporția depășește 20%",
+            "Z ≈ +2,31; nu se respinge H0: pragul critic este 2,58",
+            "Testul nu se aplică: variabila măsurată este nominală"
+          ],
+          "correct": 1,
+          "explain": "p = 100/400 = 0,25; eroarea standard √(0,25 · 0,75/400) ≈ 0,0217; Z = (0,25 − 0,20)/0,0217 ≈ +2,31 > +1,65, deci H0 se respinge. +0,12 apare dacă uiți să împarți la n sub radical. 2,58 e pragul bilateral pentru α = 0,01. Variabila nominală e tocmai motivul pentru care se folosesc proporții, iar np = 100 și n(1 − p) = 300 trec de 5.",
+          "tag": "Formula Z pentru proporții",
+          "tip": "calcul",
+          "exemplu_nou": true
+        },
+        {
+          "q": "Două laboratoare testează bilateral aceeași ipoteză pe aceleași date și obțin Z = +2,20. Laboratorul A lucrează la α = 0,10, laboratorul B la α = 0,01. Mai târziu se dovedește că H0 era falsă. Cine a greșit și cum?",
+          "opts": [
+            "A a comis o eroare de tipul I; B a decis corect",
+            "B a comis o eroare de tipul II; A a decis corect",
+            "Amândouă au comis erori, de tipuri diferite",
+            "B a comis o eroare de tipul I; A a decis corect"
+          ],
+          "correct": 1,
+          "explain": "A: 2,20 > 1,65, respinge H0; B: 2,20 < 2,58, nu respinge. Cum H0 era falsă, respingerea lui A e corectă, iar nerespingerea lui B e o eroare de tipul II. Eroarea de tipul I ar fi cerut ca H0 să fie adevărată. Exemplul arată de ce un α foarte mic crește β.",
+          "tag": "Relația dintre α și β",
+          "tip": "eroare",
+          "exemplu_nou": true
+        },
+        {
+          "q": "Un program de prevenție e evaluat pe 15 elevi: t = 1,50, sub pragul critic, deci H0 nu se respinge. Directorul scrie în raport: „S-a demonstrat că programul nu are niciun efect.” Ce e greșit în concluzia lui?",
+          "opts": [
+            "Nimic: dacă t e sub prag, efectul programului este exact zero",
+            "Trebuia respinsă H0, pentru că t pozitiv indică un efect real",
+            "Concluzia e corectă, dar numai la un nivel de încredere de 95%",
+            "Nerespingerea nu dovedește H0; cu n mic, efectul poate scăpa"
+          ],
+          "correct": 3,
+          "explain": "Testul nu demonstrează H0: spune doar că dovezile nu ajung pentru a o respinge. Cu 15 elevi, eroarea standard e mare, iar riscul unei erori de tipul II (β) e important. Un t pozitiv sub prag nu justifică respingerea; nivelul de încredere nu transformă nerespingerea în dovadă.",
+          "tag": "Respingere vs nerespingere",
+          "tip": "principiu",
+          "exemplu_nou": true
+        },
+        {
+          "q": "Un cercetător are 45 de participanți și nu cunoaște σ. Calculează Z cu s/√44 la numitor. Colegul lui întreabă: „De ce √44 și nu √45?” Ce răspuns e corect?",
+          "opts": [
+            "Pentru că la n mare se pierde un grad de libertate prin t",
+            "Ca să corecteze faptul că s tinde să-l subestimeze pe σ",
+            "Pentru că o eroare standard σ/√n ar ieși prea mare la n = 45",
+            "Pentru a transforma testul bilateral într-unul unilateral"
+          ],
+          "correct": 1,
+          "explain": "Când s ține locul lui σ, n se înlocuiește cu n − 1 pentru a corecta distorsiunea lui s, care subestimează σ, ca în Cap. 4 (Mărimile dispersiei); aceeași corecție apare la intervalele din Cap. 7 (Proceduri de estimare statistică). Testul rămâne Z (n ≥ 30), deci gradele de libertate ale lui t nu intervin; numărul de capete ale zonei critice nu depinde de numitor.",
+          "tag": "Eșantion mare (n ≥ 30)",
+          "tip": "concept",
+          "exemplu_nou": true
+        },
+        {
+          "q": "Media presupusă la o scală de motivație este 40. Un eșantion de 145 de studenți are media 42,4 și s = 12 (σ necunoscut). Se testează bilateral, la un nivel de încredere de 99%. Ce rezultă?",
+          "opts": [
+            "Z = +2,40; H0 nu se respinge la 99%, deși s-ar respinge la 95%",
+            "Z = +2,40; H0 se respinge la 99%, fiindcă depășește pragul 1,96",
+            "Z = +0,20; H0 nu se respinge la niciun nivel de încredere uzual",
+            "Z = +2,40; H0 se respinge la 99%, fiindcă depășește pragul 2,33"
+          ],
+          "correct": 0,
+          "explain": "s/√(n − 1) = 12/√144 = 1, deci Z = 2,4/1 = +2,40. La 99% bilateral pragul e ±2,58, iar 2,40 nu-l atinge; la 95% (±1,96) l-ar fi atins. 1,96 e pragul pentru 95%, iar 2,33 nu e un prag bilateral la 99%. +0,20 vine din împărțirea la s în loc de eroarea standard.",
+          "tag": "Scoruri Z critice",
+          "tip": "calcul",
+          "exemplu_nou": true
+        },
+        {
+          "q": "Doi cercetători găsesc aceeași diferență, X̄ − μH = 4 puncte, la un test cu σ = 20. Unul are 25 de participanți, celălalt 400. Testează bilateral, cu α = 0,05. Ce obțin?",
+          "opts": [
+            "Z = 1 (n = 25) și Z = 4 (n = 400); doar al doilea respinge H0",
+            "Z = 0,2 în ambele studii, deci niciunul dintre ei nu respinge H0",
+            "Z = 4 (n = 25) și Z = 1 (n = 400); doar primul respinge H0",
+            "Z egal în ambele studii, pentru că diferența găsită e aceeași"
+          ],
+          "correct": 0,
+          "explain": "Numitorul e eroarea standard σ/√n: 20/5 = 4, deci Z = 1, respectiv 20/20 = 1, deci Z = 4. Aceeași diferență devine semnificativă în eșantionul mare, pentru că distribuția de eșantionare a mediilor se îngustează când n crește, cum s-a văzut în Cap. 6 (Eșantionarea și distribuții de eșantionare). 0,2 vine din împărțirea la σ; inversarea studiilor confundă sensul în care n acționează.",
+          "tag": "Eroarea standard a mediei",
+          "tip": "concept",
+          "exemplu_nou": true
+        },
+        {
+          "q": "O studentă are 10 participanți și σ necunoscut. Calculează corect t = 2,10, dar îl compară cu pragul 1,96 al distribuției Z și respinge H0 (bilateral, α = 0,05). Pragul corect pentru 9 gl este 2,262. Ce s-a întâmplat?",
+          "opts": [
+            "Decizia e corectă: t și Z au aceleași praguri la orice mărime a lui n",
+            "Decizia corectă era respingerea, dar cu pragul unilateral 1,65",
+            "H0 nu trebuia respinsă: cu pragul Z, riscul real depășește α",
+            "Decizia e corectă: valoarea 2,10 trece și de pragul t de 2,262"
+          ],
+          "correct": 2,
+          "explain": "Cu n < 30 se folosește t cu gl = n − 1 = 9, cu prag ±2,262, iar 2,10 nu-l atinge: H0 nu se respinge. Distribuția t are cozi mai groase, deci pragurile Z sunt prea mici pentru eșantioane mici: compararea cu 1,96 respinge H0 mai des decât permite α. Pragurile t se apropie de cele Z doar când gl e mare.",
+          "tag": "Testul t (n < 30)",
+          "tip": "regula",
+          "exemplu_nou": true
+        },
+        {
+          "q": "Un profesor de metodologie simulează pe calculator 200 de eșantioane dintr-o populație în care H0 este adevărată și testează fiecare eșantion la α = 0,05. Câte respingeri ale lui H0 se așteaptă și ce sunt ele?",
+          "opts": [
+            "Circa 10, toate decizii corecte",
+            "Niciuna, căci H0 este adevărată",
+            "Circa 190, toate erori de tipul II",
+            "Circa 10, toate erori de tipul I"
+          ],
+          "correct": 3,
+          "explain": "Dacă H0 e adevărată, α = 0,05 înseamnă că respingem greșit H0 în circa 5 cazuri din 100: din 200, circa 10. Fiecare e o eroare de tipul I. Chiar cu H0 adevărată, unele eșantioane cad în zona critică din întâmplare. Erorile de tipul II apar doar când H0 e falsă; 190 sunt nerespingeri corecte.",
+          "tag": "Eroarea de tipul I",
+          "tip": "calcul",
+          "exemplu_nou": true
+        },
+        {
+          "q": "Un student calculează mai întâi Z = −1,80. Văzând că testul bilateral nu respinge H0, decide abia atunci să facă un test unilateral stânga, ca să obțină respingerea (prag −1,65). Ce e problematic?",
+          "opts": [
+            "Nimic: testul unilateral poate fi ales în orice moment al analizei",
+            "Doar pragul: la un test unilateral stânga pragul corect ar fi −1,96",
+            "Sensul lui Ha trebuie fixat la pasul 1, înainte de a vedea datele",
+            "Doar statistica: la un test unilateral, Z se calculează după altă formulă"
+          ],
+          "correct": 2,
+          "explain": "Ipotezele (inclusiv sensul lui Ha) se enunță la pasul 1, iar zona critică la pasul 2, înainte de calcul; testul unilateral se justifică printr-o predicție întemeiată. Ales după date, el face ca riscul real de eroare de tipul I să depășească α-ul declarat (interpretare a ordinii pașilor). Pragul unilateral stânga e chiar −1,65, iar formula lui Z nu depinde de tipul testului.",
+          "tag": "Pasul 1 · Enunțarea ipotezelor",
+          "tip": "etapa",
+          "exemplu_nou": true
+        },
+        {
+          "q": "Pentru rezidențiat (μH = 800, σ = 152, n = 130, X̄ = 755, Z ≈ −3,4), cercetătorul decide că îl interesează doar dacă media populației e mai mică decât 800. Ce se schimbă față de testul bilateral, la α = 0,05?",
+          "opts": [
+            "Z se înjumătățește, la −1,7, pentru că se folosește o singură coadă",
+            "Pragul devine −1,96, pentru că α/2 = 0,025 rămâne în stânga",
+            "Doar pragul (−1,65, nu ±1,96); Z rămâne același și H0 se respinge",
+            "H0 devine μ < 800, iar Ha devine μ = 800, deci se testează invers"
+          ],
+          "correct": 2,
+          "explain": "Pasul 3 (calculul statisticii) dă același Z ≈ −3,4, pentru că formula nu depinde de tipul testului. Se schimbă pasul 2: tot α = 0,05 stă în stânga, deci pragul e −1,65. −3,4 < −1,65, deci H0 se respinge, iar concluzia devine „media e mai mică decât 800”. H0 rămâne μ = 800; doar Ha devine μ < 800.",
+          "tag": "Pasul 3 · Calcularea statisticii testului",
+          "tip": "etapa",
+          "exemplu_nou": false
+        },
+        {
+          "q": "Un psiholog compară trei situații: (a) σ cunoscut, n = 50; (b) σ necunoscut, n = 50; (c) σ necunoscut, n = 12. În fiecare testează o medie. Ce numitor folosește pentru statistica testului în fiecare caz?",
+          "opts": [
+            "(a) σ/√50; (b) s/√49, cu Z; (c) s/√11, cu t",
+            "(a) σ/√50; (b) s/√50, cu Z; (c) s/√12, cu Z",
+            "(a) σ/√49; (b) s/√49, cu t; (c) s/√11, cu t",
+            "(a) s/√49; (b) σ/√50, cu Z; (c) s/√12, cu t"
+          ],
+          "correct": 0,
+          "explain": "Cu σ cunoscut, eroarea standard e σ/√n. Cu σ necunoscut, s ține locul lui σ și n se înlocuiește cu n − 1 (corecția distorsiunii lui s), cu Z pentru n ≥ 30 și cu t (gl = n − 1) pentru n < 30. Corecția n − 1 nu se aplică lângă σ cunoscut, iar Z sub 30 de cazuri ignoră distribuția t.",
+          "tag": "Formula t pentru o medie",
+          "tip": "test",
+          "exemplu_nou": true
+        }
+      ],
+      "ascunse": [
+        {
+          "q": "Se presupune că 10% dintre pacienții unei clinici abandonează tratamentul. Într-un eșantion de 60 de pacienți, 4 au abandonat. Cercetătorul vrea să facă testul Z pentru proporții. Ce constată?",
+          "opts": [
+            "Z ≈ −1,03; nu se respinge H0, diferența este mică",
+            "Testul nu e potrivit: np = 4, sub minimul de 5 cazuri",
+            "Z ≈ −1,03; se respinge H0, p este sub proporția presupusă",
+            "Se folosește t cu 59 gl, pentru că P al populației lipsește"
+          ],
+          "correct": 1,
+          "explain": "p = 4/60 ≈ 0,067, deci np = 4 < 5: condiția de aplicare nu e îndeplinită, iar aproximarea normală nu e de încredere. Calculul formal ar da Z ≈ −1,03, dar ar fi nejustificat; oricum, nu ar atinge niciun prag uzual. Pentru proporții nu se trece la distribuția t: P necunoscut se estimează prin p.",
+          "tag": "Condițiile de aplicare (np ≥ 5)",
+          "tip": "regula",
+          "exemplu_nou": true
+        },
+        {
+          "q": "Media presupusă la o scală de autoeficacitate este 55. Un eșantion de 16 profesori are media 51,8 și s = 6. Se testează bilateral, cu α = 0,05 (prag t pentru 15 gl: 2,131). Ce rezultă?",
+          "opts": [
+            "t ≈ −2,07; H0 se respinge, căci trece de pragul −1,96",
+            "t ≈ −0,53; H0 nu se respinge, căci e aproape de zero",
+            "t ≈ −2,07; H0 nu se respinge, căci nu ajunge la −2,131",
+            "t ≈ −2,07; H0 se respinge, căci ținta e coada dreaptă"
+          ],
+          "correct": 2,
+          "explain": "s/√(n − 1) = 6/√15 ≈ 1,549, deci t = (51,8 − 55)/1,549 ≈ −2,07. Pragul bilateral la 15 gl e ±2,131, iar −2,07 nu-l depășește. Comparată cu 1,96 (pragul Z), valoarea ar duce greșit la respingere. −0,53 vine din împărțirea la s; coada dreaptă n-are legătură cu un test bilateral.",
+          "tag": "Regulile de decizie pentru t",
+          "tip": "calcul",
+          "exemplu_nou": true
+        },
+        {
+          "q": "La un test de memorie, μH = 100 și σ = 15. Ana, o singură persoană, are scorul 106; un grup de 25 de persoane are media 106. Un student spune că „ambele rezultate sunt la fel de neobișnuite”. Ce răspuns e corect?",
+          "opts": [
+            "Nu: Z al Anei e 0,40, iar Z al mediei grupului e 2,00",
+            "Da: ambele se abat de la 100 cu exact 6 puncte",
+            "Nu: Z al Anei e 2,00, iar Z al mediei grupului e 0,40",
+            "Da: ambele au Z = 0,40, căci σ e același, 15"
+          ],
+          "correct": 0,
+          "explain": "Un scor individual se raportează la σ: Z = 6/15 = 0,40, ca în Cap. 5 (Distribuția normală). O medie se raportează la eroarea standard σ/√n = 3: Z = 2,00. Statistica testului este scorul Z al unei medii, iar mediile variază mult mai puțin decât indivizii, deci aceeași abatere e mult mai rară pentru o medie.",
+          "tag": "Statistica testului",
+          "tip": "concept",
+          "exemplu_nou": true
+        },
+        {
+          "q": "Un cercetător testează unilateral, la α = 0,005, dacă un antrenament crește memoria și nu respinge H0. O meta-analiză arată ulterior un efect real. Ce eroare a comis și ce ar fi redus-o, pentru aceleași date?",
+          "opts": [
+            "Tipul II; un α mai mare l-ar fi redus pe β, cu risc I mai mare",
+            "Tipul I; un α mai mic ar fi evitat respingerea greșită a lui H0",
+            "Tipul II; un α mai mic l-ar fi redus pe β, fără alt cost",
+            "Tipul I; un test bilateral ar fi redus ambele riscuri de eroare"
+          ],
+          "correct": 0,
+          "explain": "Efectul exista (H0 falsă) și n-a fost detectat: eroare de tipul II. Cu α = 0,005 pragul e 2,58; un α = 0,05 (prag 1,65) ar fi lărgit zona critică și ar fi scăzut β, cu prețul unei probabilități mai mari a erorii de tipul I. Un α mai mic crește β, iar un test bilateral îndepărtează pragul de centru.",
+          "tag": "Eroarea de tipul II",
+          "tip": "eroare",
+          "exemplu_nou": true
+        },
+        {
+          "q": "Media presupusă a scorurilor de epuizare la asistente este 30. Pe un eșantion aleatoriu, un test bilateral cu α = 0,05 dă Z = +2,10. Ce concluzie se scrie la ultimul pas?",
+          "opts": [
+            "Diferența e statistic semnificativă și la 99%: media diferă de 30",
+            "Probabilitatea ca H0 să fie adevărată este de 2,10%",
+            "Media populației de asistente este exact media eșantionului",
+            "Diferența e statistic semnificativă la 95%: media diferă de 30"
+          ],
+          "correct": 3,
+          "explain": "La pasul 4 se compară Z (obținut) cu pragul: +2,10 > 1,96, deci H0 se respinge, iar diferența e semnificativă la un nivel de încredere de 95%. La 99% pragul e 2,58, pe care 2,10 nu-l atinge. Z nu e o probabilitate, iar testul nu fixează μ la valoarea eșantionului — pentru asta există estimarea, din Cap. 7 (Proceduri de estimare statistică).",
+          "tag": "Pasul 4 · Luarea deciziei",
+          "tip": "etapa",
+          "exemplu_nou": true
+        }
+      ]
+    }
+  ],
+  "harta": {
+    "centru": "Testarea ipotezelor despre o singură populație",
+    "ramuri": [
+      {
+        "titlu": "Logica testării ipotezelor",
+        "noduri": [
+          {
+            "t": "Valoarea presupusă (μH)",
+            "d": "Pornești de la o presupunere despre un parametru al populației (de pildă μH = 800 la rezidențiat). Alcătuiești un eșantion aleatoriu, calculezi statistica (X̄ sau p) și o compari cu valoarea presupusă. μH se deosebește de media efectivă μ, necunoscută."
+          },
+          {
+            "t": "Diferență statistic semnificativă",
+            "d": "Aproape mereu există o diferență între eșantion și valoarea presupusă. Întrebarea e dacă e prea mare ca să fie pusă pe seama întâmplării eșantionării. Dacă da, diferența e „statistic semnificativă” și presupunerea poate fi respinsă; asta nu spune nimic despre importanța ei practică."
+          },
+          {
+            "t": "Teste parametrice",
+            "d": "Testele din această unitate (și din următoarele) privesc valoarea parametrilor unei populații și cer supoziții despre populație, în principal normalitatea. De aceea se numesc parametrice."
+          }
+        ]
+      },
+      {
+        "titlu": "Ipoteza de nul și ipoteza alternativă",
+        "tabel": {
+          "cap": [
+            "Ha",
+            "Tipul testului",
+            "Zona critică",
+            "Se respinge H0 dacă"
+          ],
+          "randuri": [
+            [
+              "μ ≠ μH",
+              "bilateral (nedirecțional)",
+              "în ambele cozi, câte α/2",
+              "Z ≥ +Zα/2 sau Z ≤ −Zα/2"
+            ],
+            [
+              "μ > μH",
+              "unilateral dreapta",
+              "toată în coada dreaptă",
+              "Z ≥ +Zα"
+            ],
+            [
+              "μ < μH",
+              "unilateral stânga",
+              "toată în coada stângă",
+              "Z ≤ −Zα"
+            ]
+          ]
+        },
+        "noduri": [
+          {
+            "t": "Ipoteza de nul (H0)",
+            "d": "H0: μ = μH, adică μ − μH = 0: nu există nicio diferență între valoarea efectivă a parametrului și cea presupusă; diferența observată se datorează întâmplării. Se scrie mereu despre populație, nu despre eșantion."
+          },
+          {
+            "t": "Ipoteza alternativă (Ha)",
+            "d": "Exprimă opinia obișnuită a cercetătorului, că există o diferență reală. Dacă H0 poate fi respinsă ca neadevărată, se acceptă Ha."
+          },
+          {
+            "t": "Test bilateral",
+            "d": "Ha: μ ≠ μH — cercetătorul nu poate sau nu vrea să prezică sensul diferenței. Nivelul α se împarte egal în cele două extremități ale distribuției de eșantionare (la α = 0,05: ±1,96)."
+          },
+          {
+            "t": "Test unilateral",
+            "d": "Ha: μ > μH (unilateral dreapta) sau μ < μH (unilateral stânga) — sensul diferenței e prezis sau doar el interesează. Toată zona critică stă într-o singură coadă, iar pragul se notează Zα (la α = 0,05: +1,65 sau −1,65)."
+          },
+          {
+            "t": "Respingere vs nerespingere",
+            "d": "Testul decide doar dacă H0 se respinge sau nu se respinge, pe baza dovezilor pentru Ha. Nerespingerea nu demonstrează că H0 e adevărată: dovezile pur și simplu nu ajung (diferența poate exista și să nu fi fost detectată)."
+          }
+        ]
+      },
+      {
+        "titlu": "Statistica testului: Z pentru o medie (σ cunoscut)",
+        "noduri": [
+          {
+            "t": "Statistica testului",
+            "d": "Formula care dă valoarea pe care se bazează decizia. Când σ e cunoscut sau aproximat: Z = (X̄ − μH)/(σ/√n). E construită ca un scor Z din Cap. 5 (Distribuția normală), dar pentru o medie: distanța lui X̄ față de μH, în erori standard."
+          },
+          {
+            "t": "Z (obținut)",
+            "d": "Rezultatul aplicării formulei. La rezidențiat: (755 − 800)/(152/√130) = −45/13,33 ≈ −3,38 (textul rotunjește eroarea standard la 13,4 și dă −3,36). Semnul arată doar sensul diferenței."
+          },
+          {
+            "t": "Eroarea standard a mediei",
+            "d": "La numitor stă σ/√n, abaterea standard a distribuției de eșantionare a mediilor, nu σ — teorema limitei centrale, din Cap. 6 (Eșantionarea și distribuții de eșantionare). Aceeași diferență X̄ − μH dă un Z mai mare la un n mai mare."
+          }
+        ]
+      },
+      {
+        "titlu": "Regula de decizie și zona critică",
+        "lat": true,
+        "tabel": {
+          "cap": [
+            "α, test bilateral",
+            "α, test unilateral",
+            "Z critic"
+          ],
+          "randuri": [
+            [
+              "0,20",
+              "0,10",
+              "1,28 (tipărit 1,29)"
+            ],
+            [
+              "0,10",
+              "0,05",
+              "1,65"
+            ],
+            [
+              "0,05",
+              "0,025",
+              "1,96"
+            ],
+            [
+              "0,01",
+              "0,005",
+              "2,58"
+            ]
+          ]
+        },
+        "figuri": [
+          {
+            "titlu": "Testul bilateral: media de 755 față de 800",
+            "nota": "Din exemplul rezidențiatului: σ/√n = 152/√130 ≈ 13,33, Z ≈ −3,38 (tipărit −3,36, cu 13,4). Cade mult sub −1,96, deci H0 se respinge.",
+            "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 196\" role=\"img\" aria-label=\"Curba normală standard cu zonele critice sub −1,96 și peste +1,96 și scorul obținut −3,38 în zona critică\" font-family=\"Georgia, serif\" font-size=\"13\"><text x=\"20.0\" y=\"14.0\" text-anchor=\"start\" fill=\"#6b6760\" font-size=\"10.8\">Distribuția mediilor (n = 130) dacă H0: μ = 800 e adevărată</text><polygon points=\"20.0,138.0 20.0,138.0 20.7,138.0 21.4,138.0 22.1,138.0 22.8,137.9 23.5,137.9 24.2,137.9 24.9,137.9 25.6,137.9 26.3,137.9 27.0,137.9 27.7,137.9 28.4,137.9 29.1,137.9 29.8,137.9 30.5,137.9 31.2,137.9 31.9,137.9 32.6,137.9 33.3,137.8 34.0,137.8 34.7,137.8 35.4,137.8 36.1,137.8 36.8,137.8 37.5,137.8 38.2,137.7 38.9,137.7 39.6,137.7 40.3,137.7 41.0,137.7 41.7,137.6 42.4,137.6 43.1,137.6 43.8,137.6 44.5,137.5 45.2,137.5 45.9,137.5 46.6,137.4 47.3,137.4 48.0,137.3 48.7,137.3 49.4,137.3 50.1,137.2 50.8,137.2 51.5,137.1 52.2,137.0 52.9,137.0 53.6,136.9 54.3,136.8 55.0,136.8 55.7,136.7 56.4,136.6 57.1,136.5 57.8,136.4 58.5,136.4 59.2,136.3 59.9,136.2 60.6,136.0 61.3,135.9 62.0,135.8 62.7,135.7 63.4,135.6 64.1,135.4 64.8,135.3 65.5,135.1 66.2,135.0 66.9,134.8 67.6,134.6 68.3,134.4 69.0,134.2 69.7,134.0 70.4,133.8 71.1,133.6 71.8,133.4 72.5,133.2 73.2,132.9 73.9,132.7 74.6,132.4 75.3,132.1 76.0,131.8 76.7,131.5 77.4,131.2 78.1,130.9 78.8,130.5 79.5,130.2 80.2,129.8 80.9,129.4 81.6,129.0 82.3,128.6 83.0,128.2 83.7,127.8 84.4,127.3 85.1,126.8 85.8,126.4 86.5,125.9 87.2,125.3 87.9,124.8 88.6,124.2 89.3,123.7 90.0,123.1 90.7,122.5 91.4,121.9 91.4,138.0\" fill=\"#b5453a\" fill-opacity=\"0.45\" stroke=\"none\"/><polygon points=\"228.6,138.0 228.6,121.9 229.3,122.5 230.0,123.1 230.7,123.7 231.4,124.2 232.1,124.8 232.8,125.3 233.5,125.9 234.2,126.4 234.9,126.8 235.6,127.3 236.3,127.8 237.0,128.2 237.7,128.6 238.4,129.0 239.1,129.4 239.8,129.8 240.5,130.2 241.2,130.5 241.9,130.9 242.6,131.2 243.3,131.5 244.0,131.8 244.7,132.1 245.4,132.4 246.1,132.7 246.8,132.9 247.5,133.2 248.2,133.4 248.9,133.6 249.6,133.8 250.3,134.0 251.0,134.2 251.7,134.4 252.4,134.6 253.1,134.8 253.8,135.0 254.5,135.1 255.2,135.3 255.9,135.4 256.6,135.6 257.3,135.7 258.0,135.8 258.7,135.9 259.4,136.0 260.1,136.2 260.8,136.3 261.5,136.4 262.2,136.4 262.9,136.5 263.6,136.6 264.3,136.7 265.0,136.8 265.7,136.8 266.4,136.9 267.1,137.0 267.8,137.0 268.5,137.1 269.2,137.2 269.9,137.2 270.6,137.3 271.3,137.3 272.0,137.3 272.7,137.4 273.4,137.4 274.1,137.5 274.8,137.5 275.5,137.5 276.2,137.6 276.9,137.6 277.6,137.6 278.3,137.6 279.0,137.7 279.7,137.7 280.4,137.7 281.1,137.7 281.8,137.7 282.5,137.8 283.2,137.8 283.9,137.8 284.6,137.8 285.3,137.8 286.0,137.8 286.7,137.8 287.4,137.9 288.1,137.9 288.8,137.9 289.5,137.9 290.2,137.9 290.9,137.9 291.6,137.9 292.3,137.9 293.0,137.9 293.7,137.9 294.4,137.9 295.1,137.9 295.8,137.9 296.5,137.9 297.2,137.9 297.9,138.0 298.6,138.0 299.3,138.0 300.0,138.0 300.0,138.0\" fill=\"#b5453a\" fill-opacity=\"0.45\" stroke=\"none\"/><polyline points=\"20.0,138.0 21.7,138.0 23.5,137.9 25.2,137.9 27.0,137.9 28.7,137.9 30.5,137.9 32.2,137.9 34.0,137.8 35.7,137.8 37.5,137.8 39.2,137.7 41.0,137.7 42.7,137.6 44.5,137.5 46.2,137.4 48.0,137.3 49.7,137.2 51.5,137.1 53.2,136.9 55.0,136.8 56.7,136.6 58.5,136.4 60.2,136.1 62.0,135.8 63.7,135.5 65.5,135.1 67.2,134.7 69.0,134.2 70.7,133.7 72.5,133.2 74.2,132.5 76.0,131.8 77.7,131.0 79.5,130.2 81.2,129.2 83.0,128.2 84.7,127.1 86.5,125.9 88.2,124.5 90.0,123.1 91.7,121.5 93.5,119.9 95.2,118.1 97.0,116.2 98.7,114.2 100.5,112.0 102.2,109.8 104.0,107.4 105.7,104.9 107.5,102.2 109.2,99.5 111.0,96.6 112.7,93.7 114.5,90.7 116.2,87.6 118.0,84.4 119.7,81.1 121.5,77.8 123.2,74.5 125.0,71.2 126.7,67.8 128.5,64.5 130.2,61.2 132.0,58.0 133.7,54.8 135.5,51.8 137.2,48.8 139.0,46.0 140.7,43.3 142.5,40.8 144.2,38.4 146.0,36.3 147.7,34.4 149.5,32.7 151.2,31.2 153.0,30.0 154.7,29.0 156.5,28.4 158.2,28.0 160.0,27.8 161.7,28.0 163.5,28.4 165.2,29.0 167.0,30.0 168.7,31.2 170.5,32.7 172.2,34.4 174.0,36.3 175.7,38.4 177.5,40.8 179.2,43.3 181.0,46.0 182.7,48.8 184.5,51.8 186.2,54.8 188.0,58.0 189.7,61.2 191.5,64.5 193.2,67.8 195.0,71.2 196.7,74.5 198.5,77.8 200.2,81.1 202.0,84.4 203.7,87.6 205.5,90.7 207.2,93.7 209.0,96.6 210.7,99.5 212.5,102.2 214.2,104.9 216.0,107.4 217.7,109.8 219.5,112.0 221.2,114.2 223.0,116.2 224.7,118.1 226.5,119.9 228.2,121.5 230.0,123.1 231.7,124.5 233.5,125.9 235.2,127.1 237.0,128.2 238.7,129.2 240.5,130.2 242.2,131.0 244.0,131.8 245.7,132.5 247.5,133.2 249.2,133.7 251.0,134.2 252.7,134.7 254.5,135.1 256.2,135.5 258.0,135.8 259.7,136.1 261.5,136.4 263.2,136.6 265.0,136.8 266.7,136.9 268.5,137.1 270.2,137.2 272.0,137.3 273.7,137.4 275.5,137.5 277.2,137.6 279.0,137.7 280.7,137.7 282.5,137.8 284.2,137.8 286.0,137.8 287.7,137.9 289.5,137.9 291.2,137.9 293.0,137.9 294.7,137.9 296.5,137.9 298.2,138.0 300.0,138.0\" fill=\"none\" stroke=\"#2a78d6\" stroke-width=\"2\"/><line x1=\"20.0\" y1=\"138.0\" x2=\"300.0\" y2=\"138.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><line x1=\"20.0\" y1=\"138.0\" x2=\"20.0\" y2=\"142.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><text x=\"20.0\" y=\"153.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">−4</text><line x1=\"55.0\" y1=\"138.0\" x2=\"55.0\" y2=\"142.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><text x=\"55.0\" y=\"153.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">−3</text><line x1=\"90.0\" y1=\"138.0\" x2=\"90.0\" y2=\"142.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><text x=\"90.0\" y=\"153.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">−2</text><line x1=\"125.0\" y1=\"138.0\" x2=\"125.0\" y2=\"142.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><text x=\"125.0\" y=\"153.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">−1</text><line x1=\"160.0\" y1=\"138.0\" x2=\"160.0\" y2=\"142.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><text x=\"160.0\" y=\"153.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">0</text><line x1=\"195.0\" y1=\"138.0\" x2=\"195.0\" y2=\"142.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><text x=\"195.0\" y=\"153.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">1</text><line x1=\"230.0\" y1=\"138.0\" x2=\"230.0\" y2=\"142.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><text x=\"230.0\" y=\"153.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">2</text><line x1=\"265.0\" y1=\"138.0\" x2=\"265.0\" y2=\"142.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><text x=\"265.0\" y=\"153.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">3</text><line x1=\"300.0\" y1=\"138.0\" x2=\"300.0\" y2=\"142.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><text x=\"300.0\" y=\"153.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">4</text><line x1=\"91.4\" y1=\"138.0\" x2=\"91.4\" y2=\"30.0\" stroke=\"#b5453a\" stroke-width=\"1.2\" stroke-dasharray=\"3 2\"/><text x=\"91.4\" y=\"26.0\" text-anchor=\"middle\" fill=\"#b5453a\" font-size=\"10.2\">−1,96</text><line x1=\"228.6\" y1=\"138.0\" x2=\"228.6\" y2=\"30.0\" stroke=\"#b5453a\" stroke-width=\"1.2\" stroke-dasharray=\"3 2\"/><text x=\"228.6\" y=\"26.0\" text-anchor=\"middle\" fill=\"#b5453a\" font-size=\"10.2\">1,96</text><line x1=\"41.7\" y1=\"138.0\" x2=\"41.7\" y2=\"108.0\" stroke=\"#b5453a\" stroke-width=\"1.5\"/><circle cx=\"41.7\" cy=\"138.0\" r=\"4.5\" fill=\"#b5453a\" stroke=\"#faf8f3\" stroke-width=\"1.5\"><title>● Z (obținut) ≈ −3,38, adică media 755</title></circle><text x=\"160.0\" y=\"168.0\" text-anchor=\"middle\" fill=\"#b5453a\" font-size=\"10.8\">● Z (obținut) ≈ −3,38, adică media 755</text><text x=\"63.8\" y=\"118.0\" text-anchor=\"middle\" fill=\"#b5453a\" font-size=\"10.2\">α/2</text><text x=\"256.2\" y=\"118.0\" text-anchor=\"middle\" fill=\"#b5453a\" font-size=\"10.2\">α/2</text><text x=\"160.0\" y=\"120.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">zona necritică</text><text x=\"160.0\" y=\"186.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.2\">zona critică = sub −1,96 sau peste +1,96 → H0 se respinge</text></svg>"
+          },
+          {
+            "titlu": "Același Z, două decizii: bilateral vs unilateral",
+            "nota": "Valoare ilustrativă Z = −1,80. Unilateral, întreaga zonă critică (0,05) stă într-o coadă, deci pragul −1,65 e mai aproape de centru decât −1,96.",
+            "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 298\" role=\"img\" aria-label=\"Două curbe normale: la test bilateral pragul e −1,96 și Z = −1,80 nu intră în zona critică; la test unilateral stânga pragul e −1,65 și același Z intră\" font-family=\"Georgia, serif\" font-size=\"13\"><text x=\"20.0\" y=\"14.0\" text-anchor=\"start\" fill=\"#6b6760\" font-size=\"10.8\">Test bilateral, α = 0,05: câte 0,025 în fiecare coadă</text><polygon points=\"20.0,100.0 20.0,100.0 20.7,100.0 21.4,100.0 22.1,100.0 22.8,100.0 23.5,100.0 24.2,100.0 24.9,100.0 25.6,100.0 26.3,99.9 27.0,99.9 27.7,99.9 28.4,99.9 29.1,99.9 29.8,99.9 30.5,99.9 31.2,99.9 31.9,99.9 32.6,99.9 33.3,99.9 34.0,99.9 34.7,99.9 35.4,99.9 36.1,99.9 36.8,99.8 37.5,99.8 38.2,99.8 38.9,99.8 39.6,99.8 40.3,99.8 41.0,99.8 41.7,99.8 42.4,99.7 43.1,99.7 43.8,99.7 44.5,99.7 45.2,99.7 45.9,99.6 46.6,99.6 47.3,99.6 48.0,99.6 48.7,99.5 49.4,99.5 50.1,99.5 50.8,99.4 51.5,99.4 52.2,99.4 52.9,99.3 53.6,99.3 54.3,99.2 55.0,99.2 55.7,99.1 56.4,99.1 57.1,99.0 57.8,99.0 58.5,98.9 59.2,98.8 59.9,98.8 60.6,98.7 61.3,98.6 62.0,98.5 62.7,98.4 63.4,98.4 64.1,98.3 64.8,98.2 65.5,98.1 66.2,98.0 66.9,97.8 67.6,97.7 68.3,97.6 69.0,97.5 69.7,97.3 70.4,97.2 71.1,97.1 71.8,96.9 72.5,96.7 73.2,96.6 73.9,96.4 74.6,96.2 75.3,96.0 76.0,95.8 76.7,95.6 77.4,95.4 78.1,95.2 78.8,95.0 79.5,94.7 80.2,94.5 80.9,94.2 81.6,94.0 82.3,93.7 83.0,93.4 83.7,93.1 84.4,92.8 85.1,92.5 85.8,92.2 86.5,91.8 87.2,91.5 87.9,91.1 88.6,90.8 89.3,90.4 90.0,90.0 90.7,89.6 91.4,89.1 91.4,100.0\" fill=\"#b5453a\" fill-opacity=\"0.45\" stroke=\"none\"/><polygon points=\"228.6,100.0 228.6,89.1 229.3,89.6 230.0,90.0 230.7,90.4 231.4,90.8 232.1,91.1 232.8,91.5 233.5,91.8 234.2,92.2 234.9,92.5 235.6,92.8 236.3,93.1 237.0,93.4 237.7,93.7 238.4,94.0 239.1,94.2 239.8,94.5 240.5,94.7 241.2,95.0 241.9,95.2 242.6,95.4 243.3,95.6 244.0,95.8 244.7,96.0 245.4,96.2 246.1,96.4 246.8,96.6 247.5,96.7 248.2,96.9 248.9,97.1 249.6,97.2 250.3,97.3 251.0,97.5 251.7,97.6 252.4,97.7 253.1,97.8 253.8,98.0 254.5,98.1 255.2,98.2 255.9,98.3 256.6,98.4 257.3,98.4 258.0,98.5 258.7,98.6 259.4,98.7 260.1,98.8 260.8,98.8 261.5,98.9 262.2,99.0 262.9,99.0 263.6,99.1 264.3,99.1 265.0,99.2 265.7,99.2 266.4,99.3 267.1,99.3 267.8,99.4 268.5,99.4 269.2,99.4 269.9,99.5 270.6,99.5 271.3,99.5 272.0,99.6 272.7,99.6 273.4,99.6 274.1,99.6 274.8,99.7 275.5,99.7 276.2,99.7 276.9,99.7 277.6,99.7 278.3,99.8 279.0,99.8 279.7,99.8 280.4,99.8 281.1,99.8 281.8,99.8 282.5,99.8 283.2,99.8 283.9,99.9 284.6,99.9 285.3,99.9 286.0,99.9 286.7,99.9 287.4,99.9 288.1,99.9 288.8,99.9 289.5,99.9 290.2,99.9 290.9,99.9 291.6,99.9 292.3,99.9 293.0,99.9 293.7,99.9 294.4,100.0 295.1,100.0 295.8,100.0 296.5,100.0 297.2,100.0 297.9,100.0 298.6,100.0 299.3,100.0 300.0,100.0 300.0,100.0\" fill=\"#b5453a\" fill-opacity=\"0.45\" stroke=\"none\"/><polyline points=\"20.0,100.0 21.7,100.0 23.5,100.0 25.2,100.0 27.0,99.9 28.7,99.9 30.5,99.9 32.2,99.9 34.0,99.9 35.7,99.9 37.5,99.8 39.2,99.8 41.0,99.8 42.7,99.7 44.5,99.7 46.2,99.6 48.0,99.6 49.7,99.5 51.5,99.4 53.2,99.3 55.0,99.2 56.7,99.0 58.5,98.9 60.2,98.7 62.0,98.5 63.7,98.3 65.5,98.1 67.2,97.8 69.0,97.5 70.7,97.1 72.5,96.7 74.2,96.3 76.0,95.8 77.7,95.3 79.5,94.7 81.2,94.1 83.0,93.4 84.7,92.7 86.5,91.8 88.2,90.9 90.0,90.0 91.7,88.9 93.5,87.8 95.2,86.6 97.0,85.3 98.7,84.0 100.5,82.5 102.2,81.0 104.0,79.4 105.7,77.7 107.5,75.9 109.2,74.1 111.0,72.2 112.7,70.2 114.5,68.2 116.2,66.1 118.0,63.9 119.7,61.8 121.5,59.5 123.2,57.3 125.0,55.1 126.7,52.8 128.5,50.6 130.2,48.4 132.0,46.2 133.7,44.1 135.5,42.0 137.2,40.0 139.0,38.1 140.7,36.3 142.5,34.6 144.2,33.0 146.0,31.6 147.7,30.3 149.5,29.2 151.2,28.2 153.0,27.4 154.7,26.7 156.5,26.3 158.2,26.0 160.0,25.9 161.7,26.0 163.5,26.3 165.2,26.7 167.0,27.4 168.7,28.2 170.5,29.2 172.2,30.3 174.0,31.6 175.7,33.0 177.5,34.6 179.2,36.3 181.0,38.1 182.7,40.0 184.5,42.0 186.2,44.1 188.0,46.2 189.7,48.4 191.5,50.6 193.2,52.8 195.0,55.1 196.7,57.3 198.5,59.5 200.2,61.8 202.0,63.9 203.7,66.1 205.5,68.2 207.2,70.2 209.0,72.2 210.7,74.1 212.5,75.9 214.2,77.7 216.0,79.4 217.7,81.0 219.5,82.5 221.2,84.0 223.0,85.3 224.7,86.6 226.5,87.8 228.2,88.9 230.0,90.0 231.7,90.9 233.5,91.8 235.2,92.7 237.0,93.4 238.7,94.1 240.5,94.7 242.2,95.3 244.0,95.8 245.7,96.3 247.5,96.7 249.2,97.1 251.0,97.5 252.7,97.8 254.5,98.1 256.2,98.3 258.0,98.5 259.7,98.7 261.5,98.9 263.2,99.0 265.0,99.2 266.7,99.3 268.5,99.4 270.2,99.5 272.0,99.6 273.7,99.6 275.5,99.7 277.2,99.7 279.0,99.8 280.7,99.8 282.5,99.8 284.2,99.9 286.0,99.9 287.7,99.9 289.5,99.9 291.2,99.9 293.0,99.9 294.7,100.0 296.5,100.0 298.2,100.0 300.0,100.0\" fill=\"none\" stroke=\"#2a78d6\" stroke-width=\"2\"/><line x1=\"20.0\" y1=\"100.0\" x2=\"300.0\" y2=\"100.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><line x1=\"20.0\" y1=\"100.0\" x2=\"20.0\" y2=\"104.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><text x=\"20.0\" y=\"115.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">−4</text><line x1=\"55.0\" y1=\"100.0\" x2=\"55.0\" y2=\"104.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><text x=\"55.0\" y=\"115.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">−3</text><line x1=\"90.0\" y1=\"100.0\" x2=\"90.0\" y2=\"104.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><text x=\"90.0\" y=\"115.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">−2</text><line x1=\"125.0\" y1=\"100.0\" x2=\"125.0\" y2=\"104.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><text x=\"125.0\" y=\"115.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">−1</text><line x1=\"160.0\" y1=\"100.0\" x2=\"160.0\" y2=\"104.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><text x=\"160.0\" y=\"115.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">0</text><line x1=\"195.0\" y1=\"100.0\" x2=\"195.0\" y2=\"104.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><text x=\"195.0\" y=\"115.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">1</text><line x1=\"230.0\" y1=\"100.0\" x2=\"230.0\" y2=\"104.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><text x=\"230.0\" y=\"115.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">2</text><line x1=\"265.0\" y1=\"100.0\" x2=\"265.0\" y2=\"104.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><text x=\"265.0\" y=\"115.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">3</text><line x1=\"300.0\" y1=\"100.0\" x2=\"300.0\" y2=\"104.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><text x=\"300.0\" y=\"115.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">4</text><line x1=\"91.4\" y1=\"100.0\" x2=\"91.4\" y2=\"30.0\" stroke=\"#b5453a\" stroke-width=\"1.2\" stroke-dasharray=\"3 2\"/><text x=\"91.4\" y=\"26.0\" text-anchor=\"middle\" fill=\"#b5453a\" font-size=\"10.2\">−1,96</text><line x1=\"228.6\" y1=\"100.0\" x2=\"228.6\" y2=\"30.0\" stroke=\"#b5453a\" stroke-width=\"1.2\" stroke-dasharray=\"3 2\"/><text x=\"228.6\" y=\"26.0\" text-anchor=\"middle\" fill=\"#b5453a\" font-size=\"10.2\">1,96</text><line x1=\"97.0\" y1=\"100.0\" x2=\"97.0\" y2=\"70.0\" stroke=\"#2a78d6\" stroke-width=\"1.5\"/><circle cx=\"97.0\" cy=\"100.0\" r=\"4.5\" fill=\"#2a78d6\" stroke=\"#faf8f3\" stroke-width=\"1.5\"><title>● Z (obținut) = −1,80 → H0 nu se respinge</title></circle><text x=\"160.0\" y=\"130.0\" text-anchor=\"middle\" fill=\"#2a78d6\" font-size=\"10.8\">● Z (obținut) = −1,80 → H0 nu se respinge</text><text x=\"20.0\" y=\"156.0\" text-anchor=\"start\" fill=\"#6b6760\" font-size=\"10.8\">Test unilateral stânga, α = 0,05: tot 0,05 în stânga</text><polygon points=\"20.0,242.0 20.0,242.0 20.7,242.0 21.4,242.0 22.1,242.0 22.8,242.0 23.5,242.0 24.2,242.0 24.9,242.0 25.6,242.0 26.3,241.9 27.0,241.9 27.7,241.9 28.4,241.9 29.1,241.9 29.8,241.9 30.5,241.9 31.2,241.9 31.9,241.9 32.6,241.9 33.3,241.9 34.0,241.9 34.7,241.9 35.4,241.9 36.1,241.9 36.8,241.8 37.5,241.8 38.2,241.8 38.9,241.8 39.6,241.8 40.3,241.8 41.0,241.8 41.7,241.8 42.4,241.7 43.1,241.7 43.8,241.7 44.5,241.7 45.2,241.7 45.9,241.6 46.6,241.6 47.3,241.6 48.0,241.6 48.7,241.5 49.4,241.5 50.1,241.5 50.8,241.4 51.5,241.4 52.2,241.4 52.9,241.3 53.6,241.3 54.3,241.2 55.0,241.2 55.7,241.1 56.4,241.1 57.1,241.0 57.8,241.0 58.5,240.9 59.2,240.8 59.9,240.8 60.6,240.7 61.3,240.6 62.0,240.5 62.7,240.4 63.4,240.4 64.1,240.3 64.8,240.2 65.5,240.1 66.2,240.0 66.9,239.8 67.6,239.7 68.3,239.6 69.0,239.5 69.7,239.3 70.4,239.2 71.1,239.1 71.8,238.9 72.5,238.7 73.2,238.6 73.9,238.4 74.6,238.2 75.3,238.0 76.0,237.8 76.7,237.6 77.4,237.4 78.1,237.2 78.8,237.0 79.5,236.7 80.2,236.5 80.9,236.2 81.6,236.0 82.3,235.7 83.0,235.4 83.7,235.1 84.4,234.8 85.1,234.5 85.8,234.2 86.5,233.8 87.2,233.5 87.9,233.1 88.6,232.8 89.3,232.4 90.0,232.0 90.7,231.6 91.4,231.1 92.1,230.7 92.8,230.3 93.5,229.8 94.2,229.3 94.9,228.9 95.6,228.4 96.3,227.9 97.0,227.3 97.7,226.8 98.4,226.3 99.1,225.7 99.8,225.1 100.5,224.5 101.2,223.9 101.9,223.3 102.2,242.0\" fill=\"#b5453a\" fill-opacity=\"0.45\" stroke=\"none\"/><polyline points=\"20.0,242.0 21.7,242.0 23.5,242.0 25.2,242.0 27.0,241.9 28.7,241.9 30.5,241.9 32.2,241.9 34.0,241.9 35.7,241.9 37.5,241.8 39.2,241.8 41.0,241.8 42.7,241.7 44.5,241.7 46.2,241.6 48.0,241.6 49.7,241.5 51.5,241.4 53.2,241.3 55.0,241.2 56.7,241.0 58.5,240.9 60.2,240.7 62.0,240.5 63.7,240.3 65.5,240.1 67.2,239.8 69.0,239.5 70.7,239.1 72.5,238.7 74.2,238.3 76.0,237.8 77.7,237.3 79.5,236.7 81.2,236.1 83.0,235.4 84.7,234.7 86.5,233.8 88.2,232.9 90.0,232.0 91.7,230.9 93.5,229.8 95.2,228.6 97.0,227.3 98.7,226.0 100.5,224.5 102.2,223.0 104.0,221.4 105.7,219.7 107.5,217.9 109.2,216.1 111.0,214.2 112.7,212.2 114.5,210.2 116.2,208.1 118.0,205.9 119.7,203.8 121.5,201.5 123.2,199.3 125.0,197.1 126.7,194.8 128.5,192.6 130.2,190.4 132.0,188.2 133.7,186.1 135.5,184.0 137.2,182.0 139.0,180.1 140.7,178.3 142.5,176.6 144.2,175.0 146.0,173.6 147.7,172.3 149.5,171.2 151.2,170.2 153.0,169.4 154.7,168.7 156.5,168.3 158.2,168.0 160.0,167.9 161.7,168.0 163.5,168.3 165.2,168.7 167.0,169.4 168.7,170.2 170.5,171.2 172.2,172.3 174.0,173.6 175.7,175.0 177.5,176.6 179.2,178.3 181.0,180.1 182.7,182.0 184.5,184.0 186.2,186.1 188.0,188.2 189.7,190.4 191.5,192.6 193.2,194.8 195.0,197.1 196.7,199.3 198.5,201.5 200.2,203.8 202.0,205.9 203.7,208.1 205.5,210.2 207.2,212.2 209.0,214.2 210.7,216.1 212.5,217.9 214.2,219.7 216.0,221.4 217.7,223.0 219.5,224.5 221.2,226.0 223.0,227.3 224.7,228.6 226.5,229.8 228.2,230.9 230.0,232.0 231.7,232.9 233.5,233.8 235.2,234.7 237.0,235.4 238.7,236.1 240.5,236.7 242.2,237.3 244.0,237.8 245.7,238.3 247.5,238.7 249.2,239.1 251.0,239.5 252.7,239.8 254.5,240.1 256.2,240.3 258.0,240.5 259.7,240.7 261.5,240.9 263.2,241.0 265.0,241.2 266.7,241.3 268.5,241.4 270.2,241.5 272.0,241.6 273.7,241.6 275.5,241.7 277.2,241.7 279.0,241.8 280.7,241.8 282.5,241.8 284.2,241.9 286.0,241.9 287.7,241.9 289.5,241.9 291.2,241.9 293.0,241.9 294.7,242.0 296.5,242.0 298.2,242.0 300.0,242.0\" fill=\"none\" stroke=\"#2a78d6\" stroke-width=\"2\"/><line x1=\"20.0\" y1=\"242.0\" x2=\"300.0\" y2=\"242.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><line x1=\"20.0\" y1=\"242.0\" x2=\"20.0\" y2=\"246.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><text x=\"20.0\" y=\"257.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">−4</text><line x1=\"55.0\" y1=\"242.0\" x2=\"55.0\" y2=\"246.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><text x=\"55.0\" y=\"257.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">−3</text><line x1=\"90.0\" y1=\"242.0\" x2=\"90.0\" y2=\"246.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><text x=\"90.0\" y=\"257.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">−2</text><line x1=\"125.0\" y1=\"242.0\" x2=\"125.0\" y2=\"246.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><text x=\"125.0\" y=\"257.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">−1</text><line x1=\"160.0\" y1=\"242.0\" x2=\"160.0\" y2=\"246.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><text x=\"160.0\" y=\"257.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">0</text><line x1=\"195.0\" y1=\"242.0\" x2=\"195.0\" y2=\"246.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><text x=\"195.0\" y=\"257.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">1</text><line x1=\"230.0\" y1=\"242.0\" x2=\"230.0\" y2=\"246.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><text x=\"230.0\" y=\"257.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">2</text><line x1=\"265.0\" y1=\"242.0\" x2=\"265.0\" y2=\"246.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><text x=\"265.0\" y=\"257.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">3</text><line x1=\"300.0\" y1=\"242.0\" x2=\"300.0\" y2=\"246.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><text x=\"300.0\" y=\"257.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">4</text><line x1=\"102.2\" y1=\"242.0\" x2=\"102.2\" y2=\"172.0\" stroke=\"#b5453a\" stroke-width=\"1.2\" stroke-dasharray=\"3 2\"/><text x=\"102.2\" y=\"168.0\" text-anchor=\"middle\" fill=\"#b5453a\" font-size=\"10.2\">−1,65</text><line x1=\"97.0\" y1=\"242.0\" x2=\"97.0\" y2=\"212.0\" stroke=\"#b5453a\" stroke-width=\"1.5\"/><circle cx=\"97.0\" cy=\"242.0\" r=\"4.5\" fill=\"#b5453a\" stroke=\"#faf8f3\" stroke-width=\"1.5\"><title>● Z (obținut) = −1,80 → H0 se respinge</title></circle><text x=\"160.0\" y=\"272.0\" text-anchor=\"middle\" fill=\"#b5453a\" font-size=\"10.8\">● Z (obținut) = −1,80 → H0 se respinge</text><text x=\"160.0\" y=\"290.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">aceleași date; pragul unilateral e mai aproape de centru</text></svg>"
+          }
+        ],
+        "noduri": [
+          {
+            "t": "Zona critică",
+            "d": "Amplitudinea de valori ale statisticii testului care duce la respingerea lui H0 (zona de respingere). Se stabilește pe distribuția de eșantionare construită presupunând H0 adevărată; o medie care cade acolo are probabilitate de apariție mai mică decât α. Restul e zona necritică."
+          },
+          {
+            "t": "Scoruri Z critice",
+            "d": "Valorile care marchează începutul zonei critice: ±Zα/2 la testul bilateral, +Zα sau −Zα la cel unilateral. Pentru α = 0,05 unilateral: 0,5 − 0,05 = 0,45 în tabelul curbei normale → 1,65."
+          },
+          {
+            "t": "Nivelul α",
+            "d": "Fixează ce înseamnă „prea mare” pentru o diferență și este, totodată, probabilitatea de a respinge greșit H0: dacă testul s-ar repeta la nesfârșit cu H0 adevărată, la α = 0,05 s-ar respinge greșit în 5 cazuri din 100. Niveluri uzuale: 90%, 95%, 99% încredere; α = 0,05 e considerat un indicator bun."
+          },
+          {
+            "t": "Regula de decizie bilaterală",
+            "d": "Se respinge H0 dacă Z (obținut) ≥ +Zα/2 sau Z (obținut) ≤ −Zα/2. La rezidențiat: −3,38 < −1,96, deci H0 se respinge, iar diferența e semnificativă la 95%."
+          },
+          {
+            "t": "Regula de decizie unilaterală",
+            "d": "Unilateral dreapta: se respinge H0 dacă Z ≥ +Zα. Unilateral stânga: dacă Z ≤ −Zα. Un Z din coada opusă nu duce la respingere, oricât de mare e în valoare absolută."
+          },
+          {
+            "t": "Avantajul testului unilateral",
+            "d": "Zona critică e „trasă” mai aproape de centru (1,65 în loc de 1,96), deci crește probabilitatea de a respinge H0. Se recomandă când cercetătorul are destulă experiență și cunoștințe ca să formuleze o Ha direcțională."
+          }
+        ]
+      },
+      {
+        "titlu": "Modelul în 4 pași",
+        "tabel": {
+          "cap": [
+            "Pas",
+            "Rezidențiat, bilateral",
+            "Rezidențiat, unilateral stânga"
+          ],
+          "randuri": [
+            [
+              "1. Ipotezele",
+              "H0: μ = 800; Ha: μ ≠ 800",
+              "H0: μ = 800; Ha: μ < 800"
+            ],
+            [
+              "2. Distribuția și zona critică",
+              "Z; α = 0,05; ±1,96",
+              "Z; α = 0,05; −1,65"
+            ],
+            [
+              "3. Statistica testului",
+              "Z ≈ −3,38",
+              "Z ≈ −3,38 (aceeași)"
+            ],
+            [
+              "4. Decizia",
+              "se respinge H0: media diferă de 800",
+              "se respinge H0: media e sub 800"
+            ]
+          ]
+        },
+        "noduri": [
+          {
+            "t": "Pasul 1 · Enunțarea ipotezelor",
+            "d": "Se scriu H0 și Ha, inclusiv sensul lui Ha (bilateral sau unilateral). Interpretare: sensul se fixează înainte de a vedea rezultatul; un test unilateral ales după date ar face riscul real de eroare mai mare decât α."
+          },
+          {
+            "t": "Pasul 2 · Distribuția și zona critică",
+            "d": "Se alege distribuția de eșantionare (Z sau t), nivelul α, tipul testului și valoarea critică ce marchează începutul zonei critice."
+          },
+          {
+            "t": "Pasul 3 · Calcularea statisticii testului",
+            "d": "Se calculează Z (obținut) sau t (obținut). Formula nu depinde de tipul testului: la rezidențiat, Z ≈ −3,38 atât bilateral, cât și unilateral."
+          },
+          {
+            "t": "Pasul 4 · Luarea deciziei",
+            "d": "Se compară valoarea obținută cu pragul și se formulează concluzia în cuvinte, cu nivelul de încredere: „diferența e statistic semnificativă la 95%” sau „nu se poate conchide că…”."
+          }
+        ]
+      },
+      {
+        "titlu": "Erori în testarea ipotezelor",
+        "tabel": {
+          "cap": [
+            "Decizia",
+            "H0 adevărată",
+            "H0 falsă"
+          ],
+          "randuri": [
+            [
+              "Se respinge H0",
+              "eroare de tipul I (α)",
+              "decizie corectă"
+            ],
+            [
+              "Nu se respinge H0",
+              "decizie corectă",
+              "eroare de tipul II (β)"
+            ]
+          ]
+        },
+        "figuri": [
+          {
+            "titlu": "De ce α mai mic înseamnă β mai mare",
+            "nota": "Ilustrativ: curba Ha e plasată la 2,5 erori standard de H0. Roșu = α (respingem deși H0 e adevărată); albastru deschis = β (nu respingem deși Ha e adevărată).",
+            "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 280\" role=\"img\" aria-label=\"Două curbe, sub H0 și sub Ha; când pragul se mută de la 1,65 la 2,58, aria α scade, iar aria β crește de la circa 0,20 la circa 0,53\" font-family=\"Georgia, serif\" font-size=\"13\"><text x=\"20.0\" y=\"14.0\" text-anchor=\"start\" fill=\"#6b6760\" font-size=\"10.8\">α = 0,05 (unilateral dreapta) → β ≈ 0,20</text><polygon points=\"20.0,100.0 20.0,100.0 20.6,100.0 21.2,100.0 21.8,100.0 22.4,100.0 22.9,100.0 23.5,100.0 24.1,100.0 24.7,100.0 25.3,100.0 25.9,100.0 26.5,100.0 27.1,100.0 27.7,100.0 28.3,100.0 28.8,100.0 29.4,100.0 30.0,100.0 30.6,100.0 31.2,100.0 31.8,100.0 32.4,100.0 33.0,100.0 33.6,100.0 34.1,100.0 34.7,100.0 35.3,100.0 35.9,100.0 36.5,100.0 37.1,100.0 37.7,100.0 38.3,100.0 38.9,100.0 39.5,100.0 40.0,100.0 40.6,100.0 41.2,100.0 41.8,100.0 42.4,100.0 43.0,100.0 43.6,100.0 44.2,100.0 44.8,100.0 45.3,100.0 45.9,100.0 46.5,100.0 47.1,100.0 47.7,100.0 48.3,100.0 48.9,100.0 49.5,100.0 50.1,100.0 50.7,100.0 51.2,100.0 51.8,100.0 52.4,100.0 53.0,100.0 53.6,100.0 54.2,100.0 54.8,100.0 55.4,100.0 56.0,100.0 56.5,100.0 57.1,100.0 57.7,100.0 58.3,100.0 58.9,100.0 59.5,100.0 60.1,100.0 60.7,100.0 61.3,100.0 61.9,100.0 62.4,100.0 63.0,100.0 63.6,100.0 64.2,100.0 64.8,100.0 65.4,100.0 66.0,100.0 66.6,100.0 67.2,100.0 67.7,100.0 68.3,100.0 68.9,100.0 69.5,100.0 70.1,100.0 70.7,100.0 71.3,100.0 71.9,100.0 72.5,100.0 73.1,100.0 73.6,100.0 74.2,100.0 74.8,100.0 75.4,100.0 76.0,100.0 76.6,100.0 77.2,100.0 77.8,100.0 78.4,100.0 78.9,100.0 79.5,100.0 80.1,100.0 80.7,100.0 81.3,100.0 81.9,100.0 82.5,100.0 83.1,100.0 83.7,100.0 84.3,100.0 84.8,100.0 85.4,99.9 86.0,99.9 86.6,99.9 87.2,99.9 87.8,99.9 88.4,99.9 89.0,99.9 89.6,99.9 90.1,99.9 90.7,99.9 91.3,99.9 91.9,99.9 92.5,99.9 93.1,99.9 93.7,99.9 94.3,99.8 94.9,99.8 95.5,99.8 96.0,99.8 96.6,99.8 97.2,99.8 97.8,99.8 98.4,99.7 99.0,99.7 99.6,99.7 100.2,99.7 100.8,99.7 101.3,99.7 101.9,99.6 102.5,99.6 103.1,99.6 103.7,99.5 104.3,99.5 104.9,99.5 105.5,99.5 106.1,99.4 106.7,99.4 107.2,99.3 107.8,99.3 108.4,99.3 109.0,99.2 109.6,99.2 110.2,99.1 110.8,99.1 111.4,99.0 112.0,98.9 112.5,98.9 113.1,98.8 113.7,98.8 114.3,98.7 114.9,98.6 115.5,98.5 116.1,98.4 116.7,98.4 117.3,98.3 117.9,98.2 118.4,98.1 119.0,98.0 119.6,97.9 120.2,97.7 120.8,97.6 121.4,97.5 122.0,97.4 122.6,97.2 123.2,97.1 123.7,96.9 124.3,96.8 124.9,96.6 125.5,96.4 126.1,96.3 126.7,96.1 127.3,95.9 127.9,95.7 128.5,95.5 129.1,95.3 129.6,95.1 130.2,94.8 130.8,94.6 131.4,94.3 132.0,94.1 132.6,93.8 133.2,93.5 133.8,93.3 134.4,93.0 134.9,92.7 135.5,92.4 136.1,92.0 136.7,91.7 137.3,91.4 137.9,91.0 138.5,90.6 139.1,90.3 139.7,89.9 140.3,89.5 140.8,89.1 141.4,88.6 142.0,88.2 142.6,87.8 143.2,87.3 143.8,86.8 144.4,86.4 145.0,85.9 145.6,85.4 146.1,84.9 146.7,84.3 147.3,83.8 147.9,83.2 148.5,82.7 149.1,82.1 149.7,81.5 150.3,80.9 150.9,80.3 151.5,79.7 152.0,79.1 152.6,78.4 153.2,77.8 153.8,77.1 154.4,76.4 155.0,75.7 155.6,75.0 156.2,74.3 156.8,73.6 157.3,72.9 157.9,72.2 158.5,71.4 159.1,70.7 159.7,69.9 160.3,69.2 160.9,68.4 161.5,67.6 162.1,66.9 162.7,66.1 163.2,65.3 163.8,64.5 164.4,63.7 165.0,62.9 165.6,62.1 166.2,61.3 166.8,60.5 167.4,59.7 168.0,58.9 168.5,58.1 169.1,57.3 169.7,56.5 170.3,55.7 170.9,54.9 171.5,54.1 171.8,100.0\" fill=\"#9cc3ee\" fill-opacity=\"0.6\" stroke=\"none\"/><polygon points=\"171.8,100.0 171.8,83.0 172.4,83.5 173.0,84.1 173.6,84.6 174.1,85.1 174.7,85.6 175.3,86.1 175.9,86.6 176.5,87.1 177.1,87.5 177.7,88.0 178.3,88.4 178.9,88.9 179.5,89.3 180.0,89.7 180.6,90.1 181.2,90.4 181.8,90.8 182.4,91.2 183.0,91.5 183.6,91.9 184.2,92.2 184.8,92.5 185.3,92.8 185.9,93.1 186.5,93.4 187.1,93.7 187.7,94.0 188.3,94.2 188.9,94.5 189.5,94.7 190.1,94.9 190.7,95.2 191.2,95.4 191.8,95.6 192.4,95.8 193.0,96.0 193.6,96.2 194.2,96.4 194.8,96.5 195.4,96.7 196.0,96.9 196.5,97.0 197.1,97.2 197.7,97.3 198.3,97.4 198.9,97.6 199.5,97.7 200.1,97.8 200.7,97.9 201.3,98.0 201.9,98.1 202.4,98.2 203.0,98.3 203.6,98.4 204.2,98.5 204.8,98.6 205.4,98.6 206.0,98.7 206.6,98.8 207.2,98.9 207.7,98.9 208.3,99.0 208.9,99.0 209.5,99.1 210.1,99.1 210.7,99.2 211.3,99.2 211.9,99.3 212.5,99.3 213.1,99.4 213.6,99.4 214.2,99.4 214.8,99.5 215.4,99.5 216.0,99.5 216.6,99.6 217.2,99.6 217.8,99.6 218.4,99.6 218.9,99.7 219.5,99.7 220.1,99.7 220.7,99.7 221.3,99.7 221.9,99.8 222.5,99.8 223.1,99.8 223.7,99.8 224.3,99.8 224.8,99.8 225.4,99.8 226.0,99.8 226.6,99.9 227.2,99.9 227.8,99.9 228.4,99.9 229.0,99.9 229.6,99.9 230.1,99.9 230.7,99.9 231.3,99.9 231.9,99.9 232.5,99.9 233.1,99.9 233.7,99.9 234.3,99.9 234.9,99.9 235.5,100.0 236.0,100.0 236.6,100.0 237.2,100.0 237.8,100.0 238.4,100.0 239.0,100.0 239.6,100.0 240.2,100.0 240.8,100.0 241.3,100.0 241.9,100.0 242.5,100.0 243.1,100.0 243.7,100.0 244.3,100.0 244.9,100.0 245.5,100.0 246.1,100.0 246.7,100.0 247.2,100.0 247.8,100.0 248.4,100.0 249.0,100.0 249.6,100.0 250.2,100.0 250.8,100.0 251.4,100.0 252.0,100.0 252.5,100.0 253.1,100.0 253.7,100.0 254.3,100.0 254.9,100.0 255.5,100.0 256.1,100.0 256.7,100.0 257.3,100.0 257.9,100.0 258.4,100.0 259.0,100.0 259.6,100.0 260.2,100.0 260.8,100.0 261.4,100.0 262.0,100.0 262.6,100.0 263.2,100.0 263.7,100.0 264.3,100.0 264.9,100.0 265.5,100.0 266.1,100.0 266.7,100.0 267.3,100.0 267.9,100.0 268.5,100.0 269.1,100.0 269.6,100.0 270.2,100.0 270.8,100.0 271.4,100.0 272.0,100.0 272.6,100.0 273.2,100.0 273.8,100.0 274.4,100.0 274.9,100.0 275.5,100.0 276.1,100.0 276.7,100.0 277.3,100.0 277.9,100.0 278.5,100.0 279.1,100.0 279.7,100.0 280.3,100.0 280.8,100.0 281.4,100.0 282.0,100.0 282.6,100.0 283.2,100.0 283.8,100.0 284.4,100.0 285.0,100.0 285.6,100.0 286.1,100.0 286.7,100.0 287.3,100.0 287.9,100.0 288.5,100.0 289.1,100.0 289.7,100.0 290.3,100.0 290.9,100.0 291.5,100.0 292.0,100.0 292.6,100.0 293.2,100.0 293.8,100.0 294.4,100.0 295.0,100.0 295.6,100.0 296.2,100.0 296.8,100.0 297.3,100.0 297.9,100.0 298.5,100.0 299.1,100.0 299.7,100.0 300.0,100.0\" fill=\"#b5453a\" fill-opacity=\"0.55\" stroke=\"none\"/><polyline points=\"20.0,99.9 21.5,99.8 22.9,99.8 24.4,99.8 25.9,99.7 27.4,99.7 28.8,99.6 30.3,99.5 31.8,99.5 33.3,99.4 34.7,99.3 36.2,99.1 37.7,99.0 39.2,98.9 40.6,98.7 42.1,98.5 43.6,98.3 45.1,98.0 46.5,97.7 48.0,97.4 49.5,97.1 50.9,96.7 52.4,96.3 53.9,95.8 55.4,95.3 56.8,94.7 58.3,94.1 59.8,93.4 61.3,92.7 62.7,91.9 64.2,91.0 65.7,90.1 67.2,89.1 68.6,88.0 70.1,86.8 71.6,85.6 73.1,84.3 74.5,83.0 76.0,81.5 77.5,80.0 78.9,78.4 80.4,76.8 81.9,75.0 83.4,73.3 84.8,71.4 86.3,69.6 87.8,67.6 89.3,65.7 90.7,63.7 92.2,61.7 93.7,59.7 95.2,57.7 96.6,55.7 98.1,53.7 99.6,51.7 101.1,49.8 102.5,48.0 104.0,46.2 105.5,44.5 106.9,42.8 108.4,41.3 109.9,39.9 111.4,38.6 112.8,37.5 114.3,36.4 115.8,35.6 117.3,34.8 118.7,34.3 120.2,33.8 121.7,33.6 123.2,33.5 124.6,33.6 126.1,33.8 127.6,34.3 129.1,34.8 130.5,35.6 132.0,36.4 133.5,37.5 134.9,38.6 136.4,39.9 137.9,41.3 139.4,42.8 140.8,44.5 142.3,46.2 143.8,48.0 145.3,49.8 146.7,51.7 148.2,53.7 149.7,55.7 151.2,57.7 152.6,59.7 154.1,61.7 155.6,63.7 157.1,65.7 158.5,67.6 160.0,69.6 161.5,71.4 162.9,73.3 164.4,75.0 165.9,76.8 167.4,78.4 168.8,80.0 170.3,81.5 171.8,83.0 173.3,84.3 174.7,85.6 176.2,86.8 177.7,88.0 179.2,89.1 180.6,90.1 182.1,91.0 183.6,91.9 185.1,92.7 186.5,93.4 188.0,94.1 189.5,94.7 190.9,95.3 192.4,95.8 193.9,96.3 195.4,96.7 196.8,97.1 198.3,97.4 199.8,97.7 201.3,98.0 202.7,98.3 204.2,98.5 205.7,98.7 207.2,98.9 208.6,99.0 210.1,99.1 211.6,99.3 213.1,99.4 214.5,99.5 216.0,99.5 217.5,99.6 218.9,99.7 220.4,99.7 221.9,99.8 223.4,99.8 224.8,99.8 226.3,99.9 227.8,99.9 229.3,99.9 230.7,99.9 232.2,99.9 233.7,99.9 235.2,100.0 236.6,100.0 238.1,100.0 239.6,100.0 241.1,100.0 242.5,100.0 244.0,100.0 245.5,100.0 246.9,100.0 248.4,100.0 249.9,100.0 251.4,100.0 252.8,100.0 254.3,100.0 255.8,100.0 257.3,100.0 258.7,100.0 260.2,100.0 261.7,100.0 263.2,100.0 264.6,100.0 266.1,100.0 267.6,100.0 269.1,100.0 270.5,100.0 272.0,100.0 273.5,100.0 274.9,100.0 276.4,100.0 277.9,100.0 279.4,100.0 280.8,100.0 282.3,100.0 283.8,100.0 285.3,100.0 286.7,100.0 288.2,100.0 289.7,100.0 291.2,100.0 292.6,100.0 294.1,100.0 295.6,100.0 297.1,100.0 298.5,100.0 300.0,100.0\" fill=\"none\" stroke=\"#2a78d6\" stroke-width=\"2\"/><polyline points=\"20.0,100.0 21.5,100.0 22.9,100.0 24.4,100.0 25.9,100.0 27.4,100.0 28.8,100.0 30.3,100.0 31.8,100.0 33.3,100.0 34.7,100.0 36.2,100.0 37.7,100.0 39.2,100.0 40.6,100.0 42.1,100.0 43.6,100.0 45.1,100.0 46.5,100.0 48.0,100.0 49.5,100.0 50.9,100.0 52.4,100.0 53.9,100.0 55.4,100.0 56.8,100.0 58.3,100.0 59.8,100.0 61.3,100.0 62.7,100.0 64.2,100.0 65.7,100.0 67.2,100.0 68.6,100.0 70.1,100.0 71.6,100.0 73.1,100.0 74.5,100.0 76.0,100.0 77.5,100.0 78.9,100.0 80.4,100.0 81.9,100.0 83.4,100.0 84.8,100.0 86.3,99.9 87.8,99.9 89.3,99.9 90.7,99.9 92.2,99.9 93.7,99.9 95.2,99.8 96.6,99.8 98.1,99.8 99.6,99.7 101.1,99.7 102.5,99.6 104.0,99.5 105.5,99.5 106.9,99.4 108.4,99.3 109.9,99.1 111.4,99.0 112.8,98.9 114.3,98.7 115.8,98.5 117.3,98.3 118.7,98.0 120.2,97.7 121.7,97.4 123.2,97.1 124.6,96.7 126.1,96.3 127.6,95.8 129.1,95.3 130.5,94.7 132.0,94.1 133.5,93.4 134.9,92.7 136.4,91.9 137.9,91.0 139.4,90.1 140.8,89.1 142.3,88.0 143.8,86.8 145.3,85.6 146.7,84.3 148.2,83.0 149.7,81.5 151.2,80.0 152.6,78.4 154.1,76.8 155.6,75.0 157.1,73.3 158.5,71.4 160.0,69.6 161.5,67.6 162.9,65.7 164.4,63.7 165.9,61.7 167.4,59.7 168.8,57.7 170.3,55.7 171.8,53.7 173.3,51.7 174.7,49.8 176.2,48.0 177.7,46.2 179.2,44.5 180.6,42.8 182.1,41.3 183.6,39.9 185.1,38.6 186.5,37.5 188.0,36.4 189.5,35.6 190.9,34.8 192.4,34.3 193.9,33.8 195.4,33.6 196.8,33.5 198.3,33.6 199.8,33.8 201.3,34.3 202.7,34.8 204.2,35.6 205.7,36.4 207.2,37.5 208.6,38.6 210.1,39.9 211.6,41.3 213.1,42.8 214.5,44.5 216.0,46.2 217.5,48.0 218.9,49.8 220.4,51.7 221.9,53.7 223.4,55.7 224.8,57.7 226.3,59.7 227.8,61.7 229.3,63.7 230.7,65.7 232.2,67.6 233.7,69.6 235.2,71.4 236.6,73.3 238.1,75.0 239.6,76.8 241.1,78.4 242.5,80.0 244.0,81.5 245.5,83.0 246.9,84.3 248.4,85.6 249.9,86.8 251.4,88.0 252.8,89.1 254.3,90.1 255.8,91.0 257.3,91.9 258.7,92.7 260.2,93.4 261.7,94.1 263.2,94.7 264.6,95.3 266.1,95.8 267.6,96.3 269.1,96.7 270.5,97.1 272.0,97.4 273.5,97.7 274.9,98.0 276.4,98.3 277.9,98.5 279.4,98.7 280.8,98.9 282.3,99.0 283.8,99.1 285.3,99.3 286.7,99.4 288.2,99.5 289.7,99.5 291.2,99.6 292.6,99.7 294.1,99.7 295.6,99.8 297.1,99.8 298.5,99.8 300.0,99.9\" fill=\"none\" stroke=\"#eb6834\" stroke-width=\"2\"/><line x1=\"171.8\" y1=\"108.0\" x2=\"171.8\" y2=\"26.0\" stroke=\"#2c2a26\" stroke-width=\"1.2\" stroke-dasharray=\"3 2\"/><text x=\"171.8\" y=\"120.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.2\">prag 1,65</text><text x=\"90.7\" y=\"42.0\" text-anchor=\"end\" fill=\"#2a78d6\" font-size=\"10.8\">H0</text><text x=\"229.3\" y=\"42.0\" text-anchor=\"start\" fill=\"#eb6834\" font-size=\"10.8\">Ha</text><line x1=\"20.0\" y1=\"100.0\" x2=\"300.0\" y2=\"100.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><text x=\"20.0\" y=\"140.0\" text-anchor=\"start\" fill=\"#6b6760\" font-size=\"10.8\">α = 0,005 → pragul urcă, β ≈ 0,53</text><polygon points=\"20.0,226.0 20.0,226.0 20.6,226.0 21.2,226.0 21.8,226.0 22.4,226.0 22.9,226.0 23.5,226.0 24.1,226.0 24.7,226.0 25.3,226.0 25.9,226.0 26.5,226.0 27.1,226.0 27.7,226.0 28.3,226.0 28.8,226.0 29.4,226.0 30.0,226.0 30.6,226.0 31.2,226.0 31.8,226.0 32.4,226.0 33.0,226.0 33.6,226.0 34.1,226.0 34.7,226.0 35.3,226.0 35.9,226.0 36.5,226.0 37.1,226.0 37.7,226.0 38.3,226.0 38.9,226.0 39.5,226.0 40.0,226.0 40.6,226.0 41.2,226.0 41.8,226.0 42.4,226.0 43.0,226.0 43.6,226.0 44.2,226.0 44.8,226.0 45.3,226.0 45.9,226.0 46.5,226.0 47.1,226.0 47.7,226.0 48.3,226.0 48.9,226.0 49.5,226.0 50.1,226.0 50.7,226.0 51.2,226.0 51.8,226.0 52.4,226.0 53.0,226.0 53.6,226.0 54.2,226.0 54.8,226.0 55.4,226.0 56.0,226.0 56.5,226.0 57.1,226.0 57.7,226.0 58.3,226.0 58.9,226.0 59.5,226.0 60.1,226.0 60.7,226.0 61.3,226.0 61.9,226.0 62.4,226.0 63.0,226.0 63.6,226.0 64.2,226.0 64.8,226.0 65.4,226.0 66.0,226.0 66.6,226.0 67.2,226.0 67.7,226.0 68.3,226.0 68.9,226.0 69.5,226.0 70.1,226.0 70.7,226.0 71.3,226.0 71.9,226.0 72.5,226.0 73.1,226.0 73.6,226.0 74.2,226.0 74.8,226.0 75.4,226.0 76.0,226.0 76.6,226.0 77.2,226.0 77.8,226.0 78.4,226.0 78.9,226.0 79.5,226.0 80.1,226.0 80.7,226.0 81.3,226.0 81.9,226.0 82.5,226.0 83.1,226.0 83.7,226.0 84.3,226.0 84.8,226.0 85.4,225.9 86.0,225.9 86.6,225.9 87.2,225.9 87.8,225.9 88.4,225.9 89.0,225.9 89.6,225.9 90.1,225.9 90.7,225.9 91.3,225.9 91.9,225.9 92.5,225.9 93.1,225.9 93.7,225.9 94.3,225.8 94.9,225.8 95.5,225.8 96.0,225.8 96.6,225.8 97.2,225.8 97.8,225.8 98.4,225.7 99.0,225.7 99.6,225.7 100.2,225.7 100.8,225.7 101.3,225.7 101.9,225.6 102.5,225.6 103.1,225.6 103.7,225.5 104.3,225.5 104.9,225.5 105.5,225.5 106.1,225.4 106.7,225.4 107.2,225.3 107.8,225.3 108.4,225.3 109.0,225.2 109.6,225.2 110.2,225.1 110.8,225.1 111.4,225.0 112.0,224.9 112.5,224.9 113.1,224.8 113.7,224.8 114.3,224.7 114.9,224.6 115.5,224.5 116.1,224.4 116.7,224.4 117.3,224.3 117.9,224.2 118.4,224.1 119.0,224.0 119.6,223.9 120.2,223.7 120.8,223.6 121.4,223.5 122.0,223.4 122.6,223.2 123.2,223.1 123.7,222.9 124.3,222.8 124.9,222.6 125.5,222.4 126.1,222.3 126.7,222.1 127.3,221.9 127.9,221.7 128.5,221.5 129.1,221.3 129.6,221.1 130.2,220.8 130.8,220.6 131.4,220.3 132.0,220.1 132.6,219.8 133.2,219.5 133.8,219.3 134.4,219.0 134.9,218.7 135.5,218.4 136.1,218.0 136.7,217.7 137.3,217.4 137.9,217.0 138.5,216.6 139.1,216.3 139.7,215.9 140.3,215.5 140.8,215.1 141.4,214.6 142.0,214.2 142.6,213.8 143.2,213.3 143.8,212.8 144.4,212.4 145.0,211.9 145.6,211.4 146.1,210.9 146.7,210.3 147.3,209.8 147.9,209.2 148.5,208.7 149.1,208.1 149.7,207.5 150.3,206.9 150.9,206.3 151.5,205.7 152.0,205.1 152.6,204.4 153.2,203.8 153.8,203.1 154.4,202.4 155.0,201.7 155.6,201.0 156.2,200.3 156.8,199.6 157.3,198.9 157.9,198.2 158.5,197.4 159.1,196.7 159.7,195.9 160.3,195.2 160.9,194.4 161.5,193.6 162.1,192.9 162.7,192.1 163.2,191.3 163.8,190.5 164.4,189.7 165.0,188.9 165.6,188.1 166.2,187.3 166.8,186.5 167.4,185.7 168.0,184.9 168.5,184.1 169.1,183.3 169.7,182.5 170.3,181.7 170.9,180.9 171.5,180.1 172.1,179.3 172.7,178.5 173.3,177.7 173.9,176.9 174.4,176.2 175.0,175.4 175.6,174.7 176.2,174.0 176.8,173.2 177.4,172.5 178.0,171.8 178.6,171.1 179.2,170.5 179.7,169.8 180.3,169.2 180.9,168.5 181.5,167.9 182.1,167.3 182.7,166.7 183.3,166.2 183.9,165.6 184.5,165.1 185.1,164.6 185.6,164.1 186.2,163.7 186.8,163.2 187.4,162.8 188.0,162.4 188.6,162.1 189.2,161.7 189.8,161.4 190.4,161.1 190.9,160.8 191.5,160.6 192.1,160.4 192.7,160.2 193.3,160.0 193.9,159.8 194.5,159.7 195.1,159.6 195.7,159.6 196.3,159.5 196.8,159.5 197.4,159.5 198.0,159.6 198.6,159.6 199.2,159.7 199.2,226.0\" fill=\"#9cc3ee\" fill-opacity=\"0.6\" stroke=\"none\"/><polygon points=\"199.2,226.0 199.2,223.6 199.8,223.7 200.4,223.9 201.0,224.0 201.6,224.1 202.1,224.2 202.7,224.3 203.3,224.4 203.9,224.4 204.5,224.5 205.1,224.6 205.7,224.7 206.3,224.8 206.9,224.8 207.5,224.9 208.0,224.9 208.6,225.0 209.2,225.1 209.8,225.1 210.4,225.2 211.0,225.2 211.6,225.3 212.2,225.3 212.8,225.3 213.3,225.4 213.9,225.4 214.5,225.5 215.1,225.5 215.7,225.5 216.3,225.5 216.9,225.6 217.5,225.6 218.1,225.6 218.7,225.7 219.2,225.7 219.8,225.7 220.4,225.7 221.0,225.7 221.6,225.7 222.2,225.8 222.8,225.8 223.4,225.8 224.0,225.8 224.5,225.8 225.1,225.8 225.7,225.8 226.3,225.9 226.9,225.9 227.5,225.9 228.1,225.9 228.7,225.9 229.3,225.9 229.9,225.9 230.4,225.9 231.0,225.9 231.6,225.9 232.2,225.9 232.8,225.9 233.4,225.9 234.0,225.9 234.6,225.9 235.2,226.0 235.7,226.0 236.3,226.0 236.9,226.0 237.5,226.0 238.1,226.0 238.7,226.0 239.3,226.0 239.9,226.0 240.5,226.0 241.1,226.0 241.6,226.0 242.2,226.0 242.8,226.0 243.4,226.0 244.0,226.0 244.6,226.0 245.2,226.0 245.8,226.0 246.4,226.0 246.9,226.0 247.5,226.0 248.1,226.0 248.7,226.0 249.3,226.0 249.9,226.0 250.5,226.0 251.1,226.0 251.7,226.0 252.3,226.0 252.8,226.0 253.4,226.0 254.0,226.0 254.6,226.0 255.2,226.0 255.8,226.0 256.4,226.0 257.0,226.0 257.6,226.0 258.1,226.0 258.7,226.0 259.3,226.0 259.9,226.0 260.5,226.0 261.1,226.0 261.7,226.0 262.3,226.0 262.9,226.0 263.5,226.0 264.0,226.0 264.6,226.0 265.2,226.0 265.8,226.0 266.4,226.0 267.0,226.0 267.6,226.0 268.2,226.0 268.8,226.0 269.3,226.0 269.9,226.0 270.5,226.0 271.1,226.0 271.7,226.0 272.3,226.0 272.9,226.0 273.5,226.0 274.1,226.0 274.7,226.0 275.2,226.0 275.8,226.0 276.4,226.0 277.0,226.0 277.6,226.0 278.2,226.0 278.8,226.0 279.4,226.0 280.0,226.0 280.5,226.0 281.1,226.0 281.7,226.0 282.3,226.0 282.9,226.0 283.5,226.0 284.1,226.0 284.7,226.0 285.3,226.0 285.9,226.0 286.4,226.0 287.0,226.0 287.6,226.0 288.2,226.0 288.8,226.0 289.4,226.0 290.0,226.0 290.6,226.0 291.2,226.0 291.7,226.0 292.3,226.0 292.9,226.0 293.5,226.0 294.1,226.0 294.7,226.0 295.3,226.0 295.9,226.0 296.5,226.0 297.1,226.0 297.6,226.0 298.2,226.0 298.8,226.0 299.4,226.0 300.0,226.0 300.0,226.0\" fill=\"#b5453a\" fill-opacity=\"0.55\" stroke=\"none\"/><polyline points=\"20.0,225.9 21.5,225.8 22.9,225.8 24.4,225.8 25.9,225.7 27.4,225.7 28.8,225.6 30.3,225.5 31.8,225.5 33.3,225.4 34.7,225.3 36.2,225.1 37.7,225.0 39.2,224.9 40.6,224.7 42.1,224.5 43.6,224.3 45.1,224.0 46.5,223.7 48.0,223.4 49.5,223.1 50.9,222.7 52.4,222.3 53.9,221.8 55.4,221.3 56.8,220.7 58.3,220.1 59.8,219.4 61.3,218.7 62.7,217.9 64.2,217.0 65.7,216.1 67.2,215.1 68.6,214.0 70.1,212.8 71.6,211.6 73.1,210.3 74.5,209.0 76.0,207.5 77.5,206.0 78.9,204.4 80.4,202.8 81.9,201.0 83.4,199.3 84.8,197.4 86.3,195.6 87.8,193.6 89.3,191.7 90.7,189.7 92.2,187.7 93.7,185.7 95.2,183.7 96.6,181.7 98.1,179.7 99.6,177.7 101.1,175.8 102.5,174.0 104.0,172.2 105.5,170.5 106.9,168.8 108.4,167.3 109.9,165.9 111.4,164.6 112.8,163.5 114.3,162.4 115.8,161.6 117.3,160.8 118.7,160.3 120.2,159.8 121.7,159.6 123.2,159.5 124.6,159.6 126.1,159.8 127.6,160.3 129.1,160.8 130.5,161.6 132.0,162.4 133.5,163.5 134.9,164.6 136.4,165.9 137.9,167.3 139.4,168.8 140.8,170.5 142.3,172.2 143.8,174.0 145.3,175.8 146.7,177.7 148.2,179.7 149.7,181.7 151.2,183.7 152.6,185.7 154.1,187.7 155.6,189.7 157.1,191.7 158.5,193.6 160.0,195.6 161.5,197.4 162.9,199.3 164.4,201.0 165.9,202.8 167.4,204.4 168.8,206.0 170.3,207.5 171.8,209.0 173.3,210.3 174.7,211.6 176.2,212.8 177.7,214.0 179.2,215.1 180.6,216.1 182.1,217.0 183.6,217.9 185.1,218.7 186.5,219.4 188.0,220.1 189.5,220.7 190.9,221.3 192.4,221.8 193.9,222.3 195.4,222.7 196.8,223.1 198.3,223.4 199.8,223.7 201.3,224.0 202.7,224.3 204.2,224.5 205.7,224.7 207.2,224.9 208.6,225.0 210.1,225.1 211.6,225.3 213.1,225.4 214.5,225.5 216.0,225.5 217.5,225.6 218.9,225.7 220.4,225.7 221.9,225.8 223.4,225.8 224.8,225.8 226.3,225.9 227.8,225.9 229.3,225.9 230.7,225.9 232.2,225.9 233.7,225.9 235.2,226.0 236.6,226.0 238.1,226.0 239.6,226.0 241.1,226.0 242.5,226.0 244.0,226.0 245.5,226.0 246.9,226.0 248.4,226.0 249.9,226.0 251.4,226.0 252.8,226.0 254.3,226.0 255.8,226.0 257.3,226.0 258.7,226.0 260.2,226.0 261.7,226.0 263.2,226.0 264.6,226.0 266.1,226.0 267.6,226.0 269.1,226.0 270.5,226.0 272.0,226.0 273.5,226.0 274.9,226.0 276.4,226.0 277.9,226.0 279.4,226.0 280.8,226.0 282.3,226.0 283.8,226.0 285.3,226.0 286.7,226.0 288.2,226.0 289.7,226.0 291.2,226.0 292.6,226.0 294.1,226.0 295.6,226.0 297.1,226.0 298.5,226.0 300.0,226.0\" fill=\"none\" stroke=\"#2a78d6\" stroke-width=\"2\"/><polyline points=\"20.0,226.0 21.5,226.0 22.9,226.0 24.4,226.0 25.9,226.0 27.4,226.0 28.8,226.0 30.3,226.0 31.8,226.0 33.3,226.0 34.7,226.0 36.2,226.0 37.7,226.0 39.2,226.0 40.6,226.0 42.1,226.0 43.6,226.0 45.1,226.0 46.5,226.0 48.0,226.0 49.5,226.0 50.9,226.0 52.4,226.0 53.9,226.0 55.4,226.0 56.8,226.0 58.3,226.0 59.8,226.0 61.3,226.0 62.7,226.0 64.2,226.0 65.7,226.0 67.2,226.0 68.6,226.0 70.1,226.0 71.6,226.0 73.1,226.0 74.5,226.0 76.0,226.0 77.5,226.0 78.9,226.0 80.4,226.0 81.9,226.0 83.4,226.0 84.8,226.0 86.3,225.9 87.8,225.9 89.3,225.9 90.7,225.9 92.2,225.9 93.7,225.9 95.2,225.8 96.6,225.8 98.1,225.8 99.6,225.7 101.1,225.7 102.5,225.6 104.0,225.5 105.5,225.5 106.9,225.4 108.4,225.3 109.9,225.1 111.4,225.0 112.8,224.9 114.3,224.7 115.8,224.5 117.3,224.3 118.7,224.0 120.2,223.7 121.7,223.4 123.2,223.1 124.6,222.7 126.1,222.3 127.6,221.8 129.1,221.3 130.5,220.7 132.0,220.1 133.5,219.4 134.9,218.7 136.4,217.9 137.9,217.0 139.4,216.1 140.8,215.1 142.3,214.0 143.8,212.8 145.3,211.6 146.7,210.3 148.2,209.0 149.7,207.5 151.2,206.0 152.6,204.4 154.1,202.8 155.6,201.0 157.1,199.3 158.5,197.4 160.0,195.6 161.5,193.6 162.9,191.7 164.4,189.7 165.9,187.7 167.4,185.7 168.8,183.7 170.3,181.7 171.8,179.7 173.3,177.7 174.7,175.8 176.2,174.0 177.7,172.2 179.2,170.5 180.6,168.8 182.1,167.3 183.6,165.9 185.1,164.6 186.5,163.5 188.0,162.4 189.5,161.6 190.9,160.8 192.4,160.3 193.9,159.8 195.4,159.6 196.8,159.5 198.3,159.6 199.8,159.8 201.3,160.3 202.7,160.8 204.2,161.6 205.7,162.4 207.2,163.5 208.6,164.6 210.1,165.9 211.6,167.3 213.1,168.8 214.5,170.5 216.0,172.2 217.5,174.0 218.9,175.8 220.4,177.7 221.9,179.7 223.4,181.7 224.8,183.7 226.3,185.7 227.8,187.7 229.3,189.7 230.7,191.7 232.2,193.6 233.7,195.6 235.2,197.4 236.6,199.3 238.1,201.0 239.6,202.8 241.1,204.4 242.5,206.0 244.0,207.5 245.5,209.0 246.9,210.3 248.4,211.6 249.9,212.8 251.4,214.0 252.8,215.1 254.3,216.1 255.8,217.0 257.3,217.9 258.7,218.7 260.2,219.4 261.7,220.1 263.2,220.7 264.6,221.3 266.1,221.8 267.6,222.3 269.1,222.7 270.5,223.1 272.0,223.4 273.5,223.7 274.9,224.0 276.4,224.3 277.9,224.5 279.4,224.7 280.8,224.9 282.3,225.0 283.8,225.1 285.3,225.3 286.7,225.4 288.2,225.5 289.7,225.5 291.2,225.6 292.6,225.7 294.1,225.7 295.6,225.8 297.1,225.8 298.5,225.8 300.0,225.9\" fill=\"none\" stroke=\"#eb6834\" stroke-width=\"2\"/><line x1=\"199.2\" y1=\"234.0\" x2=\"199.2\" y2=\"152.0\" stroke=\"#2c2a26\" stroke-width=\"1.2\" stroke-dasharray=\"3 2\"/><text x=\"199.2\" y=\"246.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.2\">prag 2,58</text><text x=\"90.7\" y=\"168.0\" text-anchor=\"end\" fill=\"#2a78d6\" font-size=\"10.8\">H0</text><text x=\"229.3\" y=\"168.0\" text-anchor=\"start\" fill=\"#eb6834\" font-size=\"10.8\">Ha</text><line x1=\"20.0\" y1=\"226.0\" x2=\"300.0\" y2=\"226.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><rect x=\"20.0\" y=\"262.0\" width=\"10.0\" height=\"10.0\" fill=\"#b5453a\"></rect><text x=\"34.0\" y=\"271.0\" text-anchor=\"start\" fill=\"#2c2a26\" font-size=\"10.8\">eroare de tipul I (α)</text><rect x=\"178.2\" y=\"262.0\" width=\"10.0\" height=\"10.0\" fill=\"#9cc3ee\"></rect><text x=\"192.2\" y=\"271.0\" text-anchor=\"start\" fill=\"#2c2a26\" font-size=\"10.8\">eroare de tipul II (β)</text></svg>"
+          }
+        ],
+        "noduri": [
+          {
+            "t": "Eroarea de tipul I",
+            "d": "Respingerea unei ipoteze de nul adevărate. Probabilitatea ei este α, fixată de cercetător: la α = 0,01, cel mult 1 respingere greșită din 100 de repetări ale testului cu H0 adevărată."
+          },
+          {
+            "t": "Eroarea de tipul II",
+            "d": "Nerespingerea unei ipoteze de nul false: un efect real nu e detectat. Probabilitatea ei se notează β."
+          },
+          {
+            "t": "Relația dintre α și β",
+            "d": "Un α mai mic micșorează zona critică și o depărtează de centru; cu celelalte date constante, rezultatul cade mai rar în ea, deci β crește. Cele două probabilități variază în sens invers și nu pot fi minimizate amândouă (textul spune „invers proporționale”; e o relație inversă, nu o proporție exactă)."
+          },
+          {
+            "t": "Alegerea unui α mic",
+            "d": "În științele omului eroarea de tipul I e socotită mai gravă decât cea de tipul II, așa că se aleg valori mici pentru α, acceptând un β mai mare."
+          }
+        ]
+      },
+      {
+        "titlu": "Medii când σ este necunoscut",
+        "tabel": {
+          "cap": [
+            "Situația",
+            "Distribuția",
+            "Numitorul (eroarea standard)"
+          ],
+          "randuri": [
+            [
+              "σ cunoscut",
+              "Z",
+              "σ/√n"
+            ],
+            [
+              "σ necunoscut, n ≥ 30",
+              "Z",
+              "s/√(n − 1)"
+            ],
+            [
+              "σ necunoscut, n < 30",
+              "t, gl = n − 1",
+              "s/√(n − 1)"
+            ],
+            [
+              "proporție (np ≥ 5, n(1 − p) ≥ 5)",
+              "Z",
+              "√(p(1 − p)/n)"
+            ]
+          ]
+        },
+        "figuri": [
+          {
+            "titlu": "Testul t pentru olimpici (n = 20, α = 0,01)",
+            "nota": "t = (123 − 125)/(8/√19) ≈ −1,09; textul tipărește +1,09. Oricum, valoarea e departe de zona critică de peste +2,539: H0 nu se respinge. La 19 gl, curba t aproape se suprapune cu normala; diferența se vede la gl mici.",
+            "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 198\" role=\"img\" aria-label=\"Curba t cu 19 grade de libertate, zona critică peste +2,539 și t obținut −1,09, departe de zona critică\" font-family=\"Georgia, serif\" font-size=\"13\"><text x=\"20.0\" y=\"14.0\" text-anchor=\"start\" fill=\"#6b6760\" font-size=\"10.8\">Distribuția t cu 19 gl; H0: μ = 125, Ha: μ > 125</text><polygon points=\"248.9,138.0 248.9,132.1 249.6,132.4 250.3,132.6 251.0,132.8 251.7,133.0 252.4,133.2 253.1,133.4 253.8,133.6 254.5,133.8 255.2,133.9 255.9,134.1 256.6,134.3 257.3,134.4 258.0,134.6 258.7,134.7 259.4,134.8 260.1,135.0 260.8,135.1 261.5,135.2 262.2,135.3 262.9,135.4 263.6,135.5 264.3,135.6 265.0,135.7 265.7,135.8 266.4,135.9 267.1,136.0 267.8,136.1 268.5,136.2 269.2,136.3 269.9,136.3 270.6,136.4 271.3,136.5 272.0,136.5 272.7,136.6 273.4,136.7 274.1,136.7 274.8,136.8 275.5,136.8 276.2,136.9 276.9,136.9 277.6,137.0 278.3,137.0 279.0,137.1 279.7,137.1 280.4,137.1 281.1,137.2 281.8,137.2 282.5,137.2 283.2,137.3 283.9,137.3 284.6,137.3 285.3,137.4 286.0,137.4 286.7,137.4 287.4,137.5 288.1,137.5 288.8,137.5 289.5,137.5 290.2,137.5 290.9,137.6 291.6,137.6 292.3,137.6 293.0,137.6 293.7,137.6 294.4,137.7 295.1,137.7 295.8,137.7 296.5,137.7 297.2,137.7 297.9,137.7 298.6,137.7 299.3,137.7 300.0,137.8 300.0,138.0\" fill=\"#b5453a\" fill-opacity=\"0.45\" stroke=\"none\"/><polyline points=\"20.0,138.0 21.7,138.0 23.5,137.9 25.2,137.9 27.0,137.9 28.7,137.9 30.5,137.9 32.2,137.9 34.0,137.8 35.7,137.8 37.5,137.8 39.2,137.7 41.0,137.7 42.7,137.6 44.5,137.5 46.2,137.4 48.0,137.3 49.7,137.2 51.5,137.1 53.2,136.9 55.0,136.8 56.7,136.6 58.5,136.4 60.2,136.1 62.0,135.8 63.7,135.5 65.5,135.1 67.2,134.7 69.0,134.2 70.7,133.7 72.5,133.2 74.2,132.5 76.0,131.8 77.7,131.0 79.5,130.2 81.2,129.2 83.0,128.2 84.7,127.1 86.5,125.9 88.2,124.5 90.0,123.1 91.7,121.5 93.5,119.9 95.2,118.1 97.0,116.2 98.7,114.2 100.5,112.0 102.2,109.8 104.0,107.4 105.7,104.9 107.5,102.2 109.2,99.5 111.0,96.6 112.7,93.7 114.5,90.7 116.2,87.6 118.0,84.4 119.7,81.1 121.5,77.8 123.2,74.5 125.0,71.2 126.7,67.8 128.5,64.5 130.2,61.2 132.0,58.0 133.7,54.8 135.5,51.8 137.2,48.8 139.0,46.0 140.7,43.3 142.5,40.8 144.2,38.4 146.0,36.3 147.7,34.4 149.5,32.7 151.2,31.2 153.0,30.0 154.7,29.0 156.5,28.4 158.2,28.0 160.0,27.8 161.7,28.0 163.5,28.4 165.2,29.0 167.0,30.0 168.7,31.2 170.5,32.7 172.2,34.4 174.0,36.3 175.7,38.4 177.5,40.8 179.2,43.3 181.0,46.0 182.7,48.8 184.5,51.8 186.2,54.8 188.0,58.0 189.7,61.2 191.5,64.5 193.2,67.8 195.0,71.2 196.7,74.5 198.5,77.8 200.2,81.1 202.0,84.4 203.7,87.6 205.5,90.7 207.2,93.7 209.0,96.6 210.7,99.5 212.5,102.2 214.2,104.9 216.0,107.4 217.7,109.8 219.5,112.0 221.2,114.2 223.0,116.2 224.7,118.1 226.5,119.9 228.2,121.5 230.0,123.1 231.7,124.5 233.5,125.9 235.2,127.1 237.0,128.2 238.7,129.2 240.5,130.2 242.2,131.0 244.0,131.8 245.7,132.5 247.5,133.2 249.2,133.7 251.0,134.2 252.7,134.7 254.5,135.1 256.2,135.5 258.0,135.8 259.7,136.1 261.5,136.4 263.2,136.6 265.0,136.8 266.7,136.9 268.5,137.1 270.2,137.2 272.0,137.3 273.7,137.4 275.5,137.5 277.2,137.6 279.0,137.7 280.7,137.7 282.5,137.8 284.2,137.8 286.0,137.8 287.7,137.9 289.5,137.9 291.2,137.9 293.0,137.9 294.7,137.9 296.5,137.9 298.2,138.0 300.0,138.0\" fill=\"none\" stroke=\"#b9b0a0\" stroke-width=\"1.2\"/><polyline points=\"20.0,137.8 21.7,137.7 23.5,137.7 25.2,137.7 27.0,137.6 28.7,137.6 30.5,137.5 32.2,137.5 34.0,137.4 35.7,137.3 37.5,137.2 39.2,137.2 41.0,137.1 42.7,137.0 44.5,136.8 46.2,136.7 48.0,136.5 49.7,136.4 51.5,136.2 53.2,136.0 55.0,135.7 56.7,135.5 58.5,135.2 60.2,134.9 62.0,134.6 63.7,134.2 65.5,133.8 67.2,133.3 69.0,132.8 70.7,132.3 72.5,131.7 74.2,131.0 76.0,130.3 77.7,129.5 79.5,128.7 81.2,127.8 83.0,126.8 84.7,125.7 86.5,124.5 88.2,123.3 90.0,121.9 91.7,120.5 93.5,118.9 95.2,117.2 97.0,115.5 98.7,113.6 100.5,111.6 102.2,109.5 104.0,107.3 105.7,104.9 107.5,102.5 109.2,99.9 111.0,97.3 112.7,94.5 114.5,91.6 116.2,88.7 118.0,85.6 119.7,82.5 121.5,79.3 123.2,76.1 125.0,72.9 126.7,69.6 128.5,66.4 130.2,63.1 132.0,59.9 133.7,56.8 135.5,53.7 137.2,50.7 139.0,47.9 140.7,45.1 142.5,42.6 144.2,40.2 146.0,38.0 147.7,36.0 149.5,34.3 151.2,32.8 153.0,31.5 154.7,30.5 156.5,29.8 158.2,29.4 160.0,29.3 161.7,29.4 163.5,29.8 165.2,30.5 167.0,31.5 168.7,32.8 170.5,34.3 172.2,36.0 174.0,38.0 175.7,40.2 177.5,42.6 179.2,45.1 181.0,47.9 182.7,50.7 184.5,53.7 186.2,56.8 188.0,59.9 189.7,63.1 191.5,66.4 193.2,69.6 195.0,72.9 196.7,76.1 198.5,79.3 200.2,82.5 202.0,85.6 203.7,88.7 205.5,91.6 207.2,94.5 209.0,97.3 210.7,99.9 212.5,102.5 214.2,104.9 216.0,107.3 217.7,109.5 219.5,111.6 221.2,113.6 223.0,115.5 224.7,117.2 226.5,118.9 228.2,120.5 230.0,121.9 231.7,123.3 233.5,124.5 235.2,125.7 237.0,126.8 238.7,127.8 240.5,128.7 242.2,129.5 244.0,130.3 245.7,131.0 247.5,131.7 249.2,132.3 251.0,132.8 252.7,133.3 254.5,133.8 256.2,134.2 258.0,134.6 259.7,134.9 261.5,135.2 263.2,135.5 265.0,135.7 266.7,136.0 268.5,136.2 270.2,136.4 272.0,136.5 273.7,136.7 275.5,136.8 277.2,137.0 279.0,137.1 280.7,137.2 282.5,137.2 284.2,137.3 286.0,137.4 287.7,137.5 289.5,137.5 291.2,137.6 293.0,137.6 294.7,137.7 296.5,137.7 298.2,137.7 300.0,137.8\" fill=\"none\" stroke=\"#2a78d6\" stroke-width=\"2\"/><line x1=\"248.9\" y1=\"138.0\" x2=\"248.9\" y2=\"40.0\" stroke=\"#b5453a\" stroke-width=\"1.2\" stroke-dasharray=\"3 2\"/><text x=\"248.9\" y=\"36.0\" text-anchor=\"middle\" fill=\"#b5453a\" font-size=\"10.2\">+2,539</text><text x=\"272.0\" y=\"124.0\" text-anchor=\"middle\" fill=\"#b5453a\" font-size=\"10.2\">α = 0,01</text><line x1=\"121.9\" y1=\"138.0\" x2=\"121.9\" y2=\"108.0\" stroke=\"#2c2a26\" stroke-width=\"1.5\"/><circle cx=\"121.9\" cy=\"138.0\" r=\"4.5\" fill=\"#2c2a26\" stroke=\"#faf8f3\" stroke-width=\"1.5\"><title>t (obținut) ≈ −1,09</title></circle><text x=\"160.0\" y=\"168.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.8\">● t (obținut) ≈ −1,09: în afara zonei critice</text><line x1=\"20.0\" y1=\"138.0\" x2=\"300.0\" y2=\"138.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><line x1=\"20.0\" y1=\"138.0\" x2=\"20.0\" y2=\"142.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><text x=\"20.0\" y=\"153.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">−4</text><line x1=\"55.0\" y1=\"138.0\" x2=\"55.0\" y2=\"142.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><text x=\"55.0\" y=\"153.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">−3</text><line x1=\"90.0\" y1=\"138.0\" x2=\"90.0\" y2=\"142.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><text x=\"90.0\" y=\"153.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">−2</text><line x1=\"125.0\" y1=\"138.0\" x2=\"125.0\" y2=\"142.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><text x=\"125.0\" y=\"153.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">−1</text><line x1=\"160.0\" y1=\"138.0\" x2=\"160.0\" y2=\"142.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><text x=\"160.0\" y=\"153.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">0</text><line x1=\"195.0\" y1=\"138.0\" x2=\"195.0\" y2=\"142.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><text x=\"195.0\" y=\"153.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">1</text><line x1=\"230.0\" y1=\"138.0\" x2=\"230.0\" y2=\"142.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><text x=\"230.0\" y=\"153.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">2</text><line x1=\"265.0\" y1=\"138.0\" x2=\"265.0\" y2=\"142.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><text x=\"265.0\" y=\"153.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">3</text><line x1=\"300.0\" y1=\"138.0\" x2=\"300.0\" y2=\"142.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><text x=\"300.0\" y=\"153.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">4</text><rect x=\"20.0\" y=\"180.0\" width=\"10.0\" height=\"10.0\" fill=\"#2a78d6\"></rect><text x=\"34.0\" y=\"189.0\" text-anchor=\"start\" fill=\"#2c2a26\" font-size=\"10.8\">t, 19 gl</text><rect x=\"97.6\" y=\"180.0\" width=\"10.0\" height=\"10.0\" fill=\"#b9b0a0\"></rect><text x=\"111.6\" y=\"189.0\" text-anchor=\"start\" fill=\"#2c2a26\" font-size=\"10.8\">normala Z</text></svg>"
+          }
+        ],
+        "noduri": [
+          {
+            "t": "Eșantion mare (n ≥ 30)",
+            "d": "σ se estimează prin s: Z = (X̄ − μH)/(s/√(n − 1)). n devine n − 1 pentru a corecta distorsiunea lui s, care subestimează σ, din Cap. 4 (Mărimile dispersiei), exact ca la intervalele din Cap. 7 (Proceduri de estimare statistică)."
+          },
+          {
+            "t": "Testul t (n < 30)",
+            "d": "Distribuția de eșantionare e t-Student, prezentată în Cap. 7 (Proceduri de estimare statistică); textul trimite greșit la o unitate anterioară. Se cere o populație aproximativ normală. Rezultatul se notează t (obținut)."
+          },
+          {
+            "t": "Formula t pentru o medie",
+            "d": "t = (X̄ − μH)/(s/√(n − 1)) — aceeași structură ca Z cu s. La olimpici: (123 − 125)/(8/√19) ≈ −1,09 (tipărit +1,09)."
+          },
+          {
+            "t": "Grade de libertate",
+            "d": "gl = n − 1. La olimpici: n = 20, gl = 19; la α = 0,01 unilateral dreapta, t critic = +2,539. Pragurile t sunt mai mari decât cele Z la gl mici și se apropie de ele când gl crește."
+          },
+          {
+            "t": "Regulile de decizie pentru t",
+            "d": "Aceeași structură ca la Z: bilateral, se respinge H0 dacă t ≥ +tα/2 sau t ≤ −tα/2; unilateral dreapta, dacă t ≥ +tα; unilateral stânga, dacă t ≤ −tα. La olimpici, t nu ajunge la +2,539, deci nu se poate conchide la 99% că media depășește 125."
+          }
+        ]
+      },
+      {
+        "titlu": "Testul Z pentru proporții",
+        "figuri": [
+          {
+            "titlu": "Testul Z pentru proporții: 24 din 200 de studenți",
+            "nota": "p = 0,12; cu n = 200, √(0,12 · 0,88/200) ≈ 0,023 și Z ≈ +0,87. Calculul tipărit folosește 300 la numitor și dă +1,06. Concluzia e aceeași.",
+            "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 184\" role=\"img\" aria-label=\"Curba normală cu zona critică peste +1,65; Z obținut +0,87 (sau +1,06 cum e tipărit) e în zona necritică\" font-family=\"Georgia, serif\" font-size=\"13\"><text x=\"20.0\" y=\"14.0\" text-anchor=\"start\" fill=\"#6b6760\" font-size=\"10.8\">H0: P = 0,10, Ha: P > 0,10, α = 0,05</text><polygon points=\"217.8,128.0 217.8,102.2 218.4,103.0 219.1,103.9 219.8,104.7 220.6,105.5 221.2,106.2 221.9,107.0 222.7,107.7 223.4,108.4 224.1,109.1 224.8,109.8 225.5,110.5 226.2,111.1 226.8,111.8 227.5,112.4 228.2,113.0 229.0,113.5 229.7,114.1 230.3,114.6 231.1,115.2 231.8,115.7 232.5,116.2 233.2,116.7 233.9,117.1 234.6,117.6 235.2,118.0 235.9,118.4 236.7,118.8 237.4,119.2 238.1,119.6 238.8,120.0 239.5,120.3 240.2,120.7 240.9,121.0 241.6,121.3 242.3,121.6 243.0,121.9 243.7,122.2 244.3,122.5 245.1,122.7 245.8,123.0 246.5,123.2 247.2,123.5 247.9,123.7 248.6,123.9 249.3,124.1 250.0,124.3 250.7,124.5 251.4,124.7 252.1,124.8 252.8,125.0 253.5,125.1 254.2,125.3 254.9,125.4 255.6,125.6 256.2,125.7 257.0,125.8 257.7,125.9 258.4,126.1 259.1,126.2 259.8,126.3 260.5,126.4 261.2,126.5 261.9,126.5 262.6,126.6 263.2,126.7 264.0,126.8 264.7,126.8 265.4,126.9 266.1,127.0 266.8,127.0 267.5,127.1 268.2,127.1 268.9,127.2 269.6,127.2 270.3,127.3 271.0,127.3 271.7,127.4 272.4,127.4 273.1,127.5 273.8,127.5 274.5,127.5 275.2,127.6 275.9,127.6 276.6,127.6 277.3,127.6 278.0,127.7 278.7,127.7 279.4,127.7 280.1,127.7 280.8,127.7 281.5,127.8 282.2,127.8 282.9,127.8 283.6,127.8 284.3,127.8 285.0,127.8 285.7,127.8 286.4,127.9 287.1,127.9 287.8,127.9 288.5,127.9 289.2,127.9 289.9,127.9 290.6,127.9 291.3,127.9 292.0,127.9 292.7,127.9 293.4,127.9 294.1,127.9 294.8,127.9 295.5,127.9 296.2,127.9 296.9,128.0 297.6,128.0 298.3,128.0 299.0,128.0 299.7,128.0 300.0,128.0\" fill=\"#b5453a\" fill-opacity=\"0.45\" stroke=\"none\"/><polyline points=\"20.0,128.0 21.7,128.0 23.5,127.9 25.2,127.9 27.0,127.9 28.7,127.9 30.5,127.9 32.2,127.9 34.0,127.8 35.7,127.8 37.5,127.8 39.2,127.7 41.0,127.7 42.7,127.6 44.5,127.6 46.2,127.5 48.0,127.4 49.7,127.3 51.5,127.2 53.2,127.0 55.0,126.9 56.7,126.7 58.5,126.5 60.2,126.3 62.0,126.0 63.7,125.7 65.5,125.4 67.2,125.0 69.0,124.6 70.7,124.1 72.5,123.6 74.2,123.0 76.0,122.3 77.7,121.6 79.5,120.9 81.2,120.0 83.0,119.0 84.7,118.0 86.5,116.9 88.2,115.7 90.0,114.4 91.7,113.0 93.5,111.4 95.2,109.8 97.0,108.1 98.7,106.2 100.5,104.3 102.2,102.2 104.0,100.0 105.7,97.7 107.5,95.3 109.2,92.8 111.0,90.2 112.7,87.5 114.5,84.7 116.2,81.9 118.0,79.0 119.7,76.0 121.5,73.0 123.2,70.0 125.0,66.9 126.7,63.9 128.5,60.8 130.2,57.8 132.0,54.9 133.7,52.0 135.5,49.2 137.2,46.5 139.0,43.9 140.7,41.4 142.5,39.1 144.2,37.0 146.0,35.1 147.7,33.3 149.5,31.7 151.2,30.4 153.0,29.3 154.7,28.4 156.5,27.8 158.2,27.4 160.0,27.3 161.7,27.4 163.5,27.8 165.2,28.4 167.0,29.3 168.7,30.4 170.5,31.7 172.2,33.3 174.0,35.1 175.7,37.0 177.5,39.1 179.2,41.4 181.0,43.9 182.7,46.5 184.5,49.2 186.2,52.0 188.0,54.9 189.7,57.8 191.5,60.8 193.2,63.9 195.0,66.9 196.7,70.0 198.5,73.0 200.2,76.0 202.0,79.0 203.7,81.9 205.5,84.7 207.2,87.5 209.0,90.2 210.7,92.8 212.5,95.3 214.2,97.7 216.0,100.0 217.7,102.2 219.5,104.3 221.2,106.2 223.0,108.1 224.7,109.8 226.5,111.4 228.2,113.0 230.0,114.4 231.7,115.7 233.5,116.9 235.2,118.0 237.0,119.0 238.7,120.0 240.5,120.9 242.2,121.6 244.0,122.3 245.7,123.0 247.5,123.6 249.2,124.1 251.0,124.6 252.7,125.0 254.5,125.4 256.2,125.7 258.0,126.0 259.7,126.3 261.5,126.5 263.2,126.7 265.0,126.9 266.7,127.0 268.5,127.2 270.2,127.3 272.0,127.4 273.7,127.5 275.5,127.6 277.2,127.6 279.0,127.7 280.7,127.7 282.5,127.8 284.2,127.8 286.0,127.8 287.7,127.9 289.5,127.9 291.2,127.9 293.0,127.9 294.7,127.9 296.5,127.9 298.2,128.0 300.0,128.0\" fill=\"none\" stroke=\"#2a78d6\" stroke-width=\"2\"/><line x1=\"20.0\" y1=\"128.0\" x2=\"300.0\" y2=\"128.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><line x1=\"20.0\" y1=\"128.0\" x2=\"20.0\" y2=\"132.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><text x=\"20.0\" y=\"143.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">−4</text><line x1=\"55.0\" y1=\"128.0\" x2=\"55.0\" y2=\"132.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><text x=\"55.0\" y=\"143.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">−3</text><line x1=\"90.0\" y1=\"128.0\" x2=\"90.0\" y2=\"132.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><text x=\"90.0\" y=\"143.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">−2</text><line x1=\"125.0\" y1=\"128.0\" x2=\"125.0\" y2=\"132.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><text x=\"125.0\" y=\"143.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">−1</text><line x1=\"160.0\" y1=\"128.0\" x2=\"160.0\" y2=\"132.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><text x=\"160.0\" y=\"143.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">0</text><line x1=\"195.0\" y1=\"128.0\" x2=\"195.0\" y2=\"132.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><text x=\"195.0\" y=\"143.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">1</text><line x1=\"230.0\" y1=\"128.0\" x2=\"230.0\" y2=\"132.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><text x=\"230.0\" y=\"143.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">2</text><line x1=\"265.0\" y1=\"128.0\" x2=\"265.0\" y2=\"132.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><text x=\"265.0\" y=\"143.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">3</text><line x1=\"300.0\" y1=\"128.0\" x2=\"300.0\" y2=\"132.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><text x=\"300.0\" y=\"143.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">4</text><line x1=\"217.8\" y1=\"128.0\" x2=\"217.8\" y2=\"30.0\" stroke=\"#b5453a\" stroke-width=\"1.2\" stroke-dasharray=\"3 2\"/><text x=\"217.8\" y=\"26.0\" text-anchor=\"middle\" fill=\"#b5453a\" font-size=\"10.2\">1,65</text><line x1=\"190.5\" y1=\"128.0\" x2=\"190.5\" y2=\"98.0\" stroke=\"#2c2a26\" stroke-width=\"1.5\"/><circle cx=\"190.5\" cy=\"128.0\" r=\"4.5\" fill=\"#2c2a26\" stroke=\"#faf8f3\" stroke-width=\"1.5\"><title>Z ≈ +0,87 cu n = 200</title></circle><line x1=\"197.1\" y1=\"128.0\" x2=\"197.1\" y2=\"98.0\" stroke=\"#6b6760\" stroke-width=\"1\" stroke-dasharray=\"2 2\"/><text x=\"259.8\" y=\"112.0\" text-anchor=\"middle\" fill=\"#b5453a\" font-size=\"10.2\">α = 0,05</text><text x=\"160.0\" y=\"158.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.2\">● Z (obținut) ≈ +0,87 (n = 200); punctat: +1,06, tipărit</text><text x=\"160.0\" y=\"174.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.2\">ambele rămân sub +1,65 → H0 nu se respinge</text></svg>"
+          }
+        ],
+        "noduri": [
+          {
+            "t": "Proporția în locul mediei",
+            "d": "Când variabila nu e de interval sau de raport (de pildă „căsătorit / necăsătorit”), media nu se justifică și se folosește proporția eșantionului p, comparată cu proporția presupusă PH."
+          },
+          {
+            "t": "Condițiile de aplicare (np ≥ 5)",
+            "d": "Testul se aplică doar dacă np ≥ 5 și n(1 − p) ≥ 5; atunci distribuția de eșantionare a lui p e aproximativ normală, cu media P și abaterea standard √(P(1 − P)/n)."
+          },
+          {
+            "t": "Formula Z pentru proporții",
+            "d": "Teoretic, Z = (p − PH)/√(P(1 − P)/n); cum P nu e cunoscut, se estimează prin p: Z = (p − PH)/√(p(1 − p)/n). La 24 de căsătoriți din 200 de studenți: p = 0,12, Z ≈ +0,87 < +1,65, deci H0: P = 0,10 nu se respinge (calculul tipărit pune 300 la numitor și dă +1,06; concluzia e aceeași)."
+          }
+        ]
+      }
+    ]
+  }
+}

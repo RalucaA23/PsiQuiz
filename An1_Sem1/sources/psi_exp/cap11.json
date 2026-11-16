@@ -1,0 +1,733 @@
+{
+ "schema": "quiz-capitol-v3",
+ "capitol": 11,
+ "titlu": "Învățarea",
+ "sursa": "Manual Psihologie experimentală (UTM), Capitolul 11",
+ "reconstituit": "Reconstituit pe 16 nov. 2026 din pagina publicată Psihologie_experimentala.html (capitolele erau încorporate în pagină). Lipsesc câmpurile 'tip' și 'exemplu_nou', care nu ajung în pagină; restul (hartă, runde, întrebări vizibile și ascunse) e identic cu pagina.",
+ "harta": {
+  "centru": "Învățarea",
+  "ramuri": [
+   {
+    "titlu": "1. Învățarea: definiție și teorii",
+    "noduri": [
+     {
+      "t": "Definiția învățării",
+      "d": "Procesul prin care indivizii dobândesc cunoștințe, abilități, comportamente sau atitudini noi, ca rezultat al experienței sau al practicii. Poate avea loc prin mai multe mecanisme și e influențată de o varietate de factori."
+     },
+     {
+      "t": "Structura capitolului",
+      "d": "Formele învățării (dintr-o încercare, din experiențe repetate, prin condiționare, prin intuiție, conceptuală), apoi variabilele experimentale și controlul lor și tehnicile, procedeele și aparatele. Notă: în carte, numerotarea reîncepe după condiționare („1. Învățarea prin intuiție”, „2. Învățarea conceptuală”, „3. Variabile…”, „4. Tehnici…”)."
+     },
+     {
+      "t": "Cele trei mari teorii (rezumat)",
+      "d": "Rezumatul numește învățarea prin condiționare, învățarea cognitivă și învățarea socială; cercetările explorează procesele, factorii și implicațiile învățării."
+     }
+    ]
+   },
+   {
+    "titlu": "2. Învățarea dintr-o încercare",
+    "noduri": [
+     {
+      "t": "Învățarea dintr-o încercare",
+      "d": "Individul realizează o acțiune și experimentează consecințele ei; prin observarea rezultatelor își ajustează comportamentul. Cunoscută și ca „învățare experiențială” sau „prin încercare și eroare”. Notă de studiu: în literatură, „învățarea dintr-o singură încercare” (one-trial learning) are alt sens; quiz-ul folosește sensul din carte."
+     },
+     {
+      "t": "Cele cinci aspecte ale învățării dintr-o încercare",
+      "d": "Explorarea și experimentarea activă a mediului; feedback-ul (componenta crucială); adaptabilitatea și flexibilitatea; repetiția și consolidarea experiențelor anterioare; învățarea emoțională – gestionarea fricii sau anxietății legate de eșecuri, dezvoltarea rezilienței și a încrederii în sine."
+     },
+     {
+      "t": "Rolul în dezvoltare",
+      "d": "Considerată proces fundamental în dezvoltarea individului: oferă noi abilități, cunoștințe și înțelepciune din experiențe și provocări și încurajează o abordare activă față de învățare."
+     }
+    ]
+   },
+   {
+    "titlu": "3. Învățarea din experiențe repetate",
+    "noduri": [
+     {
+      "t": "Învățarea din experiențe repetate",
+      "d": "Se bazează pe repetarea unui comportament sau a unei acțiuni în contexte similare; prin practică, individul devine mai eficient. Asociată cu abilități practice și cu îmbunătățirea performanței într-o sarcină sau un domeniu."
+     },
+     {
+      "t": "Repetiție și consolidare",
+      "d": "Principiul de bază: prin repetiție, indivizii își întăresc conexiunile neuronale asociate activității și își îmbunătățesc abilitățile în timp."
+     },
+     {
+      "t": "Îmbunătățirea performanței",
+      "d": "Abilități motrice fine sau grosiere, memorie, rezolvarea problemelor, abilități sociale; cu cât o activitate e practicată mai des, cu atât devine mai fluentă și mai eficientă."
+     },
+     {
+      "t": "Automatizarea și habituarea",
+      "d": "Sarcinile care necesită inițial efort și atenție devin automate și habituale: se execută fără efort conștient sau atenție deplină. Atenție: nu e „obișnuința” din Cap. 9 (Atenția), adică scăderea răspunsului de orientare la un stimul repetat."
+     },
+     {
+      "t": "Feedback-ul în cele două forme",
+      "d": "În învățarea dintr-o încercare, feedback-ul e componenta crucială pentru evaluare și ajustare. În cea din experiențe repetate, feedback-ul pozitiv încurajează continuarea, iar cel negativ indică aspectele care necesită îmbunătățire și ajustare."
+     },
+     {
+      "t": "Cunoaștere explicită și implicită",
+      "d": "Explicită: poate fi verbalizată și explicată conștient. Implicită: mai greu de comunicat verbal, manifestată prin comportamente și reacții neconștiente."
+     }
+    ]
+   },
+   {
+    "titlu": "4. Învățarea prin condiționare",
+    "tabel": {
+     "cap": [
+      "Teoria",
+      "Autor",
+      "Ideea, în formularea cărții"
+     ],
+     "randuri": [
+      [
+       "Conexionismul",
+       "Thorndike",
+       "Consecințe plăcute → comportament mai frecvent; neplăcute → mai rar"
+      ],
+      [
+       "Condiționarea clasică",
+       "Pavlov",
+       "Un răspuns reflex se asociază cu un stimul neutru care nu îl declanșa"
+      ],
+      [
+       "Condiționarea instrumentală",
+       "Miller și Konorski",
+       "Comportament învățat prin asociere cu consecințe pozitive sau negative"
+      ],
+      [
+       "Condiționarea prin contiguitate",
+       "Guthrie",
+       "Stimul și răspuns asociate când apar simultan sau apropiat în timp"
+      ],
+      [
+       "Condiționarea operantă",
+       "Skinner",
+       "Comportamente influențate de consecințele care urmează imediat"
+      ],
+      [
+       "Condiționarea și formarea deprinderilor",
+       "Hull",
+       "Interacțiunea dintre nevoi, stimulente, răspunsuri și satisfacții"
+      ]
+     ]
+    },
+    "noduri": [
+     {
+      "t": "Învățarea prin condiționare",
+      "d": "Formă de învățare bazată pe asocierea între stimuli și răspunsuri. Cuvinte cheie: procesul prin care asociem stimuli cu reacții pentru a învăța comportamente noi; include învățarea clasică și cea operantă."
+     },
+     {
+      "t": "Conexionismul (Thorndike)",
+      "d": "Comportamentele urmate de consecințe plăcute devin mai frecvente, iar cele urmate de consecințe neplăcute, mai puțin frecvente."
+     },
+     {
+      "t": "Condiționarea clasică (Pavlov)",
+      "d": "Un răspuns reflex devine asociat cu un stimul neutru care nu inițiază în mod normal acel răspuns."
+     },
+     {
+      "t": "Condiționarea instrumentală (Miller și Konorski)",
+      "d": "Un comportament e învățat prin asocierea lui cu consecințe pozitive sau negative."
+     },
+     {
+      "t": "Condiționarea prin contiguitate (Guthrie)",
+      "d": "Asocierea între un stimul și un răspuns care apar simultan sau în proximitate temporală."
+     },
+     {
+      "t": "Condiționarea operantă (Skinner)",
+      "d": "Comportamentele sunt influențate de consecințele care urmează imediat după ele."
+     },
+     {
+      "t": "Condiționarea și formarea deprinderilor (Hull)",
+      "d": "Învățarea e rezultatul interacțiunii dintre nevoi, stimulente, răspunsuri și satisfacții."
+     },
+     {
+      "t": "Notă: trei teorii ale consecințelor",
+      "d": "Thorndike, Miller-Konorski și Skinner descriu toate rolul consecințelor; în formularea cărții, diferențele sunt frecvența (Thorndike), asocierea cu consecințe pozitive/negative (instrumentală) și caracterul imediat al consecințelor (operantă). Quiz-ul nu le pune în competiție într-un scenariu care s-ar potrivi tuturor."
+     }
+    ]
+   },
+   {
+    "titlu": "5. Intuiție, concepte, cogniție, socializare",
+    "noduri": [
+     {
+      "t": "Învățarea prin intuiție (Köhler)",
+      "d": "Rezolvarea rapidă a problemelor sau sarcinilor, fără a fi nevoie de gândire logică sau de procesare conștientă a informațiilor. Notă de studiu: în literatură, „insight-ul” e descris ca restructurare bruscă a problemei (cimpanzeii lui Köhler)."
+     },
+     {
+      "t": "Învățarea conceptuală",
+      "d": "Înțelegerea și aplicarea conceptelor și principiilor abstracte."
+     },
+     {
+      "t": "Învățarea cognitivă",
+      "d": "Cuvinte cheie: învățarea e influențată de procesele cognitive superioare, cum ar fi atenția, memoria și gândirea."
+     },
+     {
+      "t": "Învățarea socială",
+      "d": "Cuvinte cheie: oamenii învață prin observarea și imitarea comportamentelor altora, precum și prin interacțiune socială și comunicare. Bibliografia include „Social Learning Theory” a lui Albert Bandura."
+     }
+    ]
+   },
+   {
+    "titlu": "6. Recompensă, pedeapsă, generalizare, discriminare",
+    "noduri": [
+     {
+      "t": "Recompensă și pedeapsă",
+      "d": "Factori motivaționali care influențează învățarea: recompense pentru comportamentele dorite și/sau pedepse pentru cele nedorite (întrebarea de verificare 2 le leagă de teoriile condiționării)."
+     },
+     {
+      "t": "Generalizare și discriminare",
+      "d": "Generalizarea: învățarea e aplicată la situații similare. Discriminarea: diferențierea între stimuli similari."
+     },
+     {
+      "t": "Capcană: alte „generalizări” și „discriminări”",
+      "d": "Nu le confunda cu generalizarea rezultatelor (internă/externă) din Cap. 10 (Memoria), cu eroarea de generalizare din Cap. 1 (Psihologia experimentală. Știință și metodă) sau cu pragul diferențial din Cap. 7 (Procese senzoriale)."
+     }
+    ]
+   },
+   {
+    "titlu": "7. Variabile, control, tehnici și aparate",
+    "noduri": [
+     {
+      "t": "Variabilele în studiul învățării",
+      "d": "Tipul de stimul sau sarcină, natura consecințelor asociate cu comportamentul, motivația individului și caracteristicile individuale ale subiecților."
+     },
+     {
+      "t": "Controlul variabilelor",
+      "d": "Esențial pentru ca diferențele observate în performanța de învățare să fie cu adevărat rezultatul manipulării variabilelor independente. Definițiile VI/VD și tehnicile de control sunt în Cap. 2 (Metodele psihologiei experimentale) și Cap. 4 (Metoda experimentului)."
+     },
+     {
+      "t": "Paradigme experimentale ale învățării",
+      "d": "Paradigma de condiționare, de rezolvare a problemelor, de discriminare a stimulilor și de modelare (cartea doar le enumeră)."
+     },
+     {
+      "t": "Aparate și tehnologii",
+      "d": "Dispozitive de prezentare a stimulilor, software pentru prelucrarea datelor și tehnici neurofiziologice: EEG, fMRI, PET."
+     }
+    ]
+   },
+   {
+    "titlu": "8. Legături cu alte capitole",
+    "noduri": [
+     {
+      "t": "Legături cu alte capitole",
+      "d": "Cap. 1 (Psihologia experimentală. Știință și metodă): behaviorismul (Watson, Skinner), Pavlov și asocierea stimul–răspuns, Bandura și învățarea prin observare, Ebbinghaus și repetiția, psihologia gestalt (Wertheimer, Koffka, Köhler)."
+     },
+     {
+      "t": "Memoria și învățarea",
+      "d": "Cap. 10 (Memoria): memoria procedurală (abilități motorii) și paradigma de învățare asociativă; interferența proactivă și retroactivă privesc tot învățarea unor informații noi."
+     },
+     {
+      "t": "Atenția și învățarea",
+      "d": "Cap. 9 (Atenția): răspunsul de orientare și obișnuința, fenomene „descrise pentru prima dată în teoriile învățării”, sunt printre cele mai simple forme de comportament atențional."
+     },
+     {
+      "t": "Bibliografia capitolului",
+      "d": "Paul Chance – Learning and Behavior; Michael Domjan – Principles of Learning and Behavior; Albert Bandura – Social Learning Theory; E. Bruce Goldstein – Cognitive Psychology; Brian H. Ross (ed.) – The Psychology of Learning and Motivation."
+     }
+    ]
+   }
+  ]
+ },
+ "runde": [
+  {
+   "id": "1",
+   "eticheta": "Runda 1 · Bază",
+   "titlu": "Runda 1 — Concepte de bază",
+   "desc": "Recunoaștere: definiția învățării, formele ei, teoriile condiționării și autorii lor, cuvintele cheie, variabilele, paradigmele și aparatura.",
+   "intrebari": [
+    {
+     "q": "Cum este definită învățarea?",
+     "opts": [
+      "Dobândirea de cunoștințe, abilități sau atitudini noi prin experiență ori practică",
+      "Stocarea informațiilor în creier și recuperarea lor ulterioară, atunci când e nevoie",
+      "Interpretarea informațiilor primite prin simțuri într-o reprezentare a mediului",
+      "Concentrarea resurselor cognitive asupra unor stimuli, reducând impactul altora"
+     ],
+     "correct": 0,
+     "explain": "Capitolul definește învățarea ca proces prin care indivizii dobândesc cunoștințe, abilități, comportamente sau atitudini noi, ca rezultat al experienței sau al practicii. Stocarea și recuperarea descriu memoria, din Cap. 10 (Memoria); interpretarea informațiilor senzoriale e percepția, iar concentrarea resurselor cognitive e atenția, ambele definite în Cap. 1 (Psihologia experimentală. Știință și metodă).",
+     "tag": "Definiția învățării"
+    },
+    {
+     "q": "Sub ce alte nume este cunoscută „învățarea dintr-o încercare”?",
+     "opts": [
+      "Învățare prin intuiție sau învățare prin restructurare bruscă",
+      "Învățare socială sau învățare prin observarea unui model",
+      "Învățare experiențială sau învățare prin încercare și eroare",
+      "Învățare asociativă sau învățare prin contiguitate temporală"
+     ],
+     "correct": 2,
+     "explain": "Capitolul spune că învățarea dintr-o încercare e cunoscută și ca „învățare experiențială” sau „învățare pe bază de încercare și eroare”: individul acționează, vede consecințele și își ajustează comportamentul. Intuiția îi aparține lui Köhler, observarea unui model ține de învățarea socială, iar contiguitatea e condiționarea lui Guthrie.",
+     "tag": "Învățarea dintr-o încercare"
+    },
+    {
+     "q": "Prin ce se explică efectul repetiției în învățarea din experiențe repetate?",
+     "opts": [
+      "Prin scăderea sensibilității receptorilor la stimulul repetat",
+      "Prin întărirea conexiunilor neuronale asociate activității",
+      "Prin trecerea automată a informației în memoria senzorială",
+      "Prin filtrarea timpurie a informațiilor considerate irelevante"
+     ],
+     "correct": 1,
+     "explain": "La „repetiție și consolidare”, capitolul spune că, prin repetiție, indivizii își întăresc conexiunile neuronale asociate cu acea activitate și își îmbunătățesc abilitățile în timp. Scăderea sensibilității receptorilor e adaptarea senzorială din Cap. 7 (Procese senzoriale), memoria senzorială e prima etapă a memoriei din Cap. 10 (Memoria), iar filtrarea timpurie e modelul lui Broadbent din Cap. 9 (Atenția).",
+     "tag": "Repetiție și consolidare"
+    },
+    {
+     "q": "Ce înseamnă „automatizarea și habituarea” în învățarea din experiențe repetate?",
+     "opts": [
+      "Răspunsul de orientare față de un stimul repetat și lipsit de importanță scade",
+      "Sensibilitatea receptorilor scade când stimulul rămâne constant și prelungit",
+      "Cunoștințele învățate anterior împiedică reținerea unor cunoștințe noi",
+      "Sarcinile care cereau efort și atenție ajung să fie executate fără efort conștient"
+     ],
+     "correct": 3,
+     "explain": "Capitolul spune că activitățile care necesită inițial efort și atenție pot deveni automatizate și habituale, adică executate fără efort conștient sau atenție deplină. Capcana e „obișnuința” din Cap. 9 (Atenția), scăderea răspunsului de orientare la un stimul repetat: alt fenomen, deși termenii seamănă. Scăderea sensibilității receptorilor e adaptarea senzorială din Cap. 7 (Procese senzoriale), iar vechiul care încurcă noul e interferența proactivă din Cap. 10 (Memoria).",
+     "tag": "Automatizarea și habituarea"
+    },
+    {
+     "q": "Ce caracterizează cunoașterea implicită dobândită prin experiențe repetate?",
+     "opts": [
+      "Se comunică greu verbal și se vede mai ales în comportamente neconștiente",
+      "Poate fi verbalizată și explicată conștient, pas cu pas, altor persoane",
+      "Privește evenimente personale, situate precis în timp și în spațiu",
+      "Se dobândește doar prin observarea și imitarea comportamentului altor persoane"
+     ],
+     "correct": 0,
+     "explain": "Capitolul distinge cunoașterea explicită, care poate fi verbalizată și explicată conștient, de cea implicită, mai greu de comunicat verbal și manifestată adesea prin comportamente și reacții neconștiente. Evenimentele personale datate țin de memoria episodică din Cap. 10 (Memoria), iar observarea și imitarea definesc învățarea socială.",
+     "tag": "Cunoaștere explicită și implicită"
+    },
+    {
+     "q": "Ce susține conexionismul lui Thorndike?",
+     "opts": [
+      "Un reflex se asociază cu un stimul neutru care nu îl declanșa",
+      "Stimulul și răspunsul se leagă când apar simultan sau apropiat",
+      "Învățarea rezultă din nevoi, stimulente, răspunsuri și satisfacții",
+      "Comportamentele urmate de consecințe plăcute devin mai frecvente"
+     ],
+     "correct": 3,
+     "explain": "Pentru Thorndike, comportamentele urmate de consecințe plăcute devin mai frecvente, iar cele urmate de consecințe neplăcute, mai puțin frecvente. Reflexul asociat unui stimul neutru e condiționarea clasică (Pavlov), legătura prin simultaneitate e condiționarea prin contiguitate (Guthrie), iar nevoile, stimulentele, răspunsurile și satisfacțiile apar în teoria lui Hull.",
+     "tag": "Conexionismul (Thorndike)"
+    },
+    {
+     "q": "Ce este condiționarea clasică (Pavlov)?",
+     "opts": [
+      "Comportamentul e influențat de consecințele care urmează imediat după el",
+      "Un răspuns reflex ajunge asociat unui stimul neutru care nu îl producea",
+      "Problema se rezolvă rapid, fără gândire logică sau procesare conștientă",
+      "Comportamentul e preluat prin observarea și imitarea unei alte persoane"
+     ],
+     "correct": 1,
+     "explain": "Condiționarea clasică e procesul prin care un răspuns reflex devine asociat cu un stimul neutru care nu inițiază în mod normal acel răspuns. Consecințele imediate definesc condiționarea operantă (Skinner), rezolvarea rapidă fără gândire logică e învățarea prin intuiție (Köhler), iar observarea și imitarea, învățarea socială.",
+     "tag": "Condiționarea clasică (Pavlov)"
+    },
+    {
+     "q": "Cui i se atribuie condiționarea prin contiguitate?",
+     "opts": [
+      "Lui Clark Hull",
+      "Lui Edward Thorndike",
+      "Lui Edwin Guthrie",
+      "Lui Wolfgang Köhler"
+     ],
+     "correct": 2,
+     "explain": "Condiționarea prin contiguitate, adică asocierea între un stimul și un răspuns care apar simultan sau în proximitate temporală, îi aparține lui Guthrie. Hull e autorul teoriei condiționării și formării deprinderilor, Thorndike al conexionismului, iar Köhler al învățării prin intuiție.",
+     "tag": "Condiționarea prin contiguitate (Guthrie)"
+    },
+    {
+     "q": "Ce elemente interacționează, în teoria lui Hull despre condiționare și formarea deprinderilor?",
+     "opts": [
+      "Nevoile, stimulentele, răspunsurile și satisfacțiile",
+      "Atenția, memoria și gândirea, ca procese superioare",
+      "Explorarea, feedback-ul, adaptabilitatea și repetiția",
+      "Observarea, imitarea, interacțiunea și comunicarea"
+     ],
+     "correct": 0,
+     "explain": "Hull explică învățarea ca rezultat al interacțiunii dintre nevoi, stimulente, răspunsuri și satisfacții. Atenția, memoria și gândirea sunt procesele care influențează învățarea cognitivă, explorarea, feedback-ul și adaptabilitatea sunt aspecte ale învățării dintr-o încercare, iar observarea, imitarea și comunicarea definesc învățarea socială.",
+     "tag": "Condiționarea și formarea deprinderilor (Hull)"
+    },
+    {
+     "q": "Căror autori li se atribuie condiționarea instrumentală?",
+     "opts": [
+      "Lui Atkinson și Shiffrin",
+      "Lui Miller și Konorski",
+      "Lui Baddeley și Hitch",
+      "Lui Shannon și Weaver"
+     ],
+     "correct": 1,
+     "explain": "Capitolul atribuie condiționarea instrumentală, învățarea unui comportament prin asocierea lui cu consecințe pozitive sau negative, lui Miller și Konorski. Atkinson și Shiffrin (modelul în trei componente) și Baddeley și Hitch (încărcarea duală a memoriei de lucru) sunt autori din Cap. 10 (Memoria), iar Shannon și Weaver au propus modelul comunicării prezentat în Cap. 9 (Atenția).",
+     "tag": "Condiționarea instrumentală (Miller și Konorski)"
+    },
+    {
+     "q": "Ce este învățarea prin intuiție (Köhler)?",
+     "opts": [
+      "Înțelegerea și aplicarea unor concepte și principii abstracte, generale",
+      "Ajustarea treptată a comportamentului după consecințele fiecărei încercări",
+      "Organizarea percepției în forme și configurații globale, nu în părți",
+      "Rezolvarea rapidă a problemelor, fără gândire logică sau procesare conștientă"
+     ],
+     "correct": 3,
+     "explain": "Capitolul definește învățarea prin intuiție ca formă asociată cu rezolvarea rapidă a problemelor sau sarcinilor, fără a fi nevoie de gândire logică sau de procesare conștientă. Conceptele abstracte țin de învățarea conceptuală, ajustarea după consecințe de învățarea dintr-o încercare, iar organizarea percepției în configurații globale e ideea gestaltistă din Cap. 1 (Psihologia experimentală. Știință și metodă) și Cap. 8 (Procese perceptive), curent din care făcea parte și Köhler.",
+     "tag": "Învățarea prin intuiție (Köhler)"
+    },
+    {
+     "q": "Ce procese influențează învățarea cognitivă?",
+     "opts": [
+      "Recompensele și pedepsele primite",
+      "Observarea și imitarea altor persoane",
+      "Atenția, memoria și gândirea",
+      "Transducția, adaptarea și pragurile"
+     ],
+     "correct": 2,
+     "explain": "Învățarea cognitivă e procesul prin care învățarea este influențată de procesele cognitive superioare, cum ar fi atenția, memoria și gândirea. Recompensele și pedepsele sunt factori motivaționali din teoriile condiționării, observarea și imitarea definesc învățarea socială, iar transducția, adaptarea și pragurile sunt concepte din Cap. 7 (Procese senzoriale).",
+     "tag": "Învățarea cognitivă"
+    },
+    {
+     "q": "Ce înseamnă discriminarea, în învățare?",
+     "opts": [
+      "Aplicarea învățării la situații similare",
+      "Diferențierea între stimuli asemănători",
+      "Extinderea rezultatelor la alte populații",
+      "Cea mai mică diferență de intensitate sesizată"
+     ],
+     "correct": 1,
+     "explain": "Discriminarea e diferențierea între stimuli similari, iar generalizarea, perechea ei, e aplicarea învățării la situații similare. Extinderea rezultatelor la alte populații e generalizarea externă a rezultatelor din Cap. 10 (Memoria), un sens diferit al cuvântului, iar cea mai mică diferență sesizată ține de pragul diferențial din Cap. 7 (Procese senzoriale).",
+     "tag": "Generalizare și discriminare"
+    },
+    {
+     "q": "Ce variabile experimentale se folosesc în studiul învățării?",
+     "opts": [
+      "Tipul de stimul sau sarcină, natura consecințelor, motivația, trăsăturile individuale",
+      "Intensitatea, durata, frecvența, contrastul și fundalul stimulilor prezentați",
+      "Pragul absolut, pragul diferențial și gradul de adaptare a receptorilor senzoriali",
+      "Încărcarea perceptivă, filtrarea și atenuarea mesajelor care intră în competiție"
+     ],
+     "correct": 0,
+     "explain": "Capitolul enumeră tipul de stimul sau sarcină, natura consecințelor asociate cu comportamentul, motivația individului și caracteristicile individuale ale subiecților. Intensitatea, durata, frecvența, contrastul și fundalul sunt particularitățile stimulilor din Cap. 8 (Procese perceptive), pragurile și adaptarea vin din Cap. 7 (Procese senzoriale), iar încărcarea, filtrarea și atenuarea țin de modelele atenției din Cap. 9 (Atenția).",
+     "tag": "Variabilele în studiul învățării"
+    },
+    {
+     "q": "Ce paradigme experimentale se folosesc în studiul învățării?",
+     "opts": [
+      "Recunoaștere și recuperare, învățare asociativă, memorie de lucru",
+      "Ascultare dihotică, umbrirea mesajului, orbirea neatențională",
+      "Metoda limitelor, metoda ajustării, metoda stimulilor constanți",
+      "Condiționare, rezolvare de probleme, discriminarea stimulilor, modelare"
+     ],
+     "correct": 3,
+     "explain": "Capitolul dă paradigma de condiționare, de rezolvare a problemelor, de discriminare a stimulilor și de modelare. Recunoașterea și recuperarea, învățarea asociativă și memoria de lucru sunt paradigmele memoriei din Cap. 10 (Memoria), ascultarea dihotică, umbrirea și orbirea neatențională țin de Cap. 9 (Atenția), iar metodele limitelor, ajustării și stimulilor constanți măsoară pragurile din Cap. 7 (Procese senzoriale).",
+     "tag": "Paradigme experimentale ale învățării"
+    }
+   ],
+   "ascunse": [
+    {
+     "q": "Ce susține condiționarea prin contiguitate a lui Guthrie?",
+     "opts": [
+      "Comportamentele cu urmări neplăcute devin, treptat, tot mai puțin frecvente",
+      "Învățarea rezultă din nevoi, stimulente, răspunsuri și satisfacții",
+      "Se asociază un stimul și un răspuns care apar simultan sau apropiat",
+      "Soluția unei probleme apare rapid, fără procesare conștientă"
+     ],
+     "correct": 2,
+     "explain": "Guthrie pune accentul pe contiguitate: asocierea între un stimul și un răspuns care apar simultan sau în proximitate temporală. Urmările neplăcute care scad frecvența comportamentului țin de conexionismul lui Thorndike, nevoile și satisfacțiile de teoria lui Hull, iar soluția rapidă fără procesare conștientă de învățarea prin intuiție (Köhler).",
+     "tag": "Condiționarea prin contiguitate (Guthrie)"
+    },
+    {
+     "q": "Ce este învățarea socială?",
+     "opts": [
+      "Prin observarea și imitarea altora, prin interacțiune și comunicare",
+      "Prin asocierea unor stimuli cu reacții, în variantă clasică sau operantă",
+      "Prin influența atenției, a memoriei și a gândirii asupra învățării",
+      "Prin încercări proprii, urmate de feedback și ajustare"
+     ],
+     "correct": 0,
+     "explain": "Învățarea socială e procesul prin care oamenii învață prin observarea și imitarea comportamentelor altora, precum și prin interacțiune socială și comunicare; în bibliografie apare „Social Learning Theory” a lui Albert Bandura, numit și în Cap. 1 (Psihologia experimentală. Știință și metodă). Asocierea stimuli–reacții e învățarea prin condiționare, atenția, memoria și gândirea țin de învățarea cognitivă, iar încercările proprii cu feedback, de învățarea dintr-o încercare.",
+     "tag": "Învățarea socială"
+    },
+    {
+     "q": "Ce sunt recompensa și pedeapsa, în studiul învățării?",
+     "opts": [
+      "Variabile de control, ținute constante pe toată durata experimentului",
+      "Stimuli neutri care ajung să declanșeze un răspuns reflex",
+      "Indicatori fiziologici, măsurați ca variabile dependente",
+      "Factori motivaționali care influențează procesul de învățare"
+     ],
+     "correct": 3,
+     "explain": "Recompensa și pedeapsa sunt factori motivaționali care pot influența învățarea, prin recompensarea comportamentelor dorite și/sau pedepsirea celor nedorite. Variabilele de control sunt definite în Cap. 2 (Metodele psihologiei experimentale), stimulul neutru e elementul condiționării clasice (Pavlov), iar indicatorii fiziologici sunt una dintre VD favorizate din Cap. 4 (Metoda experimentului).",
+     "tag": "Recompensă și pedeapsă"
+    },
+    {
+     "q": "Ce include „învățarea emoțională”, unul dintre aspectele învățării dintr-o încercare?",
+     "opts": [
+      "Imitarea reacțiilor emoționale observate la alte persoane din jur",
+      "Gestionarea fricii de eșec, reziliența și încrederea în sine",
+      "Asocierea unei emoții cu un stimul neutru, ca la Pavlov",
+      "Inhibarea activă a amintirilor dureroase sau neplăcute"
+     ],
+     "correct": 1,
+     "explain": "Capitolul spune că învățarea dintr-o încercare poate implica gestionarea fricii sau a anxietății legate de eșecuri anterioare și dezvoltarea rezilienței și a încrederii în sine. Imitarea reacțiilor altora ține de învățarea socială, asocierea cu un stimul neutru de condiționarea clasică, iar inhibarea activă a amintirilor dureroase e suprimarea din Cap. 10 (Memoria).",
+     "tag": "Cele cinci aspecte ale învățării dintr-o încercare"
+    },
+    {
+     "q": "Ce tehnici neurofiziologice se folosesc în studiul învățării?",
+     "opts": [
+      "EMG, EDR și EOG",
+      "SPSS, R și MATLAB",
+      "EEG, fMRI și PET",
+      "Eye-tracker și VR"
+     ],
+     "correct": 2,
+     "explain": "Printre aparate și tehnologii, capitolul numește dispozitive de prezentare a stimulilor, software pentru prelucrarea datelor și tehnicile neurofiziologice EEG, fMRI și PET. EMG, EDR și EOG sunt biosemnalele din Cap. 3 (Metoda observației), SPSS, R și MATLAB sunt programe de analiză a datelor din Cap. 10 (Memoria), iar eye-trackerul și realitatea virtuală sunt tehnici din Cap. 8 (Procese perceptive).",
+     "tag": "Aparate și tehnologii"
+    }
+   ]
+  },
+  {
+   "id": "2",
+   "eticheta": "Runda 2 · Aplicații",
+   "titlu": "Runda 2 — Scenarii și raționament",
+   "desc": "Recunoaște forma de învățare, teoria condiționării, generalizarea sau discriminarea și variabilele în situații concrete.",
+   "intrebari": [
+    {
+     "q": "Tudor încearcă să rezolve un cub Rubik: testează mutări, vede care îl apropie de soluție și renunță la cele care îl încurcă. Ce formă de învățare ilustrează situația?",
+     "opts": [
+      "Învățarea prin intuiție, cu soluția apărută brusc",
+      "Învățarea dintr-o încercare (prin încercare și eroare)",
+      "Învățarea socială, prin imitarea unui model",
+      "Condiționarea clasică, prin asocierea unui stimul"
+     ],
+     "correct": 1,
+     "explain": "Tudor acționează, observă consecințele fiecărei mutări și își ajustează comportamentul: învățarea dintr-o încercare, numită și „prin încercare și eroare”, cu explorare activă și feedback. Intuiția ar presupune o soluție rapidă, fără încercări succesive, imitarea cere un model pe care îl privește, iar condiționarea clasică privește un răspuns reflex asociat unui stimul neutru.",
+     "tag": "Învățarea dintr-o încercare"
+    },
+    {
+     "q": "După luni de exersat zilnic, Irina cântă gamele la pian vorbind cu prietenii, fără să se mai gândească la degete. Ce aspect al învățării din experiențe repetate ilustrează situația?",
+     "opts": [
+      "Obișnuința față de un stimul repetat",
+      "Adaptarea senzorială a receptorilor",
+      "Învățarea prin intuiție a mișcărilor",
+      "Automatizarea prin practică repetată"
+     ],
+     "correct": 3,
+     "explain": "O sarcină care cerea la început efort și atenție a devenit automată, executată fără efort conștient: automatizarea și habituarea din capitol. Obișnuința din Cap. 9 (Atenția) e scăderea răspunsului de orientare la un stimul repetat, nu o abilitate dobândită, adaptarea senzorială din Cap. 7 (Procese senzoriale) e scăderea sensibilității receptorilor, iar intuiția înseamnă o soluție bruscă, nu exercițiu de luni de zile.",
+     "tag": "Automatizarea și habituarea"
+    },
+    {
+     "q": "Mihai merge fără probleme pe bicicletă, dar nu poate explica în cuvinte cum își păstrează echilibrul. Ce tip de cunoaștere a dobândit prin exercițiu?",
+     "opts": [
+      "Cunoaștere implicită",
+      "Cunoaștere explicită",
+      "Învățare conceptuală",
+      "Memorie semantică"
+     ],
+     "correct": 0,
+     "explain": "Cunoașterea implicită e greu de comunicat verbal și se manifestă prin comportamente și reacții neconștiente, exact cazul lui Mihai. Cunoașterea explicită ar putea fi verbalizată și explicată conștient. Învățarea conceptuală presupune principii abstracte, iar memoria semantică din Cap. 10 (Memoria) conține cunoștințe generale, ușor de formulat în cuvinte.",
+     "tag": "Cunoaștere explicită și implicită"
+    },
+    {
+     "q": "Pisica Anei venea la început doar când i se punea mâncarea în castron. Acum aleargă în bucătărie de cum aude deschizătorul de conserve. Ce formă de condiționare ilustrează situația?",
+     "opts": [
+      "Condiționarea și formarea deprinderilor (Hull)",
+      "Obișnuința față de un stimul repetat",
+      "Condiționarea clasică (Pavlov)",
+      "Învățarea prin intuiție (Köhler)"
+     ],
+     "correct": 2,
+     "explain": "Un stimul inițial neutru (zgomotul deschizătorului) ajunge să declanșeze răspunsul produs în mod normal de hrană: condiționarea clasică. Teoria lui Hull pune accentul pe interacțiunea dintre nevoi, stimulente, răspunsuri și satisfacții, obișnuința din Cap. 9 (Atenția) ar însemna că pisica reacționează tot mai slab la sunet, nu mai puternic, iar intuiția privește rezolvarea bruscă a unei probleme.",
+     "tag": "Condiționarea clasică (Pavlov)"
+    },
+    {
+     "q": "Un profesor dă puncte bonus imediat după fiecare temă predată la timp, iar numărul temelor predate la timp crește. Ce formă de condiționare descrie cel mai bine strategia lui?",
+     "opts": [
+      "Condiționarea clasică (Pavlov)",
+      "Condiționarea operantă (Skinner)",
+      "Învățarea socială, prin model",
+      "Învățarea prin intuiție (Köhler)"
+     ],
+     "correct": 1,
+     "explain": "Comportamentul (tema la timp) e influențat de consecința care urmează imediat după el (punctele bonus): definiția condiționării operante a lui Skinner. Conexionismul lui Thorndike și condiționarea instrumentală descriu și ele rolul consecințelor, dar nu sunt printre variante. Condiționarea clasică privește un răspuns reflex asociat unui stimul neutru, învățarea socială presupune un model observat, iar intuiția o soluție bruscă.",
+     "tag": "Condiționarea operantă (Skinner)"
+    },
+    {
+     "q": "Ioana se chinuie o oră cu o problemă de logică, o lasă deoparte, iar seara, spălând vasele, vede dintr-odată soluția completă. Ce formă de învățare descrie situația?",
+     "opts": [
+      "Învățarea prin intuiție (Köhler)",
+      "Învățarea din experiențe repetate",
+      "Condiționarea prin contiguitate (Guthrie)",
+      "Învățarea dintr-o încercare"
+     ],
+     "correct": 0,
+     "explain": "Soluția apare rapid și dintr-odată, fără un șir de pași logici conștienți: profilul învățării prin intuiție din capitol. Învățarea din experiențe repetate ar presupune practica aceleiași sarcini de multe ori, contiguitatea lui Guthrie o asociere stimul–răspuns apropiată în timp, iar învățarea dintr-o încercare o ajustare după consecințele fiecărei încercări, nu o rezolvare bruscă.",
+     "tag": "Învățarea prin intuiție (Köhler)"
+    },
+    {
+     "q": "Un angajat nou dintr-un call center învață cum să calmeze clienții nervoși ascultându-și colega cu experiență și preluându-i formulările. Ce tip de învățare intervine?",
+     "opts": [
+      "Condiționarea clasică",
+      "Efectul Hawthorne",
+      "Învățarea prin intuiție",
+      "Învățarea socială"
+     ],
+     "correct": 3,
+     "explain": "Angajatul învață prin observarea și imitarea comportamentului altei persoane și prin comunicare: învățarea socială. Condiționarea clasică privește un reflex asociat unui stimul neutru, iar intuiția o soluție găsită brusc, singur. Efectul Hawthorne, din Cap. 1 (Psihologia experimentală. Știință și metodă), e schimbarea comportamentului pentru că persoana știe că e studiată, nu o formă de învățare.",
+     "tag": "Învățarea socială"
+    },
+    {
+     "q": "După ce a înțeles principiul conservării energiei, Vlad îl aplică singur la o problemă nouă despre un leagăn, pe care nu o mai văzuse. Ce formă de învățare a fost implicată?",
+     "opts": [
+      "Învățarea din experiențe repetate",
+      "Condiționarea prin contiguitate",
+      "Învățarea conceptuală",
+      "Automatizarea prin practică"
+     ],
+     "correct": 2,
+     "explain": "Învățarea conceptuală implică înțelegerea și aplicarea conceptelor și principiilor abstracte, iar transferul unui principiu la o situație nouă e semnul ei. Experiențele repetate și automatizarea presupun exersarea aceleiași sarcini până devine fluentă, iar contiguitatea lui Guthrie e o simplă asociere stimul–răspuns apropiată în timp.",
+     "tag": "Învățarea conceptuală"
+    },
+    {
+     "q": "După ce a fost mușcat de un ciobănesc german, un copil se teme acum de toți câinii mari, de orice rasă. Ce fenomen al învățării ilustrează situația?",
+     "opts": [
+      "Generalizarea la situații similare",
+      "Discriminarea între stimuli similari",
+      "Generalizarea externă a rezultatelor",
+      "Eroarea de generalizare a cercetătorului"
+     ],
+     "correct": 0,
+     "explain": "Reacția învățată într-o situație e aplicată la stimuli asemănători (alți câini mari): generalizarea, în sensul cuvintelor cheie. Discriminarea ar însemna că se teme doar de câinele care l-a mușcat. Generalizarea externă, din Cap. 10 (Memoria), și eroarea de generalizare, din Cap. 1 (Psihologia experimentală. Știință și metodă), privesc extinderea rezultatelor unei cercetări, nu comportamentul învățat al unei persoane.",
+     "tag": "Generalizare și discriminare"
+    },
+    {
+     "q": "Câinele familiei a învățat să vină doar la fluieratul stăpânului său, deși vecinii fluieră aproape la fel. Ce fenomen a avut loc?",
+     "opts": [
+      "Generalizarea la situații similare",
+      "Discriminarea între stimuli similari",
+      "Pragul absolut al auzului",
+      "Obișnuința față de un stimul"
+     ],
+     "correct": 1,
+     "explain": "Câinele diferențiază stimuli asemănători și răspunde doar la unul: discriminarea. Generalizarea l-ar face să vină la orice fluierat asemănător. Pragul absolut din Cap. 7 (Procese senzoriale) privește intensitatea minimă detectabilă, nu diferențierea a doi stimuli audibili, iar obișnuința din Cap. 9 (Atenția) e scăderea răspunsului de orientare la un stimul repetat fără importanță.",
+     "tag": "Generalizare și discriminare"
+    },
+    {
+     "q": "Un psiholog explică astfel progresul unui student: nevoia de bani (bursa) și premiul promis îl împing să învețe, iar satisfacția notei bune îi consolidează obiceiul de studiu. În ce teorie se încadrează explicația?",
+     "opts": [
+      "Condiționarea prin contiguitate (Guthrie)",
+      "Condiționarea clasică (Pavlov)",
+      "Învățarea prin intuiție (Köhler)",
+      "Condiționarea și formarea deprinderilor (Hull)"
+     ],
+     "correct": 3,
+     "explain": "Explicația folosește exact elementele teoriei lui Hull: nevoi (bursa), stimulente (premiul), răspunsuri (studiul) și satisfacții (nota bună), din a căror interacțiune rezultă deprinderea. Contiguitatea lui Guthrie se sprijină doar pe apropierea în timp dintre stimul și răspuns, Pavlov pe un reflex asociat unui stimul neutru, iar Köhler pe rezolvarea bruscă a unei probleme.",
+     "tag": "Condiționarea și formarea deprinderilor (Hull)"
+    },
+    {
+     "q": "Într-un experiment, un grup primește laudă după fiecare răspuns corect, iar altul nu primește nimic; se măsoară cât de repede învață o listă de termeni. Ce variabilă este manipulată?",
+     "opts": [
+      "Natura consecințelor comportamentului",
+      "Tipul de sarcină dată participanților",
+      "Caracteristicile individuale ale subiecților",
+      "Modalitatea de prezentare a listei"
+     ],
+     "correct": 0,
+     "explain": "Grupurile diferă prin ce urmează după răspuns (laudă sau nimic), deci se manipulează natura consecințelor asociate cu comportamentul, ca variabilă independentă; viteza de învățare e variabila dependentă. Sarcina (aceeași listă) e identică, caracteristicile subiecților nu sunt manipulate, iar modalitatea prezentării e o variabilă a studiilor de memorie din Cap. 10 (Memoria), aici ținută constantă.",
+     "tag": "Variabilele în studiul învățării"
+    },
+    {
+     "q": "Un studiu compară o metodă nouă de învățare a limbilor cu una clasică; grupul cu metoda nouă e format din voluntari care s-au oferit pentru că își doresc mult să plece la studii în străinătate. Ce variabilă rămâne necontrolată?",
+     "opts": [
+      "Natura consecințelor",
+      "Tipul de stimul folosit",
+      "Motivația participanților",
+      "Efectul istoric extern"
+     ],
+     "correct": 2,
+     "explain": "Cei din grupul nou sunt mai motivați, iar motivația individului e una dintre variabilele numite în capitol; fără control (de exemplu prin repartizare aleatorie, ca în Cap. 2 (Metodele psihologiei experimentale)), diferențele nu mai pot fi atribuite doar metodei, ceea ce seamănă cu eroarea de selecție din Cap. 1 (Psihologia experimentală. Știință și metodă). Consecințele și tipul de stimul nu diferă sistematic între grupuri, iar efectul istoric din Cap. 1 (Psihologia experimentală. Știință și metodă) ar presupune un eveniment extern în timpul studiului.",
+     "tag": "Controlul variabilelor"
+    },
+    {
+     "q": "Participanții aud două tonuri foarte apropiate ca înălțime și trebuie să apese butonul doar la unul dintre ele; se notează după câte încercări nu mai greșesc. Ce paradigmă se folosește?",
+     "opts": [
+      "Paradigma de rezolvare a problemelor",
+      "Paradigma de învățare asociativă",
+      "Metoda limitelor pentru prag",
+      "Paradigma de discriminare a stimulilor"
+     ],
+     "correct": 3,
+     "explain": "Sarcina e de a învăța să diferențiezi doi stimuli asemănători: paradigma de discriminare a stimulilor. Rezolvarea de probleme cere găsirea unei soluții, nu diferențierea unor stimuli. Învățarea asociativă, din Cap. 10 (Memoria), presupune perechi învățate, iar metoda limitelor din Cap. 7 (Procese senzoriale) caută intensitatea la care stimulul începe să fie detectat, nu numărul de încercări până la învățare.",
+     "tag": "Paradigme experimentale ale învățării"
+    },
+    {
+     "q": "O cercetătoare vrea să vadă ce regiuni ale creierului se activează, după fluxul sanguin, în timp ce participanții învață o secvență nouă de mișcări ale degetelor. Ce tehnică i se potrivește?",
+     "opts": [
+      "EEG",
+      "fMRI",
+      "Eye-tracker",
+      "Biofeedback"
+     ],
+     "correct": 1,
+     "explain": "fMRI-ul, numit printre tehnicile neurofiziologice ale capitolului, arată ce regiuni se activează, pe baza modificărilor fluxului sanguin. EEG-ul înregistrează activitatea electrică a creierului, nu fluxul sanguin, eye-trackerul urmărește privirea, iar biofeedback-ul, din Cap. 7 (Procese senzoriale), monitorizează răspunsuri fiziologice periferice.",
+     "tag": "Aparate și tehnologii"
+    }
+   ],
+   "ascunse": [
+    {
+     "q": "După fiecare execuție, antrenoarea îi spune gimnastei exact ce trebuie corectat la aterizare, iar aceasta își ajustează mișcarea. Ce rol are aici feedback-ul negativ?",
+     "opts": [
+      "Indică aspectele care necesită îmbunătățire și ajustare",
+      "Scade frecvența exercițiului, ca orice pedeapsă aplicată după el",
+      "Produce obișnuința gimnastei față de observații",
+      "Asociază un stimul neutru cu un răspuns reflex"
+     ],
+     "correct": 0,
+     "explain": "În învățarea din experiențe repetate, feedback-ul pozitiv încurajează continuarea, iar cel negativ oferă indicații despre aspectele care necesită îmbunătățire și ajustare. Ideea că urmările neplăcute scad frecvența comportamentului vine din conexionismul lui Thorndike și nu descrie rolul feedback-ului aici. Obișnuința din Cap. 9 (Atenția) și asocierea cu un stimul neutru (Pavlov) nu au legătură cu corectarea execuției.",
+     "tag": "Feedback-ul în cele două forme"
+    },
+    {
+     "q": "Un copil care a fost certat de fiecare dată când sărea în pat sare tot mai rar. Cum explică acest lucru conexionismul lui Thorndike?",
+     "opts": [
+      "Un stimul neutru a fost asociat, treptat, cu un răspuns reflex de frică",
+      "Copilul a imitat comportamentul unui frate mai mare",
+      "Comportamentele cu urmări neplăcute devin mai puțin frecvente",
+      "Copilul a găsit brusc o soluție, fără gândire logică"
+     ],
+     "correct": 2,
+     "explain": "Pentru Thorndike, comportamentele urmate de consecințe neplăcute devin mai puțin frecvente (iar cele urmate de consecințe plăcute, mai frecvente). Asocierea unui stimul neutru cu un reflex e condiționarea clasică (Pavlov), imitarea unui frate ține de învățarea socială, iar soluția bruscă de învățarea prin intuiție (Köhler); niciuna nu apare în situația descrisă.",
+     "tag": "Conexionismul (Thorndike)"
+    },
+    {
+     "q": "Un copil a învățat acasă să spună „mulțumesc” când primește ceva, iar acum o spune și la grădiniță, și la magazin. Ce fenomen ilustrează situația?",
+     "opts": [
+      "Generalizarea învățării",
+      "Discriminarea stimulilor",
+      "Generalizarea internă",
+      "Automatizarea sarcinii"
+     ],
+     "correct": 0,
+     "explain": "Comportamentul învățat într-o situație e aplicat în situații similare: generalizarea, în sensul cuvintelor cheie ale capitolului. Discriminarea ar însemna să-l spună doar acasă. Generalizarea internă, din Cap. 10 (Memoria), e extinderea rezultatelor unei cercetări la alte aspecte ale aceleiași populații, iar automatizarea privește o sarcină care ajunge executată fără efort conștient.",
+     "tag": "Generalizare și discriminare"
+    },
+    {
+     "q": "Un cercetător constată că grupul recompensat a învățat mai repede, dar află apoi că acestui grup i s-au dat și liste mai scurte de cuvinte. Ce problemă apare?",
+     "opts": [
+      "Recompensa devine, prin asta, variabila dependentă",
+      "Diferența nu mai poate fi atribuită doar recompensei",
+      "Studiul încalcă dreptul participanților la retragere",
+      "Rezultatul e, automat, o eroare de tip II"
+     ],
+     "correct": 1,
+     "explain": "Tipul sarcinii, una dintre variabilele numite în capitol, a variat odată cu recompensa, deci nu mai e clar dacă diferența vine din manipularea VI; capitolul spune că tocmai controlul variabilelor asigură că diferențele sunt rezultatul VI. Recompensa rămâne VI, dreptul la retragere e un principiu etic din Cap. 5 (Probleme etice ale experimentului psihologic), iar eroarea de tip II din Cap. 1 (Psihologia experimentală. Știință și metodă) înseamnă să nu găsești un efect care există, nu un efect confundat.",
+     "tag": "Controlul variabilelor"
+    },
+    {
+     "q": "Wolfgang Köhler e asociat cu învățarea prin intuiție. Din ce curent al psihologiei face parte?",
+     "opts": [
+      "Behaviorismul",
+      "Psihologia umanistă",
+      "Funcționalismul",
+      "Psihologia gestalt"
+     ],
+     "correct": 3,
+     "explain": "În Cap. 1 (Psihologia experimentală. Știință și metodă), Köhler apare alături de Wertheimer și Koffka ca reprezentant al psihologiei gestalt, care vede percepția și înțelegerea ca procese globale și organizate, de unde și ideea de soluție apărută dintr-odată. Behaviorismul (Watson, Skinner) e curentul de care țin teoriile condiționării, psihologia umanistă îi are ca reprezentanți pe Maslow și Rogers, iar funcționalismul pe William James.",
+     "tag": "Legături cu alte capitole"
+    }
+   ]
+  }
+ ]
+}

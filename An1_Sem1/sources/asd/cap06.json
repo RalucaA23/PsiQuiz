@@ -1,0 +1,1084 @@
+{
+  "schema": "quiz-capitol-v3",
+  "capitol": 6,
+  "titlu": "Eșantionarea și distribuții de eșantionare",
+  "sursa": "Analiza superioară a datelor (UTM), Unitatea VI, pp. 78–86",
+  "runde": [
+    {
+      "id": "T",
+      "tip_runda": "baza",
+      "eticheta": "Runda 1 · Teorie",
+      "titlu": "Runda 1 — Teorie",
+      "desc": "Întrebări directe și scurte: ce măsoară un indicator, când se folosește o metodă, ce deosebește două concepte.",
+      "intrebari": [
+        {
+          "q": "Ce două condiții trebuie să îndeplinească selecția unui eșantion aleatoriu?",
+          "opts": [
+            "Un număr foarte mare de cazuri și toate categoriile reprezentate",
+            "Cazuri alese de cercetător, fără niciun plan dinainte",
+            "Un pas fix între cazuri și un prim caz ales la sorți",
+            "Probabilitate egală pentru fiecare caz și selecții independente"
+          ],
+          "correct": 3,
+          "explain": "Un eșantion e aleatoriu dacă fiecare caz din populație are aceeași probabilitate de a fi selectat și dacă selectarea unui caz nu depinde de a celorlalte. Mărimea nu înlocuiește aceste condiții, „fără plan” e tocmai sensul obișnuit al lui „întâmplător”, iar pasul fix descrie eșantionarea sistematică, unde independența se pierde.",
+          "tag": "Eșantion aleatoriu",
+          "tip": "concept"
+        },
+        {
+          "q": "Prin ce diferă „aleatoriu”, ca termen statistic, de „întâmplător” din vorbirea obișnuită?",
+          "opts": [
+            "Cere un eșantion de cel puțin o sută de persoane",
+            "Cere o procedură de selecție precisă",
+            "Cere ca toți participanții să fie voluntari",
+            "Cere împărțirea populației pe straturi"
+          ],
+          "correct": 1,
+          "explain": "Un eșantion aleatoriu nu se alcătuiește „la întâmplare” (oamenii întâlniți într-un supermagazin), ci printr-o procedură precisă, de pildă cu tabelul de numere aleatorii. Mărimea, voluntariatul și stratificarea nu definesc caracterul aleatoriu; voluntarii formează chiar un eșantion nealeatoriu.",
+          "tag": "Aleatoriu ≠ întâmplător",
+          "tip": "concept"
+        },
+        {
+          "q": "Despre cine permite concluzii un eșantion nealeatoriu?",
+          "opts": [
+            "Doar despre persoanele din eșantion",
+            "Despre populație, dacă eșantionul e mare",
+            "Despre populație, dacă e ales cu grijă",
+            "Despre straturile din care provin cazurile"
+          ],
+          "correct": 0,
+          "explain": "Eșantioanele nealeatorii se alcătuiesc ușor, dar permit concluzii doar despre eșantion, nu despre populație. Nici mărimea, nici grija cercetătorului nu înlocuiesc selecția aleatorie; straturile țin de eșantionarea stratificată, care e un procedeu aleatoriu.",
+          "tag": "Eșantioane nealeatorii",
+          "tip": "principiu"
+        },
+        {
+          "q": "Ce asigură selecția aleatorie în privința reprezentativității eșantionului?",
+          "opts": [
+            "O garantează pentru orice mărime a eșantionului",
+            "O garantează de la o sută de cazuri în sus",
+            "O face foarte probabilă, fără s-o garanteze",
+            "O face probabilă doar dacă eșantionul e stratificat"
+          ],
+          "correct": 2,
+          "explain": "Selecția aleatorie e condiție necesară, dar nici cea mai sofisticată procedură nu garantează 100% o imagine exactă a populației; în schimb, probabilitatea erorilor de reprezentativitate se poate determina precis. Stratificarea adaugă informație, nu e o condiție a reprezentativității.",
+          "tag": "Reprezentativitate",
+          "tip": "principiu"
+        },
+        {
+          "q": "De ce ignorarea numerelor repetate din tabel afectează, riguros vorbind, caracterul aleatoriu?",
+          "opts": [
+            "Selecția devine cu înlocuire, cu probabilități care scad treptat",
+            "Selecția devine sistematică, cu un pas de numărare fix",
+            "Selecția exclude cazurile cu numere mici de identificare",
+            "Selecția devine fără înlocuire, cu probabilități care cresc"
+          ],
+          "correct": 3,
+          "explain": "Ignorând repetările, cazul ales iese din populație, iar probabilitățile devin 1/1000, 1/999, 1/998…; la eșantioane mici efectul e neglijabil. În selecția cu înlocuire probabilitatea rămâne constantă, iar pasul fix ține de eșantionarea sistematică.",
+          "tag": "Selecție fără înlocuire",
+          "tip": "principiu"
+        },
+        {
+          "q": "Ce se întâmplă cu probabilitatea de selecție a fiecărui caz în selecția cu înlocuire?",
+          "opts": [
+            "Rămâne aceeași de la o extragere la alta",
+            "Crește puțin la fiecare nouă extragere",
+            "Scade puțin la fiecare nouă extragere",
+            "Se dublează imediat după prima extragere făcută"
+          ],
+          "correct": 0,
+          "explain": "Cazul selectat rămâne în populație, deci probabilitatea e constantă pe tot parcursul selecției. Creșterea treptată (1/1000, 1/999…) e specifică selecției fără înlocuire.",
+          "tag": "Selecție cu înlocuire",
+          "tip": "concept"
+        },
+        {
+          "q": "Când se preferă eșantionarea sistematică în locul celei aleatorii simple?",
+          "opts": [
+            "Când populația de referință e foarte mică",
+            "Când variabila studiată e puternic asimetrică",
+            "Când populația are straturi clar diferite",
+            "Când populația de referință e foarte mare"
+          ],
+          "correct": 3,
+          "explain": "Eșantionarea aleatorie simplă devine incomodă la populații foarte mari (de pildă 10 000 de cazuri); atunci se folosește selecția mecanică, cu pasul K. Asimetria variabilei privește distribuția de eșantionare, iar straturile cer eșantionarea stratificată.",
+          "tag": "Eșantionare sistematică",
+          "tip": "metoda"
+        },
+        {
+          "q": "Cum se stabilește pasul de numărare K la eșantionarea sistematică?",
+          "opts": [
+            "n / N, exprimat ca procent",
+            "N − n, diferența dintre cele două",
+            "N / n, rotunjit la un număr întreg",
+            "√N, rotunjit și el la un număr întreg"
+          ],
+          "correct": 2,
+          "explain": "Fracția de selecție e K = N/n: la N = 10 000 și n = 300 se obține 33,3, rotunjit la 34. Raportul invers n/N e proporția de cazuri selectate, nu pasul.",
+          "tag": "Pasul de numărare K",
+          "tip": "calcul"
+        },
+        {
+          "q": "De ce eșantionarea sistematică e considerată doar cvasialeatorie?",
+          "opts": [
+            "Primul caz se alege prin numărare, nu la întâmplare",
+            "Cazurile din primele K au probabilități inegale",
+            "Fiecare selecție depinde de cea precedentă",
+            "Pasul de numărare se rotunjește întotdeauna în jos"
+          ],
+          "correct": 2,
+          "explain": "Selecțiile nu mai sunt independente: odată ales primul caz, toate celelalte sunt fixate de pas. Primul caz se trage la sorți dintre primele K, cu șanse egale, iar K se rotunjește la un întreg (34 pentru 33,3).",
+          "tag": "Caracter cvasialeatoriu",
+          "tip": "principiu"
+        },
+        {
+          "q": "Ce asigură, totuși, caracterul aleatoriu al unei eșantionări sistematice?",
+          "opts": [
+            "Alcătuirea întâmplătoare a listei populației",
+            "Rotunjirea pasului K la un număr întreg",
+            "Mărimea mare a eșantionului extras",
+            "Împărțirea prealabilă a populației pe straturi"
+          ],
+          "correct": 0,
+          "explain": "Pentru că selecțiile depind una de alta, aleatorietatea vine din faptul că membrii populației sunt listați la întâmplare. Rotunjirea lui K și mărimea eșantionului nu o asigură, iar straturile țin de alt procedeu.",
+          "tag": "Caracter cvasialeatoriu",
+          "tip": "principiu"
+        },
+        {
+          "q": "Ce câștig aduce eșantionarea stratificată față de cea aleatorie simplă?",
+          "opts": [
+            "Selecții independente fără tabel aleatoriu",
+            "Mai multă informație despre populație",
+            "Un eșantion mai mic pentru aceeași precizie",
+            "Garanția că eșantionul e reprezentativ"
+          ],
+          "correct": 1,
+          "explain": "Clasificând populația după criterii relevante (sex, vârstă, ocupație) și extrăgând aleatoriu simplu din fiecare strat, eșantionarea stratificată crește cantitatea de informație despre populație. Nicio procedură nu garantează reprezentativitatea.",
+          "tag": "Eșantionare stratificată",
+          "tip": "metoda"
+        },
+        {
+          "q": "Care dintre cele trei distribuții e teoretică, dar are proprietăți cunoscute exact?",
+          "opts": [
+            "Distribuția populației",
+            "Distribuția de eșantionare",
+            "Distribuția eșantionului",
+            "Distribuția scorurilor brute"
+          ],
+          "correct": 1,
+          "explain": "Distribuția de eșantionare nu poate fi obținută în realitate, dar forma, media și dispersia ei se deduc din legile probabilității. Distribuția populației e empirică, dar necunoscută, iar cea a eșantionului e empirică și cunoscută.",
+          "tag": "Trei distribuții",
+          "tip": "concept"
+        },
+        {
+          "q": "Ce spune teorema limitei centrale despre distribuția mediilor eșantioanelor de mărime n?",
+          "opts": [
+            "Media μ, abaterea σ/√n, formă tot mai normală cu n",
+            "Media X̄, abaterea s, formă identică populației",
+            "Media μ, abaterea σ, formă normală pentru orice n",
+            "Media μ, abaterea σ/n, formă asimetrică la n foarte mare"
+          ],
+          "correct": 0,
+          "explain": "Distribuția mediilor are media egală cu μ, abaterea standard σ/√n și o formă care aproximează normalitatea cu atât mai bine cu cât n e mai mare, indiferent de forma populației. X̄ și s sunt statisticile unui singur eșantion.",
+          "tag": "Media distribuției de eșantionare",
+          "tip": "principiu"
+        },
+        {
+          "q": "Ce constrângere elimină teorema limitei centrale în statistica inferențială?",
+          "opts": [
+            "Cerința ca eșantionul să fie extras complet aleatoriu",
+            "Cerința ca populația să fie normal distribuită",
+            "Cerința ca variabila să fie de interval",
+            "Cerința ca σ să fie cunoscută dinainte"
+          ],
+          "correct": 1,
+          "explain": "Pentru eșantioane suficient de mari, distribuția mediilor e aproximativ normală orice formă ar avea populația (venitul, cu n ≥ 100). Selecția aleatorie rămâne obligatorie, iar nivelul de măsură nu e atins de teoremă.",
+          "tag": "Populații asimetrice",
+          "tip": "principiu"
+        },
+        {
+          "q": "Prin ce diferă scorul Z al unei medii de eșantion de scorul Z al unui scor individual?",
+          "opts": [
+            "Distanța față de μ se împarte la σ², nu la σ",
+            "Distanța se măsoară față de mediană, nu față de μ",
+            "Distanța față de μ se împarte la σ/√n, nu la σ",
+            "Distanța față de μ se împarte la n, nu la σ"
+          ],
+          "correct": 2,
+          "explain": "Z = (X̄ − μ)/(σ/√n): aceeași idee ca la scorurile individuale din Cap. 5 (Distribuția normală), dar cu abaterea standard a distribuției mediilor. σ² e varianța, iar împărțirea la n ar uita radicalul.",
+          "tag": "Scorul Z al unei medii",
+          "tip": "calcul"
+        }
+      ],
+      "ascunse": [
+        {
+          "q": "Ce fel de variabilă devine media aritmetică atunci când se studiază distribuția de eșantionare?",
+          "opts": [
+            "O constantă, egală întotdeauna cu media populației μ",
+            "Una cu valori egale cu scorurile individuale ale populației",
+            "Una nominală, cu câte o categorie pentru fiecare eșantion",
+            "Una ale cărei valori sunt mediile eșantioanelor de mărime n"
+          ],
+          "correct": 3,
+          "explain": "Media e privită ca o variabilă ale cărei scoruri sunt mediile tuturor eșantioanelor aleatorii posibile de dimensiune constantă n. Media acestor medii e μ, dar mediile individuale variază; scorurile individuale formează distribuția populației.",
+          "tag": "Media ca variabilă",
+          "tip": "concept"
+        },
+        {
+          "q": "Ce condiție privind mărimea eșantioanelor cere distribuția de eșantionare a mediilor?",
+          "opts": [
+            "Eșantioanele au mărimi diferite, crescătoare",
+            "Fiecare eșantion are peste treizeci de cazuri",
+            "Toate eșantioanele au aceeași mărime n",
+            "Eșantioanele acoperă împreună populația"
+          ],
+          "correct": 2,
+          "explain": "Distribuția de eșantionare cuprinde mediile tuturor eșantioanelor aleatorii de dimensiune constantă n; pentru alt n se obține altă distribuție, cu altă abatere standard. Pragul de 30 de cazuri nu face parte din această condiție.",
+          "tag": "Distribuția de eșantionare a mediilor",
+          "tip": "concept"
+        },
+        {
+          "q": "De câte ori trebuie mărit eșantionul ca abaterea standard a mediilor să se înjumătățească?",
+          "opts": [
+            "De patru ori",
+            "De două ori",
+            "De opt ori",
+            "De șaisprezece ori"
+          ],
+          "correct": 0,
+          "explain": "σ_X̄ = σ/√n, deci n crește de 4 ori când √n crește de 2 ori (de la 25 la 100: σ/5 → σ/10). Dublarea lui n ar reduce σ_X̄ doar de √2 ≈ 1,41 ori; de 16 ori ar sferturi-o.",
+          "tag": "Abaterea standard a mediilor",
+          "tip": "calcul"
+        },
+        {
+          "q": "Pentru ce alte statistici, în afară de medie, se definesc distribuții de eșantionare?",
+          "opts": [
+            "Pentru scorurile individuale ale întregii populații",
+            "Pentru proporții și coeficienți de corelație",
+            "Pentru frecvențele unui singur eșantion",
+            "Pentru categoriile unei variabile nominale"
+          ],
+          "correct": 1,
+          "explain": "Distribuțiile de eșantionare se definesc la fel pentru orice statistică (proporții, coeficienți de corelație), folosite de la Cap. 7 (Proceduri de estimare statistică) încolo. Scorurile individuale și frecvențele unui eșantion descriu distribuții empirice, nu de eșantionare.",
+          "tag": "Alte distribuții de eșantionare",
+          "tip": "concept"
+        },
+        {
+          "q": "Ce deosebește un parametru de o statistică?",
+          "opts": [
+            "Parametrul descrie populația, statistica descrie eșantionul",
+            "Parametrul e o medie, statistica e o abatere standard",
+            "Parametrul se calculează direct, iar statistica se estimează",
+            "Parametrul e cunoscut, statistica e necunoscută"
+          ],
+          "correct": 0,
+          "explain": "Parametrii (μ, σ) sunt mărimile populației, de obicei necunoscute și inferate; statisticile (X̄, s) sunt calculate de cercetător pe eșantion. Ambele categorii cuprind și medii, și abateri standard; ce se estimează e parametrul.",
+          "tag": "Parametri",
+          "tip": "concept"
+        }
+      ]
+    },
+    {
+      "id": "1",
+      "eticheta": "Runda 2 · Bază",
+      "titlu": "Runda 2 — Concepte de bază",
+      "desc": "Situații scurte: recunoști procedeul sau conceptul potrivit ori aplici direct o regulă.",
+      "intrebari": [
+        {
+          "q": "O psihologă aplică un chestionar de stres la 400 de asistenți medicali aleși aleatoriu și, pe baza rezultatelor, trage concluzii despre toți asistenții medicali din țară. Ce fel de procedură statistică folosește?",
+          "opts": [
+            "Statistici descriptive: rezumă doar scorurile celor 400 de persoane",
+            "Calculul direct al parametrilor, fiindcă eșantionul e aleatoriu",
+            "Statistici inferențiale: generalizează de la eșantion la populație",
+            "O distribuție de eșantionare obținută empiric din cei 400 de asistenți"
+          ],
+          "correct": 2,
+          "explain": "Trecerea de la caracteristicile unui eșantion la cele ale populației din care provine e chiar scopul statisticilor inferențiale. Descriptivele ar rămâne la cei 400. Parametrii populației nu se „calculează direct” din eșantion, ci se infereză; iar distribuția de eșantionare e teoretică, nu se obține din datele unui singur eșantion.",
+          "tag": "Statistici inferențiale",
+          "tip": "concept"
+        },
+        {
+          "q": "Un student vrea să afle cât de mulțumiți de viață sunt locuitorii orașului și intervievează persoanele pe care le întâlnește sâmbătă la ieșirea dintr-un mall. Este eșantionul lui aleatoriu?",
+          "opts": [
+            "Da: persoanele au fost întâlnite complet la întâmplare, fără plan",
+            "Nu: locuitorii nu au toți aceeași șansă de a fi întâlniți acolo",
+            "Da, cu condiția ca studentul să adune măcar 100 de persoane",
+            "Nu, pentru că un eșantion aleatoriu trebuie să fie stratificat"
+          ],
+          "correct": 1,
+          "explain": "„Aleatoriu” e un termen tehnic: fiecare membru al populației are aceeași probabilitate de selecție, iar selecțiile sunt independente. Cine nu merge la mall în acea zi nu are nicio șansă să intre. A întâlni oameni „la întâmplare” nu e același lucru, iar mărimea eșantionului nu repară procedura. Stratificarea e doar unul dintre procedeele aleatorii, nu o condiție.",
+          "tag": "Aleatoriu ≠ întâmplător",
+          "tip": "principiu"
+        },
+        {
+          "q": "Dintr-o școală cu 800 de elevi se extrage un elev printr-o procedură riguros aleatorie. Ce probabilitate are elevul Andrei să fie cel extras?",
+          "opts": [
+            "1/800, la fel ca oricare alt elev din școală",
+            "1/2, deoarece poate fi extras sau nu poate fi",
+            "Depinde de clasa lui și de câți colegi are",
+            "1/80, adică o șansă pentru fiecare zece elevi"
+          ],
+          "correct": 0,
+          "explain": "Într-un eșantion aleatoriu fiecare caz din populație are aceeași probabilitate de selecție: la 800 de membri, 1/800 (ca exemplul cu 1/1000 pentru o populație de 1000). Două rezultate posibile nu înseamnă probabilități egale, iar clasa elevului nu contează într-o selecție aleatorie simplă.",
+          "tag": "Eșantion aleatoriu",
+          "tip": "calcul"
+        },
+        {
+          "q": "Un cercetător a numerotat membrii unei populații de la 001 la 600 și citește în jos pe o coloană ultimele trei cifre din tabelul cu numere aleatorii. Întâlnește, pe rând, 742, 315 și din nou 315. Ce face?",
+          "opts": [
+            "Îl ia pe 742 ca 142, scăzând 600, și pe 315 de două ori",
+            "Sare peste 742, îl ia pe 315 o dată și ignoră repetarea lui",
+            "Ia toate cele trei numere, pentru că așa au ieșit în tabel",
+            "Oprește selecția și alege la întâmplare un alt punct de start"
+          ],
+          "correct": 1,
+          "explain": "Numerele mai mari decât dimensiunea populației (600) se ignoră, iar un număr deja selectat nu se mai ia a doua oară: se trece la următorul din secvență. Nu se „corectează” numerele prin scădere și nu e nevoie de un nou punct de start.",
+          "tag": "Tabelul cu numere aleatorii",
+          "tip": "metoda"
+        },
+        {
+          "q": "Un cercetător alcătuiește des eșantioane folosind același tabel cu numere aleatorii și, din obișnuință, pornește de fiecare dată din colțul din stânga sus. Ce risc apare?",
+          "opts": [
+            "Să aleagă iar și iar același șir de numere în eșantioane diferite",
+            "Ca numerele din tabel să-și piardă caracterul aleatoriu cu timpul",
+            "Ca eșantioanele să devină stratificate fără ca el să o fi vrut",
+            "Ca selecția să treacă singură de la fără înlocuire la cu înlocuire"
+          ],
+          "correct": 0,
+          "explain": "Oamenii tind să pornească din același loc și să parcurgă aceeași cale, așa că folosirea repetată a aceluiași tabel poate produce același șir de numere; de aceea se recomandă schimbarea des a tabelului. Numerele în sine nu „se uzează”, iar tipul de eșantionare sau de selecție nu se schimbă de la sine.",
+          "tag": "Tabelul cu numere aleatorii",
+          "tip": "eroare"
+        },
+        {
+          "q": "Dintr-o populație de 500 de persoane se extrage un eșantion, fără înlocuire: cine a fost ales iese din populație. La prima extragere, fiecare persoană are probabilitatea 1/500. Ce probabilitate are fiecare persoană rămasă la a doua extragere?",
+          "opts": [
+            "1/500, pentru că probabilitatea nu se schimbă deloc",
+            "2/500, pentru că s-au făcut deja două extrageri",
+            "1/498, pentru că se scad ambele extrageri făcute",
+            "1/499, pentru că populația a scăzut cu o persoană"
+          ],
+          "correct": 3,
+          "explain": "În selecția fără înlocuire, probabilitatea crește treptat, fiindcă populația scade cu câte un caz: 1/500, apoi 1/499, 1/498 etc. Probabilitatea constantă (1/500) e specifică selecției cu înlocuire.",
+          "tag": "Selecție fără înlocuire",
+          "tip": "calcul"
+        },
+        {
+          "q": "La o tombolă, după fiecare extragere biletul extras e pus la loc în urnă, apoi se amestecă din nou. Ce tip de selecție e și ce se întâmplă cu probabilitatea fiecărui bilet de la o extragere la alta?",
+          "opts": [
+            "Fără înlocuire; probabilitatea crește la fiecare nouă extragere",
+            "Cu înlocuire; probabilitatea scade, fiindcă biletul a mai ieșit",
+            "Sistematică; probabilitatea depinde de biletul extras anterior",
+            "Cu înlocuire; probabilitatea rămâne aceeași la fiecare extragere"
+          ],
+          "correct": 3,
+          "explain": "Când cazul selectat rămâne în populație (selecția cu înlocuire), probabilitatea de selecție e constantă pe tot parcursul. Creșterea probabilității ține de selecția fără înlocuire, iar dependența de cazul anterior descrie eșantionarea sistematică.",
+          "tag": "Selecție cu înlocuire",
+          "tip": "concept"
+        },
+        {
+          "q": "Pentru un experiment, 12 subiecți primesc din tabelul cu numere aleatorii câte un număr: A 45, B 07, C 91, D 23, E 62, F 14, G 38, H 80, I 55, J 02, K 70, L 29. Se fac trei grupuri de câte 4, după ordinea crescătoare a numerelor. În ce grup ajunge A?",
+          "opts": [
+            "În grupul 2, fiind al șaptelea în ordinea crescătoare",
+            "În grupul 1, fiind primul în ordinea alfabetică",
+            "În grupul 3, pentru că 45 e mai mare decât media",
+            "În grupul 1, pentru că 45 e sub jumătatea lui 99"
+          ],
+          "correct": 0,
+          "explain": "În ordine crescătoare: 02, 07, 14, 23 (grupul 1), 29, 38, 45, 55 (grupul 2), 62, 70, 80, 91 (grupul 3). Subiectul A (45) e al șaptelea, deci în grupul 2. Ordinea alfabetică nu contează, iar regula nu compară numerele cu media sau cu jumătatea scalei.",
+          "tag": "Repartizarea aleatorie în grupuri",
+          "tip": "metoda"
+        },
+        {
+          "q": "O firmă are o listă de 5000 de angajați, iar cercetătorul vrea un eșantion sistematic de 250. Cum procedează?",
+          "opts": [
+            "K = 250; ia primul angajat, apoi fiecare al 250-lea angajat din listă",
+            "K = 20; pornește mereu de la primul angajat, apoi ia fiecare al 20-lea",
+            "K = 0,05; ia la întâmplare 5% din angajați, fără o ordine anume",
+            "K = 20; trage la sorți un caz dintre primii 20, apoi ia fiecare al 20-lea"
+          ],
+          "correct": 3,
+          "explain": "Pasul de numărare e K = N/n = 5000/250 = 20. Primul caz se alege la întâmplare dintre primele K, apoi se ia fiecare al K-lea. Cu pasul 250 ar ieși doar 20 de cazuri; pornirea fixă de la primul angajat elimină singura alegere la întâmplare; iar 5% luat la întâmplare ar fi eșantionare simplă, nu sistematică.",
+          "tag": "Pasul de numărare K",
+          "tip": "calcul"
+        },
+        {
+          "q": "Într-o eșantionare sistematică cu pasul K = 25, tragerea la sorți dintre primele 25 de cazuri a dat cazul 7. Care sunt următoarele trei cazuri incluse?",
+          "opts": [
+            "8, 9 și 10",
+            "32, 57 și 82",
+            "25, 50 și 75",
+            "14, 21 și 28"
+          ],
+          "correct": 1,
+          "explain": "După primul caz se adaugă de fiecare dată pasul K: 7 + 25 = 32, 32 + 25 = 57, 57 + 25 = 82 (ca 5, 39, 73, 107 în exemplul cu K = 34). Multiplii lui 25 ignoră punctul de start, iar 14, 21, 28 folosesc startul ca pas.",
+          "tag": "Eșantionare sistematică",
+          "tip": "calcul"
+        },
+        {
+          "q": "Un cercetător alege la întâmplare primul caz dintr-o listă amestecată, apoi fiecare al 40-lea caz. Un coleg spune că eșantionul „nu e pe deplin aleatoriu”. Ce argument are colegul?",
+          "opts": [
+            "Cazurile din primele 40 nu au aceeași șansă de a fi alese",
+            "Pasul K = 40 ar fi trebuit rotunjit la un număr mai mic",
+            "După primul caz, fiecare alegere depinde de cea precedentă",
+            "Primul caz trebuia ales din tabel, nu prin tragere la sorți"
+          ],
+          "correct": 2,
+          "explain": "În eșantionarea sistematică selecțiile nu sunt independente: odată ales primul caz, toate celelalte sunt determinate de pas. De aceea procedeul e numit cvasialeatoriu; caracterul aleatoriu vine din alcătuirea întâmplătoare a listei. Între primele 40 șansele sunt egale, iar tragerea la sorți e o cale acceptată pentru primul caz.",
+          "tag": "Caracter cvasialeatoriu",
+          "tip": "principiu"
+        },
+        {
+          "q": "Într-o universitate, 60% dintre studenți sunt femei și 40% bărbați. Cercetătorul împarte lista pe sexe și extrage separat, aleatoriu simplu, câte un eșantion din fiecare listă. Ce procedeu folosește?",
+          "opts": [
+            "Eșantionare sistematică, cu pas diferit pe sexe",
+            "Eșantionare stratificată, cu sexul drept criteriu",
+            "Eșantionare aleatorie simplă din toată populația",
+            "Repartizare aleatorie a studenților în două grupuri"
+          ],
+          "correct": 1,
+          "explain": "Stratificarea înseamnă clasificarea populației după un criteriu relevant (sex, vârstă, ocupație) și extragerea câte unui eșantion aleatoriu simplu din fiecare strat. Nu se folosește un pas, nu se extrage din lista întreagă, iar repartizarea în grupuri privește subiecți deja selectați.",
+          "tag": "Eșantionare stratificată",
+          "tip": "metoda"
+        },
+        {
+          "q": "Un cercetător a testat 50 de copii și are scorurile lor la un test de inteligență; despre toți copiii din oraș nu are date. Ce statut au cele două distribuții?",
+          "opts": [
+            "A celor 50: empirică și cunoscută; a orașului: empirică, necunoscută",
+            "A celor 50: teoretică; a orașului: empirică și deja cunoscută",
+            "Amândouă sunt teoretice, fiindcă provin din aceeași populație",
+            "A celor 50: empirică; a orașului: teoretică, deci deductibilă"
+          ],
+          "correct": 0,
+          "explain": "Distribuția eșantionului există și e cunoscută (cercetătorul a strâns datele). Distribuția populației există în realitate, dar e necunoscută. Distribuția teoretică, ale cărei proprietăți se deduc din legile probabilității, e distribuția de eșantionare, nu cea a populației.",
+          "tag": "Trei distribuții",
+          "tip": "concept"
+        },
+        {
+          "q": "Imaginează-ți că dintr-un județ se extrag toate eșantioanele aleatorii posibile de câte 25 de elevi, se calculează media notelor în fiecare și se face distribuția acestor medii. Ce s-a obținut?",
+          "opts": [
+            "Distribuția notelor tuturor elevilor din județ",
+            "Distribuția notelor dintr-un eșantion de 25 de elevi",
+            "Distribuția de eșantionare a mediilor pentru n = 25",
+            "Distribuția normală standard a notelor individuale"
+          ],
+          "correct": 2,
+          "explain": "Fiecare observație din această distribuție e o medie de eșantion, nu o notă: media devine ea însăși o variabilă. Distribuția notelor din județ e cea a populației, iar cea dintr-un singur eșantion e o distribuție empirică de 25 de scoruri.",
+          "tag": "Distribuția de eșantionare a mediilor",
+          "tip": "concept"
+        },
+        {
+          "q": "O populație are μ = 50 și σ = 10. Se iau toate eșantioanele aleatorii posibile de n = 25 și se calculează media fiecăruia. Cât este media acestor medii?",
+          "opts": [
+            "2, adică σ împărțit la √n",
+            "10, adică abaterea standard σ",
+            "50, adică exact media populației",
+            "0,4, adică σ împărțit la n"
+          ],
+          "correct": 2,
+          "explain": "Prima proprietate din teorema limitei centrale: media distribuției de eșantionare a mediilor este egală cu μ. Valoarea 2 (σ/√n) e abaterea standard a acestei distribuții, nu media ei.",
+          "tag": "Media distribuției de eșantionare",
+          "tip": "calcul"
+        }
+      ],
+      "ascunse": [
+        {
+          "q": "O populație are μ = 50 și σ = 10. Se iau toate eșantioanele aleatorii posibile de n = 25. Cât este abaterea standard a distribuției mediilor lor?",
+          "opts": [
+            "2",
+            "10",
+            "0,4",
+            "50"
+          ],
+          "correct": 0,
+          "explain": "Abaterea standard a distribuției de eșantionare a mediilor este σ/√n = 10/√25 = 10/5 = 2. Valoarea 10 e σ (abaterea scorurilor individuale), 0,4 ar însemna împărțirea la n în loc de √n, iar 50 e media.",
+          "tag": "Abaterea standard a mediilor",
+          "tip": "calcul"
+        },
+        {
+          "q": "O firmă chestionează 120 de angajați aleși aleatoriu dintre cei 6000 și obține media 3,8 la satisfacția în muncă. Cu ea estimează media tuturor celor 6000. Cum se numesc cele două mărimi?",
+          "opts": [
+            "3,8 e o statistică; media celor 6000 e un parametru",
+            "3,8 e un parametru; media celor 6000 e o statistică",
+            "Amândouă sunt parametri, fiindcă privesc aceeași firmă",
+            "Amândouă sunt statistici, fiindcă sunt medii aritmetice"
+          ],
+          "correct": 0,
+          "explain": "Mărimile calculate pentru populații se numesc parametri, iar cele calculate pentru eșantioane se numesc statistici. Inversarea termenilor e greșeala tentantă: valoarea cunoscută (3,8) vine din eșantion, deci e statistică.",
+          "tag": "Statistici",
+          "tip": "concept"
+        },
+        {
+          "q": "O variabilă are în populație o distribuție riguros normală. Un cercetător lucrează cu eșantioane foarte mici, de n = 4. Ce formă are distribuția de eșantionare a mediilor?",
+          "opts": [
+            "Asimetrică, fiindcă n e sub 30",
+            "Uniformă, fiindcă n e foarte mic",
+            "Normală doar de la n = 100 în sus",
+            "Normală, oricât de mic ar fi n"
+          ],
+          "correct": 3,
+          "explain": "Dacă populația e riguros normală, distribuția mediilor e normală indiferent de dimensiunea eșantionului. Pragurile de tipul n ≥ 100 privesc populațiile asimetrice (de pildă veniturile), unde normalitatea apare doar pe măsură ce n crește.",
+          "tag": "Forma distribuției de eșantionare",
+          "tip": "concept"
+        },
+        {
+          "q": "Un cercetător studiază anxietatea studenților folosind doar voluntarii care au răspuns la un anunț postat pe o rețea socială. Ce concluzii poate trage?",
+          "opts": [
+            "Despre toți studenții, dacă voluntarii sunt numeroși",
+            "Doar despre acești voluntari, nu despre toți studenții",
+            "Despre toți studenții, dacă le calculează media corect",
+            "Despre niciun grup, fiindcă datele nu pot fi descrise"
+          ],
+          "correct": 1,
+          "explain": "Eșantioanele nealeatorii se alcătuiesc ușor, dar permit concluzii doar despre eșantion, nu despre populație. Numărul mare de voluntari nu compensează lipsa selecției aleatorii; iar datele pot fi descrise foarte bine, doar că nu pot fi generalizate.",
+          "tag": "Eșantioane nealeatorii",
+          "tip": "principiu"
+        },
+        {
+          "q": "La un test, populația are μ = 100 și σ = 15. Un eșantion aleatoriu de 25 de persoane are media 106. Cât este scorul Z al acestei medii în distribuția de eșantionare?",
+          "opts": [
+            "Z = 0,4",
+            "Z = 6",
+            "Z = 2",
+            "Z = 0,08"
+          ],
+          "correct": 2,
+          "explain": "Abaterea standard a mediilor e σ/√n = 15/5 = 3, deci Z = (106 − 100)/3 = 2. Z = 0,4 apare dacă se împarte la σ, ca la un scor individual (Cap. 5 (Distribuția normală)); 6 e doar diferența, nestandardizată.",
+          "tag": "Scorul Z al unei medii",
+          "tip": "calcul"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "eticheta": "Runda 3 · Aplicații",
+      "titlu": "Runda 3 — Scenarii și raționament",
+      "desc": "Situații cu mai mulți pași: calculezi probabilități pentru medii, judeci procedee de eșantionare și inferențe.",
+      "intrebari": [
+        {
+          "q": "O caracteristică aproximativ normală are în populație μ = 117 și σ = 14. Se extrage aleatoriu un eșantion de 36 de persoane. Care e probabilitatea ca media eșantionului să fie între 115 și 120?",
+          "opts": [
+            "circa 14%",
+            "circa 40%",
+            "circa 30%",
+            "circa 70%"
+          ],
+          "correct": 3,
+          "explain": "Abaterea standard a mediilor e 14/√36 ≈ 2,33; 115 și 120 cad la Z ≈ −0,86 și Z ≈ +1,29, de o parte și de alta a mediei, deci ariile de la medie se adună: ≈ 0,30 + 0,40 ≈ 0,70 (în exemplul tipărit, cu 2,34: 0,3023 + 0,3997 = 0,7020). Cu σ = 14, ca pentru un scor individual, ar ieși doar ≈ 14%. 40% și 30% sunt câte o singură arie din cele două.",
+          "tag": "Aria între două medii",
+          "tip": "calcul",
+          "exemplu_nou": false
+        },
+        {
+          "q": "Pentru un test, populația are μ = 80 și σ = 12. Se extrage aleatoriu un eșantion de 16 persoane. Ce probabilitate are media lui să depășească 86? (Aria de la medie: 0,1915 pentru Z = 0,5; 0,4772 pentru Z = 2.)",
+          "opts": [
+            "Circa 47,7%",
+            "Circa 2,3%",
+            "Circa 30,9%",
+            "Circa 97,7%"
+          ],
+          "correct": 1,
+          "explain": "σ/√n = 12/4 = 3, deci Z = (86 − 80)/3 = 2; aria de peste 86 e 0,5000 − 0,4772 = 0,0228. 47,7% e aria dintre medie și 86, nescăzută din 0,5; 30,9% ar fi răspunsul pentru un scor individual (Z = 0,5); 97,7% e aria de sub 86.",
+          "tag": "Aria peste o medie",
+          "tip": "calcul",
+          "exemplu_nou": true
+        },
+        {
+          "q": "Veniturile lunare dintr-un oraș au o distribuție puternic asimetrică la dreapta, cu μ = 3000 lei și σ = 1500 lei. Se iau eșantioane aleatorii de 225 de persoane. Ce se poate spune despre distribuția mediilor lor?",
+          "opts": [
+            "Aproape normală, cu media 3000 și abaterea standard 100",
+            "Asimetrică la dreapta, cu media 3000 și abaterea standard 100",
+            "Aproape normală, cu media 3000 și abaterea standard 1500",
+            "Nu se știe nimic, până nu se află forma exactă a populației"
+          ],
+          "correct": 0,
+          "explain": "Teorema limitei centrale: pentru eșantioane mari, distribuția mediilor e aproximativ normală indiferent de forma populației (pentru venituri, cam de la n ≥ 100). Media ei e μ = 3000, abaterea standard σ/√n = 1500/15 = 100. Varianta asimetrică importă forma populației; 1500 e abaterea scorurilor individuale.",
+          "tag": "Populații asimetrice",
+          "tip": "model",
+          "exemplu_nou": true
+        },
+        {
+          "q": "Un cercetător lucrează cu o variabilă cu σ = 20 și mărește eșantionul de la n = 25 la n = 100. Ce se întâmplă cu abaterea standard a distribuției mediilor?",
+          "opts": [
+            "Scade de la 4 la 1, adică devine de 4 ori mai mică",
+            "Rămâne 20, pentru că populația nu s-a schimbat",
+            "Scade de la 4 la 2, adică se înjumătățește",
+            "Scade de la 0,8 la 0,2, adică de 4 ori mai mică"
+          ],
+          "correct": 2,
+          "explain": "σ/√25 = 20/5 = 4, iar σ/√100 = 20/10 = 2: de patru ori mai multe cazuri reduc abaterea standard a mediilor doar de două ori, din cauza radicalului. Varianta „de 4 ori” uită radicalul; 0,8 și 0,2 împart la n; 20 rămâne doar abaterea scorurilor individuale.",
+          "tag": "Abaterea standard a mediilor",
+          "tip": "calcul",
+          "exemplu_nou": true
+        },
+        {
+          "q": "La un test aproximativ normal, populația are μ = 100 și σ = 15. Ce e mai probabil: ca un elev ales aleatoriu să aibă peste 110, sau ca media unui eșantion aleatoriu de 25 de elevi să fie peste 110?",
+          "opts": [
+            "La fel de probabil, pentru că elevii și mediile vin din aceeași populație",
+            "Mult mai probabil la elevul singur (≈ 25%) decât la medie (sub 0,1%)",
+            "Mai probabil la medie, pentru că 25 de elevi reprezintă mai bine",
+            "Nu se pot compara fără forma exactă a distribuției mediilor"
+          ],
+          "correct": 1,
+          "explain": "Pentru un scor: Z = 10/15 ≈ 0,67, deci ≈ 25% peste 110. Pentru o medie: σ/√n = 3, Z = 10/3 ≈ 3,33, deci sub 0,1%. Mediile se adună strâns în jurul lui μ, așa că o medie departe de μ e rară. Reprezentativitatea face tocmai depărtarea mediei de μ improbabilă; iar forma distribuției mediilor e dată de teoremă.",
+          "tag": "Medie vs scor individual",
+          "tip": "fenomen",
+          "exemplu_nou": true
+        },
+        {
+          "q": "Lista angajaților unei firme e ordonată pe echipe de câte 10: întâi șeful echipei, apoi cei 9 membri. Cercetătorul aplică eșantionarea sistematică cu K = 10 și primul caz tras la sorți e 1. Ce problemă apare?",
+          "opts": [
+            "Niciuna, pentru că primul caz a fost tras la sorți, deci totul e corect",
+            "Ia doar șefi, pentru că lista nu a fost alcătuită la întâmplare",
+            "Pasul K = 10 e prea mic și trebuia rotunjit în sus, la 11",
+            "Selecția devine cu înlocuire, deci pierde independența"
+          ],
+          "correct": 1,
+          "explain": "La eșantionarea sistematică, caracterul aleatoriu e asigurat de alcătuirea întâmplătoare a listei. Când lista are o ordine care se repetă din K în K, fiecare al 10-lea caz e mereu același tip de persoană. Tragerea la sorți a primului caz nu repară asta; nici schimbarea pasului sau a tipului de selecție nu e problema.",
+          "tag": "Caracter cvasialeatoriu",
+          "tip": "eroare",
+          "exemplu_nou": true
+        },
+        {
+          "q": "Un cercetător bănuiește că anxietatea față de examene diferă mult după anul de studiu și vrea ca fiecare an să fie prins în eșantion, cu date aleatorii despre fiecare. Ce procedeu i se potrivește?",
+          "opts": [
+            "Ia fiecare al K-lea student dintr-o listă ordonată pe ani de studiu",
+            "Extrage aleatoriu simplu din toți, cu un n cât mai mare cu putință",
+            "Cere voluntari din fiecare an, câte unul pentru fiecare grupă",
+            "Împarte studenții pe ani și extrage aleatoriu simplu din fiecare an"
+          ],
+          "correct": 3,
+          "explain": "Eșantionarea stratificată clasifică populația după un criteriu relevant (aici anul de studiu) și extrage eșantioane aleatorii simple din fiecare strat, crescând informația despre populație. Un n mare la eșantionarea simplă face probabilă, dar nu garantată, prezența fiecărui an; voluntarii nu formează eșantioane aleatorii.",
+          "tag": "Eșantionare stratificată",
+          "tip": "metoda",
+          "exemplu_nou": true
+        },
+        {
+          "q": "O populație are 350 de membri, numerotați 001–350. Cercetătorul citește ultimele trei cifre ale numerelor din tabel, în jos pe o coloană: 48213, 90567, 11284, 30742, 66311, 52284, 07519, 23033. Ce eșantion de 4 obține?",
+          "opts": [
+            "213, 567, 284, 742",
+            "213, 284, 311, 033",
+            "213, 284, 311, 284",
+            "482, 905, 112, 307"
+          ],
+          "correct": 1,
+          "explain": "Ultimele trei cifre sunt 213, 567, 284, 742, 311, 284, 519, 033. Se ignoră cele peste 350 (567, 742, 519) și repetarea lui 284, deci rămân 213, 284, 311, 033. Celelalte variante păstrează numerele prea mari, păstrează repetarea sau citesc primele trei cifre în loc de ultimele.",
+          "tag": "Tabelul cu numere aleatorii",
+          "tip": "metoda",
+          "exemplu_nou": true
+        },
+        {
+          "q": "Un cercetător spune: „Nu voi putea obține niciodată mediile tuturor eșantioanelor posibile de 100 de persoane, deci distribuția lor îmi e la fel de necunoscută ca populația.” Unde greșește?",
+          "opts": [
+            "Forma, media și abaterea ei standard se deduc din legile probabilității",
+            "Nu greșește: o distribuție teoretică nu poate fi cunoscută în niciun fel",
+            "O poate obține empiric dacă repetă studiul de vreo 30 de ori",
+            "E cunoscută doar dacă distribuția eșantionului lui e normală"
+          ],
+          "correct": 0,
+          "explain": "Distribuția de eșantionare e non-empirică (nu se obține în realitate), dar proprietățile ei se cunosc exact: teorema limitei centrale îi dă media (μ), abaterea standard (σ/√n) și forma. 30 de repetări n-ar da toate eșantioanele posibile, iar forma eșantionului propriu nu decide aici.",
+          "tag": "Trei distribuții",
+          "tip": "principiu",
+          "exemplu_nou": true
+        },
+        {
+          "q": "O variabilă aproximativ normală are μ = 60 și σ = 7. Se extrage un eșantion aleatoriu de 49 de persoane. Ce probabilitate are media lui să difere de 60 cu mai mult de 2 puncte, în oricare direcție? (Aria de la medie pentru Z = 2: 0,4772.)",
+          "opts": [
+            "Circa 4,6%",
+            "Circa 2,3%",
+            "Circa 95,4%",
+            "Circa 77,5%"
+          ],
+          "correct": 0,
+          "explain": "σ/√n = 7/7 = 1, deci 58 și 62 sunt la Z = ±2. Între ele: 2 · 0,4772 = 0,9544; în afara lor: 1 − 0,9544 = 0,0456. 2,3% e doar o coadă, 95,4% e aria dintre ele, iar 77,5% ar fi răspunsul pentru un scor individual (σ = 7).",
+          "tag": "Aria între două medii",
+          "tip": "calcul",
+          "exemplu_nou": true
+        },
+        {
+          "q": "O cercetătoare vrea să afle media anxietății tuturor studenților din anul I din țară. Extrage aleatoriu 200 de studenți și obține media 42. Cum ajunge de la 42 la o concluzie despre toți studenții?",
+          "opts": [
+            "Declară că media tuturor e exact 42, eșantionul fiind aleatoriu",
+            "Mai extrage 200 de studenți și consideră media celor două medii",
+            "Plasează 42 în distribuția de eșantionare și infereză cu probabilități",
+            "Folosește distribuția celor 200 de scoruri ca distribuție a mediilor"
+          ],
+          "correct": 2,
+          "explain": "Strategia inferențială: populație (parametri) → selecție aleatorie → eșantion (statistici) → pe baza distribuției de eșantionare a statisticii și a legilor probabilității se infereză parametrul. Selecția aleatorie nu garantează că X̄ = μ exact; o a doua medie nu schimbă logica; distribuția scorurilor din eșantion nu e distribuția mediilor.",
+          "tag": "Schema inferenței",
+          "tip": "model",
+          "exemplu_nou": true
+        },
+        {
+          "q": "Un eșantion aleatoriu simplu de 500 de alegători iese cu 58% femei, deși în populație sunt 52%. Un coleg spune că procedura de selecție a fost sigur greșită. Ce răspuns are sens?",
+          "opts": [
+            "Da: un eșantion aleatoriu corect reproduce exact proporțiile populației",
+            "Da: trebuia eșantionarea sistematică, singura care garantează proporțiile",
+            "Nu: la 500 de persoane orice diferență față de populație e imposibilă",
+            "Nu neapărat: selecția aleatorie face reprezentativitatea probabilă, nu sigură"
+          ],
+          "correct": 3,
+          "explain": "Selecția aleatorie e condiție necesară pentru eșantioane reprezentative, dar nici cea mai bună procedură nu garantează 100% o imagine exactă a populației; probabilitatea erorilor de reprezentativitate se poate însă determina. Niciun procedeu nu garantează proporțiile, iar un n mare face abaterile mici probabile, nu imposibile.",
+          "tag": "Reprezentativitate",
+          "tip": "principiu",
+          "exemplu_nou": true
+        },
+        {
+          "q": "Un cercetător extrage 10 persoane dintr-o populație de 1000 și ignoră numerele care se repetă în tabel. Un coleg obiectează că selecția nu mai e riguros aleatorie. Cine are dreptate și cât contează?",
+          "opts": [
+            "Cercetătorul: ignorând repetările, probabilitatea rămâne 1/1000",
+            "Colegul, iar rezultatele trebuie aruncate și selecția reluată",
+            "Colegul, riguros vorbind, dar efectul e neglijabil la un eșantion mic",
+            "Niciunul: fără înlocuire, probabilitatea de selecție scade mereu"
+          ],
+          "correct": 2,
+          "explain": "Ignorarea repetărilor înseamnă selecție fără înlocuire: probabilitățile devin 1/1000, 1/999, 1/998…, ceea ce, strict, afectează caracterul aleatoriu. Când eșantionul e mic față de populație, șansa unei repetări e foarte mică, deci efectul e neglijabil. Probabilitatea constantă e a selecției cu înlocuire; iar fără înlocuire ea crește, nu scade.",
+          "tag": "Selecție fără înlocuire",
+          "tip": "principiu",
+          "exemplu_nou": true
+        },
+        {
+          "q": "Un cercetător are doar 8 persoane dintr-o populație cu o variabilă puternic asimetrică și vrea să calculeze probabilitatea mediei lor cu scorurile Z ale distribuției normale. Cum îi evaluezi decizia?",
+          "opts": [
+            "Corectă: teorema spune că mediile sunt normale oricare ar fi n-ul",
+            "Corectă: media mediilor e μ, deci forma distribuției nu contează",
+            "Riscantă: la n atât de mic, mediile pot păstra asimetria populației",
+            "Greșită: scorurile Z nu se aplică niciodată mediilor eșantioanelor"
+          ],
+          "correct": 2,
+          "explain": "Teorema limitei centrale spune că forma distribuției mediilor aproximează normalitatea cu atât mai bine cu cât n e mai mare; pentru o variabilă puternic asimetrică, n = 8 nu ajunge. Egalitatea mediei cu μ nu spune nimic despre formă, iar scorurile Z se aplică mediilor când distribuția lor e aproximativ normală.",
+          "tag": "Forma distribuției de eșantionare",
+          "tip": "model",
+          "exemplu_nou": true
+        },
+        {
+          "q": "Pentru vârstele dintr-o țară cât România, se extrag (cu înlocuire) toate eșantioanele posibile de 100 de persoane și se face histograma distribuției de eșantionare a mediei. Ce reprezintă fiecare observație din histogramă?",
+          "opts": [
+            "Media vârstelor unui eșantion de 100 de persoane",
+            "Vârsta unei singure persoane din populația întregii țări",
+            "Numărul persoanelor de o anumită vârstă",
+            "Abaterea standard a unui eșantion de 100"
+          ],
+          "correct": 0,
+          "explain": "Aici media devine ea însăși o variabilă, ale cărei valori sunt mediile tuturor eșantioanelor posibile de dimensiune constantă n. Vârstele individuale formează distribuția populației (sau a unui eșantion), iar frecvențele pe vârste țin de distribuțiile de frecvențe din Cap. 2 (Prezentarea datelor statistice).",
+          "tag": "Media ca variabilă",
+          "tip": "concept",
+          "exemplu_nou": false
+        }
+      ],
+      "ascunse": [
+        {
+          "q": "O variabilă are σ = 18. Un cercetător vrea ca abaterea standard a distribuției mediilor să fie 2. Câte persoane trebuie să aibă eșantionul?",
+          "opts": [
+            "9",
+            "81",
+            "36",
+            "162"
+          ],
+          "correct": 1,
+          "explain": "σ/√n = 2 ⇒ √n = 18/2 = 9 ⇒ n = 81. 9 e radicalul, nu n; 36 vine din 18 · 2; 162 din 18²/2.",
+          "tag": "Abaterea standard a mediilor",
+          "tip": "calcul",
+          "exemplu_nou": true
+        },
+        {
+          "q": "O variabilă normală are μ = 50 și σ = 8. Se extrage un eșantion aleatoriu de 16 persoane. Ce probabilitate are media lui să fie între 48 și 54? (Aria de la medie: 0,3413 pentru Z = 1; 0,4772 pentru Z = 2; 0,0987 pentru Z = 0,25; 0,1915 pentru Z = 0,5.)",
+          "opts": [
+            "0,1359",
+            "0,2902",
+            "0,8185",
+            "0,9772"
+          ],
+          "correct": 2,
+          "explain": "σ/√n = 8/4 = 2, deci 48 e la Z = −1 și 54 la Z = +2. Fiind de o parte și de alta a mediei, ariile se adună: 0,3413 + 0,4772 = 0,8185. 0,1359 le scade, ca și cum ar fi de aceeași parte; 0,2902 folosește σ ca la scoruri individuale; 0,9772 e aria de sub 54.",
+          "tag": "Aria între două medii",
+          "tip": "calcul",
+          "exemplu_nou": true
+        },
+        {
+          "q": "Dintr-o listă de 12 000 de pacienți se alcătuiește un eșantion sistematic de 400. Tragerea la sorți dintre primele K cazuri a dat cazul 18. Care e ultimul caz inclus în eșantion?",
+          "opts": [
+            "11 988",
+            "12 000",
+            "12 018",
+            "11 958"
+          ],
+          "correct": 0,
+          "explain": "K = 12 000 / 400 = 30. Cazurile sunt 18, 48, 78, …, adică 18 + 30 · (k − 1); al 400-lea e 18 + 30 · 399 = 11 988. 12 018 adaugă un pas în plus (ar ieși din listă), 12 000 ignoră startul, iar 11 958 e al 399-lea caz.",
+          "tag": "Pasul de numărare K",
+          "tip": "calcul",
+          "exemplu_nou": true
+        },
+        {
+          "q": "O firmă de sondare raportează: „În eșantionul nostru aleatoriu de clienți, media satisfacției este 7,1.” Un jurnalist scrie: „Media satisfacției tuturor clienților este 7,1.” Ce a făcut jurnalistul?",
+          "opts": [
+            "A tratat o statistică drept parametru, fără inferență probabilistică",
+            "Nimic greșit: eșantionul aleatoriu reproduce exact media populației",
+            "A tratat un parametru drept statistică, inversând cele două mărimi",
+            "A confundat media cu abaterea standard a distribuției mediilor"
+          ],
+          "correct": 0,
+          "explain": "7,1 e o statistică (a eșantionului); media tuturor clienților e un parametru, care se infereză cu o anumită probabilitate, prin distribuția de eșantionare, nu se preia ca atare. Inversarea termenilor e greșeala vecină: aici parametrul e necunoscut, nu raportat.",
+          "tag": "Parametri",
+          "tip": "concept",
+          "exemplu_nou": true
+        },
+        {
+          "q": "Două cercetătoare studiază aceeași variabilă aproximativ normală, cu σ = 10. Ana ia eșantioane de 25 de persoane, Bianca de 100. Care are șanse mai mari ca media eșantionului ei să cadă la cel mult 1 punct de μ?",
+          "opts": [
+            "Ana: eșantioanele mici variază mai mult, deci prind μ",
+            "La fel: ambele eșantioane sunt aleatorii, cu media μ",
+            "Nu se poate spune fără să se știe valoarea lui μ",
+            "Bianca: circa 68%, față de circa 38% la Ana"
+          ],
+          "correct": 3,
+          "explain": "La Ana, σ/√n = 2, deci ±1 punct înseamnă Z = ±0,5 (≈ 38%); la Bianca, σ/√n = 1, deci Z = ±1 (≈ 68%). Media μ e aceeași pentru ambele distribuții, dar cea a Biancăi e mai strânsă. Variabilitatea mai mare îndepărtează mediile de μ, nu le apropie; valoarea lui μ nu contează, doar distanța în unități σ/√n.",
+          "tag": "Scorul Z al unei medii",
+          "tip": "calcul",
+          "exemplu_nou": true
+        }
+      ]
+    }
+  ],
+  "harta": {
+    "centru": "Eșantionarea și distribuții de eșantionare",
+    "ramuri": [
+      {
+        "titlu": "Eșantionul aleatoriu și inferența",
+        "noduri": [
+          {
+            "t": "Statistici inferențiale",
+            "d": "Trag concluzii despre caracteristicile unei populații pe baza caracteristicilor corespunzătoare ale unui eșantion din ea. Cer ca eșantioanele să fie selectate aleatoriu."
+          },
+          {
+            "t": "Eșantion aleatoriu",
+            "d": "Fiecare caz din populație are aceeași probabilitate de a fi selectat ca oricare altul, iar selectarea fiecărui caz e independentă de a celorlalte. La 1000 de membri: 1/1000 pentru fiecare."
+          },
+          {
+            "t": "Aleatoriu ≠ întâmplător",
+            "d": "„Aleatoriu” e un termen tehnic (lat. alea, joc cu zaruri): eșantionul se alcătuiește printr-un proces de selecție precis, nu „la întâmplare”. Persoanele întâlnite într-un supermagazin nu formează un eșantion aleatoriu."
+          },
+          {
+            "t": "Eșantioane nealeatorii",
+            "d": "Se alcătuiesc foarte ușor, dar permit concluzii doar despre eșantion, nu despre populație."
+          },
+          {
+            "t": "Reprezentativitate",
+            "d": "Selecția aleatorie e condiție necesară pentru eșantioane reprezentative, dar nu garantează 100% o imagine exactă a populației. Probabilitatea ca eșantioanele aleatorii să fie reprezentative e foarte mare, iar probabilitatea erorilor de reprezentativitate se poate determina precis."
+          }
+        ]
+      },
+      {
+        "titlu": "Eșantionarea aleatorie simplă",
+        "figuri": [
+          {
+            "titlu": "Repartizarea aleatorie în trei grupuri",
+            "nota": "Numerele atribuite celor 15 subiecți sunt cele din exemplul unității. Aplicând regula, M (83) intră în grupul 3; în tabelul tipărit apare la grupul 2, ceea ce ar da grupe de 6 și 4.",
+            "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 140\" role=\"img\" aria-label=\"Cincisprezece subiecți ordonați după numărul aleatoriu primit, împărțiți în trei grupuri\" font-family=\"Georgia, serif\" font-size=\"13\"><text x=\"160.0\" y=\"16.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.8\">subiecții, în ordinea crescătoare a numerelor primite</text><rect x=\"14.0\" y=\"40.0\" width=\"16.0\" height=\"22.0\" fill=\"#2a78d6\" fill-opacity=\"0.85\"><title>subiectul C: 08</title></rect><text x=\"22.0\" y=\"55.5\" text-anchor=\"middle\" fill=\"#ffffff\" font-size=\"10.8\">C</text><text x=\"22.0\" y=\"76.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.2\">08</text><rect x=\"33.6\" y=\"40.0\" width=\"16.0\" height=\"22.0\" fill=\"#2a78d6\" fill-opacity=\"0.85\"><title>subiectul D: 09</title></rect><text x=\"41.6\" y=\"55.5\" text-anchor=\"middle\" fill=\"#ffffff\" font-size=\"10.8\">D</text><text x=\"41.6\" y=\"76.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.2\">09</text><rect x=\"53.2\" y=\"40.0\" width=\"16.0\" height=\"22.0\" fill=\"#2a78d6\" fill-opacity=\"0.85\"><title>subiectul A: 10</title></rect><text x=\"61.2\" y=\"55.5\" text-anchor=\"middle\" fill=\"#ffffff\" font-size=\"10.8\">A</text><text x=\"61.2\" y=\"76.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.2\">10</text><rect x=\"72.8\" y=\"40.0\" width=\"16.0\" height=\"22.0\" fill=\"#2a78d6\" fill-opacity=\"0.85\"><title>subiectul L: 11</title></rect><text x=\"80.8\" y=\"55.5\" text-anchor=\"middle\" fill=\"#ffffff\" font-size=\"10.8\">L</text><text x=\"80.8\" y=\"76.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.2\">11</text><rect x=\"92.4\" y=\"40.0\" width=\"16.0\" height=\"22.0\" fill=\"#2a78d6\" fill-opacity=\"0.85\"><title>subiectul E: 12</title></rect><text x=\"100.4\" y=\"55.5\" text-anchor=\"middle\" fill=\"#ffffff\" font-size=\"10.8\">E</text><text x=\"100.4\" y=\"76.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.2\">12</text><rect x=\"112.0\" y=\"40.0\" width=\"16.0\" height=\"22.0\" fill=\"#eb6834\" fill-opacity=\"0.85\"><title>subiectul G: 31</title></rect><text x=\"120.0\" y=\"55.5\" text-anchor=\"middle\" fill=\"#ffffff\" font-size=\"10.8\">G</text><text x=\"120.0\" y=\"76.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.2\">31</text><rect x=\"131.6\" y=\"40.0\" width=\"16.0\" height=\"22.0\" fill=\"#eb6834\" fill-opacity=\"0.85\"><title>subiectul B: 37</title></rect><text x=\"139.6\" y=\"55.5\" text-anchor=\"middle\" fill=\"#ffffff\" font-size=\"10.8\">B</text><text x=\"139.6\" y=\"76.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.2\">37</text><rect x=\"151.2\" y=\"40.0\" width=\"16.0\" height=\"22.0\" fill=\"#eb6834\" fill-opacity=\"0.85\"><title>subiectul I: 63</title></rect><text x=\"159.2\" y=\"55.5\" text-anchor=\"middle\" fill=\"#ffffff\" font-size=\"10.8\">I</text><text x=\"159.2\" y=\"76.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.2\">63</text><rect x=\"170.8\" y=\"40.0\" width=\"16.0\" height=\"22.0\" fill=\"#eb6834\" fill-opacity=\"0.85\"><title>subiectul F: 66</title></rect><text x=\"178.8\" y=\"55.5\" text-anchor=\"middle\" fill=\"#ffffff\" font-size=\"10.8\">F</text><text x=\"178.8\" y=\"76.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.2\">66</text><rect x=\"190.4\" y=\"40.0\" width=\"16.0\" height=\"22.0\" fill=\"#eb6834\" fill-opacity=\"0.85\"><title>subiectul J: 73</title></rect><text x=\"198.4\" y=\"55.5\" text-anchor=\"middle\" fill=\"#ffffff\" font-size=\"10.8\">J</text><text x=\"198.4\" y=\"76.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.2\">73</text><rect x=\"210.0\" y=\"40.0\" width=\"16.0\" height=\"22.0\" fill=\"#1baf7a\" fill-opacity=\"0.85\"><title>subiectul M: 83</title></rect><text x=\"218.0\" y=\"55.5\" text-anchor=\"middle\" fill=\"#ffffff\" font-size=\"10.8\">M</text><text x=\"218.0\" y=\"76.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.2\">83</text><rect x=\"229.6\" y=\"40.0\" width=\"16.0\" height=\"22.0\" fill=\"#1baf7a\" fill-opacity=\"0.85\"><title>subiectul H: 85</title></rect><text x=\"237.6\" y=\"55.5\" text-anchor=\"middle\" fill=\"#ffffff\" font-size=\"10.8\">H</text><text x=\"237.6\" y=\"76.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.2\">85</text><rect x=\"249.2\" y=\"40.0\" width=\"16.0\" height=\"22.0\" fill=\"#1baf7a\" fill-opacity=\"0.85\"><title>subiectul N: 88</title></rect><text x=\"257.2\" y=\"55.5\" text-anchor=\"middle\" fill=\"#ffffff\" font-size=\"10.8\">N</text><text x=\"257.2\" y=\"76.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.2\">88</text><rect x=\"268.8\" y=\"40.0\" width=\"16.0\" height=\"22.0\" fill=\"#1baf7a\" fill-opacity=\"0.85\"><title>subiectul K: 98</title></rect><text x=\"276.8\" y=\"55.5\" text-anchor=\"middle\" fill=\"#ffffff\" font-size=\"10.8\">K</text><text x=\"276.8\" y=\"76.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.2\">98</text><rect x=\"288.4\" y=\"40.0\" width=\"16.0\" height=\"22.0\" fill=\"#1baf7a\" fill-opacity=\"0.85\"><title>subiectul O: 99</title></rect><text x=\"296.4\" y=\"55.5\" text-anchor=\"middle\" fill=\"#ffffff\" font-size=\"10.8\">O</text><text x=\"296.4\" y=\"76.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.2\">99</text><line x1=\"14.0\" y1=\"92.0\" x2=\"108.4\" y2=\"92.0\" stroke=\"#2a78d6\" stroke-width=\"1\"/><line x1=\"14.0\" y1=\"88.0\" x2=\"14.0\" y2=\"96.0\" stroke=\"#2a78d6\" stroke-width=\"1\"/><line x1=\"108.4\" y1=\"88.0\" x2=\"108.4\" y2=\"96.0\" stroke=\"#2a78d6\" stroke-width=\"1\"/><text x=\"61.2\" y=\"106.0\" text-anchor=\"middle\" fill=\"#2a78d6\" font-size=\"10.8\">grupul 1</text><line x1=\"112.0\" y1=\"92.0\" x2=\"206.4\" y2=\"92.0\" stroke=\"#eb6834\" stroke-width=\"1\"/><line x1=\"112.0\" y1=\"88.0\" x2=\"112.0\" y2=\"96.0\" stroke=\"#eb6834\" stroke-width=\"1\"/><line x1=\"206.4\" y1=\"88.0\" x2=\"206.4\" y2=\"96.0\" stroke=\"#eb6834\" stroke-width=\"1\"/><text x=\"159.2\" y=\"106.0\" text-anchor=\"middle\" fill=\"#eb6834\" font-size=\"10.8\">grupul 2</text><line x1=\"210.0\" y1=\"92.0\" x2=\"304.4\" y2=\"92.0\" stroke=\"#1baf7a\" stroke-width=\"1\"/><line x1=\"210.0\" y1=\"88.0\" x2=\"210.0\" y2=\"96.0\" stroke=\"#1baf7a\" stroke-width=\"1\"/><line x1=\"304.4\" y1=\"88.0\" x2=\"304.4\" y2=\"96.0\" stroke=\"#1baf7a\" stroke-width=\"1\"/><text x=\"257.2\" y=\"106.0\" text-anchor=\"middle\" fill=\"#1baf7a\" font-size=\"10.8\">grupul 3</text><text x=\"160.0\" y=\"130.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">primii 5 → grupul 1, următorii 5 → grupul 2, ultimii 5 → grupul 3</text></svg>"
+          }
+        ],
+        "noduri": [
+          {
+            "t": "Eșantionare aleatorie simplă",
+            "d": "Procedeul fundamental: fiecare caz are probabilitate egală de includere, iar selecțiile sunt independente."
+          },
+          {
+            "t": "Tabelul cu numere aleatorii",
+            "d": "Se numerotează populația (ex. 001–600 pentru N = 600, n = 20), se alege la întâmplare un rând și o coloană și se citesc numerele într-o direcție: doar ultimele trei cifre, se ignoră cele peste 600 și repetările, până la n cazuri. Tabelul se schimbă des: oamenii tind să pornească din același loc și să refacă același drum."
+          },
+          {
+            "t": "Selecție fără înlocuire",
+            "d": "Cazul ales iese din populație, deci probabilitatea crește: 1/1000, 1/999, 1/998… Ignorarea repetărilor implică acest tip de selecție; riguros, afectează caracterul aleatoriu, dar la eșantioane mici efectul e neglijabil."
+          },
+          {
+            "t": "Selecție cu înlocuire",
+            "d": "Cazul ales rămâne în populație, deci probabilitatea de selecție rămâne constantă pe tot parcursul."
+          },
+          {
+            "t": "Repartizarea aleatorie în grupuri",
+            "d": "Pentru un experiment (ex. 15 subiecți, 3 grupuri de 5): fiecare subiect primește un număr din tabel (ultimele două cifre), subiecții se ordonează crescător, primii 5 merg în grupul 1, următorii 5 în grupul 2, ultimii 5 în grupul 3. Merge pentru oricâte grupuri."
+          }
+        ]
+      },
+      {
+        "titlu": "Eșantionarea sistematică și stratificată",
+        "figuri": [
+          {
+            "titlu": "Eșantionarea sistematică: fiecare al K-lea caz",
+            "nota": "Exemplul unității: K = 10 000 / 300 = 33,3, rotunjit la 34; primul caz (5) se trage la sorți dintre primele 34.",
+            "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 144\" role=\"img\" aria-label=\"Lista populației cu fiecare al 34-lea caz selectat, începând de la cazul 5\" font-family=\"Georgia, serif\" font-size=\"13\"><line x1=\"20.0\" y1=\"60.0\" x2=\"300.0\" y2=\"60.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><line x1=\"20.0\" y1=\"57.0\" x2=\"20.0\" y2=\"63.0\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><line x1=\"21.9\" y1=\"57.0\" x2=\"21.9\" y2=\"63.0\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><line x1=\"23.8\" y1=\"57.0\" x2=\"23.8\" y2=\"63.0\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><line x1=\"25.6\" y1=\"57.0\" x2=\"25.6\" y2=\"63.0\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><line x1=\"27.5\" y1=\"57.0\" x2=\"27.5\" y2=\"63.0\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><line x1=\"29.4\" y1=\"57.0\" x2=\"29.4\" y2=\"63.0\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><line x1=\"31.3\" y1=\"57.0\" x2=\"31.3\" y2=\"63.0\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><line x1=\"33.2\" y1=\"57.0\" x2=\"33.2\" y2=\"63.0\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><line x1=\"35.0\" y1=\"57.0\" x2=\"35.0\" y2=\"63.0\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><line x1=\"36.9\" y1=\"55.5\" x2=\"36.9\" y2=\"64.5\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><line x1=\"38.8\" y1=\"57.0\" x2=\"38.8\" y2=\"63.0\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><line x1=\"40.7\" y1=\"57.0\" x2=\"40.7\" y2=\"63.0\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><line x1=\"42.6\" y1=\"57.0\" x2=\"42.6\" y2=\"63.0\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><line x1=\"44.4\" y1=\"57.0\" x2=\"44.4\" y2=\"63.0\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><line x1=\"46.3\" y1=\"57.0\" x2=\"46.3\" y2=\"63.0\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><line x1=\"48.2\" y1=\"57.0\" x2=\"48.2\" y2=\"63.0\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><line x1=\"50.1\" y1=\"57.0\" x2=\"50.1\" y2=\"63.0\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><line x1=\"51.9\" y1=\"57.0\" x2=\"51.9\" y2=\"63.0\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><line x1=\"53.8\" y1=\"57.0\" x2=\"53.8\" y2=\"63.0\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><line x1=\"55.7\" y1=\"55.5\" x2=\"55.7\" y2=\"64.5\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><line x1=\"57.6\" y1=\"57.0\" x2=\"57.6\" y2=\"63.0\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><line x1=\"59.5\" y1=\"57.0\" x2=\"59.5\" y2=\"63.0\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><line x1=\"61.3\" y1=\"57.0\" x2=\"61.3\" y2=\"63.0\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><line x1=\"63.2\" y1=\"57.0\" x2=\"63.2\" y2=\"63.0\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><line x1=\"65.1\" y1=\"57.0\" x2=\"65.1\" y2=\"63.0\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><line x1=\"67.0\" y1=\"57.0\" x2=\"67.0\" y2=\"63.0\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><line x1=\"68.9\" y1=\"57.0\" x2=\"68.9\" y2=\"63.0\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><line x1=\"70.7\" y1=\"57.0\" x2=\"70.7\" y2=\"63.0\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><line x1=\"72.6\" y1=\"57.0\" x2=\"72.6\" y2=\"63.0\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><line x1=\"74.5\" y1=\"55.5\" x2=\"74.5\" y2=\"64.5\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><line x1=\"76.4\" y1=\"57.0\" x2=\"76.4\" y2=\"63.0\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><line x1=\"78.3\" y1=\"57.0\" x2=\"78.3\" y2=\"63.0\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><line x1=\"80.1\" y1=\"57.0\" x2=\"80.1\" y2=\"63.0\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><line x1=\"82.0\" y1=\"57.0\" x2=\"82.0\" y2=\"63.0\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><line x1=\"83.9\" y1=\"57.0\" x2=\"83.9\" y2=\"63.0\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><line x1=\"85.8\" y1=\"57.0\" x2=\"85.8\" y2=\"63.0\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><line x1=\"87.7\" y1=\"57.0\" x2=\"87.7\" y2=\"63.0\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><line x1=\"89.5\" y1=\"57.0\" x2=\"89.5\" y2=\"63.0\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><line x1=\"91.4\" y1=\"57.0\" x2=\"91.4\" y2=\"63.0\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><line x1=\"93.3\" y1=\"55.5\" x2=\"93.3\" y2=\"64.5\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><line x1=\"95.2\" y1=\"57.0\" x2=\"95.2\" y2=\"63.0\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><line x1=\"97.0\" y1=\"57.0\" x2=\"97.0\" y2=\"63.0\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><line x1=\"98.9\" y1=\"57.0\" x2=\"98.9\" y2=\"63.0\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><line x1=\"100.8\" y1=\"57.0\" x2=\"100.8\" y2=\"63.0\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><line x1=\"102.7\" y1=\"57.0\" x2=\"102.7\" y2=\"63.0\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><line x1=\"104.6\" y1=\"57.0\" x2=\"104.6\" y2=\"63.0\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><line x1=\"106.4\" y1=\"57.0\" x2=\"106.4\" y2=\"63.0\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><line x1=\"108.3\" y1=\"57.0\" x2=\"108.3\" y2=\"63.0\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><line x1=\"110.2\" y1=\"57.0\" x2=\"110.2\" y2=\"63.0\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><line x1=\"112.1\" y1=\"55.5\" x2=\"112.1\" y2=\"64.5\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><line x1=\"114.0\" y1=\"57.0\" x2=\"114.0\" y2=\"63.0\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><line x1=\"115.8\" y1=\"57.0\" x2=\"115.8\" y2=\"63.0\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><line x1=\"117.7\" y1=\"57.0\" x2=\"117.7\" y2=\"63.0\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><line x1=\"119.6\" y1=\"57.0\" x2=\"119.6\" y2=\"63.0\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><line x1=\"121.5\" y1=\"57.0\" x2=\"121.5\" y2=\"63.0\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><line x1=\"123.4\" y1=\"57.0\" x2=\"123.4\" y2=\"63.0\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><line x1=\"125.2\" y1=\"57.0\" x2=\"125.2\" y2=\"63.0\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><line x1=\"127.1\" y1=\"57.0\" x2=\"127.1\" y2=\"63.0\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><line x1=\"129.0\" y1=\"57.0\" x2=\"129.0\" y2=\"63.0\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><line x1=\"130.9\" y1=\"55.5\" x2=\"130.9\" y2=\"64.5\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><line x1=\"132.8\" y1=\"57.0\" x2=\"132.8\" y2=\"63.0\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><line x1=\"134.6\" y1=\"57.0\" x2=\"134.6\" y2=\"63.0\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><line x1=\"136.5\" y1=\"57.0\" x2=\"136.5\" y2=\"63.0\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><line x1=\"138.4\" y1=\"57.0\" x2=\"138.4\" y2=\"63.0\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><line x1=\"140.3\" y1=\"57.0\" x2=\"140.3\" y2=\"63.0\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><line x1=\"142.1\" y1=\"57.0\" x2=\"142.1\" y2=\"63.0\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><line x1=\"144.0\" y1=\"57.0\" x2=\"144.0\" y2=\"63.0\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><line x1=\"145.9\" y1=\"57.0\" x2=\"145.9\" y2=\"63.0\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><line x1=\"147.8\" y1=\"57.0\" x2=\"147.8\" y2=\"63.0\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><line x1=\"149.7\" y1=\"55.5\" x2=\"149.7\" y2=\"64.5\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><line x1=\"151.5\" y1=\"57.0\" x2=\"151.5\" y2=\"63.0\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><line x1=\"153.4\" y1=\"57.0\" x2=\"153.4\" y2=\"63.0\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><line x1=\"155.3\" y1=\"57.0\" x2=\"155.3\" y2=\"63.0\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><line x1=\"157.2\" y1=\"57.0\" x2=\"157.2\" y2=\"63.0\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><line x1=\"159.1\" y1=\"57.0\" x2=\"159.1\" y2=\"63.0\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><line x1=\"160.9\" y1=\"57.0\" x2=\"160.9\" y2=\"63.0\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><line x1=\"162.8\" y1=\"57.0\" x2=\"162.8\" y2=\"63.0\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><line x1=\"164.7\" y1=\"57.0\" x2=\"164.7\" y2=\"63.0\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><line x1=\"166.6\" y1=\"57.0\" x2=\"166.6\" y2=\"63.0\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><line x1=\"168.5\" y1=\"55.5\" x2=\"168.5\" y2=\"64.5\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><line x1=\"170.3\" y1=\"57.0\" x2=\"170.3\" y2=\"63.0\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><line x1=\"172.2\" y1=\"57.0\" x2=\"172.2\" y2=\"63.0\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><line x1=\"174.1\" y1=\"57.0\" x2=\"174.1\" y2=\"63.0\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><line x1=\"176.0\" y1=\"57.0\" x2=\"176.0\" y2=\"63.0\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><line x1=\"177.9\" y1=\"57.0\" x2=\"177.9\" y2=\"63.0\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><line x1=\"179.7\" y1=\"57.0\" x2=\"179.7\" y2=\"63.0\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><line x1=\"181.6\" y1=\"57.0\" x2=\"181.6\" y2=\"63.0\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><line x1=\"183.5\" y1=\"57.0\" x2=\"183.5\" y2=\"63.0\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><line x1=\"185.4\" y1=\"57.0\" x2=\"185.4\" y2=\"63.0\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><line x1=\"187.2\" y1=\"55.5\" x2=\"187.2\" y2=\"64.5\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><line x1=\"189.1\" y1=\"57.0\" x2=\"189.1\" y2=\"63.0\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><line x1=\"191.0\" y1=\"57.0\" x2=\"191.0\" y2=\"63.0\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><line x1=\"192.9\" y1=\"57.0\" x2=\"192.9\" y2=\"63.0\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><line x1=\"194.8\" y1=\"57.0\" x2=\"194.8\" y2=\"63.0\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><line x1=\"196.6\" y1=\"57.0\" x2=\"196.6\" y2=\"63.0\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><line x1=\"198.5\" y1=\"57.0\" x2=\"198.5\" y2=\"63.0\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><line x1=\"200.4\" y1=\"57.0\" x2=\"200.4\" y2=\"63.0\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><line x1=\"202.3\" y1=\"57.0\" x2=\"202.3\" y2=\"63.0\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><line x1=\"204.2\" y1=\"57.0\" x2=\"204.2\" y2=\"63.0\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><line x1=\"206.0\" y1=\"55.5\" x2=\"206.0\" y2=\"64.5\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><line x1=\"207.9\" y1=\"57.0\" x2=\"207.9\" y2=\"63.0\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><line x1=\"209.8\" y1=\"57.0\" x2=\"209.8\" y2=\"63.0\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><line x1=\"211.7\" y1=\"57.0\" x2=\"211.7\" y2=\"63.0\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><line x1=\"213.6\" y1=\"57.0\" x2=\"213.6\" y2=\"63.0\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><line x1=\"215.4\" y1=\"57.0\" x2=\"215.4\" y2=\"63.0\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><line x1=\"217.3\" y1=\"57.0\" x2=\"217.3\" y2=\"63.0\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><line x1=\"219.2\" y1=\"57.0\" x2=\"219.2\" y2=\"63.0\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><line x1=\"221.1\" y1=\"57.0\" x2=\"221.1\" y2=\"63.0\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><line x1=\"223.0\" y1=\"57.0\" x2=\"223.0\" y2=\"63.0\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><line x1=\"224.8\" y1=\"55.5\" x2=\"224.8\" y2=\"64.5\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><line x1=\"226.7\" y1=\"57.0\" x2=\"226.7\" y2=\"63.0\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><line x1=\"228.6\" y1=\"57.0\" x2=\"228.6\" y2=\"63.0\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><line x1=\"230.5\" y1=\"57.0\" x2=\"230.5\" y2=\"63.0\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><line x1=\"232.3\" y1=\"57.0\" x2=\"232.3\" y2=\"63.0\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><line x1=\"234.2\" y1=\"57.0\" x2=\"234.2\" y2=\"63.0\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><line x1=\"236.1\" y1=\"57.0\" x2=\"236.1\" y2=\"63.0\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><line x1=\"238.0\" y1=\"57.0\" x2=\"238.0\" y2=\"63.0\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><line x1=\"239.9\" y1=\"57.0\" x2=\"239.9\" y2=\"63.0\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><line x1=\"241.7\" y1=\"57.0\" x2=\"241.7\" y2=\"63.0\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><line x1=\"243.6\" y1=\"55.5\" x2=\"243.6\" y2=\"64.5\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><line x1=\"245.5\" y1=\"57.0\" x2=\"245.5\" y2=\"63.0\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><line x1=\"247.4\" y1=\"57.0\" x2=\"247.4\" y2=\"63.0\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><line x1=\"249.3\" y1=\"57.0\" x2=\"249.3\" y2=\"63.0\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><line x1=\"251.1\" y1=\"57.0\" x2=\"251.1\" y2=\"63.0\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><line x1=\"253.0\" y1=\"57.0\" x2=\"253.0\" y2=\"63.0\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><line x1=\"254.9\" y1=\"57.0\" x2=\"254.9\" y2=\"63.0\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><line x1=\"256.8\" y1=\"57.0\" x2=\"256.8\" y2=\"63.0\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><line x1=\"258.7\" y1=\"57.0\" x2=\"258.7\" y2=\"63.0\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><line x1=\"260.5\" y1=\"57.0\" x2=\"260.5\" y2=\"63.0\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><line x1=\"262.4\" y1=\"55.5\" x2=\"262.4\" y2=\"64.5\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><line x1=\"264.3\" y1=\"57.0\" x2=\"264.3\" y2=\"63.0\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><line x1=\"266.2\" y1=\"57.0\" x2=\"266.2\" y2=\"63.0\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><line x1=\"268.1\" y1=\"57.0\" x2=\"268.1\" y2=\"63.0\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><line x1=\"269.9\" y1=\"57.0\" x2=\"269.9\" y2=\"63.0\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><line x1=\"271.8\" y1=\"57.0\" x2=\"271.8\" y2=\"63.0\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><line x1=\"273.7\" y1=\"57.0\" x2=\"273.7\" y2=\"63.0\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><line x1=\"275.6\" y1=\"57.0\" x2=\"275.6\" y2=\"63.0\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><line x1=\"277.4\" y1=\"57.0\" x2=\"277.4\" y2=\"63.0\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><line x1=\"279.3\" y1=\"57.0\" x2=\"279.3\" y2=\"63.0\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><line x1=\"281.2\" y1=\"55.5\" x2=\"281.2\" y2=\"64.5\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><line x1=\"283.1\" y1=\"57.0\" x2=\"283.1\" y2=\"63.0\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><line x1=\"285.0\" y1=\"57.0\" x2=\"285.0\" y2=\"63.0\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><line x1=\"286.8\" y1=\"57.0\" x2=\"286.8\" y2=\"63.0\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><line x1=\"288.7\" y1=\"57.0\" x2=\"288.7\" y2=\"63.0\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><line x1=\"290.6\" y1=\"57.0\" x2=\"290.6\" y2=\"63.0\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><line x1=\"292.5\" y1=\"57.0\" x2=\"292.5\" y2=\"63.0\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><line x1=\"294.4\" y1=\"57.0\" x2=\"294.4\" y2=\"63.0\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><line x1=\"296.2\" y1=\"57.0\" x2=\"296.2\" y2=\"63.0\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><line x1=\"298.1\" y1=\"57.0\" x2=\"298.1\" y2=\"63.0\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><line x1=\"300.0\" y1=\"55.5\" x2=\"300.0\" y2=\"64.5\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><rect x=\"19.0\" y=\"34.0\" width=\"64.0\" height=\"52.0\" fill=\"#2a78d6\" fill-opacity=\"0.08\"><title>primele K = 34 de cazuri: de aici se alege la întâmplare primul</title></rect><text x=\"51.0\" y=\"30.0\" text-anchor=\"middle\" fill=\"#2a78d6\" font-size=\"10.2\">primele 34</text><line x1=\"27.5\" y1=\"46.0\" x2=\"27.5\" y2=\"74.0\" stroke=\"#eb6834\" stroke-width=\"2\"/><circle cx=\"27.5\" cy=\"60.0\" r=\"4.5\" fill=\"#eb6834\" stroke=\"#faf8f3\" stroke-width=\"1.5\"><title>cazul 5</title></circle><text x=\"27.5\" y=\"92.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.8\">5</text><line x1=\"91.4\" y1=\"46.0\" x2=\"91.4\" y2=\"74.0\" stroke=\"#eb6834\" stroke-width=\"2\"/><circle cx=\"91.4\" cy=\"60.0\" r=\"4.5\" fill=\"#eb6834\" stroke=\"#faf8f3\" stroke-width=\"1.5\"><title>cazul 39</title></circle><text x=\"91.4\" y=\"92.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.8\">39</text><line x1=\"155.3\" y1=\"46.0\" x2=\"155.3\" y2=\"74.0\" stroke=\"#eb6834\" stroke-width=\"2\"/><circle cx=\"155.3\" cy=\"60.0\" r=\"4.5\" fill=\"#eb6834\" stroke=\"#faf8f3\" stroke-width=\"1.5\"><title>cazul 73</title></circle><text x=\"155.3\" y=\"92.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.8\">73</text><line x1=\"219.2\" y1=\"46.0\" x2=\"219.2\" y2=\"74.0\" stroke=\"#eb6834\" stroke-width=\"2\"/><circle cx=\"219.2\" cy=\"60.0\" r=\"4.5\" fill=\"#eb6834\" stroke=\"#faf8f3\" stroke-width=\"1.5\"><title>cazul 107</title></circle><text x=\"219.2\" y=\"92.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.8\">107</text><line x1=\"283.1\" y1=\"46.0\" x2=\"283.1\" y2=\"74.0\" stroke=\"#eb6834\" stroke-width=\"2\"/><circle cx=\"283.1\" cy=\"60.0\" r=\"4.5\" fill=\"#eb6834\" stroke=\"#faf8f3\" stroke-width=\"1.5\"><title>cazul 141</title></circle><text x=\"283.1\" y=\"92.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.8\">141</text><text x=\"59.5\" y=\"112.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">+34</text><text x=\"123.4\" y=\"112.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">+34</text><text x=\"187.2\" y=\"112.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">+34</text><text x=\"251.1\" y=\"112.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">+34</text><text x=\"160.0\" y=\"134.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">N = 10 000, n = 300 → K = 34; start ales la întâmplare: 5</text></svg>"
+          }
+        ],
+        "tabel": {
+          "cap": [
+            "Procedeu",
+            "Cum se face",
+            "Ce asigură"
+          ],
+          "randuri": [
+            [
+              "Aleatorie simplă",
+              "numere aleatorii pentru fiecare caz",
+              "probabilitate egală + independență"
+            ],
+            [
+              "Sistematică",
+              "start la sorți în primele K, apoi pasul K",
+              "cvasialeatoriu: selecții dependente"
+            ],
+            [
+              "Stratificată",
+              "aleatorie simplă în fiecare strat",
+              "mai multă informație despre populație"
+            ]
+          ]
+        },
+        "noduri": [
+          {
+            "t": "Eșantionare sistematică",
+            "d": "Numită și selecție mecanică; utilă când populația e foarte mare (ex. 10 000). Membrii se listează la întâmplare, se alege la sorți un caz dintre primele K, apoi fiecare al K-lea: cu start 5 și K = 34 → 5, 39, 73, 107…"
+          },
+          {
+            "t": "Pasul de numărare K",
+            "d": "Fracția de selecție (de eșantionare): K = N/n, rotunjit la un număr întreg. Ex.: N = 10 000, n = 300 → K = 34."
+          },
+          {
+            "t": "Caracter cvasialeatoriu",
+            "d": "Selecția nu e independentă: în afară de primul, fiecare caz depinde de numărul de ordine al celui precedent. Caracterul aleatoriu e asigurat de alcătuirea întâmplătoare a listei. Interpretare: dacă lista are o ordine care se repetă din K în K, eșantionul prinde mereu același tip de caz."
+          },
+          {
+            "t": "Eșantionare stratificată",
+            "d": "Populația se clasifică după criterii relevante (sex, vârstă, ocupație), iar din fiecare clasă (strat) se alcătuiește un eșantion aleatoriu simplu. Crește cantitatea de informație despre populație."
+          }
+        ]
+      },
+      {
+        "titlu": "Distribuția de eșantionare",
+        "lat": true,
+        "tabel": {
+          "cap": [
+            "Distribuția",
+            "Există în realitate?",
+            "E cunoscută?"
+          ],
+          "randuri": [
+            [
+              "eșantionului",
+              "da (empirică)",
+              "da: cercetătorul o alcătuiește"
+            ],
+            [
+              "populației",
+              "da (empirică)",
+              "nu"
+            ],
+            [
+              "de eșantionare",
+              "nu (teoretică)",
+              "da: forma, media și dispersia se deduc"
+            ]
+          ]
+        },
+        "noduri": [
+          {
+            "t": "Media ca variabilă",
+            "d": "Media aritmetică e privită ca o variabilă ale cărei scoruri sunt mediile tuturor eșantioanelor aleatorii posibile de dimensiune constantă n dintr-o populație. Ex.: toate eșantioanele de 100 de persoane (selectate cu înlocuire) dintr-o populație cât a României, cu media vârstelor calculată pentru fiecare."
+          },
+          {
+            "t": "Distribuția de eșantionare a mediilor",
+            "d": "Distribuția mediilor aritmetice ale tuturor eșantioanelor aleatorii de dimensiune constantă n din populația de referință. Ca orice distribuție, are formă, medie (μ_X̄) și abatere standard (σ_X̄)."
+          },
+          {
+            "t": "Trei distribuții",
+            "d": "Inferența trece de la distribuția eșantionului la cea a populației prin distribuția de eșantionare. Aceasta nu poate fi obținută niciodată în realitate, dar proprietățile ei se cunosc exact, din legile probabilității."
+          },
+          {
+            "t": "Alte distribuții de eșantionare",
+            "d": "Se definesc la fel pentru alte statistici: proporții, coeficienți de corelație etc., folosite în unitățile următoare, de la Cap. 7 (Proceduri de estimare statistică) încolo."
+          }
+        ]
+      },
+      {
+        "titlu": "Teorema limitei centrale",
+        "figuri": [
+          {
+            "titlu": "Teorema limitei centrale, vizual",
+            "nota": "Curbe ilustrative, calculate exact pentru o populație asimetrică la dreapta (de tipul veniturilor) cu μ = 10 și σ ≈ 7,07.",
+            "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 156\" role=\"img\" aria-label=\"O populație asimetrică și distribuțiile de eșantionare ale mediei pentru n egal cu 4 și 36\" font-family=\"Georgia, serif\" font-size=\"13\"><line x1=\"26.0\" y1=\"118.0\" x2=\"304.0\" y2=\"118.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><line x1=\"26.0\" y1=\"118.0\" x2=\"304.0\" y2=\"118.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><line x1=\"26.0\" y1=\"118.0\" x2=\"26.0\" y2=\"122.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><text x=\"26.0\" y=\"133.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">0</text><line x1=\"95.5\" y1=\"118.0\" x2=\"95.5\" y2=\"122.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><text x=\"95.5\" y=\"133.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">10</text><line x1=\"165.0\" y1=\"118.0\" x2=\"165.0\" y2=\"122.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><text x=\"165.0\" y=\"133.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">20</text><line x1=\"234.5\" y1=\"118.0\" x2=\"234.5\" y2=\"122.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><text x=\"234.5\" y=\"133.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">30</text><line x1=\"304.0\" y1=\"118.0\" x2=\"304.0\" y2=\"122.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><text x=\"304.0\" y=\"133.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">40</text><path d=\"M27.4,116.0 L28.8,114.1 L30.2,112.3 L31.6,110.7 L33.0,109.3 L34.3,107.9 L35.7,106.7 L37.1,105.6 L38.5,104.6 L39.9,103.7 L41.3,102.9 L42.7,102.2 L44.1,101.5 L45.5,100.9 L46.9,100.4 L48.2,100.0 L49.6,99.6 L51.0,99.3 L52.4,99.0 L53.8,98.8 L55.2,98.7 L56.6,98.5 L58.0,98.4 L59.4,98.4 L60.8,98.4 L62.1,98.4 L63.5,98.4 L64.9,98.5 L66.3,98.6 L67.7,98.7 L69.1,98.9 L70.5,99.0 L71.9,99.2 L73.3,99.4 L74.7,99.6 L76.0,99.8 L77.4,100.0 L78.8,100.3 L80.2,100.5 L81.6,100.8 L83.0,101.0 L84.4,101.3 L85.8,101.6 L87.2,101.9 L88.5,102.1 L89.9,102.4 L91.3,102.7 L92.7,103.0 L94.1,103.3 L95.5,103.6 L96.9,103.9 L98.3,104.1 L99.7,104.4 L101.1,104.7 L102.5,105.0 L103.8,105.3 L105.2,105.6 L106.6,105.8 L108.0,106.1 L109.4,106.4 L110.8,106.7 L112.2,106.9 L113.6,107.2 L115.0,107.4 L116.3,107.7 L117.7,108.0 L119.1,108.2 L120.5,108.4 L121.9,108.7 L123.3,108.9 L124.7,109.2 L126.1,109.4 L127.5,109.6 L128.9,109.8 L130.2,110.0 L131.6,110.2 L133.0,110.5 L134.4,110.7 L135.8,110.8 L137.2,111.0 L138.6,111.2 L140.0,111.4 L141.4,111.6 L142.8,111.8 L144.2,111.9 L145.5,112.1 L146.9,112.3 L148.3,112.4 L149.7,112.6 L151.1,112.8 L152.5,112.9 L153.9,113.0 L155.3,113.2 L156.7,113.3 L158.1,113.5 L159.4,113.6 L160.8,113.7 L162.2,113.9 L163.6,114.0 L165.0,114.1 L166.4,114.2 L167.8,114.3 L169.2,114.4 L170.6,114.5 L171.9,114.6 L173.3,114.7 L174.7,114.8 L176.1,114.9 L177.5,115.0 L178.9,115.1 L180.3,115.2 L181.7,115.3 L183.1,115.4 L184.5,115.5 L185.8,115.5 L187.2,115.6 L188.6,115.7 L190.0,115.8 L191.4,115.8 L192.8,115.9 L194.2,116.0 L195.6,116.0 L197.0,116.1 L198.4,116.1 L199.8,116.2 L201.1,116.3 L202.5,116.3 L203.9,116.4 L205.3,116.4 L206.7,116.5 L208.1,116.5 L209.5,116.6 L210.9,116.6 L212.3,116.7 L213.7,116.7 L215.0,116.7 L216.4,116.8 L217.8,116.8 L219.2,116.9 L220.6,116.9 L222.0,116.9 L223.4,117.0 L224.8,117.0 L226.2,117.0 L227.6,117.1 L228.9,117.1 L230.3,117.1 L231.7,117.2 L233.1,117.2 L234.5,117.2 L235.9,117.2 L237.3,117.3 L238.7,117.3 L240.1,117.3 L241.4,117.3 L242.8,117.4 L244.2,117.4 L245.6,117.4 L247.0,117.4 L248.4,117.4 L249.8,117.5 L251.2,117.5 L252.6,117.5 L254.0,117.5 L255.3,117.5 L256.7,117.5 L258.1,117.6 L259.5,117.6 L260.9,117.6 L262.3,117.6 L263.7,117.6 L265.1,117.6 L266.5,117.6 L267.9,117.6 L269.2,117.7 L270.6,117.7 L272.0,117.7 L273.4,117.7 L274.8,117.7 L276.2,117.7 L277.6,117.7 L279.0,117.7 L280.4,117.7 L281.8,117.8 L283.1,117.8 L284.5,117.8 L285.9,117.8 L287.3,117.8 L288.7,117.8 L290.1,117.8 L291.5,117.8 L292.9,117.8 L294.3,117.8 L295.7,117.8 L297.1,117.8 L298.4,117.8 L299.8,117.8 L301.2,117.8 L302.6,117.9 L304.0,117.9\" stroke=\"#6b6760\" stroke-width=\"2\" fill=\"none\" stroke-dasharray=\"4 3\"/><path d=\"M27.4,118.0 L28.8,118.0 L30.2,118.0 L31.6,118.0 L33.0,118.0 L34.3,118.0 L35.7,118.0 L37.1,117.9 L38.5,117.9 L39.9,117.8 L41.3,117.6 L42.7,117.4 L44.1,117.1 L45.5,116.7 L46.9,116.2 L48.2,115.6 L49.6,114.9 L51.0,114.1 L52.4,113.1 L53.8,112.1 L55.2,110.9 L56.6,109.6 L58.0,108.2 L59.4,106.8 L60.8,105.3 L62.1,103.8 L63.5,102.2 L64.9,100.6 L66.3,99.1 L67.7,97.5 L69.1,96.1 L70.5,94.7 L71.9,93.3 L73.3,92.1 L74.7,91.0 L76.0,89.9 L77.4,89.0 L78.8,88.3 L80.2,87.6 L81.6,87.1 L83.0,86.7 L84.4,86.4 L85.8,86.2 L87.2,86.2 L88.5,86.3 L89.9,86.5 L91.3,86.8 L92.7,87.2 L94.1,87.7 L95.5,88.2 L96.9,88.9 L98.3,89.5 L99.7,90.3 L101.1,91.1 L102.5,91.9 L103.8,92.8 L105.2,93.7 L106.6,94.6 L108.0,95.5 L109.4,96.5 L110.8,97.4 L112.2,98.3 L113.6,99.2 L115.0,100.2 L116.3,101.0 L117.7,101.9 L119.1,102.8 L120.5,103.6 L121.9,104.4 L123.3,105.2 L124.7,106.0 L126.1,106.7 L127.5,107.4 L128.9,108.0 L130.2,108.7 L131.6,109.3 L133.0,109.9 L134.4,110.4 L135.8,110.9 L137.2,111.4 L138.6,111.9 L140.0,112.3 L141.4,112.7 L142.8,113.1 L144.2,113.5 L145.5,113.8 L146.9,114.1 L148.3,114.4 L149.7,114.7 L151.1,115.0 L152.5,115.2 L153.9,115.4 L155.3,115.6 L156.7,115.8 L158.1,116.0 L159.4,116.2 L160.8,116.3 L162.2,116.5 L163.6,116.6 L165.0,116.7 L166.4,116.8 L167.8,116.9 L169.2,117.0 L170.6,117.1 L171.9,117.2 L173.3,117.3 L174.7,117.3 L176.1,117.4 L177.5,117.4 L178.9,117.5 L180.3,117.5 L181.7,117.6 L183.1,117.6 L184.5,117.7 L185.8,117.7 L187.2,117.7 L188.6,117.7 L190.0,117.8 L191.4,117.8 L192.8,117.8 L194.2,117.8 L195.6,117.8 L197.0,117.9 L198.4,117.9 L199.8,117.9 L201.1,117.9 L202.5,117.9 L203.9,117.9 L205.3,117.9 L206.7,117.9 L208.1,117.9 L209.5,117.9 L210.9,118.0 L212.3,118.0 L213.7,118.0 L215.0,118.0 L216.4,118.0 L217.8,118.0 L219.2,118.0 L220.6,118.0 L222.0,118.0 L223.4,118.0 L224.8,118.0 L226.2,118.0 L227.6,118.0 L228.9,118.0 L230.3,118.0 L231.7,118.0 L233.1,118.0 L234.5,118.0 L235.9,118.0 L237.3,118.0 L238.7,118.0 L240.1,118.0 L241.4,118.0 L242.8,118.0 L244.2,118.0 L245.6,118.0 L247.0,118.0 L248.4,118.0 L249.8,118.0 L251.2,118.0 L252.6,118.0 L254.0,118.0 L255.3,118.0 L256.7,118.0 L258.1,118.0 L259.5,118.0 L260.9,118.0 L262.3,118.0 L263.7,118.0 L265.1,118.0 L266.5,118.0 L267.9,118.0 L269.2,118.0 L270.6,118.0 L272.0,118.0 L273.4,118.0 L274.8,118.0 L276.2,118.0 L277.6,118.0 L279.0,118.0 L280.4,118.0 L281.8,118.0 L283.1,118.0 L284.5,118.0 L285.9,118.0 L287.3,118.0 L288.7,118.0 L290.1,118.0 L291.5,118.0 L292.9,118.0 L294.3,118.0 L295.7,118.0 L297.1,118.0 L298.4,118.0 L299.8,118.0 L301.2,118.0 L302.6,118.0 L304.0,118.0\" stroke=\"#2a78d6\" stroke-width=\"2\" fill=\"none\"/><path d=\"M27.4,118.0 L28.8,118.0 L30.2,118.0 L31.6,118.0 L33.0,118.0 L34.3,118.0 L35.7,118.0 L37.1,118.0 L38.5,118.0 L39.9,118.0 L41.3,118.0 L42.7,118.0 L44.1,118.0 L45.5,118.0 L46.9,118.0 L48.2,118.0 L49.6,118.0 L51.0,118.0 L52.4,118.0 L53.8,118.0 L55.2,118.0 L56.6,118.0 L58.0,118.0 L59.4,118.0 L60.8,118.0 L62.1,118.0 L63.5,118.0 L64.9,118.0 L66.3,118.0 L67.7,117.9 L69.1,117.9 L70.5,117.7 L71.9,117.4 L73.3,116.8 L74.7,115.8 L76.0,114.2 L77.4,111.7 L78.8,108.1 L80.2,103.1 L81.6,96.7 L83.0,88.9 L84.4,79.8 L85.8,69.9 L87.2,59.7 L88.5,49.9 L89.9,41.2 L91.3,34.2 L92.7,29.5 L94.1,27.3 L95.5,27.8 L96.9,30.8 L98.3,36.0 L99.7,42.9 L101.1,50.9 L102.5,59.5 L103.8,68.2 L105.2,76.5 L106.6,84.2 L108.0,91.1 L109.4,97.0 L110.8,101.9 L112.2,105.9 L113.6,109.1 L115.0,111.5 L116.3,113.4 L117.7,114.8 L119.1,115.8 L120.5,116.5 L121.9,117.0 L123.3,117.3 L124.7,117.6 L126.1,117.7 L127.5,117.8 L128.9,117.9 L130.2,117.9 L131.6,118.0 L133.0,118.0 L134.4,118.0 L135.8,118.0 L137.2,118.0 L138.6,118.0 L140.0,118.0 L141.4,118.0 L142.8,118.0 L144.2,118.0 L145.5,118.0 L146.9,118.0 L148.3,118.0 L149.7,118.0 L151.1,118.0 L152.5,118.0 L153.9,118.0 L155.3,118.0 L156.7,118.0 L158.1,118.0 L159.4,118.0 L160.8,118.0 L162.2,118.0 L163.6,118.0 L165.0,118.0 L166.4,118.0 L167.8,118.0 L169.2,118.0 L170.6,118.0 L171.9,118.0 L173.3,118.0 L174.7,118.0 L176.1,118.0 L177.5,118.0 L178.9,118.0 L180.3,118.0 L181.7,118.0 L183.1,118.0 L184.5,118.0 L185.8,118.0 L187.2,118.0 L188.6,118.0 L190.0,118.0 L191.4,118.0 L192.8,118.0 L194.2,118.0 L195.6,118.0 L197.0,118.0 L198.4,118.0 L199.8,118.0 L201.1,118.0 L202.5,118.0 L203.9,118.0 L205.3,118.0 L206.7,118.0 L208.1,118.0 L209.5,118.0 L210.9,118.0 L212.3,118.0 L213.7,118.0 L215.0,118.0 L216.4,118.0 L217.8,118.0 L219.2,118.0 L220.6,118.0 L222.0,118.0 L223.4,118.0 L224.8,118.0 L226.2,118.0 L227.6,118.0 L228.9,118.0 L230.3,118.0 L231.7,118.0 L233.1,118.0 L234.5,118.0 L235.9,118.0 L237.3,118.0 L238.7,118.0 L240.1,118.0 L241.4,118.0 L242.8,118.0 L244.2,118.0 L245.6,118.0 L247.0,118.0 L248.4,118.0 L249.8,118.0 L251.2,118.0 L252.6,118.0 L254.0,118.0 L255.3,118.0 L256.7,118.0 L258.1,118.0 L259.5,118.0 L260.9,118.0 L262.3,118.0 L263.7,118.0 L265.1,118.0 L266.5,118.0 L267.9,118.0 L269.2,118.0 L270.6,118.0 L272.0,118.0 L273.4,118.0 L274.8,118.0 L276.2,118.0 L277.6,118.0 L279.0,118.0 L280.4,118.0 L281.8,118.0 L283.1,118.0 L284.5,118.0 L285.9,118.0 L287.3,118.0 L288.7,118.0 L290.1,118.0 L291.5,118.0 L292.9,118.0 L294.3,118.0 L295.7,118.0 L297.1,118.0 L298.4,118.0 L299.8,118.0 L301.2,118.0 L302.6,118.0 L304.0,118.0\" stroke=\"#eb6834\" stroke-width=\"2\" fill=\"none\"/><line x1=\"95.5\" y1=\"22.0\" x2=\"95.5\" y2=\"118.0\" stroke=\"#2c2a26\" stroke-width=\"1\" stroke-dasharray=\"2 3\"/><text x=\"91.5\" y=\"30.0\" text-anchor=\"end\" fill=\"#2c2a26\" font-size=\"10.2\">μ = 10</text><text x=\"165.0\" y=\"98.0\" text-anchor=\"start\" fill=\"#6b6760\" font-size=\"10.2\">populația: asimetrică</text><text x=\"133.7\" y=\"82.0\" text-anchor=\"start\" fill=\"#2a78d6\" font-size=\"10.2\">n = 4</text><text x=\"123.3\" y=\"46.0\" text-anchor=\"start\" fill=\"#eb6834\" font-size=\"10.2\">n = 36: aproape normală</text><text x=\"165.0\" y=\"148.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">toate trei au media μ; cu n mai mare, mediile se strâng și se normalizează</text></svg>"
+          },
+          {
+            "titlu": "Abaterea standard a mediilor scade cu √n",
+            "nota": "Pentru σ = 14 (exemplul unității): la n = 36, σ/√n = 14/6 ≈ 2,33.",
+            "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 158\" role=\"img\" aria-label=\"Abaterea standard a distribuției mediilor, sigma pe radical din n, pentru n de la 1 la 100\" font-family=\"Georgia, serif\" font-size=\"13\"><line x1=\"40.0\" y1=\"118.0\" x2=\"304.0\" y2=\"118.0\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><text x=\"36.0\" y=\"121.5\" text-anchor=\"end\" fill=\"#6b6760\" font-size=\"10.2\">0</text><line x1=\"40.0\" y1=\"104.9\" x2=\"304.0\" y2=\"104.9\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><text x=\"36.0\" y=\"108.4\" text-anchor=\"end\" fill=\"#6b6760\" font-size=\"10.2\">2</text><line x1=\"40.0\" y1=\"91.7\" x2=\"304.0\" y2=\"91.7\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><text x=\"36.0\" y=\"95.2\" text-anchor=\"end\" fill=\"#6b6760\" font-size=\"10.2\">4</text><line x1=\"40.0\" y1=\"78.6\" x2=\"304.0\" y2=\"78.6\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><text x=\"36.0\" y=\"82.1\" text-anchor=\"end\" fill=\"#6b6760\" font-size=\"10.2\">6</text><line x1=\"40.0\" y1=\"65.4\" x2=\"304.0\" y2=\"65.4\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><text x=\"36.0\" y=\"68.9\" text-anchor=\"end\" fill=\"#6b6760\" font-size=\"10.2\">8</text><line x1=\"40.0\" y1=\"52.3\" x2=\"304.0\" y2=\"52.3\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><text x=\"36.0\" y=\"55.8\" text-anchor=\"end\" fill=\"#6b6760\" font-size=\"10.2\">10</text><line x1=\"40.0\" y1=\"39.1\" x2=\"304.0\" y2=\"39.1\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><text x=\"36.0\" y=\"42.6\" text-anchor=\"end\" fill=\"#6b6760\" font-size=\"10.2\">12</text><line x1=\"40.0\" y1=\"26.0\" x2=\"304.0\" y2=\"26.0\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><text x=\"36.0\" y=\"29.5\" text-anchor=\"end\" fill=\"#6b6760\" font-size=\"10.2\">14</text><rect x=\"52.0\" y=\"26.0\" width=\"30.0\" height=\"92.0\" fill=\"#2a78d6\"><title>n = 1: σ/√n = 14,00</title></rect><text x=\"67.0\" y=\"22.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.2\">14,00</text><text x=\"67.0\" y=\"132.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">n = 1</text><rect x=\"94.0\" y=\"72.0\" width=\"30.0\" height=\"46.0\" fill=\"#2a78d6\"><title>n = 4: σ/√n = 7,00</title></rect><text x=\"109.0\" y=\"68.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.2\">7,00</text><text x=\"109.0\" y=\"132.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">n = 4</text><rect x=\"136.0\" y=\"87.3\" width=\"30.0\" height=\"30.7\" fill=\"#2a78d6\"><title>n = 9: σ/√n = 4,67</title></rect><text x=\"151.0\" y=\"83.3\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.2\">4,67</text><text x=\"151.0\" y=\"132.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">n = 9</text><rect x=\"178.0\" y=\"95.0\" width=\"30.0\" height=\"23.0\" fill=\"#2a78d6\"><title>n = 16: σ/√n = 3,50</title></rect><text x=\"193.0\" y=\"91.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.2\">3,50</text><text x=\"193.0\" y=\"132.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">n = 16</text><rect x=\"220.0\" y=\"102.7\" width=\"30.0\" height=\"15.3\" fill=\"#2a78d6\"><title>n = 36: σ/√n = 2,33</title></rect><text x=\"235.0\" y=\"98.7\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.2\">2,33</text><text x=\"235.0\" y=\"132.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">n = 36</text><rect x=\"262.0\" y=\"108.8\" width=\"30.0\" height=\"9.2\" fill=\"#2a78d6\"><title>n = 100: σ/√n = 1,40</title></rect><text x=\"277.0\" y=\"104.8\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.2\">1,40</text><text x=\"277.0\" y=\"132.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">n = 100</text><text x=\"172.0\" y=\"150.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">σ = 14: de 4 ori mai multe cazuri → abatere standard de 2 ori mai mică</text></svg>"
+          }
+        ],
+        "noduri": [
+          {
+            "t": "Media distribuției de eșantionare",
+            "d": "Pentru toate eșantioanele de dimensiune n dintr-o populație cu media μ și abaterea standard σ: μ_X̄ = μ."
+          },
+          {
+            "t": "Abaterea standard a mediilor",
+            "d": "σ_X̄ = σ/√n. Cu cât n e mai mare, cu atât mediile se strâng mai mult în jurul lui μ; pentru a o înjumătăți, n trebuie să crească de 4 ori."
+          },
+          {
+            "t": "Forma distribuției de eșantionare",
+            "d": "Cu cât n e mai mare, cu atât forma ei aproximează mai bine normalitatea, indiferent de forma populației. Dacă populația e aproximativ normală, ajung și valori mai mici ale lui n; dacă e riguros normală, distribuția mediilor e normală pentru orice n."
+          },
+          {
+            "t": "Populații asimetrice",
+            "d": "Pentru o variabilă asimetrică, precum venitul, distribuția mediilor poate fi presupusă aproximativ normală pentru n ≥ 100. Astfel teorema elimină constrângerea normalității pentru populații."
+          }
+        ]
+      },
+      {
+        "titlu": "Probabilități pentru medii",
+        "figuri": [
+          {
+            "titlu": "Probabilitatea unei medii între 115 și 120",
+            "nota": "μ = 117, σ = 14, n = 36. Cu ariile din tabel pentru Z = −0,85 și +1,28 se obține 0,3023 + 0,3997 = 0,7020; peste 120: 0,5000 − 0,3997 = 0,1003. Curba punctată (scorurile individuale) e pusă pentru contrast.",
+            "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 156\" role=\"img\" aria-label=\"Distribuția mediilor pentru n egal cu 36, cu aria dintre 115 și 120 și aria peste 120\" font-family=\"Georgia, serif\" font-size=\"13\"><line x1=\"22.0\" y1=\"118.0\" x2=\"304.0\" y2=\"118.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><line x1=\"22.0\" y1=\"118.0\" x2=\"304.0\" y2=\"118.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><line x1=\"22.0\" y1=\"118.0\" x2=\"22.0\" y2=\"122.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><text x=\"22.0\" y=\"133.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">105</text><line x1=\"57.2\" y1=\"118.0\" x2=\"57.2\" y2=\"122.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><text x=\"57.2\" y=\"133.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">108</text><line x1=\"92.5\" y1=\"118.0\" x2=\"92.5\" y2=\"122.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><text x=\"92.5\" y=\"133.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">111</text><line x1=\"127.8\" y1=\"118.0\" x2=\"127.8\" y2=\"122.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><text x=\"127.8\" y=\"133.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">114</text><line x1=\"163.0\" y1=\"118.0\" x2=\"163.0\" y2=\"122.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><text x=\"163.0\" y=\"133.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">117</text><line x1=\"198.2\" y1=\"118.0\" x2=\"198.2\" y2=\"122.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><text x=\"198.2\" y=\"133.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">120</text><line x1=\"233.5\" y1=\"118.0\" x2=\"233.5\" y2=\"122.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><text x=\"233.5\" y=\"133.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">123</text><line x1=\"268.8\" y1=\"118.0\" x2=\"268.8\" y2=\"122.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><text x=\"268.8\" y=\"133.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">126</text><line x1=\"304.0\" y1=\"118.0\" x2=\"304.0\" y2=\"122.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><text x=\"304.0\" y=\"133.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">129</text><path d=\"M139.5,118.0 L139.5,54.8 L140.7,52.5 L141.9,50.3 L143.0,48.1 L144.2,45.9 L145.4,43.8 L146.5,41.8 L147.7,39.9 L148.9,38.1 L150.1,36.4 L151.2,34.8 L152.4,33.4 L153.6,32.0 L154.8,30.8 L156.0,29.8 L157.1,28.9 L158.3,28.1 L159.5,27.6 L160.6,27.1 L161.8,26.9 L163.0,26.8 L164.2,26.9 L165.4,27.1 L166.5,27.6 L167.7,28.1 L168.9,28.9 L170.0,29.8 L171.2,30.8 L172.4,32.0 L173.6,33.4 L174.8,34.8 L175.9,36.4 L177.1,38.1 L178.3,39.9 L179.5,41.8 L180.6,43.8 L181.8,45.9 L183.0,48.1 L184.1,50.3 L185.3,52.5 L186.5,54.8 L187.7,57.2 L188.9,59.5 L190.0,61.9 L191.2,64.3 L192.4,66.6 L193.5,69.0 L194.7,71.3 L195.9,73.6 L197.1,75.9 L198.2,78.1 L198.2,118.0\" stroke=\"none\" stroke-width=\"2\" fill=\"#2a78d6\" fill-opacity=\"0.35\"/><path d=\"M198.2,118.0 L198.2,78.1 L199.4,80.3 L200.6,82.4 L201.8,84.5 L203.0,86.5 L204.1,88.4 L205.3,90.3 L206.5,92.1 L207.6,93.8 L208.8,95.4 L210.0,97.0 L211.2,98.5 L212.4,100.0 L213.5,101.3 L214.7,102.6 L215.9,103.8 L217.0,104.9 L218.2,106.0 L219.4,107.0 L220.6,107.9 L221.8,108.8 L222.9,109.6 L224.1,110.4 L225.3,111.1 L226.5,111.7 L227.6,112.3 L228.8,112.9 L230.0,113.4 L231.1,113.8 L232.3,114.3 L233.5,114.7 L234.7,115.0 L235.9,115.3 L237.0,115.6 L238.2,115.9 L239.4,116.1 L240.5,116.3 L241.7,116.5 L242.9,116.7 L244.1,116.8 L245.2,117.0 L246.4,117.1 L247.6,117.2 L248.8,117.3 L250.0,117.4 L251.1,117.5 L252.3,117.5 L253.5,117.6 L254.6,117.7 L255.8,117.7 L257.0,117.7 L258.2,117.8 L259.4,117.8 L260.5,117.8 L261.7,117.9 L262.9,117.9 L264.0,117.9 L265.2,117.9 L266.4,117.9 L267.6,117.9 L268.8,117.9 L269.9,118.0 L271.1,118.0 L272.3,118.0 L273.5,118.0 L274.6,118.0 L275.8,118.0 L277.0,118.0 L278.1,118.0 L279.3,118.0 L280.5,118.0 L281.7,118.0 L282.9,118.0 L284.0,118.0 L285.2,118.0 L286.4,118.0 L287.5,118.0 L288.7,118.0 L289.9,118.0 L291.1,118.0 L292.2,118.0 L293.4,118.0 L294.6,118.0 L295.8,118.0 L297.0,118.0 L298.1,118.0 L299.3,118.0 L300.5,118.0 L301.7,118.0 L302.8,118.0 L304.0,118.0 L304.0,118.0\" stroke=\"none\" stroke-width=\"2\" fill=\"#eb6834\" fill-opacity=\"0.35\"/><path d=\"M22.0,118.0 L23.2,118.0 L24.4,118.0 L25.5,118.0 L26.7,118.0 L27.9,118.0 L29.0,118.0 L30.2,118.0 L31.4,118.0 L32.6,118.0 L33.8,118.0 L34.9,118.0 L36.1,118.0 L37.3,118.0 L38.5,118.0 L39.6,118.0 L40.8,118.0 L42.0,118.0 L43.1,118.0 L44.3,118.0 L45.5,118.0 L46.7,118.0 L47.9,118.0 L49.0,118.0 L50.2,118.0 L51.4,118.0 L52.5,118.0 L53.7,118.0 L54.9,118.0 L56.1,118.0 L57.2,117.9 L58.4,117.9 L59.6,117.9 L60.8,117.9 L62.0,117.9 L63.1,117.9 L64.3,117.9 L65.5,117.8 L66.6,117.8 L67.8,117.8 L69.0,117.7 L70.2,117.7 L71.4,117.7 L72.5,117.6 L73.7,117.5 L74.9,117.5 L76.0,117.4 L77.2,117.3 L78.4,117.2 L79.6,117.1 L80.8,117.0 L81.9,116.8 L83.1,116.7 L84.3,116.5 L85.5,116.3 L86.6,116.1 L87.8,115.9 L89.0,115.6 L90.1,115.3 L91.3,115.0 L92.5,114.7 L93.7,114.3 L94.9,113.8 L96.0,113.4 L97.2,112.9 L98.4,112.3 L99.5,111.7 L100.7,111.1 L101.9,110.4 L103.1,109.6 L104.2,108.8 L105.4,107.9 L106.6,107.0 L107.8,106.0 L109.0,104.9 L110.1,103.8 L111.3,102.6 L112.5,101.3 L113.6,100.0 L114.8,98.5 L116.0,97.0 L117.2,95.4 L118.4,93.8 L119.5,92.1 L120.7,90.3 L121.9,88.4 L123.0,86.5 L124.2,84.5 L125.4,82.4 L126.6,80.3 L127.8,78.1 L128.9,75.9 L130.1,73.6 L131.3,71.3 L132.5,69.0 L133.6,66.6 L134.8,64.3 L136.0,61.9 L137.1,59.5 L138.3,57.2 L139.5,54.8 L140.7,52.5 L141.9,50.3 L143.0,48.1 L144.2,45.9 L145.4,43.8 L146.5,41.8 L147.7,39.9 L148.9,38.1 L150.1,36.4 L151.2,34.8 L152.4,33.4 L153.6,32.0 L154.8,30.8 L156.0,29.8 L157.1,28.9 L158.3,28.1 L159.5,27.6 L160.6,27.1 L161.8,26.9 L163.0,26.8 L164.2,26.9 L165.4,27.1 L166.5,27.6 L167.7,28.1 L168.9,28.9 L170.0,29.8 L171.2,30.8 L172.4,32.0 L173.6,33.4 L174.8,34.8 L175.9,36.4 L177.1,38.1 L178.3,39.9 L179.5,41.8 L180.6,43.8 L181.8,45.9 L183.0,48.1 L184.1,50.3 L185.3,52.5 L186.5,54.8 L187.7,57.2 L188.9,59.5 L190.0,61.9 L191.2,64.3 L192.4,66.6 L193.5,69.0 L194.7,71.3 L195.9,73.6 L197.1,75.9 L198.2,78.1 L199.4,80.3 L200.6,82.4 L201.8,84.5 L203.0,86.5 L204.1,88.4 L205.3,90.3 L206.5,92.1 L207.6,93.8 L208.8,95.4 L210.0,97.0 L211.2,98.5 L212.4,100.0 L213.5,101.3 L214.7,102.6 L215.9,103.8 L217.0,104.9 L218.2,106.0 L219.4,107.0 L220.6,107.9 L221.8,108.8 L222.9,109.6 L224.1,110.4 L225.3,111.1 L226.5,111.7 L227.6,112.3 L228.8,112.9 L230.0,113.4 L231.1,113.8 L232.3,114.3 L233.5,114.7 L234.7,115.0 L235.9,115.3 L237.0,115.6 L238.2,115.9 L239.4,116.1 L240.5,116.3 L241.7,116.5 L242.9,116.7 L244.1,116.8 L245.2,117.0 L246.4,117.1 L247.6,117.2 L248.8,117.3 L250.0,117.4 L251.1,117.5 L252.3,117.5 L253.5,117.6 L254.6,117.7 L255.8,117.7 L257.0,117.7 L258.2,117.8 L259.4,117.8 L260.5,117.8 L261.7,117.9 L262.9,117.9 L264.0,117.9 L265.2,117.9 L266.4,117.9 L267.6,117.9 L268.8,117.9 L269.9,118.0 L271.1,118.0 L272.3,118.0 L273.5,118.0 L274.6,118.0 L275.8,118.0 L277.0,118.0 L278.1,118.0 L279.3,118.0 L280.5,118.0 L281.7,118.0 L282.9,118.0 L284.0,118.0 L285.2,118.0 L286.4,118.0 L287.5,118.0 L288.7,118.0 L289.9,118.0 L291.1,118.0 L292.2,118.0 L293.4,118.0 L294.6,118.0 L295.8,118.0 L297.0,118.0 L298.1,118.0 L299.3,118.0 L300.5,118.0 L301.7,118.0 L302.8,118.0 L304.0,118.0\" stroke=\"#2a78d6\" stroke-width=\"2\" fill=\"none\"/><path d=\"M22.0,107.5 L23.2,107.4 L24.4,107.3 L25.5,107.3 L26.7,107.2 L27.9,107.2 L29.0,107.1 L30.2,107.0 L31.4,107.0 L32.6,106.9 L33.8,106.8 L34.9,106.8 L36.1,106.7 L37.3,106.7 L38.5,106.6 L39.6,106.5 L40.8,106.5 L42.0,106.4 L43.1,106.3 L44.3,106.3 L45.5,106.2 L46.7,106.2 L47.9,106.1 L49.0,106.0 L50.2,106.0 L51.4,105.9 L52.5,105.9 L53.7,105.8 L54.9,105.8 L56.1,105.7 L57.2,105.6 L58.4,105.6 L59.6,105.5 L60.8,105.5 L62.0,105.4 L63.1,105.4 L64.3,105.3 L65.5,105.3 L66.6,105.2 L67.8,105.1 L69.0,105.1 L70.2,105.0 L71.4,105.0 L72.5,104.9 L73.7,104.9 L74.9,104.8 L76.0,104.8 L77.2,104.7 L78.4,104.7 L79.6,104.6 L80.8,104.6 L81.9,104.5 L83.1,104.5 L84.3,104.4 L85.5,104.4 L86.6,104.4 L87.8,104.3 L89.0,104.3 L90.1,104.2 L91.3,104.2 L92.5,104.1 L93.7,104.1 L94.9,104.1 L96.0,104.0 L97.2,104.0 L98.4,103.9 L99.5,103.9 L100.7,103.9 L101.9,103.8 L103.1,103.8 L104.2,103.7 L105.4,103.7 L106.6,103.7 L107.8,103.6 L109.0,103.6 L110.1,103.6 L111.3,103.5 L112.5,103.5 L113.6,103.5 L114.8,103.4 L116.0,103.4 L117.2,103.4 L118.4,103.4 L119.5,103.3 L120.7,103.3 L121.9,103.3 L123.0,103.2 L124.2,103.2 L125.4,103.2 L126.6,103.2 L127.8,103.1 L128.9,103.1 L130.1,103.1 L131.3,103.1 L132.5,103.1 L133.6,103.0 L134.8,103.0 L136.0,103.0 L137.1,103.0 L138.3,103.0 L139.5,103.0 L140.7,102.9 L141.9,102.9 L143.0,102.9 L144.2,102.9 L145.4,102.9 L146.5,102.9 L147.7,102.9 L148.9,102.9 L150.1,102.8 L151.2,102.8 L152.4,102.8 L153.6,102.8 L154.8,102.8 L156.0,102.8 L157.1,102.8 L158.3,102.8 L159.5,102.8 L160.6,102.8 L161.8,102.8 L163.0,102.8 L164.2,102.8 L165.4,102.8 L166.5,102.8 L167.7,102.8 L168.9,102.8 L170.0,102.8 L171.2,102.8 L172.4,102.8 L173.6,102.8 L174.8,102.8 L175.9,102.8 L177.1,102.9 L178.3,102.9 L179.5,102.9 L180.6,102.9 L181.8,102.9 L183.0,102.9 L184.1,102.9 L185.3,102.9 L186.5,103.0 L187.7,103.0 L188.9,103.0 L190.0,103.0 L191.2,103.0 L192.4,103.0 L193.5,103.1 L194.7,103.1 L195.9,103.1 L197.1,103.1 L198.2,103.1 L199.4,103.2 L200.6,103.2 L201.8,103.2 L203.0,103.2 L204.1,103.3 L205.3,103.3 L206.5,103.3 L207.6,103.4 L208.8,103.4 L210.0,103.4 L211.2,103.4 L212.4,103.5 L213.5,103.5 L214.7,103.5 L215.9,103.6 L217.0,103.6 L218.2,103.6 L219.4,103.7 L220.6,103.7 L221.8,103.7 L222.9,103.8 L224.1,103.8 L225.3,103.9 L226.5,103.9 L227.6,103.9 L228.8,104.0 L230.0,104.0 L231.1,104.1 L232.3,104.1 L233.5,104.1 L234.7,104.2 L235.9,104.2 L237.0,104.3 L238.2,104.3 L239.4,104.4 L240.5,104.4 L241.7,104.4 L242.9,104.5 L244.1,104.5 L245.2,104.6 L246.4,104.6 L247.6,104.7 L248.8,104.7 L250.0,104.8 L251.1,104.8 L252.3,104.9 L253.5,104.9 L254.6,105.0 L255.8,105.0 L257.0,105.1 L258.2,105.1 L259.4,105.2 L260.5,105.3 L261.7,105.3 L262.9,105.4 L264.0,105.4 L265.2,105.5 L266.4,105.5 L267.6,105.6 L268.8,105.6 L269.9,105.7 L271.1,105.8 L272.3,105.8 L273.5,105.9 L274.6,105.9 L275.8,106.0 L277.0,106.0 L278.1,106.1 L279.3,106.2 L280.5,106.2 L281.7,106.3 L282.9,106.3 L284.0,106.4 L285.2,106.5 L286.4,106.5 L287.5,106.6 L288.7,106.7 L289.9,106.7 L291.1,106.8 L292.2,106.8 L293.4,106.9 L294.6,107.0 L295.8,107.0 L297.0,107.1 L298.1,107.2 L299.3,107.2 L300.5,107.3 L301.7,107.3 L302.8,107.4 L304.0,107.5\" stroke=\"#6b6760\" stroke-width=\"1.6\" fill=\"none\" stroke-dasharray=\"4 3\"/><text x=\"163.0\" y=\"72.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.8\">≈ 0,70</text><text x=\"252.3\" y=\"92.0\" text-anchor=\"middle\" fill=\"#eb6834\" font-size=\"10.8\">≈ 0,10</text><line x1=\"226.5\" y1=\"95.0\" x2=\"210.0\" y2=\"112.0\" stroke=\"#eb6834\" stroke-width=\"1\"/><text x=\"64.3\" y=\"34.0\" text-anchor=\"start\" fill=\"#2a78d6\" font-size=\"10.2\">medii, σ/√n ≈ 2,33</text><text x=\"27.9\" y=\"94.0\" text-anchor=\"start\" fill=\"#6b6760\" font-size=\"10.2\">scoruri, σ = 14</text><text x=\"163.0\" y=\"148.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">pentru un scor individual, aria dintre 115 și 120 ar fi doar ≈ 0,14</text></svg>"
+          }
+        ],
+        "noduri": [
+          {
+            "t": "Scorul Z al unei medii",
+            "d": "Z = (X̄ − μ_X̄)/σ_X̄: aceeași idee ca la scorurile individuale din Cap. 5 (Distribuția normală), dar împărțind la σ/√n, nu la σ."
+          },
+          {
+            "t": "Aria între două medii",
+            "d": "Ex.: μ = 117, σ = 14, n = 36 → σ_X̄ = 14/6 ≈ 2,33 (2,34 în exemplul tipărit). Z = −0,85 pentru 115 și +1,28 pentru 120; ariile 0,3023 și 0,3997 se adună: P(115 < X̄ < 120) = 0,7020."
+          },
+          {
+            "t": "Aria peste o medie",
+            "d": "Aceleași proceduri ca pentru procentele de cazuri: P(X̄ > 120) = 0,5000 − 0,3997 = 0,1003."
+          },
+          {
+            "t": "Medie vs scor individual",
+            "d": "Interpretare (exemplele de calcul sunt ale noastre): pentru aceeași populație, o medie de eșantion departe de μ e mult mai rară decât un scor individual la aceeași distanță, fiindcă σ/√n < σ. La exemplul de mai sus, un scor individual ar cădea între 115 și 120 doar cu probabilitatea ≈ 0,14."
+          }
+        ]
+      },
+      {
+        "titlu": "Strategia inferențială",
+        "figuri": [
+          {
+            "titlu": "Strategia inferențială",
+            "nota": "Redesenată după schema din unitate (după Hinkle, Wiersma și Jurs).",
+            "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 152\" role=\"img\" aria-label=\"Schema strategiei inferențiale: populație, eșantion, distribuție de eșantionare, inferență\" font-family=\"Georgia, serif\" font-size=\"13\"><defs><marker id=\"ar6\" viewBox=\"0 0 10 10\" refX=\"9\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto-start-reverse\"><path d=\"M0,0 L10,5 L0,10 z\" fill=\"#6b6760\"/></marker></defs><rect x=\"10.0\" y=\"14.0\" width=\"104.0\" height=\"40.0\" fill=\"#2a78d6\" fill-opacity=\"0.12\" stroke=\"#2a78d6\" stroke-width=\"1\"></rect><text x=\"62.0\" y=\"31.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"12.0\">Populație</text><text x=\"62.0\" y=\"46.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">(parametri: μ, σ)</text><rect x=\"206.0\" y=\"14.0\" width=\"104.0\" height=\"40.0\" fill=\"#eb6834\" fill-opacity=\"0.12\" stroke=\"#eb6834\" stroke-width=\"1\"></rect><text x=\"258.0\" y=\"31.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"12.0\">Eșantion</text><text x=\"258.0\" y=\"46.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">(statistici: X̄, s)</text><rect x=\"98.0\" y=\"104.0\" width=\"124.0\" height=\"40.0\" fill=\"#1baf7a\" fill-opacity=\"0.12\" stroke=\"#1baf7a\" stroke-width=\"1\"></rect><text x=\"160.0\" y=\"121.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"12.0\">Distribuție de</text><text x=\"160.0\" y=\"136.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">eșantionare (TLC)</text><line x1=\"116.0\" y1=\"34.0\" x2=\"204.0\" y2=\"34.0\" stroke=\"#6b6760\" stroke-width=\"1.4\" marker-end=\"url(#ar6)\"/><text x=\"160.0\" y=\"28.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">selecție aleatorie</text><line x1=\"250.0\" y1=\"56.0\" x2=\"200.0\" y2=\"102.0\" stroke=\"#6b6760\" stroke-width=\"1.4\" marker-end=\"url(#ar6)\"/><text x=\"268.0\" y=\"86.0\" text-anchor=\"start\" fill=\"#6b6760\" font-size=\"10.2\">statistica</text><text x=\"268.0\" y=\"98.0\" text-anchor=\"start\" fill=\"#6b6760\" font-size=\"10.2\">se plasează</text><line x1=\"110.0\" y1=\"102.0\" x2=\"62.0\" y2=\"56.0\" stroke=\"#6b6760\" stroke-width=\"1.4\" marker-end=\"url(#ar6)\"/><text x=\"14.0\" y=\"86.0\" text-anchor=\"start\" fill=\"#1baf7a\" font-size=\"10.2\">inferență</text><text x=\"14.0\" y=\"98.0\" text-anchor=\"start\" fill=\"#1baf7a\" font-size=\"10.2\">(probabilități)</text></svg>"
+          }
+        ],
+        "noduri": [
+          {
+            "t": "Parametri",
+            "d": "Mărimile statistice ale populațiilor (μ, σ): sunt cele pe care vrem să le aflăm."
+          },
+          {
+            "t": "Statistici",
+            "d": "Mărimile statistice ale eșantioanelor (X̄, s), calculate de cercetător; reflectă parametrii corespunzători. Diferența μ/σ vs X̄/s a apărut și în Cap. 4 (Mărimile dispersiei)."
+          },
+          {
+            "t": "Schema inferenței",
+            "d": "Populație (parametri) → selecție aleatorie → eșantion (statistici) → pe baza distribuțiilor de eșantionare ale statisticilor și a legilor probabilității se infereză asupra parametrilor. Strategia se folosește în toate unitățile care urmează."
+          }
+        ]
+      }
+    ]
+  }
+}

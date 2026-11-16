@@ -1,0 +1,756 @@
+{
+ "schema": "quiz-capitol-v3",
+ "capitol": 8,
+ "titlu": "Procese perceptive",
+ "sursa": "Manual Psihologie experimentală (UTM), Capitolul 8",
+ "reconstituit": "Reconstituit pe 16 nov. 2026 din pagina publicată Psihologie_experimentala.html (capitolele erau încorporate în pagină). Lipsesc câmpurile 'tip' și 'exemplu_nou', care nu ajung în pagină; restul (hartă, runde, întrebări vizibile și ascunse) e identic cu pagina.",
+ "harta": {
+  "centru": "Procese perceptive",
+  "ramuri": [
+   {
+    "titlu": "8.1. Modele de abordare experimentală",
+    "tabel": {
+     "cap": [
+      "Model",
+      "Ideea centrală",
+      "Cuvinte de reținut"
+     ],
+     "randuri": [
+      [
+       "Empiric-senzorial",
+       "percepția = transformarea stimulilor fizici în semnale senzoriale, interpretate apoi de creier",
+       "procese senzoriale primare, detectare"
+      ],
+      [
+       "Constructiv-alternativ",
+       "percepția e construită activ, nu o reprezentare pasivă",
+       "cunoștințe anterioare, așteptări, context"
+      ],
+      [
+       "Perceptual modular",
+       "module sau sisteme specializate în creier",
+       "fața, mișcarea, culorile"
+      ],
+      [
+       "Proceselor ierarhice",
+       "niveluri de procesare, de la inferior la superior",
+       "de la senzorial simplu la abstracții"
+      ],
+      [
+       "Dual-stream",
+       "două fluxuri de prelucrare a informației vizuale",
+       "dorsal: spațiu, mișcare; ventral: obiecte, identitate"
+      ]
+     ]
+    },
+    "noduri": [
+     {
+      "t": "Bottom-up vs top-down",
+      "d": "Modelele bottom-up pornesc de la intrările senzoriale; modelele top-down implică procesele cognitive superioare și așteptările. Ca idee, modelul empiric-senzorial e apropiat de bottom-up, iar cel constructiv-alternativ de top-down (legătura e o interpretare de studiu)."
+     },
+     {
+      "t": "Modelul empiric-senzorial",
+      "d": "Se concentrează pe procesele senzoriale primare: percepția e rezultatul transformării stimulilor fizici în semnale senzoriale, interpretate apoi de creier."
+     },
+     {
+      "t": "Modelul constructiv-alternativ",
+      "d": "Percepția nu e o reprezentare pasivă a stimulilor, ci e construită și interpretată activ pe baza cunoștințelor anterioare, a așteptărilor și a contextului."
+     },
+     {
+      "t": "Modelul perceptual modular",
+      "d": "Procesele perceptive sunt organizate în module specializate, fiecare pentru un anumit tip de informație: percepția feței, a mișcării, a culorilor."
+     },
+     {
+      "t": "Modelul proceselor ierarhice",
+      "d": "Ierarhie de niveluri: de la prelucrarea senzorială la nivelurile inferioare spre informații complexe și abstracții la nivelurile superioare."
+     },
+     {
+      "t": "Modelul dual-stream",
+      "d": "Două căi de prelucrare vizuală: fluxul dorsal (informații spațiale, mișcare) și fluxul ventral (obiecte, identitate). Capcană frecventă: inversarea celor două."
+     }
+    ]
+   },
+   {
+    "titlu": "8.2. Metodologia abordării experimentale",
+    "noduri": [
+     {
+      "t": "Paradigmele metodologice",
+      "d": "Capitolul enumeră: percepția directă vs indirectă, percepția înnăscută vs dobândită, rolul factorilor comportamentali în percepție. Nu le detaliază. Atenție: nu se confundă cu observația directă/indirectă din Cap. 3 (Metoda observației)."
+     },
+     {
+      "t": "Percepția subliminală",
+      "d": "Perceperea informațiilor de sub pragul conștient, care pot influența comportamentul fără ca persoana să fie conștientă. E cuvânt cheie și în Cap. 7 (Procese senzoriale). Studiile cu stimuli mascați ridică problema nedivulgării, din Cap. 5 (Probleme etice ale experimentului psihologic)."
+     },
+     {
+      "t": "Pașii metodologiei",
+      "d": "1) formularea ipotezelor clare și testabile; 2) design experimental; 3) manipularea VI (caracteristicile stimulilor, instrucțiunile); 4) măsurarea VD (răspunsuri comportamentale, percepție subiectivă, activitate cerebrală); 5) controlul variabilelor confundante; 6) analiza și interpretarea datelor; 7) replicarea și generalizarea."
+     },
+     {
+      "t": "Replicarea și generalizarea",
+      "d": "Studiul se repetă în condiții diferite și cu alte eșantioane, ca rezultatele să fie validate și consolidate; generalizarea permite afirmații despre percepția umană în general."
+     }
+    ]
+   },
+   {
+    "titlu": "8.3. Diferențe individuale și socio-culturale",
+    "noduri": [
+     {
+      "t": "Diferențele individuale",
+      "d": "Vârsta, sexul, personalitatea, experiențele anterioare; în dezvoltare și trăsăturile de personalitate, aptitudinile cognitive, valorile, atitudinile, preferințele. Influențează cum percepem lumea și reacționăm la stimuli."
+     },
+     {
+      "t": "Factorii genetici și biologici",
+      "d": "Moștenirea genetică, structura creierului, funcționarea sistemului nervos; pot afecta sensibilitatea la anumiți stimuli, abilitățile cognitive și reactivitatea la stres."
+     },
+     {
+      "t": "Factorii socio-culturali",
+      "d": "Cultura, normele sociale, valorile, statutul socio-economic, educația, experiențele de viață: determină cum sunt percepuți și interpretați anumiți stimuli."
+     },
+     {
+      "t": "Dezvoltare, diversitate și incluziune",
+      "d": "Diferențele influențează socializarea, formarea identității și competențele sociale și emoționale; înțelegerea lor e esențială pentru diversitate și incluziune."
+     },
+     {
+      "t": "Evaluarea și intervenția",
+      "d": "În practică, diferențele individuale și socio-culturale trebuie luate în calcul; abordările personalizate și sensibile cultural sunt mai eficiente."
+     }
+    ]
+   },
+   {
+    "titlu": "8.4. Particularitățile stimulilor perceptivi",
+    "noduri": [
+     {
+      "t": "Lista scurtă",
+      "d": "Intensitatea, contrastul, dimensiunea, forma, textura, mișcarea și distanța influențează modul în care stimulii sunt percepuți."
+     },
+     {
+      "t": "Intensitatea",
+      "d": "Nivelul de energie sau putere al stimulului; e asociată cu perceperea lui ca mai puternic sau mai slab și influențează detectabilitatea și răspunsurile."
+     },
+     {
+      "t": "Durata",
+      "d": "Timpul cât stimulul e prezent sau perceput; poate afecta durata și natura răspunsului."
+     },
+     {
+      "t": "Frecvența",
+      "d": "Numărul de cicluri sau evenimente într-o perioadă de timp; asociată cu tonalitatea (sunete) și cu culoarea (lumină)."
+     },
+     {
+      "t": "Forma și structura",
+      "d": "Caracteristicile geometrice, configurația și organizarea stimulului; determină identificarea și categorizarea lui."
+     },
+     {
+      "t": "Contrastul",
+      "d": "Diferența de intensitate, culoare, luminozitate etc. dintre stimul și fundal; influențează detectabilitatea și saliența."
+     },
+     {
+      "t": "Contextul și fundalul",
+      "d": "Mediul în care apare stimulul și ceilalți stimuli prezenți; creează un cadru de referință pentru interpretare."
+     }
+    ]
+   },
+   {
+    "titlu": "8.5. Iluzii perceptive și constanța perceptivă",
+    "noduri": [
+     {
+      "t": "Iluziile perceptive",
+      "d": "Distorsiuni sau erori ale percepției, care fac obiectele să apară altfel decât în realitatea fizică; apar în orice modalitate (vizual, auditiv, tactil). Cuvânt cheie: oferă indicii despre cum organizează creierul informația. Împreună cu constanța arată că percepția e o interpretare activă."
+     },
+     {
+      "t": "Iluzia Müller-Lyer",
+      "d": "Linii de aceeași lungime par diferite din cauza așezării diferite a săgeților."
+     },
+     {
+      "t": "Iluzia Ponzo",
+      "d": "Două linii de lungimi egale par diferite datorită contextului vizual."
+     },
+     {
+      "t": "Iluzia Rubin (relația formă-fond)",
+      "d": "Figura și fundalul se pot inversa în funcție de percepția subiectivă a observatorului."
+     },
+     {
+      "t": "Constanța perceptivă",
+      "d": "Capacitatea de a percepe obiectele ca stabile și constante, chiar dacă luminozitatea, distanța sau unghiul se schimbă. Nu se confundă cu adaptarea senzorială, din Cap. 7 (Procese senzoriale), sau cu fidelitatea testului, din Cap. 3 (Metoda observației)."
+     },
+     {
+      "t": "Tipuri de constanță",
+      "d": "Constanța culorii (exemplul principal: aceeași culoare la iluminări diferite), a dimensiunii, a formei și a distanței."
+     }
+    ]
+   },
+   {
+    "titlu": "8.6. Percepția mișcării și aprehensiunea perceptivă",
+    "noduri": [
+     {
+      "t": "Percepția mișcării",
+      "d": "Detectarea, urmărirea și interpretarea mișcării obiectelor: mișcarea relativă dintre noi și obiecte și mișcarea din interiorul formelor. Ne ghidează în mediu și ne ajută să reacționăm la amenințări sau oportunități."
+     },
+     {
+      "t": "Aprehensiunea perceptivă",
+      "d": "Estimarea dimensiunilor, distanțelor și altor proprietăți ale obiectelor fără a le măsura direct sau a le atinge, folosind perspectiva, proporțiile, textura. În rezumatul secțiunii: capacitatea de a evalua și de a reacționa rapid ca să ne ghidăm acțiunile."
+     },
+     {
+      "t": "Procesele cognitive implicate",
+      "d": "Recunoașterea modelelor și formelor, estimarea distanțelor și mărimilor, integrarea informațiilor senzoriale, luarea deciziilor; automate și rapide."
+     },
+     {
+      "t": "Importanța în viața cotidiană",
+      "d": "Condusul autovehiculelor, sporturile, navigarea în spații aglomerate, manipularea obiectelor, interacțiunea socială."
+     }
+    ]
+   },
+   {
+    "titlu": "8.7–8.8. Variabile, control, tehnici și aparatură",
+    "noduri": [
+     {
+      "t": "Variabilele în studiile perceptive",
+      "d": "Caracteristicile stimulilor, condițiile de prezentare și caracteristicile subiecților. Definițiile VI/VD sunt reluate din Cap. 2 (Metodele psihologiei experimentale) și Cap. 4 (Metoda experimentului) (exemplul cărții: stresul = VI, performanța cognitivă = VD)."
+     },
+     {
+      "t": "Controlul variabilelor",
+      "d": "Variabilele confundante (vârstă, sex, educație) se controlează sau se țin constante; randomizarea (asignare aleatorie), standardizarea procedurilor și manipularea atentă a VI asigură că diferențele vin din VI."
+     },
+     {
+      "t": "Tehnici specifice percepției",
+      "d": "Imagistica cerebrală (fMRI, PET), ochelarii de realitate virtuală, dispozitivele de urmărire a ochilor (eye-tracker), software-ul de analiză a comportamentului."
+     },
+     {
+      "t": "Tehnici și aparatură generale",
+      "d": "Chestionare și scale; interviuri structurate și semistructurate; teste psihologice; imagistică (fMRI, PET, EEG); observație și înregistrare video; software de analiză (SPSS, R, MATLAB); aparatură specializată: eye-tracker (fixarea ochilor), biofeedback (răspunsuri fiziologice)."
+     }
+    ]
+   },
+   {
+    "titlu": "Rezumat și cuvinte cheie",
+    "noduri": [
+     {
+      "t": "Senzorial vs perceptiv",
+      "d": "Procesele senzoriale primesc și transformă stimulii (transducția, pragurile), după Cap. 7 (Procese senzoriale); procesele perceptive organizează, integrează, recunosc și atribuie sens, formând o reprezentare a lumii."
+     },
+     {
+      "t": "Percepție",
+      "d": "Procesul mental prin care informația senzorială e interpretată, organizată și înțeleasă, formând o reprezentare conștientă a mediului."
+     },
+     {
+      "t": "Recunoaștere",
+      "d": "Capacitatea de a identifica obiecte, modele și evenimente și de a le atribui semnificație, pe baza informației senzoriale."
+     },
+     {
+      "t": "Organizare perceptivă",
+      "d": "Procesul prin care informațiile senzoriale sunt grupate, structurate și interpretate într-o experiență perceptivă coerentă."
+     },
+     {
+      "t": "Gestalt",
+      "d": "Principiile Gestalt descriu cum organizează creierul informațiile într-o configurație coerentă. Legătură cu Cap. 1 (Psihologia experimentală. Știință și metodă): curentul gestaltist (Wertheimer, Köhler, Koffka), percepția ca proces global și organizat."
+     },
+     {
+      "t": "Legături cu alte capitole",
+      "d": "Observația directă/indirectă și testele proiective: Cap. 3 (Metoda observației). Etapele, variabila subiect, VD favorizate: Cap. 4 (Metoda experimentului). Nedivulgarea și confidențialitatea: Cap. 5 (Probleme etice ale experimentului psihologic). Adaptarea senzorială, transducția, pragurile: Cap. 7 (Procese senzoriale)."
+     }
+    ]
+   }
+  ]
+ },
+ "runde": [
+  {
+   "id": "1",
+   "eticheta": "Runda 1 · Bază",
+   "titlu": "Runda 1 — Concepte de bază",
+   "desc": "Recunoaștere: modelele percepției, paradigmele, particularitățile stimulilor, iluziile, constanța, aprehensiunea și tehnicile.",
+   "intrebari": [
+    {
+     "q": "Prin ce se deosebesc modelele bottom-up de cele top-down?",
+     "opts": [
+      "Bottom-up implică așteptările și procesele superioare; top-down pornesc de la intrările senzoriale",
+      "Bottom-up explică percepția mișcării; top-down explică percepția culorilor și a fețelor umane",
+      "Bottom-up pornesc de la intrările senzoriale; top-down implică așteptările și procesele superioare",
+      "Bottom-up se aplică doar în laborator; top-down se aplică doar în mediul natural al subiecților"
+     ],
+     "correct": 2,
+     "explain": "Modelele bottom-up se concentrează pe intrările senzoriale, iar cele top-down pe procesele cognitive superioare și pe așteptări. Varianta care le pune invers e capcana principală. Mișcarea, culorile și fețele sunt exemple de module (modelul modular), iar laboratorul și mediul natural sunt cadre ale experimentului, din Cap. 3 (Metoda observației), nu tipuri de model perceptiv.",
+     "tag": "Bottom-up vs top-down"
+    },
+    {
+     "q": "Ce susține modelul constructiv-alternativ?",
+     "opts": [
+      "Percepția e construită activ de creier, pe baza cunoștințelor, așteptărilor și contextului",
+      "Percepția e transformarea stimulilor fizici în semnale senzoriale interpretate apoi de creier",
+      "Percepția e organizată în module cerebrale specializate, de exemplu pentru fețe sau culori",
+      "Percepția urcă pe niveluri, de la informații senzoriale simple la abstracții complexe"
+     ],
+     "correct": 0,
+     "explain": "Modelul constructiv-alternativ spune că percepția nu e o reprezentare pasivă, ci o construcție activă, bazată pe cunoștințe anterioare, așteptări și context. Transformarea stimulilor în semnale descrie modelul empiric-senzorial, modulele descriu modelul perceptual modular, iar nivelurile de procesare modelul proceselor ierarhice.",
+     "tag": "Modelul constructiv-alternativ"
+    },
+    {
+     "q": "Ce propune modelul dual-stream?",
+     "opts": [
+      "Un flux ventral pentru informațiile spațiale și mișcare, unul dorsal pentru obiecte și identitate",
+      "Un flux pentru informațiile vizuale și un al doilea flux pentru informațiile auditive",
+      "Un flux pentru percepția conștientă și un al doilea flux pentru percepția subliminală",
+      "Un flux dorsal pentru informațiile spațiale și mișcare, unul ventral pentru obiecte și identitate"
+     ],
+     "correct": 3,
+     "explain": "Modelul dual-stream distinge două căi de prelucrare a informației vizuale: fluxul dorsal (spațiu, mișcare) și fluxul ventral (obiecte, identitate). Varianta care inversează dorsal cu ventral e capcana. Modelul privește doar informația vizuală, deci nu împarte vizualul de auditiv, iar distincția conștient–subliminal ține de metodologie, nu de acest model.",
+     "tag": "Modelul dual-stream"
+    },
+    {
+     "q": "Ce model susține că există în creier sisteme specializate pentru percepția feței, a mișcării sau a culorilor?",
+     "opts": [
+      "Modelul proceselor ierarhice",
+      "Modelul perceptual modular",
+      "Modelul constructiv-alternativ",
+      "Modelul empiric-senzorial"
+     ],
+     "correct": 1,
+     "explain": "Modelul perceptual modular presupune module sau sisteme specializate, fiecare responsabil pentru un anumit tip de informație; capitolul dă exact exemplele fața, mișcarea și culorile. Modelul ierarhic vorbește de niveluri de procesare (de la simplu la abstract), nu de module paralele; cel constructiv de interpretarea activă, cel empiric-senzorial de detectarea stimulilor fizici.",
+     "tag": "Modelul perceptual modular"
+    },
+    {
+     "q": "Ce paradigme de cercetare a percepției sunt enumerate în metodologia abordării experimentale?",
+     "opts": [
+      "Observația directă vs indirectă, participativă vs non-participativă, deschisă",
+      "Percepția directă vs indirectă, înnăscută vs dobândită, rolul factorilor comportamentali",
+      "Experimentul de laborator vs cel natural, cel de explorare vs cel de confirmare a ipotezei",
+      "Grupul experimental vs grupul de control, cu asignarea aleatorie a subiecților"
+     ],
+     "correct": 1,
+     "explain": "Capitolul enumeră ca paradigme percepția directă versus indirectă, percepția înnăscută versus dobândită și rolul factorilor comportamentali (plus percepția subliminală, tratată separat). Capcana e „observația directă vs indirectă, participativă vs non-participativă”: sunt tipuri de observație din Cap. 3 (Metoda observației). Tipurile de experiment vin tot din Cap. 3 (Metoda observației), iar grupul de control și aleatorizarea din Cap. 2 (Metodele psihologiei experimentale) și Cap. 4 (Metoda experimentului).",
+     "tag": "Paradigmele metodologice"
+    },
+    {
+     "q": "Ce este percepția subliminală?",
+     "opts": [
+      "Scăderea sensibilității receptorilor la un stimul care rămâne constant o perioadă de timp",
+      "Convertirea stimulilor senzoriali în semnale neuronale pe care creierul le interpretează",
+      "Distorsiunea percepției la stimuli care contrazic ceea ce ne așteptăm să vedem",
+      "Perceperea unor informații aflate sub pragul conștient, care pot influența comportamentul"
+     ],
+     "correct": 3,
+     "explain": "Percepția subliminală înseamnă perceperea informațiilor de sub pragul conștient; ea poate influența comportamentul fără ca persoana să-și dea seama. Scăderea sensibilității la un stimul constant e adaptarea senzorială, iar convertirea în semnale neuronale e transducția, ambele cuvinte cheie din Cap. 7 (Procese senzoriale). Distorsiunea la stimuli contrari așteptărilor e definiția iluziilor perceptive.",
+     "tag": "Percepția subliminală"
+    },
+    {
+     "q": "Ce diferențe individuale influențează percepția?",
+     "opts": [
+      "Vârsta, sexul, personalitatea și experiențele anterioare",
+      "Intensitatea, contrastul, dimensiunea și textura stimulului",
+      "Cultura, normele sociale și statutul socio-economic al grupului",
+      "Durata, frecvența și contextul în care e prezentat stimulul"
+     ],
+     "correct": 0,
+     "explain": "Capitolul dă ca diferențe individuale vârsta, sexul, personalitatea și experiențele anterioare (la care adaugă trăsăturile, aptitudinile, valorile și atitudinile). Cultura, normele și statutul socio-economic sunt factori socio-culturali. Intensitatea, contrastul, durata sau contextul sunt particularități ale stimulului, nu ale persoanei care percepe.",
+     "tag": "Diferențele individuale"
+    },
+    {
+     "q": "Cum se numesc factori precum moștenirea genetică, structura creierului și funcționarea sistemului nervos?",
+     "opts": [
+      "Factori socio-culturali, care pot schimba modul de interpretare a acelorași stimuli",
+      "Particularități ale stimulilor, care pot schimba detectabilitatea acestora",
+      "Factori genetici și biologici, care pot afecta sensibilitatea la anumiți stimuli",
+      "Variabile de control, care trebuie menținute constante prin standardizare"
+     ],
+     "correct": 2,
+     "explain": "Sunt factori genetici și biologici ai diferențelor individuale; capitolul spune că pot afecta sensibilitatea la stimuli, abilitățile cognitive și reactivitatea la stres. Factorii socio-culturali țin de cultură și norme, particularitățile stimulilor de stimul (intensitate, contrast), iar variabila de control, din Cap. 2 (Metodele psihologiei experimentale), e ceva ce cercetătorul ține constant, nu o sursă de diferențe între oameni.",
+     "tag": "Factorii genetici și biologici"
+    },
+    {
+     "q": "Ce este frecvența unui stimul și cu ce e asociată?",
+     "opts": [
+      "Nivelul de energie al stimulului; legată de perceperea lui ca mai puternic sau mai slab",
+      "Timpul cât stimulul este prezent; legată de durata și natura răspunsului asociat",
+      "Diferența dintre stimul și fundalul său; legată de detectabilitatea și saliența stimulului",
+      "Numărul de cicluri într-o perioadă de timp; legată de tonalitatea sunetelor și de culori"
+     ],
+     "correct": 3,
+     "explain": "Frecvența înseamnă numărul de cicluri sau evenimente într-o perioadă de timp și e asociată cu tonalitatea sunetelor și cu culoarea luminii. Nivelul de energie e intensitatea, timpul de prezență e durata, iar diferența față de fundal e contrastul.",
+     "tag": "Frecvența"
+    },
+    {
+     "q": "Ce rol au contextul și fundalul în care apare un stimul?",
+     "opts": [
+      "Stabilesc nivelul de energie și deci intensitatea percepută a stimulului",
+      "Creează un cadru de referință care influențează interpretarea stimulului",
+      "Fixează pragul absolut sub care stimulul nu mai poate fi detectat deloc",
+      "Garantează că stimulul este perceput la fel de toți participanții la studiu"
+     ],
+     "correct": 1,
+     "explain": "Contextul și fundalul influențează percepția prin crearea unui cadru de referință sau prin interacțiunea cu alți stimuli din mediu. Nivelul de energie ține de intensitatea stimulului, pragul absolut e un concept psihofizic din Cap. 7 (Procese senzoriale), iar contextul nu uniformizează percepția: tocmai el poate face ca același stimul să fie văzut diferit.",
+     "tag": "Contextul și fundalul"
+    },
+    {
+     "q": "În ce constă iluzia Müller-Lyer?",
+     "opts": [
+      "Linii de aceeași lungime par diferite din cauza așezării diferite a săgeților",
+      "Două linii egale par diferite din cauza contextului vizual în care sunt plasate",
+      "Figura și fundalul se inversează în funcție de percepția subiectivă a observatorului",
+      "Un obiect își păstrează culoarea percepută chiar dacă iluminarea se schimbă"
+     ],
+     "correct": 0,
+     "explain": "La Müller-Lyer, elementul decisiv e așezarea săgeților la capetele liniilor. Linii egale care par diferite din cauza contextului vizual descriu iluzia Ponzo; inversarea figurii cu fundalul e iluzia Rubin; păstrarea culorii la iluminări diferite nu e o iluzie, ci constanța culorii.",
+     "tag": "Iluzia Müller-Lyer"
+    },
+    {
+     "q": "Ce este constanța perceptivă?",
+     "opts": [
+      "Scăderea sensibilității receptorilor la stimulii care rămân neschimbați o perioadă lungă",
+      "Stabilitatea scorurilor unui test atunci când acesta este reaplicat în aceleași condiții",
+      "Tendința de a percepe obiectele ca stabile, deși iluminarea, distanța sau unghiul se schimbă",
+      "Distorsiunea care face ca obiectele să apară altfel decât sunt în realitatea fizică"
+     ],
+     "correct": 2,
+     "explain": "Constanța perceptivă ne face să vedem obiectele ca stabile chiar când condițiile senzoriale variază. Capcanele vin din alte capitole: scăderea sensibilității la stimuli constanți e adaptarea senzorială, din Cap. 7 (Procese senzoriale), stabilitatea scorurilor la reaplicare e fidelitatea testului, din Cap. 3 (Metoda observației), iar distorsiunea față de realitatea fizică e iluzia perceptivă.",
+     "tag": "Constanța perceptivă"
+    },
+    {
+     "q": "Care sunt exemple de constanță perceptivă?",
+     "opts": [
+      "Constanța intensității, a duratei, a frecvenței și a contrastului",
+      "Constanța culorii, a dimensiunii, a formei și a distanței",
+      "Iluzia Müller-Lyer, iluzia Ponzo și iluzia Rubin (formă-fond)",
+      "Fluxul dorsal, fluxul ventral și modulele cerebrale specializate"
+     ],
+     "correct": 1,
+     "explain": "Capitolul dă constanța culorii ca exemplu principal și adaugă constanța dimensiunii, a formei și a distanței. Intensitatea, durata, frecvența și contrastul sunt particularități ale stimulilor, cele trei iluzii sunt exemple de distorsiuni (opusul constanței), iar fluxurile și modulele țin de modelele dual-stream și modular.",
+     "tag": "Tipuri de constanță"
+    },
+    {
+     "q": "Ce este aprehensiunea perceptivă?",
+     "opts": [
+      "Capacitatea de a detecta, a urmări și a interpreta mișcările obiectelor din mediu",
+      "Capacitatea de a identifica obiectele și modelele și de a le atribui o semnificație",
+      "Teama anticipativă pe care o trăiește subiectul înaintea unui stimul neplăcut",
+      "Capacitatea de a estima dimensiuni și distanțe fără a le măsura direct sau a le atinge"
+     ],
+     "correct": 3,
+     "explain": "Aprehensiunea perceptivă e estimarea dimensiunilor, distanțelor și altor proprietăți ale obiectelor fără măsurare directă sau atingere, folosind perspectiva, proporțiile, textura. (În rezumatul secțiunii apare și ca evaluare și reacție rapidă care ne ghidează acțiunile.) Detectarea și urmărirea mișcărilor e percepția mișcării, identificarea cu atribuire de sens e recunoașterea, iar „teama anticipativă” e sensul din limbajul curent al cuvântului, nu cel din carte.",
+     "tag": "Aprehensiunea perceptivă"
+    },
+    {
+     "q": "Ce tehnici și aparatură se folosesc pentru studiul proceselor perceptive?",
+     "opts": [
+      "fMRI și PET, ochelari de realitate virtuală, dispozitive de urmărire a ochilor",
+      "Protocolul de observație, notele de teren și grilele de înregistrare a conduitei",
+      "Formularele de consimțământ, acordurile de confidențialitate și de retragere",
+      "Testul t, testul chi pătrat și testul F pentru verificarea ipotezelor statistice"
+     ],
+     "correct": 0,
+     "explain": "Pentru percepție, capitolul enumeră imagistica cerebrală (fMRI, PET), ochelarii de realitate virtuală, dispozitivele de urmărire a ochilor și software-ul de analiză a comportamentului. Protocolul și notele de teren țin de observație, din Cap. 3 (Metoda observației), formularele de consimțământ de etică, din Cap. 5 (Probleme etice ale experimentului psihologic), iar testele t, chi pătrat și F sunt teste statistice pentru ipoteze, nu aparatură.",
+     "tag": "Tehnici specifice percepției"
+    }
+   ],
+   "ascunse": [
+    {
+     "q": "Ce susține modelul proceselor ierarhice?",
+     "opts": [
+      "Procesarea are loc în module separate, fiecare responsabil de un anumit tip de informație",
+      "Procesarea se împarte în două căi: una pentru spațiu și mișcare, alta pentru obiecte",
+      "Procesarea urcă pe niveluri, de la informații senzoriale simple la cele complexe și abstracte",
+      "Procesarea e construită activ pe baza cunoștințelor anterioare, a așteptărilor și a contextului"
+     ],
+     "correct": 2,
+     "explain": "Modelul proceselor ierarhice organizează percepția pe niveluri, de la prelucrarea senzorială inferioară la informații complexe și abstracții la nivelurile superioare. Modulele separate descriu modelul modular, cele două căi modelul dual-stream, iar construcția activă pe baza așteptărilor modelul constructiv-alternativ.",
+     "tag": "Modelul proceselor ierarhice"
+    },
+    {
+     "q": "Ce arată iluzia Rubin?",
+     "opts": [
+      "Că figura și fundalul se pot inversa în funcție de percepția observatorului",
+      "Că linii egale par inegale din cauza așezării diferite a săgeților de la capete",
+      "Că două linii egale par inegale din cauza contextului vizual care le înconjoară",
+      "Că un obiect își păstrează forma percepută chiar dacă e privit din alt unghi"
+     ],
+     "correct": 0,
+     "explain": "Iluzia Rubin ilustrează relația formă-fond: aceeași imagine poate fi văzută ca figură sau ca fundal, iar inversarea depinde de observator. Săgețile țin de iluzia Müller-Lyer, contextul vizual de iluzia Ponzo, iar păstrarea formei din alt unghi e constanța formei.",
+     "tag": "Iluzia Rubin"
+    },
+    {
+     "q": "Ce variabile experimentale specifice studiilor de percepție se iau în calcul?",
+     "opts": [
+      "Indicatorii fiziologici, răspunsurile motorii și timpul de reacție al subiecților",
+      "Problema de cercetat, obiectivele, constructele și ipotezele cercetării",
+      "Intensitatea, durata și frecvența, singurele variabile acceptate în percepție",
+      "Caracteristicile stimulilor, condițiile lor de prezentare și caracteristicile subiecților"
+     ],
+     "correct": 3,
+     "explain": "În studiile perceptive, variabilele experimentale includ caracteristicile stimulilor, condițiile de prezentare și caracteristicile subiecților. Indicatorii fiziologici, răspunsurile motorii și timpul de reacție sunt VD favorizate din Cap. 4 (Metoda experimentului); problema, obiectivele și ipotezele sunt etape ale experimentului, tot din Cap. 4 (Metoda experimentului). Intensitatea, durata și frecvența sunt într-adevăr caracteristici ale stimulului, dar nu singurele variabile: „singurele” e afirmația greșită.",
+     "tag": "Variabilele în studiile perceptive"
+    },
+    {
+     "q": "Ce este recunoașterea, ca proces perceptiv?",
+     "opts": [
+      "Capacitatea de a identifica obiecte, modele și evenimente și de a le atribui semnificație",
+      "Procesul prin care informațiile senzoriale sunt grupate și structurate într-un întreg coerent",
+      "Principiile care descriu cum creierul organizează informațiile într-o configurație coerentă",
+      "Procesul prin care stimulii senzoriali sunt convertiți în semnale neuronale interpretabile"
+     ],
+     "correct": 0,
+     "explain": "Recunoașterea înseamnă identificarea obiectelor, modelelor și evenimentelor și atribuirea unei semnificații, pe baza informației senzoriale. Gruparea și structurarea într-o experiență coerentă e organizarea perceptivă, principiile de organizare sunt principiile Gestalt, iar convertirea stimulilor în semnale neuronale e transducția, din Cap. 7 (Procese senzoriale).",
+     "tag": "Recunoaștere"
+    },
+    {
+     "q": "Ce particularitate a stimulului cuprinde caracteristicile geometrice, configurația și organizarea lui, care ajută la identificare și categorizare?",
+     "opts": [
+      "Contrastul",
+      "Contextul și fundalul",
+      "Intensitatea",
+      "Forma și structura"
+     ],
+     "correct": 3,
+     "explain": "Forma și structura se referă la caracteristicile geometrice, configurația și organizarea stimulului, care determină identificarea și categorizarea lui. Contrastul e diferența dintre stimul și fundal, contextul e mediul în care apare stimulul, iar intensitatea e nivelul lui de energie.",
+     "tag": "Forma și structura"
+    }
+   ]
+  },
+  {
+   "id": "2",
+   "eticheta": "Runda 2 · Aplicații",
+   "titlu": "Runda 2 — Scenarii și raționament",
+   "desc": "Aplică conceptele pe situații concrete: recunoaște modelul, fenomenul, particularitatea stimulului sau variabila în joc.",
+   "intrebari": [
+    {
+     "q": "Doi colegi privesc aceeași pată de cerneală. Cel căruia i s-a spus dinainte că e „un fluture” vede imediat un fluture; celălalt vede o pată fără formă. Ce explică cel mai bine diferența?",
+     "opts": [
+      "Procesarea top-down: așteptarea creată de instrucțiune ghidează interpretarea",
+      "Procesarea bottom-up: intrarea senzorială diferă de la un coleg la celălalt",
+      "Testul proiectiv: pata dezvăluie trăsăturile stabile de personalitate ale fiecăruia",
+      "Adaptarea senzorială: receptorii unuia au devenit mai puțin sensibili la pată"
+     ],
+     "correct": 0,
+     "explain": "Stimulul e identic, deci diferența nu poate veni din intrarea senzorială (bottom-up); vine din așteptarea indusă, adică din procesarea top-down, în spiritul modelului constructiv-alternativ. Pata de cerneală amintește de testele proiective, din Cap. 3 (Metoda observației), dar aici diferența e produsă de instrucțiune, nu de personalitate. Adaptarea senzorială, din Cap. 7 (Procese senzoriale), ar cere expunere lungă la un stimul constant.",
+     "tag": "Bottom-up vs top-down"
+    },
+    {
+     "q": "După o leziune cerebrală, un pacient recunoaște perfect obiectele, dar nu poate aprecia încotro și cât de repede se mișcă o mașină. Ce model explică direct această disociere?",
+     "opts": [
+      "Modelul dual-stream: fluxul ventral (spațiu, mișcare) e afectat, cel dorsal nu",
+      "Modelul constructiv-alternativ: pacientul nu mai are așteptări despre mașini",
+      "Modelul dual-stream: fluxul dorsal (spațiu, mișcare) e afectat, cel ventral nu",
+      "Modelul empiric-senzorial: pacientul nu mai detectează deloc stimulii fizici"
+     ],
+     "correct": 2,
+     "explain": "Recunoașterea obiectelor (fluxul ventral) e intactă, iar procesarea spațiului și a mișcării (fluxul dorsal) e afectată; modelul dual-stream prezice exact această separare. Varianta care atribuie mișcarea fluxului ventral inversează căile. Pacientul detectează stimulii (recunoaște obiectele), deci nu e o problemă de detectare, iar lipsa așteptărilor nu ar explica pierderea selectivă a mișcării.",
+     "tag": "Modelul dual-stream"
+    },
+    {
+     "q": "Pe o fotografie cu șine de cale ferată care se apropie spre orizont, doi bușteni identici sunt așezați unul sus, aproape de capătul șinelor, și unul jos. Buștenii par de mărimi diferite. Ce fenomen ilustrează imaginea?",
+     "opts": [
+      "Iluzia Müller-Lyer",
+      "Iluzia Ponzo",
+      "Iluzia Rubin",
+      "Adaptarea senzorială"
+     ],
+     "correct": 1,
+     "explain": "Două obiecte egale par inegale din cauza contextului vizual (șinele care converg): aceasta e iluzia Ponzo. La Müller-Lyer distorsiunea vine din săgețile de la capetele liniilor, nu din context; iluzia Rubin privește inversarea figurii cu fundalul. Adaptarea senzorială, din Cap. 7 (Procese senzoriale), e scăderea sensibilității la un stimul constant, nu o eroare de mărime.",
+     "tag": "Iluzia Ponzo"
+    },
+    {
+     "q": "Un logo arată la prima privire o vază albă pe fond negru; după câteva secunde, un client vede în locul ei două profiluri negre față în față. Cum se explică acest lucru?",
+     "opts": [
+      "Constanța formei: forma rămâne stabilă când e privită din alt unghi",
+      "Adaptarea senzorială: vaza nu mai e percepută după câteva secunde",
+      "Iluzia Müller-Lyer: lungimile par diferite din cauza săgeților",
+      "Relația formă-fond: figura și fundalul se inversează după observator"
+     ],
+     "correct": 3,
+     "explain": "Imaginea nu se schimbă; se schimbă ce anume e văzut ca figură și ce ca fundal. Capitolul descrie exact acest lucru la iluzia Rubin. Constanța formei privește stabilitatea la schimbarea unghiului, nu alternarea a două interpretări. Adaptarea ar face stimulul mai slab perceput, nu l-ar transforma în altă figură, iar Müller-Lyer e o distorsiune de lungime.",
+     "tag": "Iluzia Rubin"
+    },
+    {
+     "q": "Un designer pune butonul „Cumpără” galben aprins pe o pagină gri, ca să fie observat imediat. Pe ce particularitate a stimulului se bazează în primul rând?",
+     "opts": [
+      "Contrastul: diferența față de fundal crește saliența",
+      "Frecvența: stabilește tonalitatea sunetelor auzite",
+      "Durata: prelungește răspunsul asociat stimulului",
+      "Forma: permite categorizarea stimulului vizual"
+     ],
+     "correct": 0,
+     "explain": "Butonul iese în evidență pentru că diferă puternic de fundal ca luminozitate și culoare; capitolul spune că contrastul influențează detectabilitatea și saliența. Tonalitatea sunetelor ține de frecvență, dar aici nu e niciun sunet; durata nu se schimbă, iar forma butonului nu e ceea ce îl face vizibil.",
+     "tag": "Contrastul"
+    },
+    {
+     "q": "La un test auditiv, tehnicianul trece un sunet de la grav la acut, păstrând același volum. Ce particularitate a stimulului manipulează?",
+     "opts": [
+      "Intensitatea",
+      "Durata",
+      "Frecvența",
+      "Contrastul"
+     ],
+     "correct": 2,
+     "explain": "Trecerea de la grav la acut schimbă tonalitatea, pe care capitolul o asociază cu frecvența sunetului. Volumul rămâne același, deci intensitatea (nivelul de energie) nu se schimbă; nici durata sunetului nu e modificată, iar contrastul ar privi diferența stimulului față de fundal.",
+     "tag": "Frecvența"
+    },
+    {
+     "q": "Privești o ușă care se deschide: imaginea ei pe retină trece de la dreptunghi la trapez, dar tu o vezi tot dreptunghiulară. Ce fenomen ilustrează situația?",
+     "opts": [
+      "Constanța culorii",
+      "Iluzia Ponzo",
+      "Adaptarea senzorială",
+      "Constanța formei"
+     ],
+     "correct": 3,
+     "explain": "Forma percepută rămâne aceeași deși unghiul de observare se schimbă: constanța formei, unul dintre exemplele de constanță din capitol. Constanța culorii privește iluminarea, nu unghiul. Iluzia Ponzo e o distorsiune (linii egale văzute inegale), nu o stabilizare, iar adaptarea senzorială, din Cap. 7 (Procese senzoriale), e scăderea sensibilității la un stimul constant.",
+     "tag": "Tipuri de constanță"
+    },
+    {
+     "q": "Doi studenți, unul crescut într-un oraș plin de clădiri cu unghiuri drepte și altul într-un sat cu puține construcții, sunt păcăliți în grade diferite de iluzia Müller-Lyer. Ce explică astfel de diferențe?",
+     "opts": [
+      "Efectul Hawthorne: studenții știu că sunt observați",
+      "Factorii socio-culturali și experiențele de viață diferite",
+      "Particularitățile stimulului: figurile primite diferă",
+      "Eroarea de tip I: o diferență apărută din întâmplare"
+     ],
+     "correct": 1,
+     "explain": "Capitolul spune că mediul cultural și experiențele de viață pot determina modul în care stimulii sunt percepuți și interpretați; mediul de creștere e exact un astfel de factor. Figura e aceeași pentru amândoi, deci nu e o particularitate a stimulului. Efectul Hawthorne și eroarea de tip I, din Cap. 1 (Psihologia experimentală. Știință și metodă), sunt erori de cercetare care nu reies din situație.",
+     "tag": "Factorii socio-culturali"
+    },
+    {
+     "q": "Un șofer apreciază, fără să măsoare și fără să coboare din mașină, dacă încape în locul liber dintre două mașini parcate. Ce capacitate folosește?",
+     "opts": [
+      "Aprehensiunea perceptivă",
+      "Percepția mișcării",
+      "Discriminarea senzorială",
+      "Recunoașterea"
+     ],
+     "correct": 0,
+     "explain": "Estimarea dimensiunilor și distanțelor fără măsurare directă sau atingere este aprehensiunea perceptivă; capitolul chiar menționează condusul autovehiculelor. Mașinile parcate nu se mișcă, deci percepția mișcării nu e în prim-plan. Discriminarea senzorială, din Cap. 7 (Procese senzoriale), e detectarea diferențelor dintre stimuli, iar recunoașterea înseamnă identificarea obiectelor, nu estimarea spațiului.",
+     "tag": "Aprehensiunea perceptivă"
+    },
+    {
+     "q": "Într-un studiu cu iluzia Müller-Lyer, o parte din participanți văd figurile pe un monitor mare, de aproape, iar ceilalți pe unul mic, de la distanță. Cercetătorul voia să compare doar efectul unghiului săgeților. Ce a scăpat de sub control?",
+     "opts": [
+      "Caracteristicile subiecților; eșantionul trebuia să fie reprezentativ",
+      "Variabila dependentă; trebuia adăugat un chestionar de autoraportare",
+      "Ipoteza cercetării; trebuia făcut mai întâi un experiment de explorare",
+      "Condițiile de prezentare a stimulilor; procedura trebuia standardizată"
+     ],
+     "correct": 3,
+     "explain": "Mărimea și distanța ecranului sunt condiții de prezentare, una dintre cele trei categorii de variabile din studiile perceptive; nefiind uniformizate, ele devin variabile confundante. Soluția din capitol e standardizarea procedurilor. Reprezentativitatea, din Cap. 4 (Metoda experimentului), privește cine participă, nu cum e prezentat stimulul; VD și ipoteza nu sunt problema aici.",
+     "tag": "Controlul variabilelor"
+    },
+    {
+     "q": "Un cercetător variază unghiul săgeților din figura Müller-Lyer (15°, 30°, 45°) și cere participanților să ajusteze o linie până li se pare egală cu cealaltă, notând eroarea în milimetri. Care e variabila dependentă?",
+     "opts": [
+      "Unghiul săgeților, de 15°, 30° sau 45°",
+      "Lungimea reală a liniilor, aceeași mereu",
+      "Mărimea erorii de ajustare, în milimetri",
+      "Vârsta și experiența participanților"
+     ],
+     "correct": 2,
+     "explain": "VD e ceea ce se măsoară ca efect: eroarea de ajustare. Unghiul săgeților e VI (caracteristica stimulului manipulată), lungimea reală a liniilor e ținută constantă, adică o variabilă de control din Cap. 2 (Metodele psihologiei experimentale), iar vârsta și experiența sunt variabile subiect, din Cap. 4 (Metoda experimentului), adică caracteristici ale subiecților.",
+     "tag": "Variabilele în studiile perceptive"
+    },
+    {
+     "q": "Vrei să afli pe ce zone ale unei reclame își opresc privirea participanții și pentru cât timp. Ce aparatură e cea mai potrivită?",
+     "opts": [
+      "Un aparat de biofeedback pentru răspunsuri fiziologice",
+      "Un dispozitiv de urmărire a ochilor (eye-tracker)",
+      "Un scanner PET pentru activitatea metabolică a creierului",
+      "Un chestionar de autoraportare completat după vizionare"
+     ],
+     "correct": 1,
+     "explain": "Eye-trackerul măsoară fixarea ochilor: unde se oprește privirea și cât timp. Biofeedback-ul monitorizează răspunsuri fiziologice, PET-ul activitatea cerebrală, nu direcția privirii, iar chestionarul se bazează pe ce își amintește participantul, nu pe înregistrarea efectivă a privirii. În Cap. 4 (Metoda experimentului), mișcarea ochilor apare printre răspunsurile motorii.",
+     "tag": "Tehnici specifice percepției"
+    },
+    {
+     "q": "Iluziile perceptive și constanța perceptivă sunt tratate împreună. Ce arată ambele fenomene despre percepție?",
+     "opts": [
+      "Că percepția redă întotdeauna fidel proprietățile fizice ale stimulilor",
+      "Că erorile perceptive apar doar la persoanele cu deficiențe senzoriale",
+      "Că percepția e o interpretare activă a creierului, nu o copie fidelă a realității",
+      "Că percepția depinde exclusiv de intensitatea și durata stimulilor"
+     ],
+     "correct": 2,
+     "explain": "Capitolul concluzionează că iluziile și constanța arată complexitatea și subiectivitatea percepției: creierul interpretează și organizează informația, iar percepțiile nu corespund întotdeauna realității fizice. Iluziile contrazic ideea de copie fidelă, apar la oricine (nu doar la cei cu deficiențe), iar constanța arată că percepția rămâne stabilă tocmai când stimulul fizic se schimbă, deci nu depinde exclusiv de el.",
+     "tag": "Iluziile perceptive"
+    },
+    {
+     "q": "Care este diferența dintre procesele senzoriale și cele perceptive?",
+     "opts": [
+      "Percepția detectează și transformă stimulii; senzația îi organizează și le dă sens",
+      "Senzația e mereu conștientă; percepția are loc mereu sub pragul conștient",
+      "Senzația privește stimulii vizuali; percepția privește stimulii auditivi",
+      "Senzația detectează și transformă stimulii; percepția îi organizează și le dă sens"
+     ],
+     "correct": 3,
+     "explain": "Procesele senzoriale primesc și transformă stimulii (transducția, pragurile), iar percepția interpretează, organizează și atribuie sens informației senzoriale, formând o reprezentare a lumii. Varianta care le inversează e capcana. Percepția subliminală e un caz special, nu regula, iar ambele procese acoperă toate modalitățile senzoriale.",
+     "tag": "Senzorial vs perceptiv"
+    },
+    {
+     "q": "Ce idee centrală a curentului Gestalt se regăsește în studiul organizării perceptive?",
+     "opts": [
+      "Percepția se reduce la componentele mentale elementare",
+      "Percepția e un proces global și organizat, nu suma părților",
+      "Psihologia trebuie să studieze doar comportamentul observabil",
+      "Percepția e dominată de procese mentale inconștiente"
+     ],
+     "correct": 1,
+     "explain": "Gestaltiștii (Wertheimer, Köhler, Koffka) au subliniat că percepția e influențată de structurile globale și configurații; în acest capitol, principiile Gestalt descriu cum creierul organizează informația într-o configurație coerentă. Analiza componentelor mentale e structuralismul lui Titchener, studiul comportamentului observabil behaviorismul, iar procesele inconștiente psihanaliza, toate din Cap. 1 (Psihologia experimentală. Știință și metodă).",
+     "tag": "Gestalt"
+    }
+   ],
+   "ascunse": [
+    {
+     "q": "Un prieten se îndepărtează de tine pe stradă. Imaginea lui pe retină se micșorează, dar nu ți se pare că el devine mai mic. Ce fenomen ilustrează situația?",
+     "opts": [
+      "Constanța formei",
+      "Iluzia Müller-Lyer",
+      "Constanța dimensiunii",
+      "Discriminarea senzorială"
+     ],
+     "correct": 2,
+     "explain": "Mărimea percepută rămâne aceeași deși distanța se schimbă: constanța dimensiunii. Constanța formei privește schimbarea unghiului, iluzia Müller-Lyer e o distorsiune a lungimii a două linii, iar discriminarea senzorială, din Cap. 7 (Procese senzoriale), e capacitatea de a detecta diferențe între stimuli, nu de a păstra mărimea percepută.",
+     "tag": "Tipuri de constanță"
+    },
+    {
+     "q": "Un portar de handbal urmărește mingea aruncată, anticipează unde va ajunge și se aruncă în direcția bună. Ce proces perceptiv e în prim-plan?",
+     "opts": [
+      "Percepția mișcării",
+      "Constanța formei",
+      "Percepția subliminală",
+      "Relația formă-fond"
+     ],
+     "correct": 0,
+     "explain": "Detectarea, urmărirea și interpretarea mișcării unui obiect sunt percepția mișcării; capitolul dă chiar sporturile ca exemplu. Constanța formei privește stabilitatea formei la schimbarea unghiului, percepția subliminală stimulii sub pragul conștient, iar relația formă-fond (iluzia Rubin) separarea figurii de fundal.",
+     "tag": "Percepția mișcării"
+    },
+    {
+     "q": "O psihologă aplică o probă de recunoaștere a imaginilor unui pacient venit dintr-o cultură în care unele obiecte desenate nu există. Ce recomandare se potrivește?",
+     "opts": [
+      "Standardizare strictă: aceeași probă, neschimbată, pentru oricine",
+      "Etalonare: transformarea scorurilor brute în note standard",
+      "Randomizare: repartizarea aleatorie a pacienților în grupuri",
+      "Evaluare și intervenție personalizate și sensibile cultural"
+     ],
+     "correct": 3,
+     "explain": "Capitolul spune că în evaluare și intervenție trebuie ținut cont de diferențele individuale și socio-culturale, iar abordările personalizate și sensibile cultural sunt mai eficiente. Standardizarea, din Cap. 4 (Metoda experimentului), e utilă în experiment, dar aplicată rigid aici ar măsura familiaritatea cu obiectele, nu recunoașterea. Etalonarea, din Cap. 3 (Metoda observației), și randomizarea, din Cap. 2 (Metodele psihologiei experimentale), nu rezolvă nepotrivirea culturală a probei.",
+     "tag": "Evaluarea și intervenția"
+    },
+    {
+     "q": "Un cercetător redă același semnal de alarmă la 50, 70 și 90 de decibeli și măsoară cât de repede reacționează participanții. Ce particularitate a stimulului manipulează?",
+     "opts": [
+      "Frecvența",
+      "Intensitatea",
+      "Durata",
+      "Contextul și fundalul"
+     ],
+     "correct": 1,
+     "explain": "Decibelii măsoară nivelul de energie al sunetului, adică intensitatea, pe care capitolul o leagă de detectabilitate și de răspunsurile comportamentale. Tonalitatea (frecvența) rămâne aceeași, durata semnalului nu se schimbă, iar contextul nu e modificat.",
+     "tag": "Intensitatea"
+    },
+    {
+     "q": "De ce trebuie ca studiile de percepție să fie replicate în condiții diferite și cu alte eșantioane?",
+     "opts": [
+      "Ca să valideze și să consolideze rezultatele și să permită generalizarea",
+      "Ca să transforme un rezultat nesemnificativ într-unul semnificativ statistic",
+      "Ca să nu mai fie nevoie de un grup de control în studiile viitoare",
+      "Ca să se poată renunța la formularea ipotezelor înaintea studiului"
+     ],
+     "correct": 0,
+     "explain": "Replicarea și generalizarea sunt ultimul pas al metodologiei: replicarea validează și consolidează rezultatele, iar generalizarea permite afirmații despre percepția umană în general. Replicarea nu schimbă semnificația unui rezultat obținut și nu înlocuiește grupul de control sau ipotezele, care rămân primii pași ai metodologiei.",
+     "tag": "Replicarea și generalizarea"
+    }
+   ]
+  }
+ ]
+}

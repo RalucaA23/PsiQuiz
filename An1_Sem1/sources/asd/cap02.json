@@ -1,0 +1,1167 @@
+{
+  "schema": "quiz-capitol-v3",
+  "capitol": 2,
+  "titlu": "Prezentarea datelor statistice",
+  "sursa": "Analiza superioară a datelor (UTM), Unitatea II, pp. 21–39",
+  "runde": [
+    {
+      "id": "T",
+      "tip_runda": "baza",
+      "eticheta": "Runda 1 · Teorie",
+      "titlu": "Runda 1 — Teorie",
+      "desc": "Întrebări directe și scurte: ce măsoară un indicator, când se folosește o metodă, ce deosebește două concepte.",
+      "intrebari": [
+        {
+          "q": "Ce deosebește un raport de o proporție?",
+          "opts": [
+            "Raportul se exprimă în promile, proporția în procente",
+            "Raportul cere o unitate de timp, proporția nu cere",
+            "Raportul se calculează doar pentru variabile măsurate la nivel de raport",
+            "Raportul compară două categorii, proporția o categorie cu totalul"
+          ],
+          "correct": 3,
+          "explain": "Raportul e fi / fj (de câte ori o categorie o depășește pe alta), proporția e f / n (partea din total). Promilele și unitatea de timp țin de rată, iar raportul nu are legătură cu nivelul de măsură „de raport” — se calculează și pentru categorii nominale, ca specializările unei universități.",
+          "tag": "Raportul",
+          "tip": "concept"
+        },
+        {
+          "q": "Ce deosebește o rată de un raport?",
+          "opts": [
+            "Rata pune cazurile reale față de cele posibile, pe o perioadă",
+            "Rata se calculează doar pentru variabile nominale",
+            "Rata se exprimă în procente, iar raportul se exprimă în promile",
+            "Rata cumulează cazurile din categoriile precedente"
+          ],
+          "correct": 0,
+          "explain": "Rata împarte cazurile efective la cele posibile pe o unitate de timp (născuți vii la populație, pe an, × 1000, în promile). Raportul compară două categorii între ele, fără referire la timp; cumularea cazurilor din categoriile precedente e frecvența cumulată.",
+          "tag": "Rata",
+          "tip": "concept"
+        },
+        {
+          "q": "Când sunt cu deosebire utile procentele și proporțiile?",
+          "opts": [
+            "Când grupurile au același număr de cazuri",
+            "Când variabila e măsurată la nivel de raport",
+            "Când compari grupuri de mărimi diferite",
+            "Când aduni creșteri ale unor costuri diferite"
+          ],
+          "correct": 2,
+          "explain": "Procentele fac comparabile grupuri de mărimi diferite: universitatea mai mică poate avea procentul mai mare la Psihologie. La grupuri egale frecvențele brute ajung, procentele se pot calcula la orice nivel de măsură, iar adunarea procentelor cu baze diferite e chiar o eroare.",
+          "tag": "Compararea grupurilor de mărimi diferite",
+          "tip": "concept"
+        },
+        {
+          "q": "Ce se trece sub fiecare coloană de procente dintr-un tabel?",
+          "opts": [
+            "Totalul în date absolute, adică mărimea eșantionului",
+            "Raportul dintre categoria cea mai mare și cea mai mică",
+            "Procentul cumulat al ultimei categorii din coloană",
+            "Rata categoriei celei mai mari, exprimată în promile"
+          ],
+          "correct": 0,
+          "explain": "Sub fiecare coloană de procente se menționează totalul în date absolute (n), ca cititorul să știe pe ce bază s-au calculat procentele. Procentul cumulat al ultimei categorii ar fi oricum 100, iar raportul și rata sunt alte frecvențe relative.",
+          "tag": "Compararea grupurilor de mărimi diferite",
+          "tip": "regula"
+        },
+        {
+          "q": "De ce nu se adună procentele ca numerele obișnuite?",
+          "opts": [
+            "Fiecare procent se raportează la altă bază",
+            "Procentele nu pot avea zecimale exacte",
+            "Suma procentelor depășește mereu 100",
+            "Procentele sunt numere de nivel ordinal"
+          ],
+          "correct": 0,
+          "explain": "Un procent spune ceva doar față de baza lui: +10% la combustibil, +20% la retehnologizare și +10% la forța de muncă nu fac +50% la costul total, pentru că fiecare se aplică altei sume. Zecimalele și nivelul de măsură nu au legătură cu această eroare.",
+          "tag": "Eroarea adunării procentelor",
+          "tip": "eroare"
+        },
+        {
+          "q": "Ce câștigi și ce pierzi grupând scorurile în intervale de clasă?",
+          "opts": [
+            "Câștigi precizie, pierzi imaginea formei distribuției",
+            "Câștigi claritate, pierzi informația despre fiecare scor",
+            "Câștigi scorurile lipsă, pierzi totalul cazurilor",
+            "Câștigi limitele reale, pierzi centrele intervalelor"
+          ],
+          "correct": 1,
+          "explain": "Gruparea face vizibilă predominanța unor scoruri, dar nu mai știi câți subiecți au obținut fiecare scor din interval și nici ce scoruri lipsesc. Forma distribuției se vede chiar mai bine, totalul n rămâne, iar limitele reale și centrele se calculează din aceleași intervale.",
+          "tag": "Pierderea de informație",
+          "tip": "concept"
+        },
+        {
+          "q": "Când se folosesc intervale de clasă în locul scorurilor distincte?",
+          "opts": [
+            "Când variabila e nominală și are doar câteva categorii distincte",
+            "Când eșantionul are mai puțin de douăzeci de cazuri",
+            "Când datele de interval sau raport au multe scoruri distincte",
+            "Când vrei să afli câte cazuri are fiecare scor"
+          ],
+          "correct": 2,
+          "explain": "Cu multe scoruri distincte, o listă cu fiecare scor e lungă și puțin clarificatoare, așa că scorurile de interval sau raport se grupează în intervale. Variabilele nominale au categorii, nu intervale, iar câte cazuri are fiecare scor se vede tocmai din distribuția negrupată.",
+          "tag": "Intervale de clasă",
+          "tip": "metoda"
+        },
+        {
+          "q": "Ce mărime au de obicei intervalele unei distribuții grupate?",
+          "opts": [
+            "O mărime care crește odată cu frecvența intervalului",
+            "Primul interval dublu față de celelalte intervale",
+            "Aceeași mărime, ca distribuția să se interpreteze ușor",
+            "O mărime egală cu numărul de intervale ales"
+          ],
+          "correct": 2,
+          "explain": "În mod obișnuit, intervalele au aceeași mărime, aflată din amplitudine împărțită la numărul de intervale și rotunjită la un întreg convenabil. Mărimea nu depinde de frecvențe și nu e egală cu numărul de intervale (10 intervale de câte 5 scoruri, în exemplul celor 180 de subiecți).",
+          "tag": "Amplitudinea și mărimea intervalului",
+          "tip": "regula"
+        },
+        {
+          "q": "Ce asigură regula că intervalele de clasă nu se suprapun?",
+          "opts": [
+            "Că fiecare scor cade într-un singur interval",
+            "Că intervalele au același număr de cazuri",
+            "Că primul interval începe de la zero",
+            "Că ultimul interval conține scorul minim"
+          ],
+          "correct": 0,
+          "explain": "Intervale ca 20–24, 24–28 l-ar pune pe 24 în două locuri; fără suprapuneri, intervalele sunt reciproc exclusive, ca în regula excluderii din Cap. 1 (Introducere în statistică). Numărul de cazuri diferă de la un interval la altul, primul interval doar conține scorul minim, iar ultimul conține scorul maxim.",
+          "tag": "Primul și ultimul interval",
+          "tip": "regula"
+        },
+        {
+          "q": "Cât este frecvența cumulată a ultimului interval de clasă?",
+          "opts": [
+            "Frecvența celui mai mare interval",
+            "Exact 100, ca la procentele cumulate",
+            "Suma centrelor tuturor intervalelor",
+            "Numărul total de cazuri, n"
+          ],
+          "correct": 3,
+          "explain": "Frecvența cumulată adună cazurile intervalului cu ale tuturor intervalelor precedente, deci în ultimul interval ajunge la toate cazurile, n (180 în exemplul testului de cunoștințe). 100 este valoarea procentului cumulat final, nu a frecvenței cumulate.",
+          "tag": "Frecvența cumulată",
+          "tip": "concept"
+        },
+        {
+          "q": "La ce niveluri de măsură au sens frecvențele cumulate?",
+          "opts": [
+            "Nominal și ordinal",
+            "Doar nominal",
+            "La toate patru",
+            "Interval și raport"
+          ],
+          "correct": 3,
+          "explain": "Frecvențele și procentele cumulate se construiesc pentru date de interval sau de raport; la nivelurile nominal și ordinal sunt lipsite de sens. Singura coloană adăugabilă la orice nivel e cea de procente.",
+          "tag": "Distribuții nominale și ordinale",
+          "tip": "nivel_masura"
+        },
+        {
+          "q": "Ce face ca o distribuție grupată să apară continuă?",
+          "opts": [
+            "Centrele de interval, puse în locul limitelor stabilite",
+            "Limitele reale, prin care intervalele vecine se ating",
+            "Gruparea scorurilor în cel mult cinci intervale",
+            "Coloana de procente cumulate adăugată la tabel"
+          ],
+          "correct": 1,
+          "explain": "Limitele reale se obțin scăzând și adunând jumătate din distanța dintre intervale (20–24 → 19,5–24,5), așa că 24,5 încheie un interval și îl începe pe următorul. Centrele rămân aceleași, iar numărul de intervale sau cumularea nu fac distribuția continuă.",
+          "tag": "Limite stabilite și limite reale",
+          "tip": "concept"
+        },
+        {
+          "q": "Ce caracterizează datele discrete?",
+          "opts": [
+            "Au întotdeauna mai mult de șase sau șapte categorii",
+            "Sunt înregistrate în categorii reciproc exclusive",
+            "Sunt măsurate doar la nivelul de raport",
+            "Se reprezintă grafic doar prin histograme"
+          ],
+          "correct": 1,
+          "explain": "Datele sunt discrete când se înregistrează în categorii nesuprapuse; la nivel nominal și ordinal categoriile sunt întotdeauna discrete. Pentru histogramă, datele de interval sau raport se tratează ca serie continuă, cu limite reale; numărul de categorii nu decide caracterul discret.",
+          "tag": "Date discrete și date continue",
+          "tip": "concept"
+        },
+        {
+          "q": "Ce deosebește poligonul de frecvențe de ogivă?",
+          "opts": [
+            "Poligonul e pentru date nominale, ogiva pentru ordinale",
+            "Poligonul arată frecvențe simple, ogiva frecvențe cumulate",
+            "Poligonul folosește limitele reale, ogiva centrele",
+            "Poligonul se închide la stânga, ogiva se închide la ambele capete"
+          ],
+          "correct": 1,
+          "explain": "Poligonul pune puncte în dreptul centrelor de interval, la înălțimea frecvenței, și se închide la ambele capete cu intervale de frecvență zero; ogiva pune frecvențele sau procentele cumulate în dreptul limitelor reale superioare și se închide la stânga. Ambele sunt pentru date de interval sau de raport.",
+          "tag": "Poligonul de frecvențe",
+          "tip": "grafic"
+        },
+        {
+          "q": "Ce reprezentări grafice se folosesc pentru variabile nominale și ordinale?",
+          "opts": [
+            "Histograma și poligonul de frecvențe",
+            "Ogiva și diagrama de împrăștiere a scorurilor",
+            "Diagrama circulară și diagrama cu coloane",
+            "Histograma și diagrama circulară"
+          ],
+          "correct": 2,
+          "explain": "Diagrama circulară (sectoare proporționale cu procentele) și diagrama cu coloane separate sunt pentru categorii discrete, nominale sau ordinale. Histograma, poligonul și ogiva cer limite reale sau centre de interval, deci date de interval sau de raport; diagrama de împrăștiere leagă două astfel de variabile.",
+          "tag": "Diagrama circulară",
+          "tip": "grafic"
+        }
+      ],
+      "ascunse": [
+        {
+          "q": "Ce arată o diagramă de împrăștiere?",
+          "opts": [
+            "Frecvențele cumulate ale unei singure variabile",
+            "Relația dintre două variabile de interval sau raport",
+            "Ponderea categoriilor dintr-un întreg, pe sectoare",
+            "Evoluția în timp a unei variabile nominale"
+          ],
+          "correct": 1,
+          "explain": "Diagrama de împrăștiere („norul de puncte”) arată corelația dintre două variabile de interval sau de raport, tratată în Cap. 12 (Mărimi ale corelației). Frecvențele cumulate se văd pe ogivă, ponderea pe sectoare e diagrama circulară, iar evoluția în timp — diagrama cu linii.",
+          "tag": "Diagrama de împrăștiere",
+          "tip": "grafic"
+        },
+        {
+          "q": "De ce coloanele unei diagrame cu coloane sunt separate între ele?",
+          "opts": [
+            "Categoriile nominale și ordinale sunt discrete",
+            "Așa se citesc mai bine frecvențele cumulate",
+            "Coloanele marchează limitele reale ale claselor",
+            "Spațiul dintre ele arată procentul categoriei"
+          ],
+          "correct": 0,
+          "explain": "La nivel nominal și ordinal categoriile sunt discrete, de aceea coloanele sunt separate, de regulă la ½ din lățimea lor. Coloanele în contact, pe limitele reale, sunt ale histogramei; procentul e redat de înălțimea coloanei, nu de spațiul dintre coloane.",
+          "tag": "Diagrama cu coloane",
+          "tip": "grafic"
+        },
+        {
+          "q": "Ce trebuie să însoțească un procent ca să nu inducă în eroare?",
+          "opts": [
+            "Baza de comparație la care se raportează",
+            "Raportul față de categoria cea mai mică",
+            "Rata anuală a categoriei, în promile",
+            "Procentul cumulat al categoriilor precedente"
+          ],
+          "correct": 0,
+          "explain": "„Cu 20% mai puține calorii” sau „două din trei persoane” nu spun nimic fără baza de comparație: față de ce produs, din câte persoane întrebate. Raportul, rata și procentul cumulat sunt alte mărimi, care nu înlocuiesc baza.",
+          "tag": "Baza de comparație",
+          "tip": "concept"
+        },
+        {
+          "q": "Ce se pune pe axa absciselor la un poligon de frecvențe?",
+          "opts": [
+            "Limitele reale superioare",
+            "Frecvențele cumulate",
+            "Categoriile nominale",
+            "Centrele de interval"
+          ],
+          "correct": 3,
+          "explain": "Poligonul pune câte un punct în dreptul fiecărui centru de interval, la înălțimea frecvenței. Limitele reale superioare sunt abscisa ogivei, frecvențele cumulate stau pe ordonata ei, iar categoriile nominale se reprezintă prin diagrame circulare sau cu coloane.",
+          "tag": "Poligonul de frecvențe",
+          "tip": "grafic"
+        },
+        {
+          "q": "Cum se obține procentul cumulat al unui interval fără să aduni procentele intervalelor?",
+          "opts": [
+            "Împarți f la fc și înmulțești cu 100",
+            "Înmulțești procentul intervalului cu n",
+            "Împarți fc la n și înmulțești cu 100",
+            "Împarți n la fc și înmulțești cu 100"
+          ],
+          "correct": 2,
+          "explain": "Același rezultat ca adunarea procentelor se obține din formula procentului, cu frecvența cumulată în locul frecvenței simple: fc / n · 100 (122 / 180 · 100 = 67,78%). Împărțirea lui f la fc compară intervalul cu cumulatul, iar n / fc răstoarnă raportul.",
+          "tag": "Procentul cumulat",
+          "tip": "calcul"
+        }
+      ]
+    },
+    {
+      "id": "1",
+      "eticheta": "Runda 2 · Bază",
+      "titlu": "Runda 2 — Concepte de bază",
+      "desc": "Recunoaștere: formule, reguli de construire și tipuri de grafice din unitate.",
+      "intrebari": [
+        {
+          "q": "Cum se calculează proporția (p) cazurilor dintr-o categorie?",
+          "opts": [
+            "Frecvența categoriei împărțită la numărul total de cazuri",
+            "Frecvența categoriei împărțită la frecvența altei categorii",
+            "Numărul total de cazuri împărțit la frecvența categoriei",
+            "Frecvența categoriei înmulțită cu numărul de categorii"
+          ],
+          "correct": 0,
+          "explain": "Proporția este p = f / n: cazurile din categorie raportate la toate cazurile (167 / 269 = 0,621). Împărțirea la frecvența altei categorii dă un raport, nu o proporție; n / f răstoarnă formula și dă valori peste 1.",
+          "tag": "Proporția și procentul",
+          "tip": "definitie"
+        },
+        {
+          "q": "Ce arată raportul fi / fj dintre două categorii ale unei variabile?",
+          "opts": [
+            "Ce parte din totalul cazurilor din eșantion revine categoriei i",
+            "Câte cazuri reale apar la o mie de cazuri posibile, într-un an",
+            "De câte ori categoria i depășește în număr de cazuri categoria j",
+            "Câte cazuri are categoria i împreună cu categoriile precedente"
+          ],
+          "correct": 2,
+          "explain": "Raportul compară două categorii între ele: 279 / 188 = 1,48 studenți la Științe Economice pentru fiecare student la Psihologie. „Partea din total” descrie proporția, „cazuri reale la o mie de cazuri posibile pe an” descrie rata, iar cumularea cu categoriile precedente descrie frecvența cumulată.",
+          "tag": "Raportul",
+          "tip": "definitie"
+        },
+        {
+          "q": "Cum se calculează o rată, de pildă rata brută a natalității?",
+          "opts": [
+            "Frecvența unei categorii împărțită la frecvența altei categorii",
+            "Cazurile dintr-un interval adunate cu cele din intervalele anterioare",
+            "Frecvența unei categorii împărțită la total, apoi înmulțită cu 100",
+            "Cazurile reale împărțite la cazurile posibile, pe o unitate de timp"
+          ],
+          "correct": 3,
+          "explain": "Rata pune în raport cazurile efective cu cele posibile pentru variabila de interes, pe o unitate de timp (născuți vii / populație, pe an, × 1000). Împărțirea a două categorii între ele dă un raport, iar f / n × 100 este procentul.",
+          "tag": "Rata",
+          "tip": "definitie"
+        },
+        {
+          "q": "Într-un oraș cu 7000 de locuitori s-au înregistrat într-un an 100 de născuți vii. Cât este rata brută a natalității?",
+          "opts": [
+            "1,43‰",
+            "14,3‰",
+            "143‰",
+            "70‰"
+          ],
+          "correct": 1,
+          "explain": "Rata = 100 / 7000 = 0,0143, înmulțit cu 1000 = 14,3 născuți vii la mia de locuitori. 1,43‰ și 143‰ mută virgula (înmulțire cu 100, respectiv cu 10 000), iar 70 vine din 7000 / 100, adică raportul inversat.",
+          "tag": "Rata",
+          "tip": "calcul"
+        },
+        {
+          "q": "O firmă anunță că noua sa băutură are „cu 20% mai puține calorii”. Ce problemă are această afirmație?",
+          "opts": [
+            "Procentele nu se pot folosi la variabile exprimate în calorii",
+            "Procentul trebuia exprimat ca raport înmulțit apoi cu 100",
+            "Lipsește baza de comparație: 20% mai puțin față de ce produs?",
+            "Procentele nu se pot aduna ca numerele cardinale obișnuite"
+          ],
+          "correct": 2,
+          "explain": "Fără baza de comparație, procentele „nu ne spun nimic sau chiar ne pot induce în eroare”. Interdicția de a aduna procentele e o altă eroare, reală, dar aici nu se adună nimic; caloriile se pot exprima foarte bine în procente.",
+          "tag": "Baza de comparație",
+          "tip": "eroare"
+        },
+        {
+          "q": "Ce este o distribuție de frecvențe?",
+          "opts": [
+            "O dispunere a valorilor unei variabile care arată câte cazuri are fiecare categorie",
+            "O reprezentare circulară a categoriilor, cu sectoare proporționale cu procentele",
+            "O listă a scorurilor brute ale subiecților, în ordinea în care au fost culese",
+            "Un tabel care arată de câte ori fiecare categorie depășește altă categorie"
+          ],
+          "correct": 0,
+          "explain": "Distribuția de frecvențe arată câte cazuri conține fiecare categorie a variabilei și este, de regulă, primul pas în orice analiză statistică. Cercul cu sectoare e diagrama circulară, lista în ordinea culegerii sunt datele brute (tabelul 2.4, „greu de urmărit”), iar comparația dintre două categorii e un raport.",
+          "tag": "Distribuția de frecvențe",
+          "tip": "definitie"
+        },
+        {
+          "q": "Câte intervale de clasă se folosesc, de regulă, într-o distribuție grupată?",
+          "opts": [
+            "Exact 10, indiferent de numărul scorurilor din mulțimea inițială",
+            "Între 5 și 20, după numărul de scoruri și scopul cercetării",
+            "Câte scoruri distincte există între scorul minim și cel maxim",
+            "Între 2 și 5, ca predominanța unor scoruri să fie cât mai vizibilă"
+          ],
+          "correct": 1,
+          "explain": "Regula 1: nici atât de multe intervale încât să nu se mai vadă predominanța unor grupări, nici atât de puține încât să se piardă informații — de regulă 5–20. Cele 10 intervale din exemplul cărții sunt o alegere, nu o normă; câte un interval pentru fiecare scor distinct înseamnă distribuția negrupată.",
+          "tag": "Numărul de intervale",
+          "tip": "regula"
+        },
+        {
+          "q": "Vrei să grupezi în intervale scorurile unui test, cuprinse între 24 și 69. Ce calculezi mai întâi, ca să afli mărimea intervalelor?",
+          "opts": [
+            "Numărul de scoruri distincte din mulțimea inițială",
+            "Distanța dintre limitele reale ale primului interval",
+            "Suma limitelor primului interval, împărțită la doi",
+            "Diferența dintre cel mai mare și cel mai mic scor"
+          ],
+          "correct": 3,
+          "explain": "Calculezi amplitudinea: scorul maxim − scorul minim (69 − 24 = 45), pe care o împarți la numărul de intervale dorit ca să afli mărimea intervalului. Suma limitelor împărțită la doi e centrul de interval, iar distanța dintre limitele reale ale unui interval e chiar mărimea lui — tocmai ce vrei să afli; numărul de scoruri distincte nu spune cât de departe sunt extremele.",
+          "tag": "Amplitudinea și mărimea intervalului",
+          "tip": "definitie"
+        },
+        {
+          "q": "Ce arată frecvența cumulată a unui interval de clasă?",
+          "opts": [
+            "Cazurile din acel interval și din toate intervalele precedente",
+            "Cazurile din acel interval raportate la numărul total de cazuri",
+            "Cazurile din acel interval și din toate intervalele care urmează",
+            "Cazurile din acel interval înmulțite cu mărimea intervalului"
+          ],
+          "correct": 0,
+          "explain": "Frecvența cumulată adună frecvența intervalului cu cea cumulată în intervalul anterior (intervalele în ordine crescătoare), așa că în ultimul interval este egală cu n. Raportarea la total dă proporția; cumularea „spre în sus” inversează sensul folosit în curs.",
+          "tag": "Frecvența cumulată",
+          "tip": "definitie"
+        },
+        {
+          "q": "Intervalele stabilite sunt 20–24, 25–29, 30–34 … Care sunt limitele reale ale intervalului 30–34?",
+          "opts": [
+            "30,0–34,5",
+            "29,0–35,0",
+            "29,5–34,5",
+            "30,5–33,5"
+          ],
+          "correct": 2,
+          "explain": "Distanța dintre intervale e de o unitate (de la 29 la 30); jumătate din ea, 0,5, se scade din limita inferioară și se adună la cea superioară: 29,5–34,5. Corecția aplicată doar la un capăt, corecția de o unitate întreagă sau mutarea limitelor spre interior nu respectă regula.",
+          "tag": "Limite stabilite și limite reale",
+          "tip": "calcul"
+        },
+        {
+          "q": "Cum se află centrul unui interval de clasă?",
+          "opts": [
+            "Diferența dintre limita superioară și cea inferioară, împărțită la doi",
+            "Suma limitei inferioare și a celei superioare, împărțită la doi",
+            "Limita inferioară stabilită, din care se scade o jumătate de unitate",
+            "Frecvența intervalului împărțită la numărul total de intervale"
+          ],
+          "correct": 1,
+          "explain": "Centrul de interval e mijlocul intervalului: (20 + 24) / 2 = 22. Diferența limitelor împărțită la doi dă jumătatea mărimii intervalului, nu poziția lui; scăderea a 0,5 din limita inferioară dă limita reală inferioară.",
+          "tag": "Centrul de interval",
+          "tip": "definitie"
+        },
+        {
+          "q": "Ce coloană poate fi adăugată unei distribuții de frecvențe la orice nivel de măsură?",
+          "opts": [
+            "Coloana de procente cumulate",
+            "Coloana de frecvențe cumulate",
+            "Coloana de centre de interval",
+            "Coloana de procente pe categorii"
+          ],
+          "correct": 3,
+          "explain": "Cursul spune explicit că procentele sunt singura coloană adăugabilă la orice nivel. La nivel nominal și ordinal, frecvențele și procentele cumulate sunt lipsite de sens, iar limitele reale și centrele de interval nu se pot determina, pentru că acolo categoriile sunt întotdeauna discrete.",
+          "tag": "Distribuții nominale și ordinale",
+          "tip": "regula"
+        },
+        {
+          "q": "Într-o diagramă circulară, o categorie cuprinde 35% din cazuri. Ce unghi are sectorul ei?",
+          "opts": [
+            "126°",
+            "35°",
+            "63°",
+            "54°"
+          ],
+          "correct": 0,
+          "explain": "Cercul are 360°, deci sectorul este 35% din 360° = 126° (exemplul celibatarilor din curs). 35° confundă procentul cu gradele, iar 54° este sectorul divorțaților (15%).",
+          "tag": "Diagrama circulară",
+          "tip": "calcul"
+        },
+        {
+          "q": "De ce coloanele unei histograme sunt în contact, spre deosebire de cele ale unei diagrame cu coloane?",
+          "opts": [
+            "Histograma se folosește doar pentru variabile nominale și ordinale",
+            "Histograma reprezintă frecvențele cumulate, nu frecvențele simple",
+            "Histograma folosește limitele de clasă reale ale intervalelor",
+            "Histograma folosește centrele de interval în locul limitelor"
+          ],
+          "correct": 2,
+          "explain": "Limitele reale ale intervalelor vecine coincid (24,5 încheie un interval și îl începe pe următorul), deci coloanele se ating. Histograma e pentru date de interval sau de raport; frecvențele cumulate se reprezintă prin ogivă, iar centrele de interval sunt folosite de poligonul de frecvențe.",
+          "tag": "Histograma",
+          "tip": "grafic"
+        },
+        {
+          "q": "Ce se dispune pe axa absciselor la construirea unei ogive?",
+          "opts": [
+            "Centrele de interval ale fiecărei clase din distribuție",
+            "Limitele de clasă reale superioare ale intervalelor",
+            "Limitele de clasă stabilite inferioare ale intervalelor",
+            "Frecvențele cumulate sau procentele cumulate ale claselor"
+          ],
+          "correct": 1,
+          "explain": "Ogiva folosește LCRS pe abscisă, iar frecvențele sau procentele cumulate pe ordonată — de aceea varianta cu frecvențele cumulate pune elementul corect pe axa greșită. Centrele de interval țin de poligonul de frecvențe.",
+          "tag": "Ogiva",
+          "tip": "grafic"
+        }
+      ],
+      "ascunse": [
+        {
+          "q": "Cum se închide un poligon de frecvențe?",
+          "opts": [
+            "Cu câte un interval suplimentar, de frecvență zero, la fiecare capăt",
+            "Prin prelungirea liniei spre limita reală inferioară a primului interval",
+            "Prin unirea primului punct cu ultimul printr-o singură linie dreaptă",
+            "Prin coborârea câte unei coloane verticale la cele două capete"
+          ],
+          "correct": 0,
+          "explain": "Poligonul se închide adăugând la fiecare capăt câte un interval cu frecvența zero și unind punctele extreme cu centrele acestor intervale, aflate pe abscisă. Prelungirea spre limita reală inferioară a primului interval este modul de închidere al ogivei, doar la stânga.",
+          "tag": "Poligonul de frecvențe",
+          "tip": "grafic"
+        },
+        {
+          "q": "Ce cere regula privind primul interval de clasă al unei distribuții grupate?",
+          "opts": [
+            "Limita lui inferioară să fie egală cu zero, în orice distribuție",
+            "Limita lui inferioară să fie mai mică sau egală cu scorul minim",
+            "Limita lui superioară să fie egală cu amplitudinea mulțimii",
+            "Să conțină cel mai mare număr de scoruri din toată distribuția"
+          ],
+          "correct": 1,
+          "explain": "Primul interval trebuie să conțină cel mai mic scor, iar ultimul pe cel mai mare. În exemplul cu scorul minim 24, oricare dintre 20–24, 21–25, 22–26, 23–27, 24–28 putea fi ales; nimic nu cere ca distribuția să înceapă de la zero.",
+          "tag": "Primul și ultimul interval",
+          "tip": "regula"
+        },
+        {
+          "q": "Raportul studenților de la Științe Economice față de cei de la Psihologie, 1,48, se poate scrie „148”. Ce înseamnă această formă?",
+          "opts": [
+            "148% dintre studenții universității sunt înscriși la Științe Economice",
+            "La fiecare 1000 de studenți ai universității, 148 sunt la Psihologie",
+            "La fiecare 100 de studenți la Științe Economice sunt 148 la Psihologie",
+            "La fiecare 100 de studenți la Psihologie sunt 148 la Științe Economice"
+          ],
+          "correct": 3,
+          "explain": "Raporturile pot fi înmulțite cu 100 ca să dispară virgula: 148 de studenți la Științe Economice pentru fiecare 100 la Psihologie. Un procent din total nu poate depăși 100%, „la o mie” e forma unei rate, iar ultima variantă inversează categoriile.",
+          "tag": "Raportul",
+          "tip": "concept"
+        },
+        {
+          "q": "O variabilă nominală are nouă categorii. Ce reprezentare grafică e preferabilă pentru distribuția ei?",
+          "opts": [
+            "O diagramă cu coloane, pentru că cea circulară devine aglomerată",
+            "O diagramă circulară, pentru că arată cel mai bine părțile întregului",
+            "O histogramă, pentru că are coloanele în contact două câte două",
+            "O ogivă, pentru că rezumă categoriile prin frecvențe cumulate"
+          ],
+          "correct": 0,
+          "explain": "Cu prea multe categorii, diagrama circulară devine prea aglomerată și greu de citit, deci e preferabilă diagrama cu coloane. Histograma și ogiva sunt pentru date de interval sau de raport, nu pentru categorii discrete.",
+          "tag": "Diagrama cu coloane",
+          "tip": "grafic"
+        },
+        {
+          "q": "De ce depinde, în principal, alegerea unei diagrame sau a unui grafic?",
+          "opts": [
+            "De mărimea eșantionului și de numărul intervalelor de clasă",
+            "De preferințele publicului și de modul de difuzare în presă",
+            "De nivelul de măsură al variabilei și de scopurile cercetării",
+            "De amplitudinea scorurilor și de mărimea fiecărui interval"
+          ],
+          "correct": 2,
+          "explain": "Cursul spune că alegerea depinde „în principal, de nivelul de măsură folosit și de scopurile cercetării” — nivelurile de măsură din Cap. 1 (Introducere în statistică). Numărul de categorii contează doar secundar, între diagrama circulară și cea cu coloane.",
+          "tag": "Alegerea reprezentării grafice",
+          "tip": "principiu"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "eticheta": "Runda 3 · Aplicații",
+      "titlu": "Runda 3 — Scenarii și raționament",
+      "desc": "Situații noi: calculezi, alegi indicatorul sau graficul potrivit și găsești eroarea de prezentare.",
+      "intrebari": [
+        {
+          "q": "Clinica A are 40 de pacienți cu tulburări anxioase din 200, clinica B are 60 din 500. Unde e mai mare ponderea lor?",
+          "opts": [
+            "În clinica B, pentru că are mai mulți pacienți anxioși în număr absolut",
+            "În clinica A: 0,20 față de 0,12, deși are mai puțini pacienți anxioși",
+            "Nu se pot compara, pentru că totalurile celor două clinici sunt diferite",
+            "La fel în ambele, pentru că diferența de 20 de pacienți e prea mică"
+          ],
+          "correct": 1,
+          "explain": "Proporțiile (40/200 = 0,20; 60/500 = 0,12) fac comparabile grupuri de mărimi diferite — exact ca la universitatea A, cu procent mai mare la Psihologie deși cu mai puțini studenți în cifre absolute. Frecvența absolută induce în eroare, iar totalurile diferite sunt tocmai motivul pentru care calculăm proporții.",
+          "tag": "Compararea grupurilor de mărimi diferite",
+          "tip": "calcul",
+          "exemplu_nou": true
+        },
+        {
+          "q": "O reclamă spune: „3 din 4 psihologi recomandă aplicația X”. Ce informație îți lipsește ca să evaluezi afirmația?",
+          "opts": [
+            "Ce procent înseamnă 3 din 4, adică 75% dintre psihologii întrebați",
+            "Raportul dintre cei care recomandă și cei care nu, adică 3 la 1",
+            "Rata anuală a recomandărilor, exprimată în promile, nu în procente",
+            "Câți psihologi au fost întrebați, adică baza pe care s-a calculat"
+          ],
+          "correct": 3,
+          "explain": "Ca la reclama „două din trei persoane preferă marca X” — dacă s-au chestionat doar 3 sau 4 oameni, proporția nu spune nimic. Conversia în procent sau în raport doar reformulează aceeași cifră, fără să adauge baza de comparație.",
+          "tag": "Baza de comparație",
+          "tip": "eroare",
+          "exemplu_nou": true
+        },
+        {
+          "q": "Un director: „salariile au crescut cu 5%, chiria cu 10%, utilitățile cu 15%, deci cheltuielile firmei au crescut cu 30%”. Unde greșește?",
+          "opts": [
+            "Procentele unor baze diferite nu se adună ca numerele cardinale",
+            "Nicăieri, doar că rezultatul trebuia exprimat în promile",
+            "Procentele trebuiau înmulțite între ele, nu adunate",
+            "Calculul e corect dacă cele trei cheltuieli sunt la fel de mari"
+          ],
+          "correct": 0,
+          "explain": "Fiecare procent se raportează la altă sumă; ca în exemplul cu energia electrică, doar o creștere cu 30% a tuturor cheltuielilor ar da 30%. Chiar cu trei cheltuieli egale, creșterea totală ar fi media (10%), nu suma — deci și varianta „corect dacă sunt egale” e greșită.",
+          "tag": "Eroarea adunării procentelor",
+          "tip": "eroare",
+          "exemplu_nou": true
+        },
+        {
+          "q": "Șeful de departament: 37 din cei 154 de angajați lucrează la el și au adus 7321 din cele 17832 de contracte. Cum prezintă cel mai convingător?",
+          "opts": [
+            "Prin frecvențe: 37 de angajați au adus 7321 de contracte",
+            "Prin diferență: are cu 117 angajați mai puțin decât restul",
+            "Prin procente: 24% din angajați au adus 41% din contracte",
+            "Prin rată: 198 de contracte pe angajat, exprimate la mie"
+          ],
+          "correct": 2,
+          "explain": "Sunt două comparații parte–întreg (angajați și contracte), deci procentele le fac imediat lizibile: 37/154 ≈ 24%, 7321/17832 ≈ 41%. Frecvențele brute sunt chiar prezentarea care îl plictisea pe director; „rata la mie” folosește greșit noțiunea de rată (nu sunt cazuri posibile pe unitate de timp).",
+          "tag": "Compararea grupurilor de mărimi diferite",
+          "tip": "concept",
+          "exemplu_nou": false
+        },
+        {
+          "q": "Un spital are 150 de asistente și 60 de medici. Cum exprimi raportul asistente / medici?",
+          "opts": [
+            "0,4: la fiecare medic revin 0,4 asistente",
+            "2,5: la fiecare medic revin 2,5 asistente",
+            "0,71: asistentele sunt 71% din personal",
+            "90: sunt cu 90 de asistente mai mult"
+          ],
+          "correct": 1,
+          "explain": "Raportul fi / fj = 150 / 60 = 2,5 (sau 250 de asistente la 100 de medici). 0,4 inversează categoriile, 0,71 = 150/210 este proporția asistentelor din total, iar 90 este o diferență, nu un raport.",
+          "tag": "Raportul",
+          "tip": "calcul",
+          "exemplu_nou": true
+        },
+        {
+          "q": "Vrei să compari abandonul școlar în două licee de mărimi foarte diferite, de la un an la altul. Ce indicator e cel mai potrivit?",
+          "opts": [
+            "Un raport: abandonurile unui liceu împărțite la ale celuilalt",
+            "O frecvență cumulată a abandonurilor, de la primul an până azi",
+            "Numărul absolut de abandonuri, pentru că e cifra cea mai exactă",
+            "O rată: abandonuri raportate la elevii înscriși, pe fiecare an"
+          ],
+          "correct": 3,
+          "explain": "Rata raportează cazurile efective (abandonurile) la cele posibile (elevii înscriși) pe o unitate de timp, deci permite comparații între grupuri diferite și în momente diferite. Raportul dintre licee ignoră mărimea fiecăruia, iar cifrele absolute favorizează liceul mai mare.",
+          "tag": "Rata",
+          "tip": "concept",
+          "exemplu_nou": true
+        },
+        {
+          "q": "În tabelul grupat, intervalul 35–39 are 18 cazuri. Ce informație NU mai poate fi aflată din acest tabel?",
+          "opts": [
+            "Câți subiecți au obținut exact scorul 37",
+            "Câte scoruri cad între 35 și 39 inclusiv",
+            "Ce procent din total cade între 35 și 39",
+            "Câți subiecți au obținut, cumulat, sub 40"
+          ],
+          "correct": 0,
+          "explain": "Gruparea produce o pierdere de informație: știm doar că sunt 18 scoruri în 35–39, nu cum se împart pe 35, 36, 37, 38, 39. Procentul (18/180 = 10%) și frecvența cumulată (28 sub 40) se pot calcula din tabelul grupat.",
+          "tag": "Pierderea de informație",
+          "tip": "concept",
+          "exemplu_nou": false
+        },
+        {
+          "q": "Scorurile la o scală de anxietate merg de la 12 la 87. Vrei 15 intervale de clasă de aceeași mărime. Ce mărime alegi?",
+          "opts": [
+            "6, pentru că 87 / 15 ≈ 5,8, rotunjit",
+            "7, pentru că (87 + 12) / 15 ≈ 6,6",
+            "5, pentru că (87 − 12) / 15 = 5",
+            "15, cât numărul de intervale cerut"
+          ],
+          "correct": 2,
+          "explain": "Mărimea = amplitudinea (87 − 12 = 75) împărțită la numărul de intervale (15) = 5. Împărțirea doar a scorului maxim ignoră scorul minim, iar adunarea celor două scoruri nu dă amplitudinea.",
+          "tag": "Amplitudinea și mărimea intervalului",
+          "tip": "calcul",
+          "exemplu_nou": true
+        },
+        {
+          "q": "Un student construiește intervalele de clasă 10–15, 15–20, 20–25, 25–30. Ce regulă încalcă?",
+          "opts": [
+            "Primul interval ar trebui să înceapă de la zero, nu de la 10",
+            "Intervalele se suprapun: scorul 15 aparține la două intervale",
+            "Intervalele ar trebui să aibă mărimi diferite, după frecvență",
+            "Ultimul interval ar trebui să conțină cel mai mic scor al mulțimii"
+          ],
+          "correct": 1,
+          "explain": "Intervalele nu trebuie să se suprapună — e regula excluderii reciproce din Cap. 1 (Introducere în statistică), aplicată intervalelor (cartea dă exemplul 20–24, 24–28). Primul interval nu trebuie să înceapă de la zero, intervalele se fac de obicei egale, iar scorul minim intră în primul interval, nu în ultimul.",
+          "tag": "Primul și ultimul interval",
+          "tip": "regula",
+          "exemplu_nou": true
+        },
+        {
+          "q": "În tabelul cu frecvențe cumulate, intervalul 50–54 are fc = 122 și %c = 67,78. Ce rezultă?",
+          "opts": [
+            "122 de subiecți, adică 67,78%, au scoruri mai mici de 55",
+            "122 de subiecți au obținut scoruri cuprinse între 50 și 54",
+            "67,78% dintre subiecți au obținut scoruri de cel puțin 50",
+            "122 de subiecți au obținut scoruri mai mari decât 54"
+          ],
+          "correct": 0,
+          "explain": "Frecvența cumulată include intervalul și toate intervalele precedente, deci 122 de subiecți au sub 55 (concluzia cărții). Între 50 și 54 sunt doar 30 de subiecți (frecvența simplă), iar „cel puțin 50” și „peste 54” inversează sensul cumulării.",
+          "tag": "Citirea cumulatelor",
+          "tip": "concept",
+          "exemplu_nou": false
+        },
+        {
+          "q": "Un cercetător adaugă o coloană de frecvențe cumulate la distribuția culorii preferate (roșu, albastru, verde, galben). Ce valoare informativă are noua coloană?",
+          "opts": [
+            "Sunt corecte, dacă se adaugă și coloana de procente cumulate",
+            "Sunt corecte, dacă se calculează întâi centrele de interval",
+            "Sunt corecte, dacă eșantionul are cel puțin o sută de cazuri",
+            "La nivel nominal, frecvențele cumulate sunt lipsite de sens"
+          ],
+          "correct": 3,
+          "explain": "Cursul spune că la nivelurile nominal și ordinal frecvențele și procentele cumulate sunt lipsite de sens; interpretarea noastră: la nivel nominal ordinea categoriilor e arbitrară, deci „cumulat până la verde” nu înseamnă nimic. Centrele de interval nici nu există la categorii discrete, iar mărimea eșantionului nu schimbă nivelul de măsură.",
+          "tag": "Distribuții nominale și ordinale",
+          "tip": "regula",
+          "exemplu_nou": true
+        },
+        {
+          "q": "Ai vârsta în ani a 300 de participanți, grupată în intervale de câte 5 ani, și vrei să arăți forma distribuției. Ce alegi?",
+          "opts": [
+            "O diagramă circulară, cu câte un sector pentru fiecare vârstă",
+            "O diagramă cu coloane separate, câte una pe fiecare interval",
+            "O histogramă, cu limitele reale ale intervalelor pe abscisă",
+            "O diagramă de împrăștiere, cu vârsta pusă pe ambele axe"
+          ],
+          "correct": 2,
+          "explain": "Vârsta e o variabilă de raport, deci se reprezintă prin histogramă (sau poligon). Coloanele separate sunt pentru categorii discrete (nominale, ordinale); diagrama circulară cu zeci de sectoare devine ilizibilă; diagrama de împrăștiere arată relația dintre două variabile, în Cap. 12 (Mărimi ale corelației).",
+          "tag": "Histograma",
+          "tip": "grafic",
+          "exemplu_nou": true
+        },
+        {
+          "q": "Vrei să arăți cum a evoluat, lună de lună, numărul de bărbați și de femei care apelează la consilierea din firmă. Ce reprezentare grafică e potrivită?",
+          "opts": [
+            "O singură diagramă circulară, cu câte un sector pe lună",
+            "Coloane grupate pe luni sau o diagramă cu linii, pe sexe",
+            "O ogivă, pentru că lunile se cumulează de la prima încoace",
+            "O histogramă cu luni în contact, fără separare pe sexe"
+          ],
+          "correct": 1,
+          "explain": "Figurile 2.3 și 2.4 redau aceleași date în coloane grupate și în linii: se vede că apelanții femei au crescut mai repede decât bărbații. O diagramă circulară pierde comparația pe sexe și evoluția, iar ogiva arată frecvențe cumulate ale unei variabile de interval, nu serii în timp.",
+          "tag": "Diagrama cu linii",
+          "tip": "grafic",
+          "exemplu_nou": false
+        },
+        {
+          "q": "Vrei să citești rapid din grafic ce procent din subiecți au scoruri sub 60 (intervale 55–59, 60–64 …). Ce folosești?",
+          "opts": [
+            "Ogiva procentelor cumulate, citită în dreptul valorii 59,5",
+            "Poligonul de frecvențe, citit în dreptul centrului 57",
+            "Histograma, citită la înălțimea coloanei 55–59",
+            "Diagrama circulară, citită la sectorul cel mai mare"
+          ],
+          "correct": 0,
+          "explain": "Ogiva pune procentele cumulate în dreptul limitelor reale superioare, deci la 59,5 citești direct procentul celor sub 60 — de aceea, în Cap. 3 (Mărimile tendinței centrale), ogiva servește la aflarea unor puncte ale distribuției. Poligonul și histograma arată frecvențe simple, ale unui singur interval.",
+          "tag": "Ogiva",
+          "tip": "grafic",
+          "exemplu_nou": true
+        },
+        {
+          "q": "Timpi de reacție (secunde) grupați în intervalele stabilite 2,0–2,4; 2,5–2,9; 3,0–3,4. Care sunt limitele reale ale primului interval?",
+          "opts": [
+            "1,50–2,90",
+            "2,00–2,50",
+            "1,90–2,50",
+            "1,95–2,45"
+          ],
+          "correct": 3,
+          "explain": "Distanța dintre intervale este 0,1 (de la 2,4 la 2,5); jumătate, 0,05, se scade din limita inferioară și se adună la cea superioară. Varianta 1,50–2,90 aplică mecanic 0,5, ca la scoruri întregi, deși regula cere jumătate din distanța reală dintre intervale.",
+          "tag": "Limite stabilite și limite reale",
+          "tip": "calcul",
+          "exemplu_nou": true
+        }
+      ],
+      "ascunse": [
+        {
+          "q": "Un coleg spune că, trecând de la limitele stabilite la cele reale, centrele de interval se mută cu 0,5. Are dreptate?",
+          "opts": [
+            "Nu: limitele se mută cu 0,5 în sens opus, deci mijlocul rămâne",
+            "Da: centrul coboară cu 0,5, odată cu limita inferioară",
+            "Da: centrul se mută cu 0,25, adică jumătate din corecție",
+            "Nu: centrele se calculează numai din frecvențele claselor"
+          ],
+          "correct": 0,
+          "explain": "Limita inferioară scade cu 0,5, iar cea superioară crește cu 0,5, deci suma lor — și centrul — rămâne aceeași: 20–24 și 19,5–24,5 au amândouă centrul 22. Centrele depind de limite, nu de frecvențe.",
+          "tag": "Centrul de interval",
+          "tip": "concept",
+          "exemplu_nou": true
+        },
+        {
+          "q": "Într-un tabel, proporțiile celor trei categorii sunt 0,45; 0,30 și 0,20. Ce poți spune?",
+          "opts": [
+            "E o greșeală: proporțiile tuturor categoriilor însumează 1",
+            "Tabelul e corect, pentru că proporțiile nu trebuie să însumeze 1",
+            "Proporțiile trebuie să însumeze 100, deci toate sunt greșite",
+            "Lipsesc exact 5 cazuri, pentru că până la 1 mai sunt 0,05"
+          ],
+          "correct": 0,
+          "explain": "Fiecare p = f / n, iar frecvențele însumează n, deci proporțiile însumează 1 (în tabelul 2.1: 1,000). Totalul 100 e al procentelor; cele 0,05 lipsă ar însemna 5 cazuri doar dacă n ar fi 100.",
+          "tag": "Proporția și procentul",
+          "tip": "calcul",
+          "exemplu_nou": true
+        },
+        {
+          "q": "Nivelul de școlarizare are 6 categorii ordonate. Ce reprezentare grafică NU e potrivită pentru distribuția lui?",
+          "opts": [
+            "Diagrama cu coloane, pentru că variabila are mai mult de trei categorii",
+            "Diagrama circulară, pentru că ea se folosește numai la date nominale",
+            "Coloana de procente, pentru că nu are sens la variabile ordinale",
+            "Histograma, care cere limite reale, inexistente la categorii discrete"
+          ],
+          "correct": 3,
+          "explain": "Histograma e pentru date de interval sau de raport, cu limite reale și coloane în contact; la nivel ordinal categoriile sunt discrete. Diagramele circulare și cu coloane merg la nivel nominal și ordinal, iar procentele pot fi adăugate la orice nivel.",
+          "tag": "Histograma",
+          "tip": "grafic",
+          "exemplu_nou": true
+        },
+        {
+          "q": "Frecvențele a patru intervale (în ordine crescătoare) sunt 3, 7, 12 și 8, cu n = 30. Cât este frecvența cumulată a celui de-al treilea interval?",
+          "opts": [
+            "12",
+            "22",
+            "19",
+            "27"
+          ],
+          "correct": 1,
+          "explain": "Frecvența cumulată adună intervalul cu toate cele precedente: 3 + 7 + 12 = 22. 12 este frecvența simplă, 19 omite primul interval, iar 27 cumulează de sus în jos (8 + 12 + 7).",
+          "tag": "Frecvența cumulată",
+          "tip": "calcul",
+          "exemplu_nou": true
+        },
+        {
+          "q": "Cel mai mic scor este 37, iar mărimea intervalului este 5. Care prim interval NU respectă regulile?",
+          "opts": [
+            "33–37",
+            "35–39",
+            "38–42",
+            "37–41"
+          ],
+          "correct": 2,
+          "explain": "Primul interval trebuie să conțină scorul minim (limita inferioară ≤ 37). 33–37, 35–39 și 37–41 îl conțin pe 37 și au câte 5 scoruri; 38–42 îl lasă pe 37 în afara oricărui interval, deci încalcă și exhaustivitatea din Cap. 1 (Introducere în statistică).",
+          "tag": "Primul și ultimul interval",
+          "tip": "regula",
+          "exemplu_nou": true
+        }
+      ]
+    }
+  ],
+  "harta": {
+    "centru": "Prezentarea datelor statistice",
+    "ramuri": [
+      {
+        "titlu": "Procente și proporții",
+        "noduri": [
+          {
+            "t": "Proporția și procentul",
+            "d": "Proporția p = f / n; procentul = (f / n) · 100, unde f = cazurile din categorie, n = totalul. Ex.: 167 din 269 → p = 0,621 → 62,1%. Proporțiile însumează 1, procentele 100."
+          },
+          {
+            "t": "Compararea grupurilor de mărimi diferite",
+            "d": "Universitatea A (415 studenți) are 33,0% la Psihologie, B (996) doar 18,9%, deși B are mai mulți în cifre absolute (188 față de 137). Sub fiecare coloană de procente se trece totalul (n). Șeful de departament: „24% din angajați au adus 41% din contracte”."
+          },
+          {
+            "t": "Baza de comparație",
+            "d": "Fără ea, procentele nu spun nimic sau induc în eroare: „cu 20% mai puține calorii” — față de ce? „Două din trei persoane preferă X” — dacă au fost întrebate doar trei?"
+          },
+          {
+            "t": "Eroarea adunării procentelor",
+            "d": "Procentele nu se adună ca numerele cardinale: combustibil +10%, retehnologizare +20%, forță de muncă +10% nu justifică +50% la prețul kilowattului; doar o creștere cu 50% a tuturor costurilor ar justifica-o."
+          }
+        ],
+        "figuri": [
+          {
+            "titlu": "Aceleași date, clasament inversat",
+            "nota": "B are mai mulți studenți la Psihologie, dar A are procentul mai mare (tabelele 2.2–2.3).",
+            "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 200\" role=\"img\" aria-label=\"Universitatea B are mai mulți studenți la Psihologie în număr absolut, dar universitatea A are procentul mai mare\" font-family=\"Georgia, serif\" font-size=\"13\"><text x=\"85.0\" y=\"14.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"12.0\">Număr de studenți</text><text x=\"240.0\" y=\"14.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"12.0\">Procent din total</text><line x1=\"30.0\" y1=\"160.0\" x2=\"140.0\" y2=\"160.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><path d=\"M40.0,160.0 V77.4 Q40.0,74.4 43.0,74.4 H71.0 Q74.0,74.4 74.0,77.4 V160.0 Z\" fill=\"#2a78d6\"><title>Universitatea A: 137</title></path><text x=\"57.0\" y=\"69.4\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"12.0\">137</text><text x=\"57.0\" y=\"174.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"12.0\">Univ. A</text><path d=\"M90.0,160.0 V45.5 Q90.0,42.5 93.0,42.5 H121.0 Q124.0,42.5 124.0,45.5 V160.0 Z\" fill=\"#eb6834\"><title>Universitatea B: 188</title></path><text x=\"107.0\" y=\"37.5\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"12.0\">188</text><text x=\"107.0\" y=\"174.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"12.0\">Univ. B</text><line x1=\"185.0\" y1=\"160.0\" x2=\"295.0\" y2=\"160.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><path d=\"M195.0,160.0 V59.9 Q195.0,56.9 198.0,56.9 H226.0 Q229.0,56.9 229.0,59.9 V160.0 Z\" fill=\"#2a78d6\"><title>Universitatea A: 33,0%</title></path><text x=\"212.0\" y=\"51.9\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"12.0\">33,0%</text><text x=\"212.0\" y=\"174.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"12.0\">Univ. A</text><path d=\"M245.0,160.0 V103.9 Q245.0,100.9 248.0,100.9 H276.0 Q279.0,100.9 279.0,103.9 V160.0 Z\" fill=\"#eb6834\"><title>Universitatea B: 18,9%</title></path><text x=\"262.0\" y=\"95.9\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"12.0\">18,9%</text><text x=\"262.0\" y=\"174.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"12.0\">Univ. B</text><text x=\"160.0\" y=\"192.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.8\">A: 137 din 415 · B: 188 din 996</text></svg>"
+          }
+        ]
+      },
+      {
+        "titlu": "Raporturi și rate",
+        "noduri": [
+          {
+            "t": "Raportul",
+            "d": "fi / fj: de câte ori categoria i depășește categoria j. Științe Economice / Psihologie la universitatea B: 279 / 188 = 1,48; înmulțit cu 100 → 148 de studenți la 100 de studenți la Psihologie."
+          },
+          {
+            "t": "Rata",
+            "d": "Cazuri reale / cazuri posibile, pe o unitate de timp. Rata brută a natalității = născuți vii / populație, pe an, × 1000, în promile: 100 / 7000 × 1000 = 14,3‰."
+          },
+          {
+            "t": "Frecvențe relative",
+            "d": "Procentele, proporțiile, raporturile și ratele sunt utile mai ales când comparăm grupuri diferite și/sau același grup în momente diferite."
+          }
+        ],
+        "figuri": [
+          {
+            "titlu": "Raportul 279 / 188 = 1,48",
+            "nota": "Baza raportului e categoria j; înmulțit cu 100: 148 la fiecare 100 de studenți la Psihologie.",
+            "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 120\" role=\"img\" aria-label=\"Bara Științe Economice este de 1,48 ori bara Psihologie\" font-family=\"Georgia, serif\" font-size=\"13\"><text x=\"20.0\" y=\"22.0\" text-anchor=\"start\" fill=\"#2c2a26\" font-size=\"12.0\">Psihologie: 188 studenți = 1</text><rect x=\"20.0\" y=\"28.0\" width=\"150.0\" height=\"18.0\" fill=\"#2a78d6\"><title>Psihologie: 188 (baza raportului = 1)</title></rect><text x=\"20.0\" y=\"70.0\" text-anchor=\"start\" fill=\"#2c2a26\" font-size=\"12.0\">Științe Economice: 279 studenți = 1,48</text><rect x=\"20.0\" y=\"76.0\" width=\"222.6\" height=\"18.0\" fill=\"#eb6834\"><title>Științe Economice: 279 = 1,48 × 188</title></rect><line x1=\"170.0\" y1=\"74.0\" x2=\"170.0\" y2=\"100.0\" stroke=\"#6b6760\" stroke-width=\"1\" stroke-dasharray=\"3,3\"/><text x=\"206.3\" y=\"110.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"12.0\">+0,48</text><text x=\"95.0\" y=\"110.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.8\">1 unitate</text></svg>"
+          }
+        ]
+      },
+      {
+        "titlu": "Distribuții de frecvențe",
+        "noduri": [
+          {
+            "t": "Distribuția de frecvențe",
+            "d": "Dispunerea valorilor unei variabile care arată câte cazuri sunt în fiecare categorie; de regulă primul pas în orice analiză statistică. Datele brute (tabelul 2.4, 180 de scoruri) sunt greu de urmărit."
+          },
+          {
+            "t": "Distribuție pe scoruri distincte",
+            "d": "Toate scorurile, de la cel mai mic la cel mai mare, cu frecvența fiecăruia — inclusiv scorurile neobținute (26, 27, 28, 31, 66, cu f = 0). Mărimea intervalului e, la rigoare, 1; lista e lungă și puțin clarificatoare."
+          },
+          {
+            "t": "Intervale de clasă",
+            "d": "La date de interval sau de raport cu multe scoruri distincte, scorurile se grupează în categorii mai largi: 10 intervale de câte 5. Se vede predominanța: 45–49 (23,33%) și 55–59 (20,56%)."
+          },
+          {
+            "t": "Pierderea de informație",
+            "d": "Gruparea ascunde câți au obținut fiecare scor (știm doar 18 cazuri în 35–39) și faptul că unele scoruri lipsesc."
+          }
+        ],
+        "figuri": [
+          {
+            "titlu": "Distribuție pe scoruri distincte (tabelul 2.5)",
+            "nota": "46 de categorii, câte una pe scor: completă, dar greu de citit.",
+            "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 206\" role=\"img\" aria-label=\"Frecvența fiecărui scor de la 24 la 69; cinci scoruri au frecvența zero\" font-family=\"Georgia, serif\" font-size=\"13\"><line x1=\"30.0\" y1=\"160.0\" x2=\"312.0\" y2=\"160.0\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><text x=\"26.0\" y=\"163.5\" text-anchor=\"end\" fill=\"#6b6760\" font-size=\"10.8\">0</text><line x1=\"30.0\" y1=\"112.0\" x2=\"312.0\" y2=\"112.0\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><text x=\"26.0\" y=\"115.5\" text-anchor=\"end\" fill=\"#6b6760\" font-size=\"10.8\">5</text><line x1=\"30.0\" y1=\"64.0\" x2=\"312.0\" y2=\"64.0\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><text x=\"26.0\" y=\"67.5\" text-anchor=\"end\" fill=\"#6b6760\" font-size=\"10.8\">10</text><line x1=\"30.0\" y1=\"16.0\" x2=\"312.0\" y2=\"16.0\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><text x=\"26.0\" y=\"19.5\" text-anchor=\"end\" fill=\"#6b6760\" font-size=\"10.8\">15</text><path d=\"M30.8,160.0 V151.9 Q30.8,150.4 32.3,150.4 H33.8 Q35.3,150.4 35.3,151.9 V160.0 Z\" fill=\"#2a78d6\"><title>scorul 24: f = 1</title></path><path d=\"M36.9,160.0 V151.9 Q36.9,150.4 38.4,150.4 H40.0 Q41.5,150.4 41.5,151.9 V160.0 Z\" fill=\"#2a78d6\"><title>scorul 25: f = 1</title></path><text x=\"39.2\" y=\"182.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.8\">25</text><path d=\"M45.3,163.0 l-3,6 h6 z\" fill=\"#b5453a\"><title>scorul 26: neobținut (f = 0)</title></path><path d=\"M51.5,163.0 l-3,6 h6 z\" fill=\"#b5453a\"><title>scorul 27: neobținut (f = 0)</title></path><path d=\"M57.6,163.0 l-3,6 h6 z\" fill=\"#b5453a\"><title>scorul 28: neobținut (f = 0)</title></path><path d=\"M61.5,160.0 V151.9 Q61.5,150.4 63.0,150.4 H64.5 Q66.0,150.4 66.0,151.9 V160.0 Z\" fill=\"#2a78d6\"><title>scorul 29: f = 1</title></path><path d=\"M67.6,160.0 V151.9 Q67.6,150.4 69.1,150.4 H70.6 Q72.1,150.4 72.1,151.9 V160.0 Z\" fill=\"#2a78d6\"><title>scorul 30: f = 1</title></path><text x=\"69.8\" y=\"182.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.8\">30</text><path d=\"M76.0,163.0 l-3,6 h6 z\" fill=\"#b5453a\"><title>scorul 31: neobținut (f = 0)</title></path><path d=\"M79.8,160.0 V142.3 Q79.8,140.8 81.3,140.8 H82.9 Q84.4,140.8 84.4,142.3 V160.0 Z\" fill=\"#2a78d6\"><title>scorul 32: f = 2</title></path><path d=\"M86.0,160.0 V132.7 Q86.0,131.2 87.5,131.2 H89.0 Q90.5,131.2 90.5,132.7 V160.0 Z\" fill=\"#2a78d6\"><title>scorul 33: f = 3</title></path><path d=\"M92.1,160.0 V151.9 Q92.1,150.4 93.6,150.4 H95.1 Q96.6,150.4 96.6,151.9 V160.0 Z\" fill=\"#2a78d6\"><title>scorul 34: f = 1</title></path><path d=\"M98.2,160.0 V142.3 Q98.2,140.8 99.7,140.8 H101.3 Q102.8,140.8 102.8,142.3 V160.0 Z\" fill=\"#2a78d6\"><title>scorul 35: f = 2</title></path><text x=\"100.5\" y=\"182.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.8\">35</text><path d=\"M104.4,160.0 V123.1 Q104.4,121.6 105.9,121.6 H107.4 Q108.9,121.6 108.9,123.1 V160.0 Z\" fill=\"#2a78d6\"><title>scorul 36: f = 4</title></path><path d=\"M110.5,160.0 V113.5 Q110.5,112.0 112.0,112.0 H113.5 Q115.0,112.0 115.0,113.5 V160.0 Z\" fill=\"#2a78d6\"><title>scorul 37: f = 5</title></path><path d=\"M116.6,160.0 V123.1 Q116.6,121.6 118.1,121.6 H119.7 Q121.2,121.6 121.2,123.1 V160.0 Z\" fill=\"#2a78d6\"><title>scorul 38: f = 4</title></path><path d=\"M122.8,160.0 V132.7 Q122.8,131.2 124.3,131.2 H125.8 Q127.3,131.2 127.3,132.7 V160.0 Z\" fill=\"#2a78d6\"><title>scorul 39: f = 3</title></path><path d=\"M128.9,160.0 V123.1 Q128.9,121.6 130.4,121.6 H131.9 Q133.4,121.6 133.4,123.1 V160.0 Z\" fill=\"#2a78d6\"><title>scorul 40: f = 4</title></path><text x=\"131.2\" y=\"182.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.8\">40</text><path d=\"M135.0,160.0 V113.5 Q135.0,112.0 136.5,112.0 H138.0 Q139.5,112.0 139.5,113.5 V160.0 Z\" fill=\"#2a78d6\"><title>scorul 41: f = 5</title></path><path d=\"M141.1,160.0 V113.5 Q141.1,112.0 142.6,112.0 H144.2 Q145.7,112.0 145.7,113.5 V160.0 Z\" fill=\"#2a78d6\"><title>scorul 42: f = 5</title></path><path d=\"M147.3,160.0 V123.1 Q147.3,121.6 148.8,121.6 H150.3 Q151.8,121.6 151.8,123.1 V160.0 Z\" fill=\"#2a78d6\"><title>scorul 43: f = 4</title></path><path d=\"M153.4,160.0 V123.1 Q153.4,121.6 154.9,121.6 H156.4 Q157.9,121.6 157.9,123.1 V160.0 Z\" fill=\"#2a78d6\"><title>scorul 44: f = 4</title></path><path d=\"M159.5,160.0 V94.3 Q159.5,92.8 161.0,92.8 H162.6 Q164.1,92.8 164.1,94.3 V160.0 Z\" fill=\"#2a78d6\"><title>scorul 45: f = 7</title></path><text x=\"161.8\" y=\"182.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.8\">45</text><path d=\"M165.7,160.0 V75.1 Q165.7,73.6 167.2,73.6 H168.7 Q170.2,73.6 170.2,75.1 V160.0 Z\" fill=\"#2a78d6\"><title>scorul 46: f = 9</title></path><path d=\"M171.8,160.0 V94.3 Q171.8,92.8 173.3,92.8 H174.8 Q176.3,92.8 176.3,94.3 V160.0 Z\" fill=\"#2a78d6\"><title>scorul 47: f = 7</title></path><path d=\"M177.9,160.0 V84.7 Q177.9,83.2 179.4,83.2 H181.0 Q182.5,83.2 182.5,84.7 V160.0 Z\" fill=\"#2a78d6\"><title>scorul 48: f = 8</title></path><path d=\"M184.1,160.0 V55.9 Q184.1,54.4 185.6,54.4 H187.1 Q188.6,54.4 188.6,55.9 V160.0 Z\" fill=\"#2a78d6\"><title>scorul 49: f = 11</title></path><path d=\"M190.2,160.0 V94.3 Q190.2,92.8 191.7,92.8 H193.2 Q194.7,92.8 194.7,94.3 V160.0 Z\" fill=\"#2a78d6\"><title>scorul 50: f = 7</title></path><text x=\"192.5\" y=\"182.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.8\">50</text><path d=\"M196.3,160.0 V132.7 Q196.3,131.2 197.8,131.2 H199.4 Q200.9,131.2 200.9,132.7 V160.0 Z\" fill=\"#2a78d6\"><title>scorul 51: f = 3</title></path><path d=\"M202.5,160.0 V103.9 Q202.5,102.4 204.0,102.4 H205.5 Q207.0,102.4 207.0,103.9 V160.0 Z\" fill=\"#2a78d6\"><title>scorul 52: f = 6</title></path><path d=\"M208.6,160.0 V94.3 Q208.6,92.8 210.1,92.8 H211.6 Q213.1,92.8 213.1,94.3 V160.0 Z\" fill=\"#2a78d6\"><title>scorul 53: f = 7</title></path><path d=\"M214.7,160.0 V94.3 Q214.7,92.8 216.2,92.8 H217.7 Q219.2,92.8 219.2,94.3 V160.0 Z\" fill=\"#2a78d6\"><title>scorul 54: f = 7</title></path><path d=\"M220.8,160.0 V46.3 Q220.8,44.8 222.3,44.8 H223.9 Q225.4,44.8 225.4,46.3 V160.0 Z\" fill=\"#2a78d6\"><title>scorul 55: f = 12</title></path><text x=\"223.1\" y=\"182.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.8\">55</text><path d=\"M227.0,160.0 V27.1 Q227.0,25.6 228.5,25.6 H230.0 Q231.5,25.6 231.5,27.1 V160.0 Z\" fill=\"#2a78d6\"><title>scorul 56: f = 14</title></path><path d=\"M233.1,160.0 V103.9 Q233.1,102.4 234.6,102.4 H236.1 Q237.6,102.4 237.6,103.9 V160.0 Z\" fill=\"#2a78d6\"><title>scorul 57: f = 6</title></path><path d=\"M239.2,160.0 V142.3 Q239.2,140.8 240.7,140.8 H242.3 Q243.8,140.8 243.8,142.3 V160.0 Z\" fill=\"#2a78d6\"><title>scorul 58: f = 2</title></path><path d=\"M245.4,160.0 V132.7 Q245.4,131.2 246.9,131.2 H248.4 Q249.9,131.2 249.9,132.7 V160.0 Z\" fill=\"#2a78d6\"><title>scorul 59: f = 3</title></path><path d=\"M251.5,160.0 V142.3 Q251.5,140.8 253.0,140.8 H254.5 Q256.0,140.8 256.0,142.3 V160.0 Z\" fill=\"#2a78d6\"><title>scorul 60: f = 2</title></path><text x=\"253.8\" y=\"182.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.8\">60</text><path d=\"M257.6,160.0 V151.9 Q257.6,150.4 259.1,150.4 H260.7 Q262.2,150.4 262.2,151.9 V160.0 Z\" fill=\"#2a78d6\"><title>scorul 61: f = 1</title></path><path d=\"M263.8,160.0 V132.7 Q263.8,131.2 265.3,131.2 H266.8 Q268.3,131.2 268.3,132.7 V160.0 Z\" fill=\"#2a78d6\"><title>scorul 62: f = 3</title></path><path d=\"M269.9,160.0 V113.5 Q269.9,112.0 271.4,112.0 H272.9 Q274.4,112.0 274.4,113.5 V160.0 Z\" fill=\"#2a78d6\"><title>scorul 63: f = 5</title></path><path d=\"M276.0,160.0 V123.1 Q276.0,121.6 277.5,121.6 H279.0 Q280.5,121.6 280.5,123.1 V160.0 Z\" fill=\"#2a78d6\"><title>scorul 64: f = 4</title></path><path d=\"M282.1,160.0 V142.3 Q282.1,140.8 283.6,140.8 H285.2 Q286.7,140.8 286.7,142.3 V160.0 Z\" fill=\"#2a78d6\"><title>scorul 65: f = 2</title></path><text x=\"284.4\" y=\"182.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.8\">65</text><path d=\"M290.5,163.0 l-3,6 h6 z\" fill=\"#b5453a\"><title>scorul 66: neobținut (f = 0)</title></path><path d=\"M294.4,160.0 V151.9 Q294.4,150.4 295.9,150.4 H297.4 Q298.9,150.4 298.9,151.9 V160.0 Z\" fill=\"#2a78d6\"><title>scorul 67: f = 1</title></path><path d=\"M300.5,160.0 V142.3 Q300.5,140.8 302.0,140.8 H303.6 Q305.1,140.8 305.1,142.3 V160.0 Z\" fill=\"#2a78d6\"><title>scorul 68: f = 2</title></path><path d=\"M306.7,160.0 V151.9 Q306.7,150.4 308.2,150.4 H309.7 Q311.2,150.4 311.2,151.9 V160.0 Z\" fill=\"#2a78d6\"><title>scorul 69: f = 1</title></path><line x1=\"30.0\" y1=\"160.0\" x2=\"312.0\" y2=\"160.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><path d=\"M36,194 l-3,6 h6 z\" fill=\"#b5453a\"/><text x=\"44.0\" y=\"200.0\" text-anchor=\"start\" fill=\"#6b6760\" font-size=\"10.8\">scor neobținut (f = 0): 26, 27, 28, 31, 66</text></svg>"
+          },
+          {
+            "titlu": "Aceleași 180 de scoruri, grupate (tabelul 2.6)",
+            "nota": "10 intervale: se vede predominanța lui 45–49 și 55–59, dar se pierde detaliul pe scor.",
+            "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 216\" role=\"img\" aria-label=\"Frecvențele pe zece intervale de clasă de mărime 5\" font-family=\"Georgia, serif\" font-size=\"13\"><line x1=\"30.0\" y1=\"160.0\" x2=\"312.0\" y2=\"160.0\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><text x=\"26.0\" y=\"163.5\" text-anchor=\"end\" fill=\"#6b6760\" font-size=\"10.8\">0</text><line x1=\"30.0\" y1=\"112.0\" x2=\"312.0\" y2=\"112.0\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><text x=\"26.0\" y=\"115.5\" text-anchor=\"end\" fill=\"#6b6760\" font-size=\"10.8\">15</text><line x1=\"30.0\" y1=\"64.0\" x2=\"312.0\" y2=\"64.0\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><text x=\"26.0\" y=\"67.5\" text-anchor=\"end\" fill=\"#6b6760\" font-size=\"10.8\">30</text><line x1=\"30.0\" y1=\"16.0\" x2=\"312.0\" y2=\"16.0\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><text x=\"26.0\" y=\"19.5\" text-anchor=\"end\" fill=\"#6b6760\" font-size=\"10.8\">45</text><path d=\"M32.0,160.0 V159.8 Q32.0,156.8 35.0,156.8 H53.2 Q56.2,156.8 56.2,159.8 V160.0 Z\" fill=\"#2a78d6\"><title>20–24: f = 1 (0,56%)</title></path><text x=\"48.1\" y=\"172.0\" text-anchor=\"end\" fill=\"#6b6760\" font-size=\"9.6\" transform=\"rotate(-40 48.1 172.0)\">20–24</text><path d=\"M60.2,160.0 V156.6 Q60.2,153.6 63.2,153.6 H81.4 Q84.4,153.6 84.4,156.6 V160.0 Z\" fill=\"#2a78d6\"><title>25–29: f = 2 (1,11%)</title></path><text x=\"76.3\" y=\"172.0\" text-anchor=\"end\" fill=\"#6b6760\" font-size=\"9.6\" transform=\"rotate(-40 76.3 172.0)\">25–29</text><path d=\"M88.4,160.0 V140.6 Q88.4,137.6 91.4,137.6 H109.6 Q112.6,137.6 112.6,140.6 V160.0 Z\" fill=\"#2a78d6\"><title>30–34: f = 7 (3,89%)</title></path><text x=\"104.5\" y=\"172.0\" text-anchor=\"end\" fill=\"#6b6760\" font-size=\"9.6\" transform=\"rotate(-40 104.5 172.0)\">30–34</text><path d=\"M116.6,160.0 V105.4 Q116.6,102.4 119.6,102.4 H137.8 Q140.8,102.4 140.8,105.4 V160.0 Z\" fill=\"#2a78d6\"><title>35–39: f = 18 (10,00%)</title></path><text x=\"132.7\" y=\"172.0\" text-anchor=\"end\" fill=\"#6b6760\" font-size=\"9.6\" transform=\"rotate(-40 132.7 172.0)\">35–39</text><path d=\"M144.8,160.0 V92.6 Q144.8,89.6 147.8,89.6 H166.0 Q169.0,89.6 169.0,92.6 V160.0 Z\" fill=\"#2a78d6\"><title>40–44: f = 22 (12,22%)</title></path><text x=\"160.9\" y=\"172.0\" text-anchor=\"end\" fill=\"#6b6760\" font-size=\"9.6\" transform=\"rotate(-40 160.9 172.0)\">40–44</text><path d=\"M173.0,160.0 V28.6 Q173.0,25.6 176.0,25.6 H194.2 Q197.2,25.6 197.2,28.6 V160.0 Z\" fill=\"#2a78d6\"><title>45–49: f = 42 (23,33%)</title></path><text x=\"189.1\" y=\"172.0\" text-anchor=\"end\" fill=\"#6b6760\" font-size=\"9.6\" transform=\"rotate(-40 189.1 172.0)\">45–49</text><path d=\"M201.2,160.0 V67.0 Q201.2,64.0 204.2,64.0 H222.4 Q225.4,64.0 225.4,67.0 V160.0 Z\" fill=\"#2a78d6\"><title>50–54: f = 30 (16,67%)</title></path><text x=\"217.3\" y=\"172.0\" text-anchor=\"end\" fill=\"#6b6760\" font-size=\"9.6\" transform=\"rotate(-40 217.3 172.0)\">50–54</text><path d=\"M229.4,160.0 V44.6 Q229.4,41.6 232.4,41.6 H250.6 Q253.6,41.6 253.6,44.6 V160.0 Z\" fill=\"#2a78d6\"><title>55–59: f = 37 (20,56%)</title></path><text x=\"245.5\" y=\"172.0\" text-anchor=\"end\" fill=\"#6b6760\" font-size=\"9.6\" transform=\"rotate(-40 245.5 172.0)\">55–59</text><path d=\"M257.6,160.0 V115.0 Q257.6,112.0 260.6,112.0 H278.8 Q281.8,112.0 281.8,115.0 V160.0 Z\" fill=\"#2a78d6\"><title>60–64: f = 15 (8,33%)</title></path><text x=\"273.7\" y=\"172.0\" text-anchor=\"end\" fill=\"#6b6760\" font-size=\"9.6\" transform=\"rotate(-40 273.7 172.0)\">60–64</text><path d=\"M285.8,160.0 V143.8 Q285.8,140.8 288.8,140.8 H307.0 Q310.0,140.8 310.0,143.8 V160.0 Z\" fill=\"#2a78d6\"><title>65–69: f = 6 (3,33%)</title></path><text x=\"301.9\" y=\"172.0\" text-anchor=\"end\" fill=\"#6b6760\" font-size=\"9.6\" transform=\"rotate(-40 301.9 172.0)\">65–69</text><text x=\"185.1\" y=\"20.6\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.8\">23,33%</text><text x=\"241.5\" y=\"36.6\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.8\">20,56%</text><line x1=\"30.0\" y1=\"160.0\" x2=\"312.0\" y2=\"160.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><text x=\"171.0\" y=\"210.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.8\">intervale de clasă de câte 5 scoruri</text></svg>"
+          }
+        ]
+      },
+      {
+        "titlu": "Construirea intervalelor de clasă",
+        "noduri": [
+          {
+            "t": "Numărul de intervale",
+            "d": "Regula 1: nici atât de multe încât să nu se mai vadă predominanța unor grupări, nici atât de puține încât să se piardă informații; de regulă 5–20, după numărul de scoruri și scopurile cercetării."
+          },
+          {
+            "t": "Amplitudinea și mărimea intervalului",
+            "d": "Regula 2: amplitudinea = scorul maxim − scorul minim; mărimea = amplitudine / număr de intervale, rotunjită la un întreg convenabil: (69 − 24) / 10 = 4,5 ≈ 5. De obicei intervalele au aceeași mărime."
+          },
+          {
+            "t": "Primul și ultimul interval",
+            "d": "Regula 3: primul interval conține scorul minim (limita inferioară ≤ scorul minim: 20–24, 21–25 … 24–28 sunt toate posibile), ultimul conține scorul maxim, iar intervalele nu se suprapun (20–24, 24–28 l-ar pune pe 24 în două). Rezultatul: intervale exhaustive și reciproc exclusive."
+          },
+          {
+            "t": "Coloana f",
+            "d": "Regula 4: se numără scorurile din fiecare interval, se trec într-o coloană „f”, cu totalul la sfârșit; pentru claritate se poate adăuga o coloană de procente."
+          }
+        ],
+        "figuri": [
+          {
+            "titlu": "Regulile 2 și 3, pe datele cărții",
+            "nota": "Primul interval conține scorul minim, ultimul pe cel maxim; intervalele nu se suprapun.",
+            "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 170\" role=\"img\" aria-label=\"Zece intervale de clasă de câte cinci scoruri care acoperă scorurile 24–69, și un exemplu greșit cu intervale suprapuse\" font-family=\"Georgia, serif\" font-size=\"13\"><text x=\"12.0\" y=\"14.0\" text-anchor=\"start\" fill=\"#2c2a26\" font-size=\"10.8\">Corect: 20–24, 25–29 … 65–69 (în cutii: limita inferioară)</text><rect x=\"29.8\" y=\"48.0\" width=\"26.0\" height=\"18.0\" fill=\"#2a78d6\" fill-opacity=\"0.4\" stroke=\"#ffffff\" stroke-width=\"1\"><title>interval 20–24</title></rect><text x=\"42.8\" y=\"61.5\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"9.6\">20</text><rect x=\"55.8\" y=\"48.0\" width=\"26.0\" height=\"18.0\" fill=\"#2a78d6\" fill-opacity=\"0.22\" stroke=\"#ffffff\" stroke-width=\"1\"><title>interval 25–29</title></rect><text x=\"68.8\" y=\"61.5\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"9.6\">25</text><rect x=\"81.8\" y=\"48.0\" width=\"26.0\" height=\"18.0\" fill=\"#2a78d6\" fill-opacity=\"0.4\" stroke=\"#ffffff\" stroke-width=\"1\"><title>interval 30–34</title></rect><text x=\"94.8\" y=\"61.5\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"9.6\">30</text><rect x=\"107.8\" y=\"48.0\" width=\"26.0\" height=\"18.0\" fill=\"#2a78d6\" fill-opacity=\"0.22\" stroke=\"#ffffff\" stroke-width=\"1\"><title>interval 35–39</title></rect><text x=\"120.8\" y=\"61.5\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"9.6\">35</text><rect x=\"133.8\" y=\"48.0\" width=\"26.0\" height=\"18.0\" fill=\"#2a78d6\" fill-opacity=\"0.4\" stroke=\"#ffffff\" stroke-width=\"1\"><title>interval 40–44</title></rect><text x=\"146.8\" y=\"61.5\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"9.6\">40</text><rect x=\"159.8\" y=\"48.0\" width=\"26.0\" height=\"18.0\" fill=\"#2a78d6\" fill-opacity=\"0.22\" stroke=\"#ffffff\" stroke-width=\"1\"><title>interval 45–49</title></rect><text x=\"172.8\" y=\"61.5\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"9.6\">45</text><rect x=\"185.8\" y=\"48.0\" width=\"26.0\" height=\"18.0\" fill=\"#2a78d6\" fill-opacity=\"0.4\" stroke=\"#ffffff\" stroke-width=\"1\"><title>interval 50–54</title></rect><text x=\"198.8\" y=\"61.5\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"9.6\">50</text><rect x=\"211.8\" y=\"48.0\" width=\"26.0\" height=\"18.0\" fill=\"#2a78d6\" fill-opacity=\"0.22\" stroke=\"#ffffff\" stroke-width=\"1\"><title>interval 55–59</title></rect><text x=\"224.8\" y=\"61.5\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"9.6\">55</text><rect x=\"237.8\" y=\"48.0\" width=\"26.0\" height=\"18.0\" fill=\"#2a78d6\" fill-opacity=\"0.4\" stroke=\"#ffffff\" stroke-width=\"1\"><title>interval 60–64</title></rect><text x=\"250.8\" y=\"61.5\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"9.6\">60</text><rect x=\"263.8\" y=\"48.0\" width=\"26.0\" height=\"18.0\" fill=\"#2a78d6\" fill-opacity=\"0.22\" stroke=\"#ffffff\" stroke-width=\"1\"><title>interval 65–69</title></rect><text x=\"276.8\" y=\"61.5\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"9.6\">65</text><line x1=\"53.2\" y1=\"34.0\" x2=\"53.2\" y2=\"48.0\" stroke=\"#2c2a26\" stroke-width=\"1\"/><text x=\"53.2\" y=\"30.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.8\">min 24</text><line x1=\"287.2\" y1=\"34.0\" x2=\"287.2\" y2=\"48.0\" stroke=\"#2c2a26\" stroke-width=\"1\"/><text x=\"287.2\" y=\"30.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.8\">max 69</text><line x1=\"53.2\" y1=\"76.0\" x2=\"287.2\" y2=\"76.0\" stroke=\"#6b6760\" stroke-width=\"1\"/><line x1=\"53.2\" y1=\"72.0\" x2=\"53.2\" y2=\"80.0\" stroke=\"#6b6760\" stroke-width=\"1\"/><line x1=\"287.2\" y1=\"72.0\" x2=\"287.2\" y2=\"80.0\" stroke=\"#6b6760\" stroke-width=\"1\"/><text x=\"170.2\" y=\"92.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.8\">amplitudine 69 − 24 = 45; 45 / 10 = 4,5 ≈ 5</text><text x=\"12.0\" y=\"116.0\" text-anchor=\"start\" fill=\"#2c2a26\" font-size=\"12.0\">Greșit: 20–24, 24–28, 28–32 se suprapun</text><rect x=\"29.8\" y=\"126.0\" width=\"26.0\" height=\"16.0\" fill=\"#2a78d6\" fill-opacity=\"0.3\" stroke=\"#ffffff\" stroke-width=\"1\"><title>interval 20–24</title></rect><text x=\"42.8\" y=\"138.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"8.4\">20–24</text><rect x=\"50.6\" y=\"140.0\" width=\"26.0\" height=\"16.0\" fill=\"#2a78d6\" fill-opacity=\"0.3\" stroke=\"#ffffff\" stroke-width=\"1\"><title>interval 24–28</title></rect><text x=\"63.6\" y=\"152.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"8.4\">24–28</text><rect x=\"71.4\" y=\"126.0\" width=\"26.0\" height=\"16.0\" fill=\"#2a78d6\" fill-opacity=\"0.3\" stroke=\"#ffffff\" stroke-width=\"1\"><title>interval 28–32</title></rect><text x=\"84.4\" y=\"138.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"8.4\">28–32</text><rect x=\"50.6\" y=\"122.0\" width=\"5.2\" height=\"38.0\" fill=\"#b5453a\" fill-opacity=\"0.55\"><title>scorul 24 cade în două intervale</title></rect><rect x=\"71.4\" y=\"122.0\" width=\"5.2\" height=\"38.0\" fill=\"#b5453a\" fill-opacity=\"0.55\"><title>scorul 28 cade în două intervale</title></rect><text x=\"105.2\" y=\"140.0\" text-anchor=\"start\" fill=\"#b5453a\" font-size=\"10.8\">24 și 28: în câte două intervale</text></svg>"
+          }
+        ]
+      },
+      {
+        "titlu": "Frecvențe și procente cumulate",
+        "noduri": [
+          {
+            "t": "Frecvența cumulată",
+            "d": "Cazurile dintr-un interval plus cele din toate intervalele precedente (intervale în ordine crescătoare): 1, 3, 10, 28, 50 … În ultimul interval este egală cu n."
+          },
+          {
+            "t": "Procentul cumulat",
+            "d": "Același model aditiv, cu procente; în ultimul interval = 100%. Se obține și cu formula procentului, punând fc în loc de f."
+          },
+          {
+            "t": "Citirea cumulatelor",
+            "d": "Arată cum sunt distribuite cazurile în plaja de scoruri: fc = 122 (67,78%) în intervalul 50–54 înseamnă că 122 de subiecți au scoruri mai mici de 55."
+          }
+        ],
+        "figuri": [
+          {
+            "titlu": "Frecvența cumulată = f + tot ce e înainte (tabelul 2.7)",
+            "nota": "Bara întreagă este fc; ultima ajunge la n = 180.",
+            "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 200\" role=\"img\" aria-label=\"Frecvențele cumulate pe intervale, fiecare formată din intervalele precedente plus intervalul curent\" font-family=\"Georgia, serif\" font-size=\"13\"><line x1=\"34.0\" y1=\"160.0\" x2=\"312.0\" y2=\"160.0\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><text x=\"30.0\" y=\"163.5\" text-anchor=\"end\" fill=\"#6b6760\" font-size=\"10.8\">0</text><line x1=\"34.0\" y1=\"116.7\" x2=\"312.0\" y2=\"116.7\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><text x=\"30.0\" y=\"120.2\" text-anchor=\"end\" fill=\"#6b6760\" font-size=\"10.8\">60</text><line x1=\"34.0\" y1=\"73.3\" x2=\"312.0\" y2=\"73.3\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><text x=\"30.0\" y=\"76.8\" text-anchor=\"end\" fill=\"#6b6760\" font-size=\"10.8\">120</text><line x1=\"34.0\" y1=\"30.0\" x2=\"312.0\" y2=\"30.0\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><text x=\"30.0\" y=\"33.5\" text-anchor=\"end\" fill=\"#6b6760\" font-size=\"10.8\">180</text><path d=\"M36.0,160.0 V160.0 Q36.0,159.3 36.7,159.3 H59.1 Q59.8,159.3 59.8,160.0 V160.0 Z\" fill=\"#2a78d6\"><title>20–24: f = 1, fc = 1 (0,56%)</title></path><text x=\"51.9\" y=\"172.0\" text-anchor=\"end\" fill=\"#6b6760\" font-size=\"9.6\" transform=\"rotate(-40 51.9 172.0)\">20–24</text><rect x=\"63.8\" y=\"159.3\" width=\"23.8\" height=\"0.7\" fill=\"#c9c1b3\"><title>intervalele dinainte de 25–29: 1</title></rect><text x=\"79.7\" y=\"172.0\" text-anchor=\"end\" fill=\"#6b6760\" font-size=\"9.6\" transform=\"rotate(-40 79.7 172.0)\">25–29</text><rect x=\"91.6\" y=\"157.8\" width=\"23.8\" height=\"2.2\" fill=\"#c9c1b3\"><title>intervalele dinainte de 30–34: 3</title></rect><path d=\"M91.6,155.8 V154.8 Q91.6,152.8 93.6,152.8 H113.4 Q115.4,152.8 115.4,154.8 V155.8 Z\" fill=\"#2a78d6\"><title>30–34: f = 7, fc = 10 (5,56%)</title></path><text x=\"107.5\" y=\"172.0\" text-anchor=\"end\" fill=\"#6b6760\" font-size=\"9.6\" transform=\"rotate(-40 107.5 172.0)\">30–34</text><rect x=\"119.4\" y=\"152.8\" width=\"23.8\" height=\"7.2\" fill=\"#c9c1b3\"><title>intervalele dinainte de 35–39: 10</title></rect><path d=\"M119.4,150.8 V141.8 Q119.4,139.8 121.4,139.8 H141.2 Q143.2,139.8 143.2,141.8 V150.8 Z\" fill=\"#2a78d6\"><title>35–39: f = 18, fc = 28 (15,56%)</title></path><text x=\"135.3\" y=\"172.0\" text-anchor=\"end\" fill=\"#6b6760\" font-size=\"9.6\" transform=\"rotate(-40 135.3 172.0)\">35–39</text><rect x=\"147.2\" y=\"139.8\" width=\"23.8\" height=\"20.2\" fill=\"#c9c1b3\"><title>intervalele dinainte de 40–44: 28</title></rect><path d=\"M147.2,137.8 V125.9 Q147.2,123.9 149.2,123.9 H169.0 Q171.0,123.9 171.0,125.9 V137.8 Z\" fill=\"#2a78d6\"><title>40–44: f = 22, fc = 50 (27,78%)</title></path><text x=\"163.1\" y=\"172.0\" text-anchor=\"end\" fill=\"#6b6760\" font-size=\"9.6\" transform=\"rotate(-40 163.1 172.0)\">40–44</text><rect x=\"175.0\" y=\"123.9\" width=\"23.8\" height=\"36.1\" fill=\"#c9c1b3\"><title>intervalele dinainte de 45–49: 50</title></rect><path d=\"M175.0,121.9 V95.6 Q175.0,93.6 177.0,93.6 H196.8 Q198.8,93.6 198.8,95.6 V121.9 Z\" fill=\"#2a78d6\"><title>45–49: f = 42, fc = 92 (51,11%)</title></path><text x=\"190.9\" y=\"172.0\" text-anchor=\"end\" fill=\"#6b6760\" font-size=\"9.6\" transform=\"rotate(-40 190.9 172.0)\">45–49</text><rect x=\"202.8\" y=\"93.6\" width=\"23.8\" height=\"66.4\" fill=\"#c9c1b3\"><title>intervalele dinainte de 50–54: 92</title></rect><path d=\"M202.8,91.6 V73.9 Q202.8,71.9 204.8,71.9 H224.6 Q226.6,71.9 226.6,73.9 V91.6 Z\" fill=\"#2a78d6\"><title>50–54: f = 30, fc = 122 (67,78%)</title></path><text x=\"218.7\" y=\"172.0\" text-anchor=\"end\" fill=\"#6b6760\" font-size=\"9.6\" transform=\"rotate(-40 218.7 172.0)\">50–54</text><rect x=\"230.6\" y=\"71.9\" width=\"23.8\" height=\"88.1\" fill=\"#c9c1b3\"><title>intervalele dinainte de 55–59: 122</title></rect><path d=\"M230.6,69.9 V47.2 Q230.6,45.2 232.6,45.2 H252.4 Q254.4,45.2 254.4,47.2 V69.9 Z\" fill=\"#2a78d6\"><title>55–59: f = 37, fc = 159 (88,34%)</title></path><text x=\"246.5\" y=\"172.0\" text-anchor=\"end\" fill=\"#6b6760\" font-size=\"9.6\" transform=\"rotate(-40 246.5 172.0)\">55–59</text><rect x=\"258.4\" y=\"45.2\" width=\"23.8\" height=\"114.8\" fill=\"#c9c1b3\"><title>intervalele dinainte de 60–64: 159</title></rect><path d=\"M258.4,43.2 V36.3 Q258.4,34.3 260.4,34.3 H280.2 Q282.2,34.3 282.2,36.3 V43.2 Z\" fill=\"#2a78d6\"><title>60–64: f = 15, fc = 174 (96,67%)</title></path><text x=\"274.3\" y=\"172.0\" text-anchor=\"end\" fill=\"#6b6760\" font-size=\"9.6\" transform=\"rotate(-40 274.3 172.0)\">60–64</text><rect x=\"286.2\" y=\"34.3\" width=\"23.8\" height=\"125.7\" fill=\"#c9c1b3\"><title>intervalele dinainte de 65–69: 174</title></rect><path d=\"M286.2,32.3 V32.0 Q286.2,30.0 288.2,30.0 H308.0 Q310.0,30.0 310.0,32.0 V32.3 Z\" fill=\"#2a78d6\"><title>65–69: f = 6, fc = 180 (100,00%)</title></path><text x=\"302.1\" y=\"172.0\" text-anchor=\"end\" fill=\"#6b6760\" font-size=\"9.6\" transform=\"rotate(-40 302.1 172.0)\">65–69</text><text x=\"198.8\" y=\"75.9\" text-anchor=\"end\" fill=\"#2c2a26\" font-size=\"10.8\">122 (67,78%) sub 55 →</text><line x1=\"34.0\" y1=\"160.0\" x2=\"312.0\" y2=\"160.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><rect x=\"40.0\" y=\"8.0\" width=\"10.0\" height=\"10.0\" fill=\"#c9c1b3\"></rect><text x=\"54.0\" y=\"17.0\" text-anchor=\"start\" fill=\"#6b6760\" font-size=\"10.8\">intervalele precedente</text><rect x=\"168.0\" y=\"8.0\" width=\"10.0\" height=\"10.0\" fill=\"#2a78d6\"></rect><text x=\"182.0\" y=\"17.0\" text-anchor=\"start\" fill=\"#6b6760\" font-size=\"10.8\">intervalul curent (f)</text></svg>"
+          }
+        ]
+      },
+      {
+        "titlu": "Limite reale, centre și niveluri de măsură",
+        "noduri": [
+          {
+            "t": "Date discrete și date continue",
+            "d": "Date discrete: categorii reciproc exclusive (nesuprapuse). Pentru anumite scopuri (de pildă histograma), o variabilă de interval sau de raport se tratează ca serie continuă de categorii parțial suprapuse."
+          },
+          {
+            "t": "Limite stabilite și limite reale",
+            "d": "Din limitele stabilite se obțin limitele reale (exacte): jumătate din distanța dintre intervale se scade din limita inferioară și se adună la cea superioară. La distanță 1: 20–24 → 19,5–24,5; intervalele vecine se ating."
+          },
+          {
+            "t": "Centrul de interval",
+            "d": "Mijlocul intervalului: (limita inferioară + limita superioară) / 2, de pildă 22 pentru 20–24. E același cu limite stabilite sau reale; util la histograme și poligoane."
+          },
+          {
+            "t": "Distribuții nominale și ordinale",
+            "d": "Se numără cazurile pe categorii, cu subtotaluri și n (ex.: școlarizarea, coduri 1–6). Aici frecvențele și procentele cumulate sunt lipsite de sens, iar limitele reale și centrele nu se determină; singura coloană adăugabilă la orice nivel este cea de procente."
+          }
+        ],
+        "tabel": {
+          "cap": [
+            "Coloană în distribuție",
+            "Nominal / ordinal",
+            "Interval / raport"
+          ],
+          "randuri": [
+            [
+              "Frecvența f",
+              "da",
+              "da"
+            ],
+            [
+              "Procente",
+              "da",
+              "da"
+            ],
+            [
+              "Frecvențe și procente cumulate",
+              "nu (lipsite de sens)",
+              "da"
+            ],
+            [
+              "Limite reale",
+              "nu (categorii discrete)",
+              "da"
+            ],
+            [
+              "Centre de interval",
+              "nu (categorii discrete)",
+              "da"
+            ]
+          ]
+        },
+        "figuri": [
+          {
+            "titlu": "Limite stabilite, limite reale, centre",
+            "nota": "Corecția se face la ambele capete, deci centrul (22, 27) nu se mută.",
+            "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 150\" role=\"img\" aria-label=\"Intervalele 20–24 și 25–29 cu limitele reale 19,5–24,5 și 24,5–29,5; centrele 22 și 27 rămân aceleași\" font-family=\"Georgia, serif\" font-size=\"13\"><text x=\"12.0\" y=\"16.0\" text-anchor=\"start\" fill=\"#2c2a26\" font-size=\"12.0\">Limite stabilite: între 24 și 25 rămâne un gol</text><rect x=\"58.5\" y=\"24.0\" width=\"92.0\" height=\"20.0\" fill=\"#2a78d6\" fill-opacity=\"0.3\"><title>limite stabilite 20–24</title></rect><text x=\"58.5\" y=\"56.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.8\">20</text><text x=\"150.5\" y=\"56.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.8\">24</text><rect x=\"173.5\" y=\"24.0\" width=\"92.0\" height=\"20.0\" fill=\"#2a78d6\" fill-opacity=\"0.3\"><title>limite stabilite 25–29</title></rect><text x=\"173.5\" y=\"56.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.8\">25</text><text x=\"265.5\" y=\"56.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.8\">29</text><text x=\"12.0\" y=\"84.0\" text-anchor=\"start\" fill=\"#2c2a26\" font-size=\"12.0\">Limite reale: ± 0,5, intervalele se ating la 24,5</text><rect x=\"47.0\" y=\"92.0\" width=\"115.0\" height=\"20.0\" fill=\"#2a78d6\" fill-opacity=\"0.5\" stroke=\"#ffffff\" stroke-width=\"1.5\"><title>limite reale 19,5–24,5</title></rect><rect x=\"162.0\" y=\"92.0\" width=\"115.0\" height=\"20.0\" fill=\"#2a78d6\" fill-opacity=\"0.5\" stroke=\"#ffffff\" stroke-width=\"1.5\"><title>limite reale 24,5–29,5</title></rect><text x=\"47.0\" y=\"124.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.8\">19,5</text><text x=\"162.0\" y=\"124.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.8\">24,5</text><text x=\"277.0\" y=\"124.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.8\">29,5</text><line x1=\"104.5\" y1=\"22.0\" x2=\"104.5\" y2=\"46.0\" stroke=\"#2c2a26\" stroke-width=\"1\" stroke-dasharray=\"3,3\"/><line x1=\"104.5\" y1=\"88.0\" x2=\"104.5\" y2=\"116.0\" stroke=\"#2c2a26\" stroke-width=\"1\" stroke-dasharray=\"3,3\"/><circle cx=\"104.5\" cy=\"34\" r=\"4\" fill=\"#2c2a26\"><title>centru 22</title></circle><circle cx=\"104.5\" cy=\"102\" r=\"4\" fill=\"#2c2a26\"><title>centru 22</title></circle><text x=\"104.5\" y=\"140.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.8\">centru 22</text><line x1=\"219.5\" y1=\"22.0\" x2=\"219.5\" y2=\"46.0\" stroke=\"#2c2a26\" stroke-width=\"1\" stroke-dasharray=\"3,3\"/><line x1=\"219.5\" y1=\"88.0\" x2=\"219.5\" y2=\"116.0\" stroke=\"#2c2a26\" stroke-width=\"1\" stroke-dasharray=\"3,3\"/><circle cx=\"219.5\" cy=\"34\" r=\"4\" fill=\"#2c2a26\"><title>centru 27</title></circle><circle cx=\"219.5\" cy=\"102\" r=\"4\" fill=\"#2c2a26\"><title>centru 27</title></circle><text x=\"219.5\" y=\"140.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.8\">centru 27</text></svg>"
+          }
+        ]
+      },
+      {
+        "titlu": "Diagrame pentru categorii",
+        "noduri": [
+          {
+            "t": "Alegerea reprezentării grafice",
+            "d": "Diagramele și graficele dau o imagine globală a formei distribuției; alegerea depinde în principal de nivelul de măsură și de scopurile cercetării."
+          },
+          {
+            "t": "Diagrama circulară",
+            "d": "Cerc cu atâtea sectoare câte categorii, fiecare proporțional cu procentul: celibatari 35% → 126°, căsătoriți 50% → 180°, divorțați 15% → 54°. Pentru nivel nominal și ordinal."
+          },
+          {
+            "t": "Diagrama cu coloane",
+            "d": "Categoriile pe abscisă, frecvențele (relative) pe ordonată; coloane cu baze egale, înălțimi proporționale, separate (de regulă ½ din lățime), pentru că categoriile sunt discrete. Preferabilă la peste 6–7 categorii; utilă la comparații (bărbați și femei, pe luni)."
+          },
+          {
+            "t": "Diagrama cu linii",
+            "d": "„Graficele” din mass-media; în exemplul consilierii, aceleași date ca diagrama cu coloane grupate arată că apelanții femei au crescut mai repede decât bărbații."
+          }
+        ],
+        "figuri": [
+          {
+            "titlu": "Diagrama circulară (tabelul 2.10)",
+            "nota": "Sector = procent × 360°. Pentru nivel nominal și ordinal; aglomerată peste 6–7 categorii.",
+            "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 200\" role=\"img\" aria-label=\"Diagramă circulară a statusului marital: celibatari 35%, căsătoriți 50%, divorțați 15%\" font-family=\"Georgia, serif\" font-size=\"13\"><path d=\"M90,100 L90.0,28.0 A72,72 0 0 1 148.2,142.3 Z\" fill=\"#2a78d6\" stroke=\"#faf8f3\" stroke-width=\"2\"><title>Celibatar: 35% = 126°</title></path><path d=\"M90,100 L148.2,142.3 A72,72 0 0 1 31.8,57.7 Z\" fill=\"#eb6834\" stroke=\"#faf8f3\" stroke-width=\"2\"><title>Căsătorit: 50% = 180°</title></path><path d=\"M90,100 L31.8,57.7 A72,72 0 0 1 90.0,28.0 Z\" fill=\"#1baf7a\" stroke=\"#faf8f3\" stroke-width=\"2\"><title>Divorțat: 15% = 54°</title></path><rect x=\"186.0\" y=\"56.0\" width=\"12.0\" height=\"12.0\" fill=\"#2a78d6\"></rect><text x=\"204.0\" y=\"66.0\" text-anchor=\"start\" fill=\"#2c2a26\" font-size=\"12.0\">Celibatar</text><text x=\"204.0\" y=\"79.0\" text-anchor=\"start\" fill=\"#6b6760\" font-size=\"10.8\">35% × 360° = 126°</text><rect x=\"186.0\" y=\"86.0\" width=\"12.0\" height=\"12.0\" fill=\"#eb6834\"></rect><text x=\"204.0\" y=\"96.0\" text-anchor=\"start\" fill=\"#2c2a26\" font-size=\"12.0\">Căsătorit</text><text x=\"204.0\" y=\"109.0\" text-anchor=\"start\" fill=\"#6b6760\" font-size=\"10.8\">50% × 360° = 180°</text><rect x=\"186.0\" y=\"116.0\" width=\"12.0\" height=\"12.0\" fill=\"#1baf7a\"></rect><text x=\"204.0\" y=\"126.0\" text-anchor=\"start\" fill=\"#2c2a26\" font-size=\"12.0\">Divorțat</text><text x=\"204.0\" y=\"139.0\" text-anchor=\"start\" fill=\"#6b6760\" font-size=\"10.8\">15% × 360° = 54°</text></svg>"
+          },
+          {
+            "titlu": "Diagrama cu coloane (aceleași date)",
+            "nota": "Coloane cu baze egale, separate, pentru că categoriile sunt discrete.",
+            "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 196\" role=\"img\" aria-label=\"Diagramă cu coloane separate pentru statusul marital\" font-family=\"Georgia, serif\" font-size=\"13\"><line x1=\"40.0\" y1=\"160.0\" x2=\"306.0\" y2=\"160.0\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><text x=\"36.0\" y=\"163.5\" text-anchor=\"end\" fill=\"#6b6760\" font-size=\"10.8\">0%</text><line x1=\"40.0\" y1=\"91.0\" x2=\"306.0\" y2=\"91.0\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><text x=\"36.0\" y=\"94.5\" text-anchor=\"end\" fill=\"#6b6760\" font-size=\"10.8\">25%</text><line x1=\"40.0\" y1=\"22.0\" x2=\"306.0\" y2=\"22.0\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><text x=\"36.0\" y=\"25.5\" text-anchor=\"end\" fill=\"#6b6760\" font-size=\"10.8\">50%</text><path d=\"M62.0,160.0 V66.4 Q62.0,63.4 65.0,63.4 H115.0 Q118.0,63.4 118.0,66.4 V160.0 Z\" fill=\"#2a78d6\"><title>Celibatar: 35%</title></path><text x=\"90.0\" y=\"58.4\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"12.0\">35%</text><text x=\"90.0\" y=\"174.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"12.0\">Celibatar</text><path d=\"M146.0,160.0 V25.0 Q146.0,22.0 149.0,22.0 H199.0 Q202.0,22.0 202.0,25.0 V160.0 Z\" fill=\"#eb6834\"><title>Căsătorit: 50%</title></path><text x=\"174.0\" y=\"17.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"12.0\">50%</text><text x=\"174.0\" y=\"174.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"12.0\">Căsătorit</text><path d=\"M230.0,160.0 V121.6 Q230.0,118.6 233.0,118.6 H283.0 Q286.0,118.6 286.0,121.6 V160.0 Z\" fill=\"#1baf7a\"><title>Divorțat: 15%</title></path><text x=\"258.0\" y=\"113.6\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"12.0\">15%</text><text x=\"258.0\" y=\"174.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"12.0\">Divorțat</text><line x1=\"40.0\" y1=\"160.0\" x2=\"306.0\" y2=\"160.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><line x1=\"120.0\" y1=\"153.0\" x2=\"144.0\" y2=\"153.0\" stroke=\"#6b6760\" stroke-width=\"1\"/><line x1=\"120.0\" y1=\"149.0\" x2=\"120.0\" y2=\"157.0\" stroke=\"#6b6760\" stroke-width=\"1\"/><line x1=\"144.0\" y1=\"149.0\" x2=\"144.0\" y2=\"157.0\" stroke=\"#6b6760\" stroke-width=\"1\"/><text x=\"132.0\" y=\"190.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.8\">spațiul dintre coloane = ½ lățime</text></svg>"
+          },
+          {
+            "titlu": "Diagrama cu linii (ca figura 2.4)",
+            "nota": "Valori ilustrative: cartea nu dă cifrele figurilor 2.3–2.4, doar concluzia — femeile cresc mai repede.",
+            "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 180\" role=\"img\" aria-label=\"Două linii lunare: numărul femeilor crește mai repede decât al bărbaților\" font-family=\"Georgia, serif\" font-size=\"13\"><line x1=\"34.0\" y1=\"160.0\" x2=\"270.0\" y2=\"160.0\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><text x=\"30.0\" y=\"163.5\" text-anchor=\"end\" fill=\"#6b6760\" font-size=\"10.8\">0</text><line x1=\"34.0\" y1=\"108.0\" x2=\"270.0\" y2=\"108.0\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><text x=\"30.0\" y=\"111.5\" text-anchor=\"end\" fill=\"#6b6760\" font-size=\"10.8\">10</text><line x1=\"34.0\" y1=\"56.0\" x2=\"270.0\" y2=\"56.0\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><text x=\"30.0\" y=\"59.5\" text-anchor=\"end\" fill=\"#6b6760\" font-size=\"10.8\">20</text><text x=\"48.0\" y=\"174.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.8\">Ian</text><text x=\"89.6\" y=\"174.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.8\">Feb</text><text x=\"131.2\" y=\"174.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.8\">Mar</text><text x=\"172.8\" y=\"174.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.8\">Apr</text><text x=\"214.4\" y=\"174.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.8\">Mai</text><text x=\"256.0\" y=\"174.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.8\">Iun</text><polyline points=\"48.0,118.4 89.6,102.8 131.2,87.2 172.8,71.6 214.4,56.0 256.0,40.4\" fill=\"none\" stroke=\"#eb6834\" stroke-width=\"2\"/><circle cx=\"48.0\" cy=\"118.4\" r=\"4\" fill=\"#eb6834\" stroke=\"#faf8f3\" stroke-width=\"2\"><title>Femei, Ian: 8</title></circle><circle cx=\"89.6\" cy=\"102.8\" r=\"4\" fill=\"#eb6834\" stroke=\"#faf8f3\" stroke-width=\"2\"><title>Femei, Feb: 11</title></circle><circle cx=\"131.2\" cy=\"87.2\" r=\"4\" fill=\"#eb6834\" stroke=\"#faf8f3\" stroke-width=\"2\"><title>Femei, Mar: 14</title></circle><circle cx=\"172.8\" cy=\"71.6\" r=\"4\" fill=\"#eb6834\" stroke=\"#faf8f3\" stroke-width=\"2\"><title>Femei, Apr: 17</title></circle><circle cx=\"214.4\" cy=\"56.0\" r=\"4\" fill=\"#eb6834\" stroke=\"#faf8f3\" stroke-width=\"2\"><title>Femei, Mai: 20</title></circle><circle cx=\"256.0\" cy=\"40.4\" r=\"4\" fill=\"#eb6834\" stroke=\"#faf8f3\" stroke-width=\"2\"><title>Femei, Iun: 23</title></circle><text x=\"264.0\" y=\"44.4\" text-anchor=\"start\" fill=\"#2c2a26\" font-size=\"12.0\">Femei</text><polyline points=\"48.0,108.0 89.6,102.8 131.2,97.6 172.8,92.4 214.4,87.2 256.0,82.0\" fill=\"none\" stroke=\"#2a78d6\" stroke-width=\"2\"/><circle cx=\"48.0\" cy=\"108.0\" r=\"4\" fill=\"#2a78d6\" stroke=\"#faf8f3\" stroke-width=\"2\"><title>Bărbați, Ian: 10</title></circle><circle cx=\"89.6\" cy=\"102.8\" r=\"4\" fill=\"#2a78d6\" stroke=\"#faf8f3\" stroke-width=\"2\"><title>Bărbați, Feb: 11</title></circle><circle cx=\"131.2\" cy=\"97.6\" r=\"4\" fill=\"#2a78d6\" stroke=\"#faf8f3\" stroke-width=\"2\"><title>Bărbați, Mar: 12</title></circle><circle cx=\"172.8\" cy=\"92.4\" r=\"4\" fill=\"#2a78d6\" stroke=\"#faf8f3\" stroke-width=\"2\"><title>Bărbați, Apr: 13</title></circle><circle cx=\"214.4\" cy=\"87.2\" r=\"4\" fill=\"#2a78d6\" stroke=\"#faf8f3\" stroke-width=\"2\"><title>Bărbați, Mai: 14</title></circle><circle cx=\"256.0\" cy=\"82.0\" r=\"4\" fill=\"#2a78d6\" stroke=\"#faf8f3\" stroke-width=\"2\"><title>Bărbați, Iun: 15</title></circle><text x=\"264.0\" y=\"86.0\" text-anchor=\"start\" fill=\"#2c2a26\" font-size=\"12.0\">Bărbați</text><line x1=\"34.0\" y1=\"160.0\" x2=\"270.0\" y2=\"160.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><rect x=\"40.0\" y=\"8.0\" width=\"10.0\" height=\"10.0\" fill=\"#eb6834\"></rect><text x=\"54.0\" y=\"17.0\" text-anchor=\"start\" fill=\"#6b6760\" font-size=\"10.8\">Femei</text><rect x=\"100.0\" y=\"8.0\" width=\"10.0\" height=\"10.0\" fill=\"#2a78d6\"></rect><text x=\"114.0\" y=\"17.0\" text-anchor=\"start\" fill=\"#6b6760\" font-size=\"10.8\">Bărbați</text></svg>"
+          }
+        ],
+        "lat": true
+      },
+      {
+        "titlu": "Grafice pentru date de interval și de raport",
+        "noduri": [
+          {
+            "t": "Histograma",
+            "d": "Ca o diagramă cu coloane, dar cu limitele reale pe abscisă, deci coloanele sunt în contact; frecvențele pe ordonată, lățimea coloanei = limitele reale ale intervalului; axele se etichetează."
+          },
+          {
+            "t": "Poligonul de frecvențe",
+            "d": "Puncte în dreptul centrelor de interval, la înălțimea frecvenței, unite prin linii drepte; se închide cu câte un interval suplimentar cu frecvența zero la fiecare capăt. Aceeași informație ca histograma, imagine generală a distribuției."
+          },
+          {
+            "t": "Ogiva",
+            "d": "„Curba cumulativă a frecvențelor”: limitele de clasă reale superioare (LCRS) pe abscisă, frecvențele sau procentele cumulate pe ordonată, puncte unite prin linii drepte; se închide la stânga, spre limita reală inferioară a primului interval. În Cap. 3 (Mărimile tendinței centrale) servește la aflarea unor puncte ale distribuției."
+          },
+          {
+            "t": "Diagrama de împrăștiere",
+            "d": "„Norul de puncte” sau scatergrama: corelația dintre două variabile de interval sau de raport, tratată în Cap. 12 (Mărimi ale corelației) (în carte, trimiterea poartă alt număr, preluat din ediția-sursă)."
+          }
+        ],
+        "tabel": {
+          "cap": [
+            "Reprezentare",
+            "Nivel de măsură",
+            "Pe abscisă",
+            "Particularitate"
+          ],
+          "randuri": [
+            [
+              "Diagrama circulară",
+              "nominal, ordinal",
+              "— (sectoare)",
+              "sector = % · 360°; aglomerată peste 6–7 categorii"
+            ],
+            [
+              "Diagrama cu coloane",
+              "nominal, ordinal",
+              "categoriile",
+              "coloane separate (½ din lățime)"
+            ],
+            [
+              "Diagrama cu linii",
+              "categorii în timp",
+              "categoriile / momentele",
+              "arată evoluția seriilor"
+            ],
+            [
+              "Histograma",
+              "interval, raport",
+              "limitele reale",
+              "coloane în contact"
+            ],
+            [
+              "Poligonul de frecvențe",
+              "interval, raport",
+              "centrele de interval",
+              "închis cu intervale de f = 0"
+            ],
+            [
+              "Ogiva",
+              "interval, raport",
+              "limitele reale superioare",
+              "frecvențe sau procente cumulate"
+            ]
+          ]
+        },
+        "figuri": [
+          {
+            "titlu": "Histograma (tabelul 2.7)",
+            "nota": "Limitele reale pe abscisă, deci coloanele se ating.",
+            "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 198\" role=\"img\" aria-label=\"Histograma scorurilor la testul de cunoștințe, cu coloane în contact\" font-family=\"Georgia, serif\" font-size=\"13\"><line x1=\"32.0\" y1=\"160.0\" x2=\"312.0\" y2=\"160.0\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><text x=\"28.0\" y=\"163.5\" text-anchor=\"end\" fill=\"#6b6760\" font-size=\"10.8\">0</text><line x1=\"32.0\" y1=\"112.0\" x2=\"312.0\" y2=\"112.0\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><text x=\"28.0\" y=\"115.5\" text-anchor=\"end\" fill=\"#6b6760\" font-size=\"10.8\">15</text><line x1=\"32.0\" y1=\"64.0\" x2=\"312.0\" y2=\"64.0\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><text x=\"28.0\" y=\"67.5\" text-anchor=\"end\" fill=\"#6b6760\" font-size=\"10.8\">30</text><line x1=\"32.0\" y1=\"16.0\" x2=\"312.0\" y2=\"16.0\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><text x=\"28.0\" y=\"19.5\" text-anchor=\"end\" fill=\"#6b6760\" font-size=\"10.8\">45</text><rect x=\"32.0\" y=\"156.8\" width=\"28.0\" height=\"3.2\" fill=\"#2a78d6\" stroke=\"#faf8f3\" stroke-width=\"1\"><title>19,5–24,5: f = 1</title></rect><rect x=\"60.0\" y=\"153.6\" width=\"28.0\" height=\"6.4\" fill=\"#2a78d6\" stroke=\"#faf8f3\" stroke-width=\"1\"><title>24,5–29,5: f = 2</title></rect><rect x=\"88.0\" y=\"137.6\" width=\"28.0\" height=\"22.4\" fill=\"#2a78d6\" stroke=\"#faf8f3\" stroke-width=\"1\"><title>29,5–34,5: f = 7</title></rect><rect x=\"116.0\" y=\"102.4\" width=\"28.0\" height=\"57.6\" fill=\"#2a78d6\" stroke=\"#faf8f3\" stroke-width=\"1\"><title>34,5–39,5: f = 18</title></rect><rect x=\"144.0\" y=\"89.6\" width=\"28.0\" height=\"70.4\" fill=\"#2a78d6\" stroke=\"#faf8f3\" stroke-width=\"1\"><title>39,5–44,5: f = 22</title></rect><rect x=\"172.0\" y=\"25.6\" width=\"28.0\" height=\"134.4\" fill=\"#2a78d6\" stroke=\"#faf8f3\" stroke-width=\"1\"><title>44,5–49,5: f = 42</title></rect><rect x=\"200.0\" y=\"64.0\" width=\"28.0\" height=\"96.0\" fill=\"#2a78d6\" stroke=\"#faf8f3\" stroke-width=\"1\"><title>49,5–54,5: f = 30</title></rect><rect x=\"228.0\" y=\"41.6\" width=\"28.0\" height=\"118.4\" fill=\"#2a78d6\" stroke=\"#faf8f3\" stroke-width=\"1\"><title>54,5–59,5: f = 37</title></rect><rect x=\"256.0\" y=\"112.0\" width=\"28.0\" height=\"48.0\" fill=\"#2a78d6\" stroke=\"#faf8f3\" stroke-width=\"1\"><title>59,5–64,5: f = 15</title></rect><rect x=\"284.0\" y=\"140.8\" width=\"28.0\" height=\"19.2\" fill=\"#2a78d6\" stroke=\"#faf8f3\" stroke-width=\"1\"><title>64,5–69,5: f = 6</title></rect><line x1=\"32.0\" y1=\"160.0\" x2=\"32.0\" y2=\"164.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><text x=\"32.0\" y=\"175.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.8\">19,5</text><line x1=\"88.0\" y1=\"160.0\" x2=\"88.0\" y2=\"164.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><text x=\"88.0\" y=\"175.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.8\">29,5</text><line x1=\"144.0\" y1=\"160.0\" x2=\"144.0\" y2=\"164.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><text x=\"144.0\" y=\"175.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.8\">39,5</text><line x1=\"200.0\" y1=\"160.0\" x2=\"200.0\" y2=\"164.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><text x=\"200.0\" y=\"175.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.8\">49,5</text><line x1=\"256.0\" y1=\"160.0\" x2=\"256.0\" y2=\"164.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><text x=\"256.0\" y=\"175.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.8\">59,5</text><line x1=\"312.0\" y1=\"160.0\" x2=\"312.0\" y2=\"164.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><text x=\"312.0\" y=\"175.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.8\">69,5</text><line x1=\"32.0\" y1=\"160.0\" x2=\"312.0\" y2=\"160.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><text x=\"172.0\" y=\"192.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.8\">scor (limite reale)</text><text x=\"12.0\" y=\"12.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.8\">f</text></svg>"
+          },
+          {
+            "titlu": "Poligonul de frecvențe",
+            "nota": "Puncte la centrele de interval; se închide cu câte un interval de f = 0 la capete (17 și 72).",
+            "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 206\" role=\"img\" aria-label=\"Poligonul de frecvențe peste histogramă, închis la 17 și 72\" font-family=\"Georgia, serif\" font-size=\"13\"><line x1=\"32.0\" y1=\"160.0\" x2=\"312.0\" y2=\"160.0\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><text x=\"28.0\" y=\"163.5\" text-anchor=\"end\" fill=\"#6b6760\" font-size=\"10.8\">0</text><line x1=\"32.0\" y1=\"112.0\" x2=\"312.0\" y2=\"112.0\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><text x=\"28.0\" y=\"115.5\" text-anchor=\"end\" fill=\"#6b6760\" font-size=\"10.8\">15</text><line x1=\"32.0\" y1=\"64.0\" x2=\"312.0\" y2=\"64.0\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><text x=\"28.0\" y=\"67.5\" text-anchor=\"end\" fill=\"#6b6760\" font-size=\"10.8\">30</text><line x1=\"32.0\" y1=\"16.0\" x2=\"312.0\" y2=\"16.0\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><text x=\"28.0\" y=\"19.5\" text-anchor=\"end\" fill=\"#6b6760\" font-size=\"10.8\">45</text><rect x=\"55.3\" y=\"156.8\" width=\"23.3\" height=\"3.2\" fill=\"#2a78d6\" fill-opacity=\"0.12\"></rect><rect x=\"78.7\" y=\"153.6\" width=\"23.3\" height=\"6.4\" fill=\"#2a78d6\" fill-opacity=\"0.12\"></rect><rect x=\"102.0\" y=\"137.6\" width=\"23.3\" height=\"22.4\" fill=\"#2a78d6\" fill-opacity=\"0.12\"></rect><rect x=\"125.3\" y=\"102.4\" width=\"23.3\" height=\"57.6\" fill=\"#2a78d6\" fill-opacity=\"0.12\"></rect><rect x=\"148.7\" y=\"89.6\" width=\"23.3\" height=\"70.4\" fill=\"#2a78d6\" fill-opacity=\"0.12\"></rect><rect x=\"172.0\" y=\"25.6\" width=\"23.3\" height=\"134.4\" fill=\"#2a78d6\" fill-opacity=\"0.12\"></rect><rect x=\"195.3\" y=\"64.0\" width=\"23.3\" height=\"96.0\" fill=\"#2a78d6\" fill-opacity=\"0.12\"></rect><rect x=\"218.7\" y=\"41.6\" width=\"23.3\" height=\"118.4\" fill=\"#2a78d6\" fill-opacity=\"0.12\"></rect><rect x=\"242.0\" y=\"112.0\" width=\"23.3\" height=\"48.0\" fill=\"#2a78d6\" fill-opacity=\"0.12\"></rect><rect x=\"265.3\" y=\"140.8\" width=\"23.3\" height=\"19.2\" fill=\"#2a78d6\" fill-opacity=\"0.12\"></rect><polyline points=\"43.7,160.0 67.0,156.8 90.3,153.6 113.7,137.6 137.0,102.4 160.3,89.6 183.7,25.6 207.0,64.0 230.3,41.6 253.7,112.0 277.0,140.8 300.3,160.0\" fill=\"none\" stroke=\"#2a78d6\" stroke-width=\"2\"/><circle cx=\"43.7\" cy=\"160.0\" r=\"4\" fill=\"#2a78d6\" stroke=\"#faf8f3\" stroke-width=\"2\"><title>centru 17: f = 0</title></circle><text x=\"43.7\" y=\"174.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"9.6\">17</text><circle cx=\"67.0\" cy=\"156.8\" r=\"4\" fill=\"#2a78d6\" stroke=\"#faf8f3\" stroke-width=\"2\"><title>centru 22: f = 1</title></circle><text x=\"67.0\" y=\"174.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"9.6\">22</text><circle cx=\"90.3\" cy=\"153.6\" r=\"4\" fill=\"#2a78d6\" stroke=\"#faf8f3\" stroke-width=\"2\"><title>centru 27: f = 2</title></circle><text x=\"90.3\" y=\"174.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"9.6\">27</text><circle cx=\"113.7\" cy=\"137.6\" r=\"4\" fill=\"#2a78d6\" stroke=\"#faf8f3\" stroke-width=\"2\"><title>centru 32: f = 7</title></circle><text x=\"113.7\" y=\"174.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"9.6\">32</text><circle cx=\"137.0\" cy=\"102.4\" r=\"4\" fill=\"#2a78d6\" stroke=\"#faf8f3\" stroke-width=\"2\"><title>centru 37: f = 18</title></circle><text x=\"137.0\" y=\"174.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"9.6\">37</text><circle cx=\"160.3\" cy=\"89.6\" r=\"4\" fill=\"#2a78d6\" stroke=\"#faf8f3\" stroke-width=\"2\"><title>centru 42: f = 22</title></circle><text x=\"160.3\" y=\"174.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"9.6\">42</text><circle cx=\"183.7\" cy=\"25.6\" r=\"4\" fill=\"#2a78d6\" stroke=\"#faf8f3\" stroke-width=\"2\"><title>centru 47: f = 42</title></circle><text x=\"183.7\" y=\"174.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"9.6\">47</text><circle cx=\"207.0\" cy=\"64.0\" r=\"4\" fill=\"#2a78d6\" stroke=\"#faf8f3\" stroke-width=\"2\"><title>centru 52: f = 30</title></circle><text x=\"207.0\" y=\"174.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"9.6\">52</text><circle cx=\"230.3\" cy=\"41.6\" r=\"4\" fill=\"#2a78d6\" stroke=\"#faf8f3\" stroke-width=\"2\"><title>centru 57: f = 37</title></circle><text x=\"230.3\" y=\"174.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"9.6\">57</text><circle cx=\"253.7\" cy=\"112.0\" r=\"4\" fill=\"#2a78d6\" stroke=\"#faf8f3\" stroke-width=\"2\"><title>centru 62: f = 15</title></circle><text x=\"253.7\" y=\"174.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"9.6\">62</text><circle cx=\"277.0\" cy=\"140.8\" r=\"4\" fill=\"#2a78d6\" stroke=\"#faf8f3\" stroke-width=\"2\"><title>centru 67: f = 6</title></circle><text x=\"277.0\" y=\"174.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"9.6\">67</text><circle cx=\"300.3\" cy=\"160.0\" r=\"4\" fill=\"#2a78d6\" stroke=\"#faf8f3\" stroke-width=\"2\"><title>centru 72: f = 0</title></circle><text x=\"300.3\" y=\"174.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"9.6\">72</text><line x1=\"32.0\" y1=\"160.0\" x2=\"312.0\" y2=\"160.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><text x=\"43.7\" y=\"186.0\" text-anchor=\"#b5453a\" fill=\"#6b6760\" font-size=\"9.6\">f = 0</text><text x=\"300.3\" y=\"186.0\" text-anchor=\"#b5453a\" fill=\"#6b6760\" font-size=\"9.6\">f = 0</text><text x=\"172.0\" y=\"200.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.8\">centre de interval</text></svg>"
+          },
+          {
+            "titlu": "Ogiva (procente cumulate)",
+            "nota": "Puncte la LCRS; se închide la stânga, la 19,5. Se citește direct ce procent e sub o valoare.",
+            "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 198\" role=\"img\" aria-label=\"Ogiva procentelor cumulate, de la 0% la 19,5 până la 100% la 69,5\" font-family=\"Georgia, serif\" font-size=\"13\"><line x1=\"38.0\" y1=\"160.0\" x2=\"312.0\" y2=\"160.0\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><text x=\"34.0\" y=\"163.5\" text-anchor=\"end\" fill=\"#6b6760\" font-size=\"10.8\">0%</text><line x1=\"38.0\" y1=\"124.0\" x2=\"312.0\" y2=\"124.0\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><text x=\"34.0\" y=\"127.5\" text-anchor=\"end\" fill=\"#6b6760\" font-size=\"10.8\">25%</text><line x1=\"38.0\" y1=\"88.0\" x2=\"312.0\" y2=\"88.0\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><text x=\"34.0\" y=\"91.5\" text-anchor=\"end\" fill=\"#6b6760\" font-size=\"10.8\">50%</text><line x1=\"38.0\" y1=\"52.0\" x2=\"312.0\" y2=\"52.0\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><text x=\"34.0\" y=\"55.5\" text-anchor=\"end\" fill=\"#6b6760\" font-size=\"10.8\">75%</text><line x1=\"38.0\" y1=\"16.0\" x2=\"312.0\" y2=\"16.0\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><text x=\"34.0\" y=\"19.5\" text-anchor=\"end\" fill=\"#6b6760\" font-size=\"10.8\">100%</text><line x1=\"229.8\" y1=\"160.0\" x2=\"229.8\" y2=\"62.4\" stroke=\"#6b6760\" stroke-width=\"1\" stroke-dasharray=\"3,3\"/><line x1=\"38.0\" y1=\"62.4\" x2=\"229.8\" y2=\"62.4\" stroke=\"#6b6760\" stroke-width=\"1\" stroke-dasharray=\"3,3\"/><polyline points=\"38.0,160.0 65.4,159.2 92.8,157.6 120.2,152.0 147.6,137.6 175.0,120.0 202.4,86.4 229.8,62.4 257.2,32.8 284.6,20.8 312.0,16.0\" fill=\"none\" stroke=\"#2a78d6\" stroke-width=\"2\"/><circle cx=\"38.0\" cy=\"160.0\" r=\"4\" fill=\"#2a78d6\" stroke=\"#faf8f3\" stroke-width=\"2\"><title>LCRS 19,5: 0,00% cumulat</title></circle><circle cx=\"65.4\" cy=\"159.2\" r=\"4\" fill=\"#2a78d6\" stroke=\"#faf8f3\" stroke-width=\"2\"><title>LCRS 24,5: 0,56% cumulat</title></circle><circle cx=\"92.8\" cy=\"157.6\" r=\"4\" fill=\"#2a78d6\" stroke=\"#faf8f3\" stroke-width=\"2\"><title>LCRS 29,5: 1,67% cumulat</title></circle><circle cx=\"120.2\" cy=\"152.0\" r=\"4\" fill=\"#2a78d6\" stroke=\"#faf8f3\" stroke-width=\"2\"><title>LCRS 34,5: 5,56% cumulat</title></circle><circle cx=\"147.6\" cy=\"137.6\" r=\"4\" fill=\"#2a78d6\" stroke=\"#faf8f3\" stroke-width=\"2\"><title>LCRS 39,5: 15,56% cumulat</title></circle><circle cx=\"175.0\" cy=\"120.0\" r=\"4\" fill=\"#2a78d6\" stroke=\"#faf8f3\" stroke-width=\"2\"><title>LCRS 44,5: 27,78% cumulat</title></circle><circle cx=\"202.4\" cy=\"86.4\" r=\"4\" fill=\"#2a78d6\" stroke=\"#faf8f3\" stroke-width=\"2\"><title>LCRS 49,5: 51,11% cumulat</title></circle><circle cx=\"229.8\" cy=\"62.4\" r=\"4\" fill=\"#2a78d6\" stroke=\"#faf8f3\" stroke-width=\"2\"><title>LCRS 54,5: 67,78% cumulat</title></circle><circle cx=\"257.2\" cy=\"32.8\" r=\"4\" fill=\"#2a78d6\" stroke=\"#faf8f3\" stroke-width=\"2\"><title>LCRS 59,5: 88,34% cumulat</title></circle><circle cx=\"284.6\" cy=\"20.8\" r=\"4\" fill=\"#2a78d6\" stroke=\"#faf8f3\" stroke-width=\"2\"><title>LCRS 64,5: 96,67% cumulat</title></circle><circle cx=\"312.0\" cy=\"16.0\" r=\"4\" fill=\"#2a78d6\" stroke=\"#faf8f3\" stroke-width=\"2\"><title>LCRS 69,5: 100,00% cumulat</title></circle><text x=\"38.0\" y=\"175.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.8\">19,5</text><text x=\"92.8\" y=\"175.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.8\">29,5</text><text x=\"147.6\" y=\"175.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.8\">39,5</text><text x=\"202.4\" y=\"175.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.8\">49,5</text><text x=\"257.2\" y=\"175.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.8\">59,5</text><text x=\"312.0\" y=\"175.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.8\">69,5</text><text x=\"223.8\" y=\"54.4\" text-anchor=\"end\" fill=\"#2c2a26\" font-size=\"10.8\">54,5 → 67,78% (sub 55)</text><line x1=\"38.0\" y1=\"160.0\" x2=\"312.0\" y2=\"160.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><text x=\"175.0\" y=\"192.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.8\">limite de clasă reale superioare (LCRS)</text></svg>"
+          }
+        ],
+        "lat": true
+      }
+    ]
+  }
+}

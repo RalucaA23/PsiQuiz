@@ -1,0 +1,1231 @@
+{
+  "schema": "quiz-capitol-v3",
+  "capitol": 5,
+  "titlu": "Distribuția normală",
+  "sursa": "Analiza superioară a datelor (UTM), Unitatea V, pp. 70–77",
+  "runde": [
+    {
+      "id": "T",
+      "tip_runda": "baza",
+      "eticheta": "Runda 1 · Teorie",
+      "titlu": "Runda 1 — Teorie",
+      "desc": "Întrebări directe și scurte: ce măsoară un indicator, când se folosește o metodă, ce deosebește două concepte.",
+      "intrebari": [
+        {
+          "q": "Ce trei proprietăți descriu forma distribuției normale?",
+          "opts": [
+            "Unimodală, asimetrică și discretă",
+            "Bimodală, simetrică și continuă",
+            "Uniformă, simetrică și discretă",
+            "Unimodală, simetrică și continuă"
+          ],
+          "correct": 3,
+          "explain": "Distribuția normală e o distribuție teoretică unimodală (un singur vârf), simetrică (jumătățile în oglindă) și continuă. Asimetria și bimodalitatea, din Cap. 3 (Mărimile tendinței centrale), descriu alte forme; o distribuție uniformă n-ar avea vârf deloc.",
+          "tag": "Distribuția normală",
+          "tip": "concept"
+        },
+        {
+          "q": "Ce relație are curba normală cu axa orizontală?",
+          "opts": [
+            "O atinge la trei abateri standard de medie",
+            "Se apropie oricât de ea, fără s-o atingă",
+            "O atinge la 3,59 abateri standard de medie",
+            "O atinge doar de partea cozii mai lungi"
+          ],
+          "correct": 1,
+          "explain": "Capetele curbei se extind la infinit, iar curba e asimptotică față de axa orizontală. Pragurile de ±3 sau ±3,59 sunt doar limite practice, unde aria rămasă e foarte mică; curba fiind simetrică, nu are o coadă mai lungă.",
+          "tag": "Curba normală",
+          "tip": "concept"
+        },
+        {
+          "q": "La ce niveluri de măsură se poate folosi modelul distribuției normale?",
+          "opts": [
+            "Interval sau raport",
+            "Nominal sau ordinal",
+            "Ordinal sau interval",
+            "Doar raport, cu zero absolut"
+          ],
+          "correct": 0,
+          "explain": "Modelul normal descrie variabile de interval sau de raport (IQ, scoruri la teste, număr de erori), adică nivelurile la care media și abaterea standard au sens, din Cap. 1 (Introducere în statistică). La nivel ordinal distanțele dintre categorii nu sunt egale, iar zeroul absolut nu e o condiție.",
+          "tag": "Variabile normal distribuite",
+          "tip": "nivel_masura"
+        },
+        {
+          "q": "Ce unitate de măsură folosesc scorurile Z?",
+          "opts": [
+            "Media aritmetică a distribuției",
+            "Amplitudinea totală a distribuției",
+            "Abaterea standard a distribuției",
+            "Procentul de cazuri de sub scor"
+          ],
+          "correct": 2,
+          "explain": "Un scor Z spune la câte abateri standard (sau fracțiuni de abatere standard) de medie se află scorul. Media e punctul de pornire (Z = 0), nu unitatea; procentul de cazuri de sub scor e rangul percentilei, din Cap. 3 (Mărimile tendinței centrale).",
+          "tag": "Scorul standard (Z)",
+          "tip": "concept"
+        },
+        {
+          "q": "Ce arată diferența X − μ din calculul unui scor Z?",
+          "opts": [
+            "Distanța scorului față de medie, în abateri standard",
+            "Abaterea standard a întregii distribuții",
+            "Procentul de cazuri dintre scor și medie",
+            "Distanța scorului față de medie, în unități brute"
+          ],
+          "correct": 3,
+          "explain": "X − μ e distanța în unitățile testului (puncte, milisecunde); abia împărțirea la σ o transformă în abateri standard. Procentul de cazuri dintre scor și medie se citește apoi din tabelul curbei normale.",
+          "tag": "Formula pentru populație",
+          "tip": "concept"
+        },
+        {
+          "q": "Prin ce diferă scorul Z al unui eșantion de cel al unei populații?",
+          "opts": [
+            "Folosește X̄ și s în loc de μ și σ",
+            "Împarte distanța la s², nu la σ",
+            "Scade mediana, nu media aritmetică",
+            "Împarte distanța la n − 1, nu la σ"
+          ],
+          "correct": 0,
+          "explain": "Calculul e același, doar cu mărimile eșantionului: Z = (X − X̄) / s, față de Z = (X − μ) / σ. Varianța s² are unitatea la pătrat, iar n − 1 ține de calculul lui s, din Cap. 4 (Mărimile dispersiei), nu de scorul Z.",
+          "tag": "Formula pentru eșantion",
+          "tip": "concept"
+        },
+        {
+          "q": "Ce informație dă semnul unui scor Z?",
+          "opts": [
+            "Dacă scorul e rar sau frecvent",
+            "Dacă distribuția scorurilor e asimetrică",
+            "Dacă scorul vine dintr-un eșantion",
+            "Dacă scorul e sub medie sau peste ea"
+          ],
+          "correct": 3,
+          "explain": "Z negativ: scorul e sub medie; Z pozitiv: peste medie; Z = 0: egal cu media. Cât de rar e un scor ține de mărimea lui Z, nu de semn (curba e simetrică), iar asimetria e o proprietate a distribuției, nu a unui scor.",
+          "tag": "Semnul scorului Z",
+          "tip": "concept"
+        },
+        {
+          "q": "Ce rămâne neschimbat când transformi toate scorurile unei distribuții în scoruri Z?",
+          "opts": [
+            "Media distribuției inițiale",
+            "Abaterea standard inițială",
+            "Forma distribuției inițiale",
+            "Unitatea de măsură a testului"
+          ],
+          "correct": 2,
+          "explain": "Transformarea păstrează forma (o distribuție asimetrică rămâne asimetrică), dar media devine 0 și abaterea standard 1, iar unitatea testului e înlocuită cu abaterea standard.",
+          "tag": "Forma se păstrează",
+          "tip": "principiu"
+        },
+        {
+          "q": "De ce există, matematic, o infinitate de distribuții normale?",
+          "opts": [
+            "Fiecărui eșantion extras îi corespunde o altă curbă",
+            "Fiecărui nivel de măsură îi corespunde o altă curbă",
+            "Fiecărei perechi medie–abatere standard îi corespunde una",
+            "Fiecărei mărimi a eșantionului îi corespunde una"
+          ],
+          "correct": 2,
+          "explain": "O distribuție normală e descrisă complet de medie și de abaterea standard, iar oricare pereche de valori dă o curbă normală cu altă poziție și altă lățime. Eșantioanele și mărimea lor nu definesc curbe normale noi, iar modelul se folosește doar la interval și raport.",
+          "tag": "Infinitate de distribuții normale",
+          "tip": "concept"
+        },
+        {
+          "q": "Prin ce se deosebește distribuția normală standard de celelalte distribuții normale?",
+          "opts": [
+            "Are, prin convenție, media 0 și abaterea standard 1",
+            "Este singura simetrică în jurul mediei",
+            "Este singura care nu atinge axa orizontală",
+            "Este singura cu media, mediana și modul egale"
+          ],
+          "correct": 0,
+          "explain": "Simetria, asimptota și coincidența celor trei mărimi ale tendinței centrale le au toate distribuțiile normale. Distribuția normală standard (distribuția Z) e doar cea aleasă prin convenție, cu originea în medie (0) și abaterea standard ca unitate (1).",
+          "tag": "Distribuția normală standard",
+          "tip": "concept"
+        },
+        {
+          "q": "Ce exprimă aria de sub curba normală standard dintre două scoruri Z?",
+          "opts": [
+            "Distanța pe axă dintre ele",
+            "Proporția de cazuri dintre ele",
+            "Abaterea standard a acestor scoruri",
+            "Media scorurilor dintre ele"
+          ],
+          "correct": 1,
+          "explain": "Aria delimitată de curbă e proporțională cu frecvența scorurilor: o arie de 0,30 înseamnă 30% din cazuri. Distanța dintre scoruri se citește pe axă, nu ca arie.",
+          "tag": "Aria sub curbă",
+          "tip": "concept"
+        },
+        {
+          "q": "Ce arie dă un număr din corpul tabelului curbei normale?",
+          "opts": [
+            "Aria de sub scorul Z, până la capăt",
+            "Aria dintre scorul Z și medie",
+            "Aria de peste scorul Z, până la capăt",
+            "Aria dintre −Z și +Z"
+          ],
+          "correct": 1,
+          "explain": "Numerele din tabel (de pildă 1736 pentru Z = 0,45) sunt ariile dintre un scor Z și medie. Aria de sub un Z pozitiv e 0,5 + aria din tabel, cea de peste el 0,5 − aria din tabel, iar între −Z și +Z e dublul ariei.",
+          "tag": "Tabelul ariilor",
+          "tip": "concept"
+        },
+        {
+          "q": "Cum se caută în tabelul curbei normale un scor Z cu trei cifre?",
+          "opts": [
+            "Primele două cifre pe coloana din stânga, a treia pe rândul de sus",
+            "Prima cifră pe coloana din stânga, ultimele două pe rândul de sus",
+            "Toate cele trei cifre pe coloana din stânga a tabelului",
+            "Primele două cifre pe rândul de sus, a treia pe coloana din stânga"
+          ],
+          "correct": 0,
+          "explain": "Pentru Z = 0,45 cobori pe coloana Z până la 0,4 și mergi pe rând până sub 0,05; la intersecție e 1736. Tabelul nu are rânduri cu trei cifre, iar rândul și coloana nu se inversează.",
+          "tag": "Citirea tabelului",
+          "tip": "metoda"
+        },
+        {
+          "q": "De ce tabelul curbei normale conține doar scoruri Z pozitive?",
+          "opts": [
+            "Ariile scorurilor negative sunt negative",
+            "Curba e simetrică, deci ariile se repetă",
+            "Scorurile negative sunt prea rare",
+            "Ariile negative sunt în alt tabel"
+          ],
+          "correct": 1,
+          "explain": "Aria dintre medie și −0,45 e aceeași ca între medie și +0,45, deci ajunge un singur tabel. O arie nu are semn, iar scorurile negative sunt la fel de frecvente ca cele pozitive.",
+          "tag": "Simetria curbei",
+          "tip": "principiu"
+        },
+        {
+          "q": "Ce permite distribuția normală, împreună cu media și abaterea standard ale unei variabile normale?",
+          "opts": [
+            "Aflarea exactă a fiecărui scor individual din date",
+            "Verificarea nivelului de măsură al variabilei",
+            "Enunțuri precise despre procentul de cazuri dintr-o plajă",
+            "Calculul mediei populației fără niciun eșantion"
+          ],
+          "correct": 2,
+          "explain": "Știind media și abaterea standard, poți spune, de pildă, că circa 68% din cazuri sunt la o abatere standard de medie și circa 95% la două. Scorurile individuale nu se pot reconstitui din două valori, iar nivelul de măsură se stabilește înainte, nu din curbă.",
+          "tag": "Enunțuri descriptive precise",
+          "tip": "principiu"
+        }
+      ],
+      "ascunse": [
+        {
+          "q": "Ce procent din aria curbei normale rămâne dincolo de +3 abateri standard?",
+          "opts": [
+            "0,00%",
+            "2,15%",
+            "0,26%",
+            "0,13%"
+          ],
+          "correct": 3,
+          "explain": "Dincolo de +3 rămân 0,13% din arie (la fel sub −3), puțin, dar nu zero, pentru că curba nu atinge axa. 2,15% e fâșia dintre +2 și +3, iar 0,26% adună ambele cozi.",
+          "tag": "Cozile distribuției",
+          "tip": "calcul"
+        },
+        {
+          "q": "Ce probabilitate dă proporția de cazuri dintr-o plajă de scoruri a unei variabile normale?",
+          "opts": [
+            "Șansa ca variabila să fie cu adevărat normal distribuită",
+            "Șansa ca scorul extras să se afle peste medie",
+            "Șansa ca un scor ales la întâmplare să fie acolo",
+            "Șansa ca media eșantionului să fie chiar μ"
+          ],
+          "correct": 2,
+          "explain": "Pentru o variabilă aproximativ normală, cu media și abaterea standard cunoscute, proporția din plajă (de pildă 0,3413 între medie și +1) e chiar probabilitatea de a selecta la întâmplare un scor din ea. Normalitatea e o premisă, nu un rezultat.",
+          "tag": "Probabilitatea selecției aleatoare",
+          "tip": "concept"
+        },
+        {
+          "q": "Cum afli aria dintre două scoruri Z aflate de aceeași parte a mediei?",
+          "opts": [
+            "Scazi aria mai mică din aria mai mare",
+            "Aduni ariile celor două scoruri",
+            "Scazi aria mai mare din 0,5",
+            "Înmulțești ariile celor două scoruri Z"
+          ],
+          "correct": 0,
+          "explain": "Ambele arii din tabel pornesc de la medie, deci fâșia dintre scoruri e diferența lor (între +1 și +2: 0,4772 − 0,3413 = 0,1359). Adunarea se face când scorurile sunt de o parte și de alta a mediei; 0,5 − arie dă coada de dincolo de un scor.",
+          "tag": "Aria între două scoruri",
+          "tip": "metoda"
+        },
+        {
+          "q": "Ce rol are distribuția normală în statistica inferențială?",
+          "opts": [
+            "Garantează că eșantioanele au scoruri normale",
+            "Poate descrie mărimi calculate pe eșantioane",
+            "Face inutilă extragerea aleatorie a eșantionului",
+            "Descrie forma scorurilor de la nivel nominal"
+          ],
+          "correct": 1,
+          "explain": "Distribuția normală poate reprezenta mărimi statistice obținute pe eșantioane, de unde concluziile despre populație, în Cap. 6 (Eșantionarea și distribuții de eșantionare) și Cap. 7 (Proceduri de estimare statistică). Nu face scorurile normale și nu înlocuiește eșantionarea.",
+          "tag": "Rolul în inferență",
+          "tip": "principiu"
+        },
+        {
+          "q": "Unde se află media, mediana și modul unei distribuții normale?",
+          "opts": [
+            "Toate trei în vârful curbei",
+            "Media în dreapta medianei",
+            "Modul în dreapta mediei",
+            "Mediana între media și modul curbei"
+          ],
+          "correct": 0,
+          "explain": "Ca orice distribuție simetrică unimodală, distribuția normală are media = mediana = modul, în vârf. Despărțirea celor trei apare la distribuțiile asimetrice, din Cap. 3 (Mărimile tendinței centrale).",
+          "tag": "Curba normală",
+          "tip": "concept"
+        }
+      ]
+    },
+    {
+      "id": "1",
+      "eticheta": "Runda 2 · Bază",
+      "titlu": "Runda 2 — Concepte de bază",
+      "desc": "Situații scurte: recunoști proprietatea potrivită, calculezi un scor Z sau citești un procent de sub curbă.",
+      "intrebari": [
+        {
+          "q": "Un psiholog face histograma coeficienților de inteligență ai 5000 de adulți: un singur vârf în mijloc, cele două jumătăți aproape în oglindă, scorurile tot mai rare spre capete. Ce model teoretic descrie această formă?",
+          "opts": [
+            "Distribuția normală, unimodală și simetrică",
+            "O distribuție cu asimetrie pozitivă, spre dreapta",
+            "O distribuție bimodală, cu două vârfuri",
+            "O distribuție cu frecvențe egale peste tot"
+          ],
+          "correct": 0,
+          "explain": "Un vârf, simetrie și scoruri care se răresc spre capete descriu clopotul distribuției normale — IQ-ul e chiar unul dintre exemplele de variabile care aproximează normalitatea. Asimetria pozitivă, din Cap. 3 (Mărimile tendinței centrale), ar avea o coadă lungă doar spre dreapta; o distribuție bimodală ar avea două vârfuri.",
+          "tag": "Distribuția normală",
+          "tip": "concept"
+        },
+        {
+          "q": "Un student desenează curba normală și o face să atingă axa orizontală exact la Z = −3 și la Z = +3. Ce a greșit?",
+          "opts": [
+            "Curba trebuia să atingă axa abia pe la Z = ±4",
+            "Curba atinge axa doar de partea cozii lungi",
+            "Curba e asimptotică: nu atinge niciodată axa",
+            "Nimic: dincolo de ±3 nu mai există cazuri"
+          ],
+          "correct": 2,
+          "explain": "Curba normală are ambele capete extinse la infinit și e asimptotică față de axa orizontală: se apropie oricât de mult, fără s-o atingă. Dincolo de ±3 rămân puține cazuri (câte 0,13% de fiecare parte), dar nu zero; iar o curbă simetrică nu are o „coadă lungă” doar într-o parte.",
+          "tag": "Curba normală",
+          "tip": "concept"
+        },
+        {
+          "q": "Un cercetător are mai multe variabile și vrea să descrie una dintre ele cu modelul distribuției normale. Pe care o poate alege?",
+          "opts": [
+            "Grupa sanguină a fiecărui donator de sânge",
+            "Locul ocupat de fiecare elev în clasament",
+            "Religia declarată de participanți",
+            "Numărul de erori la o sarcină de atenție"
+          ],
+          "correct": 3,
+          "explain": "Modelul normal descrie scoruri de interval sau de raport, iar numărul de erori comise la o sarcină e chiar un exemplu de astfel de variabilă. Grupa sanguină și religia sunt nominale, iar locul în clasament e ordinal — nivelurile de măsură din Cap. 1 (Introducere în statistică).",
+          "tag": "Variabile normal distribuite",
+          "tip": "nivel_masura"
+        },
+        {
+          "q": "Într-o populație, coeficientul de inteligență are media μ = 100 și abaterea standard σ = 15. Un copil are IQ 130. Ce scor Z are?",
+          "opts": [
+            "+30,00",
+            "+2,00",
+            "+1,30",
+            "+0,50"
+          ],
+          "correct": 1,
+          "explain": "Z = (X − μ) / σ = (130 − 100) / 15 = +2,00: scorul stă la două abateri standard peste medie. 30 este distanța în unități brute, încă neîmpărțită la σ; 1,30 e doar 130 / 100; 0,50 împarte invers, 15 / 30.",
+          "tag": "Formula pentru populație",
+          "tip": "calcul"
+        },
+        {
+          "q": "Într-un eșantion, scorurile la o scală de optimism au media 50 și abaterea standard 8. Un participant are 38. Ce scor Z are?",
+          "opts": [
+            "+1,50",
+            "−12,00",
+            "−1,50",
+            "−0,67"
+          ],
+          "correct": 2,
+          "explain": "Z = (X − X̄) / s = (38 − 50) / 8 = −1,50. Semnul minus arată că scorul e sub medie; −12 este distanța brută; −0,67 împarte abaterea standard la distanță (8 / −12), invers decât formula.",
+          "tag": "Formula pentru eșantion",
+          "tip": "calcul"
+        },
+        {
+          "q": "Un student află că scorul lui la un test are Z = −0,40. Ce înseamnă?",
+          "opts": [
+            "E sub medie, la 0,40 abateri standard de ea",
+            "A greșit 40% din întrebările testului",
+            "40% dintre colegi au scoruri mai mici ca el",
+            "E cu 0,40 puncte sub media grupului"
+          ],
+          "correct": 0,
+          "explain": "Un scor Z arată la câte abateri standard de medie se află scorul, iar semnul minus arată că e sub medie. Z nu e un procent de răspunsuri sau de colegi și nu e o distanță în puncte brute: 0,40 puncte ar fi distanța doar dacă abaterea standard ar fi 1.",
+          "tag": "Semnul scorului Z",
+          "tip": "concept"
+        },
+        {
+          "q": "La un test cu media 72 și abaterea standard 9, Ioana obține exact 72 de puncte. Ce scor Z are?",
+          "opts": [
+            "8",
+            "1",
+            "9",
+            "0"
+          ],
+          "correct": 3,
+          "explain": "Z = (72 − 72) / 9 = 0: un scor egal cu media are scorul Z zero. 8 ar fi 72 / 9, o împărțire fără scăderea mediei; 1 confundă media cu o abatere standard; 9 este chiar abaterea standard.",
+          "tag": "Semnul scorului Z",
+          "tip": "calcul"
+        },
+        {
+          "q": "Un psiholog transformă în scoruri Z toate cele 120 de scoruri ale unui test, care aveau media 63 și abaterea standard 11. Cât vor fi media și abaterea standard ale scorurilor Z?",
+          "opts": [
+            "Media 63 și abaterea standard 11",
+            "Media 0 și abaterea standard 1",
+            "Media 0 și abaterea standard 11",
+            "Media 1 și abaterea standard 0"
+          ],
+          "correct": 1,
+          "explain": "Oricare ar fi media și abaterea standard inițiale, distribuția scorurilor Z are media 0 și abaterea standard 1. Varianta „media 0, abaterea 11” scade media, dar uită împărțirea la s; varianta inversată (1 și 0) confundă cele două valori.",
+          "tag": "Media 0 și abaterea standard 1",
+          "tip": "principiu"
+        },
+        {
+          "q": "Scorurile la un chestionar au o asimetrie pozitivă clară. Un cercetător le transformă în scoruri Z, sperând să obțină o distribuție normală. Ce obține?",
+          "opts": [
+            "O distribuție normală, fără asimetrie",
+            "O distribuție simetrică, dar nenormală",
+            "Tot o asimetrie pozitivă, cu media 0 și s = 1",
+            "O asimetrie negativă, în oglindă"
+          ],
+          "correct": 2,
+          "explain": "Transformarea în scoruri Z păstrează forma distribuției inițiale; schimbă doar scara (media devine 0, abaterea standard 1). Asimetria rămâne exact cea dinainte, deci nici normalitatea, nici simetria nu apar, iar sensul asimetriei nu se inversează.",
+          "tag": "Forma se păstrează",
+          "tip": "principiu"
+        },
+        {
+          "q": "Testul A are o distribuție normală cu μ = 50 și σ = 10; testul B, una normală cu μ = 500 și σ = 100. Ce se întâmplă dacă transformi scorurile ambelor teste în scoruri Z?",
+          "opts": [
+            "Ambele devin normala standard: μ = 0, σ = 1",
+            "Rămân două distribuții normale diferite",
+            "Media 0, dar abaterile rămân 10 și 100",
+            "Devin distribuții uniforme, între Z = −3 și +3"
+          ],
+          "correct": 0,
+          "explain": "Scorurile Z au media 0 și abaterea standard 1, iar forma normală se păstrează, deci ambele teste ajung pe aceeași distribuție normală standard (distribuția Z). Abaterile 10 și 100 dispar prin împărțirea la σ; forma nu devine uniformă.",
+          "tag": "Distribuția normală standard",
+          "tip": "concept"
+        },
+        {
+          "q": "Un coleg susține că orice distribuție normală are media 100 și abaterea standard 15, „ca IQ-ul”. Ce îi răspunzi?",
+          "opts": [
+            "Are dreptate: așa arată orice curbă normală",
+            "Media e mereu 0, iar abaterea standard 1",
+            "Media poate varia, dar σ rămâne mereu 15",
+            "Fiecare pereche (μ, σ) dă altă curbă normală"
+          ],
+          "correct": 3,
+          "explain": "Oricărei perechi medie–abatere standard îi corespunde o distribuție normală, deci există o infinitate de distribuții normale. Media 0 și abaterea standard 1 le are doar una dintre ele, normala standard, aleasă prin convenție; nici σ nu e fixat.",
+          "tag": "Infinitate de distribuții normale",
+          "tip": "concept"
+        },
+        {
+          "q": "Pe curba normală standard, aria cuprinsă între două scoruri Z este 0,30. Ce înseamnă asta pentru 1000 de cazuri normal distribuite?",
+          "opts": [
+            "Cele două scoruri Z diferă exact cu 0,30",
+            "Circa 300 au scoruri între cele două valori",
+            "300 au exact unul dintre cele două scoruri",
+            "Circa 30 au scoruri între cele două valori"
+          ],
+          "correct": 1,
+          "explain": "Aria de sub curbă e proporțională cu frecvența: 0,30 din arie înseamnă 30% din cazuri, adică circa 300 din 1000, între cele două scoruri. Aria nu e o distanță pe axă; 30 de cazuri ar corespunde ariei 0,03.",
+          "tag": "Aria sub curbă",
+          "tip": "concept"
+        },
+        {
+          "q": "Cauți în tabelul curbei normale aria corespunzătoare scorului Z = 1,27. Unde te uiți?",
+          "opts": [
+            "Pe rândul 1,27, în coloana 0,00",
+            "Pe rândul 1,2, în coloana 0,07",
+            "Pe rândul 0,07, în coloana 1,2",
+            "Pe rândul 1,0, în coloana 0,27"
+          ],
+          "correct": 1,
+          "explain": "Prima coloană din stânga dă primele două cifre ale scorului Z (1,2), iar primul rând de sus dă a treia cifră (0,07); aria se citește la intersecție. Tabelul nu are rânduri cu trei cifre, iar rândul și coloana nu se inversează.",
+          "tag": "Citirea tabelului",
+          "tip": "metoda"
+        },
+        {
+          "q": "În tabelul curbei normale, la intersecția rândului 0,8 cu coloana 0,04 se află numărul 2995. Ce înseamnă pentru un test normal distribuit?",
+          "opts": [
+            "2995 de cazuri au scorul Z = 0,84",
+            "29,95% din cazuri sunt sub Z = 0,84",
+            "29,95% din cazuri sunt peste Z = 0,84",
+            "29,95% sunt între medie și Z = 0,84"
+          ],
+          "correct": 3,
+          "explain": "Numerele din corpul tabelului sunt ariile dintre un scor Z și medie, citite ca procent (29,95%) sau ca proporție (0,2995). Sub Z = 0,84 se află 50% + 29,95% ≈ 80%, iar peste el 50% − 29,95% ≈ 20%; nu e un număr de cazuri.",
+          "tag": "Tabelul ariilor",
+          "tip": "concept"
+        },
+        {
+          "q": "Știi că între medie și Z = +0,45 se află 17,36% din aria curbei normale. Cât din arie se află între Z = −0,45 și medie?",
+          "opts": [
+            "Tot 17,36%, curba fiind simetrică",
+            "−17,36%, aria fiind negativă sub medie",
+            "82,64%, restul până la 100%",
+            "32,64%, adică 50% − 17,36%"
+          ],
+          "correct": 0,
+          "explain": "Curba normală e simetrică, deci aria dintre medie și un scor Z negativ e aceeași ca pentru scorul pozitiv corespunzător; de aceea tabelul are doar valori pozitive. O arie nu poate fi negativă; 32,64% este aria de sub Z = −0,45, iar 82,64% nu corespunde niciunei regiuni.",
+          "tag": "Simetria curbei",
+          "tip": "principiu"
+        },
+        {
+          "q": "Scorurile la un test sunt normal distribuite, cu μ = 60 și σ = 8. Ce procent din participanți au între 60 și 68 de puncte?",
+          "opts": [
+            "68,26%",
+            "50,00%",
+            "34,13%",
+            "13,59%"
+          ],
+          "correct": 2,
+          "explain": "68 = 60 + 8, adică Z = +1; între medie și Z = +1 se află 34,13% din arie. 68,26% este intervalul de la −1 la +1 (dublul); 50% este toată jumătatea de peste medie; 13,59% e aria dintre Z = +1 și Z = +2.",
+          "tag": "Între medie și Z = ±1",
+          "tip": "calcul"
+        },
+        {
+          "q": "Timpii de reacție dintr-un experiment sunt normal distribuiți, cu μ = 400 ms și σ = 50 ms. Ce procent dintre timpi sunt între 350 și 450 ms?",
+          "opts": [
+            "34,13%",
+            "95,44%",
+            "50,00%",
+            "68,26%"
+          ],
+          "correct": 3,
+          "explain": "350 și 450 sunt la o abatere standard sub și peste medie (Z = −1 și +1): 34,13% + 34,13% = 68,26%. 34,13% acoperă doar o parte; 95,44% e intervalul ±2 abateri standard.",
+          "tag": "Între medie și Z = ±1",
+          "tip": "calcul"
+        },
+        {
+          "q": "Într-o populație, coeficientul de inteligență e normal distribuit, cu μ = 100 și σ = 15. Ce procent din persoane au IQ între 70 și 130?",
+          "opts": [
+            "68,26%",
+            "95,44%",
+            "99,74%",
+            "47,72%"
+          ],
+          "correct": 1,
+          "explain": "70 și 130 sunt la două abateri standard de medie (Z = ±2): 47,72% + 47,72% = 95,44%. 68,26% e intervalul ±1; 99,74% ar fi ±3; 47,72% e doar o jumătate a intervalului.",
+          "tag": "Între medie și Z = ±2",
+          "tip": "calcul"
+        },
+        {
+          "q": "La un concurs cu 10 000 de candidați, scorurile sunt normal distribuite. Câți candidați au, aproximativ, scoruri peste Z = +3?",
+          "opts": [
+            "Circa 13 candidați",
+            "Niciunul: curba se oprește la +3",
+            "Circa 130 de candidați",
+            "Circa 215 candidați"
+          ],
+          "correct": 0,
+          "explain": "Peste +3 abateri standard rămân 0,13% din arie: 0,0013 · 10 000 ≈ 13. Curba nu se oprește la +3, deși ce e dincolo e puțin; 130 ar fi 1,3%, iar 215 corespunde fâșiei dintre +2 și +3 (2,15%).",
+          "tag": "Cozile distribuției",
+          "tip": "calcul"
+        },
+        {
+          "q": "Alegi la întâmplare un adult dintr-o populație în care IQ-ul e normal distribuit (μ = 100, σ = 15). Care e probabilitatea ca IQ-ul lui să fie între 100 și 115?",
+          "opts": [
+            "0,6826",
+            "0,1500",
+            "0,3413",
+            "0,5000"
+          ],
+          "correct": 2,
+          "explain": "Între medie și Z = +1 se află 0,3413 din arie, iar proporția de cazuri dintr-o plajă e chiar probabilitatea de a extrage la întâmplare un scor din ea. 0,6826 cuprinde și plaja 85–100; 0,15 confundă σ cu o probabilitate; 0,5 e toată jumătatea de peste medie.",
+          "tag": "Probabilitatea selecției aleatoare",
+          "tip": "calcul"
+        }
+      ],
+      "ascunse": [
+        {
+          "q": "Un articol numește curba normală „clopotul lui Gauss”, iar altul „curba Gauss–Laplace”. Despre ce e vorba?",
+          "opts": [
+            "Două curbe diferite, cu forme diferite",
+            "Prima e curba normală, a doua e cea standard",
+            "Două nume ale aceleiași curbe normale",
+            "A doua e asimetrică, prima e simetrică"
+          ],
+          "correct": 2,
+          "explain": "Ambele nume onorează matematicienii care au descoperit independent distribuția normală la începutul secolului al XIX-lea (Gauss și Laplace), după ce De Moivre o studiase în secolul al XVIII-lea. Sunt nume pentru aceeași curbă, nu pentru curbe diferite.",
+          "tag": "Istoric",
+          "tip": "istoric"
+        },
+        {
+          "q": "Toți elevii unei școli au notele la o lucrare cu media μ = 6,5 și abaterea standard σ = 1,5. Un elev are nota 5. Ce scor Z are?",
+          "opts": [
+            "−1,00",
+            "+1,00",
+            "−1,50",
+            "+0,77"
+          ],
+          "correct": 0,
+          "explain": "Z = (5 − 6,5) / 1,5 = −1,00: nota e la o abatere standard sub medie. −1,50 este distanța brută; +1,00 pierde semnul; +0,77 împarte nota la media 6,5 (5 / 6,5).",
+          "tag": "Formula pentru populație",
+          "tip": "calcul"
+        },
+        {
+          "q": "Scorurile la un test sunt normal distribuite, cu μ = 50 și σ = 10. Ce procent din participanți au între 30 și 50 de puncte?",
+          "opts": [
+            "47,72%",
+            "95,44%",
+            "34,13%",
+            "13,59%"
+          ],
+          "correct": 0,
+          "explain": "30 = 50 − 2 · 10, deci Z = −2; între medie și Z = −2 se află, prin simetrie, tot 47,72%. 95,44% cuprinde și plaja 50–70; 34,13% ar fi pentru o abatere standard; 13,59% e fâșia dintre o abatere și două.",
+          "tag": "Între medie și Z = ±2",
+          "tip": "calcul"
+        },
+        {
+          "q": "Ai nevoie de aria dintre medie și Z = −2,13, dar tabelul are doar scoruri Z pozitive. Ce faci?",
+          "opts": [
+            "Renunți: aria pentru un Z negativ nu e în tabel",
+            "Iei aria lui 2,13: rândul 2,1, coloana 0,03",
+            "Citești rândul −2,1 și iei aria cu minus",
+            "Citești aria pentru 2,13 și o scazi din 1"
+          ],
+          "correct": 1,
+          "explain": "Curba e simetrică, deci aria dintre medie și −2,13 e aceeași ca pentru +2,13. O arie nu are semn, iar scăderea din 1 ar da tot restul curbei, nu aria cerută.",
+          "tag": "Simetria curbei",
+          "tip": "metoda"
+        },
+        {
+          "q": "Un program îți generează valorile unei variabile normal distribuite cu media 0 și abaterea standard 1. Ce sunt aceste valori?",
+          "opts": [
+            "Scoruri brute, în unitățile testului",
+            "Percentile, cuprinse între 0 și 100",
+            "Proporții, cuprinse între 0 și 1",
+            "Scoruri Z ale variabilei normale standard"
+          ],
+          "correct": 3,
+          "explain": "Variabila care corespunde distribuției normale standard (media 0, abaterea standard 1) se numește variabila normală standard, iar valorile ei sunt scoruri Z. Percentilele, din Cap. 3 (Mărimile tendinței centrale), și proporțiile sunt alte scări; o proporție nu poate fi negativă, un scor Z da.",
+          "tag": "Variabila normală standard",
+          "tip": "concept"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "eticheta": "Runda 3 · Aplicații",
+      "titlu": "Runda 3 — Scenarii și raționament",
+      "desc": "Situații cu mai mulți pași: compari scoruri din distribuții diferite, afli procente și probabilități din tabel și găsești erorile de raționament.",
+      "intrebari": [
+        {
+          "q": "Într-un eșantion cu media 100 și abaterea standard 20, trei participanți obțin 85, 120 și 150. Ce scoruri Z au?",
+          "opts": [
+            "−0,75; +1,00; +2,50",
+            "+0,75; +1,00; +2,50",
+            "−15; +20; +50",
+            "−0,15; +0,20; +0,50"
+          ],
+          "correct": 0,
+          "explain": "Fiecare distanță față de medie se împarte la s = 20: −15 / 20 = −0,75; 20 / 20 = +1,00; 50 / 20 = +2,50. Varianta fără minus pierde informația că 85 e sub medie; −15, +20, +50 sunt distanțele brute; împărțirea la 100 folosește media în locul abaterii standard.",
+          "tag": "Exemplul X̄ = 100, s = 20",
+          "tip": "calcul",
+          "exemplu_nou": false
+        },
+        {
+          "q": "Maria are 78 la matematică (media clasei 70, s = 4) și 85 la română (media 75, s = 10). La care materie stă mai bine față de colegi?",
+          "opts": [
+            "La română: are scorul brut mai mare, 85",
+            "La română: e cu 10 puncte peste medie",
+            "La fel: e peste medie la ambele materii",
+            "La matematică: Z = +2,00 față de +1,00"
+          ],
+          "correct": 3,
+          "explain": "Scorurile Z pun cele două note pe aceeași scară: (78 − 70) / 4 = +2,00 și (85 − 75) / 10 = +1,00. Scorul brut și distanța brută ignoră cât de împrăștiate sunt notele la fiecare materie — tocmai ce corectează împărțirea la abaterea standard, din Cap. 4 (Mărimile dispersiei).",
+          "tag": "Poziția relativă a scorului",
+          "tip": "calcul",
+          "exemplu_nou": true
+        },
+        {
+          "q": "La un test de admitere normal distribuit (μ = 500, σ = 100), o universitate primește doar candidații cu Z de cel puțin +1,5. Care e scorul brut minim?",
+          "opts": [
+            "501,5",
+            "150",
+            "650",
+            "600"
+          ],
+          "correct": 2,
+          "explain": "Din Z = (X − μ) / σ rezultă X = μ + Z · σ = 500 + 1,5 · 100 = 650. 501,5 adună Z direct la medie, fără să-l înmulțească cu σ; 150 este doar distanța; 600 corespunde lui Z = +1.",
+          "tag": "Din Z înapoi în scor brut",
+          "tip": "calcul",
+          "exemplu_nou": true
+        },
+        {
+          "q": "Un program pentru copii supradotați cere un IQ peste 130, într-o populație cu μ = 100 și σ = 15 (aria dintre medie și Z = 2 este 0,4772). Ce procent din copii se califică?",
+          "opts": [
+            "47,72%",
+            "2,28%",
+            "4,56%",
+            "97,72%"
+          ],
+          "correct": 1,
+          "explain": "130 înseamnă Z = +2. Peste medie e jumătate din arie (0,5), din care 0,4772 e între medie și Z = 2; rămân 0,5 − 0,4772 = 0,0228. 47,72% e chiar aria din tabel; 4,56% cuprinde ambele cozi (sub 70 și peste 130); 97,72% sunt cei sub 130.",
+          "tag": "Aria dincolo de un scor",
+          "tip": "calcul",
+          "exemplu_nou": true
+        },
+        {
+          "q": "La o scală de anxietate normal distribuită (μ = 40, σ = 8), scorurile de 32 sau mai mici înseamnă „anxietate scăzută”. Ce procent din participanți intră aici?",
+          "opts": [
+            "15,87%",
+            "34,13%",
+            "84,13%",
+            "31,74%"
+          ],
+          "correct": 0,
+          "explain": "32 înseamnă Z = −1. Sub medie e jumătate din arie, din care 0,3413 e între −1 și medie; sub −1 rămân 0,5 − 0,3413 = 0,1587. 34,13% e aria din tabel; 84,13% sunt cei peste 32; 31,74% adună ambele cozi dincolo de ±1.",
+          "tag": "Aria dincolo de un scor",
+          "tip": "calcul",
+          "exemplu_nou": true
+        },
+        {
+          "q": "Scorurile la un test de memorie sunt normal distribuite (μ = 50, σ = 10). Tabelul dă 0,3413 pentru Z = 1 și 0,4772 pentru Z = 2. Ce procent din participanți au între 40 și 70 de puncte?",
+          "opts": [
+            "13,59%",
+            "47,72%",
+            "68,26%",
+            "81,85%"
+          ],
+          "correct": 3,
+          "explain": "40 și 70 înseamnă Z = −1 și Z = +2, de o parte și de alta a mediei, deci ariile se adună: 0,3413 + 0,4772 = 0,8185. Scăderea lor (13,59%) e regula pentru două scoruri de aceeași parte; 68,26% ar fi doar plaja 40–60.",
+          "tag": "Aria între două scoruri",
+          "tip": "calcul",
+          "exemplu_nou": true
+        },
+        {
+          "q": "IQ-ul e normal distribuit (μ = 100, σ = 15). Tabelul dă 0,3413 pentru Z = 1,00 și 0,4332 pentru Z = 1,50. Ce procent din persoane au IQ între 115 și 122,5?",
+          "opts": [
+            "77,45%",
+            "9,19%",
+            "43,32%",
+            "34,13%"
+          ],
+          "correct": 1,
+          "explain": "115 și 122,5 înseamnă Z = +1 și Z = +1,5, de aceeași parte a mediei: aria cerută e diferența 0,4332 − 0,3413 = 0,0919. Adunarea (77,45%) e regula pentru scoruri aflate de o parte și de alta a mediei; 43,32% și 34,13% sunt arii de la medie, care includ plaja 100–115.",
+          "tag": "Aria între două scoruri",
+          "tip": "calcul",
+          "exemplu_nou": true
+        },
+        {
+          "q": "Timpii de reacție sunt normal distribuiți (μ = 300 ms, σ = 40 ms); tabelul dă 0,1915 pentru Z = 0,50. Care e probabilitatea ca un participant ales la întâmplare să răspundă în peste 320 ms?",
+          "opts": [
+            "0,1915",
+            "0,6915",
+            "0,3085",
+            "0,5000"
+          ],
+          "correct": 2,
+          "explain": "320 înseamnă Z = +0,50; peste el: 0,5 − 0,1915 = 0,3085, iar proporția de cazuri dintr-o plajă e chiar probabilitatea de a extrage la întâmplare un scor din ea. 0,1915 e aria dintre medie și 320; 0,6915 sunt cei sub 320.",
+          "tag": "Probabilitatea selecției aleatoare",
+          "tip": "calcul",
+          "exemplu_nou": true
+        },
+        {
+          "q": "Un candidat are la un test normal distribuit Z = +0,84 (tabelul dă 0,2995). Ce procent dintre candidați au scoruri sub al lui?",
+          "opts": [
+            "Circa 80%",
+            "Circa 30%",
+            "Circa 20%",
+            "Circa 84%"
+          ],
+          "correct": 0,
+          "explain": "Sub medie se află 50% din cazuri, iar între medie și Z = +0,84 încă 29,95%: în total ≈ 80% — rangul percentilei scorului, ca în Cap. 3 (Mărimile tendinței centrale). 30% este doar aria din tabel; 20% sunt cei de deasupra; 84% citește scorul Z ca procent.",
+          "tag": "Rangul percentilei unui scor Z",
+          "tip": "calcul",
+          "exemplu_nou": true
+        },
+        {
+          "q": "O cercetătoare are răspunsuri pe scala „ușor – mediu – greu – foarte greu” și vrea să afle din tabelul curbei normale ce procent dintre răspunsuri depășesc „greu”. Ce problemă are?",
+          "opts": [
+            "Merge, dacă ordonează categoriile de la 1 la 4",
+            "Merge, dacă are mai mult de o sută de răspunsuri",
+            "Merge, dacă transformă întâi codurile în scoruri Z",
+            "Modelul normal cere scoruri de interval sau de raport"
+          ],
+          "correct": 3,
+          "explain": "Distribuția normală descrie variabile de interval sau de raport care aproximează normalitatea; o scală ordinală nu are distanțe egale între categorii, deci nici medie și abatere standard cu sens (Cap. 1 (Introducere în statistică)). Codurile 1–4 doar ordonează; un eșantion mare sau o transformare în Z nu schimbă nivelul de măsură.",
+          "tag": "Variabile normal distribuite",
+          "tip": "nivel_masura",
+          "exemplu_nou": true
+        },
+        {
+          "q": "Veniturile dintr-o firmă au o asimetrie pozitivă puternică (X̄ = 4000, s = 2500). Un analist calculează pentru 9000 de lei Z = +2,00 și conchide că doar 2,28% câștigă mai mult. Unde greșește?",
+          "opts": [
+            "Scorul Z e greșit: trebuia +3,60",
+            "Procentele curbei normale nu se aplică aici",
+            "Nicăieri: Z = +2 lasă mereu 2,28% deasupra",
+            "Trebuia folosită mediana în locul mediei"
+          ],
+          "correct": 1,
+          "explain": "Scorul Z e corect calculat, (9000 − 4000) / 2500 = +2,00, dar transformarea păstrează forma asimetrică, iar procentele din tabel sunt valabile doar pentru o distribuție normală. Varianta cu „mereu” e greșeala celui care leagă procentele de scorul Z, nu de forma distribuției.",
+          "tag": "Forma se păstrează",
+          "tip": "eroare",
+          "exemplu_nou": true
+        },
+        {
+          "q": "Un psiholog vrea procentul cazurilor dintre medie și Z = −0,45. În tabel coboară pe prima coloană până la 0,4, merge pe rând până sub 0,05 și găsește 1736. Ce raportează?",
+          "opts": [
+            "17,36% se află între medie și Z = −0,45",
+            "17,36% au scoruri sub Z = −0,45",
+            "1736 de cazuri au scorul Z = −0,45",
+            "Nimic: tabelul nu are scoruri negative"
+          ],
+          "correct": 0,
+          "explain": "Numărul din tabel e aria dintre scorul Z și medie, iar prin simetrie e aceeași pentru −0,45 ca pentru +0,45. Sub Z = −0,45 se află 50% − 17,36% = 32,64%; tabelul dă arii, nu numere de cazuri.",
+          "tag": "Tabelul ariilor",
+          "tip": "concept",
+          "exemplu_nou": false
+        },
+        {
+          "q": "Pe curba normală, între medie și o abatere standard sunt 34,13% din arie, iar între medie și două abateri standard 47,72%. Ce procent din cazuri se află în afara intervalului ±2 abateri standard?",
+          "opts": [
+            "2,28%",
+            "31,74%",
+            "4,56%",
+            "0,26%"
+          ],
+          "correct": 2,
+          "explain": "În interiorul intervalului ±2 se află 2 · 47,72% = 95,44%, deci în afara lui 100% − 95,44% = 4,56%, câte 2,28% de fiecare parte. 2,28% numără o singură coadă; 31,74% e în afara intervalului ±1; 0,26% e în afara lui ±3.",
+          "tag": "Între medie și Z = ±2",
+          "tip": "calcul",
+          "exemplu_nou": false
+        },
+        {
+          "q": "Un profesor adaugă 5 puncte bonus la lucrările tuturor celor 30 de elevi. Ce se întâmplă cu scorurile Z ale elevilor?",
+          "opts": [
+            "Cresc toate exact cu 5 abateri standard",
+            "Rămân aceleași: și media crește cu 5",
+            "Cresc toate cu 5 împărțit la s",
+            "Devin toate pozitive, după bonus"
+          ],
+          "correct": 1,
+          "explain": "Fiecare scor și media cresc cu 5, deci distanțele X − X̄ nu se schimbă; nici abaterea standard nu se schimbă, așa că scorurile Z rămân aceleași (interpretare care decurge din formula lui Z). Poziția relativă a elevilor față de colegi e neatinsă.",
+          "tag": "Poziția relativă a scorului",
+          "tip": "principiu",
+          "exemplu_nou": true
+        },
+        {
+          "q": "Un cercetător are media unui eșantion de 50 de studenți și vrea să afirme ceva despre media tuturor studenților. La ce îi va folosi distribuția normală?",
+          "opts": [
+            "Scorurile oricărui eșantion sunt normale",
+            "Transformă eșantionul în populație",
+            "Poate reprezenta mărimi calculate pe eșantioane",
+            "Doar la desenarea histogramei eșantionului"
+          ],
+          "correct": 2,
+          "explain": "Distribuția normală poate reprezenta mărimi statistice care rezultă din studierea eșantioanelor, ceea ce permite concluzii despre populație — temă dezvoltată în Cap. 6 (Eșantionarea și distribuții de eșantionare) și în Cap. 7 (Proceduri de estimare statistică). Nu toate eșantioanele au scoruri normale, iar un eșantion rămâne un eșantion; histograma ține de Cap. 2 (Prezentarea datelor statistice).",
+          "tag": "Rolul în inferență",
+          "tip": "principiu",
+          "exemplu_nou": true
+        },
+        {
+          "q": "Un raport spune că scorurile la o scală de stres au media 20, abaterea standard 4 și o distribuție aproximativ normală. Ce afirmație descriptivă precisă poți face?",
+          "opts": [
+            "Toți participanții au între 16 și 24 de puncte",
+            "Circa 68% dintre participanți au între 12 și 28",
+            "Jumătate dintre participanți au exact 20 de puncte",
+            "Circa 95% dintre participanți au între 12 și 28"
+          ],
+          "correct": 3,
+          "explain": "12 și 28 sunt la două abateri standard de medie, unde se află 95,44% din cazuri; între 16 și 24 (±1) ar fi circa 68%, nu toți. Varianta cu 68% între 12 și 28 leagă procentul de intervalul greșit; media nu e scorul exact al unei jumătăți.",
+          "tag": "Enunțuri descriptive precise",
+          "tip": "calcul",
+          "exemplu_nou": true
+        },
+        {
+          "q": "Andrei are 1,90 m, într-o populație de bărbați cu μ = 1,78 m și σ = 0,06 m; Elena are 1,75 m, între femei cu μ = 1,65 m și σ = 0,05 m. Cine e mai înalt față de propriul grup?",
+          "opts": [
+            "Sunt la egalitate: ambii au Z = +2,00",
+            "Andrei: e cu 15 cm mai înalt decât Elena",
+            "Elena: abaterea standard a femeilor e mai mică",
+            "Andrei: Z = +2,00 față de +1,50 la Elena"
+          ],
+          "correct": 0,
+          "explain": "Andrei: (1,90 − 1,78) / 0,06 = +2,00; Elena: (1,75 − 1,65) / 0,05 = +2,00. Diferența brută dintre ei nu spune nimic despre poziția fiecăruia în grupul lui, iar abaterea standard mai mică a femeilor e deja inclusă în calcul.",
+          "tag": "Poziția relativă a scorului",
+          "tip": "calcul",
+          "exemplu_nou": true
+        },
+        {
+          "q": "La un test normal distribuit (μ = 100, σ = 20), care scor e mai neobișnuit: 60 sau 135?",
+          "opts": [
+            "135: e peste medie, iar acolo e mai rar",
+            "La fel de rare: sunt de o parte și de alta",
+            "60: scorurile Z negative sunt mai rare",
+            "60: stă la 2 abateri standard, nu la 1,75"
+          ],
+          "correct": 3,
+          "explain": "Cât de rar e un scor depinde de distanța lui față de medie, în abateri standard: 60 are Z = −2,00, 135 are Z = +1,75. Curba fiind simetrică, semnul nu face un scor mai rar sau mai frecvent; contează doar mărimea lui Z.",
+          "tag": "Semnul scorului Z",
+          "tip": "concept",
+          "exemplu_nou": true
+        },
+        {
+          "q": "La un test normal distribuit (μ = 50, σ = 10), un candidat obține 85, adică Z = +3,5. Un coleg spune că e imposibil, pentru că „curba se termină la +3”. Ce îi răspunzi?",
+          "opts": [
+            "Are dreptate: dincolo de ±3 aria e zero",
+            "Z a fost greșit calculat: nu trece de 3",
+            "E posibil, dar rar: curba nu atinge axa",
+            "E posibil doar dacă nu mai e normală"
+          ],
+          "correct": 2,
+          "explain": "Curba normală e asimptotică față de axa orizontală, deci aria dincolo de +3 e mică (0,13%), dar nu zero; de aceea un scor de +3,5 e foarte rar, nu imposibil. Faptul că pentru scopuri practice curba se consideră încheiată pe la ±3 e o simplificare, nu o limită a scorurilor.",
+          "tag": "Curba normală",
+          "tip": "concept",
+          "exemplu_nou": true
+        },
+        {
+          "q": "Într-o populație, IQ-ul e normal distribuit (μ = 100, σ = 15). Tabelul dă 0,3413 pentru Z = 1 și 0,4772 pentru Z = 2. Care e probabilitatea ca o persoană aleasă la întâmplare să aibă IQ între 70 și 85?",
+          "opts": [
+            "0,8185",
+            "0,1359",
+            "0,4772",
+            "0,3413"
+          ],
+          "correct": 1,
+          "explain": "70 și 85 înseamnă Z = −2 și Z = −1, de aceeași parte a mediei: 0,4772 − 0,3413 = 0,1359 — fâșia de 13,59% din figura procentelor de sub curbă. Adunarea (0,8185) e regula pentru scoruri de o parte și de alta a mediei; 0,4772 și 0,3413 sunt arii măsurate de la medie.",
+          "tag": "Aria între două scoruri",
+          "tip": "calcul",
+          "exemplu_nou": true
+        }
+      ],
+      "ascunse": [
+        {
+          "q": "O firmă angajează doar candidații din primii 10% la un test normal distribuit (μ = 60, σ = 5). Aria 0,3997 dintre medie și Z corespunde lui Z = 1,28. Care e scorul minim cerut?",
+          "opts": [
+            "66,4",
+            "61,3",
+            "53,6",
+            "65,0"
+          ],
+          "correct": 0,
+          "explain": "Peste Z rămân 10% doar dacă între medie și Z sunt 40% (0,5 − 0,10 ≈ 0,3997), deci Z = +1,28 și X = 60 + 1,28 · 5 = 66,4. 61,3 adună Z direct la medie; 53,6 merge sub medie; 65,0 corespunde lui Z = +1, care lasă deasupra circa 16%.",
+          "tag": "Din Z înapoi în scor brut",
+          "tip": "calcul",
+          "exemplu_nou": true
+        },
+        {
+          "q": "Radu are Z = +1,2 la un test în clasa lui. Dan are 82 la alt test, în clasa lui (μ = 70, σ = 15). Care dintre ei stă mai bine față de propria clasă?",
+          "opts": [
+            "Dan: are un scor brut mult mai mare",
+            "Dan: e cu 12 puncte peste media lui",
+            "Radu: Z = +1,2 față de +0,8 la Dan",
+            "Nu se pot compara: testele diferă"
+          ],
+          "correct": 2,
+          "explain": "Dan are (82 − 70) / 15 = +0,8, mai aproape de media clasei decât Radu. Scorurile Z sunt tocmai mijlocul de a compara poziții relative din distribuții diferite; scorul brut și distanța brută nu țin seama de împrăștierea fiecărei distribuții.",
+          "tag": "Poziția relativă a scorului",
+          "tip": "calcul",
+          "exemplu_nou": true
+        },
+        {
+          "q": "Un student citește în tabel 0,3413 pentru Z = 1,00 și raportează că 34,13% din cazuri au scoruri sub Z = 1. Unde greșește?",
+          "opts": [
+            "Nicăieri: aria din tabel e chiar aria de sub Z",
+            "Sub Z = 1 sunt 84,13%, cu jumătatea de sub medie",
+            "Sub Z = 1 sunt 15,87%, adică 0,5 − 0,3413",
+            "Sub Z = 1 sunt 68,26%, dublul ariei din tabel"
+          ],
+          "correct": 1,
+          "explain": "Tabelul dă aria dintre medie și Z; sub Z = 1 se află și toată jumătatea de sub medie: 0,5 + 0,3413 = 0,8413. 15,87% e aria de peste Z = 1, iar 68,26% e intervalul de la −1 la +1.",
+          "tag": "Tabelul ariilor",
+          "tip": "eroare",
+          "exemplu_nou": true
+        },
+        {
+          "q": "La un test normal distribuit (μ = 100, σ = 20) au participat 400 de elevi. Câți elevi au, aproximativ, peste 140 de puncte?",
+          "opts": [
+            "Circa 18 elevi",
+            "Circa 191 de elevi",
+            "Circa 1 elev",
+            "Circa 9 elevi"
+          ],
+          "correct": 3,
+          "explain": "140 înseamnă Z = +2; peste el rămân 0,5 − 0,4772 = 0,0228, iar 0,0228 · 400 ≈ 9. 18 numără ambele cozi (4,56%); 191 folosește aria dintre medie și Z = 2 (47,72%); 1 elev ar corespunde cozii de peste +3 (0,13%).",
+          "tag": "Aria dincolo de un scor",
+          "tip": "calcul",
+          "exemplu_nou": true
+        },
+        {
+          "q": "Scorurile la un test sunt normal distribuite (μ = 80, σ = 12). După transformarea lor în scoruri Z, ce procent dintre scorurile Z sunt între −1 și +1?",
+          "opts": [
+            "Nu se mai poate ști fără scorurile brute",
+            "100%: toate scorurile Z cad între −1 și +1",
+            "50%: câte un sfert de fiecare parte",
+            "68,26%, ca scorurile brute între 68 și 92"
+          ],
+          "correct": 3,
+          "explain": "Transformarea păstrează forma normală și ordinea scorurilor: Z = −1 și +1 corespund exact lui 68 și 92, unde se află 68,26% din cazuri. Abaterea standard 1 a scorurilor Z nu înseamnă că toate cad între ±1 — aproape o treime sunt în afara acestui interval.",
+          "tag": "Distribuția normală standard",
+          "tip": "principiu",
+          "exemplu_nou": false
+        }
+      ]
+    }
+  ],
+  "harta": {
+    "centru": "Distribuția normală",
+    "ramuri": [
+      {
+        "titlu": "Caracteristicile distribuției normale",
+        "noduri": [
+          {
+            "t": "Distribuția normală",
+            "d": "Distribuție teoretică de scoruri, unimodală, simetrică și continuă. E un model care descrie distribuțiile particulare ale unor variabile despre care s-a constatat că aproximează suficient normalitatea într-o populație."
+          },
+          {
+            "t": "Curba normală",
+            "d": "Graficul distribuției normale: formă de clopot, cu ambele capete extinse la infinit. Nu atinge axa orizontală — e asimptotică față de ea. Ca la orice distribuție simetrică unimodală, media, mediana și modul coincid în vârf (Cap. 3 (Mărimile tendinței centrale))."
+          },
+          {
+            "t": "Variabile normal distribuite",
+            "d": "Variabile de interval sau de raport (Cap. 1 (Introducere în statistică)) ale căror scoruri se grupează simetric în jurul scorului central: coeficientul de inteligență, rezultatele la teste de cunoștințe, numărul de erori la o sarcină. Despre ele se spune că sunt normal distribuite în populație sau, pe scurt, „normale”."
+          },
+          {
+            "t": "Istoric",
+            "d": "Studiată prima dată în secolul al XVIII-lea de Abraham De Moivre; redescoperită independent la începutul secolului al XIX-lea de Carl Friedrich Gauss și Pierre Simon de Laplace — de aici numele „clopotul lui Gauss” și „curba Gauss–Laplace”."
+          }
+        ],
+        "figuri": [
+          {
+            "titlu": "Curba normală (ca figura 5.1)",
+            "nota": "Formă exactă a curbei normale; scara orizontală e în abateri standard.",
+            "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 172\" role=\"img\" aria-label=\"Curba normală în formă de clopot, simetrică, cu media, mediana și modul în centru, asimptotică față de axa orizontală\" font-family=\"Georgia, serif\" font-size=\"13\"><path d=\"M16.0,128.0 L16.0,127.9 L19.6,127.8 L23.2,127.7 L26.8,127.6 L30.4,127.5 L34.0,127.4 L37.6,127.1 L41.2,126.9 L44.8,126.5 L48.4,126.1 L52.0,125.6 L55.6,124.9 L59.2,124.2 L62.8,123.2 L66.4,122.0 L70.0,120.7 L73.6,119.1 L77.2,117.2 L80.8,115.0 L84.4,112.6 L88.0,109.8 L91.6,106.7 L95.2,103.2 L98.8,99.5 L102.4,95.4 L106.0,91.0 L109.6,86.4 L113.2,81.6 L116.8,76.7 L120.4,71.6 L124.0,66.6 L127.6,61.7 L131.2,57.0 L134.8,52.6 L138.4,48.5 L142.0,44.9 L145.6,41.8 L149.2,39.3 L152.8,37.5 L156.4,36.4 L160.0,36.0 L163.6,36.4 L167.2,37.5 L170.8,39.3 L174.4,41.8 L178.0,44.9 L181.6,48.5 L185.2,52.6 L188.8,57.0 L192.4,61.7 L196.0,66.6 L199.6,71.6 L203.2,76.7 L206.8,81.6 L210.4,86.4 L214.0,91.0 L217.6,95.4 L221.2,99.5 L224.8,103.2 L228.4,106.7 L232.0,109.8 L235.6,112.6 L239.2,115.0 L242.8,117.2 L246.4,119.1 L250.0,120.7 L253.6,122.0 L257.2,123.2 L260.8,124.2 L264.4,124.9 L268.0,125.6 L271.6,126.1 L275.2,126.5 L278.8,126.9 L282.4,127.1 L286.0,127.4 L289.6,127.5 L293.2,127.6 L296.8,127.7 L300.4,127.8 L304.0,127.9 L304.0,128.0 Z\" fill=\"#2a78d6\" fill-opacity=\"0.12\" stroke=\"none\"></path><polyline points=\"16.0,127.9 17.8,127.8 19.6,127.8 21.4,127.8 23.2,127.7 25.0,127.7 26.8,127.6 28.6,127.6 30.4,127.5 32.2,127.4 34.0,127.4 35.8,127.3 37.6,127.1 39.4,127.0 41.2,126.9 43.0,126.7 44.8,126.5 46.6,126.3 48.4,126.1 50.2,125.9 52.0,125.6 53.8,125.3 55.6,124.9 57.4,124.6 59.2,124.2 61.0,123.7 62.8,123.2 64.6,122.6 66.4,122.0 68.2,121.4 70.0,120.7 71.8,119.9 73.6,119.1 75.4,118.2 77.2,117.2 79.0,116.2 80.8,115.0 82.6,113.9 84.4,112.6 86.2,111.2 88.0,109.8 89.8,108.3 91.6,106.7 93.4,105.0 95.2,103.2 97.0,101.4 98.8,99.5 100.6,97.5 102.4,95.4 104.2,93.2 106.0,91.0 107.8,88.7 109.6,86.4 111.4,84.0 113.2,81.6 115.0,79.1 116.8,76.7 118.6,74.2 120.4,71.6 122.2,69.1 124.0,66.6 125.8,64.2 127.6,61.7 129.4,59.3 131.2,57.0 133.0,54.7 134.8,52.6 136.6,50.5 138.4,48.5 140.2,46.6 142.0,44.9 143.8,43.2 145.6,41.8 147.4,40.5 149.2,39.3 151.0,38.3 152.8,37.5 154.6,36.8 156.4,36.4 158.2,36.1 160.0,36.0 161.8,36.1 163.6,36.4 165.4,36.8 167.2,37.5 169.0,38.3 170.8,39.3 172.6,40.5 174.4,41.8 176.2,43.2 178.0,44.9 179.8,46.6 181.6,48.5 183.4,50.5 185.2,52.6 187.0,54.7 188.8,57.0 190.6,59.3 192.4,61.7 194.2,64.2 196.0,66.6 197.8,69.1 199.6,71.6 201.4,74.2 203.2,76.7 205.0,79.1 206.8,81.6 208.6,84.0 210.4,86.4 212.2,88.7 214.0,91.0 215.8,93.2 217.6,95.4 219.4,97.5 221.2,99.5 223.0,101.4 224.8,103.2 226.6,105.0 228.4,106.7 230.2,108.3 232.0,109.8 233.8,111.2 235.6,112.6 237.4,113.9 239.2,115.0 241.0,116.2 242.8,117.2 244.6,118.2 246.4,119.1 248.2,119.9 250.0,120.7 251.8,121.4 253.6,122.0 255.4,122.6 257.2,123.2 259.0,123.7 260.8,124.2 262.6,124.6 264.4,124.9 266.2,125.3 268.0,125.6 269.8,125.9 271.6,126.1 273.4,126.3 275.2,126.5 277.0,126.7 278.8,126.9 280.6,127.0 282.4,127.1 284.2,127.3 286.0,127.4 287.8,127.4 289.6,127.5 291.4,127.6 293.2,127.6 295.0,127.7 296.8,127.7 298.6,127.8 300.4,127.8 302.2,127.8 304.0,127.9\" fill=\"none\" stroke=\"#2a78d6\" stroke-width=\"2\"/><line x1=\"8.0\" y1=\"128.0\" x2=\"312.0\" y2=\"128.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><line x1=\"160.0\" y1=\"30.0\" x2=\"160.0\" y2=\"128.0\" stroke=\"#2c2a26\" stroke-width=\"1.5\" stroke-dasharray=\"4,3\"/><text x=\"160.0\" y=\"24.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.8\">media = mediana = modul</text><text x=\"84.0\" y=\"70.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">jumătatea stângă</text><text x=\"236.0\" y=\"70.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">oglinda ei</text><text x=\"26.0\" y=\"118.0\" text-anchor=\"start\" fill=\"#6b6760\" font-size=\"10.2\">← ∞</text><text x=\"294.0\" y=\"118.0\" text-anchor=\"end\" fill=\"#6b6760\" font-size=\"10.2\">∞ →</text><text x=\"160.0\" y=\"148.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"11.4\">simetrică · unimodală · continuă</text><text x=\"160.0\" y=\"164.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">capetele se apropie de axă fără s-o atingă (asimptotă)</text></svg>"
+          }
+        ]
+      },
+      {
+        "titlu": "Scorurile standard (Z)",
+        "noduri": [
+          {
+            "t": "Scorul standard (Z)",
+            "d": "Folosește abaterea standard ca unitate de măsură și descrie poziția relativă a unui scor individual în mulțimea din care face parte: la câte abateri standard (sau fracțiuni) de medie se află scorul."
+          },
+          {
+            "t": "Formula pentru populație",
+            "d": "Z = (X − μ) / σ. Numărătorul X − μ e distanța în unități brute față de medie; împărțirea la σ o transformă în abateri standard."
+          },
+          {
+            "t": "Formula pentru eșantion",
+            "d": "Z = (X − X̄) / s, cu media și abaterea standard ale eșantionului (Cap. 4 (Mărimile dispersiei))."
+          },
+          {
+            "t": "Exemplul X̄ = 100, s = 20",
+            "d": "Scorurile brute 85, 120 și 150 devin Z85 = (85 − 100) / 20 = −0,75; Z120 = +1,00; Z150 = +2,50."
+          },
+          {
+            "t": "Semnul scorului Z",
+            "d": "Z negativ: scorul e sub medie; Z pozitiv: peste medie; Z = 0: scorul e egal cu media. Cât de neobișnuit e un scor depinde de mărimea lui Z, nu de semn (curba e simetrică)."
+          }
+        ],
+        "figuri": [
+          {
+            "titlu": "Din scoruri brute în scoruri Z",
+            "nota": "Exemplul cu X̄ = 100 și s = 20: 85, 120 și 150 devin −0,75, +1,00 și +2,50.",
+            "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 182\" role=\"img\" aria-label=\"Scorurile 85, 120 și 150 pe axa brută și pe axa scorurilor Z, cu media 100 și abaterea standard 20\" font-family=\"Georgia, serif\" font-size=\"13\"><path d=\"M36.0,96.0 L36.0,95.3 L39.3,95.1 L42.6,94.9 L45.9,94.6 L49.2,94.3 L52.5,94.0 L55.8,93.5 L59.1,93.0 L62.4,92.4 L65.7,91.7 L69.0,90.9 L72.3,90.0 L75.6,88.9 L78.9,87.8 L82.2,86.4 L85.5,85.0 L88.8,83.3 L92.1,81.5 L95.4,79.6 L98.7,77.5 L102.0,75.2 L105.3,72.8 L108.6,70.3 L111.9,67.6 L115.2,64.8 L118.5,62.0 L121.8,59.1 L125.1,56.2 L128.4,53.3 L131.7,50.5 L135.0,47.7 L138.3,45.0 L141.6,42.5 L144.9,40.2 L148.2,38.2 L151.5,36.3 L154.8,34.8 L158.1,33.6 L161.4,32.7 L164.7,32.2 L168.0,32.0 L171.3,32.2 L174.6,32.7 L177.9,33.6 L181.2,34.8 L184.5,36.3 L187.8,38.2 L191.1,40.2 L194.4,42.5 L197.7,45.0 L201.0,47.7 L204.3,50.5 L207.6,53.3 L210.9,56.2 L214.2,59.1 L217.5,62.0 L220.8,64.8 L224.1,67.6 L227.4,70.3 L230.7,72.8 L234.0,75.2 L237.3,77.5 L240.6,79.6 L243.9,81.5 L247.2,83.3 L250.5,85.0 L253.8,86.4 L257.1,87.8 L260.4,88.9 L263.7,90.0 L267.0,90.9 L270.3,91.7 L273.6,92.4 L276.9,93.0 L280.2,93.5 L283.5,94.0 L286.8,94.3 L290.1,94.6 L293.4,94.9 L296.7,95.1 L300.0,95.3 L300.0,96.0 Z\" fill=\"#2a78d6\" fill-opacity=\"0.1\" stroke=\"none\"></path><polyline points=\"36.0,95.3 37.7,95.2 39.3,95.1 40.9,95.0 42.6,94.9 44.2,94.8 45.9,94.6 47.6,94.5 49.2,94.3 50.8,94.2 52.5,94.0 54.2,93.7 55.8,93.5 57.4,93.3 59.1,93.0 60.8,92.7 62.4,92.4 64.1,92.1 65.7,91.7 67.3,91.3 69.0,90.9 70.7,90.5 72.3,90.0 73.9,89.5 75.6,88.9 77.2,88.4 78.9,87.8 80.5,87.1 82.2,86.4 83.8,85.7 85.5,85.0 87.2,84.2 88.8,83.3 90.5,82.5 92.1,81.5 93.8,80.6 95.4,79.6 97.0,78.6 98.7,77.5 100.3,76.4 102.0,75.2 103.7,74.0 105.3,72.8 107.0,71.6 108.6,70.3 110.2,69.0 111.9,67.6 113.5,66.2 115.2,64.8 116.8,63.4 118.5,62.0 120.2,60.6 121.8,59.1 123.5,57.7 125.1,56.2 126.8,54.8 128.4,53.3 130.1,51.9 131.7,50.5 133.3,49.1 135.0,47.7 136.7,46.3 138.3,45.0 139.9,43.8 141.6,42.5 143.2,41.4 144.9,40.2 146.6,39.2 148.2,38.2 149.8,37.2 151.5,36.3 153.2,35.5 154.8,34.8 156.4,34.2 158.1,33.6 159.8,33.1 161.4,32.7 163.1,32.4 164.7,32.2 166.3,32.0 168.0,32.0 169.7,32.0 171.3,32.2 172.9,32.4 174.6,32.7 176.2,33.1 177.9,33.6 179.6,34.2 181.2,34.8 182.8,35.5 184.5,36.3 186.2,37.2 187.8,38.2 189.4,39.2 191.1,40.2 192.8,41.4 194.4,42.5 196.1,43.8 197.7,45.0 199.3,46.3 201.0,47.7 202.7,49.1 204.3,50.5 205.9,51.9 207.6,53.3 209.2,54.8 210.9,56.2 212.6,57.7 214.2,59.1 215.8,60.6 217.5,62.0 219.2,63.4 220.8,64.8 222.4,66.2 224.1,67.6 225.8,69.0 227.4,70.3 229.1,71.6 230.7,72.8 232.3,74.0 234.0,75.2 235.7,76.4 237.3,77.5 238.9,78.6 240.6,79.6 242.2,80.6 243.9,81.5 245.6,82.5 247.2,83.3 248.8,84.2 250.5,85.0 252.2,85.7 253.8,86.4 255.4,87.1 257.1,87.8 258.8,88.4 260.4,88.9 262.1,89.5 263.7,90.0 265.4,90.5 267.0,90.9 268.6,91.3 270.3,91.7 271.9,92.1 273.6,92.4 275.2,92.7 276.9,93.0 278.6,93.3 280.2,93.5 281.9,93.7 283.5,94.0 285.1,94.2 286.8,94.3 288.4,94.5 290.1,94.6 291.8,94.8 293.4,94.9 295.1,95.0 296.7,95.1 298.4,95.2 300.0,95.3\" fill=\"none\" stroke=\"#2a78d6\" stroke-width=\"2\"/><line x1=\"36.0\" y1=\"96.0\" x2=\"300.0\" y2=\"96.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><line x1=\"36.0\" y1=\"96.0\" x2=\"36.0\" y2=\"100.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><text x=\"36.0\" y=\"112.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">40</text><line x1=\"36.0\" y1=\"124.0\" x2=\"36.0\" y2=\"128.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><text x=\"36.0\" y=\"140.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.2\">−3</text><line x1=\"80.0\" y1=\"96.0\" x2=\"80.0\" y2=\"100.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><text x=\"80.0\" y=\"112.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">60</text><line x1=\"80.0\" y1=\"124.0\" x2=\"80.0\" y2=\"128.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><text x=\"80.0\" y=\"140.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.2\">−2</text><line x1=\"124.0\" y1=\"96.0\" x2=\"124.0\" y2=\"100.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><text x=\"124.0\" y=\"112.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">80</text><line x1=\"124.0\" y1=\"124.0\" x2=\"124.0\" y2=\"128.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><text x=\"124.0\" y=\"140.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.2\">−1</text><line x1=\"168.0\" y1=\"96.0\" x2=\"168.0\" y2=\"100.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><text x=\"168.0\" y=\"112.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">100</text><line x1=\"168.0\" y1=\"124.0\" x2=\"168.0\" y2=\"128.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><text x=\"168.0\" y=\"140.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.2\">0</text><line x1=\"212.0\" y1=\"96.0\" x2=\"212.0\" y2=\"100.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><text x=\"212.0\" y=\"112.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">120</text><line x1=\"212.0\" y1=\"124.0\" x2=\"212.0\" y2=\"128.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><text x=\"212.0\" y=\"140.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.2\">+1</text><line x1=\"256.0\" y1=\"96.0\" x2=\"256.0\" y2=\"100.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><text x=\"256.0\" y=\"112.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">140</text><line x1=\"256.0\" y1=\"124.0\" x2=\"256.0\" y2=\"128.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><text x=\"256.0\" y=\"140.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.2\">+2</text><line x1=\"300.0\" y1=\"96.0\" x2=\"300.0\" y2=\"100.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><text x=\"300.0\" y=\"112.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">160</text><line x1=\"300.0\" y1=\"124.0\" x2=\"300.0\" y2=\"128.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><text x=\"300.0\" y=\"140.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.2\">+3</text><line x1=\"36.0\" y1=\"124.0\" x2=\"300.0\" y2=\"124.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><text x=\"10.0\" y=\"112.0\" text-anchor=\"start\" fill=\"#6b6760\" font-size=\"10.2\">X</text><text x=\"10.0\" y=\"140.0\" text-anchor=\"start\" fill=\"#2c2a26\" font-size=\"10.2\">Z</text><line x1=\"135.0\" y1=\"45.7\" x2=\"135.0\" y2=\"124.0\" stroke=\"#eb6834\" stroke-width=\"1.5\" stroke-dasharray=\"3,2\"/><circle cx=\"135.0\" cy=\"47.7\" r=\"3.5\" fill=\"#eb6834\"><title>X = 85: Z = −0,75</title></circle><line x1=\"212.0\" y1=\"55.2\" x2=\"212.0\" y2=\"124.0\" stroke=\"#1baf7a\" stroke-width=\"1.5\" stroke-dasharray=\"3,2\"/><circle cx=\"212.0\" cy=\"57.2\" r=\"3.5\" fill=\"#1baf7a\"><title>X = 120: Z = 1,00</title></circle><line x1=\"278.0\" y1=\"91.2\" x2=\"278.0\" y2=\"124.0\" stroke=\"#b5453a\" stroke-width=\"1.5\" stroke-dasharray=\"3,2\"/><circle cx=\"278.0\" cy=\"93.2\" r=\"3.5\" fill=\"#b5453a\"><title>X = 150: Z = 2,50</title></circle><text x=\"131.0\" y=\"22.0\" text-anchor=\"end\" fill=\"#eb6834\" font-size=\"10.8\">85 → −0,75</text><text x=\"214.0\" y=\"22.0\" text-anchor=\"middle\" fill=\"#1baf7a\" font-size=\"10.8\">120 → +1,00</text><text x=\"278.0\" y=\"58.0\" text-anchor=\"middle\" fill=\"#b5453a\" font-size=\"10.8\">150 → +2,50</text><text x=\"160.0\" y=\"160.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.8\">X̄ = 100, s = 20: Z = (X − X̄) / s</text><text x=\"160.0\" y=\"175.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">Z spune la câte abateri standard de medie stă scorul</text></svg>"
+          }
+        ]
+      },
+      {
+        "titlu": "Distribuția scorurilor Z",
+        "noduri": [
+          {
+            "t": "Forma se păstrează",
+            "d": "Dacă toate scorurile unei distribuții se transformă în scoruri Z, forma distribuției rămâne aceeași: o distribuție asimetrică rămâne asimetrică, una normală rămâne normală. Transformarea nu „normalizează” datele."
+          },
+          {
+            "t": "Media 0 și abaterea standard 1",
+            "d": "Distribuția scorurilor Z are media 0 și abaterea standard 1, indiferent de media și abaterea standard ale distribuției inițiale. Proprietățile au fost generalizate în distribuția normală standard."
+          },
+          {
+            "t": "Poziția relativă a scorului",
+            "d": "Interpretare care decurge din definiție: scorurile Z pun pe aceeași scară scoruri din distribuții diferite (78 la o materie cu X̄ = 70, s = 4 → +2,00; 85 la alta cu X̄ = 75, s = 10 → +1,00). Un bonus egal pentru toți nu schimbă scorurile Z."
+          },
+          {
+            "t": "Din Z înapoi în scor brut",
+            "d": "Interpretare (algebra formulei): X = μ + Z · σ. La μ = 500, σ = 100, pragul Z = +1,5 înseamnă scorul 650."
+          }
+        ],
+        "figuri": [
+          {
+            "titlu": "Transformarea în Z nu schimbă forma",
+            "nota": "Frecvențe ilustrative (nu sunt din carte): aceeași distribuție, cu două scări sub ea.",
+            "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 202\" role=\"img\" aria-label=\"O distribuție cu asimetrie pozitivă, etichetată cu scoruri brute și cu scoruri Z: forma rămâne aceeași\" font-family=\"Georgia, serif\" font-size=\"13\"><rect x=\"30.0\" y=\"100.0\" width=\"33.8\" height=\"20.0\" fill=\"#2a78d6\" fill-opacity=\"0.55\" stroke=\"#faf8f3\" stroke-width=\"1\"><title>scor 5: f = 3</title></rect><rect x=\"63.8\" y=\"60.0\" width=\"33.8\" height=\"60.0\" fill=\"#2a78d6\" fill-opacity=\"0.55\" stroke=\"#faf8f3\" stroke-width=\"1\"><title>scor 10: f = 9</title></rect><rect x=\"97.5\" y=\"40.0\" width=\"33.8\" height=\"80.0\" fill=\"#2a78d6\" fill-opacity=\"0.55\" stroke=\"#faf8f3\" stroke-width=\"1\"><title>scor 15: f = 12</title></rect><rect x=\"131.2\" y=\"53.3\" width=\"33.8\" height=\"66.7\" fill=\"#2a78d6\" fill-opacity=\"0.55\" stroke=\"#faf8f3\" stroke-width=\"1\"><title>scor 20: f = 10</title></rect><rect x=\"165.0\" y=\"73.3\" width=\"33.8\" height=\"46.7\" fill=\"#2a78d6\" fill-opacity=\"0.55\" stroke=\"#faf8f3\" stroke-width=\"1\"><title>scor 25: f = 7</title></rect><rect x=\"198.8\" y=\"93.3\" width=\"33.8\" height=\"26.7\" fill=\"#2a78d6\" fill-opacity=\"0.55\" stroke=\"#faf8f3\" stroke-width=\"1\"><title>scor 30: f = 4</title></rect><rect x=\"232.5\" y=\"106.7\" width=\"33.8\" height=\"13.3\" fill=\"#2a78d6\" fill-opacity=\"0.55\" stroke=\"#faf8f3\" stroke-width=\"1\"><title>scor 35: f = 2</title></rect><rect x=\"266.2\" y=\"113.3\" width=\"33.8\" height=\"6.7\" fill=\"#2a78d6\" fill-opacity=\"0.55\" stroke=\"#faf8f3\" stroke-width=\"1\"><title>scor 40: f = 1</title></rect><line x1=\"30.0\" y1=\"120.0\" x2=\"300.0\" y2=\"120.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><line x1=\"46.9\" y1=\"120.0\" x2=\"46.9\" y2=\"124.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><text x=\"46.9\" y=\"135.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">5</text><line x1=\"114.4\" y1=\"120.0\" x2=\"114.4\" y2=\"124.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><text x=\"114.4\" y=\"135.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">15</text><line x1=\"181.9\" y1=\"120.0\" x2=\"181.9\" y2=\"124.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><text x=\"181.9\" y=\"135.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">25</text><line x1=\"249.4\" y1=\"120.0\" x2=\"249.4\" y2=\"124.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><text x=\"249.4\" y=\"135.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">35</text><line x1=\"82.6\" y1=\"144.0\" x2=\"82.6\" y2=\"148.0\" stroke=\"#2c2a26\" stroke-width=\"1\"/><text x=\"82.6\" y=\"159.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.2\">−1</text><line x1=\"138.3\" y1=\"144.0\" x2=\"138.3\" y2=\"148.0\" stroke=\"#2c2a26\" stroke-width=\"1\"/><text x=\"138.3\" y=\"159.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.2\">0</text><line x1=\"194.0\" y1=\"144.0\" x2=\"194.0\" y2=\"148.0\" stroke=\"#2c2a26\" stroke-width=\"1\"/><text x=\"194.0\" y=\"159.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.2\">+1</text><line x1=\"249.6\" y1=\"144.0\" x2=\"249.6\" y2=\"148.0\" stroke=\"#2c2a26\" stroke-width=\"1\"/><text x=\"249.6\" y=\"159.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.2\">+2</text><line x1=\"30.0\" y1=\"144.0\" x2=\"300.0\" y2=\"144.0\" stroke=\"#2c2a26\" stroke-width=\"1\"/><text x=\"16.0\" y=\"135.0\" text-anchor=\"start\" fill=\"#6b6760\" font-size=\"10.2\">X</text><text x=\"16.0\" y=\"159.0\" text-anchor=\"start\" fill=\"#2c2a26\" font-size=\"10.2\">Z</text><line x1=\"138.3\" y1=\"26.0\" x2=\"138.3\" y2=\"120.0\" stroke=\"#eb6834\" stroke-width=\"1.5\" stroke-dasharray=\"4,3\"/><text x=\"142.3\" y=\"22.0\" text-anchor=\"start\" fill=\"#eb6834\" font-size=\"10.8\">X̄ ≈ 18,5 ↔ Z = 0</text><text x=\"160.0\" y=\"180.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.8\">aceeași histogramă, două scări: forma nu se schimbă</text><text x=\"160.0\" y=\"195.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">(asimetrie pozitivă rămâne asimetrie pozitivă; s ≈ 8,2 ↔ 1)</text></svg>"
+          }
+        ]
+      },
+      {
+        "titlu": "Distribuția normală standard",
+        "noduri": [
+          {
+            "t": "Infinitate de distribuții normale",
+            "d": "Distribuția normală se descrie prin medie și abatere standard; oricărei perechi de valori îi corespunde o distribuție normală, deci matematic există o infinitate de distribuții normale."
+          },
+          {
+            "t": "Distribuția normală standard",
+            "d": "Distribuția normală particulară folosită în analiză: prin convenție, media ei e originea (μ = 0), iar abaterea standard e unitatea (σ = 1). Se mai numește distribuția Z."
+          },
+          {
+            "t": "Variabila normală standard",
+            "d": "Variabila corespunzătoare distribuției normale standard; valorile ei sunt scoruri Z."
+          },
+          {
+            "t": "Curba normală standard",
+            "d": "Graficul distribuției normale standard."
+          },
+          {
+            "t": "Aria sub curbă",
+            "d": "Aria delimitată de curba normală standard e proporțională cu frecvența scorurilor: proporția cazurilor dintre un scor Z și medie se află prin calcul integral. Toată aria = 1 (100%), câte 0,5 de fiecare parte a mediei."
+          }
+        ],
+        "figuri": [
+          {
+            "titlu": "O infinitate de distribuții normale",
+            "nota": "Curbe ilustrative: fiecare pereche (μ, σ) dă altă curbă normală; cea albastră e distribuția normală standard.",
+            "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 202\" role=\"img\" aria-label=\"Trei curbe normale cu medii și abateri standard diferite, printre ele curba normală standard\" font-family=\"Georgia, serif\" font-size=\"13\"><line x1=\"18.0\" y1=\"128.0\" x2=\"302.0\" y2=\"128.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><polyline points=\"18.0,128.0 19.8,128.0 21.6,128.0 23.3,128.0 25.1,127.9 26.9,127.9 28.6,127.9 30.4,127.9 32.2,127.9 34.0,127.8 35.8,127.8 37.5,127.8 39.3,127.7 41.1,127.6 42.8,127.5 44.6,127.4 46.4,127.3 48.2,127.2 50.0,127.0 51.7,126.9 53.5,126.6 55.3,126.4 57.1,126.1 58.8,125.7 60.6,125.4 62.4,124.9 64.2,124.4 65.9,123.9 67.7,123.2 69.5,122.5 71.2,121.7 73.0,120.8 74.8,119.9 76.6,118.8 78.3,117.7 80.1,116.4 81.9,115.0 83.7,113.6 85.5,112.0 87.2,110.3 89.0,108.5 90.8,106.6 92.5,104.7 94.3,102.6 96.1,100.5 97.9,98.4 99.6,96.1 101.4,93.9 103.2,91.6 105.0,89.3 106.8,87.1 108.5,84.9 110.3,82.7 112.1,80.6 113.9,78.6 115.6,76.8 117.4,75.1 119.2,73.5 121.0,72.1 122.7,70.9 124.5,69.8 126.3,69.0 128.1,68.5 129.8,68.1 131.6,68.0 133.4,68.1 135.1,68.5 136.9,69.0 138.7,69.8 140.5,70.9 142.2,72.1 144.0,73.5 145.8,75.1 147.6,76.8 149.3,78.6 151.1,80.6 152.9,82.7 154.7,84.9 156.4,87.1 158.2,89.3 160.0,91.6 161.8,93.9 163.5,96.1 165.3,98.4 167.1,100.5 168.9,102.6 170.7,104.7 172.4,106.6 174.2,108.5 176.0,110.3 177.8,112.0 179.5,113.6 181.3,115.0 183.1,116.4 184.8,117.7 186.6,118.8 188.4,119.9 190.2,120.8 192.0,121.7 193.7,122.5 195.5,123.2 197.3,123.9 199.0,124.4 200.8,124.9 202.6,125.4 204.4,125.7 206.2,126.1 207.9,126.4 209.7,126.6 211.5,126.9 213.2,127.0 215.0,127.2 216.8,127.3 218.6,127.4 220.3,127.5 222.1,127.6 223.9,127.7 225.7,127.8 227.5,127.8 229.2,127.8 231.0,127.9 232.8,127.9 234.5,127.9 236.3,127.9 238.1,127.9 239.9,128.0 241.7,128.0 243.4,128.0 245.2,128.0 247.0,128.0 248.8,128.0 250.5,128.0 252.3,128.0 254.1,128.0 255.8,128.0 257.6,128.0 259.4,128.0 261.2,128.0 263.0,128.0 264.7,128.0 266.5,128.0 268.3,128.0 270.0,128.0 271.8,128.0 273.6,128.0 275.4,128.0 277.1,128.0 278.9,128.0 280.7,128.0 282.5,128.0 284.2,128.0 286.0,128.0 287.8,128.0 289.6,128.0 291.4,128.0 293.1,128.0 294.9,128.0 296.7,128.0 298.4,128.0 300.2,128.0 302.0,128.0\" fill=\"none\" stroke=\"#2a78d6\" stroke-width=\"2\"/><polyline points=\"18.0,128.0 19.8,128.0 21.6,128.0 23.3,128.0 25.1,128.0 26.9,128.0 28.6,128.0 30.4,128.0 32.2,128.0 34.0,128.0 35.8,128.0 37.5,128.0 39.3,128.0 41.1,128.0 42.8,128.0 44.6,128.0 46.4,128.0 48.2,128.0 50.0,128.0 51.7,128.0 53.5,128.0 55.3,128.0 57.1,128.0 58.8,128.0 60.6,128.0 62.4,128.0 64.2,128.0 65.9,128.0 67.7,128.0 69.5,128.0 71.2,128.0 73.0,128.0 74.8,128.0 76.6,128.0 78.3,128.0 80.1,128.0 81.9,128.0 83.7,128.0 85.5,128.0 87.2,128.0 89.0,128.0 90.8,128.0 92.5,128.0 94.3,128.0 96.1,128.0 97.9,128.0 99.6,128.0 101.4,128.0 103.2,128.0 105.0,128.0 106.8,128.0 108.5,128.0 110.3,128.0 112.1,128.0 113.9,128.0 115.6,128.0 117.4,128.0 119.2,128.0 121.0,128.0 122.7,128.0 124.5,128.0 126.3,128.0 128.1,128.0 129.8,128.0 131.6,128.0 133.4,128.0 135.1,128.0 136.9,127.9 138.7,127.9 140.5,127.9 142.2,127.8 144.0,127.7 145.8,127.6 147.6,127.5 149.3,127.2 151.1,127.0 152.9,126.6 154.7,126.1 156.4,125.4 158.2,124.6 160.0,123.6 161.8,122.3 163.5,120.8 165.3,118.9 167.1,116.6 168.9,113.9 170.7,110.8 172.4,107.2 174.2,103.1 176.0,98.5 177.8,93.5 179.5,88.0 181.3,82.2 183.1,76.1 184.8,69.9 186.6,63.6 188.4,57.3 190.2,51.3 192.0,45.7 193.7,40.7 195.5,36.3 197.3,32.8 199.0,30.1 200.8,28.5 202.6,28.0 204.4,28.5 206.2,30.1 207.9,32.8 209.7,36.3 211.5,40.7 213.2,45.7 215.0,51.3 216.8,57.3 218.6,63.6 220.3,69.9 222.1,76.1 223.9,82.2 225.7,88.0 227.5,93.5 229.2,98.5 231.0,103.1 232.8,107.2 234.5,110.8 236.3,113.9 238.1,116.6 239.9,118.9 241.7,120.8 243.4,122.3 245.2,123.6 247.0,124.6 248.8,125.4 250.5,126.1 252.3,126.6 254.1,127.0 255.8,127.2 257.6,127.5 259.4,127.6 261.2,127.7 263.0,127.8 264.7,127.9 266.5,127.9 268.3,127.9 270.0,128.0 271.8,128.0 273.6,128.0 275.4,128.0 277.1,128.0 278.9,128.0 280.7,128.0 282.5,128.0 284.2,128.0 286.0,128.0 287.8,128.0 289.6,128.0 291.4,128.0 293.1,128.0 294.9,128.0 296.7,128.0 298.4,128.0 300.2,128.0 302.0,128.0\" fill=\"none\" stroke=\"#eb6834\" stroke-width=\"2\"/><polyline points=\"18.0,126.7 19.8,126.6 21.6,126.5 23.3,126.3 25.1,126.2 26.9,126.1 28.6,125.9 30.4,125.8 32.2,125.6 34.0,125.4 35.8,125.3 37.5,125.1 39.3,124.9 41.1,124.6 42.8,124.4 44.6,124.2 46.4,123.9 48.2,123.7 50.0,123.4 51.7,123.1 53.5,122.8 55.3,122.5 57.1,122.2 58.8,121.9 60.6,121.5 62.4,121.2 64.2,120.8 65.9,120.4 67.7,120.0 69.5,119.6 71.2,119.1 73.0,118.7 74.8,118.3 76.6,117.8 78.3,117.3 80.1,116.8 81.9,116.3 83.7,115.8 85.5,115.3 87.2,114.8 89.0,114.3 90.8,113.7 92.5,113.2 94.3,112.6 96.1,112.1 97.9,111.5 99.6,110.9 101.4,110.4 103.2,109.8 105.0,109.2 106.8,108.7 108.5,108.1 110.3,107.5 112.1,107.0 113.9,106.4 115.6,105.9 117.4,105.4 119.2,104.8 121.0,104.3 122.7,103.8 124.5,103.3 126.3,102.8 128.1,102.4 129.8,101.9 131.6,101.5 133.4,101.1 135.1,100.7 136.9,100.4 138.7,100.0 140.5,99.7 142.2,99.4 144.0,99.2 145.8,98.9 147.6,98.7 149.3,98.5 151.1,98.4 152.9,98.2 154.7,98.1 156.4,98.1 158.2,98.0 160.0,98.0 161.8,98.0 163.5,98.1 165.3,98.1 167.1,98.2 168.9,98.4 170.7,98.5 172.4,98.7 174.2,98.9 176.0,99.2 177.8,99.4 179.5,99.7 181.3,100.0 183.1,100.4 184.8,100.7 186.6,101.1 188.4,101.5 190.2,101.9 192.0,102.4 193.7,102.8 195.5,103.3 197.3,103.8 199.0,104.3 200.8,104.8 202.6,105.4 204.4,105.9 206.2,106.4 207.9,107.0 209.7,107.5 211.5,108.1 213.2,108.7 215.0,109.2 216.8,109.8 218.6,110.4 220.3,110.9 222.1,111.5 223.9,112.1 225.7,112.6 227.5,113.2 229.2,113.7 231.0,114.3 232.8,114.8 234.5,115.3 236.3,115.8 238.1,116.3 239.9,116.8 241.7,117.3 243.4,117.8 245.2,118.3 247.0,118.7 248.8,119.1 250.5,119.6 252.3,120.0 254.1,120.4 255.8,120.8 257.6,121.2 259.4,121.5 261.2,121.9 263.0,122.2 264.7,122.5 266.5,122.8 268.3,123.1 270.0,123.4 271.8,123.7 273.6,123.9 275.4,124.2 277.1,124.4 278.9,124.6 280.7,124.9 282.5,125.1 284.2,125.3 286.0,125.4 287.8,125.6 289.6,125.8 291.4,125.9 293.1,126.1 294.9,126.2 296.7,126.3 298.4,126.5 300.2,126.6 302.0,126.7\" fill=\"none\" stroke=\"#1baf7a\" stroke-width=\"2\"/><line x1=\"18.0\" y1=\"128.0\" x2=\"18.0\" y2=\"132.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><text x=\"18.0\" y=\"143.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">−4</text><line x1=\"74.8\" y1=\"128.0\" x2=\"74.8\" y2=\"132.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><text x=\"74.8\" y=\"143.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">−2</text><line x1=\"131.6\" y1=\"128.0\" x2=\"131.6\" y2=\"132.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><text x=\"131.6\" y=\"143.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">0</text><line x1=\"188.4\" y1=\"128.0\" x2=\"188.4\" y2=\"132.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><text x=\"188.4\" y=\"143.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">2</text><line x1=\"245.2\" y1=\"128.0\" x2=\"245.2\" y2=\"132.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><text x=\"245.2\" y=\"143.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">4</text><line x1=\"302.0\" y1=\"128.0\" x2=\"302.0\" y2=\"132.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><text x=\"302.0\" y=\"143.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">6</text><rect x=\"30\" y=\"151\" width=\"10\" height=\"10\" fill=\"#2a78d6\"/><text x=\"46.0\" y=\"160.0\" text-anchor=\"start\" fill=\"#2c2a26\" font-size=\"10.8\">μ = 0, σ = 1 (standard)</text><rect x=\"30\" y=\"166\" width=\"10\" height=\"10\" fill=\"#eb6834\"/><text x=\"46.0\" y=\"175.0\" text-anchor=\"start\" fill=\"#2c2a26\" font-size=\"10.8\">μ = 2,5, σ = 0,6</text><rect x=\"30\" y=\"181\" width=\"10\" height=\"10\" fill=\"#1baf7a\"/><text x=\"46.0\" y=\"190.0\" text-anchor=\"start\" fill=\"#2c2a26\" font-size=\"10.8\">μ = 1, σ = 2</text><text x=\"250.0\" y=\"175.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">aria fiecăreia = 1</text></svg>"
+          }
+        ]
+      },
+      {
+        "titlu": "Tabelul curbei normale standard",
+        "noduri": [
+          {
+            "t": "Tabelul ariilor",
+            "d": "Tabelul curbei normale standard sau tabelul ariilor de sub curba normală standard: numerele de patru cifre din corpul lui sunt ariile cuprinse între un scor Z și medie (nu aria de sub Z). Cartea trimite la o Anexa A, care lipsește din acest PDF."
+          },
+          {
+            "t": "Citirea tabelului",
+            "d": "Prima coloană din stânga (Z) dă primele două cifre ale scorului, primul rând de sus a treia cifră. Pentru Z = 0,45: rândul 0,4, coloana 0,05 → 1736."
+          },
+          {
+            "t": "Procent sau proporție",
+            "d": "1736 se citește 17,36% sau 0,1736 din aria totală, aflată între Z = 0,45 și medie (Z = 0). Cartea scrie o dată 17,35% — scăpare de rotunjire."
+          },
+          {
+            "t": "Simetria curbei",
+            "d": "Curba fiind simetrică, aceeași arie e între Z = −0,45 și medie; de aceea tabelul are doar scoruri Z pozitive."
+          }
+        ],
+        "figuri": [
+          {
+            "titlu": "Citirea tabelului curbei normale (ca figura 5.2)",
+            "nota": "Valorile din tabel sunt calculate exact; cartea arată doar 0000 și 1736. Aceeași arie vale și pentru Z negativ.",
+            "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 244\" role=\"img\" aria-label=\"Fragment din tabelul curbei normale standard: la rândul 0,4 și coloana 0,05 se citește 1736, aria dintre medie și Z = 0,45\" font-family=\"Georgia, serif\" font-size=\"13\"><text x=\"16.0\" y=\"34.0\" text-anchor=\"start\" fill=\"#2c2a26\" font-size=\"10.8\">Z</text><text x=\"73.0\" y=\"34.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.2\">0,00</text><text x=\"115.0\" y=\"34.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.2\">0,01</text><text x=\"157.0\" y=\"34.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.2\">0,02</text><text x=\"199.0\" y=\"34.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.2\">0,03</text><text x=\"241.0\" y=\"34.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.2\">0,04</text><text x=\"283.0\" y=\"34.0\" text-anchor=\"middle\" fill=\"#eb6834\" font-size=\"10.2\">0,05</text><line x1=\"10.0\" y1=\"39.0\" x2=\"304.0\" y2=\"39.0\" stroke=\"#2c2a26\" stroke-width=\"1\"/><text x=\"16.0\" y=\"52.0\" text-anchor=\"start\" fill=\"#2c2a26\" font-size=\"10.2\">0,2</text><text x=\"73.0\" y=\"52.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">0793</text><text x=\"115.0\" y=\"52.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">0832</text><text x=\"157.0\" y=\"52.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">0871</text><text x=\"199.0\" y=\"52.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">0910</text><text x=\"241.0\" y=\"52.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">0948</text><text x=\"283.0\" y=\"52.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">0987</text><text x=\"16.0\" y=\"69.0\" text-anchor=\"start\" fill=\"#2c2a26\" font-size=\"10.2\">0,3</text><text x=\"73.0\" y=\"69.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">1179</text><text x=\"115.0\" y=\"69.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">1217</text><text x=\"157.0\" y=\"69.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">1255</text><text x=\"199.0\" y=\"69.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">1293</text><text x=\"241.0\" y=\"69.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">1331</text><text x=\"283.0\" y=\"69.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">1368</text><text x=\"16.0\" y=\"86.0\" text-anchor=\"start\" fill=\"#eb6834\" font-size=\"10.2\">0,4</text><text x=\"73.0\" y=\"86.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">1554</text><text x=\"115.0\" y=\"86.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">1591</text><text x=\"157.0\" y=\"86.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">1628</text><text x=\"199.0\" y=\"86.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">1664</text><text x=\"241.0\" y=\"86.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">1700</text><rect x=\"265\" y=\"76\" width=\"36\" height=\"15\" fill=\"#eb6834\" fill-opacity=\"0.25\" rx=\"3\"/><text x=\"283.0\" y=\"86.0\" text-anchor=\"middle\" fill=\"#eb6834\" font-size=\"10.2\">1736</text><text x=\"16.0\" y=\"103.0\" text-anchor=\"start\" fill=\"#2c2a26\" font-size=\"10.2\">0,5</text><text x=\"73.0\" y=\"103.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">1915</text><text x=\"115.0\" y=\"103.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">1950</text><text x=\"157.0\" y=\"103.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">1985</text><text x=\"199.0\" y=\"103.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">2019</text><text x=\"241.0\" y=\"103.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">2054</text><text x=\"283.0\" y=\"103.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">2088</text><text x=\"160.0\" y=\"122.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.8\">rândul 0,4 + coloana 0,05 → Z = 0,45 → 1736</text><path d=\"M160.0,222.0 L160.0,156.0 L160.2,156.0 L160.4,156.0 L160.6,156.0 L160.8,156.0 L161.1,156.0 L161.3,156.0 L161.5,156.1 L161.7,156.1 L161.9,156.1 L162.1,156.1 L162.3,156.1 L162.5,156.2 L162.7,156.2 L163.0,156.2 L163.2,156.2 L163.4,156.3 L163.6,156.3 L163.8,156.3 L164.0,156.4 L164.2,156.4 L164.4,156.5 L164.6,156.5 L164.9,156.6 L165.1,156.6 L165.3,156.6 L165.5,156.7 L165.7,156.8 L165.9,156.8 L166.1,156.9 L166.3,156.9 L166.5,157.0 L166.8,157.1 L167.0,157.1 L167.2,157.2 L167.4,157.3 L167.6,157.3 L167.8,157.4 L168.0,157.5 L168.2,157.6 L168.4,157.6 L168.6,157.7 L168.9,157.8 L169.1,157.9 L169.3,158.0 L169.5,158.1 L169.7,158.2 L169.9,158.3 L170.1,158.4 L170.3,158.5 L170.5,158.6 L170.8,158.7 L171.0,158.8 L171.2,158.9 L171.4,159.0 L171.6,159.1 L171.8,159.2 L172.0,159.3 L172.2,159.4 L172.4,159.5 L172.7,159.7 L172.9,159.8 L173.1,159.9 L173.3,160.0 L173.5,160.1 L173.7,160.3 L173.9,160.4 L174.1,160.5 L174.3,160.7 L174.6,160.8 L174.8,160.9 L175.0,161.1 L175.2,161.2 L175.4,161.3 L175.6,161.5 L175.8,161.6 L176.0,161.8 L176.2,161.9 L176.5,162.1 L176.7,162.2 L176.9,162.4 L176.9,222.0 Z\" fill=\"#eb6834\" fill-opacity=\"0.45\" stroke=\"none\"><title>aria dintre medie și Z = 0,45: 0,1736</title></path><path d=\"M143.1,222.0 L143.1,162.4 L143.3,162.2 L143.5,162.1 L143.8,161.9 L144.0,161.8 L144.2,161.6 L144.4,161.5 L144.6,161.3 L144.8,161.2 L145.0,161.1 L145.2,160.9 L145.4,160.8 L145.7,160.7 L145.9,160.5 L146.1,160.4 L146.3,160.3 L146.5,160.1 L146.7,160.0 L146.9,159.9 L147.1,159.8 L147.3,159.7 L147.6,159.5 L147.8,159.4 L148.0,159.3 L148.2,159.2 L148.4,159.1 L148.6,159.0 L148.8,158.9 L149.0,158.8 L149.2,158.7 L149.5,158.6 L149.7,158.5 L149.9,158.4 L150.1,158.3 L150.3,158.2 L150.5,158.1 L150.7,158.0 L150.9,157.9 L151.1,157.8 L151.4,157.7 L151.6,157.6 L151.8,157.6 L152.0,157.5 L152.2,157.4 L152.4,157.3 L152.6,157.3 L152.8,157.2 L153.0,157.1 L153.2,157.1 L153.5,157.0 L153.7,156.9 L153.9,156.9 L154.1,156.8 L154.3,156.8 L154.5,156.7 L154.7,156.6 L154.9,156.6 L155.1,156.6 L155.4,156.5 L155.6,156.5 L155.8,156.4 L156.0,156.4 L156.2,156.3 L156.4,156.3 L156.6,156.3 L156.8,156.2 L157.0,156.2 L157.3,156.2 L157.5,156.2 L157.7,156.1 L157.9,156.1 L158.1,156.1 L158.3,156.1 L158.5,156.1 L158.7,156.0 L158.9,156.0 L159.2,156.0 L159.4,156.0 L159.6,156.0 L159.8,156.0 L160.0,156.0 L160.0,222.0 Z\" fill=\"#eb6834\" fill-opacity=\"0.18\" stroke=\"none\"><title>aceeași arie pentru Z = −0,45</title></path><polyline points=\"40.0,221.6 41.5,221.6 43.0,221.5 44.5,221.4 46.0,221.4 47.5,221.3 49.0,221.2 50.5,221.1 52.0,221.0 53.5,220.8 55.0,220.7 56.5,220.5 58.0,220.4 59.5,220.2 61.0,220.0 62.5,219.8 64.0,219.5 65.5,219.2 67.0,219.0 68.5,218.6 70.0,218.3 71.5,217.9 73.0,217.5 74.5,217.1 76.0,216.6 77.5,216.1 79.0,215.6 80.5,215.0 82.0,214.4 83.5,213.8 85.0,213.1 86.5,212.3 88.0,211.6 89.5,210.7 91.0,209.9 92.5,208.9 94.0,208.0 95.5,207.0 97.0,205.9 98.5,204.8 100.0,203.6 101.5,202.5 103.0,201.2 104.5,199.9 106.0,198.6 107.5,197.2 109.0,195.8 110.5,194.4 112.0,192.9 113.5,191.4 115.0,189.9 116.5,188.3 118.0,186.8 119.5,185.2 121.0,183.6 122.5,182.0 124.0,180.4 125.5,178.8 127.0,177.2 128.5,175.6 130.0,174.1 131.5,172.6 133.0,171.1 134.5,169.6 136.0,168.2 137.5,166.9 139.0,165.6 140.5,164.3 142.0,163.2 143.5,162.1 145.0,161.1 146.5,160.1 148.0,159.3 149.5,158.5 151.0,157.9 152.5,157.3 154.0,156.8 155.5,156.5 157.0,156.2 158.5,156.1 160.0,156.0 161.5,156.1 163.0,156.2 164.5,156.5 166.0,156.8 167.5,157.3 169.0,157.9 170.5,158.5 172.0,159.3 173.5,160.1 175.0,161.1 176.5,162.1 178.0,163.2 179.5,164.3 181.0,165.6 182.5,166.9 184.0,168.2 185.5,169.6 187.0,171.1 188.5,172.6 190.0,174.1 191.5,175.6 193.0,177.2 194.5,178.8 196.0,180.4 197.5,182.0 199.0,183.6 200.5,185.2 202.0,186.8 203.5,188.3 205.0,189.9 206.5,191.4 208.0,192.9 209.5,194.4 211.0,195.8 212.5,197.2 214.0,198.6 215.5,199.9 217.0,201.2 218.5,202.5 220.0,203.6 221.5,204.8 223.0,205.9 224.5,207.0 226.0,208.0 227.5,208.9 229.0,209.9 230.5,210.7 232.0,211.6 233.5,212.3 235.0,213.1 236.5,213.8 238.0,214.4 239.5,215.0 241.0,215.6 242.5,216.1 244.0,216.6 245.5,217.1 247.0,217.5 248.5,217.9 250.0,218.3 251.5,218.6 253.0,219.0 254.5,219.2 256.0,219.5 257.5,219.8 259.0,220.0 260.5,220.2 262.0,220.4 263.5,220.5 265.0,220.7 266.5,220.8 268.0,221.0 269.5,221.1 271.0,221.2 272.5,221.3 274.0,221.4 275.5,221.4 277.0,221.5 278.5,221.6 280.0,221.6\" fill=\"none\" stroke=\"#2a78d6\" stroke-width=\"2\"/><line x1=\"36.0\" y1=\"222.0\" x2=\"284.0\" y2=\"222.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><line x1=\"160.0\" y1=\"222.0\" x2=\"160.0\" y2=\"226.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><text x=\"160.0\" y=\"236.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">0</text><line x1=\"176.9\" y1=\"222.0\" x2=\"176.9\" y2=\"226.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><text x=\"180.9\" y=\"236.0\" text-anchor=\"start\" fill=\"#6b6760\" font-size=\"10.2\">0,45</text><text x=\"139.1\" y=\"236.0\" text-anchor=\"end\" fill=\"#6b6760\" font-size=\"10.2\">−0,45</text><text x=\"201.3\" y=\"158.0\" text-anchor=\"start\" fill=\"#eb6834\" font-size=\"10.8\">17,36% sau 0,1736</text><line x1=\"169.4\" y1=\"186.0\" x2=\"199.4\" y2=\"162.0\" stroke=\"#eb6834\" stroke-width=\"1\"/></svg>"
+          }
+        ]
+      },
+      {
+        "titlu": "Procentele de sub curbă",
+        "noduri": [
+          {
+            "t": "Între medie și Z = ±1",
+            "d": "Între Z = +1 și medie: 34,13% din arie (rândul 1,0, coloana 0,00); la fel între −1 și medie. Între ±1 abatere standard: 68,26%."
+          },
+          {
+            "t": "Între medie și Z = ±2",
+            "d": "Între Z = +2 și medie: 47,72%; între ±2 abateri standard: 95,44% (textul cărții tipărește 94,44%, figura are corect 95,44%)."
+          },
+          {
+            "t": "Cozile distribuției",
+            "d": "Între 1 și 2 abateri standard: 13,59%; între 2 și 3: 2,15%; dincolo de ±3: câte 0,13%. Pentru scopuri practice se consideră că distribuția se oprește pe la ±3 abateri standard (cartea dă ±3,59), deși curba continuă la infinit."
+          }
+        ],
+        "tabel": {
+          "cap": [
+            "Plaja de scoruri",
+            "Procent din cazuri",
+            "De unde vine"
+          ],
+          "randuri": [
+            [
+              "între medie și Z = +1 (sau −1)",
+              "34,13%",
+              "tabel: 0,3413"
+            ],
+            [
+              "între Z = +1 și +2 (sau −1 și −2)",
+              "13,59%",
+              "47,72 − 34,13"
+            ],
+            [
+              "între Z = +2 și +3 (sau −2 și −3)",
+              "2,15%",
+              "49,87 − 47,72"
+            ],
+            [
+              "dincolo de +3 (sau de −3)",
+              "0,13%",
+              "50 − 49,87"
+            ],
+            [
+              "între −1 și +1",
+              "68,26%",
+              "2 · 34,13"
+            ],
+            [
+              "între −2 și +2",
+              "95,44%",
+              "2 · 47,72"
+            ],
+            [
+              "între −3 și +3",
+              "99,74%",
+              "2 · 49,87 (rezultă din figură)"
+            ]
+          ]
+        },
+        "figuri": [
+          {
+            "titlu": "Procente din aria de sub curbă (ca figura 5.3)",
+            "nota": "Între ±1: 68,26%; între ±2: 95,44%; dincolo de ±3, câte 0,13% de fiecare parte.",
+            "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 210\" role=\"img\" aria-label=\"Procentele din aria de sub curba normală: 34,13% între medie și o abatere standard, 13,59% între 1 și 2, 2,15% între 2 și 3, 0,13% dincolo de 3\" font-family=\"Georgia, serif\" font-size=\"13\"><path d=\"M118.9,140.0 L118.9,84.2 L119.4,83.5 L119.9,82.8 L120.4,82.1 L120.9,81.4 L121.4,80.7 L121.9,80.0 L122.5,79.3 L123.0,78.6 L123.5,77.9 L124.0,77.3 L124.5,76.6 L125.0,75.9 L125.5,75.2 L126.1,74.5 L126.6,73.9 L127.1,73.2 L127.6,72.5 L128.1,71.9 L128.6,71.2 L129.1,70.6 L129.7,69.9 L130.2,69.3 L130.7,68.6 L131.2,68.0 L131.7,67.4 L132.2,66.7 L132.7,66.1 L133.3,65.5 L133.8,64.9 L134.3,64.3 L134.8,63.7 L135.3,63.2 L135.8,62.6 L136.3,62.0 L136.9,61.5 L137.4,60.9 L137.9,60.4 L138.4,59.8 L138.9,59.3 L139.4,58.8 L139.9,58.3 L140.5,57.8 L141.0,57.3 L141.5,56.9 L142.0,56.4 L142.5,55.9 L143.0,55.5 L143.5,55.1 L144.1,54.7 L144.6,54.2 L145.1,53.9 L145.6,53.5 L146.1,53.1 L146.6,52.7 L147.1,52.4 L147.7,52.0 L148.2,51.7 L148.7,51.4 L149.2,51.1 L149.7,50.8 L150.2,50.6 L150.7,50.3 L151.3,50.1 L151.8,49.8 L152.3,49.6 L152.8,49.4 L153.3,49.2 L153.8,49.0 L154.3,48.9 L154.9,48.7 L155.4,48.6 L155.9,48.5 L156.4,48.4 L156.9,48.3 L157.4,48.2 L157.9,48.1 L158.5,48.1 L159.0,48.0 L159.5,48.0 L160.0,48.0 L160.0,140.0 Z\" fill=\"#2a78d6\" fill-opacity=\"0.45\" stroke=\"none\"><title>între −1 și 0: 34,13%</title></path><path d=\"M160.0,140.0 L160.0,48.0 L160.5,48.0 L161.0,48.0 L161.5,48.1 L162.1,48.1 L162.6,48.2 L163.1,48.3 L163.6,48.4 L164.1,48.5 L164.6,48.6 L165.1,48.7 L165.7,48.9 L166.2,49.0 L166.7,49.2 L167.2,49.4 L167.7,49.6 L168.2,49.8 L168.7,50.1 L169.3,50.3 L169.8,50.6 L170.3,50.8 L170.8,51.1 L171.3,51.4 L171.8,51.7 L172.3,52.0 L172.9,52.4 L173.4,52.7 L173.9,53.1 L174.4,53.5 L174.9,53.9 L175.4,54.2 L175.9,54.7 L176.5,55.1 L177.0,55.5 L177.5,55.9 L178.0,56.4 L178.5,56.9 L179.0,57.3 L179.5,57.8 L180.1,58.3 L180.6,58.8 L181.1,59.3 L181.6,59.8 L182.1,60.4 L182.6,60.9 L183.1,61.5 L183.7,62.0 L184.2,62.6 L184.7,63.2 L185.2,63.7 L185.7,64.3 L186.2,64.9 L186.7,65.5 L187.3,66.1 L187.8,66.7 L188.3,67.4 L188.8,68.0 L189.3,68.6 L189.8,69.3 L190.3,69.9 L190.9,70.6 L191.4,71.2 L191.9,71.9 L192.4,72.5 L192.9,73.2 L193.4,73.9 L193.9,74.5 L194.5,75.2 L195.0,75.9 L195.5,76.6 L196.0,77.3 L196.5,77.9 L197.0,78.6 L197.5,79.3 L198.1,80.0 L198.6,80.7 L199.1,81.4 L199.6,82.1 L200.1,82.8 L200.6,83.5 L201.1,84.2 L201.1,140.0 Z\" fill=\"#2a78d6\" fill-opacity=\"0.45\" stroke=\"none\"><title>între 0 și 1: 34,13%</title></path><path d=\"M77.7,140.0 L77.7,127.5 L78.2,127.2 L78.7,126.9 L79.3,126.6 L79.8,126.3 L80.3,125.9 L80.8,125.6 L81.3,125.2 L81.8,124.9 L82.3,124.5 L82.9,124.1 L83.4,123.8 L83.9,123.4 L84.4,123.0 L84.9,122.6 L85.4,122.2 L85.9,121.8 L86.5,121.4 L87.0,121.0 L87.5,120.5 L88.0,120.1 L88.5,119.7 L89.0,119.2 L89.5,118.8 L90.1,118.3 L90.6,117.8 L91.1,117.4 L91.6,116.9 L92.1,116.4 L92.6,115.9 L93.1,115.4 L93.7,114.9 L94.2,114.4 L94.7,113.9 L95.2,113.4 L95.7,112.9 L96.2,112.3 L96.7,111.8 L97.3,111.2 L97.8,110.7 L98.3,110.1 L98.8,109.6 L99.3,109.0 L99.8,108.4 L100.3,107.8 L100.9,107.3 L101.4,106.7 L101.9,106.1 L102.4,105.5 L102.9,104.9 L103.4,104.3 L103.9,103.6 L104.5,103.0 L105.0,102.4 L105.5,101.8 L106.0,101.1 L106.5,100.5 L107.0,99.8 L107.5,99.2 L108.1,98.5 L108.6,97.9 L109.1,97.2 L109.6,96.6 L110.1,95.9 L110.6,95.2 L111.1,94.5 L111.7,93.9 L112.2,93.2 L112.7,92.5 L113.2,91.8 L113.7,91.1 L114.2,90.5 L114.7,89.8 L115.3,89.1 L115.8,88.4 L116.3,87.7 L116.8,87.0 L117.3,86.3 L117.8,85.6 L118.3,84.9 L118.9,84.2 L118.9,140.0 Z\" fill=\"#2a78d6\" fill-opacity=\"0.28\" stroke=\"none\"><title>între −2 și −1: 13,59%</title></path><path d=\"M201.1,140.0 L201.1,84.2 L201.7,84.9 L202.2,85.6 L202.7,86.3 L203.2,87.0 L203.7,87.7 L204.2,88.4 L204.7,89.1 L205.3,89.8 L205.8,90.5 L206.3,91.1 L206.8,91.8 L207.3,92.5 L207.8,93.2 L208.3,93.9 L208.9,94.5 L209.4,95.2 L209.9,95.9 L210.4,96.6 L210.9,97.2 L211.4,97.9 L211.9,98.5 L212.5,99.2 L213.0,99.8 L213.5,100.5 L214.0,101.1 L214.5,101.8 L215.0,102.4 L215.5,103.0 L216.1,103.6 L216.6,104.3 L217.1,104.9 L217.6,105.5 L218.1,106.1 L218.6,106.7 L219.1,107.3 L219.7,107.8 L220.2,108.4 L220.7,109.0 L221.2,109.6 L221.7,110.1 L222.2,110.7 L222.7,111.2 L223.3,111.8 L223.8,112.3 L224.3,112.9 L224.8,113.4 L225.3,113.9 L225.8,114.4 L226.3,114.9 L226.9,115.4 L227.4,115.9 L227.9,116.4 L228.4,116.9 L228.9,117.4 L229.4,117.8 L229.9,118.3 L230.5,118.8 L231.0,119.2 L231.5,119.7 L232.0,120.1 L232.5,120.5 L233.0,121.0 L233.5,121.4 L234.1,121.8 L234.6,122.2 L235.1,122.6 L235.6,123.0 L236.1,123.4 L236.6,123.8 L237.1,124.1 L237.7,124.5 L238.2,124.9 L238.7,125.2 L239.2,125.6 L239.7,125.9 L240.2,126.3 L240.7,126.6 L241.3,126.9 L241.8,127.2 L242.3,127.5 L242.3,140.0 Z\" fill=\"#2a78d6\" fill-opacity=\"0.28\" stroke=\"none\"><title>între 1 și 2: 13,59%</title></path><path d=\"M36.6,140.0 L36.6,139.0 L37.1,138.9 L37.6,138.9 L38.1,138.9 L38.6,138.8 L39.1,138.8 L39.7,138.7 L40.2,138.7 L40.7,138.6 L41.2,138.6 L41.7,138.5 L42.2,138.5 L42.7,138.4 L43.3,138.4 L43.8,138.3 L44.3,138.2 L44.8,138.2 L45.3,138.1 L45.8,138.0 L46.3,138.0 L46.9,137.9 L47.4,137.8 L47.9,137.8 L48.4,137.7 L48.9,137.6 L49.4,137.5 L49.9,137.4 L50.5,137.3 L51.0,137.3 L51.5,137.2 L52.0,137.1 L52.5,137.0 L53.0,136.9 L53.5,136.8 L54.1,136.7 L54.6,136.5 L55.1,136.4 L55.6,136.3 L56.1,136.2 L56.6,136.1 L57.1,136.0 L57.7,135.8 L58.2,135.7 L58.7,135.6 L59.2,135.4 L59.7,135.3 L60.2,135.1 L60.7,135.0 L61.3,134.8 L61.8,134.7 L62.3,134.5 L62.8,134.4 L63.3,134.2 L63.8,134.0 L64.3,133.8 L64.9,133.7 L65.4,133.5 L65.9,133.3 L66.4,133.1 L66.9,132.9 L67.4,132.7 L67.9,132.5 L68.5,132.3 L69.0,132.0 L69.5,131.8 L70.0,131.6 L70.5,131.4 L71.0,131.1 L71.5,130.9 L72.1,130.6 L72.6,130.4 L73.1,130.1 L73.6,129.9 L74.1,129.6 L74.6,129.3 L75.1,129.0 L75.7,128.7 L76.2,128.5 L76.7,128.2 L77.2,127.9 L77.7,127.5 L77.7,140.0 Z\" fill=\"#2a78d6\" fill-opacity=\"0.14\" stroke=\"none\"><title>între −3 și −2: 2,15%</title></path><path d=\"M242.3,140.0 L242.3,127.5 L242.8,127.9 L243.3,128.2 L243.8,128.5 L244.3,128.7 L244.9,129.0 L245.4,129.3 L245.9,129.6 L246.4,129.9 L246.9,130.1 L247.4,130.4 L247.9,130.6 L248.5,130.9 L249.0,131.1 L249.5,131.4 L250.0,131.6 L250.5,131.8 L251.0,132.0 L251.5,132.3 L252.1,132.5 L252.6,132.7 L253.1,132.9 L253.6,133.1 L254.1,133.3 L254.6,133.5 L255.1,133.7 L255.7,133.8 L256.2,134.0 L256.7,134.2 L257.2,134.4 L257.7,134.5 L258.2,134.7 L258.7,134.8 L259.3,135.0 L259.8,135.1 L260.3,135.3 L260.8,135.4 L261.3,135.6 L261.8,135.7 L262.3,135.8 L262.9,136.0 L263.4,136.1 L263.9,136.2 L264.4,136.3 L264.9,136.4 L265.4,136.5 L265.9,136.7 L266.5,136.8 L267.0,136.9 L267.5,137.0 L268.0,137.1 L268.5,137.2 L269.0,137.3 L269.5,137.3 L270.1,137.4 L270.6,137.5 L271.1,137.6 L271.6,137.7 L272.1,137.8 L272.6,137.8 L273.1,137.9 L273.7,138.0 L274.2,138.0 L274.7,138.1 L275.2,138.2 L275.7,138.2 L276.2,138.3 L276.7,138.4 L277.3,138.4 L277.8,138.5 L278.3,138.5 L278.8,138.6 L279.3,138.6 L279.8,138.7 L280.3,138.7 L280.9,138.8 L281.4,138.8 L281.9,138.9 L282.4,138.9 L282.9,138.9 L283.4,139.0 L283.4,140.0 Z\" fill=\"#2a78d6\" fill-opacity=\"0.14\" stroke=\"none\"><title>între 2 și 3: 2,15%</title></path><polyline points=\"16.0,139.8 17.8,139.8 19.6,139.7 21.4,139.7 23.2,139.6 25.0,139.6 26.8,139.5 28.6,139.4 30.4,139.4 32.2,139.3 34.0,139.2 35.8,139.0 37.6,138.9 39.4,138.7 41.2,138.6 43.0,138.4 44.8,138.2 46.6,137.9 48.4,137.7 50.2,137.4 52.0,137.1 53.8,136.7 55.6,136.3 57.4,135.9 59.2,135.4 61.0,134.9 62.8,134.4 64.6,133.7 66.4,133.1 68.2,132.4 70.0,131.6 71.8,130.8 73.6,129.9 75.4,128.9 77.2,127.9 79.0,126.8 80.8,125.6 82.6,124.3 84.4,123.0 86.2,121.6 88.0,120.1 89.8,118.5 91.6,116.9 93.4,115.2 95.2,113.4 97.0,111.5 98.8,109.6 100.6,107.6 102.4,105.5 104.2,103.3 106.0,101.1 107.8,98.9 109.6,96.6 111.4,94.2 113.2,91.8 115.0,89.4 116.8,87.0 118.6,84.5 120.4,82.1 122.2,79.7 124.0,77.3 125.8,74.9 127.6,72.5 129.4,70.2 131.2,68.0 133.0,65.8 134.8,63.7 136.6,61.7 138.4,59.8 140.2,58.1 142.0,56.4 143.8,54.9 145.6,53.5 147.4,52.2 149.2,51.1 151.0,50.2 152.8,49.4 154.6,48.8 156.4,48.4 158.2,48.1 160.0,48.0 161.8,48.1 163.6,48.4 165.4,48.8 167.2,49.4 169.0,50.2 170.8,51.1 172.6,52.2 174.4,53.5 176.2,54.9 178.0,56.4 179.8,58.1 181.6,59.8 183.4,61.7 185.2,63.7 187.0,65.8 188.8,68.0 190.6,70.2 192.4,72.5 194.2,74.9 196.0,77.3 197.8,79.7 199.6,82.1 201.4,84.5 203.2,87.0 205.0,89.4 206.8,91.8 208.6,94.2 210.4,96.6 212.2,98.9 214.0,101.1 215.8,103.3 217.6,105.5 219.4,107.6 221.2,109.6 223.0,111.5 224.8,113.4 226.6,115.2 228.4,116.9 230.2,118.5 232.0,120.1 233.8,121.6 235.6,123.0 237.4,124.3 239.2,125.6 241.0,126.8 242.8,127.9 244.6,128.9 246.4,129.9 248.2,130.8 250.0,131.6 251.8,132.4 253.6,133.1 255.4,133.7 257.2,134.4 259.0,134.9 260.8,135.4 262.6,135.9 264.4,136.3 266.2,136.7 268.0,137.1 269.8,137.4 271.6,137.7 273.4,137.9 275.2,138.2 277.0,138.4 278.8,138.6 280.6,138.7 282.4,138.9 284.2,139.0 286.0,139.2 287.8,139.3 289.6,139.4 291.4,139.4 293.2,139.5 295.0,139.6 296.8,139.6 298.6,139.7 300.4,139.7 302.2,139.8 304.0,139.8\" fill=\"none\" stroke=\"#2a78d6\" stroke-width=\"2\"/><line x1=\"12.0\" y1=\"140.0\" x2=\"308.0\" y2=\"140.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><line x1=\"36.6\" y1=\"139.0\" x2=\"36.6\" y2=\"140.0\" stroke=\"#ffffff\" stroke-width=\"1\"/><text x=\"36.6\" y=\"152.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.2\">−3</text><line x1=\"77.7\" y1=\"127.5\" x2=\"77.7\" y2=\"140.0\" stroke=\"#ffffff\" stroke-width=\"1\"/><text x=\"77.7\" y=\"152.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.2\">−2</text><line x1=\"118.9\" y1=\"84.2\" x2=\"118.9\" y2=\"140.0\" stroke=\"#ffffff\" stroke-width=\"1\"/><text x=\"118.9\" y=\"152.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.2\">−1</text><line x1=\"160.0\" y1=\"48.0\" x2=\"160.0\" y2=\"140.0\" stroke=\"#2c2a26\" stroke-width=\"1\"/><text x=\"160.0\" y=\"152.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.2\">0</text><line x1=\"201.1\" y1=\"84.2\" x2=\"201.1\" y2=\"140.0\" stroke=\"#ffffff\" stroke-width=\"1\"/><text x=\"201.1\" y=\"152.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.2\">+1</text><line x1=\"242.3\" y1=\"127.5\" x2=\"242.3\" y2=\"140.0\" stroke=\"#ffffff\" stroke-width=\"1\"/><text x=\"242.3\" y=\"152.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.2\">+2</text><line x1=\"283.4\" y1=\"139.0\" x2=\"283.4\" y2=\"140.0\" stroke=\"#ffffff\" stroke-width=\"1\"/><text x=\"283.4\" y=\"152.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.2\">+3</text><text x=\"139.4\" y=\"118.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.2\">34,13%</text><text x=\"180.6\" y=\"118.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.2\">34,13%</text><text x=\"98.3\" y=\"132.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"9.6\">13,59%</text><text x=\"221.7\" y=\"132.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"9.6\">13,59%</text><text x=\"59.2\" y=\"112.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"9.6\">2,15%</text><text x=\"260.8\" y=\"112.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"9.6\">2,15%</text><line x1=\"59.2\" y1=\"115.0\" x2=\"59.2\" y2=\"136.0\" stroke=\"#6b6760\" stroke-width=\"0.8\"/><line x1=\"260.8\" y1=\"115.0\" x2=\"260.8\" y2=\"136.0\" stroke=\"#6b6760\" stroke-width=\"0.8\"/><text x=\"26.3\" y=\"96.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"9.6\">0,13%</text><text x=\"293.7\" y=\"96.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"9.6\">0,13%</text><line x1=\"26.3\" y1=\"99.0\" x2=\"26.3\" y2=\"137.0\" stroke=\"#6b6760\" stroke-width=\"0.8\"/><line x1=\"293.7\" y1=\"99.0\" x2=\"293.7\" y2=\"137.0\" stroke=\"#6b6760\" stroke-width=\"0.8\"/><line x1=\"118.9\" y1=\"168.0\" x2=\"201.1\" y2=\"168.0\" stroke=\"#2c2a26\" stroke-width=\"1\"/><line x1=\"118.9\" y1=\"164.0\" x2=\"118.9\" y2=\"172.0\" stroke=\"#2c2a26\" stroke-width=\"1\"/><line x1=\"201.1\" y1=\"164.0\" x2=\"201.1\" y2=\"172.0\" stroke=\"#2c2a26\" stroke-width=\"1\"/><rect x=\"134.0\" y=\"160\" width=\"52\" height=\"15\" fill=\"#faf8f3\"/><text x=\"160.0\" y=\"172.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.8\">68,26%</text><line x1=\"77.7\" y1=\"186.0\" x2=\"242.3\" y2=\"186.0\" stroke=\"#2c2a26\" stroke-width=\"1\"/><line x1=\"77.7\" y1=\"182.0\" x2=\"77.7\" y2=\"190.0\" stroke=\"#2c2a26\" stroke-width=\"1\"/><line x1=\"242.3\" y1=\"182.0\" x2=\"242.3\" y2=\"190.0\" stroke=\"#2c2a26\" stroke-width=\"1\"/><rect x=\"134.0\" y=\"178\" width=\"52\" height=\"15\" fill=\"#faf8f3\"/><text x=\"160.0\" y=\"190.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.8\">95,44%</text><text x=\"160.0\" y=\"204.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">abateri standard față de media aritmetică (Z)</text></svg>"
+          }
+        ]
+      },
+      {
+        "titlu": "Utilizarea distribuției normale standard",
+        "noduri": [
+          {
+            "t": "Enunțuri descriptive precise",
+            "d": "Împreună cu media și abaterea standard, distribuția normală permite enunțuri precise despre o variabilă normală: la X̄ = 20, s = 4, circa 68% din cazuri sunt între 16 și 24, circa 95% între 12 și 28."
+          },
+          {
+            "t": "Aria dincolo de un scor",
+            "d": "Interpretare (din tabel + simetrie): peste un Z pozitiv rămân 0,5 − aria din tabel. IQ peste 130 (Z = +2): 0,5 − 0,4772 = 2,28%; sub Z = −1: 0,5 − 0,3413 = 15,87%."
+          },
+          {
+            "t": "Aria între două scoruri",
+            "d": "Interpretare: dacă scorurile sunt de o parte și de alta a mediei, ariile din tabel se adună (Z = −1 … +2: 0,3413 + 0,4772 = 81,85%); dacă sunt de aceeași parte, se scad (Z = +1 … +2: 13,59%)."
+          },
+          {
+            "t": "Rangul percentilei unui scor Z",
+            "d": "Interpretare: pentru Z pozitiv, procentul cazurilor de sub scor e 50% + aria din tabel (Z = +0,84 → ≈ 80%) — rangul percentilei din Cap. 3 (Mărimile tendinței centrale), aflat de această dată din curba normală."
+          },
+          {
+            "t": "Probabilitatea selecției aleatoare",
+            "d": "Pentru o variabilă (aproximativ) normală cu media și abaterea standard cunoscute, proporția cazurilor dintr-o plajă de scoruri e probabilitatea de a selecta la întâmplare un scor din acea plajă."
+          },
+          {
+            "t": "Rolul în inferență",
+            "d": "Distribuția normală poate reprezenta mărimi statistice obținute pe eșantioane și stă la baza multor tehnici inferențiale: concluzii despre populație din valorile eșantioanelor (Cap. 6 (Eșantionarea și distribuții de eșantionare), Cap. 7 (Proceduri de estimare statistică))."
+          }
+        ],
+        "figuri": [
+          {
+            "titlu": "Aria peste un scor și aria între două scoruri",
+            "nota": "Pașii decurg din tabel, din simetrie și din faptul că fiecare jumătate a curbei are 0,5 din arie (interpretare; cartea nu dă exemple lucrate).",
+            "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 260\" role=\"img\" aria-label=\"Două folosiri ale tabelului: aria peste Z = +2 este 0,5 − 0,4772; aria între Z = −1 și Z = +2 este 0,3413 + 0,4772\" font-family=\"Georgia, serif\" font-size=\"13\"><path d=\"M242.4,92.0 L242.4,83.6 L243.1,83.9 L243.8,84.2 L244.5,84.5 L245.2,84.7 L246.0,85.0 L246.7,85.2 L247.4,85.5 L248.1,85.7 L248.8,86.0 L249.6,86.2 L250.3,86.4 L251.0,86.6 L251.7,86.8 L252.4,87.0 L253.2,87.2 L253.9,87.4 L254.6,87.6 L255.3,87.7 L256.0,87.9 L256.8,88.1 L257.5,88.2 L258.2,88.4 L258.9,88.5 L259.6,88.7 L260.4,88.8 L261.1,89.0 L261.8,89.1 L262.5,89.2 L263.2,89.3 L264.0,89.4 L264.7,89.6 L265.4,89.7 L266.1,89.8 L266.9,89.9 L267.6,90.0 L268.3,90.0 L269.0,90.1 L269.7,90.2 L270.5,90.3 L271.2,90.4 L271.9,90.5 L272.6,90.5 L273.3,90.6 L274.1,90.7 L274.8,90.7 L275.5,90.8 L276.2,90.8 L276.9,90.9 L277.7,91.0 L278.4,91.0 L279.1,91.1 L279.8,91.1 L280.5,91.1 L281.3,91.2 L282.0,91.2 L282.7,91.3 L283.4,91.3 L284.1,91.3 L284.9,91.4 L285.6,91.4 L286.3,91.4 L287.0,91.5 L287.8,91.5 L288.5,91.5 L289.2,91.5 L289.9,91.6 L290.6,91.6 L291.4,91.6 L292.1,91.6 L292.8,91.7 L293.5,91.7 L294.2,91.7 L295.0,91.7 L295.7,91.7 L296.4,91.7 L297.1,91.8 L297.8,91.8 L298.6,91.8 L299.3,91.8 L300.0,91.8 L300.0,92.0 Z\" fill=\"#b5453a\" fill-opacity=\"0.55\" stroke=\"none\"><title>peste Z = +2: 0,5 − 0,4772 = 0,0228</title></path><path d=\"M160.0,92.0 L160.0,30.0 L161.0,30.0 L162.1,30.1 L163.1,30.2 L164.1,30.3 L165.1,30.5 L166.2,30.7 L167.2,30.9 L168.2,31.2 L169.3,31.5 L170.3,31.9 L171.3,32.3 L172.4,32.7 L173.4,33.2 L174.4,33.7 L175.4,34.2 L176.5,34.8 L177.5,35.4 L178.5,36.0 L179.6,36.6 L180.6,37.3 L181.6,38.0 L182.6,38.7 L183.7,39.4 L184.7,40.2 L185.7,41.0 L186.8,41.8 L187.8,42.6 L188.8,43.5 L189.9,44.3 L190.9,45.2 L191.9,46.1 L192.9,47.0 L194.0,47.9 L195.0,48.8 L196.0,49.7 L197.1,50.6 L198.1,51.6 L199.1,52.5 L200.1,53.5 L201.2,54.4 L202.2,55.3 L203.2,56.3 L204.3,57.2 L205.3,58.1 L206.3,59.1 L207.4,60.0 L208.4,60.9 L209.4,61.8 L210.4,62.7 L211.5,63.6 L212.5,64.5 L213.5,65.4 L214.6,66.2 L215.6,67.1 L216.6,67.9 L217.6,68.7 L218.7,69.5 L219.7,70.3 L220.7,71.1 L221.8,71.9 L222.8,72.6 L223.8,73.3 L224.9,74.1 L225.9,74.8 L226.9,75.4 L227.9,76.1 L229.0,76.8 L230.0,77.4 L231.0,78.0 L232.1,78.6 L233.1,79.2 L234.1,79.7 L235.1,80.3 L236.2,80.8 L237.2,81.3 L238.2,81.8 L239.3,82.3 L240.3,82.7 L241.3,83.2 L242.4,83.6 L242.4,92.0 Z\" fill=\"#2a78d6\" fill-opacity=\"0.18\" stroke=\"none\"><title>între medie și Z = +2: 0,4772</title></path><polyline points=\"20.0,91.8 21.8,91.8 23.5,91.7 25.2,91.7 27.0,91.7 28.7,91.6 30.5,91.6 32.2,91.5 34.0,91.4 35.7,91.3 37.5,91.3 39.2,91.2 41.0,91.0 42.7,90.9 44.5,90.8 46.2,90.6 48.0,90.5 49.7,90.3 51.5,90.1 53.2,89.8 55.0,89.6 56.7,89.3 58.5,89.0 60.3,88.7 62.0,88.3 63.8,88.0 65.5,87.5 67.2,87.1 69.0,86.6 70.8,86.1 72.5,85.5 74.2,84.9 76.0,84.3 77.8,83.6 79.5,82.8 81.2,82.0 83.0,81.2 84.8,80.3 86.5,79.4 88.2,78.4 90.0,77.4 91.8,76.3 93.5,75.2 95.2,74.0 97.0,72.8 98.8,71.5 100.5,70.2 102.2,68.8 104.0,67.4 105.8,66.0 107.5,64.5 109.3,63.0 111.0,61.5 112.8,59.9 114.5,58.3 116.2,56.7 118.0,55.1 119.8,53.5 121.5,52.0 123.2,50.4 125.0,48.8 126.8,47.2 128.5,45.7 130.2,44.2 132.0,42.8 133.8,41.4 135.5,40.1 137.2,38.8 139.0,37.6 140.8,36.4 142.5,35.4 144.2,34.4 146.0,33.5 147.8,32.7 149.5,32.0 151.2,31.4 153.0,30.9 154.8,30.5 156.5,30.2 158.2,30.1 160.0,30.0 161.8,30.1 163.5,30.2 165.2,30.5 167.0,30.9 168.8,31.4 170.5,32.0 172.3,32.7 174.0,33.5 175.8,34.4 177.5,35.4 179.2,36.4 181.0,37.6 182.7,38.8 184.5,40.1 186.2,41.4 188.0,42.8 189.8,44.2 191.5,45.7 193.2,47.2 195.0,48.8 196.8,50.4 198.5,52.0 200.2,53.5 202.0,55.1 203.8,56.7 205.5,58.3 207.3,59.9 209.0,61.5 210.7,63.0 212.5,64.5 214.2,66.0 216.0,67.4 217.8,68.8 219.5,70.2 221.2,71.5 223.0,72.8 224.8,74.0 226.5,75.2 228.2,76.3 230.0,77.4 231.8,78.4 233.5,79.4 235.2,80.3 237.0,81.2 238.8,82.0 240.5,82.8 242.3,83.6 244.0,84.3 245.8,84.9 247.5,85.5 249.2,86.1 251.0,86.6 252.8,87.1 254.5,87.5 256.2,88.0 258.0,88.3 259.8,88.7 261.5,89.0 263.2,89.3 265.0,89.6 266.8,89.8 268.5,90.1 270.2,90.3 272.0,90.5 273.8,90.6 275.5,90.8 277.2,90.9 279.0,91.0 280.8,91.2 282.5,91.3 284.2,91.3 286.0,91.4 287.8,91.5 289.5,91.6 291.3,91.6 293.0,91.7 294.8,91.7 296.5,91.7 298.2,91.8 300.0,91.8\" fill=\"none\" stroke=\"#2a78d6\" stroke-width=\"2\"/><line x1=\"16.0\" y1=\"92.0\" x2=\"304.0\" y2=\"92.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><line x1=\"77.6\" y1=\"92.0\" x2=\"77.6\" y2=\"96.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><text x=\"77.6\" y=\"107.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">70</text><line x1=\"118.8\" y1=\"92.0\" x2=\"118.8\" y2=\"96.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><text x=\"118.8\" y=\"107.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">85</text><line x1=\"160.0\" y1=\"92.0\" x2=\"160.0\" y2=\"96.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><text x=\"160.0\" y=\"107.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">100</text><line x1=\"201.2\" y1=\"92.0\" x2=\"201.2\" y2=\"96.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><text x=\"201.2\" y=\"107.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">115</text><line x1=\"242.4\" y1=\"92.0\" x2=\"242.4\" y2=\"96.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><text x=\"242.4\" y=\"107.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">130</text><text x=\"20.0\" y=\"16.0\" text-anchor=\"start\" fill=\"#2c2a26\" font-size=\"10.8\">IQ peste 130 (μ = 100, σ = 15, Z = +2)</text><text x=\"201.2\" y=\"62.0\" text-anchor=\"middle\" fill=\"#2a78d6\" font-size=\"10.2\">0,4772</text><text x=\"300.0\" y=\"50.0\" text-anchor=\"end\" fill=\"#b5453a\" font-size=\"10.2\">0,5 − 0,4772</text><text x=\"300.0\" y=\"64.0\" text-anchor=\"end\" fill=\"#b5453a\" font-size=\"10.8\">= 2,28%</text><line x1=\"256.8\" y1=\"68.0\" x2=\"256.8\" y2=\"88.0\" stroke=\"#b5453a\" stroke-width=\"0.8\"/><path d=\"M118.8,206.0 L118.8,168.4 L119.3,167.9 L119.9,167.5 L120.4,167.0 L120.9,166.5 L121.4,166.0 L121.9,165.6 L122.4,165.1 L122.9,164.6 L123.5,164.2 L124.0,163.7 L124.5,163.3 L125.0,162.8 L125.5,162.3 L126.0,161.9 L126.5,161.4 L127.1,161.0 L127.6,160.5 L128.1,160.1 L128.6,159.6 L129.1,159.2 L129.6,158.8 L130.1,158.3 L130.7,157.9 L131.2,157.5 L131.7,157.0 L132.2,156.6 L132.7,156.2 L133.2,155.8 L133.8,155.4 L134.3,155.0 L134.8,154.6 L135.3,154.2 L135.8,153.8 L136.3,153.4 L136.8,153.1 L137.4,152.7 L137.9,152.3 L138.4,152.0 L138.9,151.6 L139.4,151.3 L139.9,150.9 L140.4,150.6 L141.0,150.3 L141.5,150.0 L142.0,149.7 L142.5,149.4 L143.0,149.1 L143.5,148.8 L144.0,148.5 L144.6,148.2 L145.1,147.9 L145.6,147.7 L146.1,147.4 L146.6,147.2 L147.1,147.0 L147.6,146.7 L148.2,146.5 L148.7,146.3 L149.2,146.1 L149.7,145.9 L150.2,145.7 L150.7,145.5 L151.2,145.4 L151.8,145.2 L152.3,145.1 L152.8,144.9 L153.3,144.8 L153.8,144.7 L154.3,144.6 L154.9,144.5 L155.4,144.4 L155.9,144.3 L156.4,144.2 L156.9,144.2 L157.4,144.1 L157.9,144.1 L158.5,144.0 L159.0,144.0 L159.5,144.0 L160.0,144.0 L160.0,206.0 Z\" fill=\"#1baf7a\" fill-opacity=\"0.4\" stroke=\"none\"><title>între −1 și medie: 0,3413</title></path><path d=\"M160.0,206.0 L160.0,144.0 L161.0,144.0 L162.1,144.1 L163.1,144.2 L164.1,144.3 L165.1,144.5 L166.2,144.7 L167.2,144.9 L168.2,145.2 L169.3,145.5 L170.3,145.9 L171.3,146.3 L172.4,146.7 L173.4,147.2 L174.4,147.7 L175.4,148.2 L176.5,148.8 L177.5,149.4 L178.5,150.0 L179.6,150.6 L180.6,151.3 L181.6,152.0 L182.6,152.7 L183.7,153.4 L184.7,154.2 L185.7,155.0 L186.8,155.8 L187.8,156.6 L188.8,157.5 L189.9,158.3 L190.9,159.2 L191.9,160.1 L192.9,161.0 L194.0,161.9 L195.0,162.8 L196.0,163.7 L197.1,164.6 L198.1,165.6 L199.1,166.5 L200.1,167.5 L201.2,168.4 L202.2,169.3 L203.2,170.3 L204.3,171.2 L205.3,172.1 L206.3,173.1 L207.4,174.0 L208.4,174.9 L209.4,175.8 L210.4,176.7 L211.5,177.6 L212.5,178.5 L213.5,179.4 L214.6,180.2 L215.6,181.1 L216.6,181.9 L217.6,182.7 L218.7,183.5 L219.7,184.3 L220.7,185.1 L221.8,185.9 L222.8,186.6 L223.8,187.3 L224.9,188.1 L225.9,188.8 L226.9,189.4 L227.9,190.1 L229.0,190.8 L230.0,191.4 L231.0,192.0 L232.1,192.6 L233.1,193.2 L234.1,193.7 L235.1,194.3 L236.2,194.8 L237.2,195.3 L238.2,195.8 L239.3,196.3 L240.3,196.7 L241.3,197.2 L242.4,197.6 L242.4,206.0 Z\" fill=\"#1baf7a\" fill-opacity=\"0.25\" stroke=\"none\"><title>între medie și +2: 0,4772</title></path><polyline points=\"20.0,205.8 21.8,205.8 23.5,205.7 25.2,205.7 27.0,205.7 28.7,205.6 30.5,205.6 32.2,205.5 34.0,205.4 35.7,205.3 37.5,205.3 39.2,205.2 41.0,205.0 42.7,204.9 44.5,204.8 46.2,204.6 48.0,204.5 49.7,204.3 51.5,204.1 53.2,203.8 55.0,203.6 56.7,203.3 58.5,203.0 60.3,202.7 62.0,202.3 63.8,202.0 65.5,201.5 67.2,201.1 69.0,200.6 70.8,200.1 72.5,199.5 74.2,198.9 76.0,198.3 77.8,197.6 79.5,196.8 81.2,196.0 83.0,195.2 84.8,194.3 86.5,193.4 88.2,192.4 90.0,191.4 91.8,190.3 93.5,189.2 95.2,188.0 97.0,186.8 98.8,185.5 100.5,184.2 102.2,182.8 104.0,181.4 105.8,180.0 107.5,178.5 109.3,177.0 111.0,175.5 112.8,173.9 114.5,172.3 116.2,170.7 118.0,169.1 119.8,167.5 121.5,166.0 123.2,164.4 125.0,162.8 126.8,161.2 128.5,159.7 130.2,158.2 132.0,156.8 133.8,155.4 135.5,154.1 137.2,152.8 139.0,151.6 140.8,150.4 142.5,149.4 144.2,148.4 146.0,147.5 147.8,146.7 149.5,146.0 151.2,145.4 153.0,144.9 154.8,144.5 156.5,144.2 158.2,144.1 160.0,144.0 161.8,144.1 163.5,144.2 165.2,144.5 167.0,144.9 168.8,145.4 170.5,146.0 172.3,146.7 174.0,147.5 175.8,148.4 177.5,149.4 179.2,150.4 181.0,151.6 182.7,152.8 184.5,154.1 186.2,155.4 188.0,156.8 189.8,158.2 191.5,159.7 193.2,161.2 195.0,162.8 196.8,164.4 198.5,166.0 200.2,167.5 202.0,169.1 203.8,170.7 205.5,172.3 207.3,173.9 209.0,175.5 210.7,177.0 212.5,178.5 214.2,180.0 216.0,181.4 217.8,182.8 219.5,184.2 221.2,185.5 223.0,186.8 224.8,188.0 226.5,189.2 228.2,190.3 230.0,191.4 231.8,192.4 233.5,193.4 235.2,194.3 237.0,195.2 238.8,196.0 240.5,196.8 242.3,197.6 244.0,198.3 245.8,198.9 247.5,199.5 249.2,200.1 251.0,200.6 252.8,201.1 254.5,201.5 256.2,202.0 258.0,202.3 259.8,202.7 261.5,203.0 263.2,203.3 265.0,203.6 266.8,203.8 268.5,204.1 270.2,204.3 272.0,204.5 273.8,204.6 275.5,204.8 277.2,204.9 279.0,205.0 280.8,205.2 282.5,205.3 284.2,205.3 286.0,205.4 287.8,205.5 289.5,205.6 291.3,205.6 293.0,205.7 294.8,205.7 296.5,205.7 298.2,205.8 300.0,205.8\" fill=\"none\" stroke=\"#2a78d6\" stroke-width=\"2\"/><line x1=\"16.0\" y1=\"206.0\" x2=\"304.0\" y2=\"206.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><line x1=\"77.6\" y1=\"206.0\" x2=\"77.6\" y2=\"210.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><text x=\"77.6\" y=\"221.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">70</text><line x1=\"118.8\" y1=\"206.0\" x2=\"118.8\" y2=\"210.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><text x=\"118.8\" y=\"221.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">85</text><line x1=\"160.0\" y1=\"206.0\" x2=\"160.0\" y2=\"210.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><text x=\"160.0\" y=\"221.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">100</text><line x1=\"201.2\" y1=\"206.0\" x2=\"201.2\" y2=\"210.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><text x=\"201.2\" y=\"221.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">115</text><line x1=\"242.4\" y1=\"206.0\" x2=\"242.4\" y2=\"210.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><text x=\"242.4\" y=\"221.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">130</text><text x=\"20.0\" y=\"130.0\" text-anchor=\"start\" fill=\"#2c2a26\" font-size=\"10.8\">IQ între 85 și 130 (Z de la −1 la +2)</text><text x=\"139.4\" y=\"196.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"9.6\">0,3413</text><text x=\"201.2\" y=\"196.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"9.6\">0,4772</text><text x=\"160.0\" y=\"238.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.8\">de o parte și de alta a mediei: se adună → 81,85%</text><text x=\"160.0\" y=\"253.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">de aceeași parte: se scad (între +1 și +2: 13,59%)</text></svg>"
+          }
+        ]
+      }
+    ]
+  }
+}

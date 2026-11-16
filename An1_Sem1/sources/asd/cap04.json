@@ -1,0 +1,1075 @@
+{
+  "schema": "quiz-capitol-v3",
+  "capitol": 4,
+  "titlu": "Mărimile dispersiei",
+  "sursa": "Analiza superioară a datelor (UTM), Unitatea IV, pp. 59–69",
+  "runde": [
+    {
+      "id": "T",
+      "tip_runda": "baza",
+      "eticheta": "Runda 1 · Teorie",
+      "titlu": "Runda 1 — Teorie",
+      "desc": "Întrebări directe și scurte: ce măsoară un indicator, când se folosește o metodă, ce deosebește două concepte.",
+      "intrebari": [
+        {
+          "q": "Ce informație dau mărimile dispersiei, dar nu și cele ale tendinței centrale?",
+          "opts": [
+            "Care e valoarea tipică a distribuției",
+            "Cât de eterogene sunt scorurile unei distribuții",
+            "Ce poziție are un scor individual față de celelalte",
+            "Cum se leagă două variabile între ele"
+          ],
+          "correct": 1,
+          "explain": "Mărimile dispersiei descriu eterogenitatea sau varietatea scorurilor; două eșantioane cu aceeași mediană pot fi foarte diferit împrăștiate. Valoarea tipică o dă tendința centrală, poziția unui scor — percentilele, din Cap. 3 (Mărimile tendinței centrale), iar legătura dintre variabile — corelația.",
+          "tag": "Mărimile dispersiei",
+          "tip": "concept"
+        },
+        {
+          "q": "Ce raport exprimă indicele variației calitative?",
+          "opts": [
+            "Abaterea standard față de media distribuției",
+            "Variația observată față de variația maxim posibilă",
+            "Frecvența modului față de numărul de cazuri",
+            "Diferența dintre extreme față de numărul de categorii"
+          ],
+          "correct": 1,
+          "explain": "IQV raportează variația observată efectiv la variația maxim posibilă pentru acea distribuție, deci ia valori între 0,00 și 1,00. Abaterea standard față de medie e coeficientul de variație; IQV lucrează doar cu frecvențele categoriilor.",
+          "tag": "Indicele variației calitative (IQV)",
+          "tip": "concept"
+        },
+        {
+          "q": "Ce condiție permite folosirea IQV și la variabile care nu sunt nominale?",
+          "opts": [
+            "Distribuția să fie simetrică și să aibă un singur mod",
+            "Eșantionul să aibă cel puțin treizeci de cazuri",
+            "Variabila să aibă un punct zero natural",
+            "Scorurile să fie grupate în distribuții de frecvențe"
+          ],
+          "correct": 3,
+          "explain": "IQV se folosește în mod obișnuit la variabile nominale, dar se poate folosi și la celelalte niveluri dacă scorurile sunt grupate în distribuții de frecvențe — indicele are nevoie doar de frecvențele categoriilor. Forma distribuției, mărimea eșantionului și zeroul natural nu intervin.",
+          "tag": "Domeniul de aplicare al IQV",
+          "tip": "nivel_masura"
+        },
+        {
+          "q": "Ce mărimi ale dispersiei folosesc toate scorurile distribuției?",
+          "opts": [
+            "Amplitudinea și amplitudinea intercuartilică",
+            "Amplitudinea absolută și amplitudinea relativă",
+            "Abaterea medie, varianța și abaterea standard",
+            "Indicele variației calitative și amplitudinea"
+          ],
+          "correct": 2,
+          "explain": "Abaterea medie, varianța și abaterea standard pornesc de la abaterea fiecărui scor față de medie. Amplitudinea (absolută sau relativă) folosește doar cele două extreme, amplitudinea intercuartilică doar Q1 și Q3, iar IQV — frecvențele categoriilor.",
+          "tag": "Abaterea medie",
+          "tip": "concept"
+        },
+        {
+          "q": "Ce neajuns au în comun amplitudinea și amplitudinea intercuartilică?",
+          "opts": [
+            "Folosesc doar două scoruri și ignoră restul",
+            "Depind amândouă de scorurile extreme",
+            "Se exprimă în unitatea scorurilor la pătrat",
+            "Nu se pot calcula pentru date grupate"
+          ],
+          "correct": 0,
+          "explain": "A folosește Xmax și Xmin, Q folosește Q3 și Q1: niciuna nu spune cum sunt așezate scorurile dintre cele două. Doar amplitudinea depinde de extreme (Q le evită), unitatea la pătrat e a varianței, iar amplitudinea se aproximează și pentru date grupate.",
+          "tag": "Cele 50% de cazuri centrale",
+          "tip": "concept"
+        },
+        {
+          "q": "Ce avantaj are amplitudinea intercuartilică față de amplitudine?",
+          "opts": [
+            "Folosește toate scorurile distribuției",
+            "Se exprimă ca procent din medie",
+            "Se poate calcula la nivel nominal",
+            "Nu depinde de scorurile extreme"
+          ],
+          "correct": 3,
+          "explain": "Q ia în considerare jumătatea centrală a cazurilor (între P25 și P75), deci scorurile extreme nu o mișcă. Ca și A, folosește doar două scoruri; procentul din medie e amplitudinea relativă, iar cuartilele cer scoruri ordonate, imposibile la nivel nominal.",
+          "tag": "Amplitudinea intercuartilică (Q)",
+          "tip": "concept"
+        },
+        {
+          "q": "Când sunt utile amplitudinea și amplitudinea intercuartilică?",
+          "opts": [
+            "La comparații rapide între distribuții cu același n",
+            "La estimarea varianței unei populații dintr-un eșantion",
+            "La variabile măsurate la nivel nominal, fără ordine",
+            "La compararea unor distribuții cu medii foarte diferite"
+          ],
+          "correct": 0,
+          "explain": "Deși sunt grosiere, A și Q dau rapid o măsură a variabilității și permit compararea rapidă a două distribuții cu număr egal de scoruri (vârstele celor două eșantioane). Estimarea varianței populației cere s² cu n − 1, nivelul nominal cere IQV, iar mediile foarte diferite — coeficientul de variație.",
+          "tag": "Comparația rapidă a două distribuții",
+          "tip": "metoda"
+        },
+        {
+          "q": "Ce două căi ocolesc faptul că abaterile de la medie se anulează?",
+          "opts": [
+            "Valorile absolute sau pătratele abaterilor",
+            "Mediana sau modul în locul mediei",
+            "Împărțirea la n − 1 sau la N",
+            "Rotunjirea mediei sau a abaterilor"
+          ],
+          "correct": 0,
+          "explain": "Σ(Xi − X̄) = 0, deci media abaterilor ar fi mereu 0. Neglijând semnele (valori absolute) obții abaterea medie; ridicând abaterile la pătrat obții varianța. Numitorul nu schimbă o sumă nulă, iar rotunjirile doar introduc erori.",
+          "tag": "Abaterea de la medie",
+          "tip": "principiu"
+        },
+        {
+          "q": "Ce fel de medie este varianța unei populații?",
+          "opts": [
+            "Media abaterilor absolute de la μ",
+            "Rădăcina mediei pătratelor abaterilor",
+            "Media pătratelor abaterilor de la μ",
+            "Media abaterilor de la mediană"
+          ],
+          "correct": 2,
+          "explain": "σ² = Σ(Xi − μ)² / N e pătratul mediu al abaterilor: media aritmetică a pătratelor abaterilor de la μ. Media abaterilor absolute e abaterea medie, iar rădăcina ei pătrată e abaterea standard.",
+          "tag": "Pătratul mediu al abaterilor",
+          "tip": "concept"
+        },
+        {
+          "q": "Ce fel de estimator al varianței populației este varianța unui eșantion calculată cu n?",
+          "opts": [
+            "Nedistorsionat, deci fără nevoie de corecție",
+            "Distorsionat, corectat prin numitorul n − 1",
+            "Distorsionat, corectat prin numitorul n + 1",
+            "Nedistorsionat doar la peste 30 de scoruri"
+          ],
+          "correct": 1,
+          "explain": "Varianța eșantionului împărțită la n subestimează varianța populației, de aceea se împarte la n − 1; același lucru e valabil pentru abaterea standard, iar estimatorii sunt tratați în Cap. 7 (Proceduri de estimare statistică). Corecția nu e n + 1 și nu dispare la un anumit prag de mărime.",
+          "tag": "Numitorul n − 1",
+          "tip": "principiu"
+        },
+        {
+          "q": "De ce se raportează adesea abaterea standard în locul varianței?",
+          "opts": [
+            "Se exprimă în aceeași unitate ca scorurile",
+            "Nu depinde de scorurile extreme ale distribuției",
+            "Se poate calcula și la nivel nominal",
+            "Nu are nevoie de media aritmetică"
+          ],
+          "correct": 0,
+          "explain": "Varianța are unitatea scorurilor la pătrat (ani la pătrat); rădăcina ei, abaterea standard, revine la unitatea scorurilor. Ea depinde, ca varianța, de toate scorurile, inclusiv de extreme, se calculează față de medie și cere date de interval sau raport.",
+          "tag": "Abaterea standard",
+          "tip": "concept"
+        },
+        {
+          "q": "Ce avantaj au formulele de calcul simplificat ale varianței?",
+          "opts": [
+            "Dau o varianță mai mică, deci mai precisă",
+            "Nu mai cer diferențele dintre scoruri și medie",
+            "Se aplică doar distribuțiilor grupate",
+            "Nu mai cer ridicarea scorurilor la pătrat"
+          ],
+          "correct": 1,
+          "explain": "Formulele cu ΣX², nX̄² sau (ΣX)²/n evită calculul tuturor diferențelor Xi − X̄ și rotunjirile lor; sunt echivalente algebric cu formula definițională, deci dau aceeași varianță. Ele lucrează chiar cu pătratele scorurilor și se aplică scorurilor negrupate.",
+          "tag": "Formule echivalente algebric",
+          "tip": "metoda"
+        },
+        {
+          "q": "Când este cu deosebire util coeficientul de variație?",
+          "opts": [
+            "La variabile măsurate la nivel nominal",
+            "La distribuții cu câteva scoruri extreme",
+            "La distribuții cu medii sensibil diferite",
+            "La date grupate în intervale de clasă"
+          ],
+          "correct": 2,
+          "explain": "CV raportează abaterea standard la medie, în procente, așa că poate compara variabilitatea unor distribuții cu medii foarte diferite. La nivel nominal nu există medie, iar scorurile extreme îl afectează la fel ca pe abaterea standard.",
+          "tag": "Coeficientul de variație (CV)",
+          "tip": "concept"
+        },
+        {
+          "q": "Ce raport exprimă amplitudinea relativă?",
+          "opts": [
+            "Amplitudinea față de amplitudinea intercuartilică",
+            "Abaterea standard față de media aritmetică",
+            "Amplitudinea față de media aritmetică",
+            "Amplitudinea față de numărul de scoruri"
+          ],
+          "correct": 2,
+          "explain": "A% = A / X̄ · 100, de obicei ca procent; nu are întotdeauna sens intuitiv pentru o singură distribuție (110% la primul eșantion de vârste). Abaterea standard față de medie e coeficientul de variație.",
+          "tag": "Amplitudinea relativă (A%)",
+          "tip": "concept"
+        },
+        {
+          "q": "Prin ce se aproximează suma pătratelor scorurilor când datele sunt grupate?",
+          "opts": [
+            "Prin suma produselor f · m",
+            "Prin pătratul sumei f · m",
+            "Prin suma pătratelor frecvențelor",
+            "Prin suma produselor f · m²"
+          ],
+          "correct": 3,
+          "explain": "Fiecare scor din interval se înlocuiește cu centrul m, deci ΣX² ≈ Σf·m², iar ΣX ≈ Σf·m (ca la media pentru date grupate, din Cap. 3 (Mărimile tendinței centrale)). Pătratul sumei apare separat, împărțit la n; suma pătratelor frecvențelor intră în IQV.",
+          "tag": "Aproximarea sumelor",
+          "tip": "calcul"
+        }
+      ],
+      "ascunse": [
+        {
+          "q": "De ce unii statisticieni împart varianța la n în statistica descriptivă?",
+          "opts": [
+            "Varianța cu n e un estimator nedistorsionat al populației",
+            "Numitorul n − 1 dă uneori varianțe negative",
+            "Rezultatul trebuie exprimat apoi în procente",
+            "Tratează eșantioanele ca pe niște populații foarte mici"
+          ],
+          "correct": 3,
+          "explain": "Când nu urmăresc estimarea populației, unii statisticieni folosesc numitorul n, tratând eșantioanele ca populații foarte mici. Varianța cu n rămâne un estimator distorsionat, iar n − 1 nu poate da varianțe negative (numărătorul e o sumă de pătrate).",
+          "tag": "Numitorul n − 1",
+          "tip": "principiu"
+        },
+        {
+          "q": "Ce neajuns al amplitudinii scoate la iveală o distribuție bimodală?",
+          "opts": [
+            "Nu se poate calcula la distribuții care au două moduri",
+            "Nu spune cum sunt așezate scorurile dintre extreme",
+            "Dublează valoarea reală a dispersiei",
+            "Ignoră cele două scoruri extreme"
+          ],
+          "correct": 1,
+          "explain": "Două distribuții cu aceleași extreme pot avea scorurile strânse în centru sau concentrate lângă fiecare extremă (bimodal), iar amplitudinea nu le deosebește. Ea se calculează la fel și se sprijină chiar pe extreme.",
+          "tag": "Limitele amplitudinii",
+          "tip": "concept"
+        },
+        {
+          "q": "Ce mărime se notează cu σ²?",
+          "opts": [
+            "Varianța unei populații",
+            "Varianța unui eșantion",
+            "Abaterea standard a unei populații",
+            "Abaterea medie a unei populații"
+          ],
+          "correct": 0,
+          "explain": "σ² e varianța populației (cu μ și N), s² — varianța eșantionului (cu X̄ și n − 1), iar σ, fără pătrat, e abaterea standard a populației. Abaterea medie se notează d̄.",
+          "tag": "Varianța",
+          "tip": "concept"
+        },
+        {
+          "q": "Cum se aproximează amplitudinea pentru date grupate?",
+          "opts": [
+            "Centrul ultimului interval de clasă minus centrul celui dintâi",
+            "Limita stabilită superioară a ultimului minus cea inferioară a primului",
+            "Limita reală superioară a ultimului minus cea inferioară a primului",
+            "Mărimea intervalului înmulțită cu numărul total de intervale"
+          ],
+          "correct": 2,
+          "explain": "Pentru intervale în ordine crescătoare, A ≈ LCRSmax − LCRImin (69,5 − 19,5 = 50); limitele reale vin din Cap. 2 (Prezentarea datelor statistice). Centrele și limitele stabilite scurtează distanța, iar produsul mărime × număr de intervale coincide doar întâmplător cu ea.",
+          "tag": "Amplitudinea pentru date grupate",
+          "tip": "metoda"
+        },
+        {
+          "q": "De ce abaterea standard calculată din date grupate e doar aproximativă?",
+          "opts": [
+            "Centrele de interval înlocuiesc scorurile individuale",
+            "Numitorul devine n în loc de n − 1, ca la populații",
+            "Abaterile de la medie nu se mai anulează la date grupate",
+            "Frecvențele intervalelor se rotunjesc la numere întregi"
+          ],
+          "correct": 0,
+          "explain": "Scorurile individuale nu se cunosc, deci ΣX și ΣX² se aproximează prin Σfm și Σfm² (9,05 față de 9,00 la cei 180 de subiecți). Numitorul rămâne n − 1, frecvențele sunt numere întregi exacte, iar abaterile de la medie se anulează în orice distribuție.",
+          "tag": "Aproximarea sumelor",
+          "tip": "concept"
+        }
+      ]
+    },
+    {
+      "id": "1",
+      "eticheta": "Runda 2 · Bază",
+      "titlu": "Runda 2 — Concepte de bază",
+      "desc": "Situații scurte: recunoști mărimea potrivită sau aplici direct o regulă.",
+      "intrebari": [
+        {
+          "q": "Doi profesori raportează aceeași medie la examen, 7,5. Unul spune că notele sunt foarte apropiate între ele, celălalt că sunt foarte împrăștiate. Ce fel de mărime ar arăta cine are dreptate?",
+          "opts": [
+            "O mărime a dispersiei, care descrie cât de eterogene sunt notele",
+            "O altă mărime a tendinței centrale, de pildă mediana notelor",
+            "Procentul de note de trecere din fiecare dintre cele două grupe",
+            "Un coeficient de corelație calculat între notele celor două grupe"
+          ],
+          "correct": 0,
+          "explain": "Media spune doar unde e centrul; cât de apropiate sau de împrăștiate sunt notele descriu mărimile dispersiei. Mediana e tot tendință centrală (Cap. 3 (Mărimile tendinței centrale)) și poate fi aceeași la ambele grupe, procentele de trecere țin de Cap. 2 (Prezentarea datelor statistice), iar corelația (Cap. 12 (Mărimi ale corelației)) leagă două variabile, nu descrie împrăștierea uneia.",
+          "tag": "Mărimile dispersiei",
+          "tip": "concept"
+        },
+        {
+          "q": "O sociologă vrea să compare cât de diverse sunt două cartiere după etnia locuitorilor. Ce mărime a dispersiei poate folosi?",
+          "opts": [
+            "Abaterea standard a etniilor",
+            "Indicele variației calitative",
+            "Amplitudinea intercuartilică",
+            "Coeficientul de variație"
+          ],
+          "correct": 1,
+          "explain": "Etnia e o variabilă nominală (Cap. 1 (Introducere în statistică)): nu are medie, ordine sau distanțe între categorii, deci abaterea standard, cuartilele și coeficientul de variație nu au sens. IQV lucrează doar cu frecvențele categoriilor, de aceea e mărimea dispersiei pentru nivelul nominal.",
+          "tag": "Domeniul de aplicare al IQV",
+          "tip": "nivel_masura"
+        },
+        {
+          "q": "Un cercetător calculează indicele variației calitative pentru afilierea politică dintr-un sat și obține 1,25. Ce concluzie trage?",
+          "opts": [
+            "A greșit calculul: indicele nu poate depăși 1,00",
+            "Satul depășește variația maximă teoretic posibilă",
+            "Satul are cu 25% mai multă variație decât media țării",
+            "Valoarea e normală dacă există peste patru partide"
+          ],
+          "correct": 0,
+          "explain": "IQV raportează variația observată la cea maxim posibilă, deci rămâne între 0,00 (nicio variație) și 1,00 (variație maximă), oricâte categorii ar exista. O valoare peste 1 trădează o eroare de calcul, nu o variație „peste maxim”.",
+          "tag": "Indicele variației calitative (IQV)",
+          "tip": "concept"
+        },
+        {
+          "q": "Chestionarul unei clase de 28 de elevi are 4 variante pentru limba maternă, dar toți elevii au bifat aceeași limbă. Cât este indicele variației calitative?",
+          "opts": [
+            "1,00 — variația maximă posibilă",
+            "0,25 — o categorie din patru",
+            "Nu se calculează, având categorii goale",
+            "0,00 — nu există nicio variație"
+          ],
+          "correct": 3,
+          "explain": "Când toate cazurile sunt într-o singură categorie, Σf² = n², deci numărătorul k(n² − Σf²) e 0 — ca la colectivitatea A din curs, formată numai din creștin-ortodocși. Categoriile goale intră în k cu frecvența 0 și nu împiedică calculul; 0,25 confundă indicele cu ponderea unei categorii.",
+          "tag": "Colectivitățile A, B, C",
+          "tip": "calcul"
+        },
+        {
+          "q": "La o întrebare cu două variante (da / nu), 50 de respondenți se împart exact: 25 da și 25 nu. Cât este indicele variației calitative?",
+          "opts": [
+            "0,50",
+            "0,00",
+            "1,00",
+            "2,00"
+          ],
+          "correct": 2,
+          "explain": "k = 2, n = 50, Σf² = 625 + 625 = 1250: IQV = 2(2500 − 1250) / [2500 · (2 − 1)] = 1,00. Împărțirea perfect egală între categorii înseamnă variație maximă (ca la colectivitatea C); 0,50 e proporția unei categorii, iar 2,00 depășește limita indicelui.",
+          "tag": "Formula IQV",
+          "tip": "calcul"
+        },
+        {
+          "q": "Vârstele participanților la un studiu merg de la 19 la 64 de ani. Cât este amplitudinea vârstelor?",
+          "opts": [
+            "45 de ani",
+            "64 de ani",
+            "41,5 ani",
+            "83 de ani"
+          ],
+          "correct": 0,
+          "explain": "A = Xmax − Xmin = 64 − 19 = 45. 64 este doar scorul maxim, 41,5 este mijlocul dintre extreme (o valoare centrală, nu o distanță), iar 83 adună extremele în loc să le scadă.",
+          "tag": "Amplitudinea (A)",
+          "tip": "calcul"
+        },
+        {
+          "q": "Timpii de lucru la o sarcină sunt grupați în intervalele 10–14, 15–19, …, 35–39 de minute; scorurile brute nu se mai cunosc. Ce amplitudine aproximativă raportezi?",
+          "opts": [
+            "29 de minute",
+            "30 de minute",
+            "25 de minute",
+            "35 de minute"
+          ],
+          "correct": 1,
+          "explain": "Pentru date grupate, A ≈ limita reală superioară a ultimului interval − limita reală inferioară a primului = 39,5 − 9,5 = 30 (limitele reale din Cap. 2 (Prezentarea datelor statistice)). 29 folosește limitele stabilite (39 − 10), 25 centrele (37 − 12), iar 35 scade limitele inferioare ale primului și ultimului interval.",
+          "tag": "Amplitudinea pentru date grupate",
+          "tip": "calcul"
+        },
+        {
+          "q": "La un test de memorie, 29 de studenți obțin între 12 și 18 puncte, iar unul obține 40. Ce problemă apare dacă descrii dispersia doar prin amplitudine?",
+          "opts": [
+            "Amplitudinea e umflată de un singur scor extrem",
+            "Amplitudinea nu se calculează pentru 30 de scoruri",
+            "Amplitudinea iese negativă din cauza scorului extrem",
+            "Amplitudinea ignoră tocmai scorul extrem de 40"
+          ],
+          "correct": 0,
+          "explain": "A = 40 − 12 = 28, deși aproape toți studenții sunt într-o plajă de 6 puncte: amplitudinea folosește doar extremele, iar un extrem depărtat de restul o face înșelătoare. Ea nu ignoră extremul — tocmai pe el se sprijină.",
+          "tag": "Limitele amplitudinii",
+          "tip": "concept"
+        },
+        {
+          "q": "Într-o distribuție de scoruri ordonate, prima cuartilă este 14, mediana 19, iar a treia cuartilă 26. Cât este amplitudinea intercuartilică?",
+          "opts": [
+            "7",
+            "5",
+            "40",
+            "12"
+          ],
+          "correct": 3,
+          "explain": "Q = Q3 − Q1 = 26 − 14 = 12. 7 este distanța dintre a treia cuartilă și mediană, 5 cea dintre mediană și prima cuartilă (fiecare acoperă doar un sfert din cazuri), iar 40 adună cuartilele.",
+          "tag": "Amplitudinea intercuartilică (Q)",
+          "tip": "calcul"
+        },
+        {
+          "q": "Pentru 200 de pacienți, prima cuartilă a scorurilor de anxietate este 22, iar a treia este 30. Câți pacienți au, aproximativ, scoruri între 22 și 30?",
+          "opts": [
+            "50",
+            "150",
+            "100",
+            "200"
+          ],
+          "correct": 2,
+          "explain": "Între Q1 (P25) și Q3 (P75) se află jumătatea centrală a cazurilor: 50% din 200 = 100 (percentilele din Cap. 3 (Mărimile tendinței centrale)). 50 ar fi un sfert, 150 cei aflați sub a treia cuartilă, iar 200 toți pacienții — intervalul acoperit de amplitudine.",
+          "tag": "Cele 50% de cazuri centrale",
+          "tip": "calcul"
+        },
+        {
+          "q": "Un student adună abaterile de la medie a 8 scoruri: −3, −2, −2, −1, 0, +2, +3, +3, ca să măsoare dispersia, și obține 0. Ce s-a întâmplat?",
+          "opts": [
+            "Nimic greșit: abaterile de la medie se anulează mereu",
+            "A greșit media, altfel suma ar fi ieșit pozitivă",
+            "Scorurile sunt identice, deci dispersia e chiar zero",
+            "Distribuția e simetrică; doar atunci suma iese zero"
+          ],
+          "correct": 0,
+          "explain": "Pentru orice distribuție, suma abaterilor de la medie este 0 (proprietatea mediei din Cap. 3 (Mărimile tendinței centrale)), simetrică sau nu — de aceea suma lor nu poate măsura dispersia. Scorurile nu sunt identice (abaterile diferă), deci dispersia nu e zero; soluția sunt valorile absolute sau pătratele abaterilor.",
+          "tag": "Abaterea de la medie",
+          "tip": "principiu"
+        },
+        {
+          "q": "Abaterile de la medie ale celor 4 scoruri ale unui eșantion sunt −3, −1, +1, +3. Cât este abaterea medie?",
+          "opts": [
+            "0",
+            "2",
+            "5",
+            "2,67"
+          ],
+          "correct": 1,
+          "explain": "Se neglijează semnele: (3 + 1 + 1 + 3) / 4 = 8 / 4 = 2. 0 este media abaterilor luate cu semn, 5 = 20 / 4 este media pătratelor abaterilor (varianța ca pentru o populație), iar 2,67 împarte greșit la n − 1.",
+          "tag": "Abaterea medie",
+          "tip": "calcul"
+        },
+        {
+          "q": "O cercetătoare are scorurile a 25 de studenți și vrea să estimeze din ele varianța întregii populații de studenți. Ce numitor folosește?",
+          "opts": [
+            "n = 25, pentru că atâtea scoruri a obținut",
+            "n − 1 = 24, pentru că scorul maxim se exclude",
+            "n − 1 = 24, pentru a corecta distorsiunea estimării",
+            "n + 1 = 26, pentru că se adaugă și media"
+          ],
+          "correct": 2,
+          "explain": "Varianța unui eșantion, calculată cu n, e un estimator distorsionat al varianței populației; numitorul n − 1 corectează distorsiunea (Cap. 7 (Proceduri de estimare statistică)). Niciun scor nu se exclude; n ar fi potrivit doar dacă cele 25 de scoruri ar fi chiar toată populația de interes.",
+          "tag": "Numitorul n − 1",
+          "tip": "principiu"
+        },
+        {
+          "q": "Într-un experiment, timpii de reacție sunt măsurați în milisecunde, iar varianța lor iese 400. În ce unitate este exprimată această valoare?",
+          "opts": [
+            "În milisecunde, ca timpii",
+            "În procente din timpul mediu",
+            "Fără unitate, fiind un indice",
+            "În milisecunde la pătrat"
+          ],
+          "correct": 3,
+          "explain": "Varianța ridică abaterile la pătrat, deci unitatea ei este pătratul unității scorurilor (ms²). Abaterea standard, √400 = 20 ms, readuce unitatea scorurilor; procentele țin de coeficientul de variație.",
+          "tag": "Unitatea varianței",
+          "tip": "concept"
+        },
+        {
+          "q": "Un psiholog vrea să compare cât de variabil este timpul de reacție simplu (media 250 ms) cu timpul de rezolvare a unui test (media 18 minute). Ce mărime îi permite comparația?",
+          "opts": [
+            "Abaterea standard, mai mare la variabila mai variabilă",
+            "Coeficientul de variație, s / X̄ exprimat în procente",
+            "Varianța, care pune ambele variabile pe aceeași scară",
+            "Amplitudinea, care ține seama doar de extreme"
+          ],
+          "correct": 1,
+          "explain": "Mediile sunt foarte diferite (și unitățile la fel), iar CV raportează abaterea standard la medie, dând un procent comparabil — tocmai situația pentru care e recomandat. Abaterea standard și varianța depind de mărimea și unitatea scorurilor; amplitudinea are aceeași problemă, plus sensibilitatea la extreme.",
+          "tag": "Coeficientul de variație (CV)",
+          "tip": "concept"
+        }
+      ],
+      "ascunse": [
+        {
+          "q": "Ai doar distribuția grupată: intervalul cu centrul 42 conține 22 de cazuri. Cu cât contribuie acest interval la suma aproximativă a pătratelor scorurilor?",
+          "opts": [
+            "38808",
+            "1764",
+            "924",
+            "853776"
+          ],
+          "correct": 0,
+          "explain": "Fiecare dintre cele 22 de scoruri e înlocuit cu centrul 42, deci contribuția e f · m² = 22 · 1764 = 38808. 1764 ia un singur caz, 924 = 22 · 42 este contribuția la suma scorurilor, nu a pătratelor, iar 853776 = (22 · 42)² ridică la pătrat produsul.",
+          "tag": "Aproximarea sumelor",
+          "tip": "calcul"
+        },
+        {
+          "q": "Media celor 40 de scoruri ale unui eșantion iese 23,7375. Ce cale de calcul a varianței te scutește de 40 de scăderi cu zecimale?",
+          "opts": [
+            "Rotunjirea mediei la 24 înainte de calcul",
+            "Împărțirea sumei abaterilor la n − 1",
+            "Cea care folosește doar ΣX, ΣX² și n",
+            "Calculul amplitudinii în locul varianței"
+          ],
+          "correct": 2,
+          "explain": "Formula de calcul simplificat, cu ΣX, ΣX² și n, nu mai cere diferențele X − X̄ și evită rotunjirile repetate. Rotunjirea mediei introduce erori în fiecare abatere; suma abaterilor e mereu 0, oricare ar fi numitorul; amplitudinea e altă mărime, nu o cale de calcul a varianței.",
+          "tag": "Formula 4.6",
+          "tip": "metoda"
+        },
+        {
+          "q": "Doi colegi calculează varianța acelorași 30 de scoruri: unul pornind de la abaterile de la medie, celălalt doar din ΣX și ΣX². Ce trebuie să obțină?",
+          "opts": [
+            "Același rezultat, formulele fiind echivalente algebric",
+            "Rezultate ușor diferite, a doua formulă fiind aproximativă",
+            "Rezultate diferite, a doua formulă fiind pentru populații",
+            "Al doilea obține abaterea standard, nu varianța"
+          ],
+          "correct": 0,
+          "explain": "Formulele de calcul simplificat se deduc din formula definițională și, aplicate la aceleași date, dau același rezultat; sunt doar mai comode când media are zecimale. Aproximative sunt formulele pentru date grupate, nu acestea.",
+          "tag": "Formule echivalente algebric",
+          "tip": "concept"
+        },
+        {
+          "q": "Varianța scorurilor la o scală de stres este 36 de puncte la pătrat. Ce abatere standard raportezi?",
+          "opts": [
+            "6 puncte",
+            "18 puncte",
+            "1296 de puncte",
+            "36 de puncte"
+          ],
+          "correct": 0,
+          "explain": "Abaterea standard este rădăcina pătrată a varianței: √36 = 6, în unitatea scorurilor. 18 înjumătățește varianța, 1296 o ridică la pătrat, iar 36 doar schimbă eticheta unității.",
+          "tag": "Abaterea standard",
+          "tip": "calcul"
+        },
+        {
+          "q": "Un analist are scorurile tuturor celor 8 membri ai unei echipe și vrea varianța echipei, care e toată populația de interes, cu formula de calcul simplificat. Ce schimbă față de varianta pentru eșantion?",
+          "opts": [
+            "Media μ în loc de X̄, dar păstrează n − 1",
+            "Împarte rezultatul încă o dată la N",
+            "Nimic, formula e aceeași pentru ambele",
+            "Media μ în loc de X̄ și N în loc de n − 1"
+          ],
+          "correct": 3,
+          "explain": "Formulele pentru populații se obțin înlocuind X̄ cu μ și numitorul n − 1 cu N; corecția n − 1 e necesară doar când estimezi o populație dintr-un eșantion. A doua împărțire la N nu are niciun temei.",
+          "tag": "Formulele pentru populații",
+          "tip": "regula"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "eticheta": "Runda 3 · Aplicații",
+      "titlu": "Runda 3 — Scenarii și raționament",
+      "desc": "Calculezi, alegi mărimea potrivită și interpretezi rezultatul pe situații concrete.",
+      "intrebari": [
+        {
+          "q": "Într-o grupă de 10 studenți sunt 8 femei și 2 bărbați. Cât este indicele variației calitative pentru variabila sex?",
+          "opts": [
+            "0,64",
+            "0,80",
+            "0,20",
+            "0,32"
+          ],
+          "correct": 0,
+          "explain": "k = 2, n = 10, Σf² = 64 + 4 = 68: IQV = 2(100 − 68) / [100 · (2 − 1)] = 64 / 100 = 0,64. 0,32 uită factorul k din numărător; 0,80 și 0,20 sunt proporțiile femeilor și bărbaților, nu un indice al variației.",
+          "tag": "Formula IQV",
+          "tip": "calcul",
+          "exemplu_nou": true
+        },
+        {
+          "q": "La variabila „limba maternă”, grupul X are IQV = 0,15, iar grupul Y are IQV = 0,92. Ce rezultă?",
+          "opts": [
+            "Grupul X este mai eterogen, având indicele mai mic",
+            "Grupul Y are de șase ori mai multe limbi decât X",
+            "Grupurile nu se pot compara printr-un astfel de indice",
+            "Grupul Y este mult mai eterogen lingvistic decât X"
+          ],
+          "correct": 3,
+          "explain": "IQV aproape de 1 înseamnă variație apropiată de maximul posibil, aproape de 0 — aproape toți în aceeași categorie; exact așa sunt comparate colectivitățile A, B, C. Raportul indicilor nu spune câte categorii există, iar compararea grupurilor e chiar rostul indicelui.",
+          "tag": "Colectivitățile A, B, C",
+          "tip": "concept",
+          "exemplu_nou": true
+        },
+        {
+          "q": "Trei comunități de câte 90 de persoane: în A toți sunt ortodocși; în B sunt 60 ortodocși, 20 catolici, 10 de alte religii; în C câte 30 în fiecare categorie. Cum se ordonează indicii variației calitative?",
+          "opts": [
+            "A = 1 (maxim), B la mijloc, C = 0",
+            "A = 0, B la mijloc, C = 1 (maxim)",
+            "B are maximul, având o categorie dominantă",
+            "Toți sunt egali, având același n și k"
+          ],
+          "correct": 1,
+          "explain": "În comunitatea A, cu toți membrii într-o categorie, nu există variație: IQV = 0; în C, împărțirea perfect egală dă variația maximă, 1,00; B, cu o categorie dominantă, iese la mijloc (0,74). O categorie dominantă scade variația, nu o crește; n și k egale nu fac indicii egali, pentru că diferă Σf².",
+          "tag": "Colectivitățile A, B, C",
+          "tip": "concept",
+          "exemplu_nou": false
+        },
+        {
+          "q": "Un consilier notează câte ore de somn au pierdut 15 studenți în sesiune, în ordine: 2, 4, 4, 5, 7, 8, 10, 12, 17, 18, 18, 21, 27, 29, 30. Cât sunt amplitudinea și amplitudinea intercuartilică?",
+          "opts": [
+            "A = 28 și Q = 16",
+            "A = 16 și Q = 28",
+            "A = 28 și Q = 9",
+            "A = 30 și Q = 21"
+          ],
+          "correct": 0,
+          "explain": "A = 30 − 2 = 28; prima cuartilă e al 4-lea scor (5), a treia al 12-lea (21), deci Q = 16. Inversarea lor confundă cele două mărimi; 9 este a treia cuartilă minus mediană (21 − 12), adică doar un sfert din cazuri; 30 și 21 sunt chiar scoruri, nu diferențe.",
+          "tag": "Amplitudinea intercuartilică (Q)",
+          "tip": "calcul",
+          "exemplu_nou": false
+        },
+        {
+          "q": "Timpi de reacție (ms): 310, 320, 325, 330, 335, 340, 345, 350 și 990 (un subiect a ațipit). Ce mărime e cea mai puțin afectată de 990?",
+          "opts": [
+            "Amplitudinea, sprijinită pe scorul minim și pe cel maxim",
+            "Amplitudinea intercuartilică, sprijinită pe jumătatea centrală",
+            "Varianța, care ține seama de toate scorurile, inclusiv de 990",
+            "Abaterea standard, exprimată în aceeași unitate ca scorurile"
+          ],
+          "correct": 1,
+          "explain": "Q folosește doar prima și a treia cuartilă, deci un scor extrem nu o mișcă. Amplitudinea sare de la 40 la 680 ms; varianța și abaterea standard folosesc toate scorurile, iar abaterea pătratică uriașă a lui 990 le umflă — faptul că abaterea standard are unitatea scorurilor nu o apără de extreme.",
+          "tag": "Cele 50% de cazuri centrale",
+          "tip": "concept",
+          "exemplu_nou": true
+        },
+        {
+          "q": "Două clase au notele între 2 și 10. În prima, majoritatea au 6–7; în a doua, jumătate au 2–3, jumătate 9–10. Ce arată exemplul?",
+          "opts": [
+            "Clasele sunt la fel de eterogene, având aceeași amplitudine",
+            "Amplitudinea trebuia calculată aici cu limitele reale",
+            "Amplitudinea nu spune nimic despre notele dintre extreme",
+            "A doua clasă are amplitudinea mai mare decât prima"
+          ],
+          "correct": 2,
+          "explain": "Ambele au A = 8, dar a doua distribuție e bimodală, cu notele strânse lângă extreme — exact neajunsul amplitudinii. Aceeași amplitudine nu înseamnă aceeași eterogenitate; limitele reale se folosesc doar la date grupate în intervale.",
+          "tag": "Limitele amplitudinii",
+          "tip": "concept",
+          "exemplu_nou": true
+        },
+        {
+          "q": "Două eșantioane de câte 7 persoane au vârstele 11, 16, 18, 23, 29, 31, 37 și 18, 19, 21, 23, 24, 26, 29. Ce poți spune despre eterogenitatea lor?",
+          "opts": [
+            "Primul e mai eterogen: amplitudine 26 față de 11",
+            "Sunt la fel de eterogene: au aceeași mediană, 23",
+            "Al doilea e mai eterogen: are media mai mică",
+            "Nu se pot compara, mediile fiind diferite"
+          ],
+          "correct": 0,
+          "explain": "Cu număr egal de scoruri, amplitudinile permit o comparație rapidă: 37 − 11 = 26 față de 29 − 18 = 11. Mediana comună (23) și mediile apropiate (23,57; 22,86) arată doar că tendința centrală e aceeași — exact motivul pentru care e nevoie și de mărimi ale dispersiei.",
+          "tag": "Comparația rapidă a două distribuții",
+          "tip": "concept",
+          "exemplu_nou": false
+        },
+        {
+          "q": "Scorurile unui eșantion sunt 2, 4, 6, 8, 10. Cât este abaterea medie?",
+          "opts": [
+            "0",
+            "2,4",
+            "3,0",
+            "10"
+          ],
+          "correct": 1,
+          "explain": "X̄ = 6; abaterile în valoare absolută sunt 4, 2, 0, 2, 4, cu suma 12; d̄ = 12 / 5 = 2,4. 0 este media abaterilor luate cu semn, 3,0 împarte greșit la n − 1 (numitorul varianței), iar 10 este varianța eșantionului.",
+          "tag": "Abaterea medie",
+          "tip": "calcul",
+          "exemplu_nou": true
+        },
+        {
+          "q": "Scorurile unui eșantion sunt 3, 5, 7, 9. Cât este varianța s²?",
+          "opts": [
+            "5,00",
+            "2,58",
+            "6,67",
+            "2,00"
+          ],
+          "correct": 2,
+          "explain": "X̄ = 6; pătratele abaterilor: 9, 1, 1, 9, cu suma 20; s² = 20 / (4 − 1) = 6,67. 5,00 împarte la n (varianța unei populații), 2,58 este abaterea standard (√6,67), iar 2,00 este abaterea medie (8 / 4).",
+          "tag": "Varianța",
+          "tip": "calcul",
+          "exemplu_nou": true
+        },
+        {
+          "q": "Un psiholog are scorurile tuturor celor 12 angajați ai unei firme, iar firma e singura care îl interesează. Ce numitor folosește la varianță?",
+          "opts": [
+            "n − 1 = 11, pentru că grupul are mai puțin de 30 de persoane",
+            "n − 1 = 11, pentru că orice grup concret este un eșantion",
+            "N = 12, pentru că datele sunt chiar populația de interes",
+            "N² = 144, pentru că abaterile sunt ridicate la pătrat"
+          ],
+          "correct": 2,
+          "explain": "Când scorurile acoperă toată populația, varianța se împarte la N; corecția n − 1 există pentru a estima varianța unei populații pornind de la un eșantion. Mărimea grupului nu decide formula, iar ridicarea la pătrat privește abaterile, nu numitorul.",
+          "tag": "Varianța",
+          "tip": "concept",
+          "exemplu_nou": true
+        },
+        {
+          "q": "Pentru 11 scoruri cu media 19 ai calculat deja ΣX² = 4045. Cum afli rapid varianța eșantionului, fără să mai calculezi abaterile?",
+          "opts": [
+            "(4045 − 19²) / 10 = 368,40",
+            "(4045 − 11 · 19) / 10 = 383,60",
+            "(4045 − 11 · 19²) / 11 = 6,73",
+            "(4045 − 11 · 19²) / 10 = 7,40"
+          ],
+          "correct": 3,
+          "explain": "s² = (ΣX² − nX̄²) / (n − 1) = (4045 − 3971) / 10 = 7,40. Scăderea lui X̄² fără n sau a lui nX̄ fără pătrat strică termenul scăzut; împărțirea la 11 dă varianța ca pentru o populație.",
+          "tag": "Formula 4.5",
+          "tip": "calcul",
+          "exemplu_nou": false
+        },
+        {
+          "q": "Ai doar ΣX = 30, ΣX² = 220 și n = 5, fără scorurile individuale. Cât este varianța eșantionului?",
+          "opts": [
+            "8",
+            "38",
+            "47,5",
+            "10"
+          ],
+          "correct": 3,
+          "explain": "[220 − 30² / 5] / 4 = (220 − 180) / 4 = 10. 8 împarte la n, nu la n − 1; 38 și 47,5 scad ΣX în loc de (ΣX)² / n.",
+          "tag": "Formula 4.6",
+          "tip": "calcul",
+          "exemplu_nou": true
+        },
+        {
+          "q": "Varianța timpului zilnic de studiu este 2,25 ore². Cum exprimi variabilitatea în aceeași unitate ca scorurile?",
+          "opts": [
+            "Prin abaterea standard: √2,25 = 1,5 ore",
+            "Prin varianța înjumătățită: 1,125 ore",
+            "Prin varianța la pătrat: 5,06 ore",
+            "Prin coeficientul de variație: 2,25%"
+          ],
+          "correct": 0,
+          "explain": "Abaterea standard este rădăcina varianței și readuce unitatea de la ore² la ore. Înjumătățirea sau ridicarea la pătrat nu schimbă unitatea corect, iar coeficientul de variație cere și media și se exprimă în procente.",
+          "tag": "Abaterea standard",
+          "tip": "calcul",
+          "exemplu_nou": true
+        },
+        {
+          "q": "Nou-născuți: X̄ = 3,4 kg, s = 0,5 kg. Adulți: X̄ = 72 kg, s = 12 kg. Unde este variabilitatea relativă mai mare?",
+          "opts": [
+            "La adulți, pentru că 12 kg depășește mult 0,5 kg",
+            "La nou-născuți: CV ≈ 16,7% față de 14,7%",
+            "Nu se pot compara, având medii foarte diferite",
+            "La adulți: CV ≈ 16,7% față de 14,7%"
+          ],
+          "correct": 3,
+          "explain": "CV = s / X̄ · 100: 0,5 / 3,4 ≈ 14,7%, 12 / 72 ≈ 16,7%. Compararea directă a abaterilor standard ignoră mediile foarte diferite — tocmai situația pentru care e recomandat CV; varianta cu nou-născuții inversează valorile.",
+          "tag": "Coeficientul de variație (CV)",
+          "tip": "calcul",
+          "exemplu_nou": true
+        },
+        {
+          "q": "Pentru vârste între 11 și 37 de ani (media 23,57), un student raportează o amplitudine relativă de 110% și conchide că grupul e extrem de eterogen. Ce e problematic?",
+          "opts": [
+            "Calculul e greșit: un procent nu trece de 100%",
+            "Calculul e corect, dar A% nu are mereu sens intuitiv",
+            "Nimic: peste 100% indică mereu eterogenitate",
+            "A% trebuia raportată la mediană, nu la medie"
+          ],
+          "correct": 1,
+          "explain": "A% = 26 / 23,57 · 100 ≈ 110%: calculul e corect, dar amplitudinea relativă nu are întotdeauna sens intuitiv pentru aprecierea omogenității unei singure distribuții. Un raport între două mărimi poate trece de 100%, dar nu există un prag de 100% al eterogenității; definiția raportează amplitudinea la medie.",
+          "tag": "Amplitudinea relativă (A%)",
+          "tip": "concept",
+          "exemplu_nou": false
+        }
+      ],
+      "ascunse": [
+        {
+          "q": "Un psiholog are doar tabelul grupat al celor 180 de scoruri, pe intervale de 5 puncte, și obține cu centrele de interval o abatere standard de 9,05; un coleg, cu scorurile brute, obține 9,00. Ce explică diferența?",
+          "opts": [
+            "Centrele de interval doar aproximează scorurile reale",
+            "Psihologul a împărțit la n în loc de n − 1",
+            "Datele grupate au mereu dispersia mult mai mare",
+            "Colegul a calculat varianța, nu abaterea standard"
+          ],
+          "correct": 0,
+          "explain": "La date grupate scorurile individuale nu se cunosc, așa că ΣX și ΣX² se aproximează prin Σfm și Σfm²: rezultatul e apropiat, dar nu identic. Numitorul rămâne n − 1, diferența e mică (nu „mult mai mare”), iar 9,00 nu poate fi varianța acelorași scoruri.",
+          "tag": "Aproximarea sumelor",
+          "tip": "concept",
+          "exemplu_nou": false
+        },
+        {
+          "q": "O distribuție grupată are trei intervale, cu centrele 10, 20, 30 și frecvențele 2, 6, 2 (n = 10). Cât este, aproximativ, abaterea standard?",
+          "opts": [
+            "6,32",
+            "6,67",
+            "44,44",
+            "20,00"
+          ],
+          "correct": 1,
+          "explain": "Σfm = 200, Σfm² = 200 + 2400 + 1800 = 4400; s² ≈ (4400 − 200² / 10) / 9 = 400 / 9 = 44,44, deci s ≈ 6,67. 6,32 împarte la n (√40), 44,44 este varianța, nu abaterea standard, iar 20 este media.",
+          "tag": "Formula 4.11",
+          "tip": "calcul",
+          "exemplu_nou": true
+        },
+        {
+          "q": "Un student calculează Σ(X − X̄) pentru 20 de scoruri și obține 14. Ce rezultă?",
+          "opts": [
+            "Distribuția are o dispersie mare, deci suma e pozitivă",
+            "Abaterea medie a distribuției este 14 / 20 = 0,7",
+            "Media e o mărime greșit aleasă aici; trebuia luată mediana",
+            "A greșit calculul: suma abaterilor de la medie e mereu 0"
+          ],
+          "correct": 3,
+          "explain": "Pentru orice distribuție Σ(Xi − X̄) = 0 (Cap. 3 (Mărimile tendinței centrale)); o sumă diferită de 0 indică o eroare (de pildă o medie greșită). Tocmai de aceea abaterea medie folosește valori absolute, iar dispersia nu se poate citi din această sumă.",
+          "tag": "Abaterea de la medie",
+          "tip": "eroare",
+          "exemplu_nou": true
+        },
+        {
+          "q": "Testul A: X̄ = 50, s = 10. Testul B: X̄ = 20, s = 6. Care test are variabilitatea relativă mai mare?",
+          "opts": [
+            "Testul B: CV = 30%, față de 20%",
+            "Testul A: are abaterea standard mai mare",
+            "Testul A: CV = 30%, față de 20%",
+            "Sunt egale: ambele au s / X̄ sub 1"
+          ],
+          "correct": 0,
+          "explain": "Pentru A, CV = 10 / 50 · 100 = 20%; pentru B, CV = 6 / 20 · 100 = 30%. Abaterea standard absolută nu ține seama de mediile diferite; varianta cu testul A inversează valorile.",
+          "tag": "Coeficientul de variație (CV)",
+          "tip": "calcul",
+          "exemplu_nou": true
+        },
+        {
+          "q": "Pentru două grupe de câte 50 de copii, cu aceeași mediană a vocabularului, amplitudinea intercuartilică este 12 cuvinte în grupa A și 30 în grupa B. Ce poți conchide?",
+          "opts": [
+            "Grupa B are mai mulți copii cu scoruri extreme",
+            "Grupa B are media de 2,5 ori mai mare decât A",
+            "Jumătatea centrală a grupei B e mai împrăștiată",
+            "Grupa A nu are deloc scoruri extreme, spre deosebire de B"
+          ],
+          "correct": 2,
+          "explain": "Q descrie doar cei 50% de copii din centrul distribuției: în B ei se întind pe 30 de cuvinte, în A pe 12. Despre extreme Q nu spune nimic (nici că B are mai multe, nici că A n-are), iar raportul a două amplitudini nu spune nimic despre medii.",
+          "tag": "Cele 50% de cazuri centrale",
+          "tip": "concept",
+          "exemplu_nou": true
+        }
+      ]
+    }
+  ],
+  "harta": {
+    "centru": "Mărimile dispersiei",
+    "ramuri": [
+      {
+        "titlu": "Ce măsoară dispersia",
+        "noduri": [
+          {
+            "t": "Mărimile dispersiei",
+            "d": "Mărimi statistice care furnizează informație despre eterogenitatea sau varietatea unei distribuții de scoruri."
+          },
+          {
+            "t": "Tendința centrală nu ajunge",
+            "d": "Media, mediana și modul, din Cap. 3 (Mărimile tendinței centrale), nu epuizează informația: două eșantioane de vârste au aceeași mediană (23), dar amplitudini de 26 și 11 ani. Pentru descrierea completă a unei distribuții e nevoie și de dispersie."
+          }
+        ],
+        "tabel": {
+          "cap": [
+            "Mărime",
+            "Formula",
+            "Ce folosește din distribuție",
+            "Avantaj / limită"
+          ],
+          "randuri": [
+            [
+              "IQV",
+              "k(n² − Σf²) / [n²(k − 1)]",
+              "frecvențele celor k categorii",
+              "merge la nivel nominal; 0 = nicio variație, 1 = maximă"
+            ],
+            [
+              "Amplitudinea A",
+              "Xmax − Xmin",
+              "doar cele două scoruri extreme",
+              "rapidă; sensibilă la extreme, tace despre scorurile dintre ele"
+            ],
+            [
+              "Amplitudinea intercuartilică Q",
+              "Q3 − Q1",
+              "două scoruri: Q1 și Q3 (50% centrale)",
+              "evită extremele; tot nu descrie scorurile dintre ele"
+            ],
+            [
+              "Abaterea medie d̄",
+              "Σ|Xi − X̄| / n",
+              "toate scorurile, față de medie",
+              "ocolește Σ(Xi − X̄) = 0 prin valori absolute"
+            ],
+            [
+              "Varianța s², σ²",
+              "Σ(Xi − X̄)² / (n − 1); Σ(Xi − μ)² / N",
+              "toate scorurile, față de medie",
+              "unitatea scorurilor la pătrat"
+            ],
+            [
+              "Abaterea standard s, σ",
+              "√s²",
+              "toate scorurile, față de medie",
+              "în aceeași unitate ca scorurile"
+            ],
+            [
+              "Coeficientul de variație CV",
+              "(s / X̄) · 100",
+              "abaterea standard și media",
+              "compară distribuții cu medii sensibil diferite"
+            ]
+          ]
+        }
+      },
+      {
+        "titlu": "Indicele variației calitative",
+        "noduri": [
+          {
+            "t": "Indicele variației calitative (IQV)",
+            "d": "Raportul dintre variația observată efectiv într-o distribuție și variația maxim posibilă pentru acea distribuție (Index of Qualitative Variation). Ia valori de la 0,00 (variație nulă) la 1,00 (variație maximă)."
+          },
+          {
+            "t": "Formula IQV",
+            "d": "IQV = k(n² − Σf²) / [n²(k − 1)], cu k = numărul de categorii, n = numărul total de cazuri, Σf² = suma pătratelor frecvențelor. Cartea o numerotează „Formula 3.7” (scăpare; următoarea formulă din unitate este 4.2)."
+          },
+          {
+            "t": "Colectivitățile A, B, C",
+            "d": "Eterogenitatea religioasă (n = 90, k = 3, numitor 16200): A 90/0/0 → Σf² = 8100 → IQV = 0; B 60/20/10 → 4100 → 0,74; C 30/30/30 → 2700 → 1,00. Indicele confirmă ce se vede din tabel: A omogenă, C cea mai eterogenă."
+          },
+          {
+            "t": "Domeniul de aplicare al IQV",
+            "d": "Se folosește în mod obișnuit la variabile nominale; poate fi folosit și la celelalte niveluri de măsură dacă scorurile sunt grupate în distribuții de frecvențe."
+          }
+        ],
+        "figuri": [
+          {
+            "titlu": "IQV în cele trei colectivități (tabelul 4.1)",
+            "nota": "Cu cât frecvențele sunt mai egal împărțite, cu atât Σf² scade și IQV crește spre 1.",
+            "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 168\" role=\"img\" aria-label=\"Trei colectivități de câte 90 de persoane: A omogenă (IQV 0), B intermediară (0,74), C cu variație maximă (1,00)\" font-family=\"Georgia, serif\" font-size=\"13\"><rect x=\"12.0\" y=\"8.0\" width=\"10.0\" height=\"10.0\" fill=\"#2a78d6\"></rect><text x=\"26.0\" y=\"17.0\" text-anchor=\"start\" fill=\"#2c2a26\" font-size=\"10.8\">Creștin-ortodox</text><rect x=\"133.0\" y=\"8.0\" width=\"10.0\" height=\"10.0\" fill=\"#eb6834\"></rect><text x=\"147.0\" y=\"17.0\" text-anchor=\"start\" fill=\"#2c2a26\" font-size=\"10.8\">Catolic</text><rect x=\"204.4\" y=\"8.0\" width=\"10.0\" height=\"10.0\" fill=\"#1baf7a\"></rect><text x=\"218.4\" y=\"17.0\" text-anchor=\"start\" fill=\"#2c2a26\" font-size=\"10.8\">Altele</text><text x=\"26.0\" y=\"49.0\" text-anchor=\"end\" fill=\"#2c2a26\" font-size=\"12.0\">A</text><rect x=\"34.0\" y=\"34.0\" width=\"190.0\" height=\"22.0\" fill=\"#2a78d6\" stroke=\"#ffffff\" stroke-width=\"1\"><title>Colectivitatea A, Creștin-ortodox: 90</title></rect><text x=\"129.0\" y=\"49.0\" text-anchor=\"middle\" fill=\"#ffffff\" font-size=\"10.8\">90</text><text x=\"232.0\" y=\"44.0\" text-anchor=\"start\" fill=\"#2c2a26\" font-size=\"12.0\">IQV = 0</text><text x=\"232.0\" y=\"57.0\" text-anchor=\"start\" fill=\"#6b6760\" font-size=\"10.2\">Σf² = 8100</text><text x=\"26.0\" y=\"89.0\" text-anchor=\"end\" fill=\"#2c2a26\" font-size=\"12.0\">B</text><rect x=\"34.0\" y=\"74.0\" width=\"126.7\" height=\"22.0\" fill=\"#2a78d6\" stroke=\"#ffffff\" stroke-width=\"1\"><title>Colectivitatea B, Creștin-ortodox: 60</title></rect><text x=\"97.3\" y=\"89.0\" text-anchor=\"middle\" fill=\"#ffffff\" font-size=\"10.8\">60</text><rect x=\"160.7\" y=\"74.0\" width=\"42.2\" height=\"22.0\" fill=\"#eb6834\" stroke=\"#ffffff\" stroke-width=\"1\"><title>Colectivitatea B, Catolic: 20</title></rect><text x=\"181.8\" y=\"89.0\" text-anchor=\"middle\" fill=\"#ffffff\" font-size=\"10.8\">20</text><rect x=\"202.9\" y=\"74.0\" width=\"21.1\" height=\"22.0\" fill=\"#1baf7a\" stroke=\"#ffffff\" stroke-width=\"1\"><title>Colectivitatea B, Altele: 10</title></rect><text x=\"232.0\" y=\"84.0\" text-anchor=\"start\" fill=\"#2c2a26\" font-size=\"12.0\">IQV = 0,74</text><text x=\"232.0\" y=\"97.0\" text-anchor=\"start\" fill=\"#6b6760\" font-size=\"10.2\">Σf² = 4100</text><text x=\"26.0\" y=\"129.0\" text-anchor=\"end\" fill=\"#2c2a26\" font-size=\"12.0\">C</text><rect x=\"34.0\" y=\"114.0\" width=\"63.3\" height=\"22.0\" fill=\"#2a78d6\" stroke=\"#ffffff\" stroke-width=\"1\"><title>Colectivitatea C, Creștin-ortodox: 30</title></rect><text x=\"65.7\" y=\"129.0\" text-anchor=\"middle\" fill=\"#ffffff\" font-size=\"10.8\">30</text><rect x=\"97.3\" y=\"114.0\" width=\"63.3\" height=\"22.0\" fill=\"#eb6834\" stroke=\"#ffffff\" stroke-width=\"1\"><title>Colectivitatea C, Catolic: 30</title></rect><text x=\"129.0\" y=\"129.0\" text-anchor=\"middle\" fill=\"#ffffff\" font-size=\"10.8\">30</text><rect x=\"160.7\" y=\"114.0\" width=\"63.3\" height=\"22.0\" fill=\"#1baf7a\" stroke=\"#ffffff\" stroke-width=\"1\"><title>Colectivitatea C, Altele: 30</title></rect><text x=\"192.3\" y=\"129.0\" text-anchor=\"middle\" fill=\"#ffffff\" font-size=\"10.8\">30</text><text x=\"232.0\" y=\"124.0\" text-anchor=\"start\" fill=\"#2c2a26\" font-size=\"12.0\">IQV = 1,00</text><text x=\"232.0\" y=\"137.0\" text-anchor=\"start\" fill=\"#6b6760\" font-size=\"10.2\">Σf² = 2700</text><text x=\"160.0\" y=\"160.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.8\">n = 90, k = 3: numitorul n²(k − 1) = 16200</text></svg>"
+          }
+        ]
+      },
+      {
+        "titlu": "Amplitudinea",
+        "noduri": [
+          {
+            "t": "Amplitudinea (A)",
+            "d": "A = Xmax − Xmin, diferența dintre cel mai mare și cel mai mic scor; pentru tabelul 2.4, 69 − 24 = 45 (am întâlnit-o în Cap. 2 (Prezentarea datelor statistice), la mărimea intervalelor). Se mai numește amplitudine absolută."
+          },
+          {
+            "t": "Amplitudinea pentru date grupate",
+            "d": "Se aproximează prin limita reală superioară a ultimului interval minus limita reală inferioară a primului (intervale în ordine crescătoare): A ≈ LCRSmax − LCRImin = 69,5 − 19,5 = 50."
+          },
+          {
+            "t": "Limitele amplitudinii",
+            "d": "Ține seama doar de scorurile extreme, care pot fi foarte depărtate de cele intermediare; nu spune nimic despre scorurile dintre ele (grupate în centru, împrăștiate omogen, concentrate lângă extreme — distribuție bimodală)."
+          },
+          {
+            "t": "Amplitudinea relativă (A%)",
+            "d": "A% = A / X̄ · 100. Nu are întotdeauna sens intuitiv la aprecierea omogenității unei singure distribuții: pentru eșantionul 1 de vârste, A% = 26 / 23,57 · 100 ≈ 110%."
+          }
+        ]
+      },
+      {
+        "titlu": "Amplitudinea intercuartilică",
+        "noduri": [
+          {
+            "t": "Amplitudinea intercuartilică (Q)",
+            "d": "Q = Q3 − Q1, pentru scoruri ordonate crescător; Q1 = P25 și Q3 = P75 (percentilele din Cap. 3 (Mărimile tendinței centrale)). Pentru 2, 4, 4, 5, 7, 8, 10, 12, 17, 18, 18, 21, 27, 29, 30: A = 28, Q = 21 − 5 = 16."
+          },
+          {
+            "t": "Cele 50% de cazuri centrale",
+            "d": "Q ia în considerare jumătatea centrală a cazurilor și evită astfel problema scorurilor extreme. Dar, ca și A, folosește doar două scoruri, deci nu descrie scorurile dintre ele."
+          },
+          {
+            "t": "Comparația rapidă a două distribuții",
+            "d": "A și Q sunt utile pentru o măsură rapidă a variabilității și mai ales pentru compararea a două distribuții cu număr egal de scoruri. Vârste: X̄ = 23,57 și 22,86, mediana 23 în ambele, A = 26 față de 11 → primul eșantion e mai eterogen."
+          }
+        ],
+        "figuri": [
+          {
+            "titlu": "Amplitudinea și amplitudinea intercuartilică",
+            "nota": "A depinde doar de cele două extreme; Q acoperă jumătatea centrală a scorurilor.",
+            "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 176\" role=\"img\" aria-label=\"Cele 15 scoruri pe o axă, cu Q1, mediana și Q3; amplitudinea 28 și amplitudinea intercuartilică 16\" font-family=\"Georgia, serif\" font-size=\"13\"><rect x=\"62.7\" y=\"44.0\" width=\"143.0\" height=\"56.0\" fill=\"#2a78d6\" fill-opacity=\"0.12\"><title>cele 50% de cazuri centrale, între Q1 = 5 și Q3 = 21</title></rect><line x1=\"18.0\" y1=\"92.0\" x2=\"304.0\" y2=\"92.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><line x1=\"18.0\" y1=\"92.0\" x2=\"18.0\" y2=\"96.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><text x=\"18.0\" y=\"107.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">0</text><line x1=\"62.7\" y1=\"92.0\" x2=\"62.7\" y2=\"96.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><text x=\"62.7\" y=\"107.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">5</text><line x1=\"107.4\" y1=\"92.0\" x2=\"107.4\" y2=\"96.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><text x=\"107.4\" y=\"107.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">10</text><line x1=\"152.1\" y1=\"92.0\" x2=\"152.1\" y2=\"96.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><text x=\"152.1\" y=\"107.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">15</text><line x1=\"196.8\" y1=\"92.0\" x2=\"196.8\" y2=\"96.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><text x=\"196.8\" y=\"107.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">20</text><line x1=\"241.4\" y1=\"92.0\" x2=\"241.4\" y2=\"96.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><text x=\"241.4\" y=\"107.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">25</text><line x1=\"286.1\" y1=\"92.0\" x2=\"286.1\" y2=\"96.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><text x=\"286.1\" y=\"107.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">30</text><circle cx=\"35.9\" cy=\"84.0\" r=\"4.5\" fill=\"#2a78d6\" stroke=\"#faf8f3\" stroke-width=\"1.5\"><title>scorul 2</title></circle><circle cx=\"53.8\" cy=\"84.0\" r=\"4.5\" fill=\"#2a78d6\" stroke=\"#faf8f3\" stroke-width=\"1.5\"><title>scorul 4</title></circle><circle cx=\"53.8\" cy=\"74.0\" r=\"4.5\" fill=\"#2a78d6\" stroke=\"#faf8f3\" stroke-width=\"1.5\"><title>scorul 4</title></circle><circle cx=\"62.7\" cy=\"84.0\" r=\"4.5\" fill=\"#2a78d6\" stroke=\"#faf8f3\" stroke-width=\"1.5\"><title>scorul 5</title></circle><circle cx=\"80.6\" cy=\"84.0\" r=\"4.5\" fill=\"#2a78d6\" stroke=\"#faf8f3\" stroke-width=\"1.5\"><title>scorul 7</title></circle><circle cx=\"89.5\" cy=\"84.0\" r=\"4.5\" fill=\"#2a78d6\" stroke=\"#faf8f3\" stroke-width=\"1.5\"><title>scorul 8</title></circle><circle cx=\"107.4\" cy=\"84.0\" r=\"4.5\" fill=\"#2a78d6\" stroke=\"#faf8f3\" stroke-width=\"1.5\"><title>scorul 10</title></circle><circle cx=\"125.2\" cy=\"84.0\" r=\"4.5\" fill=\"#2a78d6\" stroke=\"#faf8f3\" stroke-width=\"1.5\"><title>scorul 12</title></circle><circle cx=\"169.9\" cy=\"84.0\" r=\"4.5\" fill=\"#2a78d6\" stroke=\"#faf8f3\" stroke-width=\"1.5\"><title>scorul 17</title></circle><circle cx=\"178.9\" cy=\"84.0\" r=\"4.5\" fill=\"#2a78d6\" stroke=\"#faf8f3\" stroke-width=\"1.5\"><title>scorul 18</title></circle><circle cx=\"178.9\" cy=\"74.0\" r=\"4.5\" fill=\"#2a78d6\" stroke=\"#faf8f3\" stroke-width=\"1.5\"><title>scorul 18</title></circle><circle cx=\"205.7\" cy=\"84.0\" r=\"4.5\" fill=\"#2a78d6\" stroke=\"#faf8f3\" stroke-width=\"1.5\"><title>scorul 21</title></circle><circle cx=\"259.3\" cy=\"84.0\" r=\"4.5\" fill=\"#2a78d6\" stroke=\"#faf8f3\" stroke-width=\"1.5\"><title>scorul 27</title></circle><circle cx=\"277.2\" cy=\"84.0\" r=\"4.5\" fill=\"#2a78d6\" stroke=\"#faf8f3\" stroke-width=\"1.5\"><title>scorul 29</title></circle><circle cx=\"286.1\" cy=\"84.0\" r=\"4.5\" fill=\"#2a78d6\" stroke=\"#faf8f3\" stroke-width=\"1.5\"><title>scorul 30</title></circle><line x1=\"62.7\" y1=\"38.0\" x2=\"62.7\" y2=\"92.0\" stroke=\"#2c2a26\" stroke-width=\"1\" stroke-dasharray=\"3,3\"/><text x=\"62.7\" y=\"32.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.8\">Q1 = 5</text><line x1=\"125.2\" y1=\"38.0\" x2=\"125.2\" y2=\"92.0\" stroke=\"#2c2a26\" stroke-width=\"1\" stroke-dasharray=\"3,3\"/><text x=\"125.2\" y=\"32.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.8\">Md = 12</text><line x1=\"205.7\" y1=\"38.0\" x2=\"205.7\" y2=\"92.0\" stroke=\"#2c2a26\" stroke-width=\"1\" stroke-dasharray=\"3,3\"/><text x=\"205.7\" y=\"32.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.8\">Q3 = 21</text><line x1=\"35.9\" y1=\"124.0\" x2=\"286.1\" y2=\"124.0\" stroke=\"#6b6760\" stroke-width=\"1\"/><line x1=\"35.9\" y1=\"120.0\" x2=\"35.9\" y2=\"128.0\" stroke=\"#6b6760\" stroke-width=\"1\"/><line x1=\"286.1\" y1=\"120.0\" x2=\"286.1\" y2=\"128.0\" stroke=\"#6b6760\" stroke-width=\"1\"/><text x=\"161.0\" y=\"138.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.8\">A = 30 − 2 = 28 (doar extremele)</text><line x1=\"62.7\" y1=\"152.0\" x2=\"205.7\" y2=\"152.0\" stroke=\"#2a78d6\" stroke-width=\"1\"/><line x1=\"62.7\" y1=\"148.0\" x2=\"62.7\" y2=\"156.0\" stroke=\"#2a78d6\" stroke-width=\"1\"/><line x1=\"205.7\" y1=\"148.0\" x2=\"205.7\" y2=\"156.0\" stroke=\"#2a78d6\" stroke-width=\"1\"/><text x=\"134.2\" y=\"166.0\" text-anchor=\"middle\" fill=\"#2a78d6\" font-size=\"10.8\">Q = 21 − 5 = 16 (50% centrale)</text><text x=\"160.0\" y=\"14.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.8\">15 scoruri ordonate crescător (secțiunea 3.2)</text></svg>"
+          },
+          {
+            "titlu": "Aceeași mediană, împrăștiere diferită",
+            "nota": "Vârstele din cele două eșantioane: tendința centrală e aproape aceeași, dispersia nu.",
+            "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 182\" role=\"img\" aria-label=\"Două eșantioane cu aceeași mediană; primul are amplitudinea 26, al doilea 11\" font-family=\"Georgia, serif\" font-size=\"13\"><text x=\"24.0\" y=\"44.0\" text-anchor=\"end\" fill=\"#2c2a26\" font-size=\"10.8\">Eș. 1</text><line x1=\"30.0\" y1=\"40.0\" x2=\"306.0\" y2=\"40.0\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><circle cx=\"39.2\" cy=\"40.0\" r=\"4.5\" fill=\"#2a78d6\" stroke=\"#faf8f3\" stroke-width=\"1.5\"><title>Eș. 1: 11 ani</title></circle><circle cx=\"85.2\" cy=\"40.0\" r=\"4.5\" fill=\"#2a78d6\" stroke=\"#faf8f3\" stroke-width=\"1.5\"><title>Eș. 1: 16 ani</title></circle><circle cx=\"103.6\" cy=\"40.0\" r=\"4.5\" fill=\"#2a78d6\" stroke=\"#faf8f3\" stroke-width=\"1.5\"><title>Eș. 1: 18 ani</title></circle><circle cx=\"149.6\" cy=\"40.0\" r=\"4.5\" fill=\"#2a78d6\" stroke=\"#faf8f3\" stroke-width=\"1.5\"><title>Eș. 1: 23 ani</title></circle><circle cx=\"204.8\" cy=\"40.0\" r=\"4.5\" fill=\"#2a78d6\" stroke=\"#faf8f3\" stroke-width=\"1.5\"><title>Eș. 1: 29 ani</title></circle><circle cx=\"223.2\" cy=\"40.0\" r=\"4.5\" fill=\"#2a78d6\" stroke=\"#faf8f3\" stroke-width=\"1.5\"><title>Eș. 1: 31 ani</title></circle><circle cx=\"278.4\" cy=\"40.0\" r=\"4.5\" fill=\"#2a78d6\" stroke=\"#faf8f3\" stroke-width=\"1.5\"><title>Eș. 1: 37 ani</title></circle><line x1=\"39.2\" y1=\"54.0\" x2=\"278.4\" y2=\"54.0\" stroke=\"#2a78d6\" stroke-width=\"1\"/><line x1=\"39.2\" y1=\"50.0\" x2=\"39.2\" y2=\"58.0\" stroke=\"#2a78d6\" stroke-width=\"1\"/><line x1=\"278.4\" y1=\"50.0\" x2=\"278.4\" y2=\"58.0\" stroke=\"#2a78d6\" stroke-width=\"1\"/><text x=\"158.8\" y=\"68.0\" text-anchor=\"middle\" fill=\"#2a78d6\" font-size=\"10.8\">A = 37 − 11 = 26  ·  X̄ = 23,57</text><text x=\"24.0\" y=\"102.0\" text-anchor=\"end\" fill=\"#2c2a26\" font-size=\"10.8\">Eș. 2</text><line x1=\"30.0\" y1=\"98.0\" x2=\"306.0\" y2=\"98.0\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><circle cx=\"103.6\" cy=\"98.0\" r=\"4.5\" fill=\"#eb6834\" stroke=\"#faf8f3\" stroke-width=\"1.5\"><title>Eș. 2: 18 ani</title></circle><circle cx=\"112.8\" cy=\"98.0\" r=\"4.5\" fill=\"#eb6834\" stroke=\"#faf8f3\" stroke-width=\"1.5\"><title>Eș. 2: 19 ani</title></circle><circle cx=\"131.2\" cy=\"98.0\" r=\"4.5\" fill=\"#eb6834\" stroke=\"#faf8f3\" stroke-width=\"1.5\"><title>Eș. 2: 21 ani</title></circle><circle cx=\"149.6\" cy=\"98.0\" r=\"4.5\" fill=\"#eb6834\" stroke=\"#faf8f3\" stroke-width=\"1.5\"><title>Eș. 2: 23 ani</title></circle><circle cx=\"158.8\" cy=\"98.0\" r=\"4.5\" fill=\"#eb6834\" stroke=\"#faf8f3\" stroke-width=\"1.5\"><title>Eș. 2: 24 ani</title></circle><circle cx=\"177.2\" cy=\"98.0\" r=\"4.5\" fill=\"#eb6834\" stroke=\"#faf8f3\" stroke-width=\"1.5\"><title>Eș. 2: 26 ani</title></circle><circle cx=\"204.8\" cy=\"98.0\" r=\"4.5\" fill=\"#eb6834\" stroke=\"#faf8f3\" stroke-width=\"1.5\"><title>Eș. 2: 29 ani</title></circle><line x1=\"103.6\" y1=\"112.0\" x2=\"204.8\" y2=\"112.0\" stroke=\"#eb6834\" stroke-width=\"1\"/><line x1=\"103.6\" y1=\"108.0\" x2=\"103.6\" y2=\"116.0\" stroke=\"#eb6834\" stroke-width=\"1\"/><line x1=\"204.8\" y1=\"108.0\" x2=\"204.8\" y2=\"116.0\" stroke=\"#eb6834\" stroke-width=\"1\"/><text x=\"154.2\" y=\"126.0\" text-anchor=\"middle\" fill=\"#eb6834\" font-size=\"10.8\">A = 29 − 18 = 11  ·  X̄ = 22,86</text><line x1=\"149.6\" y1=\"26.0\" x2=\"149.6\" y2=\"49.0\" stroke=\"#2c2a26\" stroke-width=\"1\" stroke-dasharray=\"3,3\"/><line x1=\"149.6\" y1=\"84.0\" x2=\"149.6\" y2=\"107.0\" stroke=\"#2c2a26\" stroke-width=\"1\" stroke-dasharray=\"3,3\"/><text x=\"149.6\" y=\"18.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.8\">mediana 23 în ambele</text><line x1=\"30.0\" y1=\"146.0\" x2=\"306.0\" y2=\"146.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><line x1=\"30.0\" y1=\"146.0\" x2=\"30.0\" y2=\"150.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><text x=\"30.0\" y=\"161.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">10</text><line x1=\"76.0\" y1=\"146.0\" x2=\"76.0\" y2=\"150.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><text x=\"76.0\" y=\"161.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">15</text><line x1=\"122.0\" y1=\"146.0\" x2=\"122.0\" y2=\"150.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><text x=\"122.0\" y=\"161.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">20</text><line x1=\"168.0\" y1=\"146.0\" x2=\"168.0\" y2=\"150.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><text x=\"168.0\" y=\"161.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">25</text><line x1=\"214.0\" y1=\"146.0\" x2=\"214.0\" y2=\"150.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><text x=\"214.0\" y=\"161.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">30</text><line x1=\"260.0\" y1=\"146.0\" x2=\"260.0\" y2=\"150.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><text x=\"260.0\" y=\"161.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">35</text><line x1=\"306.0\" y1=\"146.0\" x2=\"306.0\" y2=\"150.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><text x=\"306.0\" y=\"161.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">40</text><text x=\"168.0\" y=\"176.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.8\">vârsta (ani)</text></svg>"
+          }
+        ],
+        "lat": true
+      },
+      {
+        "titlu": "Abaterea medie și varianța",
+        "noduri": [
+          {
+            "t": "Abaterea de la medie",
+            "d": "Xi − X̄. Suma abaterilor de la medie este mereu 0 (proprietatea mediei din Cap. 3 (Mărimile tendinței centrale)), deci media lor ar fi mereu 0. Două ieșiri: neglijăm semnele (valori absolute, Cap. 1 (Introducere în statistică)) sau ridicăm abaterile la pătrat."
+          },
+          {
+            "t": "Abaterea medie",
+            "d": "d̄ = Σ|Xi − X̄| / n (formula 4.2). Tabelul 4.2 (11 scoruri, X̄ = 19): Σ|Xi − X̄| = 24, d̄ = 24 / 11 ≈ 2,18 (cartea tipărește 2,20)."
+          },
+          {
+            "t": "Varianța",
+            "d": "Populație: σ² = Σ(Xi − μ)² / N (formula 4.3), cu μ media și N numărul de scoruri ale populației. Eșantion: s² = Σ(Xi − X̄)² / (n − 1) (formula 4.4). Tabelul 4.2: 74 / 10 = 7,40. Uneori e numită chiar „dispersie”."
+          },
+          {
+            "t": "Numitorul n − 1",
+            "d": "Varianța eșantionului e un estimator distorsionat al varianței populației; n − 1 corectează distorsiunea (la fel la abaterea standard; vezi Cap. 7 (Proceduri de estimare statistică)). În statistica descriptivă unii folosesc n, tratând eșantioanele ca populații foarte mici."
+          },
+          {
+            "t": "Pătratul mediu al abaterilor",
+            "d": "Varianța din formula 4.3 este media aritmetică a pătratelor abaterilor scorurilor populației de la media lor μ."
+          }
+        ],
+        "figuri": [
+          {
+            "titlu": "De ce media abaterilor nu merge",
+            "nota": "Abaterile negative și pozitive se anulează; valorile absolute sau pătratele le păstrează.",
+            "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 215.0\" role=\"img\" aria-label=\"Abaterile negative și pozitive ale celor 11 scoruri se anulează; valorile absolute dau 24, pătratele 74\" font-family=\"Georgia, serif\" font-size=\"13\"><text x=\"160.0\" y=\"13.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.8\">Abaterile Xi − X̄ față de media 19 (tabelul 4.2)</text><text x=\"40.0\" y=\"32.6\" text-anchor=\"end\" fill=\"#6b6760\" font-size=\"10.2\">16</text><rect x=\"76.0\" y=\"25.0\" width=\"72.0\" height=\"9.0\" fill=\"#2a78d6\"><title>scorul 16: abatere −3</title></rect><text x=\"70.0\" y=\"32.6\" text-anchor=\"end\" fill=\"#2c2a26\" font-size=\"10.2\">−3</text><text x=\"40.0\" y=\"43.6\" text-anchor=\"end\" fill=\"#6b6760\" font-size=\"10.2\">17</text><rect x=\"100.0\" y=\"36.0\" width=\"48.0\" height=\"9.0\" fill=\"#2a78d6\"><title>scorul 17: abatere −2</title></rect><text x=\"94.0\" y=\"43.6\" text-anchor=\"end\" fill=\"#2c2a26\" font-size=\"10.2\">−2</text><text x=\"40.0\" y=\"54.6\" text-anchor=\"end\" fill=\"#6b6760\" font-size=\"10.2\">17</text><rect x=\"100.0\" y=\"47.0\" width=\"48.0\" height=\"9.0\" fill=\"#2a78d6\"><title>scorul 17: abatere −2</title></rect><text x=\"94.0\" y=\"54.6\" text-anchor=\"end\" fill=\"#2c2a26\" font-size=\"10.2\">−2</text><text x=\"40.0\" y=\"65.6\" text-anchor=\"end\" fill=\"#6b6760\" font-size=\"10.2\">17</text><rect x=\"100.0\" y=\"58.0\" width=\"48.0\" height=\"9.0\" fill=\"#2a78d6\"><title>scorul 17: abatere −2</title></rect><text x=\"94.0\" y=\"65.6\" text-anchor=\"end\" fill=\"#2c2a26\" font-size=\"10.2\">−2</text><text x=\"40.0\" y=\"76.6\" text-anchor=\"end\" fill=\"#6b6760\" font-size=\"10.2\">17</text><rect x=\"100.0\" y=\"69.0\" width=\"48.0\" height=\"9.0\" fill=\"#2a78d6\"><title>scorul 17: abatere −2</title></rect><text x=\"94.0\" y=\"76.6\" text-anchor=\"end\" fill=\"#2c2a26\" font-size=\"10.2\">−2</text><text x=\"40.0\" y=\"87.6\" text-anchor=\"end\" fill=\"#6b6760\" font-size=\"10.2\">18</text><rect x=\"124.0\" y=\"80.0\" width=\"24.0\" height=\"9.0\" fill=\"#2a78d6\"><title>scorul 18: abatere −1</title></rect><text x=\"118.0\" y=\"87.6\" text-anchor=\"end\" fill=\"#2c2a26\" font-size=\"10.2\">−1</text><text x=\"40.0\" y=\"98.6\" text-anchor=\"end\" fill=\"#6b6760\" font-size=\"10.2\">19</text><circle cx=\"148.0\" cy=\"95.5\" r=\"2.5\" fill=\"#6b6760\" stroke=\"#faf8f3\" stroke-width=\"1.5\"><title>scorul 19: abatere 0</title></circle><text x=\"156.0\" y=\"98.6\" text-anchor=\"start\" fill=\"#2c2a26\" font-size=\"10.2\">0</text><text x=\"40.0\" y=\"109.6\" text-anchor=\"end\" fill=\"#6b6760\" font-size=\"10.2\">19</text><circle cx=\"148.0\" cy=\"106.5\" r=\"2.5\" fill=\"#6b6760\" stroke=\"#faf8f3\" stroke-width=\"1.5\"><title>scorul 19: abatere 0</title></circle><text x=\"156.0\" y=\"109.6\" text-anchor=\"start\" fill=\"#2c2a26\" font-size=\"10.2\">0</text><text x=\"40.0\" y=\"120.6\" text-anchor=\"end\" fill=\"#6b6760\" font-size=\"10.2\">23</text><rect x=\"148.0\" y=\"113.0\" width=\"96.0\" height=\"9.0\" fill=\"#eb6834\"><title>scorul 23: abatere +4</title></rect><text x=\"250.0\" y=\"120.6\" text-anchor=\"start\" fill=\"#2c2a26\" font-size=\"10.2\">+4</text><text x=\"40.0\" y=\"131.6\" text-anchor=\"end\" fill=\"#6b6760\" font-size=\"10.2\">23</text><rect x=\"148.0\" y=\"124.0\" width=\"96.0\" height=\"9.0\" fill=\"#eb6834\"><title>scorul 23: abatere +4</title></rect><text x=\"250.0\" y=\"131.6\" text-anchor=\"start\" fill=\"#2c2a26\" font-size=\"10.2\">+4</text><text x=\"40.0\" y=\"142.6\" text-anchor=\"end\" fill=\"#6b6760\" font-size=\"10.2\">23</text><rect x=\"148.0\" y=\"135.0\" width=\"96.0\" height=\"9.0\" fill=\"#eb6834\"><title>scorul 23: abatere +4</title></rect><text x=\"250.0\" y=\"142.6\" text-anchor=\"start\" fill=\"#2c2a26\" font-size=\"10.2\">+4</text><line x1=\"148.0\" y1=\"20.0\" x2=\"148.0\" y2=\"147.0\" stroke=\"#2c2a26\" stroke-width=\"1\" stroke-dasharray=\"3,3\"/><text x=\"148.0\" y=\"159.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.8\">X̄ = 19</text><text x=\"160.0\" y=\"177.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.8\">Σ(Xi − X̄) = −12 + 12 = 0</text><text x=\"160.0\" y=\"192.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.8\">Σ|Xi − X̄| = 24  ·  Σ(Xi − X̄)² = 74</text><text x=\"160.0\" y=\"207.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.8\">d̄ = 24 / 11  ·  s² = 74 / 10 = 7,40  ·  s = 2,72</text></svg>"
+          }
+        ]
+      },
+      {
+        "titlu": "Formule de calcul simplificat",
+        "noduri": [
+          {
+            "t": "Formula 4.5",
+            "d": "s² = (ΣXi² − nX̄²) / (n − 1), fără diferențele Xi − X̄. Tabelul 4.2: (4045 − 11 · 19²) / 10 = (4045 − 3971) / 10 = 7,40."
+          },
+          {
+            "t": "Formula 4.6",
+            "d": "s² = [ΣXi² − (ΣXi)² / n] / (n − 1). Scutește și de calculul mediei: cere doar scorurile (ΣXi = 209, ΣXi² = 4045, n = 11) → (4045 − 3971) / 10 = 7,40."
+          },
+          {
+            "t": "Formule echivalente algebric",
+            "d": "Două formule care, aplicate la aceleași date, produc aceleași rezultate. Formulele simplificate sunt utile la eșantioane mari și când X̄ are zecimale (multe rotunjiri)."
+          },
+          {
+            "t": "Formulele pentru populații",
+            "d": "Se obțin din cele de mai sus înlocuind X̄ cu μ și n − 1 cu N."
+          }
+        ]
+      },
+      {
+        "titlu": "Abaterea standard și coeficientul de variație",
+        "noduri": [
+          {
+            "t": "Unitatea varianței",
+            "d": "Ridicarea la pătrat face ca unitatea varianței să fie pătratul unității scorurilor: scoruri în ani → varianță în ani la pătrat."
+          },
+          {
+            "t": "Abaterea standard",
+            "d": "s = √s² (σ la populație), exprimată în aceeași unitate ca scorurile. Tabelul 4.2: √7,40 = 2,72. Formulele 4.7–4.9 corespund formulelor 4.4–4.6, sub radical."
+          },
+          {
+            "t": "Coeficientul de variație (CV)",
+            "d": "CV = (s / X̄) · 100, de obicei în procente (σ și μ la populații). Cu deosebire util la compararea variabilității unor distribuții cu medii sensibil diferite. Pentru tabelul 4.2: 2,72 / 19 · 100 ≈ 14,3% (cartea tipărește 143,16 — virgula e deplasată)."
+          }
+        ]
+      },
+      {
+        "titlu": "Abaterea standard pentru date grupate",
+        "noduri": [
+          {
+            "t": "Aproximarea sumelor",
+            "d": "Scorurile individuale nu se cunosc, deci ΣXi ≈ Σfm (ca la media pentru date grupate, Cap. 3 (Mărimile tendinței centrale)) și ΣXi² ≈ Σfm² (centrele la pătrat, înmulțite cu frecvențele). Rezultatul e doar aproximativ."
+          },
+          {
+            "t": "Formula 4.11",
+            "d": "s ≈ √{[Σfm² − (Σfm)² / n] / (n − 1)}, obținută din formula 4.9 prin aceste substituții."
+          },
+          {
+            "t": "Exemplul cu 180 de scoruri",
+            "d": "Tabelul 4.3: n = 180, Σfm = 8865, (Σfm)² / n = 436601,25; cartea dă Σfm² = 452525 și s ≈ 9,43, față de 9,00 la datele negrupate. Observație: la rândul 30–34, 7 · 1024 = 7168 (cartea: 8428); cu el, Σfm² = 451265 și s ≈ 9,05."
+          }
+        ]
+      }
+    ]
+  }
+}

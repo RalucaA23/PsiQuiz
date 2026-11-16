@@ -1,0 +1,752 @@
+{
+ "schema": "quiz-capitol-v3",
+ "capitol": 12,
+ "titlu": "Gândirea și rezolvarea de probleme",
+ "sursa": "Manual Psihologie experimentală (UTM), Capitolul 12",
+ "reconstituit": "Reconstituit pe 16 nov. 2026 din pagina publicată Psihologie_experimentala.html (capitolele erau încorporate în pagină). Lipsesc câmpurile 'tip' și 'exemplu_nou', care nu ajung în pagină; restul (hartă, runde, întrebări vizibile și ascunse) e identic cu pagina.",
+ "harta": {
+  "centru": "Gândirea și rezolvarea de probleme",
+  "ramuri": [
+   {
+    "titlu": "1. Gândirea și rezolvarea de probleme",
+    "noduri": [
+     {
+      "t": "Definiția gândirii și rezolvării de probleme",
+      "d": "Procese cognitive complexe care implică procesarea informațiilor, generarea de soluții și luarea deciziilor, pentru a depăși obstacolele sau a atinge obiectivele. Abordarea experimentală folosește paradigme și metode diferite pentru a înțelege cum gândesc și rezolvă oamenii problemele."
+     },
+     {
+      "t": "Gândire",
+      "d": "Cuvânt cheie: procesul cognitiv de procesare a informațiilor, generare a ideilor și evaluare a opțiunilor pentru a ajunge la o concluzie sau a lua o decizie."
+     },
+     {
+      "t": "Rezolvare de probleme",
+      "d": "Cuvânt cheie: identificarea unei situații problematice, formularea unor strategii de rezolvare, evaluarea și implementarea lor. În secțiunea despre incubație: procesul prin care individul identifică, analizează și găsește soluții la problemele cu care se confruntă."
+     },
+     {
+      "t": "Etapele rezolvării de probleme",
+      "d": "Înțelegerea problemei → generarea de soluții posibile → evaluarea soluțiilor → selectarea celei mai bune. În prima secțiune: identificarea problemei, generarea soluțiilor, evaluarea, selectarea celei mai adecvate."
+     },
+     {
+      "t": "Gândire conștientă și procese inconștiente",
+      "d": "Rezolvarea de probleme poate implica atât gândirea conștientă, cât și procese inconștiente și intuitive (vezi incubația)."
+     },
+     {
+      "t": "Factorii din rezumat",
+      "d": "Gândirea și rezolvarea de probleme sunt influențate de cunoștințele anterioare, experiențele personale, abilitățile cognitive și contextul în care se desfășoară."
+     }
+    ]
+   },
+   {
+    "titlu": "2. Paradigmele experimentale",
+    "noduri": [
+     {
+      "t": "Paradigmele experimentale",
+      "d": "Paradigma cu sarcini de rezolvare a problemelor, paradigma cu sarcini de luare a deciziilor și paradigma de analiză a protocolului verbal."
+     },
+     {
+      "t": "Ce analizează paradigmele",
+      "d": "Cum identifică oamenii problemele, cum generează soluții potențiale, cum le evaluează și cum o selectează pe cea mai adecvată."
+     },
+     {
+      "t": "Obiectul abordărilor experimentale",
+      "d": "Procesele cognitive și comportamentale implicate în identificarea și rezolvarea problemelor, la oameni și la animale."
+     }
+    ]
+   },
+   {
+    "titlu": "3. Cele cinci modalități de abordare",
+    "tabel": {
+     "cap": [
+      "Modalitate",
+      "Cum lucrează",
+      "Ce permite"
+     ],
+     "randuri": [
+      [
+       "Studii de laborator",
+       "probleme standardizate (puzzle-uri, probleme logice), participanți monitorizați",
+       "examinarea planificării, deciziei, atenției, memoriei de lucru"
+      ],
+      [
+       "Studii de teren",
+       "medii naturale sau semi-naturale: muncă, școală, medii sociale",
+       "strategiile din contexte reale, factorii din viața de zi cu zi"
+      ],
+      [
+       "Studii de neuroimagistică",
+       "fMRI, EEG",
+       "bazele neuronale, regiunile cerebrale implicate"
+      ],
+      [
+       "Studii comparative",
+       "diferite specii; puzzle-uri, sarcini de manipulare a obiectelor",
+       "evoluția și dezvoltarea rezolvării de probleme"
+      ],
+      [
+       "Modele computaționale",
+       "modele matematice și computaționale",
+       "predicții, testarea ipotezelor, noi înțelesuri"
+      ]
+     ]
+    },
+    "noduri": [
+     {
+      "t": "Studii de laborator",
+      "d": "Participanții primesc probleme standardizate (puzzle-uri, probleme logice) și sunt monitorizați în timp ce caută soluții; se examinează planificarea, luarea deciziilor, atenția și memoria de lucru."
+     },
+     {
+      "t": "Studii de teren",
+      "d": "Rezolvarea problemelor în medii naturale sau semi-naturale (locuri de muncă, școli, medii sociale): comportamentele și strategiile din contexte reale și factorii care le influențează."
+     },
+     {
+      "t": "Studii de neuroimagistică",
+      "d": "Cu fMRI sau EEG se investighează activitatea cerebrală asociată rezolvării de probleme: bazele neuronale și regiunile implicate în diverse aspecte ale procesului."
+     },
+     {
+      "t": "Studii comparative",
+      "d": "Compară felul în care diferite specii de animale rezolvă problemele, cu paradigme standardizate (puzzle-uri, manipularea obiectelor), ca să înțeleagă evoluția și dezvoltarea acestor procese; abilitățile animalelor sunt comparate cu cele umane."
+     },
+     {
+      "t": "Modele computaționale",
+      "d": "Modelele matematice și computaționale oferă o perspectivă asupra proceselor cognitive, generează predicții despre cum ar aborda oamenii și animalele problemele și servesc la testarea ipotezelor."
+     }
+    ]
+   },
+   {
+    "titlu": "4. Variabile experimentale și controlul lor",
+    "noduri": [
+     {
+      "t": "Variabilele în studiul rezolvării de probleme",
+      "d": "Natura și complexitatea problemei, disponibilitatea informațiilor, instrucțiunile primite de la cercetători, timpul disponibil pentru rezolvare și caracteristicile individuale ale subiecților (experiența anterioară, abilitățile cognitive)."
+     },
+     {
+      "t": "Variabile independente și dependente",
+      "d": "VI: manipulată de cercetător, considerată cauza (cantitatea de alcool). VD: măsurată sau observată, considerată efectul (capacitatea de memorie). Același exemplu apare în Cap. 7 (Procese senzoriale) și Cap. 10 (Memoria)."
+     },
+     {
+      "t": "Variabile controlate",
+      "d": "Menținute constante sau sub control, ca să nu influențeze VD. În exemplul alcool–memorie: sexul, vârsta sau nivelul de stres al participanților."
+     },
+     {
+      "t": "Variabile confundante",
+      "d": "Asociate atât cu VI, cât și cu VD, ceea ce face dificilă stabilirea cauzei. În exemplul capitolului: nivelurile diferite de anxietate, care ar putea afecta și memoria."
+     },
+     {
+      "t": "Design experimental adecvat",
+      "d": "Pentru controlul și evaluarea variabilelor: experimentele între grupuri, în interiorul grupului și factoriale; definițiile sunt în Cap. 2 (Metodele psihologiei experimentale)."
+     },
+     {
+      "t": "De ce contează controlul",
+      "d": "Ca diferențele observate în rezolvarea problemelor să fie cu adevărat rezultatul manipulării VI; asigură validitatea și fiabilitatea rezultatelor și concluzii corecte despre relațiile cauzale."
+     }
+    ]
+   },
+   {
+    "titlu": "5. Rolul rapoartelor verbale",
+    "noduri": [
+     {
+      "t": "Verbalizarea gândurilor",
+      "d": "Subiecții verbalizează gândurile pe măsură ce încearcă să rezolve o problemă, oferind o înțelegere a strategiilor cognitive, a erorilor de gândire și a dificultăților întâlnite."
+     },
+     {
+      "t": "Obținerea datelor subiective",
+      "d": "Informații direct de la subiecți despre experiențele interne: sentimente, gânduri, percepții."
+     },
+     {
+      "t": "Evaluarea stării de spirit și a emoțiilor",
+      "d": "Participanții își descriu în detaliu sentimentele și emoțiile; importantă pentru variabilitatea și complexitatea emoțiilor."
+     },
+     {
+      "t": "Investigarea proceselor cognitive",
+      "d": "Subiecții își descriu verbal memoria, atenția, percepția și luarea deciziilor."
+     },
+     {
+      "t": "Identificarea modelelor și a tendințelor",
+      "d": "Analizând rapoartele de la mai mulți subiecți, se identifică tendințe în gândire și comportament, utile pentru teorii și ipoteze."
+     },
+     {
+      "t": "Monitorizarea progresului în terapie",
+      "d": "În practica clinică: clienții descriu schimbările din gândire și comportament în timp; se evaluează eficacitatea intervențiilor."
+     },
+     {
+      "t": "Validarea și triangularea datelor",
+      "d": "Combinate cu observația sau măsurările fiziologice, rapoartele verbale ajută la validarea și triangularea datelor și cresc încrederea în rezultate."
+     }
+    ]
+   },
+   {
+    "titlu": "6. Incubația și rezolvarea de probleme",
+    "noduri": [
+     {
+      "t": "Definiția incubației",
+      "d": "Fenomenul în care o pauză în rezolvarea unei probleme duce la o performanță mai bună când subiectul revine la sarcină. Problema e lăsată deoparte, conștient sau inconștient, iar soluția sau ideea apare apoi spontan."
+     },
+     {
+      "t": "Mecanismul incubației",
+      "d": "Procesul mental continuă în pauză: subconștientul lucrează la problemă, creează conexiuni noi și explorează alternative care duc la soluție, chiar dacă problema părea blocată."
+     },
+     {
+      "t": "Factori care influențează incubația",
+      "d": "Stresul, distragerile, percepția timpului și nivelul de expertiză în domeniul problemei."
+     },
+     {
+      "t": "Tehnici care stimulează incubația",
+      "d": "Brainstorming-ul și discuțiile cu alți oameni pot facilita rezolvarea problemelor, stimulând incubația și generarea de idei noi."
+     }
+    ]
+   },
+   {
+    "titlu": "7. Cuvinte cheie și întrebări de verificare",
+    "noduri": [
+     {
+      "t": "Creativitate",
+      "d": "Abilitatea de a genera idei noi, inovatoare și soluții originale pentru probleme sau provocări."
+     },
+     {
+      "t": "Heuristici",
+      "d": "Strategii mentale rapide sau reguli de mână care simplifică gândirea și luarea deciziilor. Întrebarea de verificare 3 cere și dezavantajele lor: fiind scurtături, nu garantează soluția corectă (spre deosebire de un algoritm, termen care nu apare în carte)."
+     },
+     {
+      "t": "Obiectivitate",
+      "d": "Capacitatea de a evalua informația și de a lua decizii fără a fi influențat de bias-uri cognitive sau emoționale."
+     },
+     {
+      "t": "Notă: gândirea convergentă și divergentă",
+      "d": "Întrebarea de verificare 5 cere diferențele dintre gândirea convergentă și cea divergentă, dar textul capitolului nu le explică. De clarificat la curs; quiz-ul nu le testează."
+     }
+    ]
+   },
+   {
+    "titlu": "8. Legături cu alte capitole",
+    "noduri": [
+     {
+      "t": "Procesele cognitive superioare",
+      "d": "Cap. 1 (Psihologia experimentală. Știință și metodă) le trece printre obiectivele psihologiei experimentale: gândirea abstractă, rezolvarea de probleme, decizia și planificarea."
+     },
+     {
+      "t": "Răspunsurile verbale ca VD",
+      "d": "Cap. 4 (Metoda experimentului): răspunsurile verbale sunt una dintre VD favorizate, utile pentru procesele cognitive superioare; experimentul asociativ-verbal cere un cuvânt asociat unui stimul, nu verbalizarea gândirii."
+     },
+     {
+      "t": "Designurile experimentale",
+      "d": "Cap. 2 (Metodele psihologiei experimentale): între grupuri, în interiorul grupului, cu măsurători repetate, cu control aleator."
+     },
+     {
+      "t": "Exemplul alcool–memorie",
+      "d": "Același exemplu apare în Cap. 7 (Procese senzoriale), unde oboseala e variabila de confuzie, și în Cap. 10 (Memoria); aici confundanta dată e anxietatea, iar sexul, vârsta și stresul sunt factori controlați."
+     },
+     {
+      "t": "Kahneman și heuristicile",
+      "d": "Bibliografia citează „Thinking, Fast and Slow” și „Heuristics and Biases”; în Cap. 9 (Atenția), Kahneman apare cu modelul resurselor și cu Sistemul 1 (rapid, automat) și Sistemul 2 (lent, conștient)."
+     },
+     {
+      "t": "Învățarea prin intuiție (Köhler)",
+      "d": "Cap. 11 (Învățarea): o formă de învățare asociată cu rezolvarea rapidă a problemelor, fără gândire logică sau procesare conștientă; paradigma de rezolvare a problemelor apare și printre paradigmele învățării."
+     }
+    ]
+   }
+  ]
+ },
+ "runde": [
+  {
+   "id": "1",
+   "eticheta": "Runda 1 · Bază",
+   "titlu": "Runda 1 — Concepte de bază",
+   "desc": "Recunoaștere: definiția, paradigmele, cele cinci modalități de abordare, variabilele și controlul lor, rapoartele verbale, incubația și cuvintele cheie.",
+   "intrebari": [
+    {
+     "q": "Cum pot fi descrise gândirea și rezolvarea de probleme?",
+     "opts": [
+      "Procese de stocare, reținere și recuperare a informațiilor în timp",
+      "Procese cognitive complexe: procesare, generare de soluții, decizii",
+      "Concentrarea resurselor cognitive asupra unor stimuli, ignorându-i pe alții",
+      "Dobândirea de cunoștințe și comportamente noi prin experiență sau practică"
+     ],
+     "correct": 1,
+     "explain": "Capitolul le numește procese cognitive complexe care implică procesarea informațiilor, generarea de soluții și luarea deciziilor, pentru a depăși obstacole sau a atinge obiective. Stocarea și recuperarea descriu memoria din Cap. 10 (Memoria), concentrarea resurselor pe unii stimuli e atenția din Cap. 9 (Atenția), iar dobândirea prin experiență e învățarea din Cap. 11 (Învățarea).",
+     "tag": "Definiția gândirii și rezolvării de probleme"
+    },
+    {
+     "q": "Ce paradigme experimentale se folosesc pentru studiul rezolvării de probleme?",
+     "opts": [
+      "Recunoaștere și recuperare, învățare asociativă, memorie de lucru",
+      "Paradigma de condiționare, de discriminare a stimulilor și de modelare",
+      "Ascultarea dihotică, umbrirea mesajului, orbirea neatențională",
+      "Sarcini de rezolvare, sarcini de decizie, analiza protocolului verbal"
+     ],
+     "correct": 3,
+     "explain": "Capitolul enumeră paradigma cu sarcini de rezolvare a problemelor, paradigma cu sarcini de luare a deciziilor și paradigma de analiză a protocolului verbal. Recunoașterea, învățarea asociativă și memoria de lucru sunt paradigmele din Cap. 10 (Memoria), condiționarea, discriminarea și modelarea apar în Cap. 11 (Învățarea), iar ascultarea dihotică, umbrirea și orbirea neatențională țin de Cap. 9 (Atenția).",
+     "tag": "Paradigmele experimentale"
+    },
+    {
+     "q": "Ce caracterizează studiile de laborator asupra rezolvării de probleme?",
+     "opts": [
+      "Probleme standardizate, cu participanții monitorizați atent",
+      "Probleme reale, urmărite la locul de muncă, la școală sau în grup",
+      "Activitatea cerebrală înregistrată prin fMRI sau prin EEG",
+      "Compararea strategiilor de rezolvare la diferite specii"
+     ],
+     "correct": 0,
+     "explain": "În studiile de laborator participanții primesc probleme standardizate (puzzle-uri, probleme logice) și sunt monitorizați în timp ce caută soluția; așa se examinează planificarea, decizia, atenția și memoria de lucru. Problemele reale, în mediu natural, definesc studiile de teren, fMRI și EEG sunt studiile de neuroimagistică, iar compararea speciilor e specifică studiilor comparative.",
+     "tag": "Studii de laborator"
+    },
+    {
+     "q": "Ce urmăresc studiile comparative?",
+     "opts": [
+      "Diferențele dintre grupul experimental și grupul de control al aceluiași experiment",
+      "Schimbările acelorași persoane, testate de mai multe ori de-a lungul anilor",
+      "Cum rezolvă problemele diferite specii, ca să înțeleagă evoluția acestor procese",
+      "Predicțiile modelelor matematice, comparate apoi cu performanța oamenilor"
+     ],
+     "correct": 2,
+     "explain": "Studiile comparative compară felul în care diferite specii de animale rezolvă problemele, adesea cu puzzle-uri sau sarcini de manipulare a obiectelor, ca să înțeleagă evoluția și dezvoltarea acestor procese. Comparația grup experimental–grup de control ține de orice experiment, ca în Cap. 4 (Metoda experimentului), urmărirea acelorași persoane în timp e studiul longitudinal din Cap. 7 (Procese senzoriale), iar predicțiile matematice țin de modelele computaționale.",
+     "tag": "Studii comparative"
+    },
+    {
+     "q": "La ce folosesc modelele computaționale?",
+     "opts": [
+      "Generează predicții și testează ipoteze despre rezolvarea problemelor",
+      "Înregistrează activitatea cerebrală în timpul rezolvării problemelor",
+      "Fac analiza statistică a datelor, la fel ca SPSS, R sau MATLAB",
+      "Simulează medii reale cu ajutorul realității virtuale și al ochelarilor"
+     ],
+     "correct": 0,
+     "explain": "Modelele matematice și computaționale oferă o perspectivă asupra proceselor cognitive implicate, generează predicții despre cum ar aborda oamenii și animalele problemele și sunt folosite pentru a testa ipoteze. Înregistrarea activității cerebrale e treaba neuroimagisticii, SPSS, R și MATLAB sunt software de analiză din Cap. 10 (Memoria), iar realitatea virtuală e o tehnică din Cap. 8 (Procese perceptive).",
+     "tag": "Modele computaționale"
+    },
+    {
+     "q": "Ce variabile experimentale se folosesc pentru studiul rezolvării de probleme?",
+     "opts": [
+      "Tipul, durata și modalitatea prezentării informațiilor de memorat",
+      "Intensitatea, durata, contrastul și fundalul stimulilor prezentați",
+      "Tipul de stimul, natura consecințelor și motivația individului",
+      "Complexitatea problemei, informațiile, instrucțiunile, timpul"
+     ],
+     "correct": 3,
+     "explain": "Lista capitolului: natura și complexitatea problemei, disponibilitatea informațiilor, instrucțiunile cercetătorilor, timpul disponibil și caracteristicile individuale (experiența anterioară, abilitățile cognitive). Modalitatea prezentării informației de memorat e o variabilă din Cap. 10 (Memoria), intensitatea, contrastul și fundalul sunt particularități ale stimulilor din Cap. 8 (Procese perceptive), iar natura consecințelor și motivația sunt variabilele învățării din Cap. 11 (Învățarea).",
+     "tag": "Variabilele în studiul rezolvării de probleme"
+    },
+    {
+     "q": "Ce sunt variabilele confundante?",
+     "opts": [
+      "Menținute constante pe tot parcursul studiului, ca să nu influențeze VD",
+      "Asociate atât cu VI, cât și cu VD, fac greu de stabilit cauza efectului",
+      "Manipulate de cercetător și considerate cauza sau factorul de influență",
+      "Măsurate sau observate pentru a evalua efectul variabilei independente"
+     ],
+     "correct": 1,
+     "explain": "Confundantele sunt asociate atât cu variabila independentă, cât și cu cea dependentă, astfel încât devine dificil de spus ce a produs efectul; de aceea trebuie controlate. Variabilele menținute constante sunt variabilele controlate, cele manipulate sunt VI, iar cele măsurate sunt VD.",
+     "tag": "Variabile confundante"
+    },
+    {
+     "q": "Într-un studiu despre efectul alcoolului asupra memoriei, ce factori ar putea fi controlați de cercetători?",
+     "opts": [
+      "Sexul, vârsta sau nivelul de stres al participanților",
+      "Cantitatea de alcool consumată și capacitatea de memorie",
+      "Pragul absolut și pragul diferențial al fiecărui participant",
+      "Complexitatea problemei și timpul alocat pentru rezolvare"
+     ],
+     "correct": 0,
+     "explain": "La variabilele controlate, capitolul spune că într-un studiu despre efectul alcoolului asupra memoriei s-ar putea controla sexul, vârsta sau nivelul de stres. Cantitatea de alcool e VI, iar capacitatea de memorie e VD, deci nu se țin constante. Pragurile vin din Cap. 7 (Procese senzoriale), iar complexitatea și timpul sunt variabile ale rezolvării de probleme, nu ale acestui exemplu.",
+     "tag": "Variabile controlate"
+    },
+    {
+     "q": "Ce designuri experimentale se folosesc pentru controlul și evaluarea variabilelor?",
+     "opts": [
+      "De confirmare, de explorare și experimentul pilot",
+      "Longitudinal, transversal și studiul de caz unic",
+      "Între grupuri, în interiorul grupului și factorial",
+      "Observațional, corelațional și studiul de caz"
+     ],
+     "correct": 2,
+     "explain": "Capitolul numește experimentele între grupuri, experimentele în interiorul grupului și experimentele factoriale. Confirmarea, explorarea și pilotul sunt tipuri de experiment din Cap. 3 (Metoda observației), longitudinalul și transversalul apar la perspectiva dezvoltării din Cap. 7 (Procese senzoriale), iar metoda corelațională și studiul de caz sunt enumerate printre metodele din Cap. 1 (Psihologia experimentală. Știință și metodă).",
+     "tag": "Design experimental adecvat"
+    },
+    {
+     "q": "Ce li se cere subiecților atunci când se folosesc rapoartele verbale în rezolvarea de probleme?",
+     "opts": [
+      "Să spună primul cuvânt care le vine în minte la un cuvânt-stimul",
+      "Să-și povestească evenimentele importante din propria viață",
+      "Să-și verbalizeze gândurile în timp ce încearcă să rezolve problema",
+      "Să răspundă în scris la itemii unui chestionar standardizat"
+     ],
+     "correct": 2,
+     "explain": "Subiecții verbalizează gândurile pe măsură ce încearcă să rezolve problema, oferind informații despre strategiile cognitive, erorile de gândire și dificultățile întâlnite. Primul cuvânt asociat unui stimul e experimentul asociativ-verbal din Cap. 4 (Metoda experimentului), povestea vieții e metoda biografică, iar chestionarul e o anchetă, ambele din Cap. 3 (Metoda observației).",
+     "tag": "Verbalizarea gândurilor"
+    },
+    {
+     "q": "Ce înseamnă validarea și triangularea datelor obținute prin rapoarte verbale?",
+     "opts": [
+      "Combinarea lor cu observația sau cu măsurările fiziologice",
+      "Aplicarea aceluiași raport verbal de trei ori aceluiași subiect",
+      "Codificarea răspunsurilor de către trei evaluatori independenți",
+      "Folosirea lor pentru urmărirea evoluției clientului în terapie"
+     ],
+     "correct": 0,
+     "explain": "Capitolul spune că rapoartele verbale, combinate cu alte metode de colectare (observația, măsurările fiziologice), ajută la validarea și triangularea datelor și cresc încrederea în rezultate. Repetarea aceleiași probe seamănă cu fidelitatea test-retest din Cap. 3 (Metoda observației), evaluatorii independenți nu sunt pomeniți în capitol, iar urmărirea în terapie e alt rol al rapoartelor verbale.",
+     "tag": "Validarea și triangularea datelor"
+    },
+    {
+     "q": "Ce este incubația?",
+     "opts": [
+      "Scăderea răspunsului la un stimul repetat și lipsit de importanță",
+      "O pauză în rezolvare, urmată de o performanță mai bună la revenire",
+      "Informațiile vechi care împiedică reținerea informațiilor noi",
+      "Scăderea sensibilității receptorilor la un stimul constant"
+     ],
+     "correct": 1,
+     "explain": "Incubația e fenomenul în care o pauză în rezolvarea unei probleme duce la îmbunătățirea performanței când subiectul revine la sarcină, semn că procesul mental continuă în timpul pauzei. Scăderea răspunsului la un stimul repetat e obișnuința din Cap. 9 (Atenția), vechiul care încurcă noul e interferența proactivă din Cap. 10 (Memoria), iar scăderea sensibilității receptorilor e adaptarea senzorială din Cap. 7 (Procese senzoriale).",
+     "tag": "Definiția incubației"
+    },
+    {
+     "q": "Ce factori influențează incubația?",
+     "opts": [
+      "Motivația, oboseala și plictiseala subiectului aflat în sarcină",
+      "Similaritatea contextului și a populației, mărimea eșantionului",
+      "Intensitatea, durata, frecvența și forma stimulilor prezentați",
+      "Stresul, distragerile, percepția timpului și nivelul de expertiză"
+     ],
+     "correct": 3,
+     "explain": "Capitolul spune că incubația poate fi influențată de stres, distrageri, percepția timpului și nivelul de expertiză în domeniul problemei. Motivația, oboseala și plictiseala sunt factorii din exemplul paznicului, din Cap. 9 (Atenția), contextul, populația și eșantionul sunt factorii generalizării din Cap. 10 (Memoria), iar intensitatea, durata, frecvența și forma sunt particularitățile stimulilor din Cap. 8 (Procese perceptive).",
+     "tag": "Factori care influențează incubația"
+    },
+    {
+     "q": "Ce sunt heuristicile?",
+     "opts": [
+      "Abilitatea de a genera idei noi și soluții originale la probleme",
+      "Evaluarea informației fără influența bias-urilor cognitive",
+      "Strategii mentale rapide, reguli de mână care simplifică decizia",
+      "Proceduri pas cu pas care garantează găsirea soluției corecte"
+     ],
+     "correct": 2,
+     "explain": "Heuristicile sunt strategii mentale rapide sau reguli de mână care simplifică gândirea și luarea deciziilor. Generarea de idei noi și originale e creativitatea, evaluarea fără bias-uri e obiectivitatea. Varianta cu „garantează soluția” descrie un algoritm, nu o heuristică: tocmai pentru că sunt scurtături, heuristicile au și dezavantaje, cum sugerează întrebarea de verificare 3.",
+     "tag": "Heuristici"
+    },
+    {
+     "q": "Ce este obiectivitatea, în gândire și decizie?",
+     "opts": [
+      "Proceduri și condiții uniforme pentru toți participanții la studiu",
+      "Rezultate identice ale unui instrument la aplicări repetate",
+      "Neutralitatea cercetătorului care doar observă și înregistrează",
+      "Evaluarea informației și decizia fără influența bias-urilor"
+     ],
+     "correct": 3,
+     "explain": "Obiectivitatea e capacitatea de a evalua informația și de a lua decizii fără a fi influențat de bias-uri cognitive sau emoționale. Procedurile uniforme definesc standardizarea din Cap. 4 (Metoda experimentului), rezultatele constante la aplicări repetate țin de fidelitatea din Cap. 3 (Metoda observației), iar neutralitatea observatorului e o cerință a observației din Cap. 2 (Metodele psihologiei experimentale), nu definiția obiectivității din acest capitol.",
+     "tag": "Obiectivitate"
+    }
+   ],
+   "ascunse": [
+    {
+     "q": "Ce permit studiile de teren în cercetarea rezolvării de probleme?",
+     "opts": [
+      "Controlul strict al tuturor variabilelor din mediul de lucru",
+      "Compararea abilităților oamenilor cu cele ale altor specii",
+      "Observarea strategiilor folosite în contexte reale, de zi cu zi",
+      "Identificarea regiunilor cerebrale active în timpul sarcinii"
+     ],
+     "correct": 2,
+     "explain": "Studiile de teren investighează rezolvarea problemelor în medii naturale sau semi-naturale (locuri de muncă, școli, medii sociale), observând comportamentele și strategiile din contexte reale și factorii care le influențează. Controlul strict e avantajul laboratorului, nu al mediului natural, cum arată și comparația cu experimentul natural din Cap. 2 (Metodele psihologiei experimentale); compararea speciilor ține de studiile comparative, iar regiunile cerebrale de neuroimagistică.",
+     "tag": "Studii de teren"
+    },
+    {
+     "q": "Ce rol al rapoartelor verbale privește în mod direct practica clinică?",
+     "opts": [
+      "Monitorizarea progresului în terapie",
+      "Identificarea modelelor și a tendințelor",
+      "Validarea și triangularea datelor",
+      "Obținerea datelor subiective"
+     ],
+     "correct": 0,
+     "explain": "În practica clinică, rapoartele verbale sunt folosite pentru a monitoriza progresul în terapie și eficacitatea intervențiilor: clienții descriu cum li s-au schimbat în timp gândirea și comportamentul. Identificarea modelelor, triangularea și obținerea datelor subiective sunt roluri legate în primul rând de cercetare.",
+     "tag": "Monitorizarea progresului în terapie"
+    },
+    {
+     "q": "Ce este creativitatea?",
+     "opts": [
+      "Reguli de mână care scurtează procesul de decizie",
+      "Capacitatea de a decide fără bias-uri emoționale",
+      "Rezolvarea bruscă a problemei, fără nicio gândire logică",
+      "Abilitatea de a genera idei noi și soluții originale"
+     ],
+     "correct": 3,
+     "explain": "Creativitatea e abilitatea de a genera idei noi, inovatoare și soluții originale pentru probleme sau provocări. Regulile de mână sunt heuristicile, decizia fără bias-uri e obiectivitatea, iar rezolvarea rapidă, fără gândire logică, e felul în care e descrisă învățarea prin intuiție (Köhler) în Cap. 11 (Învățarea).",
+     "tag": "Creativitate"
+    },
+    {
+     "q": "Ce tehnici pot facilita rezolvarea de probleme prin stimularea incubației?",
+     "opts": [
+      "Biofeedback-ul și antrenarea undelor cerebrale",
+      "Brainstorming-ul și discuțiile cu alți oameni",
+      "Repetarea la intervale și autoexperimentarea",
+      "Recompensa și pedeapsa aplicate imediat după"
+     ],
+     "correct": 1,
+     "explain": "Capitolul spune că brainstorming-ul și discuțiile cu alți oameni pot facilita rezolvarea problemelor, stimulând incubația și generarea de idei noi. Biofeedback-ul și antrenarea EEG apar în Cap. 7 (Procese senzoriale) și Cap. 9 (Atenția), repetarea și autoexperimentarea sunt asociate cu Ebbinghaus în Cap. 1 (Psihologia experimentală. Știință și metodă), iar recompensa și pedeapsa sunt cuvinte cheie din Cap. 11 (Învățarea).",
+     "tag": "Tehnici care stimulează incubația"
+    },
+    {
+     "q": "În ce ordine apar etapele procesului de rezolvare a problemelor?",
+     "opts": [
+      "Generarea soluțiilor, înțelegere, selecție, evaluare",
+      "Înțelegere, evaluare, generarea soluțiilor, selecție",
+      "Înțelegere, generarea soluțiilor, evaluare, selecție",
+      "Selecție, înțelegere, generarea soluțiilor, evaluare"
+     ],
+     "correct": 2,
+     "explain": "Capitolul dă etapele: înțelegerea problemei, generarea de soluții posibile, evaluarea acestor soluții și selectarea celei mai bune. Nu poți evalua soluții înainte să le generezi, nici selecta înainte să le evaluezi; celelalte variante inversează tocmai aceste dependențe. Aceeași succesiune apare și în prima secțiune (identificarea problemei, generarea, evaluarea, selectarea).",
+     "tag": "Etapele rezolvării de probleme"
+    }
+   ]
+  },
+  {
+   "id": "2",
+   "eticheta": "Runda 2 · Aplicații",
+   "titlu": "Runda 2 — Scenarii și raționament",
+   "desc": "Aplică modalitățile de abordare, variabilele, designurile, rapoartele verbale, incubația și heuristicile pe situații concrete.",
+   "intrebari": [
+    {
+     "q": "Participanții rezolvă problema Turnului din Hanoi spunând cu voce tare tot ce gândesc; cercetătorul transcrie înregistrările și analizează pașii. Ce paradigmă folosește?",
+     "opts": [
+      "Experimentul asociativ-verbal clasic",
+      "Paradigma cu sarcini de luare a deciziilor",
+      "Paradigma de analiză a protocolului verbal",
+      "Interviul semistructurat de cercetare"
+     ],
+     "correct": 2,
+     "explain": "Verbalizarea continuă a gândurilor în timpul rezolvării, urmată de analiza transcrierilor, e paradigma de analiză a protocolului verbal. Experimentul asociativ-verbal din Cap. 4 (Metoda experimentului) cere doar un cuvânt asociat unui stimul, sarcinile de decizie cer alegerea între opțiuni, iar interviul din Cap. 3 (Metoda observației) pune întrebări după o schemă, nu urmărește gândirea în timp real.",
+     "tag": "Paradigmele experimentale"
+    },
+    {
+     "q": "O echipă urmărește, fără să intervină, cum rezolvă asistentele dintr-o secție de urgențe problemele apărute într-o tură obișnuită. Ce modalitate de abordare folosește?",
+     "opts": [
+      "Un studiu de teren",
+      "Un studiu de laborator",
+      "Un studiu comparativ",
+      "Un model computațional"
+     ],
+     "correct": 0,
+     "explain": "Rezolvarea problemelor e studiată în mediul natural (locul de muncă), cu situațiile reale ale turei: studiu de teren. Un studiu de laborator ar fi folosit probleme standardizate într-un mediu controlat, cel comparativ ar fi comparat specii, iar modelul computațional ar fi simulat procesul matematic.",
+     "tag": "Studii de teren"
+    },
+    {
+     "q": "Corbi și copii de cinci ani primesc aceeași sarcină: să scoată o recompensă dintr-un tub îngust, folosind un bețișor. Ce tip de studiu este acesta?",
+     "opts": [
+      "Un studiu de teren",
+      "Un experiment natural",
+      "Un studiu de neuroimagistică",
+      "Un studiu comparativ"
+     ],
+     "correct": 3,
+     "explain": "Aceeași sarcină standardizată de manipulare a obiectelor e dată unor specii diferite, ca să se compare abilitățile cognitive: studiu comparativ. Un studiu de teren ar urmări comportamentul în mediul obișnuit, experimentul natural din Cap. 2 (Metodele psihologiei experimentale) se bazează pe evenimente care apar fără manipulare, iar neuroimagistica ar înregistra activitatea cerebrală.",
+     "tag": "Studii comparative"
+    },
+    {
+     "q": "Un program simulează, pas cu pas, cum ar juca un om o problemă de șah și prezice unde vor greși jucătorii începători; predicțiile sunt apoi verificate pe jucători reali. Ce abordare folosește?",
+     "opts": [
+      "Un studiu de neuroimagistică",
+      "Un model computațional",
+      "Un studiu de laborator simplu",
+      "O analiză a protocolului verbal"
+     ],
+     "correct": 1,
+     "explain": "Simularea procesului și generarea de predicții testabile despre felul în care oamenii vor aborda problema sunt exact rolul modelelor computaționale. Verificarea pe jucători reali e testarea ipotezei generate de model. Nu se înregistrează activitate cerebrală, nu se verbalizează gânduri, iar simpla monitorizare a jucătorilor ar fi doar un studiu de laborator.",
+     "tag": "Modele computaționale"
+    },
+    {
+     "q": "Participanții rezolvă anagrame într-un scanner fMRI, iar cercetătorii urmăresc ce zone ale creierului se activează în clipa în care găsesc soluția. Ce modalitate de abordare folosesc?",
+     "opts": [
+      "Un studiu comparativ",
+      "Un studiu de neuroimagistică",
+      "Un studiu cu biofeedback",
+      "Un studiu de teren"
+     ],
+     "correct": 1,
+     "explain": "Folosirea fMRI (sau EEG) pentru a investiga bazele neuronale ale rezolvării și regiunile cerebrale implicate definește studiile de neuroimagistică. Biofeedback-ul din Cap. 7 (Procese senzoriale) redă subiectului semnalele fiziologice, nu localizează regiuni cerebrale. Nu se compară specii și nu se lucrează în mediu natural.",
+     "tag": "Studii de neuroimagistică"
+    },
+    {
+     "q": "Blocat de o oră la o problemă de logică, Vlad renunță și iese la alergat; seara, la duș, soluția îi vine brusc în minte. Ce fenomen intervine în astfel de situații?",
+     "opts": [
+      "Obișnuința",
+      "Suprimarea",
+      "Interferența retroactivă",
+      "Incubația"
+     ],
+     "correct": 3,
+     "explain": "Problema e lăsată deoparte, mintea continuă să lucreze inconștient, iar soluția apare spontan: incubația. Obișnuința din Cap. 9 (Atenția) e scăderea răspunsului la un stimul repetat, suprimarea din Cap. 10 (Memoria) e inhibarea activă a unor amintiri dureroase, iar interferența retroactivă, tot din Cap. 10 (Memoria), înseamnă că informația nouă blochează amintirea celei vechi, nu că ajută la o soluție.",
+     "tag": "Definiția incubației"
+    },
+    {
+     "q": "Un grup lucrează 20 de minute fără oprire la o problemă grea; altul lucrează 10 minute, face 10 minute de rebusuri, apoi încă 10. Al doilea grup găsește mai des soluția. Ce fenomen e studiat și care e VI?",
+     "opts": [
+      "Incubația; VI este prezența pauzei",
+      "Incubația; VI este rata de rezolvare",
+      "Obișnuința; VI este prezența pauzei",
+      "Vigilența; VI este durata sarcinii"
+     ],
+     "correct": 0,
+     "explain": "Efectul benefic al pauzei e incubația, iar factorul manipulat de cercetător (cu sau fără pauză) e variabila independentă; rata de rezolvare e variabila dependentă, ceea ce se măsoară. Timpul efectiv de lucru e egal (20 de minute), deci e ținut sub control. Obișnuința și vigilența sunt fenomene din Cap. 9 (Atenția), fără legătură cu îmbunătățirea după pauză.",
+     "tag": "Definiția incubației"
+    },
+    {
+     "q": "Într-un studiu despre efectul alcoolului asupra memoriei, participanții diferă mult prin nivelul de anxietate. De ce e o problemă?",
+     "opts": [
+      "Anxietatea devine astfel variabila dependentă a studiului",
+      "Anxietatea face imposibilă măsurarea cantității de alcool",
+      "Anxietatea poate afecta și ea memoria, deci confundă efectul",
+      "Anxietatea încalcă principiul confidențialității datelor"
+     ],
+     "correct": 2,
+     "explain": "Capitolul dă anxietatea drept exemplu de variabilă confundantă: dacă nivelurile diferă, ea poate influența memoria, iar efectul nu mai poate fi atribuit alcoolului. VD rămâne capacitatea de memorie, cantitatea de alcool se poate măsura în continuare, iar confidențialitatea din Cap. 5 (Probleme etice ale experimentului psihologic) privește protecția datelor, nu designul.",
+     "tag": "Variabile confundante"
+    },
+    {
+     "q": "O cercetătoare variază complexitatea problemei (simplă sau complexă) și timpul disponibil (5 sau 15 minute), iar fiecare grup primește una dintre cele patru combinații. Ce design folosește?",
+     "opts": [
+      "Un experiment pilot",
+      "Un studiu comparativ",
+      "Un experiment de explorare",
+      "Un design factorial"
+     ],
+     "correct": 3,
+     "explain": "Când două (sau mai multe) VI sunt combinate în toate nivelurile lor, designul e factorial, unul dintre cele trei designuri numite în capitol. Pilotul din Cap. 4 (Metoda experimentului) e o versiune preliminară a studiului, experimentul de explorare din Cap. 3 (Metoda observației) nu are ipoteză, iar studiul comparativ compară specii, nu combinații de condiții.",
+     "tag": "Design experimental adecvat"
+    },
+    {
+     "q": "Aceiași 30 de studenți rezolvă un set de probleme cu instrucțiuni detaliate și un set echivalent fără instrucțiuni. Ce design folosește studiul?",
+     "opts": [
+      "Experimentul în interiorul grupului",
+      "Experimentul între grupuri diferite",
+      "Experimentul de tip factorial",
+      "Studiul de teren, în mediu natural"
+     ],
+     "correct": 0,
+     "explain": "Aceeași grupă trece prin ambele condiții, deci designul e în interiorul grupului; varianta cu aceleași măsurători repetate e descrisă în Cap. 2 (Metodele psihologiei experimentale). Între grupuri ar fi presupus două grupuri diferite, câte unul pe condiție, factorialul ar combina cel puțin două VI, iar studiul de teren se definește prin mediul natural, nu prin design.",
+     "tag": "Design experimental adecvat"
+    },
+    {
+     "q": "Jumătate dintre participanți primesc un indiciu înainte să înceapă problema, ceilalți nu; se măsoară timpul până la soluție. Ce variabilă este manipulată?",
+     "opts": [
+      "Complexitatea problemei",
+      "Timpul disponibil pentru rezolvare",
+      "Disponibilitatea informațiilor",
+      "Experiența anterioară a subiecților"
+     ],
+     "correct": 2,
+     "explain": "Indiciul modifică informațiile de care dispune participantul, deci VI e disponibilitatea informațiilor. Capcana e „timpul”: aici timpul până la soluție e măsurat (VD), nu fixat de cercetător ca limită. Problema e aceeași pentru toți, iar experiența anterioară e o caracteristică a subiecților, nu ceva manipulat prin indiciu.",
+     "tag": "Variabilele în studiul rezolvării de probleme"
+    },
+    {
+     "q": "La fiecare ședință, o terapeută îi roagă pe clienți să descrie cum s-au schimbat de la ultima întâlnire gândurile și reacțiile lor față de o problemă. Ce rol al rapoartelor verbale folosește?",
+     "opts": [
+      "Validarea și triangularea datelor",
+      "Monitorizarea progresului în terapie",
+      "Evaluarea stării de spirit și a emoțiilor",
+      "Identificarea modelelor și a tendințelor"
+     ],
+     "correct": 1,
+     "explain": "Descrierile repetate ale schimbărilor din gândire și comportament îi arată terapeutei evoluția clientului și eficacitatea intervenției: monitorizarea progresului în terapie. Evaluarea stării de spirit ar privi emoțiile de moment, nu schimbarea în timp, triangularea ar cere o altă metodă (observație, măsurări fiziologice), iar identificarea tendințelor presupune date de la mai mulți subiecți.",
+     "tag": "Monitorizarea progresului în terapie"
+    },
+    {
+     "q": "În timpul unei sarcini grele, participanții spun cât de tensionați se simt, iar cercetătorul compară relatările cu ritmul cardiac și conductanța pielii. Ce rol al rapoartelor verbale apare aici?",
+     "opts": [
+      "Validarea și triangularea datelor",
+      "Obținerea simplă a datelor subiective",
+      "Monitorizarea progresului în terapie",
+      "Experimentul asociativ-verbal clasic"
+     ],
+     "correct": 0,
+     "explain": "Combinarea rapoartelor verbale cu măsurări fiziologice, indicatorii din Cap. 4 (Metoda experimentului), e exact exemplul de validare și triangulare a datelor dat în capitol. Simpla culegere a trăirilor ar fi doar obținerea datelor subiective, nu e un context terapeutic, iar experimentul asociativ-verbal cere cuvinte asociate unui stimul.",
+     "tag": "Validarea și triangularea datelor"
+    },
+    {
+     "q": "Într-un magazin, Maria alege mereu marca cea mai scumpă, convinsă că „ce e scump e și bun”, fără să compare caracteristicile produselor. Ce folosește?",
+     "opts": [
+      "Gândirea creativă, originală",
+      "Obiectivitatea în luarea deciziei",
+      "Incubația problemei de cumpărare",
+      "O heuristică, o regulă de mână"
+     ],
+     "correct": 3,
+     "explain": "Regula „ce e scump e bun” e o scurtătură mentală care simplifică decizia: o heuristică, cu dezavantajul că poate duce la alegeri greșite. Nu generează o idee nouă (creativitate), iar obiectivitatea ar presupune evaluarea informației fără bias-uri, tocmai ce lipsește. Nu există nicio pauză urmată de o soluție, deci nu e incubație.",
+     "tag": "Heuristici"
+    },
+    {
+     "q": "Un juriu notează proiectele studenților fără să le cunoască numele, ca simpatiile personale să nu influențeze notele. Ce calitate a gândirii vrea să protejeze?",
+     "opts": [
+      "Creativitatea juriului",
+      "Obiectivitatea evaluării",
+      "Confidențialitatea datelor",
+      "Fidelitatea test-retest"
+     ],
+     "correct": 1,
+     "explain": "Ascunderea numelor elimină o sursă de bias emoțional, deci protejează obiectivitatea: evaluarea și decizia fără influența bias-urilor. Confidențialitatea din Cap. 5 (Probleme etice ale experimentului psihologic) protejează datele participanților, nu corectitudinea notării, fidelitatea din Cap. 3 (Metoda observației) e stabilitatea unui instrument la aplicări repetate, iar creativitatea nu e vizată.",
+     "tag": "Obiectivitate"
+    }
+   ],
+   "ascunse": [
+    {
+     "q": "Blocată cu o problemă de logistică, o echipă face un brainstorming, iar ideile colegilor deschid o soluție la care nimeni nu se gândise. Ce rol au astfel de tehnici?",
+     "opts": [
+      "Împiedică incubația, pentru că elimină orice pauză de gândire",
+      "Facilitează rezolvarea, stimulând incubația și ideile noi",
+      "Fac inutilă evaluarea soluțiilor generate de grup",
+      "Sunt o formă de experiment asociativ-verbal liber"
+     ],
+     "correct": 1,
+     "explain": "Capitolul spune că brainstorming-ul și discuțiile cu alți oameni pot facilita rezolvarea problemelor prin stimularea incubației și generarea de idei noi. Ele nu desființează etapa de evaluare a soluțiilor, iar experimentul asociativ-verbal din Cap. 4 (Metoda experimentului) e o procedură de laborator cu cuvinte-stimul, nu o tehnică de grup.",
+     "tag": "Tehnici care stimulează incubația"
+    },
+    {
+     "q": "Doi studenți primesc aceeași problemă de statistică, cu aceleași instrucțiuni și același timp; cel care a mai rezolvat probleme asemănătoare termină mult mai repede. Ce variabilă explică diferența?",
+     "opts": [
+      "Natura și complexitatea problemei rezolvate de cei doi",
+      "Instrucțiunile primite de la cercetător",
+      "Timpul disponibil pentru rezolvare",
+      "Caracteristicile individuale: experiența anterioară"
+     ],
+     "correct": 3,
+     "explain": "Problema, instrucțiunile și timpul sunt identice, deci rămâne singura diferență: experiența anterioară, pe care capitolul o trece la caracteristicile individuale ale subiecților. Într-un experiment, o asemenea variabilă trebuie controlată, de exemplu prin randomizarea din Cap. 2 (Metodele psihologiei experimentale), ca să nu fie confundată cu efectul VI.",
+     "tag": "Variabilele în studiul rezolvării de probleme"
+    },
+    {
+     "q": "Rezolvând cu voce tare, un participant spune: „Am crezut că trebuie să folosesc toate piesele, de aceea m-am blocat.” Ce îi oferă cercetătorului acest raport verbal?",
+     "opts": [
+      "Informații despre strategiile și erorile lui de gândire",
+      "O măsură obiectivă a activității sale cerebrale în sarcină",
+      "Dovada că problema dată nu a fost standardizată",
+      "O valoare exactă a timpului său de reacție"
+     ],
+     "correct": 0,
+     "explain": "Capitolul spune că verbalizarea gândurilor oferă o înțelegere a strategiilor cognitive, a erorilor de gândire (aici, o presupunere greșită) și a dificultăților întâlnite. Activitatea cerebrală se măsoară prin fMRI sau EEG, nimic nu arată o problemă nestandardizată, iar timpul de reacție din Cap. 4 (Metoda experimentului) e un interval stimul–răspuns, nu un conținut verbal.",
+     "tag": "Verbalizarea gândurilor"
+    },
+    {
+     "q": "Un experiment testează efectul presiunii timpului asupra rezolvării de probleme, dar unii participanți vin direct de la un examen greu, foarte stresați. Cum ar trebui tratat nivelul de stres?",
+     "opts": [
+      "Ca variabilă independentă, lăsată să varieze liber",
+      "Ca variabilă dependentă, măsurată abia la finalul sesiunii",
+      "Ca factor de controlat, ținut constant între condiții",
+      "Ca eroare de tip I, ignorată la interpretare"
+     ],
+     "correct": 2,
+     "explain": "Capitolul dă nivelul de stres ca exemplu de factor care trebuie controlat, ca să nu influențeze VD; necontrolat, el poate deveni o confundantă. VI e presiunea timpului, nu stresul adus din afară, VD e performanța la probleme, iar eroarea de tip I din Cap. 1 (Psihologia experimentală. Știință și metodă) e respingerea greșită a ipotezei nule, nu o variabilă.",
+     "tag": "Variabile controlate"
+    },
+    {
+     "q": "Doi colegi discută: unul crede că soluțiile apar doar prin raționament conștient, pas cu pas, celălalt că pot apărea și fără efort conștient. Ce este adevărat despre rezolvarea de probleme?",
+     "opts": [
+      "Rezolvarea e exclusiv un proces conștient, strict logic, pas cu pas",
+      "Rezolvarea e exclusiv intuitivă, fără niciun raționament",
+      "Rezolvarea se reduce la asocieri învățate prin consecințe",
+      "Rezolvarea implică și gândire conștientă, și procese inconștiente"
+     ],
+     "correct": 3,
+     "explain": "Capitolul spune explicit că rezolvarea de probleme poate implica atât gândirea conștientă, cât și procese inconștiente și intuitive; incubația e exemplul procesării inconștiente. Variantele cu „exclusiv” exagerează câte o latură, iar asocierile învățate prin consecințe descriu condiționarea operantă (Skinner), din Cap. 1 (Psihologia experimentală. Știință și metodă) și Cap. 11 (Învățarea).",
+     "tag": "Gândire conștientă și procese inconștiente"
+    }
+   ]
+  }
+ ]
+}

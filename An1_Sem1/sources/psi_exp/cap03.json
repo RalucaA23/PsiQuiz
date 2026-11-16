@@ -1,0 +1,680 @@
+{
+ "schema": "quiz-capitol-v3",
+ "capitol": 3,
+ "titlu": "Metoda observației",
+ "sursa": "Manual Psihologie experimentală (UTM), Capitolul 3",
+ "reconstituit": "Reconstituit pe 16 nov. 2026 din pagina publicată Psihologie_experimentala.html (capitolele erau încorporate în pagină). Lipsesc câmpurile 'tip' și 'exemplu_nou', care nu ajung în pagină; restul (hartă, runde, întrebări vizibile și ascunse) e identic cu pagina.",
+ "harta": {
+  "centru": "Metodele cercetării experimentale",
+  "ramuri": [
+   {
+    "titlu": "Metoda observației",
+    "noduri": [
+     {
+      "t": "Definiție",
+      "d": "Observarea atentă și sistematică a subiecților sau a fenomenului, într-un mediu natural sau controlat, fără intervenții directe. Folosită în sociologie, psihologie, antropologie, educație, cercetare de piață."
+     },
+     {
+      "t": "Tipuri de observație",
+      "d": "Participativă (cercetătorul devine parte activă a grupului) vs non-participativă (rămâne în afară, adesea ascuns). Structurată (plan, criterii predefinite) vs nestructurată (fără plan). Directă (în timp real, în contextul natural) vs indirectă (documente, înregistrări video). De teren vs de laborator. În practică se combină."
+     },
+     {
+      "t": "Avantajele și provocările observației",
+      "d": "Avantaj: date în timp real, autentice și detaliate, în mediul natural al subiecților. Provocări: subiectivitatea cercetătorului, generalizarea dificilă, prezența cercetătorului poate afecta comportamentul subiecților."
+     }
+    ]
+   },
+   {
+    "titlu": "Metoda experimentului",
+    "noduri": [
+     {
+      "t": "Principiu",
+      "d": "Manipularea deliberată a VI pentru a-i observa efectele asupra VD, controlând alți factori. Scop: stabilirea unei relații cauzale."
+     },
+     {
+      "t": "Elemente cheie",
+      "d": "VI – manipulată de cercetător. VD – observată și măsurată. Grup experimental – supus manipulării VI. Grup de control – nemanipulat sau cu placebo, pentru comparație. Randomizarea și controlul variabilelor confundate."
+     },
+     {
+      "t": "Două clasificări",
+      "d": "După tipul experimentului: de confirmare, de explorare, psihopedagogic, invocat (cvasi), explorator, pilot. După modul de realizare: de laborator și natural."
+     },
+     {
+      "t": "Experimentul de laborator vs natural",
+      "d": "„De laborator” indică doar locul; experimentul provocat se face de obicei acolo, pentru că numai acolo se asigură controlul riguros al variabilelor. Naturalul se desfășoară unde subiectul își desfășoară activitatea: control greu (factori care modifică conduita), dar mai aproape de felul natural de a fi. Observarea anonimă ridică probleme deontologice."
+     }
+    ]
+   },
+   {
+    "titlu": "Clasificarea după tipul experimentului",
+    "tabel": {
+     "cap": [
+      "Tip",
+      "Ipoteză",
+      "Ce face cercetătorul",
+      "De reținut"
+     ],
+     "randuri": [
+      [
+       "De confirmare (provocat)",
+       "da – conține VI și VD",
+       "provoacă deliberat fenomenele, în condiții controlate",
+       "fundamental; „true experiment”; forme: funcțional (cauză-efect) și factorial (stochastic)"
+      ],
+      [
+       "De explorare",
+       "nu",
+       "aplică o stimulare ca să vadă ce se întâmplă",
+       "—"
+      ],
+      [
+       "Psihopedagogic",
+       "—",
+       "experimentează în mediul școlar",
+       "variantă a experimentului natural; probleme deontologice"
+      ],
+      [
+       "Invocat (cvasi-experiment)",
+       "—",
+       "nu poate provoca fenomenul; îi studiază doar efectul",
+       "dereglări patologice, infirmități, dezastre; variabile ca sexul nu pot fi manevrate"
+      ],
+      [
+       "De tip explorator",
+       "anticipație scăzută",
+       "nici nu invocă, nici nu provoacă: „ce s-ar întâmpla dacă...”",
+       "joc științific, experiment logic; structurare scăzută"
+      ],
+      [
+       "Pilot",
+       "—",
+       "experiment preliminar, cu puțini subiecți",
+       "precede experimentul explorator și pe cel de confirmare"
+      ]
+     ]
+    },
+    "noduri": [
+     {
+      "t": "Experimentul de confirmare",
+      "d": "Ipoteza conține acțiunea stimulatoare (VI) și răspunsul (VD). Forme: funcțional – relație cauză-efect; factorial – relație stochastică. În literatura anglo-saxonă: „true experiment”."
+     },
+     {
+      "t": "Experimentul de explorare",
+      "d": "Fără ipoteză: experimentatorul vrea să vadă ce se întâmplă dacă subiectului i se aplică o anumită stimulare."
+     },
+     {
+      "t": "Experimentul psihopedagogic",
+      "d": "Variantă a experimentului natural, desfășurată în mediul școlar."
+     },
+     {
+      "t": "Experimentul invocat (cvasi-experimentul)",
+      "d": "Fenomenele sunt provocate de natură (boli, infirmități, deficiențe) sau sunt imposibil de introdus moral și fizic (cutremure, războaie); cercetătorul studiază doar efectul lor asupra comportamentului."
+     },
+     {
+      "t": "Experimentul pilot",
+      "d": "Experiment preliminar, cu număr restrâns de subiecți."
+     }
+    ]
+   },
+   {
+    "titlu": "Convorbirea, interviul, ancheta, biografia",
+    "noduri": [
+     {
+      "t": "Convorbirea și interviul",
+      "d": "Sondează viața interioară (intenții, opinii, atitudini, convingeri, aspirații, conflicte, valori), spre deosebire de observație și experiment, care vizează conduita exterioară. Convorbirea: discuție premeditată, față în față sau prin mijloace moderne, cu sinceritatea deplină a subiectului."
+     },
+     {
+      "t": "Tipuri de interviu",
+      "d": "Structurat: aceleași întrebări pentru fiecare; avantaj – evaluare completă, după grilă; dezavantaj – neeconomic. Semi-structurat: întrebări-test, cu abateri în funcție de caz; cel mai util în practică. Nestructurat: discuție liberă. Utilizări: evaluare clinică, cercetare, terapie și consiliere; etică și confidențialitate."
+     },
+     {
+      "t": "Ancheta psihologică",
+      "d": "Recoltarea sistematică de informații despre viața psihică a unui individ sau grup și interpretarea lor. Forme: pe bază de chestionar și pe bază de interviu. În psihometrie ține de teoria sondajului. Cere un eșantion reprezentativ."
+     },
+     {
+      "t": "Metoda biografică",
+      "d": "(Anamneza) Informații despre principalele evenimente trăite de individ și relațiile dintre ele (cauză-efect, scop-mijloc) – „istoria personală”. Variante mai noi: cauzometria și cauzograma. Contextul familial, cultural și social contează."
+     }
+    ]
+   },
+   {
+    "titlu": "Produsele activității și metodele psihometrice",
+    "noduri": [
+     {
+      "t": "Analiza produselor activității",
+      "d": "Compuneri, desene, creații, obiecte realizate, modul de rezolvare a problemelor oferă informații despre însușirile psihice. Cere criterii clare și obiective și o analiză standardizată. Exemple: lucrările elevilor, operele din terapia artistică."
+     },
+     {
+      "t": "Testul psihologic",
+      "d": "Cea mai utilizată metodă psihometrică: probă relativ scurtă, standardizată, pentru determinarea exactă a unor însușiri psihice. Scop: diagnostic, pe baza căruia se prognozează evoluția."
+     },
+     {
+      "t": "Calitățile testului",
+      "d": "Validitate – măsoară ceea ce și-a propus. Fidelitate – stabilitatea rezultatelor în timp, la o nouă aplicare. Standardizare – aceleași condiții pentru toți (sarcini, instrucțiuni, cotare, interpretare). Etalonare (calibrare) – stabilirea unui etalon, a unităților de măsură."
+     },
+     {
+      "t": "Teste de personalitate",
+      "d": "Proiective și obiective; cele obiective pot fi categoriale sau dimensionale."
+     },
+     {
+      "t": "Alte instrumente psihometrice",
+      "d": "Chestionare (autoraportare), interviuri structurate și semi-structurate, observația sistematică, scări de evaluare și rating-uri. Limite: subiectivitate, influențe culturale, erori de măsurare."
+     }
+    ]
+   },
+   {
+    "titlu": "Biosemnale, modelare, metoda genetică",
+    "noduri": [
+     {
+      "t": "Biosemnale psihofiziologice",
+      "d": "EEG – activitatea electrică a creierului; EOG – mușchii oculari, mișcările ochilor; ERG – retina la lumină; EMG – mușchii; ECG – inima; respirația toracică și abdominală; pulsul; fluxul sangvin; activitatea electrodermală (EDR/GSR) – conductivitatea pielii, indicator de stres și emoții."
+     },
+     {
+      "t": "Modelare și simulare",
+      "d": "Metodă relativ nouă, apărută din cibernetică și inteligența artificială. Scheme logice ale funcțiilor psihice (percepție, gândire, memorie), simulate pe computer. Etape: construirea modelului → validarea lui pe date empirice → simularea. Limite: simplificări și asumpții inexacte."
+     },
+     {
+      "t": "Metoda genetică și comparată",
+      "d": "Axioma: psihicul a apărut în evoluție, determinat de mediul sociocultural, cu dezvoltare ontogenetică și filogenetică. Urmărește un lot pe o durată lungă sau compară loturi de vârste diferite; compară specii (modele animale). Limită: extrapolarea de la animale la oameni."
+     }
+    ]
+   },
+   {
+    "titlu": "Metodele psihologiei experimentale",
+    "noduri": [
+     {
+      "t": "Experimentul controlat",
+      "d": "Metoda principală: manipularea VI pentru a observa efectele asupra VD și a stabili riguros relații cauzale."
+     },
+     {
+      "t": "Studii longitudinale vs transversale",
+      "d": "Longitudinale: același grup urmărit ani sau decenii, pentru a vedea cum se schimbă oamenii în timp. Transversale: date de la mai mulți subiecți în același moment, pentru diferențe individuale și de grup."
+     },
+     {
+      "t": "Studiul de caz",
+      "d": "Cercetarea detaliată a unui singur subiect sau a unui grup mic; util pentru fenomene rare și pentru generarea de ipoteze."
+     },
+     {
+      "t": "Alte metode",
+      "d": "Metoda observațională (date descriptive, ipoteze noi), metodele de auto-raportare (chestionare, interviuri), neuroimagistica și tehnicile fiziologice (fMRI, EEG). Metodele se combină adesea."
+     }
+    ]
+   },
+   {
+    "titlu": "Observația în detaliu: factori, conținut, protocol",
+    "noduri": [
+     {
+      "t": "Factorii determinanți ai observației",
+      "d": "Atenția (selectivă), percepția, memoria, cogniția și schema mentală, experiențele anterioare, emoțiile, contextul și mediul (lumină, zgomot, alte persoane), motivația și scopul observației, cadrul temporal."
+     },
+     {
+      "t": "Conținutul observației",
+      "d": "Comportament verbal (cuvinte, ton, ritm), comportament nonverbal (gesturi, mimică, postură, contact vizual), interacțiuni sociale, reacții emoționale, contextul și mediul, secvențe și modele comportamentale, alte aspecte (nivel de activitate, orientare spațială, folosirea tehnologiei)."
+     },
+     {
+      "t": "Particularitățile bioconstituționale",
+      "d": "Aspectele biologice care influențează comportamentul, rezultate din interacțiunea ereditate–mediu: ereditatea genetică, temperamentul, răspunsul la stres, nivelul de activitate și energie, răspunsul la tratament."
+     },
+     {
+      "t": "Conduita expresivă, verbală, reflexivă",
+      "d": "Expresivă: exprimarea nonverbală – expresii faciale, gesturi, postură, tonul vocii și prosodia. Verbală: folosirea limbajului – vocabular, gramatică, ton și intonație, adaptare la interlocutor. Reflexivă: examinarea propriilor gânduri, emoții, motivații și acțiuni – auto-conștientizare, auto-evaluare, auto-reglare, auto-cunoaștere."
+     },
+     {
+      "t": "Protocolul observației",
+      "d": "Document structurat care standardizează observația: obiective, variabile de interes, proceduri (loc, moment, durată), instrumente (formulare, liste de verificare, scale), modul de înregistrare a datelor. Definește și standardizează comportamentul, instruiește observatorii, asigură consistența și fiabilitatea."
+     },
+     {
+      "t": "Aspectele particulare ale observației",
+      "d": "Fiabilitate – consistența rezultatelor, reproductibile de observatori diferiți. Valabilitate – observațiile reflectă exact fenomenul studiat. Obiectivitate – lipsa biasului. Standardizarea procedurilor, etica, documentarea contextului, rigurozitatea."
+     },
+     {
+      "t": "Rolul observației în experiment",
+      "d": "Colectarea de date directe, testarea ipotezelor, generarea de noi ipoteze. Cuvinte cheie: mediu natural (fără intervenții), mediu controlat (factori manipulați și controlați), observator, note de teren (înregistrări detaliate ale observațiilor)."
+     }
+    ]
+   }
+  ]
+ },
+ "runde": [
+  {
+   "id": "1",
+   "eticheta": "Runda 1 · Bază",
+   "titlu": "Runda 1 — Concepte de bază",
+   "desc": "Recunoaștere: tipurile de observație și de experiment, interviul, ancheta, metodele psihometrice și celelalte metode ale capitolului.",
+   "intrebari": [
+    {
+     "q": "Cum se numește observația în care cercetătorul devine parte activă a grupului pe care îl studiază, implicându-se direct în activitățile subiecților?",
+     "opts": [
+      "Observație non-participativă",
+      "Observație structurată",
+      "Observație participativă",
+      "Observație directă"
+     ],
+     "correct": 2,
+     "explain": "În observația participativă cercetătorul se implică direct în activitățile și interacțiunile grupului. În cea non-participativă rămâne în afara situației, adesea ascuns. „Structurată” ține de existența unui plan predefinit, iar „directă” de înregistrarea în timp real, nu de gradul de participare.",
+     "tag": "tipuri de observație"
+    },
+    {
+     "q": "Ce face cercetătorul în observația indirectă?",
+     "opts": [
+      "Analizează date neobținute direct: documente, înregistrări video etc.",
+      "Observă comportamentul în timp real, în contextul natural al subiecților",
+      "Rămâne ascuns, ca prezența lui să nu influențeze subiecții",
+      "Urmează un set de criterii stabilit dinainte pentru observare"
+     ],
+     "correct": 0,
+     "explain": "Observația indirectă analizează și interpretează informații care nu au fost obținute prin observație directă (documente, înregistrări video, alte surse). Observarea în timp real definește observația directă, rămânerea în ascuns pe cea non-participativă, iar criteriile predefinite pe cea structurată.",
+     "tag": "tipuri de observație"
+    },
+    {
+     "q": "Care sunt cele două forme ale experimentului de confirmare (provocat)?",
+     "opts": [
+      "Experimentul de laborator și experimentul natural",
+      "Experimentul de explorare și experimentul pilot",
+      "Experimentul invocat și experimentul psihopedagogic",
+      "Experimentul funcțional și experimentul factorial"
+     ],
+     "correct": 3,
+     "explain": "Experimentul de confirmare are două forme: funcțional (relație cauză-efect între VI și VD) și factorial (relație stochastică). Laboratorul și experimentul natural formează clasificarea după modul de realizare, iar celelalte perechi sunt alte tipuri din clasificarea după tipul experimentului.",
+     "tag": "experimentul de confirmare"
+    },
+    {
+     "q": "Ce experiment este numit, în literatura anglo-saxonă, „true experiment” (experimentul propriu-zis)?",
+     "opts": [
+      "Experimentul de laborator",
+      "Experimentul de confirmare (provocat)",
+      "Experimentul pilot",
+      "Cvasi-experimentul (experimentul invocat)"
+     ],
+     "correct": 1,
+     "explain": "„True experiment” este experimentul de confirmare: varianta clasică, în care fenomenele sunt provocate deliberat, în condiții controlate, pentru a verifica ipoteza. „Experiment de laborator” indică doar locul, iar cvasi-experimentul e tocmai situația în care cercetătorul nu poate provoca fenomenele.",
+     "tag": "experimentul de confirmare"
+    },
+    {
+     "q": "Prin ce se caracterizează experimentul de explorare?",
+     "opts": [
+      "Se verifică o ipoteză care conține o acțiune stimulatoare și un răspuns",
+      "Nu se formulează ipoteză; se urmărește ce se întâmplă la o stimulare",
+      "Fenomenele sunt produse de natură, iar cercetătorul le studiază efectul",
+      "Se lucrează cu puțini subiecți, înaintea experimentului principal"
+     ],
+     "correct": 1,
+     "explain": "În experimentul de explorare experimentatorul nu are ipoteză, ci vrea să vadă ce se întâmplă dacă aplică o anumită stimulare. Verificarea unei ipoteze cu VI și VD definește experimentul de confirmare, fenomenele produse de natură – cvasi-experimentul, iar lucrul cu puțini subiecți, înainte – experimentul pilot.",
+     "tag": "experimentul de explorare"
+    },
+    {
+     "q": "Ce este experimentul psihopedagogic?",
+     "opts": [
+      "O variantă a experimentului de laborator, cu elevi drept subiecți",
+      "O formă a experimentului de confirmare, cu relație stochastică",
+      "Un cvasi-experiment despre deficiențele de învățare ale elevilor",
+      "O variantă a experimentului natural, desfășurată în mediul școlar"
+     ],
+     "correct": 3,
+     "explain": "Experimentul psihopedagogic e o variantă a experimentului natural: se desfășoară în mediul școlar, deci în locul obișnuit de activitate al subiecților, și ridică aceleași probleme deontologice. Nu e o variantă de laborator, iar relația stochastică definește experimentul factorial.",
+     "tag": "experimentul psihopedagogic"
+    },
+    {
+     "q": "Care tip de interviu este considerat cel mai util în practică?",
+     "opts": [
+      "Interviul semi-structurat",
+      "Interviul structurat",
+      "Interviul nestructurat",
+      "Interviul terapeutic"
+     ],
+     "correct": 0,
+     "explain": "Interviul semi-structurat urmărește întrebări-test, dar permite abateri în funcție de caz, și e descris drept cel mai util în practică. Cel structurat dă o evaluare completă, dar e neeconomic, iar cel nestructurat e o discuție liberă.",
+     "tag": "tipuri de interviu"
+    },
+    {
+     "q": "Ce permite metoda convorbirii și interviului, spre deosebire de observație și experiment?",
+     "opts": [
+      "Investigarea conduitei și a reacțiilor exterioare ale subiectului",
+      "Stabilirea riguroasă a relațiilor cauzale dintre variabile",
+      "Sondarea vieții interioare: intenții, opinii, atitudini, convingeri",
+      "Înregistrarea activității electrice a creierului și a mușchilor"
+     ],
+     "correct": 2,
+     "explain": "Capitolul spune că observația și experimentul investighează mai ales conduita și reacțiile exterioare, iar convorbirea și interviul permit sondarea vieții interioare: intenții, opinii, atitudini, interese, convingeri, aspirații, conflicte, valori. Relațiile cauzale țin de experiment, iar activitatea electrică de biosemnale.",
+     "tag": "convorbirea și interviul"
+    },
+    {
+     "q": "Care sunt cele două forme principale ale anchetei psihologice?",
+     "opts": [
+      "Ancheta transversală și ancheta longitudinală",
+      "Ancheta pe bază de observație și ancheta pe bază de test",
+      "Ancheta clinică și ancheta de consiliere",
+      "Ancheta pe bază de chestionar și ancheta pe bază de interviu"
+     ],
+     "correct": 3,
+     "explain": "Ancheta psihologică are două forme principale: pe bază de chestionar și pe bază de interviu. Din perspectiva psihometriei, ea ține de teoria sondajului. „Transversal” și „longitudinal” sunt tipuri de studii, nu forme ale anchetei.",
+     "tag": "ancheta psihologică"
+    },
+    {
+     "q": "Care sunt variantele mai noi ale metodei biografice, care urmăresc tocmai relațiile dintre evenimentele din viața individului?",
+     "opts": [
+      "Cauzometria și cauzograma",
+      "Anamneza și ancheta",
+      "Randomizarea și cauzalitatea",
+      "Sociometria și sociograma"
+     ],
+     "correct": 0,
+     "explain": "Cauzometria și cauzograma sunt variantele mai noi ale metodei biografice și surprind relațiile dintre evenimente (cauză-efect, scop-mijloc). „Anamneza” e chiar un alt nume al metodei biografice, iar sociometria ține de relațiile dintr-un grup, nu de istoria personală.",
+     "tag": "metoda biografică"
+    },
+    {
+     "q": "Care calitate a testului se referă la stabilitatea în timp a rezultatelor, adică la obținerea unor rezultate asemănătoare la o nouă aplicare?",
+     "opts": [
+      "Validitatea",
+      "Fidelitatea",
+      "Standardizarea",
+      "Etalonarea"
+     ],
+     "correct": 1,
+     "explain": "Fidelitatea înseamnă stabilitatea în timp a rezultatelor. Validitatea arată dacă testul măsoară ceea ce și-a propus, standardizarea asigură aceleași condiții pentru toți subiecții, iar etalonarea stabilește unitățile de măsură ale rezultatelor.",
+     "tag": "calitățile testului"
+    },
+    {
+     "q": "Ce înseamnă etalonarea (calibrarea) unui test?",
+     "opts": [
+      "Oferirea acelorași condiții tuturor subiecților examinați",
+      "Gradul în care testul măsoară ceea ce și-a propus să măsoare",
+      "Stabilirea unor unități de măsură pentru rezultatele obținute",
+      "Obținerea unor rezultate asemănătoare la o nouă aplicare"
+     ],
+     "correct": 2,
+     "explain": "Etalonarea constă în stabilirea unui etalon, adică a unor unități de măsură pentru rezultate. Aceleași condiții pentru toți definesc standardizarea, măsurarea a ceea ce își propune – validitatea, iar rezultatele asemănătoare la reaplicare – fidelitatea.",
+     "tag": "calitățile testului"
+    },
+    {
+     "q": "Ce măsoară activitatea electrodermală (EDR sau GSR)?",
+     "opts": [
+      "Activitatea electrică a mușchilor oculari",
+      "Activitatea electrică a retinei la lumină",
+      "Activitatea electrică a mușchilor scheletici",
+      "Schimbările în conductivitatea pielii"
+     ],
+     "correct": 3,
+     "explain": "Activitatea electrodermală măsoară schimbările în conductivitatea pielii, legate de activitatea sudoripară, influențată de stres și emoții. Mușchii oculari țin de electrooculogramă (EOG), retina de electroretinogramă (ERG), iar mușchii de electromiogramă (EMG).",
+     "tag": "biosemnale psihofiziologice"
+    },
+    {
+     "q": "Ca urmare a dezvoltării căror domenii a apărut metoda modelării și simulării?",
+     "opts": [
+      "Psihometria și statistica",
+      "Neuroștiințele și imagistica cerebrală",
+      "Cibernetica și inteligența artificială",
+      "Biologia evoluționistă și genetica"
+     ],
+     "correct": 2,
+     "explain": "Modelarea și simularea e o metodă relativ nouă, apărută odată cu dezvoltarea ciberneticii și a inteligenței artificiale: funcțiile psihice sunt descrise prin scheme logice, apoi simulate pe computer. Evoluția și genetica stau la baza metodei genetice și comparate.",
+     "tag": "modelare și simulare"
+    },
+    {
+     "q": "Cum se numește capacitatea individului de a-și examina și analiza propriile gânduri, emoții, motivații și acțiuni?",
+     "opts": [
+      "Conduita reflexivă",
+      "Conduita expresivă",
+      "Conduita verbală",
+      "Particularitățile bioconstituționale"
+     ],
+     "correct": 0,
+     "explain": "Conduita reflexivă înseamnă auto-examinare: auto-conștientizare, auto-evaluare, auto-reglare, auto-cunoaștere. Conduita expresivă privește exprimarea nonverbală (mimică, gesturi, postură, ton), cea verbală – folosirea limbajului, iar particularitățile bioconstituționale – aspectele biologice ale individului.",
+     "tag": "conduita expresivă, verbală, reflexivă"
+    }
+   ],
+   "ascunse": [
+    {
+     "q": "În experimentul factorial, ce fel de relație există între variabila independentă și cea dependentă?",
+     "opts": [
+      "O relație funcțională de tip cauză-efect",
+      "O relație de tip stochastic",
+      "O relație invocată, produsă de natură",
+      "Nicio relație, pentru că lipsește ipoteza"
+     ],
+     "correct": 1,
+     "explain": "Experimentul factorial, una dintre cele două forme ale experimentului de confirmare, presupune o relație stochastică între VI și VD. Relația funcțională de tip cauză-efect caracterizează cealaltă formă, experimentul funcțional.",
+     "tag": "experimentul de confirmare"
+    },
+    {
+     "q": "Cum se numesc studiile care colectează date de la mai mulți subiecți în același moment în timp?",
+     "opts": [
+      "Studii longitudinale",
+      "Studii de caz",
+      "Experimente pilot",
+      "Studii transversale"
+     ],
+     "correct": 3,
+     "explain": "Studiile transversale adună date de la mai mulți subiecți în același moment și sunt utile pentru diferențele individuale și de grup. Studiile longitudinale urmăresc același grup pe o perioadă lungă, iar studiul de caz cercetează în detaliu un singur subiect sau un grup mic.",
+     "tag": "metodele psihologiei experimentale"
+    },
+    {
+     "q": "Pe ce axiomă se fundamentează metoda genetică și comparată?",
+     "opts": [
+      "Psihicul a apărut în evoluție și are o dezvoltare ontogenetică și filogenetică",
+      "Funcțiile psihice pot fi reproduse prin programe rulate pe computer",
+      "Trăsăturile personalității se exteriorizează în produsele activității",
+      "Istoria personală explică relațiile dintre evenimentele vieții"
+     ],
+     "correct": 0,
+     "explain": "Axioma metodei genetice și comparate: psihicul este un fenomen apărut în cursul evoluției, determinat de mediul sociocultural, cu o dezvoltare ontogenetică și filogenetică. Celelalte variante sunt premisele modelării și simulării, ale analizei produselor activității și ale metodei biografice.",
+     "tag": "metoda genetică și comparată"
+    },
+    {
+     "q": "Cum sunt clasificate testele de personalitate?",
+     "opts": [
+      "Verbale și nonverbale (acestea din urmă, individuale sau colective)",
+      "De aptitudini și de performanță (acestea din urmă, orale sau scrise)",
+      "Proiective și obiective (acestea din urmă, categoriale sau dimensionale)",
+      "Structurate și nestructurate (acestea din urmă, directe sau indirecte)"
+     ],
+     "correct": 2,
+     "explain": "Capitolul împarte testele de personalitate în proiective și obiective, iar pe cele obiective în categoriale și dimensionale. „Structurat/nestructurat” și „direct/indirect” sunt criterii folosite pentru interviu și observație, nu pentru testele de personalitate.",
+     "tag": "teste de personalitate"
+    },
+    {
+     "q": "Care aspect al observației se referă la măsura în care observațiile reflectă cu exactitate fenomenul care este de fapt studiat?",
+     "opts": [
+      "Fiabilitatea observației",
+      "Valabilitatea observației",
+      "Obiectivitatea observației",
+      "Standardizarea procedurilor"
+     ],
+     "correct": 1,
+     "explain": "Valabilitatea arată dacă observațiile reflectă exact fenomenul studiat. Fiabilitatea se referă la consistența rezultatelor, reproductibile de observatori diferiți, obiectivitatea la lipsa biasului, iar standardizarea la criteriile clare și uniforme de înregistrare.",
+     "tag": "aspectele particulare ale observației"
+    }
+   ]
+  },
+  {
+   "id": "2",
+   "eticheta": "Runda 2 · Aplicații",
+   "titlu": "Runda 2 — Scenarii și raționament",
+   "desc": "Aplică metodele pe situații concrete: recunoaște metoda, tipul de experiment sau calitatea testului în joc.",
+   "intrebari": [
+    {
+     "q": "O cercetătoare devine voluntară într-un centru de tineret și participă luni de zile la activitățile grupului, ca să înțeleagă din interior relațiile dintre adolescenți. Ce risc al acestei forme de observație trebuie să gestioneze în mod special?",
+     "opts": [
+      "Nu poate obține date în timp real, ci doar din documente scrise",
+      "Prezența ei poate modifica comportamentul subiecților și obiectivitatea",
+      "Nu poate surprinde contextul natural în care apar comportamentele",
+      "Trebuie să manipuleze o variabilă independentă în fața grupului"
+     ],
+     "correct": 1,
+     "explain": "Este o observație participativă: aduce date autentice, în timp real și în mediul natural, dar capitolul avertizează asupra subiectivității cercetătorului și asupra faptului că prezența lui poate afecta comportamentul subiecților. Datele din documente țin de observația indirectă, iar manipularea VI ține de experiment.",
+     "tag": "avantajele și provocările observației"
+    },
+    {
+     "q": "O psihologă dintr-o grădiniță analizează, după criterii stabilite dinainte, desenele copiilor dintr-o grupă, ca să-și facă o idee despre starea lor emoțională. Ce metodă folosește?",
+     "opts": [
+      "Metoda biografică (anamneza copiilor)",
+      "Ancheta psihologică pe bază de interviu",
+      "Metoda modelării și simulării pe computer",
+      "Metoda analizei produselor activității"
+     ],
+     "correct": 3,
+     "explain": "Desenele sunt produse ale activității, iar analiza lor după criterii clare și obiective furnizează informații despre însușirile psihice ale copilului; capitolul dă chiar exemplul operelor create în terapia artistică. Metoda biografică reconstruiește istoria personală, iar ancheta adună informații prin chestionar sau interviu.",
+     "tag": "analiza produselor activității"
+    },
+    {
+     "q": "Un cercetător compară memoria de lucru a unor persoane care au suferit un traumatism cranian cu a unor persoane fără traumatism. Leziunea, evident, nu poate fi provocată de el. Ce tip de experiment realizează?",
+     "opts": [
+      "Experimentul invocat (cvasi-experimentul)",
+      "Experimentul de confirmare (provocat)",
+      "Experimentul de tip explorator",
+      "Experimentul pilot"
+     ],
+     "correct": 0,
+     "explain": "Când fenomenul nu poate fi provocat (dereglări patologice, infirmități, deficiențe, dezastre) și cercetătorul studiază doar efectul lui asupra comportamentului, avem un experiment invocat sau cvasi-experiment. În experimentul de confirmare fenomenele sunt provocate deliberat, ceea ce aici ar fi imposibil și neetic.",
+     "tag": "experimentul invocat (cvasi-experimentul)"
+    },
+    {
+     "q": "Înaintea unui studiu cu 300 de participanți, o echipă aplică procedura pe 10 studenți, ca să vadă dacă instrucțiunile sunt clare și durata e potrivită. Ce fel de experiment realizează?",
+     "opts": [
+      "Experiment de explorare",
+      "Experiment psihopedagogic",
+      "Experiment pilot",
+      "Experiment factorial"
+     ],
+     "correct": 2,
+     "explain": "Experimentul pilot e preliminar, cu un număr restrâns de subiecți, și precede experimentul principal. Experimentul de explorare nu are ipoteză și urmărește ce se întâmplă la o stimulare, nu verifică procedura unui studiu planificat.",
+     "tag": "experimentul pilot"
+    },
+    {
+     "q": "Aceiași elevi completează un test de anxietate de două ori, la două săptămâni distanță și în condiții identice, iar scorurile lor diferă foarte mult. Ce calitate a testului e pusă sub semnul întrebării?",
+     "opts": [
+      "Etalonarea",
+      "Standardizarea",
+      "Fidelitatea",
+      "Validitatea"
+     ],
+     "correct": 2,
+     "explain": "Fidelitatea înseamnă rezultate relativ asemănătoare la o nouă aplicare; scorurile instabile, în condiții identice, indică direct lipsa ei. Condițiile au fost aceleași, deci standardizarea nu e problema, iar validitatea privește ce măsoară testul, nu stabilitatea rezultatelor.",
+     "tag": "calitățile testului"
+    },
+    {
+     "q": "La un test de atenție, un examinator le dă unor elevi instrucțiuni detaliate și exemple, iar altora doar o instrucțiune scurtă. Ce calitate a testului este încălcată?",
+     "opts": [
+      "Standardizarea",
+      "Fidelitatea",
+      "Etalonarea",
+      "Validitatea"
+     ],
+     "correct": 0,
+     "explain": "Standardizarea cere aceleași condiții pentru toți subiecții: aceleași sarcini, aceleași instrucțiuni, aceleași modalități de cotare și interpretare, fără a-i favoriza pe unii și defavoriza pe alții. Instrucțiunile diferite îi favorizează exact pe unii dintre elevi.",
+     "tag": "calitățile testului"
+    },
+    {
+     "q": "O echipă urmărește aceiași 200 de copii de la 6 la 16 ani, testându-i în fiecare an, ca să vadă cum se dezvoltă autocontrolul. Ce tip de studiu este?",
+     "opts": [
+      "Studiu transversal",
+      "Studiu de caz",
+      "Experiment pilot",
+      "Studiu longitudinal"
+     ],
+     "correct": 3,
+     "explain": "Studiul longitudinal urmărește același grup pe o perioadă extinsă (ani sau decenii), ca să vadă cum se schimbă oamenii în timp. Un studiu transversal ar fi testat copii de vârste diferite în același moment, iar studiul de caz s-ar fi oprit la un singur subiect sau la un grup mic.",
+     "tag": "metodele psihologiei experimentale"
+    },
+    {
+     "q": "De ce e dificil de realizat experimentul natural?",
+     "opts": [
+      "Pentru că necesită un laborator dotat și resurse foarte extinse",
+      "Pentru că intervin factori care pot modifica semnificativ conduita",
+      "Pentru că nu permite formularea unei ipoteze de cercetare",
+      "Pentru că subiecții știu mereu că participă la un experiment"
+     ],
+     "correct": 1,
+     "explain": "Experimentul natural se desfășoară acolo unde subiectul își desfășoară activitatea, așa că un control riguros al variabilelor e greu de realizat: intervin factori care pot modifica semnificativ conduita. În schimb, oferă o experimentare mai apropiată de felul natural de a fi. Subiecții pot chiar să nu se simtă observați, ceea ce ridică probleme deontologice.",
+     "tag": "experimentul de laborator vs natural"
+    },
+    {
+     "q": "Termenul „experiment de laborator” indică doar locul cercetării. De ce se desfășoară totuși experimentul provocat, de obicei, în laborator?",
+     "opts": [
+      "Pentru că numai acolo se poate formula o ipoteză de cercetare",
+      "Pentru că acolo subiecții se comportă cel mai apropiat de natural",
+      "Pentru că acolo nu mai este nevoie de un grup de control",
+      "Pentru că numai acolo se poate asigura un control riguros al variabilelor"
+     ],
+     "correct": 3,
+     "explain": "Experimentul provocat (de confirmare) are nevoie de control riguros al variabilelor, iar capitolul spune că acesta se poate asigura numai în laborator. Apropierea de felul natural de a fi este avantajul experimentului natural, nu al laboratorului, iar ipoteza nu depinde de locul cercetării.",
+     "tag": "experimentul de laborator vs natural"
+    },
+    {
+     "q": "Doi observatori codifică aceeași înregistrare video a unei pauze dintre ore și numără episoadele de „comportament agresiv”: unul notează 4, celălalt 15. Ce ar trebui îmbunătățit în primul rând?",
+     "opts": [
+      "Numărul de camere video care înregistrează pauza dintre ore",
+      "Protocolul: criterii clare de definire și înregistrare a comportamentului",
+      "Mărimea eșantionului de elevi incluși în observație",
+      "Durata pauzei înregistrate pentru analiza ulterioară"
+     ],
+     "correct": 1,
+     "explain": "Diferența dintre observatori arată o fiabilitate scăzută. Protocolul observației trebuie să definească și să standardizeze comportamentul („ce înseamnă agresiv?”) și să-i instruiască pe observatori, ca observațiile să fie consistente. Mai multe camere, mai mulți elevi sau o pauză mai lungă nu rezolvă dezacordul asupra aceleiași înregistrări.",
+     "tag": "protocolul observației"
+    }
+   ],
+   "ascunse": [
+    {
+     "q": "Un cercetător nu are nicio ipoteză: le prezintă participanților un sunet neobișnuit doar ca să vadă ce reacții apar. Ce tip de experiment realizează?",
+     "opts": [
+      "Experiment de confirmare (provocat)",
+      "Experiment invocat (cvasi-experiment)",
+      "Experiment de explorare",
+      "Experiment psihopedagogic"
+     ],
+     "correct": 2,
+     "explain": "Lipsa ipotezei și aplicarea unei stimulări „ca să vadă ce se întâmplă” definesc experimentul de explorare. Experimentul de confirmare pornește de la o ipoteză cu VI și VD, iar cel invocat studiază fenomene pe care cercetătorul nu le poate provoca.",
+     "tag": "experimentul de explorare"
+    },
+    {
+     "q": "Ca să evalueze stresul studenților înaintea unui examen, un psiholog le înregistrează pulsul și conductivitatea pielii. Ce metodă folosește?",
+     "opts": [
+      "Procesarea biosemnalelor psihofiziologice",
+      "Analiza produselor activității studenților",
+      "Metoda modelării și simulării pe computer",
+      "Ancheta psihologică pe bază de chestionar"
+     ],
+     "correct": 0,
+     "explain": "Pulsul și activitatea electrodermală (conductivitatea pielii) sunt biosemnale psihofiziologice, folosite ca indicatori ai stresului și ai emoțiilor. Un chestionar ar măsura stresul prin autoraportare, nu prin semnale fiziologice.",
+     "tag": "biosemnale psihofiziologice"
+    },
+    {
+     "q": "La prima ședință, un psiholog clinician o roagă pe o pacientă să povestească evenimentele importante din copilărie, adolescență și viața adultă, căutând legăturile de tip cauză-efect dintre ele. Ce metodă folosește?",
+     "opts": [
+      "Metoda genetică și comparată",
+      "Ancheta psihologică pe bază de chestionar",
+      "Analiza produselor activității",
+      "Metoda biografică (anamneza)"
+     ],
+     "correct": 3,
+     "explain": "Metoda biografică strânge informații despre principalele evenimente trăite de individ și despre relațiile dintre ele (cauză-efect, scop-mijloc), ca să cunoască „istoria personală”. Metoda genetică și comparată urmărește dezvoltarea unor loturi în timp sau compară specii și grupe de vârstă, nu reconstituie povestea unei singure persoane.",
+     "tag": "metoda biografică"
+    },
+    {
+     "q": "Un cercetător testează memoria a trei grupuri, de 20, 40 și 60 de ani, toate în aceeași săptămână. Ce tip de studiu realizează?",
+     "opts": [
+      "Studiu longitudinal",
+      "Studiu transversal",
+      "Studiu de caz",
+      "Experiment invocat"
+     ],
+     "correct": 1,
+     "explain": "Datele sunt colectate de la subiecți diferiți în același moment, deci studiul e transversal. Un studiu longitudinal ar urmări aceleași persoane de la 20 la 60 de ani. Vârsta nu e un fenomen „invocat”, ca o boală sau un dezastru.",
+     "tag": "metodele psihologiei experimentale"
+    },
+    {
+     "q": "Un chestionar de anxietate folosește cuvinte atât de rare, încât scorurile ajung să reflecte de fapt vocabularul respondenților. Ce calitate a testului este afectată?",
+     "opts": [
+      "Validitatea",
+      "Fidelitatea",
+      "Etalonarea",
+      "Standardizarea"
+     ],
+     "correct": 0,
+     "explain": "Validitatea vizează gradul în care testul măsoară ceea ce și-a propus; aici el măsoară vocabularul în locul anxietății. Scorurile pot fi chiar stabile la reaplicare (fidelitate bună), pentru că vocabularul nu se schimbă de la o zi la alta, dar testul tot nu măsoară anxietatea.",
+     "tag": "calitățile testului"
+    }
+   ]
+  }
+ ]
+}

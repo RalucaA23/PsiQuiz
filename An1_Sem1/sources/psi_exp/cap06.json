@@ -1,0 +1,728 @@
+{
+ "schema": "quiz-capitol-v3",
+ "capitol": 6,
+ "titlu": "Raportul de cercetare",
+ "sursa": "Manual Psihologie experimentală (UTM), Capitolul 6",
+ "reconstituit": "Reconstituit pe 16 nov. 2026 din pagina publicată Psihologie_experimentala.html (capitolele erau încorporate în pagină). Lipsesc câmpurile 'tip' și 'exemplu_nou', care nu ajung în pagină; restul (hartă, runde, întrebări vizibile și ascunse) e identic cu pagina.",
+ "harta": {
+  "centru": "Raportul de cercetare",
+  "ramuri": [
+   {
+    "titlu": "Ce este raportul de cercetare",
+    "noduri": [
+     {
+      "t": "Raportul de cercetare",
+      "d": "Documentare detaliată a unei investigații științifice, care prezintă scopul, metodologia, rezultatele și interpretările unui studiu. Cuvânt cheie: document academic care prezintă detaliat rezultatele, metodologia și interpretările."
+     },
+     {
+      "t": "Organizarea și structura",
+      "d": "Sunt esențiale pentru claritatea și coerența informațiilor prezentate."
+     },
+     {
+      "t": "Stilul APA",
+      "d": "Raportul se formatează după stilul APA (Asociația Psihologică Americană): un set specific de reguli și convenții. Capitolul 1: G. Stanley Hall a fost primul președinte al APA."
+     },
+     {
+      "t": "De ce structura standard",
+      "d": "Respectarea structurii și formatării APA asigură coerența și profesionalismul documentului și le permite cititorilor să găsească și să înțeleagă ușor informațiile. Formatul nu schimbă datele: nu face un rezultat semnificativ sau valid."
+     }
+    ]
+   },
+   {
+    "titlu": "Structura APA pe scurt",
+    "tabel": {
+     "cap": [
+      "Nr.",
+      "Secțiunea",
+      "Ce conține",
+      "Din etapele capitolului 4 (corespondență orientativă)"
+     ],
+     "randuri": [
+      [
+       "1",
+       "Pagina de titlu",
+       "titlul, autorii, afilierea instituțională",
+       "—"
+      ],
+      [
+       "2",
+       "Rezumat (Abstract)",
+       "scop, metodologie, rezultate, concluzii; 150–250 de cuvinte",
+       "sinteza întregului studiu"
+      ],
+      [
+       "3",
+       "Introducere",
+       "context, scop, ipoteze; importanța și relevanța; literatura, succint",
+       "problema, lucrările de referință, obiectivele, ipotezele"
+      ],
+      [
+       "4",
+       "Metodologie",
+       "design, proceduri de colectare, eșantion; instrumente, selecția participanților, manipularea VI (dacă e cazul)",
+       "constructele, variabilele, definițiile operaționale, alegerea metodei"
+      ],
+      [
+       "5",
+       "Rezultate",
+       "rezultatele analizei; tabele și figuri explicate în text",
+       "prelucrarea rezultatelor"
+      ],
+      [
+       "6",
+       "Discuție",
+       "interpretare și implicații față de literatură și ipoteze; limite; cercetări viitoare",
+       "concluzii și propuneri, limitele cercetării"
+      ],
+      [
+       "7",
+       "Referințe",
+       "toate sursele citate, după standardele APA",
+       "bibliografie"
+      ],
+      [
+       "8",
+       "Anexe (dacă e necesar)",
+       "instrumente de măsurare, proceduri detaliate, date brute",
+       "anexe"
+      ]
+     ]
+    },
+    "noduri": [
+     {
+      "t": "Ordinea secțiunilor",
+      "d": "Pagina de titlu → Rezumat → Introducere → Metodologie → Rezultate → Discuție → Referințe → Anexe. Atenție: „Concluzii” e cuvânt cheie al capitolului, dar nu una dintre cele 8 secțiuni. Corespondența cu etapele din capitolul 4 e o legătură de studiu, nu apare explicit în carte."
+     }
+    ]
+   },
+   {
+    "titlu": "Pagina de titlu și rezumatul (abstractul)",
+    "noduri": [
+     {
+      "t": "Pagina de titlu",
+      "d": "Prima pagină: titlul studiului, numele autorilor și afilierea instituțională, specificate clar pentru a identifica în mod corect sursa studiului."
+     },
+     {
+      "t": "Rezumatul (Abstract)",
+      "d": "Prezentare concisă a scopului, metodologiei, rezultatelor și concluziilor; oferă o imagine generală a întregului raport. Nu confunda cu „Rezumatul” capitolului din manual."
+     },
+     {
+      "t": "Lungimea rezumatului",
+      "d": "Succint: în jur de 150–250 de cuvinte."
+     }
+    ]
+   },
+   {
+    "titlu": "Introducerea și metodologia",
+    "noduri": [
+     {
+      "t": "Introducerea",
+      "d": "Prezintă contextul general al studiului și enunță scopul și ipotezele acestuia."
+     },
+     {
+      "t": "Justificarea și literatura",
+      "d": "Introducerea justifică importanța și relevanța studiului și prezintă succint literatura de specialitate relevantă."
+     },
+     {
+      "t": "Metodologia",
+      "d": "Descrie în detaliu designul studiului, procedurile de colectare a datelor și populația sau eșantionul. Cuvânt cheie: designul, procedurile și modul în care datele au fost colectate și analizate."
+     },
+     {
+      "t": "Detaliile metodologiei",
+      "d": "Instrumentele de măsurare, procedurile de selecție a participanților și manipulările variabilelor independente (doar dacă este cazul: nu orice studiu manipulează o VI)."
+     },
+     {
+      "t": "De ce o metodologie detaliată",
+      "d": "Întrebare de verificare a capitolului. Răspunsul, legat de capitolul 1: procedura documentată clar permite replicarea studiului și evaluarea corectă a rezultatelor."
+     }
+    ]
+   },
+   {
+    "titlu": "Rezultatele și discuția",
+    "noduri": [
+     {
+      "t": "Rezultatele",
+      "d": "Prezintă rezultatele obținute în urma analizei datelor. Cuvânt cheie: datele și constatările, de obicei sub formă de tabele, grafice sau descrieri detaliate."
+     },
+     {
+      "t": "Tabele și figuri",
+      "d": "Ilustrează rezultatele, iar textul le explică interpretarea; graficele nu stau singure."
+     },
+     {
+      "t": "Discuția",
+      "d": "Interpretează rezultatele și le discută implicațiile în contextul literaturii existente și al ipotezelor inițiale. Cuvânt cheie: le contextualizează în cercetarea anterioară, cu implicațiile și limitările lor."
+     },
+     {
+      "t": "Limitele și cercetările viitoare",
+      "d": "Se examinează în discuție: limitele studiului și sugestii pentru cercetări viitoare. (În capitolul 4, „limitele cercetării” era o etapă separată.)"
+     },
+     {
+      "t": "Rezultate vs discuție",
+      "d": "Rezultatele arată ce s-a obținut (cu tabele explicate). Discuția leagă rezultatele de ipoteze și de literatură, cu implicații și limite. O comparație cu alți autori pe baza datelor proprii ține de discuție."
+     }
+    ]
+   },
+   {
+    "titlu": "Referințe și anexe",
+    "noduri": [
+     {
+      "t": "Referințele",
+      "d": "Lista tuturor surselor citate în raport, organizate conform standardelor APA. Corespund bibliografiei din etapele capitolului 4."
+     },
+     {
+      "t": "Anexele",
+      "d": "Dacă este necesar: materiale suplimentare, cum ar fi instrumentele de măsurare, procedurile detaliate sau datele brute. Capitolul 4 adaugă formularele de consimțământ (ca model, fără date care identifică participanții, cf. capitolul 5)."
+     }
+    ]
+   },
+   {
+    "titlu": "Rezumatul capitolului și cuvintele cheie",
+    "noduri": [
+     {
+      "t": "Stil clar și concis",
+      "d": "Raportul trebuie să respecte standardele academice și să fie redactat într-un stil clar și concis."
+     },
+     {
+      "t": "Cuvintele cheie",
+      "d": "Raport de cercetare, Metodologie, Rezultate, Discuție, Concluzii."
+     },
+     {
+      "t": "Concluziile",
+      "d": "Cuvânt cheie: sumarul și evaluarea finală a rezultatelor și interpretărilor, cu o perspectivă asupra contribuției cercetării la domeniu. Concluziile trebuie să reflecte rezultatele și interpretările studiului."
+     },
+     {
+      "t": "Întrebările de verificare",
+      "d": "Secțiunile și conținutul lor; de ce o metodologie detaliată; scopul și formele de prezentare ale rezultatelor; structura discuției; importanța concluziilor."
+     }
+    ]
+   },
+   {
+    "titlu": "Legături cu capitolele anterioare",
+    "noduri": [
+     {
+      "t": "Etapele experimentului în raport",
+      "d": "Capitolul 4: problema, lucrările de referință, obiectivele și ipotezele ajung în introducere; constructele, variabilele, definițiile operaționale și alegerea metodei în metodologie; prelucrarea în rezultate; concluziile, propunerile și limitele în discuție; bibliografia în referințe; anexele în anexe."
+     },
+     {
+      "t": "Replicarea",
+      "d": "Capitolul 1: totul trebuie documentat clar pentru a permite replicarea; un experiment de laborator bine conceput e replicabil. Tot acolo: „scrieți un raport detaliat al experimentului”."
+     },
+     {
+      "t": "Prelucrarea și interpretarea datelor",
+      "d": "Capitolul 1 (1.2.7): vizualizarea datelor prin grafice → rezultate; compararea cu literatura, variabilele confundate, validitatea externă, limitările și perspectivele → discuție. Eroarea de generalizare = extrapolarea la populații nereprezentate."
+     },
+     {
+      "t": "Transparența și confidențialitatea în raport",
+      "d": "Capitolul 5: transparență și integritate în raportarea rezultatelor (fără raportare selectivă sau date falsificate) și confidențialitate (fără date care identifică participanții)."
+     },
+     {
+      "t": "Distractori frecvenți",
+      "d": "Fidelitatea, validitatea, etalonarea (capitolul 3) sunt calități ale testelor, nu secțiuni ale raportului; pragul p < 0,05 și erorile de tip I/II vin din capitolul 1; comitetul de etică aprobă studiul înainte de începere."
+     }
+    ]
+   }
+  ]
+ },
+ "runde": [
+  {
+   "id": "1",
+   "eticheta": "Runda 1 · Bază",
+   "titlu": "Runda 1 — Concepte de bază",
+   "desc": "Recunoaștere: definiția raportului, stilul APA, cele 8 secțiuni și ce conține fiecare, cuvintele cheie.",
+   "intrebari": [
+    {
+     "q": "Ce este raportul de cercetare?",
+     "opts": [
+      "Lista detaliată a tuturor surselor folosite pentru a susține argumentele lucrării",
+      "Documentarea detaliată a unui studiu: scop, metodologie, rezultate, interpretări",
+      "Versiunea preliminară a studiului, care testează și ajustează procedura",
+      "Protocolul care standardizează înregistrarea datelor de observație"
+     ],
+     "correct": 1,
+     "explain": "Raportul de cercetare documentează detaliat o investigație științifică: scopul, metodologia, rezultatele și interpretările. Lista surselor e bibliografia, iar versiunea preliminară e experimentul pilot (ambele etape din capitolul 4). Protocolul de observație (capitolul 3) e un instrument de înregistrare, nu un raport.",
+     "tag": "Raportul de cercetare"
+    },
+    {
+     "q": "Ce reprezintă stilul APA, în redactarea raportului de cercetare?",
+     "opts": [
+      "Un set de principii etice pentru protecția participanților umani la experiment",
+      "Un program statistic pentru codificarea și prelucrarea datelor colectate",
+      "Un tip de design experimental, cu măsurători repetate pe aceiași subiecți",
+      "Un set specific de reguli și convenții de organizare și formatare a raportului"
+     ],
+     "correct": 3,
+     "explain": "APA vine de la Asociația Psihologică Americană, iar stilul APA e setul de reguli și convenții după care se organizează și se formatează raportul. Principiile etice sunt tema capitolului 5, programul statistic seamănă cu SPSS (capitolul 1), iar măsurătorile repetate sunt un tip de experiment din capitolul 1.",
+     "tag": "Stilul APA"
+    },
+    {
+     "q": "Ce conține pagina de titlu a unui raport APA?",
+     "opts": [
+      "Titlul studiului, numele autorilor și afilierea lor instituțională",
+      "Scopul, metodologia, rezultatele și concluziile studiului, pe scurt",
+      "Contextul general al studiului, scopul și ipotezele lui",
+      "Lista surselor citate, ordonate după standardele APA"
+     ],
+     "correct": 0,
+     "explain": "Pagina de titlu e prima pagină și cuprinde titlul, autorii și afilierea instituțională. Scopul, metodologia, rezultatele și concluziile pe scurt descriu rezumatul (abstractul), contextul și ipotezele țin de introducere, iar lista surselor e secțiunea de referințe.",
+     "tag": "Pagina de titlu"
+    },
+    {
+     "q": "Ce lungime este recomandată pentru rezumatul (abstractul) unui raport?",
+     "opts": [
+      "În jur de 50–100 de cuvinte",
+      "În jur de 500–750 de cuvinte",
+      "În jur de 150–250 de cuvinte",
+      "În jur de 1000–1500 de cuvinte"
+     ],
+     "correct": 2,
+     "explain": "Capitolul cere un rezumat succint, de aproximativ 150–250 de cuvinte, care să dea o imagine generală a întregului raport. Sub 100 de cuvinte nu încap scopul, metodologia, rezultatele și concluziile, iar peste 500 rezumatul nu mai e concis.",
+     "tag": "Lungimea rezumatului"
+    },
+    {
+     "q": "Ce prezintă, pe scurt, rezumatul (abstractul) unui raport?",
+     "opts": [
+      "Doar ipotezele și literatura de specialitate relevantă",
+      "Doar rezultatele statistice, în tabele și în figuri",
+      "Titlul, autorii și afilierea lor instituțională",
+      "Scopul, metodologia, rezultatele și concluziile studiului"
+     ],
+     "correct": 3,
+     "explain": "Rezumatul oferă o prezentare concisă a scopului, metodologiei, rezultatelor și concluziilor, adică o imagine a întregului raport. Variantele cu „doar” îl reduc la introducere sau la rezultate, iar titlul, autorii și afilierea sunt pe pagina de titlu.",
+     "tag": "Rezumatul (Abstract)"
+    },
+    {
+     "q": "Ce enunță introducerea unui raport de cercetare?",
+     "opts": [
+      "Designul studiului, procedurile și eșantionul",
+      "Contextul general al studiului, scopul și ipotezele",
+      "Rezultatele analizei, cu tabele și cu figuri",
+      "Limitele studiului și sugestii pentru viitor"
+     ],
+     "correct": 1,
+     "explain": "Introducerea prezintă contextul general al studiului și enunță scopul și ipotezele. Designul, procedurile și eșantionul sunt în metodologie, tabelele și figurile în rezultate, iar limitele și sugestiile pentru cercetări viitoare se examinează în discuție.",
+     "tag": "Introducerea"
+    },
+    {
+     "q": "Ce trebuie justificat în introducere?",
+     "opts": [
+      "Alegerea pragului p < 0,05 pentru fiecare test statistic folosit",
+      "Fidelitatea și etalonarea fiecărui instrument de măsurare folosit",
+      "Importanța și relevanța studiului, cu literatura prezentată succint",
+      "Excluderea participanților care s-au retras pe parcursul întregului studiu"
+     ],
+     "correct": 2,
+     "explain": "Introducerea justifică importanța și relevanța studiului și prezintă succint literatura de specialitate relevantă. Pragul p < 0,05 vine din capitolul 1, fidelitatea și etalonarea sunt calități ale testului din capitolul 3, iar retragerea participanților ține de capitolul 5 (și de efectul de mortalitate din capitolul 1). Niciuna nu e cerința introducerii.",
+     "tag": "Justificarea și literatura"
+    },
+    {
+     "q": "Ce descrie în detaliu secțiunea de metodologie?",
+     "opts": [
+      "Designul studiului, procedurile de colectare a datelor și eșantionul",
+      "Interpretarea rezultatelor obținute în contextul literaturii existente",
+      "Contextul general al studiului, cu scopul și ipotezele acestuia",
+      "Datele brute și procedurile detaliate, ca materiale suplimentare"
+     ],
+     "correct": 0,
+     "explain": "Metodologia descrie designul, procedurile de colectare a datelor și populația sau eșantionul. Interpretarea în contextul literaturii e discuția, contextul și ipotezele sunt în introducere, iar datele brute și procedurile detaliate pot merge în anexe, ca materiale suplimentare.",
+     "tag": "Metodologia"
+    },
+    {
+     "q": "Ce informație se include în metodologie doar „dacă este cazul”?",
+     "opts": [
+      "Instrumentele de măsurare folosite",
+      "Procedurile de selecție a participanților",
+      "Populația sau eșantionul studiat",
+      "Manipulările variabilelor independente"
+     ],
+     "correct": 3,
+     "explain": "Capitolul spune că metodologia include instrumentele de măsurare, procedurile de selecție a participanților și eșantionul, iar manipulările VI „dacă este cazul”. Motivul: nu orice studiu e un experiment; o observație sau o anchetă (capitolul 3) nu manipulează o VI, dar are mereu instrumente și participanți.",
+     "tag": "Detaliile metodologiei"
+    },
+    {
+     "q": "Ce se prezintă în secțiunea de rezultate?",
+     "opts": [
+      "Limitele studiului și direcțiile posibile pentru cercetările viitoare",
+      "Rezultatele analizei datelor, cu tabele și figuri explicate în text",
+      "Datele brute ale tuturor participanților, exact cum au fost notate",
+      "Implicațiile rezultatelor pentru teoria și literatura existentă"
+     ],
+     "correct": 1,
+     "explain": "Rezultatele prezintă ce s-a obținut în urma analizei datelor; tabelele și figurile ilustrează rezultatele, iar textul le explică. Limitele și implicațiile pentru literatură sunt în discuție, iar datele brute pot fi puse în anexe, nu în rezultate.",
+     "tag": "Rezultatele"
+    },
+    {
+     "q": "Ce face secțiunea de discuție?",
+     "opts": [
+      "Prezintă rezultatele analizei statistice, cu ajutorul tabelelor și figurilor",
+      "Descrie designul studiului și procedura de colectare a datelor",
+      "Interpretează rezultatele și implicațiile lor față de literatură și ipoteze",
+      "Prezintă concis întregul studiu, în aproximativ 150–250 de cuvinte"
+     ],
+     "correct": 2,
+     "explain": "În discuție rezultatele sunt interpretate, iar implicațiile lor sunt discutate în contextul literaturii existente și al ipotezelor inițiale. Tabelele și figurile țin de rezultate, designul și procedura de metodologie, iar prezentarea în 150–250 de cuvinte e rezumatul (abstractul).",
+     "tag": "Discuția"
+    },
+    {
+     "q": "În ce secțiune a raportului APA se examinează limitele studiului și se oferă sugestii pentru cercetări viitoare?",
+     "opts": [
+      "Discuție",
+      "Introducere",
+      "Metodologie",
+      "Anexe"
+     ],
+     "correct": 0,
+     "explain": "Capitolul pune limitele studiului și sugestiile pentru cercetări viitoare în discuție. În capitolul 4, „limitele cercetării” era o etapă separată (a 11-a); în raportul APA ea nu are o secțiune proprie. Metodologia descrie ce s-a făcut, nu ce limite are, iar anexele conțin doar materiale suplimentare.",
+     "tag": "Limitele și cercetările viitoare"
+    },
+    {
+     "q": "Ce cuprinde secțiunea de referințe?",
+     "opts": [
+      "Toate lucrările citite la documentare, chiar dacă nu au fost citate",
+      "Toate instrumentele de măsurare folosite, cu itemii lor completi",
+      "Toți participanții care și-au dat consimțământul pentru studiu",
+      "Toate sursele citate în raport, organizate conform standardelor APA"
+     ],
+     "correct": 3,
+     "explain": "Referințele sunt lista tuturor surselor citate în raport, organizate conform standardelor APA. Lucrările doar citite, dar necitate, nu intră în listă. Instrumentele complete pot merge în anexe, iar o listă cu participanții ar încălca chiar confidențialitatea (capitolul 5).",
+     "tag": "Referințele"
+    },
+    {
+     "q": "Ce este adevărat despre anexele unui raport APA?",
+     "opts": [
+      "Sunt obligatorii și conțin lista tuturor surselor citate în textul raportului",
+      "Sunt opționale și pot conține instrumente, proceduri detaliate, date brute",
+      "Sunt opționale și conțin interpretarea rezultatelor principale",
+      "Sunt obligatorii și conțin rezumatul de 150–250 de cuvinte"
+     ],
+     "correct": 1,
+     "explain": "Anexele apar „dacă este necesar” și pot cuprinde materiale suplimentare: instrumente de măsurare, proceduri detaliate sau date brute. Lista surselor e secțiunea de referințe, interpretarea rezultatelor e discuția, iar rezumatul are secțiunea lui, la începutul raportului.",
+     "tag": "Anexele"
+    },
+    {
+     "q": "De ce este important să se respecte structura standard APA?",
+     "opts": [
+      "Pentru ca rezultatele obținute să devină semnificative din punct de vedere statistic",
+      "Pentru ca ipoteza nulă să poată fi respinsă mai ușor la analiza datelor",
+      "Pentru coerență, profesionalism și ca cititorii să găsească ușor informațiile",
+      "Pentru ca raportul să înlocuiască aprobarea dată de comitetul de etică"
+     ],
+     "correct": 2,
+     "explain": "Structura standard asigură coerența și profesionalismul documentului și le permite cititorilor să găsească și să înțeleagă ușor informațiile. Formatul nu schimbă datele: semnificația statistică și respingerea H0 (capitolele 1–2) depind de rezultate, iar aprobarea comitetului de etică (capitolul 1) se obține înainte de studiu.",
+     "tag": "De ce structura standard"
+    }
+   ],
+   "ascunse": [
+    {
+     "q": "Ce sunt concluziile unui raport de cercetare?",
+     "opts": [
+      "Sumarul și evaluarea finală a rezultatelor, cu contribuția la domeniu",
+      "Lista surselor citate, organizată după standardele APA",
+      "Datele brute și instrumentele, adăugate ca materiale suplimentare",
+      "Prezentarea datelor în tabele, grafice sau descrieri detaliate"
+     ],
+     "correct": 0,
+     "explain": "Concluziile sunt sumarul și evaluarea finală a rezultatelor și interpretărilor, cu o perspectivă asupra contribuției cercetării la domeniu. Atenție: „Concluzii” e cuvânt cheie, dar nu una dintre cele 8 secțiuni din lista APA. Lista surselor e referințele, datele brute merg în anexe, iar tabelele și graficele țin de rezultate.",
+     "tag": "Concluziile"
+    },
+    {
+     "q": "Ce secțiune urmează imediat după metodologie, în structura APA a raportului?",
+     "opts": [
+      "Discuție",
+      "Rezultate",
+      "Introducere",
+      "Referințe"
+     ],
+     "correct": 1,
+     "explain": "Ordinea e: pagina de titlu → rezumat → introducere → metodologie → rezultate → discuție → referințe → anexe. După ce ai spus cum ai lucrat (metodologia), arăți ce ai obținut (rezultatele) și abia apoi interpretezi (discuția).",
+     "tag": "Ordinea secțiunilor"
+    },
+    {
+     "q": "Cine a fost primul președinte al Asociației Psihologice Americane (APA), al cărei stil îl urmează raportul de cercetare?",
+     "opts": [
+      "Wilhelm Wundt",
+      "Edward Titchener",
+      "G. Stanley Hall",
+      "Hermann Ebbinghaus"
+     ],
+     "correct": 2,
+     "explain": "Capitolul 1 îl prezintă pe G. Stanley Hall drept primul președinte al APA, care a promovat psihologia copilului. Wundt a fondat primul laborator de psihologie experimentală, Titchener a fost elevul lui și adept al structuralismului, iar Ebbinghaus a studiat memoria.",
+     "tag": "Stilul APA"
+    },
+    {
+     "q": "Cum trebuie redactat raportul de cercetare?",
+     "opts": [
+      "Clar și concis, respectând standardele academice",
+      "Literar și metaforic, ca să capteze cititorul",
+      "Exhaustiv, cu toate datele brute incluse în text",
+      "Liber, fără o structură stabilită dinainte"
+     ],
+     "correct": 0,
+     "explain": "Rezumatul capitolului cere ca raportul să respecte standardele academice și să fie redactat într-un stil clar și concis. Datele brute pot merge în anexe, nu în text, iar lipsa unei structuri contrazice chiar ideea centrală a capitolului.",
+     "tag": "Stil clar și concis"
+    },
+    {
+     "q": "De ce este importantă pagina de titlu?",
+     "opts": [
+      "Pentru a rezuma rezultatele principale ale studiului",
+      "Pentru a justifica relevanța temei care a fost aleasă",
+      "Pentru a asigura anonimatul autorilor studiului",
+      "Pentru a identifica în mod corect sursa studiului"
+     ],
+     "correct": 3,
+     "explain": "Capitolul spune că titlul, autorii și afilierea trebuie specificate clar pentru a identifica în mod corect sursa studiului. Rezumarea rezultatelor e rolul abstractului, justificarea relevanței e rolul introducerii, iar anonimatul (capitolul 5) privește participanții, nu autorii.",
+     "tag": "Pagina de titlu"
+    }
+   ]
+  },
+  {
+   "id": "2",
+   "eticheta": "Runda 2 · Aplicații",
+   "titlu": "Runda 2 — Scenarii și raționament",
+   "desc": "Plasează fraze și materiale în secțiunea potrivită, repară rapoarte greșite și leagă raportul de etapele, erorile și principiile din capitolele 1–5.",
+   "intrebari": [
+    {
+     "q": "Fraza „Au participat 60 de studenți (32 de femei), recrutați prin anunțuri și repartizați aleatoriu în două grupuri” apare într-un raport. În ce secțiune își are locul?",
+     "opts": [
+      "Rezultate",
+      "Introducere",
+      "Metodologie",
+      "Discuție"
+     ],
+     "correct": 2,
+     "explain": "Fraza descrie eșantionul și procedura de selecție și repartizare a participanților, adică metodologia. Numerele (60, 32) nu o fac „rezultat”: ele descriu cine a participat, nu ce s-a obținut în urma analizei. Repartizarea aleatorie e randomizarea din capitolele 2 și 4.",
+     "tag": "Metodologia"
+    },
+    {
+     "q": "Fraza „Spre deosebire de studiul lui Ionescu (2019), efectul obținut de noi a fost mai mic, probabil pentru că eșantionul a cuprins doar studenți” apare într-un raport. Unde își are locul?",
+     "opts": [
+      "Discuție",
+      "Introducere",
+      "Rezultate",
+      "Metodologie"
+     ],
+     "correct": 0,
+     "explain": "Fraza interpretează un rezultat propriu, îl compară cu literatura și numește o limită (eșantionul): toate țin de discuție. Capcana e introducerea, unde se citează tot literatura, dar acolo nu există încă rezultate proprii cu care să fie comparată.",
+     "tag": "Discuția"
+    },
+    {
+     "q": "Fraza „Grupul experimental a reamintit în medie 14,2 cuvinte, iar grupul de control 10,8 (Tabelul 2)” apare într-un raport. Unde își are locul?",
+     "opts": [
+      "Discuție",
+      "Rezumat (Abstract)",
+      "Anexe",
+      "Rezultate"
+     ],
+     "correct": 3,
+     "explain": "Fraza prezintă un rezultat al analizei și trimite la un tabel, fără să-l interpreteze: e secțiunea de rezultate. Abstractul poate menționa pe scurt rezultatul principal, dar nu trimite la tabele, iar anexele nu conțin rezultatele principale, ci materiale suplimentare.",
+     "tag": "Rezultatele"
+    },
+    {
+     "q": "O studentă a aplicat un chestionar de 60 de itemi și îl descrie pe scurt în metodologie. Unde poate pune chestionarul complet?",
+     "opts": [
+      "În referințe, lângă sursele citate",
+      "În anexe, ca material suplimentar",
+      "În rezultate, înaintea tabelelor",
+      "În introducere, după ipoteze"
+     ],
+     "correct": 1,
+     "explain": "Anexele pot cuprinde instrumentele de măsurare, procedurile detaliate și datele brute. Referințele conțin doar sursele citate, rezultatele prezintă ce s-a obținut, iar introducerea pune problema; un instrument complet ar încărca inutil oricare dintre ele.",
+     "tag": "Anexele"
+    },
+    {
+     "q": "Un student scrie un rezumat (abstract) de 600 de cuvinte, care prezintă pe larg literatura și se oprește înainte de rezultate. Ce greșește?",
+     "opts": [
+      "E prea lung și nu acoperă metodologia, rezultatele și concluziile",
+      "E prea scurt, pentru că rezumatul are cel puțin două pagini",
+      "Nimic, pentru că rezumatul se ocupă doar de literatura citată",
+      "Ar fi trebuit să plaseze rezumatul imediat după referințe"
+     ],
+     "correct": 0,
+     "explain": "Rezumatul are în jur de 150–250 de cuvinte și prezintă concis scopul, metodologia, rezultatele și concluziile. Literatura prezentată pe larg e treaba introducerii. Rezumatul e a doua secțiune, după pagina de titlu, nu după referințe.",
+     "tag": "Rezumatul (Abstract)"
+    },
+    {
+     "q": "În lista de referințe, un student trece 30 de cărți citite la documentare, deși în text a citat doar 12. Ce prevede stilul APA?",
+     "opts": [
+      "Referințele cuprind tot ce s-a citit, pentru transparență deplină",
+      "Sursele necitate se trec la rezultate, ca dovezi suplimentare",
+      "Referințele cuprind sursele citate în raport, nu tot ce s-a citit",
+      "Sursele necitate se trec în introducere, la justificarea temei"
+     ],
+     "correct": 2,
+     "explain": "Capitolul definește referințele drept lista tuturor surselor citate în raport. Transparența din capitolul 5 privește raportarea corectă a rezultatelor, nu lista de lecturi. O sursă necitată nu are ce căuta în rezultate sau în introducere, unde nu e folosită.",
+     "tag": "Referințele"
+    },
+    {
+     "q": "Care corespondență între etapele experimentului și secțiunile raportului APA este corectă?",
+     "opts": [
+      "Alegerea metodei → Metodologie; limitele cercetării → Discuție",
+      "Alegerea metodei → Introducere; limitele cercetării → Rezultate",
+      "Lucrările de referință → Referințe; ipotezele → Metodologie",
+      "Prelucrarea rezultatelor → Discuție; anexele → Referințe"
+     ],
+     "correct": 0,
+     "explain": "Participanții, instrumentele, procedura și designul (alegerea metodei) se descriu în metodologie, iar limitele se examinează în discuție. Capcana e „lucrările de referință → Referințe”: literatura e prezentată succint în introducere (lista surselor citate e altceva), iar ipotezele se enunță tot în introducere. Prelucrarea rezultatelor se prezintă în secțiunea de rezultate.",
+     "tag": "Etapele experimentului în raport"
+    },
+    {
+     "q": "Un raport începe direct cu „Am aplicat testul X la 40 de elevi”, fără să explice de ce contează tema și ce s-a mai studiat. Ce lipsește?",
+     "opts": [
+      "O secțiune de anexe, cu instrumentele de măsurare folosite",
+      "O secțiune de rezultate, cu tabele și figuri explicative",
+      "O pagină de titlu, cu autorii și afilierea lor instituțională",
+      "O introducere care justifică relevanța și prezintă literatura"
+     ],
+     "correct": 3,
+     "explain": "Introducerea prezintă contextul, scopul și ipotezele, justifică importanța și relevanța studiului și prezintă succint literatura. Exact asta lipsește aici. Anexele, rezultatele și pagina de titlu pot exista foarte bine și fără introducere, dar nu-i țin locul.",
+     "tag": "Justificarea și literatura"
+    },
+    {
+     "q": "Un alt cercetător vrea să repete un studiu, dar metodologia spune doar „s-a aplicat un test de memorie unor elevi”. Ce problemă apare?",
+     "opts": [
+      "Studiul are o eroare de tip I, pentru că H0 a fost respinsă",
+      "Studiul nu poate fi replicat, pentru că lipsesc detaliile",
+      "Studiul are efect Hawthorne, pentru că elevii au fost testați",
+      "Studiul are efect de mortalitate, pentru că unii elevi lipsesc"
+     ],
+     "correct": 1,
+     "explain": "Capitolul 1 cere ca procedurile să fie documentate clar, pentru a permite replicarea, iar un experiment de laborator bine conceput trebuie să fie replicabil. De aceea capitolul 6 cere o metodologie detaliată: design, instrumente, selecția participanților. Eroarea de tip I, efectul Hawthorne și efectul de mortalitate sunt erori din capitolul 1 care nu reies din situație.",
+     "tag": "Replicarea"
+    },
+    {
+     "q": "Un raport circulă fără pagina de titlu: se știe ce s-a studiat, dar nu cine a făcut studiul și la ce instituție. Ce funcție a paginii de titlu lipsește?",
+     "opts": [
+      "Prezentarea concisă a rezultatelor principale",
+      "Justificarea relevanței temei studiate",
+      "Identificarea corectă a sursei studiului",
+      "Descrierea eșantionului și a procedurii"
+     ],
+     "correct": 2,
+     "explain": "Pagina de titlu specifică titlul, autorii și afilierea lor, pentru a identifica în mod corect sursa studiului. Prezentarea concisă a rezultatelor e rolul abstractului, justificarea relevanței al introducerii, iar eșantionul și procedura al metodologiei.",
+     "tag": "Pagina de titlu"
+    },
+    {
+     "q": "În secțiunea de rezultate, o studentă pune șase grafice, fără niciun comentariu. Ce cere stilul APA?",
+     "opts": [
+      "Ca graficele să fie mutate la referințe, la final",
+      "Ca graficele să fie eliminate, rezultatele fiind doar text",
+      "Ca graficele să fie puse în rezumat, înaintea introducerii",
+      "Ca textul să explice tabelele și figurile prezentate"
+     ],
+     "correct": 3,
+     "explain": "Capitolul spune că în rezultate sunt incluse tabele și figuri care ilustrează rezultatele, iar textul explică interpretarea acestora. Graficele sunt deci binevenite, dar nu pot sta singure. Vizualizarea datelor apare și în capitolul 1, ca pas al prelucrării datelor. Referințele și rezumatul nu sunt locul graficelor.",
+     "tag": "Tabele și figuri"
+    },
+    {
+     "q": "Ipoteza unui student a fost infirmată. În discuție, el scrie doar că rezultatele sunt „interesante” și nu mai revine la ipoteză. Ce lipsește?",
+     "opts": [
+      "Repetarea tabelelor din rezultate, ca să fie mai ușor de citit",
+      "Interpretarea rezultatelor față de ipotezele inițiale și literatură",
+      "Descrierea procedurii de selecție a participanților la studiu",
+      "Lista surselor citate, organizată după standardele APA"
+     ],
+     "correct": 1,
+     "explain": "Discuția interpretează rezultatele și le discută implicațiile în contextul literaturii existente și al ipotezelor inițiale. O ipoteză infirmată e un rezultat valabil, care trebuie interpretat, nu ocolit. Repetarea tabelelor nu e interpretare, selecția participanților ține de metodologie, iar lista surselor de referințe.",
+     "tag": "Discuția"
+    },
+    {
+     "q": "Un student găsește un efect doar la băieți și omite din raport analiza făcută pe fete, unde efectul nu a apărut. Ce cerință etică încalcă?",
+     "opts": [
+      "Transparența și integritatea în raportare",
+      "Confidențialitatea datelor personale",
+      "Nedivulgarea scopului studiului",
+      "Libertatea de a se retrage din studiu"
+     ],
+     "correct": 0,
+     "explain": "Capitolul 5 cere transparență și integritate în raportarea rezultatelor: datele nu se raportează selectiv, ca să confirme ipoteza. Confidențialitatea privește identitatea participanților, nedivulgarea înseamnă a nu-i induce în eroare despre scopul studiului, iar retragerea e decizia participanților, nu a cercetătorului.",
+     "tag": "Transparența și confidențialitatea în raport"
+    },
+    {
+     "q": "În discuție, autorul scrie că rezultatele obținute pe 30 de studenți la psihologie „se aplică tuturor adulților”. Ce eroare face?",
+     "opts": [
+      "Eroare de selecție",
+      "Eroare de tip I",
+      "Eroare de generalizare",
+      "Efectul Hawthorne"
+     ],
+     "correct": 2,
+     "explain": "Capitolul 1 numește eroare de generalizare extrapolarea rezultatelor la populații nereprezentate în studiu, iar la generalizare cere discutarea validității externe și a limitelor. Eroarea de selecție privește repartizarea participanților în grupuri (grupuri inițial diferite), eroarea de tip I respingerea greșită a H0, iar efectul Hawthorne schimbarea comportamentului când știi că ești studiat.",
+     "tag": "Prelucrarea și interpretarea datelor"
+    },
+    {
+     "q": "Un profesor citește 20 de rapoarte de la studenți. În cele scrise după structura APA găsește imediat descrierea eșantionului, deși nu le-a mai văzut. Ce avantaj ilustrează asta?",
+     "opts": [
+      "Structura standard garantează că rezultatele studiului sunt valide",
+      "Structura standard îi ajută pe cititori să găsească ușor informațiile",
+      "Structura standard elimină nevoia unui grup de control în studiu",
+      "Structura standard înlocuiește consimțământul informat al participanților"
+     ],
+     "correct": 1,
+     "explain": "Capitolul spune că structura standard asigură coerență și profesionalism și le permite cititorilor să găsească și să înțeleagă informațiile cu ușurință: eșantionul e mereu în metodologie. Formatul nu garantează validitatea (capitolul 3) și nu înlocuiește grupul de control (capitolul 4) sau consimțământul informat (capitolul 5).",
+     "tag": "De ce structura standard"
+    }
+   ],
+   "ascunse": [
+    {
+     "q": "Fraza „Ne așteptăm ca elevii care dorm cel puțin 8 ore să rețină mai multe cuvinte decât cei care dorm 6 ore” apare într-un raport. Unde își are locul?",
+     "opts": [
+      "Introducere",
+      "Metodologie",
+      "Rezultate",
+      "Discuție"
+     ],
+     "correct": 0,
+     "explain": "Fraza e o ipoteză, iar introducerea enunță scopul și ipotezele studiului. Ea nu descrie procedura (metodologie), nu prezintă date obținute (rezultate) și nu le interpretează (discuție); „ne așteptăm” arată că studiul încă nu s-a făcut.",
+     "tag": "Introducerea"
+    },
+    {
+     "q": "Un rezumat (abstract) spune doar: „Am studiat efectul somnului asupra memoriei la 60 de elevi, folosind un design între grupuri.” Ce lipsește?",
+     "opts": [
+      "Scopul și tema studiului",
+      "Designul și eșantionul studiului",
+      "Autorii și afilierea instituțională",
+      "Rezultatele și concluziile studiului"
+     ],
+     "correct": 3,
+     "explain": "Rezumatul trebuie să cuprindă scopul, metodologia, rezultatele și concluziile. Aici scopul (efectul somnului asupra memoriei) și metodologia (60 de elevi, design între grupuri) apar, dar lipsesc rezultatele și concluziile. Autorii și afilierea sunt pe pagina de titlu, nu în rezumat.",
+     "tag": "Rezumatul (Abstract)"
+    },
+    {
+     "q": "Un studiu compară performanța la o sarcină în zgomot de 40 dB și de 80 dB. Ce trebuie descris în metodologie, pe lângă design și eșantion?",
+     "opts": [
+      "Cum a fost manipulată VI și ce instrumente au măsurat VD",
+      "Cât de interesante li s-au părut rezultatele autorilor",
+      "Ce studii viitoare ar trebui făcute pe această temă",
+      "Cum se compară rezultatele cu literatura existentă"
+     ],
+     "correct": 0,
+     "explain": "Metodologia include instrumentele de măsurare, selecția participanților și manipulările VI (dacă este cazul); aici VI e nivelul zgomotului, deci manipularea trebuie descrisă. Studiile viitoare și comparația cu literatura țin de discuție, iar impresiile autorilor nu au loc în metodologie.",
+     "tag": "Detaliile metodologiei"
+    },
+    {
+     "q": "La finalul raportului, autoarea scrie: „Studiul arată că pauzele scurte cresc atenția elevilor și completează puținele cercetări pe copiii de 10 ani.” Ce noțiune ilustrează fraza?",
+     "opts": [
+      "Metodologia",
+      "Concluziile",
+      "Rezultatele",
+      "Rezumatul (Abstract)"
+     ],
+     "correct": 1,
+     "explain": "Fraza face o evaluare finală a rezultatelor și arată contribuția studiului la domeniu, exact cum definesc cuvintele cheie concluziile. Rezultatele ar fi prezentat datele (medii, tabele), nu contribuția, iar abstractul ar fi rezumat tot studiul, inclusiv scopul și metodologia.",
+     "tag": "Concluziile"
+    },
+    {
+     "q": "În secțiunea de rezultate, un raport amestecă tabelele cu paragrafe despre cum se potrivesc ele cu teoriile altor autori și ce limite are studiul. Unde ar trebui mutate aceste paragrafe?",
+     "opts": [
+      "În introducere",
+      "În metodologie",
+      "În discuție",
+      "În anexe"
+     ],
+     "correct": 2,
+     "explain": "Rezultatele prezintă ce s-a obținut, iar textul explică tabelele; legarea de teoriile altor autori, implicațiile și limitele țin de discuție. Introducerea prezintă literatura înainte de studiu, nu în raport cu rezultatele proprii, iar anexele conțin doar materiale suplimentare.",
+     "tag": "Rezultate vs discuție"
+    }
+   ]
+  }
+ ]
+}

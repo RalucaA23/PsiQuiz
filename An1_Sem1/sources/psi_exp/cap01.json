@@ -1,0 +1,718 @@
+{
+ "schema": "quiz-capitol-v3",
+ "capitol": 1,
+ "titlu": "Psihologia experimentală. Știință și metodă",
+ "sursa": "Manual Psihologie experimentală (UTM), Capitolul 1",
+ "reconstituit": "Reconstituit pe 16 nov. 2026 din pagina publicată Psihologie_experimentala.html (capitolele erau încorporate în pagină). Lipsesc câmpurile 'tip' și 'exemplu_nou', care nu ajung în pagină; restul (hartă, runde, întrebări vizibile și ascunse) e identic cu pagina.",
+ "harta": {
+  "centru": "Psihologia experimentală. Știință și metodă",
+  "ramuri": [
+   {
+    "titlu": "Definiție și obiective",
+    "noduri": [
+     {
+      "t": "Definiție",
+      "d": "Ramura psihologiei care investighează comportamentul uman cu metode experimentale: analizează procesele mentale, comportamentale și emoționale cu proceduri controlate și sistematice, identificând și cuantificând cauzele și efectele."
+     },
+     {
+      "t": "Scop",
+      "d": "Înțelegerea mecanismelor care determină comportamentul uman; dezvoltarea teoriilor și formularea ipotezelor, testate și validate prin experimente."
+     },
+     {
+      "t": "Obiectivele (domenii studiate)",
+      "d": "Percepția, memoria, învățarea, atenția, emoțiile, motivația, procesele cognitive superioare, comportamentul social, neuroștiințele și psihopatologia."
+     },
+     {
+      "t": "Percepție, memorie, învățare",
+      "d": "Percepția: interpretarea informațiilor primite prin simțuri, cu o reprezentare subiectivă a mediului. Memoria: stocarea, reținerea și recuperarea informațiilor. Învățarea: dobândirea de cunoștințe, abilități și comportamente prin experiență."
+     },
+     {
+      "t": "Atenție, emoții, motivație",
+      "d": "Atenția: concentrarea resurselor cognitive asupra unor stimuli, reducând impactul altora. Emoțiile: răspunsuri subiective, cu schimbări fiziologice, cognitive și comportamentale. Motivația: forța internă sau externă care direcționează comportamentul spre scopuri."
+     },
+     {
+      "t": "Procese superioare, social, neuro, psihopatologie",
+      "d": "Procesele cognitive superioare: gândire abstractă, rezolvare de probleme, decizie, planificare. Neuroștiințele studiază sistemul nervos; psihopatologia, tulburările mintale și comportamentele disfuncționale."
+     }
+    ]
+   },
+   {
+    "titlu": "Rădăcini filozofice și precursori",
+    "noduri": [
+     {
+      "t": "Rădăcini filozofice: Grecia antică",
+      "d": "Gorgias: puterea cuvântului asupra convingerilor. Platon: teorii despre suflet, memorie și cunoaștere (în dialoguri). Aristotel: percepție, memorie, emoții, asocierea ideilor; bazele abordării empirice (observație și experimentare)."
+     },
+     {
+      "t": "Egipt, India, China",
+      "d": "Egipt: visele și semnificația lor, în context mitologic și religios. India (Upanișade, Vede): minte, conștiință, yoga și meditație. China: Confucius și Laozi — comportament, etică, armonie interioară."
+     },
+     {
+      "t": "Filozofii moderni",
+      "d": "Descartes: reflexele și dualismul minte–corp. Locke: formarea ideilor prin experiență (empirism). Hobbes: natura umană, comportamentul social. Hume: asociația de idei, cauze și efecte. Kant: filozofia minții și a cunoașterii."
+     },
+     {
+      "t": "Înainte de secolul XIX",
+      "d": "Preocupările despre minte erau integrate în filozofie, medicină și alte discipline; nu exista o disciplină distinctă numită „psihologie”."
+     },
+     {
+      "t": "Precursori: Fechner, Helmholtz, Ebbinghaus",
+      "d": "Helmholtz: percepția, nervii senzoriali, măsurătorile fiziologice. G.T. Fechner (1801–1887): fondatorul psihofizicii, legea relației logaritmice stimul–senzație, „Elemente der Psychophysik” (1860). Atenție: fiul, Gustav Fechner (1855–1937), anatomist — sistemul nervos periferic. Mill: „A System of Logic”, studiul științific al comportamentului. Ebbinghaus: memorie, auto-experimentare."
+     }
+    ]
+   },
+   {
+    "titlu": "Curentele psihologiei și pionierii",
+    "tabel": {
+     "cap": [
+      "Moment / curent",
+      "Perioada",
+      "Reprezentanți",
+      "Accent"
+     ],
+     "randuri": [
+      [
+       "Fondarea",
+       "1879",
+       "Wilhelm Wundt",
+       "primul laborator, Leipzig"
+      ],
+      [
+       "Structuralismul",
+       "sfârșitul sec. XIX",
+       "Edward Titchener",
+       "componentele experienței mentale, senzațiile"
+      ],
+      [
+       "Funcționalismul",
+       "sfârșitul sec. XIX",
+       "William James",
+       "funcțiile adaptative ale comportamentului"
+      ],
+      [
+       "Behaviorismul",
+       "începutul sec. XX",
+       "John B. Watson, B.F. Skinner",
+       "comportamentul observabil, principiile învățării"
+      ],
+      [
+       "Psihologia gestalt",
+       "începutul sec. XX",
+       "Wertheimer, Koffka, Köhler",
+       "structurile globale, configurațiile"
+      ],
+      [
+       "Psihanaliza",
+       "începutul sec. XX",
+       "Sigmund Freud",
+       "procesele mentale inconștiente"
+      ],
+      [
+       "Psihologia umanistă",
+       "anii 1950–1960",
+       "Abraham Maslow, Carl Rogers",
+       "aspectele pozitive, dezvoltarea personală"
+      ],
+      [
+       "Revoluția cognitivă",
+       "anii 1950–1960",
+       "Ulric Neisser",
+       "gândirea, percepția, memoria"
+      ],
+      [
+       "Neuroștiințele",
+       "anii 1990–prezent",
+       "—",
+       "imagistică cerebrală, legătura creier–comportament"
+      ]
+     ]
+    },
+    "noduri": [
+     {
+      "t": "Wundt și laboratorul de la Leipzig",
+      "d": "Wundt (1832–1920), fondatorul psihologiei experimentale: primul laborator, Leipzig, 1879, pentru studiul conștiinței și proceselor mentale. A oferit un cadru formal și a promovat psihologia ca știință independentă, distinctă de filozofie."
+     },
+     {
+      "t": "Curentele psihologiei: pionierii",
+      "d": "William James: „Principles of Psychology” (1890), funcționalism, abordare pragmatică. Titchener: student al lui Wundt, structuralist. Watson: comportamentul observabil, fără procese mentale interne. Skinner: condiționarea operantă (învățare prin consecințe). Gestaltiștii: percepția ca proces global și organizat."
+     },
+     {
+      "t": "G. Stanley Hall",
+      "d": "Primul președinte al Asociației Psihologice Americane (APA); a promovat educația psihologică și psihologia copilului."
+     },
+     {
+      "t": "Neuroștiințele după 2007",
+      "d": "Evoluție exponențială, odată cu digitalizarea, Știința Datelor și Inteligența Artificială; psihologia devine domeniu de aplicare a algoritmilor; crește interesul pentru sistemele biologice în detrimentul celor fizice."
+     }
+    ]
+   },
+   {
+    "titlu": "Rol, contribuții și aplicații",
+    "noduri": [
+     {
+      "t": "Caracteristici",
+      "d": "Manipularea VI și observarea efectelor asupra VD, cu control strict; cercetare empirică, date concrete și verificabile; accent pe procesele cognitive (atenție, memorie, gândire, percepție); obiectivitate și replicabilitate."
+     },
+     {
+      "t": "Diferențierea de alte ramuri",
+      "d": "Clinica: diagnostic și tratament (experimentala: procese mentale la nivel general). Socială: interacțiuni și influența grupului (experimentala: procese mentale individuale). Educațională și organizațională: experimentala analizează procesele cognitive, inclusiv cele legate de învățare și muncă."
+     },
+     {
+      "t": "Metode de cercetare enumerate",
+      "d": "Experimentul controlat, observația sistematică, studiile de caz, metoda corelațională și intervenția experimentală. Controlul experimental asigură validitatea și fiabilitatea."
+     },
+     {
+      "t": "Contribuții celebre",
+      "d": "Ebbinghaus: repetiția în memorare. Wertheimer: organizarea percepției în forme. Pavlov: stimul–răspuns. Skinner: învățarea operantă. Cannon: reacția la stres și pericol. Asch: conformitatea socială. Zimbardo: experimentul Stanford Prison. Bandura: învățarea prin observare. Loftus: falsele amintiri. fMRI: neuroimagistică funcțională."
+     },
+     {
+      "t": "Aplicații practice",
+      "d": "Învățământ (strategii de învățare, metode de predare), dezvoltarea copiilor (intervenții, programe pentru copii cu nevoi speciale), psihologia clinică și terapie (eficacitatea terapiilor, terapia cognitiv-comportamentală)."
+     }
+    ]
+   },
+   {
+    "titlu": "Metodele: observație, experiment natural, experiment de laborator",
+    "noduri": [
+     {
+      "t": "Experimentul psihologic",
+      "d": "Metodă de cercetare pentru a obține date empirice și a testa ipoteze sau teorii despre comportament și procese cognitive și emoționale."
+     },
+     {
+      "t": "Observația",
+      "d": "Înregistrare atentă și sistematică, în mediu natural sau controlat. Cercetător neutru, observații planificate după criterii prestabilite, atenție la context, date în note, fișe sau înregistrări, obiectivitate, observații reproductibile."
+     },
+     {
+      "t": "Experimentul natural",
+      "d": "Fenomene care apar spontan, fără manipularea VI; adesea folosește date existente (arhive, statistici). Grad ridicat de ecologie (context natural, fără influențe artificiale). Util când intervenția ar fi imposibilă sau etic inacceptabilă. Limite: control redus, cauzalitate greu de stabilit, replicare exactă dificilă. Exemplu: impactul unui cutremur."
+     },
+     {
+      "t": "Experimentul de laborator",
+      "d": "Mediu controlat: control strict, randomizare, VI introdusă controlat, replicabilitate, date obiective și standardizate, analiză statistică. Limită: aplicabilitate redusă în afara laboratorului."
+     },
+     {
+      "t": "Comparația pe scurt",
+      "d": "Control: limitat / redus / înalt. Autenticitate: da / da / mai puțin. Fezabilitate: ridicată / variabilă / mai redusă. Cauzalitate: dificilă / limitată / susținută. Multe studii folosesc o abordare mixtă."
+     }
+    ]
+   },
+   {
+    "titlu": "Ipoteze și variabile",
+    "noduri": [
+     {
+      "t": "Ipoteza",
+      "d": "Presupunere bazată pe experiență sau documentare, care anticipează o relație între VI și VD. Condiții: verificabilă, economică, exprimată cantitativ, cuantificabilă, verosimilă. Se verifică statistic (testul t, chi pătrat, F)."
+     },
+     {
+      "t": "Experimente exploratorii",
+      "d": "Nu verifică ipoteze; doar consemnează modul de evoluție a valorii unor atribute sau fenomene."
+     },
+     {
+      "t": "H0 vs H1",
+      "d": "H0 (nulă): nu există diferență sau relație; e formulată pentru a fi respinsă. H1/Ha (alternativă, de cercetare): există o diferență semnificativă."
+     },
+     {
+      "t": "Decizia asupra H0 (p < 0,05)",
+      "d": "Dacă p asociat lui t este mai mic decât 0,05, H0 se respinge. Pașii: formularea ipotezei → designul → colectarea datelor → analiza statistică → decizia asupra H0 → interpretarea."
+     },
+     {
+      "t": "Variabile: rol și tipuri",
+      "d": "Variabilă: orice factor cu caracter dinamic. VI = variabile stimul (manipulate), VD = variabile răspuns (măsurate), VC = menținute constante. Continue (vârsta), discrete (numărul de copii), nominale (genul), ordinale (clasamentul, nivelurile de acord)."
+     },
+     {
+      "t": "Variabile în SPSS",
+      "d": "În SPSS variabilele se împart în variabile scor și variabile categoriale."
+     },
+     {
+      "t": "Controlul variabilelor",
+      "d": "VI se modifică în două feluri: intenționat (un factor anume) sau prin selectarea valorilor dintre cele existente. Control: VC constante, randomizare, design controlat, grupuri omogene, măsuri standardizate, analize statistice (de covarianță) pentru variabilele confundate."
+     }
+    ]
+   },
+   {
+    "titlu": "Erori în psihologia experimentală",
+    "noduri": [
+     {
+      "t": "Cele 8 tipuri generale",
+      "d": "Sistemice (ex. bias de selecție), ale variabilelor confundate (ex. stresul necontrolat), ale măsurătorilor, ale grupului de control, ale participanților (ex. efectul Hawthorne), de selecție (ex. voluntarii), de tip experimenter, statistice."
+     },
+     {
+      "t": "Erori statistice (tip I / tip II)",
+      "d": "Tip I: respingerea greșită a ipotezei nule. Tip II: acceptarea greșită a ipotezei nule."
+     },
+     {
+      "t": "Erori accidentale vs metodologice",
+      "d": "Accidentale: variații neplanificate, aleatorii (variabilitate naturală, măsurare, tehnice, eșantionare, măsurare aleatorie, codificare, umane — ex. date introduse greșit). Metodologice: greșeli sistematice în proiectare, implementare sau analiză."
+     },
+     {
+      "t": "Erori metodologice",
+      "d": "De selecție; de atribuire (efectul Hawthorne: schimbare pentru că știu că sunt studiați); de experimenter (așteptări transmise prin semnale nonverbale); de măsurare; efectul istoric (evenimente externe în timpul studiului); de mortalitate (retragerea participanților); de interacțiune (VI acționează diferit în funcție de altă variabilă); de generalizare (extrapolare nejustificată)."
+     }
+    ]
+   },
+   {
+    "titlu": "Organizare, date, tipuri de experiment, test",
+    "noduri": [
+     {
+      "t": "Organizarea experimentului",
+      "d": "Obiective și ipoteză testabilă; VI, VD, VC; design (între grupuri / în interiorul grupului); randomizare; măsuri și proceduri; materiale; eșantion reprezentativ; etică; colectare documentată; analiză; raport."
+     },
+     {
+      "t": "Prelucrare → interpretare → generalizare",
+      "d": "Prelucrare: colectare, verificarea calității, codificare, introducere, analiză statistică, vizualizare. Interpretare: rezultate, statistici, analiză calitativă, comparare cu literatura, variabile confundate. Generalizare: validitate externă, aplicabilitate, limite, perspective."
+     },
+     {
+      "t": "Tipuri de experiment",
+      "d": "Între grupuri; în interiorul grupului; cu măsurători repetate; cu control aleator; cu control pentru variabile confundate; de câmp (mediul natural, validitate externă mai mare, control mai greu); cu mascare (participanții sau cercetătorii nu știu condiția, ex. placebo)."
+     },
+     {
+      "t": "Test vs experiment",
+      "d": "Testul măsoară caracteristici în condiții standardizate, comparate cu norme, fără manipularea VI. Experimentul manipulează intenționat VI pentru a stabili cauzalitatea. Asemănări: ambele măsoară, obțin date și testează ipoteze."
+     }
+    ]
+   }
+  ]
+ },
+ "runde": [
+  {
+   "id": "1",
+   "eticheta": "Runda 1 · Bază",
+   "titlu": "Runda 1 — Concepte de bază",
+   "desc": "Recunoaștere: definiție și obiective, istorie, precursori și pionieri, curente, ipoteze, variabile, erori, tipuri de experiment.",
+   "intrebari": [
+    {
+     "q": "În ce an și unde a înființat Wilhelm Wundt primul laborator de psihologie experimentală?",
+     "opts": [
+      "În 1860, la Universitatea din Leipzig",
+      "În 1890, la Universitatea Harvard",
+      "În 1879, la Universitatea din Leipzig",
+      "În 1879, la Universitatea din Berlin"
+     ],
+     "correct": 2,
+     "explain": "Wundt a înființat laboratorul în 1879, la Universitatea din Leipzig, moment considerat începutul oficial al psihologiei experimentale. 1860 este anul în care Fechner a publicat „Elemente der Psychophysik”, iar 1890 anul apariției lucrării „Principles of Psychology” a lui William James.",
+     "tag": "Wundt și laboratorul de la Leipzig"
+    },
+    {
+     "q": "Pentru ce este cunoscut Gustav Theodor Fechner (1801–1887)?",
+     "opts": [
+      "Fondarea psihofizicii și legea relației logaritmice stimul–senzație",
+      "Curba uitării și metodele de auto-experimentare în memorie",
+      "Studiile despre nervii senzoriali și măsurătorile fiziologice",
+      "Cercetările de anatomie asupra sistemului nervos periferic"
+     ],
+     "correct": 0,
+     "explain": "Fechner este fondatorul psihofizicii; legea lui descrie relația logaritmică dintre intensitatea stimulului și senzația percepută (opera „Elemente der Psychophysik”, 1860). Curba uitării îi aparține lui Ebbinghaus, nervii senzoriali lui Helmholtz, iar cercetările asupra sistemului nervos periferic fiului său, anatomistul Gustav Fechner (1855–1937).",
+     "tag": "precursori: Fechner, Helmholtz, Ebbinghaus"
+    },
+    {
+     "q": "Ce concept a introdus Hermann Ebbinghaus?",
+     "opts": [
+      "Condiționarea operantă",
+      "Legea logaritmică a senzației",
+      "Învățarea prin observare",
+      "Curba uitării"
+     ],
+     "correct": 3,
+     "explain": "Ebbinghaus a introdus curba uitării și a arătat importanța repetiției în memorare. Condiționarea operantă îi aparține lui Skinner, legea logaritmică lui Fechner, iar învățarea prin observare lui Bandura.",
+     "tag": "precursori: Fechner, Helmholtz, Ebbinghaus"
+    },
+    {
+     "q": "Pe ce s-a concentrat funcționalismul, susținut de William James?",
+     "opts": [
+      "Pe analiza componentelor de bază ale experienței mentale",
+      "Pe funcțiile adaptative ale comportamentului și proceselor mentale",
+      "Pe procesele mentale inconștiente și influența lor",
+      "Pe comportamentul observabil și principiile învățării"
+     ],
+     "correct": 1,
+     "explain": "Funcționalismul lui James explora funcțiile adaptative: cum servesc procesele mentale în viața de zi cu zi. Analiza componentelor mentale definește structuralismul (Titchener), inconștientul ține de psihanaliză (Freud), iar comportamentul observabil de behaviorism (Watson, Skinner).",
+     "tag": "curentele psihologiei"
+    },
+    {
+     "q": "Cine au fost reprezentanții psihologiei gestalt?",
+     "opts": [
+      "John B. Watson, B.F. Skinner și Ivan Pavlov",
+      "Abraham Maslow, Carl Rogers și Ulric Neisser",
+      "Max Wertheimer, Kurt Koffka și Wolfgang Köhler",
+      "Wilhelm Wundt, Edward Titchener și William James"
+     ],
+     "correct": 2,
+     "explain": "Wertheimer, Koffka și Köhler au condus mișcarea gestaltistă, care subliniază că percepția e influențată de structurile globale și de configurații, nu doar de părțile individuale. Watson și Skinner țin de behaviorism, Maslow și Rogers de psihologia umanistă, iar Neisser de revoluția cognitivă.",
+     "tag": "curentele psihologiei"
+    },
+    {
+     "q": "Ce cercetător este asociat cu revoluția cognitivă din anii 1950–1960?",
+     "opts": [
+      "Ulric Neisser",
+      "Carl Rogers",
+      "Walter Cannon",
+      "Edward Titchener"
+     ],
+     "correct": 0,
+     "explain": "Neisser a evidențiat importanța studiului gândirii, percepției și memoriei, în cadrul revoluției cognitive. Carl Rogers aparține aceleiași perioade, dar psihologiei umaniste; Cannon a studiat stresul, iar Titchener structuralismul.",
+     "tag": "curentele psihologiei"
+    },
+    {
+     "q": "Ce a studiat Walter Cannon?",
+     "opts": [
+      "Conformitatea socială în grup",
+      "Falsele amintiri și manipularea memoriei",
+      "Învățarea prin observare",
+      "Reacțiile organismului la stres și pericol"
+     ],
+     "correct": 3,
+     "explain": "Cannon a pus bazele înțelegerii reacțiilor organismului la stres și pericol. Conformitatea socială e asociată cu Solomon Asch, falsele amintiri cu Elizabeth Loftus, iar învățarea prin observare cu Albert Bandura.",
+     "tag": "contribuții celebre"
+    },
+    {
+     "q": "Cum este definită atenția?",
+     "opts": [
+      "Capacitatea de a stoca, reține și recupera informații anterioare",
+      "Capacitatea de a concentra resursele cognitive asupra unor stimuli, reducând impactul altora",
+      "Procesul prin care organismele interpretează informațiile primite prin simțuri",
+      "Forța care direcționează comportamentul către atingerea unor scopuri"
+     ],
+     "correct": 1,
+     "explain": "Atenția înseamnă direcționarea și concentrarea resurselor cognitive asupra unor stimuli specifici, excluzând sau reducând impactul altora. Celelalte variante sunt definițiile din capitol pentru memorie, percepție și motivație.",
+     "tag": "obiectivele (domenii studiate)"
+    },
+    {
+     "q": "Prin ce se diferențiază psihologia experimentală de psihologia clinică?",
+     "opts": [
+      "Studiază procesele mentale la nivel general, nu diagnosticul și tratamentul tulburărilor",
+      "Studiază interacțiunile sociale și influența grupului, nu procesele individuale",
+      "Studiază comportamentul la locul de muncă, nu tulburările psihologice",
+      "Studiază doar tulburările mintale, nu și comportamentul obișnuit"
+     ],
+     "correct": 0,
+     "explain": "Psihologia experimentală se ocupă de procesele mentale și de comportamentul uman la nivel general, pe când psihologia clinică se axează pe diagnosticarea și tratamentul tulburărilor. Interacțiunile sociale țin de psihologia socială, iar comportamentul la locul de muncă de psihologia organizațională.",
+     "tag": "diferențierea de alte ramuri"
+    },
+    {
+     "q": "Ce caracterizează experimentele exploratorii?",
+     "opts": [
+      "Verifică ipoteza nulă cu ajutorul testului t",
+      "Manipulează variabila independentă în laborator",
+      "Nu verifică ipoteze, ci consemnează evoluția unor atribute",
+      "Compară un grup experimental cu un grup de control"
+     ],
+     "correct": 2,
+     "explain": "Capitolul precizează că experimentele exploratorii nu verifică ipoteze, ci doar consemnează modul în care evoluează valoarea unor atribute sau fenomene. Verificarea statistică a ipotezelor și compararea grupurilor caracterizează experimentele care testează ipoteze.",
+     "tag": "experimente exploratorii"
+    },
+    {
+     "q": "Când se respinge ipoteza nulă?",
+     "opts": [
+      "Când valoarea lui t are un p mai mare decât 0,05",
+      "Când valoarea lui t are un p mai mic decât 0,05",
+      "Când valoarea lui t este egală cu zero",
+      "Când ipoteza de cercetare a fost formulată anterior"
+     ],
+     "correct": 1,
+     "explain": "H0 se respinge atunci când p asociat lui t este mai mic decât 0,05, adică diferența e semnificativă statistic. Un p mai mare decât 0,05 nu permite respingerea H0, iar simpla formulare a ipotezei de cercetare nu decide nimic.",
+     "tag": "decizia asupra H0 (p < 0,05)"
+    },
+    {
+     "q": "În ce categorii se împart variabilele în SPSS?",
+     "opts": [
+      "Variabile continue și variabile discrete",
+      "Variabile nominale și variabile ordinale",
+      "Variabile independente și variabile dependente",
+      "Variabile scor și variabile categoriale"
+     ],
+     "correct": 3,
+     "explain": "În SPSS variabilele se împart în variabile scor și variabile categoriale. Celelalte perechi sunt alte criterii de clasificare din capitol: după valori (continue/discrete), după categorii (nominale/ordinale) și după rol (VI/VD).",
+     "tag": "variabile în SPSS"
+    },
+    {
+     "q": "Ce descrie efectul Hawthorne?",
+     "opts": [
+      "Participanții își schimbă comportamentul doar pentru că știu că sunt studiați",
+      "Experimentatorul își transmite inconștient așteptările asupra participanților",
+      "Evenimente externe dintre începutul și finalul studiului modifică rezultatele",
+      "Participanții care se retrag din studiu diferă de cei care rămân"
+     ],
+     "correct": 0,
+     "explain": "Efectul Hawthorne apare când participanții își modifică comportamentul pentru că sunt conștienți că sunt observați; capitolul îl dă ca exemplu la erorile participanților și ca eroare de atribuire printre erorile metodologice. Celelalte variante descriu efectul experimenterului, efectul istoric și efectul de mortalitate (căderea subiecților).",
+     "tag": "erori metodologice"
+    },
+    {
+     "q": "Ce este eroarea de tip I în analiza statistică?",
+     "opts": [
+      "Acceptarea greșită a ipotezei nule",
+      "O greșeală în atribuirea codurilor",
+      "Respingerea greșită a ipotezei nule",
+      "Variabilitatea naturală a răspunsurilor"
+     ],
+     "correct": 2,
+     "explain": "Eroarea de tip I înseamnă respingerea greșită a H0: concluzionezi că există o diferență care de fapt nu există. Acceptarea greșită a H0 este eroarea de tip II. Greșeala de codificare și variabilitatea naturală sunt erori accidentale.",
+     "tag": "erori statistice (tip I / tip II)"
+    },
+    {
+     "q": "Ce caracterizează experimentul cu mascare (blinded)?",
+     "opts": [
+      "Se desfășoară în mediul natural al participanților",
+      "Participanții sau cercetătorii nu știu ce condiție se aplică",
+      "Aceiași participanți sunt expuși la toate condițiile",
+      "Participanții sunt atribuiți condițiilor în mod aleatoriu"
+     ],
+     "correct": 1,
+     "explain": "În experimentul cu mascare, participanții sau cercetătorii nu știu ce condiție experimentală se aplică, ca să se prevină bias-ul (de exemplu, medicament real sau placebo). Mediul natural definește experimentul de câmp, expunerea la toate condițiile experimentul în interiorul grupului, iar atribuirea aleatorie experimentul cu control aleator.",
+     "tag": "tipuri de experiment"
+    }
+   ],
+   "ascunse": [
+    {
+     "q": "Ce idei ale lui René Descartes au influențat studiile ulterioare asupra naturii umane?",
+     "opts": [
+      "Formarea ideilor prin experiență",
+      "Reflexele și dualismul minte–corp",
+      "Asociația de idei și relația cauză–efect",
+      "Puterea cuvântului asupra convingerilor"
+     ],
+     "correct": 1,
+     "explain": "Descartes a influențat studiile ulterioare prin ideile despre reflexe și dualismul minte–corp. Formarea ideilor prin experiență îi aparține lui Locke, asociația de idei și cauzalitatea lui Hume, iar puterea cuvântului lui Gorgias.",
+     "tag": "rădăcini filozofice"
+    },
+    {
+     "q": "Ce contribuție i se atribuie lui Aristotel?",
+     "opts": [
+      "Teorii despre suflet expuse în dialoguri",
+      "Explorarea puterii cuvântului și a retoricii",
+      "Analiza eticii și a armoniei interioare",
+      "Bazele abordării empirice, prin observație"
+     ],
+     "correct": 3,
+     "explain": "Aristotel a abordat percepția, memoria, emoțiile și asocierea ideilor și a pus bazele abordării empirice, evidențiind observația și experimentarea. Dialogurile despre suflet sunt ale lui Platon, retorica a lui Gorgias, iar armonia interioară a lui Confucius și Laozi.",
+     "tag": "rădăcini filozofice"
+    },
+    {
+     "q": "Ce sunt erorile de efect de trecere în timp (efectul istoric)?",
+     "opts": [
+      "Modificări produse de evenimente externe petrecute în timpul studiului",
+      "Modificări produse de retragerea unor participanți din studiu",
+      "Modificări produse de așteptările experimentatorului",
+      "Modificări produse de interacțiunea VI cu alte variabile"
+     ],
+     "correct": 0,
+     "explain": "Efectul istoric înseamnă că evenimente externe, fără legătură cu VI, care au loc între momentul inițial și cel final al studiului, modifică rezultatele. Retragerea participanților e efectul de mortalitate, așteptările țin de efectul experimenterului, iar interacțiunea VI cu alte variabile de erorile de interacțiune.",
+     "tag": "erori metodologice"
+    },
+    {
+     "q": "Ce înseamnă că experimentul natural oferă „un grad ridicat de ecologie”?",
+     "opts": [
+      "Că studiază mai ales impactul fenomenelor naturale asupra mediului",
+      "Că poate fi replicat exact de alți cercetători",
+      "Că fenomenele sunt studiate în contextul lor natural, fără influențe artificiale",
+      "Că cercetătorul controlează strict variabilele din mediu"
+     ],
+     "correct": 2,
+     "explain": "„Ecologie” înseamnă aici că evenimentele sunt studiate în contextul lor natural, neafectate de influențe artificiale. Capitolul spune, dimpotrivă, că replicarea exactă a unui experiment natural e dificilă și că cercetătorul are control limitat asupra variabilelor.",
+     "tag": "experimentul natural"
+    },
+    {
+     "q": "În ce două feluri poate modifica experimentatorul variabila independentă?",
+     "opts": [
+      "Prin randomizare sau prin formarea de grupuri omogene",
+      "Intenționat sau prin selectarea unor valori existente",
+      "Prin observație sistematică sau prin teste standardizate",
+      "Menținând-o constantă sau lăsând-o să varieze liber"
+     ],
+     "correct": 1,
+     "explain": "Experimentatorul fie modifică intenționat un factor al cărui efect îl studiază, fie selectează valorile dorite ale unei variabile dintre valorile existente, independent de el. Randomizarea și grupurile omogene sunt strategii de control al variabilelor confundate, iar menținerea constantă definește variabila de control.",
+     "tag": "controlul variabilelor"
+    }
+   ]
+  },
+  {
+   "id": "2",
+   "eticheta": "Runda 2 · Aplicații",
+   "titlu": "Runda 2 — Scenarii și raționament",
+   "desc": "Aplică conceptele pe situații concrete: erori, decizii statistice, metode, curente și contribuții.",
+   "intrebari": [
+    {
+     "q": "Un program antistres durează 6 luni. Până la final, jumătate dintre participanți abandonează, iar cei rămași sunt tocmai cei mai motivați. Ce eroare metodologică pune în pericol concluziile?",
+     "opts": [
+      "Efectul istoric",
+      "Efectul experimenterului",
+      "Efectul de mortalitate",
+      "Efectul Hawthorne"
+     ],
+     "correct": 2,
+     "explain": "Pierderea participanților, mai ales când cei care pleacă diferă de cei care rămân, este eroarea de mortalitate. Rezultatul final ar putea reflecta motivația celor rămași, nu eficiența programului. Efectul istoric ar presupune un eveniment extern, iar efectul Hawthorne o schimbare produsă de faptul că participanții știu că sunt observați.",
+     "tag": "erori metodologice"
+    },
+    {
+     "q": "În timpul unui studiu de trei luni despre anxietatea elevilor, ministerul anunță că examenele de la final de an se anulează. Anxietatea scade puternic. Ce eroare metodologică trebuie luată în calcul?",
+     "opts": [
+      "Efectul istoric",
+      "Eroarea de selecție",
+      "Eroarea de interacțiune",
+      "Eroarea de generalizare"
+     ],
+     "correct": 0,
+     "explain": "Anunțul e un eveniment extern, fără legătură cu VI, petrecut între măsurarea inițială și cea finală, deci e efectul istoric. Scăderea anxietății ar putea fi cauzată de anunț, nu de intervenția studiată. Eroarea de selecție ar ține de felul în care au fost aleși sau repartizați elevii.",
+     "tag": "erori metodologice"
+    },
+    {
+     "q": "Elevii unei clase devin mai liniștiți și mai atenți din ziua în care un psiholog începe să-i studieze, înainte de aplicarea oricărei intervenții. Ce explică cel mai bine schimbarea?",
+     "opts": [
+      "Efectul experimenterului",
+      "Efectul de mortalitate",
+      "O eroare accidentală de măsurare",
+      "Efectul Hawthorne"
+     ],
+     "correct": 3,
+     "explain": "Schimbarea apare înainte de orice intervenție, doar pentru că elevii știu că sunt studiați: e efectul Hawthorne. Efectul experimenterului ar presupune ca așteptările psihologului să le influențeze comportamentul, iar o eroare accidentală nu ar produce o schimbare constantă, în aceeași direcție.",
+     "tag": "erori metodologice"
+    },
+    {
+     "q": "O nouă metodă de predare a matematicii îi ajută mult pe elevii anxioși, dar deloc pe cei relaxați. Ce eroare ar face cercetătorul dacă ar raporta doar efectul mediu, fără să ia în calcul anxietatea?",
+     "opts": [
+      "Eroare de selecție",
+      "Eroare de interacțiune",
+      "Eroare de codificare",
+      "Efect istoric"
+     ],
+     "correct": 1,
+     "explain": "Efectul VI (metoda de predare) diferă în funcție de nivelul altei variabile (anxietatea). Dacă această interacțiune nu e luată în calcul, apare eroarea de interacțiune; capitolul dă exemplul unei intervenții care funcționează diferit în funcție de personalitate sau motivație.",
+     "tag": "erori metodologice"
+    },
+    {
+     "q": "Un studiu făcut doar pe studenți de 20–23 de ani arată că o tehnică de memorare este eficientă. Autorii o recomandă apoi tuturor pensionarilor. Ce eroare fac?",
+     "opts": [
+      "Eroare de mortalitate",
+      "Eroare de tip I",
+      "Eroare de generalizare",
+      "Eroare de măsurare"
+     ],
+     "correct": 2,
+     "explain": "Rezultatele sunt extrapolate la o populație care nu a fost reprezentată în studiu, fără dovezi că extrapolarea e justificată: aceasta e eroarea de generalizare. Eroarea de tip I ar însemna că efectul găsit la studenți nu există de fapt, ceea ce nu reiese din situație.",
+     "tag": "erori metodologice"
+    },
+    {
+     "q": "Analiza unui studiu dă pentru testul t un p = 0,12. Ce decizie se ia?",
+     "opts": [
+      "Ipoteza nulă nu se respinge",
+      "Ipoteza nulă se respinge",
+      "Ipoteza de cercetare este confirmată",
+      "Diferența este semnificativă statistic"
+     ],
+     "correct": 0,
+     "explain": "H0 se respinge doar când p < 0,05. Cu p = 0,12, diferența nu e semnificativă statistic, deci H0 nu se respinge și ipoteza de cercetare nu primește susținere. Celelalte variante ar fi valabile doar pentru un p sub 0,05.",
+     "tag": "decizia asupra H0 (p < 0,05)"
+    },
+    {
+     "q": "Un medicament îmbunătățește în realitate memoria, dar un studiu pe un eșantion foarte mic conchide că nu are niciun efect. Ce tip de eroare s-a produs?",
+     "opts": [
+      "Eroare de tip I",
+      "Efectul experimenterului",
+      "Eroare de codificare",
+      "Eroare de tip II"
+     ],
+     "correct": 3,
+     "explain": "Efectul există, dar studiul acceptă greșit ipoteza nulă (absența diferenței), ceea ce reprezintă eroarea de tip II. Eroarea de tip I ar fi inversul: să conchizi că medicamentul are efect când de fapt nu are.",
+     "tag": "erori statistice (tip I / tip II)"
+    },
+    {
+     "q": "Un profesor descrie o școală care descompunea experiența conștientă în elementele ei de bază, cum ar fi senzațiile. Despre ce curent și ce reprezentant este vorba?",
+     "opts": [
+      "Funcționalismul, cu William James",
+      "Structuralismul, cu Edward Titchener",
+      "Psihologia gestalt, cu Max Wertheimer",
+      "Behaviorismul, cu John B. Watson"
+     ],
+     "correct": 1,
+     "explain": "Analiza elementelor de bază ale experienței mentale și a senzațiilor definește structuralismul lui Titchener, student al lui Wundt. Gestaltiștii susțin opusul: percepția depinde de configurația globală, nu doar de părți. Funcționalismul studia funcțiile adaptative, iar behaviorismul renunța la procesele mentale interne.",
+     "tag": "curentele psihologiei"
+    },
+    {
+     "q": "Fechner publicase „Elemente der Psychophysik” încă din 1860. De ce este considerat totuși 1879 începutul oficial al psihologiei experimentale?",
+     "opts": [
+      "Laboratorul lui Wundt a oferit un cadru formal, dedicat cercetării psihologice",
+      "Fechner nu dezvoltase metode de măsurare a senzațiilor și percepțiilor",
+      "În 1879 a apărut behaviorismul, centrat pe comportamentul observabil",
+      "Wundt a devenit în 1879 primul președinte al Asociației Psihologice Americane"
+     ],
+     "correct": 0,
+     "explain": "Laboratorul de la Leipzig a stabilit un cadru formal pentru cercetarea experimentală și a contribuit la transformarea psihologiei într-o știință distinctă de filozofie. Fechner, ca precursor, dezvoltase deja metode de măsurare a senzațiilor; behaviorismul apare abia la începutul secolului XX, iar primul președinte al APA a fost G. Stanley Hall.",
+     "tag": "Wundt și laboratorul de la Leipzig"
+    },
+    {
+     "q": "Un cercetător vrea să afle cum afectează pierderea locului de muncă stima de sine. De ce va alege probabil un experiment natural?",
+     "opts": [
+      "Pentru că experimentul natural permite stabilirea sigură a cauzalității",
+      "Pentru că experimentul natural poate fi replicat exact oricând",
+      "Pentru că a provoca pierderea locului de muncă ar fi etic inacceptabil",
+      "Pentru că experimentul natural oferă un control strict al variabilelor"
+     ],
+     "correct": 2,
+     "explain": "Când intervenția cercetătorului ar fi imposibilă sau etic inacceptabilă, experimentul natural devine alternativa: se studiază persoane care și-au pierdut deja locul de muncă, eventual din date existente. Celelalte variante contrazic capitolul: experimentul natural are control limitat, cauzalitatea e greu de stabilit, iar replicarea exactă e dificilă.",
+     "tag": "experimentul natural"
+    }
+   ],
+   "ascunse": [
+    {
+     "q": "Un asistent introduce din neatenție scorul 85 în loc de 58 pentru un participant. Cum se clasifică această eroare?",
+     "opts": [
+      "Eroare accidentală (umană)",
+      "Eroare metodologică de selecție",
+      "Efectul experimenterului",
+      "Eroare de interacțiune"
+     ],
+     "correct": 0,
+     "explain": "E o greșeală umană neintenționată, care apare aleatoriu, deci o eroare accidentală; capitolul dă chiar exemplul unui cercetător care introduce eronat datele. Erorile metodologice (de selecție, de interacțiune, efectul experimenterului) sunt sistematice și țin de proiectarea sau desfășurarea studiului.",
+     "tag": "erori accidentale vs metodologice"
+    },
+    {
+     "q": "Pentru un studiu despre motivația pentru sport, cercetătorul recrutează voluntari printr-un afiș pus într-o sală de fitness. Ce problemă apare?",
+     "opts": [
+      "Efectul istoric",
+      "Eroare de tip II",
+      "Efectul de mortalitate",
+      "Eroare de selecție"
+     ],
+     "correct": 3,
+     "explain": "Voluntarii recrutați la sală sunt deja foarte activi și diferă de populația generală, deci apare eroarea de selecție. Efectul istoric ar presupune un eveniment extern în timpul studiului, iar efectul de mortalitate retragerea unor participanți.",
+     "tag": "erori metodologice"
+    },
+    {
+     "q": "Un psiholog aplică unui candidat la angajare un chestionar standardizat de personalitate și îi compară scorul cu normele. Ce metodă folosește și de ce?",
+     "opts": [
+      "Un experiment, pentru că măsoară o variabilă dependentă",
+      "Un test, pentru că măsoară o trăsătură fără să manipuleze o VI",
+      "Un experiment, pentru că se desfășoară în condiții standardizate",
+      "Un test, pentru că stabilește o relație cauzală între variabile"
+     ],
+     "correct": 1,
+     "explain": "Testul măsoară o caracteristică în condiții standardizate și compară rezultatul cu norme, fără manipularea intenționată a unei VI. Condițiile standardizate nu fac din procedură un experiment, iar stabilirea cauzalității este scopul experimentului, nu al testului.",
+     "tag": "test vs experiment"
+    },
+    {
+     "q": "Unor martori la un accident li se pun întrebări sugestive, iar ulterior ei își amintesc detalii care nu au existat. Ale cui cercetări ilustrează situația?",
+     "opts": [
+      "Hermann Ebbinghaus",
+      "Solomon Asch",
+      "Elizabeth Loftus",
+      "Albert Bandura"
+     ],
+     "correct": 2,
+     "explain": "Elizabeth Loftus a cercetat falsele amintiri și manipularea memoriei, cu impact asupra felului în care privim fiabilitatea mărturiilor. Ebbinghaus a studiat uitarea și repetiția, Asch conformitatea socială, iar Bandura învățarea prin observare.",
+     "tag": "contribuții celebre"
+    },
+    {
+     "q": "Un copil reproduce comportamentul agresiv pe care l-a văzut la un adult, deși nu a fost niciodată recompensat pentru asta. Ce cercetări explică cel mai bine situația?",
+     "opts": [
+      "Condiționarea operantă a lui B.F. Skinner",
+      "Studiile despre stres ale lui Walter Cannon",
+      "Studiile despre conformitate ale lui Solomon Asch",
+      "Învățarea prin observare a lui Albert Bandura"
+     ],
+     "correct": 3,
+     "explain": "Comportamentul e preluat prin simpla observare a unui model, fără recompensă, deci e vorba de învățarea prin observare (Bandura). Condiționarea operantă a lui Skinner ar cere ca comportamentul să fie modelat prin consecințe, iar aici consecințele lipsesc.",
+     "tag": "contribuții celebre"
+    }
+   ]
+  }
+ ]
+}

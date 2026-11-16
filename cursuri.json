@@ -1,0 +1,19 @@
+{
+  "_info": "Registrul cursurilor PsiQuiz. sursa = folderul cu CURS.md + capNN.json; pagina = pagina asamblată publicată (construită din sursa, nu se editează de mână); materiale = folderul local cu PDF-urile, relativ la C:\\Psi.",
+  "cursuri": [
+    {
+      "cheie": "asd",
+      "titlu": "Analiza superioară a datelor",
+      "sursa": "An1_Sem1/sources/asd",
+      "pagina": "An1_Sem1/ASD.html",
+      "materiale": "An1_Sem1/Analiza Superioara a Datelor"
+    },
+    {
+      "cheie": "psi_exp",
+      "titlu": "Psihologie experimentală",
+      "sursa": "An1_Sem1/sources/psi_exp",
+      "pagina": "An1_Sem1/Psihologie_experimentala.html",
+      "materiale": "An1_Sem1/Psihologie Experimentala"
+    }
+  ]
+}

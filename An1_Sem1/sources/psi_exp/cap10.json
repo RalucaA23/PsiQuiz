@@ -1,0 +1,776 @@
+{
+ "schema": "quiz-capitol-v3",
+ "capitol": 10,
+ "titlu": "Memoria",
+ "sursa": "Manual Psihologie experimentală (UTM), Capitolul 10",
+ "reconstituit": "Reconstituit pe 16 nov. 2026 din pagina publicată Psihologie_experimentala.html (capitolele erau încorporate în pagină). Lipsesc câmpurile 'tip' și 'exemplu_nou', care nu ajung în pagină; restul (hartă, runde, întrebări vizibile și ascunse) e identic cu pagina.",
+ "harta": {
+  "centru": "Memoria",
+  "ramuri": [
+   {
+    "titlu": "1. Memoria și procesele ei",
+    "noduri": [
+     {
+      "t": "Definiția memoriei",
+      "d": "Proces cognitiv complex care ne permite să stocăm și să recuperăm informații în timp; esențial pentru învățare, luarea deciziilor și funcționarea zilnică. Abordarea experimentală urmărește formarea, stocarea și recuperarea informațiilor."
+     },
+     {
+      "t": "Codificare, stocare, recuperare",
+      "d": "Codificarea: informația e introdusă și procesată în creier pentru a fi stocată. Stocarea: păstrarea ei în timp. Recuperarea: informația stocată e accesată și adusă înapoi în conștiință pentru utilizare (cuvintele cheie ale capitolului)."
+     },
+     {
+      "t": "Cele șase teme ale capitolului",
+      "d": "Modelele de abordare experimentală; formele memoriei; variabilele experimentale și controlul lor; generalizarea rezultatelor; uitarea, interferența și suprimarea; tehnici, procedee, aparatură."
+     },
+     {
+      "t": "Notă: „recurența”",
+      "d": "Întrebarea de verificare 4 cere ce este „recurența” și cum afectează recuperarea din memoria de lungă durată, dar termenul nu e explicat în text. De clarificat la curs; quiz-ul nu îl testează."
+     }
+    ]
+   },
+   {
+    "titlu": "2. Modelele de abordare experimentală",
+    "tabel": {
+     "cap": [
+      "Model",
+      "Autori, an",
+      "Ideea centrală"
+     ],
+     "randuri": [
+      [
+       "Atkinson-Shiffrin",
+       "Richard Atkinson, Richard Shiffrin (1968)",
+       "Trei componente: memoria senzorială, de lucru (scurtă durată), de lungă durată"
+      ],
+      [
+       "Procesarea informațiilor",
+       "—",
+       "Codificare, stocare, recuperare, sistematic și treptat; influențate de atenție, învățare, organizare"
+      ],
+      [
+       "Recunoaștere și amintire",
+       "—",
+       "Recunoaștere: identifici ce ți se prezintă din nou; amintire: recuperezi fără indicii externe"
+      ],
+      [
+       "„Modelul modal” (în carte)",
+       "Alan Baddeley (1974)",
+       "Subsisteme: bucla fonologică (verbal), schimbul vizuo-spațial, sistemul executiv"
+      ],
+      [
+       "Încărcare duală a memoriei de lucru",
+       "Baddeley și Hitch (1974)",
+       "Procesare simultană verbală și vizuo-spațială; sarcinile duble îi afectează capacitatea"
+      ]
+     ]
+    },
+    "noduri": [
+     {
+      "t": "Modelul Atkinson-Shiffrin",
+      "d": "Propus în 1968: memoria senzorială primește informațiile pentru scurt timp, memoria de lucru (de scurtă durată) le procesează activ și le stochează temporar, memoria de lungă durată le reține pe termen lung. Capitolul îl numește și „modelul de stocare în trei etape”."
+     },
+     {
+      "t": "Modelul de procesare a informațiilor",
+      "d": "Informațiile sunt procesate sistematic și treptat: codificare, stocare, recuperare. Procesele sunt influențate de atenție, învățare și organizarea informațiilor."
+     },
+     {
+      "t": "Modelul de recunoaștere și amintire",
+      "d": "Memoria de recunoaștere: identificarea informațiilor prezentate anterior. Memoria de amintire: recuperarea informațiilor în absența unor indicii sau sugestii externe."
+     },
+     {
+      "t": "Modelul lui Baddeley (1974)",
+      "d": "Cartea îl numește „modelul modal”: subsisteme („bucle”) specializate – bucla fonologică pentru informațiile verbale, schimbul (schița) vizuo-spațial pentru cele vizuale și spațiale, sistemul executiv pentru control și coordonare. Notă de studiu: în literatură, „modelul modal” desemnează de obicei modelul Atkinson-Shiffrin."
+     },
+     {
+      "t": "Modelul de încărcare duală (Baddeley și Hitch)",
+      "d": "Memoria de lucru procesează în același timp informații verbale și vizuo-spațiale; capacitatea de stocare și manipulare poate fi afectată de sarcini care le implică pe amândouă."
+     },
+     {
+      "t": "Cele trei cadre din introducere",
+      "d": "Introducerea grupează modelele în: stocarea în trei etape (senzorială, de lucru, de lungă durată), procesele de codificare și recuperare și diferențierea tipurilor de memorie (episodică, semantică, procedurală)."
+     }
+    ]
+   },
+   {
+    "titlu": "3. Formele memoriei",
+    "tabel": {
+     "cap": [
+      "Formă",
+      "Durată",
+      "Rol"
+     ],
+     "randuri": [
+      [
+       "Senzorială",
+       "Fracțiuni de secundă – câteva secunde (cuvinte cheie: sub o secundă)",
+       "Înregistrează temporar informația de la simțuri, încă neprocesată; punte spre memoria de lucru"
+      ],
+      [
+       "De scurtă durată (de lucru)",
+       "Câteva secunde – câteva minute",
+       "Reține temporar și manipulează activ informația; înțelegere, rezolvare de probleme, decizii"
+      ],
+      [
+       "De lungă durată",
+       "Ore – ani, decenii, toată viața",
+       "Cea mai durabilă; semantică, episodică, procedurală; identitate personală"
+      ]
+     ]
+    },
+    "noduri": [
+     {
+      "t": "Memoria senzorială",
+      "d": "Prima etapă: înregistrarea și prelucrarea temporară a sunetelor, imaginilor și altor stimuli, de la fracțiuni de secundă la câteva secunde; esențială pentru percepția și conștientizarea imediată a mediului. Face puntea între stimulii senzoriali și memoria de lucru sau de lungă durată."
+     },
+     {
+      "t": "Memoria de scurtă durată (de lucru)",
+      "d": "Capitolul le tratează ca pe aceeași formă: reținere temporară și manipulare activă a informației în sarcini cognitive; limitată în timp și capacitate. Cuvinte cheie: de la câteva secunde la câteva minute, fără a necesita codificare semnificativă."
+     },
+     {
+      "t": "Memoria de lungă durată",
+      "d": "Forma cea mai durabilă: de la ore la ani sau toată viața (cuvinte cheie: de la ore la decenii). Include informații semantice, episodice și procedurale; esențială pentru învățare și identitatea personală."
+     },
+     {
+      "t": "Memoria episodică",
+      "d": "Amintiri legate de evenimente și experiențe personale."
+     },
+     {
+      "t": "Memoria semantică",
+      "d": "Cunoștințele și informațiile generale, conceptele."
+     },
+     {
+      "t": "Memoria procedurală",
+      "d": "Procedurile și abilitățile motorii."
+     },
+     {
+      "t": "Cum lucrează împreună",
+      "d": "Memoria senzorială alimentează memoria de lucru; memoria de scurtă și cea de lungă durată lucrează împreună pentru procesarea și stocarea informațiilor în vederea utilizării ulterioare."
+     }
+    ]
+   },
+   {
+    "titlu": "4. Variabile experimentale și controlul lor",
+    "noduri": [
+     {
+      "t": "Variabilele în studiul memoriei",
+      "d": "Tipul și natura informațiilor prezentate, durata și modalitatea prezentării, sarcinile cerute subiecților și caracteristicile individuale ale acestora."
+     },
+     {
+      "t": "Variabile independente și dependente",
+      "d": "VI: factorii manipulați de cercetător, considerați cauza. VD: rezultatele măsurate. Exemplul cărții: stresul (VI) și performanța cognitivă (VD). Definițiile generale sunt în Cap. 2 (Metodele psihologiei experimentale)."
+     },
+     {
+      "t": "Variabile confundante",
+      "d": "Alți factori care pot influența VD și trebuie controlați sau ținuți constanți: vârsta, sexul, nivelul de educație sau alte trăsături personale."
+     },
+     {
+      "t": "Controlul variabilelor",
+      "d": "Randomizarea (asignarea aleatorie a participanților în condiții), standardizarea procedurilor (aceleași protocoale pentru administrarea VI și măsurarea VD) și manipularea atentă a VI (controlul nivelului sau intensității ei)."
+     },
+     {
+      "t": "De ce contează controlul",
+      "d": "Ca diferențele observate în performanța memoriei să fie cu adevărat rezultatul manipulării VI; asigură validitatea și fiabilitatea rezultatelor și concluzii corecte despre relațiile cauzale."
+     }
+    ]
+   },
+   {
+    "titlu": "5. Generalizarea rezultatelor",
+    "noduri": [
+     {
+      "t": "Generalizarea internă și externă",
+      "d": "Internă: extinderea rezultatelor la diferite aspecte sau condiții ale aceleiași populații sau aceluiași fenomen; cere controlul confundantelor. Externă: extinderea la alte populații, contexte sau situații decât cele studiate."
+     },
+     {
+      "t": "Factori care influențează generalizarea",
+      "d": "Similaritatea contextului; similaritatea populației; mărimea și reprezentativitatea eșantionului; validitatea și fiabilitatea măsurătorilor. Cu cât sunt mai favorabili, cu atât generalizarea e mai probabilă."
+     },
+     {
+      "t": "Limitările generalizării",
+      "d": "Efectele variabilelor confundante; diferențele culturale (atitudini, valori, comportamente); diferențele individuale dintre participanți."
+     },
+     {
+      "t": "Replicarea",
+      "d": "Folosirea mai multor metode de cercetare și replicarea studiilor în contexte diferite ajută la evaluarea și validarea generalizării."
+     }
+    ]
+   },
+   {
+    "titlu": "6. Uitarea, interferența și suprimarea",
+    "noduri": [
+     {
+      "t": "Uitarea",
+      "d": "Incapacitatea de a accesa sau recupera informații stocate anterior. Cauze: degradarea în timp, interferența, absența unei stimulări adecvate pentru reamintire. Tipuri: retroactivă (noul împiedică accesul la vechi) și proactivă (vechiul încurcă reținerea noului)."
+     },
+     {
+      "t": "Interferența proactivă și retroactivă",
+      "d": "Proactivă: informațiile anterioare interferează cu învățarea și reținerea celor noi. Retroactivă: informațiile noi interferează cu recuperarea celor anterioare. Notă: cartea dă aceleași definiții pentru uitarea retroactivă/proactivă și interferența retroactivă/proactivă."
+     },
+     {
+      "t": "Suprimarea",
+      "d": "Proces activ de reprimare sau inhibare a amintirii unor informații, intenționat sau neintenționat, mai ales când amintirile sunt emoțional dureroase sau neplăcute. (Titlul secțiunii din carte, „Uitarea, interferența și uitare”, o are în vedere ca al treilea termen.)"
+     },
+     {
+      "t": "Importanța practică",
+      "d": "Înțelegerea acestor procese ajută la strategii de îmbunătățire a memoriei, la evaluarea acurateței informațiilor reținute și la tratamentul amneziei și al tulburărilor de memorie."
+     }
+    ]
+   },
+   {
+    "titlu": "7. Tehnici, procedee, aparatură",
+    "noduri": [
+     {
+      "t": "Paradigme experimentale ale memoriei",
+      "d": "Paradigma de recunoaștere și de recuperare, paradigmele de învățare asociativă și paradigmele de memorie de lucru."
+     },
+     {
+      "t": "Aparate și tehnologii",
+      "d": "Dispozitive de prezentare a stimulilor, software de prelucrare a datelor și tehnici neurofiziologice: EEG, fMRI, PET (fMRI, PET și EEG investighează activitatea și conexiunile cerebrale)."
+     },
+     {
+      "t": "Metode generale de colectare",
+      "d": "Interviuri (structurate, semistructurate, nestructurate), chestionare și scale de măsurare, teste psihologice, observație și înregistrare video – descrise pe larg în Cap. 3 (Metoda observației)."
+     },
+     {
+      "t": "Software de analiză a datelor",
+      "d": "SPSS, R, MATLAB: analize statistice, vizualizarea datelor, identificarea de modele și relații."
+     },
+     {
+      "t": "Aparatura specializată",
+      "d": "Eye-trackerul măsoară fixarea ochilor; biofeedback-ul monitorizează răspunsurile fiziologice."
+     }
+    ]
+   },
+   {
+    "titlu": "8. Legături cu alte capitole",
+    "noduri": [
+     {
+      "t": "Ebbinghaus și curba uitării",
+      "d": "Cap. 1 (Psihologia experimentală. Știință și metodă): Ebbinghaus a studiat experimental memoria (inclusiv prin autoexperimentare), a introdus curba uitării și a arătat importanța repetiției."
+     },
+     {
+      "t": "Loftus și falsele amintiri",
+      "d": "Cap. 1 (Psihologia experimentală. Știință și metodă): cercetările lui Elizabeth Loftus despre falsele amintiri și manipularea memoriei, cu efecte asupra fiabilității mărturiilor."
+     },
+     {
+      "t": "Memoria și atenția",
+      "d": "Cap. 9 (Atenția): unii cercetători au considerat atenția sinonimă cu memoria de scurtă durată; selecția atențională hotărăște ce informație din memoria senzorială e procesată mai departe."
+     },
+     {
+      "t": "Exemple de variabile",
+      "d": "Cap. 7 (Procese senzoriale) folosește exemplul alcoolului și memoriei (cantitatea de alcool – VI, performanța memoriei – VD, oboseala – variabilă de confuzie)."
+     },
+     {
+      "t": "Experimentul asociativ-verbal",
+      "d": "Cap. 4 (Metoda experimentului): subiectul răspunde cu un cuvânt asociat stimulului verbal; evaluează asocierea semantică și memoria verbală. Diferă de paradigma de învățare asociativă, unde perechile sunt învățate dinainte."
+     },
+     {
+      "t": "Eroarea de generalizare",
+      "d": "Cap. 1 (Psihologia experimentală. Știință și metodă): extrapolarea rezultatelor la alte populații sau situații fără dovezi suficiente; validitatea externă e examinată la prelucrarea și interpretarea datelor."
+     }
+    ]
+   }
+  ]
+ },
+ "runde": [
+  {
+   "id": "1",
+   "eticheta": "Runda 1 · Bază",
+   "titlu": "Runda 1 — Concepte de bază",
+   "desc": "Recunoaștere: procesele memoriei, cele cinci modele, formele memoriei, variabilele și controlul lor, generalizarea, uitarea, interferența și suprimarea.",
+   "intrebari": [
+    {
+     "q": "Ce trei procese implică memoria?",
+     "opts": [
+      "Codificarea, stocarea și recuperarea informațiilor",
+      "Senzația, percepția și reprezentarea obiectului",
+      "Filtrarea, focalizarea și schimbarea automată",
+      "Detecția, discriminarea și scalarea stimulilor fizici"
+     ],
+     "correct": 0,
+     "explain": "Rezumatul spune că memoria implică codificarea, stocarea și recuperarea informațiilor în creier. Filtrarea, focalizarea și schimbarea automată sunt componentele selecției senzoriale din Cap. 9 (Atenția). Senzația și percepția sunt temele din Cap. 7 (Procese senzoriale) și Cap. 8 (Procese perceptive), iar detecția, discriminarea și scalarea țin de psihofizica din Cap. 7 (Procese senzoriale).",
+     "tag": "Codificare, stocare, recuperare"
+    },
+    {
+     "q": "Din ce componente este formată memoria în modelul propus de Atkinson și Shiffrin în 1968?",
+     "opts": [
+      "Bucla fonologică, schimbul vizuo-spațial și sistemul executiv",
+      "Memoria senzorială, memoria de lucru și cea de lungă durată",
+      "Memoria episodică, memoria semantică și memoria procedurală",
+      "Memoria de recunoaștere, memoria de amintire și cea de lucru"
+     ],
+     "correct": 1,
+     "explain": "Modelul Atkinson-Shiffrin are trei componente: memoria senzorială, memoria de lucru (de scurtă durată) și memoria de lungă durată. Bucla fonologică, schimbul vizuo-spațial și sistemul executiv sunt subsistemele modelului lui Baddeley (1974). Episodica, semantica și procedurala sunt tipurile memoriei de lungă durată, iar recunoașterea și amintirea sunt cele două tipuri distinse de modelul de recunoaștere și amintire.",
+     "tag": "Modelul Atkinson-Shiffrin"
+    },
+    {
+     "q": "În modelul lui Baddeley din 1974, ce subsistem prelucrează informațiile verbale?",
+     "opts": [
+      "Schimbul vizuo-spațial",
+      "Sistemul executiv",
+      "Memoria senzorială",
+      "Bucla fonologică"
+     ],
+     "correct": 3,
+     "explain": "Capitolul descrie o buclă fonologică pentru informațiile verbale, un schimb vizuo-spațial pentru informațiile vizuale și spațiale și un sistem executiv care controlează și coordonează procesele cognitive. Memoria senzorială e prima componentă a modelului Atkinson-Shiffrin, nu un subsistem al modelului lui Baddeley.",
+     "tag": "Modelul lui Baddeley (1974)"
+    },
+    {
+     "q": "Prin ce se deosebește memoria de amintire de memoria de recunoaștere?",
+     "opts": [
+      "Recuperează informația în absența unor indicii externe",
+      "Identifică informația atunci când îi e prezentată din nou",
+      "Păstrează informația senzorială mai puțin de o secundă",
+      "Reține temporar informația pentru o sarcină imediată"
+     ],
+     "correct": 0,
+     "explain": "În modelul de recunoaștere și amintire, memoria de amintire înseamnă recuperarea informațiilor fără indicii sau sugestii externe, iar cea de recunoaștere înseamnă identificarea informațiilor prezentate anterior, când ți se arată din nou. Păstrarea sub o secundă descrie memoria senzorială, iar reținerea temporară pentru o sarcină imediată descrie memoria de lucru.",
+     "tag": "Modelul de recunoaștere și amintire"
+    },
+    {
+     "q": "Ce factori influențează codificarea, stocarea și recuperarea, în modelul de procesare a informațiilor?",
+     "opts": [
+      "Intensitatea, durata și frecvența stimulilor",
+      "Motivația, oboseala și plictiseala subiectului",
+      "Atenția, învățarea și organizarea informațiilor",
+      "Similaritatea contextului și a populației studiate"
+     ],
+     "correct": 2,
+     "explain": "Modelul de procesare a informațiilor spune că informațiile sunt procesate sistematic și treptat, iar procesele sunt influențate de atenție, învățare și organizarea informațiilor. Intensitatea, durata și frecvența sunt particularități ale stimulilor din Cap. 8 (Procese perceptive), motivația, oboseala și plictiseala sunt factorii din exemplul paznicului din Cap. 9 (Atenția), iar similaritatea contextului și a populației sunt factori ai generalizării rezultatelor.",
+     "tag": "Modelul de procesare a informațiilor"
+    },
+    {
+     "q": "Ce susține modelul de încărcare duală a memoriei de lucru, propus de Baddeley și Hitch în 1974?",
+     "opts": [
+      "Prelucrează simultan informație verbală și vizuo-spațială",
+      "Distinge amintirea liberă de recunoașterea cu indicii",
+      "Reține doar informația verbală, repetată în gând de subiect",
+      "Transferă automat totul în memoria de lungă durată"
+     ],
+     "correct": 0,
+     "explain": "Modelul de încărcare duală spune că memoria de lucru procesează în același timp informații verbale și vizuo-spațiale, iar capacitatea ei de stocare și manipulare poate fi afectată de sarcini care implică ambele tipuri. Distincția amintire–recunoaștere e alt model din capitol. Reținerea doar a informației verbale ignoră latura vizuo-spațială, iar transferul automat contrazice ideea de capacitate limitată.",
+     "tag": "Modelul de încărcare duală (Baddeley și Hitch)"
+    },
+    {
+     "q": "Ce rol are memoria senzorială în procesul general al memoriei?",
+     "opts": [
+      "Transformă energia stimulului în impuls nervos",
+      "Face puntea între stimulii senzoriali și memoria de lucru",
+      "Scade sensibilitatea receptorilor la un stimul constant, prelungit",
+      "Manipulează activ informația în rezolvarea de probleme"
+     ],
+     "correct": 1,
+     "explain": "Memoria senzorială e prima etapă: păstrează temporar informațiile preluate de simțuri, încă neprocesate, și oferă o punte între stimulii senzoriali și memoria de lucru sau de lungă durată. Transformarea energiei stimulului în impuls nervos e transducția, iar scăderea sensibilității la un stimul constant e adaptarea senzorială, ambele din Cap. 7 (Procese senzoriale). Manipularea activă a informației e rolul memoriei de lucru.",
+     "tag": "Memoria senzorială"
+    },
+    {
+     "q": "Cât timp reține informația memoria de scurtă durată?",
+     "opts": [
+      "Mai puțin de o secundă, de obicei",
+      "De la câteva ore până la câteva decenii",
+      "De la câteva secunde la câteva minute",
+      "De la câteva minute la câteva ore"
+     ],
+     "correct": 2,
+     "explain": "Cuvintele cheie definesc memoria de scurtă durată ca reținerea informației de la câteva secunde la câteva minute, fără a necesita codificare semnificativă. Mai puțin de o secundă e durata dată pentru memoria senzorială, iar de la ore la decenii (sau toată viața) e memoria de lungă durată. Intervalul „minute–ore” nu apare în capitol.",
+     "tag": "Memoria de scurtă durată (de lucru)"
+    },
+    {
+     "q": "Ce conține memoria semantică, una dintre formele memoriei de lungă durată?",
+     "opts": [
+      "Evenimentele și experiențele personale",
+      "Procedurile și abilitățile motorii",
+      "Informația senzorială încă neprocesată",
+      "Cunoștințele generale și conceptele"
+     ],
+     "correct": 3,
+     "explain": "Memoria semantică cuprinde cunoștințele și informațiile generale, conceptele. Evenimentele și experiențele personale țin de memoria episodică, procedurile și abilitățile motorii de memoria procedurală, iar informația senzorială neprocesată stă, pentru scurt timp, în memoria senzorială.",
+     "tag": "Memoria semantică"
+    },
+    {
+     "q": "Care sunt exemple de variabile experimentale în studiul memoriei?",
+     "opts": [
+      "Tipul și modalitatea prezentării, sarcinile, trăsăturile subiecților",
+      "Intensitatea, durata, contrastul și contextul de fundal al stimulilor vizuali",
+      "Pragul absolut, pragul diferențial și gradul de adaptare a receptorilor",
+      "Filtrarea timpurie, atenuarea și selecția târzie a mesajului ignorat"
+     ],
+     "correct": 0,
+     "explain": "Capitolul enumeră tipul și natura informațiilor, durata și modalitatea prezentării, sarcinile cerute subiecților și caracteristicile individuale ale acestora. Intensitatea, contrastul, contextul și fundalul sunt particularitățile stimulilor din Cap. 8 (Procese perceptive), pragurile și adaptarea vin din Cap. 7 (Procese senzoriale), iar filtrarea, atenuarea și selecția târzie sunt mecanismele modelelor atenției din Cap. 9 (Atenția).",
+     "tag": "Variabilele în studiul memoriei"
+    },
+    {
+     "q": "Care sunt exemple de variabile confundante, care trebuie controlate sau ținute constante, într-un studiu al memoriei?",
+     "opts": [
+      "Nivelul de stres manipulat de cercetător",
+      "Vârsta, sexul sau nivelul de educație",
+      "Performanța cognitivă măsurată la final",
+      "Condiția atribuită prin tragere la sorți"
+     ],
+     "correct": 1,
+     "explain": "Variabilele confundante sunt alți factori care ar putea influența variabila dependentă: vârsta, sexul, nivelul de educație sau alte trăsături personale. În exemplul capitolului, stresul manipulat e variabila independentă, iar performanța cognitivă e variabila dependentă. Condiția atribuită prin tragere la sorți e rezultatul randomizării, tehnica prin care se minimizează tocmai confundantele, descrisă și în Cap. 2 (Metodele psihologiei experimentale).",
+     "tag": "Variabile confundante"
+    },
+    {
+     "q": "Ce înseamnă generalizarea externă a rezultatelor?",
+     "opts": [
+      "Extinderea lor la alte aspecte ale aceleiași populații",
+      "Repetarea studiului de alți cercetători, cu aceeași procedură",
+      "Extinderea lor la alte populații, contexte sau situații",
+      "Extrapolarea lor fără dovezi la populații diferite"
+     ],
+     "correct": 2,
+     "explain": "Generalizarea externă înseamnă extinderea rezultatelor la alte populații, contexte sau situații decât cele studiate. Extinderea la alte aspecte ale aceleiași populații e generalizarea internă. Repetarea studiului e replicarea, care ajută la validarea generalizării, dar nu e generalizare. Extrapolarea fără dovezi e eroarea de generalizare din Cap. 1 (Psihologia experimentală. Știință și metodă).",
+     "tag": "Generalizarea internă și externă"
+    },
+    {
+     "q": "Care dintre următorii factori favorizează generalizarea rezultatelor?",
+     "opts": [
+      "Un eșantion mic, dar foarte omogen din punct de vedere cultural",
+      "Un context de aplicare cât mai diferit de cel al studiului",
+      "Instrumente de măsurare noi, încă neetalonate pe populație",
+      "Un eșantion mare și reprezentativ pentru populația țintă"
+     ],
+     "correct": 3,
+     "explain": "Capitolul numește patru factori: similaritatea contextului, similaritatea populației, mărimea și reprezentativitatea eșantionului și validitatea și fiabilitatea măsurătorilor. Un eșantion mic și omogen nu e reprezentativ, un context foarte diferit scade probabilitatea generalizării, iar instrumentele neetalonate nu oferă măsurători valide și fiabile; etalonarea e descrisă în Cap. 3 (Metoda observației).",
+     "tag": "Factori care influențează generalizarea"
+    },
+    {
+     "q": "Ce este interferența retroactivă?",
+     "opts": [
+      "Informațiile anterioare împiedică învățarea celor noi",
+      "Inhibarea activă a unor amintiri dureroase sau neplăcute",
+      "Pierderea treptată a informației, doar prin trecerea timpului",
+      "Informațiile noi împiedică recuperarea celor anterioare"
+     ],
+     "correct": 3,
+     "explain": "Interferența retroactivă apare când informațiile noi interferează cu amintirea sau recuperarea informațiilor anterioare („retro” = înapoi, spre ce era deja). Situația inversă, vechiul care încurcă noul, e interferența proactivă. Inhibarea activă a amintirilor dureroase e suprimarea, iar degradarea în timp e una dintre cauzele uitării, nu interferență.",
+     "tag": "Interferența proactivă și retroactivă"
+    },
+    {
+     "q": "Ce este suprimarea, în studiul uitării?",
+     "opts": [
+      "O incapacitate pasivă de a recupera informații stocate anterior",
+      "Dispariția informației senzoriale după mai puțin de o secundă",
+      "Un proces activ de inhibare a unor amintiri, intenționat sau nu",
+      "Scăderea răspunsului la un stimul repetat și fără importanță"
+     ],
+     "correct": 2,
+     "explain": "Suprimarea e un proces activ de reprimare sau inhibare a amintirii anumitor informații, intenționat sau neintenționat, mai ales când amintirile sunt dureroase sau neplăcute. Incapacitatea de a recupera informații e definiția generală a uitării, dispariția rapidă a informației senzoriale ține de memoria senzorială, iar scăderea răspunsului la un stimul repetat e obișnuința din Cap. 9 (Atenția).",
+     "tag": "Suprimarea"
+    }
+   ],
+   "ascunse": [
+    {
+     "q": "Ce paradigme experimentale se folosesc pentru studiul memoriei?",
+     "opts": [
+      "Recunoaștere și recuperare, învățare asociativă, memorie de lucru",
+      "Ascultarea dihotică, umbrirea mesajului și orbirea neatențională",
+      "Metoda limitelor, metoda ajustării și metoda stimulilor constanți",
+      "Observația directă, observația indirectă și observația participativă"
+     ],
+     "correct": 0,
+     "explain": "Capitolul enumeră paradigma de recunoaștere și de recuperare, paradigmele de învățare asociativă și paradigmele de memorie de lucru. Ascultarea dihotică, umbrirea și orbirea neatențională țin de studiul atenției din Cap. 9 (Atenția), metodele limitelor, ajustării și stimulilor constanți măsoară pragurile din Cap. 7 (Procese senzoriale), iar formele observației sunt descrise în Cap. 3 (Metoda observației).",
+     "tag": "Paradigme experimentale ale memoriei"
+    },
+    {
+     "q": "Ce este codificarea, în procesul memoriei?",
+     "opts": [
+      "Accesarea informației stocate și aducerea ei înapoi în conștiință",
+      "Transformarea energiei fizice a stimulului în impuls nervos",
+      "Reținerea informației pentru scurt timp, fără nicio procesare",
+      "Introducerea și procesarea informației în creier, spre stocare"
+     ],
+     "correct": 3,
+     "explain": "Codificarea e procesul prin care informația e introdusă și procesată în creier pentru a fi stocată în memorie. Accesarea informației stocate și aducerea ei în conștiință e recuperarea, celălalt cuvânt cheie. Transformarea energiei stimulului în impuls nervos e transducția din Cap. 7 (Procese senzoriale), iar reținerea fără procesare amintește de memoria senzorială.",
+     "tag": "Codificare, stocare, recuperare"
+    },
+    {
+     "q": "Ce formă a memoriei de lungă durată cuprinde procedurile și abilitățile motorii?",
+     "opts": [
+      "Memoria episodică",
+      "Memoria procedurală",
+      "Memoria semantică",
+      "Memoria senzorială"
+     ],
+     "correct": 1,
+     "explain": "Memoria procedurală cuprinde procedurile și abilitățile motorii. Memoria episodică păstrează evenimentele și experiențele personale, cea semantică cunoștințele generale și conceptele, iar memoria senzorială nu face parte din memoria de lungă durată: e prima etapă, de scurtă durată, a procesului.",
+     "tag": "Memoria procedurală"
+    },
+    {
+     "q": "Care sunt limitele generalizării rezultatelor?",
+     "opts": [
+      "Efectul Hawthorne, mortalitatea experimentală și efectul experimentatorului",
+      "Similaritatea contextului, a populației și mărimea eșantionului",
+      "Variabilele confundante, diferențele culturale și cele individuale",
+      "Erorile de tip I, erorile de tip II și pragul de semnificație ales"
+     ],
+     "correct": 2,
+     "explain": "Limitările generalizării sunt efectele variabilelor confundante, diferențele culturale (atitudini, valori, comportamente) și diferențele individuale. Similaritatea contextului și a populației și mărimea eșantionului sunt, dimpotrivă, factorii care influențează (favorizează) generalizarea. Efectul Hawthorne, mortalitatea, efectul experimentatorului și erorile de tip I și II sunt erori metodologice și statistice din Cap. 1 (Psihologia experimentală. Știință și metodă), nu lista capitolului.",
+     "tag": "Limitările generalizării"
+    },
+    {
+     "q": "La ce folosesc programe precum SPSS, R și MATLAB?",
+     "opts": [
+      "La analiza statistică și vizualizarea datelor colectate",
+      "La prezentarea stimulilor pe durate strict controlate",
+      "La înregistrarea activității electrice a creierului",
+      "La monitorizarea răspunsurilor fiziologice ale corpului"
+     ],
+     "correct": 0,
+     "explain": "SPSS, R și MATLAB sunt software de analiză a datelor: permit analize statistice, vizualizarea datelor și identificarea de modele și relații. Prezentarea stimulilor se face cu dispozitive dedicate, activitatea electrică a creierului se înregistrează prin EEG, iar răspunsurile fiziologice se monitorizează prin biofeedback.",
+     "tag": "Software de analiză a datelor"
+    }
+   ]
+  },
+  {
+   "id": "2",
+   "eticheta": "Runda 2 · Aplicații",
+   "titlu": "Runda 2 — Scenarii și raționament",
+   "desc": "Aplică formele memoriei, modelele, interferența, controlul variabilelor, generalizarea și paradigmele pe situații concrete.",
+   "intrebari": [
+    {
+     "q": "Ana își repetă în gând numărul de telefon citit pe un afiș până îl formează, iar după convorbire nu și-l mai amintește. Ce formă a memoriei a folosit?",
+     "opts": [
+      "Memoria senzorială",
+      "Memoria de scurtă durată (de lucru)",
+      "Memoria de lungă durată semantică",
+      "Memoria procedurală"
+     ],
+     "correct": 1,
+     "explain": "Numărul e reținut temporar și manipulat activ (repetat) pentru o sarcină imediată, apoi se pierde: profilul memoriei de scurtă durată, pe care capitolul o identifică cu memoria de lucru. Memoria senzorială l-ar fi păstrat doar sub o secundă, fără repetare. Nu a ajuns în memoria de lungă durată, iar memoria procedurală privește abilitățile motorii, nu cifrele.",
+     "tag": "Memoria de scurtă durată (de lucru)"
+    },
+    {
+     "q": "Andrei își amintește cu detalii petrecerea de la 18 ani, de la lac: cine a venit, ce muzică era, cum a început ploaia. Ce formă a memoriei intervine?",
+     "opts": [
+      "Memoria semantică",
+      "Memoria procedurală",
+      "Memoria senzorială",
+      "Memoria episodică"
+     ],
+     "correct": 3,
+     "explain": "Amintirea unui eveniment personal, situat în timp și loc, ține de memoria episodică. Memoria semantică ar privi cunoștințe generale (de pildă, ce este un lac), cea procedurală abilități (cum se înoată), iar memoria senzorială nu poate păstra nimic ani de zile.",
+     "tag": "Memoria episodică"
+    },
+    {
+     "q": "Știi că Parisul e capitala Franței, dar nu-ți mai amintești când și de la cine ai aflat. Ce formă a memoriei folosești?",
+     "opts": [
+      "Memoria semantică",
+      "Memoria episodică",
+      "Memoria procedurală",
+      "Memoria de recunoaștere"
+     ],
+     "correct": 0,
+     "explain": "Cunoștința generală, desprinsă de momentul în care a fost învățată, ține de memoria semantică. Episodul învățării (când, de la cine) ar fi fost memorie episodică, tocmai partea care s-a pierdut. Memoria procedurală privește abilitățile motorii, iar recunoașterea e un tip de recuperare (identificarea a ceva prezentat din nou), nu o formă de stocare.",
+     "tag": "Memoria semantică"
+    },
+    {
+     "q": "La examen, Ioana găsește imediat răspunsul corect printre cele patru variante ale unei grile, dar la o întrebare deschisă pe aceeași temă nu și-l poate aminti. Ce distincție ilustrează situația?",
+     "opts": [
+      "Memoria senzorială față de memoria de lucru",
+      "Interferența proactivă față de cea retroactivă",
+      "Memoria de recunoaștere față de memoria de amintire",
+      "Memoria semantică față de memoria episodică"
+     ],
+     "correct": 2,
+     "explain": "La grilă informația e prezentată și trebuie doar identificată (recunoaștere); la întrebarea deschisă trebuie recuperată fără indicii externe (amintire), de aceea e mai grea. Nu e vorba de durata stocării (senzorială–de lucru), nici de o informație care o încurcă pe alta (interferență), iar ambele întrebări vizează același conținut semantic.",
+     "tag": "Modelul de recunoaștere și amintire"
+    },
+    {
+     "q": "Participanții rețin o serie de cifre și, în același timp, rotesc mental figuri geometrice; performanța la ambele sarcini scade. Ce model anticipează cel mai direct acest rezultat?",
+     "opts": [
+      "Modelul de recunoaștere și amintire",
+      "Modelul de încărcare duală (Baddeley și Hitch)",
+      "Modelul filtrului timpuriu (Broadbent)",
+      "Modelul reflectorului spațial (Posner)"
+     ],
+     "correct": 1,
+     "explain": "Modelul de încărcare duală spune că memoria de lucru procesează simultan informație verbală (cifrele) și vizuo-spațială (rotația figurilor), iar capacitatea ei poate fi afectată de sarcini care le implică pe amândouă. Modelul de recunoaștere și amintire privește tipul de recuperare. Filtrul lui Broadbent și reflectorul lui Posner sunt modele ale atenției din Cap. 9 (Atenția), despre selecția unui canal și deplasarea atenției în spațiu.",
+     "tag": "Modelul de încărcare duală (Baddeley și Hitch)"
+    },
+    {
+     "q": "După ce și-a schimbat codul PIN al cardului, Mara tastează la bancomat, din reflex, vechiul cod. Ce fenomen apare?",
+     "opts": [
+      "Interferența retroactivă",
+      "Suprimarea amintirii",
+      "Adaptarea senzorială",
+      "Interferența proactivă"
+     ],
+     "correct": 3,
+     "explain": "Informația veche (vechiul PIN) interferează cu reținerea și folosirea celei noi: interferență proactivă. Retroactivă ar fi dacă noul cod ar face-o să-l uite pe cel vechi. Suprimarea e o inhibare activă a amintirilor, de obicei dureroase, iar adaptarea senzorială din Cap. 7 (Procese senzoriale) e scăderea sensibilității receptorilor, fără legătură cu memoria.",
+     "tag": "Interferența proactivă și retroactivă"
+    },
+    {
+     "q": "După un an în care a învățat spaniola, Radu își amintește tot mai greu cuvintele italiene învățate în liceu. Ce fenomen descrie situația?",
+     "opts": [
+      "Interferența retroactivă",
+      "Interferența proactivă",
+      "Suprimarea amintirii",
+      "Obișnuința față de stimul"
+     ],
+     "correct": 0,
+     "explain": "Informația nouă (spaniola) împiedică recuperarea celei vechi (italiana): interferență retroactivă. Proactivă ar fi dacă italiana veche l-ar împiedica să învețe spaniola. Suprimarea presupune inhibarea activă a unor amintiri neplăcute, iar obișnuința din Cap. 9 (Atenția) e scăderea răspunsului de orientare la un stimul repetat.",
+     "tag": "Interferența proactivă și retroactivă"
+    },
+    {
+     "q": "Un martor al unui accident grav evită insistent să se gândească la imaginile acelei seri, iar după o vreme nu și le mai poate evoca. Ce proces intervine în astfel de situații?",
+     "opts": [
+      "Interferența retroactivă",
+      "Uitarea prin trecerea timpului",
+      "Suprimarea amintirii",
+      "Formarea unor amintiri false"
+     ],
+     "correct": 2,
+     "explain": "Suprimarea e un proces activ, intenționat sau nu, de inhibare a amintirilor emoțional dureroase. Nu există o informație nouă care să o acopere pe cea veche (interferența retroactivă), iar cazul nu e explicat de simpla degradare în timp, pentru că martorul evită activ amintirea. Falsele amintiri, studiate de Elizabeth Loftus și pomenite în Cap. 1 (Psihologia experimentală. Știință și metodă), înseamnă amintiri distorsionate, nu inhibate.",
+     "tag": "Suprimarea"
+    },
+    {
+     "q": "O cercetătoare compară câte cuvinte își reamintesc participanții dintr-o listă prezentată vizual față de o listă prezentată auditiv. Ce este modalitatea de prezentare în acest experiment?",
+     "opts": [
+      "Variabila independentă",
+      "Variabila dependentă",
+      "Variabila confundantă",
+      "Variabila subiect"
+     ],
+     "correct": 0,
+     "explain": "Modalitatea prezentării e una dintre variabilele experimentale numite în capitol și aici e manipulată de cercetătoare, deci e variabila independentă; numărul de cuvinte reamintite e variabila dependentă. O confundantă ar fi un factor necontrolat (de pildă vârsta), iar variabila subiect din Cap. 4 (Metoda experimentului) e o caracteristică a participanților, nu a stimulului.",
+     "tag": "Variabilele în studiul memoriei"
+    },
+    {
+     "q": "Într-un studiu despre efectul muzicii asupra memorării, grupul cu muzică e format din studenți, iar cel fără muzică din pensionari. Ce problemă are designul?",
+     "opts": [
+      "Muzica e o variabilă dependentă greșit aleasă",
+      "Vârsta e o variabilă confundantă necontrolată",
+      "Lipsește o sarcină de recunoaștere la un grup",
+      "Studiul încalcă principiul nedivulgării"
+     ],
+     "correct": 1,
+     "explain": "Grupurile diferă sistematic prin vârstă, una dintre confundantele numite în capitol, deci orice diferență de memorare poate veni din vârstă, nu din muzică; randomizarea ar fi prevenit asta. Muzica e manipulată, deci e variabila independentă, nu dependentă. Nu se spune nimic despre sarcina de recunoaștere, iar nedivulgarea din Cap. 5 (Probleme etice ale experimentului psihologic) privește informarea participanților despre scop, nu alcătuirea grupurilor.",
+     "tag": "Variabile confundante"
+    },
+    {
+     "q": "Toți participanții primesc aceleași instrucțiuni înregistrate, aceeași listă de cuvinte, câte două secunde pe cuvânt, în aceeași sală. Ce măsură de control se aplică?",
+     "opts": [
+      "Randomizarea participanților",
+      "Generalizarea internă",
+      "Fidelitatea test-retest",
+      "Standardizarea procedurilor"
+     ],
+     "correct": 3,
+     "explain": "Folosirea acelorași protocoale pentru administrarea VI și măsurarea VD e standardizarea procedurilor, care asigură consistența și validitatea rezultatelor. Randomizarea ar privi repartizarea aleatorie în condiții, generalizarea internă extinderea rezultatelor, iar fidelitatea test-retest din Cap. 3 (Metoda observației) e o calitate a unui instrument de măsură, nu o procedură de control.",
+     "tag": "Controlul variabilelor"
+    },
+    {
+     "q": "Un studiu despre memorarea listelor, făcut pe studenți americani, este folosit pentru a proiecta un program pentru vârstnici din satele din România. Ce tip de generalizare se încearcă și ce limită o amenință?",
+     "opts": [
+      "Generalizare internă; diferențele culturale",
+      "Generalizare externă; efectul Hawthorne",
+      "Generalizare externă; diferențele culturale",
+      "Generalizare internă; eroarea de tip I"
+     ],
+     "correct": 2,
+     "explain": "Rezultatele sunt extinse la altă populație și alt context: generalizare externă. Între cele două grupuri există diferențe culturale (și de vârstă), una dintre limitele numite în capitol. Generalizarea internă ar privi alte aspecte ale aceleiași populații. Efectul Hawthorne și eroarea de tip I sunt erori din Cap. 1 (Psihologia experimentală. Știință și metodă), care nu descriu problema transferului între culturi.",
+     "tag": "Limitările generalizării"
+    },
+    {
+     "q": "Profesorii au arătat, pe elevii unei clase, că repetarea la intervale ajută memorarea vocabularului englez și verifică acum, la aceiași elevi, dacă efectul apare și la datele de istorie. Ce fac?",
+     "opts": [
+      "Verifică o generalizare externă",
+      "Verifică o generalizare internă",
+      "Fac o replicare într-o altă cultură",
+      "Comit o eroare de generalizare"
+     ],
+     "correct": 1,
+     "explain": "Extinderea rezultatelor la alt aspect (alt material) al aceleiași populații e generalizarea internă, care cere ca variabilele confundante să fie controlate. Generalizarea externă ar presupune alt grup sau alt context. Nu e o replicare în altă cultură, iar eroarea de generalizare din Cap. 1 (Psihologia experimentală. Știință și metodă) ar fi o extrapolare fără dovezi, pe când aici efectul e testat empiric.",
+     "tag": "Generalizarea internă și externă"
+    },
+    {
+     "q": "Un cercetător vrea să afle pe ce cuvinte se oprește privirea participanților și cât timp, în timp ce citesc un text pe care trebuie să-l memoreze. Ce aparatură specializată îi trebuie?",
+     "opts": [
+      "Un dispozitiv eye-tracker",
+      "Un aparat de biofeedback",
+      "Un electroencefalograf",
+      "Un chestionar semistructurat"
+     ],
+     "correct": 0,
+     "explain": "Capitolul dă eye-trackerul ca exemplu de aparatură specializată pentru măsurarea fixării ochilor. Biofeedback-ul monitorizează răspunsurile fiziologice, EEG-ul înregistrează activitatea electrică a creierului, iar chestionarul, ca și interviul semistructurat descris în Cap. 3 (Metoda observației), adună informații subiective, nu mișcări oculare.",
+     "tag": "Aparatura specializată"
+    },
+    {
+     "q": "Participanții învață perechi de cuvinte (masă–nor, carte–râu), apoi primesc doar primul cuvânt din fiecare pereche și trebuie să-l spună pe al doilea. Ce paradigmă se folosește?",
+     "opts": [
+      "Un experiment asociativ-verbal liber",
+      "O paradigmă de recunoaștere",
+      "O paradigmă de memorie senzorială",
+      "O paradigmă de învățare asociativă"
+     ],
+     "correct": 3,
+     "explain": "Învățarea unor perechi și recuperarea celui de-al doilea termen pe baza primului e paradigma de învățare asociativă, numită în capitol. Capcana e experimentul asociativ-verbal din Cap. 4 (Metoda experimentului): acolo subiectul răspunde cu orice cuvânt asociat spontan stimulului, fără perechi învățate. Recunoașterea ar cere identificarea cuvântului printre variante, iar memoria senzorială nu păstrează informația până la testare.",
+     "tag": "Paradigme experimentale ale memoriei"
+    }
+   ],
+   "ascunse": [
+    {
+     "q": "Un șofer zărește o clipă numărul de înmatriculare al unei mașini care trece; nefiind atent la el, informația dispare aproape imediat. În ce componentă a modelului Atkinson-Shiffrin a stat informația?",
+     "opts": [
+      "Memoria de lucru",
+      "Memoria de lungă durată",
+      "Memoria senzorială",
+      "Bucla fonologică"
+     ],
+     "correct": 2,
+     "explain": "Memoria senzorială păstrează informația de la simțuri pentru fracțiuni de secundă sau câteva secunde, încă neprocesată; fără atenție, ea nu trece mai departe, o legătură cu selecția atențională din Cap. 9 (Atenția). Memoria de lucru ar fi presupus procesare activă, iar cea de lungă durată stocare durabilă. Bucla fonologică e un subsistem al modelului lui Baddeley, nu al modelului Atkinson-Shiffrin.",
+     "tag": "Memoria senzorială"
+    },
+    {
+     "q": "Într-un studiu despre efectele stresului asupra performanței cognitive, ce rol are stresul?",
+     "opts": [
+      "Variabila dependentă",
+      "Variabila independentă",
+      "Variabila confundantă",
+      "Variabila de control"
+     ],
+     "correct": 1,
+     "explain": "Stresul e factorul manipulat de cercetător, considerat cauza, deci variabila independentă; performanța cognitivă măsurată e variabila dependentă. Confundantele sunt factori nemanipulați care pot influența rezultatul (vârsta, sexul, educația), iar variabila de control, din Cap. 2 (Metodele psihologiei experimentale), e un factor ținut constant.",
+     "tag": "Variabile independente și dependente"
+    },
+    {
+     "q": "După un accident, un pianist nu-și mai amintește evenimentele din ultimii ani, dar cântă impecabil piesele învățate demult. Ce formă a memoriei a rămas funcțională?",
+     "opts": [
+      "Memoria procedurală",
+      "Memoria episodică",
+      "Memoria senzorială",
+      "Memoria de recunoaștere"
+     ],
+     "correct": 0,
+     "explain": "Cântatul la pian e o abilitate motorie, deci ține de memoria procedurală, care aici e păstrată. Evenimentele pierdute din ultimii ani sunt conținutul memoriei episodice, cea afectată. Memoria senzorială nu stochează abilități, iar recunoașterea e un mod de recuperare, nu o formă de stocare a deprinderilor.",
+     "tag": "Memoria procedurală"
+    },
+    {
+     "q": "Un șofer ascultă indicațiile vocale ale GPS-ului și, în același timp, își imaginează harta cartierului și poziția străzilor. În modelul lui Baddeley, ce subsistem păstrează harta imaginată?",
+     "opts": [
+      "Bucla fonologică",
+      "Sistemul executiv central",
+      "Memoria senzorială",
+      "Schimbul vizuo-spațial"
+     ],
+     "correct": 3,
+     "explain": "Informațiile vizuale și spațiale (harta, pozițiile) sunt prelucrate de schimbul (schița) vizuo-spațial. Indicațiile vocale ar merge în bucla fonologică, sistemul executiv coordonează cele două subsisteme, iar memoria senzorială e o componentă a modelului Atkinson-Shiffrin.",
+     "tag": "Modelul lui Baddeley (1974)"
+    },
+    {
+     "q": "Testul de memorie dintr-un studiu dă rezultate foarte diferite la două aplicări succesive pe aceleași persoane. Ce factor care influențează generalizarea este slăbit?",
+     "opts": [
+      "Similaritatea contextului de aplicare",
+      "Validitatea și fiabilitatea măsurătorilor",
+      "Similaritatea populației vizate",
+      "Mărimea și reprezentativitatea eșantionului"
+     ],
+     "correct": 1,
+     "explain": "Rezultatele instabile la aplicări repetate arată o fidelitate (fiabilitate) scăzută a instrumentului, concept din Cap. 3 (Metoda observației); capitolul spune că măsurătorile valide și fiabile sporesc probabilitatea generalizării. Contextul, populația și mărimea eșantionului sunt ceilalți trei factori, dar nimic din situație nu indică o problemă cu ei.",
+     "tag": "Factori care influențează generalizarea"
+    }
+   ]
+  }
+ ]
+}

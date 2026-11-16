@@ -1,0 +1,1148 @@
+{
+  "schema": "quiz-capitol-v3",
+  "capitol": 11,
+  "titlu": "Teste nonparametrice",
+  "sursa": "Manualul „Analiza superioară a datelor” (UTM), Unitatea XI, pp. 142–158",
+  "runde": [
+    {
+      "id": "T",
+      "tip_runda": "baza",
+      "eticheta": "Runda 1 · Teorie",
+      "titlu": "Runda 1 — Teorie",
+      "desc": "Întrebări directe și scurte: ce măsoară un indicator, când se folosește o metodă, ce deosebește două concepte.",
+      "intrebari": [
+        {
+          "q": "De ce testele nonparametrice se potrivesc mai ales la eșantioane mici?",
+          "opts": [
+            "Au valori critice mai mici decât testele Z și t clasice",
+            "Folosesc media și abaterea standard ale populației",
+            "Nu presupun o formă anume a distribuției populației",
+            "Transformă scorurile brute în scoruri Z normale"
+          ],
+          "correct": 2,
+          "explain": "Testele nonparametrice nu necesită supoziții despre forma distribuției populațiilor, de aceea se aplică mai ales la eșantioane mici, unde Z și t ar avea nevoie de normalitate (Cap. 7 (Proceduri de estimare statistică)). Ele nu cer parametrii populației, iar rangurile nu fac scorurile normale.",
+          "tag": "Fără supoziții despre forma distribuției",
+          "tip": "principiu"
+        },
+        {
+          "q": "Cu ce fel de date lucrează testele nonparametrice prezentate aici?",
+          "opts": [
+            "Medii și abateri standard, la nivel de interval sau raport",
+            "Scoruri Z standardizate, la nivel de raport",
+            "Frecvențe sau ranguri, la nivel nominal ori ordinal",
+            "Coeficienți de corelație, la nivel de interval"
+          ],
+          "correct": 2,
+          "explain": "Testele sunt utile în psihologie tocmai pentru că se aplică variabilelor nominale (frecvențe: χ², McNemar) sau ordinale (ranguri: Mann–Whitney, mediana, iterațiile, Wilcoxon, Kruskal–Wallis). Mediile și abaterile standard sunt materialul testelor parametrice.",
+          "tag": "Date nominale sau ordinale",
+          "tip": "nivel_masura"
+        },
+        {
+          "q": "Ce compară testul χ²?",
+          "opts": [
+            "Mediile observate cu cele așteptate sub H0",
+            "Rangurile unui eșantion cu rangurile celuilalt eșantion",
+            "Varianța dintre grupuri cu varianța din interiorul lor",
+            "Frecvențele observate cu cele așteptate sub H0"
+          ],
+          "correct": 3,
+          "explain": "Esența testului: frecvențele obținute empiric se compară cu frecvențele calculate presupunând H0 adevărată (zarul corect: câte 50 de apariții din 300). Rangurile țin de Mann–Whitney și Kruskal–Wallis, iar raportul dintre varianțe e logica lui F din Cap. 10 (Analiza de varianță (ANOVA)).",
+          "tag": "Frecvențe observate și așteptate",
+          "tip": "concept"
+        },
+        {
+          "q": "Prin ce diferă χ² pentru concordanță de χ² pentru independență?",
+          "opts": [
+            "Privește date ordinale, nu date de nivel nominal",
+            "Privește o singură variabilă, nu legătura dintre două",
+            "Privește eșantioane dependente, nu independente",
+            "Privește medii, nu frecvențele categoriilor"
+          ],
+          "correct": 1,
+          "explain": "Concordanța verifică dacă frecvențele observate ale unei singure variabile se potrivesc cu cele așteptate (fețele zarului); independența verifică dacă două variabile sunt legate. Ambele variante lucrează cu frecvențe la nivel nominal; eșantioanele dependente nominale țin de McNemar.",
+          "tag": "χ² pentru concordanță",
+          "tip": "concept"
+        },
+        {
+          "q": "Pentru ce situație e construit testul McNemar?",
+          "opts": [
+            "O variabilă ordinală, comparată între două grupuri diferite",
+            "Două variabile nominale, măsurate o dată pe un eșantion",
+            "O variabilă nominală, măsurată de două ori la aceleași persoane",
+            "O variabilă ordinală, comparată la trei sau mai multe grupuri independente"
+          ],
+          "correct": 2,
+          "explain": "McNemar e un test pentru semnificația schimbării: date nominale (Da/Nu) și două eșantioane dependente, de obicei înainte și după. Două grupuri diferite cu date ordinale cer Mann–Whitney; două variabile nominale, χ² pentru independență; trei sau mai multe grupuri ordinale, Kruskal–Wallis.",
+          "tag": "Semnificația schimbării",
+          "tip": "test"
+        },
+        {
+          "q": "Ce celule ale tabelului 2 × 2 intră în calculul testului McNemar?",
+          "opts": [
+            "Cele care arată o schimbare de răspuns",
+            "Cele care arată același răspuns repetat",
+            "Toate patru, ca la un χ² obișnuit",
+            "Cele de pe primul rând al tabelului"
+          ],
+          "correct": 0,
+          "explain": "Testul privește doar celulele schimbării, A (Da → Nu) și D (Nu → Da); sub H0, schimbările într-un sens sunt la fel de multe ca în celălalt, deci în fiecare se așteaptă (A + D)/2. Cei care și-au păstrat răspunsul nu spun nimic despre direcția schimbării.",
+          "tag": "Doar celulele schimbării",
+          "tip": "regula"
+        },
+        {
+          "q": "Ce informație păstrează rangurile atribuite unor scoruri ordinale?",
+          "opts": [
+            "Distanțele egale dintre scoruri",
+            "Frecvența fiecărui scor în eșantion",
+            "Abaterea fiecărui scor de la medie",
+            "Doar ierarhia scorurilor"
+          ],
+          "correct": 3,
+          "explain": "Singura semnificație a rangurilor e reflectarea ierarhiei, de aceea pot fi 5–1 sau 9, 7, 5, 3, 1; se obișnuiește doar ca rangurile succesive să difere cu 1. Distanțele egale ar cere nivelul de interval, din Cap. 1 (Introducere în statistică).",
+          "tag": "Atribuirea rangurilor",
+          "tip": "nivel_masura"
+        },
+        {
+          "q": "Ce rang primesc două sau mai multe scoruri identice?",
+          "opts": [
+            "Cel mai mic dintre rangurile pe care le ocupă",
+            "Cel mai mare dintre rangurile pe care le ocupă",
+            "Același rang ca scorul imediat anterior",
+            "Media rangurilor pe care le-ar fi avut separat"
+          ],
+          "correct": 3,
+          "explain": "Se iau rangurile pe care scorurile le-ar fi avut dacă ar fi fost diferite și succesive și fiecare primește media lor (30 și 30 → 14,5); scorul următor primește rangul pe care l-ar fi avut oricum (16). Cel mai mic sau cel mai mare rang ar favoriza arbitrar un grup.",
+          "tag": "Ranguri egale",
+          "tip": "regula"
+        },
+        {
+          "q": "Ce valoare se ia drept U obținut la testul Mann–Whitney?",
+          "opts": [
+            "Cea mai mică dintre U1 și U2",
+            "Cea mai mare dintre U1 și U2",
+            "Suma lui U1 cu U2",
+            "Diferența sumelor de ranguri"
+          ],
+          "correct": 0,
+          "explain": "U (obținut) = min(U1, U2). Suma U1 + U2 e mereu n1 · n2, deci nu spune nimic despre diferență; sumele rangurilor sunt doar materialul calculului lui U1 și U2.",
+          "tag": "U1, U2 și U obținut",
+          "tip": "regula"
+        },
+        {
+          "q": "Prin ce se deosebește regula de decizie a testului Mann–Whitney de a majorității testelor?",
+          "opts": [
+            "H0 se respinge când U obținut nu depășește U critic",
+            "H0 se respinge când U obținut depășește valoarea U critic",
+            "H0 se respinge doar când testul este unilateral",
+            "H0 se respinge când U1 și U2 ies egale între ele"
+          ],
+          "correct": 0,
+          "explain": "La Mann–Whitney, H0 se respinge dacă U (obținut) ≤ U (critic): un U mic înseamnă că un eșantion ocupă mai ales rangurile de sus. La cele mai multe teste respingerea are loc când valoarea obținută e mai mare decât cea critică. U1 = U2 ar arăta grupuri perfect amestecate.",
+          "tag": "Regula inversă a lui U",
+          "tip": "regula"
+        },
+        {
+          "q": "Ce mediană se folosește în testul medianei?",
+          "opts": [
+            "Mediana fiecărui grup, calculată separat, apoi comparată",
+            "Mediana scorurilor celor două grupuri luate împreună",
+            "Media celor două mediane ale grupurilor",
+            "Mediana grupului care are mai multe cazuri"
+          ],
+          "correct": 1,
+          "explain": "Testul compară două mediane folosind un reper comun: mediana scorurilor combinate; apoi se numără, pe fiecare eșantion, scorurile de deasupra și de sub ea. Medianele separate sunt tocmai ce se compară, nu reperul.",
+          "tag": "Mediana combinată",
+          "tip": "regula"
+        },
+        {
+          "q": "Ce indică un număr mic de iterații în ordonarea combinată a două eșantioane?",
+          "opts": [
+            "Scoruri amestecate, așa cum cere H0",
+            "O diferență pronunțată între populații",
+            "Multe scoruri egale în același grup",
+            "Grupuri cu efective foarte diferite"
+          ],
+          "correct": 1,
+          "explain": "Dacă H0 e adevărată, scorurile sunt amestecate și apar multe iterații; cu cât iterațiile sunt mai puține, cu atât diferența e mai semnificativă (minimul, 2, înseamnă grupuri complet separate). Scorurile egale din același grup nu influențează numărul de iterații.",
+          "tag": "Puține iterații, diferență mare",
+          "tip": "concept"
+        },
+        {
+          "q": "Pentru ce situație e construit testul Wilcoxon T?",
+          "opts": [
+            "Două eșantioane independente, cu date ordinale",
+            "Două eșantioane dependente, cu date nominale",
+            "Două eșantioane dependente, cu date ordinale",
+            "Trei eșantioane independente, cu date ordinale"
+          ],
+          "correct": 2,
+          "explain": "Wilcoxon T testează diferența dintre două eșantioane dependente (înainte/după sau perechi) pentru date ordinale. Pentru eșantioane independente ordinale se folosește Mann–Whitney, pentru dependente nominale McNemar, iar pentru trei sau mai multe grupuri independente Kruskal–Wallis.",
+          "tag": "Eșantioane dependente ordinale",
+          "tip": "test"
+        },
+        {
+          "q": "Cum se obține T la testul Wilcoxon?",
+          "opts": [
+            "Suma rangurilor cu semnul mai rar",
+            "Suma rangurilor cu semnul mai frecvent",
+            "Numărul diferențelor cu semnul mai rar",
+            "Suma diferențelor, cu semnele lor"
+          ],
+          "correct": 0,
+          "explain": "Rangurile se dau valorilor absolute ale diferențelor, apoi primesc semnul diferenței; T e suma valorilor absolute ale rangurilor cu semnul care apare mai rar (în exemplu, 1 + 3 = 4). Numărul de semne și diferențele brute nu sunt statistica testului.",
+          "tag": "T obținut",
+          "tip": "regula"
+        },
+        {
+          "q": "Ce test nonparametric corespunde ANOVA pentru o variabilă independentă?",
+          "opts": [
+            "Mann–Whitney U",
+            "Kruskal–Wallis H",
+            "Wilcoxon T",
+            "McNemar"
+          ],
+          "correct": 1,
+          "explain": "Kruskal–Wallis H compară k eșantioane independente cu date ordinale, ca ANOVA unifactorială din Cap. 10 (Analiza de varianță (ANOVA)). Mann–Whitney corespunde testelor pentru două medii independente, Wilcoxon e pentru două eșantioane dependente, iar McNemar pentru schimbări la date nominale.",
+          "tag": "Analogul ANOVA",
+          "tip": "test"
+        }
+      ],
+      "ascunse": [
+        {
+          "q": "Câte grade de libertate are distribuția lui H la testul Kruskal–Wallis cu k grupuri?",
+          "opts": [
+            "k − 1",
+            "N − k",
+            "N − 1",
+            "k"
+          ],
+          "correct": 0,
+          "explain": "H urmează distribuția χ² cu k − 1 grade de libertate (3 grupuri → 2 gl, prag 5,991 la α = 0,05). N − k și N − 1 sunt gradele de libertate ale erorii și ale totalului din ANOVA, din Cap. 10 (Analiza de varianță (ANOVA)).",
+          "tag": "Decizia la Kruskal–Wallis",
+          "tip": "calcul"
+        },
+        {
+          "q": "Ce condiție de mărime a eșantioanelor cere testul Kruskal–Wallis?",
+          "opts": [
+            "Eșantioanele să aibă același număr de cazuri",
+            "Totalul cazurilor să depășească pragul de 30",
+            "Fiecare eșantion să aibă peste 20 de cazuri",
+            "Fiecare eșantion să aibă cel puțin 5 cazuri"
+          ],
+          "correct": 3,
+          "explain": "Condiția de aplicare e nj ≥ 5 pentru fiecare eșantion j; grupurile pot fi inegale (6, 5 și 6 cadre didactice). Pragul de 20 de cazuri ține de trecerea lui Mann–Whitney la Z, iar 30 de testele parametrice.",
+          "tag": "Condiția nj ≥ 5",
+          "tip": "regula"
+        },
+        {
+          "q": "Ce problemă creează, la testul iterațiilor, scorurile identice din eșantioane diferite?",
+          "opts": [
+            "Numărul de iterații depinde de felul în care sunt așezate",
+            "Rangurile lor egale nu se mai pot calcula",
+            "Distribuția numărului de iterații încetează să fie normală",
+            "Testul devine, practic, unul pentru date nominale"
+          ],
+          "correct": 0,
+          "explain": "Cazurile cu scoruri identice din eșantioane diferite pot fi aranjate în mai multe feluri, iar numărul de iterații se poate schimba mult; când sunt multe, se recomandă alt test. Scorurile identice din același eșantion nu contează. Rangurile egale se pot calcula oricând, prin rangul mediu.",
+          "tag": "Scoruri identice între eșantioane",
+          "tip": "eroare"
+        },
+        {
+          "q": "De la ce mărime a eșantioanelor se folosește distribuția Z în locul tabelului lui U?",
+          "opts": [
+            "Când ambele eșantioane depășesc 30 de cazuri",
+            "Când ambele eșantioane depășesc 20 de cazuri",
+            "Când numărul de perechi depășește 25",
+            "Când fiecare eșantion are cel puțin 5 cazuri"
+          ],
+          "correct": 1,
+          "explain": "Pentru n1 > 20 și n2 > 20, distribuția lui U se apropie de normală, cu μU = n1n2/2. Pragul de 25 de perechi e al testului Wilcoxon, 30 al testelor parametrice, iar 5 cazuri pe grup e condiția testului Kruskal–Wallis.",
+          "tag": "Mann–Whitney pentru eșantioane mari",
+          "tip": "regula"
+        },
+        {
+          "q": "Cum se formulează ipoteza de nul la testele nonparametrice pentru două grupuri?",
+          "opts": [
+            "Mediile celor două populații sunt egale: μ1 = μ2",
+            "Sumele rangurilor celor două eșantioane sunt egale",
+            "Populațiile nu diferă sub aspectul variabilei de interes",
+            "Varianțele celor două populații sunt egale între ele"
+          ],
+          "correct": 2,
+          "explain": "H0 rămâne un enunț de tipul „nicio diferență”, dar în termeni mai generali decât la testele parametrice: populațiile nu diferă ca scoruri. μ1 = μ2 e forma din Cap. 9 (Testarea ipotezelor despre diferențele dintre două populații); sumele rangurilor sunt doar calculul, iar la grupuri inegale nici nu ar fi egale sub H0.",
+          "tag": "Ipoteze formulate general",
+          "tip": "ipoteza"
+        }
+      ]
+    },
+    {
+      "id": "1",
+      "eticheta": "Runda 2 · Bază",
+      "titlu": "Runda 2 — Alegi testul și aplici regula",
+      "desc": "Situații scurte: recunoști testul potrivit, dai ranguri, citești o decizie.",
+      "intrebari": [
+        {
+          "q": "Un cercetător îi întreabă pe 240 de studenți care dintre cele 4 cantine ale campusului o preferă. Ipoteza de nul spune că nu există o cantină preferată. Ce frecvență așteptată are fiecare cantină?",
+          "opts": [
+            "Numărul de studenți care au ales efectiv acea cantină",
+            "120 de studenți, jumătate din eșantion, la fiecare",
+            "60 de studenți, adică 240 împărțit la cele 4 cantine",
+            "Mediana celor patru frecvențe obținute în sondaj"
+          ],
+          "correct": 2,
+          "explain": "Frecvența așteptată se calculează presupunând că H0 e adevărată: fără preferințe, cei 240 s-ar împărți egal, câte 60 (ca la zarul aruncat de 300 de ori, cu câte 50 pe față). Numărul de studenți care au ales efectiv cantina e frecvența observată — tocmai ce se compară cu cea așteptată. Jumătate din eșantion ar fi corect doar pentru două categorii; mediana frecvențelor observate nu are legătură cu H0.",
+          "tag": "Frecvențe observate și așteptate",
+          "tip": "calcul"
+        },
+        {
+          "q": "Un cercetător vrea să afle dacă specializarea aleasă (psihologie, drept, medicină) are legătură cu mediul de proveniență (urban sau rural), pe un eșantion de 300 de studenți. Ce test folosește?",
+          "opts": [
+            "χ² pentru concordanță, aplicat doar specializării",
+            "χ² pentru independență, cu două variabile nominale",
+            "Kruskal–Wallis H, cu specializările ca trei grupuri",
+            "McNemar, cu urban și rural ca două momente"
+          ],
+          "correct": 1,
+          "explain": "Ambele variabile sunt nominale, iar întrebarea e dacă sunt legate: aceasta e varianta χ² pentru independență. Concordanța verifică o singură variabilă față de frecvențe așteptate. Kruskal–Wallis cere o variabilă dependentă ordinală (scoruri care pot primi ranguri), nu categorii. McNemar e pentru aceiași oameni măsurați de două ori, nu pentru două categorii de proveniență.",
+          "tag": "χ² pentru independență",
+          "tip": "test"
+        },
+        {
+          "q": "Aceiași 50 de angajați răspund cu „Da” sau „Nu” la întrebarea „Vă simțiți stresat la serviciu?”, înainte și după un program de relaxare de o lună. Ce test se potrivește?",
+          "opts": [
+            "Testul McNemar",
+            "Testul Wilcoxon T",
+            "Testul medianei",
+            "Testul χ² pentru concordanță"
+          ],
+          "correct": 0,
+          "explain": "Răspunsurile Da/Nu sunt nominale, iar eșantioanele sunt dependente (aceiași oameni, două momente): exact situația testului McNemar, care testează dacă schimbările sunt semnificative. Wilcoxon T e tot pentru eșantioane dependente, dar cere scoruri ordinale, care se pot ordona. Testul medianei compară două eșantioane independente; concordanța privește o singură variabilă, măsurată o dată.",
+          "tag": "Semnificația schimbării",
+          "tip": "test"
+        },
+        {
+          "q": "60 de elevi au fost întrebați, înainte și după o campanie, dacă fumatul e periculos: 30 au spus Da de ambele dăți, 12 Nu de ambele dăți, 15 au trecut de la Nu la Da, 3 de la Da la Nu. Ce frecvențe intră în calculul McNemar?",
+          "opts": [
+            "Toate cele patru frecvențe, ca la un χ² obișnuit",
+            "Doar cele 15 și 3 schimbări de opinie",
+            "Doar cele 30 și 12 răspunsuri neschimbate",
+            "Totalul de Da înainte (33) și după campanie (45)"
+          ],
+          "correct": 1,
+          "explain": "Testul McNemar privește doar celulele care arată schimbarea (Nu → Da și Da → Nu); H0 spune că, în populație, schimbările într-un sens sunt la fel de multe ca în celălalt. Cei care și-au păstrat răspunsul nu spun nimic despre efectul campaniei asupra schimbării. Totalurile de Da amestecă schimbările cu cei constanți.",
+          "tag": "Doar celulele schimbării",
+          "tip": "regula"
+        },
+        {
+          "q": "La un test McNemar, 20 de persoane și-au schimbat răspunsul de la Nu la Da, iar 4 de la Da la Nu. Pragul pentru α = 0,05 și gl = 1 este 3,841. Ce rezultă?",
+          "opts": [
+            "χ² ≈ 10,67 — peste 3,841, schimbările nu se echilibrează",
+            "χ² ≈ 0,67 — sub 3,841, schimbările se echilibrează",
+            "χ² = 3,20 — sub 3,841, schimbările se echilibrează",
+            "χ² = 4,00 — abia peste 3,841, efect la limită"
+          ],
+          "correct": 0,
+          "explain": "χ² = (A − D)²/(A + D) = (20 − 4)²/24 = 256/24 ≈ 10,67 > 3,841, deci schimbările spre Da sunt semnificativ mai multe. 0,67 vine din a uita ridicarea la pătrat (16/24); 3,20 din a împărți la produsul 20 · 4 = 80 în loc de sumă; 4 din a împărți diferența 16 la cele 4 schimbări mai rare.",
+          "tag": "Calculul McNemar",
+          "tip": "calcul"
+        },
+        {
+          "q": "La o scală cu răspunsurile „Foarte rar, Rar, Uneori, Des, Foarte des”, un student codează 1, 2, 3, 4, 5, iar colega lui 2, 4, 6, 8, 10. Ce se poate spune despre cele două codări, ca ranguri?",
+          "opts": [
+            "Doar codarea 1–5 e validă, pasul 1 fiind obligatoriu",
+            "Codarea 2–10 dublează distanțele, deci schimbă ierarhia",
+            "Codarea 2–10 e mai bună, fiindcă separă mai clar treptele",
+            "Ambele păstrează ordinea; se preferă însă pasul 1"
+          ],
+          "correct": 3,
+          "explain": "Rangurile au o singură semnificație: ierarhia scorurilor. Orice codare care păstrează ordinea e acceptabilă (ca la exemplul cu 9, 7, 5, 3, 1), iar diferența 1 între ranguri succesive e doar o convenție obișnuită, nu o condiție. Dublarea numerelor nu schimbă ordinea; „distanțele” nu au sens la nivel ordinal, deci nici nu separă „mai clar” treptele — vezi nivelurile de măsură din Cap. 1 (Introducere în statistică).",
+          "tag": "Atribuirea rangurilor",
+          "tip": "nivel_masura"
+        },
+        {
+          "q": "Scorurile combinate ale două grupuri, ordonate crescător, sunt: 12, 15, 15, 15, 20. Ce ranguri primesc?",
+          "opts": [
+            "1; 2; 2; 2; 3",
+            "1; 2; 3; 4; 5",
+            "1; 3; 3; 3; 4",
+            "1; 3; 3; 3; 5"
+          ],
+          "correct": 3,
+          "explain": "Cele trei scoruri de 15 ar fi avut rangurile 2, 3 și 4 dacă ar fi fost diferite; fiecare primește media lor, 3. Scorul următor, 20, primește rangul pe care l-ar fi avut oricum: 5. Seria 1; 2; 2; 2; 3 numerotează doar valorile distincte; 1; 2; 3; 4; 5 desparte arbitrar scorurile egale; 1; 3; 3; 3; 4 face media corect, dar „uită” că rangurile 2–4 au fost deja consumate.",
+          "tag": "Ranguri egale",
+          "tip": "regula"
+        },
+        {
+          "q": "Într-un test Mann–Whitney bilateral, cu α = 0,05, o cercetătoare obține U = 18, iar tabelul dă U critic = 23. Ce decide?",
+          "opts": [
+            "Respinge H0: la U, valorile mici cad în zona critică",
+            "Nu respinge H0: U ar trebui să depășească 23",
+            "Nu respinge H0: U se compară, de fapt, cu 1,96",
+            "Respinge H0 doar dacă și cealaltă valoare U e sub 23"
+          ],
+          "correct": 0,
+          "explain": "La Mann–Whitney regula e inversă față de majoritatea testelor: H0 se respinge dacă U (obținut) ≤ U (critic). U mic înseamnă că un eșantion ocupă mai ales rangurile de sus, iar celălalt pe cele de jos. Comparația cu 1,96 e doar pentru eșantioane mari (n > 20), prin Z. Cealaltă valoare U nu se verifică: U1 + U2 = n1 · n2, deci dacă una e mică, cealaltă e mare.",
+          "tag": "Regula inversă a lui U",
+          "tip": "regula"
+        },
+        {
+          "q": "Pentru două grupuri, n1 = 8 și n2 = 6, sumele rangurilor sunt ΣR1 = 70 și ΣR2 = 35. Ce valoare U (obținut) se folosește?",
+          "opts": [
+            "U = 34, cea mai mare dintre U1 = 14 și U2 = 34",
+            "U = 35, suma cea mai mică a rangurilor",
+            "U = 48, produsul dimensiunilor n1 · n2",
+            "U = 14, cea mai mică dintre U1 = 14 și U2 = 34"
+          ],
+          "correct": 3,
+          "explain": "U1 = n1n2 + n1(n1 + 1)/2 − ΣR1 = 48 + 36 − 70 = 14; U2 = 48 + 21 − 35 = 34. U (obținut) = min(U1, U2) = 14. Verificare: 14 + 34 = 48 = n1n2. Suma rangurilor nu e statistica testului, iar n1n2 e doar suma celor două valori U.",
+          "tag": "U1, U2 și U obținut",
+          "tip": "calcul"
+        },
+        {
+          "q": "Grupul A are scorurile 3, 8, 11, 14, 20, iar grupul B scorurile 5, 6, 9, 12, 16. Ce mediană se folosește în testul medianei?",
+          "opts": [
+            "11 și 9, mediana fiecărui grup luat separat",
+            "10, mediana celor 10 scoruri luate împreună",
+            "10,4, media aritmetică a tuturor scorurilor",
+            "9, mediana grupului cu scorurile mai mici"
+          ],
+          "correct": 1,
+          "explain": "Testul medianei folosește mediana scorurilor combinate: ordonate, cele 10 scoruri au la mijloc 9 și 11, deci mediana e (9 + 11)/2 = 10 (calculul din Cap. 3 (Mărimile tendinței centrale)). Apoi se numără, pentru fiecare grup, câte scoruri sunt deasupra și câte sub ea. Medianele separate sunt tocmai ce se compară, nu reperul; media (104/10 = 10,4) e altă mărime.",
+          "tag": "Mediana combinată",
+          "tip": "regula"
+        },
+        {
+          "q": "Scorurile a două grupuri, A și B, ordonate împreună, dau șirul A A B B B A B A A. Câte iterații are șirul?",
+          "opts": [
+            "3 iterații: AA, BBB, AA, blocurile de minimum două",
+            "9 iterații, câte una pentru fiecare scor",
+            "5 iterații: AA, BBB, A, B, AA, inclusiv cele izolate",
+            "2 iterații, câte una pentru fiecare grup"
+          ],
+          "correct": 2,
+          "explain": "O iterație e orice succesiune de elemente de același fel, cu cel puțin un element; două iterații vecine sunt mereu de tipuri diferite. Un A sau un B izolat e și el o iterație. 9 ar fi numărul maxim, posibil doar dacă literele ar alterna peste tot; 2 e minimul, când grupurile sunt complet separate.",
+          "tag": "Iterația",
+          "tip": "regula"
+        },
+        {
+          "q": "Un consilier calculează diferențele „înainte − după” pentru 5 persoane: +5, −2, +7, +1, −4. Ce ranguri cu semn primesc, în aceeași ordine?",
+          "opts": [
+            "+4, −2, +5, +3, −1",
+            "+4, −2, +5, +1, −3",
+            "4, 2, 5, 1, 3, fără semne",
+            "+5, −2, +7, +1, −4"
+          ],
+          "correct": 1,
+          "explain": "Rangurile se dau după valoarea absolută: 1 → 1, 2 → 2, 4 → 3, 5 → 4, 7 → 5, apoi fiecare rang primește semnul diferenței sale. Seria +4, −2, +5, +3, −1 ordonează diferențele cu semn (−4 ar fi cea mai mică), ceea ce amestecă mărimea cu direcția. Fără semne nu se mai poate calcula T; diferențele brute nu sunt ranguri.",
+          "tag": "Scorul diferență și rangurile lui",
+          "tip": "regula"
+        },
+        {
+          "q": "La un test Wilcoxon cu 10 perechi, rangurile cu semnul + sunt 1, 2, 4, 5, 6, 7, 9, 10, iar cele cu semnul − sunt 3 și 8. Cât este T (obținut)?",
+          "opts": [
+            "T = 11, suma rangurilor negative",
+            "T = 44, suma rangurilor pozitive",
+            "T = 2, numărul de ranguri negative",
+            "T = 33, diferența dintre cele două sume"
+          ],
+          "correct": 0,
+          "explain": "T e suma valorilor absolute ale rangurilor cu semnul care apare mai rar: aici semnul − (de 2 ori), deci T = 3 + 8 = 11. Suma rangurilor pozitive (44) e complementul ei: 11 + 44 = 55, suma rangurilor de la 1 la 10. Numărul de semne și diferența sumelor nu sunt statistica testului.",
+          "tag": "T obținut",
+          "tip": "calcul"
+        },
+        {
+          "q": "Un cercetător are trei grupuri independente, de 7, 6 și 3 persoane, cu scoruri ordinale, și vrea să aplice testul Kruskal–Wallis H. Se poate?",
+          "opts": [
+            "Da: totalul de 16 cazuri e suficient pentru test",
+            "Nu: grupurile trebuie să aibă același număr de cazuri",
+            "Nu: grupul de 3 e sub minimul de 5 cazuri pe eșantion",
+            "Da: condiția privește doar datele de nivel nominal"
+          ],
+          "correct": 2,
+          "explain": "O condiție de aplicare a testului Kruskal–Wallis este ca fiecare eșantion să aibă cel puțin 5 cazuri; contează fiecare grup, nu totalul. Grupurile pot fi inegale (în exemplul cu cadrele didactice: 6, 5, 6). Testul se aplică la date ordinale, nu nominale.",
+          "tag": "Condiția nj ≥ 5",
+          "tip": "regula"
+        },
+        {
+          "q": "Un test Kruskal–Wallis cu 4 grupuri dă H = 6,20. Pragurile χ² pentru α = 0,05 sunt 5,991 la 2 gl și 7,815 la 3 gl. Ce decide cercetătorul?",
+          "opts": [
+            "Respinge H0: 6,20 depășește 5,991, pragul pentru 2 gl",
+            "Respinge H0: la H, valorile mici cad în zona critică",
+            "Nu respinge H0: 6,20 e sub 7,815, pragul pentru 3 gl",
+            "Nu respinge H0: H se compară, de fapt, cu 1,96"
+          ],
+          "correct": 2,
+          "explain": "H urmează distribuția χ² cu k − 1 grade de libertate: 4 − 1 = 3, deci pragul e 7,815, iar 6,20 nu ajunge la el. Pragul de 5,991 ar fi pentru 3 grupuri. Regula „valori mici → respingere” e a lui U și T; la H se respinge când H e mai mare decât pragul. 1,96 e pragul lui Z, folosit la eșantioanele mari ale altor teste.",
+          "tag": "Decizia la Kruskal–Wallis",
+          "tip": "regula"
+        }
+      ],
+      "ascunse": [
+        {
+          "q": "O psihologă are doar 9 participanți, iar scorurile de anxietate sunt foarte asimetrice; nu știe ce formă are distribuția în populație. De ce i s-ar potrivi un test nonparametric?",
+          "opts": [
+            "Nu cere ca populația să aibă o anumită formă, de pildă normală",
+            "Transformă scorurile asimetrice în scoruri distribuite aproape normal",
+            "Folosește media și abaterea standard cunoscute ale populației",
+            "Nu mai cere formularea unei ipoteze de nul și a unui nivel α"
+          ],
+          "correct": 0,
+          "explain": "Testele nonparametrice nu presupun o anumită formă a distribuției populației, de aceea se potrivesc la eșantioane mici, unde testele parametrice (Z, t) au nevoie de normalitate — vezi Cap. 7 (Proceduri de estimare statistică). Rangurile nu „normalizează” scorurile; parametrii populației nu sunt ceruți; ipotezele și α rămân, ca la orice test de semnificație.",
+          "tag": "Fără supoziții despre forma distribuției",
+          "tip": "principiu"
+        },
+        {
+          "q": "O cercetătoare compară cu testul Mann–Whitney timpul de adaptare la un loc de muncă nou, apreciat pe o scală ordinală, la angajații tineri și la cei vârstnici. Ce ipoteză de nul formulează?",
+          "opts": [
+            "Cele două populații nu diferă ca scoruri de adaptare",
+            "Mediile celor două populații sunt egale: μ1 = μ2",
+            "Mediile celor două eșantioane sunt egale între ele",
+            "Sumele rangurilor din cele două eșantioane sunt egale"
+          ],
+          "correct": 0,
+          "explain": "La testele nonparametrice, H0 e tot de tipul „nicio diferență”, dar formulată mai general: populațiile nu diferă sub aspectul variabilei de interes. μ1 = μ2 e forma testelor parametrice din Cap. 9 (Testarea ipotezelor despre diferențele dintre două populații). H0 privește populațiile, nu eșantioanele; sumele rangurilor sunt doar materialul calculului (și, la grupuri inegale, nici nu ar fi egale sub H0).",
+          "tag": "Ipoteze formulate general",
+          "tip": "ipoteza"
+        },
+        {
+          "q": "Într-un test al iterațiilor cu două grupuri de câte 10, ordonarea combinată pune toate scorurile grupului X înaintea tuturor scorurilor grupului Y. Ce arată acest rezultat?",
+          "opts": [
+            "20 de iterații, maximul posibil — semn de amestec complet",
+            "2 iterații — semn că populațiile sunt practic identice",
+            "10 iterații, câte una pentru fiecare pereche X–Y",
+            "2 iterații, minimul posibil — semn că populațiile diferă"
+          ],
+          "correct": 3,
+          "explain": "Cu cât iterațiile sunt mai puține, cu atât diferența dintre eșantioane e mai pronunțată; minimul posibil e 2, când grupurile sunt complet separate. Maximul (20, numărul de cazuri) apare la alternanță perfectă, iar multe iterații înseamnă scoruri amestecate, ca sub H0. Iterațiile nu se numără pe perechi.",
+          "tag": "Puține iterații, diferență mare",
+          "tip": "concept"
+        },
+        {
+          "q": "Un student aplică testul medianei și obține χ² = 4,50, cu α = 0,05. Ce decide?",
+          "opts": [
+            "Nu respinge H0: tabelul 2 × 2 are 4 gl, cu pragul 9,488",
+            "Respinge H0: 4,50 depășește 3,841, pragul pentru 1 gl",
+            "Nu respinge H0: la acest test, χ² trebuie să fie sub 3,841",
+            "Respinge H0: χ² trece de 1,96, pragul obișnuit"
+          ],
+          "correct": 1,
+          "explain": "Tabelul 2 × 2 al testului medianei are gl = 1 (ca la McNemar), iar pragul pentru α = 0,05 e 3,841; H0 se respinge când χ² îl depășește. Patru celule nu înseamnă 4 gl. Regula inversă (valori mici → respingere) e a lui U și T, nu a lui χ²; 1,96 e pragul lui Z.",
+          "tag": "Distribuția χ² și gradele de libertate",
+          "tip": "regula"
+        },
+        {
+          "q": "O psihologă vrea să compare motivația pentru studiu, măsurată pe o scală ordinală, la studenții din anii I, II, III și IV (grupuri independente, câte 12). Ce test alege?",
+          "opts": [
+            "Testul Mann–Whitney U",
+            "Testul Wilcoxon T",
+            "Testul Kruskal–Wallis H",
+            "Testul χ² pentru concordanță"
+          ],
+          "correct": 2,
+          "explain": "Patru grupuri independente și date ordinale: Kruskal–Wallis H, analogul nonparametric al ANOVA pentru o variabilă independentă din Cap. 10 (Analiza de varianță (ANOVA)). Mann–Whitney compară doar două eșantioane; Wilcoxon e pentru perechi dependente; χ² pentru concordanță lucrează cu frecvențele unei singure variabile nominale, nu cu scoruri.",
+          "tag": "Analogul ANOVA",
+          "tip": "test"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "eticheta": "Runda 3 · Aplicații",
+      "titlu": "Runda 3 — Calculezi și interpretezi",
+      "desc": "Situații cu mai mulți pași: calculezi statistica testului, alegi pragul și tragi concluzia.",
+      "intrebari": [
+        {
+          "q": "Satisfacția față de serviciile dintr-un campus a fost măsurată la 10 studente și 10 studenți. După ordonarea combinată, suma rangurilor e 85,5 la studente și 124,5 la studenți. Pentru α = 0,05, bilateral, U critic = 23. Ce concluzie e corectă?",
+          "opts": [
+            "U = 69,5 > 23: H0 se respinge, studenții sunt mai mulțumiți",
+            "U = 30,5 > 23: H0 se respinge, pentru că U trece de prag",
+            "Diferența sumelor, 39, trece de 23: H0 se respinge",
+            "U = 30,5 > 23: H0 nu se respinge, diferența nu e semnificativă"
+          ],
+          "correct": 3,
+          "explain": "U1 = 100 + 55 − 85,5 = 69,5 și U2 = 100 + 55 − 124,5 = 30,5; se ia cea mai mică, 30,5. Cum regula e „se respinge dacă U ≤ U critic”, iar 30,5 > 23, H0 rămâne. A lua valoarea mai mare sau a aplica regula obișnuită („peste prag”) duce la concluzia opusă; diferența sumelor rangurilor nu e o statistică a testului.",
+          "tag": "Regula inversă a lui U",
+          "tip": "calcul",
+          "exemplu_nou": false
+        },
+        {
+          "q": "Un cercetător prezice dinainte că participanții care au urmat un antrenament (grupul 1) vor avea scoruri mai mari decât cei fără antrenament (grupul 2). Cu n1 = n2 = 8, obține U1 = 12 și U2 = 52; U critic pentru acest test unilateral, α = 0,05, e 15. Cum procedează?",
+          "opts": [
+            "Compară U2 = 52 cu 15 și nu respinge H0, deoarece 52 depășește 15",
+            "Compară U1 = 12 cu 15 și respinge H0, în direcția prezisă",
+            "Compară U1 = 12 cu 15 și nu respinge H0, deoarece 12 e sub 15",
+            "Compară suma U1 + U2 = 64 cu 15 și respinge H0, fiind mult peste"
+          ],
+          "correct": 1,
+          "explain": "La testul direcțional, dacă se prezice că populația 1 are scoruri mai mari, se respinge H0 când U1 ≤ U critic: un grup cu ranguri mari are U1 mic. 12 ≤ 15, deci H0 se respinge în direcția prezisă. U2 se folosește pentru predicția opusă; regula „peste prag” e a altor teste; U1 + U2 = n1n2 = 64 e mereu aceeași, deci nu informează.",
+          "tag": "Regula inversă a lui U",
+          "tip": "regula",
+          "exemplu_nou": true
+        },
+        {
+          "q": "Grupul A are scorurile 7, 9, 9, iar grupul B scorurile 4, 9, 12. O studentă vrea sumele rangurilor pentru un test Mann–Whitney. Ce obține?",
+          "opts": [
+            "ΣRA = 10 și ΣRB = 11",
+            "ΣRA = 9 și ΣRB = 12",
+            "ΣRA = 8 și ΣRB = 8",
+            "ΣRA = 25 și ΣRB = 25"
+          ],
+          "correct": 0,
+          "explain": "Ordonat: 4, 7, 9, 9, 9, 12. Cei trei de 9 ar fi avut rangurile 3, 4, 5 → fiecare primește 4; 12 primește 6. A: 2 + 4 + 4 = 10; B: 1 + 4 + 6 = 11 (total 21 = 1 + … + 6). 9 și 12 vin din a da rangurile 3, 4, 5 în ordinea apariției; 8 și 8 din a numerota doar valorile distincte; 25 și 25 sunt sumele scorurilor, nu ale rangurilor.",
+          "tag": "Ranguri egale",
+          "tip": "calcul",
+          "exemplu_nou": true
+        },
+        {
+          "q": "Atitudinea față de mișcările feministe a fost măsurată la 10 femei salariate și 10 casnice. Mediana celor 20 de scoruri e 31,5; deasupra ei sunt 7 salariate și 3 casnice. Testul dă χ² = 3,20, iar pragul pentru 1 gl și α = 0,05 e 3,841. Ce concluzie e corectă?",
+          "opts": [
+            "Salariatele au o mediană mai mare și în populație",
+            "χ² = 3,20 > 1,96, deci salariatele diferă semnificativ",
+            "Diferența de 7 la 3 se poate pune pe seama întâmplării",
+            "Diferența e semnificativă la nivelul de încredere de 95%"
+          ],
+          "correct": 2,
+          "explain": "3,20 < 3,841, deci H0 (populațiile au aceeași mediană) nu se respinge: în eșantion salariatele stau mai sus, dar diferența nu e statistic semnificativă la 95%. A generaliza tendința din eșantion la populație e exact ce nu permite rezultatul. 1,96 e pragul lui Z, nu al lui χ² cu 1 gl.",
+          "tag": "Calculul testului medianei",
+          "tip": "concept",
+          "exemplu_nou": false
+        },
+        {
+          "q": "Într-un test al medianei cu două grupuri de câte 10, deasupra medianei combinate sunt 8 scoruri din grupul 1 și 2 din grupul 2. Pragul pentru α = 0,05 și 1 gl e 3,841. Ce rezultă?",
+          "opts": [
+            "χ² = 3,60: H0 nu se respinge, medianele sunt la fel",
+            "χ² = 7,20: H0 se respinge, medianele populațiilor diferă",
+            "χ² = 0,36: H0 nu se respinge, diferența e întâmplătoare",
+            "χ² = 7,20: H0 nu se respinge, pragul fiind 9,488 la 4 gl"
+          ],
+          "correct": 1,
+          "explain": "Tabelul: A = 8, B = 2 (deasupra), C = 2, D = 8 (sub). χ² = n(AD − BC)²/[(A + B)(C + D)(A + C)(B + D)] = 20 · (64 − 4)²/10 000 = 7,20 > 3,841. 3,60 apare punând n = 10 în loc de 20; 0,36 uitând înmulțirea cu n. Un tabel 2 × 2 are 1 gl, nu 4.",
+          "tag": "Calculul testului medianei",
+          "tip": "calcul",
+          "exemplu_nou": true
+        },
+        {
+          "q": "20 de bărbați și 20 de femei au completat o scală de atitudine față de politică. Ordonând toate scorurile și notând B și F, se numără 15 iterații. Media distribuției numărului de iterații e 21, abaterea standard 3,12, iar pragul bilateral e 1,96. Ce concluzie e corectă?",
+          "opts": [
+            "Z ≈ −1,92 e negativ, deci femeile au atitudini mai pozitive",
+            "Z ≈ −1,92 nu trece de −1,96: H0 nu se respinge",
+            "Z ≈ +1,92: 15 iterații sunt prea multe pentru un amestec",
+            "Z ≈ −1,92 e sub zero, iar asta ajunge pentru respingere"
+          ],
+          "correct": 1,
+          "explain": "Z = (R − μR)/σR = (15 − 21)/3,12 ≈ −1,92. Sunt ceva mai puține iterații decât s-ar aștepta la un amestec întâmplător, dar Z nu ajunge la −1,96, deci bărbații și femeile nu diferă semnificativ. Semnul lui Z arată doar că iterațiile sunt sub medie, nu cine are scoruri mai mari; 15 < 21 înseamnă mai puține iterații, nu mai multe.",
+          "tag": "Z pentru iterații",
+          "tip": "calcul",
+          "exemplu_nou": false
+        },
+        {
+          "q": "Două grupuri de câte 12 participanți au fost ordonate împreună după scorul la un test de creativitate; s-au numărat doar 5 iterații. Media numărului de iterații e 2n1n2/(n1 + n2) + 1, iar abaterea standard iese ≈ 2,40. Ce rezultă, la α = 0,05 bilateral?",
+          "opts": [
+            "Media e 12; 5 iterații sunt destul de aproape, deci nu diferă",
+            "Media e 13; 5 iterații arată că grupurile sunt bine amestecate",
+            "Media e 25; 5 iterații arată că grupurile sunt bine amestecate",
+            "Media e 13; 5 iterații dau Z ≈ −3,3, deci grupurile diferă"
+          ],
+          "correct": 3,
+          "explain": "μR = 2 · 12 · 12/24 + 1 = 13. Z = (5 − 13)/2,40 ≈ −3,3, dincolo de −1,96: H0 se respinge. Puține iterații înseamnă blocuri lungi din același grup, adică populații diferite; un amestec bun ar da multe iterații. 12 uită „+1”, iar 25 (n1 + n2 + 1) confundă media cu maximul posibil.",
+          "tag": "Z pentru iterații",
+          "tip": "calcul",
+          "exemplu_nou": true
+        },
+        {
+          "q": "Agresivitatea a 12 adolescenți a fost apreciată înainte și după ședințe de consiliere. Din cele 12 diferențe „înainte − după”, doar două sunt negative, cu rangurile 1 și 3. Ipoteza alternativă e că agresivitatea scade; pentru α = 0,01 unilateral, T critic = 10. Ce concluzie e corectă?",
+          "opts": [
+            "T = 74 > 10: H0 se respinge, fiindcă rangurile pozitive sunt mari",
+            "T = 4 ≤ 10: H0 se respinge, agresivitatea scade după consiliere",
+            "T = 4 ≤ 10: H0 nu se respinge, T ar trebui să depășească 10",
+            "T = 2 ≤ 10: H0 se respinge, fiind doar două diferențe negative"
+          ],
+          "correct": 1,
+          "explain": "T = suma rangurilor cu semnul mai rar = 1 + 3 = 4; la Wilcoxon, H0 se respinge dacă T (obținut) ≤ T (critic), deci 4 ≤ 10 duce la respingere. 74 e suma rangurilor pozitive (78 − 4), nu statistica testului; regula „peste prag” e a altor teste; 2 numără semnele în loc să adune rangurile (decizia iese la fel, din întâmplare).",
+          "tag": "Decizia la Wilcoxon",
+          "tip": "regula",
+          "exemplu_nou": false
+        },
+        {
+          "q": "Opt cupluri au notat satisfacția în relație înainte și după un curs; diferențele „după − înainte” sunt +6, +3, −3, +8, +1, −2, +5, +7. Cât este T (obținut)?",
+          "opts": [
+            "T = 5,5: rangurile 2 și 3,5 ale diferențelor negative",
+            "T = 6: rangurile 2 și 4, dând lui −3 rangul următor",
+            "T = −5: suma diferențelor negative, cu semnul lor",
+            "T = 30,5: suma rangurilor diferențelor pozitive"
+          ],
+          "correct": 0,
+          "explain": "Valorile absolute ordonate: 1, 2, 3, 3, 5, 6, 7, 8. Cele două valori de 3 împart rangurile 3 și 4 → 3,5 fiecare (ca la Mann–Whitney). Semnul mai rar e −: rangurile lui −2 (2) și −3 (3,5) dau T = 5,5. A da rangul 4 doar lui −3 desparte arbitrar valorile egale; T se calculează din ranguri, nu din diferențe; 30,5 e suma semnului mai frecvent.",
+          "tag": "T obținut",
+          "tip": "calcul",
+          "exemplu_nou": true
+        },
+        {
+          "q": "Un cercetător studiază gemeni: din fiecare pereche, un frate a crescut la oraș, celălalt la sat, iar anxietatea e măsurată pe o scală ordinală. Ce test compară cele două grupuri?",
+          "opts": [
+            "Wilcoxon T: fiecare geamăn de la oraș are pereche la sat",
+            "Mann–Whitney U: la oraș și la sat sunt oameni diferiți",
+            "Testul medianei: e mai potrivit la grupuri mici de gemeni",
+            "McNemar: fiecare pereche dă două măsurători înrudite"
+          ],
+          "correct": 0,
+          "explain": "Eșantioanele sunt dependente: alegerea unui geamăn determină cine intră în celălalt eșantion, deci datele vin în perechi — situația lui Wilcoxon T, pentru date ordinale. Faptul că sunt persoane diferite nu face eșantioanele independente. Testul medianei e tot pentru eșantioane independente; McNemar cere date nominale (Da/Nu), nu scoruri.",
+          "tag": "Eșantioane dependente ordinale",
+          "tip": "test",
+          "exemplu_nou": true
+        },
+        {
+          "q": "Trei tipuri de terapie au fost comparate pe grupuri independente de câte 8 pacienți, după scoruri ordinale de ameliorare. Kruskal–Wallis dă H = 9,10, peste pragul de 5,991. Ce poate afirma cercetătorul?",
+          "opts": [
+            "Toate cele trei terapii diferă între ele, două câte două",
+            "Terapia cu cea mai mare sumă a rangurilor le întrece pe celelalte două",
+            "Cel puțin două terapii diferă; care anume, rămâne de verificat",
+            "Scorurile celor trei populații sunt identice, cu un risc de 5%"
+          ],
+          "correct": 2,
+          "explain": "Ipoteza alternativă a testului Kruskal–Wallis e că cel puțin două dintre cele k populații diferă; un H semnificativ nu arată care. E aceeași limită ca la F în ANOVA, unde perechile se verifică apoi prin comparații post hoc — vezi Cap. 10 (Analiza de varianță (ANOVA)). „Toate diferă” și „cea mai bună le întrece pe toate” spun mai mult decât arată testul; H semnificativ respinge identitatea populațiilor, nu o confirmă.",
+          "tag": "Decizia la Kruskal–Wallis",
+          "tip": "concept",
+          "exemplu_nou": true
+        },
+        {
+          "q": "Trei grupuri independente, de câte 5 persoane, au fost ordonate împreună; sumele rangurilor sunt 20, 40 și 60. Formula este H = 12/[N(N + 1)] · Σ(ΣRj²/nj) − 3(N + 1), iar pragul pentru 2 gl e 5,991. Ce rezultă?",
+          "opts": [
+            "H = 56,00: peste 5,991, deci H0 se respinge",
+            "H = 8,00: sub 9,488, deci H0 nu se respinge",
+            "H = 2,00: sub 5,991, deci H0 nu se respinge",
+            "H = 8,00: peste 5,991, deci H0 se respinge"
+          ],
+          "correct": 3,
+          "explain": "N = 15: 12/(15 · 16) = 0,05; Σ(ΣRj²/nj) = (400 + 1 600 + 3 600)/5 = 1 120; 0,05 · 1 120 = 56; H = 56 − 3 · 16 = 8,00 > 5,991. 56 apare dacă se uită scăderea lui 3(N + 1); 9,488 e pragul pentru 4 gl, dar aici gl = k − 1 = 2.",
+          "tag": "Calculul lui H",
+          "tip": "calcul",
+          "exemplu_nou": true
+        },
+        {
+          "q": "38 de femei salariate au răspuns Da/Nu la „Organizațiile feministe vă apără interesele?”, înainte și după ce au citit documente despre ele: 6 au spus Da de ambele dăți, 16 Nu de ambele dăți, 14 au trecut de la Da la Nu, 2 de la Nu la Da. χ² = 9,00, iar pragul e 3,841. Ce concluzie e corectă?",
+          "opts": [
+            "Majoritatea (22 din 38) și-au păstrat opinia, deci lectura n-a contat",
+            "Cele 16 femei rămase la Nu arată că opinia negativă e majoritară",
+            "Trecerile de la Da la Nu sunt semnificativ mai multe decât cele inverse",
+            "Testul nu se aplică, deoarece aceleași femei au răspuns de două ori"
+          ],
+          "correct": 2,
+          "explain": "McNemar compară doar schimbările: (14 − 2)²/(14 + 2) = 9,00 > 3,841, deci schimbările nu se echilibrează — mai multe femei au trecut de la Da la Nu. Cele care și-au păstrat opinia nu intră în calcul, deci nu pot anula efectul. Măsurarea repetată a acelorași persoane e chiar situația pentru care e făcut testul.",
+          "tag": "Semnificația schimbării",
+          "tip": "concept",
+          "exemplu_nou": false
+        },
+        {
+          "q": "Înainte și după o campanie, 9 participanți și-au schimbat răspunsul de la Nu la Da, iar 6 de la Da la Nu. Organizatorul spune că a avut succes, fiindcă au crescut răspunsurile Da. Pragul e 3,841. Ce arată testul potrivit?",
+          "opts": [
+            "Câștigul net de 3 răspunsuri Da arată deja că campania a funcționat",
+            "χ² = 9,00: schimbările sunt semnificative, campania a convins",
+            "χ² = 0,60: schimbările în cele două sensuri se pot echilibra din întâmplare",
+            "χ² = 0,60: deci campania n-a schimbat opinia participanților"
+          ],
+          "correct": 2,
+          "explain": "McNemar: (9 − 6)²/(9 + 6) = 9/15 = 0,60 < 3,841 — diferența dintre cele două sensuri ale schimbării nu e semnificativă. Un câștig net în eșantion nu ajunge fără test; 9,00 apare dacă se uită împărțirea la 15. Rezultatul nu spune că nimeni nu s-a schimbat (15 persoane s-au schimbat), ci că schimbările nu înclină semnificativ într-o parte.",
+          "tag": "Calculul McNemar",
+          "tip": "calcul",
+          "exemplu_nou": true
+        },
+        {
+          "q": "O cercetătoare compară două grupuri independente, de 25 și 30 de persoane, cu testul Mann–Whitney și obține U = 250. Abaterea standard a distribuției lui U este ≈ 59,16, iar pragul bilateral e ±1,96. Ce rezultă?",
+          "opts": [
+            "Z ≈ −2,11: dincolo de −1,96, deci H0 se respinge",
+            "Z ≈ −2,11: un Z negativ nu cade în zona critică",
+            "U = 250 > 23: H0 nu se respinge, ca la eșantioanele mici",
+            "Z ≈ −0,33: sub 1,96, deci H0 nu se respinge"
+          ],
+          "correct": 0,
+          "explain": "Peste 20 de cazuri pe grup, distribuția lui U se apropie de normală: μU = n1n2/2 = 375 și Z = (250 − 375)/59,16 ≈ −2,11, dincolo de −1,96. Într-un test bilateral contează ambele cozi. 23 e pragul din tabel pentru 10 și 10, nu pentru aceste dimensiuni; −0,33 apare împărțind la 375 în loc de abaterea standard.",
+          "tag": "Mann–Whitney pentru eșantioane mari",
+          "tip": "calcul",
+          "exemplu_nou": true
+        }
+      ],
+      "ascunse": [
+        {
+          "q": "Două grupuri de câte 15 elevi au răspuns pe o scală cu 5 trepte, iar multe scoruri egale apar în ambele grupuri. Un student vrea să aplice testul iterațiilor. Ce i-ați recomanda?",
+          "opts": [
+            "Testul iterațiilor, cu scorurile egale puse alternativ, pentru mai multe iterații",
+            "Alt test: așezarea scorurilor egale poate schimba mult numărul de iterații",
+            "Testul iterațiilor neschimbat: egalitățile dintre grupuri nu-l afectează",
+            "McNemar, pentru că o scală cu doar 5 trepte devine o variabilă nominală"
+          ],
+          "correct": 1,
+          "explain": "La testul iterațiilor, scorurile identice din eșantioane diferite pot fi așezate în mai multe feluri, iar numărul de iterații depinde mult de această alegere arbitrară; cu multe astfel de egalități se recomandă alt test (de pildă Mann–Whitney, unde egalitățile primesc ranguri medii — sugestie adăugată aici). Alternarea lor ar umfla artificial numărul de iterații; egalitățile din același grup nu contează, dar cele dintre grupuri da. O scală cu 5 trepte rămâne ordinală.",
+          "tag": "Scoruri identice între eșantioane",
+          "tip": "eroare",
+          "exemplu_nou": true
+        },
+        {
+          "q": "Comportamentul autoritar a fost măsurat la 6 profesori din primar, 5 din gimnaziu și 6 de liceu; după ordonarea combinată, H = 7,86. Ce prag și ce decizie se potrivesc, la α = 0,05?",
+          "opts": [
+            "gl = 3 (numărul de grupuri), prag 7,815: H0 se respinge",
+            "gl = 16 (N − 1), prag 26,30: H0 nu se respinge",
+            "gl = 2 (k − 1), prag 5,991: H0 se respinge",
+            "gl = 14 (N − k), prag 23,68: H0 nu se respinge"
+          ],
+          "correct": 2,
+          "explain": "Distribuția de eșantionare a lui H e χ² cu k − 1 = 3 − 1 = 2 gl, deci pragul e 5,991 și 7,86 îl depășește. Cu gl = 3 decizia iese la fel, dar pragul e greșit. N − 1 și N − k sunt grade de libertate din alte calcule (total și eroare, ca la ANOVA din Cap. 10 (Analiza de varianță (ANOVA))).",
+          "tag": "Decizia la Kruskal–Wallis",
+          "tip": "regula",
+          "exemplu_nou": false
+        },
+        {
+          "q": "Un cercetător are scoruri de interval, dar doar 8 persoane în fiecare dintre două grupuri independente, iar distribuția e foarte asimetrică. Ce test e cel mai prudent?",
+          "opts": [
+            "Mann–Whitney U, pe rangurile scorurilor combinate",
+            "Testul t pentru două medii, fiindcă datele sunt de interval",
+            "Wilcoxon T, fiindcă eșantioanele sunt atât de mici",
+            "McNemar, după împărțirea scorurilor în Da și Nu"
+          ],
+          "correct": 0,
+          "explain": "Cu eșantioane mici, testul t presupune populații normale (vezi Cap. 7 (Proceduri de estimare statistică) și Cap. 9 (Testarea ipotezelor despre diferențele dintre două populații)); la o distribuție puternic asimetrică, presupunerea nu se sprijină. Mann–Whitney nu cere o formă anume și folosește doar ordinea scorurilor. Wilcoxon e pentru perechi dependente; transformarea în Da/Nu ar pierde informație și ar schimba tipul de date.",
+          "tag": "Fără supoziții despre forma distribuției",
+          "tip": "test",
+          "exemplu_nou": true
+        },
+        {
+          "q": "Un psiholog testează cu Wilcoxon 30 de perechi „înainte–după” și obține T = 120. Abaterea standard a distribuției lui T este ≈ 48,62, iar pragul bilateral e ±1,96. Ce rezultă?",
+          "opts": [
+            "Z ≈ −2,31: H0 se respinge la α = 0,05, bilateral",
+            "Z ≈ −2,31: H0 nu se respinge, fiindcă Z e negativ",
+            "Z ≈ −7,10: H0 se respinge, cu media lui T egală cu 465",
+            "T = 120 e mare, deci H0 nu se respinge fără alt calcul"
+          ],
+          "correct": 0,
+          "explain": "Peste 25 de perechi se folosește Z: μT = n(n + 1)/4 = 30 · 31/4 = 232,5, iar Z = (120 − 232,5)/48,62 ≈ −2,31, dincolo de −1,96. Un Z negativ e în coada stângă, la fel de critică într-un test bilateral. 465 = n(n + 1)/2 e suma tuturor rangurilor, nu media lui T. Mărimea lui T se judecă doar față de distribuția lui, nu „din ochi”.",
+          "tag": "Wilcoxon pentru eșantioane mari",
+          "tip": "calcul",
+          "exemplu_nou": true
+        },
+        {
+          "q": "Tabelul valorilor critice U dă nivelurile α pentru teste unilaterale. O cercetătoare vrea un test bilateral cu α = 0,05. Ce coloană folosește?",
+          "opts": [
+            "Coloana α = 0,05, citită la fel în ambele cazuri",
+            "Coloana α = 0,10, câte 0,05 pentru fiecare coadă",
+            "Coloana α = 0,05, apoi dublează valoarea U critic",
+            "Coloana α = 0,025, care dublată dă 0,05 bilateral"
+          ],
+          "correct": 3,
+          "explain": "Pentru un test bilateral, nivelul α din tabel se înmulțește cu doi: coloana 0,025 (unilateral) corespunde lui 0,05 bilateral, câte 0,025 în fiecare coadă — aceeași logică a cozilor ca în Cap. 8 (Testarea ipotezelor despre o singură populație). Coloana 0,05 ar da un test bilateral cu α = 0,10; 0,10 unilateral ar însemna 0,20 bilateral; valoarea U critic nu se dublează.",
+          "tag": "Regula inversă a lui U",
+          "tip": "regula",
+          "exemplu_nou": true
+        }
+      ]
+    }
+  ],
+  "harta": {
+    "centru": "Teste nonparametrice",
+    "ramuri": [
+      {
+        "titlu": "Când alegem un test nonparametric",
+        "noduri": [
+          {
+            "t": "Fără supoziții despre forma distribuției",
+            "d": "Testele nonparametrice nu cer ca populația să aibă o anumită formă (de pildă normală), de aceea se pot aplica mai ales la eșantioane mici, unde testele Z și t ar avea nevoie de normalitate."
+          },
+          {
+            "t": "Date nominale sau ordinale",
+            "d": "Sunt utile în psihologie pentru că lucrează cu frecvențe (nominal: χ², McNemar) sau cu ranguri (ordinal: Mann–Whitney, mediana, iterațiile, Wilcoxon, Kruskal–Wallis)."
+          },
+          {
+            "t": "Ipoteze formulate general",
+            "d": "H0 rămâne „nicio diferență”, dar nu despre μ: populațiile nu diferă sub aspectul variabilei de interes. Ha: populațiile diferă (sau, la testele direcționale, una are scoruri mai mari)."
+          },
+          {
+            "t": "Eșantioane independente sau dependente",
+            "d": "Dependente: aceiași oameni înainte–după sau perechi formate prin selecție (gemeni). Independente: alegerea cazurilor dintr-un eșantion nu influențează celălalt eșantion."
+          },
+          {
+            "t": "Analogii parametrici",
+            "d": "Mann–Whitney U seamănă cu testele pentru diferența dintre două medii, eșantioane independente, din Cap. 9 (Testarea ipotezelor despre diferențele dintre două populații); Kruskal–Wallis H e analogul ANOVA pentru o variabilă independentă din Cap. 10 (Analiza de varianță (ANOVA))."
+          }
+        ],
+        "tabel": {
+          "cap": [
+            "Test",
+            "Nivel",
+            "Eșantioane",
+            "Statistică / distribuție",
+            "H0 se respinge când"
+          ],
+          "randuri": [
+            [
+              "χ² pentru concordanță",
+              "nominal",
+              "o variabilă",
+              "χ²",
+              "χ² ≥ χ² critic"
+            ],
+            [
+              "χ² pentru independență",
+              "nominal",
+              "două variabile",
+              "χ²",
+              "χ² ≥ χ² critic"
+            ],
+            [
+              "McNemar",
+              "nominal",
+              "2 dependente",
+              "χ², gl = 1, doar celulele schimbării",
+              "χ² ≥ 3,841 (α = 0,05)"
+            ],
+            [
+              "Mann–Whitney U",
+              "ordinal",
+              "2 independente",
+              "U (n ≤ 20); Z (n > 20)",
+              "U ≤ U critic"
+            ],
+            [
+              "Testul medianei",
+              "ordinal",
+              "2 independente",
+              "χ², gl = 1 (tabel 2 × 2)",
+              "χ² ≥ 3,841 (α = 0,05)"
+            ],
+            [
+              "Testul iterațiilor",
+              "ordinal",
+              "2 independente",
+              "Z, din numărul de iterații R",
+              "puține iterații: Z dincolo de prag"
+            ],
+            [
+              "Wilcoxon T",
+              "ordinal",
+              "2 dependente (perechi)",
+              "T (n ≤ 25); Z (n > 25)",
+              "T ≤ T critic"
+            ],
+            [
+              "Kruskal–Wallis H",
+              "ordinal",
+              "k independente, fiecare cu ≥ 5",
+              "H, distribuție χ² cu k − 1 gl",
+              "H > χ² critic"
+            ]
+          ]
+        }
+      },
+      {
+        "titlu": "Testul χ² (chi-pătrat)",
+        "lat": true,
+        "noduri": [
+          {
+            "t": "Frecvențe observate și așteptate",
+            "d": "Datele sunt frecvențe (câte cazuri cad în fiecare categorie). Testul compară frecvențele observate, obținute empiric, cu cele așteptate dacă H0 e adevărată. Zarul aruncat de 300 de ori: dacă e corect, fiecare față ar apărea de circa 50 de ori."
+          },
+          {
+            "t": "χ² pentru concordanță",
+            "d": "O singură variabilă: frecvențele observate se potrivesc cu cele așteptate? (zarul: 42, 55, 38, 57, 64, 44 față de câte 50)."
+          },
+          {
+            "t": "χ² pentru independență",
+            "d": "Două variabile nominale: sunt independente sau legate între ele?"
+          },
+          {
+            "t": "Distribuția χ² și gradele de libertate",
+            "d": "La un tabel 2 × 2 (McNemar, testul medianei), gl = 1 și pragul pentru α = 0,05 e 3,841; la Kruskal–Wallis, gl = k − 1 (k = 3 → 5,991). H0 se respinge când valoarea obținută depășește pragul. Formula generală Σ(O − A)²/A nu e scrisă în capitol (adăugată aici, ca reper)."
+          }
+        ],
+        "figuri": [
+          {
+            "titlu": "Zarul aruncat de 300 de ori",
+            "nota": "Frecvențele observate din exemplul cărții față de 50, frecvența așteptată dacă zarul e corect (H0). Cartea nu face calculul; cu formula generală Σ(O − A)²/A ar ieși 514/50 = 10,28 (calcul adăugat aici).",
+            "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 200\" role=\"img\" aria-label=\"Frecvențele observate ale celor șase fețe ale zarului față de frecvența așteptată 50\" font-family=\"Georgia, serif\" font-size=\"13\"><line x1=\"44.0\" y1=\"176.0\" x2=\"312.0\" y2=\"176.0\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><text x=\"40.0\" y=\"179.5\" text-anchor=\"end\" fill=\"#6b6760\" font-size=\"10.2\">0</text><line x1=\"44.0\" y1=\"155.7\" x2=\"312.0\" y2=\"155.7\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><text x=\"40.0\" y=\"159.2\" text-anchor=\"end\" fill=\"#6b6760\" font-size=\"10.2\">10</text><line x1=\"44.0\" y1=\"135.4\" x2=\"312.0\" y2=\"135.4\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><text x=\"40.0\" y=\"138.9\" text-anchor=\"end\" fill=\"#6b6760\" font-size=\"10.2\">20</text><line x1=\"44.0\" y1=\"115.1\" x2=\"312.0\" y2=\"115.1\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><text x=\"40.0\" y=\"118.6\" text-anchor=\"end\" fill=\"#6b6760\" font-size=\"10.2\">30</text><line x1=\"44.0\" y1=\"94.9\" x2=\"312.0\" y2=\"94.9\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><text x=\"40.0\" y=\"98.4\" text-anchor=\"end\" fill=\"#6b6760\" font-size=\"10.2\">40</text><line x1=\"44.0\" y1=\"74.6\" x2=\"312.0\" y2=\"74.6\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><text x=\"40.0\" y=\"78.1\" text-anchor=\"end\" fill=\"#6b6760\" font-size=\"10.2\">50</text><line x1=\"44.0\" y1=\"54.3\" x2=\"312.0\" y2=\"54.3\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><text x=\"40.0\" y=\"57.8\" text-anchor=\"end\" fill=\"#6b6760\" font-size=\"10.2\">60</text><line x1=\"44.0\" y1=\"34.0\" x2=\"312.0\" y2=\"34.0\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><text x=\"40.0\" y=\"37.5\" text-anchor=\"end\" fill=\"#6b6760\" font-size=\"10.2\">70</text><rect x=\"52.0\" y=\"90.8\" width=\"28.7\" height=\"85.2\" fill=\"#2a78d6\"><title>fața 1: 42 apariții</title></rect><text x=\"66.3\" y=\"86.8\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.8\">42</text><text x=\"66.3\" y=\"191.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">fața 1</text><rect x=\"96.7\" y=\"64.4\" width=\"28.7\" height=\"111.6\" fill=\"#2a78d6\"><title>fața 2: 55 apariții</title></rect><text x=\"111.0\" y=\"60.4\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.8\">55</text><text x=\"111.0\" y=\"191.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">fața 2</text><rect x=\"141.3\" y=\"98.9\" width=\"28.7\" height=\"77.1\" fill=\"#2a78d6\"><title>fața 3: 38 apariții</title></rect><text x=\"155.7\" y=\"94.9\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.8\">38</text><text x=\"155.7\" y=\"191.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">fața 3</text><rect x=\"186.0\" y=\"60.4\" width=\"28.7\" height=\"115.6\" fill=\"#2a78d6\"><title>fața 4: 57 apariții</title></rect><text x=\"200.3\" y=\"56.4\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.8\">57</text><text x=\"200.3\" y=\"191.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">fața 4</text><rect x=\"230.7\" y=\"46.2\" width=\"28.7\" height=\"129.8\" fill=\"#2a78d6\"><title>fața 5: 64 apariții</title></rect><text x=\"245.0\" y=\"42.2\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.8\">64</text><text x=\"245.0\" y=\"191.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">fața 5</text><rect x=\"275.3\" y=\"86.7\" width=\"28.7\" height=\"89.3\" fill=\"#2a78d6\"><title>fața 6: 44 apariții</title></rect><text x=\"289.7\" y=\"82.7\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.8\">44</text><text x=\"289.7\" y=\"191.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">fața 6</text><line x1=\"44.0\" y1=\"74.6\" x2=\"312.0\" y2=\"74.6\" stroke=\"#eb6834\" stroke-width=\"2\" stroke-dasharray=\"6 4\"/><line x1=\"44.0\" y1=\"176.0\" x2=\"312.0\" y2=\"176.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><rect x=\"44.0\" y=\"8.0\" width=\"10.0\" height=\"10.0\" fill=\"#2a78d6\"></rect><text x=\"58.0\" y=\"17.0\" text-anchor=\"start\" fill=\"#2c2a26\" font-size=\"10.8\">observat</text><rect x=\"121.6\" y=\"8.0\" width=\"10.0\" height=\"10.0\" fill=\"#eb6834\"></rect><text x=\"135.6\" y=\"17.0\" text-anchor=\"start\" fill=\"#2c2a26\" font-size=\"10.8\">așteptat: 50</text><text x=\"10.0\" y=\"105.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\" transform=\"rotate(-90 10 105)\">apariții</text></svg>"
+          },
+          {
+            "titlu": "Distribuția χ²: praguri și valori obținute",
+            "nota": "Curbe exacte, α = 0,05. Cele trei valori obținute sunt din exemplele capitolului: testul medianei (3,20), McNemar (9,00), Kruskal–Wallis (H = 7,86).",
+            "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 238\" role=\"img\" aria-label=\"Distribuțiile chi-pătrat cu 1 și 2 grade de libertate, zonele critice și valorile obținute în exemplele capitolului\" font-family=\"Georgia, serif\" font-size=\"13\"><polygon points=\"119.6,96.0 119.6,91.6 120.8,91.7 122.0,91.8 123.1,92.0 124.3,92.1 125.5,92.2 126.6,92.3 127.8,92.4 129.0,92.5 130.1,92.6 131.3,92.7 132.5,92.8 133.6,92.9 134.8,93.0 136.0,93.1 137.1,93.2 138.3,93.3 139.5,93.4 140.6,93.4 141.8,93.5 143.0,93.6 144.1,93.7 145.3,93.7 146.5,93.8 147.6,93.9 148.8,93.9 150.0,94.0 151.1,94.1 152.3,94.1 153.5,94.2 154.6,94.2 155.8,94.3 157.0,94.3 158.1,94.4 159.3,94.4 160.5,94.5 161.6,94.5 162.8,94.6 164.0,94.6 165.1,94.6 166.3,94.7 167.5,94.7 168.6,94.7 169.8,94.8 171.0,94.8 172.1,94.9 173.3,94.9 174.5,94.9 175.6,94.9 176.8,95.0 178.0,95.0 179.1,95.0 180.3,95.1 181.5,95.1 182.6,95.1 183.8,95.1 185.0,95.2 186.1,95.2 187.3,95.2 188.5,95.2 189.6,95.3 190.8,95.3 192.0,95.3 193.1,95.3 194.3,95.3 195.5,95.4 196.6,95.4 197.8,95.4 199.0,95.4 200.1,95.4 201.3,95.4 202.5,95.5 203.6,95.5 204.8,95.5 206.0,95.5 207.1,95.5 208.3,95.5 209.5,95.5 210.6,95.6 211.8,95.6 213.0,95.6 214.1,95.6 215.3,95.6 216.5,95.6 217.6,95.6 218.8,95.6 220.0,95.6 221.1,95.7 222.3,95.7 223.5,95.7 224.6,95.7 225.8,95.7 227.0,95.7 228.1,95.7 229.3,95.7 230.5,95.7 231.6,95.7 232.8,95.7 234.0,95.7 235.1,95.8 236.3,95.8 237.5,95.8 238.6,95.8 239.8,95.8 241.0,95.8 242.1,95.8 243.3,95.8 244.5,95.8 245.6,95.8 246.8,95.8 248.0,95.8 249.1,95.8 250.3,95.8 251.5,95.8 252.6,95.8 253.8,95.8 255.0,95.8 256.1,95.8 257.3,95.9 258.5,95.9 259.6,95.9 260.8,95.9 262.0,95.9 263.1,95.9 264.3,95.9 265.5,95.9 266.6,95.9 267.8,95.9 269.0,95.9 270.1,95.9 271.3,95.9 272.5,95.9 273.6,95.9 274.8,95.9 276.0,95.9 277.1,95.9 278.3,95.9 279.5,95.9 280.6,95.9 281.8,95.9 283.0,95.9 284.1,95.9 285.3,95.9 286.5,95.9 287.6,95.9 288.8,95.9 290.0,95.9 291.1,95.9 292.3,95.9 293.5,95.9 294.6,95.9 295.8,95.9 297.0,95.9 298.1,95.9 299.3,95.9 300.5,95.9 301.6,95.9 302.8,95.9 304.0,96.0 305.1,96.0 306.3,96.0 307.5,96.0 308.6,96.0 310.0,96.0\" fill=\"#b5453a\" fill-opacity=\"0.4\"/><polyline points=\"30.9,14.0 32.1,14.0 33.3,14.0 34.4,14.0 35.6,14.0 36.8,14.0 37.9,14.0 39.1,17.6 40.3,24.0 41.4,29.5 42.6,34.2 43.8,38.3 44.9,42.0 46.1,45.3 47.3,48.2 48.4,50.9 49.6,53.4 50.8,55.6 51.9,57.7 53.1,59.6 54.3,61.3 55.4,63.0 56.6,64.5 57.8,65.9 58.9,67.3 60.1,68.5 61.3,69.7 62.4,70.8 63.6,71.9 64.8,72.9 65.9,73.8 67.1,74.7 68.3,75.5 69.4,76.3 70.6,77.1 71.8,77.8 72.9,78.5 74.1,79.2 75.3,79.8 76.4,80.4 77.6,81.0 78.8,81.5 79.9,82.1 81.1,82.6 82.3,83.0 83.4,83.5 84.6,83.9 85.8,84.4 86.9,84.8 88.1,85.1 89.3,85.5 90.4,85.9 91.6,86.2 92.8,86.6 93.9,86.9 95.1,87.2 96.3,87.5 97.4,87.8 98.6,88.0 99.8,88.3 100.9,88.5 102.1,88.8 103.3,89.0 104.4,89.2 105.6,89.5 106.8,89.7 107.9,89.9 109.1,90.1 110.3,90.3 111.4,90.4 112.6,90.6 113.8,90.8 114.9,90.9 116.1,91.1 117.3,91.3 118.4,91.4 119.6,91.6 120.8,91.7 121.9,91.8 123.1,91.9 124.3,92.1 125.4,92.2 126.6,92.3 127.8,92.4 128.9,92.5 130.1,92.6 131.3,92.7 132.4,92.8 133.6,92.9 134.8,93.0 135.9,93.1 137.1,93.2 138.3,93.3 139.4,93.4 140.6,93.4 141.8,93.5 142.9,93.6 144.1,93.7 145.3,93.7 146.4,93.8 147.6,93.9 148.8,93.9 149.9,94.0 151.1,94.1 152.3,94.1 153.4,94.2 154.6,94.2 155.8,94.3 156.9,94.3 158.1,94.4 159.3,94.4 160.4,94.5 161.6,94.5 162.8,94.6 163.9,94.6 165.1,94.6 166.3,94.7 167.4,94.7 168.6,94.7 169.8,94.8 170.9,94.8 172.1,94.9 173.3,94.9 174.4,94.9 175.6,94.9 176.8,95.0 177.9,95.0 179.1,95.0 180.3,95.1 181.4,95.1 182.6,95.1 183.8,95.1 184.9,95.2 186.1,95.2 187.3,95.2 188.4,95.2 189.6,95.3 190.8,95.3 191.9,95.3 193.1,95.3 194.3,95.3 195.4,95.4 196.6,95.4 197.8,95.4 198.9,95.4 200.1,95.4 201.3,95.4 202.4,95.5 203.6,95.5 204.8,95.5 205.9,95.5 207.1,95.5 208.3,95.5 209.4,95.5 210.6,95.6 211.8,95.6 212.9,95.6 214.1,95.6 215.3,95.6 216.4,95.6 217.6,95.6 218.8,95.6 219.9,95.6 221.1,95.7 222.3,95.7 223.4,95.7 224.6,95.7 225.8,95.7 226.9,95.7 228.1,95.7 229.3,95.7 230.4,95.7 231.6,95.7 232.8,95.7 233.9,95.7 235.1,95.8 236.3,95.8 237.4,95.8 238.6,95.8 239.8,95.8 240.9,95.8 242.1,95.8 243.3,95.8 244.4,95.8 245.6,95.8 246.8,95.8 247.9,95.8 249.1,95.8 250.3,95.8 251.4,95.8 252.6,95.8 253.8,95.8 254.9,95.8 256.1,95.8 257.3,95.9 258.4,95.9 259.6,95.9 260.8,95.9 261.9,95.9 263.1,95.9 264.3,95.9 265.4,95.9 266.6,95.9 267.8,95.9 268.9,95.9 270.1,95.9 271.3,95.9 272.4,95.9 273.6,95.9 274.8,95.9 275.9,95.9 277.1,95.9 278.3,95.9 279.4,95.9 280.6,95.9 281.8,95.9 282.9,95.9 284.1,95.9 285.3,95.9 286.4,95.9 287.6,95.9 288.8,95.9 289.9,95.9 291.1,95.9 292.3,95.9 293.4,95.9 294.6,95.9 295.8,95.9 296.9,95.9 298.1,95.9 299.3,95.9 300.4,95.9 301.6,95.9 302.8,95.9 303.9,96.0 305.1,96.0 306.3,96.0 307.4,96.0 308.6,96.0 309.8,96.0\" fill=\"none\" stroke=\"#2c2a26\" stroke-width=\"1.6\"/><line x1=\"30.0\" y1=\"96.0\" x2=\"310.0\" y2=\"96.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><line x1=\"30.0\" y1=\"96.0\" x2=\"30.0\" y2=\"100.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><text x=\"30.0\" y=\"111.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">0</text><line x1=\"76.7\" y1=\"96.0\" x2=\"76.7\" y2=\"100.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><text x=\"76.7\" y=\"111.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">2</text><line x1=\"123.3\" y1=\"96.0\" x2=\"123.3\" y2=\"100.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><text x=\"123.3\" y=\"111.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">4</text><line x1=\"170.0\" y1=\"96.0\" x2=\"170.0\" y2=\"100.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><text x=\"170.0\" y=\"111.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">6</text><line x1=\"216.7\" y1=\"96.0\" x2=\"216.7\" y2=\"100.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><text x=\"216.7\" y=\"111.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">8</text><line x1=\"263.3\" y1=\"96.0\" x2=\"263.3\" y2=\"100.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><text x=\"263.3\" y=\"111.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">10</text><line x1=\"310.0\" y1=\"96.0\" x2=\"310.0\" y2=\"100.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><text x=\"310.0\" y=\"111.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">12</text><line x1=\"119.6\" y1=\"14.0\" x2=\"119.6\" y2=\"96.0\" stroke=\"#b5453a\" stroke-width=\"1.2\" stroke-dasharray=\"4 3\"/><text x=\"123.6\" y=\"66.0\" text-anchor=\"start\" fill=\"#b5453a\" font-size=\"10.2\">critic 3,841</text><text x=\"310.0\" y=\"10.0\" text-anchor=\"end\" fill=\"#2c2a26\" font-size=\"10.8\">χ² cu gl = 1 (tabel 2 × 2)</text><line x1=\"104.7\" y1=\"30.0\" x2=\"104.7\" y2=\"96.0\" stroke=\"#2a78d6\" stroke-width=\"2.4\"/><text x=\"100.7\" y=\"40.0\" text-anchor=\"end\" fill=\"#2a78d6\" font-size=\"10.2\">mediana 3,20</text><line x1=\"240.0\" y1=\"30.0\" x2=\"240.0\" y2=\"96.0\" stroke=\"#eb6834\" stroke-width=\"2.4\"/><text x=\"244.0\" y=\"40.0\" text-anchor=\"start\" fill=\"#eb6834\" font-size=\"10.2\">McNemar 9,00</text><polygon points=\"169.8,214.0 169.8,210.3 171.0,210.4 172.1,210.5 173.3,210.5 174.5,210.6 175.6,210.7 176.8,210.8 178.0,210.9 179.1,210.9 180.3,211.0 181.5,211.1 182.6,211.2 183.8,211.2 185.0,211.3 186.1,211.4 187.3,211.4 188.5,211.5 189.6,211.6 190.8,211.6 192.0,211.7 193.1,211.7 194.3,211.8 195.5,211.8 196.6,211.9 197.8,212.0 199.0,212.0 200.1,212.1 201.3,212.1 202.5,212.1 203.6,212.2 204.8,212.2 206.0,212.3 207.1,212.3 208.3,212.4 209.5,212.4 210.6,212.4 211.8,212.5 213.0,212.5 214.1,212.6 215.3,212.6 216.5,212.6 217.6,212.7 218.8,212.7 220.0,212.7 221.1,212.8 222.3,212.8 223.5,212.8 224.6,212.8 225.8,212.9 227.0,212.9 228.1,212.9 229.3,213.0 230.5,213.0 231.6,213.0 232.8,213.0 234.0,213.1 235.1,213.1 236.3,213.1 237.5,213.1 238.6,213.1 239.8,213.2 241.0,213.2 242.1,213.2 243.3,213.2 244.5,213.2 245.6,213.3 246.8,213.3 248.0,213.3 249.1,213.3 250.3,213.3 251.5,213.4 252.6,213.4 253.8,213.4 255.0,213.4 256.1,213.4 257.3,213.4 258.5,213.4 259.6,213.5 260.8,213.5 262.0,213.5 263.1,213.5 264.3,213.5 265.5,213.5 266.6,213.5 267.8,213.5 269.0,213.6 270.1,213.6 271.3,213.6 272.5,213.6 273.6,213.6 274.8,213.6 276.0,213.6 277.1,213.6 278.3,213.6 279.5,213.6 280.6,213.7 281.8,213.7 283.0,213.7 284.1,213.7 285.3,213.7 286.5,213.7 287.6,213.7 288.8,213.7 290.0,213.7 291.1,213.7 292.3,213.7 293.5,213.7 294.6,213.7 295.8,213.7 297.0,213.8 298.1,213.8 299.3,213.8 300.5,213.8 301.6,213.8 302.8,213.8 304.0,213.8 305.1,213.8 306.3,213.8 307.5,213.8 308.6,213.8 310.0,214.0\" fill=\"#b5453a\" fill-opacity=\"0.4\"/><polyline points=\"30.9,140.9 32.1,142.7 33.3,144.5 34.4,146.2 35.6,147.9 36.8,149.5 37.9,151.1 39.1,152.7 40.3,154.2 41.4,155.7 42.6,157.1 43.8,158.5 44.9,159.9 46.1,161.2 47.3,162.5 48.4,163.8 49.6,165.0 50.8,166.2 51.9,167.4 53.1,168.6 54.3,169.7 55.4,170.8 56.6,171.8 57.8,172.9 58.9,173.9 60.1,174.9 61.3,175.9 62.4,176.8 63.6,177.7 64.8,178.6 65.9,179.5 67.1,180.3 68.3,181.2 69.4,182.0 70.6,182.8 71.8,183.5 72.9,184.3 74.1,185.0 75.3,185.7 76.4,186.4 77.6,187.1 78.8,187.8 79.9,188.4 81.1,189.1 82.3,189.7 83.4,190.3 84.6,190.9 85.8,191.4 86.9,192.0 88.1,192.5 89.3,193.1 90.4,193.6 91.6,194.1 92.8,194.6 93.9,195.1 95.1,195.5 96.3,196.0 97.4,196.4 98.6,196.9 99.8,197.3 100.9,197.7 102.1,198.1 103.3,198.5 104.4,198.9 105.6,199.2 106.8,199.6 107.9,200.0 109.1,200.3 110.3,200.7 111.4,201.0 112.6,201.3 113.8,201.6 114.9,201.9 116.1,202.2 117.3,202.5 118.4,202.8 119.6,203.1 120.8,203.3 121.9,203.6 123.1,203.9 124.3,204.1 125.4,204.4 126.6,204.6 127.8,204.8 128.9,205.1 130.1,205.3 131.3,205.5 132.4,205.7 133.6,205.9 134.8,206.1 135.9,206.3 137.1,206.5 138.3,206.7 139.4,206.9 140.6,207.0 141.8,207.2 142.9,207.4 144.1,207.5 145.3,207.7 146.4,207.9 147.6,208.0 148.8,208.2 149.9,208.3 151.1,208.4 152.3,208.6 153.4,208.7 154.6,208.8 155.8,209.0 156.9,209.1 158.1,209.2 159.3,209.3 160.4,209.4 161.6,209.6 162.8,209.7 163.9,209.8 165.1,209.9 166.3,210.0 167.4,210.1 168.6,210.2 169.8,210.3 170.9,210.4 172.1,210.5 173.3,210.5 174.4,210.6 175.6,210.7 176.8,210.8 177.9,210.9 179.1,210.9 180.3,211.0 181.4,211.1 182.6,211.2 183.8,211.2 184.9,211.3 186.1,211.4 187.3,211.4 188.4,211.5 189.6,211.6 190.8,211.6 191.9,211.7 193.1,211.7 194.3,211.8 195.4,211.8 196.6,211.9 197.8,212.0 198.9,212.0 200.1,212.1 201.3,212.1 202.4,212.1 203.6,212.2 204.8,212.2 205.9,212.3 207.1,212.3 208.3,212.4 209.4,212.4 210.6,212.4 211.8,212.5 212.9,212.5 214.1,212.6 215.3,212.6 216.4,212.6 217.6,212.7 218.8,212.7 219.9,212.7 221.1,212.8 222.3,212.8 223.4,212.8 224.6,212.8 225.8,212.9 226.9,212.9 228.1,212.9 229.3,213.0 230.4,213.0 231.6,213.0 232.8,213.0 233.9,213.1 235.1,213.1 236.3,213.1 237.4,213.1 238.6,213.1 239.8,213.2 240.9,213.2 242.1,213.2 243.3,213.2 244.4,213.2 245.6,213.3 246.8,213.3 247.9,213.3 249.1,213.3 250.3,213.3 251.4,213.4 252.6,213.4 253.8,213.4 254.9,213.4 256.1,213.4 257.3,213.4 258.4,213.4 259.6,213.5 260.8,213.5 261.9,213.5 263.1,213.5 264.3,213.5 265.4,213.5 266.6,213.5 267.8,213.5 268.9,213.6 270.1,213.6 271.3,213.6 272.4,213.6 273.6,213.6 274.8,213.6 275.9,213.6 277.1,213.6 278.3,213.6 279.4,213.6 280.6,213.7 281.8,213.7 282.9,213.7 284.1,213.7 285.3,213.7 286.4,213.7 287.6,213.7 288.8,213.7 289.9,213.7 291.1,213.7 292.3,213.7 293.4,213.7 294.6,213.7 295.8,213.7 296.9,213.8 298.1,213.8 299.3,213.8 300.4,213.8 301.6,213.8 302.8,213.8 303.9,213.8 305.1,213.8 306.3,213.8 307.4,213.8 308.6,213.8 309.8,213.8\" fill=\"none\" stroke=\"#2c2a26\" stroke-width=\"1.6\"/><line x1=\"30.0\" y1=\"214.0\" x2=\"310.0\" y2=\"214.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><line x1=\"30.0\" y1=\"214.0\" x2=\"30.0\" y2=\"218.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><text x=\"30.0\" y=\"229.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">0</text><line x1=\"76.7\" y1=\"214.0\" x2=\"76.7\" y2=\"218.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><text x=\"76.7\" y=\"229.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">2</text><line x1=\"123.3\" y1=\"214.0\" x2=\"123.3\" y2=\"218.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><text x=\"123.3\" y=\"229.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">4</text><line x1=\"170.0\" y1=\"214.0\" x2=\"170.0\" y2=\"218.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><text x=\"170.0\" y=\"229.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">6</text><line x1=\"216.7\" y1=\"214.0\" x2=\"216.7\" y2=\"218.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><text x=\"216.7\" y=\"229.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">8</text><line x1=\"263.3\" y1=\"214.0\" x2=\"263.3\" y2=\"218.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><text x=\"263.3\" y=\"229.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">10</text><line x1=\"310.0\" y1=\"214.0\" x2=\"310.0\" y2=\"218.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><text x=\"310.0\" y=\"229.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">12</text><line x1=\"169.8\" y1=\"132.0\" x2=\"169.8\" y2=\"214.0\" stroke=\"#b5453a\" stroke-width=\"1.2\" stroke-dasharray=\"4 3\"/><text x=\"165.8\" y=\"184.0\" text-anchor=\"end\" fill=\"#b5453a\" font-size=\"10.2\">critic 5,991</text><text x=\"310.0\" y=\"128.0\" text-anchor=\"end\" fill=\"#2c2a26\" font-size=\"10.8\">χ² cu gl = 2 (k − 1, k = 3)</text><line x1=\"213.4\" y1=\"148.0\" x2=\"213.4\" y2=\"214.0\" stroke=\"#1baf7a\" stroke-width=\"2.4\"/><text x=\"217.4\" y=\"158.0\" text-anchor=\"start\" fill=\"#1baf7a\" font-size=\"10.2\">H = 7,86</text></svg>"
+          }
+        ]
+      },
+      {
+        "titlu": "Testul McNemar",
+        "noduri": [
+          {
+            "t": "Semnificația schimbării",
+            "d": "Test nonparametric pentru semnificația schimbării: variabilă nominală, două eșantioane dependente (aceiași oameni, înainte și după). Exemplul: 38 de femei salariate, întrebate dacă organizațiile feministe le apără interesele, înainte și după lectura unor documente."
+          },
+          {
+            "t": "Doar celulele schimbării",
+            "d": "În tabelul 2 × 2, celulele A (Da → Nu) și D (Nu → Da) arată schimbarea; B și C (aceeași opinie) nu intră în calcul. H0: în populație, schimbările într-un sens sunt la fel de multe ca în celălalt."
+          },
+          {
+            "t": "Calculul McNemar",
+            "d": "Sub H0, fiecare dintre A și D ar avea (A + D)/2, de unde χ² = (A − D)²/(A + D), cu gl = 1. Exemplul: (14 − 2)²/16 = 9,00 > 3,841 → mai multe femei au trecut de la Da la Nu, semnificativ."
+          }
+        ],
+        "figuri": [
+          {
+            "titlu": "McNemar: 38 de femei, înainte și după lectură",
+            "nota": "Datele din carte. Celulele gri (aceeași opinie de ambele dăți) nu intră în calcul.",
+            "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 222\" role=\"img\" aria-label=\"Tabelul 2 pe 2 al testului McNemar pentru cele 38 de femei salariate\" font-family=\"Georgia, serif\" font-size=\"13\"><text x=\"205.0\" y=\"14.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.8\">După lectură</text><text x=\"150.0\" y=\"32.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.8\">Nu</text><text x=\"260.0\" y=\"32.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.8\">Da</text><text x=\"14.0\" y=\"98.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.8\" transform=\"rotate(-90 14 98)\">Înainte</text><text x=\"70.0\" y=\"70.0\" text-anchor=\"end\" fill=\"#6b6760\" font-size=\"10.8\">Da</text><text x=\"70.0\" y=\"128.0\" text-anchor=\"end\" fill=\"#6b6760\" font-size=\"10.8\">Nu</text><rect x=\"95.0\" y=\"40.0\" width=\"110.0\" height=\"58.0\" fill=\"#eb6834\" fill-opacity=\"0.35\" stroke=\"#b9b0a0\" stroke-width=\"1\"><title>celula A: Da → Nu, 14 femei</title></rect><text x=\"103.0\" y=\"56.0\" text-anchor=\"start\" fill=\"#6b6760\" font-size=\"10.8\">A</text><text x=\"150.0\" y=\"74.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"16\">14</text><text x=\"150.0\" y=\"90.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">Da → Nu</text><rect x=\"205.0\" y=\"40.0\" width=\"110.0\" height=\"58.0\" fill=\"#cfc8ba\" fill-opacity=\"0.45\" stroke=\"#b9b0a0\" stroke-width=\"1\"><title>celula B: Da → Da, 6 femei</title></rect><text x=\"213.0\" y=\"56.0\" text-anchor=\"start\" fill=\"#6b6760\" font-size=\"10.8\">B</text><text x=\"260.0\" y=\"74.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"16\">6</text><text x=\"260.0\" y=\"90.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">Da → Da</text><rect x=\"95.0\" y=\"98.0\" width=\"110.0\" height=\"58.0\" fill=\"#cfc8ba\" fill-opacity=\"0.45\" stroke=\"#b9b0a0\" stroke-width=\"1\"><title>celula C: Nu → Nu, 16 femei</title></rect><text x=\"103.0\" y=\"114.0\" text-anchor=\"start\" fill=\"#6b6760\" font-size=\"10.8\">C</text><text x=\"150.0\" y=\"132.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"16\">16</text><text x=\"150.0\" y=\"148.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">Nu → Nu</text><rect x=\"205.0\" y=\"98.0\" width=\"110.0\" height=\"58.0\" fill=\"#2a78d6\" fill-opacity=\"0.35\" stroke=\"#b9b0a0\" stroke-width=\"1\"><title>celula D: Nu → Da, 2 femei</title></rect><text x=\"213.0\" y=\"114.0\" text-anchor=\"start\" fill=\"#6b6760\" font-size=\"10.8\">D</text><text x=\"260.0\" y=\"132.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"16\">2</text><text x=\"260.0\" y=\"148.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">Nu → Da</text><text x=\"160.0\" y=\"176.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.8\">Contează doar schimbările: A = 14 și D = 2</text><text x=\"160.0\" y=\"194.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">așteptat în A și în D: (14 + 2)/2 = 8</text><text x=\"160.0\" y=\"212.0\" text-anchor=\"middle\" fill=\"#eb6834\" font-size=\"10.8\">χ² = (14 − 2)² / (14 + 2) = 144/16 = 9,00 > 3,841</text></svg>"
+          }
+        ]
+      },
+      {
+        "titlu": "Rangurile și testul Mann–Whitney U",
+        "lat": true,
+        "noduri": [
+          {
+            "t": "Atribuirea rangurilor",
+            "d": "Scorurile ordinale se pun în corespondență cu numere 1, 2, … păstrând ordinea. „Acord puternic … Dezacord puternic” poate fi 5–1 sau 9, 7, 5, 3, 1; se obișnuiește ca rangurile succesive să difere cu 1."
+          },
+          {
+            "t": "Ranguri egale",
+            "d": "Scorurile identice primesc media rangurilor pe care le-ar fi avut dacă ar fi fost diferite; scorul următor primește rangul pe care l-ar fi avut oricum (30 și 30 → 14,5 fiecare; 32 → 16)."
+          },
+          {
+            "t": "Sumele rangurilor",
+            "d": "Scorurile celor două eșantioane se ordonează împreună, ca un singur eșantion, apoi se adună rangurile pe eșantioane. Sume apropiate: populații asemănătoare; sume foarte diferite: populații diferite. Verificare (adăugată aici): totalul e N(N + 1)/2."
+          },
+          {
+            "t": "U1, U2 și U obținut",
+            "d": "U1 = n1n2 + n1(n1 + 1)/2 − ΣR1, U2 = n1n2 + n2(n2 + 1)/2 − ΣR2; U (obținut) = min(U1, U2). Exemplul campusului: ΣR = 85,5 și 124,5 → U1 = 69,5, U2 = 30,5, U = 30,5. U1 + U2 = n1n2 (observație adăugată aici)."
+          },
+          {
+            "t": "Regula inversă a lui U",
+            "d": "H0 se respinge dacă U ≤ U critic — invers decât la majoritatea testelor. Tabelul (Anexa F, lipsă din PDF) dă α pentru teste unilaterale; pentru bilateral se dublează α. Direcțional: dacă populația 1 ar avea scoruri mai mari, se compară U1; dacă mai mici, U2. Exemplul: 30,5 > 23 → studentele nu diferă semnificativ de studenți."
+          },
+          {
+            "t": "Mann–Whitney pentru eșantioane mari",
+            "d": "Când n1 și n2 depășesc 20, U se apropie de normal: μU = n1n2/2, σU = √[n1n2(n1 + n2 + 1)/12], Z = (U − μU)/σU, cu decizia obișnuită a testului Z."
+          }
+        ],
+        "figuri": [
+          {
+            "titlu": "Mann–Whitney: rangurile celor 20 de scoruri combinate",
+            "nota": "Datele din carte (satisfacția față de serviciile din campus). Scorurile egale (30 și 30) primesc media rangurilor 14 și 15.",
+            "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 172\" role=\"img\" aria-label=\"Rangurile celor 20 de scoruri combinate pentru studente și studenți, sumele rangurilor și valorile U\" font-family=\"Georgia, serif\" font-size=\"13\"><text x=\"61.0\" y=\"26.5\" text-anchor=\"end\" fill=\"#2c2a26\" font-size=\"10.2\">studente</text><rect x=\"66.0\" y=\"12.0\" width=\"248.0\" height=\"22.0\" fill=\"#f3efe6\"></rect><rect x=\"67.0\" y=\"12.0\" width=\"10.4\" height=\"22.0\" fill=\"#eb6834\"><title>studente: rangul 1</title></rect><rect x=\"79.4\" y=\"12.0\" width=\"10.4\" height=\"22.0\" fill=\"#eb6834\"><title>studente: rangul 2</title></rect><rect x=\"104.2\" y=\"12.0\" width=\"10.4\" height=\"22.0\" fill=\"#eb6834\"><title>studente: rangul 4</title></rect><rect x=\"116.6\" y=\"12.0\" width=\"10.4\" height=\"22.0\" fill=\"#eb6834\"><title>studente: rangul 5</title></rect><rect x=\"129.0\" y=\"12.0\" width=\"10.4\" height=\"22.0\" fill=\"#eb6834\"><title>studente: rangul 6</title></rect><rect x=\"141.4\" y=\"12.0\" width=\"10.4\" height=\"22.0\" fill=\"#eb6834\"><title>studente: rangul 7</title></rect><rect x=\"178.6\" y=\"12.0\" width=\"10.4\" height=\"22.0\" fill=\"#eb6834\"><title>studente: rangul 10</title></rect><rect x=\"228.2\" y=\"12.0\" width=\"10.4\" height=\"22.0\" fill=\"#eb6834\"><title>studente: rangul 14</title></rect><rect x=\"265.4\" y=\"12.0\" width=\"10.4\" height=\"22.0\" fill=\"#eb6834\"><title>studente: rangul 17</title></rect><rect x=\"290.2\" y=\"12.0\" width=\"10.4\" height=\"22.0\" fill=\"#eb6834\"><title>studente: rangul 19</title></rect><text x=\"61.0\" y=\"52.5\" text-anchor=\"end\" fill=\"#2c2a26\" font-size=\"10.2\">studenți</text><rect x=\"66.0\" y=\"38.0\" width=\"248.0\" height=\"22.0\" fill=\"#f3efe6\"></rect><rect x=\"91.8\" y=\"38.0\" width=\"10.4\" height=\"22.0\" fill=\"#2a78d6\"><title>studenți: rangul 3</title></rect><rect x=\"153.8\" y=\"38.0\" width=\"10.4\" height=\"22.0\" fill=\"#2a78d6\"><title>studenți: rangul 8</title></rect><rect x=\"166.2\" y=\"38.0\" width=\"10.4\" height=\"22.0\" fill=\"#2a78d6\"><title>studenți: rangul 9</title></rect><rect x=\"191.0\" y=\"38.0\" width=\"10.4\" height=\"22.0\" fill=\"#2a78d6\"><title>studenți: rangul 11</title></rect><rect x=\"203.4\" y=\"38.0\" width=\"10.4\" height=\"22.0\" fill=\"#2a78d6\"><title>studenți: rangul 12</title></rect><rect x=\"215.8\" y=\"38.0\" width=\"10.4\" height=\"22.0\" fill=\"#2a78d6\"><title>studenți: rangul 13</title></rect><rect x=\"240.6\" y=\"38.0\" width=\"10.4\" height=\"22.0\" fill=\"#2a78d6\"><title>studenți: rangul 15</title></rect><rect x=\"253.0\" y=\"38.0\" width=\"10.4\" height=\"22.0\" fill=\"#2a78d6\"><title>studenți: rangul 16</title></rect><rect x=\"277.8\" y=\"38.0\" width=\"10.4\" height=\"22.0\" fill=\"#2a78d6\"><title>studenți: rangul 18</title></rect><rect x=\"302.6\" y=\"38.0\" width=\"10.4\" height=\"22.0\" fill=\"#2a78d6\"><title>studenți: rangul 20</title></rect><text x=\"72.2\" y=\"74.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">1</text><text x=\"84.6\" y=\"74.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">2</text><text x=\"97.0\" y=\"74.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">3</text><text x=\"109.4\" y=\"74.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">4</text><text x=\"121.8\" y=\"74.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">5</text><text x=\"134.2\" y=\"74.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">6</text><text x=\"146.6\" y=\"74.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">7</text><text x=\"159.0\" y=\"74.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">8</text><text x=\"171.4\" y=\"74.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">9</text><text x=\"183.8\" y=\"74.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"9.6\">10</text><text x=\"196.2\" y=\"74.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"9.6\">11</text><text x=\"208.6\" y=\"74.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"9.6\">12</text><text x=\"221.0\" y=\"74.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"9.6\">13</text><text x=\"233.4\" y=\"74.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"9.6\">14</text><text x=\"245.8\" y=\"74.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"9.6\">15</text><text x=\"258.2\" y=\"74.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"9.6\">16</text><text x=\"270.6\" y=\"74.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"9.6\">17</text><text x=\"283.0\" y=\"74.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"9.6\">18</text><text x=\"295.4\" y=\"74.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"9.6\">19</text><text x=\"307.8\" y=\"74.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"9.6\">20</text><line x1=\"227.2\" y1=\"82.0\" x2=\"252.0\" y2=\"82.0\" stroke=\"#b5453a\" stroke-width=\"1\"/><line x1=\"227.2\" y1=\"78.0\" x2=\"227.2\" y2=\"86.0\" stroke=\"#b5453a\" stroke-width=\"1\"/><line x1=\"252.0\" y1=\"78.0\" x2=\"252.0\" y2=\"86.0\" stroke=\"#b5453a\" stroke-width=\"1\"/><text x=\"239.6\" y=\"96.0\" text-anchor=\"middle\" fill=\"#b5453a\" font-size=\"10.8\">30 și 30 → 14,5 fiecare</text><text x=\"10.0\" y=\"124.0\" text-anchor=\"start\" fill=\"#eb6834\" font-size=\"10.8\">ΣR1 = 85,5 → U1 = 100 + 55 − 85,5 = 69,5</text><text x=\"10.0\" y=\"142.0\" text-anchor=\"start\" fill=\"#2a78d6\" font-size=\"10.8\">ΣR2 = 124,5 → U2 = 100 + 55 − 124,5 = 30,5</text><text x=\"10.0\" y=\"162.0\" text-anchor=\"start\" fill=\"#2c2a26\" font-size=\"10.8\">U = min(U1, U2) = 30,5 > U critic 23 → H0 rămâne</text></svg>"
+          },
+          {
+            "titlu": "De ce se respinge H0 când U e mic",
+            "nota": "n1 = n2 = 10. Zona critică superioară (≥ 77) e adăugată aici, din simetrie: cartea dă doar U critic = 23 și compară min(U1, U2) cu el.",
+            "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 156\" role=\"img\" aria-label=\"Axa valorilor U pentru două eșantioane de câte 10, cu media 50, zonele critice și valorile U1 și U2\" font-family=\"Georgia, serif\" font-size=\"13\"><rect x=\"20.0\" y=\"40.0\" width=\"64.4\" height=\"40.0\" fill=\"#b5453a\" fill-opacity=\"0.22\"><title>zona critică inferioară</title></rect><rect x=\"235.6\" y=\"40.0\" width=\"64.4\" height=\"40.0\" fill=\"#b5453a\" fill-opacity=\"0.22\"><title>zona critică superioară</title></rect><line x1=\"20.0\" y1=\"80.0\" x2=\"300.0\" y2=\"80.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><line x1=\"20.0\" y1=\"80.0\" x2=\"20.0\" y2=\"84.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><text x=\"20.0\" y=\"95.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">0</text><line x1=\"48.0\" y1=\"80.0\" x2=\"48.0\" y2=\"84.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><text x=\"48.0\" y=\"95.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">10</text><line x1=\"76.0\" y1=\"80.0\" x2=\"76.0\" y2=\"84.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><text x=\"76.0\" y=\"95.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">20</text><line x1=\"104.0\" y1=\"80.0\" x2=\"104.0\" y2=\"84.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><text x=\"104.0\" y=\"95.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">30</text><line x1=\"132.0\" y1=\"80.0\" x2=\"132.0\" y2=\"84.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><text x=\"132.0\" y=\"95.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">40</text><line x1=\"160.0\" y1=\"80.0\" x2=\"160.0\" y2=\"84.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><text x=\"160.0\" y=\"95.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">50</text><line x1=\"188.0\" y1=\"80.0\" x2=\"188.0\" y2=\"84.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><text x=\"188.0\" y=\"95.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">60</text><line x1=\"216.0\" y1=\"80.0\" x2=\"216.0\" y2=\"84.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><text x=\"216.0\" y=\"95.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">70</text><line x1=\"244.0\" y1=\"80.0\" x2=\"244.0\" y2=\"84.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><text x=\"244.0\" y=\"95.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">80</text><line x1=\"272.0\" y1=\"80.0\" x2=\"272.0\" y2=\"84.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><text x=\"272.0\" y=\"95.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">90</text><line x1=\"300.0\" y1=\"80.0\" x2=\"300.0\" y2=\"84.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><text x=\"300.0\" y=\"95.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">100</text><line x1=\"160.0\" y1=\"34.0\" x2=\"160.0\" y2=\"80.0\" stroke=\"#6b6760\" stroke-width=\"1.2\" stroke-dasharray=\"4 3\"/><text x=\"160.0\" y=\"28.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">μU = n1n2/2 = 50</text><text x=\"52.2\" y=\"56.0\" text-anchor=\"middle\" fill=\"#b5453a\" font-size=\"10.2\">U ≤ 23</text><text x=\"267.8\" y=\"56.0\" text-anchor=\"middle\" fill=\"#b5453a\" font-size=\"10.2\">U ≥ 77</text><circle cx=\"105.4\" cy=\"80.0\" r=\"5.5\" fill=\"#2a78d6\" stroke=\"#faf8f3\" stroke-width=\"1.5\"><title>U2 = 30,5</title></circle><text x=\"105.4\" y=\"112.0\" text-anchor=\"middle\" fill=\"#2a78d6\" font-size=\"10.8\">U2 = 30,5</text><circle cx=\"214.6\" cy=\"80.0\" r=\"5.5\" fill=\"#eb6834\" stroke=\"#faf8f3\" stroke-width=\"1.5\"><title>U1 = 69,5</title></circle><text x=\"214.6\" y=\"112.0\" text-anchor=\"middle\" fill=\"#eb6834\" font-size=\"10.8\">U1 = 69,5</text><text x=\"160.0\" y=\"134.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.2\">U1 + U2 = n1 · n2 = 100: cele două valori sunt</text><text x=\"160.0\" y=\"148.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.2\">simetrice față de 50; min(U1, U2) se compară cu 23</text></svg>"
+          }
+        ]
+      },
+      {
+        "titlu": "Testul medianei",
+        "noduri": [
+          {
+            "t": "Mediana combinată",
+            "d": "Test pentru egalitatea a două mediane: ordinal, două eșantioane independente, distribuția χ². Se află mediana tuturor scorurilor luate împreună (20 de scoruri: (31 + 32)/2 = 31,5); rangurile ajută la găsirea ei."
+          },
+          {
+            "t": "Tabelul deasupra/sub mediană",
+            "d": "Pentru fiecare eșantion se numără scorurile deasupra și sub mediana combinată: A = 7, B = 3 (deasupra), C = 3, D = 7 (sub). H0: populațiile au aceeași mediană."
+          },
+          {
+            "t": "Calculul testului medianei",
+            "d": "χ² = n(AD − BC)²/[(A + B)(C + D)(A + C)(B + D)], gl = 1. Exemplul: 20 · (49 − 9)²/10 000 = 3,20 < 3,841 → salariatele și casnicele nu diferă semnificativ."
+          }
+        ],
+        "figuri": [
+          {
+            "titlu": "Testul medianei: salariate și casnice",
+            "nota": "Datele din carte; mediana se calculează pe toate cele 20 de scoruri luate împreună.",
+            "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 162\" role=\"img\" aria-label=\"Scorurile femeilor salariate și ale casnicelor față de mediana combinată 31,5\" font-family=\"Georgia, serif\" font-size=\"13\"><text x=\"64.0\" y=\"44.0\" text-anchor=\"end\" fill=\"#2c2a26\" font-size=\"10.2\">salariate</text><line x1=\"70.0\" y1=\"40.0\" x2=\"310.0\" y2=\"40.0\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><circle cx=\"105.3\" cy=\"40.0\" r=\"3.6\" fill=\"#eb6834\" stroke=\"#faf8f3\" stroke-width=\"1.5\"><title>salariate: 19</title></circle><circle cx=\"126.5\" cy=\"40.0\" r=\"3.6\" fill=\"#eb6834\" stroke=\"#faf8f3\" stroke-width=\"1.5\"><title>salariate: 22</title></circle><circle cx=\"168.8\" cy=\"40.0\" r=\"3.6\" fill=\"#eb6834\" stroke=\"#faf8f3\" stroke-width=\"1.5\"><title>salariate: 28</title></circle><circle cx=\"197.1\" cy=\"40.0\" r=\"3.6\" fill=\"#eb6834\" stroke=\"#faf8f3\" stroke-width=\"1.5\"><title>salariate: 32</title></circle><circle cx=\"211.2\" cy=\"40.0\" r=\"3.6\" fill=\"#eb6834\" stroke=\"#faf8f3\" stroke-width=\"1.5\"><title>salariate: 34</title></circle><circle cx=\"232.4\" cy=\"40.0\" r=\"3.6\" fill=\"#eb6834\" stroke=\"#faf8f3\" stroke-width=\"1.5\"><title>salariate: 37</title></circle><circle cx=\"253.5\" cy=\"40.0\" r=\"3.6\" fill=\"#eb6834\" stroke=\"#faf8f3\" stroke-width=\"1.5\"><title>salariate: 40</title></circle><circle cx=\"267.6\" cy=\"40.0\" r=\"3.6\" fill=\"#eb6834\" stroke=\"#faf8f3\" stroke-width=\"1.5\"><title>salariate: 42</title></circle><circle cx=\"274.7\" cy=\"40.0\" r=\"3.6\" fill=\"#eb6834\" stroke=\"#faf8f3\" stroke-width=\"1.5\"><title>salariate: 43</title></circle><circle cx=\"295.9\" cy=\"40.0\" r=\"3.6\" fill=\"#eb6834\" stroke=\"#faf8f3\" stroke-width=\"1.5\"><title>salariate: 46</title></circle><text x=\"133.5\" y=\"31.0\" text-anchor=\"middle\" fill=\"#eb6834\" font-size=\"10.2\">3 sub</text><text x=\"253.5\" y=\"31.0\" text-anchor=\"middle\" fill=\"#eb6834\" font-size=\"10.2\">7 deasupra</text><text x=\"64.0\" y=\"78.0\" text-anchor=\"end\" fill=\"#2c2a26\" font-size=\"10.2\">casnice</text><line x1=\"70.0\" y1=\"74.0\" x2=\"310.0\" y2=\"74.0\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><circle cx=\"84.1\" cy=\"74.0\" r=\"3.6\" fill=\"#2a78d6\" stroke=\"#faf8f3\" stroke-width=\"1.5\"><title>casnice: 16</title></circle><circle cx=\"98.2\" cy=\"74.0\" r=\"3.6\" fill=\"#2a78d6\" stroke=\"#faf8f3\" stroke-width=\"1.5\"><title>casnice: 18</title></circle><circle cx=\"119.4\" cy=\"74.0\" r=\"3.6\" fill=\"#2a78d6\" stroke=\"#faf8f3\" stroke-width=\"1.5\"><title>casnice: 21</title></circle><circle cx=\"154.7\" cy=\"74.0\" r=\"3.6\" fill=\"#2a78d6\" stroke=\"#faf8f3\" stroke-width=\"1.5\"><title>casnice: 26</title></circle><circle cx=\"161.8\" cy=\"74.0\" r=\"3.6\" fill=\"#2a78d6\" stroke=\"#faf8f3\" stroke-width=\"1.5\"><title>casnice: 27</title></circle><circle cx=\"175.9\" cy=\"74.0\" r=\"3.6\" fill=\"#2a78d6\" stroke=\"#faf8f3\" stroke-width=\"1.5\"><title>casnice: 29</title></circle><circle cx=\"190.0\" cy=\"74.0\" r=\"3.6\" fill=\"#2a78d6\" stroke=\"#faf8f3\" stroke-width=\"1.5\"><title>casnice: 31</title></circle><circle cx=\"204.1\" cy=\"74.0\" r=\"3.6\" fill=\"#2a78d6\" stroke=\"#faf8f3\" stroke-width=\"1.5\"><title>casnice: 33</title></circle><circle cx=\"239.4\" cy=\"74.0\" r=\"3.6\" fill=\"#2a78d6\" stroke=\"#faf8f3\" stroke-width=\"1.5\"><title>casnice: 38</title></circle><circle cx=\"246.5\" cy=\"74.0\" r=\"3.6\" fill=\"#2a78d6\" stroke=\"#faf8f3\" stroke-width=\"1.5\"><title>casnice: 39</title></circle><text x=\"133.5\" y=\"65.0\" text-anchor=\"middle\" fill=\"#2a78d6\" font-size=\"10.2\">7 sub</text><text x=\"253.5\" y=\"65.0\" text-anchor=\"middle\" fill=\"#2a78d6\" font-size=\"10.2\">3 deasupra</text><line x1=\"193.5\" y1=\"16.0\" x2=\"193.5\" y2=\"96.0\" stroke=\"#b5453a\" stroke-width=\"1.6\" stroke-dasharray=\"5 3\"/><text x=\"193.5\" y=\"12.0\" text-anchor=\"middle\" fill=\"#b5453a\" font-size=\"10.2\">mediana combinată 31,5</text><line x1=\"77.1\" y1=\"98.0\" x2=\"288.8\" y2=\"98.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><line x1=\"77.1\" y1=\"98.0\" x2=\"77.1\" y2=\"102.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><text x=\"77.1\" y=\"113.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">15</text><line x1=\"112.4\" y1=\"98.0\" x2=\"112.4\" y2=\"102.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><text x=\"112.4\" y=\"113.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">20</text><line x1=\"147.6\" y1=\"98.0\" x2=\"147.6\" y2=\"102.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><text x=\"147.6\" y=\"113.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">25</text><line x1=\"182.9\" y1=\"98.0\" x2=\"182.9\" y2=\"102.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><text x=\"182.9\" y=\"113.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">30</text><line x1=\"218.2\" y1=\"98.0\" x2=\"218.2\" y2=\"102.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><text x=\"218.2\" y=\"113.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">35</text><line x1=\"253.5\" y1=\"98.0\" x2=\"253.5\" y2=\"102.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><text x=\"253.5\" y=\"113.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">40</text><line x1=\"288.8\" y1=\"98.0\" x2=\"288.8\" y2=\"102.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><text x=\"288.8\" y=\"113.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">45</text><text x=\"160.0\" y=\"138.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.2\">Tabelul 2 × 2: A = 7, B = 3 (deasupra), C = 3, D = 7 (sub)</text><text x=\"160.0\" y=\"154.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.2\">χ² = 20(7·7 − 3·3)² / (10·10·10·10) = 3,20 &lt; 3,841</text></svg>"
+          }
+        ]
+      },
+      {
+        "titlu": "Testul iterațiilor",
+        "noduri": [
+          {
+            "t": "Iterația",
+            "d": "Orice succesiune de elemente de același fel (cel puțin unul). Scorurile combinate se ordonează și se notează grupul fiecăruia (F/B); două iterații vecine sunt mereu de tipuri diferite. În exemplul campusului: 12 iterații."
+          },
+          {
+            "t": "Puține iterații, diferență mare",
+            "d": "Sub H0 scorurile sunt amestecate, deci multe iterații; cu cât sunt mai puține, cu atât diferența e mai semnificativă. Minimul e 2 (grupuri complet separate), maximul e numărul total de cazuri."
+          },
+          {
+            "t": "Scoruri identice între eșantioane",
+            "d": "Scorurile egale din eșantioane diferite pot fi așezate în mai multe feluri și schimbă numărul de iterații; când sunt multe, se recomandă alt test. Egalitățile din același eșantion nu contează."
+          },
+          {
+            "t": "Z pentru iterații",
+            "d": "μR = 2n1n2/(n1 + n2) + 1; σR = √{2n1n2(2n1n2 − n1 − n2)/[(n1 + n2)²(n1 + n2 − 1)]}; Z = (R − μR)/σR. Exemplul: 20 de bărbați, 20 de femei, R = 15, μR = 21, σR = 3,12, Z = −1,92 → nesemnificativ (prag ±1,96)."
+          }
+        ],
+        "figuri": [
+          {
+            "titlu": "Iterațiile pentru 20 de bărbați și 20 de femei",
+            "nota": "Șirul refăcut din scorurile din carte (40 de litere; în șirul tipărit în carte lipsește un B, dar numărul de iterații, 15, e corect).",
+            "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 166\" role=\"img\" aria-label=\"Șirul celor 40 de scoruri ordonate, cu cele 15 iterații numerotate, și cazul extrem cu 2 iterații\" font-family=\"Georgia, serif\" font-size=\"13\"><text x=\"12.0\" y=\"12.0\" text-anchor=\"start\" fill=\"#2c2a26\" font-size=\"10.2\">Atitudinea față de politică: 20 de bărbați (B), 20 de femei (F)</text><rect x=\"12.0\" y=\"20.0\" width=\"6.4\" height=\"22.0\" fill=\"#eb6834\"><title>femeie</title></rect><rect x=\"19.4\" y=\"20.0\" width=\"6.4\" height=\"22.0\" fill=\"#eb6834\"><title>femeie</title></rect><rect x=\"26.8\" y=\"20.0\" width=\"6.4\" height=\"22.0\" fill=\"#2a78d6\"><title>bărbat</title></rect><rect x=\"34.2\" y=\"20.0\" width=\"6.4\" height=\"22.0\" fill=\"#2a78d6\"><title>bărbat</title></rect><rect x=\"41.6\" y=\"20.0\" width=\"6.4\" height=\"22.0\" fill=\"#2a78d6\"><title>bărbat</title></rect><rect x=\"49.0\" y=\"20.0\" width=\"6.4\" height=\"22.0\" fill=\"#2a78d6\"><title>bărbat</title></rect><rect x=\"56.4\" y=\"20.0\" width=\"6.4\" height=\"22.0\" fill=\"#2a78d6\"><title>bărbat</title></rect><rect x=\"63.8\" y=\"20.0\" width=\"6.4\" height=\"22.0\" fill=\"#eb6834\"><title>femeie</title></rect><rect x=\"71.2\" y=\"20.0\" width=\"6.4\" height=\"22.0\" fill=\"#eb6834\"><title>femeie</title></rect><rect x=\"78.6\" y=\"20.0\" width=\"6.4\" height=\"22.0\" fill=\"#2a78d6\"><title>bărbat</title></rect><rect x=\"86.0\" y=\"20.0\" width=\"6.4\" height=\"22.0\" fill=\"#2a78d6\"><title>bărbat</title></rect><rect x=\"93.4\" y=\"20.0\" width=\"6.4\" height=\"22.0\" fill=\"#eb6834\"><title>femeie</title></rect><rect x=\"100.8\" y=\"20.0\" width=\"6.4\" height=\"22.0\" fill=\"#eb6834\"><title>femeie</title></rect><rect x=\"108.2\" y=\"20.0\" width=\"6.4\" height=\"22.0\" fill=\"#2a78d6\"><title>bărbat</title></rect><rect x=\"115.6\" y=\"20.0\" width=\"6.4\" height=\"22.0\" fill=\"#eb6834\"><title>femeie</title></rect><rect x=\"123.0\" y=\"20.0\" width=\"6.4\" height=\"22.0\" fill=\"#2a78d6\"><title>bărbat</title></rect><rect x=\"130.4\" y=\"20.0\" width=\"6.4\" height=\"22.0\" fill=\"#2a78d6\"><title>bărbat</title></rect><rect x=\"137.8\" y=\"20.0\" width=\"6.4\" height=\"22.0\" fill=\"#2a78d6\"><title>bărbat</title></rect><rect x=\"145.2\" y=\"20.0\" width=\"6.4\" height=\"22.0\" fill=\"#eb6834\"><title>femeie</title></rect><rect x=\"152.6\" y=\"20.0\" width=\"6.4\" height=\"22.0\" fill=\"#eb6834\"><title>femeie</title></rect><rect x=\"160.0\" y=\"20.0\" width=\"6.4\" height=\"22.0\" fill=\"#eb6834\"><title>femeie</title></rect><rect x=\"167.4\" y=\"20.0\" width=\"6.4\" height=\"22.0\" fill=\"#eb6834\"><title>femeie</title></rect><rect x=\"174.8\" y=\"20.0\" width=\"6.4\" height=\"22.0\" fill=\"#2a78d6\"><title>bărbat</title></rect><rect x=\"182.2\" y=\"20.0\" width=\"6.4\" height=\"22.0\" fill=\"#eb6834\"><title>femeie</title></rect><rect x=\"189.6\" y=\"20.0\" width=\"6.4\" height=\"22.0\" fill=\"#eb6834\"><title>femeie</title></rect><rect x=\"197.0\" y=\"20.0\" width=\"6.4\" height=\"22.0\" fill=\"#2a78d6\"><title>bărbat</title></rect><rect x=\"204.4\" y=\"20.0\" width=\"6.4\" height=\"22.0\" fill=\"#2a78d6\"><title>bărbat</title></rect><rect x=\"211.8\" y=\"20.0\" width=\"6.4\" height=\"22.0\" fill=\"#2a78d6\"><title>bărbat</title></rect><rect x=\"219.2\" y=\"20.0\" width=\"6.4\" height=\"22.0\" fill=\"#2a78d6\"><title>bărbat</title></rect><rect x=\"226.6\" y=\"20.0\" width=\"6.4\" height=\"22.0\" fill=\"#2a78d6\"><title>bărbat</title></rect><rect x=\"234.0\" y=\"20.0\" width=\"6.4\" height=\"22.0\" fill=\"#eb6834\"><title>femeie</title></rect><rect x=\"241.4\" y=\"20.0\" width=\"6.4\" height=\"22.0\" fill=\"#eb6834\"><title>femeie</title></rect><rect x=\"248.8\" y=\"20.0\" width=\"6.4\" height=\"22.0\" fill=\"#eb6834\"><title>femeie</title></rect><rect x=\"256.2\" y=\"20.0\" width=\"6.4\" height=\"22.0\" fill=\"#2a78d6\"><title>bărbat</title></rect><rect x=\"263.6\" y=\"20.0\" width=\"6.4\" height=\"22.0\" fill=\"#2a78d6\"><title>bărbat</title></rect><rect x=\"271.0\" y=\"20.0\" width=\"6.4\" height=\"22.0\" fill=\"#2a78d6\"><title>bărbat</title></rect><rect x=\"278.4\" y=\"20.0\" width=\"6.4\" height=\"22.0\" fill=\"#eb6834\"><title>femeie</title></rect><rect x=\"285.8\" y=\"20.0\" width=\"6.4\" height=\"22.0\" fill=\"#eb6834\"><title>femeie</title></rect><rect x=\"293.2\" y=\"20.0\" width=\"6.4\" height=\"22.0\" fill=\"#eb6834\"><title>femeie</title></rect><rect x=\"300.6\" y=\"20.0\" width=\"6.4\" height=\"22.0\" fill=\"#eb6834\"><title>femeie</title></rect><text x=\"19.4\" y=\"56.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.2\">1</text><text x=\"45.3\" y=\"65.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.2\">2</text><text x=\"71.2\" y=\"56.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.2\">3</text><text x=\"86.0\" y=\"65.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.2\">4</text><text x=\"100.8\" y=\"56.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.2\">5</text><text x=\"111.9\" y=\"65.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.2\">6</text><text x=\"119.3\" y=\"56.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.2\">7</text><text x=\"134.1\" y=\"65.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.2\">8</text><text x=\"160.0\" y=\"56.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.2\">9</text><text x=\"178.5\" y=\"65.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.2\">10</text><text x=\"189.6\" y=\"56.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.2\">11</text><text x=\"215.5\" y=\"65.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.2\">12</text><text x=\"245.1\" y=\"56.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.2\">13</text><text x=\"267.3\" y=\"65.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.2\">14</text><text x=\"293.2\" y=\"56.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.2\">15</text><text x=\"12.0\" y=\"84.0\" text-anchor=\"start\" fill=\"#2c2a26\" font-size=\"10.2\">R = 15 iterații; μR = 2·20·20/40 + 1 = 21; σR ≈ 3,12</text><text x=\"12.0\" y=\"98.0\" text-anchor=\"start\" fill=\"#2c2a26\" font-size=\"10.2\">Z = (15 − 21)/3,12 ≈ −1,92 → nu trece de −1,96</text><text x=\"12.0\" y=\"120.0\" text-anchor=\"start\" fill=\"#6b6760\" font-size=\"10.2\">Cazul extrem: populații complet separate → 2 iterații</text><rect x=\"12.0\" y=\"128.0\" width=\"6.4\" height=\"16.0\" fill=\"#2a78d6\"></rect><rect x=\"19.4\" y=\"128.0\" width=\"6.4\" height=\"16.0\" fill=\"#2a78d6\"></rect><rect x=\"26.8\" y=\"128.0\" width=\"6.4\" height=\"16.0\" fill=\"#2a78d6\"></rect><rect x=\"34.2\" y=\"128.0\" width=\"6.4\" height=\"16.0\" fill=\"#2a78d6\"></rect><rect x=\"41.6\" y=\"128.0\" width=\"6.4\" height=\"16.0\" fill=\"#2a78d6\"></rect><rect x=\"49.0\" y=\"128.0\" width=\"6.4\" height=\"16.0\" fill=\"#2a78d6\"></rect><rect x=\"56.4\" y=\"128.0\" width=\"6.4\" height=\"16.0\" fill=\"#2a78d6\"></rect><rect x=\"63.8\" y=\"128.0\" width=\"6.4\" height=\"16.0\" fill=\"#2a78d6\"></rect><rect x=\"71.2\" y=\"128.0\" width=\"6.4\" height=\"16.0\" fill=\"#2a78d6\"></rect><rect x=\"78.6\" y=\"128.0\" width=\"6.4\" height=\"16.0\" fill=\"#2a78d6\"></rect><rect x=\"86.0\" y=\"128.0\" width=\"6.4\" height=\"16.0\" fill=\"#2a78d6\"></rect><rect x=\"93.4\" y=\"128.0\" width=\"6.4\" height=\"16.0\" fill=\"#2a78d6\"></rect><rect x=\"100.8\" y=\"128.0\" width=\"6.4\" height=\"16.0\" fill=\"#2a78d6\"></rect><rect x=\"108.2\" y=\"128.0\" width=\"6.4\" height=\"16.0\" fill=\"#2a78d6\"></rect><rect x=\"115.6\" y=\"128.0\" width=\"6.4\" height=\"16.0\" fill=\"#2a78d6\"></rect><rect x=\"123.0\" y=\"128.0\" width=\"6.4\" height=\"16.0\" fill=\"#2a78d6\"></rect><rect x=\"130.4\" y=\"128.0\" width=\"6.4\" height=\"16.0\" fill=\"#2a78d6\"></rect><rect x=\"137.8\" y=\"128.0\" width=\"6.4\" height=\"16.0\" fill=\"#2a78d6\"></rect><rect x=\"145.2\" y=\"128.0\" width=\"6.4\" height=\"16.0\" fill=\"#2a78d6\"></rect><rect x=\"152.6\" y=\"128.0\" width=\"6.4\" height=\"16.0\" fill=\"#2a78d6\"></rect><rect x=\"160.0\" y=\"128.0\" width=\"6.4\" height=\"16.0\" fill=\"#eb6834\"></rect><rect x=\"167.4\" y=\"128.0\" width=\"6.4\" height=\"16.0\" fill=\"#eb6834\"></rect><rect x=\"174.8\" y=\"128.0\" width=\"6.4\" height=\"16.0\" fill=\"#eb6834\"></rect><rect x=\"182.2\" y=\"128.0\" width=\"6.4\" height=\"16.0\" fill=\"#eb6834\"></rect><rect x=\"189.6\" y=\"128.0\" width=\"6.4\" height=\"16.0\" fill=\"#eb6834\"></rect><rect x=\"197.0\" y=\"128.0\" width=\"6.4\" height=\"16.0\" fill=\"#eb6834\"></rect><rect x=\"204.4\" y=\"128.0\" width=\"6.4\" height=\"16.0\" fill=\"#eb6834\"></rect><rect x=\"211.8\" y=\"128.0\" width=\"6.4\" height=\"16.0\" fill=\"#eb6834\"></rect><rect x=\"219.2\" y=\"128.0\" width=\"6.4\" height=\"16.0\" fill=\"#eb6834\"></rect><rect x=\"226.6\" y=\"128.0\" width=\"6.4\" height=\"16.0\" fill=\"#eb6834\"></rect><rect x=\"234.0\" y=\"128.0\" width=\"6.4\" height=\"16.0\" fill=\"#eb6834\"></rect><rect x=\"241.4\" y=\"128.0\" width=\"6.4\" height=\"16.0\" fill=\"#eb6834\"></rect><rect x=\"248.8\" y=\"128.0\" width=\"6.4\" height=\"16.0\" fill=\"#eb6834\"></rect><rect x=\"256.2\" y=\"128.0\" width=\"6.4\" height=\"16.0\" fill=\"#eb6834\"></rect><rect x=\"263.6\" y=\"128.0\" width=\"6.4\" height=\"16.0\" fill=\"#eb6834\"></rect><rect x=\"271.0\" y=\"128.0\" width=\"6.4\" height=\"16.0\" fill=\"#eb6834\"></rect><rect x=\"278.4\" y=\"128.0\" width=\"6.4\" height=\"16.0\" fill=\"#eb6834\"></rect><rect x=\"285.8\" y=\"128.0\" width=\"6.4\" height=\"16.0\" fill=\"#eb6834\"></rect><rect x=\"293.2\" y=\"128.0\" width=\"6.4\" height=\"16.0\" fill=\"#eb6834\"></rect><rect x=\"300.6\" y=\"128.0\" width=\"6.4\" height=\"16.0\" fill=\"#eb6834\"></rect><text x=\"86.0\" y=\"158.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.2\">1</text><text x=\"234.0\" y=\"158.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.2\">2</text><rect x=\"150.0\" y=\"150.0\" width=\"10.0\" height=\"10.0\" fill=\"#2a78d6\"></rect><text x=\"164.0\" y=\"159.0\" text-anchor=\"start\" fill=\"#2c2a26\" font-size=\"10.8\">B</text><rect x=\"184.2\" y=\"150.0\" width=\"10.0\" height=\"10.0\" fill=\"#eb6834\"></rect><text x=\"198.2\" y=\"159.0\" text-anchor=\"start\" fill=\"#2c2a26\" font-size=\"10.8\">F</text></svg>"
+          }
+        ]
+      },
+      {
+        "titlu": "Testul Wilcoxon T",
+        "noduri": [
+          {
+            "t": "Eșantioane dependente ordinale",
+            "d": "Diferența dintre două eșantioane dependente, date ordinale: aceiași subiecți înainte și după un tratament sau perechi în care selecția unui caz o determină pe a celuilalt. Exemplul: agresivitatea a 12 adolescenți cu dificultăți de învățare, înainte și după consiliere."
+          },
+          {
+            "t": "Scorul diferență și rangurile lui",
+            "d": "Pentru fiecare caz: diferența pre − post. Rangurile se dau valorilor absolute ale diferențelor, de la cea mai mică, apoi fiecare rang primește semnul diferenței sale."
+          },
+          {
+            "t": "T obținut",
+            "d": "Suma valorilor absolute ale rangurilor cu semnul care apare mai rar. Exemplul: două diferențe negative, cu rangurile 1 și 3 → T = 4."
+          },
+          {
+            "t": "Decizia la Wilcoxon",
+            "d": "Ca la U, valorile mici sunt critice: H0 se respinge dacă T ≤ T critic (tabelul lui Wilcoxon, Anexa G, lipsă din PDF). Exemplul: n = 12, α = 0,01 unilateral, T critic = 10; 4 ≤ 10 → consilierea reduce agresivitatea."
+          },
+          {
+            "t": "Wilcoxon pentru eșantioane mari",
+            "d": "Peste 25 de perechi: μT = n(n + 1)/4, σT = √[n(n + 1)(2n + 1)/24], Z = (T − μT)/σT; n = numărul de perechi."
+          }
+        ],
+        "figuri": [
+          {
+            "titlu": "Wilcoxon: diferențele celor 12 adolescenți",
+            "nota": "Datele din carte. Bara arată diferența pre − post; rangul se dă după mărimea ei, fără semn, apoi semnul se păstrează.",
+            "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 188\" role=\"img\" aria-label=\"Scorurile diferență ale celor 12 adolescenți, ordonate după rangul valorii absolute, cu cele două diferențe negative\" font-family=\"Georgia, serif\" font-size=\"13\"><line x1=\"40.0\" y1=\"146.0\" x2=\"312.0\" y2=\"146.0\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><text x=\"36.0\" y=\"149.5\" text-anchor=\"end\" fill=\"#6b6760\" font-size=\"10.2\">-5</text><line x1=\"40.0\" y1=\"126.0\" x2=\"312.0\" y2=\"126.0\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><text x=\"36.0\" y=\"129.5\" text-anchor=\"end\" fill=\"#6b6760\" font-size=\"10.2\">0</text><line x1=\"40.0\" y1=\"106.0\" x2=\"312.0\" y2=\"106.0\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><text x=\"36.0\" y=\"109.5\" text-anchor=\"end\" fill=\"#6b6760\" font-size=\"10.2\">5</text><line x1=\"40.0\" y1=\"86.0\" x2=\"312.0\" y2=\"86.0\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><text x=\"36.0\" y=\"89.5\" text-anchor=\"end\" fill=\"#6b6760\" font-size=\"10.2\">10</text><line x1=\"40.0\" y1=\"66.0\" x2=\"312.0\" y2=\"66.0\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><text x=\"36.0\" y=\"69.5\" text-anchor=\"end\" fill=\"#6b6760\" font-size=\"10.2\">15</text><line x1=\"40.0\" y1=\"46.0\" x2=\"312.0\" y2=\"46.0\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><text x=\"36.0\" y=\"49.5\" text-anchor=\"end\" fill=\"#6b6760\" font-size=\"10.2\">20</text><line x1=\"40.0\" y1=\"26.0\" x2=\"312.0\" y2=\"26.0\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><text x=\"36.0\" y=\"29.5\" text-anchor=\"end\" fill=\"#6b6760\" font-size=\"10.2\">25</text><rect x=\"43.0\" y=\"126.0\" width=\"16.7\" height=\"4.0\" fill=\"#eb6834\"><title>diferența -1, rangul 1</title></rect><text x=\"51.3\" y=\"166.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">1</text><rect x=\"65.7\" y=\"118.0\" width=\"16.7\" height=\"8.0\" fill=\"#2a78d6\"><title>diferența 2, rangul 2</title></rect><text x=\"74.0\" y=\"166.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">2</text><rect x=\"88.3\" y=\"126.0\" width=\"16.7\" height=\"12.0\" fill=\"#eb6834\"><title>diferența -3, rangul 3</title></rect><text x=\"96.7\" y=\"166.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">3</text><rect x=\"111.0\" y=\"110.0\" width=\"16.7\" height=\"16.0\" fill=\"#2a78d6\"><title>diferența 4, rangul 4</title></rect><text x=\"119.3\" y=\"166.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">4</text><rect x=\"133.7\" y=\"102.0\" width=\"16.7\" height=\"24.0\" fill=\"#2a78d6\"><title>diferența 6, rangul 5</title></rect><text x=\"142.0\" y=\"166.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">5</text><rect x=\"156.3\" y=\"98.0\" width=\"16.7\" height=\"28.0\" fill=\"#2a78d6\"><title>diferența 7, rangul 6</title></rect><text x=\"164.7\" y=\"166.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">6</text><rect x=\"179.0\" y=\"94.0\" width=\"16.7\" height=\"32.0\" fill=\"#2a78d6\"><title>diferența 8, rangul 7</title></rect><text x=\"187.3\" y=\"166.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">7</text><rect x=\"201.7\" y=\"90.0\" width=\"16.7\" height=\"36.0\" fill=\"#2a78d6\"><title>diferența 9, rangul 8</title></rect><text x=\"210.0\" y=\"166.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">8</text><rect x=\"224.3\" y=\"82.0\" width=\"16.7\" height=\"44.0\" fill=\"#2a78d6\"><title>diferența 11, rangul 9</title></rect><text x=\"232.7\" y=\"166.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">9</text><rect x=\"247.0\" y=\"78.0\" width=\"16.7\" height=\"48.0\" fill=\"#2a78d6\"><title>diferența 12, rangul 10</title></rect><text x=\"255.3\" y=\"166.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">10</text><rect x=\"269.7\" y=\"66.0\" width=\"16.7\" height=\"60.0\" fill=\"#2a78d6\"><title>diferența 15, rangul 11</title></rect><text x=\"278.0\" y=\"166.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">11</text><rect x=\"292.3\" y=\"30.0\" width=\"16.7\" height=\"96.0\" fill=\"#2a78d6\"><title>diferența 24, rangul 12</title></rect><text x=\"300.7\" y=\"166.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">12</text><line x1=\"40.0\" y1=\"126.0\" x2=\"312.0\" y2=\"126.0\" stroke=\"#2c2a26\" stroke-width=\"1\"/><text x=\"51.3\" y=\"142.0\" text-anchor=\"middle\" fill=\"#eb6834\" font-size=\"10.2\">−1</text><text x=\"96.7\" y=\"150.0\" text-anchor=\"middle\" fill=\"#eb6834\" font-size=\"10.2\">−3</text><text x=\"176.0\" y=\"180.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">rangul lui |pre − post|</text><text x=\"10.0\" y=\"86.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\" transform=\"rotate(-90 10 86)\">pre − post</text><text x=\"60.0\" y=\"14.0\" text-anchor=\"start\" fill=\"#eb6834\" font-size=\"10.8\">Semnul mai rar (−): rangurile 1 și 3 → T = 4 ≤ 10</text></svg>"
+          }
+        ]
+      },
+      {
+        "titlu": "Testul Kruskal–Wallis H",
+        "noduri": [
+          {
+            "t": "Analogul ANOVA",
+            "d": "Analogul nonparametric al ANOVA pentru o variabilă independentă din Cap. 10 (Analiza de varianță (ANOVA)), pentru date ordinale și k eșantioane independente. H0: populațiile sunt identice sub aspectul variabilei; Ha: cel puțin două diferă."
+          },
+          {
+            "t": "Condiția nj ≥ 5",
+            "d": "Fiecare eșantion trebuie să aibă cel puțin 5 cazuri; grupurile pot fi inegale (6, 5, 6 în exemplu)."
+          },
+          {
+            "t": "Calculul lui H",
+            "d": "Rangurile se dau pe toate scorurile combinate (egalitățile ca la Mann–Whitney). H = 12/[N(N + 1)] · Σ(ΣRj²/nj) − 3(N + 1). Exemplul cadrelor didactice: ΣR = 29, 46, 78 → H = 7,86."
+          },
+          {
+            "t": "Decizia la Kruskal–Wallis",
+            "d": "H urmează χ² cu k − 1 gl; H0 se respinge dacă H depășește pragul (gl = 2: 5,991). 7,86 > 5,991 → nivelurile diferă. Interpretare: ca la F din ANOVA, un H semnificativ arată că cel puțin două populații diferă, nu care anume; cartea trage concluzii pe perechi doar din ordinea sumelor rangurilor."
+          }
+        ],
+        "figuri": [
+          {
+            "titlu": "Kruskal–Wallis: 17 cadre didactice pe trei niveluri",
+            "nota": "Datele din carte. Rangurile se dau pe toate cele 17 scoruri luate împreună; rangul mediu (ΣR/n) e calculat aici.",
+            "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 152\" role=\"img\" aria-label=\"Rangurile combinate ale celor 17 cadre didactice din primar, gimnaziu și liceu și sumele rangurilor\" font-family=\"Georgia, serif\" font-size=\"13\"><text x=\"65.0\" y=\"25.5\" text-anchor=\"end\" fill=\"#2c2a26\" font-size=\"10.2\">primar</text><rect x=\"70.0\" y=\"12.0\" width=\"192.0\" height=\"20.0\" fill=\"#f3efe6\"></rect><rect x=\"71.0\" y=\"12.0\" width=\"9.3\" height=\"20.0\" fill=\"#2a78d6\"><title>primar: rangul 1</title></rect><rect x=\"82.3\" y=\"12.0\" width=\"9.3\" height=\"20.0\" fill=\"#2a78d6\"><title>primar: rangul 2</title></rect><rect x=\"104.9\" y=\"12.0\" width=\"9.3\" height=\"20.0\" fill=\"#2a78d6\"><title>primar: rangul 4</title></rect><rect x=\"127.5\" y=\"12.0\" width=\"9.3\" height=\"20.0\" fill=\"#2a78d6\"><title>primar: rangul 6</title></rect><rect x=\"138.8\" y=\"12.0\" width=\"9.3\" height=\"20.0\" fill=\"#2a78d6\"><title>primar: rangul 7</title></rect><rect x=\"161.4\" y=\"12.0\" width=\"9.3\" height=\"20.0\" fill=\"#2a78d6\"><title>primar: rangul 9</title></rect><text x=\"65.0\" y=\"49.5\" text-anchor=\"end\" fill=\"#2c2a26\" font-size=\"10.2\">gimnazial</text><rect x=\"70.0\" y=\"36.0\" width=\"192.0\" height=\"20.0\" fill=\"#f3efe6\"></rect><rect x=\"93.6\" y=\"36.0\" width=\"9.3\" height=\"20.0\" fill=\"#eb6834\"><title>gimnazial: rangul 3</title></rect><rect x=\"116.2\" y=\"36.0\" width=\"9.3\" height=\"20.0\" fill=\"#eb6834\"><title>gimnazial: rangul 5</title></rect><rect x=\"183.9\" y=\"36.0\" width=\"9.3\" height=\"20.0\" fill=\"#eb6834\"><title>gimnazial: rangul 11</title></rect><rect x=\"206.5\" y=\"36.0\" width=\"9.3\" height=\"20.0\" fill=\"#eb6834\"><title>gimnazial: rangul 13</title></rect><rect x=\"217.8\" y=\"36.0\" width=\"9.3\" height=\"20.0\" fill=\"#eb6834\"><title>gimnazial: rangul 14</title></rect><text x=\"65.0\" y=\"73.5\" text-anchor=\"end\" fill=\"#2c2a26\" font-size=\"10.2\">liceal</text><rect x=\"70.0\" y=\"60.0\" width=\"192.0\" height=\"20.0\" fill=\"#f3efe6\"></rect><rect x=\"150.1\" y=\"60.0\" width=\"9.3\" height=\"20.0\" fill=\"#1baf7a\"><title>liceal: rangul 8</title></rect><rect x=\"172.6\" y=\"60.0\" width=\"9.3\" height=\"20.0\" fill=\"#1baf7a\"><title>liceal: rangul 10</title></rect><rect x=\"195.2\" y=\"60.0\" width=\"9.3\" height=\"20.0\" fill=\"#1baf7a\"><title>liceal: rangul 12</title></rect><rect x=\"229.1\" y=\"60.0\" width=\"9.3\" height=\"20.0\" fill=\"#1baf7a\"><title>liceal: rangul 15</title></rect><rect x=\"240.4\" y=\"60.0\" width=\"9.3\" height=\"20.0\" fill=\"#1baf7a\"><title>liceal: rangul 16</title></rect><rect x=\"251.7\" y=\"60.0\" width=\"9.3\" height=\"20.0\" fill=\"#1baf7a\"><title>liceal: rangul 17</title></rect><text x=\"75.6\" y=\"94.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">1</text><text x=\"86.9\" y=\"94.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">2</text><text x=\"98.2\" y=\"94.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">3</text><text x=\"109.5\" y=\"94.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">4</text><text x=\"120.8\" y=\"94.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">5</text><text x=\"132.1\" y=\"94.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">6</text><text x=\"143.4\" y=\"94.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">7</text><text x=\"154.7\" y=\"94.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">8</text><text x=\"166.0\" y=\"94.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">9</text><text x=\"177.3\" y=\"94.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"9.6\">10</text><text x=\"188.6\" y=\"94.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"9.6\">11</text><text x=\"199.9\" y=\"94.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"9.6\">12</text><text x=\"211.2\" y=\"94.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"9.6\">13</text><text x=\"222.5\" y=\"94.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"9.6\">14</text><text x=\"233.8\" y=\"94.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"9.6\">15</text><text x=\"245.1\" y=\"94.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"9.6\">16</text><text x=\"256.4\" y=\"94.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"9.6\">17</text><text x=\"268.0\" y=\"25.5\" text-anchor=\"start\" fill=\"#2c2a26\" font-size=\"10.2\">ΣR = 29</text><text x=\"268.0\" y=\"49.5\" text-anchor=\"start\" fill=\"#2c2a26\" font-size=\"10.2\">ΣR = 46</text><text x=\"268.0\" y=\"73.5\" text-anchor=\"start\" fill=\"#2c2a26\" font-size=\"10.2\">ΣR = 78</text><text x=\"10.0\" y=\"112.0\" text-anchor=\"start\" fill=\"#2c2a26\" font-size=\"10.2\">H = 12/(17·18) · (29²/6 + 46²/5 + 78²/6) − 3·18</text><text x=\"10.0\" y=\"128.0\" text-anchor=\"start\" fill=\"#2c2a26\" font-size=\"10.2\">H ≈ 7,86 > 5,991 (χ², gl = 2) → se respinge H0</text><text x=\"10.0\" y=\"144.0\" text-anchor=\"start\" fill=\"#6b6760\" font-size=\"10.2\">rangul mediu: 4,8 · 9,2 · 13,0</text></svg>"
+          }
+        ]
+      }
+    ]
+  }
+}

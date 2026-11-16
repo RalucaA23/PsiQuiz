@@ -1,0 +1,851 @@
+{
+ "schema": "quiz-capitol-v3",
+ "capitol": 7,
+ "titlu": "Procese senzoriale",
+ "sursa": "Manual Psihologie experimentală (UTM), Capitolul 7",
+ "reconstituit": "Reconstituit pe 16 nov. 2026 din pagina publicată Psihologie_experimentala.html (capitolele erau încorporate în pagină). Lipsesc câmpurile 'tip' și 'exemplu_nou', care nu ajung în pagină; restul (hartă, runde, întrebări vizibile și ascunse) e identic cu pagina.",
+ "harta": {
+  "centru": "Procese senzoriale",
+  "ramuri": [
+   {
+    "titlu": "1. Perspective în abordarea experimentală a senzațiilor",
+    "tabel": {
+     "cap": [
+      "Perspectiva",
+      "Pe ce se concentrează",
+      "Tehnici / paradigme din carte"
+     ],
+     "randuri": [
+      [
+       "Psihofizică",
+       "relația dintre stimulii fizici și senzațiile percepute",
+       "metoda diferențială a pragului, metoda comparării constante"
+      ],
+      [
+       "Fiziologică",
+       "procesele fiziologice: cum sunt detectați și procesați stimulii în creier",
+       "EEG, fMRI, înregistrări neurofiziologice"
+      ],
+      [
+       "A percepției umane",
+       "cum sunt percepuți, organizați și interpretați stimulii",
+       "iluziile perceptive, experimentele de percepție figurală"
+      ],
+      [
+       "Cognitivă",
+       "cum influențează atenția, memoria și gândirea percepția",
+       "paradigma priming-ului, paradigma recunoașterii obiectelor"
+      ],
+      [
+       "A dezvoltării senzoriale",
+       "cum se dezvoltă percepția senzorială de la naștere la bătrânețe",
+       "abordări longitudinale și transversale"
+      ]
+     ]
+    },
+    "noduri": [
+     {
+      "t": "Senzațiile ca procese psihofizice",
+      "d": "Abordarea experimentală înțelege senzațiile ca procese psihofizice: stimulii din mediu sunt transformați în semnale neurologice, interpretate de creier. Experimentele variază VI precum intensitatea sau tipul stimulului și urmăresc efectul asupra senzațiilor."
+     },
+     {
+      "t": "Perspectivele abordării experimentale",
+      "d": "Cum le deosebești: praguri și relația stimul–senzație → psihofizică; creierul (EEG, fMRI) → fiziologică; iluzii și percepție figurală → percepția umană; priming, recunoaștere, atenție, memorie → cognitivă; vârste, schimbări de-a lungul vieții → dezvoltare. Studiile longitudinale și transversale sunt descrise în capitolul 3."
+     }
+    ]
+   },
+   {
+    "titlu": "2. Psihofizica",
+    "noduri": [
+     {
+      "t": "Definiția psihofizicii",
+      "d": "Ramura psihologiei care explorează relația dintre stimulii fizici și senzațiile, percepțiile și experiențele subiective: cum sunt detectați stimulii (lumină, sunet, miros, gust, atingere) de sistemul nervos și cum devin senzații și percepții conștiente."
+     },
+     {
+      "t": "Fechner și legea Weber-Fechner",
+      "d": "Originile psihofizicii sunt în lucrările lui Gustav Fechner, unul dintre fondatorii psihologiei experimentale, care a creat metode de măsurare a relației stimul–senzație. Legea Weber-Fechner descrie relația dintre intensitatea stimulului și percepția sa subiectivă (în capitolul 1: relație logaritmică, „Elemente der Psychophysik”, 1860)."
+     },
+     {
+      "t": "Conceptele cheie ale psihofizicii",
+      "d": "Patru concepte: pragurile senzoriale, discriminarea senzorială, măsurarea senzațiilor și percepțiilor, legile psihofizice."
+     },
+     {
+      "t": "Discriminarea senzorială",
+      "d": "Capacitatea de a detecta diferențe sau variații în stimulii senzoriali; de exemplu, între două tonuri cu frecvențe diferite sau două nuanțe de culoare."
+     },
+     {
+      "t": "Măsurarea senzațiilor",
+      "d": "Metode de evaluare a intensității, duratei și calității senzațiilor și a felului în care sunt influențate de atenție și context."
+     },
+     {
+      "t": "Legile psihofizice",
+      "d": "Descriu relația matematică dintre stimulii fizici și senzații. Cele mai cunoscute: legea Weber-Fechner, legea lui Stevens, legea lui Hick."
+     },
+     {
+      "t": "Aplicațiile psihofizicii",
+      "d": "Proiectarea interfețelor utilizatorilor, ergonomia, publicitatea, psihologia clinică; metode mai precise de măsurare a experiențelor senzoriale."
+     }
+    ]
+   },
+   {
+    "titlu": "3. Pragurile senzoriale și metodele de măsurare",
+    "tabel": {
+     "cap": [
+      "Metoda (cum o numește cartea)",
+      "Ce se întâmplă",
+      "Ce prag măsoară"
+     ],
+     "randuri": [
+      [
+       "Metoda de limită (a limitelor)",
+       "experimentatorul variază intensitatea; subiectul spune când percepe prima sau ultima senzație",
+       "absolut sau diferențial (ex. pragul auditiv, tactil)"
+      ],
+      [
+       "Metoda constantă (a constantelor)",
+       "un stimul rămâne constant, altul e variat până când subiectul raportează o schimbare",
+       "diferențial: distingerea a doi stimuli similari"
+      ],
+      [
+       "Compararea cu standardul",
+       "subiectul compară un stimul de test cu un stimul standard",
+       "diferențial: diferențe subtile între stimuli"
+      ],
+      [
+       "Metoda de ajustare",
+       "subiectul însuși reglează intensitatea până detectează stimulul sau până acesta devine nedetectabil",
+       "absolut: sensibilitatea individuală"
+      ],
+      [
+       "Metode automate",
+       "computerul administrează stimulii și înregistrează răspunsurile",
+       "control și precizie"
+      ]
+     ]
+    },
+    "noduri": [
+     {
+      "t": "Pragurile senzoriale",
+      "d": "Nivelurile minime ale stimulilor necesare pentru a fi detectați de un organism sau pentru a produce o senzație perceptibilă."
+     },
+     {
+      "t": "Tipurile de praguri",
+      "d": "Pragul absolut, pragul diferențial și pragurile specifice fiecărui simț (pragul de audibilitate pentru auz, pragul de detectare a luminii pentru vedere)."
+     },
+     {
+      "t": "Pragul absolut vs pragul diferențial",
+      "d": "Cartea doar le numește; în sensul uzual, pragul absolut e cea mai mică intensitate detectată, iar pragul diferențial cea mai mică diferență detectată între doi stimuli. Diferența abia sesizabilă (JND, just noticeable difference) ține de pragul diferențial."
+     },
+     {
+      "t": "Metodele de măsurare a pragurilor",
+      "d": "Cheia de deosebire: cine reglează intensitatea (experimentatorul → limită; subiectul → ajustare) și câți stimuli sunt (unul → prag absolut; doi, test și standard → prag diferențial). În carte, metoda constantă și compararea cu standardul sunt descrise asemănător; reține ce scrie la fiecare. Alte manuale descriu altfel metoda constantă (stimuli fixi, în ordine aleatorie); la examen folosește descrierea din carte."
+     },
+     {
+      "t": "Scalare vs raportare (JND)",
+      "d": "Rezumatul secțiunii: metode de scalare a stimulilor (metoda limitelor, metoda constantelor) și metode de raportare a senzațiilor, ca JND."
+     },
+     {
+      "t": "Utilitatea măsurării pragurilor",
+      "d": "Arată limitele și capacitățile sistemului senzorial și diferențele individuale de sensibilitate. Aplicații: proiectarea interfețelor, marketingul, diagnosticul clinic."
+     }
+    ]
+   },
+   {
+    "titlu": "4. Rolul scalelor de măsurare",
+    "noduri": [
+     {
+      "t": "Scalele de măsurare",
+      "d": "Instrumente pentru măsurarea intensității sau calității senzațiilor și, în general, pentru evaluarea și cuantificarea trăsăturilor și comportamentelor; furnizează date cantitative și calitative pentru cercetare, diagnostic și evaluare."
+     },
+     {
+      "t": "Scala numerică și scala analoagă vizuală",
+      "d": "Exemple de scale simple. Există și scale complexe, care măsoară percepția subiectivă sau sensibilitatea la diferențele de stimul."
+     },
+     {
+      "t": "Măsurarea variabilelor complexe",
+      "d": "Evaluarea unor fenomene care nu pot fi măsurate direct: stresul, anxietatea, depresia, calitatea vieții."
+     },
+     {
+      "t": "Standardizarea evaluării",
+      "d": "Un cadru comun de evaluare, care produce date comparabile și fiabile între indivizi sau grupuri și permite o interpretare obiectivă și consistentă."
+     },
+     {
+      "t": "Precizia și consistența",
+      "d": "Structura clară și criteriile de evaluare asigură consistența și validitatea rezultatelor."
+     },
+     {
+      "t": "Detectarea schimbărilor în timp",
+      "d": "Aceleași scale, aplicate în mai multe momente, arată evoluția trăsăturilor și factorii care o influențează. Nu confunda cu fidelitatea (capitolul 3), unde la reaplicare se așteaptă rezultate asemănătoare."
+     },
+     {
+      "t": "Asistența în diagnostic și intervenție",
+      "d": "Diagnosticarea tulburărilor, evaluarea eficacității intervențiilor și tratamentelor, urmărirea progresului."
+     }
+    ]
+   },
+   {
+    "titlu": "5. Variabilele experimentale și controlul lor",
+    "noduri": [
+     {
+      "t": "Variabilele experimentale",
+      "d": "Trăsăturile, condițiile sau factorii care pot influența rezultatele; în studiul senzațiilor, de exemplu intensitatea sau tipul stimulului. Controlul asigură că diferențele din răspunsurile senzoriale provin chiar din manipularea VI."
+     },
+     {
+      "t": "VI și VD în exemplul cu alcoolul",
+      "d": "Într-un studiu despre efectul alcoolului asupra memoriei, cantitatea de alcool consumată e VI, iar performanța memoriei e VD."
+     },
+     {
+      "t": "Variabile de confuzie",
+      "d": "Variabile care pot influența rezultatele, dar nu sunt manipulate direct de cercetători; în exemplul cu alcoolul, nivelul de oboseală. Trebuie controlate, altfel rezultatele sunt interpretate greșit (corespund variabilelor confundate din capitolele 1–2)."
+     },
+     {
+      "t": "Controlul variabilelor",
+      "d": "Minimizarea sau eliminarea influenței altor variabile: design experimental riguros, grup de control, randomizarea asignării la condiții (aleatorizarea din capitolul 4), alte tehnici statistice și metodologice."
+     },
+     {
+      "t": "Variabile „extrase”",
+      "d": "Cartea numește „variabile independente și dependente extrase” variabilele care pot influența relația dintre VI și VD; ele trebuie controlate sau măsurate."
+     },
+     {
+      "t": "Validitatea internă și externă",
+      "d": "Controlul variabilelor asigură validitatea internă și externă a studiului și permite concluzii corecte despre relațiile cauzale și asociative."
+     }
+    ]
+   },
+   {
+    "titlu": "6. Tipurile de senzații",
+    "tabel": {
+     "cap": [
+      "Senzația",
+      "Ce ne spune",
+      "De unde vine informația"
+     ],
+     "randuri": [
+      [
+       "Proprioceptivă",
+       "poziția articulațiilor, tensiunea musculară, mișcările corpului, fără să ne uităm",
+       "senzații interne"
+      ],
+      [
+       "Kinestezică",
+       "mișcările proprii (întinderea brațelor, o piruetă)",
+       "feedback de la mușchi și articulații"
+      ],
+      [
+       "De echilibru",
+       "stabilitatea și poziția corpului",
+       "sistemul vestibular (poziția capului) + feedback vizual și kinestezic"
+      ],
+      [
+       "Olfactivă",
+       "mirosurile",
+       "receptorii olfactivi din nas: substanțe chimice din aer"
+      ],
+      [
+       "Gustativă",
+       "gusturile",
+       "papilele gustative din limbă și cavitatea bucală: substanțe chimice din alimente"
+      ],
+      [
+       "Cutanată",
+       "senzații tactile, termice și de durere",
+       "receptori specializați din piele"
+      ],
+      [
+       "Auditivă",
+       "sunetele",
+       "urechile"
+      ],
+      [
+       "Vizuală",
+       "imaginile, percepțiile vizuale",
+       "receptorii din ochi, care detectează lumina"
+      ]
+     ]
+    },
+    "noduri": [
+     {
+      "t": "Propriocepție vs kinestezie",
+      "d": "Propriocepția: conștientizarea poziției și mișcărilor corpului fără să ne uităm (articulații, tensiune musculară). Kinestezia: senzația mișcărilor proprii, din feedback-ul mușchilor și articulațiilor în timpul mișcării."
+     },
+     {
+      "t": "Echilibru și sistemul vestibular",
+      "d": "Echilibrul menține stabilitatea și poziția corpului în mișcare; integrează informațiile din sistemul vestibular (poziția capului) cu feedback-ul vizual și kinestezic."
+     },
+     {
+      "t": "Simțurile chimice: olfactiv și gustativ",
+      "d": "Ambele detectează substanțe chimice: olfactivul pe cele din aer (receptori din nas), gustativul pe cele din alimente și băuturi (papilele gustative)."
+     },
+     {
+      "t": "Senzații cutanate",
+      "d": "Senzațiile tactile, termice și de durere de pe piele, detectate de receptori specializați."
+     },
+     {
+      "t": "Rolul senzațiilor",
+      "d": "Esențiale pentru orientarea în mediu; joacă un rol în comunicare, siguranță, alimentație și relațiile sociale. Pot fi studiate în laborator cu metode specifice fiecărui tip."
+     }
+    ]
+   },
+   {
+    "titlu": "7. Tehnici și aparatură",
+    "noduri": [
+     {
+      "t": "Tehnicile din studiul senzațiilor",
+      "d": "Stimularea controlată a senzorilor, aparate precum EEG și fMRI, analiza comportamentală detaliată."
+     },
+     {
+      "t": "Interviuri, chestionare, observație, teste",
+      "d": "Interviuri structurate, semistructurate sau nestructurate (după gradul de control). Chestionare și scale: date standardizate și cantitative (stres, anxietate, personalitate). Observația: în mediu natural sau controlat, comportament nonverbal și interacțiuni. Teste psihologice: inteligență, aptitudini, personalitate (detaliate în capitolul 3)."
+     },
+     {
+      "t": "Imagistica cerebrală (IRM, PET)",
+      "d": "Imagistica prin rezonanță magnetică (IRM) și tomografia cu emisie de pozitroni (PET) vizualizează structura și funcționarea creierului."
+     },
+     {
+      "t": "EEG",
+      "d": "Înregistrează activitatea electrică a creierului prin electrozi plasați pe scalp; evaluează activitatea cerebrală în timp real. Nu confunda cu EMG (mușchi) sau EDR (conductivitatea pielii) din capitolul 3."
+     },
+     {
+      "t": "Biofeedback",
+      "d": "Îi învață pe oameni să-și regleze voluntar funcțiile fiziologice (ritmul cardiac, tensiunea arterială, activitatea musculară), prin monitorizarea lor și feedback în timp real. Diferența față de EMG sau EEG: nu doar măsoară, ci folosește semnalul pentru autoreglare."
+     }
+    ]
+   },
+   {
+    "titlu": "8. Rezumat și cuvinte cheie",
+    "noduri": [
+     {
+      "t": "Procesele senzoriale",
+      "d": "Procesele prin care organismul primește, transformă și interpretează informații din mediu prin simțuri: percepția vizuală, auditivă, tactilă, gustativă, olfactivă, plus echilibrul și propriocepția."
+     },
+     {
+      "t": "Percepție",
+      "d": "Procesul prin care organismul interpretează și înțelege informația senzorială, formând o reprezentare a lumii înconjurătoare (detaliată în capitolul 8)."
+     },
+     {
+      "t": "Simțuri",
+      "d": "Sistemele fiziologice și cognitive care permit perceperea informațiilor din mediu prin receptori senzoriali: ochi, urechi, piele etc."
+     },
+     {
+      "t": "Transducție",
+      "d": "Procesul prin care stimulii senzoriali sunt convertiți în semnale neuronale pe care creierul le poate interpreta."
+     },
+     {
+      "t": "Adaptare senzorială",
+      "d": "Receptorii devin mai puțin sensibili la stimulii constanți în timp, iar percepția lor scade (de exemplu, un miros care nu se mai simte după câteva minute)."
+     },
+     {
+      "t": "Percepție subliminală",
+      "d": "Perceperea unei informații prezentate sub pragul conștientului, care poate influența comportamentul fără ca individul să-și dea seama. Ridică probleme etice dacă participanții sunt induși în eroare (nedivulgarea, capitolul 5)."
+     },
+     {
+      "t": "Legături cu alte capitole",
+      "d": "Fechner și Helmholtz (capitolul 1); VI, VD, variabile confundate (capitolele 1–2); aleatorizarea, timpul de reacție, indicatorii fiziologici (capitolul 4); EEG, EMG, EDR, studiile longitudinale și transversale, fidelitatea (capitolul 3); nedivulgarea (capitolul 5)."
+     }
+    ]
+   }
+  ]
+ },
+ "runde": [
+  {
+   "id": "1",
+   "eticheta": "Runda 1 · Bază",
+   "titlu": "Runda 1 — Concepte de bază",
+   "desc": "Recunoaștere: perspectivele, psihofizica, pragurile și metodele de măsurare, scalele, variabilele, tipurile de senzații, tehnicile și cuvintele cheie.",
+   "intrebari": [
+    {
+     "q": "Cum înțelege abordarea experimentală senzațiile?",
+     "opts": [
+      "Ca procese psihofizice: stimuli transformați în semnale neurologice",
+      "Ca trăiri subiective, studiate doar prin introspecția subiectului",
+      "Ca reacții reflexe, produse fără vreo prelucrare la nivelul creierului",
+      "Ca răspunsuri învățate prin consecințe, ca în condiționarea operantă"
+     ],
+     "correct": 0,
+     "explain": "Capitolul descrie senzațiile ca procese psihofizice: stimulii din mediu sunt transformați în semnale neurologice, pe care creierul le interpretează. Introspecția e metoda structuralismului, iar condiționarea operantă îi aparține lui Skinner (capitolul 1); niciuna nu descrie abordarea experimentală a senzațiilor. Varianta cu „fără prelucrare” contrazice tocmai rolul creierului.",
+     "tag": "Senzațiile ca procese psihofizice"
+    },
+    {
+     "q": "Ce perspectivă folosește iluziile perceptive și experimentele de percepție figurală pentru a vedea cum sunt organizate senzațiile?",
+     "opts": [
+      "Perspectiva psihofizică",
+      "Perspectiva cognitivă",
+      "Perspectiva percepției umane",
+      "Perspectiva dezvoltării senzoriale"
+     ],
+     "correct": 2,
+     "explain": "Iluziile perceptive și percepția figurală sunt tehnicile perspectivei percepției umane, care studiază cum sunt percepuți și interpretați stimulii. Perspectiva psihofizică folosește metode de măsurare a pragurilor, cea cognitivă paradigme precum priming-ul, iar cea a dezvoltării, studii longitudinale și transversale.",
+     "tag": "Perspectivele abordării experimentale"
+    },
+    {
+     "q": "Ce perspectivă folosește paradigma priming-ului și paradigma recunoașterii obiectelor?",
+     "opts": [
+      "Perspectiva percepției umane",
+      "Perspectiva cognitivă",
+      "Perspectiva dezvoltării senzoriale",
+      "Perspectiva fiziologică"
+     ],
+     "correct": 1,
+     "explain": "Perspectiva cognitivă examinează cum influențează atenția, memoria și gândirea percepția senzorială, cu paradigme precum priming-ul și recunoașterea obiectelor. Capcana e perspectiva percepției umane, care folosește iluziile perceptive și percepția figurală. Cea fiziologică lucrează cu EEG și fMRI.",
+     "tag": "Perspectivele abordării experimentale"
+    },
+    {
+     "q": "Ce abordări folosește perspectiva dezvoltării senzoriale?",
+     "opts": [
+      "Iluzii perceptive și experimente de percepție figurală",
+      "EEG, fMRI și înregistrări neurofiziologice",
+      "Metoda limitelor și metoda comparării constante",
+      "Studii longitudinale și studii transversale"
+     ],
+     "correct": 3,
+     "explain": "Perspectiva dezvoltării urmărește cum se schimbă abilitățile senzoriale de la naștere până la bătrânețe, prin studii longitudinale (aceleași persoane, în timp) și transversale (vârste diferite, în același moment), descrise în capitolul 3. Celelalte variante sunt tehnicile perspectivelor percepției umane, fiziologică și psihofizică.",
+     "tag": "Perspectivele abordării experimentale"
+    },
+    {
+     "q": "În lucrările cui își are originile psihofizica?",
+     "opts": [
+      "Hermann von Helmholtz",
+      "Gustav Fechner",
+      "Wilhelm Wundt",
+      "Hermann Ebbinghaus"
+     ],
+     "correct": 1,
+     "explain": "Psihofizica pornește de la Gustav Fechner, unul dintre fondatorii psihologiei experimentale, care a dezvoltat metode de măsurare a relației stimul–senzație și legea Weber-Fechner. Din capitolul 1: Helmholtz a studiat nervii senzoriali și percepția, Wundt a fondat laboratorul de la Leipzig (1879), iar Ebbinghaus a studiat memoria.",
+     "tag": "Fechner și legea Weber-Fechner"
+    },
+    {
+     "q": "Care sunt cele mai cunoscute legi psihofizice?",
+     "opts": [
+      "Legea Weber-Fechner, legea lui Stevens și legea lui Hick",
+      "Legea Weber-Fechner, legea lui Stevens și curba uitării",
+      "Legea lui Hick, legea lui Stevens și legile gestaltului",
+      "Legea Weber-Fechner, legea lui Hick și legea lui Helmholtz"
+     ],
+     "correct": 0,
+     "explain": "Capitolul numește legea Weber-Fechner, legea lui Stevens și legea lui Hick, care descriu matematic relația dintre stimuli și senzații. Din capitolul 1: curba uitării îi aparține lui Ebbinghaus și privește memoria, organizarea percepției în forme ține de psihologia gestalt, iar Helmholtz nu are o lege psihofizică în carte.",
+     "tag": "Legile psihofizice"
+    },
+    {
+     "q": "Ce este discriminarea senzorială?",
+     "opts": [
+      "Nivelul minim de intensitate al unui stimul pentru a fi detectat",
+      "Scăderea sensibilității receptorilor la un stimul care rămâne constant",
+      "Capacitatea de a detecta diferențe sau variații între stimuli",
+      "Conversia stimulilor senzoriali în semnale neuronale pentru creier"
+     ],
+     "correct": 2,
+     "explain": "Discriminarea senzorială e capacitatea de a detecta diferențe, de exemplu între două tonuri cu frecvențe diferite sau două nuanțe de culoare. Nivelul minim de detectare e pragul senzorial, scăderea sensibilității la un stimul constant e adaptarea senzorială, iar conversia în semnale neuronale e transducția.",
+     "tag": "Discriminarea senzorială"
+    },
+    {
+     "q": "Ce reprezintă pragurile senzoriale?",
+     "opts": [
+      "Nivelurile maxime ale stimulilor suportate fără senzația de durere",
+      "Diferențele de sensibilitate dintre doi subiecți examinați",
+      "Intervalul dintre apariția unui stimul și răspunsul subiectului",
+      "Nivelurile minime ale stimulilor necesare pentru a fi detectați"
+     ],
+     "correct": 3,
+     "explain": "Pragurile senzoriale sunt nivelurile minime ale stimulilor necesare pentru a fi detectați sau pentru a produce o senzație perceptibilă. Varianta cu „maxime” inversează definiția. Diferențele dintre subiecți sunt diferențe individuale, pe care pragurile ajută să le studiezi, iar intervalul stimul–răspuns e timpul de reacție (capitolul 4).",
+     "tag": "Pragurile senzoriale"
+    },
+    {
+     "q": "În ce metodă li se prezintă subiecților stimuli de intensitate variabilă, iar ei raportează când percep prima sau ultima senzație a stimulului?",
+     "opts": [
+      "Metoda de ajustare",
+      "Metoda de limită (a limitelor)",
+      "Metoda de comparare cu standardul",
+      "Metoda constantă (a constantelor)"
+     ],
+     "correct": 1,
+     "explain": "În metoda de limită experimentatorul variază intensitatea, iar subiectul spune când apare prima senzație sau când dispare ultima. În metoda de ajustare intensitatea o reglează chiar subiectul. Compararea cu standardul pune alături un stimul de test și unul standard, iar metoda constantă păstrează un stimul fix și îl variază pe celălalt.",
+     "tag": "Metodele de măsurare a pragurilor"
+    },
+    {
+     "q": "Cum se numește procesul prin care stimulii senzoriali sunt convertiți în semnale neuronale pe care creierul le poate interpreta?",
+     "opts": [
+      "Transducția senzorială",
+      "Adaptarea senzorială",
+      "Discriminarea senzorială",
+      "Percepția subliminală"
+     ],
+     "correct": 0,
+     "explain": "Transducția, unul dintre cuvintele cheie ale capitolului, e conversia stimulilor în semnale neuronale. Adaptarea senzorială e scăderea sensibilității receptorilor la stimuli constanți, discriminarea e detectarea diferențelor dintre stimuli, iar percepția subliminală privește stimulii prezentați sub pragul conștientului.",
+     "tag": "Transducție"
+    },
+    {
+     "q": "Ce prag determină metoda constantă?",
+     "opts": [
+      "Pragul absolut",
+      "Pragul de audibilitate",
+      "Pragul diferențial",
+      "Pragul de semnificație p < 0,05"
+     ],
+     "correct": 2,
+     "explain": "Metoda constantă ține fixă intensitatea unui stimul și o variază pe a altuia până când subiectul raportează o schimbare, deci măsoară pragul diferențial: abilitatea de a distinge între doi stimuli similari. Pragul absolut îl măsoară, după carte, metoda de ajustare. Pragul de semnificație p < 0,05 (capitolul 1) e un criteriu statistic, nu senzorial.",
+     "tag": "Metodele de măsurare a pragurilor"
+    },
+    {
+     "q": "Care sunt exemple de scale simple de măsurare a senzațiilor?",
+     "opts": [
+      "Scalele nominale și scalele ordinale ale variabilelor",
+      "Testele proiective și testele obiective",
+      "Scorurile brute și normele de etalonare",
+      "Scala numerică și scala analoagă vizuală"
+     ],
+     "correct": 3,
+     "explain": "Capitolul dă ca exemple de scale simple scala numerică și scala analoagă vizuală; pe lângă ele există scale mai complexe, pentru percepția subiectivă sau sensibilitatea la diferențele de stimul. Variabilele nominale și ordinale sunt tipuri de variabile (capitolul 1), testele proiective și obiective sunt teste de personalitate, iar etalonarea e o calitate a testului (capitolul 3).",
+     "tag": "Scala numerică și scala analoagă vizuală"
+    },
+    {
+     "q": "Prin ce rol al scalelor de măsurare pot fi evaluate fenomene precum stresul, anxietatea sau calitatea vieții, care nu pot fi măsurate direct?",
+     "opts": [
+      "Detectarea schimbărilor în timp",
+      "Măsurarea variabilelor complexe",
+      "Standardizarea evaluării",
+      "Etalonarea instrumentelor"
+     ],
+     "correct": 1,
+     "explain": "Măsurarea variabilelor complexe permite evaluarea unor trăsături și fenomene psihologice care nu pot fi măsurate direct, cum ar fi stresul, anxietatea, depresia sau calitatea vieții. Detectarea schimbărilor presupune aplicări repetate, standardizarea oferă date comparabile, iar etalonarea (capitolul 3) stabilește unitățile de măsură ale unui test.",
+     "tag": "Măsurarea variabilelor complexe"
+    },
+    {
+     "q": "Într-un studiu despre efectele alcoolului asupra memoriei, ce rol are nivelul de oboseală al participanților?",
+     "opts": [
+      "O variabilă de confuzie",
+      "Variabila independentă",
+      "Variabila dependentă",
+      "O variabilă de control, menținută constantă"
+     ],
+     "correct": 0,
+     "explain": "Oboseala poate influența rezultatele, dar nu e manipulată de cercetători, deci e o variabilă de confuzie, care trebuie controlată. Cantitatea de alcool e VI, iar performanța memoriei VD. O variabilă de control (capitolul 1) ar fi menținută constantă intenționat, ceea ce aici nu se întâmplă.",
+     "tag": "Variabile de confuzie"
+    },
+    {
+     "q": "Cum se numește senzația mișcărilor proprii ale corpului, de exemplu când întinzi brațele sau faci o piruetă?",
+     "opts": [
+      "Propriocepția",
+      "Echilibrul (simțul vestibular)",
+      "Kinestezia",
+      "Senzația cutanată tactilă"
+     ],
+     "correct": 2,
+     "explain": "Kinestezia e senzația mișcărilor proprii, bazată pe feedback-ul de la mușchi și articulații în timpul mișcării; chiar exemplele cu brațele și pirueta sunt din carte. Propriocepția e apropiată, dar pune accentul pe conștientizarea poziției și a mișcărilor fără să te uiți. Echilibrul ține de sistemul vestibular, iar senzația tactilă de receptorii din piele.",
+     "tag": "Propriocepție vs kinestezie"
+    }
+   ],
+   "ascunse": [
+    {
+     "q": "Cum este definită percepția?",
+     "opts": [
+      "Conversia stimulilor în semnale neuronale pe care creierul le interpretează",
+      "Sistemele fiziologice și cognitive care primesc informații din mediu",
+      "Interpretarea informației senzoriale într-o reprezentare a lumii",
+      "Scăderea sensibilității receptorilor la stimuli constanți"
+     ],
+     "correct": 2,
+     "explain": "Percepția e procesul prin care organismul interpretează și înțelege informația senzorială, formând o reprezentare a lumii înconjurătoare. Celelalte variante sunt celelalte cuvinte cheie ale capitolului: transducția, simțurile și adaptarea senzorială.",
+     "tag": "Percepție"
+    },
+    {
+     "q": "Ce detectează papilele gustative?",
+     "opts": [
+      "Substanțele chimice din aerul inspirat",
+      "Substanțele chimice din alimente și băuturi",
+      "Poziția și mișcările limbii în gură",
+      "Temperatura și durerea din cavitatea bucală"
+     ],
+     "correct": 1,
+     "explain": "Papilele gustative din limbă și din alte zone ale cavității bucale detectează substanțele chimice din alimente și băuturi. Substanțele chimice din aer sunt detectate de receptorii olfactivi din nas, poziția și mișcarea țin de propriocepție și kinestezie, iar temperatura și durerea de senzațiile cutanate.",
+     "tag": "Simțurile chimice: olfactiv și gustativ"
+    },
+    {
+     "q": "Ce înregistrează EEG-ul și cum?",
+     "opts": [
+      "Activitatea electrică a creierului, prin electrozi pe scalp",
+      "Conductivitatea pielii, prin electrozi plasați pe degete",
+      "Activitatea electrică a mușchilor, prin electrozi pe piele",
+      "Structura creierului, cu ajutorul unui câmp magnetic"
+     ],
+     "correct": 0,
+     "explain": "EEG-ul înregistrează activitatea electrică a creierului cu electrozi plasați pe scalp și permite evaluarea ei în timp real. Conductivitatea pielii e activitatea electrodermală (EDR/GSR), iar activitatea mușchilor e electromiograma (EMG), ambele din capitolul 3. Structura creierului se vizualizează prin IRM.",
+     "tag": "EEG"
+    },
+    {
+     "q": "Ce tehnici de imagistică cerebrală, pentru structura și funcționarea creierului, se folosesc în studiul senzațiilor?",
+     "opts": [
+      "EOG și ERG",
+      "EMG și ECG",
+      "EEG și EDR",
+      "IRM și PET"
+     ],
+     "correct": 3,
+     "explain": "Capitolul numește imagistica prin rezonanță magnetică (IRM) și tomografia cu emisie de pozitroni (PET). Celelalte perechi sunt biosemnale din capitolul 3: EOG (mușchii oculari), ERG (retina), EMG (mușchii), ECG (inima), EEG (activitatea electrică a creierului) și EDR (conductivitatea pielii). Ele înregistrează semnale, nu imagini ale creierului.",
+     "tag": "Imagistica cerebrală (IRM, PET)"
+    },
+    {
+     "q": "Cum este încadrată metoda JND (just noticeable difference) printre metodele de măsurare a pragurilor senzoriale?",
+     "opts": [
+      "Ca metodă de scalare a stimulilor",
+      "Ca metodă de raportare a senzațiilor",
+      "Ca metodă automată, computerizată",
+      "Ca lege psihofizică, alături de Stevens"
+     ],
+     "correct": 1,
+     "explain": "Rezumatul secțiunii împarte metodele în metode de scalare a stimulilor (metoda limitelor, metoda constantelor) și metode de raportare a senzațiilor, cum e JND. Metodele automate sunt o categorie separată, cu stimuli administrați pe computer, iar legile psihofizice (Weber-Fechner, Stevens, Hick) sunt relații matematice, nu metode.",
+     "tag": "Scalare vs raportare (JND)"
+    }
+   ]
+  },
+  {
+   "id": "2",
+   "eticheta": "Runda 2 · Aplicații",
+   "titlu": "Runda 2 — Scenarii și raționament",
+   "desc": "Recunoaște metoda de măsurare a pragului, perspectiva, senzația, variabila sau fenomenul senzorial din situații concrete.",
+   "intrebari": [
+    {
+     "q": "Un cercetător crește treptat volumul unui ton, pornind de la zero, până când participantul spune „acum îl aud”, apoi îl scade până când nu-l mai aude. Ce metodă folosește și ce prag determină?",
+     "opts": [
+      "Metoda de ajustare, pentru pragul absolut auditiv",
+      "Metoda constantă, pentru pragul diferențial auditiv",
+      "Metoda de limită, pentru pragul absolut auditiv",
+      "Compararea cu standardul, pentru pragul diferențial"
+     ],
+     "correct": 2,
+     "explain": "Intensitatea e variată de cercetător, iar participantul raportează prima și ultima senzație: e metoda de limită, aplicată unui singur ton, deci pentru pragul absolut (capitolul dă chiar exemplul pragului auditiv). Metoda de ajustare are același prag, dar acolo intensitatea o reglează participantul. Nu există un al doilea stimul cu care să se compare, deci nu e vorba de prag diferențial.",
+     "tag": "Metodele de măsurare a pragurilor"
+    },
+    {
+     "q": "Într-o cameră întunecată, participanta rotește singură un buton care reglează luminozitatea unui punct, până când abia îl mai vede. Ce metodă de măsurare a pragului se folosește?",
+     "opts": [
+      "Metoda de ajustare",
+      "Metoda de limită",
+      "Metoda constantă",
+      "Compararea cu standardul"
+     ],
+     "correct": 0,
+     "explain": "Elementul decisiv e că participanta reglează singură intensitatea până la limita detectării: asta e metoda de ajustare, folosită pentru pragul absolut și sensibilitatea individuală. În metoda de limită intensitatea o variază experimentatorul, iar metoda constantă și compararea cu standardul presupun doi stimuli.",
+     "tag": "Metodele de măsurare a pragurilor"
+    },
+    {
+     "q": "Participanții primesc o greutate standard de 100 g și, pe rând, alte greutăți de test, despre care trebuie să spună dacă sunt mai grele sau mai ușoare decât standardul. Ce metodă se folosește și ce prag se măsoară?",
+     "opts": [
+      "Compararea cu standardul, pentru pragul absolut",
+      "Metoda de ajustare, pentru pragul diferențial",
+      "Metoda de limită, pentru pragul absolut al greutății",
+      "Compararea cu standardul, pentru pragul diferențial"
+     ],
+     "correct": 3,
+     "explain": "Fiecare stimul de test e comparat cu un stimul standard, deci e metoda de comparare cu standardul; ea măsoară pragurile diferențiale, adică cea mai mică diferență detectabilă între doi stimuli. Varianta cu „pragul absolut” are metoda bună, dar pragul greșit: nimeni nu întreabă dacă greutatea e simțită deloc. Participanții nu reglează nimic, deci nu e metoda de ajustare.",
+     "tag": "Metodele de măsurare a pragurilor"
+    },
+    {
+     "q": "Un producător de ciocolată vrea să afle cu cât poate reduce zahărul dintr-un baton fără ca un client obișnuit să observe diferența. Ce concept din psihofizică îl interesează?",
+     "opts": [
+      "Pragul absolut al gustului dulce",
+      "Diferența abia sesizabilă (JND)",
+      "Adaptarea senzorială la gustul dulce",
+      "Percepția subliminală a gustului"
+     ],
+     "correct": 1,
+     "explain": "Întrebarea privește cea mai mică diferență dintre doi stimuli (rețeta veche și cea nouă) care poate fi observată: diferența abia sesizabilă (JND), legată de pragul diferențial. Pragul absolut ar întreba care e cantitatea minimă de zahăr simțită deloc. Adaptarea ar însemna scăderea sensibilității în timp, la un gust constant.",
+     "tag": "Pragul absolut vs pragul diferențial"
+    },
+    {
+     "q": "Intri într-o brutărie și mirosul de pâine caldă e foarte puternic. După zece minute petrecute înăuntru, aproape că nu-l mai simți. Ce fenomen explică schimbarea?",
+     "opts": [
+      "Adaptarea senzorială",
+      "Transducția olfactivă",
+      "Percepția subliminală",
+      "Discriminarea senzorială"
+     ],
+     "correct": 0,
+     "explain": "Receptorii senzoriali devin mai puțin sensibili la un stimul care rămâne constant în timp, iar percepția lui scade: e adaptarea senzorială, cuvânt cheie al capitolului. Transducția are loc în continuare, altfel mirosul nu ar fi fost simțit deloc. Discriminarea ar presupune compararea a două mirosuri diferite.",
+     "tag": "Adaptare senzorială"
+    },
+    {
+     "q": "Într-un studiu, un cuvânt apare pe ecran timp de 10 milisecunde, prea scurt ca participanții să spună că l-au văzut, dar alegerile lor ulterioare sunt influențate de el. Ce fenomen ilustrează studiul?",
+     "opts": [
+      "Adaptarea senzorială",
+      "Efectul Hawthorne",
+      "Percepția subliminală",
+      "Discriminarea senzorială"
+     ],
+     "correct": 2,
+     "explain": "Informația e prezentată sub pragul conștientului și totuși influențează comportamentul, fără ca participanții să-și dea seama: e percepția subliminală. Efectul Hawthorne (capitolul 1) e o schimbare de comportament produsă de faptul că participanții știu că sunt studiați, nu de un stimul neconștientizat. Adaptarea ar cere un stimul prelungit, nu unul de 10 ms.",
+     "tag": "Percepție subliminală"
+    },
+    {
+     "q": "Participanții care au văzut cu câteva secunde înainte imaginea unei pisici recunosc mai repede o pisică într-o fotografie neclară decât cei care au văzut imaginea unei mașini. Din ce perspectivă e realizat studiul?",
+     "opts": [
+      "Perspectiva percepției umane",
+      "Perspectiva psihofizică",
+      "Perspectiva dezvoltării senzoriale",
+      "Perspectiva cognitivă"
+     ],
+     "correct": 3,
+     "explain": "Imaginea văzută înainte pregătește (amorsează) recunoașterea: e paradigma priming-ului, combinată cu recunoașterea obiectelor, adică perspectiva cognitivă, care studiază cum influențează memoria și atenția percepția. Perspectiva percepției umane ar folosi iluzii sau percepție figurală, iar cea psihofizică ar măsura praguri.",
+     "tag": "Perspectivele abordării experimentale"
+    },
+    {
+     "q": "O echipă înregistrează cu fMRI ce zone ale creierului se activează când participanții ascultă sunete de diferite frecvențe. Din ce perspectivă e realizat studiul?",
+     "opts": [
+      "Perspectiva cognitivă",
+      "Perspectiva fiziologică",
+      "Perspectiva percepției umane",
+      "Perspectiva psihofizică"
+     ],
+     "correct": 1,
+     "explain": "Perspectiva fiziologică studiază cum sunt detectați și procesați stimulii în creier, cu tehnici ca EEG, fMRI și înregistrările neurofiziologice. Faptul că sunetele au frecvențe diferite (o caracteristică fizică) poate trimite spre psihofizică, dar aceasta ar măsura senzațiile raportate, nu activitatea creierului.",
+     "tag": "Perspectivele abordării experimentale"
+    },
+    {
+     "q": "Un cercetător studiază cum influențează intensitatea luminii (slabă, medie, puternică) timpul în care participanții detectează un punct pe ecran. Unii participanți vin direct după o tură de noapte. Cum se clasifică variabilele?",
+     "opts": [
+      "VI: intensitatea luminii; VD: timpul de detectare; confuzie: oboseala",
+      "VI: timpul de detectare; VD: intensitatea luminii; confuzie: oboseala",
+      "VI: intensitatea luminii; VD: oboseala; confuzie: timpul de detectare",
+      "VI: oboseala; VD: timpul de detectare; confuzie: intensitatea luminii"
+     ],
+     "correct": 0,
+     "explain": "Intensitatea luminii e manipulată (VI), iar timpul de detectare e măsurat (VD), un timp de reacție, ca în capitolul 4. Oboseala nu e manipulată, dar poate influența rezultatele: e o variabilă de confuzie, ca în exemplul cu alcoolul din carte. Celelalte variante inversează rolurile: oboseala nu e controlată de cercetător, deci nu poate fi VI.",
+     "tag": "Variabile de confuzie"
+    },
+    {
+     "q": "În același studiu despre lumină și detectare, cum ar putea cercetătorul să împiedice ca oboseala să falsifice comparația dintre condiții?",
+     "opts": [
+      "Creșterea intensității luminii pentru cei obosiți",
+      "Tratarea oboselii ca a doua variabilă dependentă",
+      "Repartizarea aleatorie a participanților în condiții",
+      "Testarea celor obosiți doar în condiția de lumină slabă"
+     ],
+     "correct": 2,
+     "explain": "Capitolul enumeră printre tehnicile de control randomizarea asignării la condiții (aleatorizarea, din capitolul 4): participanții obosiți ajung distribuiți la întâmplare în toate condițiile. Mai multă lumină pentru cei obosiți sau testarea lor doar în lumină slabă ar amesteca oboseala cu VI. Oboseala nu e un rezultat al manipulării, deci nu e VD.",
+     "tag": "Controlul variabilelor"
+    },
+    {
+     "q": "Într-o clinică de recuperare, pacienților li se aplică aceeași scală analoagă vizuală a durerii la începutul tratamentului, după o lună și după trei luni. Ce rol al scalelor de măsurare ilustrează situația?",
+     "opts": [
+      "Măsurarea variabilelor complexe",
+      "Standardizarea evaluării",
+      "Verificarea fidelității scalei",
+      "Detectarea schimbărilor în timp"
+     ],
+     "correct": 3,
+     "explain": "Aceeași scală aplicată în mai multe momente arată evoluția fiecărui pacient și, astfel, eficacitatea tratamentului: detectarea schimbărilor în timp. Fidelitatea (capitolul 3) e o capcană: și ea presupune reaplicarea, dar acolo se așteaptă rezultate asemănătoare, pe când aici se urmărește tocmai schimbarea.",
+     "tag": "Detectarea schimbărilor în timp"
+    },
+    {
+     "q": "Cu ochii închiși, o persoană își atinge exact vârful nasului cu degetul arătător. Ce senzație o face posibilă în primul rând?",
+     "opts": [
+      "Senzațiile cutanate",
+      "Propriocepția",
+      "Simțul vizual",
+      "Echilibrul (sistemul vestibular)"
+     ],
+     "correct": 1,
+     "explain": "Propriocepția ne permite să conștientizăm poziția și mișcările corpului fără să ne uităm la ele: poziția articulațiilor, tensiunea musculară, mișcările. Ochii sunt închiși, deci văzul nu ajută. Senzațiile cutanate apar doar la atingerea nasului, iar sistemul vestibular informează despre poziția capului și echilibru, nu despre poziția degetului.",
+     "tag": "Propriocepție vs kinestezie"
+    },
+    {
+     "q": "Atingi din greșeală o cană foarte fierbinte și retragi mâna. În ce categorie de senzații intră senzația de căldură și cea de durere?",
+     "opts": [
+      "Senzațiile cutanate",
+      "Senzațiile kinestezice",
+      "Senzațiile proprioceptive",
+      "Senzațiile de echilibru"
+     ],
+     "correct": 0,
+     "explain": "Senzațiile cutanate includ senzațiile tactile, termice și de durere, detectate de receptorii specializați din piele. Retragerea mâinii e o mișcare, de aceea pot tenta kinestezia și propriocepția, dar întrebarea privește căldura și durerea, nu mișcarea.",
+     "tag": "Senzații cutanate"
+    },
+    {
+     "q": "O pacientă cu dureri de cap tensionale vede pe un monitor, în timp real, activitatea mușchilor frunții și învață treptat să-i relaxeze voluntar. Ce tehnică se folosește?",
+     "opts": [
+      "Electromiografia (EMG)",
+      "Tehnica de biofeedback",
+      "Electroencefalografia (EEG)",
+      "Imagistica prin rezonanță magnetică"
+     ],
+     "correct": 1,
+     "explain": "Biofeedback-ul îi învață pe oameni să-și regleze voluntar funcțiile fiziologice, cum e activitatea musculară, prin monitorizarea lor și feedback în timp real. EMG-ul (capitolul 3) e capcana: înregistrează activitatea mușchilor și poate furniza semnalul, dar simpla măsurare nu presupune învățarea autoreglării. EEG-ul privește creierul, iar IRM-ul structura lui.",
+     "tag": "Biofeedback"
+    },
+    {
+     "q": "De ce este esențial controlul variabilelor într-un experiment despre procesele senzoriale?",
+     "opts": [
+      "Ca participanții să nu perceapă stimulii subliminali",
+      "Ca pragul absolut să fie identic la toți participanții testați",
+      "Ca diferențele de răspuns să provină din manipularea VI",
+      "Ca rezultatele să nu mai necesite analiză statistică"
+     ],
+     "correct": 2,
+     "explain": "Capitolul spune că controlul asigură că diferențele observate în răspunsurile senzoriale sunt cu adevărat rezultatul manipulării VI, ceea ce susține validitatea internă și externă (aceeași idee apare în capitolul 4). Controlul nu face pragurile identice: diferențele individuale de sensibilitate rămân un obiect de studiu. El nu înlocuiește nici analiza statistică.",
+     "tag": "Variabilele experimentale"
+    }
+   ],
+   "ascunse": [
+    {
+     "q": "O cercetătoare compară pragul auditiv al unor grupuri de copii de 5 ani, adulți de 30 și vârstnici de 70 de ani, testați toți în aceeași lună. Ce perspectivă adoptă și ce tip de studiu face?",
+     "opts": [
+      "Perspectiva dezvoltării senzoriale, studiu transversal",
+      "Perspectiva dezvoltării senzoriale, studiu longitudinal",
+      "Perspectiva psihofizică, studiu longitudinal",
+      "Perspectiva fiziologică, studiu transversal"
+     ],
+     "correct": 0,
+     "explain": "Interesul pentru felul în care se schimbă auzul de-a lungul vieții e propriu perspectivei dezvoltării senzoriale. Grupurile de vârste diferite, testate în același moment, înseamnă un studiu transversal (capitolul 3). Un studiu longitudinal ar urmări aceleași persoane timp de ani de zile. Pragul măsurat poate trimite spre psihofizică, dar scopul e dezvoltarea.",
+     "tag": "Perspectivele abordării experimentale"
+    },
+    {
+     "q": "După ce se învârte de mai multe ori pe loc, un copil se clatină și are impresia că încăperea se rotește. Ce sistem e implicat în primul rând?",
+     "opts": [
+      "Receptorii kinestezici din mușchi",
+      "Receptorii cutanați ai tălpilor",
+      "Sistemul vestibular (echilibrul)",
+      "Receptorii vizuali din retină"
+     ],
+     "correct": 2,
+     "explain": "Echilibrul integrează informațiile din sistemul vestibular, responsabil pentru percepția poziției capului și a echilibrului, alături de feedback-ul vizual și kinestezic. Rotirea perturbă în primul rând sistemul vestibular. Văzul și kinestezia contribuie, dar nu sunt sursa principală, iar receptorii din piele țin de senzațiile cutanate.",
+     "tag": "Echilibru și sistemul vestibular"
+    },
+    {
+     "q": "Participanților li se spune că vor evalua claritatea unor imagini, deși studiul testează de fapt efectul unor mesaje subliminale asupra alegerilor de cumpărare. Ce principiu etic este pus în discuție?",
+     "opts": [
+      "Confidențialitatea",
+      "Libertatea de retragere",
+      "Integritatea datelor",
+      "Nedivulgarea"
+     ],
+     "correct": 3,
+     "explain": "Participanții sunt induși în eroare cu privire la scopul studiului, iar în capitolul 5 nedivulgarea înseamnă tocmai dreptul de a nu fi indus în eroare privind scopul sau natura studiului. Confidențialitatea e capcana de nume: ea privește protejarea datelor personale. Nimic nu indică împiedicarea retragerii sau falsificarea datelor.",
+     "tag": "Percepție subliminală"
+    },
+    {
+     "q": "O boală a celulelor receptoare din retină face ca lumina să ajungă în ochi, dar să nu mai fie transformată în semnale neuronale. Ce proces este afectat?",
+     "opts": [
+      "Adaptarea senzorială",
+      "Transducția",
+      "Discriminarea senzorială",
+      "Percepția subliminală"
+     ],
+     "correct": 1,
+     "explain": "Transducția e procesul prin care stimulii sunt convertiți în semnale neuronale pe care creierul le poate interpreta; fără ea, lumina nu devine informație pentru creier. Adaptarea ar însemna o sensibilitate care scade treptat la un stimul constant, nu absența conversiei. Discriminarea și percepția subliminală presupun că semnalul ajunge deja la creier.",
+     "tag": "Transducție"
+    },
+    {
+     "q": "Două clinici evaluează durerea pacienților: una le cere s-o descrie liber, în cuvinte, cealaltă folosește pentru toți aceeași scală numerică de la 0 la 10. Ce avantaj al scalelor are a doua clinică?",
+     "opts": [
+      "Detectarea schimbărilor în timp, la același pacient",
+      "Etalonarea scalei pe un eșantion reprezentativ",
+      "Standardizarea evaluării, cu date comparabile",
+      "Măsurarea directă a semnalelor fiziologice ale durerii"
+     ],
+     "correct": 2,
+     "explain": "Scala comună oferă un cadru unic de evaluare, deci date comparabile și fiabile între pacienți: standardizarea evaluării. Detectarea schimbărilor ar cere aplicări repetate la același pacient, ceea ce situația nu spune. Etalonarea (capitolul 3) nu e menționată, iar o scală de autoevaluare nu măsoară semnale fiziologice.",
+     "tag": "Standardizarea evaluării"
+    }
+   ]
+  }
+ ]
+}

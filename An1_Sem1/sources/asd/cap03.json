@@ -1,0 +1,1270 @@
+{
+  "schema": "quiz-capitol-v3",
+  "capitol": 3,
+  "titlu": "Mărimile tendinței centrale",
+  "sursa": "Analiza superioară a datelor (UTM), Unitatea III, pp. 40–58",
+  "runde": [
+    {
+      "id": "T",
+      "tip_runda": "baza",
+      "eticheta": "Runda 1 · Teorie",
+      "titlu": "Runda 1 — Teorie",
+      "desc": "Întrebări directe și scurte: ce măsoară un indicator, când se folosește o metodă, ce deosebește două concepte.",
+      "intrebari": [
+        {
+          "q": "La ce niveluri de măsură se poate calcula media aritmetică?",
+          "opts": [
+            "Interval și raport",
+            "Ordinal, interval și raport",
+            "La toate nivelurile",
+            "Nominal și ordinal"
+          ],
+          "correct": 0,
+          "explain": "Media cere adunarea scorurilor, deci intervale egale: se calculează doar la interval și raport, ca în Cap. 1 (Introducere în statistică). Nivelul ordinal permite mediana și modul, iar cel nominal doar modul.",
+          "tag": "Mărimi permise pe niveluri de măsură",
+          "tip": "nivel_masura"
+        },
+        {
+          "q": "Ce mărime a tendinței centrale se poate folosi la orice nivel de măsură?",
+          "opts": [
+            "Mediana",
+            "Media aritmetică",
+            "Modul",
+            "Media ponderată"
+          ],
+          "correct": 2,
+          "explain": "Modul cere doar numărarea cazurilor din fiecare categorie, deci merge la toate nivelurile și e singura mărime pentru variabile nominale. Mediana cere ordonare, iar media (simplă sau ponderată) cere intervale egale.",
+          "tag": "Modul la nivel nominal",
+          "tip": "nivel_masura"
+        },
+        {
+          "q": "De ce nu se poate afla mediana unei variabile nominale?",
+          "opts": [
+            "Variabilele nominale nu au mod",
+            "Categoriile nominale au intervale inegale",
+            "Scorurile nominale nu pot fi ordonate",
+            "Mediana cere un zero natural"
+          ],
+          "correct": 2,
+          "explain": "Mediana e punctul de mijloc al scorurilor ordonate, iar categoriile nominale nu au o ordine. Variabilele nominale au mod (chiar singura mărime posibilă), intervalele inegale sunt problema nivelului ordinal pentru medie, iar mediana nu cere zero natural.",
+          "tag": "Definiția medianei",
+          "tip": "nivel_masura"
+        },
+        {
+          "q": "Ce proprietate a mediei arată că ea e punctul în jurul căruia scorurile se anulează?",
+          "opts": [
+            "Suma abaterilor de la medie este zero",
+            "Suma pătratelor abaterilor e minimă",
+            "Media e trasă spre scorurile extreme",
+            "Media coincide uneori cu mediana"
+          ],
+          "correct": 0,
+          "explain": "Σ(Xi − X̄) = 0 în orice distribuție: abaterile negative și pozitive se compensează exact, de aceea media e o mărime adecvată a centralității. Suma minimă a pătratelor abaterilor e cealaltă proprietate a mediei, cu alt rol; atracția spre extreme e un neajuns.",
+          "tag": "Suma abaterilor egală cu zero",
+          "tip": "principiu"
+        },
+        {
+          "q": "La ce folosește proprietatea că suma pătratelor abaterilor e minimă față de medie?",
+          "opts": [
+            "La aflarea modului dintr-o distribuție grupată",
+            "La calcularea rangului percentilei unui scor",
+            "La definirea mărimilor dispersiei și la corelație",
+            "La alegerea numărului de intervale de clasă"
+          ],
+          "correct": 2,
+          "explain": "Proprietatea e folosită pentru a defini unele mărimi ale dispersiei, ca varianța din Cap. 4 (Mărimile dispersiei), și pentru a calcula unele mărimi ale corelației, din Cap. 12 (Mărimi ale corelației). Modul grupat, rangul percentilei și intervalele de clasă nu se sprijină pe ea.",
+          "tag": "Suma pătratelor abaterilor minimă",
+          "tip": "principiu"
+        },
+        {
+          "q": "De ce mediana nu e trasă spre scorurile extreme?",
+          "opts": [
+            "Se calculează doar din scorurile aflate lângă media aritmetică",
+            "Elimină scorurile extreme înainte de calcul",
+            "Se poate folosi doar la variabile ordinale",
+            "Ține cont de ordinea scorurilor, nu de mărimea lor"
+          ],
+          "correct": 3,
+          "explain": "Mediana depinde doar de ce caz e la mijloc, nu de cât de mari sunt scorurile: 15, 20, 25, 30, 35 și 15, 20, 25, 30, 3500 au aceeași mediană. Scorurile extreme nu se elimină, iar mediana se folosește și la interval și raport — la ordinal e preferată tocmai pentru această proprietate.",
+          "tag": "Rezistența medianei la extreme",
+          "tip": "concept"
+        },
+        {
+          "q": "Ce valoare se ia ca mediană la un număr par de scoruri de interval?",
+          "opts": [
+            "Cel mai mare dintre scorurile de mijloc",
+            "Scorul care apare cel mai des",
+            "Media aritmetică a tuturor scorurilor",
+            "Media celor două scoruri de mijloc"
+          ],
+          "correct": 3,
+          "explain": "La n par, orice valoare dintre cele două scoruri de mijloc satisface definiția, iar la interval și raport se ia, prin convenție, media lor (26, 26, 28, 29, 30, 31, 32, 60 → 29,5). Scorul cel mai frecvent e modul, iar media tuturor scorurilor e media aritmetică.",
+          "tag": "Mediana pentru n impar și n par",
+          "tip": "regula"
+        },
+        {
+          "q": "Ce arată modul unei mulțimi unimodale de scoruri?",
+          "opts": [
+            "Punctul care împarte cazurile în două jumătăți",
+            "Unde se află cea mai mare concentrare de scoruri",
+            "Punctul în jurul căruia abaterile se anulează",
+            "Distanța dintre cel mai mare și cel mai mic scor"
+          ],
+          "correct": 1,
+          "explain": "Modul indică localizarea celei mai mari grupări de scoruri, chiar dacă nu e „la mijloc” (la sacouri, Mo = 50, mediana 48). Punctul de mijloc e mediana, cel în jurul căruia abaterile se anulează e media, iar distanța dintre extreme e amplitudinea, din Cap. 4 (Mărimile dispersiei).",
+          "tag": "Modul în afara mijlocului",
+          "tip": "concept"
+        },
+        {
+          "q": "Ce informație dă compararea mediei cu mediana?",
+          "opts": [
+            "Cât de împrăștiate sunt scorurile în jurul mediei",
+            "Dacă distribuția e simetrică și sensul asimetriei",
+            "Câte moduri are distribuția scorurilor",
+            "Ce nivel de măsură are variabila studiată"
+          ],
+          "correct": 1,
+          "explain": "Media și mediana coincid doar la distribuții simetrice; media mai mare arată asimetrie pozitivă, media mai mică — asimetrie negativă. Împrăștierea o descriu mărimile dispersiei, numărul de moduri se vede din frecvențe, iar nivelul de măsură se stabilește înainte de calcul.",
+          "tag": "Asimetria negativă",
+          "tip": "concept"
+        },
+        {
+          "q": "În ce condiție media, mediana și modul au aceeași valoare?",
+          "opts": [
+            "Distribuția are asimetrie pozitivă",
+            "Distribuția e simetrică și bimodală",
+            "Distribuția e simetrică și unimodală",
+            "Scorurile sunt de nivel ordinal"
+          ],
+          "correct": 2,
+          "explain": "Simetria aduce media și mediana în același punct, iar dacă distribuția are un singur vârf, modul e și el acolo. O distribuție simetrică bimodală are două moduri, de o parte și de alta a mediei; la asimetrie mărimile se despart, iar la nivel ordinal media nici nu se calculează.",
+          "tag": "Distribuția simetrică",
+          "tip": "concept"
+        },
+        {
+          "q": "Când se folosește media ponderată în locul mediei mediilor?",
+          "opts": [
+            "Când grupurile au același număr de scoruri",
+            "Când grupurile au numere diferite de scoruri",
+            "Când scorurile sunt de nivel ordinal",
+            "Când distribuția are asimetrie pozitivă"
+          ],
+          "correct": 1,
+          "explain": "Media ponderată înmulțește media fiecărui grup cu numărul lui de scoruri, ca grupul mai mare să cântărească mai mult. La grupuri egale, media mediilor dă același rezultat; nivelul ordinal nu permite nicio medie, iar asimetria nu schimbă alegerea dintre cele două.",
+          "tag": "Media ponderată",
+          "tip": "metoda"
+        },
+        {
+          "q": "Ce supoziție face calculul medianei pentru date grupate?",
+          "opts": [
+            "Scorurile stau toate în centrul intervalului",
+            "Scorurile sunt distribuite uniform între limitele reale",
+            "Scorurile stau la limita reală superioară",
+            "Scorurile se repetă de atâtea ori câtă e frecvența intervalului"
+          ],
+          "correct": 1,
+          "explain": "La mediana (și la percentilele) pentru date grupate, cazurile unui interval se presupun răspândite uniform între limitele reale, deci se poate interpola. Supoziția că toate scorurile stau în centrul intervalului e a mediei pentru date grupate — o confuzie frecventă între cele două calcule.",
+          "tag": "Mediana pentru date grupate",
+          "tip": "metoda"
+        },
+        {
+          "q": "În ce situații se calculează tendința centrală din date grupate?",
+          "opts": [
+            "Multe scoruri brute fără calculator, sau date din surse secundare",
+            "Date nominale cu multe categorii, sau eșantioane cu foarte puține cazuri",
+            "Distribuții simetrice, sau distribuții cu două moduri",
+            "Scoruri ordinale, sau scoruri care au un zero natural"
+          ],
+          "correct": 0,
+          "explain": "Datele grupate se folosesc când ai multe scoruri brute și valorile aproximative ajung (sau lipsește calculatorul) și când datele vin deja grupate dintr-o sursă secundară, fără scorurile brute. Tehnicile sunt pentru date de interval sau raport; forma distribuției nu decide gruparea.",
+          "tag": "Când se lucrează cu date grupate",
+          "tip": "metoda"
+        },
+        {
+          "q": "Ce descrie o percentilă, spre deosebire de mărimile tendinței centrale?",
+          "opts": [
+            "Poziția unui scor individual față de celelalte",
+            "Valoarea tipică a întregii distribuții",
+            "Gradul de asimetrie al întregii distribuții de scoruri",
+            "Numărul de moduri ale distribuției"
+          ],
+          "correct": 0,
+          "explain": "Mărimile tendinței centrale descriu mulțimea de scoruri printr-o valoare tipică; percentilele descriu poziția unui scor individual (de pildă, câți au sub 47). Asimetria se vede din compararea mediei cu mediana, iar modurile din frecvențe.",
+          "tag": "Definiția percentilei",
+          "tip": "concept"
+        },
+        {
+          "q": "Ce deosebește o percentilă de rangul percentilei?",
+          "opts": [
+            "Percentila e un procent, rangul e un loc în clasament",
+            "Percentila e pentru date grupate, rangul pentru negrupate",
+            "Percentila e pentru date ordinale, rangul pentru interval",
+            "Percentila e un scor, rangul e un procent de cazuri"
+          ],
+          "correct": 3,
+          "explain": "P75 e valoarea (scorul) sub care sunt cel mult 75% din cazuri; rangul percentilei unui scor e procentul de cazuri cu scoruri mai mici sau egale cu el (RP47 = 39,4%). Ambele se calculează și pentru date grupate, și pentru negrupate, iar rangul nu e un loc în clasament.",
+          "tag": "Rangul percentilei",
+          "tip": "concept"
+        }
+      ],
+      "ascunse": [
+        {
+          "q": "Ce percentilă este mediana?",
+          "opts": [
+            "P25",
+            "P75",
+            "P50",
+            "P10"
+          ],
+          "correct": 2,
+          "explain": "Mediana e valoarea sub care sunt cel mult 50% din scoruri și peste care cel mult 50%, deci P50 = Q2. P25 e prima cuartilă, P75 a treia cuartilă, iar P10 prima decilă.",
+          "tag": "Cuartile și decile",
+          "tip": "concept"
+        },
+        {
+          "q": "Ce valoare se ia când o percentilă „cade” între două scoruri?",
+          "opts": [
+            "Media celor două scoruri",
+            "Scorul mai mic dintre ele",
+            "Scorul mai mare dintre ele",
+            "Scorul cel mai frecvent"
+          ],
+          "correct": 0,
+          "explain": "Prin convenție, percentila se aproximează prin media celor două scoruri între care cade (P20 = 4,50 pentru 15 scoruri, între 4 și 5). Alegerea unuia dintre capete nu respectă convenția, iar scorul cel mai frecvent e modul.",
+          "tag": "Percentile pe scoruri neagrupate",
+          "tip": "regula"
+        },
+        {
+          "q": "Ce simboluri deosebesc media unui eșantion de media unei populații?",
+          "opts": [
+            "μ pentru eșantion, X̄ pentru populație",
+            "s pentru eșantion, σ pentru populație",
+            "X̄ pentru eșantion, X̃ pentru populație",
+            "X̄ pentru eșantion, μ pentru populație"
+          ],
+          "correct": 3,
+          "explain": "Media eșantionului se notează X̄, a populației μ (miu). Perechea s / σ notează abaterea standard, din Cap. 4 (Mărimile dispersiei), iar X̃ e simbolul medianei unui eșantion.",
+          "tag": "Definiția mediei aritmetice",
+          "tip": "concept"
+        },
+        {
+          "q": "Spre ce scoruri e trasă mai ales media aritmetică?",
+          "opts": [
+            "Spre scorurile extreme relativ mici",
+            "Spre scorurile extreme relativ mari",
+            "Spre scorul cel mai frecvent",
+            "Spre mijlocul plajei de scoruri"
+          ],
+          "correct": 1,
+          "explain": "Media e trasă întotdeauna în direcția scorurilor extreme, mai ales a celor relativ mari: cu 3500 în loc de 35, media sare de la 25 la 718, iar cu 1 coboară doar la 18,2. Scorul cel mai frecvent e modul, care nu atrage media.",
+          "tag": "Sensibilitatea la scorurile extreme",
+          "tip": "concept"
+        },
+        {
+          "q": "Când o mulțime de scoruri nu are mod?",
+          "opts": [
+            "Când toate scorurile apar de același număr de ori",
+            "Când două scoruri apar la fel de des, mai des ca restul",
+            "Când media e diferită de mediana mulțimii",
+            "Când distribuția are asimetrie negativă"
+          ],
+          "correct": 0,
+          "explain": "Modul e scorul care apare mai des decât celelalte; dacă fiecare scor apare de un număr egal de ori, nu există mod. Două scoruri mai frecvente decât restul fac mulțimea bimodală, iar diferența medie–mediană sau asimetria nu spun nimic despre existența modului.",
+          "tag": "Mulțimi unimodale și multimodale",
+          "tip": "concept"
+        }
+      ]
+    },
+    {
+      "id": "1",
+      "eticheta": "Runda 2 · Bază",
+      "titlu": "Runda 2 — Concepte de bază",
+      "desc": "Situații scurte: recunoști mărimea potrivită sau aplici direct o regulă pe date puține.",
+      "intrebari": [
+        {
+          "q": "Cinci participanți au rezolvat 4, 6, 7, 8 și 10 probleme. Câte probleme au rezolvat, în medie?",
+          "opts": [
+            "7",
+            "35",
+            "8,75",
+            "6,5"
+          ],
+          "correct": 0,
+          "explain": "Media e suma scorurilor împărțită la numărul lor: 35 / 5 = 7. 35 e doar suma; 8,75 împarte la 4 în loc de 5; 6,5 e media celor două scoruri din jurul mijlocului, ca la o mediană pentru n par, deși aici n e impar.",
+          "tag": "Definiția mediei aritmetice",
+          "tip": "calcul"
+        },
+        {
+          "q": "Într-o grupă de 10 studenți, 2 au 20 de ani, 5 au 21 și 3 au 24. Cât este vârsta medie?",
+          "opts": [
+            "21,67",
+            "21,7",
+            "21",
+            "72,3"
+          ],
+          "correct": 1,
+          "explain": "Fiecare vârstă se înmulțește cu frecvența ei: (2 · 20 + 5 · 21 + 3 · 24) / 10 = 217 / 10 = 21,7 — ca la vârstele celor 11 persoane din curs. 21,67 e media celor trei vârste distincte, fără frecvențe; 21 e vârsta cea mai frecventă (și cea de mijloc); 72,3 împarte la 3 în loc de 10.",
+          "tag": "Calculul cu frecvențe",
+          "tip": "calcul"
+        },
+        {
+          "q": "Un cercetător a notat grupa sanguină (0, A, B, AB) a 200 de donatori și vrea să raporteze tendința centrală. Ce poate folosi?",
+          "opts": [
+            "Modul și mediana",
+            "Media, mediana și modul",
+            "Doar modul",
+            "Doar mediana"
+          ],
+          "correct": 2,
+          "explain": "Grupa sanguină e o variabilă nominală: categoriile nu au ordine și nici distanțe, deci se poate folosi doar modul — grupa cu cei mai mulți donatori. Mediana cere ordonare (nivel ordinal), media cere intervale egale, ca în Cap. 1 (Introducere în statistică).",
+          "tag": "Mărimi permise pe niveluri de măsură",
+          "tip": "nivel_masura"
+        },
+        {
+          "q": "Pacienții își evaluează durerea ca ușoară, moderată, severă sau insuportabilă. Ce mărimi ale tendinței centrale are sens să raportezi?",
+          "opts": [
+            "Doar modul",
+            "Media, mediana și modul",
+            "Doar media",
+            "Modul și mediana"
+          ],
+          "correct": 3,
+          "explain": "Răspunsurile se pot ordona, dar distanțele dintre ele nu sunt egale: la nivel ordinal se folosesc modul și mediana. Doar modul ar fi limita nivelului nominal; media ar presupune că distanța „ușoară–moderată” egalează distanța „severă–insuportabilă”.",
+          "tag": "Mediana la nivel ordinal",
+          "tip": "nivel_masura"
+        },
+        {
+          "q": "Trei scoruri, 3, 5 și 10, au media 6. Cât este suma abaterilor lor de la medie?",
+          "opts": [
+            "8",
+            "0",
+            "26",
+            "18"
+          ],
+          "correct": 1,
+          "explain": "Abaterile sunt −3, −1 și +4, iar suma lor e 0 — în orice distribuție, abaterile de la medie se anulează. 8 adună abaterile fără semn, 26 adună pătratele lor, 18 este suma scorurilor.",
+          "tag": "Suma abaterilor egală cu zero",
+          "tip": "calcul"
+        },
+        {
+          "q": "Un statistician vrea punctul față de care suma pătratelor abaterilor scorurilor să fie cât mai mică. Ce mărime alege?",
+          "opts": [
+            "Mediana",
+            "Modul",
+            "Media aritmetică",
+            "Centrul plajei de scoruri"
+          ],
+          "correct": 2,
+          "explain": "Suma pătratelor abaterilor e minimă față de medie (în exemplul din curs, 74 față de media 19, dar 118 față de scorul 17) — proprietate folosită apoi la mărimile dispersiei, în Cap. 4 (Mărimile dispersiei). Mediana și modul nu au această proprietate; mijlocul plajei depinde doar de cele două extreme.",
+          "tag": "Suma pătratelor abaterilor minimă",
+          "tip": "principiu"
+        },
+        {
+          "q": "Cinci copii rezolvă un puzzle în 30, 30, 40, 40 și 360 de secunde. Ce se întâmplă cu media față de mediană?",
+          "opts": [
+            "Media e 40, mediana 100: mediana e trasă de scorul 360",
+            "Ambele sunt 40, pentru că scorul extrem nu contează",
+            "Media e 100, mediana 35: ambele sunt trase de 360",
+            "Media e 100, mediana 40: media e trasă de scorul 360"
+          ],
+          "correct": 3,
+          "explain": "Media = 500 / 5 = 100, deși patru copii au sub 41 de secunde; mediana, scorul celui de-al treilea caz din cinci, rămâne 40, pentru că ține cont doar de ordine. Media e trasă spre scorurile extreme, mai ales spre cele mari; scorul extrem nu schimbă mediana, dar schimbă media.",
+          "tag": "Sensibilitatea la scorurile extreme",
+          "tip": "concept"
+        },
+        {
+          "q": "Timpii de rezolvare a unei sarcini, în minute, au fost 12, 7, 15, 9 și 30. Cât este mediana?",
+          "opts": [
+            "12",
+            "15",
+            "14,6",
+            "18,5"
+          ],
+          "correct": 0,
+          "explain": "Întâi se ordonează: 7, 9, 12, 15, 30; cazul de mijloc e al 3-lea, deci mediana e 12 (două scoruri mai mici, două mai mari). 15 e scorul din mijlocul listei neordonate; 14,6 e media; 18,5 e jumătatea distanței dintre minim și maxim.",
+          "tag": "Definiția medianei",
+          "tip": "calcul"
+        },
+        {
+          "q": "Opt vârste ordonate: 26, 26, 28, 29, 30, 31, 32, 60. Cât este mediana?",
+          "opts": [
+            "29",
+            "32,75",
+            "29,5",
+            "30"
+          ],
+          "correct": 2,
+          "explain": "Pentru n par există două cazuri de mijloc, al 4-lea (29) și al 5-lea (30); la interval și raport se ia, prin convenție, media lor: 29,5. 29 și 30 iau doar unul dintre cazurile de mijloc, iar 32,75 este media tuturor celor opt vârste, trasă în sus de scorul 60.",
+          "tag": "Mediana pentru n impar și n par",
+          "tip": "calcul"
+        },
+        {
+          "q": "Notele a nouă elevi sunt 4, 6, 7, 7, 7, 7, 8, 9, 10. Cât este mediana?",
+          "opts": [
+            "7,5",
+            "7",
+            "7,22",
+            "8"
+          ],
+          "correct": 1,
+          "explain": "Al 5-lea caz din 9 are nota 7: patru note sunt mai mici sau egale cu 7, patru sunt mai mari sau egale. Scorurile egale cu mediana sunt în regulă — de aceea definiția spune „sau egale”. 7,22 e media, 7,5 aplică inutil convenția pentru n par.",
+          "tag": "De ce „sau egale”",
+          "tip": "calcul"
+        },
+        {
+          "q": "Șapte studenți spun cât de des citesc: Deloc, Rar, Rar, Des, Des, Foarte des, Foarte des. Care este răspunsul median?",
+          "opts": [
+            "Des",
+            "Rar",
+            "Între Des și Foarte des",
+            "Nu există, datele fiind ordinale"
+          ],
+          "correct": 0,
+          "explain": "Răspunsurile sunt deja ordonate; al 4-lea caz din 7 răspunde Des, deci trei răspunsuri sunt sub el și trei peste. Mediana se poate afla la nivel ordinal; doar la n par cu două cazuri de mijloc diferite s-ar alege categoria dintre ele.",
+          "tag": "Mediana la nivel ordinal",
+          "tip": "concept"
+        },
+        {
+          "q": "La un sondaj, 40 de studenți își aleg ramura preferată: socială 15, clinică 12, organizațională 8, experimentală 5. Care este modul?",
+          "opts": [
+            "15 studenți",
+            "Psihologia clinică",
+            "10 studenți pe ramură",
+            "Psihologia socială"
+          ],
+          "correct": 3,
+          "explain": "Variabila e nominală, deci modul e singura mărime posibilă, iar modul e categoria cu cele mai multe cazuri — psihologia socială — ca statusul „Căsătorit” din exemplul cursului. 15 e frecvența modului, nu modul; 10 e o frecvență medie, fără sens aici.",
+          "tag": "Modul la nivel nominal",
+          "tip": "nivel_masura"
+        },
+        {
+          "q": "Un psiholog notează numărul de greșeli ale unor participanți: 3, 3, 3, 5, 5, 5, 7, 10, 12. Cum descrii modul?",
+          "opts": [
+            "Mulțime bimodală: 3 și 5 apar de câte trei ori",
+            "Unimodală, cu modul 5, scorul aflat la mijloc",
+            "Fără mod, pentru că mai multe scoruri se repetă",
+            "Unimodală, cu modul 3, primul scor repetat"
+          ],
+          "correct": 0,
+          "explain": "Atât 3, cât și 5 apar de câte trei ori, mai des decât celelalte scoruri, deci mulțimea e bimodală. 5 este mediana (al 5-lea caz din 9), nu modul; o mulțime e „fără mod” doar când toate scorurile apar de același număr de ori.",
+          "tag": "Mulțimi unimodale și multimodale",
+          "tip": "concept"
+        },
+        {
+          "q": "La un test, media scorurilor este 62, iar mediana 54. Ce formă are, cel mai probabil, distribuția?",
+          "opts": [
+            "Asimetrie negativă: câteva scoruri foarte mici",
+            "Simetrică: diferența dintre ele e întâmplătoare",
+            "Asimetrie pozitivă: câteva scoruri foarte mari",
+            "Bimodală: două grupări distincte de scoruri"
+          ],
+          "correct": 2,
+          "explain": "Media mai mare decât mediana arată că există câteva scoruri foarte mari care o trag în sus, cu predominanța celor mici: asimetrie pozitivă. Asimetria negativă ar da medie mai mică decât mediana; la o distribuție simetrică cele două ar coincide.",
+          "tag": "Asimetria pozitivă",
+          "tip": "concept"
+        },
+        {
+          "q": "Un cercetător constată că media și mediana scorurilor lui sunt ambele 50. Ce poate spune despre forma distribuției?",
+          "opts": [
+            "Are asimetrie pozitivă",
+            "E simetrică",
+            "Are asimetrie negativă",
+            "E sigur bimodală"
+          ],
+          "correct": 1,
+          "explain": "Media și mediana au aceeași valoare numai când distribuția e simetrică. Asimetria pozitivă le-ar separa cu media deasupra, cea negativă cu media dedesubt; egalitatea lor nu spune câte moduri are distribuția.",
+          "tag": "Distribuția simetrică",
+          "tip": "concept"
+        },
+        {
+          "q": "Două facultăți raportează media de admitere: 8,2 la 400 de candidați și 9,0 la 100 de candidați. Cum afli media tuturor celor 500?",
+          "opts": [
+            "Media simplă a celor două medii",
+            "Mediana celor două medii raportate",
+            "Media grupului cu mai mulți candidați",
+            "Media ponderată cu numărul de candidați"
+          ],
+          "correct": 3,
+          "explain": "Grupurile au mărimi diferite, deci fiecare medie se înmulțește cu numărul de candidați, iar suma se împarte la 500: (400 · 8,2 + 100 · 9,0) / 500 = 8,36. Media simplă (8,6) ar da aceeași greutate celor 100 ca celor 400; media grupului mai mare ignoră complet celălalt grup.",
+          "tag": "Media ponderată",
+          "tip": "metoda"
+        },
+        {
+          "q": "Ai doar un tabel cu intervale de clasă (10–14: 4 cazuri; 15–19: 6 cazuri) și calculezi media. Ce scor atribui fiecăruia dintre cele 6 cazuri din 15–19?",
+          "opts": [
+            "17, centrul intervalului",
+            "14,5, limita reală inferioară",
+            "19,5, limita reală superioară",
+            "15, limita stabilită inferioară"
+          ],
+          "correct": 0,
+          "explain": "Media pentru date grupate presupune că toate scorurile dintr-un interval stau în centrul lui, (15 + 19) / 2 = 17, deci cele 6 cazuri contribuie cu 6 · 17. Limitele reale, din Cap. 2 (Prezentarea datelor statistice), se folosesc la mediană și la percentile, unde scorurile sunt presupuse distribuite uniform între ele.",
+          "tag": "Media pentru date grupate",
+          "tip": "metoda"
+        },
+        {
+          "q": "Într-un tabel grupat, intervalul 30–34 are cele mai multe cazuri (25). Ce valoare raportezi ca mod?",
+          "opts": [
+            "25, frecvența intervalului",
+            "29,5, limita lui reală inferioară",
+            "32, centrul intervalului",
+            "34,5, limita lui reală superioară"
+          ],
+          "correct": 2,
+          "explain": "Din date grupate modul efectiv nu se poate afla; se ia intervalul modal, iar centrul lui e considerat modul: (30 + 34) / 2 = 32. 25 e numărul de cazuri, nu un scor; limitele reale delimitează intervalul, nu-i dau valoarea tipică.",
+          "tag": "Intervalul modal",
+          "tip": "concept"
+        },
+        {
+          "q": "Un student află că scorul lui la examen este egal cu a treia cuartilă (Q3) a grupei. Ce înseamnă asta?",
+          "opts": [
+            "Cel puțin 75% dintre colegi au scoruri mai mari",
+            "Cel mult 75% dintre colegi au scoruri mai mici",
+            "Are scorul obținut cel mai des în grupă",
+            "Scorul lui e în al treilea interval de clasă"
+          ],
+          "correct": 1,
+          "explain": "Q3 = P75: cel mult 75% din scoruri sunt mai mici și cel mult 25% mai mari. Varianta cu 75% deasupra inversează sensul (ar fi Q1); scorul cel mai frecvent e modul; cuartilele împart scorurile ordonate în sferturi, nu numără intervale de clasă.",
+          "tag": "Cuartile și decile",
+          "tip": "concept"
+        },
+        {
+          "q": "Un candidat află că scorul lui are rangul percentilei 80. Ce înseamnă?",
+          "opts": [
+            "A obținut 80% din punctajul maxim al testului",
+            "80% din candidați au scoruri mai mari decât el",
+            "Se află pe locul 80 în clasamentul candidaților",
+            "80% din candidați au scoruri mai mici sau egale"
+          ],
+          "correct": 3,
+          "explain": "Rangul percentilei e procentul de cazuri cu scoruri mai mici sau egale cu un scor dat. Nu e un procent din punctaj și nici un loc în clasament; varianta cu 80% deasupra inversează sensul.",
+          "tag": "Rangul percentilei",
+          "tip": "concept"
+        }
+      ],
+      "ascunse": [
+        {
+          "q": "Un psiholog notează scorurile 2, 3, 3, 5, 6, 6, 6, 9. Care este modul?",
+          "opts": [
+            "5,5",
+            "5",
+            "6",
+            "3 și 6"
+          ],
+          "correct": 2,
+          "explain": "6 apare de trei ori, mai des decât orice alt scor, deci e modul (mulțimea e unimodală). 5,5 e mediana (media cazurilor 4 și 5), 5 e media (40 / 8), iar 3 apare doar de două ori, deci mulțimea nu e bimodală.",
+          "tag": "Definiția modului",
+          "tip": "calcul"
+        },
+        {
+          "q": "Un cercetător calculează media celor 10 scoruri ale sale o dată direct și o dată ca medie ponderată a două subgrupuri, de 6 și de 4 scoruri. Ce obține?",
+          "opts": [
+            "Același rezultat, pe ambele căi",
+            "O medie ponderată mai mică decât cea directă",
+            "Doar o aproximare prin media ponderată",
+            "Rezultate diferite, subgrupurile fiind inegale"
+          ],
+          "correct": 0,
+          "explain": "Pe aceeași mulțime de scoruri, media directă și media ponderată a subgrupurilor dau același rezultat (în exemplul din curs, 6,90 pe ambele căi). Rezultatul diferit l-ar da media simplă a celor două medii, care ignoră mărimea subgrupurilor.",
+          "tag": "Echivalența formulelor 3.1 și 3.2",
+          "tip": "principiu"
+        },
+        {
+          "q": "Primești dintr-un raport doar un tabel cu intervale de clasă, fără scorurile individuale. Ce poți afla despre tendința centrală?",
+          "opts": [
+            "Valorile exacte ale celor trei mărimi",
+            "Doar modul exact, nu media sau mediana",
+            "Nimic, fără scorurile brute individuale",
+            "Valori aproximative ale celor trei mărimi"
+          ],
+          "correct": 3,
+          "explain": "Când lucrezi cu date din surse secundare, deja grupate, nu știi cum sunt distribuite scorurile în interval, deci poți doar aproxima media, mediana și modul. Modul efectiv e tocmai cel care nu se mai poate afla — se ia centrul intervalului modal.",
+          "tag": "Când se lucrează cu date grupate",
+          "tip": "principiu"
+        },
+        {
+          "q": "Calculezi mediana unei distribuții grupate cu n = 75 de cazuri. Al câtelea caz cauți?",
+          "opts": [
+            "Al 38-lea, adică (n + 1)/2",
+            "Al 37,5-lea, adică n/2",
+            "Al 37-lea și al 38-lea",
+            "Cazul intervalului cel mai mare"
+          ],
+          "correct": 1,
+          "explain": "Pentru date grupate se introduce o simplificare: cazul de mijloc e mereu al n/2-lea, indiferent dacă n e par sau impar. (n + 1)/2 și perechea de cazuri de mijloc sunt regulile pentru scoruri neagrupate; intervalul cu cele mai multe cazuri e intervalul modal.",
+          "tag": "Mediana pentru date grupate",
+          "tip": "metoda"
+        },
+        {
+          "q": "Ai 20 de scoruri ordonate și cauți prima cuartilă, Q1. Cel mult câte scoruri pot fi mai mici decât ea?",
+          "opts": [
+            "25",
+            "15",
+            "5",
+            "10"
+          ],
+          "correct": 2,
+          "explain": "Q1 = P25: cel mult 25% din scoruri, adică 20 · 0,25 = 5, sunt mai mici, și cel mult 15 mai mari. 25 confundă procentul cu numărul de scoruri, 15 e numărul maxim de scoruri de deasupra, 10 corespunde medianei.",
+          "tag": "Percentile pe scoruri neagrupate",
+          "tip": "calcul"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "eticheta": "Runda 3 · Aplicații",
+      "titlu": "Runda 3 — Scenarii și raționament",
+      "desc": "Situații noi: alegi mărimea potrivită, calculezi pe date brute sau grupate și găsești eroarea.",
+      "intrebari": [
+        {
+          "q": "O firmă mică: 9 angajați câștigă între 4000 și 5000 de lei, iar directorul 60 000. Ce mărime descrie cel mai bine venitul tipic?",
+          "opts": [
+            "Media, pentru că folosește informația din toate veniturile",
+            "Mediana, pentru că ține cont doar de ordinea veniturilor",
+            "Modul, singura mărime potrivită pentru datele de raport",
+            "Media, după ce venitul directorului e ponderat separat"
+          ],
+          "correct": 1,
+          "explain": "Ca vârsta 60 din tabelul 3.3, venitul directorului trage media mult în sus, în timp ce mediana, care ține cont doar de ordine, rămâne printre veniturile obișnuite. Faptul că media „folosește toate scorurile” e tocmai motivul pentru care e trasă de extreme; la raport sunt permise toate trei mărimile, nu doar modul.",
+          "tag": "Rezistența medianei la extreme",
+          "tip": "concept",
+          "exemplu_nou": true
+        },
+        {
+          "q": "Grupa A (20 de studenți) are media 8, grupa B (30 de studenți) are media 6. Cât este media celor 50 de studenți?",
+          "opts": [
+            "7,0",
+            "7,2",
+            "14,0",
+            "6,8"
+          ],
+          "correct": 3,
+          "explain": "Media ponderată: (20 · 8 + 30 · 6) / 50 = 340 / 50 = 6,8, mai aproape de grupa mai mare. 7,0 e media mediilor (ignoră mărimea grupelor), 7,2 inversează ponderile, iar 14 e doar suma mediilor.",
+          "tag": "Media ponderată",
+          "tip": "calcul",
+          "exemplu_nou": true
+        },
+        {
+          "q": "La un test foarte ușor, majoritatea elevilor au note mari și doar câțiva au note foarte mici. Ce relație te aștepți între medie și mediană?",
+          "opts": [
+            "Media mai mică decât mediana: asimetrie negativă",
+            "Media mai mare decât mediana: asimetrie pozitivă",
+            "Media egală cu mediana, căci notele sunt de interval",
+            "Media mai mică decât mediana: asimetrie pozitivă"
+          ],
+          "correct": 0,
+          "explain": "Câteva scoruri foarte mici, cu predominanța celor mari, trag media în jos: X̄ < X̃, adică asimetrie negativă. Varianta cu relația corectă, dar numită „pozitivă”, confundă sensul asimetriei (care urmează coada distribuției); nivelul de măsură nu garantează simetria.",
+          "tag": "Asimetria negativă",
+          "tip": "concept",
+          "exemplu_nou": true
+        },
+        {
+          "q": "Satisfacția clienților, pe scala Foarte nemulțumit – Nemulțumit – Neutru – Mulțumit – Foarte mulțumit. La 10 respondenți, cazurile de mijloc răspund „Nemulțumit” și „Mulțumit”. Ce răspuns median raportezi?",
+          "opts": [
+            "Nu există mediană, pentru că cele două cazuri de mijloc diferă",
+            "Mulțumit, răspunsul mai favorabil dintre cazurile de mijloc",
+            "Neutru, categoria aflată între cele două cazuri de mijloc",
+            "Nemulțumit, răspunsul primului dintre cele două cazuri de mijloc"
+          ],
+          "correct": 2,
+          "explain": "La date ordinale, ca la exemplul cu cinematograful, orice răspuns între cele două cazuri de mijloc satisface definiția, iar practic se alege categoria dintre ele (acolo: Rar, între Des și Foarte rar). Două cazuri de mijloc diferite nu anulează mediana; alegerea unuia dintre ele ar lăsa de o parte mai multe cazuri decât de cealaltă.",
+          "tag": "Mediana la nivel ordinal",
+          "tip": "concept",
+          "exemplu_nou": true
+        },
+        {
+          "q": "Un magazin a vândut într-o săptămână sacouri cu măsurile 44, 44, 46, 46, 46, 48, 50, 50, 50, 50, 50. Ce mărime îl interesează cel mai mult pe director?",
+          "opts": [
+            "Mediana, 48: măsura aflată la mijlocul vânzărilor ordonate",
+            "Modul, 50: măsura cerută cel mai des, de care ține stocul",
+            "Media, ≈ 47,6: rezumă cel mai fidel toate măsurile vândute",
+            "Media, ≈ 47,6, rotunjită la cea mai apropiată măsură, 48"
+          ],
+          "correct": 1,
+          "explain": "Modul arată unde e cea mai mare concentrare de cazuri — măsura modală contează pentru director mai mult decât mediana. Media nu e semnificativă aici: numerele măsurilor sunt convenționale (puteau fi litere), deci nici rotunjită nu capătă sens.",
+          "tag": "Modul în afara mijlocului",
+          "tip": "concept",
+          "exemplu_nou": false
+        },
+        {
+          "q": "Numărul de copii din 16 familii: 3 familii au 0 copii, 4 au unul, 7 au doi, 2 au trei. De ce mediana este 2, deși n e par și există două cazuri de mijloc?",
+          "opts": [
+            "Pentru că 2 este numărul de copii care apare de cele mai multe ori",
+            "Pentru că între cazurile 8 și 9 se ia, prin convenție, scorul mai mare",
+            "Pentru că 2 se află la mijlocul plajei de valori posibile, de la 0 la 3",
+            "Cazurile 8 și 9 au amândouă 2 copii: 8 familii au ≤ 2, iar 8 au ≥ 2"
+          ],
+          "correct": 3,
+          "explain": "Cele două cazuri de mijloc au același scor, iar „sau egale” din definiție face ca 2 să o satisfacă: 8 familii au cel mult 2 copii, 8 au cel puțin 2. Că 2 e și modul e o coincidență, nu motivul; convenția pentru cazuri de mijloc diferite e media lor, nu scorul mai mare; mijlocul plajei 0–3 ar fi 1,5.",
+          "tag": "De ce „sau egale”",
+          "tip": "concept",
+          "exemplu_nou": false
+        },
+        {
+          "q": "Scorurile 4, 7, 9, 12, 18 au media 10. Un student calculează abaterile de la medie și obține suma +3. Ce concluzie e corectă?",
+          "opts": [
+            "A greșit un calcul: suma abaterilor de la medie e mereu zero",
+            "Distribuția e asimetrică pozitiv, de aceea suma iese pozitivă",
+            "Suma e corectă, pentru că scorul 18 trage abaterile în sus",
+            "A greșit doar semnul: suma corectă a abaterilor ar fi −3"
+          ],
+          "correct": 0,
+          "explain": "Abaterile sunt −6, −3, −1, +2, +8, cu suma 0 — și așa trebuie să fie în orice distribuție. Asimetria sau un scor extrem schimbă poziția mediei, dar nu și faptul că abaterile de la ea se anulează.",
+          "tag": "Suma abaterilor egală cu zero",
+          "tip": "concept",
+          "exemplu_nou": true
+        },
+        {
+          "q": "Pentru scorurile 2, 4, 9 (media 5), un cercetător caută valoarea față de care suma pătratelor abaterilor este cea mai mică. Ce găsește?",
+          "opts": [
+            "Mediana, 4: e mai centrală, nefiind trasă de scorul 9",
+            "Orice valoare: suma pătratelor abaterilor e mereu zero",
+            "Media, 5: suma pătratelor abaterilor față de ea e 26",
+            "Scorul 2: abaterile față de el sunt toate pozitive"
+          ],
+          "correct": 2,
+          "explain": "Față de medie: 9 + 1 + 16 = 26; față de mediana 4: 4 + 0 + 25 = 29; față de 2: 0 + 4 + 49 = 53. Suma pătratelor e minimă față de medie — proprietate folosită la mărimile dispersiei, în Cap. 4 (Mărimile dispersiei). Zero e suma abaterilor simple, nu a pătratelor.",
+          "tag": "Suma pătratelor abaterilor minimă",
+          "tip": "calcul",
+          "exemplu_nou": true
+        },
+        {
+          "q": "O psihologă școlară are doar tabelul grupat al scorurilor a 60 de elevi la un test de atenție: sub intervalul 30–34 s-au cumulat 24 de elevi, iar intervalul are 12 (mărimea 5). Ce mediană aproximativă raportează?",
+          "opts": [
+            "32,0",
+            "32,5",
+            "42,0",
+            "34,5"
+          ],
+          "correct": 0,
+          "explain": "Cazul de mijloc: 60/2 = 30, al 6-lea din cele 12 ale intervalului; X̃ ≈ 29,5 + (30 − 24)/12 · 5 = 29,5 + 2,5 = 32,0. 32,5 pornește greșit de la limita stabilită 30 în loc de limita reală 29,5; 42,0 uită să scadă cele 24 de cazuri cumulate.",
+          "tag": "Mediana pentru date grupate",
+          "tip": "calcul",
+          "exemplu_nou": true
+        },
+        {
+          "q": "Scorurile a 180 de subiecți, grupate în intervalele 20–24, 25–29 … 65–69, au frecvențele 1, 2, 7, 18, 22, 42, 30, 37, 15, 6. Intervalele 45–49 (42) și 55–59 (37) depășesc ambele intervalele vecine. Cum descrii modul?",
+          "opts": [
+            "Unimodală, cu modul 47, singurul interval cu frecvența maximă",
+            "Bimodală, cu modurile 49,5 și 59,5, limitele lor reale superioare",
+            "Unimodală, cu modul 56, scorul cel mai frecvent din interval",
+            "Bimodală, cu modurile 47 și 57, centrele celor două intervale"
+          ],
+          "correct": 3,
+          "explain": "După definiția strictă intervalul modal ar fi doar 45–49, dar, ca în exemplul din curs, distribuția se tratează ca bimodală, pentru că are două intervale neadiacente mai înalte decât vecinele; modurile sunt centrele lor. 56 e modul scorurilor brute, care nu se poate afla din datele grupate; limitele reale superioare servesc ogivei.",
+          "tag": "Intervalul modal",
+          "tip": "concept",
+          "exemplu_nou": false
+        },
+        {
+          "q": "Zece angajați au la un test de dexteritate scorurile 3, 5, 6, 8, 9, 11, 14, 15, 18, 20. Firma vrea pragul primului sfert (Q1). Cât este?",
+          "opts": [
+            "5,5",
+            "2,5",
+            "6",
+            "10"
+          ],
+          "correct": 2,
+          "explain": "Q1 e valoarea cu cel mult 10 · 0,25 = 2,5 scoruri sub ea și cel mult 7,5 peste: doar 6 satisface condiția (2 sub, 7 peste). 5,5 aplică greșit convenția mediei a două scoruri (5 are 8 scoruri peste el); 2,5 e numărul de scoruri, nu valoarea; 10 este mediana.",
+          "tag": "Percentile pe scoruri neagrupate",
+          "tip": "calcul",
+          "exemplu_nou": true
+        },
+        {
+          "q": "Un candidat a luat 62 la un concurs cu 200 de candidați. În tabelul grupat, intervalul 60–64 (limite reale 59,5–64,5) are 20 de candidați, iar sub el s-au cumulat 140. Ce rang al percentilei are scorul lui?",
+          "opts": [
+            "70",
+            "80",
+            "75",
+            "74"
+          ],
+          "correct": 2,
+          "explain": "(62 − 59,5)/5 = 0,5, deci 20 · 0,5 = 10 cazuri din interval au scoruri ≤ 62; RP62 = (140 + 10)/200 · 100 = 75. 70 numără doar cazurile de sub interval, 80 numără tot intervalul, iar 74 pornește de la limita stabilită 60 în loc de 59,5.",
+          "tag": "Rangul percentilei",
+          "tip": "calcul",
+          "exemplu_nou": true
+        },
+        {
+          "q": "Sondaj despre mijlocul de transport: autobuz 45, mașină 30, bicicletă 15, pe jos 10 (codate 1–4). Ce raportezi ca tendință centrală?",
+          "opts": [
+            "Mediana: codul 2, mașina, la care cad cazurile de mijloc",
+            "Media codurilor, ≈ 1,9, rotunjită la categoria mașină",
+            "Modul: 45, frecvența celei mai mari categorii",
+            "Modul: autobuzul, categoria cu cele mai multe cazuri"
+          ],
+          "correct": 3,
+          "explain": "Variabila e nominală (codurile sunt doar nume, ca în Cap. 1 (Introducere în statistică)), deci singura mărime permisă e modul — categoria Autobuz. Mediana cere ordonare, media cere intervale egale; iar modul este categoria, nu frecvența ei (45).",
+          "tag": "Modul la nivel nominal",
+          "tip": "nivel_masura",
+          "exemplu_nou": true
+        },
+        {
+          "q": "Pentru cei 140 de studenți (86 de băieți cu media 7,33 și 54 de fete cu media 8,45), un coleg raportează media 7,89. Unde greșește?",
+          "opts": [
+            "A ponderat invers: 54 la băieți și 86 la fete, în loc de invers",
+            "A mediat mediile, deși grupurile au numere diferite de scoruri",
+            "Nu greșește: media celor două medii e corectă pentru orice grupuri",
+            "A împărțit suma produselor la 140, în loc de numărul de grupuri"
+          ],
+          "correct": 1,
+          "explain": "(7,33 + 8,45)/2 = 7,89 ignoră că băieții sunt mai mulți; media ponderată e (86 · 7,33 + 54 · 8,45)/140 = 7,76. Media mediilor e corectă doar când grupurile au același număr de scoruri; împărțirea la N = 140 este chiar pasul corect.",
+          "tag": "Eroarea mediei mediilor",
+          "tip": "eroare",
+          "exemplu_nou": false
+        },
+        {
+          "q": "Timpii de reacție dintr-un experiment au o distribuție simetrică, cu un singur vârf; media este 412 ms. Ce poți spune, fără alte calcule, despre mediană și mod?",
+          "opts": [
+            "Au și ele valoarea de 412 ms",
+            "Mediana e 412 ms, modul e necunoscut",
+            "Sunt mai mici, timpii având zero natural",
+            "Nu se pot afla fără scorurile brute"
+          ],
+          "correct": 0,
+          "explain": "Simetria face ca media și mediana să coincidă, iar unimodalitatea adaugă și modul în același punct. Zeroul natural al timpului ține de nivelul de raport, nu de forma distribuției; scorurile brute nu sunt necesare când forma e cunoscută.",
+          "tag": "Distribuția simetrică",
+          "tip": "concept",
+          "exemplu_nou": true
+        },
+        {
+          "q": "Un cercetător are doar tabelul grupat al unor timpi de reacție și obține media 412 ms din centrele intervalelor. Un coleg cu scorurile brute găsește 409 ms. Ce explică diferența?",
+          "opts": [
+            "Unul a greșit, mediile ar trebui să coincidă",
+            "Centrele trebuiau ponderate cu limitele reale",
+            "Scorurile nu stau de fapt în centrul intervalelor",
+            "Datele grupate supraestimează mereu media"
+          ],
+          "correct": 2,
+          "explain": "Media pentru date grupate presupune că toate scorurile unui interval stau în centrul lui; scorurile reale se abat de la el, deci rezultatul e o aproximare (în curs: 49,25 față de 49,22). Diferența nu e o greșeală de calcul și nu are un sens fix — poate ieși și sub media reală.",
+          "tag": "Media pentru date grupate",
+          "tip": "concept",
+          "exemplu_nou": true
+        },
+        {
+          "q": "Zilele de concediu medical pe an ale celor 200 de angajați: cei mai mulți au 0–3 zile, câțiva peste 60. HR vrea un număr pentru „angajatul tipic” și unul din care să estimeze totalul zilelor. Ce folosește?",
+          "opts": [
+            "Mediana pentru angajatul tipic, media pentru total",
+            "Media pentru ambele, zilele fiind date de raport",
+            "Mediana pentru ambele, fiind rezistentă la extreme",
+            "Modul pentru angajatul tipic, mediana pentru total"
+          ],
+          "correct": 0,
+          "explain": "Distribuția are asimetrie pozitivă: câțiva angajați cu foarte multe zile trag media în sus, așa că mediana descrie mai bine cazul tipic. Pentru total însă contează toate zilele: media înmulțită cu n redă suma (ΣX = n · X̄) — interpretare care decurge din formula mediei. Mediana nu poate reconstitui totalul.",
+          "tag": "Asimetria pozitivă",
+          "tip": "concept",
+          "exemplu_nou": true
+        },
+        {
+          "q": "Scoruri grupate, n = 120: sub intervalul 40–44 s-au cumulat 80 de cazuri, iar intervalul are 20 (limite reale 39,5–44,5). Cât este percentila 75?",
+          "opts": [
+            "42,5",
+            "62,0",
+            "44,5",
+            "42,0"
+          ],
+          "correct": 3,
+          "explain": "P75 cere cazul 120 · 0,75 = 90, al 10-lea din cele 20 ale intervalului: 39,5 + (90 − 80)/20 · 5 = 42,0. 42,5 pornește de la limita stabilită 40; 62,0 uită să scadă cele 80 de cazuri cumulate; 44,5 e doar limita superioară a intervalului.",
+          "tag": "Percentile pentru date grupate",
+          "tip": "calcul",
+          "exemplu_nou": true
+        },
+        {
+          "q": "Șase participanți au scorurile 4, 7, 9, 12, 15, 18. Un student raportează modul 4, „primul scor din listă”. Ce îi răspunzi?",
+          "opts": [
+            "Modul e 10,5, valoarea aflată la mijlocul șirului",
+            "Mulțimea nu are mod: fiecare scor apare o dată",
+            "Corect: cel mai mic scor e considerat mereu modul",
+            "Mulțimea are șase moduri, câte unul pentru fiecare"
+          ],
+          "correct": 1,
+          "explain": "Modul e scorul care apare de cele mai multe ori; când toate scorurile apar de același număr de ori, mulțimea nu are mod. 10,5 e mediana; „șase moduri” e greșeala celui care știe că pot exista mai multe moduri, dar uită că un mod trebuie să apară mai des decât celelalte scoruri.",
+          "tag": "Mulțimi unimodale și multimodale",
+          "tip": "concept",
+          "exemplu_nou": true
+        },
+        {
+          "q": "Mediana unui test de anxietate, calculată din date grupate pentru 180 de subiecți, a ieșit 49,26. Cum o raportezi corect?",
+          "opts": [
+            "Exact 90 de subiecți au obținut scorul 49,26",
+            "Cam jumătate din subiecți au sub 49,26, jumătate peste",
+            "49,26 e scorul obținut de cei mai mulți subiecți",
+            "Media scorurilor este și ea, obligatoriu, 49,26"
+          ],
+          "correct": 1,
+          "explain": "Mediana grupată e o aproximare a punctului de mijloc: aproximativ jumătate din subiecți au sub 49,26, jumătate peste. Scorurile fiind întregi, nimeni nu are exact 49,26; scorul cel mai frecvent e modul; media coincide cu mediana doar la distribuții simetrice.",
+          "tag": "Mediana pentru date grupate",
+          "tip": "concept",
+          "exemplu_nou": false
+        }
+      ],
+      "ascunse": [
+        {
+          "q": "Pe ogiva procentelor cumulate ale unui test vrei să afli scorul sub care se află 30% dintre subiecți. Cum procedezi?",
+          "opts": [
+            "Din 30 pe axa scorurilor, paralelă la axa procentelor, apoi perpendiculară pe ea",
+            "Cauți coloana cu înălțimea 30 în histograma aceleiași distribuții de scoruri",
+            "Din 30 pe axa procentelor, paralelă la axa scorurilor, apoi perpendiculară pe ea",
+            "Citești centrul intervalului în care frecvența simplă ajunge la valoarea 30"
+          ],
+          "correct": 2,
+          "explain": "Se caută P30: pornești de la procent, ajungi la curbă și cobori pe axa scorurilor (ca la P58 din curs). Drumul invers, de la scor la procent, dă rangul percentilei (ca la RP62). Histograma și frecvențele simple nu cumulează cazurile, deci nu dau procentul celor de sub un scor — ogiva, din Cap. 2 (Prezentarea datelor statistice), o face.",
+          "tag": "Ogiva pentru percentile",
+          "tip": "grafic",
+          "exemplu_nou": true
+        },
+        {
+          "q": "Un raport dă doar scorurile grupate ale 10 studenți la o scală de stres: 10–14 (2 studenți), 15–19 (5), 20–24 (3). Ce medie aproximativă poți calcula?",
+          "opts": [
+            "17,5",
+            "17,0",
+            "19,5",
+            "15,5"
+          ],
+          "correct": 0,
+          "explain": "Centrele sunt 12, 17, 22: (2 · 12 + 5 · 17 + 3 · 22)/10 = 175/10 = 17,5. 17,0 e media centrelor, fără frecvențe; 19,5 și 15,5 folosesc limitele superioare, respectiv inferioare, în locul centrelor.",
+          "tag": "Media pentru date grupate",
+          "tip": "calcul",
+          "exemplu_nou": true
+        },
+        {
+          "q": "Opt pacienți au la un test de memorie scorurile 2, 3, 5, 6, 8, 9, 11, 13. Sub ce valoare se află cel mult un sfert dintre ei (P25)?",
+          "opts": [
+            "3",
+            "5",
+            "2",
+            "4"
+          ],
+          "correct": 3,
+          "explain": "Cel mult 8 · 0,25 = 2 scoruri sub ea și cel mult 6 peste: orice valoare între 3 și 5 inclusiv satisface condiția, deci, prin convenție, se ia media lor, 4 (ca P20 = 4,50 din curs). 3 și 5 sunt doar capetele intervalului; 2 este numărul de scoruri, nu valoarea.",
+          "tag": "Percentile pe scoruri neagrupate",
+          "tip": "calcul",
+          "exemplu_nou": true
+        },
+        {
+          "q": "Patru prieteni au citit anul acesta 0, 1, 1 și 14 cărți: „în medie, 4 cărți de persoană”. Ce problemă are această formulare?",
+          "opts": [
+            "Media e greșit calculată: fără scorul 0, ea ar fi corectă și egală cu 5",
+            "Media e trasă de scorul extrem; mediana, 1, descrie mai bine cazul tipic",
+            "Media nu se poate calcula pentru cărți, fiind o variabilă de tip ordinal",
+            "Media e corectă și tipică, pentru că 0 cărți este un zero natural"
+          ],
+          "correct": 1,
+          "explain": "16/4 = 4 e corect aritmetic, dar nimeni din grup nu citește cât „media” — exact gluma cu paltoanele din curs. Mediana, (1 + 1)/2 = 1, nu e trasă de 14. Scorul 0 e un caz real, nu se elimină; numărul de cărți e de raport, iar zeroul natural nu face media rezistentă la extreme.",
+          "tag": "Sensibilitatea la scorurile extreme",
+          "tip": "concept",
+          "exemplu_nou": true
+        },
+        {
+          "q": "180 de scoruri grupate: sub intervalul 55–59 s-au cumulat 122 de cazuri, iar intervalul are 37. Pentru percentila 75 cauți cazul 135. Al câtelea caz din interval este?",
+          "opts": [
+            "Al 135-lea: cazul se numără de la începutul șirului",
+            "Al 24-lea: 159 − 135 cazuri rămase până la capăt",
+            "Al 13-lea: 135 − 122 cazuri cumulate sub interval",
+            "Al 37-lea: ultimul din cazurile intervalului"
+          ],
+          "correct": 2,
+          "explain": "Sub 55–59 s-au cumulat 122 de cazuri, deci cazul 123 e primul din interval și 135 e al 13-lea; P75 ≈ 54,5 + 13/37 · 5 ≈ 56,25. 24 numără cazurile de deasupra, iar 37 e frecvența întregului interval.",
+          "tag": "Percentile pentru date grupate",
+          "tip": "calcul",
+          "exemplu_nou": false
+        }
+      ]
+    }
+  ],
+  "harta": {
+    "centru": "Mărimile tendinței centrale",
+    "ramuri": [
+      {
+        "titlu": "Media aritmetică",
+        "noduri": [
+          {
+            "t": "Definiția mediei aritmetice",
+            "d": "Suma tuturor scorurilor împărțită la numărul lor: X̄ = ΣXi / n (formula 3.1). Simboluri: X̄ pentru eșantion, μ (miu) pentru populație. Se calculează doar pentru variabile de interval sau de raport."
+          },
+          {
+            "t": "Calculul cu frecvențe",
+            "d": "Fiecare scor se înmulțește cu frecvența lui, apoi se adună și se împarte la n: vârstele din tabelul 3.1 dau (1·16 + 4·17 + 1·18 + 2·19 + 3·23) / 11 = 209 / 11 = 19."
+          },
+          {
+            "t": "De ce e media cea mai folosită",
+            "d": "E mărimea cea mai des folosită la interval și raport: ușor de calculat și cu două proprietăți importante, folosite în formule ulterioare; la inferență e cu deosebire utilă."
+          }
+        ]
+      },
+      {
+        "titlu": "Proprietățile mediei",
+        "noduri": [
+          {
+            "t": "Suma abaterilor egală cu zero",
+            "d": "Abaterea unui scor e Xi − X̄; în orice distribuție Σ(Xi − X̄) = 0. Media e punctul în jurul căruia toate scorurile se anulează — de aici valoarea ei ca măsură a centralității."
+          },
+          {
+            "t": "Suma pătratelor abaterilor minimă",
+            "d": "Σ(Xi − X̄)² e mai mică decât suma pătratelor abaterilor față de orice alt scor: 74 față de media 19, 118 față de 17 (tabelul 3.2). Folosită la mărimile dispersiei, în Cap. 4 (Mărimile dispersiei), și la corelație, în Cap. 12 (Mărimi ale corelației)."
+          },
+          {
+            "t": "Sensibilitatea la scorurile extreme",
+            "d": "15, 20, 25, 30, 35 → media 25; cu 3500 în loc de 35 → 718; cu 1 în loc de 35 → 18,2. Media e „trasă” spre extreme, mai ales spre scorurile mari. „Paradoxul statisticii”: X are 10 paltoane, Y niciunul, deci „în medie” câte 5."
+          }
+        ],
+        "figuri": [
+          {
+            "titlu": "Abaterile de la medie se anulează (tabelul 3.2)",
+            "nota": "Cele 11 vârste, cu media 19: abaterile negative și pozitive însumează zero, iar suma pătratelor lor (74) e mai mică decât față de scorul 17 (118).",
+            "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 194\" role=\"img\" aria-label=\"Abaterile celor 11 vârste de la media 19: negativele însumează −12, pozitivele +12\" font-family=\"Georgia, serif\" font-size=\"13\"><line x1=\"36.0\" y1=\"84.0\" x2=\"312.0\" y2=\"84.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><rect x=\"40.5\" y=\"84.0\" width=\"16.0\" height=\"33.0\" fill=\"#eb6834\"><title>scorul 16: abaterea -3</title></rect><text x=\"48.5\" y=\"129.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"9.6\">−3</text><text x=\"48.5\" y=\"146.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"9.6\">16</text><rect x=\"65.6\" y=\"84.0\" width=\"16.0\" height=\"22.0\" fill=\"#eb6834\"><title>scorul 17: abaterea -2</title></rect><text x=\"73.6\" y=\"118.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"9.6\">−2</text><text x=\"73.6\" y=\"146.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"9.6\">17</text><rect x=\"90.7\" y=\"84.0\" width=\"16.0\" height=\"22.0\" fill=\"#eb6834\"><title>scorul 17: abaterea -2</title></rect><text x=\"98.7\" y=\"118.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"9.6\">−2</text><text x=\"98.7\" y=\"146.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"9.6\">17</text><rect x=\"115.8\" y=\"84.0\" width=\"16.0\" height=\"22.0\" fill=\"#eb6834\"><title>scorul 17: abaterea -2</title></rect><text x=\"123.8\" y=\"118.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"9.6\">−2</text><text x=\"123.8\" y=\"146.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"9.6\">17</text><rect x=\"140.9\" y=\"84.0\" width=\"16.0\" height=\"22.0\" fill=\"#eb6834\"><title>scorul 17: abaterea -2</title></rect><text x=\"148.9\" y=\"118.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"9.6\">−2</text><text x=\"148.9\" y=\"146.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"9.6\">17</text><rect x=\"166.0\" y=\"84.0\" width=\"16.0\" height=\"11.0\" fill=\"#eb6834\"><title>scorul 18: abaterea -1</title></rect><text x=\"174.0\" y=\"107.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"9.6\">−1</text><text x=\"174.0\" y=\"146.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"9.6\">18</text><circle cx=\"199.1\" cy=\"84.0\" r=\"3.0\" fill=\"#2c2a26\" stroke=\"#faf8f3\" stroke-width=\"1.5\"><title>scorul 19: abaterea 0</title></circle><text x=\"199.1\" y=\"78.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"9.6\">0</text><text x=\"199.1\" y=\"146.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"9.6\">19</text><circle cx=\"224.2\" cy=\"84.0\" r=\"3.0\" fill=\"#2c2a26\" stroke=\"#faf8f3\" stroke-width=\"1.5\"><title>scorul 19: abaterea 0</title></circle><text x=\"224.2\" y=\"78.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"9.6\">0</text><text x=\"224.2\" y=\"146.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"9.6\">19</text><rect x=\"241.3\" y=\"40.0\" width=\"16.0\" height=\"44.0\" fill=\"#2a78d6\"><title>scorul 23: abaterea +4</title></rect><text x=\"249.3\" y=\"36.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"9.6\">+4</text><text x=\"249.3\" y=\"146.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"9.6\">23</text><rect x=\"266.4\" y=\"40.0\" width=\"16.0\" height=\"44.0\" fill=\"#2a78d6\"><title>scorul 23: abaterea +4</title></rect><text x=\"274.4\" y=\"36.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"9.6\">+4</text><text x=\"274.4\" y=\"146.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"9.6\">23</text><rect x=\"291.5\" y=\"40.0\" width=\"16.0\" height=\"44.0\" fill=\"#2a78d6\"><title>scorul 23: abaterea +4</title></rect><text x=\"299.5\" y=\"36.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"9.6\">+4</text><text x=\"299.5\" y=\"146.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"9.6\">23</text><text x=\"12.0\" y=\"88.0\" text-anchor=\"start\" fill=\"#2c2a26\" font-size=\"10.8\">X̄</text><text x=\"174.0\" y=\"162.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.8\">scorurile Xi (media X̄ = 19)</text><text x=\"14.0\" y=\"16.0\" text-anchor=\"start\" fill=\"#eb6834\" font-size=\"10.8\">sub medie: −3 − 2·4 − 1 = −12</text><text x=\"306.0\" y=\"16.0\" text-anchor=\"end\" fill=\"#2a78d6\" font-size=\"10.8\">peste: 4·3 = +12</text><text x=\"160.0\" y=\"184.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.8\">Σ(Xi − X̄) = 0 · Σ(Xi − X̄)² = 74 &lt; 118 = Σ(Xi − 17)²</text></svg>"
+          }
+        ]
+      },
+      {
+        "titlu": "Mediana",
+        "noduri": [
+          {
+            "t": "Definiția medianei",
+            "d": "Punctul de mijloc: numărul de cazuri cu scoruri ≤ X̃ egalează numărul de cazuri cu scoruri ≥ X̃. Simboluri: X̃ (eșantion), μ̃ (populație). Se folosește la nivel ordinal, de interval și de raport; nu la nominal, unde scorurile nu se pot ordona."
+          },
+          {
+            "t": "Mediana pentru n impar și n par",
+            "d": "Scorurile se ordonează. n impar: scorul cazului de mijloc, al (n + 1)/2-lea (11 vârste → 18). n par: cazurile n/2 și n/2 + 1; la interval și raport se ia media lor (26, 26, 28, 29, 30, 31, 32, 60 → 29,5)."
+          },
+          {
+            "t": "De ce „sau egale”",
+            "d": "16 familii (tabelul 3.4): cazurile 8 și 9 au câte 2 copii, deci mediana e 2 (8 familii au ≤ 2, 8 au ≥ 2). În 1, 2, 3, 5, 5, 5, 7, 10, 12 mediana e 5: patru scoruri ≤ 5 și patru ≥ 5."
+          },
+          {
+            "t": "Mediana la nivel ordinal",
+            "d": "„Cât de des mergeți la cinematograf?” (11 subiecți): al 6-lea caz răspunde Des → mediana Des. Cu 12 subiecți, cazurile de mijloc sunt Des și Foarte rar; se ia categoria dintre ele, Rar."
+          },
+          {
+            "t": "Rezistența medianei la extreme",
+            "d": "Mediana ține cont doar de ordinea scorurilor, nu de mărimea lor: 15, 20, 25, 30, 3500 are tot mediana 25; vârsta tipică din tabelul 3.3 e mai bine redată de mediana 29 decât de media 33. De aceea se folosește mai ales la date ordinale. Media și mediana pot coincide (15, 20, 25, 30, 35)."
+          }
+        ],
+        "figuri": [
+          {
+            "titlu": "Mediana față de media trasă de un scor extrem (tabelul 3.3)",
+            "nota": "Vârsta tipică e redată mai bine de mediană (29) decât de medie (33), pe care o trage scorul 60.",
+            "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 154\" role=\"img\" aria-label=\"Șapte vârste pe o axă: mediana 29, media 33 trasă spre scorul 60\" font-family=\"Georgia, serif\" font-size=\"13\"><line x1=\"20.0\" y1=\"92.0\" x2=\"306.0\" y2=\"92.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><line x1=\"27.5\" y1=\"92.0\" x2=\"27.5\" y2=\"96.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><text x=\"27.5\" y=\"108.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"9.6\">25</text><line x1=\"65.2\" y1=\"92.0\" x2=\"65.2\" y2=\"96.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><text x=\"65.2\" y=\"108.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"9.6\">30</text><line x1=\"102.8\" y1=\"92.0\" x2=\"102.8\" y2=\"96.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><text x=\"102.8\" y=\"108.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"9.6\">35</text><line x1=\"140.4\" y1=\"92.0\" x2=\"140.4\" y2=\"96.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><text x=\"140.4\" y=\"108.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"9.6\">40</text><line x1=\"178.1\" y1=\"92.0\" x2=\"178.1\" y2=\"96.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><text x=\"178.1\" y=\"108.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"9.6\">45</text><line x1=\"215.7\" y1=\"92.0\" x2=\"215.7\" y2=\"96.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><text x=\"215.7\" y=\"108.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"9.6\">50</text><line x1=\"253.3\" y1=\"92.0\" x2=\"253.3\" y2=\"96.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><text x=\"253.3\" y=\"108.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"9.6\">55</text><line x1=\"290.9\" y1=\"92.0\" x2=\"290.9\" y2=\"96.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><text x=\"290.9\" y=\"108.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"9.6\">60</text><circle cx=\"35.1\" cy=\"85.0\" r=\"5.0\" fill=\"#2a78d6\" stroke=\"#faf8f3\" stroke-width=\"1.5\"><title>vârsta 26</title></circle><circle cx=\"35.1\" cy=\"73.0\" r=\"5.0\" fill=\"#2a78d6\" stroke=\"#faf8f3\" stroke-width=\"1.5\"><title>vârsta 26</title></circle><circle cx=\"50.1\" cy=\"85.0\" r=\"5.0\" fill=\"#2a78d6\" stroke=\"#faf8f3\" stroke-width=\"1.5\"><title>vârsta 28</title></circle><circle cx=\"57.6\" cy=\"85.0\" r=\"5.0\" fill=\"#2a78d6\" stroke=\"#faf8f3\" stroke-width=\"1.5\"><title>vârsta 29</title></circle><circle cx=\"65.2\" cy=\"85.0\" r=\"5.0\" fill=\"#2a78d6\" stroke=\"#faf8f3\" stroke-width=\"1.5\"><title>vârsta 30</title></circle><circle cx=\"80.2\" cy=\"85.0\" r=\"5.0\" fill=\"#2a78d6\" stroke=\"#faf8f3\" stroke-width=\"1.5\"><title>vârsta 32</title></circle><circle cx=\"290.9\" cy=\"85.0\" r=\"5.0\" fill=\"#2a78d6\" stroke=\"#faf8f3\" stroke-width=\"1.5\"><title>vârsta 60</title></circle><line x1=\"57.6\" y1=\"30.0\" x2=\"57.6\" y2=\"92.0\" stroke=\"#1baf7a\" stroke-width=\"1.5\" stroke-dasharray=\"4,3\"/><text x=\"53.6\" y=\"26.0\" text-anchor=\"end\" fill=\"#1baf7a\" font-size=\"10.8\">mediana 29</text><line x1=\"87.7\" y1=\"46.0\" x2=\"87.7\" y2=\"92.0\" stroke=\"#eb6834\" stroke-width=\"1.5\" stroke-dasharray=\"4,3\"/><text x=\"91.7\" y=\"42.0\" text-anchor=\"start\" fill=\"#eb6834\" font-size=\"10.8\">media 33</text><path d=\"M102.8,62 L260.8,62\" stroke=\"#eb6834\" stroke-width=\"1.2\" fill=\"none\"/><path d=\"M262.8,62 l-7,-4 v8 z\" fill=\"#eb6834\"/><text x=\"185.6\" y=\"56.0\" text-anchor=\"middle\" fill=\"#eb6834\" font-size=\"9.6\">trasă de scorul 60</text><text x=\"160.0\" y=\"128.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.8\">Cu încă o persoană de 31 de ani (n = 8):</text><text x=\"160.0\" y=\"144.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.8\">cazurile de mijloc au 29 și 30 → mediana 29,5</text></svg>"
+          }
+        ]
+      },
+      {
+        "titlu": "Modul",
+        "noduri": [
+          {
+            "t": "Definiția modului",
+            "d": "Modul (Mo) e scorul care apare cel mai frecvent: 2 copii în tabelul 3.4; răspunsul modal Foarte des în tabelul 3.5."
+          },
+          {
+            "t": "Modul la nivel nominal",
+            "d": "Singura mărime a tendinței centrale pentru variabile nominale: categoria cu cele mai multe cazuri (status marital → Căsătorit, tabelul 2.10 din Cap. 2 (Prezentarea datelor statistice)). Se poate folosi la toate nivelurile de măsură."
+          },
+          {
+            "t": "Mulțimi unimodale și multimodale",
+            "d": "Unimodală: un singur scor mai frecvent decât celelalte. Bimodală: două (3, 3, 3, 5, 5, 5, 7, 10, 12). Pot exista trei sau mai multe moduri, sau niciunul, dacă toate scorurile apar de același număr de ori."
+          },
+          {
+            "t": "Modul în afara mijlocului",
+            "d": "Modul unei mulțimi unimodale poate să nu fie „la mijloc”: 44, 44, 46, 46, 46, 48, 50, 50, 50, 50, 50 → Mo = 50, X̃ = 48, X̄ ≈ 47,6. Modul arată cea mai mare concentrare de scoruri: la sacouri, măsura modală îl interesează pe director; media n-are sens, numerele măsurilor fiind convenționale."
+          }
+        ]
+      },
+      {
+        "titlu": "Nivel de măsură și forma distribuției",
+        "noduri": [
+          {
+            "t": "Mărimi permise pe niveluri de măsură",
+            "d": "Nominal: doar modul. Ordinal: modul și mediana. Interval sau raport: toate trei. Media e cu deosebire utilă la inferență; pentru descriere, la interval și raport se recomandă toate trei mărimile, care dau informații diferite."
+          },
+          {
+            "t": "Distribuția simetrică",
+            "d": "Media și mediana au aceeași valoare numai când distribuția e simetrică; dacă e și unimodală, modul are aceeași valoare. Toate trei se află în punctul cel mai înalt al curbei (figura 3.1)."
+          },
+          {
+            "t": "Asimetria pozitivă",
+            "d": "Câteva scoruri foarte mari, cu predominanța celor mici: media mai mare decât mediana (figura 3.2)."
+          },
+          {
+            "t": "Asimetria negativă",
+            "d": "Câteva scoruri foarte mici, cu predominanța celor mari: media mai mică decât mediana (figura 3.3). Compararea mediei cu mediana arată imediat dacă distribuția e simetrică și, dacă nu, sensul asimetriei."
+          }
+        ],
+        "tabel": {
+          "cap": [
+            "Nivel de măsură",
+            "Modul",
+            "Mediana",
+            "Media aritmetică"
+          ],
+          "randuri": [
+            [
+              "Nominal",
+              "da",
+              "nu (fără ordine)",
+              "nu"
+            ],
+            [
+              "Ordinal",
+              "da",
+              "da",
+              "nu (intervale inegale)"
+            ],
+            [
+              "Interval / raport",
+              "da",
+              "da",
+              "da"
+            ]
+          ]
+        },
+        "figuri": [
+          {
+            "titlu": "Distribuție simetrică (figura 3.1)",
+            "nota": "Formă ilustrativă: curba e o schiță, nu date din carte.",
+            "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 172\" role=\"img\" aria-label=\"Distribuție simetrică: media, mediana și modul coincid\" font-family=\"Georgia, serif\" font-size=\"13\"><path d=\"M20.0,132 L20.0,131.9 L21.2,131.8 L22.3,131.8 L23.5,131.8 L24.7,131.8 L25.8,131.8 L27.0,131.7 L28.2,131.7 L29.3,131.7 L30.5,131.6 L31.7,131.6 L32.8,131.6 L34.0,131.5 L35.2,131.5 L36.3,131.4 L37.5,131.4 L38.7,131.3 L39.8,131.2 L41.0,131.1 L42.2,131.1 L43.3,131.0 L44.5,130.9 L45.7,130.8 L46.8,130.7 L48.0,130.5 L49.2,130.4 L50.3,130.3 L51.5,130.1 L52.7,130.0 L53.8,129.8 L55.0,129.6 L56.2,129.4 L57.3,129.2 L58.5,128.9 L59.7,128.7 L60.8,128.4 L62.0,128.2 L63.2,127.9 L64.3,127.5 L65.5,127.2 L66.7,126.8 L67.8,126.5 L69.0,126.0 L70.2,125.6 L71.3,125.2 L72.5,124.7 L73.7,124.2 L74.8,123.6 L76.0,123.1 L77.2,122.5 L78.3,121.9 L79.5,121.2 L80.7,120.5 L81.8,119.8 L83.0,119.0 L84.2,118.3 L85.3,117.4 L86.5,116.6 L87.7,115.7 L88.8,114.8 L90.0,113.8 L91.2,112.8 L92.3,111.8 L93.5,110.7 L94.7,109.6 L95.8,108.4 L97.0,107.2 L98.2,106.0 L99.3,104.8 L100.5,103.5 L101.7,102.1 L102.8,100.8 L104.0,99.4 L105.2,98.0 L106.3,96.5 L107.5,95.0 L108.7,93.5 L109.8,92.0 L111.0,90.4 L112.2,88.8 L113.3,87.2 L114.5,85.6 L115.7,84.0 L116.8,82.3 L118.0,80.7 L119.2,79.0 L120.3,77.3 L121.5,75.6 L122.7,74.0 L123.8,72.3 L125.0,70.6 L126.2,69.0 L127.3,67.3 L128.5,65.7 L129.7,64.1 L130.8,62.6 L132.0,61.0 L133.2,59.5 L134.3,58.0 L135.5,56.6 L136.7,55.2 L137.8,53.8 L139.0,52.5 L140.2,51.2 L141.3,50.0 L142.5,48.9 L143.7,47.8 L144.8,46.7 L146.0,45.8 L147.2,44.9 L148.3,44.0 L149.5,43.3 L150.7,42.6 L151.8,42.0 L153.0,41.5 L154.2,41.0 L155.3,40.7 L156.5,40.4 L157.7,40.2 L158.8,40.0 L160.0,40.0 L161.2,40.0 L162.3,40.2 L163.5,40.4 L164.7,40.7 L165.8,41.0 L167.0,41.5 L168.2,42.0 L169.3,42.6 L170.5,43.3 L171.7,44.0 L172.8,44.9 L174.0,45.8 L175.2,46.7 L176.3,47.8 L177.5,48.9 L178.7,50.0 L179.8,51.2 L181.0,52.5 L182.2,53.8 L183.3,55.2 L184.5,56.6 L185.7,58.0 L186.8,59.5 L188.0,61.0 L189.2,62.6 L190.3,64.1 L191.5,65.7 L192.7,67.3 L193.8,69.0 L195.0,70.6 L196.2,72.3 L197.3,74.0 L198.5,75.6 L199.7,77.3 L200.8,79.0 L202.0,80.7 L203.2,82.3 L204.3,84.0 L205.5,85.6 L206.7,87.2 L207.8,88.8 L209.0,90.4 L210.2,92.0 L211.3,93.5 L212.5,95.0 L213.7,96.5 L214.8,98.0 L216.0,99.4 L217.2,100.8 L218.3,102.1 L219.5,103.5 L220.7,104.8 L221.8,106.0 L223.0,107.2 L224.2,108.4 L225.3,109.6 L226.5,110.7 L227.7,111.8 L228.8,112.8 L230.0,113.8 L231.2,114.8 L232.3,115.7 L233.5,116.6 L234.7,117.4 L235.8,118.3 L237.0,119.0 L238.2,119.8 L239.3,120.5 L240.5,121.2 L241.7,121.9 L242.8,122.5 L244.0,123.1 L245.2,123.6 L246.3,124.2 L247.5,124.7 L248.7,125.2 L249.8,125.6 L251.0,126.0 L252.2,126.5 L253.3,126.8 L254.5,127.2 L255.7,127.5 L256.8,127.9 L258.0,128.2 L259.2,128.4 L260.3,128.7 L261.5,128.9 L262.7,129.2 L263.8,129.4 L265.0,129.6 L266.2,129.8 L267.3,130.0 L268.5,130.1 L269.7,130.3 L270.8,130.4 L272.0,130.5 L273.2,130.7 L274.3,130.8 L275.5,130.9 L276.7,131.0 L277.8,131.1 L279.0,131.1 L280.2,131.2 L281.3,131.3 L282.5,131.4 L283.7,131.4 L284.8,131.5 L286.0,131.5 L287.2,131.6 L288.3,131.6 L289.5,131.6 L290.7,131.7 L291.8,131.7 L293.0,131.7 L294.2,131.8 L295.3,131.8 L296.5,131.8 L297.7,131.8 L298.8,131.8 L300.0,131.9 L300.0,132 Z\" fill=\"#2a78d6\" fill-opacity=\"0.14\" stroke=\"none\"/><polyline points=\"20.0,131.9 21.2,131.8 22.3,131.8 23.5,131.8 24.7,131.8 25.8,131.8 27.0,131.7 28.2,131.7 29.3,131.7 30.5,131.6 31.7,131.6 32.8,131.6 34.0,131.5 35.2,131.5 36.3,131.4 37.5,131.4 38.7,131.3 39.8,131.2 41.0,131.1 42.2,131.1 43.3,131.0 44.5,130.9 45.7,130.8 46.8,130.7 48.0,130.5 49.2,130.4 50.3,130.3 51.5,130.1 52.7,130.0 53.8,129.8 55.0,129.6 56.2,129.4 57.3,129.2 58.5,128.9 59.7,128.7 60.8,128.4 62.0,128.2 63.2,127.9 64.3,127.5 65.5,127.2 66.7,126.8 67.8,126.5 69.0,126.0 70.2,125.6 71.3,125.2 72.5,124.7 73.7,124.2 74.8,123.6 76.0,123.1 77.2,122.5 78.3,121.9 79.5,121.2 80.7,120.5 81.8,119.8 83.0,119.0 84.2,118.3 85.3,117.4 86.5,116.6 87.7,115.7 88.8,114.8 90.0,113.8 91.2,112.8 92.3,111.8 93.5,110.7 94.7,109.6 95.8,108.4 97.0,107.2 98.2,106.0 99.3,104.8 100.5,103.5 101.7,102.1 102.8,100.8 104.0,99.4 105.2,98.0 106.3,96.5 107.5,95.0 108.7,93.5 109.8,92.0 111.0,90.4 112.2,88.8 113.3,87.2 114.5,85.6 115.7,84.0 116.8,82.3 118.0,80.7 119.2,79.0 120.3,77.3 121.5,75.6 122.7,74.0 123.8,72.3 125.0,70.6 126.2,69.0 127.3,67.3 128.5,65.7 129.7,64.1 130.8,62.6 132.0,61.0 133.2,59.5 134.3,58.0 135.5,56.6 136.7,55.2 137.8,53.8 139.0,52.5 140.2,51.2 141.3,50.0 142.5,48.9 143.7,47.8 144.8,46.7 146.0,45.8 147.2,44.9 148.3,44.0 149.5,43.3 150.7,42.6 151.8,42.0 153.0,41.5 154.2,41.0 155.3,40.7 156.5,40.4 157.7,40.2 158.8,40.0 160.0,40.0 161.2,40.0 162.3,40.2 163.5,40.4 164.7,40.7 165.8,41.0 167.0,41.5 168.2,42.0 169.3,42.6 170.5,43.3 171.7,44.0 172.8,44.9 174.0,45.8 175.2,46.7 176.3,47.8 177.5,48.9 178.7,50.0 179.8,51.2 181.0,52.5 182.2,53.8 183.3,55.2 184.5,56.6 185.7,58.0 186.8,59.5 188.0,61.0 189.2,62.6 190.3,64.1 191.5,65.7 192.7,67.3 193.8,69.0 195.0,70.6 196.2,72.3 197.3,74.0 198.5,75.6 199.7,77.3 200.8,79.0 202.0,80.7 203.2,82.3 204.3,84.0 205.5,85.6 206.7,87.2 207.8,88.8 209.0,90.4 210.2,92.0 211.3,93.5 212.5,95.0 213.7,96.5 214.8,98.0 216.0,99.4 217.2,100.8 218.3,102.1 219.5,103.5 220.7,104.8 221.8,106.0 223.0,107.2 224.2,108.4 225.3,109.6 226.5,110.7 227.7,111.8 228.8,112.8 230.0,113.8 231.2,114.8 232.3,115.7 233.5,116.6 234.7,117.4 235.8,118.3 237.0,119.0 238.2,119.8 239.3,120.5 240.5,121.2 241.7,121.9 242.8,122.5 244.0,123.1 245.2,123.6 246.3,124.2 247.5,124.7 248.7,125.2 249.8,125.6 251.0,126.0 252.2,126.5 253.3,126.8 254.5,127.2 255.7,127.5 256.8,127.9 258.0,128.2 259.2,128.4 260.3,128.7 261.5,128.9 262.7,129.2 263.8,129.4 265.0,129.6 266.2,129.8 267.3,130.0 268.5,130.1 269.7,130.3 270.8,130.4 272.0,130.5 273.2,130.7 274.3,130.8 275.5,130.9 276.7,131.0 277.8,131.1 279.0,131.1 280.2,131.2 281.3,131.3 282.5,131.4 283.7,131.4 284.8,131.5 286.0,131.5 287.2,131.6 288.3,131.6 289.5,131.6 290.7,131.7 291.8,131.7 293.0,131.7 294.2,131.8 295.3,131.8 296.5,131.8 297.7,131.8 298.8,131.8 300.0,131.9\" fill=\"none\" stroke=\"#2a78d6\" stroke-width=\"2\"/><line x1=\"20.0\" y1=\"132.0\" x2=\"300.0\" y2=\"132.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><line x1=\"160.0\" y1=\"34.0\" x2=\"160.0\" y2=\"132.0\" stroke=\"#2c2a26\" stroke-width=\"1.5\" stroke-dasharray=\"4,3\"/><text x=\"160.0\" y=\"28.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.8\">media = mediana = modul</text><text x=\"160.0\" y=\"152.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.8\">cele trei coincid în punctul cel mai înalt</text><text x=\"160.0\" y=\"166.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"9.6\">scoruri →</text></svg>"
+          },
+          {
+            "titlu": "Asimetrie pozitivă (figura 3.2)",
+            "nota": "Formă ilustrativă; pozițiile mărimilor sunt calculate pe curba desenată.",
+            "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 172\" role=\"img\" aria-label=\"Asimetrie pozitivă: modul, apoi mediana, apoi media spre coada din dreapta\" font-family=\"Georgia, serif\" font-size=\"13\"><path d=\"M20.0,132 L20.0,132.0 L21.2,132.0 L22.3,132.0 L23.5,132.0 L24.7,132.0 L25.8,131.9 L27.0,131.7 L28.2,131.4 L29.3,130.9 L30.5,130.1 L31.7,129.0 L32.8,127.6 L34.0,125.9 L35.2,123.8 L36.3,121.5 L37.5,118.8 L38.7,115.9 L39.8,112.8 L41.0,109.4 L42.2,106.0 L43.3,102.4 L44.5,98.7 L45.7,95.1 L46.8,91.4 L48.0,87.7 L49.2,84.1 L50.3,80.6 L51.5,77.1 L52.7,73.8 L53.8,70.6 L55.0,67.6 L56.2,64.7 L57.3,62.0 L58.5,59.4 L59.7,57.0 L60.8,54.8 L62.0,52.7 L63.2,50.8 L64.3,49.1 L65.5,47.6 L66.7,46.2 L67.8,44.9 L69.0,43.8 L70.2,42.9 L71.3,42.1 L72.5,41.5 L73.7,40.9 L74.8,40.5 L76.0,40.2 L77.2,40.1 L78.3,40.0 L79.5,40.0 L80.7,40.2 L81.8,40.4 L83.0,40.7 L84.2,41.1 L85.3,41.5 L86.5,42.0 L87.7,42.6 L88.8,43.2 L90.0,43.9 L91.2,44.7 L92.3,45.5 L93.5,46.3 L94.7,47.2 L95.8,48.1 L97.0,49.0 L98.2,49.9 L99.3,50.9 L100.5,51.9 L101.7,52.9 L102.8,54.0 L104.0,55.0 L105.2,56.1 L106.3,57.2 L107.5,58.2 L108.7,59.3 L109.8,60.4 L111.0,61.5 L112.2,62.6 L113.3,63.7 L114.5,64.8 L115.7,65.9 L116.8,67.0 L118.0,68.0 L119.2,69.1 L120.3,70.2 L121.5,71.2 L122.7,72.3 L123.8,73.3 L125.0,74.3 L126.2,75.4 L127.3,76.4 L128.5,77.4 L129.7,78.4 L130.8,79.3 L132.0,80.3 L133.2,81.3 L134.3,82.2 L135.5,83.1 L136.7,84.0 L137.8,84.9 L139.0,85.8 L140.2,86.7 L141.3,87.6 L142.5,88.4 L143.7,89.2 L144.8,90.1 L146.0,90.9 L147.2,91.7 L148.3,92.5 L149.5,93.2 L150.7,94.0 L151.8,94.7 L153.0,95.4 L154.2,96.2 L155.3,96.9 L156.5,97.6 L157.7,98.2 L158.8,98.9 L160.0,99.6 L161.2,100.2 L162.3,100.8 L163.5,101.4 L164.7,102.1 L165.8,102.6 L167.0,103.2 L168.2,103.8 L169.3,104.4 L170.5,104.9 L171.7,105.5 L172.8,106.0 L174.0,106.5 L175.2,107.0 L176.3,107.5 L177.5,108.0 L178.7,108.5 L179.8,108.9 L181.0,109.4 L182.2,109.9 L183.3,110.3 L184.5,110.7 L185.7,111.2 L186.8,111.6 L188.0,112.0 L189.2,112.4 L190.3,112.8 L191.5,113.2 L192.7,113.5 L193.8,113.9 L195.0,114.3 L196.2,114.6 L197.3,115.0 L198.5,115.3 L199.7,115.6 L200.8,115.9 L202.0,116.3 L203.2,116.6 L204.3,116.9 L205.5,117.2 L206.7,117.5 L207.8,117.8 L209.0,118.0 L210.2,118.3 L211.3,118.6 L212.5,118.9 L213.7,119.1 L214.8,119.4 L216.0,119.6 L217.2,119.9 L218.3,120.1 L219.5,120.3 L220.7,120.6 L221.8,120.8 L223.0,121.0 L224.2,121.2 L225.3,121.4 L226.5,121.6 L227.7,121.8 L228.8,122.0 L230.0,122.2 L231.2,122.4 L232.3,122.6 L233.5,122.8 L234.7,123.0 L235.8,123.1 L237.0,123.3 L238.2,123.5 L239.3,123.6 L240.5,123.8 L241.7,123.9 L242.8,124.1 L244.0,124.2 L245.2,124.4 L246.3,124.5 L247.5,124.7 L248.7,124.8 L249.8,125.0 L251.0,125.1 L252.2,125.2 L253.3,125.4 L254.5,125.5 L255.7,125.6 L256.8,125.7 L258.0,125.8 L259.2,126.0 L260.3,126.1 L261.5,126.2 L262.7,126.3 L263.8,126.4 L265.0,126.5 L266.2,126.6 L267.3,126.7 L268.5,126.8 L269.7,126.9 L270.8,127.0 L272.0,127.1 L273.2,127.2 L274.3,127.3 L275.5,127.3 L276.7,127.4 L277.8,127.5 L279.0,127.6 L280.2,127.7 L281.3,127.8 L282.5,127.8 L283.7,127.9 L284.8,128.0 L286.0,128.1 L287.2,128.1 L288.3,128.2 L289.5,128.3 L290.7,128.3 L291.8,128.4 L293.0,128.5 L294.2,128.5 L295.3,128.6 L296.5,128.7 L297.7,128.7 L298.8,128.8 L300.0,128.8 L300.0,132 Z\" fill=\"#2a78d6\" fill-opacity=\"0.14\" stroke=\"none\"/><polyline points=\"20.0,132.0 21.2,132.0 22.3,132.0 23.5,132.0 24.7,132.0 25.8,131.9 27.0,131.7 28.2,131.4 29.3,130.9 30.5,130.1 31.7,129.0 32.8,127.6 34.0,125.9 35.2,123.8 36.3,121.5 37.5,118.8 38.7,115.9 39.8,112.8 41.0,109.4 42.2,106.0 43.3,102.4 44.5,98.7 45.7,95.1 46.8,91.4 48.0,87.7 49.2,84.1 50.3,80.6 51.5,77.1 52.7,73.8 53.8,70.6 55.0,67.6 56.2,64.7 57.3,62.0 58.5,59.4 59.7,57.0 60.8,54.8 62.0,52.7 63.2,50.8 64.3,49.1 65.5,47.6 66.7,46.2 67.8,44.9 69.0,43.8 70.2,42.9 71.3,42.1 72.5,41.5 73.7,40.9 74.8,40.5 76.0,40.2 77.2,40.1 78.3,40.0 79.5,40.0 80.7,40.2 81.8,40.4 83.0,40.7 84.2,41.1 85.3,41.5 86.5,42.0 87.7,42.6 88.8,43.2 90.0,43.9 91.2,44.7 92.3,45.5 93.5,46.3 94.7,47.2 95.8,48.1 97.0,49.0 98.2,49.9 99.3,50.9 100.5,51.9 101.7,52.9 102.8,54.0 104.0,55.0 105.2,56.1 106.3,57.2 107.5,58.2 108.7,59.3 109.8,60.4 111.0,61.5 112.2,62.6 113.3,63.7 114.5,64.8 115.7,65.9 116.8,67.0 118.0,68.0 119.2,69.1 120.3,70.2 121.5,71.2 122.7,72.3 123.8,73.3 125.0,74.3 126.2,75.4 127.3,76.4 128.5,77.4 129.7,78.4 130.8,79.3 132.0,80.3 133.2,81.3 134.3,82.2 135.5,83.1 136.7,84.0 137.8,84.9 139.0,85.8 140.2,86.7 141.3,87.6 142.5,88.4 143.7,89.2 144.8,90.1 146.0,90.9 147.2,91.7 148.3,92.5 149.5,93.2 150.7,94.0 151.8,94.7 153.0,95.4 154.2,96.2 155.3,96.9 156.5,97.6 157.7,98.2 158.8,98.9 160.0,99.6 161.2,100.2 162.3,100.8 163.5,101.4 164.7,102.1 165.8,102.6 167.0,103.2 168.2,103.8 169.3,104.4 170.5,104.9 171.7,105.5 172.8,106.0 174.0,106.5 175.2,107.0 176.3,107.5 177.5,108.0 178.7,108.5 179.8,108.9 181.0,109.4 182.2,109.9 183.3,110.3 184.5,110.7 185.7,111.2 186.8,111.6 188.0,112.0 189.2,112.4 190.3,112.8 191.5,113.2 192.7,113.5 193.8,113.9 195.0,114.3 196.2,114.6 197.3,115.0 198.5,115.3 199.7,115.6 200.8,115.9 202.0,116.3 203.2,116.6 204.3,116.9 205.5,117.2 206.7,117.5 207.8,117.8 209.0,118.0 210.2,118.3 211.3,118.6 212.5,118.9 213.7,119.1 214.8,119.4 216.0,119.6 217.2,119.9 218.3,120.1 219.5,120.3 220.7,120.6 221.8,120.8 223.0,121.0 224.2,121.2 225.3,121.4 226.5,121.6 227.7,121.8 228.8,122.0 230.0,122.2 231.2,122.4 232.3,122.6 233.5,122.8 234.7,123.0 235.8,123.1 237.0,123.3 238.2,123.5 239.3,123.6 240.5,123.8 241.7,123.9 242.8,124.1 244.0,124.2 245.2,124.4 246.3,124.5 247.5,124.7 248.7,124.8 249.8,125.0 251.0,125.1 252.2,125.2 253.3,125.4 254.5,125.5 255.7,125.6 256.8,125.7 258.0,125.8 259.2,126.0 260.3,126.1 261.5,126.2 262.7,126.3 263.8,126.4 265.0,126.5 266.2,126.6 267.3,126.7 268.5,126.8 269.7,126.9 270.8,127.0 272.0,127.1 273.2,127.2 274.3,127.3 275.5,127.3 276.7,127.4 277.8,127.5 279.0,127.6 280.2,127.7 281.3,127.8 282.5,127.8 283.7,127.9 284.8,128.0 286.0,128.1 287.2,128.1 288.3,128.2 289.5,128.3 290.7,128.3 291.8,128.4 293.0,128.5 294.2,128.5 295.3,128.6 296.5,128.7 297.7,128.7 298.8,128.8 300.0,128.8\" fill=\"none\" stroke=\"#2a78d6\" stroke-width=\"2\"/><line x1=\"20.0\" y1=\"132.0\" x2=\"300.0\" y2=\"132.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><line x1=\"78.3\" y1=\"25.0\" x2=\"78.3\" y2=\"132.0\" stroke=\"#2c2a26\" stroke-width=\"1.5\" stroke-dasharray=\"4,3\"/><text x=\"82.3\" y=\"22.0\" text-anchor=\"start\" fill=\"#2c2a26\" font-size=\"10.8\">modul</text><line x1=\"102.8\" y1=\"37.0\" x2=\"102.8\" y2=\"132.0\" stroke=\"#1baf7a\" stroke-width=\"1.5\" stroke-dasharray=\"4,3\"/><text x=\"106.8\" y=\"34.0\" text-anchor=\"start\" fill=\"#1baf7a\" font-size=\"10.8\">mediana</text><line x1=\"114.8\" y1=\"49.0\" x2=\"114.8\" y2=\"132.0\" stroke=\"#eb6834\" stroke-width=\"1.5\" stroke-dasharray=\"4,3\"/><text x=\"118.8\" y=\"46.0\" text-anchor=\"start\" fill=\"#eb6834\" font-size=\"10.8\">media</text><text x=\"300.0\" y=\"96.0\" text-anchor=\"end\" fill=\"#6b6760\" font-size=\"10.8\">coada spre dreapta:</text><text x=\"300.0\" y=\"109.0\" text-anchor=\"end\" fill=\"#6b6760\" font-size=\"10.8\">câteva scoruri foarte mari</text><text x=\"160.0\" y=\"152.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"12.0\">media &gt; mediana &gt; modul</text><text x=\"160.0\" y=\"166.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"9.6\">scoruri →</text></svg>"
+          },
+          {
+            "titlu": "Asimetrie negativă (figura 3.3)",
+            "nota": "Formă ilustrativă; imaginea în oglindă a celei pozitive.",
+            "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 172\" role=\"img\" aria-label=\"Asimetrie negativă: media, apoi mediana, apoi modul, cu coada spre stânga\" font-family=\"Georgia, serif\" font-size=\"13\"><path d=\"M20.0,132 L20.0,128.8 L21.2,128.8 L22.3,128.7 L23.5,128.7 L24.7,128.6 L25.8,128.5 L27.0,128.5 L28.2,128.4 L29.3,128.3 L30.5,128.3 L31.7,128.2 L32.8,128.1 L34.0,128.1 L35.2,128.0 L36.3,127.9 L37.5,127.8 L38.7,127.8 L39.8,127.7 L41.0,127.6 L42.2,127.5 L43.3,127.4 L44.5,127.3 L45.7,127.3 L46.8,127.2 L48.0,127.1 L49.2,127.0 L50.3,126.9 L51.5,126.8 L52.7,126.7 L53.8,126.6 L55.0,126.5 L56.2,126.4 L57.3,126.3 L58.5,126.2 L59.7,126.1 L60.8,126.0 L62.0,125.8 L63.2,125.7 L64.3,125.6 L65.5,125.5 L66.7,125.4 L67.8,125.2 L69.0,125.1 L70.2,125.0 L71.3,124.8 L72.5,124.7 L73.7,124.5 L74.8,124.4 L76.0,124.2 L77.2,124.1 L78.3,123.9 L79.5,123.8 L80.7,123.6 L81.8,123.5 L83.0,123.3 L84.2,123.1 L85.3,123.0 L86.5,122.8 L87.7,122.6 L88.8,122.4 L90.0,122.2 L91.2,122.0 L92.3,121.8 L93.5,121.6 L94.7,121.4 L95.8,121.2 L97.0,121.0 L98.2,120.8 L99.3,120.6 L100.5,120.3 L101.7,120.1 L102.8,119.9 L104.0,119.6 L105.2,119.4 L106.3,119.1 L107.5,118.9 L108.7,118.6 L109.8,118.3 L111.0,118.0 L112.2,117.8 L113.3,117.5 L114.5,117.2 L115.7,116.9 L116.8,116.6 L118.0,116.3 L119.2,115.9 L120.3,115.6 L121.5,115.3 L122.7,115.0 L123.8,114.6 L125.0,114.3 L126.2,113.9 L127.3,113.5 L128.5,113.2 L129.7,112.8 L130.8,112.4 L132.0,112.0 L133.2,111.6 L134.3,111.2 L135.5,110.7 L136.7,110.3 L137.8,109.9 L139.0,109.4 L140.2,108.9 L141.3,108.5 L142.5,108.0 L143.7,107.5 L144.8,107.0 L146.0,106.5 L147.2,106.0 L148.3,105.5 L149.5,104.9 L150.7,104.4 L151.8,103.8 L153.0,103.2 L154.2,102.6 L155.3,102.1 L156.5,101.4 L157.7,100.8 L158.8,100.2 L160.0,99.6 L161.2,98.9 L162.3,98.2 L163.5,97.6 L164.7,96.9 L165.8,96.2 L167.0,95.4 L168.2,94.7 L169.3,94.0 L170.5,93.2 L171.7,92.5 L172.8,91.7 L174.0,90.9 L175.2,90.1 L176.3,89.2 L177.5,88.4 L178.7,87.6 L179.8,86.7 L181.0,85.8 L182.2,84.9 L183.3,84.0 L184.5,83.1 L185.7,82.2 L186.8,81.3 L188.0,80.3 L189.2,79.3 L190.3,78.4 L191.5,77.4 L192.7,76.4 L193.8,75.4 L195.0,74.3 L196.2,73.3 L197.3,72.3 L198.5,71.2 L199.7,70.2 L200.8,69.1 L202.0,68.0 L203.2,67.0 L204.3,65.9 L205.5,64.8 L206.7,63.7 L207.8,62.6 L209.0,61.5 L210.2,60.4 L211.3,59.3 L212.5,58.2 L213.7,57.2 L214.8,56.1 L216.0,55.0 L217.2,54.0 L218.3,52.9 L219.5,51.9 L220.7,50.9 L221.8,49.9 L223.0,49.0 L224.2,48.1 L225.3,47.2 L226.5,46.3 L227.7,45.5 L228.8,44.7 L230.0,43.9 L231.2,43.2 L232.3,42.6 L233.5,42.0 L234.7,41.5 L235.8,41.1 L237.0,40.7 L238.2,40.4 L239.3,40.2 L240.5,40.0 L241.7,40.0 L242.8,40.1 L244.0,40.2 L245.2,40.5 L246.3,40.9 L247.5,41.5 L248.7,42.1 L249.8,42.9 L251.0,43.8 L252.2,44.9 L253.3,46.2 L254.5,47.6 L255.7,49.1 L256.8,50.8 L258.0,52.7 L259.2,54.8 L260.3,57.0 L261.5,59.4 L262.7,62.0 L263.8,64.7 L265.0,67.6 L266.2,70.6 L267.3,73.8 L268.5,77.1 L269.7,80.6 L270.8,84.1 L272.0,87.7 L273.2,91.4 L274.3,95.1 L275.5,98.7 L276.7,102.4 L277.8,106.0 L279.0,109.4 L280.2,112.8 L281.3,115.9 L282.5,118.8 L283.7,121.5 L284.8,123.8 L286.0,125.9 L287.2,127.6 L288.3,129.0 L289.5,130.1 L290.7,130.9 L291.8,131.4 L293.0,131.7 L294.2,131.9 L295.3,132.0 L296.5,132.0 L297.7,132.0 L298.8,132.0 L300.0,132.0 L300.0,132 Z\" fill=\"#2a78d6\" fill-opacity=\"0.14\" stroke=\"none\"/><polyline points=\"20.0,128.8 21.2,128.8 22.3,128.7 23.5,128.7 24.7,128.6 25.8,128.5 27.0,128.5 28.2,128.4 29.3,128.3 30.5,128.3 31.7,128.2 32.8,128.1 34.0,128.1 35.2,128.0 36.3,127.9 37.5,127.8 38.7,127.8 39.8,127.7 41.0,127.6 42.2,127.5 43.3,127.4 44.5,127.3 45.7,127.3 46.8,127.2 48.0,127.1 49.2,127.0 50.3,126.9 51.5,126.8 52.7,126.7 53.8,126.6 55.0,126.5 56.2,126.4 57.3,126.3 58.5,126.2 59.7,126.1 60.8,126.0 62.0,125.8 63.2,125.7 64.3,125.6 65.5,125.5 66.7,125.4 67.8,125.2 69.0,125.1 70.2,125.0 71.3,124.8 72.5,124.7 73.7,124.5 74.8,124.4 76.0,124.2 77.2,124.1 78.3,123.9 79.5,123.8 80.7,123.6 81.8,123.5 83.0,123.3 84.2,123.1 85.3,123.0 86.5,122.8 87.7,122.6 88.8,122.4 90.0,122.2 91.2,122.0 92.3,121.8 93.5,121.6 94.7,121.4 95.8,121.2 97.0,121.0 98.2,120.8 99.3,120.6 100.5,120.3 101.7,120.1 102.8,119.9 104.0,119.6 105.2,119.4 106.3,119.1 107.5,118.9 108.7,118.6 109.8,118.3 111.0,118.0 112.2,117.8 113.3,117.5 114.5,117.2 115.7,116.9 116.8,116.6 118.0,116.3 119.2,115.9 120.3,115.6 121.5,115.3 122.7,115.0 123.8,114.6 125.0,114.3 126.2,113.9 127.3,113.5 128.5,113.2 129.7,112.8 130.8,112.4 132.0,112.0 133.2,111.6 134.3,111.2 135.5,110.7 136.7,110.3 137.8,109.9 139.0,109.4 140.2,108.9 141.3,108.5 142.5,108.0 143.7,107.5 144.8,107.0 146.0,106.5 147.2,106.0 148.3,105.5 149.5,104.9 150.7,104.4 151.8,103.8 153.0,103.2 154.2,102.6 155.3,102.1 156.5,101.4 157.7,100.8 158.8,100.2 160.0,99.6 161.2,98.9 162.3,98.2 163.5,97.6 164.7,96.9 165.8,96.2 167.0,95.4 168.2,94.7 169.3,94.0 170.5,93.2 171.7,92.5 172.8,91.7 174.0,90.9 175.2,90.1 176.3,89.2 177.5,88.4 178.7,87.6 179.8,86.7 181.0,85.8 182.2,84.9 183.3,84.0 184.5,83.1 185.7,82.2 186.8,81.3 188.0,80.3 189.2,79.3 190.3,78.4 191.5,77.4 192.7,76.4 193.8,75.4 195.0,74.3 196.2,73.3 197.3,72.3 198.5,71.2 199.7,70.2 200.8,69.1 202.0,68.0 203.2,67.0 204.3,65.9 205.5,64.8 206.7,63.7 207.8,62.6 209.0,61.5 210.2,60.4 211.3,59.3 212.5,58.2 213.7,57.2 214.8,56.1 216.0,55.0 217.2,54.0 218.3,52.9 219.5,51.9 220.7,50.9 221.8,49.9 223.0,49.0 224.2,48.1 225.3,47.2 226.5,46.3 227.7,45.5 228.8,44.7 230.0,43.9 231.2,43.2 232.3,42.6 233.5,42.0 234.7,41.5 235.8,41.1 237.0,40.7 238.2,40.4 239.3,40.2 240.5,40.0 241.7,40.0 242.8,40.1 244.0,40.2 245.2,40.5 246.3,40.9 247.5,41.5 248.7,42.1 249.8,42.9 251.0,43.8 252.2,44.9 253.3,46.2 254.5,47.6 255.7,49.1 256.8,50.8 258.0,52.7 259.2,54.8 260.3,57.0 261.5,59.4 262.7,62.0 263.8,64.7 265.0,67.6 266.2,70.6 267.3,73.8 268.5,77.1 269.7,80.6 270.8,84.1 272.0,87.7 273.2,91.4 274.3,95.1 275.5,98.7 276.7,102.4 277.8,106.0 279.0,109.4 280.2,112.8 281.3,115.9 282.5,118.8 283.7,121.5 284.8,123.8 286.0,125.9 287.2,127.6 288.3,129.0 289.5,130.1 290.7,130.9 291.8,131.4 293.0,131.7 294.2,131.9 295.3,132.0 296.5,132.0 297.7,132.0 298.8,132.0 300.0,132.0\" fill=\"none\" stroke=\"#2a78d6\" stroke-width=\"2\"/><line x1=\"20.0\" y1=\"132.0\" x2=\"300.0\" y2=\"132.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><line x1=\"205.2\" y1=\"49.0\" x2=\"205.2\" y2=\"132.0\" stroke=\"#eb6834\" stroke-width=\"1.5\" stroke-dasharray=\"4,3\"/><text x=\"201.2\" y=\"46.0\" text-anchor=\"end\" fill=\"#eb6834\" font-size=\"10.8\">media</text><line x1=\"217.2\" y1=\"37.0\" x2=\"217.2\" y2=\"132.0\" stroke=\"#1baf7a\" stroke-width=\"1.5\" stroke-dasharray=\"4,3\"/><text x=\"213.2\" y=\"34.0\" text-anchor=\"end\" fill=\"#1baf7a\" font-size=\"10.8\">mediana</text><line x1=\"241.7\" y1=\"25.0\" x2=\"241.7\" y2=\"132.0\" stroke=\"#2c2a26\" stroke-width=\"1.5\" stroke-dasharray=\"4,3\"/><text x=\"237.7\" y=\"22.0\" text-anchor=\"end\" fill=\"#2c2a26\" font-size=\"10.8\">modul</text><text x=\"20.0\" y=\"96.0\" text-anchor=\"start\" fill=\"#6b6760\" font-size=\"10.8\">coada spre stânga:</text><text x=\"20.0\" y=\"109.0\" text-anchor=\"start\" fill=\"#6b6760\" font-size=\"10.8\">câteva scoruri foarte mici</text><text x=\"160.0\" y=\"152.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"12.0\">media &lt; mediana &lt; modul</text><text x=\"160.0\" y=\"166.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"9.6\">scoruri →</text></svg>"
+          }
+        ]
+      },
+      {
+        "titlu": "Media aritmetică ponderată",
+        "noduri": [
+          {
+            "t": "Media ponderată",
+            "d": "Pentru grupuri cu numere diferite de scoruri: X̄ = Σ ni·X̄i / N (formula 3.2). 86 de băieți (7,33) și 54 de fete (8,45): (86 · 7,33 + 54 · 8,45) / 140 = 1086,68 / 140 = 7,76. Se poate calcula pentru oricâte grupuri."
+          },
+          {
+            "t": "Eroarea mediei mediilor",
+            "d": "Media simplă a mediilor ignoră mărimea grupurilor: (7,33 + 8,45) / 2 = 7,89, rezultat greșit."
+          },
+          {
+            "t": "Echivalența formulelor 3.1 și 3.2",
+            "d": "Pe aceeași mulțime de scoruri, cele două formule dau același rezultat: 10 scoruri împărțite în grupuri de 6 (media 5,83) și 4 (media 8,50) → 69 / 10 = 6,90 în ambele cazuri; media mediilor ar da ≈ 7,17 (în carte, 7,16)."
+          }
+        ],
+        "figuri": [
+          {
+            "titlu": "Media ponderată vs media mediilor",
+            "nota": "Mărimea cercului arată numărul de studenți din grup.",
+            "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 192\" role=\"img\" aria-label=\"Media ponderată 7,76 e mai aproape de grupul mai mare; media mediilor 7,89 e greșită\" font-family=\"Georgia, serif\" font-size=\"13\"><line x1=\"24.0\" y1=\"70.0\" x2=\"300.0\" y2=\"70.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><line x1=\"24.0\" y1=\"70.0\" x2=\"24.0\" y2=\"74.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><text x=\"24.0\" y=\"98.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"9.6\">7,2</text><line x1=\"63.4\" y1=\"70.0\" x2=\"63.4\" y2=\"74.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><text x=\"63.4\" y=\"98.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"9.6\">7,4</text><line x1=\"102.9\" y1=\"70.0\" x2=\"102.9\" y2=\"74.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><text x=\"102.9\" y=\"98.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"9.6\">7,6</text><line x1=\"142.3\" y1=\"70.0\" x2=\"142.3\" y2=\"74.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><text x=\"142.3\" y=\"98.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"9.6\">7,8</text><line x1=\"181.7\" y1=\"70.0\" x2=\"181.7\" y2=\"74.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><text x=\"181.7\" y=\"98.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"9.6\">8,0</text><line x1=\"221.1\" y1=\"70.0\" x2=\"221.1\" y2=\"74.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><text x=\"221.1\" y=\"98.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"9.6\">8,2</text><line x1=\"260.6\" y1=\"70.0\" x2=\"260.6\" y2=\"74.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><text x=\"260.6\" y=\"98.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"9.6\">8,4</text><line x1=\"300.0\" y1=\"70.0\" x2=\"300.0\" y2=\"74.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><text x=\"300.0\" y=\"98.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"9.6\">8,6</text><circle cx=\"49.6\" cy=\"70.0\" r=\"13.0\" fill=\"#2a78d6\" stroke=\"#faf8f3\" stroke-width=\"1.5\"><title>băieți: n = 86, media 7,33</title></circle><circle cx=\"270.4\" cy=\"70.0\" r=\"10.3\" fill=\"#eb6834\" stroke=\"#faf8f3\" stroke-width=\"1.5\"><title>fete: n = 54, media 8,45</title></circle><text x=\"49.6\" y=\"36.0\" text-anchor=\"start\" fill=\"#2a78d6\" font-size=\"10.8\" dx=\"-14\">băieți 7,33 (n = 86)</text><text x=\"270.4\" y=\"36.0\" text-anchor=\"end\" fill=\"#eb6834\" font-size=\"10.8\" dx=\"14\">fete 8,45 (n = 54)</text><path d=\"M134.4,104.0 l-5,9 h10 z\" fill=\"#1baf7a\"><title>media ponderată 7,76</title></path><text x=\"134.4\" y=\"126.0\" text-anchor=\"middle\" fill=\"#1baf7a\" font-size=\"10.8\">ponderată 7,76</text><path d=\"M160.0,104.0 l-5,9 h10 z\" fill=\"#b5453a\"><title>media mediilor 7,89 (greșit)</title></path><text x=\"164.0\" y=\"142.0\" text-anchor=\"start\" fill=\"#b5453a\" font-size=\"10.8\">media mediilor 7,89 (greșit)</text><text x=\"160.0\" y=\"166.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.8\">(86 · 7,33 + 54 · 8,45) / 140 = 1086,68 / 140 = 7,76</text><text x=\"160.0\" y=\"182.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.8\">grupul mai mare „trage” media spre el</text></svg>"
+          }
+        ]
+      },
+      {
+        "titlu": "Tendința centrală pentru date grupate",
+        "noduri": [
+          {
+            "t": "Când se lucrează cu date grupate",
+            "d": "Pentru date de interval sau de raport grupate: (1) multe scoruri brute, fără calculator, sau când valorile aproximative ajung; (2) date din surse secundare, fără acces la scorurile brute. Pentru cei 180 de subiecți, scorurile brute dau X̄ = 49,22, X̃ = 49, Mo = 56."
+          },
+          {
+            "t": "Media pentru date grupate",
+            "d": "Supoziție: toate scorurile din fiecare interval sunt situate în centrul lui. Pași: centrul mi, produsul fi·mi, apoi Σfi·mi / n (formula 3.3): 8865 / 180 = 49,25."
+          },
+          {
+            "t": "Mediana pentru date grupate",
+            "d": "Simplificare: cazul de mijloc e al n/2-lea, indiferent de paritate (al 90-lea). Supoziție: scorurile sunt distribuite uniform între limitele reale ale intervalului. Formula 3.4: X̃ ≈ LCRI + (n/2 − fc)/f · i = 44,5 + (90 − 50)/42 · 5 = 49,26."
+          },
+          {
+            "t": "Intervalul modal",
+            "d": "Modul efectiv nu se poate afla; se ia intervalul cu cele mai multe cazuri, iar centrul lui e modul (45–49 → 47). Dacă există două sau mai multe intervale neadiacente cu mai multe scoruri decât vecinele, distribuția e multimodală: aici bimodală, 47 și 57 (55–59 conține modul efectiv, 56)."
+          }
+        ],
+        "tabel": {
+          "cap": [
+            "Mărimea",
+            "Supoziția",
+            "Formula",
+            "Date grupate",
+            "Scoruri brute"
+          ],
+          "randuri": [
+            [
+              "Media",
+              "scorurile stau în centrul intervalului",
+              "Σfi·mi / n",
+              "49,25",
+              "49,22"
+            ],
+            [
+              "Mediana",
+              "scoruri distribuite uniform între limitele reale",
+              "LCRI + (n/2 − fc)/f · i",
+              "49,26",
+              "49"
+            ],
+            [
+              "Modul",
+              "centrul intervalului modal",
+              "—",
+              "47 (bimodal: 47 și 57)",
+              "56"
+            ]
+          ]
+        },
+        "figuri": [
+          {
+            "titlu": "Mediana pentru date grupate (tabelul 3.8)",
+            "nota": "Supoziția: cele 42 de cazuri din interval sunt distribuite uniform între limitele reale; cazul 90 e al 40-lea din 42.",
+            "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 164\" role=\"img\" aria-label=\"Intervalul 44,5–49,5 cu 42 de cazuri uniform distribuite; cazul 90 cade la 49,26\" font-family=\"Georgia, serif\" font-size=\"13\"><rect x=\"40.0\" y=\"58.0\" width=\"250.0\" height=\"24.0\" fill=\"#2a78d6\" fill-opacity=\"0.16\"><title>intervalul 45–49, limite reale 44,5–49,5, 42 de cazuri</title></rect><line x1=\"46.0\" y1=\"66.0\" x2=\"46.0\" y2=\"74.0\" stroke=\"#2a78d6\" stroke-width=\"1\"/><line x1=\"51.9\" y1=\"66.0\" x2=\"51.9\" y2=\"74.0\" stroke=\"#2a78d6\" stroke-width=\"1\"/><line x1=\"57.9\" y1=\"66.0\" x2=\"57.9\" y2=\"74.0\" stroke=\"#2a78d6\" stroke-width=\"1\"/><line x1=\"63.8\" y1=\"66.0\" x2=\"63.8\" y2=\"74.0\" stroke=\"#2a78d6\" stroke-width=\"1\"/><line x1=\"69.8\" y1=\"66.0\" x2=\"69.8\" y2=\"74.0\" stroke=\"#2a78d6\" stroke-width=\"1\"/><line x1=\"75.7\" y1=\"66.0\" x2=\"75.7\" y2=\"74.0\" stroke=\"#2a78d6\" stroke-width=\"1\"/><line x1=\"81.7\" y1=\"66.0\" x2=\"81.7\" y2=\"74.0\" stroke=\"#2a78d6\" stroke-width=\"1\"/><line x1=\"87.6\" y1=\"66.0\" x2=\"87.6\" y2=\"74.0\" stroke=\"#2a78d6\" stroke-width=\"1\"/><line x1=\"93.6\" y1=\"66.0\" x2=\"93.6\" y2=\"74.0\" stroke=\"#2a78d6\" stroke-width=\"1\"/><line x1=\"99.5\" y1=\"66.0\" x2=\"99.5\" y2=\"74.0\" stroke=\"#2a78d6\" stroke-width=\"1\"/><line x1=\"105.5\" y1=\"66.0\" x2=\"105.5\" y2=\"74.0\" stroke=\"#2a78d6\" stroke-width=\"1\"/><line x1=\"111.4\" y1=\"66.0\" x2=\"111.4\" y2=\"74.0\" stroke=\"#2a78d6\" stroke-width=\"1\"/><line x1=\"117.4\" y1=\"66.0\" x2=\"117.4\" y2=\"74.0\" stroke=\"#2a78d6\" stroke-width=\"1\"/><line x1=\"123.3\" y1=\"66.0\" x2=\"123.3\" y2=\"74.0\" stroke=\"#2a78d6\" stroke-width=\"1\"/><line x1=\"129.3\" y1=\"66.0\" x2=\"129.3\" y2=\"74.0\" stroke=\"#2a78d6\" stroke-width=\"1\"/><line x1=\"135.2\" y1=\"66.0\" x2=\"135.2\" y2=\"74.0\" stroke=\"#2a78d6\" stroke-width=\"1\"/><line x1=\"141.2\" y1=\"66.0\" x2=\"141.2\" y2=\"74.0\" stroke=\"#2a78d6\" stroke-width=\"1\"/><line x1=\"147.1\" y1=\"66.0\" x2=\"147.1\" y2=\"74.0\" stroke=\"#2a78d6\" stroke-width=\"1\"/><line x1=\"153.1\" y1=\"66.0\" x2=\"153.1\" y2=\"74.0\" stroke=\"#2a78d6\" stroke-width=\"1\"/><line x1=\"159.0\" y1=\"66.0\" x2=\"159.0\" y2=\"74.0\" stroke=\"#2a78d6\" stroke-width=\"1\"/><line x1=\"165.0\" y1=\"66.0\" x2=\"165.0\" y2=\"74.0\" stroke=\"#2a78d6\" stroke-width=\"1\"/><line x1=\"171.0\" y1=\"66.0\" x2=\"171.0\" y2=\"74.0\" stroke=\"#2a78d6\" stroke-width=\"1\"/><line x1=\"176.9\" y1=\"66.0\" x2=\"176.9\" y2=\"74.0\" stroke=\"#2a78d6\" stroke-width=\"1\"/><line x1=\"182.9\" y1=\"66.0\" x2=\"182.9\" y2=\"74.0\" stroke=\"#2a78d6\" stroke-width=\"1\"/><line x1=\"188.8\" y1=\"66.0\" x2=\"188.8\" y2=\"74.0\" stroke=\"#2a78d6\" stroke-width=\"1\"/><line x1=\"194.8\" y1=\"66.0\" x2=\"194.8\" y2=\"74.0\" stroke=\"#2a78d6\" stroke-width=\"1\"/><line x1=\"200.7\" y1=\"66.0\" x2=\"200.7\" y2=\"74.0\" stroke=\"#2a78d6\" stroke-width=\"1\"/><line x1=\"206.7\" y1=\"66.0\" x2=\"206.7\" y2=\"74.0\" stroke=\"#2a78d6\" stroke-width=\"1\"/><line x1=\"212.6\" y1=\"66.0\" x2=\"212.6\" y2=\"74.0\" stroke=\"#2a78d6\" stroke-width=\"1\"/><line x1=\"218.6\" y1=\"66.0\" x2=\"218.6\" y2=\"74.0\" stroke=\"#2a78d6\" stroke-width=\"1\"/><line x1=\"224.5\" y1=\"66.0\" x2=\"224.5\" y2=\"74.0\" stroke=\"#2a78d6\" stroke-width=\"1\"/><line x1=\"230.5\" y1=\"66.0\" x2=\"230.5\" y2=\"74.0\" stroke=\"#2a78d6\" stroke-width=\"1\"/><line x1=\"236.4\" y1=\"66.0\" x2=\"236.4\" y2=\"74.0\" stroke=\"#2a78d6\" stroke-width=\"1\"/><line x1=\"242.4\" y1=\"66.0\" x2=\"242.4\" y2=\"74.0\" stroke=\"#2a78d6\" stroke-width=\"1\"/><line x1=\"248.3\" y1=\"66.0\" x2=\"248.3\" y2=\"74.0\" stroke=\"#2a78d6\" stroke-width=\"1\"/><line x1=\"254.3\" y1=\"66.0\" x2=\"254.3\" y2=\"74.0\" stroke=\"#2a78d6\" stroke-width=\"1\"/><line x1=\"260.2\" y1=\"66.0\" x2=\"260.2\" y2=\"74.0\" stroke=\"#2a78d6\" stroke-width=\"1\"/><line x1=\"266.2\" y1=\"66.0\" x2=\"266.2\" y2=\"74.0\" stroke=\"#2a78d6\" stroke-width=\"1\"/><line x1=\"272.1\" y1=\"66.0\" x2=\"272.1\" y2=\"74.0\" stroke=\"#2a78d6\" stroke-width=\"1\"/><line x1=\"278.1\" y1=\"62.0\" x2=\"278.1\" y2=\"78.0\" stroke=\"#eb6834\" stroke-width=\"2\"/><line x1=\"284.0\" y1=\"66.0\" x2=\"284.0\" y2=\"74.0\" stroke=\"#2a78d6\" stroke-width=\"1\"/><line x1=\"290.0\" y1=\"66.0\" x2=\"290.0\" y2=\"74.0\" stroke=\"#2a78d6\" stroke-width=\"1\"/><text x=\"40.0\" y=\"98.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.8\">44,5</text><text x=\"290.0\" y=\"98.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.8\">49,5</text><line x1=\"278.0\" y1=\"40.0\" x2=\"278.0\" y2=\"60.0\" stroke=\"#eb6834\" stroke-width=\"1.5\"/><text x=\"278.0\" y=\"36.0\" text-anchor=\"end\" fill=\"#eb6834\" font-size=\"10.8\" dx=\"8\">cazul 90 → 49,26</text><text x=\"40.0\" y=\"36.0\" text-anchor=\"start\" fill=\"#6b6760\" font-size=\"10.8\">fc sub interval = 50</text><text x=\"160.0\" y=\"118.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.8\">cazurile 51 … 92, distribuite uniform</text><text x=\"160.0\" y=\"140.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.8\">X̃ ≈ 44,5 + (180/2 − 50) / 42 · 5 = 44,5 + 4,76 = 49,26</text><text x=\"160.0\" y=\"156.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.8\">(scoruri brute: mediana 49)</text></svg>"
+          },
+          {
+            "titlu": "Media, mediana și modurile datelor grupate (tabelul 3.6)",
+            "nota": "Media și mediana aproape coincid; cele două intervale neadiacente mai înalte decât vecinele fac distribuția bimodală.",
+            "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 202\" role=\"img\" aria-label=\"Histograma datelor grupate: intervalele 45–49 și 55–59 dau modurile 47 și 57; media și mediana aproape 49,3\" font-family=\"Georgia, serif\" font-size=\"13\"><line x1=\"32.0\" y1=\"160.0\" x2=\"312.0\" y2=\"160.0\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><text x=\"28.0\" y=\"163.5\" text-anchor=\"end\" fill=\"#6b6760\" font-size=\"10.8\">0</text><line x1=\"32.0\" y1=\"117.3\" x2=\"312.0\" y2=\"117.3\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><text x=\"28.0\" y=\"120.8\" text-anchor=\"end\" fill=\"#6b6760\" font-size=\"10.8\">15</text><line x1=\"32.0\" y1=\"74.7\" x2=\"312.0\" y2=\"74.7\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><text x=\"28.0\" y=\"78.2\" text-anchor=\"end\" fill=\"#6b6760\" font-size=\"10.8\">30</text><line x1=\"32.0\" y1=\"32.0\" x2=\"312.0\" y2=\"32.0\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><text x=\"28.0\" y=\"35.5\" text-anchor=\"end\" fill=\"#6b6760\" font-size=\"10.8\">45</text><rect x=\"32.0\" y=\"157.2\" width=\"28.0\" height=\"2.8\" fill=\"#2a78d6\" stroke=\"#faf8f3\" stroke-width=\"1\" fill-opacity=\"0.55\"><title>20–24: f = 1, centru 22</title></rect><rect x=\"60.0\" y=\"154.3\" width=\"28.0\" height=\"5.7\" fill=\"#2a78d6\" stroke=\"#faf8f3\" stroke-width=\"1\" fill-opacity=\"0.55\"><title>25–29: f = 2, centru 27</title></rect><rect x=\"88.0\" y=\"140.1\" width=\"28.0\" height=\"19.9\" fill=\"#2a78d6\" stroke=\"#faf8f3\" stroke-width=\"1\" fill-opacity=\"0.55\"><title>30–34: f = 7, centru 32</title></rect><rect x=\"116.0\" y=\"108.8\" width=\"28.0\" height=\"51.2\" fill=\"#2a78d6\" stroke=\"#faf8f3\" stroke-width=\"1\" fill-opacity=\"0.55\"><title>35–39: f = 18, centru 37</title></rect><rect x=\"144.0\" y=\"97.4\" width=\"28.0\" height=\"62.6\" fill=\"#2a78d6\" stroke=\"#faf8f3\" stroke-width=\"1\" fill-opacity=\"0.55\"><title>40–44: f = 22, centru 42</title></rect><rect x=\"172.0\" y=\"40.5\" width=\"28.0\" height=\"119.5\" fill=\"#eb6834\" stroke=\"#faf8f3\" stroke-width=\"1\"><title>45–49: f = 42, centru 47</title></rect><rect x=\"200.0\" y=\"74.7\" width=\"28.0\" height=\"85.3\" fill=\"#2a78d6\" stroke=\"#faf8f3\" stroke-width=\"1\" fill-opacity=\"0.55\"><title>50–54: f = 30, centru 52</title></rect><rect x=\"228.0\" y=\"54.8\" width=\"28.0\" height=\"105.2\" fill=\"#eb6834\" stroke=\"#faf8f3\" stroke-width=\"1\"><title>55–59: f = 37, centru 57</title></rect><rect x=\"256.0\" y=\"117.3\" width=\"28.0\" height=\"42.7\" fill=\"#2a78d6\" stroke=\"#faf8f3\" stroke-width=\"1\" fill-opacity=\"0.55\"><title>60–64: f = 15, centru 62</title></rect><rect x=\"284.0\" y=\"142.9\" width=\"28.0\" height=\"17.1\" fill=\"#2a78d6\" stroke=\"#faf8f3\" stroke-width=\"1\" fill-opacity=\"0.55\"><title>65–69: f = 6, centru 67</title></rect><text x=\"32.0\" y=\"173.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"9.6\">19,5</text><text x=\"88.0\" y=\"173.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"9.6\">29,5</text><text x=\"144.0\" y=\"173.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"9.6\">39,5</text><text x=\"200.0\" y=\"173.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"9.6\">49,5</text><text x=\"256.0\" y=\"173.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"9.6\">59,5</text><text x=\"312.0\" y=\"173.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"9.6\">69,5</text><text x=\"169.0\" y=\"50.5\" text-anchor=\"end\" fill=\"#eb6834\" font-size=\"10.8\">Mo 47</text><text x=\"242.0\" y=\"49.8\" text-anchor=\"middle\" fill=\"#eb6834\" font-size=\"10.8\">Mo 57</text><line x1=\"198.6\" y1=\"28.0\" x2=\"198.6\" y2=\"160.0\" stroke=\"#2c2a26\" stroke-width=\"1.5\" stroke-dasharray=\"4,3\"/><text x=\"194.6\" y=\"14.0\" text-anchor=\"end\" fill=\"#2c2a26\" font-size=\"10.8\" dx=\"40\">media 49,25 ≈ mediana 49,26</text><line x1=\"32.0\" y1=\"160.0\" x2=\"312.0\" y2=\"160.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><rect x=\"40.0\" y=\"186.0\" width=\"10.0\" height=\"10.0\" fill=\"#eb6834\"></rect><text x=\"54.0\" y=\"195.0\" text-anchor=\"start\" fill=\"#6b6760\" font-size=\"10.8\">intervale neadiacente mai mari decât vecinele → bimodală</text></svg>"
+          }
+        ]
+      },
+      {
+        "titlu": "Percentile",
+        "noduri": [
+          {
+            "t": "Definiția percentilei",
+            "d": "Descrie poziția unui scor individual față de celelalte. A m-a percentilă, Pm, e valoarea față de care cel mult m% din scoruri sunt mai mici și cel mult (100 − m)% mai mari. Mediana este P50."
+          },
+          {
+            "t": "Cuartile și decile",
+            "d": "Percentile care împart mulțimea ordonată în sferturi, respectiv zecimi: D1 = P10, Q1 = P25, Q2 = P50 = X̃, Q3 = P75, D9 = P90. În practică, „cuartilă” desemnează uneori chiar un sfert."
+          },
+          {
+            "t": "Percentile pe scoruri neagrupate",
+            "d": "2, 4, 4, 5, 7, 8, 10, 12, 17, 18, 18, 21, 27, 29, 30: Q1 = 5 (cel mult n·0,25 = 3,75 scoruri sub, 11,25 peste), Q2 = 12, Q3 = 21. Dacă percentila cade între două scoruri, se ia media lor: P20 = 4,50."
+          },
+          {
+            "t": "Percentile pentru date grupate",
+            "d": "Ca la mediana pentru date grupate (formula 3.5): Pm ≈ LCRI + (n·p − fc)/f · i. P75: 180 · 0,75 = 135 → intervalul 55–59; 54,5 + (135 − 122)/37 · 5 = 56,25."
+          },
+          {
+            "t": "Rangul percentilei",
+            "d": "Procentul de cazuri cu scoruri mai mici sau egale cu un scor dat (formula 3.6). RP47: (47 − 44,5)/5 = 0,5 din cele 42 de cazuri = 21; (50 + 21)/180 · 100 = 39,4%."
+          },
+          {
+            "t": "Ogiva pentru percentile",
+            "d": "Pe ogiva din Cap. 2 (Prezentarea datelor statistice): pentru P58, din 58 pe axa procentelor, paralelă la axa scorurilor până la curbă, apoi perpendiculară pe axa scorurilor. Pentru RP62, drumul invers: din 62 pe axa scorurilor, până la curbă, apoi pe axa procentelor."
+          }
+        ],
+        "figuri": [
+          {
+            "titlu": "Cuartilele unei mulțimi de 15 scoruri",
+            "nota": "Scorurile repetate (4, 18) sunt stivuite.",
+            "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 162\" role=\"img\" aria-label=\"Cincisprezece scoruri ordonate cu prima cuartilă 5, mediana 12 și a treia cuartilă 21\" font-family=\"Georgia, serif\" font-size=\"13\"><line x1=\"20.0\" y1=\"86.0\" x2=\"306.0\" y2=\"86.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><line x1=\"20.0\" y1=\"86.0\" x2=\"20.0\" y2=\"90.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><text x=\"20.0\" y=\"102.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"9.6\">0</text><line x1=\"64.7\" y1=\"86.0\" x2=\"64.7\" y2=\"90.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><text x=\"64.7\" y=\"102.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"9.6\">5</text><line x1=\"109.4\" y1=\"86.0\" x2=\"109.4\" y2=\"90.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><text x=\"109.4\" y=\"102.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"9.6\">10</text><line x1=\"154.1\" y1=\"86.0\" x2=\"154.1\" y2=\"90.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><text x=\"154.1\" y=\"102.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"9.6\">15</text><line x1=\"198.8\" y1=\"86.0\" x2=\"198.8\" y2=\"90.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><text x=\"198.8\" y=\"102.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"9.6\">20</text><line x1=\"243.4\" y1=\"86.0\" x2=\"243.4\" y2=\"90.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><text x=\"243.4\" y=\"102.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"9.6\">25</text><line x1=\"288.1\" y1=\"86.0\" x2=\"288.1\" y2=\"90.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><text x=\"288.1\" y=\"102.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"9.6\">30</text><circle cx=\"37.9\" cy=\"79.0\" r=\"4.5\" fill=\"#2a78d6\" stroke=\"#faf8f3\" stroke-width=\"1.5\"><title>scorul 2</title></circle><circle cx=\"55.8\" cy=\"79.0\" r=\"4.5\" fill=\"#2a78d6\" stroke=\"#faf8f3\" stroke-width=\"1.5\"><title>scorul 4</title></circle><circle cx=\"55.8\" cy=\"68.0\" r=\"4.5\" fill=\"#2a78d6\" stroke=\"#faf8f3\" stroke-width=\"1.5\"><title>scorul 4</title></circle><circle cx=\"64.7\" cy=\"79.0\" r=\"4.5\" fill=\"#2a78d6\" stroke=\"#faf8f3\" stroke-width=\"1.5\"><title>scorul 5</title></circle><circle cx=\"82.6\" cy=\"79.0\" r=\"4.5\" fill=\"#2a78d6\" stroke=\"#faf8f3\" stroke-width=\"1.5\"><title>scorul 7</title></circle><circle cx=\"91.5\" cy=\"79.0\" r=\"4.5\" fill=\"#2a78d6\" stroke=\"#faf8f3\" stroke-width=\"1.5\"><title>scorul 8</title></circle><circle cx=\"109.4\" cy=\"79.0\" r=\"4.5\" fill=\"#2a78d6\" stroke=\"#faf8f3\" stroke-width=\"1.5\"><title>scorul 10</title></circle><circle cx=\"127.2\" cy=\"79.0\" r=\"4.5\" fill=\"#2a78d6\" stroke=\"#faf8f3\" stroke-width=\"1.5\"><title>scorul 12</title></circle><circle cx=\"171.9\" cy=\"79.0\" r=\"4.5\" fill=\"#2a78d6\" stroke=\"#faf8f3\" stroke-width=\"1.5\"><title>scorul 17</title></circle><circle cx=\"180.9\" cy=\"79.0\" r=\"4.5\" fill=\"#2a78d6\" stroke=\"#faf8f3\" stroke-width=\"1.5\"><title>scorul 18</title></circle><circle cx=\"180.9\" cy=\"68.0\" r=\"4.5\" fill=\"#2a78d6\" stroke=\"#faf8f3\" stroke-width=\"1.5\"><title>scorul 18</title></circle><circle cx=\"207.7\" cy=\"79.0\" r=\"4.5\" fill=\"#2a78d6\" stroke=\"#faf8f3\" stroke-width=\"1.5\"><title>scorul 21</title></circle><circle cx=\"261.3\" cy=\"79.0\" r=\"4.5\" fill=\"#2a78d6\" stroke=\"#faf8f3\" stroke-width=\"1.5\"><title>scorul 27</title></circle><circle cx=\"279.2\" cy=\"79.0\" r=\"4.5\" fill=\"#2a78d6\" stroke=\"#faf8f3\" stroke-width=\"1.5\"><title>scorul 29</title></circle><circle cx=\"288.1\" cy=\"79.0\" r=\"4.5\" fill=\"#2a78d6\" stroke=\"#faf8f3\" stroke-width=\"1.5\"><title>scorul 30</title></circle><line x1=\"64.7\" y1=\"30.0\" x2=\"64.7\" y2=\"86.0\" stroke=\"#1baf7a\" stroke-width=\"1.5\" stroke-dasharray=\"4,3\"/><text x=\"64.7\" y=\"24.0\" text-anchor=\"middle\" fill=\"#1baf7a\" font-size=\"10.8\">Q1 = 5</text><line x1=\"127.2\" y1=\"30.0\" x2=\"127.2\" y2=\"86.0\" stroke=\"#2c2a26\" stroke-width=\"1.5\" stroke-dasharray=\"4,3\"/><text x=\"127.2\" y=\"24.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.8\">Q2 = mediana = 12</text><line x1=\"207.7\" y1=\"30.0\" x2=\"207.7\" y2=\"86.0\" stroke=\"#eb6834\" stroke-width=\"1.5\" stroke-dasharray=\"4,3\"/><text x=\"207.7\" y=\"24.0\" text-anchor=\"middle\" fill=\"#eb6834\" font-size=\"10.8\">Q3 = 21</text><text x=\"160.0\" y=\"122.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.8\">Q1: cel mult 15 · 0,25 = 3,75 scoruri sub ea (sunt 3)</text><text x=\"160.0\" y=\"137.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.8\">și cel mult 15 · 0,75 = 11,25 peste ea (sunt 11)</text><text x=\"160.0\" y=\"154.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.8\">P20: orice valoare între 4 și 5 → prin convenție 4,50</text></svg>"
+          },
+          {
+            "titlu": "Percentile și ranguri citite pe ogivă (figura 3.4)",
+            "nota": "Cartea ilustrează procedura cu P58 și RP62; aici sunt citite valorile calculate în text cu formulele 3.5 și 3.6.",
+            "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 198\" role=\"img\" aria-label=\"Ogiva procentelor cumulate: P75 citită la 56,25 și rangul percentilei scorului 47 la 39,4%\" font-family=\"Georgia, serif\" font-size=\"13\"><line x1=\"40.0\" y1=\"160.0\" x2=\"312.0\" y2=\"160.0\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><text x=\"36.0\" y=\"163.5\" text-anchor=\"end\" fill=\"#6b6760\" font-size=\"10.8\">0%</text><line x1=\"40.0\" y1=\"124.0\" x2=\"312.0\" y2=\"124.0\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><text x=\"36.0\" y=\"127.5\" text-anchor=\"end\" fill=\"#6b6760\" font-size=\"10.8\">25%</text><line x1=\"40.0\" y1=\"88.0\" x2=\"312.0\" y2=\"88.0\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><text x=\"36.0\" y=\"91.5\" text-anchor=\"end\" fill=\"#6b6760\" font-size=\"10.8\">50%</text><line x1=\"40.0\" y1=\"52.0\" x2=\"312.0\" y2=\"52.0\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><text x=\"36.0\" y=\"55.5\" text-anchor=\"end\" fill=\"#6b6760\" font-size=\"10.8\">75%</text><line x1=\"40.0\" y1=\"16.0\" x2=\"312.0\" y2=\"16.0\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><text x=\"36.0\" y=\"19.5\" text-anchor=\"end\" fill=\"#6b6760\" font-size=\"10.8\">100%</text><line x1=\"40.0\" y1=\"52.0\" x2=\"239.9\" y2=\"52.0\" stroke=\"#1baf7a\" stroke-width=\"1.3\" stroke-dasharray=\"3,3\"/><line x1=\"239.9\" y1=\"52.0\" x2=\"239.9\" y2=\"160.0\" stroke=\"#1baf7a\" stroke-width=\"1.3\" stroke-dasharray=\"3,3\"/><text x=\"242.9\" y=\"154.0\" text-anchor=\"start\" fill=\"#1baf7a\" font-size=\"10.8\">P75 ≈ 56,25</text><line x1=\"189.6\" y1=\"160.0\" x2=\"189.6\" y2=\"103.2\" stroke=\"#eb6834\" stroke-width=\"1.3\" stroke-dasharray=\"3,3\"/><line x1=\"40.0\" y1=\"103.2\" x2=\"189.6\" y2=\"103.2\" stroke=\"#eb6834\" stroke-width=\"1.3\" stroke-dasharray=\"3,3\"/><text x=\"43.0\" y=\"98.2\" text-anchor=\"start\" fill=\"#eb6834\" font-size=\"10.8\">RP47 ≈ 39,4%</text><polyline points=\"40.0,160.0 67.2,159.2 94.4,157.6 121.6,152.0 148.8,137.6 176.0,120.0 203.2,86.4 230.4,62.4 257.6,32.8 284.8,20.8 312.0,16.0\" fill=\"none\" stroke=\"#2a78d6\" stroke-width=\"2\"/><circle cx=\"40.0\" cy=\"160.0\" r=\"3.5\" fill=\"#2a78d6\" stroke=\"#faf8f3\" stroke-width=\"1.5\"><title>LCRS 19,5: 0,00% cumulat</title></circle><circle cx=\"67.2\" cy=\"159.2\" r=\"3.5\" fill=\"#2a78d6\" stroke=\"#faf8f3\" stroke-width=\"1.5\"><title>LCRS 24,5: 0,56% cumulat</title></circle><circle cx=\"94.4\" cy=\"157.6\" r=\"3.5\" fill=\"#2a78d6\" stroke=\"#faf8f3\" stroke-width=\"1.5\"><title>LCRS 29,5: 1,67% cumulat</title></circle><circle cx=\"121.6\" cy=\"152.0\" r=\"3.5\" fill=\"#2a78d6\" stroke=\"#faf8f3\" stroke-width=\"1.5\"><title>LCRS 34,5: 5,56% cumulat</title></circle><circle cx=\"148.8\" cy=\"137.6\" r=\"3.5\" fill=\"#2a78d6\" stroke=\"#faf8f3\" stroke-width=\"1.5\"><title>LCRS 39,5: 15,56% cumulat</title></circle><circle cx=\"176.0\" cy=\"120.0\" r=\"3.5\" fill=\"#2a78d6\" stroke=\"#faf8f3\" stroke-width=\"1.5\"><title>LCRS 44,5: 27,78% cumulat</title></circle><circle cx=\"203.2\" cy=\"86.4\" r=\"3.5\" fill=\"#2a78d6\" stroke=\"#faf8f3\" stroke-width=\"1.5\"><title>LCRS 49,5: 51,11% cumulat</title></circle><circle cx=\"230.4\" cy=\"62.4\" r=\"3.5\" fill=\"#2a78d6\" stroke=\"#faf8f3\" stroke-width=\"1.5\"><title>LCRS 54,5: 67,78% cumulat</title></circle><circle cx=\"257.6\" cy=\"32.8\" r=\"3.5\" fill=\"#2a78d6\" stroke=\"#faf8f3\" stroke-width=\"1.5\"><title>LCRS 59,5: 88,33% cumulat</title></circle><circle cx=\"284.8\" cy=\"20.8\" r=\"3.5\" fill=\"#2a78d6\" stroke=\"#faf8f3\" stroke-width=\"1.5\"><title>LCRS 64,5: 96,67% cumulat</title></circle><circle cx=\"312.0\" cy=\"16.0\" r=\"3.5\" fill=\"#2a78d6\" stroke=\"#faf8f3\" stroke-width=\"1.5\"><title>LCRS 69,5: 100,00% cumulat</title></circle><text x=\"40.0\" y=\"174.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"9.6\">19,5</text><text x=\"94.4\" y=\"174.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"9.6\">29,5</text><text x=\"148.8\" y=\"174.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"9.6\">39,5</text><text x=\"203.2\" y=\"174.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"9.6\">49,5</text><text x=\"257.6\" y=\"174.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"9.6\">59,5</text><text x=\"312.0\" y=\"174.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"9.6\">69,5</text><line x1=\"40.0\" y1=\"160.0\" x2=\"312.0\" y2=\"160.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><text x=\"176.0\" y=\"190.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.8\">scor (limite reale superioare)</text></svg>"
+          }
+        ],
+        "lat": true
+      }
+    ]
+  }
+}

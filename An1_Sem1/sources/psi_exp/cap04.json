@@ -1,0 +1,772 @@
+{
+ "schema": "quiz-capitol-v3",
+ "capitol": 4,
+ "titlu": "Metoda experimentului",
+ "sursa": "Manual Psihologie experimentală (UTM), Capitolul 4",
+ "reconstituit": "Reconstituit pe 16 nov. 2026 din pagina publicată Psihologie_experimentala.html (capitolele erau încorporate în pagină). Lipsesc câmpurile 'tip' și 'exemplu_nou', care nu ajung în pagină; restul (hartă, runde, întrebări vizibile și ascunse) e identic cu pagina.",
+ "harta": {
+  "centru": "Metoda experimentului",
+  "ramuri": [
+   {
+    "titlu": "4.1. Cele 14 etape ale experimentului",
+    "tabel": {
+     "cap": [
+      "Nr.",
+      "Etapa",
+      "Pe scurt"
+     ],
+     "randuri": [
+      [
+       "1",
+       "Problema de cercetat",
+       "întrebarea clară, bine definită și specifică"
+      ],
+      [
+       "2",
+       "Lucrările de referință",
+       "literatura: context, fundamentare teoretică, lacune"
+      ],
+      [
+       "3",
+       "Obiectivele cercetării",
+       "clare, măsurabile, relevante"
+      ],
+      [
+       "4",
+       "Constructele măsurate",
+       "definirea clară a conceptelor-cheie"
+      ],
+      [
+       "5",
+       "Variabilele cercetării",
+       "VI, VD, variabila subiect"
+      ],
+      [
+       "6",
+       "Definițiile operaționale",
+       "cum se măsoară și se manipulează fiecare variabilă"
+      ],
+      [
+       "7",
+       "Ipotezele cercetării",
+       "clare, testabile, pe baza literaturii"
+      ],
+      [
+       "8",
+       "Alegerea metodei",
+       "participanți, instrumente și materiale, procedură, design"
+      ],
+      [
+       "9",
+       "Prelucrarea rezultatelor",
+       "analiza și interpretarea datelor"
+      ],
+      [
+       "10",
+       "Concluzii și propuneri",
+       "recomandări pentru domeniu și cercetări viitoare"
+      ],
+      [
+       "11",
+       "Limitele cercetării",
+       "deficiențe metodologice, dificultăți"
+      ],
+      [
+       "12",
+       "Bibliografie",
+       "sursele care susțin argumentele"
+      ],
+      [
+       "13",
+       "Anexe",
+       "chestionare, formulare de consimțământ, rezultate detaliate"
+      ],
+      [
+       "14",
+       "Experimentul pilot",
+       "versiune preliminară; testează procedura înainte"
+      ]
+     ]
+    },
+    "noduri": [
+     {
+      "t": "Ordinea etapelor",
+      "d": "Problemă → lucrări de referință → obiective → constructe → variabile → definiții operaționale → ipoteze → metodă → prelucrare → concluzii și propuneri → limite → bibliografie → anexe. Experimentul pilot e trecut ultimul în listă, dar se face înaintea cercetării complete."
+     }
+    ]
+   },
+   {
+    "titlu": "Planificarea (etapele 1–8)",
+    "noduri": [
+     {
+      "t": "Problema de cercetat",
+      "d": "Se identifică și se formulează clar întrebarea de cercetare; trebuie să fie bine definită și specifică."
+     },
+     {
+      "t": "Lucrările de referință",
+      "d": "Examinarea literaturii de specialitate: contextul problemei, ce s-a făcut deja. Ajută la fundamentarea teoretică și la identificarea lacunelor în cunoștințe."
+     },
+     {
+      "t": "Obiectivele cercetării",
+      "d": "Clare, măsurabile și relevante pentru problemă; oferă direcția întregului proces de cercetare."
+     },
+     {
+      "t": "Constructele măsurate",
+      "d": "Delimitarea, definirea și explicitarea conceptelor-cheie evaluate (de exemplu „anxietatea”), pentru coerența și validitatea rezultatelor."
+     },
+     {
+      "t": "Variabilele cercetării",
+      "d": "Caracteristici sau condiții manipulate ori măsurate: VI (controlate de cercetător), VD (rezultatele, efectele observate), variabila subiect."
+     },
+     {
+      "t": "Definițiile operaționale",
+      "d": "Definiții precise și specifice pentru fiecare variabilă, ca ea să poată fi măsurată și manipulată corespunzător (ce scor, ce instrument, în ce condiții)."
+     },
+     {
+      "t": "Ipotezele cercetării",
+      "d": "Formulate pe baza literaturii și a cunoștințelor existente; clare și testabile, exprimă relațiile presupuse dintre variabile."
+     },
+     {
+      "t": "Alegerea metodei",
+      "d": "Decizii despre participanți (subiecți), instrumente și materiale, procedura de lucru și designul experimental."
+     }
+    ]
+   },
+   {
+    "titlu": "Finalizarea (etapele 9–14)",
+    "noduri": [
+     {
+      "t": "Prelucrarea rezultatelor",
+      "d": "Datele colectate sunt analizate și interpretate, ca să se evalueze ipotezele și să se răspundă la întrebarea de cercetare."
+     },
+     {
+      "t": "Concluzii și propuneri",
+      "d": "Pe baza rezultatelor, cercetătorul formulează concluzii și recomandări pentru domeniu sau pentru viitoarele cercetări."
+     },
+     {
+      "t": "Limitele cercetării",
+      "d": "Cercetătorul recunoaște și discută limitele și restricțiile experimentului: deficiențe metodologice, dificultăți întâmpinate."
+     },
+     {
+      "t": "Bibliografie și anexe",
+      "d": "Bibliografia: lista detaliată a surselor, care validează și susțin argumentele. Anexele: materiale suplimentare (chestionare, formulare de consimțământ, rezultate detaliate)."
+     },
+     {
+      "t": "Experimentul pilot",
+      "d": "Versiune preliminară a experimentului principal: testează și ajustează procedurile, instrumentele și designul înainte de cercetarea completă; identifică și remediază problemele metodologice. (În Capitolul 3: experiment preliminar, cu puțini subiecți.)"
+     }
+    ]
+   },
+   {
+    "titlu": "Variabilele experimentale și variabila independentă",
+    "noduri": [
+     {
+      "t": "Variabilele experimentale",
+      "d": "Factorii manipulați sau schimbați pentru a evalua impactul asupra comportamentului, cogniției sau emoțiilor."
+     },
+     {
+      "t": "Rolul controlului",
+      "d": "Controlul asigură că diferențele observate în VD sunt cauzate de VI, nu de alte variabile nedorite sau confunde."
+     },
+     {
+      "t": "Variabila independentă (VI)",
+      "d": "Manipulată de cercetător, presupusă a avea un efect asupra VD. Modalități: modificarea condițiilor experimentale, aplicarea unor tratamente diferite."
+     },
+     {
+      "t": "Validitatea VI",
+      "d": "Măsura în care VI redă cu acuratețe conceptul pe care se presupune că îl reprezintă. Se evaluează prin teste pilot sau prin comparația cu alte măsuri similare."
+     },
+     {
+      "t": "Controlul VI",
+      "d": "Condiții și proceduri care minimizează influența altor variabile, ca efectul observat să fie cauzat chiar de VI."
+     }
+    ]
+   },
+   {
+    "titlu": "Variabila dependentă și variabila subiect",
+    "noduri": [
+     {
+      "t": "Variabila dependentă (VD)",
+      "d": "Măsurată sau observată pentru a evalua efectul VI; se abordează prin diferite măsurători sau observații, după natura experimentului."
+     },
+     {
+      "t": "Evaluarea VD",
+      "d": "Prin scale de evaluare, chestionare, teste cognitive sau alte instrumente."
+     },
+     {
+      "t": "Controlul VD",
+      "d": "Metode de evaluare și măsurare stabilite într-un mod consistent și valid, ca rezultatele să fie fiabile și valide."
+     },
+     {
+      "t": "Variabila subiect",
+      "d": "Caracteristicile individuale ale participanților care pot influența rezultatele: vârsta, sexul, nivelul educațional, alte trăsături."
+     },
+     {
+      "t": "Reprezentativitate",
+      "d": "Eșantionul trebuie să fie reprezentativ pentru populația țintă sau selectat aleatoriu, ca rezultatele să poată fi generalizate."
+     },
+     {
+      "t": "Controlul variabilei subiect",
+      "d": "Gestionarea și monitorizarea caracteristicilor participanților: asignarea aleatorie la condiții și monitorizarea factorilor de confuzie în analiză."
+     }
+    ]
+   },
+   {
+    "titlu": "4.3. Variabile dependente favorizate",
+    "noduri": [
+     {
+      "t": "Indicatori fiziologici",
+      "d": "Biosemnale: EEG, reo-encefalografia (REG), activitatea cardiacă, pletismografia, EMG, EOG, dinamica pupilară, reacția electrodermală (RED). Exemple: ritm cardiac, tensiune arterială, conductanța pielii, EEG, fMRI. Oferă date obiective și cantitative."
+     },
+     {
+      "t": "Răspunsurile motorii",
+      "d": "Mișcări sau comportamente observabile: apăsarea unui buton, mișcarea ochilor, mișcările corpului. Informează despre luarea deciziilor, percepție, coordonare motorie."
+     },
+     {
+      "t": "Timpul de reacție",
+      "d": "Timpul necesar pentru a răspunde la un stimul. Evaluează viteza de procesare, precizia răspunsului, performanța cognitivă; măsură foarte folosită în psihologia experimentală și cognitivă."
+     },
+     {
+      "t": "Răspunsurile verbale",
+      "d": "Răspunsuri la întrebări, descrieri ale stărilor emoționale sau ale gândurilor. Informează despre procesele cognitive superioare: limbaj, memorie, gândire abstractă."
+     },
+     {
+      "t": "Experimentul asociativ-verbal",
+      "d": "Subiectului i se prezintă un stimul verbal și răspunde cu un cuvânt sau concept asociat. Evaluează asocierea semantică și memoria verbală; arată structura memoriei verbale și a limbajului."
+     }
+    ]
+   },
+   {
+    "titlu": "Rezumat și cuvinte cheie",
+    "noduri": [
+     {
+      "t": "Definiția metodei",
+      "d": "Manipularea unei VI pentru a-i evalua efectele asupra unei VD, controlând și monitorizând alți factori. Se poate face în laborator sau în medii naturale; obiectivul: stabilirea relațiilor cauzale."
+     },
+     {
+      "t": "Grup experimental vs grup de control",
+      "d": "Grupul experimental e expus tratamentului sau condițiilor experimentale; grupul de control nu e expus și servește pentru comparație."
+     },
+     {
+      "t": "Aleatorizare",
+      "d": "Asignarea aleatorie a participanților în grupul experimental și cel de control, ca să se minimizeze influența factorilor de confuzie."
+     },
+     {
+      "t": "Standardizare",
+      "d": "Proceduri și condiții uniforme în experiment, pentru consistența și validitatea rezultatelor."
+     },
+     {
+      "t": "Etică în cercetare",
+      "d": "Principiile și standardele care reglementează comportamentul etic al cercetătorilor în experimentele cu oameni sau animale (detaliate în Capitolul 5)."
+     },
+     {
+      "t": "Legături cu alte capitole",
+      "d": "Variabila de control, designurile și H0 sunt în Capitolul 2; tipurile de experiment, biosemnalele și calitățile testului (fidelitate, etalonare) în Capitolul 3; erorile (Hawthorne, efect istoric, tip I/II) în Capitolul 1."
+     }
+    ]
+   }
+  ]
+ },
+ "runde": [
+  {
+   "id": "1",
+   "eticheta": "Runda 1 · Bază",
+   "titlu": "Runda 1 — Concepte de bază",
+   "desc": "Recunoaștere: etapele experimentului, variabilele și controlul lor, variabilele dependente favorizate.",
+   "intrebari": [
+    {
+     "q": "Care este prima etapă a unui experiment?",
+     "opts": [
+      "Stabilirea și formularea ipotezelor cercetării",
+      "Parcurgerea lucrărilor de referință",
+      "Identificarea și stabilirea problemei de cercetat",
+      "Realizarea experimentului pilot"
+     ],
+     "correct": 2,
+     "explain": "Lista celor 14 etape începe cu problema de cercetat, formulată clar, bine definită și specifică. Lucrările de referință vin abia a doua etapă, ipotezele a șaptea, iar experimentul pilot e trecut ultimul în listă (deși se face înaintea cercetării complete).",
+     "tag": "Ordinea etapelor"
+    },
+    {
+     "q": "Ce urmărește cercetătorul când parcurge lucrările de referință?",
+     "opts": [
+      "Fundamentarea teoretică și identificarea lacunelor în cunoștințe",
+      "Testarea procedurilor înainte de cercetarea completă",
+      "Stabilirea participanților, instrumentelor și designului",
+      "Recunoașterea deficiențelor metodologice ale studiului"
+     ],
+     "correct": 0,
+     "explain": "Literatura de specialitate arată contextul problemei și ce s-a făcut deja, ajutând la fundamentarea teoretică și la găsirea lacunelor. Testarea procedurilor e rolul experimentului pilot, alegerea participanților și a designului ține de alegerea metodei, iar deficiențele metodologice de limitele cercetării.",
+     "tag": "Lucrările de referință"
+    },
+    {
+     "q": "Cum trebuie să fie obiectivele cercetării?",
+     "opts": [
+      "Verificabile, economice, cuantificabile și verosimile",
+      "Generale și deschise, ca să cuprindă orice rezultat posibil",
+      "Clare, testabile și formulate pe baza literaturii de specialitate",
+      "Clare, măsurabile și relevante pentru problema de cercetare"
+     ],
+     "correct": 3,
+     "explain": "Obiectivele trebuie să fie clare, măsurabile și relevante, oferind o direcție pentru tot procesul de cercetare. „Verificabile, economice, cuantificabile, verosimile” sunt cerințele ipotezei din Capitolul 2, iar „testabile, pe baza literaturii” descrie ipotezele din acest capitol, nu obiectivele.",
+     "tag": "Obiectivele cercetării"
+    },
+    {
+     "q": "Ce presupune etapa „delimitarea, definirea și explicitarea constructelor măsurate”?",
+     "opts": [
+      "Precizarea modului concret în care se măsoară și se manipulează fiecare variabilă",
+      "Definirea clară a conceptelor-cheie evaluate, pentru coerență și validitate",
+      "Stabilirea unor unități de măsură (a unui etalon) pentru rezultatele testului",
+      "Formularea relațiilor presupuse dintre variabilele cercetării"
+     ],
+     "correct": 1,
+     "explain": "Constructele sunt conceptele-cheie evaluate (de exemplu „anxietatea”); definirea lor clară asigură coerența și validitatea rezultatelor. Modul concret de măsurare ține de etapa următoare, a definițiilor operaționale. Stabilirea unui etalon este etalonarea testului (Capitolul 3), iar relațiile dintre variabile sunt ipotezele.",
+     "tag": "Constructele măsurate"
+    },
+    {
+     "q": "Ce sunt definițiile operaționale?",
+     "opts": [
+      "Definiții teoretice generale ale conceptelor, preluate din literatură",
+      "Definiții precise, care arată cum se măsoară și se manipulează fiecare variabilă",
+      "Enunțuri despre relațiile presupuse dintre variabilele cercetării",
+      "Reguli care asigură aceleași condiții pentru toți subiecții examinați"
+     ],
+     "correct": 1,
+     "explain": "Definițiile operaționale sunt precise și specifice pentru fiecare variabilă, ca ea să poată fi măsurată și manipulată corespunzător. Definițiile teoretice generale țin de constructe, relațiile presupuse de ipoteze, iar aceleași condiții pentru toți descriu standardizarea.",
+     "tag": "Definițiile operaționale"
+    },
+    {
+     "q": "Ce decizii se iau în etapa „alegerea și stabilirea metodei”?",
+     "opts": [
+      "Problema, obiectivele și constructele care vor fi măsurate",
+      "Concluziile, propunerile și limitele cercetării realizate",
+      "Bibliografia, anexele și formularele de consimțământ",
+      "Participanții, instrumentele și materialele, procedura și designul"
+     ],
+     "correct": 3,
+     "explain": "Etapa a opta stabilește participanții (subiecții), instrumentele și materialele, procedura de lucru și designul experimental. Problema, obiectivele și constructele sunt decise înainte (etapele 1–4), iar concluziile, limitele, bibliografia și anexele vin la final.",
+     "tag": "Alegerea metodei"
+    },
+    {
+     "q": "Ce se include în anexele unei cercetări?",
+     "opts": [
+      "Chestionarele, formularele de consimțământ, rezultatele detaliate",
+      "Lista surselor folosite pentru a susține argumentele lucrării",
+      "Deficiențele metodologice și dificultățile întâmpinate",
+      "Recomandările pentru domeniu și pentru cercetările viitoare"
+     ],
+     "correct": 0,
+     "explain": "Anexele cuprind materiale suplimentare, pentru referință: chestionare, formulare de consimțământ, rezultate detaliate. Lista surselor e bibliografia, deficiențele metodologice sunt limitele cercetării, iar recomandările țin de concluzii și propuneri.",
+     "tag": "Bibliografie și anexe"
+    },
+    {
+     "q": "Ce este experimentul pilot, ultima dintre cele 14 etape ale experimentului?",
+     "opts": [
+      "Experiment fără ipoteză, care urmărește ce se întâmplă la o stimulare",
+      "Experiment în care fenomenul e produs de natură, nu de cercetător",
+      "Versiune preliminară, care testează și ajustează procedurile și instrumentele",
+      "Variantă a experimentului natural, desfășurată în mediul școlar"
+     ],
+     "correct": 2,
+     "explain": "Experimentul pilot e o versiune preliminară a experimentului principal: testează și ajustează procedurile, instrumentele și designul înainte de cercetarea completă și ajută la remedierea problemelor. Celelalte variante descriu, din Capitolul 3, experimentul de explorare, experimentul invocat (cvasi-experimentul) și experimentul psihopedagogic.",
+     "tag": "Experimentul pilot"
+    },
+    {
+     "q": "De ce este crucial controlul variabilelor experimentale?",
+     "opts": [
+      "Ca participanții să nu știe ce condiție experimentală primesc",
+      "Ca rezultatele să poată fi generalizate la orice populație",
+      "Ca să nu mai fie necesară analiza statistică a datelor",
+      "Ca diferențele din VD să poată fi atribuite VI, nu unor variabile confunde"
+     ],
+     "correct": 3,
+     "explain": "Controlul asigură că diferențele observate în VD sunt cauzate de VI și nu de alte variabile nedorite (confunde). Necunoașterea condiției de către participanți descrie experimentul cu mascare (Capitolul 1). Controlul nu garantează generalizarea și nu înlocuiește analiza statistică.",
+     "tag": "Rolul controlului"
+    },
+    {
+     "q": "La ce se referă validitatea variabilei independente?",
+     "opts": [
+      "La măsura în care VI redă cu acuratețe conceptul pe care trebuie să-l reprezinte",
+      "La stabilitatea rezultatelor atunci când procedura este aplicată din nou",
+      "La menținerea VI constantă pe toată durata experimentului",
+      "La gradul în care rezultatele pot fi extinse la alte populații"
+     ],
+     "correct": 0,
+     "explain": "Validitatea VI arată cât de bine reprezintă manipularea conceptul vizat; se poate evalua prin teste pilot sau prin comparația cu alte măsuri similare. Stabilitatea la reaplicare e fidelitatea (Capitolul 3), menținerea constantă definește variabila de control, iar extinderea la alte populații e validitatea externă (Capitolul 2).",
+     "tag": "Validitatea VI"
+    },
+    {
+     "q": "Ce instrumente se folosesc pentru măsurarea variabilei dependente?",
+     "opts": [
+      "Randomizarea, grupurile omogene și măsurile standardizate",
+      "Testul t, testul chi pătrat și testul F",
+      "Scale de evaluare, chestionare și teste cognitive",
+      "Protocolul de observație, notele de teren și grilele"
+     ],
+     "correct": 2,
+     "explain": "Pentru VD capitolul enumeră scale de evaluare, chestionare, teste cognitive sau alte instrumente. Randomizarea și grupurile omogene sunt strategii de control (Capitolul 2), testele t, chi pătrat și F sunt teste statistice pentru ipoteze, iar protocolul și notele de teren țin de observație (Capitolul 3).",
+     "tag": "Evaluarea VD"
+    },
+    {
+     "q": "Ce presupune controlul variabilei dependente?",
+     "opts": [
+      "Manipularea VD de către cercetător în fiecare condiție experimentală",
+      "Metode de evaluare și măsurare stabilite într-un mod consistent și valid",
+      "Menținerea VD la aceeași valoare pentru toți participanții",
+      "Alegerea modului de măsurare abia după ce se văd rezultatele"
+     ],
+     "correct": 1,
+     "explain": "VD se controlează prin metode de evaluare și măsurare consistente și valide, ca rezultatele să fie fiabile. VD nu se manipulează (asta se face cu VI) și nu se ține constantă (asta e VC); ea e chiar ceea ce variază și se măsoară.",
+     "tag": "Controlul VD"
+    },
+    {
+     "q": "La ce se referă variabila subiect?",
+     "opts": [
+      "La caracteristicile individuale ale participanților: vârstă, sex, educație",
+      "La factorul manipulat de cercetător pentru a produce un efect",
+      "La comportamentul măsurat pentru a evalua efectul manipulării",
+      "La factorii menținuți constanți în toate condițiile experimentale"
+     ],
+     "correct": 0,
+     "explain": "Variabila subiect cuprinde caracteristicile individuale ale participanților care pot influența rezultatele (vârsta, sexul, nivelul educațional, alte trăsături). Factorul manipulat e VI, comportamentul măsurat e VD, iar factorii constanți sunt variabile de control.",
+     "tag": "Variabila subiect"
+    },
+    {
+     "q": "Care pereche face parte dintre indicatorii fiziologici folosiți ca variabile dependente?",
+     "opts": [
+      "Timpul de reacție și apăsarea unui buton",
+      "Asocierea semantică și memoria verbală",
+      "Scorurile la chestionarele de autoraportare",
+      "Pletismografia și dinamica pupilară"
+     ],
+     "correct": 3,
+     "explain": "Lista biosemnalelor cuprinde EEG, reo-encefalografia (REG), activitatea cardiacă, pletismografia, EMG, EOG, dinamica pupilară și reacția electrodermală (RED). Timpul de reacție și apăsarea unui buton sunt alte VD favorizate (timp de reacție și răspunsuri motorii), asocierea semantică ține de experimentul asociativ-verbal, iar chestionarele sunt autoraportare.",
+     "tag": "Indicatori fiziologici"
+    },
+    {
+     "q": "Ce este experimentul asociativ-verbal?",
+     "opts": [
+      "Subiectul descrie verbal emoțiile prin care trece în experiment",
+      "Subiectul apasă un buton imediat ce apare un cuvânt pe ecran",
+      "Subiectul răspunde la un cuvânt-stimul cu un cuvânt asociat",
+      "Subiectul povestește evenimentele importante din viața sa"
+     ],
+     "correct": 2,
+     "explain": "În experimentul asociativ-verbal subiectului i se prezintă un stimul verbal și răspunde cu un cuvânt sau concept asociat; așa se evaluează asocierea semantică și memoria verbală. Descrierea emoțiilor e un simplu răspuns verbal, apăsarea butonului ține de timpul de reacție, iar povestea vieții de metoda biografică (Capitolul 3).",
+     "tag": "Experimentul asociativ-verbal"
+    }
+   ],
+   "ascunse": [
+    {
+     "q": "Ce etapă a experimentului urmează imediat după elaborarea definițiilor operaționale?",
+     "opts": [
+      "Stabilirea și formularea ipotezelor cercetării",
+      "Stabilirea și explicitarea variabilelor cercetării",
+      "Alegerea și stabilirea metodei",
+      "Delimitarea constructelor măsurate"
+     ],
+     "correct": 0,
+     "explain": "Ordinea e: constructe → variabile → definiții operaționale → ipoteze → metodă. Ipotezele vin după definițiile operaționale, pentru că exprimă relații între variabile deja definite și măsurabile; metoda se alege abia după ipoteze.",
+     "tag": "Ordinea etapelor"
+    },
+    {
+     "q": "Ce poate evalua timpul de reacție?",
+     "opts": [
+      "Asocierea semantică și structura memoriei verbale",
+      "Activitatea electrică a creierului și a mușchilor",
+      "Stabilitatea rezultatelor la o nouă aplicare a testului",
+      "Viteza de procesare a informațiilor și precizia răspunsului"
+     ],
+     "correct": 3,
+     "explain": "Timpul de reacție e timpul necesar subiectului ca să răspundă la un stimul; evaluează viteza de procesare, precizia răspunsului și alte aspecte ale performanței cognitive. Asocierea semantică ține de experimentul asociativ-verbal, activitatea electrică de indicatorii fiziologici (EEG, EMG), iar stabilitatea la reaplicare de fidelitatea testului.",
+     "tag": "Timpul de reacție"
+    },
+    {
+     "q": "Ce înseamnă standardizarea, în contextul experimentului?",
+     "opts": [
+      "Asignarea aleatorie a participanților în grupul experimental și de control",
+      "Stabilirea unor unități de măsură pentru rezultatele obținute",
+      "Stabilirea unor proceduri și condiții uniforme în cadrul experimentului",
+      "Principiile care reglementează comportamentul cercetătorilor"
+     ],
+     "correct": 2,
+     "explain": "Standardizarea înseamnă proceduri și condiții uniforme, pentru consistența și validitatea rezultatelor. Asignarea aleatorie e aleatorizarea, unitățile de măsură țin de etalonarea testului (Capitolul 3), iar principiile de conduită sunt etica în cercetare.",
+     "tag": "Standardizare"
+    },
+    {
+     "q": "Cum poate fi evaluată validitatea variabilei independente?",
+     "opts": [
+      "Prin repartizarea aleatorie a participanților în grupuri",
+      "Prin teste pilot sau prin comparația cu alte măsuri similare",
+      "Prin testarea ipotezei nule cu ajutorul testului t",
+      "Prin reaplicarea aceleiași proceduri după două săptămâni"
+     ],
+     "correct": 1,
+     "explain": "Capitolul spune că validitatea VI se evaluează prin teste pilot sau prin comparația cu alte măsuri similare. Randomizarea controlează variabilele confundate, testul t verifică ipoteza nulă, iar reaplicarea după un interval verifică fidelitatea, nu validitatea.",
+     "tag": "Validitatea VI"
+    },
+    {
+     "q": "Ce procese pot fi studiate prin răspunsurile verbale?",
+     "opts": [
+      "Procesele cognitive superioare: limbajul, memoria, gândirea abstractă",
+      "Coordonarea motorie și mișcările observabile ale corpului",
+      "Conductanța pielii, ritmul cardiac și tensiunea arterială",
+      "Viteza cu care sunt procesați stimulii simpli prezentați"
+     ],
+     "correct": 0,
+     "explain": "Răspunsurile verbale (răspunsuri la întrebări, descrieri ale emoțiilor sau gândurilor) oferă informații despre procesele cognitive superioare: limbaj, memorie, gândire abstractă. Coordonarea motorie ține de răspunsurile motorii, conductanța pielii și ritmul cardiac de indicatorii fiziologici, iar viteza de procesare de timpul de reacție.",
+     "tag": "Răspunsurile verbale"
+    }
+   ]
+  },
+  {
+   "id": "2",
+   "eticheta": "Runda 2 · Aplicații",
+   "titlu": "Runda 2 — Scenarii și raționament",
+   "desc": "Aplică etapele și variabilele pe situații concrete: recunoaște etapa, variabila sau VD favorizată în joc.",
+   "intrebari": [
+    {
+     "q": "O studentă scrie în proiectul ei: „stresul = scorul la Scala de stres percepută + pulsul măsurat cu 10 minute înainte de examen”. Ce etapă a experimentului realizează?",
+     "opts": [
+      "Delimitarea constructelor măsurate",
+      "Elaborarea definițiilor operaționale",
+      "Formularea ipotezelor cercetării",
+      "Prelucrarea rezultatelor"
+     ],
+     "correct": 1,
+     "explain": "Ea precizează concret cum va fi măsurat stresul, adică îl operaționalizează. Delimitarea constructului ar fi spus ce înseamnă stresul la nivel conceptual. Ipoteza ar fi enunțat o relație între variabile („stresul scade după...”), iar prelucrarea vine după colectarea datelor.",
+     "tag": "Definițiile operaționale"
+    },
+    {
+     "q": "Înainte să înceapă, un cercetător citește 40 de studii despre somn și memorie și observă că niciunul nu a studiat adolescenții. Ce etapă a parcurs și ce a obținut?",
+     "opts": [
+      "Experimentul pilot: a testat procedura înainte de studiu",
+      "Limitele cercetării: a recunoscut deficiențele studiului",
+      "Prelucrarea rezultatelor: a interpretat datele colectate",
+      "Lucrările de referință: a identificat o lacună în cunoștințe"
+     ],
+     "correct": 3,
+     "explain": "Citirea literaturii de specialitate arată ce s-a făcut deja și unde lipsesc cunoștințe; lipsa studiilor pe adolescenți e chiar o lacună. Pilotul ar fi presupus aplicarea efectivă a procedurii, iar limitele și prelucrarea vin după colectarea datelor proprii.",
+     "tag": "Lucrările de referință"
+    },
+    {
+     "q": "Care dintre următoarele obiective este cel mai clar, mai măsurabil și mai relevant?",
+     "opts": [
+      "Să compar cuvintele reamintite după 6 și după 8 ore de somn",
+      "Să înțeleg cât mai bine misterele somnului și ale minții umane",
+      "Să demonstrez că somnul contează pentru toată lumea, la orice vârstă",
+      "Să studiez absolut tot ce poate influența memoria oamenilor"
+     ],
+     "correct": 0,
+     "explain": "Numai primul obiectiv spune exact ce se măsoară (cuvintele reamintite) și în ce condiții (6 față de 8 ore). „Misterele minții” nu e măsurabil, „pentru toată lumea” e prea general și presupune deja rezultatul, iar „absolut tot” nu oferă o direcție clară cercetării.",
+     "tag": "Obiectivele cercetării"
+    },
+    {
+     "q": "Într-un studiu despre efectul muzicii asupra concentrării, participanții au între 18 și 65 de ani. Cercetătorul îi repartizează aleatoriu în grupuri și le notează vârsta, ca s-o ia în calcul la analiză. Ce variabilă controlează astfel?",
+     "opts": [
+      "Variabila dependentă",
+      "Variabila independentă",
+      "Variabila subiect",
+      "Variabila de control (menținută constantă)"
+     ],
+     "correct": 2,
+     "explain": "Vârsta e o caracteristică individuală a participanților, deci o variabilă subiect. Capitolul spune că ea se controlează prin asignarea aleatorie în condiții și prin monitorizarea factorilor de confuzie în analiză. Nu e variabilă de control, pentru că nu e menținută constantă: participanții au vârste diferite.",
+     "tag": "Variabila subiect"
+    },
+    {
+     "q": "O echipă sare peste experimentul pilot. În studiul principal, cu 200 de participanți, descoperă că jumătate dintre ei au înțeles greșit instrucțiunea. Ce i-ar fi permis pilotul?",
+     "opts": [
+      "Să formuleze o ipoteză nouă pe baza datelor obținute",
+      "Să crească reprezentativitatea eșantionului principal",
+      "Să identifice și să remedieze problema înaintea studiului complet",
+      "Să înlocuiască grupul de control cu un grup mai mic"
+     ],
+     "correct": 2,
+     "explain": "Experimentul pilot testează și ajustează procedurile și instrumentele înainte de implementarea completă, ca problemele metodologice să fie descoperite și reparate din timp. El nu servește la generarea ipotezelor, nu face eșantionul mai reprezentativ și nu înlocuiește grupul de control.",
+     "tag": "Experimentul pilot"
+    },
+    {
+     "q": "Un cercetător înregistrează câte milisecunde trec de la apariția unei imagini pe ecran până când participantul apasă o tastă. Ce variabilă dependentă favorizată măsoară?",
+     "opts": [
+      "Timpul de reacție",
+      "Răspunsurile motorii",
+      "Indicatorii fiziologici",
+      "Răspunsurile verbale"
+     ],
+     "correct": 0,
+     "explain": "Apăsarea tastei e un răspuns motor, dar ceea ce se măsoară este intervalul dintre stimul și răspuns, adică timpul de reacție. Dacă s-ar fi analizat mișcarea în sine (forța, coordonarea), ar fi fost vorba de răspunsuri motorii. Nu se înregistrează niciun biosemnal și nici răspuns verbal.",
+     "tag": "Timpul de reacție"
+    },
+    {
+     "q": "Participanții aud cuvântul „masă” și trebuie să spună primul cuvânt care le vine în minte („scaun”, „lemn”...). Ce metodă se folosește?",
+     "opts": [
+      "Interviul semi-structurat",
+      "Ancheta pe bază de chestionar",
+      "Observația indirectă",
+      "Experimentul asociativ-verbal"
+     ],
+     "correct": 3,
+     "explain": "Prezentarea unui stimul verbal și cererea unui cuvânt asociat definesc experimentul asociativ-verbal, folosit pentru asocierea semantică și memoria verbală. Interviul și ancheta (Capitolul 3) sondează opinii și atitudini prin întrebări, iar observația indirectă analizează documente sau înregistrări.",
+     "tag": "Experimentul asociativ-verbal"
+    },
+    {
+     "q": "Pentru a studia anxietatea în timpul unui discurs în public, un psiholog înregistrează conductanța pielii și ritmul cardiac al participanților. Ce fel de VD folosește și ce avantaj are ea?",
+     "opts": [
+      "Răspunsuri verbale, care sondează gândirea abstractă",
+      "Indicatori fiziologici, care oferă date obiective și cantitative",
+      "Răspunsuri motorii, care arată coordonarea motorie",
+      "Teste proiective, care surprind trăsăturile stabile"
+     ],
+     "correct": 1,
+     "explain": "Conductanța pielii (activitatea electrodermală) și ritmul cardiac sunt indicatori fiziologici; capitolul spune că pot furniza date obiective și cantitative despre felul în care stimulii afectează organismul. Nu e vorba de cuvinte sau de mișcări, iar testele proiective (Capitolul 3) nu măsoară semnale fiziologice.",
+     "tag": "Indicatori fiziologici"
+    },
+    {
+     "q": "Într-un studiu de memorie, un asistent consideră „reamintite” și cuvintele scrise cu greșeli, iar celălalt nu. Ce lipsește?",
+     "opts": [
+      "Controlul variabilei dependente",
+      "Controlul variabilei independente",
+      "Controlul variabilei subiect",
+      "Reprezentativitatea eșantionului"
+     ],
+     "correct": 0,
+     "explain": "Problema e la măsurarea rezultatului: aceeași performanță e notată diferit. Controlul VD cere metode de evaluare și măsurare consistente și valide, adică un criteriu unic de notare. VI (condițiile manipulate) și caracteristicile participanților nu sunt în discuție.",
+     "tag": "Controlul VD"
+    },
+    {
+     "q": "Un cercetător vrea să inducă stres social cerând participanților să țină un discurs. Un test pilot arată că participanții nu s-au simțit deloc stresați. Ce caracteristică a variabilei independente e pusă sub semnul întrebării?",
+     "opts": [
+      "Fidelitatea testului de stres folosit",
+      "Reprezentativitatea variabilei subiect",
+      "Validitatea variabilei independente",
+      "Controlul variabilei dependente"
+     ],
+     "correct": 2,
+     "explain": "Manipularea nu a produs conceptul pe care trebuia să-l reprezinte (stresul social), deci validitatea VI e slabă; capitolul spune chiar că ea se poate evalua prin teste pilot. Fidelitatea (Capitolul 3) privește stabilitatea scorurilor la reaplicare, nu reușita manipulării.",
+     "tag": "Validitatea VI"
+    },
+    {
+     "q": "Se testează o nouă metodă de predare. Clasa experimentală are cel mai entuziast profesor din școală, iar clasa de control un profesor obișnuit. Ce problemă apare?",
+     "opts": [
+      "Efectul Hawthorne: elevii schimbă comportamentul fiindcă știu că sunt studiați",
+      "Eroare de tip II: un efect real al metodei nu a fost detectat",
+      "Efect istoric: un eveniment extern a modificat rezultatele în timpul studiului",
+      "Lipsa controlului VI: efectul poate veni de la profesor, nu de la metodă"
+     ],
+     "correct": 3,
+     "explain": "Controlul VI cere condiții și proceduri care minimizează influența altor variabile, ca efectul să fie cauzat chiar de VI. Aici metoda e amestecată cu entuziasmul profesorului. Efectul Hawthorne, eroarea de tip II și efectul istoric (Capitolul 1) sunt alte erori, care nu reies din situație.",
+     "tag": "Controlul VI"
+    },
+    {
+     "q": "Un studiu e făcut doar cu voluntari de la Facultatea de Psihologie, iar concluziile sunt aplicate tuturor adulților. Ce cerință legată de variabila subiect a fost neglijată?",
+     "opts": [
+      "Validitatea variabilei independente manipulate",
+      "Reprezentativitatea eșantionului pentru populația țintă",
+      "Standardizarea procedurii de lucru",
+      "Definirea operațională a variabilei dependente"
+     ],
+     "correct": 1,
+     "explain": "Capitolul cere ca eșantionul să fie reprezentativ pentru populația țintă sau selectat aleatoriu, ca rezultatele să poată fi generalizate. Studenții la psihologie nu reprezintă toți adulții. Celelalte variante privesc manipularea, procedura și măsurarea, nu cine sunt participanții.",
+     "tag": "Reprezentativitate"
+    },
+    {
+     "q": "De ce sunt formulate ipotezele după parcurgerea lucrărilor de referință și nu înainte?",
+     "opts": [
+      "Pentru că literatura de specialitate stabilește deja concluziile cercetării",
+      "Pentru că ipotezele se aleg abia după ce se cunosc rezultatele studiului",
+      "Pentru că bibliografia lucrării trebuie întocmită înaintea ipotezelor",
+      "Pentru că se sprijină pe literatura de specialitate și pe cunoștințele existente"
+     ],
+     "correct": 3,
+     "explain": "Capitolul spune că ipotezele, clare și testabile, se formulează pe baza literaturii și a cunoștințelor existente. Literatura nu dă concluziile (acestea vin din datele proprii), ipotezele nu se aleg după rezultate, iar bibliografia e etapa a 12-a, la final.",
+     "tag": "Ipotezele cercetării"
+    },
+    {
+     "q": "„Limitele cercetării” sunt tratate ca etapă separată, după concluzii și propuneri. Ce rol are această etapă?",
+     "opts": [
+      "Recunoaște deficiențele metodologice care nuanțează concluziile",
+      "Elimină nevoia unui grup de control în studiile viitoare",
+      "Transformă rezultatele nesemnificative în rezultate valide",
+      "Înlocuiește compararea rezultatelor cu literatura existentă"
+     ],
+     "correct": 0,
+     "explain": "În această etapă cercetătorul recunoaște și discută limitele și restricțiile experimentului, inclusiv deficiențele metodologice și dificultățile întâmpinate; astfel concluziile sunt citite în context. Limitele nu schimbă rezultatele și nu înlocuiesc alte etape sau grupul de control.",
+     "tag": "Limitele cercetării"
+    },
+    {
+     "q": "Experimentele pot fi desfășurate în laborator sau în medii naturale. Ce rămâne comun ca obiectiv, oriunde ar avea loc experimentul?",
+     "opts": [
+      "Descrierea comportamentului fără nicio intervenție",
+      "Măsurarea trăsăturilor stabile ale participanților",
+      "Stabilirea relațiilor cauzale dintre variabilele studiate",
+      "Reconstituirea istoriei personale a subiecților"
+     ],
+     "correct": 2,
+     "explain": "Metoda experimentului manipulează VI ca să-i evalueze efectul asupra VD, controlând alți factori, cu obiectivul de a stabili relații cauzale, indiferent de loc. Descrierea fără intervenție e observația, măsurarea trăsăturilor e scopul testelor (Capitolul 2), iar istoria personală ține de metoda biografică.",
+     "tag": "Definiția metodei"
+    }
+   ],
+   "ascunse": [
+    {
+     "q": "Ana definește reziliența drept „capacitatea de a-ți reveni după evenimente dificile”, apoi hotărăște s-o măsoare prin scorul la un chestionar validat. Ce etape parcurge, în ordine?",
+     "opts": [
+      "Constructele măsurate, apoi definițiile operaționale",
+      "Definițiile operaționale, apoi constructele măsurate",
+      "Obiectivele cercetării, apoi ipotezele cercetării",
+      "Variabilele cercetării, apoi alegerea metodei"
+     ],
+     "correct": 0,
+     "explain": "Mai întâi delimitează conceptual constructul (ce este reziliența), apoi îl operaționalizează (cum îl măsoară concret). Ordinea inversă ar însemna să alegi un instrument înainte să știi ce vrei să măsori. Obiectivele și ipotezele sunt enunțuri despre ce urmărește studiul, nu definiții.",
+     "tag": "Constructele măsurate"
+    },
+    {
+     "q": "Într-un studiu despre o tehnică de relaxare, cercetătorul filmează participanții și numără de câte ori își schimbă poziția pe scaun sau bat din picior. Ce VD favorizată folosește?",
+     "opts": [
+      "Indicatorii fiziologici",
+      "Timpul de reacție",
+      "Răspunsurile motorii",
+      "Răspunsurile verbale"
+     ],
+     "correct": 2,
+     "explain": "Mișcările observabile ale corpului sunt răspunsuri motorii. Indicatorii fiziologici ar presupune biosemnale (puls, conductanța pielii), timpul de reacție ar cere un interval stimul-răspuns, iar răspunsurile verbale sunt cuvinte, nu mișcări.",
+     "tag": "Răspunsurile motorii"
+    },
+    {
+     "q": "Participanții privesc un film trist și descriu cu voce tare ce simt, iar cercetătorul analizează apoi ce au spus. Ce VD favorizată folosește?",
+     "opts": [
+      "Experimentul asociativ-verbal",
+      "Conduita expresivă a participanților",
+      "Indicatorii fiziologici",
+      "Răspunsurile verbale"
+     ],
+     "correct": 3,
+     "explain": "Descrierile verbale ale stărilor emoționale sunt răspunsuri verbale. Experimentul asociativ-verbal ar cere un cuvânt-stimul și un cuvânt asociat, nu o descriere liberă. Conduita expresivă (Capitolul 3) se referă la exprimarea nonverbală: mimică, gesturi, postură.",
+     "tag": "Răspunsurile verbale"
+    },
+    {
+     "q": "O studentă își scrie lucrarea și vrea să includă formularul de consimțământ și chestionarul complet pe care l-a aplicat. În ce parte a lucrării le pune?",
+     "opts": [
+      "În bibliografie",
+      "În anexe",
+      "În limitele cercetării",
+      "În prelucrarea rezultatelor"
+     ],
+     "correct": 1,
+     "explain": "Anexele cuprind materialele suplimentare pentru referință: chestionare, formulare de consimțământ, rezultate detaliate. Bibliografia cuprinde sursele citate, limitele discută deficiențele studiului, iar prelucrarea analizează și interpretează datele.",
+     "tag": "Bibliografie și anexe"
+    },
+    {
+     "q": "De ce trebuie ca eșantionul să fie reprezentativ pentru populația țintă sau selectat aleatoriu?",
+     "opts": [
+      "Pentru ca rezultatele să poată fi generalizate la populația țintă",
+      "Pentru ca variabila dependentă să nu mai trebuiască măsurată",
+      "Pentru ca ipoteza nulă să fie respinsă cu siguranță",
+      "Pentru ca grupul de control să nu mai fie necesar"
+     ],
+     "correct": 0,
+     "explain": "La variabila subiect, capitolul leagă reprezentativitatea de generalizarea rezultatelor. Un eșantion bun nu garantează respingerea H0 (asta depinde de date) și nu înlocuiește nici măsurarea VD, nici grupul de control.",
+     "tag": "Reprezentativitate"
+    }
+   ]
+  }
+ ]
+}

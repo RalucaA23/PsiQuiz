@@ -1,0 +1,1308 @@
+{
+  "schema": "quiz-capitol-v3",
+  "capitol": 12,
+  "titlu": "Mărimi ale corelației",
+  "sursa": "Manualul, Unitatea XII, pp. 159–185",
+  "runde": [
+    {
+      "id": "T",
+      "tip_runda": "baza",
+      "eticheta": "Runda 1 · Teorie",
+      "titlu": "Runda 1 — Teorie",
+      "desc": "Întrebări directe și scurte: ce măsoară un indicator, când se folosește o metodă, ce deosebește două concepte.",
+      "intrebari": [
+        {
+          "q": "Ce arată, într-un tabel cu dublă intrare, că două variabile sunt corelate?",
+          "opts": [
+            "Totalurile marginale ale coloanelor sunt apropiate unele de altele",
+            "Frecvențele absolute cresc de sus în jos, pe rânduri",
+            "Distribuțiile condiționate se schimbă de la o coloană la alta",
+            "Procentele din fiecare coloană ies practic aceleași"
+          ],
+          "correct": 2,
+          "explain": "Două variabile sunt corelate dacă distribuția uneia se schimbă după scorurile celeilalte: coloanele (distribuțiile condiționate ale VD) arată altfel de la o categorie a VI la alta. Procente identice pe coloane indică lipsa corelației; totaluri apropiate doar ușurează compararea.",
+          "tag": "Variabile corelate",
+          "tip": "concept"
+        },
+        {
+          "q": "În ce sens se calculează procentele când VI e pe coloane și VD pe rânduri?",
+          "opts": [
+            "Pe rânduri, apoi se compară pe coloane",
+            "Din totalul general, celulă cu celulă",
+            "Pe coloane, apoi se compară pe rânduri",
+            "Pe diagonala principală a tabelului"
+          ],
+          "correct": 2,
+          "explain": "Distribuțiile condiționate cu totaluri diferite se controlează calculând procente în sensul variabilei independente (pe coloane) și comparându-le în sensul variabilei dependente (pe rânduri). Procentele pe rânduri răspund la altă întrebare, iar cele din totalul general amestecă efectul mărimii coloanelor.",
+          "tag": "Procente pe coloane",
+          "tip": "metoda"
+        },
+        {
+          "q": "De la ce nivel de măsură se poate vorbi despre sensul unei corelații?",
+          "opts": [
+            "De la nivelul nominal în sus",
+            "De la nivelul de interval în sus",
+            "Doar de la nivelul de raport",
+            "De la nivelul ordinal în sus"
+          ],
+          "correct": 3,
+          "explain": "Sensul (pozitiv sau negativ) cere categorii ordonate, deci variabile cel puțin ordinale; la nivel nominal ordinea categoriilor e arbitrară, ca în Cap. 1 (Introducere în statistică). De aceea φ, C, V și λ merg doar de la 0 la 1, iar coeficienții ordinali și r, de la −1 la +1.",
+          "tag": "Sensul corelației",
+          "tip": "nivel_masura"
+        },
+        {
+          "q": "Ce permite o corelație perfectă între două variabile, în eșantionul studiat?",
+          "opts": [
+            "Predicții fără eroare de la o variabilă la cealaltă",
+            "Generalizarea relației la populație, fără test",
+            "Calculul coeficientului fără un tabel cu date",
+            "Compararea a două eșantioane cu medii diferite"
+          ],
+          "correct": 0,
+          "explain": "Corelația e perfectă dacă fiecare scor al unei variabile e asociat cu un singur scor al celeilalte, deci scorurile uneia se determină exact din ale celeilalte. E un caz ideal, valabil pentru eșantionul dat; generalizarea la populație cere tot un test de semnificație.",
+          "tag": "Corelația perfectă",
+          "tip": "concept"
+        },
+        {
+          "q": "De ce depinde precizia unei predicții făcute de la o variabilă la alta?",
+          "opts": [
+            "De nivelul de măsură al variabilei dependente",
+            "De tăria corelației dintre cele două variabile",
+            "De sensul pozitiv sau negativ al corelației",
+            "De numărul de categorii ale variabilei independente"
+          ],
+          "correct": 1,
+          "explain": "Dacă variabilele sunt corelate, scorurile uneia se pot aprecia din ale celeilalte, iar predicția e cu atât mai precisă cu cât corelația e mai puternică (la corelația perfectă, fără eroare). Sensul arată doar în ce direcție se schimbă cealaltă variabilă: o corelație negativă puternică permite predicții la fel de precise ca una pozitivă.",
+          "tag": "Predicția",
+          "tip": "concept"
+        },
+        {
+          "q": "Cum se interpretează un coeficient de corelație cu valoarea absolută între 0,50 și 0,70?",
+          "opts": [
+            "Corelație puternică",
+            "Corelație slabă până la moderată",
+            "Corelație foarte puternică",
+            "Corelație moderată"
+          ],
+          "correct": 3,
+          "explain": "Reperele obișnuite: 0,90–1 foarte puternică, 0,70–0,90 puternică, 0,50–0,70 moderată, 0,30–0,50 slabă până la moderată, sub 0,30 inexistentă sau foarte slabă. Capetele benzilor se suprapun, deci interpretarea rămâne relativ vagă.",
+          "tag": "Interpretarea valorii",
+          "tip": "concept"
+        },
+        {
+          "q": "De ce valoarea lui χ² nu poate servi drept mărime a corelației?",
+          "opts": [
+            "Poate lua și valori negative, ca r",
+            "Poate fi mare chiar când corelația e slabă",
+            "Se calculează doar pentru tabelele de tip 2 × 2",
+            "Nu depinde de numărul de cazuri"
+          ],
+          "correct": 1,
+          "explain": "χ² arată dacă relația se poate datora întâmplării, dar valoarea lui nu stă în legătură necesară cu tăria: la aceleași procente, crește odată cu n. De aceea tăria se măsoară cu φ, C, V sau λ. χ² e mereu pozitiv și se calculează pentru tabele de orice mărime.",
+          "tag": "Semnificație vs tărie",
+          "tip": "concept"
+        },
+        {
+          "q": "Pentru ce tabele ia coeficientul φ valori între 0 și 1?",
+          "opts": [
+            "Doar pentru tabelele de peste 10 rânduri",
+            "Doar pentru tabelele de tip 2 × 2",
+            "Doar pentru tabelele pătratice mari",
+            "Pentru tabelele cu cel puțin 3 coloane"
+          ],
+          "correct": 1,
+          "explain": "φ = √(χ²/n) rămâne între 0 și 1 numai la tabele 2 × 2; la tabele mai mari poate depăși 1, ceea ce îl face greu de interpretat. Tabelele mari (de la circa 10 rânduri sau coloane) sunt recomandate pentru C.",
+          "tag": "Coeficientul φ",
+          "tip": "concept"
+        },
+        {
+          "q": "Ce neajuns are coeficientul de contingență C?",
+          "opts": [
+            "Poate depăși valoarea 1 la tabele mari",
+            "Nu poate ajunge la valoarea 1",
+            "Poate lua și valori negative",
+            "Cere variabile ordinale"
+          ],
+          "correct": 1,
+          "explain": "Fiind o mărime subunitară, C nu atinge 1; maximul crește cu mărimea tabelului (0,82 la 3 × 3, 0,87 la 4 × 4), de aceea se recomandă la tabele mari. Depășirea lui 1 e problema lui φ la tabele mari; C, ca ceilalți coeficienți nominali, nu are semn.",
+          "tag": "Coeficientul de contingență C",
+          "tip": "concept"
+        },
+        {
+          "q": "Când se folosește varianta asimetrică a coeficientului λ?",
+          "opts": [
+            "Când tabelul are exact tot atâtea rânduri câte coloane",
+            "Când variabilele au mai mult de șase categorii",
+            "Când variabila independentă poate fi identificată",
+            "Când nu se dorește alegerea unei variabile cauză"
+          ],
+          "correct": 2,
+          "explain": "λy, varianta asimetrică, se folosește când VI e identificată; varianta simetrică rămâne pentru cazul în care VI nu se poate sau nu se dorește identificată. Tabelele pătratice contează pentru τb, iar multe categorii ordinale pentru ρs.",
+          "tag": "λ simetric și λ asimetric",
+          "tip": "concept"
+        },
+        {
+          "q": "Ce perechi de cazuri se numără în Na?",
+          "opts": [
+            "Nelegate, ordonate la fel pe ambele variabile",
+            "Nelegate, ordonate diferit pe cele două variabile",
+            "Legate pe variabila dependentă, pe același rând",
+            "Legate pe variabila independentă, pe aceeași coloană"
+          ],
+          "correct": 0,
+          "explain": "Na cuprinde perechile nelegate și dispuse în aceeași ordine pe ambele variabile (o celulă și celulele de deasupra și din dreapta ei). Perechile ordonate diferit dau Nd, iar cele legate pe un rând sau pe o coloană dau Ly și Lx.",
+          "tag": "Perechi Na și Nd",
+          "tip": "concept"
+        },
+        {
+          "q": "Prin ce diferă formula lui d al lui Somer de cea a lui γ?",
+          "opts": [
+            "Adaugă la numărător perechile legate pe VD",
+            "Folosește ranguri în locul perechilor de cazuri",
+            "Ia în calcul perechile legate pe ambele variabile",
+            "Adaugă la numitor perechile legate pe VD"
+          ],
+          "correct": 3,
+          "explain": "d = (Na − Nd)/(Na + Nd + Ly): numărătorul e același, dar numitorul mai mare, deci d e mai conservator și mai mic decât γ pe același tabel. Perechile legate pe ambele variabile intră în τb; rangurile sunt materialul lui ρs.",
+          "tag": "Coeficientul d al lui Somer",
+          "tip": "concept"
+        },
+        {
+          "q": "Când se preferă ρs al lui Spearman coeficienților γ, d și τb?",
+          "opts": [
+            "Când variabilele au multe valori distincte și puține legături",
+            "Când variabilele au cel mult cinci-șase categorii fiecare",
+            "Când tabelul e pătratic, iar variabila dependentă e clară",
+            "Când variabilele sunt nominale, cu foarte multe categorii"
+          ],
+          "correct": 0,
+          "explain": "ρs se folosește la variabile ordinale cu o amplitudine largă de scoruri diferite și puține cazuri legate. γ, d și τb sunt pentru variabile ordinale cu puține categorii, organizate în tabel; variabilele nominale cer φ, C, V sau λ.",
+          "tag": "Alegerea coeficientului ordinal",
+          "tip": "concept"
+        },
+        {
+          "q": "Ce arată coeficientul b din ecuația de regresie Y = a + bX?",
+          "opts": [
+            "În ce punct taie linia de regresie axa Y",
+            "Ce parte din variația lui Y e explicată de X",
+            "Cât se schimbă Y la o unitate de schimbare a lui X",
+            "Cât de strânse sunt punctele în jurul liniei de regresie"
+          ],
+          "correct": 2,
+          "explain": "b e panta liniei de regresie (0,56 la cei 9 elevi: un punct în plus la limbaj, 0,56 în plus la aritmetică); b = 0 înseamnă o linie orizontală, fără corelație. Punctul de intersecție cu axa Y e constanta a, partea de variație explicată e r², iar strângerea punctelor arată tăria.",
+          "tag": "Coeficientul de regresie b",
+          "tip": "concept"
+        },
+        {
+          "q": "Ce informație dă coeficientul de determinare r²?",
+          "opts": [
+            "Partea din variația lui Y explicată de X",
+            "Panta liniei de regresie a lui Y după X",
+            "Probabilitatea ca r să apară din întâmplare",
+            "Sensul legăturii dintre cele două variabile"
+          ],
+          "correct": 0,
+          "explain": "r² e o interpretare mai directă a lui r: limbajul explică circa 43,5% din variația abilităților aritmetice, restul ținând de alte variabile, erori sau întâmplare. Panta e b, probabilitatea ține de testul t pentru r, iar sensul se vede din semnul lui r (ridicat la pătrat, semnul dispare).",
+          "tag": "Coeficientul de determinare r²",
+          "tip": "concept"
+        }
+      ],
+      "ascunse": [
+        {
+          "q": "Ce supoziții cere testul de semnificație pentru r al lui Pearson?",
+          "opts": [
+            "Linearitate, distribuție bivariată normală, homoscedasticitate",
+            "Linearitate, eșantioane dependente, date măsurate la nivel ordinal",
+            "Distribuții asimetrice, eșantioane mari, date nominale",
+            "Medii egale, dispersii egale, grupuri de mărime egală"
+          ],
+          "correct": 0,
+          "explain": "Pe lângă linearitate, testul pentru r cere ca ambele variabile să fie normal distribuite (distribuție bivariată normală) și ca abaterile standard ale distribuțiilor condiționate ale lui Y să fie aproximativ egale (homoscedasticitate). Dispersiile egale ale unor grupuri țin de ANOVA, din Cap. 10 (Analiza de varianță (ANOVA)).",
+          "tag": "Supozițiile testului pentru r",
+          "tip": "principiu"
+        },
+        {
+          "q": "Ce indică o corelație parțială mult mai mică decât corelația de ordinul zero?",
+          "opts": [
+            "O relație directă, neatinsă de variabila de control",
+            "O relație aparentă sau mediată de variabila de control",
+            "Influențe separate ale celor două variabile independente",
+            "O greșeală la calculul coeficienților de ordinul zero"
+          ],
+          "correct": 1,
+          "explain": "Dacă ryz·x ≪ ryz, fie X le determină pe Y și Z (relație inautentică), fie Y acționează asupra lui Z prin X; statistica nu le deosebește, decid criteriile de conținut (ordinea în timp). O relație directă lasă corelația aproape neschimbată, iar influențele separate o măresc.",
+          "tag": "Relație inautentică sau prin intermediar",
+          "tip": "model"
+        },
+        {
+          "q": "Ce permite regresia multiplă, spre deosebire de corelația multiplă?",
+          "opts": [
+            "Izolarea influenței fiecărei variabile independente",
+            "Evaluarea influenței combinate a tuturor variabilelor",
+            "Controlul unei singure variabile asupra unei corelații",
+            "Măsurarea corelației dintre două variabile ordinale"
+          ],
+          "correct": 0,
+          "explain": "Regresia multiplă izolează influențele separate ale variabilelor independente și arată care e cea mai puternică; corelația multiplă (R, R²) arată influența lor combinată. Controlul unei a treia variabile asupra unei corelații bivariate e corelația parțială.",
+          "tag": "Regresia multiplă",
+          "tip": "metoda"
+        },
+        {
+          "q": "De ce se compară între ele coeficienții β, și nu coeficienții b, ai variabilelor independente?",
+          "opts": [
+            "β include și constanta de regresie a în calcul",
+            "β se calculează doar pentru variabile ordinale",
+            "β arată influența combinată a tuturor variabilelor",
+            "β nu depinde de unitățile de măsură ale variabilelor"
+          ],
+          "correct": 3,
+          "explain": "Coeficienții β sunt pante parțiale standardizate: lucrează în abateri standard, cu celelalte variabile controlate, deci sunt comparabili (ca scorurile Z din Cap. 5 (Distribuția normală)). Ecuația standardizată nu are constantă, iar influența combinată e dată de R.",
+          "tag": "Coeficienții β",
+          "tip": "concept"
+        },
+        {
+          "q": "Câte grade de libertate are distribuția t la testarea lui r pe n perechi de scoruri?",
+          "opts": [
+            "n − 1",
+            "2n − 2",
+            "n − 2",
+            "n"
+          ],
+          "correct": 2,
+          "explain": "Testul pentru r folosește distribuția t cu gl = n − 2 (9 elevi → 7 gl). n − 1 e regula pentru o singură medie, din Cap. 8 (Testarea ipotezelor despre o singură populație), iar 2n − 2 ar număra scorurile, nu perechile.",
+          "tag": "Testul t pentru r",
+          "tip": "calcul"
+        }
+      ]
+    },
+    {
+      "id": "1",
+      "eticheta": "Runda 2 · Bază",
+      "titlu": "Runda 2 — Concepte de bază",
+      "desc": "Situații scurte: recunoști coeficientul potrivit, interpretezi o valoare sau faci un calcul direct.",
+      "intrebari": [
+        {
+          "q": "O psihologă are un tabel cu tipul de liceu pe coloane (teoretic: 200 de elevi, tehnologic: 80, vocațional: 40) și intenția de a urma o facultate pe rânduri (da, nehotărât, nu). Vrea să vadă dacă intenția diferă după tipul de liceu. Cum procedează?",
+          "opts": [
+            "Calculează procente pe fiecare rând și le compară pe coloane",
+            "Compară direct frecvențele absolute de pe fiecare rând",
+            "Calculează procente pe fiecare coloană și le compară pe rânduri",
+            "Calculează procente din totalul general și compară celulele"
+          ],
+          "correct": 2,
+          "explain": "Coloanele au totaluri foarte diferite (200, 80, 40), deci frecvențele absolute nu se pot compara. Procentele se calculează în sensul variabilei independente (pe coloane), apoi se compară în sensul variabilei dependente (pe rânduri). Procentele pe rânduri ar răspunde la altă întrebare (din ce licee vin cei care vor facultate), iar procentele din totalul general amestecă efectul mărimii coloanelor.",
+          "tag": "Procente pe coloane",
+          "tip": "metoda"
+        },
+        {
+          "q": "Într-un tabel cu culoarea ochilor pe coloane și genul muzical preferat pe rânduri, procentele pe fiecare coloană ies aproape identice: circa 40% pop, 35% rock, 25% clasică, oricare ar fi culoarea ochilor. Ce indică?",
+          "opts": [
+            "O corelație pozitivă slabă, pentru că procentele scad de sus în jos",
+            "Variabilele nu sunt corelate: distribuțiile condiționate nu se schimbă",
+            "O corelație perfectă, pentru că toate coloanele au aceeași formă",
+            "O corelație negativă, pentru că muzica pop domină în toate coloanele"
+          ],
+          "correct": 1,
+          "explain": "Două variabile sunt corelate dacă distribuția uneia se schimbă după categoriile celeilalte. Aici distribuțiile condiționate ale preferinței sunt aceleași pentru fiecare culoare a ochilor, deci lipsește corelația. Coloanele identice nu înseamnă corelație perfectă: la corelația perfectă toate cazurile unei coloane ar sta într-o singură celulă. Cât despre „pozitivă” sau „negativă”, sensul nu are înțeles la variabile nominale.",
+          "tag": "Variabile corelate",
+          "tip": "concept"
+        },
+        {
+          "q": "Un cercetător constată că elevii care dorm mai puține ore pe noapte au, în medie, mai multe greșeli la un test de atenție. Cum descrie relația dintre orele de somn și numărul de greșeli?",
+          "opts": [
+            "Corelație negativă: când una crește, cealaltă tinde să scadă",
+            "Corelație pozitivă: puțin somn merge împreună cu multe greșeli",
+            "Corelație perfectă: greșelile se pot prezice exact din orele de somn",
+            "Corelație pozitivă: amândouă variabile descriu oboseala elevilor"
+          ],
+          "correct": 0,
+          "explain": "Scoruri mici la o variabilă (orele de somn) merg cu scoruri mari la cealaltă (greșelile): variabilele variază în sensuri opuse, deci corelația e negativă. Varianta „puțin somn merge cu multe greșeli” descrie corect datele, dar le dă eticheta greșită: corelația pozitivă înseamnă mic cu mic și mare cu mare. Nimic din situație nu indică o predicție fără eroare.",
+          "tag": "Sensul corelației",
+          "tip": "concept"
+        },
+        {
+          "q": "O cercetătoare găsește o corelație între religia declarată (ortodox, catolic, altă religie, fără religie) și mediul de rezidență (urban, rural). Un coleg o întreabă dacă e o corelație pozitivă sau negativă. Ce îi răspunde?",
+          "opts": [
+            "Pozitivă, dacă în urban sunt mai mulți ortodocși decât în rural",
+            "Întrebarea nu se aplică: sensul cere variabile cel puțin ordinale",
+            "Negativă, dacă φ calculat pe acest tabel iese sub 0,50",
+            "Pozitivă, pentru că φ și V nu iau niciodată valori negative"
+          ],
+          "correct": 1,
+          "explain": "Sensul (pozitiv sau negativ) se poate indica doar dacă ambele variabile au categorii ordonate, adică sunt cel puțin ordinale; ordinea categoriilor nominale e arbitrară, ca la nivelurile de măsură din Cap. 1 (Introducere în statistică). Faptul că φ, C și V sunt mereu între 0 și 1 arată doar că acești coeficienți măsoară tăria, nu că relația ar fi „pozitivă”; iar o valoare sub 0,50 vorbește despre tărie, nu despre sens.",
+          "tag": "Sensul corelației",
+          "tip": "nivel_masura"
+        },
+        {
+          "q": "Într-o firmă, toți angajații cu vechime mică au salariul de nivel 1, toți cei cu vechime medie salariul de nivel 2, iar toți cei cu vechime mare salariul de nivel 3. Ce permite această situație?",
+          "opts": [
+            "Să prezici fără eroare nivelul salarial al unui angajat din vechimea lui",
+            "Să generalizezi relația la orice firmă, fără un test de semnificație",
+            "Să afirmi că vechimea și salariul sunt independente statistic",
+            "Să estimezi un coeficient de corelație în jurul valorii de 0,50"
+          ],
+          "correct": 0,
+          "explain": "Fiecare scor al vechimii e asociat cu un singur nivel salarial: corelație perfectă, cu toate cazurile unei coloane într-o singură celulă. Ea permite predicții fără eroare de la o variabilă la alta, dar doar pentru eșantionul respectiv; generalizarea la alte firme cere o inferență. Coeficientul ar fi 1 (cazul-limită), nu în jur de 0,50, iar independența e exact opusul.",
+          "tag": "Corelația perfectă",
+          "tip": "concept"
+        },
+        {
+          "q": "Într-un studiu, coeficientul de corelație dintre anxietatea dinaintea examenului și nota obținută iese −0,75. Cum îl interpretează autorii, după reperele obișnuite?",
+          "opts": [
+            "Corelație negativă moderată",
+            "Corelație pozitivă puternică, după valoarea absolută",
+            "Corelație negativă foarte puternică, aproape perfectă",
+            "Corelație negativă puternică"
+          ],
+          "correct": 3,
+          "explain": "Valorile între 0,70 și 0,90 (în valoare absolută) indică o corelație puternică; semnul minus spune doar că sensul e negativ (anxietate mai mare, notă mai mică). „Moderată” e banda 0,50–0,70, iar „foarte puternică” începe de la 0,90. Valoarea absolută dă tăria, dar sensul rămâne cel dat de semn.",
+          "tag": "Interpretarea valorii",
+          "tip": "concept"
+        },
+        {
+          "q": "Un tabel 2 × 2 (fumător sau nefumător × a avut sau nu episoade de insomnie) pentru 200 de persoane dă χ² = 8. Ce valoare are coeficientul φ?",
+          "opts": [
+            "0,04",
+            "0,40",
+            "0,14",
+            "0,20"
+          ],
+          "correct": 3,
+          "explain": "φ = √(χ²/n) = √(8/200) = √0,04 = 0,20. Valoarea 0,04 e χ²/n fără radical; 0,40 ar ieși împărțind la 50 în loc de 200. Pentru un tabel 2 × 2, φ e între 0 și 1, deci se poate interpreta direct: corelație foarte slabă.",
+          "tag": "Coeficientul φ",
+          "tip": "calcul"
+        },
+        {
+          "q": "O cercetătoare are un tabel 3 × 3 (stilul parental × stilul de atașament) și obține C = 0,80. O colegă îi spune că valoarea e mult sub 1, deci corelația nu e prea puternică. Ce ar trebui să știe amândouă?",
+          "opts": [
+            "Într-un tabel 3 × 3, C nu poate trece de circa 0,82",
+            "Într-un tabel 3 × 3, C poate depăși 1, la fel ca φ",
+            "C se aplică doar tabelelor 2 × 2, deci aici nu are sens",
+            "C arată și sensul corelației, deci trebuie verificat semnul"
+          ],
+          "correct": 0,
+          "explain": "C nu poate lua niciodată valoarea 1: maximul lui depinde de mărimea tabelului (circa 0,82 la 3 × 3, 0,87 la 4 × 4) și tinde spre 1 doar la tabele mari, de aceea se recomandă pentru tabele de la circa 10 rânduri sau coloane în sus. Aici 0,80 e aproape de maximul posibil. φ e cel care poate depăși 1 la tabele mari; C, ca toți coeficienții nominali, nu are semn.",
+          "tag": "Coeficientul de contingență C",
+          "tip": "concept"
+        },
+        {
+          "q": "Un tabel cu patru specializări pe coloane și trei tipuri de practică preferată pe rânduri (variabile nominale), pentru 150 de studenți, dă χ² = 24. Ce valoare are coeficientul V al lui Cramer?",
+          "opts": [
+            "≈ 0,40",
+            "≈ 0,23",
+            "≈ 0,08",
+            "≈ 0,28"
+          ],
+          "correct": 3,
+          "explain": "V = √(χ² / (n(q − 1))), cu q cea mai mică dintre numărul de rânduri și de coloane: q = 3, deci V = √(24 / (150 · 2)) = √0,08 ≈ 0,28. Valoarea 0,40 e φ (fără împărțirea la q − 1); 0,23 ar ieși luând q = 4, numărul coloanelor; 0,08 e rezultatul fără radical.",
+          "tag": "Coeficientul V al lui Cramer",
+          "tip": "calcul"
+        },
+        {
+          "q": "Într-un studiu despre mediul de proveniență (urban, rural) și specializarea aleasă (psihologie, drept, informatică), cercetătorul a stabilit dinainte că mediul e variabila independentă și vrea o mărime nominală potrivită pentru o cercetare pretențioasă. Ce alege?",
+          "opts": [
+            "Varianta simetrică a coeficientului λ",
+            "Varianta asimetrică a lui λ, notată λy",
+            "Coeficientul C, recomandat pentru tabele mari",
+            "Coeficientul d al lui Somer, care e asimetric"
+          ],
+          "correct": 1,
+          "explain": "Pentru cercetări mai pretențioase la nivel nominal se folosește λ; când variabila independentă e identificată, se ia varianta asimetrică λy, iar varianta simetrică rămâne pentru cazul în care nu se poate sau nu se dorește alegerea VI. C e potrivit doar pentru tabele mari (aici 2 × 3). d e tot asimetric, dar e un coeficient pentru variabile ordinale.",
+          "tag": "λ simetric și λ asimetric",
+          "tip": "concept"
+        },
+        {
+          "q": "Pentru un tabel cu nivelul de studii (3 categorii ordonate) și interesul pentru lectură (3 categorii ordonate), s-au numărat 600 de perechi de cazuri nelegate ordonate la fel și 200 de perechi nelegate ordonate diferit. Cât este γ?",
+          "opts": [
+            "0,33",
+            "0,67",
+            "0,50",
+            "0,75"
+          ],
+          "correct": 2,
+          "explain": "γ = (Na − Nd) / (Na + Nd) = (600 − 200) / 800 = 0,50, o corelație pozitivă moderată. 0,75 e doar Na / (Na + Nd); 0,67 ar ieși împărțind diferența la Na; 0,33 e raportul Nd / Na.",
+          "tag": "Coeficientul γ",
+          "tip": "calcul"
+        },
+        {
+          "q": "Într-un tabel 3 × 3 construit în ordinea obișnuită (vechimea crește de la stânga la dreapta, satisfacția crește de jos în sus), un student formează perechi luând un caz din celula din stânga-jos și un caz din celula din dreapta-sus. Ce fel de perechi obține?",
+          "opts": [
+            "Nelegate și ordonate diferit pe cele două variabile, care intră în Nd",
+            "Nelegate și ordonate la fel pe ambele variabile, care intră în Na",
+            "Legate în privința variabilei dependente, care intră în Ly",
+            "Legate în privința variabilei independente, care intră în Lx"
+          ],
+          "correct": 1,
+          "explain": "Cazul din stânga-jos are și vechime mai mică, și satisfacție mai mică decât cazul din dreapta-sus: cele două cazuri diferă pe ambele variabile (nelegate) și în același sens, deci intră în Na. Perechile din Nd vin din celule aflate deasupra și la stânga; cele legate pe VD sunt pe același rând (Ly), iar cele legate pe VI pe aceeași coloană (Lx).",
+          "tag": "Perechi Na și Nd",
+          "tip": "concept"
+        },
+        {
+          "q": "Un psiholog are 25 de angajați, fiecare cu un loc în clasamentul făcut de șef (1–25) și un loc în clasamentul făcut de colegi (1–25), aproape fără egalități. Ce coeficient de corelație folosește?",
+          "opts": [
+            "ρs al lui Spearman",
+            "γ al lui Goodman și Kruskal",
+            "r al lui Pearson",
+            "d al lui Somer"
+          ],
+          "correct": 0,
+          "explain": "Clasamentele sunt variabile ordinale cu o amplitudine largă de valori diferite și puține cazuri legate: situația tipică pentru ρs. γ și d se folosesc la variabile ordinale cu puține categorii (cel mult cinci-șase), organizate în tabel. r cere variabile de interval sau de raport, iar rangurile nu au intervale egale.",
+          "tag": "Alegerea coeficientului ordinal",
+          "tip": "concept"
+        },
+        {
+          "q": "Ecuația de regresie dintre orele de pregătire pe săptămână (X) și scorul la un test (Y) este Y = 40 + 2,5X. Ce înseamnă valoarea 2,5?",
+          "opts": [
+            "Scorul prezis pentru cineva cu zero ore de pregătire pe săptămână",
+            "Corelația dintre ore și scor, pe o scară de la −1 până la +1",
+            "Fiecare oră în plus se asociază cu 2,5 puncte în plus la test",
+            "Procentul din variația scorului explicat de orele de pregătire"
+          ],
+          "correct": 2,
+          "explain": "2,5 e coeficientul de regresie b, panta liniei: cantitatea de schimbare a lui Y pentru o unitate de schimbare a lui X. Scorul pentru zero ore e constanta a = 40, punctul în care linia taie axa Y. b nu e un coeficient de corelație (depinde de unitățile de măsură), iar procentul de variație explicat e r².",
+          "tag": "Coeficientul de regresie b",
+          "tip": "concept"
+        },
+        {
+          "q": "Între stima de sine și satisfacția față de viață, într-un eșantion, r = 0,60. Ce parte din variația satisfacției este explicată de stima de sine?",
+          "opts": [
+            "Circa 60%",
+            "Circa 40%",
+            "Circa 36%",
+            "Circa 64%"
+          ],
+          "correct": 2,
+          "explain": "Coeficientul de determinare r² = 0,60² = 0,36: stima de sine explică circa 36% din variația satisfacției, iar restul de 64% ține de alte variabile, de erori de măsurare sau de întâmplare. 60% confundă r cu r²; 40% e 1 − r; 64% e partea neexplicată.",
+          "tag": "Coeficientul de determinare r²",
+          "tip": "calcul"
+        }
+      ],
+      "ascunse": [
+        {
+          "q": "Un cercetător găsește r = 0,45 între numărul de înghețate vândute și numărul de înecuri, zi de zi, într-o stațiune. Vrea să vadă ce rămâne din această corelație după ce scoate influența temperaturii. Ce metodă folosește?",
+          "opts": [
+            "Corelația parțială, cu temperatura ca variabilă de control",
+            "Corelația multiplă R, cu toate cele trei variabile la un loc",
+            "Coeficientul de determinare r², calculat pentru înghețate",
+            "Testul t pentru semnificația corelației r = 0,45"
+          ],
+          "correct": 0,
+          "explain": "Corelația parțială arată influența unei a treia variabile asupra unei corelații bivariate: se calculează corelația înghețate–înecuri controlând temperatura. Corelația multiplă măsoară influența combinată a mai multor variabile independente asupra uneia dependente; r² și testul t privesc doar relația celor două variabile, fără control.",
+          "tag": "Corelația parțială",
+          "tip": "metoda"
+        },
+        {
+          "q": "Pentru un eșantion aleatoriu de 27 de studenți, r = 0,40 între timpul petrecut pe rețelele sociale și un scor de anxietate. Câte grade de libertate are distribuția t folosită la testarea lui r?",
+          "opts": [
+            "25",
+            "26",
+            "27",
+            "54"
+          ],
+          "correct": 0,
+          "explain": "Testul pentru r folosește distribuția t cu gl = n − 2 = 27 − 2 = 25 (două valori se pierd, câte una pentru fiecare variabilă). 26 e n − 1, ca la testul pentru o singură medie din Cap. 8 (Testarea ipotezelor despre o singură populație); 54 ar număra scorurile, nu perechile.",
+          "tag": "Testul t pentru r",
+          "tip": "calcul"
+        },
+        {
+          "q": "Un tabel are 3 rânduri (nivelul de stres) și 5 coloane (tranșe de vechime), variabile ordinale cu puține categorii. O colegă vrea să raporteze τb al lui Kendall. Ce obiecție e potrivită?",
+          "opts": [
+            "τb se folosește doar când variabila independentă e cunoscută",
+            "τb cere peste zece categorii distincte pe fiecare dintre variabile",
+            "τb nu ține cont de perechile legate, deci supraestimează",
+            "τb ajunge la 1 doar în tabelele pătratice, iar acesta e 3 × 5"
+          ],
+          "correct": 3,
+          "explain": "τb ia valori între 0 și 1 doar pentru tabele cu același număr de rânduri și coloane, de aceea nu se recomandă la tabele dreptunghiulare. E o mărime simetrică (ține cont și de Ly, și de Lx), deci nu cere alegerea VI — asta e situația lui d. Perechile legate sunt exact ce adaugă τb față de γ, iar „multe categorii” e situația lui ρs.",
+          "tag": "Coeficientul τb al lui Kendall",
+          "tip": "concept"
+        },
+        {
+          "q": "Înainte să calculeze r între doza unui stimulent (în mg) și performanța la o sarcină, o cercetătoare face diagrama de împrăștiere: performanța crește până la doza medie, apoi scade, în formă de U întors. Ce decizie e potrivită?",
+          "opts": [
+            "Calculează r: la nivel de raport, forma norului nu contează",
+            "Corelația nu e lineară: tratează variabilele ca fiind ordinale",
+            "Raportează b = 0, pentru că punctele urcă și apoi coboară",
+            "Folosește φ, pentru că relația are două sensuri diferite"
+          ],
+          "correct": 1,
+          "explain": "Tehnicile pentru interval și raport presupun o corelație lineară, verificată tocmai prin diagrama de împrăștiere. Dacă punctele nu se pot aproxima printr-o dreaptă, supozițiile nivelului de interval sau de raport nu sunt satisfăcute, iar variabilele se tratează ca ordinale. b = 0 ar descrie o linie orizontală, nu un U întors; φ e un coeficient nominal, bazat pe χ².",
+          "tag": "Corelația lineară",
+          "tip": "principiu"
+        },
+        {
+          "q": "Ecuația Y = 12 + 0,8X leagă numărul de cărți citite pe an (X) de un scor de vocabular (Y). Ce scor de vocabular prezice ecuația pentru cineva care citește 20 de cărți pe an?",
+          "opts": [
+            "16",
+            "32",
+            "28",
+            "25,6"
+          ],
+          "correct": 2,
+          "explain": "Ŷ = a + bX = 12 + 0,8 · 20 = 12 + 16 = 28. 16 e doar bX (fără constanta a); 32 adună X cu a, uitând panta; 25,6 înmulțește (12 + 20) cu 0,8.",
+          "tag": "Predicția prin regresie",
+          "tip": "calcul"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "eticheta": "Runda 3 · Aplicații",
+      "titlu": "Runda 3 — Scenarii și raționament",
+      "desc": "Situații cu mai mulți pași: calculezi, alegi coeficientul sau testul și interpretezi tăria, semnificația și tipul de relație.",
+      "intrebari": [
+        {
+          "q": "Într-o fabrică, 173 de muncitori sunt clasificați după satisfacția față de meserie (scăzută: 60, medie: 61, înaltă: 52) și productivitate. Dintre cei cu satisfacție scăzută, 30 au productivitate scăzută; dintre cei cu satisfacție înaltă, 27 au productivitate înaltă și doar 7 scăzută. Ce arată procentele pe coloane?",
+          "opts": [
+            "Productivitatea scăzută coboară de la 50% la circa 13%: corelație negativă",
+            "Productivitatea înaltă e doar 27 din 173 de muncitori: corelație slabă",
+            "Coloanele au totaluri diferite, deci procentele nu se pot compara",
+            "Productivitatea scăzută coboară de la 50% la circa 13%: corelație pozitivă"
+          ],
+          "correct": 3,
+          "explain": "Pe coloane: 30/60 = 50% productivitate scăzută la satisfacție scăzută, 7/52 ≈ 13% la satisfacție înaltă, iar productivitatea înaltă urcă la 27/52 ≈ 52%. Satisfacție mare merge cu productivitate mare și satisfacție mică cu productivitate mică: corelație pozitivă. Scăderea procentului de productivitate scăzută nu face corelația negativă — e aceeași imagine văzută din celălalt capăt. 27 din 173 folosește totalul general în loc de totalul coloanei, iar procentele există tocmai ca să compare coloane cu totaluri diferite.",
+          "tag": "Procente pe coloane",
+          "tip": "concept",
+          "exemplu_nou": false
+        },
+        {
+          "q": "Două studii au exact aceleași procente într-un tabel 2 × 2 (sexul × alegerea unei terapii), dar unul are 100 de participanți, iar celălalt 400. În primul, χ² = 4; în al doilea, χ² = 16. Ce se poate spune despre tăria corelației în cele două studii?",
+          "opts": [
+            "Este de patru ori mai mare în al doilea studiu, la fel ca χ²",
+            "Este aceeași: φ = 0,20 în ambele, iar χ² crește doar odată cu n",
+            "Este de două ori mai mare în al doilea, cât radicalul lui χ²",
+            "Nu se poate compara, pentru că cele două χ² au gl diferite"
+          ],
+          "correct": 1,
+          "explain": "φ = √(4/100) = √(16/400) = 0,20 în ambele studii. Cu aceleași procente, χ² crește proporțional cu n, deci valoarea lui nu spune cât de puternică e relația: χ² nu e o mărime a corelației (o valoare mare poate însoți o corelație slabă). Ambele tabele sunt 2 × 2, deci au același gl = 1, ca în testul χ² din Cap. 11 (Teste nonparametrice).",
+          "tag": "Semnificație vs tărie",
+          "tip": "concept",
+          "exemplu_nou": true
+        },
+        {
+          "q": "Un tabel cu sexul (2 categorii) pe rânduri și cinci tipuri de hobby pe coloane dă χ² = 20 pentru n = 125. Un coleg spune că V al lui Cramer va ieși mai mic decât φ, pentru că V corectează mărimea tabelului. Ce se întâmplă de fapt?",
+          "opts": [
+            "V = φ = 0,40, pentru că cea mai mică dimensiune a tabelului e 2",
+            "V ≈ 0,20, pentru că la numitor se ia numărul coloanelor minus 1",
+            "V = 0,16, pentru că se raportează χ² la n fără să se extragă radical",
+            "V ≈ 0,37, adică exact cât dă și C pe aceleași date ale tabelului"
+          ],
+          "correct": 0,
+          "explain": "q este cea mai mică dintre numărul de rânduri și de coloane: q = 2, deci q − 1 = 1 și V = √(20/125) = 0,40, adică exact φ. Corecția lui V contează doar când ambele dimensiuni depășesc 2. 0,20 folosește greșit q = 5; 0,16 e χ²/n fără radical; 0,37 e C = √(20/145), alt coeficient.",
+          "tag": "Coeficientul V al lui Cramer",
+          "tip": "calcul",
+          "exemplu_nou": true
+        },
+        {
+          "q": "Un psiholog vrea să prezică terapia preferată (VD, trei categorii) a 200 de pacienți. Fără altă informație, ar ghici categoria cea mai frecventă, aleasă de 90 de pacienți. Dacă ține cont de diagnostic (VI), suma celor mai mari frecvențe din fiecare coloană a diagnosticului este 130. Cât este λy și ce înseamnă?",
+          "opts": [
+            "0,65: cu diagnosticul, 130 din 200 de pacienți sunt prezis corect",
+            "0,45: 90 din cei 200 de pacienți preferă terapia cea mai frecventă",
+            "≈ 0,36: diagnosticul reduce cu circa 36% erorile de predicție",
+            "≈ 0,31: diferența de 40 de cazuri raportată la totalul de 130"
+          ],
+          "correct": 2,
+          "explain": "λy = (Σnmx − nmr) / (n − nmr) = (130 − 90) / (200 − 90) = 40/110 ≈ 0,36. Ca reducere proporțională a erorilor (interpretare marcată în Mind Map): fără diagnostic greșești de 110 ori, cu diagnosticul de 70 de ori, adică 40 de erori mai puțin din 110. 0,65 e proporția predicțiilor corecte, nu reducerea erorilor; 0,45 e doar ponderea categoriei celei mai frecvente.",
+          "tag": "Reducerea proporțională a erorilor",
+          "tip": "calcul",
+          "exemplu_nou": true
+        },
+        {
+          "q": "Pentru 100 de învățători, vechimea în muncă (inferioară, medie, superioară) și descurajarea profesională (inferioară, medie, superioară) dau Na = 1831 și Nd = 499. Învățătorul A are o vechime mai mare decât învățătorul B. Ce concluzie e potrivită?",
+          "opts": [
+            "γ ≈ 0,57: A va fi cu siguranță mai descurajat decât B",
+            "γ ≈ 0,57: e probabil ca A să fie mai descurajat decât B",
+            "γ ≈ 0,79: e probabil ca A să fie mai descurajat decât B",
+            "γ ≈ −0,57: e probabil ca A să fie mai puțin descurajat"
+          ],
+          "correct": 1,
+          "explain": "γ = (1831 − 499) / (1831 + 499) = 1332/2330 ≈ 0,57: corelație pozitivă moderată. Pentru o pereche de cazuri, ea face probabil (nu sigur) ca cel cu vechime mai mare să fie și mai descurajat; certitudinea ar cere o corelație perfectă. 0,79 e doar Na / (Na + Nd); semnul ar fi negativ doar dacă perechile ordonate diferit ar fi mai multe.",
+          "tag": "Coeficientul γ",
+          "tip": "calcul",
+          "exemplu_nou": false
+        },
+        {
+          "q": "Un student pune într-un tabel 3 × 3 vârsta pe coloane, crescător de la stânga la dreapta, dar nivelul de stres pe rânduri crescător de sus în jos (stres scăzut sus, ridicat jos). Calculează Na cu celulele de deasupra și din dreapta fiecărei celule și obține γ = −0,40. Ce s-a întâmplat?",
+          "opts": [
+            "Ordinea rândurilor nu contează, pentru că γ e o mărime simetrică",
+            "Rândurile sunt inversate, deci Na și Nd și-au schimbat rolurile: γ = +0,40",
+            "Semnul e corect, dar valoarea trebuie împărțită la numărul de rânduri",
+            "Tabelul trebuia să aibă alt număr de rânduri decât de coloane"
+          ],
+          "correct": 1,
+          "explain": "Regula „deasupra și la dreapta” pentru Na presupune categoriile coloanelor crescătoare de la stânga la dreapta și ale rândurilor crescătoare de jos în sus. Cu rândurile întoarse, perechile numărate ca Na sunt de fapt ordonate diferit, deci semnul se inversează. „Simetric” înseamnă că γ nu depinde de variabila aleasă ca independentă, nu că ar suporta orice ordine a categoriilor. Forma tabelului contează pentru τb, nu pentru γ.",
+          "tag": "Ordinea categoriilor în tabel",
+          "tip": "regula",
+          "exemplu_nou": true
+        },
+        {
+          "q": "Pentru tabelul cu vechimea și descurajarea celor 100 de învățători (Na = 1831, Nd = 499, perechi legate pe variabila dependentă Ly = 986), un raport dă γ = 0,57 și d al lui Somer = 0,40. Un recenzent crede că d ar fi trebuit să iasă egal cu γ. Ce îi răspundeți?",
+          "opts": [
+            "d e o mărime simetrică și ia media dintre Ly și Lx la numitor",
+            "d scade Ly din numărător, deci ar putea ieși și peste valoarea lui γ",
+            "d și γ diferă doar prin rotunjirea lui Na și Nd, deci e o greșeală",
+            "d adaugă Ly la numitor, deci pe același tabel iese mai mic decât γ"
+          ],
+          "correct": 3,
+          "explain": "d = (Na − Nd) / (Na + Nd + Ly) = 1332 / 3316 ≈ 0,40: aceeași diferență, dar un numitor mai mare, de aceea d e o mărime mai conservatoare decât γ. d e asimetrică (depinde de care variabilă e dependentă); τb e cea simetrică, cu Ly și Lx. Numărătorul e același la toți trei coeficienții.",
+          "tag": "Coeficientul d al lui Somer",
+          "tip": "concept",
+          "exemplu_nou": false
+        },
+        {
+          "q": "Zece alergători amatori primesc ranguri la gradul de implicare în jogging și la respectul de sine. Suma pătratelor diferențelor de rang este Σd² = 22,5. Cât este ρs al lui Spearman și ce indică?",
+          "opts": [
+            "≈ 0,14: corelație inexistentă sau foarte slabă",
+            "≈ 0,86: corelație pozitivă puternică",
+            "≈ 0,98: corelație aproape perfectă",
+            "≈ 0,86: corelație pozitivă moderată"
+          ],
+          "correct": 1,
+          "explain": "ρs = 1 − 6Σd² / (n(n² − 1)) = 1 − 135/990 ≈ 0,86, în banda 0,70–0,90: corelație pozitivă puternică, care sprijină ipoteza că implicarea merge cu respectul de sine. 0,14 e doar fracția 135/990, fără „1 −”; 0,98 apare dacă se uită factorul 6. Valoarea corectă interpretată ca „moderată” e o eroare de citire a benzilor.",
+          "tag": "Coeficientul ρs al lui Spearman",
+          "tip": "calcul",
+          "exemplu_nou": false
+        },
+        {
+          "q": "Pentru 15 perechi de ranguri, ρs = 0,48. Valoarea critică a lui ρs pentru n = 15 și α = 0,05 bilateral este 0,521. Ce decizie se ia?",
+          "opts": [
+            "Nu se respinge H0: nu putem conchide că există corelație în populație",
+            "Se respinge H0: 0,48 indică o corelație slabă până la moderată",
+            "Se calculează t cu 13 gl, pentru că tabelul nu se aplică la n = 15",
+            "Se respinge H0, pentru că valoarea 0,48 e mai mare decât α = 0,05"
+          ],
+          "correct": 0,
+          "explain": "Pentru 5 ≤ n ≤ 30 se folosește tabelul valorilor critice ale lui ρs: H0 (ρs = 0 în populație) se respinge doar dacă valoarea obținută depășește valoarea critică; 0,48 < 0,521. Interpretarea tăriei în eșantion nu decide semnificația. Formula cu t și n − 2 gl e pentru eșantioane de la 30 în sus. Coeficientul se compară cu valoarea critică, nu cu α.",
+          "tag": "Testul pentru ρs",
+          "tip": "test",
+          "exemplu_nou": true
+        },
+        {
+          "q": "Pentru 9 elevi aleși aleatoriu, r = 0,66 între abilitățile de limbaj și cele aritmetice. Testul dă t ≈ 2,34, cu 7 grade de libertate; pragul bilateral la α = 0,05 este 2,365. Ce concluzie e corectă?",
+          "opts": [
+            "Nu putem conchide că variabilele sunt corelate în populație",
+            "Variabilele sunt corelate moderat în populație, cu r = 0,66",
+            "Variabilele nu sunt corelate nici măcar la nivelul eșantionului",
+            "H0 se respinge, pentru că 2,34 e mult mai mare decât zero"
+          ],
+          "correct": 0,
+          "explain": "t obținut nu cade în zona critică (2,34 < 2,365), deci H0 (lipsa corelației în populație) nu se respinge: un r = 0,66 poate apărea din întâmplare în eșantioane de 9 cazuri chiar dacă în populație nu există corelație. Asta nu șterge corelația din eșantion, care există; doar nu o putem generaliza. Nerespingerea nu dovedește H0, ca în Cap. 8 (Testarea ipotezelor despre o singură populație). Testul pe acest exemplu e un calcul propriu (marcat în Mind Map).",
+          "tag": "Testul t pentru r",
+          "tip": "test",
+          "exemplu_nou": false
+        },
+        {
+          "q": "Un studiu raportează r = 0,30 între timpul petrecut pe telefon seara și calitatea somnului, iar altul r = 0,60 între stres și calitatea somnului. Un jurnalist scrie că stresul „explică de două ori mai mult” din variația somnului. Ce corectare e potrivită?",
+          "opts": [
+            "Are dreptate: 0,60 e dublul lui 0,30, deci și partea explicată",
+            "Explică 60% față de 30%, adică o diferență de 30 de puncte",
+            "Explică de circa patru ori mai mult: 36% față de 9% din variație",
+            "Comparația nu se poate face: valorile lui r nu au nicio interpretare"
+          ],
+          "correct": 2,
+          "explain": "Partea de variație explicată e r²: 0,30² = 0,09 (9%) și 0,60² = 0,36 (36%), deci de patru ori mai mult. Valorile lui r diferite de 0 și 1 nu au o interpretare directă precisă — tocmai de aceea se trece la r², care are una. Citirea lui r ca procent e confuzia dintre r și r².",
+          "tag": "Coeficientul de determinare r²",
+          "tip": "calcul",
+          "exemplu_nou": true
+        },
+        {
+          "q": "Între Y și Z, r = 0,50. Corelațiile cu o a treia variabilă X sunt rXY = 0,78 și rXZ = 0,70. Controlând X, corelația parțială dintre Y și Z iese ≈ −0,10. Ce rezultă?",
+          "opts": [
+            "Corelația Y–Z devine negativă, deci X inversează sensul relației",
+            "Y și Z sunt legate direct, iar X nu le influențează corelația",
+            "Y și X au influențe separate asupra lui Z și trebuie regresie multiplă",
+            "X explică aproape toată corelația dintre Y și Z: legătura lor nu e directă"
+          ],
+          "correct": 3,
+          "explain": "Corelația parțială scade de la 0,50 la aproape 0: legătura dintre Y și Z trece prin X — fie X le determină pe amândouă (relație inautentică), fie Y acționează asupra lui Z prin X. Valoarea −0,10 e practic zero, nu o corelație negativă reală. O relație directă ar păstra corelația parțială aproape de 0,50; influențele separate ar face-o mult mai mare.",
+          "tag": "Relație inautentică sau prin intermediar",
+          "tip": "model",
+          "exemplu_nou": false
+        },
+        {
+          "q": "Un cercetător găsește r = 0,45 între orele de lucru suplimentar (Y) și conflictele în familie (Z). Controlând oboseala (X), corelația parțială scade la 0,05. Oboseala apare după orele suplimentare și înaintea conflictelor. Ce tip de relație e cel mai plauzibil?",
+          "opts": [
+            "Oboseala le produce pe amândouă, iar legătura Y–Z e doar aparentă",
+            "Orele și conflictele sunt legate direct, iar oboseala nu contează",
+            "Orele suplimentare duc la conflicte prin oboseală: Y → X → Z",
+            "Orele și oboseala au fiecare câte o influență separată asupra lui Z"
+          ],
+          "correct": 2,
+          "explain": "Scăderea corelației parțiale aproape de 0 se potrivește cu două tipuri de relație: X cauză comună sau X intermediar. Statistica nu le deosebește; decid criteriile de conținut, cum e ordinea în timp. Aici oboseala vine după orele suplimentare, deci nu le poate cauza: rămâne varianta cu intermediar. Relația directă ar păstra corelația; influențele separate ar crește-o.",
+          "tag": "Relație inautentică sau prin intermediar",
+          "tip": "model",
+          "exemplu_nou": true
+        },
+        {
+          "q": "Într-o regresie multiplă care prezice media academică (Y), coeficientul b pentru venitul familiei (în lei) este 0,002, iar pentru orele de studiu pe săptămână 1,5. Coeficienții standardizați ies β = 0,45 pentru venit și β = 0,20 pentru ore. Ce variabilă are influența separată mai puternică?",
+          "opts": [
+            "Orele de studiu, pentru că b = 1,5 e mult mai mare decât 0,002",
+            "Au aceeași influență, pentru că b și β se contrazic și se compensează",
+            "Venitul: β compară influențele, iar b depinde de unitățile de măsură",
+            "Orele de studiu, pentru că β pentru venit include și efectul orelor"
+          ],
+          "correct": 2,
+          "explain": "b arată schimbarea lui Y pentru o unitate a fiecărei variabile, iar un leu și o oră nu sunt unități comparabile. Coeficienții β (pante parțiale standardizate) lucrează în abateri standard, cu celelalte variabile controlate, deci ei se compară: 0,45 > 0,20. Ca la scorurile Z din Cap. 5 (Distribuția normală), standardizarea face comparabile scorurile din distribuții diferite.",
+          "tag": "Coeficienții β",
+          "tip": "concept",
+          "exemplu_nou": true
+        },
+        {
+          "q": "Pentru 15 subiecți, scorul post-test (Y) e prezis din scorul pre-test (X1) și din media răspunsurilor corecte la șase încercări (X2). Corelațiile sunt r1y = 0,39 și r2y = 0,77, iar coeficienții standardizați β1 = 0,054 și β2 = 0,74. Ce rezultă despre influența lor combinată?",
+          "opts": [
+            "Împreună explică circa 59% din variația scorurilor post-test",
+            "Împreună explică circa 77% din variația scorurilor post-test",
+            "Împreună explică 0,39 + 0,77, adică peste 100%, deci se suprapun",
+            "Pre-testul explică 39% din variație, iar încercările încă 77%"
+          ],
+          "correct": 0,
+          "explain": "R² = β1r1y + β2r2y = 0,054 · 0,39 + 0,74 · 0,77 ≈ 0,59, iar R = √0,59 ≈ 0,77. R² se interpretează ca r²: circa 59% din variația post-testului, restul de 41% revenind altor variabile, erorilor sau întâmplării. 77% citește R ca procent; adunarea corelațiilor ignoră atât ridicarea la pătrat, cât și suprapunerea dintre X1 și X2.",
+          "tag": "Corelația multiplă R",
+          "tip": "calcul",
+          "exemplu_nou": false
+        }
+      ],
+      "ascunse": [
+        {
+          "q": "Într-un tabel, variabila de pe rânduri (tipul de program urmat, ordinal) este de fapt cea independentă, iar perechile legate sunt 300 pe rânduri și 1200 pe coloane. Cum se calculează d al lui Somer?",
+          "opts": [
+            "Cu perechile legate pe rânduri, ca de obicei: d nu depinde de VI",
+            "Cu perechile legate pe coloane la numitor, nu cu cele de pe rânduri",
+            "Cu produsul celor două cantități sub radical, ca în cazul lui τb",
+            "Cu media celor două cantități, ca să nu se favorizeze o variabilă"
+          ],
+          "correct": 1,
+          "explain": "d e asimetric: la numitor intră perechile legate pe variabila dependentă. Dacă VI e cea de pe rânduri, VD e pe coloane, deci perechile se numără pe coloane (Lx în notația obișnuită, în loc de Ly). Cu 300 față de 1200, alegerea schimbă mult valoarea, de aceea VD trebuie aleasă cu grijă. Radicalul produsului e formula lui τb, coeficientul simetric.",
+          "tag": "Perechi legate Ly și Lx",
+          "tip": "regula",
+          "exemplu_nou": true
+        },
+        {
+          "q": "La calculul lui ρs pentru 8 elevi, un student atribuie rangurile, face diferențele și obține suma diferențelor de rang, cu semn, Σd = 3. Ce ar trebui să facă?",
+          "opts": [
+            "Să continue calculul, pentru că semnul lui Σd arată sensul corelației",
+            "Să folosească Σd în formula lui ρs, în locul sumei Σd² a pătratelor",
+            "Să verifice rangurile sau diferențele, pentru că Σd trebuie să fie 0",
+            "Să împartă Σd la 8, ca să afle diferența medie dintre cele două ranguri"
+          ],
+          "correct": 2,
+          "explain": "Suma diferențelor de rang e întotdeauna 0, pentru că ambele variabile folosesc aceleași ranguri (1…n), deci diferențele pozitive și negative se compensează. Σd ≠ 0 semnalează o greșeală la atribuirea rangurilor (de pildă la rangurile legate, care primesc media pozițiilor) sau la scădere. Tocmai pentru că Σd e mereu 0, formula folosește Σd², ca abaterile de la medie din Cap. 4 (Mărimile dispersiei).",
+          "tag": "Atribuirea rangurilor",
+          "tip": "regula",
+          "exemplu_nou": true
+        },
+        {
+          "q": "Cinci participanți au urmat 2, 3, 4, 5 și 6 ședințe de relaxare (X); scorurile lor de tensiune (Y) dau ΣX = 20, ΣY = 50, ΣXY = 180 și ΣX² = 90. Care este ecuația de regresie a lui Y asupra lui X?",
+          "opts": [
+            "Y = 18 − 2X",
+            "Y = 10 − 2X",
+            "Y = 18 + 2X",
+            "Y = 2 + 18X"
+          ],
+          "correct": 0,
+          "explain": "b = (nΣXY − ΣXΣY) / (nΣX² − (ΣX)²) = (900 − 1000) / (450 − 400) = −2; a = Ȳ − bX̄ = 10 − (−2)(4) = 18. Deci Y = 18 − 2X: fiecare ședință în plus coboară tensiunea cu 2 puncte. 10 − 2X ia media lui Y drept a, uitând termenul bX̄; 18 + 2X pierde semnul pantei; 2 + 18X inversează a și b.",
+          "tag": "Constanta de regresie a",
+          "tip": "calcul",
+          "exemplu_nou": true
+        },
+        {
+          "q": "Diagrama de împrăștiere dintre venitul lunar și cheltuielile pentru vacanțe arată o dreaptă clară, cu puncte strânse în jurul ei la venituri mici și foarte împrăștiate la venituri mari. Un student vrea să testeze semnificația lui r cu testul t. Ce problemă apare?",
+          "opts": [
+            "Supoziția de homoscedasticitate nu pare îndeplinită",
+            "Supoziția de linearitate nu pare îndeplinită",
+            "Corelația e negativă, deci testul t nu se poate aplica",
+            "Testul cere ca variabilele să fie măsurate la nivel ordinal"
+          ],
+          "correct": 0,
+          "explain": "Testul pentru r presupune linearitate, distribuție bivariată normală și homoscedasticitate: abateri standard aproximativ egale ale distribuțiilor condiționate ale lui Y. Un nor în evantai încalcă ultima supoziție, deși punctele urmează o dreaptă (linearitatea e în regulă). Nimic nu indică o corelație negativă, iar testul t e pentru variabile de interval sau de raport.",
+          "tag": "Homoscedasticitatea",
+          "tip": "principiu",
+          "exemplu_nou": true
+        },
+        {
+          "q": "Între suportul social (Y) și starea de bine (Z), r = 0,40. Controlând venitul (X), corelația parțială urcă la 0,62. Venitul practic nu corelează cu suportul social. Care e pasul următor potrivit?",
+          "opts": [
+            "Concluzia că relația Y–Z e doar aparentă, fiind produsă de venit",
+            "Concluzia că venitul e intermediarul dintre suport și starea de bine",
+            "Concluzia că Y și Z sunt legate direct, iar venitul nu le influențează",
+            "Regresia multiplă, pentru că Y și X au influențe separate asupra lui Z"
+          ],
+          "correct": 3,
+          "explain": "Când corelația parțială e mult mai mare decât cea de ordinul zero, variabila inițial independentă și variabila de control au fiecare o influență separată asupra variabilei dependente și nu sunt corelate între ele. Pasul următor e regresia multiplă (și corelația multiplă), care izolează influențele separate și le arată pe cea combinată. Relația aparentă sau prin intermediar ar coborî corelația parțială spre 0; relația directă ar lăsa-o aproape neschimbată.",
+          "tag": "Influențe separate",
+          "tip": "model",
+          "exemplu_nou": true
+        }
+      ]
+    }
+  ],
+  "harta": {
+    "centru": "Mărimi ale corelației",
+    "ramuri": [
+      {
+        "titlu": "Noțiunea de corelație",
+        "lat": true,
+        "noduri": [
+          {
+            "t": "Variabile corelate",
+            "d": "Două variabile sunt corelate dacă distribuția scorurilor uneia se schimbă după scorurile celeilalte. Exemplul: satisfacția față de meserie și productivitatea a 173 de muncitori (date fictive). Dacă nu sunt corelate, distribuțiile condiționate rămân aceleași (culoarea părului: circa 33,3% în fiecare celulă)."
+          },
+          {
+            "t": "Distribuții condiționate",
+            "d": "Într-un tabel cu dublă intrare, VI e pe coloane și VD pe rânduri; fiecare coloană e distribuția VD pentru o condiție a VI. Din 60 de muncitori cu satisfacție scăzută, 10 sunt înalt productivi, 20 mediu, 30 scăzut."
+          },
+          {
+            "t": "Procente pe coloane",
+            "d": "Când coloanele au totaluri diferite, se calculează procente în sensul VI (pe coloane) și se compară în sensul VD (pe rânduri). Celula cu procentul cel mai mare se mută de jos (50% la satisfacție scăzută) în sus (52% la satisfacție înaltă)."
+          },
+          {
+            "t": "Sensul corelației",
+            "d": "Doar dacă variabilele sunt cel puțin ordinale. Pozitivă (directă): scoruri mari cu mari și mici cu mici (studiul individual și performanțele școlare). Negativă (inversă): când una crește, cealaltă scade (orele de TV și performanțele școlare; educația și vizionarea TV)."
+          },
+          {
+            "t": "Corelația perfectă",
+            "d": "Fiecare scor al unei variabile e asociat cu un singur scor al celeilalte: într-un tabel, toate cazurile unei coloane stau într-o singură celulă. Caz ideal, neîntâlnit în cercetarea psihologică, dar reper pentru tărie. Cartea spune că ar fi un argument puternic pentru o relație cauzală, cel puțin în acel eșantion."
+          },
+          {
+            "t": "Predicția",
+            "d": "Dacă variabilele sunt corelate, scorurile uneia se pot aprecia din cele ale celeilalte; predicția e cu atât mai precisă cu cât corelația e mai puternică, iar la corelația perfectă e fără eroare. Mărimile corelației nu dovedesc relații cauzale, dar pot fi argumente pentru sau împotriva lor."
+          }
+        ],
+        "figuri": [
+          {
+            "titlu": "Distribuțiile condiționate: productivitatea pe fiecare nivel de satisfacție",
+            "nota": "173 de muncitori, procente pe coloane (date fictive din carte). Celula cea mai mare urcă de la «scăzută» la «înaltă»: corelație pozitivă.",
+            "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 228\" role=\"img\" aria-label=\"Procentele productivității pe fiecare nivel de satisfacție\" font-family=\"Georgia, serif\" font-size=\"13\"><line x1=\"46.0\" y1=\"176.0\" x2=\"304.0\" y2=\"176.0\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><text x=\"42.0\" y=\"179.5\" text-anchor=\"end\" fill=\"#6b6760\" font-size=\"10.2\">0%</text><line x1=\"46.0\" y1=\"140.5\" x2=\"304.0\" y2=\"140.5\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><text x=\"42.0\" y=\"144.0\" text-anchor=\"end\" fill=\"#6b6760\" font-size=\"10.2\">25%</text><line x1=\"46.0\" y1=\"105.0\" x2=\"304.0\" y2=\"105.0\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><text x=\"42.0\" y=\"108.5\" text-anchor=\"end\" fill=\"#6b6760\" font-size=\"10.2\">50%</text><line x1=\"46.0\" y1=\"69.5\" x2=\"304.0\" y2=\"69.5\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><text x=\"42.0\" y=\"73.0\" text-anchor=\"end\" fill=\"#6b6760\" font-size=\"10.2\">75%</text><line x1=\"46.0\" y1=\"34.0\" x2=\"304.0\" y2=\"34.0\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><text x=\"42.0\" y=\"37.5\" text-anchor=\"end\" fill=\"#6b6760\" font-size=\"10.2\">100%</text><rect x=\"70.0\" y=\"105.0\" width=\"52.0\" height=\"71.0\" fill=\"#b5453a\" fill-opacity=\"0.85\"><title>50%</title></rect><text x=\"96.0\" y=\"144.5\" text-anchor=\"middle\" fill=\"#ffffff\" font-size=\"10.8\">50%</text><rect x=\"70.0\" y=\"58.1\" width=\"52.0\" height=\"46.9\" fill=\"#b9b0a0\" fill-opacity=\"0.85\"><title>33%</title></rect><text x=\"96.0\" y=\"85.6\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.8\">33%</text><rect x=\"70.0\" y=\"34.0\" width=\"52.0\" height=\"24.1\" fill=\"#2a78d6\" fill-opacity=\"0.85\"><title>17%</title></rect><text x=\"96.0\" y=\"50.1\" text-anchor=\"middle\" fill=\"#ffffff\" font-size=\"10.8\">17%</text><text x=\"96.0\" y=\"192.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.8\">scăzută</text><text x=\"96.0\" y=\"205.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">(n = 60)</text><rect x=\"152.0\" y=\"127.7\" width=\"52.0\" height=\"48.3\" fill=\"#b5453a\" fill-opacity=\"0.85\"><title>34%</title></rect><text x=\"178.0\" y=\"155.9\" text-anchor=\"middle\" fill=\"#ffffff\" font-size=\"10.8\">34%</text><rect x=\"152.0\" y=\"69.5\" width=\"52.0\" height=\"58.2\" fill=\"#b9b0a0\" fill-opacity=\"0.85\"><title>41%</title></rect><text x=\"178.0\" y=\"102.6\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.8\">41%</text><rect x=\"152.0\" y=\"34.0\" width=\"52.0\" height=\"35.5\" fill=\"#2a78d6\" fill-opacity=\"0.85\"><title>25%</title></rect><text x=\"178.0\" y=\"55.8\" text-anchor=\"middle\" fill=\"#ffffff\" font-size=\"10.8\">25%</text><text x=\"178.0\" y=\"192.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.8\">medie</text><text x=\"178.0\" y=\"205.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">(n = 61)</text><rect x=\"234.0\" y=\"157.5\" width=\"52.0\" height=\"18.5\" fill=\"#b5453a\" fill-opacity=\"0.85\"><title>13%</title></rect><text x=\"260.0\" y=\"170.8\" text-anchor=\"middle\" fill=\"#ffffff\" font-size=\"10.8\">13%</text><rect x=\"234.0\" y=\"107.8\" width=\"52.0\" height=\"49.7\" fill=\"#b9b0a0\" fill-opacity=\"0.85\"><title>35%</title></rect><text x=\"260.0\" y=\"136.7\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.8\">35%</text><rect x=\"234.0\" y=\"34.0\" width=\"52.0\" height=\"73.8\" fill=\"#2a78d6\" fill-opacity=\"0.85\"><title>52%</title></rect><text x=\"260.0\" y=\"74.9\" text-anchor=\"middle\" fill=\"#ffffff\" font-size=\"10.8\">52%</text><text x=\"260.0\" y=\"192.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.8\">înaltă</text><text x=\"260.0\" y=\"205.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">(n = 52)</text><text x=\"176.0\" y=\"221.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">Satisfacția față de meserie (X)</text><rect x=\"46.0\" y=\"8.0\" width=\"10.0\" height=\"10.0\" fill=\"#b5453a\"></rect><text x=\"60.0\" y=\"17.0\" text-anchor=\"start\" fill=\"#2c2a26\" font-size=\"10.8\">productivitate scăzută</text><rect x=\"210.4\" y=\"8.0\" width=\"10.0\" height=\"10.0\" fill=\"#b9b0a0\"></rect><text x=\"224.4\" y=\"17.0\" text-anchor=\"start\" fill=\"#2c2a26\" font-size=\"10.8\">medie</text><rect x=\"269.4\" y=\"8.0\" width=\"10.0\" height=\"10.0\" fill=\"#2a78d6\"></rect><text x=\"283.4\" y=\"17.0\" text-anchor=\"start\" fill=\"#2c2a26\" font-size=\"10.8\">înaltă</text></svg>"
+          },
+          {
+            "titlu": "Cum arată tabelul pentru diferite corelații",
+            "nota": "Procente pe coloane. Primele trei din carte; tabelul fără corelație e ilustrativ (cartea dă doar exemplul «culoarea părului», cu circa 33,3% peste tot).",
+            "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 304\" role=\"img\" aria-label=\"Patru tabele cu procente pe coloane: pozitivă, negativă, negativă perfectă, fără corelație\" font-family=\"Georgia, serif\" font-size=\"13\"><text x=\"84.0\" y=\"16.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.8\">pozitivă (173 de muncitori)</text><rect x=\"42.0\" y=\"26.0\" width=\"30.0\" height=\"26.0\" fill=\"#2a78d6\" fill-opacity=\"0.21600000000000003\"><title>17%</title></rect><text x=\"57.0\" y=\"43.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.8\">17</text><rect x=\"74.0\" y=\"26.0\" width=\"30.0\" height=\"26.0\" fill=\"#2a78d6\" fill-opacity=\"0.28\"><title>25%</title></rect><text x=\"89.0\" y=\"43.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.8\">25</text><rect x=\"106.0\" y=\"26.0\" width=\"30.0\" height=\"26.0\" fill=\"#2a78d6\" fill-opacity=\"0.49600000000000005\"><title>52%</title></rect><text x=\"121.0\" y=\"43.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.8\">52</text><rect x=\"42.0\" y=\"54.0\" width=\"30.0\" height=\"26.0\" fill=\"#2a78d6\" fill-opacity=\"0.34400000000000003\"><title>33%</title></rect><text x=\"57.0\" y=\"71.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.8\">33</text><rect x=\"74.0\" y=\"54.0\" width=\"30.0\" height=\"26.0\" fill=\"#2a78d6\" fill-opacity=\"0.4080000000000001\"><title>41%</title></rect><text x=\"89.0\" y=\"71.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.8\">41</text><rect x=\"106.0\" y=\"54.0\" width=\"30.0\" height=\"26.0\" fill=\"#2a78d6\" fill-opacity=\"0.36000000000000004\"><title>35%</title></rect><text x=\"121.0\" y=\"71.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.8\">35</text><rect x=\"42.0\" y=\"82.0\" width=\"30.0\" height=\"26.0\" fill=\"#2a78d6\" fill-opacity=\"0.48000000000000004\"><title>50%</title></rect><text x=\"57.0\" y=\"99.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.8\">50</text><rect x=\"74.0\" y=\"82.0\" width=\"30.0\" height=\"26.0\" fill=\"#2a78d6\" fill-opacity=\"0.35200000000000004\"><title>34%</title></rect><text x=\"89.0\" y=\"99.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.8\">34</text><rect x=\"106.0\" y=\"82.0\" width=\"30.0\" height=\"26.0\" fill=\"#2a78d6\" fill-opacity=\"0.184\"><title>13%</title></rect><text x=\"121.0\" y=\"99.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.8\">13</text><text x=\"39.0\" y=\"43.0\" text-anchor=\"end\" fill=\"#6b6760\" font-size=\"10.2\">înalt</text><text x=\"39.0\" y=\"71.0\" text-anchor=\"end\" fill=\"#6b6760\" font-size=\"10.2\">mediu</text><text x=\"39.0\" y=\"99.0\" text-anchor=\"end\" fill=\"#6b6760\" font-size=\"10.2\">scăzut</text><text x=\"90.0\" y=\"124.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">X: scăzut → înalt</text><text x=\"234.0\" y=\"16.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.8\">negativă (educație – TV)</text><rect x=\"192.0\" y=\"26.0\" width=\"30.0\" height=\"26.0\" fill=\"#eb6834\" fill-opacity=\"0.5599999999999999\"><title>60%</title></rect><text x=\"207.0\" y=\"43.0\" text-anchor=\"middle\" fill=\"#ffffff\" font-size=\"10.8\">60</text><rect x=\"224.0\" y=\"26.0\" width=\"30.0\" height=\"26.0\" fill=\"#eb6834\" fill-opacity=\"0.24\"><title>20%</title></rect><text x=\"239.0\" y=\"43.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.8\">20</text><rect x=\"256.0\" y=\"26.0\" width=\"30.0\" height=\"26.0\" fill=\"#eb6834\" fill-opacity=\"0.16\"><title>10%</title></rect><text x=\"271.0\" y=\"43.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.8\">10</text><rect x=\"192.0\" y=\"54.0\" width=\"30.0\" height=\"26.0\" fill=\"#eb6834\" fill-opacity=\"0.32\"><title>30%</title></rect><text x=\"207.0\" y=\"71.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.8\">30</text><rect x=\"224.0\" y=\"54.0\" width=\"30.0\" height=\"26.0\" fill=\"#eb6834\" fill-opacity=\"0.5599999999999999\"><title>60%</title></rect><text x=\"239.0\" y=\"71.0\" text-anchor=\"middle\" fill=\"#ffffff\" font-size=\"10.8\">60</text><rect x=\"256.0\" y=\"54.0\" width=\"30.0\" height=\"26.0\" fill=\"#eb6834\" fill-opacity=\"0.32\"><title>30%</title></rect><text x=\"271.0\" y=\"71.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.8\">30</text><rect x=\"192.0\" y=\"82.0\" width=\"30.0\" height=\"26.0\" fill=\"#eb6834\" fill-opacity=\"0.16\"><title>10%</title></rect><text x=\"207.0\" y=\"99.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.8\">10</text><rect x=\"224.0\" y=\"82.0\" width=\"30.0\" height=\"26.0\" fill=\"#eb6834\" fill-opacity=\"0.24\"><title>20%</title></rect><text x=\"239.0\" y=\"99.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.8\">20</text><rect x=\"256.0\" y=\"82.0\" width=\"30.0\" height=\"26.0\" fill=\"#eb6834\" fill-opacity=\"0.5599999999999999\"><title>60%</title></rect><text x=\"271.0\" y=\"99.0\" text-anchor=\"middle\" fill=\"#ffffff\" font-size=\"10.8\">60</text><text x=\"189.0\" y=\"43.0\" text-anchor=\"end\" fill=\"#6b6760\" font-size=\"10.2\">înalt</text><text x=\"189.0\" y=\"71.0\" text-anchor=\"end\" fill=\"#6b6760\" font-size=\"10.2\">mediu</text><text x=\"189.0\" y=\"99.0\" text-anchor=\"end\" fill=\"#6b6760\" font-size=\"10.2\">scăzut</text><text x=\"240.0\" y=\"124.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">X: scăzut → înalt</text><text x=\"84.0\" y=\"154.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.8\">negativă perfectă</text><rect x=\"42.0\" y=\"164.0\" width=\"30.0\" height=\"26.0\" fill=\"#eb6834\" fill-opacity=\"0.88\"><title>100%</title></rect><text x=\"57.0\" y=\"181.0\" text-anchor=\"middle\" fill=\"#ffffff\" font-size=\"10.8\">100</text><rect x=\"74.0\" y=\"164.0\" width=\"30.0\" height=\"26.0\" fill=\"#eb6834\" fill-opacity=\"0.08\"><title>0%</title></rect><text x=\"89.0\" y=\"181.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.8\">0</text><rect x=\"106.0\" y=\"164.0\" width=\"30.0\" height=\"26.0\" fill=\"#eb6834\" fill-opacity=\"0.08\"><title>0%</title></rect><text x=\"121.0\" y=\"181.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.8\">0</text><rect x=\"42.0\" y=\"192.0\" width=\"30.0\" height=\"26.0\" fill=\"#eb6834\" fill-opacity=\"0.08\"><title>0%</title></rect><text x=\"57.0\" y=\"209.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.8\">0</text><rect x=\"74.0\" y=\"192.0\" width=\"30.0\" height=\"26.0\" fill=\"#eb6834\" fill-opacity=\"0.88\"><title>100%</title></rect><text x=\"89.0\" y=\"209.0\" text-anchor=\"middle\" fill=\"#ffffff\" font-size=\"10.8\">100</text><rect x=\"106.0\" y=\"192.0\" width=\"30.0\" height=\"26.0\" fill=\"#eb6834\" fill-opacity=\"0.08\"><title>0%</title></rect><text x=\"121.0\" y=\"209.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.8\">0</text><rect x=\"42.0\" y=\"220.0\" width=\"30.0\" height=\"26.0\" fill=\"#eb6834\" fill-opacity=\"0.08\"><title>0%</title></rect><text x=\"57.0\" y=\"237.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.8\">0</text><rect x=\"74.0\" y=\"220.0\" width=\"30.0\" height=\"26.0\" fill=\"#eb6834\" fill-opacity=\"0.08\"><title>0%</title></rect><text x=\"89.0\" y=\"237.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.8\">0</text><rect x=\"106.0\" y=\"220.0\" width=\"30.0\" height=\"26.0\" fill=\"#eb6834\" fill-opacity=\"0.88\"><title>100%</title></rect><text x=\"121.0\" y=\"237.0\" text-anchor=\"middle\" fill=\"#ffffff\" font-size=\"10.8\">100</text><text x=\"39.0\" y=\"181.0\" text-anchor=\"end\" fill=\"#6b6760\" font-size=\"10.2\">înalt</text><text x=\"39.0\" y=\"209.0\" text-anchor=\"end\" fill=\"#6b6760\" font-size=\"10.2\">mediu</text><text x=\"39.0\" y=\"237.0\" text-anchor=\"end\" fill=\"#6b6760\" font-size=\"10.2\">scăzut</text><text x=\"90.0\" y=\"262.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">X: scăzut → înalt</text><text x=\"234.0\" y=\"154.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.8\">fără corelație (ilustrativ)</text><rect x=\"192.0\" y=\"164.0\" width=\"30.0\" height=\"26.0\" fill=\"#6b6760\" fill-opacity=\"0.34400000000000003\"><title>33%</title></rect><text x=\"207.0\" y=\"181.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.8\">33</text><rect x=\"224.0\" y=\"164.0\" width=\"30.0\" height=\"26.0\" fill=\"#6b6760\" fill-opacity=\"0.34400000000000003\"><title>33%</title></rect><text x=\"239.0\" y=\"181.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.8\">33</text><rect x=\"256.0\" y=\"164.0\" width=\"30.0\" height=\"26.0\" fill=\"#6b6760\" fill-opacity=\"0.34400000000000003\"><title>33%</title></rect><text x=\"271.0\" y=\"181.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.8\">33</text><rect x=\"192.0\" y=\"192.0\" width=\"30.0\" height=\"26.0\" fill=\"#6b6760\" fill-opacity=\"0.34400000000000003\"><title>33%</title></rect><text x=\"207.0\" y=\"209.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.8\">33</text><rect x=\"224.0\" y=\"192.0\" width=\"30.0\" height=\"26.0\" fill=\"#6b6760\" fill-opacity=\"0.34400000000000003\"><title>33%</title></rect><text x=\"239.0\" y=\"209.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.8\">33</text><rect x=\"256.0\" y=\"192.0\" width=\"30.0\" height=\"26.0\" fill=\"#6b6760\" fill-opacity=\"0.34400000000000003\"><title>33%</title></rect><text x=\"271.0\" y=\"209.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.8\">33</text><rect x=\"192.0\" y=\"220.0\" width=\"30.0\" height=\"26.0\" fill=\"#6b6760\" fill-opacity=\"0.34400000000000003\"><title>33%</title></rect><text x=\"207.0\" y=\"237.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.8\">33</text><rect x=\"224.0\" y=\"220.0\" width=\"30.0\" height=\"26.0\" fill=\"#6b6760\" fill-opacity=\"0.34400000000000003\"><title>33%</title></rect><text x=\"239.0\" y=\"237.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.8\">33</text><rect x=\"256.0\" y=\"220.0\" width=\"30.0\" height=\"26.0\" fill=\"#6b6760\" fill-opacity=\"0.34400000000000003\"><title>33%</title></rect><text x=\"271.0\" y=\"237.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.8\">33</text><text x=\"189.0\" y=\"181.0\" text-anchor=\"end\" fill=\"#6b6760\" font-size=\"10.2\">înalt</text><text x=\"189.0\" y=\"209.0\" text-anchor=\"end\" fill=\"#6b6760\" font-size=\"10.2\">mediu</text><text x=\"189.0\" y=\"237.0\" text-anchor=\"end\" fill=\"#6b6760\" font-size=\"10.2\">scăzut</text><text x=\"240.0\" y=\"262.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">X: scăzut → înalt</text><text x=\"160.0\" y=\"296.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">rânduri: Y, de sus (înalt) în jos (scăzut); celule: % pe coloană</text></svg>"
+          }
+        ]
+      },
+      {
+        "titlu": "Tăria corelației și interpretarea",
+        "noduri": [
+          {
+            "t": "Limitele coeficienților",
+            "d": "Aproape toți coeficienții au limita 0 („nicio corelație”). La nivel nominal limita superioară e 1; la ordinal, interval și raport valorile merg de la −1 (negativă perfectă) la +1 (pozitivă perfectă). Semnele ± lipsesc în textul extras; sunt reconstituite din context."
+          },
+          {
+            "t": "Interpretarea valorii",
+            "d": "Valorile diferite de 0 și de 1 nu au o interpretare directă precisă; ce înseamnă „important” depinde de variabile și e întrucâtva arbitrar. Reperele din tabel: 0,90–1 foarte puternică, 0,70–0,90 puternică, 0,50–0,70 moderată, 0,30–0,50 slabă până la moderată, sub 0,30 inexistentă sau foarte slabă; capetele benzilor se suprapun."
+          },
+          {
+            "t": "Coeficienți diferiți, aceleași date",
+            "d": "Doi coeficienți pot da valori diferite pe aceleași date (φ = 0,42 și C = 0,39 pentru sex × mâna dominantă), încă un motiv pentru care interpretarea rămâne vagă."
+          },
+          {
+            "t": "Semnificație vs tărie",
+            "d": "Mărimile corelației completează testele de semnificație: testul spune dacă relația se poate datora întâmplării, coeficientul cât de puternică e. χ² nu e o mărime a corelației: o valoare mare poate însoți o corelație slabă (cu aceleași procente, χ² crește cu n, iar φ nu)."
+          }
+        ],
+        "tabel": {
+          "cap": [
+            "Valoarea (în valoare absolută)",
+            "Interpretarea"
+          ],
+          "randuri": [
+            [
+              "0,90 – 1,00",
+              "foarte puternică sau aproape perfectă"
+            ],
+            [
+              "0,70 – 0,90",
+              "puternică"
+            ],
+            [
+              "0,50 – 0,70",
+              "moderată"
+            ],
+            [
+              "0,30 – 0,50",
+              "slabă până la moderată"
+            ],
+            [
+              "0,01 – 0,30",
+              "inexistentă sau foarte slabă"
+            ]
+          ]
+        },
+        "figuri": [
+          {
+            "titlu": "Scala de interpretare și valorile din exemplele unității",
+            "nota": "Benzile după tabelul de interpretare (adaptat după Hinkle, Wiersma și Jurs). Coeficienții nominali (φ, C, V, λ) nu au semn; ceilalți merg de la −1 la +1.",
+            "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 212\" role=\"img\" aria-label=\"Scala de interpretare a coeficienților, de la −1 la +1, cu valorile din exemplele unității\" font-family=\"Georgia, serif\" font-size=\"13\"><rect x=\"160.0\" y=\"70.0\" width=\"41.4\" height=\"22.0\" fill=\"#2a78d6\" fill-opacity=\"0.1\"></rect><rect x=\"118.6\" y=\"70.0\" width=\"41.4\" height=\"22.0\" fill=\"#eb6834\" fill-opacity=\"0.1\"></rect><rect x=\"201.4\" y=\"70.0\" width=\"27.6\" height=\"22.0\" fill=\"#2a78d6\" fill-opacity=\"0.27\"></rect><rect x=\"91.0\" y=\"70.0\" width=\"27.6\" height=\"22.0\" fill=\"#eb6834\" fill-opacity=\"0.27\"></rect><rect x=\"229.0\" y=\"70.0\" width=\"27.6\" height=\"22.0\" fill=\"#2a78d6\" fill-opacity=\"0.44000000000000006\"></rect><rect x=\"63.4\" y=\"70.0\" width=\"27.6\" height=\"22.0\" fill=\"#eb6834\" fill-opacity=\"0.44000000000000006\"></rect><rect x=\"256.6\" y=\"70.0\" width=\"27.6\" height=\"22.0\" fill=\"#2a78d6\" fill-opacity=\"0.61\"></rect><rect x=\"35.8\" y=\"70.0\" width=\"27.6\" height=\"22.0\" fill=\"#eb6834\" fill-opacity=\"0.61\"></rect><rect x=\"284.2\" y=\"70.0\" width=\"13.8\" height=\"22.0\" fill=\"#2a78d6\" fill-opacity=\"0.78\"></rect><rect x=\"22.0\" y=\"70.0\" width=\"13.8\" height=\"22.0\" fill=\"#eb6834\" fill-opacity=\"0.78\"></rect><line x1=\"22.0\" y1=\"92.0\" x2=\"298.0\" y2=\"92.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><line x1=\"22.0\" y1=\"92.0\" x2=\"22.0\" y2=\"96.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><text x=\"22.0\" y=\"107.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">−1,0</text><line x1=\"91.0\" y1=\"92.0\" x2=\"91.0\" y2=\"96.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><text x=\"91.0\" y=\"107.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">−0,5</text><line x1=\"160.0\" y1=\"92.0\" x2=\"160.0\" y2=\"96.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><text x=\"160.0\" y=\"107.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">0</text><line x1=\"229.0\" y1=\"92.0\" x2=\"229.0\" y2=\"96.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><text x=\"229.0\" y=\"107.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">0,5</text><line x1=\"298.0\" y1=\"92.0\" x2=\"298.0\" y2=\"96.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><text x=\"298.0\" y=\"107.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">1,0</text><text x=\"91.0\" y=\"62.0\" text-anchor=\"middle\" fill=\"#eb6834\" font-size=\"10.8\">corelație negativă</text><text x=\"229.0\" y=\"62.0\" text-anchor=\"middle\" fill=\"#2a78d6\" font-size=\"10.8\">corelație pozitivă</text><line x1=\"218.0\" y1=\"92.0\" x2=\"218.0\" y2=\"118.0\" stroke=\"#6b6760\" stroke-width=\"1\" stroke-dasharray=\"2 3\"/><circle cx=\"218.0\" cy=\"81.0\" r=\"3.2\" fill=\"#2c2a26\" stroke=\"#faf8f3\" stroke-width=\"1.5\"><title>φ = 0,42</title></circle><text x=\"218.0\" y=\"128.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.8\">φ = 0,42</text><line x1=\"238.7\" y1=\"92.0\" x2=\"238.7\" y2=\"136.0\" stroke=\"#6b6760\" stroke-width=\"1\" stroke-dasharray=\"2 3\"/><circle cx=\"238.7\" cy=\"81.0\" r=\"3.2\" fill=\"#2c2a26\" stroke=\"#faf8f3\" stroke-width=\"1.5\"><title>γ = 0,57</title></circle><text x=\"238.7\" y=\"146.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.8\">γ = 0,57</text><line x1=\"251.1\" y1=\"92.0\" x2=\"251.1\" y2=\"154.0\" stroke=\"#6b6760\" stroke-width=\"1\" stroke-dasharray=\"2 3\"/><circle cx=\"251.1\" cy=\"81.0\" r=\"3.2\" fill=\"#2c2a26\" stroke=\"#faf8f3\" stroke-width=\"1.5\"><title>r = 0,66</title></circle><text x=\"251.1\" y=\"164.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.8\">r = 0,66</text><line x1=\"266.3\" y1=\"92.0\" x2=\"266.3\" y2=\"172.0\" stroke=\"#6b6760\" stroke-width=\"1\" stroke-dasharray=\"2 3\"/><circle cx=\"266.3\" cy=\"81.0\" r=\"3.2\" fill=\"#2c2a26\" stroke=\"#faf8f3\" stroke-width=\"1.5\"><title>R = 0,77</title></circle><text x=\"266.3\" y=\"182.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.8\">R = 0,77</text><line x1=\"278.7\" y1=\"92.0\" x2=\"278.7\" y2=\"190.0\" stroke=\"#6b6760\" stroke-width=\"1\" stroke-dasharray=\"2 3\"/><circle cx=\"278.7\" cy=\"81.0\" r=\"3.2\" fill=\"#2c2a26\" stroke=\"#faf8f3\" stroke-width=\"1.5\"><title>ρs = 0,86</title></circle><text x=\"278.7\" y=\"200.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.8\">ρs = 0,86</text><line x1=\"146.2\" y1=\"92.0\" x2=\"146.2\" y2=\"118.0\" stroke=\"#6b6760\" stroke-width=\"1\" stroke-dasharray=\"2 3\"/><circle cx=\"146.2\" cy=\"81.0\" r=\"3.2\" fill=\"#2c2a26\" stroke=\"#faf8f3\" stroke-width=\"1.5\"><title>ryz·x ≈ −0,10</title></circle><text x=\"146.2\" y=\"128.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.8\">ryz·x ≈ −0,10</text><text x=\"160.0\" y=\"20.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">benzile: 0–0,30 · 0,30–0,50 · 0,50–0,70 · 0,70–0,90 · 0,90–1</text><text x=\"160.0\" y=\"34.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">(capetele benzilor se suprapun: interpretarea e vagă)</text></svg>"
+          }
+        ]
+      },
+      {
+        "titlu": "Nivel nominal: φ, C, V, λ",
+        "lat": true,
+        "noduri": [
+          {
+            "t": "Coeficientul φ",
+            "d": "φ = √(χ²/n). Pentru sex × mâna dominantă (100 de persoane, χ² = 18, semnificativ): φ = 0,42, corelație cel mult moderată. E între 0 și 1 doar la tabele 2 × 2; la tabele mari poate depăși 1."
+          },
+          {
+            "t": "Coeficientul de contingență C",
+            "d": "C = √(χ²/(n + χ²)); pe același exemplu, 0,39. Nu poate lua niciodată valoarea 1: maximul crește cu mărimea tabelului (0,82 la 3 × 3, 0,87 la 4 × 4), de aceea se recomandă pentru tabele mari (de la circa 10 rânduri sau coloane)."
+          },
+          {
+            "t": "Coeficientul V al lui Cramer",
+            "d": "V = √(χ²/(n(q − 1))), q = cea mai mică dintre numărul de rânduri și de coloane. Pe exemplul 3 × 2, q = 2, deci V = φ = 0,42. Ajunge la maximul 1 și la tabele mai mari de 2 × 2. φ, C și V sunt ușor de calculat și servesc ca primi indici ai tăriei."
+          },
+          {
+            "t": "Coeficientul λ",
+            "d": "Pentru cercetări mai pretențioase; ia valori între 0 și 1. Se lucrează cu cele mai mari frecvențe din fiecare coloană (Σnmx) și din fiecare rând (Σnmy) și cu cele mai mari marginale (nmc, nmr). Religie × atitudinea față de pedeapsa capitală (130 de persoane): Σnmx = 65, Σnmy = 53, nmc = 40, nmr = 50."
+          },
+          {
+            "t": "λ simetric și λ asimetric",
+            "d": "Simetric, când VI nu se poate sau nu se dorește identificată: (Σnmx + Σnmy − nmc − nmr) / (2n − nmc − nmr) = 28/170 ≈ 0,16. Asimetric λy, când VI e cunoscută: (Σnmx − nmr) / (n − nmr) = 15/80 ≈ 0,19. Ambele: corelație foarte slabă."
+          },
+          {
+            "t": "Reducerea proporțională a erorilor",
+            "d": "Interpretare (cartea o trimite la Healey): λy arată cu cât scad erorile când prezici VD știind VI. Fără religie ghicești pentru toți „împotrivă” și greșești de 130 − 50 = 80 de ori; cu religia, ghicești în fiecare coloană categoria ei cea mai mare și greșești de 130 − 65 = 65 de ori: 15/80 ≈ 19% mai puține erori."
+          }
+        ],
+        "tabel": {
+          "cap": [
+            "Coeficient",
+            "Formula",
+            "Interval",
+            "Recomandat pentru"
+          ],
+          "randuri": [
+            [
+              "φ",
+              "√(χ²/n)",
+              "0–1 doar la 2 × 2",
+              "tabele 2 × 2"
+            ],
+            [
+              "C",
+              "√(χ²/(n + χ²))",
+              "0 – max < 1",
+              "tabele mari (≈ 10 rânduri/coloane)"
+            ],
+            [
+              "V",
+              "√(χ²/(n(q − 1)))",
+              "0–1",
+              "tabele mai mari de 2 × 2"
+            ],
+            [
+              "λ / λy",
+              "cele mai mari frecvențe",
+              "0–1",
+              "cercetări pretențioase; λy când VI e cunoscută"
+            ]
+          ]
+        },
+        "figuri": [
+          {
+            "titlu": "C nu ajunge niciodată la 1",
+            "nota": "Valoarea maximă a lui C pentru tabele k × k, √((k − 1)/k): 0,82 la 3 × 3 și 0,87 la 4 × 4, ca în carte; celelalte valori calculate.",
+            "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 208\" role=\"img\" aria-label=\"Valoarea maximă a coeficientului C crește cu mărimea tabelului, dar nu ajunge la 1\" font-family=\"Georgia, serif\" font-size=\"13\"><line x1=\"44.0\" y1=\"170.0\" x2=\"304.0\" y2=\"170.0\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><text x=\"40.0\" y=\"173.5\" text-anchor=\"end\" fill=\"#6b6760\" font-size=\"10.2\">0,00</text><line x1=\"44.0\" y1=\"135.0\" x2=\"304.0\" y2=\"135.0\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><text x=\"40.0\" y=\"138.5\" text-anchor=\"end\" fill=\"#6b6760\" font-size=\"10.2\">0,25</text><line x1=\"44.0\" y1=\"100.0\" x2=\"304.0\" y2=\"100.0\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><text x=\"40.0\" y=\"103.5\" text-anchor=\"end\" fill=\"#6b6760\" font-size=\"10.2\">0,50</text><line x1=\"44.0\" y1=\"65.0\" x2=\"304.0\" y2=\"65.0\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><text x=\"40.0\" y=\"68.5\" text-anchor=\"end\" fill=\"#6b6760\" font-size=\"10.2\">0,75</text><line x1=\"44.0\" y1=\"30.0\" x2=\"304.0\" y2=\"30.0\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><text x=\"40.0\" y=\"33.5\" text-anchor=\"end\" fill=\"#6b6760\" font-size=\"10.2\">1,00</text><line x1=\"44.0\" y1=\"30.0\" x2=\"304.0\" y2=\"30.0\" stroke=\"#b5453a\" stroke-width=\"1.5\" stroke-dasharray=\"5 3\"/><text x=\"48.0\" y=\"25.0\" text-anchor=\"start\" fill=\"#b5453a\" font-size=\"10.2\">1 (corelație perfectă)</text><rect x=\"60.0\" y=\"71.0\" width=\"34.0\" height=\"99.0\" fill=\"#2a78d6\"><title>C max = 0,71</title></rect><text x=\"77.0\" y=\"66.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.8\">0,71</text><text x=\"77.0\" y=\"186.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">2 × 2</text><rect x=\"110.0\" y=\"55.7\" width=\"34.0\" height=\"114.3\" fill=\"#2a78d6\"><title>C max = 0,82</title></rect><text x=\"127.0\" y=\"50.7\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.8\">0,82</text><text x=\"127.0\" y=\"186.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">3 × 3</text><rect x=\"160.0\" y=\"48.8\" width=\"34.0\" height=\"121.2\" fill=\"#2a78d6\"><title>C max = 0,87</title></rect><text x=\"177.0\" y=\"43.8\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.8\">0,87</text><text x=\"177.0\" y=\"186.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">4 × 4</text><rect x=\"210.0\" y=\"44.8\" width=\"34.0\" height=\"125.2\" fill=\"#2a78d6\"><title>C max = 0,89</title></rect><text x=\"227.0\" y=\"39.8\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.8\">0,89</text><text x=\"227.0\" y=\"186.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">5 × 5</text><rect x=\"260.0\" y=\"37.2\" width=\"34.0\" height=\"132.8\" fill=\"#2a78d6\"><title>C max = 0,95</title></rect><text x=\"277.0\" y=\"32.2\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.8\">0,95</text><text x=\"277.0\" y=\"186.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">10 × 10</text><text x=\"174.0\" y=\"202.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">mărimea tabelului</text></svg>"
+          },
+          {
+            "titlu": "λy ca reducere proporțională a erorilor",
+            "nota": "Interpretare (cartea o trimite la Healey): ghicind pentru toți categoria cea mai mare greșești de 80 de ori; ghicind în fiecare coloană categoria ei cea mai mare, de 65 de ori.",
+            "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 214\" role=\"img\" aria-label=\"Erorile de predicție a atitudinii fără și cu cunoașterea religiei\" font-family=\"Georgia, serif\" font-size=\"13\"><line x1=\"60.0\" y1=\"160.0\" x2=\"300.0\" y2=\"160.0\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><text x=\"56.0\" y=\"163.5\" text-anchor=\"end\" fill=\"#6b6760\" font-size=\"10.2\">0</text><line x1=\"60.0\" y1=\"132.4\" x2=\"300.0\" y2=\"132.4\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><text x=\"56.0\" y=\"135.9\" text-anchor=\"end\" fill=\"#6b6760\" font-size=\"10.2\">20</text><line x1=\"60.0\" y1=\"104.9\" x2=\"300.0\" y2=\"104.9\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><text x=\"56.0\" y=\"108.4\" text-anchor=\"end\" fill=\"#6b6760\" font-size=\"10.2\">40</text><line x1=\"60.0\" y1=\"77.3\" x2=\"300.0\" y2=\"77.3\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><text x=\"56.0\" y=\"80.8\" text-anchor=\"end\" fill=\"#6b6760\" font-size=\"10.2\">60</text><line x1=\"60.0\" y1=\"49.8\" x2=\"300.0\" y2=\"49.8\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><text x=\"56.0\" y=\"53.3\" text-anchor=\"end\" fill=\"#6b6760\" font-size=\"10.2\">80</text><rect x=\"90.0\" y=\"49.8\" width=\"60.0\" height=\"110.2\" fill=\"#6b6760\"><title>80 erori</title></rect><text x=\"120.0\" y=\"43.8\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.8\">80 erori</text><text x=\"120.0\" y=\"176.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.2\">fără religie:</text><text x=\"120.0\" y=\"189.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">130 − 50</text><rect x=\"200.0\" y=\"70.4\" width=\"60.0\" height=\"89.6\" fill=\"#2a78d6\"><title>65 erori</title></rect><text x=\"230.0\" y=\"64.4\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.8\">65 erori</text><text x=\"230.0\" y=\"176.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.2\">cu religia:</text><text x=\"230.0\" y=\"189.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">130 − 65</text><line x1=\"150.0\" y1=\"49.8\" x2=\"200.0\" y2=\"49.8\" stroke=\"#b5453a\" stroke-width=\"1\" stroke-dasharray=\"3 3\"/><text x=\"175.0\" y=\"64.1\" text-anchor=\"middle\" fill=\"#b5453a\" font-size=\"10.8\">−15</text><text x=\"180.0\" y=\"18.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"12.0\">λy = (80 − 65) / 80 ≈ 0,19</text><text x=\"180.0\" y=\"207.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">130 de persoane; cea mai mare categorie: «împotrivă», 50</text></svg>"
+          }
+        ]
+      },
+      {
+        "titlu": "Nivel ordinal: γ, d, τb",
+        "noduri": [
+          {
+            "t": "Cazuri legate",
+            "d": "Cazuri din aceeași categorie a unei variabile. Perechile din celule de pe același rând sunt legate pe Y, cele de pe aceeași coloană legate pe X, cele din aceeași celulă legate pe ambele."
+          },
+          {
+            "t": "Perechi Na și Nd",
+            "d": "Na = perechi nelegate ordonate la fel pe ambele variabile: fiecare frecvență × suma celulelor de deasupra și din dreapta. Nd = perechi nelegate ordonate diferit: fiecare frecvență × suma celulelor de deasupra și din stânga. 100 de învățători (vechime × descurajare): Na = 1831, Nd = 499."
+          },
+          {
+            "t": "Coeficientul γ",
+            "d": "γ = (Na − Nd) / (Na + Nd) = 1332/2330 ≈ 0,57: corelație pozitivă moderată — dacă A are vechime mai mare decât B, e probabil ca A să fie și mai descurajat. Pentru variabile ordinale cu puține valori (cel mult cinci-șase). Mărime simetrică: aceeași valoare oricare variabilă e luată ca independentă."
+          },
+          {
+            "t": "Ordinea categoriilor în tabel",
+            "d": "Regulile pentru Na și Nd presupun coloanele crescătoare de la stânga la dreapta și rândurile crescătoare de jos în sus. Cu o ordine inversată, Na și Nd își schimbă rolurile (interpretare: semnul lui γ se inversează)."
+          },
+          {
+            "t": "Perechi legate Ly și Lx",
+            "d": "Ly = perechi legate pe VD: pe fiecare rând, fiecare frecvență × suma celulelor din dreapta (Ly = 986). Lx = perechi legate pe VI: pe fiecare coloană, fiecare frecvență × suma celulelor de dedesubt (Lx = 970)."
+          },
+          {
+            "t": "Coeficientul d al lui Somer",
+            "d": "d = (Na − Nd) / (Na + Nd + Ly) ≈ 0,40: mai conservator, mereu mai mic decât γ pe același tabel. Asimetric: dacă VI e variabila de pe rânduri, se folosește Lx în loc de Ly; când Ly și Lx diferă mult, alegerea VD schimbă considerabil valoarea."
+          },
+          {
+            "t": "Coeficientul τb al lui Kendall",
+            "d": "τb = (Na − Nd) / √((Na + Nd + Ly)(Na + Nd + Lx)) ≈ 0,40. Simetric, pentru că ține cont și de Ly, și de Lx. Ia valori între 0 și 1 doar la tabele pătratice (r = c), deci nu se recomandă la tabele dreptunghiulare."
+          }
+        ],
+        "figuri": [
+          {
+            "titlu": "De unde vin Na și Nd",
+            "nota": "Tabelul vechime × descurajare (100 de învățători). Pentru fiecare celulă se înmulțește frecvența ei cu suma celulelor de deasupra-dreapta (Na) sau deasupra-stânga (Nd); aici, câte o celulă de exemplu.",
+            "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 196\" role=\"img\" aria-label=\"Perechile pentru Na și Nd în tabelul vechime × descurajare\" font-family=\"Georgia, serif\" font-size=\"13\"><text x=\"88.0\" y=\"20.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.8\">Na: deasupra și la dreapta</text><rect x=\"38.0\" y=\"30.0\" width=\"32.0\" height=\"28.0\" fill=\"#e6e0d4\" fill-opacity=\"0.6\"></rect><text x=\"54.0\" y=\"48.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"12.0\">8</text><rect x=\"72.0\" y=\"30.0\" width=\"32.0\" height=\"28.0\" fill=\"#2a78d6\" fill-opacity=\"0.35\"></rect><text x=\"88.0\" y=\"48.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"12.0\">11</text><rect x=\"106.0\" y=\"30.0\" width=\"32.0\" height=\"28.0\" fill=\"#2a78d6\" fill-opacity=\"0.35\"></rect><text x=\"122.0\" y=\"48.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"12.0\">21</text><rect x=\"38.0\" y=\"60.0\" width=\"32.0\" height=\"28.0\" fill=\"#e6e0d4\" fill-opacity=\"0.6\"></rect><text x=\"54.0\" y=\"78.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"12.0\">10</text><rect x=\"72.0\" y=\"60.0\" width=\"32.0\" height=\"28.0\" fill=\"#2a78d6\" fill-opacity=\"0.35\"></rect><text x=\"88.0\" y=\"78.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"12.0\">15</text><rect x=\"106.0\" y=\"60.0\" width=\"32.0\" height=\"28.0\" fill=\"#2a78d6\" fill-opacity=\"0.35\"></rect><text x=\"122.0\" y=\"78.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"12.0\">5</text><rect x=\"38.0\" y=\"90.0\" width=\"32.0\" height=\"28.0\" fill=\"#2c2a26\" fill-opacity=\"0.85\"></rect><text x=\"54.0\" y=\"108.0\" text-anchor=\"middle\" fill=\"#ffffff\" font-size=\"12.0\">20</text><rect x=\"72.0\" y=\"90.0\" width=\"32.0\" height=\"28.0\" fill=\"#e6e0d4\" fill-opacity=\"0.6\"></rect><text x=\"88.0\" y=\"108.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"12.0\">6</text><rect x=\"106.0\" y=\"90.0\" width=\"32.0\" height=\"28.0\" fill=\"#e6e0d4\" fill-opacity=\"0.6\"></rect><text x=\"122.0\" y=\"108.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"12.0\">4</text><text x=\"88.0\" y=\"138.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.2\">20 × (11 + 21 + 15 + 5)</text><text x=\"88.0\" y=\"152.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.2\">= 1040</text><text x=\"236.0\" y=\"20.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.8\">Nd: deasupra și la stânga</text><rect x=\"186.0\" y=\"30.0\" width=\"32.0\" height=\"28.0\" fill=\"#eb6834\" fill-opacity=\"0.35\"></rect><text x=\"202.0\" y=\"48.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"12.0\">8</text><rect x=\"220.0\" y=\"30.0\" width=\"32.0\" height=\"28.0\" fill=\"#eb6834\" fill-opacity=\"0.35\"></rect><text x=\"236.0\" y=\"48.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"12.0\">11</text><rect x=\"254.0\" y=\"30.0\" width=\"32.0\" height=\"28.0\" fill=\"#e6e0d4\" fill-opacity=\"0.6\"></rect><text x=\"270.0\" y=\"48.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"12.0\">21</text><rect x=\"186.0\" y=\"60.0\" width=\"32.0\" height=\"28.0\" fill=\"#eb6834\" fill-opacity=\"0.35\"></rect><text x=\"202.0\" y=\"78.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"12.0\">10</text><rect x=\"220.0\" y=\"60.0\" width=\"32.0\" height=\"28.0\" fill=\"#eb6834\" fill-opacity=\"0.35\"></rect><text x=\"236.0\" y=\"78.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"12.0\">15</text><rect x=\"254.0\" y=\"60.0\" width=\"32.0\" height=\"28.0\" fill=\"#e6e0d4\" fill-opacity=\"0.6\"></rect><text x=\"270.0\" y=\"78.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"12.0\">5</text><rect x=\"186.0\" y=\"90.0\" width=\"32.0\" height=\"28.0\" fill=\"#e6e0d4\" fill-opacity=\"0.6\"></rect><text x=\"202.0\" y=\"108.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"12.0\">20</text><rect x=\"220.0\" y=\"90.0\" width=\"32.0\" height=\"28.0\" fill=\"#e6e0d4\" fill-opacity=\"0.6\"></rect><text x=\"236.0\" y=\"108.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"12.0\">6</text><rect x=\"254.0\" y=\"90.0\" width=\"32.0\" height=\"28.0\" fill=\"#2c2a26\" fill-opacity=\"0.85\"></rect><text x=\"270.0\" y=\"108.0\" text-anchor=\"middle\" fill=\"#ffffff\" font-size=\"12.0\">4</text><text x=\"236.0\" y=\"138.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.2\">4 × (8 + 11 + 10 + 15)</text><text x=\"236.0\" y=\"152.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.2\">= 176</text><text x=\"28.0\" y=\"48.0\" text-anchor=\"end\" fill=\"#6b6760\" font-size=\"10.2\">sup.</text><text x=\"28.0\" y=\"108.0\" text-anchor=\"end\" fill=\"#6b6760\" font-size=\"10.2\">inf.</text><text x=\"160.0\" y=\"172.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">coloane: vechimea crește → ; rânduri: descurajarea crește ↑</text><text x=\"160.0\" y=\"188.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.8\">total: Na = 1831, Nd = 499 → γ = 1332 / 2330 ≈ 0,57</text></svg>"
+          }
+        ]
+      },
+      {
+        "titlu": "Spearman și testele de semnificație",
+        "noduri": [
+          {
+            "t": "Coeficientul ρs al lui Spearman",
+            "d": "Pentru variabile ordinale cu o amplitudine largă de scoruri diferite și puține cazuri legate. ρs = 1 − 6Σd² / (n(n² − 1)), n = numărul de perechi de ranguri. 10 alergători (implicare în jogging × respect de sine): Σd² = 22,5, ρs ≈ 0,86, corelație pozitivă puternică."
+          },
+          {
+            "t": "Atribuirea rangurilor",
+            "d": "Rangurile se dau pe fiecare variabilă, începând cu scorul cel mai mare; scorurile egale primesc media pozițiilor (cei doi cu 8 la implicare: rangul 7,5). d = diferența de rang pentru fiecare caz; Σd e întotdeauna 0 — altfel s-a greșit — de aceea se ridică la pătrat."
+          },
+          {
+            "t": "Alegerea coeficientului ordinal",
+            "d": "Puține categorii, date în tabel: γ (simetric), d (asimetric, când VD e clară), τb (simetric, tabele pătratice). Multe valori diferite, puține legături: ρs. Dacă VI nu e clară și tabelul nu e pătratic, γ."
+          },
+          {
+            "t": "Testul pentru γ",
+            "d": "H0: γ = 0 în populație; Ha: γ ≠ 0. Pentru n ≥ 30, distribuția de eșantionare aproximează Z: Z = γ√((Na + Nd) / (n(1 − γ²))), cu regulile testului Z. Calcul propriu pentru cei 100 de învățători: Z ≈ 3,36 > 1,96, H0 se respinge."
+          },
+          {
+            "t": "Testul pentru ρs",
+            "d": "H0: ρs = 0. Pentru 5 ≤ n ≤ 30, tabelul valorilor critice (Anexa H, lipsă din PDF): H0 se respinge dacă ρs obținut e mai mare decât valoarea critică. Pentru n ≥ 30, t = ρs√((n − 2)/(1 − ρs²)), cu gl = n − 2. χ² se poate aplica și la ordinal, dar nu e un test direct al corelației."
+          }
+        ],
+        "tabel": {
+          "cap": [
+            "Coeficient",
+            "Când",
+            "Simetric?",
+            "Formula"
+          ],
+          "randuri": [
+            [
+              "γ",
+              "puține categorii",
+              "da",
+              "(Na − Nd)/(Na + Nd)"
+            ],
+            [
+              "d al lui Somer",
+              "puține categorii, VD clară",
+              "nu",
+              "(Na − Nd)/(Na + Nd + Ly)"
+            ],
+            [
+              "τb al lui Kendall",
+              "puține categorii, tabel pătratic",
+              "da",
+              "(Na − Nd)/√((… + Ly)(… + Lx))"
+            ],
+            [
+              "ρs al lui Spearman",
+              "multe valori, puține legături",
+              "da",
+              "1 − 6Σd²/(n(n² − 1))"
+            ]
+          ]
+        },
+        "figuri": [
+          {
+            "titlu": "Rangurile celor zece alergători",
+            "nota": "Un punct pe diagonală = același rang la ambele variabile (d = 0). Cazurile 7 și 8 au rangul legat 7,5 la implicare.",
+            "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 214\" role=\"img\" aria-label=\"Rangurile celor zece alergători, aproape de diagonala acordului perfect\" font-family=\"Georgia, serif\" font-size=\"13\"><line x1=\"48.0\" y1=\"170.1\" x2=\"300.0\" y2=\"170.1\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><text x=\"44.0\" y=\"173.6\" text-anchor=\"end\" fill=\"#6b6760\" font-size=\"10.2\">1</text><line x1=\"48.0\" y1=\"122.7\" x2=\"300.0\" y2=\"122.7\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><text x=\"44.0\" y=\"126.2\" text-anchor=\"end\" fill=\"#6b6760\" font-size=\"10.2\">4</text><line x1=\"48.0\" y1=\"75.3\" x2=\"300.0\" y2=\"75.3\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><text x=\"44.0\" y=\"78.8\" text-anchor=\"end\" fill=\"#6b6760\" font-size=\"10.2\">7</text><line x1=\"48.0\" y1=\"27.9\" x2=\"300.0\" y2=\"27.9\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><text x=\"44.0\" y=\"31.4\" text-anchor=\"end\" fill=\"#6b6760\" font-size=\"10.2\">10</text><line x1=\"60.6\" y1=\"178.0\" x2=\"287.4\" y2=\"178.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><line x1=\"60.6\" y1=\"178.0\" x2=\"60.6\" y2=\"182.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><text x=\"60.6\" y=\"193.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">1</text><line x1=\"136.2\" y1=\"178.0\" x2=\"136.2\" y2=\"182.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><text x=\"136.2\" y=\"193.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">4</text><line x1=\"211.8\" y1=\"178.0\" x2=\"211.8\" y2=\"182.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><text x=\"211.8\" y=\"193.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">7</text><line x1=\"287.4\" y1=\"178.0\" x2=\"287.4\" y2=\"182.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><text x=\"287.4\" y=\"193.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">10</text><line x1=\"48.0\" y1=\"178.0\" x2=\"300.0\" y2=\"20.0\" stroke=\"#1baf7a\" stroke-width=\"1.5\" stroke-dasharray=\"5 4\"/><text x=\"277.3\" y=\"23.2\" text-anchor=\"end\" fill=\"#1baf7a\" font-size=\"10.2\">acord perfect</text><circle cx=\"60.6\" cy=\"138.5\" r=\"4.5\" fill=\"#2a78d6\" stroke=\"#faf8f3\" stroke-width=\"1.5\"><title>rang implicare 1, rang respect 3</title></circle><circle cx=\"85.8\" cy=\"170.1\" r=\"4.5\" fill=\"#2a78d6\" stroke=\"#faf8f3\" stroke-width=\"1.5\"><title>rang implicare 2, rang respect 1</title></circle><circle cx=\"111.0\" cy=\"122.7\" r=\"4.5\" fill=\"#2a78d6\" stroke=\"#faf8f3\" stroke-width=\"1.5\"><title>rang implicare 3, rang respect 4</title></circle><circle cx=\"136.2\" cy=\"154.3\" r=\"4.5\" fill=\"#2a78d6\" stroke=\"#faf8f3\" stroke-width=\"1.5\"><title>rang implicare 4, rang respect 2</title></circle><circle cx=\"161.4\" cy=\"59.5\" r=\"4.5\" fill=\"#2a78d6\" stroke=\"#faf8f3\" stroke-width=\"1.5\"><title>rang implicare 5, rang respect 8</title></circle><circle cx=\"186.6\" cy=\"106.9\" r=\"4.5\" fill=\"#2a78d6\" stroke=\"#faf8f3\" stroke-width=\"1.5\"><title>rang implicare 6, rang respect 5</title></circle><circle cx=\"224.4\" cy=\"91.1\" r=\"4.5\" fill=\"#2a78d6\" stroke=\"#faf8f3\" stroke-width=\"1.5\"><title>rang implicare 7,5, rang respect 6</title></circle><circle cx=\"224.4\" cy=\"75.3\" r=\"4.5\" fill=\"#2a78d6\" stroke=\"#faf8f3\" stroke-width=\"1.5\"><title>rang implicare 7,5, rang respect 7</title></circle><circle cx=\"262.2\" cy=\"43.7\" r=\"4.5\" fill=\"#2a78d6\" stroke=\"#faf8f3\" stroke-width=\"1.5\"><title>rang implicare 9, rang respect 9</title></circle><circle cx=\"287.4\" cy=\"27.9\" r=\"4.5\" fill=\"#2a78d6\" stroke=\"#faf8f3\" stroke-width=\"1.5\"><title>rang implicare 10, rang respect 10</title></circle><text x=\"174.0\" y=\"206.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">rangul la implicare în jogging</text><text x=\"12.0\" y=\"99.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\" transform=\"rotate(-90 12 99)\">rangul la respect de sine</text><text x=\"70.0\" y=\"32.0\" text-anchor=\"start\" fill=\"#2c2a26\" font-size=\"10.8\">Σd² = 22,5 → ρs ≈ 0,86</text></svg>"
+          }
+        ]
+      },
+      {
+        "titlu": "Diagrama de împrăștiere și regresia",
+        "lat": true,
+        "noduri": [
+          {
+            "t": "Diagrama de împrăștiere",
+            "d": "Pentru variabile de interval sau de raport (scatergramă, nor de puncte): X pe abscisă, Y pe ordonată, câte un punct pentru fiecare caz. Analoagă tabelelor bivariate. 9 elevi: abilități de limbaj (X) și aritmetice (Y)."
+          },
+          {
+            "t": "Linia de regresie",
+            "d": "Dreapta care trece cât mai aproape de toate punctele. Existență: linia face un unghi cu abscisa (paralelă = nicio corelație). Sens: înclinarea (pantă pozitivă sau negativă). Tărie: cu cât punctele sunt mai puțin împrăștiate în jurul liniei, cu atât corelația e mai puternică."
+          },
+          {
+            "t": "Corelația lineară",
+            "d": "Supoziție de bază: punctele se pot aproxima printr-o dreaptă; se verifică prin diagrama de împrăștiere înainte de calcule. Dacă relația nu e lineară, supozițiile nivelului de interval sau de raport cad, iar variabilele se tratează ca ordinale."
+          },
+          {
+            "t": "Coeficientul de regresie b",
+            "d": "Ecuația de regresie bivariată: Y = a + bX. b = panta = schimbarea lui Y pentru o unitate de schimbare a lui X: b = (nΣXY − ΣXΣY) / (nΣX² − (ΣX)²). Pentru cei 9 elevi, b ≈ 0,56. b = 0: linie orizontală, nicio corelație."
+          },
+          {
+            "t": "Constanta de regresie a",
+            "d": "a = Ȳ − bX̄ (sau (ΣY − bΣX)/n) = punctul în care linia taie axa Y. 9 elevi: Ȳ = 67,4, X̄ = 65,3, a ≈ 30,8, deci Y = 30,8 + 0,56X."
+          },
+          {
+            "t": "Predicția prin regresie",
+            "d": "Regresia lui Y asupra lui X: scorul prezis Ŷ = a + bX. Un elev cu 100 la limbaj (în eșantion nu există un asemenea scor): Ŷ = 30,8 + 56 = 86,8."
+          }
+        ],
+        "figuri": [
+          {
+            "titlu": "Diagrama de împrăștiere și linia de regresie",
+            "nota": "Datele celor 9 elevi. Cinci puncte sunt deasupra liniei și patru dedesubt. Predicția pentru X = 100 iese în afara scorurilor observate (maximul e 90).",
+            "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 222\" role=\"img\" aria-label=\"Diagrama de împrăștiere a celor 9 elevi, linia de regresie și predicția pentru X = 100\" font-family=\"Georgia, serif\" font-size=\"13\"><line x1=\"44.0\" y1=\"186.0\" x2=\"304.0\" y2=\"186.0\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><text x=\"40.0\" y=\"189.5\" text-anchor=\"end\" fill=\"#6b6760\" font-size=\"10.2\">0</text><line x1=\"44.0\" y1=\"154.7\" x2=\"304.0\" y2=\"154.7\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><text x=\"40.0\" y=\"158.2\" text-anchor=\"end\" fill=\"#6b6760\" font-size=\"10.2\">20</text><line x1=\"44.0\" y1=\"123.5\" x2=\"304.0\" y2=\"123.5\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><text x=\"40.0\" y=\"127.0\" text-anchor=\"end\" fill=\"#6b6760\" font-size=\"10.2\">40</text><line x1=\"44.0\" y1=\"92.2\" x2=\"304.0\" y2=\"92.2\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><text x=\"40.0\" y=\"95.7\" text-anchor=\"end\" fill=\"#6b6760\" font-size=\"10.2\">60</text><line x1=\"44.0\" y1=\"60.9\" x2=\"304.0\" y2=\"60.9\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><text x=\"40.0\" y=\"64.4\" text-anchor=\"end\" fill=\"#6b6760\" font-size=\"10.2\">80</text><line x1=\"44.0\" y1=\"29.6\" x2=\"304.0\" y2=\"29.6\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><text x=\"40.0\" y=\"33.1\" text-anchor=\"end\" fill=\"#6b6760\" font-size=\"10.2\">100</text><line x1=\"44.0\" y1=\"186.0\" x2=\"280.4\" y2=\"186.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><line x1=\"44.0\" y1=\"186.0\" x2=\"44.0\" y2=\"190.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><text x=\"44.0\" y=\"201.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">0</text><line x1=\"91.3\" y1=\"186.0\" x2=\"91.3\" y2=\"190.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><text x=\"91.3\" y=\"201.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">20</text><line x1=\"138.5\" y1=\"186.0\" x2=\"138.5\" y2=\"190.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><text x=\"138.5\" y=\"201.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">40</text><line x1=\"185.8\" y1=\"186.0\" x2=\"185.8\" y2=\"190.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><text x=\"185.8\" y=\"201.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">60</text><line x1=\"233.1\" y1=\"186.0\" x2=\"233.1\" y2=\"190.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><text x=\"233.1\" y=\"201.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">80</text><line x1=\"280.4\" y1=\"186.0\" x2=\"280.4\" y2=\"190.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><text x=\"280.4\" y=\"201.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">100</text><line x1=\"67.6\" y1=\"129.1\" x2=\"292.2\" y2=\"45.9\" stroke=\"#eb6834\" stroke-width=\"2\"/><line x1=\"280.4\" y1=\"50.3\" x2=\"280.4\" y2=\"186.0\" stroke=\"#6b6760\" stroke-width=\"1\" stroke-dasharray=\"3 3\"/><line x1=\"44.0\" y1=\"50.3\" x2=\"280.4\" y2=\"50.3\" stroke=\"#6b6760\" stroke-width=\"1\" stroke-dasharray=\"3 3\"/><circle cx=\"280.4\" cy=\"50.3\" r=\"4\" fill=\"#eb6834\" stroke=\"#faf8f3\" stroke-width=\"1.5\"><title>predicție: 86,8</title></circle><text x=\"48.0\" y=\"45.3\" text-anchor=\"start\" fill=\"#eb6834\" font-size=\"10.8\">Ŷ = 86,8</text><circle cx=\"240.2\" cy=\"37.5\" r=\"4.5\" fill=\"#2a78d6\" stroke=\"#faf8f3\" stroke-width=\"1.5\"><title>elevul A: 83, 95</title></circle><circle cx=\"133.8\" cy=\"76.5\" r=\"4.5\" fill=\"#2a78d6\" stroke=\"#faf8f3\" stroke-width=\"1.5\"><title>elevul B: 38, 70</title></circle><circle cx=\"155.1\" cy=\"132.8\" r=\"4.5\" fill=\"#2a78d6\" stroke=\"#faf8f3\" stroke-width=\"1.5\"><title>elevul C: 47, 34</title></circle><circle cx=\"176.4\" cy=\"82.8\" r=\"4.5\" fill=\"#2a78d6\" stroke=\"#faf8f3\" stroke-width=\"1.5\"><title>elevul D: 56, 66</title></circle><circle cx=\"98.4\" cy=\"115.6\" r=\"4.5\" fill=\"#2a78d6\" stroke=\"#faf8f3\" stroke-width=\"1.5\"><title>elevul E: 23, 45</title></circle><circle cx=\"256.7\" cy=\"29.6\" r=\"4.5\" fill=\"#2a78d6\" stroke=\"#faf8f3\" stroke-width=\"1.5\"><title>elevul F: 90, 100</title></circle><circle cx=\"221.3\" cy=\"95.3\" r=\"4.5\" fill=\"#2a78d6\" stroke=\"#faf8f3\" stroke-width=\"1.5\"><title>elevul G: 75, 58</title></circle><circle cx=\"249.6\" cy=\"75.0\" r=\"4.5\" fill=\"#2a78d6\" stroke=\"#faf8f3\" stroke-width=\"1.5\"><title>elevul H: 87, 71</title></circle><circle cx=\"254.4\" cy=\"79.7\" r=\"4.5\" fill=\"#2a78d6\" stroke=\"#faf8f3\" stroke-width=\"1.5\"><title>elevul I: 89, 68</title></circle><text x=\"114.9\" y=\"23.4\" text-anchor=\"start\" fill=\"#eb6834\" font-size=\"10.8\">Y = 30,8 + 0,56X</text><text x=\"174.0\" y=\"214.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">abilități de limbaj (X)</text><text x=\"12.0\" y=\"100.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\" transform=\"rotate(-90 12 100)\">abilități aritmetice (Y)</text></svg>"
+          },
+          {
+            "titlu": "Forme ale norului de puncte",
+            "nota": "Valori ilustrative. La forma nelineară, o dreaptă nu descrie relația: supoziția de linearitate cade.",
+            "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 258\" role=\"img\" aria-label=\"Patru forme ale norului de puncte: pozitivă, negativă, fără corelație, nelineară\" font-family=\"Georgia, serif\" font-size=\"13\"><line x1=\"24.0\" y1=\"110.0\" x2=\"152.0\" y2=\"110.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><line x1=\"24.0\" y1=\"110.0\" x2=\"24.0\" y2=\"26.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><text x=\"88.0\" y=\"16.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.8\">pozitivă</text><circle cx=\"30.8\" cy=\"92.1\" r=\"3\" fill=\"#2a78d6\" stroke=\"#faf8f3\" stroke-width=\"1.5\"></circle><circle cx=\"38.2\" cy=\"85.8\" r=\"3\" fill=\"#2a78d6\" stroke=\"#faf8f3\" stroke-width=\"1.5\"></circle><circle cx=\"49.3\" cy=\"90.5\" r=\"3\" fill=\"#2a78d6\" stroke=\"#faf8f3\" stroke-width=\"1.5\"></circle><circle cx=\"57.8\" cy=\"82.6\" r=\"3\" fill=\"#2a78d6\" stroke=\"#faf8f3\" stroke-width=\"1.5\"></circle><circle cx=\"64.1\" cy=\"83.8\" r=\"3\" fill=\"#2a78d6\" stroke=\"#faf8f3\" stroke-width=\"1.5\"></circle><circle cx=\"73.1\" cy=\"75.5\" r=\"3\" fill=\"#2a78d6\" stroke=\"#faf8f3\" stroke-width=\"1.5\"></circle><circle cx=\"83.5\" cy=\"69.5\" r=\"3\" fill=\"#2a78d6\" stroke=\"#faf8f3\" stroke-width=\"1.5\"></circle><circle cx=\"91.2\" cy=\"70.7\" r=\"3\" fill=\"#2a78d6\" stroke=\"#faf8f3\" stroke-width=\"1.5\"></circle><circle cx=\"102.0\" cy=\"52.7\" r=\"3\" fill=\"#2a78d6\" stroke=\"#faf8f3\" stroke-width=\"1.5\"></circle><circle cx=\"109.5\" cy=\"61.1\" r=\"3\" fill=\"#2a78d6\" stroke=\"#faf8f3\" stroke-width=\"1.5\"></circle><circle cx=\"121.2\" cy=\"38.0\" r=\"3\" fill=\"#2a78d6\" stroke=\"#faf8f3\" stroke-width=\"1.5\"></circle><circle cx=\"126.3\" cy=\"45.1\" r=\"3\" fill=\"#2a78d6\" stroke=\"#faf8f3\" stroke-width=\"1.5\"></circle><circle cx=\"134.3\" cy=\"40.6\" r=\"3\" fill=\"#2a78d6\" stroke=\"#faf8f3\" stroke-width=\"1.5\"></circle><circle cx=\"146.5\" cy=\"34.8\" r=\"3\" fill=\"#2a78d6\" stroke=\"#faf8f3\" stroke-width=\"1.5\"></circle><line x1=\"29.1\" y1=\"99.2\" x2=\"146.9\" y2=\"38.8\" stroke=\"#eb6834\" stroke-width=\"1.5\"/><line x1=\"176.0\" y1=\"110.0\" x2=\"304.0\" y2=\"110.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><line x1=\"176.0\" y1=\"110.0\" x2=\"176.0\" y2=\"26.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><text x=\"240.0\" y=\"16.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.8\">negativă</text><circle cx=\"182.0\" cy=\"48.5\" r=\"3\" fill=\"#2a78d6\" stroke=\"#faf8f3\" stroke-width=\"1.5\"></circle><circle cx=\"191.7\" cy=\"49.4\" r=\"3\" fill=\"#2a78d6\" stroke=\"#faf8f3\" stroke-width=\"1.5\"></circle><circle cx=\"201.3\" cy=\"46.8\" r=\"3\" fill=\"#2a78d6\" stroke=\"#faf8f3\" stroke-width=\"1.5\"></circle><circle cx=\"208.3\" cy=\"51.8\" r=\"3\" fill=\"#2a78d6\" stroke=\"#faf8f3\" stroke-width=\"1.5\"></circle><circle cx=\"219.4\" cy=\"64.2\" r=\"3\" fill=\"#2a78d6\" stroke=\"#faf8f3\" stroke-width=\"1.5\"></circle><circle cx=\"227.6\" cy=\"59.8\" r=\"3\" fill=\"#2a78d6\" stroke=\"#faf8f3\" stroke-width=\"1.5\"></circle><circle cx=\"235.7\" cy=\"70.8\" r=\"3\" fill=\"#2a78d6\" stroke=\"#faf8f3\" stroke-width=\"1.5\"></circle><circle cx=\"245.6\" cy=\"59.4\" r=\"3\" fill=\"#2a78d6\" stroke=\"#faf8f3\" stroke-width=\"1.5\"></circle><circle cx=\"252.0\" cy=\"83.2\" r=\"3\" fill=\"#2a78d6\" stroke=\"#faf8f3\" stroke-width=\"1.5\"></circle><circle cx=\"263.9\" cy=\"85.3\" r=\"3\" fill=\"#2a78d6\" stroke=\"#faf8f3\" stroke-width=\"1.5\"></circle><circle cx=\"271.9\" cy=\"90.2\" r=\"3\" fill=\"#2a78d6\" stroke=\"#faf8f3\" stroke-width=\"1.5\"></circle><circle cx=\"277.5\" cy=\"68.1\" r=\"3\" fill=\"#2a78d6\" stroke=\"#faf8f3\" stroke-width=\"1.5\"></circle><circle cx=\"287.7\" cy=\"93.3\" r=\"3\" fill=\"#2a78d6\" stroke=\"#faf8f3\" stroke-width=\"1.5\"></circle><circle cx=\"296.8\" cy=\"102.3\" r=\"3\" fill=\"#2a78d6\" stroke=\"#faf8f3\" stroke-width=\"1.5\"></circle><line x1=\"181.1\" y1=\"38.8\" x2=\"298.9\" y2=\"99.2\" stroke=\"#eb6834\" stroke-width=\"1.5\"/><line x1=\"24.0\" y1=\"228.0\" x2=\"152.0\" y2=\"228.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><line x1=\"24.0\" y1=\"228.0\" x2=\"24.0\" y2=\"144.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><text x=\"88.0\" y=\"134.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.8\">fără corelație: b = 0</text><circle cx=\"29.3\" cy=\"198.0\" r=\"3\" fill=\"#2a78d6\" stroke=\"#faf8f3\" stroke-width=\"1.5\"></circle><circle cx=\"40.8\" cy=\"206.4\" r=\"3\" fill=\"#2a78d6\" stroke=\"#faf8f3\" stroke-width=\"1.5\"></circle><circle cx=\"51.0\" cy=\"194.9\" r=\"3\" fill=\"#2a78d6\" stroke=\"#faf8f3\" stroke-width=\"1.5\"></circle><circle cx=\"58.3\" cy=\"168.4\" r=\"3\" fill=\"#2a78d6\" stroke=\"#faf8f3\" stroke-width=\"1.5\"></circle><circle cx=\"66.9\" cy=\"211.2\" r=\"3\" fill=\"#2a78d6\" stroke=\"#faf8f3\" stroke-width=\"1.5\"></circle><circle cx=\"77.5\" cy=\"180.2\" r=\"3\" fill=\"#2a78d6\" stroke=\"#faf8f3\" stroke-width=\"1.5\"></circle><circle cx=\"83.8\" cy=\"189.4\" r=\"3\" fill=\"#2a78d6\" stroke=\"#faf8f3\" stroke-width=\"1.5\"></circle><circle cx=\"93.6\" cy=\"191.0\" r=\"3\" fill=\"#2a78d6\" stroke=\"#faf8f3\" stroke-width=\"1.5\"></circle><circle cx=\"102.1\" cy=\"162.6\" r=\"3\" fill=\"#2a78d6\" stroke=\"#faf8f3\" stroke-width=\"1.5\"></circle><circle cx=\"108.9\" cy=\"188.1\" r=\"3\" fill=\"#2a78d6\" stroke=\"#faf8f3\" stroke-width=\"1.5\"></circle><circle cx=\"118.1\" cy=\"188.4\" r=\"3\" fill=\"#2a78d6\" stroke=\"#faf8f3\" stroke-width=\"1.5\"></circle><circle cx=\"127.2\" cy=\"189.4\" r=\"3\" fill=\"#2a78d6\" stroke=\"#faf8f3\" stroke-width=\"1.5\"></circle><circle cx=\"134.4\" cy=\"183.6\" r=\"3\" fill=\"#2a78d6\" stroke=\"#faf8f3\" stroke-width=\"1.5\"></circle><circle cx=\"146.2\" cy=\"183.9\" r=\"3\" fill=\"#2a78d6\" stroke=\"#faf8f3\" stroke-width=\"1.5\"></circle><line x1=\"29.1\" y1=\"187.0\" x2=\"146.9\" y2=\"187.0\" stroke=\"#eb6834\" stroke-width=\"1.5\"/><line x1=\"176.0\" y1=\"228.0\" x2=\"304.0\" y2=\"228.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><line x1=\"176.0\" y1=\"228.0\" x2=\"176.0\" y2=\"144.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><text x=\"240.0\" y=\"134.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.8\">nelineară (U întors)</text><circle cx=\"181.8\" cy=\"217.6\" r=\"3\" fill=\"#2a78d6\" stroke=\"#faf8f3\" stroke-width=\"1.5\"></circle><circle cx=\"194.3\" cy=\"190.0\" r=\"3\" fill=\"#2a78d6\" stroke=\"#faf8f3\" stroke-width=\"1.5\"></circle><circle cx=\"198.9\" cy=\"193.7\" r=\"3\" fill=\"#2a78d6\" stroke=\"#faf8f3\" stroke-width=\"1.5\"></circle><circle cx=\"211.8\" cy=\"170.3\" r=\"3\" fill=\"#2a78d6\" stroke=\"#faf8f3\" stroke-width=\"1.5\"></circle><circle cx=\"220.1\" cy=\"162.6\" r=\"3\" fill=\"#2a78d6\" stroke=\"#faf8f3\" stroke-width=\"1.5\"></circle><circle cx=\"226.8\" cy=\"164.4\" r=\"3\" fill=\"#2a78d6\" stroke=\"#faf8f3\" stroke-width=\"1.5\"></circle><circle cx=\"235.2\" cy=\"149.5\" r=\"3\" fill=\"#2a78d6\" stroke=\"#faf8f3\" stroke-width=\"1.5\"></circle><circle cx=\"242.8\" cy=\"166.7\" r=\"3\" fill=\"#2a78d6\" stroke=\"#faf8f3\" stroke-width=\"1.5\"></circle><circle cx=\"251.7\" cy=\"160.3\" r=\"3\" fill=\"#2a78d6\" stroke=\"#faf8f3\" stroke-width=\"1.5\"></circle><circle cx=\"261.9\" cy=\"163.2\" r=\"3\" fill=\"#2a78d6\" stroke=\"#faf8f3\" stroke-width=\"1.5\"></circle><circle cx=\"271.2\" cy=\"175.4\" r=\"3\" fill=\"#2a78d6\" stroke=\"#faf8f3\" stroke-width=\"1.5\"></circle><circle cx=\"279.0\" cy=\"184.5\" r=\"3\" fill=\"#2a78d6\" stroke=\"#faf8f3\" stroke-width=\"1.5\"></circle><circle cx=\"287.5\" cy=\"208.9\" r=\"3\" fill=\"#2a78d6\" stroke=\"#faf8f3\" stroke-width=\"1.5\"></circle><circle cx=\"297.8\" cy=\"221.8\" r=\"3\" fill=\"#2a78d6\" stroke=\"#faf8f3\" stroke-width=\"1.5\"></circle><text x=\"160.0\" y=\"252.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">valori ilustrative</text></svg>"
+          }
+        ]
+      },
+      {
+        "titlu": "Coeficientul r al lui Pearson",
+        "lat": true,
+        "noduri": [
+          {
+            "t": "Coeficientul r",
+            "d": "Mărime a corelației lineare pentru variabile de interval sau de raport: r = (nΣXY − ΣXΣY) / √((nΣX² − (ΣX)²)(nΣY² − (ΣY)²)). 9 elevi: r ≈ 0,66. Cartea scrie „între 0 și 1”; ca la ordinal, semnul (−1 … +1) arată sensul."
+          },
+          {
+            "t": "Coeficientul de determinare r²",
+            "d": "Interpretarea mai directă: r² = partea din variația lui Y explicată de X. 9 elevi: r² ≈ 0,44 (cartea: 0,435) — limbajul explică circa 43,5% din variația abilităților aritmetice; restul de 56,5% ține de alte variabile, erori de măsurare sau întâmplare."
+          },
+          {
+            "t": "Testul t pentru r",
+            "d": "Pentru eșantioane aleatorii: H0 = variabilele nu sunt corelate în populație; t = r√(n − 2)/√(1 − r²), cu gl = n − 2. Dacă t cade în zona critică, corelația se generalizează la populație; altfel, r din eșantion poate apărea din întâmplare. Calcul propriu pentru cei 9 elevi: t ≈ 2,34 < 2,365 (bilateral, α = 0,05)."
+          },
+          {
+            "t": "Supozițiile testului pentru r",
+            "d": "Linearitate, distribuție bivariată normală (ambele variabile normale) și homoscedasticitate. De obicei, inspectarea diagramei de împrăștiere ajunge pentru linearitate și homoscedasticitate."
+          },
+          {
+            "t": "Homoscedasticitatea",
+            "d": "Abaterile standard ale distribuțiilor condiționate ale lui Y sunt aproximativ egale: scorurile Y sunt relativ uniform împrăștiate deasupra și dedesubtul liniei. Cartea o verifică la cei 9 elevi prin 5 puncte deasupra și 4 dedesubt."
+          }
+        ],
+        "tabel": {
+          "cap": [
+            "Coeficient",
+            "Test",
+            "Distribuție"
+          ],
+          "randuri": [
+            [
+              "φ, C, V, λ (nominal)",
+              "χ²",
+              "χ²"
+            ],
+            [
+              "γ (n ≥ 30)",
+              "Z = γ√((Na + Nd)/(n(1 − γ²)))",
+              "normală"
+            ],
+            [
+              "ρs (5 ≤ n ≤ 30)",
+              "tabelul valorilor critice",
+              "—"
+            ],
+            [
+              "ρs (n ≥ 30)",
+              "t = ρs√((n − 2)/(1 − ρs²))",
+              "t, gl = n − 2"
+            ],
+            [
+              "r al lui Pearson",
+              "t = r√(n − 2)/√(1 − r²)",
+              "t, gl = n − 2"
+            ]
+          ]
+        },
+        "figuri": [
+          {
+            "titlu": "Homoscedasticitate",
+            "nota": "Valori ilustrative. Testul pentru r cere ca scorurile Y să fie împrăștiate cam la fel în jurul liniei pentru orice X.",
+            "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 192\" role=\"img\" aria-label=\"Împrăștiere egală în jurul liniei de regresie față de împrăștiere în evantai\" font-family=\"Georgia, serif\" font-size=\"13\"><line x1=\"24.0\" y1=\"150.0\" x2=\"152.0\" y2=\"150.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><line x1=\"24.0\" y1=\"150.0\" x2=\"24.0\" y2=\"26.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><text x=\"88.0\" y=\"18.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.8\">homoscedastică</text><line x1=\"27.8\" y1=\"132.0\" x2=\"148.2\" y2=\"51.6\" stroke=\"#eb6834\" stroke-width=\"1.5\"/><circle cx=\"30.4\" cy=\"129.2\" r=\"2.8\" fill=\"#2a78d6\" stroke=\"#faf8f3\" stroke-width=\"1.5\"></circle><circle cx=\"35.8\" cy=\"114.6\" r=\"2.8\" fill=\"#2a78d6\" stroke=\"#faf8f3\" stroke-width=\"1.5\"></circle><circle cx=\"41.2\" cy=\"131.9\" r=\"2.8\" fill=\"#2a78d6\" stroke=\"#faf8f3\" stroke-width=\"1.5\"></circle><circle cx=\"46.5\" cy=\"109.9\" r=\"2.8\" fill=\"#2a78d6\" stroke=\"#faf8f3\" stroke-width=\"1.5\"></circle><circle cx=\"51.9\" cy=\"118.3\" r=\"2.8\" fill=\"#2a78d6\" stroke=\"#faf8f3\" stroke-width=\"1.5\"></circle><circle cx=\"57.3\" cy=\"114.8\" r=\"2.8\" fill=\"#2a78d6\" stroke=\"#faf8f3\" stroke-width=\"1.5\"></circle><circle cx=\"62.7\" cy=\"90.4\" r=\"2.8\" fill=\"#2a78d6\" stroke=\"#faf8f3\" stroke-width=\"1.5\"></circle><circle cx=\"68.0\" cy=\"103.6\" r=\"2.8\" fill=\"#2a78d6\" stroke=\"#faf8f3\" stroke-width=\"1.5\"></circle><circle cx=\"73.4\" cy=\"101.9\" r=\"2.8\" fill=\"#2a78d6\" stroke=\"#faf8f3\" stroke-width=\"1.5\"></circle><circle cx=\"78.8\" cy=\"90.9\" r=\"2.8\" fill=\"#2a78d6\" stroke=\"#faf8f3\" stroke-width=\"1.5\"></circle><circle cx=\"84.2\" cy=\"83.5\" r=\"2.8\" fill=\"#2a78d6\" stroke=\"#faf8f3\" stroke-width=\"1.5\"></circle><circle cx=\"89.5\" cy=\"91.1\" r=\"2.8\" fill=\"#2a78d6\" stroke=\"#faf8f3\" stroke-width=\"1.5\"></circle><circle cx=\"94.9\" cy=\"81.6\" r=\"2.8\" fill=\"#2a78d6\" stroke=\"#faf8f3\" stroke-width=\"1.5\"></circle><circle cx=\"100.3\" cy=\"93.0\" r=\"2.8\" fill=\"#2a78d6\" stroke=\"#faf8f3\" stroke-width=\"1.5\"></circle><circle cx=\"105.7\" cy=\"83.6\" r=\"2.8\" fill=\"#2a78d6\" stroke=\"#faf8f3\" stroke-width=\"1.5\"></circle><circle cx=\"111.0\" cy=\"80.7\" r=\"2.8\" fill=\"#2a78d6\" stroke=\"#faf8f3\" stroke-width=\"1.5\"></circle><circle cx=\"116.4\" cy=\"85.7\" r=\"2.8\" fill=\"#2a78d6\" stroke=\"#faf8f3\" stroke-width=\"1.5\"></circle><circle cx=\"121.8\" cy=\"83.8\" r=\"2.8\" fill=\"#2a78d6\" stroke=\"#faf8f3\" stroke-width=\"1.5\"></circle><circle cx=\"127.2\" cy=\"81.3\" r=\"2.8\" fill=\"#2a78d6\" stroke=\"#faf8f3\" stroke-width=\"1.5\"></circle><circle cx=\"132.5\" cy=\"64.4\" r=\"2.8\" fill=\"#2a78d6\" stroke=\"#faf8f3\" stroke-width=\"1.5\"></circle><circle cx=\"137.9\" cy=\"60.2\" r=\"2.8\" fill=\"#2a78d6\" stroke=\"#faf8f3\" stroke-width=\"1.5\"></circle><circle cx=\"143.3\" cy=\"58.1\" r=\"2.8\" fill=\"#2a78d6\" stroke=\"#faf8f3\" stroke-width=\"1.5\"></circle><line x1=\"176.0\" y1=\"150.0\" x2=\"304.0\" y2=\"150.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><line x1=\"176.0\" y1=\"150.0\" x2=\"176.0\" y2=\"26.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><text x=\"240.0\" y=\"18.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.8\">heteroscedastică</text><line x1=\"179.8\" y1=\"132.0\" x2=\"300.2\" y2=\"51.6\" stroke=\"#eb6834\" stroke-width=\"1.5\"/><circle cx=\"182.4\" cy=\"130.0\" r=\"2.8\" fill=\"#2a78d6\" stroke=\"#faf8f3\" stroke-width=\"1.5\"></circle><circle cx=\"187.8\" cy=\"131.4\" r=\"2.8\" fill=\"#2a78d6\" stroke=\"#faf8f3\" stroke-width=\"1.5\"></circle><circle cx=\"193.2\" cy=\"123.4\" r=\"2.8\" fill=\"#2a78d6\" stroke=\"#faf8f3\" stroke-width=\"1.5\"></circle><circle cx=\"198.5\" cy=\"118.0\" r=\"2.8\" fill=\"#2a78d6\" stroke=\"#faf8f3\" stroke-width=\"1.5\"></circle><circle cx=\"203.9\" cy=\"110.6\" r=\"2.8\" fill=\"#2a78d6\" stroke=\"#faf8f3\" stroke-width=\"1.5\"></circle><circle cx=\"209.3\" cy=\"119.1\" r=\"2.8\" fill=\"#2a78d6\" stroke=\"#faf8f3\" stroke-width=\"1.5\"></circle><circle cx=\"214.7\" cy=\"112.3\" r=\"2.8\" fill=\"#2a78d6\" stroke=\"#faf8f3\" stroke-width=\"1.5\"></circle><circle cx=\"220.0\" cy=\"125.8\" r=\"2.8\" fill=\"#2a78d6\" stroke=\"#faf8f3\" stroke-width=\"1.5\"></circle><circle cx=\"225.4\" cy=\"107.2\" r=\"2.8\" fill=\"#2a78d6\" stroke=\"#faf8f3\" stroke-width=\"1.5\"></circle><circle cx=\"230.8\" cy=\"125.4\" r=\"2.8\" fill=\"#2a78d6\" stroke=\"#faf8f3\" stroke-width=\"1.5\"></circle><circle cx=\"236.2\" cy=\"113.7\" r=\"2.8\" fill=\"#2a78d6\" stroke=\"#faf8f3\" stroke-width=\"1.5\"></circle><circle cx=\"241.5\" cy=\"74.6\" r=\"2.8\" fill=\"#2a78d6\" stroke=\"#faf8f3\" stroke-width=\"1.5\"></circle><circle cx=\"246.9\" cy=\"122.0\" r=\"2.8\" fill=\"#2a78d6\" stroke=\"#faf8f3\" stroke-width=\"1.5\"></circle><circle cx=\"252.3\" cy=\"70.1\" r=\"2.8\" fill=\"#2a78d6\" stroke=\"#faf8f3\" stroke-width=\"1.5\"></circle><circle cx=\"257.7\" cy=\"74.1\" r=\"2.8\" fill=\"#2a78d6\" stroke=\"#faf8f3\" stroke-width=\"1.5\"></circle><circle cx=\"263.0\" cy=\"82.4\" r=\"2.8\" fill=\"#2a78d6\" stroke=\"#faf8f3\" stroke-width=\"1.5\"></circle><circle cx=\"268.4\" cy=\"63.6\" r=\"2.8\" fill=\"#2a78d6\" stroke=\"#faf8f3\" stroke-width=\"1.5\"></circle><circle cx=\"273.8\" cy=\"58.0\" r=\"2.8\" fill=\"#2a78d6\" stroke=\"#faf8f3\" stroke-width=\"1.5\"></circle><circle cx=\"279.2\" cy=\"42.2\" r=\"2.8\" fill=\"#2a78d6\" stroke=\"#faf8f3\" stroke-width=\"1.5\"></circle><circle cx=\"284.5\" cy=\"67.6\" r=\"2.8\" fill=\"#2a78d6\" stroke=\"#faf8f3\" stroke-width=\"1.5\"></circle><circle cx=\"289.9\" cy=\"73.2\" r=\"2.8\" fill=\"#2a78d6\" stroke=\"#faf8f3\" stroke-width=\"1.5\"></circle><circle cx=\"295.3\" cy=\"70.6\" r=\"2.8\" fill=\"#2a78d6\" stroke=\"#faf8f3\" stroke-width=\"1.5\"></circle><text x=\"94.0\" y=\"168.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">împrăștiere similară peste tot</text><text x=\"246.0\" y=\"168.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">evantai: crește cu X</text><text x=\"160.0\" y=\"186.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">valori ilustrative</text></svg>"
+          },
+          {
+            "titlu": "Testul t pentru r = 0,66 cu 9 elevi",
+            "nota": "Calcul propriu (cartea nu face testul pe acest exemplu): t = 0,66·√7 / √(1 − 0,44) ≈ 2,34, sub pragul 2,365. Unilateral (prag 1,895) s-ar respinge H0.",
+            "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 204\" role=\"img\" aria-label=\"Distribuția t cu 7 grade de libertate, zonele critice și t obținut pentru r = 0,66\" font-family=\"Georgia, serif\" font-size=\"13\"><polygon points=\"242.8,150.0 242.8,139.0 244.5,139.8 246.3,140.5 248.0,141.2 249.8,141.8 251.5,142.4 253.3,143.0 255.0,143.5 256.8,144.0 258.5,144.4 260.3,144.8 262.0,145.2 263.8,145.5 265.5,145.9 267.3,146.2 269.0,146.4 270.8,146.7 272.5,146.9 274.3,147.1 276.0,147.4 277.8,147.5 279.5,147.7 281.3,147.9 283.0,148.0 284.8,148.2 286.5,148.3 288.3,148.4 290.0,148.5 291.8,148.6 293.5,148.7 295.3,148.8 297.0,148.9 298.8,149.0 300.5,149.0 300.0,150.0\" fill=\"#b5453a\" fill-opacity=\"0.35\"/><polygon points=\"77.2,150.0 77.2,139.0 75.5,139.8 73.7,140.5 72.0,141.2 70.2,141.8 68.5,142.4 66.7,143.0 65.0,143.5 63.2,144.0 61.5,144.4 59.7,144.8 58.0,145.2 56.2,145.5 54.5,145.9 52.7,146.2 51.0,146.4 49.2,146.7 47.5,146.9 45.7,147.1 44.0,147.4 42.2,147.5 40.5,147.7 38.7,147.9 37.0,148.0 35.2,148.2 33.5,148.3 31.7,148.4 30.0,148.5 28.2,148.6 26.5,148.7 24.7,148.8 23.0,148.9 21.2,149.0 19.5,149.0 20.0,150.0\" fill=\"#b5453a\" fill-opacity=\"0.35\"/><polyline points=\"20.0,149.0 21.7,148.9 23.5,148.9 25.2,148.8 27.0,148.7 28.8,148.6 30.5,148.5 32.2,148.4 34.0,148.3 35.8,148.1 37.5,148.0 39.2,147.8 41.0,147.7 42.8,147.5 44.5,147.3 46.2,147.1 48.0,146.9 49.8,146.6 51.5,146.4 53.3,146.1 55.0,145.8 56.7,145.4 58.5,145.1 60.3,144.7 62.0,144.3 63.8,143.8 65.5,143.3 67.2,142.8 69.0,142.3 70.8,141.7 72.5,141.0 74.2,140.3 76.0,139.5 77.8,138.7 79.5,137.8 81.2,136.9 83.0,135.9 84.8,134.8 86.5,133.6 88.2,132.4 90.0,131.1 91.8,129.6 93.5,128.1 95.2,126.5 97.0,124.8 98.8,123.0 100.5,121.0 102.2,119.0 104.0,116.8 105.8,114.5 107.5,112.1 109.3,109.6 111.0,107.0 112.8,104.2 114.5,101.4 116.2,98.4 118.0,95.3 119.8,92.2 121.5,89.0 123.2,85.7 125.0,82.3 126.8,78.9 128.5,75.5 130.2,72.0 132.0,68.6 133.8,65.2 135.5,61.9 137.2,58.6 139.0,55.5 140.8,52.5 142.5,49.6 144.2,47.0 146.0,44.5 147.8,42.2 149.5,40.3 151.2,38.5 153.0,37.1 154.8,36.0 156.5,35.2 158.2,34.7 160.0,34.5 161.8,34.7 163.5,35.2 165.2,36.0 167.0,37.1 168.8,38.5 170.5,40.3 172.3,42.2 174.0,44.5 175.8,47.0 177.5,49.6 179.2,52.5 181.0,55.5 182.8,58.6 184.5,61.9 186.2,65.2 188.0,68.6 189.8,72.0 191.5,75.5 193.2,78.9 195.0,82.3 196.8,85.7 198.5,89.0 200.2,92.2 202.0,95.3 203.8,98.4 205.5,101.4 207.3,104.2 209.0,107.0 210.8,109.6 212.5,112.1 214.3,114.5 216.0,116.8 217.8,119.0 219.5,121.0 221.2,123.0 223.0,124.8 224.8,126.5 226.5,128.1 228.2,129.6 230.0,131.1 231.8,132.4 233.5,133.6 235.2,134.8 237.0,135.9 238.8,136.9 240.5,137.8 242.3,138.7 244.0,139.5 245.8,140.3 247.5,141.0 249.3,141.7 251.0,142.3 252.8,142.8 254.5,143.3 256.2,143.8 258.0,144.3 259.8,144.7 261.5,145.1 263.2,145.4 265.0,145.8 266.8,146.1 268.5,146.4 270.2,146.6 272.0,146.9 273.8,147.1 275.5,147.3 277.2,147.5 279.0,147.7 280.8,147.8 282.5,148.0 284.2,148.1 286.0,148.3 287.8,148.4 289.5,148.5 291.2,148.6 293.0,148.7 294.8,148.8 296.5,148.9 298.2,148.9 300.0,149.0\" fill=\"none\" stroke=\"#2a78d6\" stroke-width=\"2\"/><line x1=\"20.0\" y1=\"150.0\" x2=\"300.0\" y2=\"150.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><line x1=\"20.0\" y1=\"150.0\" x2=\"20.0\" y2=\"154.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><text x=\"20.0\" y=\"165.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">−4</text><line x1=\"90.0\" y1=\"150.0\" x2=\"90.0\" y2=\"154.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><text x=\"90.0\" y=\"165.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">−2</text><line x1=\"160.0\" y1=\"150.0\" x2=\"160.0\" y2=\"154.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><text x=\"160.0\" y=\"165.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">0</text><line x1=\"230.0\" y1=\"150.0\" x2=\"230.0\" y2=\"154.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><text x=\"230.0\" y=\"165.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">2</text><line x1=\"300.0\" y1=\"150.0\" x2=\"300.0\" y2=\"154.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><text x=\"300.0\" y=\"165.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">4</text><line x1=\"77.2\" y1=\"150.0\" x2=\"77.2\" y2=\"64.0\" stroke=\"#b5453a\" stroke-width=\"1\" stroke-dasharray=\"3 3\"/><text x=\"77.2\" y=\"58.0\" text-anchor=\"middle\" fill=\"#b5453a\" font-size=\"10.2\">−2,365</text><line x1=\"242.8\" y1=\"150.0\" x2=\"242.8\" y2=\"64.0\" stroke=\"#b5453a\" stroke-width=\"1\" stroke-dasharray=\"3 3\"/><text x=\"242.8\" y=\"58.0\" text-anchor=\"middle\" fill=\"#b5453a\" font-size=\"10.2\">2,365</text><line x1=\"242.0\" y1=\"150.0\" x2=\"242.0\" y2=\"92.0\" stroke=\"#2c2a26\" stroke-width=\"2\"/><text x=\"237.0\" y=\"88.0\" text-anchor=\"end\" fill=\"#2c2a26\" font-size=\"10.8\">t ≈ 2,34</text><text x=\"160.0\" y=\"20.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.8\">gl = 9 − 2 = 7, α = 0,05 bilateral</text><text x=\"160.0\" y=\"182.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">t obținut cade chiar înainte de zona critică:</text><text x=\"160.0\" y=\"196.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">H0 (ρ = 0 în populație) nu se respinge</text></svg>"
+          }
+        ]
+      },
+      {
+        "titlu": "Corelația parțială, regresia și corelația multiplă",
+        "lat": true,
+        "noduri": [
+          {
+            "t": "Corelația parțială",
+            "d": "Arată influența unei a treia variabile (de control) asupra unei corelații bivariate; se bazează pe r. ryz, rxy, rxz = coeficienți de ordinul zero; ryz·x = corelația Y–Z controlând X (ordinul întâi) = (ryz − rxy·rxz) / √((1 − rxy²)(1 − rxz²)). Exemplu: ryz = 0,50, rxy = 0,78, rxz = 0,70 → ryz·x ≈ −0,10 (cartea: −0,098)."
+          },
+          {
+            "t": "Relație inautentică sau prin intermediar",
+            "d": "ryz·x mult mai mic decât ryz (scade spre 0): fie X le determină pe Y și Z (relație inautentică, aparentă), fie Y acționează asupra lui Z prin X. Statistica nu le deosebește; decid criteriile de conținut (ordinea în timp ș.a.)."
+          },
+          {
+            "t": "Relație directă",
+            "d": "ryz·x ≈ ryz: controlul lui X nu schimbă corelația; X nu o influențează semnificativ, iar relația dintre Y și Z e directă."
+          },
+          {
+            "t": "Influențe separate",
+            "d": "ryz·x mult mai mare decât ryz: variabila inițial independentă și variabila de control au fiecare o influență separată asupra variabilei dependente și nu sunt corelate între ele. Pasul următor: regresia și corelația multiplă."
+          },
+          {
+            "t": "Regresia multiplă",
+            "d": "Y = a + b1X1 + b2X2; b1, b2 = pante parțiale. Izolează influențele separate ale variabilelor independente. 15 subiecți: pre-test (X1), media răspunsurilor corecte la șase încercări (X2), post-test (Y): Y = 19,38 + 0,052X1 + 2,18X2; pentru X1 = 25 și X2 = 11,16, Ŷ ≈ 45."
+          },
+          {
+            "t": "Coeficienții β",
+            "d": "Pante parțiale standardizate: β1 = b1·s1/sy, β2 = b2·s2/sy; schimbarea lui Y în abateri standard pentru o abatere standard a unei VI, cu celelalte controlate. Ecuația standardizată nu are constantă (mediile scorurilor Z sunt 0): Zy = 0,054·Z1 + 0,74·Z2 — X2 cântărește mult mai mult. b-urile nestandardizate nu se compară direct (depind de unități)."
+          },
+          {
+            "t": "Corelația multiplă R",
+            "d": "Influența combinată a tuturor VI asupra VD: R = √(β1r1y + β2r2y) = √(0,054·0,39 + 0,74·0,77) ≈ 0,77, corelație puternică. R² ≈ 0,59 se interpretează ca r²: circa 59% din variația post-testului; restul de 41%, alte variabile, erori sau întâmplare."
+          }
+        ],
+        "tabel": {
+          "cap": [
+            "Rezultat",
+            "Ce indică",
+            "Pas următor"
+          ],
+          "randuri": [
+            [
+              "ryz·x ≪ ryz",
+              "relație inautentică (X cauză comună) sau prin intermediar (Y → X → Z)",
+              "criterii de conținut (ordinea în timp)"
+            ],
+            [
+              "ryz·x ≈ ryz",
+              "relație directă Y–Z; X nu o influențează",
+              "—"
+            ],
+            [
+              "ryz·x ≫ ryz",
+              "Y și X, influențe separate asupra lui Z, necorelate între ele",
+              "regresia și corelația multiplă"
+            ]
+          ]
+        },
+        "figuri": [
+          {
+            "titlu": "Ce poate arăta corelația parțială",
+            "nota": "Diagramele din carte. Statistica nu deosebește primele două tipuri: decid criteriile de conținut (ordinea în timp a variabilelor).",
+            "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 190\" role=\"img\" aria-label=\"Trei tipuri de relație după corelația parțială: cauză comună, intermediar, influențe separate\" font-family=\"Georgia, serif\" font-size=\"13\"><circle cx=\"55.0\" cy=\"52.0\" r=\"14\" fill=\"#eb6834\" fill-opacity=\"0.15\" stroke=\"#eb6834\" stroke-width=\"1.5\"/><text x=\"55.0\" y=\"56.5\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"12.0\">X</text><circle cx=\"25.0\" cy=\"112.0\" r=\"14\" fill=\"#2a78d6\" fill-opacity=\"0.15\" stroke=\"#2a78d6\" stroke-width=\"1.5\"/><text x=\"25.0\" y=\"116.5\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"12.0\">Y</text><circle cx=\"85.0\" cy=\"112.0\" r=\"14\" fill=\"#2a78d6\" fill-opacity=\"0.15\" stroke=\"#2a78d6\" stroke-width=\"1.5\"/><text x=\"85.0\" y=\"116.5\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"12.0\">Z</text><line x1=\"47.8\" y1=\"66.3\" x2=\"34.8\" y2=\"92.3\" stroke=\"#2c2a26\" stroke-width=\"1.6\"/><polygon points=\"32.2,97.7 32.2,88.7 39.3,92.3\" fill=\"#2c2a26\"/><line x1=\"62.2\" y1=\"66.3\" x2=\"75.2\" y2=\"92.3\" stroke=\"#2c2a26\" stroke-width=\"1.6\"/><polygon points=\"77.8,97.7 70.7,92.3 77.8,88.7\" fill=\"#2c2a26\"/><line x1=\"41.0\" y1=\"112.0\" x2=\"69.0\" y2=\"112.0\" stroke=\"#6b6760\" stroke-width=\"1\" stroke-dasharray=\"3 3\"/><text x=\"55.0\" y=\"146.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.2\">inautentică:</text><text x=\"55.0\" y=\"159.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">X cauză comună</text><circle cx=\"118.0\" cy=\"82.0\" r=\"14\" fill=\"#2a78d6\" fill-opacity=\"0.15\" stroke=\"#2a78d6\" stroke-width=\"1.5\"/><text x=\"118.0\" y=\"86.5\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"12.0\">Y</text><circle cx=\"160.0\" cy=\"82.0\" r=\"14\" fill=\"#eb6834\" fill-opacity=\"0.15\" stroke=\"#eb6834\" stroke-width=\"1.5\"/><text x=\"160.0\" y=\"86.5\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"12.0\">X</text><circle cx=\"202.0\" cy=\"82.0\" r=\"14\" fill=\"#2a78d6\" fill-opacity=\"0.15\" stroke=\"#2a78d6\" stroke-width=\"1.5\"/><text x=\"202.0\" y=\"86.5\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"12.0\">Z</text><line x1=\"134.0\" y1=\"82.0\" x2=\"138.0\" y2=\"82.0\" stroke=\"#2c2a26\" stroke-width=\"1.6\"/><polygon points=\"144.0,82.0 136.0,86.0 136.0,78.0\" fill=\"#2c2a26\"/><line x1=\"176.0\" y1=\"82.0\" x2=\"180.0\" y2=\"82.0\" stroke=\"#2c2a26\" stroke-width=\"1.6\"/><polygon points=\"186.0,82.0 178.0,86.0 178.0,78.0\" fill=\"#2c2a26\"/><text x=\"160.0\" y=\"146.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.2\">prin intermediar:</text><text x=\"160.0\" y=\"159.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">Y → X → Z</text><circle cx=\"240.0\" cy=\"52.0\" r=\"14\" fill=\"#2a78d6\" fill-opacity=\"0.15\" stroke=\"#2a78d6\" stroke-width=\"1.5\"/><text x=\"240.0\" y=\"56.5\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"12.0\">Y</text><circle cx=\"300.0\" cy=\"52.0\" r=\"14\" fill=\"#eb6834\" fill-opacity=\"0.15\" stroke=\"#eb6834\" stroke-width=\"1.5\"/><text x=\"300.0\" y=\"56.5\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"12.0\">X</text><circle cx=\"270.0\" cy=\"112.0\" r=\"14\" fill=\"#2a78d6\" fill-opacity=\"0.15\" stroke=\"#2a78d6\" stroke-width=\"1.5\"/><text x=\"270.0\" y=\"116.5\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"12.0\">Z</text><line x1=\"247.2\" y1=\"66.3\" x2=\"260.2\" y2=\"92.3\" stroke=\"#2c2a26\" stroke-width=\"1.6\"/><polygon points=\"262.8,97.7 255.7,92.3 262.8,88.7\" fill=\"#2c2a26\"/><line x1=\"292.8\" y1=\"66.3\" x2=\"279.8\" y2=\"92.3\" stroke=\"#2c2a26\" stroke-width=\"1.6\"/><polygon points=\"277.2,97.7 277.2,88.7 284.3,92.3\" fill=\"#2c2a26\"/><text x=\"270.0\" y=\"146.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.2\">influențe separate:</text><text x=\"270.0\" y=\"159.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">Y, X → Z</text><text x=\"55.0\" y=\"20.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.8\">ryz·x ≪ ryz</text><text x=\"160.0\" y=\"20.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.8\">ryz·x ≪ ryz</text><text x=\"270.0\" y=\"20.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.8\">ryz·x ≫ ryz</text><line x1=\"107.0\" y1=\"10.0\" x2=\"107.0\" y2=\"162.0\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><line x1=\"215.0\" y1=\"10.0\" x2=\"215.0\" y2=\"162.0\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><text x=\"160.0\" y=\"182.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">dacă ryz·x ≈ ryz: relație directă Y–Z, X nu o influențează</text></svg>"
+          },
+          {
+            "titlu": "Regresia multiplă standardizată pe exemplul cu 15 subiecți",
+            "nota": "β2 ≫ β1: media răspunsurilor corecte la încercări cântărește mult mai mult decât pre-testul. Împreună explică circa 59% din variația post-testului.",
+            "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 180\" role=\"img\" aria-label=\"Coeficienții β ai celor două variabile independente și R² comun\" font-family=\"Georgia, serif\" font-size=\"13\"><line x1=\"120.0\" y1=\"30.0\" x2=\"120.0\" y2=\"140.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><line x1=\"120.0\" y1=\"30.0\" x2=\"120.0\" y2=\"140.0\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><text x=\"120.0\" y=\"154.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">0,00</text><line x1=\"165.0\" y1=\"30.0\" x2=\"165.0\" y2=\"140.0\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><text x=\"165.0\" y=\"154.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">0,25</text><line x1=\"210.0\" y1=\"30.0\" x2=\"210.0\" y2=\"140.0\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><text x=\"210.0\" y=\"154.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">0,50</text><line x1=\"255.0\" y1=\"30.0\" x2=\"255.0\" y2=\"140.0\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><text x=\"255.0\" y=\"154.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">0,75</text><line x1=\"300.0\" y1=\"30.0\" x2=\"300.0\" y2=\"140.0\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><text x=\"300.0\" y=\"154.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">1,00</text><rect x=\"120.0\" y=\"38.0\" width=\"9.7\" height=\"22.0\" fill=\"#2a78d6\"><title>β1 (pre-test): 0,05</title></rect><text x=\"114.0\" y=\"53.0\" text-anchor=\"end\" fill=\"#2c2a26\" font-size=\"10.8\">β1 (pre-test)</text><text x=\"134.7\" y=\"53.0\" text-anchor=\"start\" fill=\"#2c2a26\" font-size=\"10.8\">0,054</text><rect x=\"120.0\" y=\"72.0\" width=\"133.2\" height=\"22.0\" fill=\"#2a78d6\"><title>β2 (încercări): 0,74</title></rect><text x=\"114.0\" y=\"87.0\" text-anchor=\"end\" fill=\"#2c2a26\" font-size=\"10.8\">β2 (încercări)</text><text x=\"258.2\" y=\"87.0\" text-anchor=\"start\" fill=\"#2c2a26\" font-size=\"10.8\">0,74</text><rect x=\"120.0\" y=\"106.0\" width=\"106.2\" height=\"22.0\" fill=\"#1baf7a\"><title>R² (împreună): 0,59</title></rect><text x=\"114.0\" y=\"121.0\" text-anchor=\"end\" fill=\"#2c2a26\" font-size=\"10.8\">R² (împreună)</text><text x=\"231.2\" y=\"121.0\" text-anchor=\"start\" fill=\"#2c2a26\" font-size=\"10.8\">0,59</text><text x=\"160.0\" y=\"20.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"12.0\">Zy = 0,054·Z1 + 0,74·Z2</text><text x=\"160.0\" y=\"172.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">R = √(0,054·0,39 + 0,74·0,77) ≈ 0,77</text></svg>"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "_info": "Registrul cursurilor PsiQuiz. sursa = folderul cu CURS.md + capNN.json; pagina = pagina asamblată publicată (construită din sursa, nu se editează de mână); materiale = folderul local cu PDF-urile, relativ la C:\\Psi. index (opțional) = pagina de cuprins a materiei, legată din index.html, când materia are mai multe pagini.",
+  "_info": "Registrul cursurilor PsiQuiz. sursa = folderul cu CURS.md + capNN.json; pagina = pagina asamblată publicată (construită din sursa, nu se editează de mână); materiale = folderul local cu PDF-urile, relativ la C:\\Psi. index (opțional) = pagina de cuprins a materiei, legată din index.html, când materia are mai multe pagini. inapoi = linkul de întoarcere pus sus în pagină (și în pagini_extra, paginile făcute separat), de psiquiz.py build/inapoi.",
   "cursuri": [
     {
       "cheie": "asd",
@@ -7,14 +7,26 @@
       "sursa": "An1_Sem1/sources/asd",
       "pagina": "An1_Sem1/ASD.html",
       "materiale": "An1_Sem1/Analiza Superioara a Datelor",
-      "index": "An1_Sem1/ASD_index.html"
+      "index": "An1_Sem1/ASD_index.html",
+      "inapoi": {
+        "text": "← Back",
+        "href": "ASD_index.html"
+      },
+      "pagini_extra": [
+        "An1_Sem1/ASD_Subiecte_examen_ian2026.html",
+        "An1_Sem1/ASD_Grila_examen_ian2026.html"
+      ]
     },
     {
       "cheie": "psi_exp",
       "titlu": "Psihologie experimentală",
       "sursa": "An1_Sem1/sources/psi_exp",
       "pagina": "An1_Sem1/Psihologie_experimentala.html",
-      "materiale": "An1_Sem1/Psihologie Experimentala"
+      "materiale": "An1_Sem1/Psihologie Experimentala",
+      "inapoi": {
+        "text": "← Toate materiile",
+        "href": "../index.html"
+      }
     }
   ]
 }

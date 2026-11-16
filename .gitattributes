@@ -1,0 +1,4 @@
+# Terminații de rând LF în repo, oricare ar fi sistemul pe care se scriu fișierele
+*.html text eol=lf
+*.json text eol=lf
+*.md text eol=lf

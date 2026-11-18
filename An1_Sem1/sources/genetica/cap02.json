@@ -613,7 +613,7 @@
         "noduri": [
           {
             "t": "Mendel și hibridarea",
-            "d": "Gregor Mendel, călugăr și matematician din Brno, a publicat în 1865 experiențele de hibridare (încrucișare între indivizi genetic diferiți) cu soiuri de mazăre. Noutatea: a numărat descendenții, deci a permis previziuni statistice. A văzut „factorii ereditari” (genele) ca particule distincte care nu se amestecă, contra teoriei amestecului. Teoria a fost confirmată de teoria cromozomială și de genetica moleculară."
+            "d": "Gregor Mendel (Brno, 1865) a încrucișat soiuri de mazăre și a numărat descendenții, ceea ce a permis previziuni statistice. A văzut factorii ereditari (genele) ca particule distincte, care nu se amestecă, contra teoriei amestecului."
           },
           {
             "t": "Caractere mendeliene",
@@ -667,7 +667,7 @@
           },
           {
             "t": "Legea I: puritatea gameților",
-            "d": "Gameții sunt puri genetic: conțin o singură alelă din pereche; heterozigotul formează două tipuri de gameți, în proporții egale. Separarea se produce în meioză, odată cu separarea cromozomilor omologi (Rostand: „părinții divorțează în celulele sexuale ale copiilor”). Unirea gameților la fecundație e probabilistică → 3 dominant : 1 recesiv în F2."
+            "d": "Gameții sunt puri: conțin o singură alelă din pereche, iar heterozigotul formează două tipuri de gameți, în proporții egale (separarea omologilor în meioză). Unirea lor întâmplătoare la fecundație dă în F2 raportul 3 dominant : 1 recesiv."
           },
           {
             "t": "Ratele de segregare",
@@ -759,11 +759,11 @@
           },
           {
             "t": "Alelele ABO",
-            "d": "Locusul ABO e pe brațele lungi ale cromozomului 9. Alelele (notate după Landsteiner) Lᴬ și Lᴮ sunt codominante între ele și dominante față de l, care împiedică formarea antigenelor. În ser apar anticorpi doar contra antigenului absent; reacția antigen–anticorp (aglutinarea) explică accidentele transfuzionale observate încă din 1667."
+            "d": "Lᴬ și Lᴮ (notate după Landsteiner) sunt codominante între ele și dominante față de l, care nu formează antigen; locusul e pe cromozomul 9. În ser apar anticorpi doar contra antigenului absent, de unde aglutinarea în transfuziile incompatibile."
           },
           {
             "t": "Grupele în populații",
-            "d": "Frecvențele diferă între populații, poate prin adaptare (imunitate la bolile unei zone). Ex.: grupa O ~69% la amerindieni, unde B și AB aproape lipsesc; la români A 41%, O 36%, B 16%, AB 7%. Alela B are frecvența maximă în Asia centrală, de unde s-ar fi răspândit: distribuția alelelor urmărește marile migrații."
+            "d": "Frecvențele ABO diferă între populații, poate prin adaptare la bolile unei zone (la amerindieni, grupa O ~69%, iar B aproape lipsește). Alela B pare răspândită din Asia centrală: distribuția alelelor urmărește marile migrații."
           }
         ]
       },
@@ -802,7 +802,7 @@
           },
           {
             "t": "Diversitatea genetică",
-            "d": "2²³ = 8.388.608 variante de gameți; prin fecundație, 2⁴⁶ indivizi posibili (peste 70.000 de miliarde), fără a socoti crossing-over-ul (schimbul de segmente între omologi), care face numărul combinațiilor practic nelimitat. Reproducerea sexuată a fost un progres imens: variabilitatea genetică e „sine qua non”-ul evoluției."
+            "d": "Fără crossing-over, 2²³ = 8.388.608 tipuri de gameți și 2⁴⁶ zigoți posibili (peste 70.000 de miliarde); crossing-over-ul (schimb de segmente între omologi) face combinațiile practic nelimitate. Variabilitatea e „sine qua non”-ul evoluției."
           }
         ]
       },
@@ -811,11 +811,11 @@
         "noduri": [
           {
             "t": "Ipoteza genei unice",
-            "d": "Comportamentul e un fenotip măsurabil, dar adesea o colecție heterogenă de comportamente; e puțin probabil ca cele complexe să fie monogenice. Ipoteza unei gene se testează prin încrucișări controlate și analiza segregării (F1, F2, back-cross), de obicei la șoarece (ex.: gustul sucrozei octoacetat, al chininei, al stricninei). O genă nu produce direct un comportament: controlează producția de proteine."
+            "d": "Comportamentele sunt adesea colecții heterogene, deci cele complexe sunt rar monogenice; ipoteza unei gene se testează prin încrucișări și analiza segregării (F1, F2, back-cross), de obicei la șoarece. O genă nu produce direct un comportament: controlează proteine."
           },
           {
             "t": "Șoarecii waltzing",
-            "d": "Șoareci care își scutură capul și se rotesc rapid. Încrucișați între ei: urmași identici (linie homozigotă, consangvinizată). Cu șoareci normali: niciunul dintre 254 de urmași nu valsează → alela waltzing e recesivă. F2: 3 normali : 1 waltzing; back-cross-ul confirmă modelul monogenic. Peste 300 de defecte neurologice la șoarece țin mai ales de mutații recesive."
+            "d": "Linia waltzing (se rotesc, își scutură capul) e homozigotă; încrucișați cu normali, niciunul din 254 de urmași nu valsează, deci alela e recesivă, iar F2 (3 : 1) și back-cross-ul confirmă modelul. La șoarece, peste 300 de defecte neurologice sunt mai ales recesive."
           }
         ]
       },

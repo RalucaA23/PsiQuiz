@@ -613,7 +613,7 @@
         "noduri": [
           {
             "t": "Ereditatea",
-            "d": "Proprietatea organismelor de a transmite urmașilor caracteristici morfologice, fiziologice, biochimice și comportamentale. Nu caracterele se transmit direct, ci informația din genele gameților: ereditatea e un proces informațional de stocare, exprimare și transmitere. În practică are sens restrâns: cum se transmite o genă (dominant, recesiv, legat de sex). Termenul a intrat în biologie prin psihiatrul Prosper Lucas (1847); Mendel își numise legile „ale hibridării”."
+            "d": "Proprietatea organismelor de a transmite urmașilor caracteristici morfologice, fiziologice, biochimice și comportamentale. Nu caracterele se transmit direct, ci informația din genele gameților: un proces de stocare, exprimare și transmitere."
           },
           {
             "t": "Genetica",
@@ -621,11 +621,11 @@
           },
           {
             "t": "Gena",
-            "d": "Unitatea structurală și funcțională a materialului genetic: segment de ADN care codifică un polipeptid. ADN-ul e o macromoleculă din două lanțuri de nucleotide complementare, în dublu helix, aflată în cele 23 de perechi de cromozomi. Formula clasică „o genă → un caracter” a devenit „o genă → o proteină” („dogma centrală”)."
+            "d": "Unitatea structurală și funcțională a materialului genetic: un segment de ADN (dublu helix din două lanțuri de nucleotide) care codifică un polipeptid. Formula clasică „o genă → un caracter” a devenit „o genă → o proteină”."
           },
           {
             "t": "Breșele dogmei centrale",
-            "d": "Genele reglatoare (netraduse în proteine) activează sau suprimă genele codificatoare; genele sunt întrerupte de introni necodanți, eliminați din mesaj; decuparea și citirea exonilor depinde de tipul și starea celulei; există gene în interiorul altor gene. Aceeași genă poate fi citită diferit: gena devine „o entitate funcțională labilă”."
+            "d": "Genele reglatoare, netraduse în proteine, activează sau suprimă genele codificatoare; intronii se elimină, iar exonii se decupează și se citesc după tipul celulei. Aceeași genă poate da proteine diferite: gena devine o „entitate funcțională labilă”."
           },
           {
             "t": "Mutația și alela",
@@ -671,7 +671,7 @@
         "noduri": [
           {
             "t": "Determinism exclusiv genetic",
-            "d": "Caracterele de specie și cele ale individualității biologice (grupe sanguine, grupe tisulare HLA, proteine serice, enzime) și unele anormale (hemofilia, sindromul Down); determinism monogenic, transmitere mendeliană. Utile la identificare, paternitate, transfuzii, transplant, diagnosticul gemenilor monozigoți/dizigoți. Fiind polimorfe, fac din fiecare un unicat biologic."
+            "d": "Caracterele individualității biologice (grupe sanguine, HLA, proteine serice, enzime) și unele boli (hemofilia, sindromul Down): monogenice, mendeliene, polimorfe. Servesc la identificare, paternitate, transfuzii, transplant și la diagnosticul gemenilor MZ/DZ."
           },
           {
             "t": "Ereditar nu înseamnă inevitabil",
@@ -679,7 +679,7 @@
           },
           {
             "t": "Determinism eco-genetic",
-            "d": "Caracterele multifactoriale: interacțiunea, în proporții diferite, dintre mai multe gene și mai mulți factori de mediu. Normale: înălțimea (condiționată genetic 76%; a crescut unde s-au ameliorat condițiile), greutatea, inteligența. Nu moștenim un IQ, ci abilitatea de a-l dezvolta; testele nu măsoară factorul ereditar."
+            "d": "Mai multe gene și mai mulți factori de mediu, în proporții diferite: înălțimea (76% genetică; a crescut unde s-au ameliorat condițiile), greutatea, inteligența. Nu moștenim un IQ, ci abilitatea de a-l dezvolta."
           },
           {
             "t": "Norma de reacție",
@@ -687,11 +687,15 @@
           },
           {
             "t": "Predispoziția genetică",
-            "d": "Caracterele multifactoriale anormale: bolile comune ale adultului (hipertensiune arterială esențială — precizare, nu din manual: „esențială” = fără o cauză anume identificată, numită și primară —, diabet, boală coronariană, psihoza maniaco-depresivă, epilepsie) și malformațiile congenitale comune (de cord, luxația congenitală de șold, buza de iepure). Genele dau doar vulnerabilitate, care devine boală prin interacțiunea cu mediul. Fără transmitere mendeliană, au totuși concentrare familială, deci medicul privește și familia."
+            "d": "În bolile multifactoriale anormale, genele dau doar o vulnerabilitate, care devine boală prin interacțiunea cu mediul. Fără transmitere mendeliană, aceste boli au concentrare familială, deci medicul privește și familia bolnavului."
+          },
+          {
+            "t": "Boli multifactoriale comune",
+            "d": "Bolile comune ale adultului: hipertensiunea arterială esențială (precizare, nu din manual: fără o cauză anume, numită și primară), diabetul, boala coronariană, psihoza maniaco-depresivă, epilepsia; malformații: de cord, luxația de șold, buza de iepure."
           },
           {
             "t": "Determinism exclusiv ecologic",
-            "d": "Accidente, intoxicații, traumatisme, avitaminoze. Dar și aici răspunsul depinde de structura genetică: în epidemii nu se îmbolnăvesc toți expușii. Claude Bernard: „microbul nu-i nimic, terenul este totul”; Ambroise Paré: „nu există boli, există bolnavi” (extins: „familii de bolnavi”). Aproape nu există caractere strict ecologice."
+            "d": "Accidente, intoxicații, traumatisme, avitaminoze; și aici răspunsul depinde de structura genetică, deci aproape nu există caractere strict ecologice. Claude Bernard: „microbul nu-i nimic, terenul este totul”; Paré: „nu există boli, există bolnavi”."
           }
         ]
       },
@@ -700,7 +704,7 @@
         "noduri": [
           {
             "t": "Interacțiunea ereditate–mediu",
-            "d": "Fiecare organism e, în egală măsură, produsul eredității și al mediului. Teoriile clasice separau net înnăscutul de dobândit; cercetările recente arată că interacționează, fiecare depinzând de celălalt, evident mai ales la dezvoltarea creierului și a inteligenței. Dobzhansky: „Omul este o parte a mediului său”; omul și cultura au evoluat sincron."
+            "d": "Fiecare organism e, în egală măsură, produsul eredității și al mediului: teoriile clasice separau înnăscutul de dobândit, azi se știe că interacționează, mai ales în dezvoltarea creierului și a inteligenței. Dobzhansky: „Omul este o parte a mediului său”."
           },
           {
             "t": "Mediul",
@@ -712,7 +716,7 @@
           },
           {
             "t": "Lewontin: biologia ne face liberi",
-            "d": "Lewontin (1985): determinismul biologic spune că nu suntem liberi; dar creierul, mâinile și limbajul ne-au făcut independenți de multe trăsături ale mediului, creatori care îl recreează: „tocmai biologia noastră ne face liberi”. Opusul libertății nu e determinismul, ci coerciția; mulți invocă determinismul genetic ca să scape de responsabilitate."
+            "d": "Lewontin (1985): creierul, mâinile și limbajul ne fac creatori care recreează mediul, deci „tocmai biologia noastră ne face liberi”. Opusul libertății nu e determinismul, ci coerciția; determinismul genetic e des invocat ca scuză."
           }
         ]
       },
@@ -778,7 +782,7 @@
           },
           {
             "t": "Eugenismul și ambientalismul",
-            "d": "La început de secol XX, comportamentul era văzut ca puternic ereditar; darwinismul social a dus la eugenism și la sterilizări (30 de state ale SUA). Davenport: „gena thalassophiliei” pe cromozomul X. Apoi, teoriile ambientaliste (mediul decisiv: sărăcie, educație), cu programe sociale costisitoare, abandonate. Behavioriștii (Skinner) au exclus o vreme genetica: doctrina uniformității copiilor la naștere."
+            "d": "Eugenismul (început de secol XX, Davenport) vedea comportamentul ca strict ereditar și a dus la sterilizări forțate. Ambientalismul și behaviorismul (Skinner) au făcut mediul decisiv, cu copii la fel la naștere; programele sociale costisitoare au fost abandonate."
           },
           {
             "t": "Diferențele interindividuale",
@@ -786,7 +790,11 @@
           },
           {
             "t": "Direcții de cercetare",
-            "d": "Niciun comportament nu a fost legat strict de markeri genetici: comportamentul nu e moștenit per se, dar zestrea ereditară poate facilita sau frâna învățarea. Teme: originea limbajului, personalitatea, boala mentală, agresiunea, diferențele de gen, inteligența. Direcții noi: epidemiologia genetică a bolilor psihice; scanarea genomului pentru gene de predispoziție (boala maniaco-depresivă, schizofrenie, Alzheimer, alcoolism, autism); problemele etice ale discriminării genetice."
+            "d": "Epidemiologia genetică a bolilor psihice; scanarea genomului pentru gene de predispoziție (boala maniaco-depresivă, schizofrenie, Alzheimer, alcoolism, autism, sindromul hiperkinetic); problemele etice ale discriminării pe baza informației genetice."
+          },
+          {
+            "t": "Comportamentul nu e moștenit per se",
+            "d": "Niciun comportament nu a fost legat strict de markeri genetici: zestrea ereditară doar facilitează sau frânează învățarea. Teme ale dezbaterii: limbajul, personalitatea, boala mentală, agresiunea, diferențele de gen, inteligența."
           }
         ]
       },
@@ -795,11 +803,11 @@
         "noduri": [
           {
             "t": "Bioetica",
-            "d": "Bios + ethos: etica științelor vieții; se ocupă de consecințele etice ale performanțelor biomedicale, mai ales genetice (teste genetice, profil genetic, OMG, clonare), și caută consensul dintre științific și etic. Reglementările devin repede caduce și se reexaminează. Jonas Salk: „Responsabilitatea noastră este să fim buni strămoși!”"
+            "d": "Etica științelor vieții (bios + ethos): consecințele etice ale performanțelor biomedicale, mai ales genetice (teste genetice, OMG, clonare), și consensul științific–etic. Jonas Salk: „Responsabilitatea noastră este să fim buni strămoși!”"
           },
           {
             "t": "Declarația Universală asupra Genomului Uman",
-            "d": "Lansată în 1997 de Comitetul Internațional de Bioetică UNESCO (la 50 de ani de la Carta Drepturilor Omului), cu 186 de state. Genomul uman e patrimoniu comun al umanității; nimeni nu va fi discriminat după caracteristicile genetice; limite pentru intervenții, apărarea demnității, respingerea determinismului genetic."
+            "d": "UNESCO, 1997 (186 de state): genomul uman e patrimoniu comun al umanității; nimeni nu e discriminat după caracteristicile genetice; limite pentru intervenții, apărarea demnității, respingerea determinismului genetic."
           },
           {
             "t": "Principiile bioeticii",
@@ -812,7 +820,7 @@
         "noduri": [
           {
             "t": "Genom și proteom",
-            "d": "Genom = totalitatea informației genetice din ADN, aceeași în toate celulele. Proteom = setul de proteine codificat; diferă între celule, pentru că activitatea genelor depinde de tipul de celulă, țesut, etapă a vieții. Genomica: cartografierea, secvențierea și analiza genomului (ordinea bazelor A, T, G, C, circa 3 miliarde de „litere”); proteomica: studiul proteinelor."
+            "d": "Genomul (informația genetică din ADN) e același în toate celulele; proteomul (setul de proteine codificat) diferă după tipul de celulă, țesut și etapa vieții. Genomica secvențiază genomul (A, T, G, C); proteomica studiază proteinele."
           },
           {
             "t": "Desfășurarea programului",
@@ -824,7 +832,7 @@
           },
           {
             "t": "ADN-ul necodant",
-            "d": "Gene distribuite neuniform (zone aglomerate și zone „deșertice”). Peste 90% din ADN nu codifică nicio genă, cu rost necunoscut; secvențele repetitive sunt un document fosil al evoluției. În zonele necodante se acumulează polimorfisme ADN, probabil legate de susceptibilitatea la boli comune și de răspunsul diferit la medicamente."
+            "d": "Peste 90% din ADN nu codifică gene și are rost necunoscut; secvențele repetitive sunt un document fosil al evoluției. Polimorfismele ADN din aceste zone ar explica susceptibilitatea la boli comune și răspunsul diferit la medicamente."
           },
           {
             "t": "99,9% identic",

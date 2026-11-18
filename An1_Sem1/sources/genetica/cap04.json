@@ -1,0 +1,834 @@
+{
+  "schema": "quiz-capitol-v3",
+  "capitol": 4,
+  "titlu": "Bazele cromozomiale ale eredității. Cromozomii umani: morfologie, structură, funcție",
+  "sursa": "Genetica comportamentului uman, Unitatea 4, pp. 61–72",
+  "runde": [
+    {
+      "id": "1",
+      "eticheta": "Runda 1 · Bază",
+      "titlu": "Runda 1 — Concepte de bază",
+      "desc": "Teorie: teoria cromozomială, diviziunea și ciclul celular, morfologia cromozomilor, cariotipul și inactivarea X, în întrebări directe.",
+      "intrebari": [
+        {
+          "q": "Cum explică teoria cromozomială segregarea caracterelor mendeliene?",
+          "opts": [
+            "Prin amestecul sângelui celor doi părinți",
+            "Prin mutațiile noi apărute în fiecare generație de urmași",
+            "Prin separarea cromozomilor în timpul diviziunii",
+            "Prin inactivarea unui cromozom la fiecare sex"
+          ],
+          "correct": 2,
+          "explain": "Morgan arată că genele stau pe cromozomi, iar segregarea cromozomilor în diviziune explică segregarea genelor, ca în Cap. 2 (Ereditatea mendeliană: legile lui Mendel). Amestecul sângelui e teoria respinsă de Mendel; mutațiile sunt rare și neregulate; inactivarea unui X privește doar compensarea dozei la femeie.",
+          "tag": "Teoria cromozomială",
+          "tip": "principiu",
+          "noutate": "nou"
+        },
+        {
+          "q": "Ce se întâmplă, prin linkage, cu două gene aflate pe același cromozom?",
+          "opts": [
+            "Se asortează independent, ca în legea a II-a",
+            "Tind să se transmită împreună, în bloc",
+            "Se exprimă numai la indivizii heterozigoți",
+            "Se inactivează una pe alta în celulele-fiice"
+          ],
+          "correct": 1,
+          "explain": "În diviziune cromozomul se comportă ca o unitate, deci genele de pe el se transmit înlănțuit (grupă de linkage). Asortarea independentă din legea a II-a, din Cap. 2 (Ereditatea mendeliană: legile lui Mendel), e valabilă pentru genele de pe cromozomi diferiți; expresia sau inactivarea genelor nu țin de linkage.",
+          "tag": "Linkage",
+          "tip": "concept",
+          "noutate": "nou"
+        },
+        {
+          "q": "Ce efect are crossing-over-ul asupra gameților?",
+          "opts": [
+            "Produce gameți recombinați, cu gene trecute pe omologul opus",
+            "Înjumătățește numărul de cromozomi din fiecare gamet",
+            "Dublează cantitatea de ADN din nucleu înaintea diviziunii celulei",
+            "Dă fiecărei celule-fiice câte o cromatidă identică"
+          ],
+          "correct": 0,
+          "explain": "Crossing-over-ul e schimbul de fragmente între cromozomii omologi în meioză: genele trec pe cromozomul opus și apar gameți recombinați. Înjumătățirea numărului ține de meioză în ansamblu, dublarea ADN-ului de faza S, iar repartizarea cromatidelor de mitoză.",
+          "tag": "Crossing-over",
+          "tip": "fenomen",
+          "noutate": "nou"
+        },
+        {
+          "q": "Ce avantaj i-au oferit lui Morgan larvele de Drosophila pentru localizarea genelor?",
+          "opts": [
+            "Cromozomi identici ca formă cu cromozomii umani",
+            "Cromozomi gigantici, cu benzi vizibile în mod natural",
+            "Cromozomi care rămân vizibili și în perioada dintre diviziuni",
+            "Un singur cromozom, fără pereche de omologi"
+          ],
+          "correct": 1,
+          "explain": "Glandele salivare ale larvelor au cromozomi de 150 de ori mai lungi, cu benzi; o mutație indusă cu raze X se vedea ca o schimbare a modelului de benzi, deci gena putea fi localizată. Musculița are patru perechi de cromozomi, diferiți de cei umani; la om benzile s-au obținut abia prin colorații speciale.",
+          "tag": "Drosophila și cromozomii giganți",
+          "tip": "istoric",
+          "noutate": "nou"
+        },
+        {
+          "q": "Pe ce căi produce meioza variabilitate genetică?",
+          "opts": [
+            "Crossing-over și asortarea cromozomilor materni și paterni",
+            "Replicarea ADN-ului în faza S și inhibiția de contact între celule",
+            "Condensarea cromatinei și inactivarea unui cromozom X",
+            "Mutațiile din faza S și moartea programată a celulelor"
+          ],
+          "correct": 0,
+          "explain": "Meioza recombină genele prin crossing-over (schimb între omologi) și prin combinarea întâmplătoare a setului matern cu cel patern; fecundația adaugă combinarea gameților. Replicarea, inhibiția de contact și apoptoza țin de ciclul celular, iar inactivarea unui X de compensarea dozei.",
+          "tag": "Recombinarea genetică",
+          "tip": "principiu",
+          "noutate": "nou"
+        },
+        {
+          "q": "Ce asigură mitoza în celulele somatice?",
+          "opts": [
+            "Reducerea la jumătate a numărului de cromozomi",
+            "Recombinarea genelor materne cu cele paterne în celule",
+            "Inactivarea cromozomilor X aflați în plus",
+            "Păstrarea numărului și a conținutului cromozomial"
+          ],
+          "correct": 3,
+          "explain": "Mitoza dă două celule-fiice identice cu celula-mamă, cu același număr diploid (2n = 46). Reducerea la n = 23 și recombinarea sunt rolurile meiozei; inactivarea X-urilor suplimentare e lyonizarea, alt mecanism.",
+          "tag": "Mitoza",
+          "tip": "principiu",
+          "noutate": "nou"
+        },
+        {
+          "q": "De ce nu se văd cromozomii la microscop în interfază?",
+          "opts": [
+            "Sunt degradați și refăcuți la fiecare diviziune",
+            "Ies din nucleu și se împrăștie în toată citoplasma celulei",
+            "Se unesc temporar într-un singur cromozom gigant",
+            "Materialul lor e decondensat, sub formă de cromatină"
+          ],
+          "correct": 3,
+          "explain": "În interfază materialul cromozomial e despiralizat, ca un ghem de cromatină (ADN, ARN, histone), deci nu se distinge; se condensează și devine vizibil doar în diviziune. Cromozomii nu se distrug, nu părăsesc nucleul și nu se unesc între ei.",
+          "tag": "Cromatina",
+          "tip": "structura",
+          "noutate": "nou"
+        },
+        {
+          "q": "Ce se întâmplă cu o celulă a cărei leziune cromozomială nu poate fi reparată?",
+          "opts": [
+            "E oprită înaintea mitozei și moare prin apoptoză",
+            "Intră în mitoză, iar leziunea se diluează în celulele-fiice",
+            "Trece în meioză și devine un gamet haploid",
+            "Sare peste faza S și rămâne fără replicare"
+          ],
+          "correct": 0,
+          "explain": "Punctele de control ale ciclului celular împiedică o celulă cu rupturi nereparate să intre în mitoză; dacă leziunea nu se poate repara, celula comite suicid (apoptoza, moartea programată). Leziunile nu se diluează prin diviziune, iar celulele somatice nu trec în meioză.",
+          "tag": "Punctele de control și apoptoza",
+          "tip": "etapa",
+          "noutate": "nou"
+        },
+        {
+          "q": "Ce rol are centromerul în timpul mitozei?",
+          "opts": [
+            "Protejează capetele cromatidelor de asocieri cu alți cromozomi",
+            "Înfășoară ADN-ul în jurul histonelor, ca un șirag de mărgele",
+            "Separă cromozomii omologi și reduce numărul la jumătate",
+            "Fixează cromozomul pe fus, care dă fiecărei celule o cromatidă"
+          ],
+          "correct": 3,
+          "explain": "Centromerul (constricția primară) e punctul prin care cromozomul se prinde de fibrele fusului; prin divizarea lui, fiecare celulă-fiică primește câte o cromatidă. Protecția capetelor e rolul telomerelor, înfășurarea în jurul histonelor formează nucleosomii, iar separarea omologilor e specifică meiozei.",
+          "tag": "Centromerul",
+          "tip": "structura",
+          "noutate": "nou"
+        },
+        {
+          "q": "Prin ce se deosebește un cromozom acrocentric de unul metacentric?",
+          "opts": [
+            "Are trei cromatide în loc de două",
+            "Are centromerul aproape terminal, nu median",
+            "Nu are telomere la capătul brațelor",
+            "Are brațul p mai lung decât brațul q"
+          ],
+          "correct": 1,
+          "explain": "Tipul morfologic depinde de poziția centromerului: median la metacentric, aproape terminal la acrocentric (brațul p foarte scurt). Toți cromozomii metafazici au două cromatide și telomere, iar p e prin convenție brațul scurt.",
+          "tag": "Tipurile morfologice",
+          "tip": "structura",
+          "noutate": "nou"
+        },
+        {
+          "q": "Ce indică litera p într-o descriere a cromozomului?",
+          "opts": [
+            "Brațul lung, aflat dedesubtul centromerului",
+            "Cromozomul pereche moștenit de la tată",
+            "Brațul scurt, de deasupra centromerului",
+            "Perechea cromozomilor de sex, X sau Y"
+          ],
+          "correct": 2,
+          "explain": "p vine de la „petit” (mic): brațul scurt, desenat prin convenție deasupra centromerului; brațul lung e q, următoarea literă din alfabet. Litera nu are legătură cu originea paternă, deși ideea e tentantă.",
+          "tag": "Brațele p și q",
+          "tip": "structura",
+          "noutate": "nou"
+        },
+        {
+          "q": "Cum încape o moleculă de ADN de circa 5 cm într-o cromatidă de circa 5 µm?",
+          "opts": [
+            "Prin tăierea ADN-ului în fragmente foarte scurte",
+            "Prin împachetări și spiralizări succesive ale fibrei",
+            "Prin eliminarea secvențelor care nu codifică",
+            "Prin împerecherea strânsă cu cromozomul omolog"
+          ],
+          "correct": 1,
+          "explain": "Fibra de ADN se înfășoară în jurul nucleosomilor (1 : 6), formează fibra de 30 nm (1 : 36), se spiralizează ca solenoid și apoi în cromozomul metafazic (peste 1 : 10 000). ADN-ul rămâne o moleculă întreagă, cu toate secvențele, iar omologii nu se împerechează în mitoză.",
+          "tag": "Nivelurile de împachetare",
+          "tip": "structura",
+          "noutate": "nou"
+        },
+        {
+          "q": "După ce criterii se ordonează cromozomii într-un cariotip?",
+          "opts": [
+            "Lungimea, poziția centromerului și modelul de benzi",
+            "Originea maternă sau paternă a fiecăruia",
+            "Numărul de gene active și de corpusculi Barr",
+            "Momentul în care se replică în faza S"
+          ],
+          "correct": 0,
+          "explain": "Cariotipul așază cromozomii în perechi de omologi după criterii morfologice (lungime, centromer, benzi), după un standard internațional. Originea parentală nu se vede la microscop, iar corpusculii Barr și replicarea nu servesc la ordonare.",
+          "tag": "Cariotipul",
+          "tip": "metoda",
+          "noutate": "nou"
+        },
+        {
+          "q": "Ce observație a dus la ideea compensării dozajului genic?",
+          "opts": [
+            "Bărbații au un X, dar nu suferă de bolile recesive de pe X",
+            "Femeile au două X, dar suferă mai des de bolile de pe X",
+            "Femeile au două X, dar nu produc dublu enzimele de pe X",
+            "Cromozomul Y e mic, dar poartă mai multe gene decât X"
+          ],
+          "correct": 2,
+          "explain": "Ar fi de așteptat ca proteinele genelor de pe X să fie în cantitate dublă la femei; dozările enzimatice arată însă valori egale cu ale bărbaților, deci un X e inactivat (Mary Lyon). Bărbații sunt tocmai cei afectați de mutațiile recesive de pe X, iar Y e mic și sărac în gene.",
+          "tag": "Compensarea dozajului genic",
+          "tip": "fenomen",
+          "noutate": "nou"
+        },
+        {
+          "q": "Ce se vede în nucleul interfazic al unei celule feminine în locul cromozomului X inactivat?",
+          "opts": [
+            "Un cromozom gigant, cu benzi vizibile în mod natural",
+            "Un șirag de nucleosomi liber, desfăcut din cromatină",
+            "Un corpuscul mai intens colorat, lipit de membrana nucleară",
+            "Un centromer izolat, fără cromatidele lui obișnuite"
+          ],
+          "correct": 2,
+          "explain": "X-ul inactivat se condensează și apare ca un corpuscul intens colorat pe fața internă a membranei nucleare: corpusculul Barr (cromatina de sex X), baza testului Barr al sexului genetic. Cromozomii giganți sunt specifici larvelor de Drosophila.",
+          "tag": "Corpusculul Barr",
+          "tip": "structura",
+          "noutate": "nou"
+        }
+      ],
+      "ascunse": [
+        {
+          "q": "De ce a fost stabilit abia în 1956 numărul exact de cromozomi ai omului?",
+          "opts": [
+            "Imaginile microscopice fiabile erau greu de obținut",
+            "Numărul cromozomilor diferă de la o rasă umană la alta",
+            "Structura ADN-ului nu fusese încă descoperită",
+            "Cromozomii se vedeau numai în celulele sexuale"
+          ],
+          "correct": 0,
+          "explain": "Dificultățile tehnice explică întârzierea: până atunci se credea că omul are, ca alte primate, 48 de cromozomi, deși modelul ADN era deja cunoscut din 1953. Cromozomii sunt similari la toate rasele și se văd în orice celulă aflată în diviziune.",
+          "tag": "Formula cromozomială",
+          "tip": "istoric",
+          "noutate": "nou"
+        },
+        {
+          "q": "Ce rol au telomerele?",
+          "opts": [
+            "Dau stabilitate cromozomului și împiedică asocierea capetelor",
+            "Fixează cromozomul pe fibrele fusului în timpul diviziunii celulare",
+            "Separă cromozomul într-un braț scurt și unul lung",
+            "Leagă cele două cromatide pe toată lungimea lor"
+          ],
+          "correct": 0,
+          "explain": "Telomera e capătul fiecărei cromatide; ea stabilizează cromozomul și împiedică lipirea lui de alți cromozomi. Fixarea pe fus și împărțirea în brațele p și q țin de centromer, iar cromatidele sunt libere pe lungime, unite doar la centromer.",
+          "tag": "Telomerele",
+          "tip": "structura",
+          "noutate": "nou"
+        },
+        {
+          "q": "Ce arată faptul că genele unuia dintre cromozomii X ai femeii există, dar nu funcționează?",
+          "opts": [
+            "Genele inactive sunt eliminate treptat din celulele adulte",
+            "Fiecare genă se exprimă la fel în toate celulele",
+            "Fenotipul depinde numai de numărul de gene prezente",
+            "Expresia genelor depinde de reglarea activității lor"
+          ],
+          "correct": 3,
+          "explain": "Inactivarea unui X e un mecanism de reglaj genetic: genele sunt prezente, dar oprite. De aici concluzia că nu genele singure fac „simfonia vieții”, ci dirijarea activității lor. Genele nu sunt eliminate, iar femeile sunt mozaicuri tocmai pentru că expresia diferă între celule.",
+          "tag": "Reglajul genetic",
+          "tip": "principiu",
+          "noutate": "nou"
+        },
+        {
+          "q": "Ce afirmă axioma lui Virchow?",
+          "opts": [
+            "Celulele noi se formează din materie neorganizată",
+            "Celulele noi se formează prin diviziunea celor existente",
+            "Genele sunt așezate liniar de-a lungul cromozomilor",
+            "Cromozomii devin vizibili doar în timpul diviziunii"
+          ],
+          "correct": 1,
+          "explain": "„Omnis cellula e cellula”: orice celulă provine dintr-o altă celulă, prin diviziune. Așezarea liniară a genelor e o teză a teoriei lui Morgan, iar vizibilitatea cromozomilor doar în diviziune e o proprietate a lor, nu axioma lui Virchow.",
+          "tag": "Axioma lui Virchow",
+          "tip": "principiu",
+          "noutate": "nou"
+        },
+        {
+          "q": "Prin ce a indus Morgan mutații la musculițele de oțet?",
+          "opts": [
+            "Prin încrucișări repetate între rude",
+            "Prin substanțe chimice puse în hrană",
+            "Prin iradierea lor cu raze X",
+            "Prin creșterea lor la temperaturi extreme"
+          ],
+          "correct": 2,
+          "explain": "Morgan a ajuns la dovada că genele stau în cromozomi după experiențe îndelungi de inducere a mutațiilor prin raze X. Încrucișările între rude cresc homozigoția, dar nu produc mutații; substanțele chimice sunt și ele mutagene, dar nu au fost metoda lui.",
+          "tag": "Mutația și mutageneza",
+          "tip": "istoric",
+          "noutate": "nou"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "eticheta": "Runda 2 · Aplicații",
+      "titlu": "Runda 2 — Scenarii și raționament",
+      "desc": "Situații cu mai mulți pași: interpretezi observații la microscop, calculezi cantități de ADN și corpusculi Barr, explici fenomene celulare.",
+      "intrebari": [
+        {
+          "q": "Un student știe că genomul unei celule haploide are, întins, circa 1 m de ADN. Câți metri de ADN ar avea, întinși, cromozomii dintr-o celulă a pielii?",
+          "opts": [
+            "Circa 1 m, fiindcă omologii sunt identici",
+            "Circa 0,5 m, fiindcă ADN-ul e împachetat",
+            "Circa 46 m, câte un metru de cromozom",
+            "Circa 2 m, fiindcă celula e diploidă"
+          ],
+          "correct": 3,
+          "explain": "Celula somatică are două seturi de cromozomi (2n = 46), deci dublul genomului haploid: aproximativ 2 m. Omologii poartă aceleași gene, dar sunt molecule distincte; împachetarea scurtează fibra, nu cantitatea de ADN, iar 1 m e lungimea întregului set haploid, nu a unui cromozom.",
+          "tag": "Lungimea genomului",
+          "tip": "calcul",
+          "noutate": "nou",
+          "exemplu_nou": false
+        },
+        {
+          "q": "Un cercetător urmărește două gene la musculițe. Dacă ar fi pe cromozomi diferiți, ar aștepta patru tipuri de gameți în proporții egale; observă însă că majoritatea gameților păstrează combinațiile părinților și doar puțini sunt recombinați. Ce explică rezultatul?",
+          "opts": [
+            "Genele sunt pe cromozomi diferiți, dar una dintre ele e dominantă",
+            "Genele sunt pe același cromozom; recombinații apar prin crossing-over",
+            "Gameții recombinați provin din mutații noi apărute în meioză",
+            "Genele sunt pe cromozomi diferiți, dar unul e inactivat"
+          ],
+          "correct": 1,
+          "explain": "Genele înlănțuite (linkage) se transmit în bloc, deci domină combinațiile parentale; puținii gameți recombinați apar prin schimbul de fragmente între omologi. Dominanța nu schimbă proporțiile gameților, mutațiile ar fi mult prea rare, iar inactivarea privește doar un X la femeie.",
+          "tag": "Linkage",
+          "tip": "principiu",
+          "noutate": "nou",
+          "exemplu_nou": true
+        },
+        {
+          "q": "Un radioterapeut tratează o tumoră ale cărei celule se divid mult mai repede decât țesutul din jur. În ce moment al ciclului sunt celulele cele mai sensibile la radiații și pe care le lovește mai ales tratamentul?",
+          "opts": [
+            "Chiar înainte de mitoză; mai ales celulele tumorale",
+            "În faza G1; mai ales neuronii din vecinătatea tumorii",
+            "În faza S; la fel toate celulele din organ",
+            "După mitoză; mai ales celulele sănătoase"
+          ],
+          "correct": 0,
+          "explain": "Sensibilitatea maximă la radiații e chiar înainte de mitoză, iar celulele care se divid des trec mai des prin acest moment: radiațiile blochează sau ucid mai ales celulele canceroase. Neuronii, opriți în G1, nu se mai divid, deci nu sunt ținta tratamentului.",
+          "tag": "Radiațiile și diviziunea",
+          "tip": "principiu",
+          "noutate": "nou",
+          "exemplu_nou": true
+        },
+        {
+          "q": "După un accident, un pacient are leziuni ale pielii, ale ficatului și ale unor neuroni din măduva spinării. Ce țesuturi se pot reface prin diviziuni celulare?",
+          "opts": [
+            "Pielea, ficatul și neuronii, prin mitoză obișnuită",
+            "Doar neuronii, care așteaptă în faza G2 un semnal de diviziune",
+            "Pielea repede, ficatul în anumite condiții, neuronii nu",
+            "Ficatul și neuronii repede, pielea foarte lent"
+          ],
+          "correct": 2,
+          "explain": "Celulele epidermului se divid rapid, hepatocitele au o capacitate redusă, dar se pot divide în anumite condiții, iar neuronii și-au pierdut după naștere capacitatea de diviziune și rămân opriți în G1. Varianta cu G2 inversează faza, iar cea cu pielea lentă inversează categoriile.",
+          "tag": "Categoriile de celule",
+          "tip": "principiu",
+          "noutate": "nou",
+          "exemplu_nou": true
+        },
+        {
+          "q": "Un laborator examinează celule de la trei persoane: un bărbat 46,XY, o femeie 46,XX și o femeie cu trei cromozomi X. Câți corpusculi Barr se așteaptă în nucleele lor?",
+          "opts": [
+            "1, 2 și 3",
+            "0, 1 și 2",
+            "0, 2 și 3",
+            "1, 1 și 1"
+          ],
+          "correct": 1,
+          "explain": "Femeia are nevoie de un singur X activ; ceilalți se condensează în corpusculi Barr, deci numărul lor e numărul de X minus unu: 0 la XY, 1 la XX, 2 la XXX. A număra toți cromozomii X uită că unul rămâne activ, iar „câte unul la toți” ignoră că bărbatul nu are ce inactiva.",
+          "tag": "Corpusculul Barr",
+          "tip": "calcul",
+          "noutate": "nou",
+          "exemplu_nou": true
+        },
+        {
+          "q": "La pisici, o genă pentru culoarea portocalie a blănii se află pe cromozomul X. Femelele heterozigote au blana în pete portocalii și negre, masculii o singură culoare. Ce explică petele?",
+          "opts": [
+            "Expresivitatea variabilă a unei gene autozomale a culorii",
+            "Inactivarea întâmplătoare a unui X, păstrată în celulele-fiice",
+            "Mutații noi apărute separat în fiecare zonă a pielii",
+            "Dominanța incompletă a alelei pentru culoarea portocalie"
+          ],
+          "correct": 1,
+          "explain": "În embrion fiecare celulă inactivează la întâmplare X-ul matern sau pe cel patern, iar modelul se transmite celulelor-fiice: femela e un mozaic de clone, cu pete. Expresivitatea variabilă, din Cap. 3 (Modele de transmitere a caracterelor monogenice), ar privi o genă autozomală; dominanța incompletă ar da o culoare intermediară uniformă.",
+          "tag": "Lyonizarea",
+          "tip": "fenomen",
+          "noutate": "nou",
+          "exemplu_nou": true
+        },
+        {
+          "q": "Un cercetător fotografiază la întâmplare 240 de celule dintr-o cultură al cărei ciclu celular durează circa 24 de ore. În câte dintre ele se așteaptă să vadă cromozomi?",
+          "opts": [
+            "În circa 120, jumătatea aflată în diviziune",
+            "În toate, cromozomii fiind structuri permanente",
+            "În circa 60, cele aflate în faza S",
+            "În circa 10, cele aflate în mitoză"
+          ],
+          "correct": 3,
+          "explain": "Cromozomii se văd doar în mitoză, care durează circa o oră din 24, deci în aproximativ 1/24 din celule: 240 / 24 = 10. În faza S ADN-ul se dublează, dar e decondensat; cromozomii există mereu, însă ca cromatină invizibilă în interfază.",
+          "tag": "Mitoza în ciclul celular",
+          "tip": "calcul",
+          "noutate": "nou",
+          "exemplu_nou": true
+        },
+        {
+          "q": "Cariotipul unei persoane arată 22 de perechi de cromozomi cu modele de benzi identice și o pereche formată dintr-un cromozom mare și unul mic. Ce formulă cromozomială are persoana?",
+          "opts": [
+            "46,XX",
+            "46,XY",
+            "44,XY",
+            "23,XY"
+          ],
+          "correct": 1,
+          "explain": "22 de perechi de autozomi înseamnă 44 de cromozomi, plus perechea inegală X (mare) și Y (mic): 46 în total, la un bărbat. Formula 44,XY numără doar autozomii ca total, 23 e numărul haploid al gameților, iar perechea XX ar fi formată din doi cromozomi la fel.",
+          "tag": "Formula cromozomială",
+          "tip": "calcul",
+          "noutate": "nou",
+          "exemplu_nou": true
+        },
+        {
+          "q": "Bărbații au un singur X; femeile au doi, dar unul e inactivat în fiecare celulă, deci și ele au un singur X funcțional per celulă. De ce femeile purtătoare nu sunt afectate de mutațiile recesive de pe X la fel de des ca bărbații?",
+          "opts": [
+            "Inactivarea e întâmplătoare: unele celule folosesc X-ul normal",
+            "La femei e inactivat de regulă tocmai X-ul care poartă mutația",
+            "Cromozomul Y al bărbaților amplifică efectul mutației",
+            "Femeile au copii de rezervă ale genelor pe autozomi"
+          ],
+          "correct": 0,
+          "explain": "La femeia heterozigotă, în unele celule rămâne activ X-ul normal, în altele cel mutant; celulele normale asigură în general funcția, deci femeia e sănătoasă. La bărbatul hemizigot toate celulele au X-ul mutant. Inactivarea nu țintește mutația, iar Y nu poartă perechea genelor de pe X.",
+          "tag": "Femeile ca mozaic",
+          "tip": "principiu",
+          "noutate": "nou",
+          "exemplu_nou": false
+        },
+        {
+          "q": "Cantitatea de ADN a unei celule somatice e măsurată o dată în faza G1 și apoi din nou în faza G2, înaintea mitozei. Ce se constată?",
+          "opts": [
+            "S-a dublat, fiindcă replicarea are loc în faza S",
+            "S-a înjumătățit, fiindcă celula pregătește meioza",
+            "E aceeași, fiindcă ADN-ul se copiază abia în mitoză",
+            "S-a dublat, fiindcă celula a fuzionat cu o vecină"
+          ],
+          "correct": 0,
+          "explain": "Faza S, în mijlocul interfazei, e cea în care ADN-ul se duplică; în G2 celula are deci dublul cantității din G1, pe care o împarte apoi egal celor două celule-fiice. Mitoza distribuie ADN-ul, nu îl copiază; celulele somatice nu intră în meioză.",
+          "tag": "Interfaza (G1, S, G2)",
+          "tip": "etapa",
+          "noutate": "nou",
+          "exemplu_nou": true
+        },
+        {
+          "q": "Un cercetător iradiază musculițe cu raze X și găsește o linie mutantă. În glandele salivare ale larvelor ei, un cromozom gigant are o bandă lipsă, care la musculițele normale există. Ce poate deduce?",
+          "opts": [
+            "Mutația a afectat în egală măsură toți cromozomii",
+            "Banda lipsă e o fenocopie produsă de iradiere",
+            "Gena mutantă se află probabil în regiunea benzii lipsă",
+            "Gena se află pe alt cromozom decât cel modificat"
+          ],
+          "correct": 2,
+          "explain": "Așa a localizat Morgan primele gene: o mutație indusă se vedea ca modificare a modelului de benzi, deci gena e în regiunea modificată. Fenocopia, din Cap. 3 (Modele de transmitere a caracterelor monogenice), e o modificare de mediu care nu se transmite, pe când linia mutantă se transmite.",
+          "tag": "Drosophila și cromozomii giganți",
+          "tip": "istoric",
+          "noutate": "nou",
+          "exemplu_nou": false
+        },
+        {
+          "q": "Într-o cultură, celulele normale se opresc din diviziune când acoperă fundul vasului; o altă linie continuă să se dividă și formează mase suprapuse. Ce sugerează comportamentul celei de-a doua linii?",
+          "opts": [
+            "E o linie de neuroni, care s-a oprit definitiv în faza G1",
+            "E o linie haploidă, rezultată dintr-o meioză",
+            "E o linie cu punctele de control ale ciclului intacte",
+            "E o linie canceroasă, care a scăpat de inhibiția de contact"
+          ],
+          "correct": 3,
+          "explain": "Celulele normale își limitează reciproc diviziunile prin inhibiția de contact; celulele canceroase se divid și cresc fără restricții. Neuronii nu se mai divid deloc, celulele haploide sunt gameți, iar punctele de control intacte ar frâna, nu ar întreține diviziunea.",
+          "tag": "Inhibiția de contact",
+          "tip": "fenomen",
+          "noutate": "nou",
+          "exemplu_nou": true
+        },
+        {
+          "q": "Un cuplu are trei fiice și se întreabă de ce depinde sexul următorului copil. Ce le explică geneticianul?",
+          "opts": [
+            "De ovul, care duce un X sau un Y; șansa rămâne ½",
+            "De numărul fiicelor de până acum, care mărește șansa unui băiat",
+            "De spermatozoid, care duce un X sau un Y; șansa rămâne ½",
+            "De hormonii mamei în primele săptămâni de sarcină"
+          ],
+          "correct": 2,
+          "explain": "Bărbatul e heterogametic (XY) și produce spermatozoizi cu X sau cu Y; femeia, XX, dă numai ovule cu X. Fiecare concepție e independentă, deci șansa rămâne ½. Cromozomii de sex determină sexul, nu hormonii materni.",
+          "tag": "Autozomi și gonozomi",
+          "tip": "principiu",
+          "noutate": "nou",
+          "exemplu_nou": true
+        },
+        {
+          "q": "La începutul unei mitoze, fiecare cromozom e format din două cromatide unite la centromer. Câte molecule de ADN are în acel moment un cromozom?",
+          "opts": [
+            "Una, pe care cromatidele o împart",
+            "Patru, câte una pe fiecare braț",
+            "Două, câte una în fiecare cromatidă",
+            "46, câte una pentru fiecare cromozom"
+          ],
+          "correct": 2,
+          "explain": "Un cromozom conține o singură moleculă liniară de ADN; după replicarea din faza S el e dedublat în două cromatide identice, deci are două molecule, câte una de fiecare celulă-fiică. Brațele p și q sunt părți ale aceleiași cromatide, nu molecule separate.",
+          "tag": "Cromatidele",
+          "tip": "structura",
+          "noutate": "nou",
+          "exemplu_nou": true
+        },
+        {
+          "q": "O mutație care produce hemofilie la câine e găsită pe cromozomul X. Unde se așteaptă cercetătorii să găsească gena corespunzătoare la om?",
+          "opts": [
+            "Tot pe X, fiindcă acesta s-a conservat la mamifere",
+            "Pe un autozom, fiindcă omul are mai mulți cromozomi",
+            "Pe Y, fiindcă la om boala afectează mai ales bărbații",
+            "Oriunde, fiindcă poziția genelor variază între specii"
+          ],
+          "correct": 0,
+          "explain": "Cromozomul X s-a păstrat ca atare în evoluția mamiferelor: o mutație de pe X la șoarece sau la câine e tot pe X la om (hemofilia, distrofia Duchenne). Faptul că bărbații sunt afectați ține tocmai de hemizigoția lor pentru X, nu de Y.",
+          "tag": "Cromozomul X la mamifere",
+          "tip": "principiu",
+          "noutate": "nou",
+          "exemplu_nou": true
+        }
+      ],
+      "ascunse": [
+        {
+          "q": "O femeie purtătoare a hemofiliei are sângerări ușoare, deși sora ei, tot purtătoare, nu are niciun simptom. Ce explică diferența?",
+          "opts": [
+            "Mutația ei e dominantă, iar cea a surorii e recesivă",
+            "La ea, în multe celule de interes a rămas activ X-ul cu mutația",
+            "Ea a moștenit două copii ale mutației, câte una de la fiecare părinte",
+            "Corpusculul ei Barr conține X-ul normal, care rămâne astfel activ"
+          ],
+          "correct": 1,
+          "explain": "Inactivarea unui X e întâmplătoare, deci proporția celulelor cu X-ul mutant activ diferă de la o femeie la alta; când predomină, apar simptome. Două copii ale mutației ar da hemofilie propriu-zisă, iar corpusculul Barr e chiar X-ul inactivat, nu cel activ.",
+          "tag": "Femeile ca mozaic",
+          "tip": "fenomen",
+          "noutate": "nou",
+          "exemplu_nou": true
+        },
+        {
+          "q": "Un student desenează un cariotip uman și pune printre cromozomi unul cu centromerul chiar la capăt, fără braț scurt. Ce greșeală a făcut?",
+          "opts": [
+            "Cromozomii acrocentrici nu există la om",
+            "Centromerul stă de regulă la mijlocul cromozomului",
+            "Cromozomii telocentrici nu există la om",
+            "Brațul scurt se desenează sub centromer"
+          ],
+          "correct": 2,
+          "explain": "Cu centromerul absolut terminal, cromozomul e telocentric, tip care nu există în specia umană. Acrocentricii (centromer aproape terminal) există; centromerul poate sta în orice punct, iar brațul scurt p se desenează deasupra.",
+          "tag": "Tipurile morfologice",
+          "tip": "structura",
+          "noutate": "nou",
+          "exemplu_nou": true
+        },
+        {
+          "q": "ADN-ul unui cromozom mediu are circa 5 cm, iar cromatida lui în metafază circa 5 µm. De câte ori e scurtat ADN-ul prin împachetare?",
+          "opts": [
+            "De circa 10 000 de ori",
+            "De circa 100 000 de ori",
+            "De circa 100 de ori",
+            "De circa 36 de ori"
+          ],
+          "correct": 0,
+          "explain": "5 cm = 50 000 µm; 50 000 / 5 = 10 000, rata de compactare a cromozomului metafazic (peste 1 : 10 000). 36 e rata fibrei de cromatină de 30 nm, doar un nivel intermediar; 100 000 ar însemna o cromatidă de 0,5 µm.",
+          "tag": "Nivelurile de împachetare",
+          "tip": "calcul",
+          "noutate": "nou",
+          "exemplu_nou": true
+        },
+        {
+          "q": "Un cercetător compară cariotipurile unor oameni din populații de pe continente diferite. Ce se așteaptă să găsească?",
+          "opts": [
+            "Același număr și aceeași morfologie a cromozomilor",
+            "Un număr diferit de autozomi, după populație",
+            "Același număr, dar alte tipuri morfologice",
+            "Un număr diferit de gonozomi, după climă"
+          ],
+          "correct": 0,
+          "explain": "Morfologia cromozomilor e constantă în cadrul speciei și similară la toate rasele umane; cariotipul e un parametru specific invariabil (46,XX sau 46,XY). Diferențele de număr sau formă țin de anomalii individuale, nu de populație.",
+          "tag": "Cromozomii",
+          "tip": "concept",
+          "noutate": "nou",
+          "exemplu_nou": true
+        },
+        {
+          "q": "O celulă a epidermului cu 46 de cromozomi se divide de trei ori la rând prin mitoză. Câți cromozomi are fiecare dintre cele opt celule rezultate?",
+          "opts": [
+            "23",
+            "92",
+            "6",
+            "46"
+          ],
+          "correct": 3,
+          "explain": "Mitoza păstrează numărul și conținutul cromozomial: după oricâte diviziuni, fiecare celulă are tot 2n = 46, fiindcă ADN-ul se replică în faza S înaintea fiecărei diviziuni. 23 e numărul gameților, după meioză; 92 ar cere dublare fără diviziune.",
+          "tag": "Mitoza",
+          "tip": "calcul",
+          "noutate": "nou",
+          "exemplu_nou": true
+        }
+      ]
+    }
+  ],
+  "harta": {
+    "centru": "Bazele cromozomiale ale eredității: cromozomii umani",
+    "ramuri": [
+      {
+        "titlu": "Citogenetica și teoria cromozomială",
+        "noduri": [
+          {
+            "t": "Cromozomii",
+            "d": "Depozitarii și vehiculele genelor, de la o celulă la alta și de la părinți la copii. Morfologia lor e constantă în specie, similară la toate rasele; se văd doar în diviziune."
+          },
+          {
+            "t": "Teoria cromozomială",
+            "d": "Thomas Morgan: cromozomii sunt baza materială a eredității. Teze: gene așezate liniar, linkage, crossing-over, segregarea cromozomilor explică segregarea genelor. Confirmă legile lui Mendel."
+          },
+          {
+            "t": "Linkage",
+            "d": "Genele de pe același cromozom se transmit înlănțuit, în bloc (grupă de linkage): în diviziune, cromozomul se comportă ca o unitate."
+          },
+          {
+            "t": "Crossing-over",
+            "d": "Schimb de fragmente între cromozomii omologi în meioză: genele trec pe cromozomul opus și apar gameți recombinați."
+          },
+          {
+            "t": "Drosophila și cromozomii giganți",
+            "d": "Musculița de oțet: 4 perechi de cromozomi, prolifică; larvele au cromozomi de 150 de ori mai lungi, cu benzi. Mutațiile se vedeau ca schimbări de benzi: primele gene localizate."
+          },
+          {
+            "t": "Mutația și mutageneza",
+            "d": "Mutația: orice modificare ereditară a informației genetice; mutageneza: procesul care le produce. Morgan le-a indus prin raze X. La om, benzile se obțin prin colorații speciale."
+          }
+        ]
+      },
+      {
+        "titlu": "Mitoza și meioza",
+        "noduri": [
+          {
+            "t": "Axioma lui Virchow",
+            "d": "„Omnis cellula e cellula”: celulele noi provin prin diviziunea celor existente. Cromozomii apar, ca filamente, în momentul diviziunii."
+          },
+          {
+            "t": "Meioza",
+            "d": "Diviziunea care formează gameții, cu număr haploid (n = 23): fiecare nucleu primește câte un membru din fiecare pereche de omologi."
+          },
+          {
+            "t": "Recombinarea genetică",
+            "d": "Meioza produce variabilitate prin crossing-over și prin combinarea întâmplătoare a setului matern cu cel patern; fecundația adaugă combinarea gameților."
+          },
+          {
+            "t": "Mitoza",
+            "d": "Diviziunea celulelor somatice: două celule-fiice identice cu celula-mamă, cu același număr diploid (2n = 46). Păstrează intacte numărul și conținutul cromozomial."
+          }
+        ]
+      },
+      {
+        "titlu": "Ciclul celular",
+        "noduri": [
+          {
+            "t": "Interfaza (G1, S, G2)",
+            "d": "Perioada de activitate dintre diviziuni: G1 și G2 sunt faze de „gol” metabolic, iar în faza S, la mijloc, ADN-ul se duplică. Cromozomii nu se văd."
+          },
+          {
+            "t": "Mitoza în ciclul celular",
+            "d": "Compartimentul distributiv: nucleul și citoplasma se împart, iar ADN-ul dublat ajunge egal în celulele-fiice. Durează circa o oră din cele circa 24 ale ciclului."
+          },
+          {
+            "t": "Punctele de control și apoptoza",
+            "d": "Opresc intrarea în mitoză a unei celule cu rupturi cromozomiale nereparate; dacă leziunea nu se poate repara, celula se sinucide (apoptoza, moartea programată)."
+          },
+          {
+            "t": "Inhibiția de contact",
+            "d": "Celulele normale își limitează reciproc diviziunile la contact; celulele canceroase se divid și cresc fără restricții."
+          },
+          {
+            "t": "Radiațiile și diviziunea",
+            "d": "După doză: omoară celula, rup ADN-ul și blochează diviziunea sau produc mutații transmise celulelor-fiice (cancere). Sensibilitate maximă chiar înainte de mitoză, de unde radioterapia."
+          },
+          {
+            "t": "Categoriile de celule",
+            "d": "Oprite în G1 după naștere: neuronii, celulele musculare. Diviziune redusă, posibilă în anumite condiții: hepatocitele, glandele endocrine. Rapidă: măduva osoasă, epidermul, mucoasa intestinală."
+          }
+        ],
+        "figuri": [
+          {
+            "titlu": "Ciclul celular cu punctele de control",
+            "nota": "Redesenat după manual; proporțiile fazelor din interfază sunt ilustrative (manualul dă doar mitoza, ≈ 1 oră din ≈ 24).",
+            "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 370 300\" role=\"img\" aria-label=\"Ciclul celular: G1, S (duplicarea ADN), G2 formează interfaza, de circa 23 de ore; mitoza durează circa o oră; punctele de control opresc celulele cu leziuni\" font-family=\"Georgia, serif\" font-size=\"13\"><path d=\"M187.0,42.0 A78,78 0 0,1 232.4,181.9\" fill=\"none\" stroke=\"#2a78d6\" stroke-width=\"24\"/><text x=\"259.2\" y=\"100.4\" text-anchor=\"middle\" fill=\"#ffffff\" font-size=\"12.0\" font-weight=\"bold\">G1</text><path d=\"M229.2,184.2 A78,78 0 0,1 111.4,146.0\" fill=\"none\" stroke=\"#1baf7a\" stroke-width=\"24\"/><text x=\"160.9\" y=\"198.7\" text-anchor=\"middle\" fill=\"#ffffff\" font-size=\"12.0\" font-weight=\"bold\">S</text><path d=\"M110.2,142.2 A78,78 0 0,1 154.5,48.2\" fill=\"none\" stroke=\"#eb6834\" stroke-width=\"24\"/><text x=\"114.4\" y=\"91.3\" text-anchor=\"middle\" fill=\"#ffffff\" font-size=\"12.0\" font-weight=\"bold\">G2</text><path d=\"M158.1,46.8 A78,78 0 0,1 183.0,42.0\" fill=\"none\" stroke=\"#b5453a\" stroke-width=\"24\"/><text x=\"170.4\" y=\"47.9\" text-anchor=\"middle\" fill=\"#ffffff\" font-size=\"12.0\" font-weight=\"bold\">M</text><line x1=\"220.9\" y1=\"169.4\" x2=\"240.8\" y2=\"196.9\" stroke=\"#2c2a26\" stroke-width=\"2.4\"/><line x1=\"162.5\" y1=\"63.3\" x2=\"150.0\" y2=\"31.7\" stroke=\"#2c2a26\" stroke-width=\"2.4\"/><line x1=\"175.5\" y1=\"59.8\" x2=\"170.1\" y2=\"26.2\" stroke=\"#2c2a26\" stroke-width=\"2.4\"/><text x=\"185.0\" y=\"112.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"12.0\" font-weight=\"bold\">interfaza</text><text x=\"185.0\" y=\"128.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.8\">≈ 23 de ore</text><text x=\"185.0\" y=\"144.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">(G1 + S + G2)</text><text x=\"291.7\" y=\"86.6\" text-anchor=\"start\" fill=\"#2c2a26\" font-size=\"10.2\">G1: creștere,</text><text x=\"291.7\" y=\"99.6\" text-anchor=\"start\" fill=\"#2c2a26\" font-size=\"10.2\">gol metabolic</text><text x=\"145.6\" y=\"232.7\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.2\">S: duplicarea ADN</text><text x=\"88.9\" y=\"75.7\" text-anchor=\"end\" fill=\"#2c2a26\" font-size=\"10.2\">G2: pregătirea</text><text x=\"88.9\" y=\"88.7\" text-anchor=\"end\" fill=\"#2c2a26\" font-size=\"10.2\">diviziunii</text><text x=\"162.3\" y=\"15.8\" text-anchor=\"end\" fill=\"#b5453a\" font-size=\"10.2\">M: mitoza ≈ 1 oră</text><line x1=\"10.0\" y1=\"256.0\" x2=\"24.0\" y2=\"256.0\" stroke=\"#2c2a26\" stroke-width=\"2.4\"/><text x=\"30.0\" y=\"260.0\" text-anchor=\"start\" fill=\"#2c2a26\" font-size=\"10.2\">punct de control: o leziune nereparată oprește celula</text><text x=\"30.0\" y=\"273.0\" text-anchor=\"start\" fill=\"#2c2a26\" font-size=\"10.2\">înainte de mitoză (sau o duce la apoptoză)</text><text x=\"10.0\" y=\"292.0\" text-anchor=\"start\" fill=\"#6b6760\" font-size=\"10.2\">Neuronii și celulele musculare rămân oprite în G1.</text></svg>"
+          }
+        ]
+      },
+      {
+        "titlu": "Morfologia cromozomului",
+        "lat": true,
+        "noduri": [
+          {
+            "t": "Cromatidele",
+            "d": "La începutul diviziunii, cromozomul e dedublat în două cromatide identice ca mărime, formă și informație, libere pe lungime, unite doar la centromer."
+          },
+          {
+            "t": "Centromerul",
+            "d": "Constricția primară: punctul de fixare pe fusul de diviziune. Prin divizarea lui, fiecare celulă-fiică primește câte o cromatidă."
+          },
+          {
+            "t": "Telomerele",
+            "d": "Capetele cromatidelor: dau stabilitate cromozomului și împiedică asocierea lui cu alți cromozomi."
+          },
+          {
+            "t": "Brațele p și q",
+            "d": "Centromerul împarte cromozomul în brațul p (scurt, „petit”), desenat deasupra, și brațul q (lung)."
+          },
+          {
+            "t": "Tipurile morfologice",
+            "d": "După poziția centromerului: metacentric (median), submetacentric, subtelocentric, acrocentric (aproape terminal), telocentric (terminal, inexistent la om)."
+          }
+        ],
+        "figuri": [
+          {
+            "titlu": "Părțile cromozomului metafazic",
+            "nota": "Redesenat după manual.",
+            "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 340 246\" role=\"img\" aria-label=\"Cromozomul metafazic: două cromatide identice unite la centromer, brațul scurt p deasupra, brațul lung q dedesubt, telomere la capete\" font-family=\"Georgia, serif\" font-size=\"13\"><rect x=\"96.0\" y=\"20.0\" width=\"22\" height=\"65.2\" rx=\"11.0\" fill=\"#2a78d6\"/><rect x=\"96.0\" y=\"89.2\" width=\"22\" height=\"140.8\" rx=\"11.0\" fill=\"#2a78d6\"/><rect x=\"122.0\" y=\"20.0\" width=\"22\" height=\"65.2\" rx=\"11.0\" fill=\"#2a78d6\"/><rect x=\"122.0\" y=\"89.2\" width=\"22\" height=\"140.8\" rx=\"11.0\" fill=\"#2a78d6\"/><circle cx=\"120.0\" cy=\"87.2\" r=\"5\" fill=\"#2c2a26\"/><rect x=\"94.0\" y=\"20.0\" width=\"22\" height=\"8\" rx=\"4\" fill=\"#eb6834\"/><rect x=\"122.0\" y=\"20.0\" width=\"22\" height=\"8\" rx=\"4\" fill=\"#eb6834\"/><rect x=\"94.0\" y=\"222.0\" width=\"22\" height=\"8\" rx=\"4\" fill=\"#eb6834\"/><rect x=\"122.0\" y=\"222.0\" width=\"22\" height=\"8\" rx=\"4\" fill=\"#eb6834\"/><line x1=\"146.0\" y1=\"24.0\" x2=\"172.0\" y2=\"24.0\" stroke=\"#6b6760\" stroke-width=\"1\"/><text x=\"176.0\" y=\"28.0\" text-anchor=\"start\" fill=\"#2c2a26\" font-size=\"10.2\">telomeră (capătul cromatidei)</text><line x1=\"146.0\" y1=\"53.6\" x2=\"172.0\" y2=\"53.6\" stroke=\"#6b6760\" stroke-width=\"1\"/><text x=\"176.0\" y=\"57.6\" text-anchor=\"start\" fill=\"#2c2a26\" font-size=\"10.2\">brațul p (scurt, deasupra)</text><line x1=\"126.0\" y1=\"87.2\" x2=\"172.0\" y2=\"87.2\" stroke=\"#6b6760\" stroke-width=\"1\"/><text x=\"176.0\" y=\"91.2\" text-anchor=\"start\" fill=\"#2c2a26\" font-size=\"10.2\">centromerul (constricția</text><text x=\"176.0\" y=\"104.2\" text-anchor=\"start\" fill=\"#2c2a26\" font-size=\"10.2\">primară), fixat pe fus</text><line x1=\"146.0\" y1=\"158.6\" x2=\"172.0\" y2=\"158.6\" stroke=\"#6b6760\" stroke-width=\"1\"/><text x=\"176.0\" y=\"162.6\" text-anchor=\"start\" fill=\"#2c2a26\" font-size=\"10.2\">brațul q (lung)</text><line x1=\"92.0\" y1=\"170.0\" x2=\"70.0\" y2=\"170.0\" stroke=\"#6b6760\" stroke-width=\"1\"/><text x=\"66.0\" y=\"166.0\" text-anchor=\"end\" fill=\"#2c2a26\" font-size=\"10.2\">cromatidă</text><text x=\"66.0\" y=\"179.0\" text-anchor=\"end\" fill=\"#2c2a26\" font-size=\"10.2\">(una din</text><text x=\"66.0\" y=\"192.0\" text-anchor=\"end\" fill=\"#2c2a26\" font-size=\"10.2\">cele două</text><text x=\"66.0\" y=\"205.0\" text-anchor=\"end\" fill=\"#2c2a26\" font-size=\"10.2\">identice)</text></svg>"
+          },
+          {
+            "titlu": "Tipurile morfologice de cromozomi",
+            "nota": "Redesenate după manual: tipul depinde de poziția centromerului.",
+            "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 392 232\" role=\"img\" aria-label=\"Tipuri morfologice după poziția centromerului: metacentric, submetacentric, subtelocentric, acrocentric; telocentricul nu există la om\" font-family=\"Georgia, serif\" font-size=\"13\"><rect x=\"29.0\" y=\"20.0\" width=\"10\" height=\"63.0\" rx=\"5.0\" fill=\"#2a78d6\"/><rect x=\"29.0\" y=\"87.0\" width=\"10\" height=\"63.0\" rx=\"5.0\" fill=\"#2a78d6\"/><rect x=\"41.0\" y=\"20.0\" width=\"10\" height=\"63.0\" rx=\"5.0\" fill=\"#2a78d6\"/><rect x=\"41.0\" y=\"87.0\" width=\"10\" height=\"63.0\" rx=\"5.0\" fill=\"#2a78d6\"/><circle cx=\"40.0\" cy=\"85.0\" r=\"3.2\" fill=\"#2c2a26\"/><text x=\"40.0\" y=\"172.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.2\">metacentric</text><text x=\"40.0\" y=\"186.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">centromer</text><text x=\"40.0\" y=\"199.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">median</text><rect x=\"107.0\" y=\"20.0\" width=\"10\" height=\"40.9\" rx=\"5.0\" fill=\"#2a78d6\"/><rect x=\"107.0\" y=\"64.9\" width=\"10\" height=\"85.1\" rx=\"5.0\" fill=\"#2a78d6\"/><rect x=\"119.0\" y=\"20.0\" width=\"10\" height=\"40.9\" rx=\"5.0\" fill=\"#2a78d6\"/><rect x=\"119.0\" y=\"64.9\" width=\"10\" height=\"85.1\" rx=\"5.0\" fill=\"#2a78d6\"/><circle cx=\"118.0\" cy=\"62.9\" r=\"3.2\" fill=\"#2c2a26\"/><text x=\"118.0\" y=\"172.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.2\">submetacentric</text><text x=\"118.0\" y=\"186.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">spre un</text><text x=\"118.0\" y=\"199.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">capăt</text><rect x=\"185.0\" y=\"20.0\" width=\"10\" height=\"24.0\" rx=\"5.0\" fill=\"#2a78d6\"/><rect x=\"185.0\" y=\"48.0\" width=\"10\" height=\"102.0\" rx=\"5.0\" fill=\"#2a78d6\"/><rect x=\"197.0\" y=\"20.0\" width=\"10\" height=\"24.0\" rx=\"5.0\" fill=\"#2a78d6\"/><rect x=\"197.0\" y=\"48.0\" width=\"10\" height=\"102.0\" rx=\"5.0\" fill=\"#2a78d6\"/><circle cx=\"196.0\" cy=\"46.0\" r=\"3.2\" fill=\"#2c2a26\"/><text x=\"196.0\" y=\"172.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.2\">subtelocentric</text><text x=\"196.0\" y=\"186.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">și mai</text><text x=\"196.0\" y=\"199.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">excentric</text><rect x=\"263.0\" y=\"20.0\" width=\"10\" height=\"7.1\" rx=\"5.0\" fill=\"#2a78d6\"/><rect x=\"263.0\" y=\"31.1\" width=\"10\" height=\"118.9\" rx=\"5.0\" fill=\"#2a78d6\"/><rect x=\"275.0\" y=\"20.0\" width=\"10\" height=\"7.1\" rx=\"5.0\" fill=\"#2a78d6\"/><rect x=\"275.0\" y=\"31.1\" width=\"10\" height=\"118.9\" rx=\"5.0\" fill=\"#2a78d6\"/><circle cx=\"274.0\" cy=\"29.1\" r=\"3.2\" fill=\"#2c2a26\"/><text x=\"274.0\" y=\"172.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.2\">acrocentric</text><text x=\"274.0\" y=\"186.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">aproape</text><text x=\"274.0\" y=\"199.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">terminal</text><rect x=\"341.0\" y=\"22.0\" width=\"10\" height=\"128.0\" rx=\"5.0\" fill=\"#6b6760\" fill-opacity=\"0.35\"/><rect x=\"353.0\" y=\"22.0\" width=\"10\" height=\"128.0\" rx=\"5.0\" fill=\"#6b6760\" fill-opacity=\"0.35\"/><circle cx=\"352.0\" cy=\"20.0\" r=\"3.2\" fill=\"#2c2a26\"/><text x=\"352.0\" y=\"172.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">telocentric</text><text x=\"352.0\" y=\"186.0\" text-anchor=\"middle\" fill=\"#b5453a\" font-size=\"10.2\">nu există</text><text x=\"352.0\" y=\"199.0\" text-anchor=\"middle\" fill=\"#b5453a\" font-size=\"10.2\">la om</text><text x=\"196.0\" y=\"224.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">poziția centromerului → raportul brațelor p / q</text></svg>"
+          }
+        ]
+      },
+      {
+        "titlu": "Structura spațială a cromozomului",
+        "noduri": [
+          {
+            "t": "Cromatina",
+            "d": "În interfază, materialul cromozomial e despiralizat, ca un ghem: un complex de ADN, ARN și proteine, mai ales histone. O singură moleculă de ADN pe cromozom."
+          },
+          {
+            "t": "Nucleosomul",
+            "d": "Unitatea fundamentală de împachetare: ADN-ul face două ture în jurul unui miez de proteine. Șirul de nucleosomi arată ca un șirag de mărgele."
+          },
+          {
+            "t": "Nivelurile de împachetare",
+            "d": "Nucleosomi (1 : 6), fibra de cromatină de 30 nm (1 : 36), solenoid spiralizat, apoi cromozomul metafazic (peste 1 : 10 000)."
+          },
+          {
+            "t": "Lungimea genomului",
+            "d": "Genomul haploid are circa 1 m de ADN (2 m în celula diploidă); un cromozom mediu, circa 5 cm, încape într-o cromatidă de circa 5 µm."
+          },
+          {
+            "t": "Mărimea genomului",
+            "d": "Circa 3 miliarde de baze (A, C, T, G) în fiecare celulă; circa 100 de trilioane de celule în corp; ADN-ul lor pus cap la cap ar depăși de 600 de ori distanța Pământ–Soare."
+          }
+        ],
+        "figuri": [
+          {
+            "titlu": "Împachetarea ADN-ului în cromozomul metafazic",
+            "nota": "Schemă simplificată după figura din manual (Strachan & Read, 2004); ratele de compactare sunt cele din text.",
+            "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 340 304\" role=\"img\" aria-label=\"Împachetarea ADN-ului: dublu helix, nucleosomi (1 la 6), fibra de 30 nm (1 la 36), solenoid și bucle, cromozom metafazic (peste 1 la 10 000)\" font-family=\"Georgia, serif\" font-size=\"13\"><polyline points=\"20.0,30.0 22.0,32.4 24.0,34.5 26.0,36.1 28.0,36.9 30.0,36.9 32.0,36.0 34.0,34.5 36.0,32.3 38.0,29.9 40.0,27.5 42.0,25.4 44.0,23.9 46.0,23.1 48.0,23.1 50.0,24.0 52.0,25.6 54.0,27.7 56.0,30.1 58.0,32.5 60.0,34.6 62.0,36.1 64.0,36.9 66.0,36.9 68.0,36.0 70.0,34.4 72.0,32.2 74.0,29.8 76.0,27.4 78.0,25.4 80.0,23.8 82.0,23.1 84.0,23.1 86.0,24.0 88.0,25.7 90.0,27.8 92.0,30.2 94.0,32.6 96.0,34.7 98.0,36.2 100.0,36.9 102.0,36.8 104.0,35.9 106.0,34.3 108.0,32.1 110.0,29.7 112.0,27.3 114.0,25.3 116.0,23.8 118.0,23.1 120.0,23.2 122.0,24.1 124.0,25.8 126.0,27.9 128.0,30.4 130.0,32.7 132.0,34.8 134.0,36.2 136.0,36.9 138.0,36.8\" fill=\"none\" stroke=\"#2a78d6\" stroke-width=\"1.6\"/><polyline points=\"20.0,30.0 22.0,27.6 24.0,25.5 26.0,23.9 28.0,23.1 30.0,23.1 32.0,24.0 34.0,25.5 36.0,27.7 38.0,30.1 40.0,32.5 42.0,34.6 44.0,36.1 46.0,36.9 48.0,36.9 50.0,36.0 52.0,34.4 54.0,32.3 56.0,29.9 58.0,27.5 60.0,25.4 62.0,23.9 64.0,23.1 66.0,23.1 68.0,24.0 70.0,25.6 72.0,27.8 74.0,30.2 76.0,32.6 78.0,34.6 80.0,36.2 82.0,36.9 84.0,36.9 86.0,36.0 88.0,34.3 90.0,32.2 92.0,29.8 94.0,27.4 96.0,25.3 98.0,23.8 100.0,23.1 102.0,23.2 104.0,24.1 106.0,25.7 108.0,27.9 110.0,30.3 112.0,32.7 114.0,34.7 116.0,36.2 118.0,36.9 120.0,36.8 122.0,35.9 124.0,34.2 126.0,32.1 128.0,29.6 130.0,27.3 132.0,25.2 134.0,23.8 136.0,23.1 138.0,23.2\" fill=\"none\" stroke=\"#eb6834\" stroke-width=\"1.6\"/><line x1=\"18.0\" y1=\"82.0\" x2=\"140.0\" y2=\"82.0\" stroke=\"#2a78d6\" stroke-width=\"1.4\"/><circle cx=\"30\" cy=\"82\" r=\"8\" fill=\"#1baf7a\" fill-opacity=\"0.8\"/><circle cx=\"56\" cy=\"82\" r=\"8\" fill=\"#1baf7a\" fill-opacity=\"0.8\"/><circle cx=\"82\" cy=\"82\" r=\"8\" fill=\"#1baf7a\" fill-opacity=\"0.8\"/><circle cx=\"108\" cy=\"82\" r=\"8\" fill=\"#1baf7a\" fill-opacity=\"0.8\"/><circle cx=\"134\" cy=\"82\" r=\"8\" fill=\"#1baf7a\" fill-opacity=\"0.8\"/><circle cx=\"26\" cy=\"129\" r=\"7\" fill=\"#1baf7a\" fill-opacity=\"0.75\" stroke=\"#faf8f3\"/><circle cx=\"38\" cy=\"139\" r=\"7\" fill=\"#1baf7a\" fill-opacity=\"0.75\" stroke=\"#faf8f3\"/><circle cx=\"50\" cy=\"129\" r=\"7\" fill=\"#1baf7a\" fill-opacity=\"0.75\" stroke=\"#faf8f3\"/><circle cx=\"62\" cy=\"139\" r=\"7\" fill=\"#1baf7a\" fill-opacity=\"0.75\" stroke=\"#faf8f3\"/><circle cx=\"74\" cy=\"129\" r=\"7\" fill=\"#1baf7a\" fill-opacity=\"0.75\" stroke=\"#faf8f3\"/><circle cx=\"86\" cy=\"139\" r=\"7\" fill=\"#1baf7a\" fill-opacity=\"0.75\" stroke=\"#faf8f3\"/><circle cx=\"98\" cy=\"129\" r=\"7\" fill=\"#1baf7a\" fill-opacity=\"0.75\" stroke=\"#faf8f3\"/><circle cx=\"110\" cy=\"139\" r=\"7\" fill=\"#1baf7a\" fill-opacity=\"0.75\" stroke=\"#faf8f3\"/><circle cx=\"122\" cy=\"129\" r=\"7\" fill=\"#1baf7a\" fill-opacity=\"0.75\" stroke=\"#faf8f3\"/><ellipse cx=\"36\" cy=\"186\" rx=\"13\" ry=\"18\" fill=\"none\" stroke=\"#1baf7a\" stroke-width=\"6\" stroke-opacity=\"0.75\"/><ellipse cx=\"64\" cy=\"186\" rx=\"13\" ry=\"18\" fill=\"none\" stroke=\"#1baf7a\" stroke-width=\"6\" stroke-opacity=\"0.75\"/><ellipse cx=\"92\" cy=\"186\" rx=\"13\" ry=\"18\" fill=\"none\" stroke=\"#1baf7a\" stroke-width=\"6\" stroke-opacity=\"0.75\"/><ellipse cx=\"120\" cy=\"186\" rx=\"13\" ry=\"18\" fill=\"none\" stroke=\"#1baf7a\" stroke-width=\"6\" stroke-opacity=\"0.75\"/><rect x=\"67.0\" y=\"222.0\" width=\"12\" height=\"18.0\" rx=\"6.0\" fill=\"#2a78d6\"/><rect x=\"67.0\" y=\"244.0\" width=\"12\" height=\"28.0\" rx=\"6.0\" fill=\"#2a78d6\"/><rect x=\"81.0\" y=\"222.0\" width=\"12\" height=\"18.0\" rx=\"6.0\" fill=\"#2a78d6\"/><rect x=\"81.0\" y=\"244.0\" width=\"12\" height=\"28.0\" rx=\"6.0\" fill=\"#2a78d6\"/><circle cx=\"80.0\" cy=\"242.0\" r=\"3.2\" fill=\"#2c2a26\"/><text x=\"166.0\" y=\"31.0\" text-anchor=\"start\" fill=\"#2c2a26\" font-size=\"10.2\">dublu helix ADN</text><text x=\"166.0\" y=\"44.0\" text-anchor=\"start\" fill=\"#b5453a\" font-size=\"10.2\" font-weight=\"bold\">2 nm</text><line x1=\"80.0\" y1=\"42.0\" x2=\"80.0\" y2=\"69.0\" stroke=\"#6b6760\" stroke-width=\"1.1\"/><polygon points=\"80.0,69.0 77.8,64.5 82.2,64.5\" fill=\"#6b6760\"/><text x=\"166.0\" y=\"83.0\" text-anchor=\"start\" fill=\"#2c2a26\" font-size=\"10.2\">nucleosomi: „șirag de mărgele”</text><text x=\"166.0\" y=\"96.0\" text-anchor=\"start\" fill=\"#b5453a\" font-size=\"10.2\" font-weight=\"bold\">1 : 6</text><line x1=\"80.0\" y1=\"98.0\" x2=\"80.0\" y2=\"121.0\" stroke=\"#6b6760\" stroke-width=\"1.1\"/><polygon points=\"80.0,121.0 77.8,116.5 82.2,116.5\" fill=\"#6b6760\"/><text x=\"166.0\" y=\"135.0\" text-anchor=\"start\" fill=\"#2c2a26\" font-size=\"10.2\">fibra de cromatină</text><text x=\"166.0\" y=\"148.0\" text-anchor=\"start\" fill=\"#b5453a\" font-size=\"10.2\" font-weight=\"bold\">30 nm · 1 : 36</text><line x1=\"80.0\" y1=\"150.0\" x2=\"80.0\" y2=\"164.0\" stroke=\"#6b6760\" stroke-width=\"1.1\"/><polygon points=\"80.0,164.0 77.8,159.5 82.2,159.5\" fill=\"#6b6760\"/><text x=\"166.0\" y=\"187.0\" text-anchor=\"start\" fill=\"#2c2a26\" font-size=\"10.2\">solenoid spiralizat, bucle</text><line x1=\"80.0\" y1=\"208.0\" x2=\"80.0\" y2=\"220.0\" stroke=\"#6b6760\" stroke-width=\"1.1\"/><polygon points=\"80.0,220.0 77.8,215.5 82.2,215.5\" fill=\"#6b6760\"/><text x=\"166.0\" y=\"247.0\" text-anchor=\"start\" fill=\"#2c2a26\" font-size=\"10.2\">cromozom metafazic</text><text x=\"166.0\" y=\"260.0\" text-anchor=\"start\" fill=\"#b5453a\" font-size=\"10.2\" font-weight=\"bold\">> 1 : 10 000</text><text x=\"10.0\" y=\"296.0\" text-anchor=\"start\" fill=\"#6b6760\" font-size=\"10.2\">5 cm de ADN ajung într-o cromatidă de circa 5 µm.</text></svg>"
+          }
+        ]
+      },
+      {
+        "titlu": "Cariotipul uman normal",
+        "noduri": [
+          {
+            "t": "Autozomi și gonozomi",
+            "d": "46 de cromozomi în 23 de perechi, câte unul matern și unul patern: 22 de perechi de autozomi, la fel la ambele sexe, și perechea de gonozomi (XX la femeie, XY la bărbat)."
+          },
+          {
+            "t": "Cariotipul",
+            "d": "Cromozomii unei celule, ordonați în perechi de omologi după lungime, poziția centromerului și benzi, după un standard internațional. Parametru specific și invariabil."
+          },
+          {
+            "t": "Formula cromozomială",
+            "d": "46,XX la femeie, 46,XY la bărbat. Stabilită abia în 1956, din cauza imaginilor microscopice greu de obținut; până atunci se credea că omul are 48, ca alte primate."
+          }
+        ],
+        "figuri": [
+          {
+            "titlu": "Cariotipul normal de bărbat (schemă)",
+            "nota": "Schemă în locul fotografiei din manual: lungimile și pozițiile centromerului sunt aproximative, fără modelul de benzi.",
+            "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 282\" role=\"img\" aria-label=\"Schema cariotipului normal de bărbat 46,XY: 22 de perechi de autozomi ordonate după mărime și poziția centromerului, plus X și Y\" font-family=\"Georgia, serif\" font-size=\"13\"><rect x=\"41.4\" y=\"22.0\" width=\"5\" height=\"31.0\" rx=\"2\" fill=\"#2a78d6\"/><rect x=\"41.4\" y=\"55.0\" width=\"5\" height=\"31.0\" rx=\"2\" fill=\"#2a78d6\"/><rect x=\"48.4\" y=\"22.0\" width=\"5\" height=\"31.0\" rx=\"2\" fill=\"#2a78d6\"/><rect x=\"48.4\" y=\"55.0\" width=\"5\" height=\"31.0\" rx=\"2\" fill=\"#2a78d6\"/><text x=\"47.4\" y=\"99.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">1</text><rect x=\"84.3\" y=\"23.5\" width=\"5\" height=\"23.4\" rx=\"2\" fill=\"#2a78d6\"/><rect x=\"84.3\" y=\"48.9\" width=\"5\" height=\"37.1\" rx=\"2\" fill=\"#2a78d6\"/><rect x=\"91.3\" y=\"23.5\" width=\"5\" height=\"23.4\" rx=\"2\" fill=\"#2a78d6\"/><rect x=\"91.3\" y=\"48.9\" width=\"5\" height=\"37.1\" rx=\"2\" fill=\"#2a78d6\"/><text x=\"90.3\" y=\"99.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">2</text><rect x=\"127.1\" y=\"34.9\" width=\"5\" height=\"23.0\" rx=\"2\" fill=\"#2a78d6\"/><rect x=\"127.1\" y=\"59.9\" width=\"5\" height=\"26.1\" rx=\"2\" fill=\"#2a78d6\"/><rect x=\"134.1\" y=\"34.9\" width=\"5\" height=\"23.0\" rx=\"2\" fill=\"#2a78d6\"/><rect x=\"134.1\" y=\"59.9\" width=\"5\" height=\"26.1\" rx=\"2\" fill=\"#2a78d6\"/><text x=\"133.1\" y=\"99.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">3</text><rect x=\"170.0\" y=\"37.0\" width=\"5\" height=\"12.2\" rx=\"2\" fill=\"#2a78d6\"/><rect x=\"170.0\" y=\"51.2\" width=\"5\" height=\"34.8\" rx=\"2\" fill=\"#2a78d6\"/><rect x=\"177.0\" y=\"37.0\" width=\"5\" height=\"12.2\" rx=\"2\" fill=\"#2a78d6\"/><rect x=\"177.0\" y=\"51.2\" width=\"5\" height=\"34.8\" rx=\"2\" fill=\"#2a78d6\"/><text x=\"176.0\" y=\"99.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">4</text><rect x=\"212.9\" y=\"39.3\" width=\"5\" height=\"11.6\" rx=\"2\" fill=\"#2a78d6\"/><rect x=\"212.9\" y=\"52.9\" width=\"5\" height=\"33.1\" rx=\"2\" fill=\"#2a78d6\"/><rect x=\"219.9\" y=\"39.3\" width=\"5\" height=\"11.6\" rx=\"2\" fill=\"#2a78d6\"/><rect x=\"219.9\" y=\"52.9\" width=\"5\" height=\"33.1\" rx=\"2\" fill=\"#2a78d6\"/><text x=\"218.9\" y=\"99.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">5</text><rect x=\"255.7\" y=\"41.9\" width=\"5\" height=\"14.4\" rx=\"2\" fill=\"#2a78d6\"/><rect x=\"255.7\" y=\"58.3\" width=\"5\" height=\"27.7\" rx=\"2\" fill=\"#2a78d6\"/><rect x=\"262.7\" y=\"41.9\" width=\"5\" height=\"14.4\" rx=\"2\" fill=\"#2a78d6\"/><rect x=\"262.7\" y=\"58.3\" width=\"5\" height=\"27.7\" rx=\"2\" fill=\"#2a78d6\"/><text x=\"261.7\" y=\"99.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">6</text><rect x=\"298.6\" y=\"45.0\" width=\"5\" height=\"14.6\" rx=\"2\" fill=\"#2a78d6\"/><rect x=\"298.6\" y=\"61.6\" width=\"5\" height=\"24.4\" rx=\"2\" fill=\"#2a78d6\"/><rect x=\"305.6\" y=\"45.0\" width=\"5\" height=\"14.6\" rx=\"2\" fill=\"#2a78d6\"/><rect x=\"305.6\" y=\"61.6\" width=\"5\" height=\"24.4\" rx=\"2\" fill=\"#2a78d6\"/><text x=\"304.6\" y=\"99.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">7</text><rect x=\"38.8\" y=\"128.6\" width=\"5\" height=\"10.6\" rx=\"2\" fill=\"#2a78d6\"/><rect x=\"38.8\" y=\"141.2\" width=\"5\" height=\"24.8\" rx=\"2\" fill=\"#2a78d6\"/><rect x=\"45.8\" y=\"128.6\" width=\"5\" height=\"10.6\" rx=\"2\" fill=\"#2a78d6\"/><rect x=\"45.8\" y=\"141.2\" width=\"5\" height=\"24.8\" rx=\"2\" fill=\"#2a78d6\"/><text x=\"44.8\" y=\"179.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">8</text><rect x=\"76.2\" y=\"130.4\" width=\"5\" height=\"11.5\" rx=\"2\" fill=\"#2a78d6\"/><rect x=\"76.2\" y=\"143.9\" width=\"5\" height=\"22.1\" rx=\"2\" fill=\"#2a78d6\"/><rect x=\"83.2\" y=\"130.4\" width=\"5\" height=\"11.5\" rx=\"2\" fill=\"#2a78d6\"/><rect x=\"83.2\" y=\"143.9\" width=\"5\" height=\"22.1\" rx=\"2\" fill=\"#2a78d6\"/><text x=\"82.2\" y=\"179.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">9</text><rect x=\"113.8\" y=\"131.4\" width=\"5\" height=\"9.4\" rx=\"2\" fill=\"#2a78d6\"/><rect x=\"113.8\" y=\"142.8\" width=\"5\" height=\"23.2\" rx=\"2\" fill=\"#2a78d6\"/><rect x=\"120.8\" y=\"131.4\" width=\"5\" height=\"9.4\" rx=\"2\" fill=\"#2a78d6\"/><rect x=\"120.8\" y=\"142.8\" width=\"5\" height=\"23.2\" rx=\"2\" fill=\"#2a78d6\"/><text x=\"119.8\" y=\"179.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">10</text><rect x=\"151.2\" y=\"131.2\" width=\"5\" height=\"12.9\" rx=\"2\" fill=\"#2a78d6\"/><rect x=\"151.2\" y=\"146.1\" width=\"5\" height=\"19.9\" rx=\"2\" fill=\"#2a78d6\"/><rect x=\"158.2\" y=\"131.2\" width=\"5\" height=\"12.9\" rx=\"2\" fill=\"#2a78d6\"/><rect x=\"158.2\" y=\"146.1\" width=\"5\" height=\"19.9\" rx=\"2\" fill=\"#2a78d6\"/><text x=\"157.2\" y=\"179.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">11</text><rect x=\"188.8\" y=\"131.7\" width=\"5\" height=\"8.3\" rx=\"2\" fill=\"#2a78d6\"/><rect x=\"188.8\" y=\"141.9\" width=\"5\" height=\"24.1\" rx=\"2\" fill=\"#2a78d6\"/><rect x=\"195.8\" y=\"131.7\" width=\"5\" height=\"8.3\" rx=\"2\" fill=\"#2a78d6\"/><rect x=\"195.8\" y=\"141.9\" width=\"5\" height=\"24.1\" rx=\"2\" fill=\"#2a78d6\"/><text x=\"194.8\" y=\"179.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">12</text><rect x=\"226.2\" y=\"136.6\" width=\"5\" height=\"2.8\" rx=\"2\" fill=\"#2a78d6\"/><rect x=\"226.2\" y=\"141.4\" width=\"5\" height=\"24.6\" rx=\"2\" fill=\"#2a78d6\"/><rect x=\"233.2\" y=\"136.6\" width=\"5\" height=\"2.8\" rx=\"2\" fill=\"#2a78d6\"/><rect x=\"233.2\" y=\"141.4\" width=\"5\" height=\"24.6\" rx=\"2\" fill=\"#2a78d6\"/><text x=\"232.2\" y=\"179.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">13</text><rect x=\"263.8\" y=\"138.4\" width=\"5\" height=\"2.9\" rx=\"2\" fill=\"#2a78d6\"/><rect x=\"263.8\" y=\"143.3\" width=\"5\" height=\"22.7\" rx=\"2\" fill=\"#2a78d6\"/><rect x=\"270.8\" y=\"138.4\" width=\"5\" height=\"2.9\" rx=\"2\" fill=\"#2a78d6\"/><rect x=\"270.8\" y=\"143.3\" width=\"5\" height=\"22.7\" rx=\"2\" fill=\"#2a78d6\"/><text x=\"269.8\" y=\"179.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">14</text><rect x=\"301.2\" y=\"139.7\" width=\"5\" height=\"2.9\" rx=\"2\" fill=\"#2a78d6\"/><rect x=\"301.2\" y=\"144.6\" width=\"5\" height=\"21.4\" rx=\"2\" fill=\"#2a78d6\"/><rect x=\"308.2\" y=\"139.7\" width=\"5\" height=\"2.9\" rx=\"2\" fill=\"#2a78d6\"/><rect x=\"308.2\" y=\"144.6\" width=\"5\" height=\"21.4\" rx=\"2\" fill=\"#2a78d6\"/><text x=\"307.2\" y=\"179.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">15</text><rect x=\"38.8\" y=\"216.8\" width=\"5\" height=\"8.5\" rx=\"2\" fill=\"#2a78d6\"/><rect x=\"38.8\" y=\"227.3\" width=\"5\" height=\"12.7\" rx=\"2\" fill=\"#2a78d6\"/><rect x=\"45.8\" y=\"216.8\" width=\"5\" height=\"8.5\" rx=\"2\" fill=\"#2a78d6\"/><rect x=\"45.8\" y=\"227.3\" width=\"5\" height=\"12.7\" rx=\"2\" fill=\"#2a78d6\"/><text x=\"44.8\" y=\"253.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">16</text><rect x=\"76.2\" y=\"218.6\" width=\"5\" height=\"5.6\" rx=\"2\" fill=\"#2a78d6\"/><rect x=\"76.2\" y=\"226.2\" width=\"5\" height=\"13.8\" rx=\"2\" fill=\"#2a78d6\"/><rect x=\"83.2\" y=\"218.6\" width=\"5\" height=\"5.6\" rx=\"2\" fill=\"#2a78d6\"/><rect x=\"83.2\" y=\"226.2\" width=\"5\" height=\"13.8\" rx=\"2\" fill=\"#2a78d6\"/><text x=\"82.2\" y=\"253.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">17</text><rect x=\"113.8\" y=\"219.4\" width=\"5\" height=\"4.0\" rx=\"2\" fill=\"#2a78d6\"/><rect x=\"113.8\" y=\"225.3\" width=\"5\" height=\"14.7\" rx=\"2\" fill=\"#2a78d6\"/><rect x=\"120.8\" y=\"219.4\" width=\"5\" height=\"4.0\" rx=\"2\" fill=\"#2a78d6\"/><rect x=\"120.8\" y=\"225.3\" width=\"5\" height=\"14.7\" rx=\"2\" fill=\"#2a78d6\"/><text x=\"119.8\" y=\"253.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">18</text><rect x=\"151.2\" y=\"224.8\" width=\"5\" height=\"5.9\" rx=\"2\" fill=\"#2a78d6\"/><rect x=\"151.2\" y=\"232.6\" width=\"5\" height=\"7.4\" rx=\"2\" fill=\"#2a78d6\"/><rect x=\"158.2\" y=\"224.8\" width=\"5\" height=\"5.9\" rx=\"2\" fill=\"#2a78d6\"/><rect x=\"158.2\" y=\"232.6\" width=\"5\" height=\"7.4\" rx=\"2\" fill=\"#2a78d6\"/><text x=\"157.2\" y=\"253.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">19</text><rect x=\"188.8\" y=\"223.5\" width=\"5\" height=\"6.3\" rx=\"2\" fill=\"#2a78d6\"/><rect x=\"188.8\" y=\"231.8\" width=\"5\" height=\"8.2\" rx=\"2\" fill=\"#2a78d6\"/><rect x=\"195.8\" y=\"223.5\" width=\"5\" height=\"6.3\" rx=\"2\" fill=\"#2a78d6\"/><rect x=\"195.8\" y=\"231.8\" width=\"5\" height=\"8.2\" rx=\"2\" fill=\"#2a78d6\"/><text x=\"194.8\" y=\"253.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">20</text><rect x=\"226.2\" y=\"227.9\" width=\"5\" height=\"1.8\" rx=\"2\" fill=\"#2a78d6\"/><rect x=\"226.2\" y=\"231.7\" width=\"5\" height=\"8.3\" rx=\"2\" fill=\"#2a78d6\"/><rect x=\"233.2\" y=\"227.9\" width=\"5\" height=\"1.8\" rx=\"2\" fill=\"#2a78d6\"/><rect x=\"233.2\" y=\"231.7\" width=\"5\" height=\"8.3\" rx=\"2\" fill=\"#2a78d6\"/><text x=\"232.2\" y=\"253.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">21</text><rect x=\"263.8\" y=\"226.8\" width=\"5\" height=\"2.3\" rx=\"2\" fill=\"#2a78d6\"/><rect x=\"263.8\" y=\"231.1\" width=\"5\" height=\"8.9\" rx=\"2\" fill=\"#2a78d6\"/><rect x=\"270.8\" y=\"226.8\" width=\"5\" height=\"2.3\" rx=\"2\" fill=\"#2a78d6\"/><rect x=\"270.8\" y=\"231.1\" width=\"5\" height=\"8.9\" rx=\"2\" fill=\"#2a78d6\"/><text x=\"269.8\" y=\"253.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">22</text><rect x=\"301.2\" y=\"199.7\" width=\"5\" height=\"14.7\" rx=\"2\" fill=\"#b5453a\"/><rect x=\"301.2\" y=\"216.4\" width=\"5\" height=\"23.6\" rx=\"2\" fill=\"#b5453a\"/><rect x=\"308.2\" y=\"225.3\" width=\"5\" height=\"1.6\" rx=\"2\" fill=\"#b5453a\"/><rect x=\"308.2\" y=\"228.9\" width=\"5\" height=\"11.1\" rx=\"2\" fill=\"#b5453a\"/><text x=\"307.2\" y=\"253.0\" text-anchor=\"middle\" fill=\"#b5453a\" font-size=\"10.2\" font-weight=\"bold\">X Y</text><text x=\"10.0\" y=\"274.0\" text-anchor=\"start\" fill=\"#2c2a26\" font-size=\"10.2\">22 de perechi de autozomi + perechea de gonozomi XY = 46,XY</text></svg>"
+          }
+        ]
+      },
+      {
+        "titlu": "Cromatina de sex și compensarea dozei",
+        "lat": true,
+        "noduri": [
+          {
+            "t": "Cromozomul X la mamifere",
+            "d": "Mare (circa 5% din genom), cu gene sexualizante și multe nesexualizante; conservat în evoluție: o mutație de pe X la șoarece e tot pe X la câine și la om (hemofilia)."
+          },
+          {
+            "t": "Hemizigoția și femeile purtătoare",
+            "d": "Bărbatul, cu un singur X, manifestă orice mutație recesivă de pe X; la femeia heterozigotă (purtătoare, conductoare), alela dominantă o maschează."
+          },
+          {
+            "t": "Compensarea dozajului genic",
+            "d": "Femeile ar trebui să producă dublu proteinele genelor de pe X, dar dozările enzimatice arată valori egale cu ale bărbaților: un mecanism egalizează sinteza."
+          },
+          {
+            "t": "Lyonizarea",
+            "d": "Mary Lyon: femeia păstrează un singur X activ, ceilalți se condensează. Începe în embrionul de 3000–4000 de celule (zilele 16–18), e întâmplătoare și se păstrează în celulele-fiice."
+          },
+          {
+            "t": "Corpusculul Barr",
+            "d": "X-ul inactivat, văzut în nucleul interfazic ca un corpuscul intens colorat lângă membrana nucleară (cromatina de sex X); stă la baza testului Barr al sexului genetic. Interpretare: numărul lor = numărul de X minus unu."
+          },
+          {
+            "t": "Femeile ca mozaic",
+            "d": "Femeia e un mozaic de clone cu X matern sau patern activ. Fără importanță dacă X-urile sunt normale; la o purtătoare (hemofilie), dacă domină celulele cu X-ul mutant activ, apar simptome."
+          },
+          {
+            "t": "Reglajul genetic",
+            "d": "Genele X-ului inactivat există, dar nu funcționează: nu genele singure fac „simfonia vieții”, ci dirijarea „orchestrei genetice” prin reglarea activității lor."
+          }
+        ],
+        "figuri": [
+          {
+            "titlu": "Lyonizarea: inactivarea întâmplătoare a unui X",
+            "nota": "Schemă ilustrativă. X mat. = cromozomul X primit de la mamă, X pat. = de la tată; punctul mic = X-ul inactivat (corpusculul Barr).",
+            "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 364 172\" role=\"img\" aria-label=\"Lyonizarea: în embrionul de 16–18 zile fiecare celulă inactivează la întâmplare X-ul matern sau patern; femeia adultă e un mozaic de clone\" font-family=\"Georgia, serif\" font-size=\"13\"><text x=\"50.0\" y=\"16.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.8\" font-weight=\"bold\">zigot XX</text><circle cx=\"50\" cy=\"62\" r=\"34\" fill=\"#f3efe6\" stroke=\"#b9b0a0\"/><rect x=\"34\" y=\"44\" width=\"8\" height=\"36\" rx=\"4\" fill=\"#2a78d6\"/><rect x=\"58\" y=\"44\" width=\"8\" height=\"36\" rx=\"4\" fill=\"#eb6834\"/><text x=\"34.0\" y=\"112.0\" text-anchor=\"middle\" fill=\"#2a78d6\" font-size=\"10.2\">X mat.</text><text x=\"70.0\" y=\"112.0\" text-anchor=\"middle\" fill=\"#eb6834\" font-size=\"10.2\">X pat.</text><line x1=\"92.0\" y1=\"62.0\" x2=\"120.0\" y2=\"62.0\" stroke=\"#6b6760\" stroke-width=\"1.2\"/><polygon points=\"120.0,62.0 114.6,64.6 114.6,59.4\" fill=\"#6b6760\"/><text x=\"178.0\" y=\"16.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.8\" font-weight=\"bold\">embrion, zilele 16–18</text><circle cx=\"140\" cy=\"42\" r=\"12\" fill=\"#2a78d6\" fill-opacity=\"0.28\" stroke=\"#2a78d6\"/><circle cx=\"146\" cy=\"36\" r=\"3.2\" fill=\"#eb6834\"/><circle cx=\"166\" cy=\"36\" r=\"12\" fill=\"#2a78d6\" fill-opacity=\"0.28\" stroke=\"#2a78d6\"/><circle cx=\"172\" cy=\"30\" r=\"3.2\" fill=\"#eb6834\"/><circle cx=\"192\" cy=\"40\" r=\"12\" fill=\"#2a78d6\" fill-opacity=\"0.28\" stroke=\"#2a78d6\"/><circle cx=\"198\" cy=\"34\" r=\"3.2\" fill=\"#eb6834\"/><circle cx=\"218\" cy=\"46\" r=\"12\" fill=\"#2a78d6\" fill-opacity=\"0.28\" stroke=\"#2a78d6\"/><circle cx=\"224\" cy=\"40\" r=\"3.2\" fill=\"#eb6834\"/><circle cx=\"148\" cy=\"68\" r=\"12\" fill=\"#2a78d6\" fill-opacity=\"0.28\" stroke=\"#2a78d6\"/><circle cx=\"154\" cy=\"62\" r=\"3.2\" fill=\"#eb6834\"/><circle cx=\"176\" cy=\"64\" r=\"12\" fill=\"#2a78d6\" fill-opacity=\"0.28\" stroke=\"#2a78d6\"/><circle cx=\"182\" cy=\"58\" r=\"3.2\" fill=\"#eb6834\"/><circle cx=\"204\" cy=\"70\" r=\"12\" fill=\"#eb6834\" fill-opacity=\"0.28\" stroke=\"#eb6834\"/><circle cx=\"210\" cy=\"64\" r=\"3.2\" fill=\"#2a78d6\"/><circle cx=\"156\" cy=\"94\" r=\"12\" fill=\"#eb6834\" fill-opacity=\"0.28\" stroke=\"#eb6834\"/><circle cx=\"162\" cy=\"88\" r=\"3.2\" fill=\"#2a78d6\"/><circle cx=\"186\" cy=\"92\" r=\"12\" fill=\"#eb6834\" fill-opacity=\"0.28\" stroke=\"#eb6834\"/><circle cx=\"192\" cy=\"86\" r=\"3.2\" fill=\"#2a78d6\"/><circle cx=\"214\" cy=\"96\" r=\"12\" fill=\"#2a78d6\" fill-opacity=\"0.28\" stroke=\"#2a78d6\"/><circle cx=\"220\" cy=\"90\" r=\"3.2\" fill=\"#eb6834\"/><text x=\"178.0\" y=\"124.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">fiecare celulă condensează la</text><text x=\"178.0\" y=\"137.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">întâmplare un X → corpuscul Barr</text><line x1=\"240.0\" y1=\"62.0\" x2=\"272.0\" y2=\"62.0\" stroke=\"#6b6760\" stroke-width=\"1.2\"/><polygon points=\"272.0,62.0 266.6,64.6 266.6,59.4\" fill=\"#6b6760\"/><text x=\"312.0\" y=\"16.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.8\" font-weight=\"bold\">femeia adultă</text><rect x=\"282\" y=\"32\" width=\"10\" height=\"10\" fill=\"#2a78d6\" fill-opacity=\"0.55\" stroke=\"#faf8f3\" stroke-width=\"0.6\"/><rect x=\"292\" y=\"32\" width=\"10\" height=\"10\" fill=\"#2a78d6\" fill-opacity=\"0.55\" stroke=\"#faf8f3\" stroke-width=\"0.6\"/><rect x=\"302\" y=\"32\" width=\"10\" height=\"10\" fill=\"#eb6834\" fill-opacity=\"0.55\" stroke=\"#faf8f3\" stroke-width=\"0.6\"/><rect x=\"312\" y=\"32\" width=\"10\" height=\"10\" fill=\"#eb6834\" fill-opacity=\"0.55\" stroke=\"#faf8f3\" stroke-width=\"0.6\"/><rect x=\"322\" y=\"32\" width=\"10\" height=\"10\" fill=\"#eb6834\" fill-opacity=\"0.55\" stroke=\"#faf8f3\" stroke-width=\"0.6\"/><rect x=\"332\" y=\"32\" width=\"10\" height=\"10\" fill=\"#eb6834\" fill-opacity=\"0.55\" stroke=\"#faf8f3\" stroke-width=\"0.6\"/><rect x=\"282\" y=\"42\" width=\"10\" height=\"10\" fill=\"#2a78d6\" fill-opacity=\"0.55\" stroke=\"#faf8f3\" stroke-width=\"0.6\"/><rect x=\"292\" y=\"42\" width=\"10\" height=\"10\" fill=\"#eb6834\" fill-opacity=\"0.55\" stroke=\"#faf8f3\" stroke-width=\"0.6\"/><rect x=\"302\" y=\"42\" width=\"10\" height=\"10\" fill=\"#eb6834\" fill-opacity=\"0.55\" stroke=\"#faf8f3\" stroke-width=\"0.6\"/><rect x=\"312\" y=\"42\" width=\"10\" height=\"10\" fill=\"#2a78d6\" fill-opacity=\"0.55\" stroke=\"#faf8f3\" stroke-width=\"0.6\"/><rect x=\"322\" y=\"42\" width=\"10\" height=\"10\" fill=\"#eb6834\" fill-opacity=\"0.55\" stroke=\"#faf8f3\" stroke-width=\"0.6\"/><rect x=\"332\" y=\"42\" width=\"10\" height=\"10\" fill=\"#eb6834\" fill-opacity=\"0.55\" stroke=\"#faf8f3\" stroke-width=\"0.6\"/><rect x=\"282\" y=\"52\" width=\"10\" height=\"10\" fill=\"#eb6834\" fill-opacity=\"0.55\" stroke=\"#faf8f3\" stroke-width=\"0.6\"/><rect x=\"292\" y=\"52\" width=\"10\" height=\"10\" fill=\"#eb6834\" fill-opacity=\"0.55\" stroke=\"#faf8f3\" stroke-width=\"0.6\"/><rect x=\"302\" y=\"52\" width=\"10\" height=\"10\" fill=\"#2a78d6\" fill-opacity=\"0.55\" stroke=\"#faf8f3\" stroke-width=\"0.6\"/><rect x=\"312\" y=\"52\" width=\"10\" height=\"10\" fill=\"#2a78d6\" fill-opacity=\"0.55\" stroke=\"#faf8f3\" stroke-width=\"0.6\"/><rect x=\"322\" y=\"52\" width=\"10\" height=\"10\" fill=\"#2a78d6\" fill-opacity=\"0.55\" stroke=\"#faf8f3\" stroke-width=\"0.6\"/><rect x=\"332\" y=\"52\" width=\"10\" height=\"10\" fill=\"#2a78d6\" fill-opacity=\"0.55\" stroke=\"#faf8f3\" stroke-width=\"0.6\"/><rect x=\"282\" y=\"62\" width=\"10\" height=\"10\" fill=\"#eb6834\" fill-opacity=\"0.55\" stroke=\"#faf8f3\" stroke-width=\"0.6\"/><rect x=\"292\" y=\"62\" width=\"10\" height=\"10\" fill=\"#eb6834\" fill-opacity=\"0.55\" stroke=\"#faf8f3\" stroke-width=\"0.6\"/><rect x=\"302\" y=\"62\" width=\"10\" height=\"10\" fill=\"#eb6834\" fill-opacity=\"0.55\" stroke=\"#faf8f3\" stroke-width=\"0.6\"/><rect x=\"312\" y=\"62\" width=\"10\" height=\"10\" fill=\"#2a78d6\" fill-opacity=\"0.55\" stroke=\"#faf8f3\" stroke-width=\"0.6\"/><rect x=\"322\" y=\"62\" width=\"10\" height=\"10\" fill=\"#2a78d6\" fill-opacity=\"0.55\" stroke=\"#faf8f3\" stroke-width=\"0.6\"/><rect x=\"332\" y=\"62\" width=\"10\" height=\"10\" fill=\"#2a78d6\" fill-opacity=\"0.55\" stroke=\"#faf8f3\" stroke-width=\"0.6\"/><rect x=\"282\" y=\"72\" width=\"10\" height=\"10\" fill=\"#2a78d6\" fill-opacity=\"0.55\" stroke=\"#faf8f3\" stroke-width=\"0.6\"/><rect x=\"292\" y=\"72\" width=\"10\" height=\"10\" fill=\"#eb6834\" fill-opacity=\"0.55\" stroke=\"#faf8f3\" stroke-width=\"0.6\"/><rect x=\"302\" y=\"72\" width=\"10\" height=\"10\" fill=\"#eb6834\" fill-opacity=\"0.55\" stroke=\"#faf8f3\" stroke-width=\"0.6\"/><rect x=\"312\" y=\"72\" width=\"10\" height=\"10\" fill=\"#2a78d6\" fill-opacity=\"0.55\" stroke=\"#faf8f3\" stroke-width=\"0.6\"/><rect x=\"322\" y=\"72\" width=\"10\" height=\"10\" fill=\"#2a78d6\" fill-opacity=\"0.55\" stroke=\"#faf8f3\" stroke-width=\"0.6\"/><rect x=\"332\" y=\"72\" width=\"10\" height=\"10\" fill=\"#2a78d6\" fill-opacity=\"0.55\" stroke=\"#faf8f3\" stroke-width=\"0.6\"/><rect x=\"282\" y=\"82\" width=\"10\" height=\"10\" fill=\"#2a78d6\" fill-opacity=\"0.55\" stroke=\"#faf8f3\" stroke-width=\"0.6\"/><rect x=\"292\" y=\"82\" width=\"10\" height=\"10\" fill=\"#2a78d6\" fill-opacity=\"0.55\" stroke=\"#faf8f3\" stroke-width=\"0.6\"/><rect x=\"302\" y=\"82\" width=\"10\" height=\"10\" fill=\"#2a78d6\" fill-opacity=\"0.55\" stroke=\"#faf8f3\" stroke-width=\"0.6\"/><rect x=\"312\" y=\"82\" width=\"10\" height=\"10\" fill=\"#2a78d6\" fill-opacity=\"0.55\" stroke=\"#faf8f3\" stroke-width=\"0.6\"/><rect x=\"322\" y=\"82\" width=\"10\" height=\"10\" fill=\"#2a78d6\" fill-opacity=\"0.55\" stroke=\"#faf8f3\" stroke-width=\"0.6\"/><rect x=\"332\" y=\"82\" width=\"10\" height=\"10\" fill=\"#2a78d6\" fill-opacity=\"0.55\" stroke=\"#faf8f3\" stroke-width=\"0.6\"/><text x=\"312.0\" y=\"110.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">mozaic de clone:</text><text x=\"312.0\" y=\"123.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">modelul se păstrează</text><text x=\"312.0\" y=\"136.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">în celulele-fiice</text><rect x=\"14.0\" y=\"156.0\" width=\"10.0\" height=\"10.0\" fill=\"#2a78d6\"></rect><text x=\"28.0\" y=\"165.0\" text-anchor=\"start\" fill=\"#2c2a26\" font-size=\"10.8\">activ X matern</text><rect x=\"128.8\" y=\"156.0\" width=\"10.0\" height=\"10.0\" fill=\"#eb6834\"></rect><text x=\"142.8\" y=\"165.0\" text-anchor=\"start\" fill=\"#2c2a26\" font-size=\"10.8\">activ X patern</text></svg>"
+          }
+        ]
+      }
+    ]
+  }
+}

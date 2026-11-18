@@ -27,6 +27,17 @@
         "text": "← Toate materiile",
         "href": "../index.html"
       }
+    },
+    {
+      "cheie": "genetica",
+      "titlu": "Genetica comportamentului uman",
+      "sursa": "An1_Sem1/sources/genetica",
+      "pagina": "An1_Sem1/Genetica_comportamentului_uman.html",
+      "materiale": "An1_Sem1/Genetica",
+      "inapoi": {
+        "text": "← Toate materiile",
+        "href": "../index.html"
+      }
     }
   ]
 }

@@ -1,0 +1,978 @@
+{
+  "schema": "quiz-capitol-v3",
+  "capitol": 5,
+  "titlu": "Anomaliile cromozomiale și consecințele lor clinice",
+  "sursa": "Genetica comportamentului uman, Unitatea 5, pp. 73–90",
+  "runde": [
+    {
+      "id": "1",
+      "eticheta": "Runda 1 · Bază",
+      "titlu": "Runda 1 — Concepte de bază",
+      "desc": "Teorie: tipurile de anomalii cromozomiale, mecanismele lor, consecințele clinice și comportamentale, în întrebări directe.",
+      "intrebari": [
+        {
+          "q": "Ce a arătat Lejeune, în 1958, despre sindromul Down?",
+          "opts": [
+            "Că e produs de o genă recesivă autozomală",
+            "Că apare prin fuziunea a doi acrocentrici",
+            "Că are un cromozom 21 suplimentar",
+            "Că e o monosomie a unui cromozom mic"
+          ],
+          "correct": 2,
+          "explain": "Lejeune descoperă că sindromul numit atunci „mongolism” are un cromozom 21 în plus (trisomia 21). Fuziunea a doi acrocentrici explică doar forma prin translocație, rară (5%); nu e o genă recesivă și nici o monosomie.",
+          "tag": "Lejeune și trisomia 21 (1958)",
+          "tip": "istoric",
+          "noutate": "nou"
+        },
+        {
+          "q": "Ce deosebește o anomalie cromozomială constituțională de una somatică?",
+          "opts": [
+            "Prima e moștenită de la părinți, a doua e accidentală",
+            "Prima e în toate celulele, a doua doar în unele",
+            "Prima e numerică, a doua e structurală",
+            "Prima afectează autozomii, a doua gonozomii"
+          ],
+          "correct": 1,
+          "explain": "Criteriul e extinderea în corp: anomalia constituțională există în toate celulele (deci a apărut foarte devreme), cea somatică doar în unele țesuturi, iar individul e un mozaic. Moștenită/accidentală, numerică/structurală sunt alte clasificări, independente de aceasta.",
+          "tag": "Constituțională vs somatică",
+          "tip": "concept",
+          "noutate": "nou"
+        },
+        {
+          "q": "Ce arată scăderea frecvenței anomaliilor cromozomiale de la avorturile timpurii la nou-născuți?",
+          "opts": [
+            "O selecție intrauterină a concepțiilor anormale",
+            "O reparare a cromozomilor în cursul sarcinii",
+            "O eroare de numărare în avorturile timpurii",
+            "Un efect al vârstei mamei asupra ovulelor"
+          ],
+          "correct": 0,
+          "explain": "De la 50–60% în avorturile din trimestrul I la 0,5–0,7% la naștere: majoritatea concepțiilor cu anomalii se elimină, iar cele viabile sunt „vârful aisbergului”. Anomaliile nu se repară; vârsta mamei schimbă frecvența la concepție, nu scăderea pe parcursul sarcinii.",
+          "tag": "Selecția intrauterină",
+          "tip": "fenomen",
+          "noutate": "nou"
+        },
+        {
+          "q": "Care e cauza cea mai obișnuită a triploidiei?",
+          "opts": [
+            "Non-disjuncția unei perechi în meioza mamei",
+            "Dispermia sau fecundarea cu un gamet diploid",
+            "Reduplicarea endomitotică a zigotului",
+            "Translocația dintre doi cromozomi acrocentrici"
+          ],
+          "correct": 1,
+          "explain": "Triploidia e un accident de fecundație: un ovul fecundat de doi spermatozoizi sau un gamet cu 2n. Non-disjuncția dă trisomii sau monosomii, endomitoza primei diviziuni dă tetraploidie, iar translocația schimbă structura, nu numărul seturilor.",
+          "tag": "Accidentul de fecundație",
+          "tip": "fenomen",
+          "noutate": "nou"
+        },
+        {
+          "q": "Prin ce se deosebește o triploidie de o trisomie?",
+          "opts": [
+            "Triploidia adaugă un set întreg, trisomia un cromozom",
+            "Triploidia e viabilă, trisomia e letală în embrion",
+            "Triploidia apare în mitoză, trisomia în meioză",
+            "Triploidia afectează gonozomii, trisomia autozomii"
+          ],
+          "correct": 0,
+          "explain": "Triploidia (3n = 69) e o poliploidie, deci euploidie cu un set în plus; trisomia (2n + 1) e o aneuploidie, cu un singur cromozom în plus. Viabilitatea e chiar inversă: triploidia e incompatibilă cu viața postnatală, trisomia 21 permite supraviețuirea.",
+          "tag": "Euploidie vs aneuploidie",
+          "tip": "concept",
+          "noutate": "nou"
+        },
+        {
+          "q": "Care monosomie e compatibilă cu viața la om?",
+          "opts": [
+            "Monosomia 21, în sindromul Down",
+            "Monosomia Y, la persoanele 45,Y",
+            "Monosomia 5, în „țipătul de pisică”",
+            "Monosomia X, în sindromul Turner"
+          ],
+          "correct": 3,
+          "explain": "Singura monosomie viabilă e 45,X (sindromul Turner). Sindromul Down e o trisomie 21, 45,Y nu e viabil (lipsa oricărui X e letală), iar „țipătul de pisică” e o monosomie doar parțială, prin deleția unui segment al cromozomului 5.",
+          "tag": "Monosomia (2n−1)",
+          "tip": "concept",
+          "noutate": "nou"
+        },
+        {
+          "q": "Ce particularitate a ovogenezei ar explica efectul vârstei mamei asupra non-disjuncției?",
+          "opts": [
+            "Ovulele se formează din nou la fiecare ciclu",
+            "Ovulele trec prin mai multe mitoze decât spermatozoizii",
+            "Ovulele pierd inactivarea X odată cu vârsta",
+            "Ovulele stau blocate ani întregi în meioză"
+          ],
+          "correct": 3,
+          "explain": "Meioza femeii începe în ovarul fetal, iar ovulele rămân blocate în dictioten până la ovulație; blocajul de mulți ani ar favoriza erorile de separare. Ovulele nu se formează din nou la fiecare ciclu, iar inactivarea X nu ține de segregarea cromozomilor.",
+          "tag": "Efectul vârstei materne",
+          "tip": "fenomen",
+          "noutate": "nou"
+        },
+        {
+          "q": "Ce metode prenatale pot preciza, nu doar sugera, o anomalie cromozomială?",
+          "opts": [
+            "Biopsia de trofoblast și amniocenteza",
+            "Ecografia și testele serologice materne",
+            "Testul Barr pe celulele bucale ale mamei",
+            "Arborele genealogic al ambilor părinți"
+          ],
+          "correct": 0,
+          "explain": "Doar metodele invazive, care obțin celule fetale (vilozități coriale, lichid amniotic), permit cariotipul fătului. Ecografia și testele serologice sunt neinvazive și doar sugerează un risc; celulele mamei sau arborele genealogic nu arată cromozomii fătului.",
+          "tag": "Diagnosticul prenatal",
+          "tip": "metoda",
+          "noutate": "nou"
+        },
+        {
+          "q": "Prin ce se deosebește un mozaic de o himeră?",
+          "opts": [
+            "Mozaicul are o linie anormală, himera două",
+            "Mozaicul apare în meioză, himera în mitoză",
+            "Mozaicul afectează gonozomii, himera autozomii",
+            "Mozaicul provine dintr-un zigot, himera din doi"
+          ],
+          "correct": 3,
+          "explain": "Ambele au două linii celulare diferite (mixoploidie); la mozaic ele derivă din același zigot, printr-un accident după fecundare, la himeră din doi zigoți, de obicei gemeni dizigoți fuzionați. Mozaicul apare printr-o eroare mitotică, nu meiotică.",
+          "tag": "Himera",
+          "tip": "concept",
+          "noutate": "nou"
+        },
+        {
+          "q": "De ce sunt monosomiile autozomale mai grave decât trisomiile?",
+          "opts": [
+            "Cromozomul lipsă purta genele dominante ale perechii",
+            "Reducerea la 50% a unor produși genici e intolerabilă",
+            "Cromozomul în plus e inactivat ca un corpuscul Barr",
+            "Monosomiile apar mai târziu în dezvoltarea embrionului"
+          ],
+          "correct": 1,
+          "explain": "Pe fiecare cromozom există probabil gene pentru care jumătate din produs nu ajunge, iar sute de efecte mici se adună; trisomia schimbă mai puțin nivelurile relative. Inactivarea de tip Barr privește doar X-ul, iar dominanța nu explică dozajul.",
+          "tag": "Monosomie vs trisomie",
+          "tip": "principiu",
+          "noutate": "nou"
+        },
+        {
+          "q": "De ce au anomaliile numerice ale gonozomilor efecte mult mai mici decât cele autozomale?",
+          "opts": [
+            "Gonozomii nu poartă gene necesare vieții",
+            "Gonozomii în plus se pierd în primele diviziuni",
+            "Rămâne activ un singur X, oricâți ar fi",
+            "Gonozomii se exprimă abia după pubertate"
+          ],
+          "correct": 2,
+          "explain": "Inactivarea X, din Cap. 4 (Bazele cromozomiale ale eredității. Cromozomii umani: morfologie, structură, funcție), ține constant dozajul genelor X; Y are puține gene. X-ul e însă esențial: lipsa lui totală e letală, deci gonozomii poartă gene vitale și nu se pierd.",
+          "tag": "Inactivarea X și testul Barr",
+          "tip": "principiu",
+          "noutate": "nou"
+        },
+        {
+          "q": "De ce poate avea eșecuri reproductive un purtător sănătos de translocație echilibrată?",
+          "opts": [
+            "Translocația îi scade numărul de gameți",
+            "Meioza lui produce gameți neechilibrați",
+            "Translocația activează o oncogenă în gonade",
+            "Copiii moștenesc translocația în formă dublă"
+          ],
+          "correct": 1,
+          "explain": "Translocația doar mută material, deci purtătorul e sănătos; în meioză însă cromozomii remaniați se distribuie dezechilibrat, de unde avorturi, sterilitate sau copii malformați. Activarea unei oncogene e cazul translocației somatice Philadelphia.",
+          "tag": "Echilibrate: inversii, translocații",
+          "tip": "principiu",
+          "noutate": "nou"
+        },
+        {
+          "q": "Care e cea mai frecventă cauză a întârzierii mentale familiale?",
+          "opts": [
+            "Sindromul X fragil",
+            "Trisomia 21 liberă",
+            "Sindromul Klinefelter",
+            "Sindromul Turner"
+          ],
+          "correct": 0,
+          "explain": "Sindromul X fragil (1/1300 băieți, 1/2500 fete) e cea mai frecventă cauză familială, fiindcă se transmite. Trisomia 21 e mai frecventă, dar e de obicei un accident nemoștenit; Klinefelter are intelect de obicei normal, iar Turner rareori are înapoiere moderată.",
+          "tag": "Sindromul X fragil",
+          "tip": "tulburare",
+          "noutate": "nou"
+        },
+        {
+          "q": "De ce afectează aproape toate anomaliile cromozomiale abilitățile cognitive?",
+          "opts": [
+            "Fiecare cromozom poartă o genă a inteligenței",
+            "Anomaliile apar mai ales pe cromozomul X",
+            "Inteligența depinde de multe gene care interacționează",
+            "Anomaliile produc aceeași leziune a creierului"
+          ],
+          "correct": 2,
+          "explain": "Inteligența e poligenică: fiecare cromozom participă la „orchestra genetică”, iar un dezechilibru oriunde strică ansamblul. Nu există o genă a inteligenței pe fiecare cromozom, anomaliile nu sunt mai ales pe X și nu au o leziune biochimică sau morfologică specifică.",
+          "tag": "Efectul general asupra cogniției",
+          "tip": "principiu",
+          "noutate": "nou"
+        },
+        {
+          "q": "Prin ce mecanism s-a format cromozomul 2 uman?",
+          "opts": [
+            "Duplicarea unui cromozom mic de maimuță",
+            "Pierderea unui braț de la un metacentric",
+            "Fuziunea centrică a doi acrocentrici de maimuță",
+            "Non-disjuncția unei perechi la primul hominid"
+          ],
+          "correct": 2,
+          "explain": "Cromozomul 2 are benzile a doi acrocentrici de maimuță: s-au unit printr-o translocație robertsoniană, fără pierdere de material, iar numărul a scăzut de la 48 la 46. Non-disjuncția ar fi adăugat sau scos un cromozom, nu le-ar fi unit.",
+          "tag": "Cromozomul 2 uman",
+          "tip": "fenomen",
+          "noutate": "nou"
+        }
+      ],
+      "ascunse": [
+        {
+          "q": "Ce efect a avut citogenetica moleculară asupra distincției dintre mutațiile cromozomiale și cele genice?",
+          "opts": [
+            "A estompat-o, arătând modificări mult sub 4 Mb",
+            "A confirmat-o, fiindcă arată doar cromozomi întregi",
+            "A întărit-o, fixând un prag vizibil de 4 Mb",
+            "A mutat-o la nivelul nucleotidelor izolate"
+          ],
+          "correct": 0,
+          "explain": "Preparatele standard arată pierderi sau câștiguri de la circa 4 Mb; colorarea fluorescentă și hibridizarea in situ arată modificări mult mai mici, deci linia dintre anomalia citogenetică și defectul ADN a dispărut. Pragul de 4 Mb ține de tehnica veche.",
+          "tag": "Pragul vizibilității (4 Mb)",
+          "tip": "concept",
+          "noutate": "nou"
+        },
+        {
+          "q": "Pentru ce contează distincția dintre anomaliile cromozomiale accidentale și cele moștenite?",
+          "opts": [
+            "Pentru riscul de repetare la copiii următori",
+            "Pentru gravitatea manifestărilor la purtător",
+            "Pentru tehnica de colorare a cromozomilor",
+            "Pentru stadiul în care e eliminat embrionul"
+          ],
+          "correct": 0,
+          "explain": "Distincția privește riscul reproductiv: o anomalie accidentală are risc mic de repetare, una moștenită de la un părinte purtător (de pildă o translocație echilibrată) are risc mare. Gravitatea depinde de tipul anomaliei, nu de originea ei.",
+          "tag": "Accidentale vs moștenite",
+          "tip": "concept",
+          "noutate": "nou"
+        },
+        {
+          "q": "Câți cromozomi are un zigot format dintr-un gamet cu non-disjuncție meiotică și unul normal?",
+          "opts": [
+            "46 de cromozomi, dar în mozaic",
+            "69 de cromozomi, adică un triploid",
+            "44 sau 48 de cromozomi",
+            "45 sau 47 de cromozomi"
+          ],
+          "correct": 3,
+          "explain": "Gametul anormal are 22 sau 24 de cromozomi; cu un gamet normal (23) dă un zigot monosomic (45) sau trisomic (47). Mozaicul vine din non-disjuncția mitotică, după fecundare, iar 69 de cromozomi înseamnă un set întreg în plus.",
+          "tag": "Non-disjuncția",
+          "tip": "calcul",
+          "noutate": "nou"
+        },
+        {
+          "q": "Ce rol are, pentru specie, sterilitatea frecventă a purtătorilor de anomalii cromozomiale?",
+          "opts": [
+            "Crește variabilitatea genetică a populației",
+            "Protejează cariotipul de schimbări drastice",
+            "Elimină treptat genele recesive dăunătoare",
+            "Favorizează apariția unor specii noi"
+          ],
+          "correct": 1,
+          "explain": "Fiindcă purtătorii au potențial reproductiv redus, anomaliile de obicei nu se transmit: la nivel de specie, e o apărare împotriva modificărilor drastice ale cariotipului. Genele recesive se ascund la heterozigoți, deci nu sunt eliminate astfel.",
+          "tag": "Sterilitatea ca apărare",
+          "tip": "principiu",
+          "noutate": "nou"
+        },
+        {
+          "q": "De ce are un cromozom Y suplimentar consecințe clinice reduse?",
+          "opts": [
+            "Y suplimentar e inactivat ca un corpuscul Barr",
+            "Y suplimentar se pierde în primele diviziuni",
+            "Y are puține gene, mai ales pentru sexul masculin",
+            "Y poartă doar gene recesive, mascate de X"
+          ],
+          "correct": 2,
+          "explain": "Y conține foarte puține gene, iar funcția lui importantă e determinarea sexului masculin (gena SRY); bărbații XYY sunt fertili. Corpusculii Barr sunt X-uri inactivate, nu Y, iar Y-ul în plus rămâne în celule.",
+          "tag": "Cromozomul Y și SRY",
+          "tip": "principiu",
+          "noutate": "nou"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "eticheta": "Runda 2 · Aplicații",
+      "titlu": "Runda 2 — Scenarii și raționament",
+      "desc": "Situații cu mai mulți pași: interpretezi cariotipuri, estimezi riscuri, explici sindroame și ipoteze.",
+      "intrebari": [
+        {
+          "q": "Sindromul Down apare la 1 din 700 de nașteri, iar sindromul Turner la 1 din 5000, independent unul de altul. Ce risc are un copil să le aibă pe amândouă?",
+          "opts": [
+            "1 la 5700, suma numitorilor celor două riscuri",
+            "1 la 700, riscul anomaliei mai frecvente",
+            "1 la 2850, media celor două riscuri",
+            "1 la 3 500 000, produsul celor două riscuri"
+          ],
+          "correct": 3,
+          "explain": "Pentru două evenimente independente, probabilitatea ca ambele să apară e produsul lor: 1/700 × 1/5000 = 1/3 500 000. Adunarea numitorilor sau media nu au sens probabilistic, iar riscul anomaliei mai frecvente ar fi riscul de a avea măcar una dintre ele, aproximativ.",
+          "tag": "Non-disjuncția",
+          "tip": "calcul",
+          "noutate": "nou",
+          "exemplu_nou": false
+        },
+        {
+          "q": "Două surori sunt însărcinate în același timp: una are 40 de ani, cealaltă 25. Riscurile observate în populație sunt 1 la 90 la 40 de ani și 1 la 1500 la 25. Ce poți spune despre riscul de trisomie 21?",
+          "opts": [
+            "E egal: riscul depinde mai ales de vârsta tatălui",
+            "E de circa 17 ori mai mare la sora de 40 de ani",
+            "E mai mare la cea de 40 de ani, dar doar cu circa 15%",
+            "E egal, fiindcă trisomia e un accident întâmplător"
+          ],
+          "correct": 1,
+          "explain": "1500 / 90 ≈ 17: riscul crește abrupt cu vârsta mamei, fiindcă 95% din non-disjuncțiile din trisomia 21 au loc în ovogeneză. Faptul că e un accident nu-l face egal la orice vârstă; contribuția tatălui e minoră.",
+          "tag": "Efectul vârstei materne",
+          "tip": "calcul",
+          "noutate": "nou",
+          "exemplu_nou": true
+        },
+        {
+          "q": "La o femeie, analiza arată două linii celulare, 46,XX și 45,X; toate celelalte gene sunt identice în cele două linii, deci nu e vorba de un al doilea zigot. Cum s-a format, cel mai probabil, această constituție?",
+          "opts": [
+            "Un X s-a pierdut într-o diviziune după fecundare",
+            "Doi zigoți diferiți au fuzionat la începutul dezvoltării",
+            "Mama a produs un ovul fără cromozom X",
+            "Tatăl a transmis un spermatozoid cu doi X"
+          ],
+          "correct": 0,
+          "explain": "Două linii din același zigot înseamnă un mozaic: un accident mitotic după fecundare (pierderea sau non-disjuncția unui X) a creat linia 45,X. O eroare meiotică a unui părinte ar fi dat o singură constituție în tot corpul, iar fuziunea a doi zigoți ar da o himeră.",
+          "tag": "Mozaicul",
+          "tip": "fenomen",
+          "noutate": "nou",
+          "exemplu_nou": false
+        },
+        {
+          "q": "La un control de rutină, un bărbat sănătos are două populații de hematii, de grupe sanguine diferite; alte gene arată două genotipuri distincte, ca la doi frați. Ce explicație e cea mai probabilă?",
+          "opts": [
+            "O non-disjuncție după fecundare a creat a doua linie",
+            "O mutație somatică a schimbat grupa unei linii",
+            "A rezultat din fuziunea timpurie a doi zigoți gemeni",
+            "O translocație echilibrată a dublat genele grupei"
+          ],
+          "correct": 2,
+          "explain": "Două genotipuri complete, ca de frați, cer doi zigoți: e o himeră, de obicei din fuziunea a doi gemeni dizigoți, descoperită întâmplător. Non-disjuncția sau o mutație somatică ar schimba un cromozom sau o genă, nu tot genotipul.",
+          "tag": "Himera",
+          "tip": "fenomen",
+          "noutate": "nou",
+          "exemplu_nou": true
+        },
+        {
+          "q": "Un cuplu tânăr are al doilea copil cu sindrom Down. Mama, sănătoasă, are 45 de cromozomi: un cromozom 14 și un 21 sunt uniți într-unul singur. Ce înseamnă asta pentru o nouă sarcină?",
+          "opts": [
+            "Risc de circa 1%, ca la un cuplu tânăr oarecare",
+            "Risc mare: mama poate da gameți neechilibrați",
+            "Risc mic: anomalia mamei nu are efect fenotipic",
+            "Risc crescut doar după vârsta de 35 de ani"
+          ],
+          "correct": 1,
+          "explain": "Mama e purtătoare echilibrată a unei translocații robertsoniene: e sănătoasă, dar o parte din gameții ei poartă material 21 în plus, deci forma ereditară a sindromului Down are risc genetic major. Riscul de 1% e al formei accidentale, iar vârsta nu contează aici.",
+          "tag": "Down prin translocație",
+          "tip": "fenomen",
+          "noutate": "nou",
+          "exemplu_nou": true
+        },
+        {
+          "q": "Un bărbat sănătos e purtător echilibrat al unei translocații între cromozomii 14 și 21; soția are cariotip normal. Ce copii născuți vii poate avea cuplul?",
+          "opts": [
+            "Numai copii normali, fiindcă el e sănătos",
+            "Normali, purtători echilibrați sau cu sindrom Down",
+            "Normali sau cu trisomie 14, ca formă viabilă",
+            "Doar purtători echilibrați, ca tatăl lor"
+          ],
+          "correct": 1,
+          "explain": "Meioza purtătorului dă șase tipuri de zigoți: normal, purtător echilibrat, trisomie 21 prin translocație (viabilă, sindrom Down) și trei letale (trisomie 14, monosomie 14, monosomie 21). Sănătatea tatălui nu garantează gameți echilibrați.",
+          "tag": "Echilibrate: inversii, translocații",
+          "tip": "fenomen",
+          "noutate": "nou",
+          "exemplu_nou": false
+        },
+        {
+          "q": "Un nou-născut are un plâns ascuțit, ca un mieunat, întârziere de creștere și malformații ale capului; analiza arată că lipsește un fragment al unui cromozom 5. Ce fel de anomalie are?",
+          "opts": [
+            "Structurală echilibrată, fără pierdere de material",
+            "Numerică: o monosomie a întregului cromozom 5",
+            "Numerică: o trisomie parțială a cromozomului 5",
+            "Structurală neechilibrată: o monosomie parțială"
+          ],
+          "correct": 3,
+          "explain": "Sindromul „țipătului de pisică” e o deleție: lipsește un segment, deci genele lui sunt într-o singură copie (monosomie parțială), cu efectele comune anomaliilor neechilibrate. O anomalie echilibrată n-ar avea simptome, iar o monosomie autozomală întreagă e letală.",
+          "tag": "Neechilibrate: deleția 5p",
+          "tip": "structura",
+          "noutate": "nou",
+          "exemplu_nou": false
+        },
+        {
+          "q": "Un pacient cu leucemie are, doar în limfocite, o translocație echilibrată pe care nu o au părinții lui și nici celelalte țesuturi. Fără pierdere de material, cum produce ea boala?",
+          "opts": [
+            "Produce gameți neechilibrați, care afectează măduva",
+            "Activează o oncogenă prin noua poziție a segmentului",
+            "Dublează dozajul genelor de pe segmentul mutat",
+            "E moștenită de la un părinte purtător echilibrat"
+          ],
+          "correct": 1,
+          "explain": "E cazul cromozomului Philadelphia: o remaniere somatică, echilibrată, dar patogenă fiindcă activează o oncogenă. Gameții privesc urmașii, nu boala pacientului; o translocație echilibrată nu schimbă dozajul, iar absența la părinți și în alte țesuturi exclude moștenirea.",
+          "tag": "Cromozomul Philadelphia",
+          "tip": "fenomen",
+          "noutate": "nou",
+          "exemplu_nou": false
+        },
+        {
+          "q": "O femeie are un frate cu sindrom X fragil și află că e heterozigotă pentru X-ul fragil; soțul ei e sănătos. Ce risc au fiii lor să moștenească X-ul fragil?",
+          "opts": [
+            "50%, ca la genele recesive legate de X",
+            "25%, ca la o boală autozomală recesivă",
+            "100%, fiindcă X-ul fiului vine de la mamă",
+            "Aproape zero, fiindcă tatăl e sănătos"
+          ],
+          "correct": 0,
+          "explain": "Fiul primește X-ul de la mamă, care are un X fragil și unul normal: 50% din fii îl moștenesc, ca la transmiterea X-recesivă. X-ul vine de la mamă, dar ea are două; tatăl dă fiului Y-ul, deci sănătatea lui nu schimbă riscul fiilor.",
+          "tag": "Transmiterea X-ului fragil",
+          "tip": "calcul",
+          "noutate": "nou",
+          "exemplu_nou": true
+        },
+        {
+          "q": "Un bărbat înalt, de 30 de ani, consultă un medic pentru infertilitate; spermograma arată azoospermie, iar în copilărie a avut dislexie și o întârziere a limbajului. Ce cariotip e cel mai probabil?",
+          "opts": [
+            "47,XXY",
+            "47,XYY",
+            "46,XX",
+            "47,XY,+21"
+          ],
+          "correct": 0,
+          "explain": "Sterilitatea cu azoospermie, cu întârzierea limbajului și dislexia, descrie sindromul Klinefelter. Bărbații XYY sunt și ei înalți și pot avea întârzieri ale limbajului, dar sunt de obicei fertili; trisomia 21 ar da retard mental important și semne vizibile.",
+          "tag": "Sindromul Klinefelter",
+          "tip": "tulburare",
+          "noutate": "nou",
+          "exemplu_nou": true
+        },
+        {
+          "q": "Un jurnalist citește că, într-un studiu din închisori de maximă securitate, 7 din 196 de deținuți erau XYY, și scrie că un Y în plus „face criminali”. Ce au arătat cercetările ulterioare?",
+          "opts": [
+            "Un Y în plus crește agresivitatea, dar doar la adulți",
+            "Rezultatul era un artefact: XYY nu există la deținuți",
+            "Cei mai mulți XYY sunt integrați; contează discernământul",
+            "Legătura e reală, de aceea s-a introdus screeningul"
+          ],
+          "correct": 2,
+          "explain": "Studiul echipei Jacobs (1965) a lansat ipoteza; un studiu danez pe bărbați înalți neinstituționalizați a găsit la XYY mai ales delicte minore, din lipsă de discernământ, nu din agresivitate. Frecvența la deținuți e totuși mai mare, iar screeningul postnatal e suspendat (moratoriu).",
+          "tag": "Ipoteza XYY criminogen",
+          "tip": "istoric",
+          "noutate": "nou",
+          "exemplu_nou": false
+        },
+        {
+          "q": "O adolescentă de 1,45 m, cu gât palmat și fără menstruație, are note bune la limbă și istorie, dar se descurcă greu cu hărțile și cu copierea figurilor geometrice. Ce diagnostic e cel mai probabil?",
+          "opts": [
+            "Sindromul X fragil, cu înapoiere mentală",
+            "Sindromul XXX, cu menopauză precoce",
+            "Sindromul Down, cu retard mental global",
+            "Sindromul Turner, cu deficit spațial specific"
+          ],
+          "correct": 3,
+          "explain": "Statura mică, gâtul palmat și amenoreea primară, cu dificultăți specifice în abilitatea spațială și intelect altfel normal, descriu sindromul Turner (45,X). Retardul global din Down sau X fragil n-ar lăsa neatinse celelalte materii; XXX are statură normală.",
+          "tag": "Sindromul Turner",
+          "tip": "tulburare",
+          "noutate": "nou",
+          "exemplu_nou": true
+        },
+        {
+          "q": "O cercetătoare compară două studii despre inteligența persoanelor cu sindrom Down: unul vechi, pe pacienți din instituții, găsește aproape numai retard sever; unul recent, pe copii crescuți în familie, găsește mulți aproape de medie. Ce explică diferența?",
+          "opts": [
+            "Sindromul s-a atenuat genetic de la o generație la alta",
+            "Al doilea a inclus și copii fără trisomie 21",
+            "Primul a subestimat, prin eșantionul ales",
+            "Retardul apare abia după 40 de ani, cu Alzheimer"
+          ],
+          "correct": 2,
+          "explain": "Literatura veche s-a concentrat pe indivizi instituționalizați, deci a subestimat capacitățile; în realitate doar unii sunt sever întârziați. Trisomia e aceeași de la o generație la alta, iar demența de după 40 de ani agravează un retard deja prezent.",
+          "tag": "Sindromul Down",
+          "tip": "eroare",
+          "noutate": "nou",
+          "exemplu_nou": true
+        },
+        {
+          "q": "Un embrion avortat spontan are 69 de cromozomi (69,XXY): două seturi sunt de la tată, unul de la mamă. Ce mecanism e cel mai frecvent compatibil cu aceste date?",
+          "opts": [
+            "O non-disjuncție a gonozomilor la tată",
+            "O endomitoză în prima diviziune a zigotului",
+            "Un ovul fecundat de doi spermatozoizi",
+            "Un ovul diploid fecundat de un spermatozoid"
+          ],
+          "correct": 2,
+          "explain": "Două seturi paterne cer un aport dublu al tatălui: dispermia (cea mai frecventă) sau, mai rar, un spermatozoid diploid. Un ovul diploid ar da două seturi materne, endomitoza ar da 4n, iar non-disjuncția ar adăuga un singur cromozom.",
+          "tag": "Accidentul de fecundație",
+          "tip": "fenomen",
+          "noutate": "nou",
+          "exemplu_nou": true
+        },
+        {
+          "q": "Doi copii au trisomie 21: unul în toate celulele, celălalt doar în 30% din celule, restul fiind normale. Ce te aștepți să observi la ei?",
+          "opts": [
+            "Al doilea are, de obicei, manifestări mai ușoare",
+            "Același tablou la ambii, fiindcă trisomia e aceeași",
+            "Al doilea va transmite sigur anomalia copiilor lui",
+            "Al doilea are manifestări mai grave, prin dezechilibru"
+          ],
+          "correct": 0,
+          "explain": "Al doilea e un mozaic: linia celulară normală atenuează de obicei gravitatea, iar manifestările depind de distribuția liniei anormale în țesuturi. Nimic nu-i garantează transmiterea, fiindcă gonadele pot avea linia normală.",
+          "tag": "Linia normală atenuează",
+          "tip": "principiu",
+          "noutate": "nou",
+          "exemplu_nou": true
+        }
+      ],
+      "ascunse": [
+        {
+          "q": "O femeie de 38 de ani, la 10 săptămâni de sarcină, vrea să afle sigur dacă fătul are trisomie 21. Ce i se poate spune corect despre opțiuni?",
+          "opts": [
+            "Ecografia făcută acum îi poate da diagnosticul sigur",
+            "Amniocenteza, din săptămâna 16, dă un diagnostic sigur",
+            "Testul serologic de acum confirmă sau exclude trisomia",
+            "Un cariotip al ei arată dacă fătul e afectat"
+          ],
+          "correct": 1,
+          "explain": "Doar metodele invazive (biopsia de trofoblast, amniocenteza) dau cariotipul fătului; amniocenteza se face din săptămâna a 16-a, cu rezultat după 2–3 săptămâni de cultură. Ecografia și serologia sugerează doar un risc, iar cariotipul mamei nu arată trisomia accidentală a fătului.",
+          "tag": "Diagnosticul prenatal",
+          "tip": "metoda",
+          "noutate": "nou",
+          "exemplu_nou": true
+        },
+        {
+          "q": "Un model evolutiv pornește de la o maimuță cu 47 de cromozomi, purtătoare a unei fuziuni între doi acrocentrici. De ce ar fi fost nevoie, pentru fixarea fuziunii, de împerecherea a doi frați, urmași ai ei?",
+          "opts": [
+            "Fuziunea se transmite doar pe linie paternă",
+            "Frații aveau deja câte 46 de cromozomi",
+            "Fuziunea devine homozigotă doar din doi gameți cu 23",
+            "Consangvinitatea repară gameții neechilibrați"
+          ],
+          "correct": 2,
+          "explain": "Purtătorul face gameți cu 24 (normali) și cu 23 (cu fuziunea); 46 cu fuziunea dublă apare doar din doi gameți cu 23. Fiindcă e greu ca același accident să apară la doi parteneri, s-a presupus incestul a doi urmași, fiecare cu 50% gameți cu 23.",
+          "tag": "Ipoteza incestului",
+          "tip": "model",
+          "noutate": "nou",
+          "exemplu_nou": false
+        },
+        {
+          "q": "Un diagnostic prenatal descoperă întâmplător cariotipul 47,XYY, iar părinții se tem că fiul va fi violent. Ce informație e corectă?",
+          "opts": [
+            "Are multe șanse să fie normal; decizia e a lor",
+            "Va avea un IQ sever scăzut, ca în trisomia 21",
+            "Va fi steril, ca bărbații cu sindrom Klinefelter",
+            "Va avea un risc mare de violență, dovedit statistic"
+          ],
+          "correct": 0,
+          "explain": "Majoritatea bărbaților XYY sunt integrați social, pot fi fertili și au mai ales dificultăți școlare și de limbaj; de aceea screeningul postnatal e suspendat, iar diagnosticul prenatal se comunică atent. IQ-ul e variabil, iar sterilitatea ține de Klinefelter.",
+          "tag": "Moratoriul screeningului XYY",
+          "tip": "principiu",
+          "noutate": "nou",
+          "exemplu_nou": true
+        },
+        {
+          "q": "Doi băieți 47,XXY cresc în familii diferite: unul într-o familie stabilă, celălalt într-una conflictuală. Primul diferă puțin de frații lui, al doilea are probleme serioase de dezvoltare. Ce ilustrează cazul?",
+          "opts": [
+            "Interacțiunea dintre genotip și mediu",
+            "Penetranța incompletă a unei gene dominante",
+            "Efectul mozaicului asupra gravității",
+            "Expresivitatea variabilă a unei boli X-linkate"
+          ],
+          "correct": 0,
+          "explain": "Același cariotip dă tablouri diferite după mediu: în familiile stabile, copiii cu anomalii gonozomale diferă puțin de frați. Penetranța și expresivitatea, din Cap. 3 (Modele de transmitere a caracterelor monogenice (mendeliene) în familiile umane), privesc o genă, iar băieții nu sunt descriși ca mozaicuri.",
+          "tag": "Genotip–mediu în anomalii",
+          "tip": "principiu",
+          "noutate": "nou",
+          "exemplu_nou": true
+        },
+        {
+          "q": "Un cercetător observă că femeile cu sindrom Turner se adaptează social mai greu și propune existența unei „gene a adaptabilității sociale” pe X. Ce explicație alternativă e mai probabilă?",
+          "opts": [
+            "Deficitul spațial, care le izolează de colegi",
+            "Înapoierea mentală moderată, frecventă la ele",
+            "Sterilitatea, descoperită încă din copilărie",
+            "Complexele legate de statură și de aspect"
+          ],
+          "correct": 3,
+          "explain": "Adaptarea socială deficitară e mai curând consecința complexelor legate de statura mică și de aspectul somatic decât a unor gene de pe X-ul absent. Înapoierea moderată e rară în Turner, iar deficitul spațial e cognitiv, nu social.",
+          "tag": "Sindromul Turner",
+          "tip": "ipoteza",
+          "noutate": "nou",
+          "exemplu_nou": false
+        }
+      ]
+    }
+  ],
+  "harta": {
+    "centru": "Anomaliile cromozomiale și consecințele lor clinice",
+    "ramuri": [
+      {
+        "titlu": "Definiție, frecvență, tipuri",
+        "figuri": [
+          {
+            "titlu": "Frecvența anomaliilor cromozomiale",
+            "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 330 236\" role=\"img\" aria-label=\"Frecvența anomaliilor cromozomiale: 50–60% în avorturile din trimestrul I, 40% în trimestrul II, 10% în trimestrul III, 0,5–0,7% la nou-născuți\" font-family=\"Georgia, serif\" font-size=\"13\"><line x1=\"44.0\" y1=\"190.0\" x2=\"320.0\" y2=\"190.0\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><text x=\"40.0\" y=\"193.5\" text-anchor=\"end\" fill=\"#6b6760\" font-size=\"10.2\">0%</text><line x1=\"44.0\" y1=\"136.7\" x2=\"320.0\" y2=\"136.7\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><text x=\"40.0\" y=\"140.2\" text-anchor=\"end\" fill=\"#6b6760\" font-size=\"10.2\">20%</text><line x1=\"44.0\" y1=\"83.3\" x2=\"320.0\" y2=\"83.3\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><text x=\"40.0\" y=\"86.8\" text-anchor=\"end\" fill=\"#6b6760\" font-size=\"10.2\">40%</text><line x1=\"44.0\" y1=\"30.0\" x2=\"320.0\" y2=\"30.0\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><text x=\"40.0\" y=\"33.5\" text-anchor=\"end\" fill=\"#6b6760\" font-size=\"10.2\">60%</text><rect x=\"58.0\" y=\"43.3\" width=\"34.0\" height=\"146.7\" fill=\"#2a78d6\"><title>trim. I: 50–60%</title></rect><text x=\"75.0\" y=\"38.3\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.2\">50–60%</text><text x=\"75.0\" y=\"206.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">trim. I</text><rect x=\"110.0\" y=\"83.3\" width=\"34.0\" height=\"106.7\" fill=\"#2a78d6\"><title>trim. II: 40%</title></rect><text x=\"127.0\" y=\"78.3\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.2\">40%</text><text x=\"127.0\" y=\"206.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">trim. II</text><rect x=\"162.0\" y=\"163.3\" width=\"34.0\" height=\"26.7\" fill=\"#2a78d6\"><title>trim. III: 10%</title></rect><text x=\"179.0\" y=\"158.3\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.2\">10%</text><text x=\"179.0\" y=\"206.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">trim. III</text><rect x=\"214.0\" y=\"174.0\" width=\"34.0\" height=\"16.0\" fill=\"#eb6834\"><title>decese: ≈ 6%</title></rect><text x=\"231.0\" y=\"169.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.2\">≈ 6%</text><text x=\"231.0\" y=\"206.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">decese</text><rect x=\"266.0\" y=\"188.4\" width=\"34.0\" height=\"1.6\" fill=\"#eb6834\"><title>nou-născuți: 0,5–0,7%</title></rect><text x=\"283.0\" y=\"183.4\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.2\">0,5–0,7%</text><text x=\"283.0\" y=\"206.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">nou-născuți</text><line x1=\"44.0\" y1=\"190.0\" x2=\"320.0\" y2=\"190.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><text x=\"122.0\" y=\"226.0\" text-anchor=\"middle\" fill=\"#2a78d6\" font-size=\"10.8\">avorturi spontane</text><text x=\"270.0\" y=\"226.0\" text-anchor=\"middle\" fill=\"#eb6834\" font-size=\"10.8\">perinatal / la naștere</text><text x=\"44.0\" y=\"18.0\" text-anchor=\"start\" fill=\"#6b6760\" font-size=\"10.2\">anomalii cromozomiale (% din cazuri)</text></svg>",
+            "nota": "Redesenat pe trimestre, cu valorile din text; bara „decese” (perinatale) e citită aproximativ din figura manualului."
+          }
+        ],
+        "noduri": [
+          {
+            "t": "Lejeune și trisomia 21 (1958)",
+            "d": "Lejeune arată că sindromul Down (numit atunci „mongolism”) are un cromozom 21 suplimentar. Citogenetica explică apoi multe avorturi spontane, sindroame malformative, sterilități și intersexualități."
+          },
+          {
+            "t": "Pragul vizibilității (4 Mb)",
+            "d": "Anomalia cromozomială e o modificare vizibilă a cromozomilor: pe preparate standard, de la circa 4 Mb de ADN. Hibridizarea in situ arată modificări mult mai mici, ștergând granița față de mutațiile genice."
+          },
+          {
+            "t": "Mecanica cromozomială defectuoasă",
+            "d": "Trei mecanisme: segregarea greșită a cromozomilor în mitoză sau meioză, recombinări improprii, repararea greșită a rupturilor."
+          },
+          {
+            "t": "Constituțională vs somatică",
+            "d": "Constituțională: în toate celulele, deci apărută foarte devreme (gamet anormal, fecundare anormală, primele diviziuni). Somatică (câștigată): doar în unele țesuturi; individul e un mozaic."
+          },
+          {
+            "t": "Accidentale vs moștenite",
+            "d": "Distincție importantă pentru riscul reproductiv: majoritatea anomaliilor sunt accidente genetice, cu risc mic de repetare; o mică parte sunt moștenite de la un părinte purtător. Altă împărțire: numerice vs structurale."
+          },
+          {
+            "t": "Selecția intrauterină",
+            "d": "Frecvența scade de la 50–60% (avorturi, trimestrul I) la 0,5–0,7% (nou-născuți): majoritatea concepțiilor anormale se elimină, iar cele viabile sunt „vârful aisbergului”. Explică și multe eșecuri ale fertilizării in vitro."
+          }
+        ]
+      },
+      {
+        "titlu": "Poliploidia",
+        "figuri": [
+          {
+            "titlu": "Originea triploidiei și a tetraploidiei",
+            "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 330 276\" role=\"img\" aria-label=\"Triploidia: dispermie 66%, ovul diploid 10%, spermatozoid diploid 24%; tetraploidia: endomitoza primei diviziuni a zigotului\" font-family=\"Georgia, serif\" font-size=\"13\"><text x=\"4.0\" y=\"16.0\" text-anchor=\"start\" fill=\"#2c2a26\" font-size=\"12.0\" font-weight=\"bold\">Triploidie (3n = 69)</text><circle cx=\"55.0\" cy=\"62.0\" r=\"26\" fill=\"#fbeec9\" stroke=\"#faf8f3\" stroke-width=\"1.5\"></circle><circle cx=\"55\" cy=\"62\" r=\"26\" fill=\"none\" stroke=\"#b9b0a0\"/><circle cx=\"55.0\" cy=\"62.0\" r=\"10\" fill=\"#cfe0f5\" stroke=\"#faf8f3\" stroke-width=\"1.5\"></circle><text x=\"55.0\" y=\"66.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.8\">n</text><line x1=\"41.0\" y1=\"92.0\" x2=\"31.8\" y2=\"112.0\" stroke=\"#b5453a\" stroke-width=\"1.5\"/><circle cx=\"41.0\" cy=\"92.0\" r=\"9\" fill=\"#f4d8d2\" stroke=\"#faf8f3\" stroke-width=\"1.5\"></circle><circle cx=\"41.0\" cy=\"92.0\" r=\"9\" fill=\"none\" stroke=\"#b5453a\"/><text x=\"41.0\" y=\"95.5\" text-anchor=\"middle\" fill=\"#b5453a\" font-size=\"10.2\">n</text><line x1=\"69.0\" y1=\"92.0\" x2=\"79.0\" y2=\"111.6\" stroke=\"#b5453a\" stroke-width=\"1.5\"/><circle cx=\"69.0\" cy=\"92.0\" r=\"9\" fill=\"#f4d8d2\" stroke=\"#faf8f3\" stroke-width=\"1.5\"></circle><circle cx=\"69.0\" cy=\"92.0\" r=\"9\" fill=\"none\" stroke=\"#b5453a\"/><text x=\"69.0\" y=\"95.5\" text-anchor=\"middle\" fill=\"#b5453a\" font-size=\"10.2\">n</text><text x=\"55.0\" y=\"136.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">dispermie</text><text x=\"55.0\" y=\"151.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.8\" font-weight=\"bold\">66%</text><circle cx=\"160.0\" cy=\"62.0\" r=\"26\" fill=\"#fbeec9\" stroke=\"#faf8f3\" stroke-width=\"1.5\"></circle><circle cx=\"160\" cy=\"62\" r=\"26\" fill=\"none\" stroke=\"#b9b0a0\"/><circle cx=\"160.0\" cy=\"62.0\" r=\"10\" fill=\"#cfe0f5\" stroke=\"#faf8f3\" stroke-width=\"1.5\"></circle><text x=\"160.0\" y=\"66.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.8\">2n</text><line x1=\"160.0\" y1=\"94.0\" x2=\"160.0\" y2=\"116.0\" stroke=\"#b5453a\" stroke-width=\"1.5\"/><circle cx=\"160.0\" cy=\"94.0\" r=\"9\" fill=\"#f4d8d2\" stroke=\"#faf8f3\" stroke-width=\"1.5\"></circle><circle cx=\"160.0\" cy=\"94.0\" r=\"9\" fill=\"none\" stroke=\"#b5453a\"/><text x=\"160.0\" y=\"97.5\" text-anchor=\"middle\" fill=\"#b5453a\" font-size=\"10.2\">n</text><text x=\"160.0\" y=\"136.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">ovul diploid</text><text x=\"160.0\" y=\"151.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.8\" font-weight=\"bold\">10%</text><circle cx=\"265.0\" cy=\"62.0\" r=\"26\" fill=\"#fbeec9\" stroke=\"#faf8f3\" stroke-width=\"1.5\"></circle><circle cx=\"265\" cy=\"62\" r=\"26\" fill=\"none\" stroke=\"#b9b0a0\"/><circle cx=\"265.0\" cy=\"62.0\" r=\"10\" fill=\"#cfe0f5\" stroke=\"#faf8f3\" stroke-width=\"1.5\"></circle><text x=\"265.0\" y=\"66.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.8\">n</text><line x1=\"265.0\" y1=\"94.0\" x2=\"265.0\" y2=\"116.0\" stroke=\"#b5453a\" stroke-width=\"1.5\"/><circle cx=\"265.0\" cy=\"94.0\" r=\"9\" fill=\"#f4d8d2\" stroke=\"#faf8f3\" stroke-width=\"1.5\"></circle><circle cx=\"265.0\" cy=\"94.0\" r=\"9\" fill=\"none\" stroke=\"#b5453a\"/><text x=\"265.0\" y=\"97.5\" text-anchor=\"middle\" fill=\"#b5453a\" font-size=\"10.2\">2n</text><text x=\"265.0\" y=\"136.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">spermatozoid 2n</text><text x=\"265.0\" y=\"151.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.8\" font-weight=\"bold\">24%</text><line x1=\"4.0\" y1=\"166.0\" x2=\"326.0\" y2=\"166.0\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><text x=\"4.0\" y=\"184.0\" text-anchor=\"start\" fill=\"#2c2a26\" font-size=\"12.0\" font-weight=\"bold\">Tetraploidie (4n = 92)</text><circle cx=\"70.0\" cy=\"222.0\" r=\"26\" fill=\"#fbeec9\" stroke=\"#faf8f3\" stroke-width=\"1.5\"></circle><circle cx=\"70\" cy=\"222\" r=\"26\" fill=\"none\" stroke=\"#b9b0a0\"/><circle cx=\"70.0\" cy=\"222.0\" r=\"10\" fill=\"#cfe0f5\" stroke=\"#faf8f3\" stroke-width=\"1.5\"></circle><text x=\"70.0\" y=\"226.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.8\">2n</text><circle cx=\"260.0\" cy=\"222.0\" r=\"26\" fill=\"#fbeec9\" stroke=\"#faf8f3\" stroke-width=\"1.5\"></circle><circle cx=\"260\" cy=\"222\" r=\"26\" fill=\"none\" stroke=\"#b9b0a0\"/><circle cx=\"260.0\" cy=\"222.0\" r=\"10\" fill=\"#cfe0f5\" stroke=\"#faf8f3\" stroke-width=\"1.5\"></circle><text x=\"260.0\" y=\"226.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.8\">4n</text><line x1=\"104.0\" y1=\"222.0\" x2=\"220.0\" y2=\"222.0\" stroke=\"#6b6760\" stroke-width=\"1.5\"/><path d=\"M220,217 L228,222 L220,227 Z\" fill=\"#6b6760\"/><text x=\"165.0\" y=\"214.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.8\">endomitoză</text><text x=\"165.0\" y=\"266.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">ADN replicat, celula nedivizată</text></svg>",
+            "nota": "După figura manualului; procentele sunt cele din figură (textul nu le dă)."
+          }
+        ],
+        "noduri": [
+          {
+            "t": "Triploidia (3n = 69)",
+            "d": "Trei seturi complete de cromozomi, la 1–3% din sarcinile recunoscute clinic; rareori ajunge la termen și e incompatibilă cu viața postnatală."
+          },
+          {
+            "t": "Accidentul de fecundație",
+            "d": "Cauza obișnuită a triploidiei: dispermia (un ovul fecundat de doi spermatozoizi) sau fecundarea cu un gamet diploid."
+          },
+          {
+            "t": "Tetraploidia și endomitoza",
+            "d": "4n = 92: mult mai rară și letală, găsită doar în avorturi. Apare prin reduplicare endomitotică: în prima diviziune a zigotului ADN-ul se replică, dar celula nu se divide."
+          },
+          {
+            "t": "Celule poliploide normale",
+            "d": "Deși poliploidia constituțională e letală, orice om are câteva celule poliploide: megacariocitele din măduvă (16n–64n), hepatocitele (2n–8n), cardiomiocitele (4n–8n)."
+          },
+          {
+            "t": "Letalitatea triploizilor",
+            "d": "Neclară, fiindcă dozajul autozomilor e echilibrat; probabil contează dezechilibrul dintre produșii X și cei autozomali, necompensat de inactivarea X. Triploizii vegetali sunt doar sterili."
+          }
+        ]
+      },
+      {
+        "titlu": "Aneuploidia și vârsta mamei",
+        "figuri": [
+          {
+            "titlu": "Riscul de sindrom Down după vârsta mamei",
+            "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 330 230\" role=\"img\" aria-label=\"Riscul de sindrom Down crește cu vârsta mamei: 1 la 1450 la 20 de ani, 1 la 410 la 35, 1 la 90 la 40, 1 la 55 la 44\" font-family=\"Georgia, serif\" font-size=\"13\"><line x1=\"44.0\" y1=\"190.0\" x2=\"316.0\" y2=\"190.0\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><text x=\"40.0\" y=\"193.5\" text-anchor=\"end\" fill=\"#6b6760\" font-size=\"10.2\">0</text><line x1=\"44.0\" y1=\"148.5\" x2=\"316.0\" y2=\"148.5\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><text x=\"40.0\" y=\"152.0\" text-anchor=\"end\" fill=\"#6b6760\" font-size=\"10.2\">5</text><line x1=\"44.0\" y1=\"107.0\" x2=\"316.0\" y2=\"107.0\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><text x=\"40.0\" y=\"110.5\" text-anchor=\"end\" fill=\"#6b6760\" font-size=\"10.2\">10</text><line x1=\"44.0\" y1=\"65.5\" x2=\"316.0\" y2=\"65.5\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><text x=\"40.0\" y=\"69.0\" text-anchor=\"end\" fill=\"#6b6760\" font-size=\"10.2\">15</text><line x1=\"44.0\" y1=\"24.0\" x2=\"316.0\" y2=\"24.0\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><text x=\"40.0\" y=\"27.5\" text-anchor=\"end\" fill=\"#6b6760\" font-size=\"10.2\">20</text><line x1=\"44.0\" y1=\"190.0\" x2=\"316.0\" y2=\"190.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><line x1=\"44.0\" y1=\"190.0\" x2=\"44.0\" y2=\"194.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><text x=\"44.0\" y=\"205.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">20</text><line x1=\"98.4\" y1=\"190.0\" x2=\"98.4\" y2=\"194.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><text x=\"98.4\" y=\"205.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">25</text><line x1=\"152.8\" y1=\"190.0\" x2=\"152.8\" y2=\"194.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><text x=\"152.8\" y=\"205.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">30</text><line x1=\"207.2\" y1=\"190.0\" x2=\"207.2\" y2=\"194.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><text x=\"207.2\" y=\"205.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">35</text><line x1=\"261.6\" y1=\"190.0\" x2=\"261.6\" y2=\"194.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><text x=\"261.6\" y=\"205.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">40</text><line x1=\"316.0\" y1=\"190.0\" x2=\"316.0\" y2=\"194.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><text x=\"316.0\" y=\"205.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">45</text><line x1=\"207.2\" y1=\"24.0\" x2=\"207.2\" y2=\"190.0\" stroke=\"#eb6834\" stroke-width=\"1\" stroke-dasharray=\"4 3\"/><text x=\"204.2\" y=\"34.0\" text-anchor=\"end\" fill=\"#eb6834\" font-size=\"10.2\">35 de ani</text><polyline points=\"44.0,184.3 98.4,184.5 152.8,183.4 163.7,181.3 174.6,179.6 185.4,176.2 196.3,174.9 207.2,169.8 218.1,164.5 229.0,156.8 239.8,152.3 250.7,134.7 261.6,97.8 305.1,39.1\" fill=\"none\" stroke=\"#2a78d6\" stroke-width=\"2\"/><circle cx=\"44.0\" cy=\"184.3\" r=\"3.2\" fill=\"#2a78d6\" stroke=\"#faf8f3\" stroke-width=\"1.5\"><title>20 de ani: 1 la 1450</title></circle><circle cx=\"98.4\" cy=\"184.5\" r=\"3.2\" fill=\"#2a78d6\" stroke=\"#faf8f3\" stroke-width=\"1.5\"><title>25 de ani: 1 la 1500</title></circle><circle cx=\"152.8\" cy=\"183.4\" r=\"3.2\" fill=\"#2a78d6\" stroke=\"#faf8f3\" stroke-width=\"1.5\"><title>30 de ani: 1 la 1250</title></circle><circle cx=\"163.7\" cy=\"181.3\" r=\"3.2\" fill=\"#2a78d6\" stroke=\"#faf8f3\" stroke-width=\"1.5\"><title>31 de ani: 1 la 950</title></circle><circle cx=\"174.6\" cy=\"179.6\" r=\"3.2\" fill=\"#2a78d6\" stroke=\"#faf8f3\" stroke-width=\"1.5\"><title>32 de ani: 1 la 800</title></circle><circle cx=\"185.4\" cy=\"176.2\" r=\"3.2\" fill=\"#2a78d6\" stroke=\"#faf8f3\" stroke-width=\"1.5\"><title>33 de ani: 1 la 600</title></circle><circle cx=\"196.3\" cy=\"174.9\" r=\"3.2\" fill=\"#2a78d6\" stroke=\"#faf8f3\" stroke-width=\"1.5\"><title>34 de ani: 1 la 550</title></circle><circle cx=\"207.2\" cy=\"169.8\" r=\"3.2\" fill=\"#2a78d6\" stroke=\"#faf8f3\" stroke-width=\"1.5\"><title>35 de ani: 1 la 410</title></circle><circle cx=\"218.1\" cy=\"164.5\" r=\"3.2\" fill=\"#2a78d6\" stroke=\"#faf8f3\" stroke-width=\"1.5\"><title>36 de ani: 1 la 325</title></circle><circle cx=\"229.0\" cy=\"156.8\" r=\"3.2\" fill=\"#2a78d6\" stroke=\"#faf8f3\" stroke-width=\"1.5\"><title>37 de ani: 1 la 250</title></circle><circle cx=\"239.8\" cy=\"152.3\" r=\"3.2\" fill=\"#2a78d6\" stroke=\"#faf8f3\" stroke-width=\"1.5\"><title>38 de ani: 1 la 220</title></circle><circle cx=\"250.7\" cy=\"134.7\" r=\"3.2\" fill=\"#2a78d6\" stroke=\"#faf8f3\" stroke-width=\"1.5\"><title>39 de ani: 1 la 150</title></circle><circle cx=\"261.6\" cy=\"97.8\" r=\"3.2\" fill=\"#2a78d6\" stroke=\"#faf8f3\" stroke-width=\"1.5\"><title>40 de ani: 1 la 90</title></circle><circle cx=\"305.1\" cy=\"39.1\" r=\"3.2\" fill=\"#2a78d6\" stroke=\"#faf8f3\" stroke-width=\"1.5\"><title>44 de ani: 1 la 55</title></circle><text x=\"46.0\" y=\"176.3\" text-anchor=\"start\" fill=\"#2c2a26\" font-size=\"10.2\">1/1450</text><text x=\"201.2\" y=\"160.8\" text-anchor=\"end\" fill=\"#2c2a26\" font-size=\"10.2\">1/410</text><text x=\"255.6\" y=\"91.8\" text-anchor=\"end\" fill=\"#2c2a26\" font-size=\"10.2\">1/90</text><text x=\"301.1\" y=\"31.1\" text-anchor=\"end\" fill=\"#2c2a26\" font-size=\"10.2\">1/55</text><text x=\"44.0\" y=\"14.0\" text-anchor=\"start\" fill=\"#6b6760\" font-size=\"10.2\">copii cu trisomie 21 la 1000 de nașteri</text><text x=\"180.0\" y=\"222.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">vârsta mamei (ani)</text></svg>",
+            "nota": "Datele tabelului din manual (risc observat în populația generală). Punctul de 25 de ani (1/1500) e ușor sub cel de 20 (1/1450), ca în carte."
+          }
+        ],
+        "noduri": [
+          {
+            "t": "Euploidie vs aneuploidie",
+            "d": "Euploidie: seturi complete (n, 2n, 3n). Aneuploidie: unul sau mai mulți cromozomi lipsesc sau sunt în plus față de un set euploid; extremă în celulele canceroase."
+          },
+          {
+            "t": "Trisomia (2n+1)",
+            "d": "Trei copii ale unui cromozom într-o celulă diploidă: trisomia 21 (47,XX,+21 sau 47,XY,+21) în sindromul Down."
+          },
+          {
+            "t": "Monosomia (2n−1)",
+            "d": "Lipsește un cromozom dintr-o pereche de omologi; cu excepția monosomiei X (sindromul Turner), monosomicii nu sunt viabili."
+          },
+          {
+            "t": "Non-disjuncția",
+            "d": "Cromozomii nu se separă în diviziune: în meioză dă gameți cu 22 sau 24 de cromozomi (zigoți cu 45 sau 47), în mitoză un mozaic. Alt mecanism: întârzierea (lagging), cromozomul rămas în citoplasmă se pierde."
+          },
+          {
+            "t": "Efectul vârstei materne",
+            "d": "Riscul de trisomie 21 crește cu vârsta mamei; în 95% din cazuri non-disjuncția are loc în ovogeneză. Cauza posibilă: ovulele rămân blocate ani întregi în dictioten, din ovarul fetal până la ovulație."
+          },
+          {
+            "t": "Pierderea fetală și monitorizarea",
+            "d": "În sarcinile monitorizate prenatal riscul găsit e mai mare: 90% din feții cu trisomie 21 se pierd între săptămânile 12 și 16. Multe țări recomandă monitorizarea după 35 sau 38 de ani."
+          },
+          {
+            "t": "Diagnosticul prenatal",
+            "d": "Neinvaziv (ecografie, teste serologice): sugerează un risc. Invaziv (biopsia de trofoblast, amniocenteza): singurul care precizează anomalia. Amniocenteza: din săptămâna 16, rezultat după 2–3 săptămâni de cultură."
+          }
+        ]
+      },
+      {
+        "titlu": "Mozaicul și himera",
+        "figuri": [
+          {
+            "titlu": "Mozaic și himeră",
+            "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 330 210\" role=\"img\" aria-label=\"Mozaicul are două linii celulare din același zigot, prin non-disjuncție după fecundare; himera are două linii din doi zigoți care fuzionează\" font-family=\"Georgia, serif\" font-size=\"13\"><text x=\"4.0\" y=\"16.0\" text-anchor=\"start\" fill=\"#2c2a26\" font-size=\"12.0\" font-weight=\"bold\">Mozaic: un singur zigot</text><circle cx=\"24.0\" cy=\"52.0\" r=\"11\" fill=\"#2a78d6\" stroke=\"#faf8f3\" stroke-width=\"1.5\"></circle><text x=\"24.0\" y=\"80.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">zigot</text><line x1=\"42.0\" y1=\"52.0\" x2=\"68.0\" y2=\"52.0\" stroke=\"#6b6760\" stroke-width=\"1.4\"/><path d=\"M68,48 L74,52 L68,56 Z\" fill=\"#6b6760\"/><circle cx=\"90.0\" cy=\"44.0\" r=\"8\" fill=\"#2a78d6\" stroke=\"#faf8f3\" stroke-width=\"1.5\"></circle><circle cx=\"90.0\" cy=\"62.0\" r=\"8\" fill=\"#2a78d6\" stroke=\"#faf8f3\" stroke-width=\"1.5\"></circle><line x1=\"106.0\" y1=\"52.0\" x2=\"130.0\" y2=\"52.0\" stroke=\"#6b6760\" stroke-width=\"1.4\"/><path d=\"M130,48 L136,52 L130,56 Z\" fill=\"#6b6760\"/><text x=\"121.0\" y=\"40.0\" text-anchor=\"middle\" fill=\"#b5453a\" font-size=\"10.2\">non-</text><text x=\"121.0\" y=\"72.0\" text-anchor=\"middle\" fill=\"#b5453a\" font-size=\"10.2\">disjuncție</text><circle cx=\"154.0\" cy=\"40.0\" r=\"8\" fill=\"#2a78d6\" stroke=\"#faf8f3\" stroke-width=\"1.5\"></circle><circle cx=\"170.0\" cy=\"40.0\" r=\"8\" fill=\"#2a78d6\" stroke=\"#faf8f3\" stroke-width=\"1.5\"></circle><circle cx=\"154.0\" cy=\"64.0\" r=\"8\" fill=\"#eb6834\" stroke=\"#faf8f3\" stroke-width=\"1.5\"></circle><circle cx=\"170.0\" cy=\"64.0\" r=\"8\" fill=\"#eb6834\" stroke=\"#faf8f3\" stroke-width=\"1.5\"></circle><line x1=\"186.0\" y1=\"52.0\" x2=\"208.0\" y2=\"52.0\" stroke=\"#6b6760\" stroke-width=\"1.4\"/><path d=\"M208,48 L214,52 L208,56 Z\" fill=\"#6b6760\"/><circle cx=\"230.0\" cy=\"30.0\" r=\"6.5\" fill=\"#eb6834\" stroke=\"#faf8f3\" stroke-width=\"1.5\"></circle><circle cx=\"246.0\" cy=\"36.0\" r=\"6.5\" fill=\"#2a78d6\" stroke=\"#faf8f3\" stroke-width=\"1.5\"></circle><circle cx=\"262.0\" cy=\"26.0\" r=\"6.5\" fill=\"#2a78d6\" stroke=\"#faf8f3\" stroke-width=\"1.5\"></circle><circle cx=\"236.0\" cy=\"50.0\" r=\"6.5\" fill=\"#eb6834\" stroke=\"#faf8f3\" stroke-width=\"1.5\"></circle><circle cx=\"254.0\" cy=\"52.0\" r=\"6.5\" fill=\"#2a78d6\" stroke=\"#faf8f3\" stroke-width=\"1.5\"></circle><circle cx=\"270.0\" cy=\"44.0\" r=\"6.5\" fill=\"#2a78d6\" stroke=\"#faf8f3\" stroke-width=\"1.5\"></circle><circle cx=\"242.0\" cy=\"66.0\" r=\"6.5\" fill=\"#eb6834\" stroke=\"#faf8f3\" stroke-width=\"1.5\"></circle><circle cx=\"260.0\" cy=\"68.0\" r=\"6.5\" fill=\"#2a78d6\" stroke=\"#faf8f3\" stroke-width=\"1.5\"></circle><text x=\"256.0\" y=\"90.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">două linii din același zigot</text><line x1=\"4.0\" y1=\"104.0\" x2=\"326.0\" y2=\"104.0\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><text x=\"4.0\" y=\"124.0\" text-anchor=\"start\" fill=\"#2c2a26\" font-size=\"12.0\" font-weight=\"bold\">Himeră: doi zigoți</text><circle cx=\"24.0\" cy=\"148.0\" r=\"11\" fill=\"#2a78d6\" stroke=\"#faf8f3\" stroke-width=\"1.5\"></circle><circle cx=\"24.0\" cy=\"178.0\" r=\"11\" fill=\"#1baf7a\" stroke=\"#faf8f3\" stroke-width=\"1.5\"></circle><line x1=\"42.0\" y1=\"148.0\" x2=\"68.0\" y2=\"148.0\" stroke=\"#6b6760\" stroke-width=\"1.4\"/><path d=\"M68,144 L74,148 L68,152 Z\" fill=\"#6b6760\"/><line x1=\"42.0\" y1=\"178.0\" x2=\"68.0\" y2=\"178.0\" stroke=\"#6b6760\" stroke-width=\"1.4\"/><path d=\"M68,174 L74,178 L68,182 Z\" fill=\"#6b6760\"/><circle cx=\"90.0\" cy=\"148.0\" r=\"8\" fill=\"#2a78d6\" stroke=\"#faf8f3\" stroke-width=\"1.5\"></circle><circle cx=\"104.0\" cy=\"148.0\" r=\"8\" fill=\"#2a78d6\" stroke=\"#faf8f3\" stroke-width=\"1.5\"></circle><circle cx=\"90.0\" cy=\"178.0\" r=\"8\" fill=\"#1baf7a\" stroke=\"#faf8f3\" stroke-width=\"1.5\"></circle><circle cx=\"104.0\" cy=\"178.0\" r=\"8\" fill=\"#1baf7a\" stroke=\"#faf8f3\" stroke-width=\"1.5\"></circle><line x1=\"116.0\" y1=\"150.0\" x2=\"150.0\" y2=\"162.0\" stroke=\"#6b6760\" stroke-width=\"1.4\"/><line x1=\"116.0\" y1=\"176.0\" x2=\"150.0\" y2=\"164.0\" stroke=\"#6b6760\" stroke-width=\"1.4\"/><line x1=\"150.0\" y1=\"163.0\" x2=\"208.0\" y2=\"163.0\" stroke=\"#6b6760\" stroke-width=\"1.4\"/><path d=\"M208,159 L214,163 L208,167 Z\" fill=\"#6b6760\"/><text x=\"180.0\" y=\"155.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.2\">fuziune</text><circle cx=\"230.0\" cy=\"140.0\" r=\"6.5\" fill=\"#1baf7a\" stroke=\"#faf8f3\" stroke-width=\"1.5\"></circle><circle cx=\"246.0\" cy=\"146.0\" r=\"6.5\" fill=\"#2a78d6\" stroke=\"#faf8f3\" stroke-width=\"1.5\"></circle><circle cx=\"262.0\" cy=\"136.0\" r=\"6.5\" fill=\"#1baf7a\" stroke=\"#faf8f3\" stroke-width=\"1.5\"></circle><circle cx=\"236.0\" cy=\"160.0\" r=\"6.5\" fill=\"#2a78d6\" stroke=\"#faf8f3\" stroke-width=\"1.5\"></circle><circle cx=\"254.0\" cy=\"162.0\" r=\"6.5\" fill=\"#1baf7a\" stroke=\"#faf8f3\" stroke-width=\"1.5\"></circle><circle cx=\"270.0\" cy=\"154.0\" r=\"6.5\" fill=\"#2a78d6\" stroke=\"#faf8f3\" stroke-width=\"1.5\"></circle><circle cx=\"242.0\" cy=\"176.0\" r=\"6.5\" fill=\"#1baf7a\" stroke=\"#faf8f3\" stroke-width=\"1.5\"></circle><circle cx=\"260.0\" cy=\"178.0\" r=\"6.5\" fill=\"#2a78d6\" stroke=\"#faf8f3\" stroke-width=\"1.5\"></circle><text x=\"248.0\" y=\"200.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">linii din doi zigoți (ex. XX/XY)</text></svg>",
+            "nota": "Schemă simplificată după figura manualului."
+          }
+        ],
+        "noduri": [
+          {
+            "t": "Mixoploidia",
+            "d": "Două sau mai multe linii celulare genetic diferite la același individ („mai mulți în unul singur”), deși în mod normal toate cele circa 60 de miliarde de celule sunt identice."
+          },
+          {
+            "t": "Mozaicul",
+            "d": "Liniile provin din același zigot, printr-o non-disjuncție sau o pierdere după fecundare (de pildă o linie normală și una monosomică). Cele mai multe mozaicuri implică gonozomii și trisomia 21."
+          },
+          {
+            "t": "Himera",
+            "d": "Liniile provin din doi zigoți, de obicei prin dublă fecundare urmată de fuziunea timpurie a doi gemeni dizigoți. Trece adesea neobservată; la constituția XX/XY poate da un hermafrodit adevărat."
+          },
+          {
+            "t": "Linia normală atenuează",
+            "d": "Distribuția liniei anormale în țesuturi explică variabilitatea clinică; o linie normală atenuează de obicei manifestările, iar anomalii letale în formă omogenă pot supraviețui în mozaic."
+          },
+          {
+            "t": "Liniile eliminate",
+            "d": "Celulele cu monosomii autozomale nu sunt viabile și se elimină, ca și celulele care au un singur gonozom, și acela Y."
+          }
+        ]
+      },
+      {
+        "titlu": "Consecințele anomaliilor numerice",
+        "tabel": {
+          "cap": [
+            "Anomalia",
+            "Exemple",
+            "Consecința"
+          ],
+          "randuri": [
+            [
+              "Triploidie",
+              "69,XXX; 69,XXY; 69,XYY",
+              "1–3% din concepții; incompatibilă cu supraviețuirea"
+            ],
+            [
+              "Nulisomie",
+              "lipsește o pereche de omologi",
+              "letală înainte de implantare"
+            ],
+            [
+              "Monosomie autozomală",
+              "lipsește un autozom",
+              "letală în stadiul embrionar"
+            ],
+            [
+              "Trisomie autozomală",
+              "13 (Patau), 18 (Edwards), 21 (Down)",
+              "de obicei letală; 13 și 18 până la termen; 21 până la 40 de ani sau mai mult, cu întârziere mentală gravă"
+            ],
+            [
+              "Gonozom în plus",
+              "47,XXX; 47,XXY (Klinefelter); 47,XYY",
+              "probleme relativ minore, viață de durată normală; cu 4–5 X, întârziere mentală"
+            ],
+            [
+              "Gonozom lipsă",
+              "45,X (Turner); 45,Y",
+              "≈ 99% avortați; Turner: inteligență normală, sterilitate; 45,Y neviabil"
+            ]
+          ]
+        },
+        "noduri": [
+          {
+            "t": "Dozajul genic",
+            "d": "Dezvoltarea depinde de interacțiunile dintre produșii genelor de pe cromozomi diferiți; schimbarea numărului relativ de cromozomi le perturbă. Cromozomul 21 în plus e perfect normal, dar schimbă dozajul genelor lui."
+          },
+          {
+            "t": "Monosomie vs trisomie",
+            "d": "Monosomiile autozomale sunt letale foarte devreme: unele gene nu tolerează 50% din produs, iar sute de efecte mici se adună. Trisomiile schimbă mai puțin nivelurile relative, deci embrionii trăiesc mai mult."
+          },
+          {
+            "t": "Gonozomii: efecte reduse",
+            "d": "Erorile numerice ale cromozomilor de sex au mult mai puține efecte decât cele autozomale: 47,XXX și 47,XYY sunt în limite normale și pot fi fertili; 47,XXY are mai ales sterilitate."
+          },
+          {
+            "t": "Inactivarea X și testul Barr",
+            "d": "Rămâne activ un singur X, oricâți ar fi, deci dozajul genelor X se schimbă puțin. Corpusculii Barr = numărul de X − 1 (0 la 45,X; 1 la XXY; 2 la XXX), de aceea testul Barr depistează aceste anomalii."
+          },
+          {
+            "t": "Cromozomul Y și SRY",
+            "d": "Un Y în plus are efecte reduse: Y are foarte puține gene, iar funcția lui importantă e determinarea sexului masculin (gena SRY). Lipsa oricărui X e în schimb letală, chiar în culturi celulare."
+          }
+        ]
+      },
+      {
+        "titlu": "Anomaliile structurale și X fragil",
+        "figuri": [
+          {
+            "titlu": "Meioza la un purtător de translocație robertsoniană",
+            "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 330 304\" role=\"img\" aria-label=\"Un purtător echilibrat de translocație robertsoniană 14/21 poate avea copii normali, purtători echilibrați sau cu trisomie 21 prin translocație; trisomia 14 și monosomiile sunt letale\" font-family=\"Georgia, serif\" font-size=\"13\"><text x=\"4.0\" y=\"14.0\" text-anchor=\"start\" fill=\"#2c2a26\" font-size=\"10.8\" font-weight=\"bold\">Purtător echilibrat: 14, 21 și t(14;21)</text><rect x=\"136.5\" y=\"32.0\" width=\"7\" height=\"9.2\" rx=\"3\" fill=\"#2a78d6\"/><rect x=\"136.5\" y=\"43.2\" width=\"7\" height=\"22.8\" rx=\"3\" fill=\"#2a78d6\"/><text x=\"140.0\" y=\"77.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">14</text><rect x=\"156.5\" y=\"48.0\" width=\"7\" height=\"4.4\" rx=\"3\" fill=\"#eb6834\"/><rect x=\"156.5\" y=\"54.4\" width=\"7\" height=\"11.6\" rx=\"3\" fill=\"#eb6834\"/><text x=\"160.0\" y=\"77.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">21</text><rect x=\"182.5\" y=\"20.0\" width=\"7\" height=\"29.0\" rx=\"3\" fill=\"#2a78d6\"/><rect x=\"182.5\" y=\"51.0\" width=\"7\" height=\"15.0\" rx=\"3\" fill=\"#eb6834\"/><text x=\"186.0\" y=\"77.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">t(14;21)</text><rect x=\"6.0\" y=\"90.0\" width=\"102.0\" height=\"90.0\" fill=\"#faf6ec\" stroke=\"#e6e0d4\" stroke-width=\"1\"></rect><rect x=\"26.5\" y=\"112.0\" width=\"7\" height=\"9.2\" rx=\"3\" fill=\"#2a78d6\"/><rect x=\"26.5\" y=\"123.2\" width=\"7\" height=\"22.8\" rx=\"3\" fill=\"#2a78d6\"/><rect x=\"44.5\" y=\"112.0\" width=\"7\" height=\"9.2\" rx=\"3\" fill=\"#2a78d6\"/><rect x=\"44.5\" y=\"123.2\" width=\"7\" height=\"22.8\" rx=\"3\" fill=\"#2a78d6\"/><rect x=\"62.5\" y=\"128.0\" width=\"7\" height=\"4.4\" rx=\"3\" fill=\"#eb6834\"/><rect x=\"62.5\" y=\"134.4\" width=\"7\" height=\"11.6\" rx=\"3\" fill=\"#eb6834\"/><rect x=\"80.5\" y=\"128.0\" width=\"7\" height=\"4.4\" rx=\"3\" fill=\"#eb6834\"/><rect x=\"80.5\" y=\"134.4\" width=\"7\" height=\"11.6\" rx=\"3\" fill=\"#eb6834\"/><text x=\"57.0\" y=\"160.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.2\" font-weight=\"bold\">normal</text><text x=\"57.0\" y=\"173.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.2\">viabil</text><rect x=\"114.0\" y=\"90.0\" width=\"102.0\" height=\"90.0\" fill=\"#faf6ec\" stroke=\"#e6e0d4\" stroke-width=\"1\"></rect><rect x=\"143.5\" y=\"100.0\" width=\"7\" height=\"29.0\" rx=\"3\" fill=\"#2a78d6\"/><rect x=\"143.5\" y=\"131.0\" width=\"7\" height=\"15.0\" rx=\"3\" fill=\"#eb6834\"/><rect x=\"161.5\" y=\"112.0\" width=\"7\" height=\"9.2\" rx=\"3\" fill=\"#2a78d6\"/><rect x=\"161.5\" y=\"123.2\" width=\"7\" height=\"22.8\" rx=\"3\" fill=\"#2a78d6\"/><rect x=\"179.5\" y=\"128.0\" width=\"7\" height=\"4.4\" rx=\"3\" fill=\"#eb6834\"/><rect x=\"179.5\" y=\"134.4\" width=\"7\" height=\"11.6\" rx=\"3\" fill=\"#eb6834\"/><text x=\"165.0\" y=\"160.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.2\" font-weight=\"bold\">purtător</text><text x=\"165.0\" y=\"173.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.2\">viabil</text><rect x=\"222.0\" y=\"90.0\" width=\"102.0\" height=\"90.0\" fill=\"#faf6ec\" stroke=\"#e6e0d4\" stroke-width=\"1\"></rect><rect x=\"242.5\" y=\"100.0\" width=\"7\" height=\"29.0\" rx=\"3\" fill=\"#2a78d6\"/><rect x=\"242.5\" y=\"131.0\" width=\"7\" height=\"15.0\" rx=\"3\" fill=\"#eb6834\"/><rect x=\"260.5\" y=\"112.0\" width=\"7\" height=\"9.2\" rx=\"3\" fill=\"#2a78d6\"/><rect x=\"260.5\" y=\"123.2\" width=\"7\" height=\"22.8\" rx=\"3\" fill=\"#2a78d6\"/><rect x=\"278.5\" y=\"112.0\" width=\"7\" height=\"9.2\" rx=\"3\" fill=\"#2a78d6\"/><rect x=\"278.5\" y=\"123.2\" width=\"7\" height=\"22.8\" rx=\"3\" fill=\"#2a78d6\"/><rect x=\"296.5\" y=\"128.0\" width=\"7\" height=\"4.4\" rx=\"3\" fill=\"#eb6834\"/><rect x=\"296.5\" y=\"134.4\" width=\"7\" height=\"11.6\" rx=\"3\" fill=\"#eb6834\"/><text x=\"273.0\" y=\"160.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.2\" font-weight=\"bold\">trisomie 14</text><text x=\"273.0\" y=\"173.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">letal</text><rect x=\"6.0\" y=\"188.0\" width=\"102.0\" height=\"90.0\" fill=\"#faf6ec\" stroke=\"#e6e0d4\" stroke-width=\"1\"></rect><rect x=\"35.5\" y=\"210.0\" width=\"7\" height=\"9.2\" rx=\"3\" fill=\"#2a78d6\"/><rect x=\"35.5\" y=\"221.2\" width=\"7\" height=\"22.8\" rx=\"3\" fill=\"#2a78d6\"/><rect x=\"53.5\" y=\"226.0\" width=\"7\" height=\"4.4\" rx=\"3\" fill=\"#eb6834\"/><rect x=\"53.5\" y=\"232.4\" width=\"7\" height=\"11.6\" rx=\"3\" fill=\"#eb6834\"/><rect x=\"71.5\" y=\"226.0\" width=\"7\" height=\"4.4\" rx=\"3\" fill=\"#eb6834\"/><rect x=\"71.5\" y=\"232.4\" width=\"7\" height=\"11.6\" rx=\"3\" fill=\"#eb6834\"/><text x=\"57.0\" y=\"258.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.2\" font-weight=\"bold\">monosomie 14</text><text x=\"57.0\" y=\"271.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">letal</text><rect x=\"114.0\" y=\"188.0\" width=\"102.0\" height=\"90.0\" fill=\"#faf6ec\" stroke=\"#e6e0d4\" stroke-width=\"1\"></rect><rect x=\"143.5\" y=\"210.0\" width=\"7\" height=\"9.2\" rx=\"3\" fill=\"#2a78d6\"/><rect x=\"143.5\" y=\"221.2\" width=\"7\" height=\"22.8\" rx=\"3\" fill=\"#2a78d6\"/><rect x=\"161.5\" y=\"210.0\" width=\"7\" height=\"9.2\" rx=\"3\" fill=\"#2a78d6\"/><rect x=\"161.5\" y=\"221.2\" width=\"7\" height=\"22.8\" rx=\"3\" fill=\"#2a78d6\"/><rect x=\"179.5\" y=\"226.0\" width=\"7\" height=\"4.4\" rx=\"3\" fill=\"#eb6834\"/><rect x=\"179.5\" y=\"232.4\" width=\"7\" height=\"11.6\" rx=\"3\" fill=\"#eb6834\"/><text x=\"165.0\" y=\"258.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.2\" font-weight=\"bold\">monosomie 21</text><text x=\"165.0\" y=\"271.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">letal</text><rect x=\"222.0\" y=\"188.0\" width=\"102.0\" height=\"90.0\" fill=\"#faf6ec\" stroke=\"#e6e0d4\" stroke-width=\"1\"></rect><rect x=\"242.5\" y=\"198.0\" width=\"7\" height=\"29.0\" rx=\"3\" fill=\"#2a78d6\"/><rect x=\"242.5\" y=\"229.0\" width=\"7\" height=\"15.0\" rx=\"3\" fill=\"#eb6834\"/><rect x=\"260.5\" y=\"210.0\" width=\"7\" height=\"9.2\" rx=\"3\" fill=\"#2a78d6\"/><rect x=\"260.5\" y=\"221.2\" width=\"7\" height=\"22.8\" rx=\"3\" fill=\"#2a78d6\"/><rect x=\"278.5\" y=\"226.0\" width=\"7\" height=\"4.4\" rx=\"3\" fill=\"#eb6834\"/><rect x=\"278.5\" y=\"232.4\" width=\"7\" height=\"11.6\" rx=\"3\" fill=\"#eb6834\"/><rect x=\"296.5\" y=\"226.0\" width=\"7\" height=\"4.4\" rx=\"3\" fill=\"#eb6834\"/><rect x=\"296.5\" y=\"232.4\" width=\"7\" height=\"11.6\" rx=\"3\" fill=\"#eb6834\"/><text x=\"273.0\" y=\"258.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.2\" font-weight=\"bold\">trisomie 21</text><text x=\"273.0\" y=\"271.0\" text-anchor=\"middle\" fill=\"#b5453a\" font-size=\"10.2\">sindrom Down</text><text x=\"4.0\" y=\"296.0\" text-anchor=\"start\" fill=\"#6b6760\" font-size=\"10.2\">Zigoții după fecundarea cu un gamet normal (14 + 21).</text></svg>",
+            "nota": "După figura manualului (translocația 14/21); cromozomii sunt schematici."
+          }
+        ],
+        "lat": true,
+        "noduri": [
+          {
+            "t": "Rupturi și agenți clastogeni",
+            "d": "Rupturile ADN reparate imperfect rearanjează segmentele. Ruperea e spontană (până la 1/1000 gameți), dar crește sub agenți clastogeni: radiații ionizante, virusuri, chimicale (anomalii tranzitorii după radio- sau chimioterapie)."
+          },
+          {
+            "t": "Neechilibrate: deleția 5p",
+            "d": "Pierdere (deleție) sau adăugare (duplicație, inserție) de segmente: tulburări de creștere, întârziere psihomotorie și mentală, malformații. Exemplu: „țipătul de pisică”, monosomie parțială a cromozomului 5."
+          },
+          {
+            "t": "Echilibrate: inversii, translocații",
+            "d": "Doar redistribuie materialul (inversie: segment întors cu 180°; translocație: segment mutat pe alt cromozom), deci purtătorul e sănătos; meioza lui dă gameți neechilibrați: avorturi, sterilitate, copii malformați."
+          },
+          {
+            "t": "Down prin translocație",
+            "d": "5% din cazuri: fuziune centrică între doi acrocentrici, echilibrată la părinte, moștenită neechilibrat. Forma accidentală are risc de recurență de circa 1% la părinți tineri; forma ereditară, risc major."
+          },
+          {
+            "t": "Cromozomul Philadelphia",
+            "d": "Translocație somatică din limfocite, apărută sub factori de mediu și specifică unor leucemii: deși echilibrată, e patogenă fiindcă activează o oncogenă."
+          },
+          {
+            "t": "Siturile fragile",
+            "d": "Discontinuități pe locuri specifice ale unor cromozomi, din deficiențe ale reparării ADN; fără consecințe clinice, cu o excepție: situl fragil de pe X. Fragilitățile întâmplătoare dau sindroame de instabilitate."
+          },
+          {
+            "t": "Sindromul X fragil",
+            "d": "Cea mai frecventă cauză a întârzierii mentale familiale (1/1300 băieți, 1/2500 fete): sit fragil Xq27–q28, IQ 30–65, față lungă, frunte bombată, urechi mari, macroorhidie."
+          },
+          {
+            "t": "Transmiterea X-ului fragil",
+            "d": "Mamele sunt de obicei heterozigote (30% cu înapoiere ușoară); riscul e cel X-recesiv: 50% din băieți moștenesc X-ul fragil. Gena (FMR1) permite diagnostic molecular, inclusiv prenatal, și estimarea gravității."
+          }
+        ]
+      },
+      {
+        "titlu": "Anomaliile cromozomiale și comportamentul",
+        "lat": true,
+        "tabel": {
+          "cap": [
+            "Sindrom",
+            "Cariotip",
+            "Frecvență",
+            "Cogniție",
+            "Comportament"
+          ],
+          "randuri": [
+            [
+              "Down",
+              "47,+21",
+              "1/700 nașteri",
+              "IQ mediu sub 50; retardul crește cu vârsta",
+              "liniștiți, afectuoși, iubesc muzica"
+            ],
+            [
+              "Klinefelter",
+              "47,XXY",
+              "1/1000 băieți",
+              "de obicei normală; scade cu fiecare X în plus",
+              "limbaj întârziat, dislexie, anxietate, retragere"
+            ],
+            [
+              "XYY",
+              "47,XYY",
+              "cât Klinefelter",
+              "variabilă",
+              "dificultăți școlare, impulsivitate"
+            ],
+            [
+              "XXX",
+              "47,XXX",
+              "cât Klinefelter",
+              "probleme cognitive; mai grave la 48–49 de cromozomi",
+              "probleme emoționale; uneori fertile"
+            ],
+            [
+              "Turner",
+              "45,X",
+              "rar (cea mai rară viabilă)",
+              "variată; deficit spațial specific",
+              "adaptare socială scăzută"
+            ]
+          ]
+        },
+        "noduri": [
+          {
+            "t": "Efectul general asupra cogniției",
+            "d": "Nicio anomalie nu are un semn biochimic sau morfologic specific; aproape toate afectează cogniția, fiindcă inteligența e poligenică: un instrument dezacordat strică toată „orchestra genetică”."
+          },
+          {
+            "t": "Sterilitatea ca apărare",
+            "d": "Anomaliile alterează calitatea vieții și integrarea socială, dar de obicei nu se transmit, fiindcă dau sterilitate; pentru specie, e o apărare împotriva schimbărilor drastice ale cariotipului."
+          },
+          {
+            "t": "Sindromul Down",
+            "d": "Ochi oblici, pliu palmar unic, IQ mediu sub 50. Literatura veche, centrată pe instituționalizați, i-a subestimat: mulți sunt în rândul mediei. Îmbătrânesc precoce; mulți fac Alzheimer după 40 de ani, dar doar 8% trec de 40."
+          },
+          {
+            "t": "Sindromul Klinefelter",
+            "d": "Sterilitate cu azoospermie, câteva note ginoide, intelect de obicei normal; întârzierea limbajului, dislexie, anxietate, retragere. Nedetectat până la pubertate; terapia hormonală ajută, sterilitatea rămâne."
+          },
+          {
+            "t": "Ipoteza XYY criminogen",
+            "d": "Jacobs (1965) găsește 7 XYY din 196 de deținuți și pornește ideea „supermasculului” criminal. Un studiu danez arată delicte minore, din lipsă de discernământ, nu agresivitate; majoritatea XYY sunt integrați social."
+          },
+          {
+            "t": "Moratoriul screeningului XYY",
+            "d": "Constatările nu justifică avertizarea părinților, de aceea screeningul postnatal al băieților XYY e suspendat; un diagnostic prenatal se comunică atent: băiatul are multe șanse să fie normal."
+          },
+          {
+            "t": "Sindromul Turner",
+            "d": "Singura monosomie viabilă (probabil doar ca mozaic 45,X/46,XX): sub 1,50 m, gât palmat, ovare rudimentare, sterilitate. Intelect variat, cu deficit al abilității spațiale (ipoteza unei gene recesive pe X, neconfirmată)."
+          },
+          {
+            "t": "Genotip–mediu în anomalii",
+            "d": "Copiii cu același cariotip diferă mult: în familiile stabile, cei cu anomalii gonozomale diferă puțin de frați. Adaptarea socială slabă din Turner ține mai curând de complexe decât de gene de pe X."
+          }
+        ]
+      },
+      {
+        "titlu": "Originea cariotipului uman",
+        "figuri": [
+          {
+            "titlu": "Originea cromozomului 2 uman",
+            "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 330 158\" role=\"img\" aria-label=\"Cromozomul 2 uman provine din fuziunea a doi cromozomi acrocentrici prezenți la marile maimuțe\" font-family=\"Georgia, serif\" font-size=\"13\"><rect x=\"55.0\" y=\"40.0\" width=\"10\" height=\"3.2\" rx=\"3\" fill=\"#2a78d6\"/><rect x=\"55.0\" y=\"45.2\" width=\"10\" height=\"46.8\" rx=\"3\" fill=\"#2a78d6\"/><rect x=\"85.0\" y=\"46.0\" width=\"10\" height=\"2.7\" rx=\"3\" fill=\"#1baf7a\"/><rect x=\"85.0\" y=\"50.7\" width=\"10\" height=\"41.3\" rx=\"3\" fill=\"#1baf7a\"/><text x=\"75.0\" y=\"120.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">doi acrocentrici</text><text x=\"75.0\" y=\"134.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">la marile maimuțe (48)</text><line x1=\"118.0\" y1=\"70.0\" x2=\"196.0\" y2=\"70.0\" stroke=\"#6b6760\" stroke-width=\"1.5\"/><path d=\"M196,65 L204,70 L196,75 Z\" fill=\"#6b6760\"/><text x=\"160.0\" y=\"62.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.2\">fuziune centrică</text><text x=\"160.0\" y=\"86.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">(robertsoniană)</text><rect x=\"245.0\" y=\"22.0\" width=\"10\" height=\"43.0\" rx=\"3\" fill=\"#1baf7a\"/><rect x=\"245.0\" y=\"67.0\" width=\"10\" height=\"51.0\" rx=\"3\" fill=\"#2a78d6\"/><text x=\"250.0\" y=\"134.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.2\" font-weight=\"bold\">cromozomul 2 uman</text><text x=\"250.0\" y=\"148.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">submetacentric (46)</text></svg>",
+            "nota": "Schemă proprie după text; lungimile sunt ilustrative."
+          }
+        ],
+        "noduri": [
+          {
+            "t": "Tricotomia om–cimpanzeu–gorilă",
+            "d": "Huxley a identificat cimpanzeul și gorila drept rudele noastre cele mai apropiate; întrebarea: care e mai aproape de om, sau liniile s-au despărțit simultan? Datele moleculare susțin înrudirea cu cimpanzeul."
+          },
+          {
+            "t": "Cariotipuri conservate",
+            "d": "Modelele de benzi ale omului și marilor primate sunt conservate (s-a propus un cariotip ancestral); diferim de cimpanzeu prin 1–2% din proteine, iar la nivelul cariotipului prin câteva inversii și o fuziune."
+          },
+          {
+            "t": "Cromozomul 2 uman",
+            "d": "Are morfologia și benzile a doi acrocentrici de maimuță: s-a format printr-o fuziune centrică (translocație robertsoniană), o remaniere fără pierdere de material."
+          },
+          {
+            "t": "Gameți cu 24 și 23",
+            "d": "Maimuța purtătoare a fuziunii are 47 de cromozomi și face gameți cu 24 (normali) și cu 23 (cu fuziunea). Accidentul se fixează doar când se întâlnesc doi gameți cu 23."
+          },
+          {
+            "t": "Ipoteza incestului",
+            "d": "Fiindcă e greu ca același accident să apară la doi parteneri, s-a propus împerecherea a doi frați, urmași ai primului mutant: fuziunea devine homozigotă. Ipoteză plauzibilă, dar controversată."
+          }
+        ]
+      }
+    ]
+  }
+}

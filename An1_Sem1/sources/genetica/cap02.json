@@ -1,0 +1,900 @@
+{
+  "schema": "quiz-capitol-v3",
+  "capitol": 2,
+  "titlu": "Ereditatea mendeliană: legile lui Mendel",
+  "sursa": "Genetica comportamentului uman, Unitatea 2, pp. 22–37",
+  "runde": [
+    {
+      "id": "1",
+      "eticheta": "Runda 1 · Bază",
+      "titlu": "Runda 1 — Concepte de bază",
+      "desc": "Teorie: legile lui Mendel, relațiile dintre alele și consecințele lor, în întrebări directe.",
+      "intrebari": [
+        {
+          "q": "Ce arată faptul că toți hibrizii din prima generație au fenotipul unuia dintre părinți?",
+          "opts": [
+            "Caracterul acelui părinte e recesiv",
+            "Alelele celor doi părinți sunt codominante",
+            "Caracterul acelui părinte e dominant",
+            "Gena e legată de cromozomul X"
+          ],
+          "correct": 2,
+          "explain": "Când hibrizii heterozigoți arată toți caracterul unui părinte, alela acestuia își manifestă acțiunea la heterozigot, deci e dominantă; cealaltă, mascată, e recesivă. La codominanță hibrizii ar arăta ambele caractere, iar o genă legată de X ar da rezultate diferite după sensul încrucișării.",
+          "tag": "Dominant și recesiv",
+          "tip": "concept",
+          "noutate": "nou"
+        },
+        {
+          "q": "Ce raport fenotipic dă încrucișarea a doi heterozigoți, când dominanța e completă?",
+          "opts": [
+            "1 dominant : 1 recesiv",
+            "3 dominanți : 1 recesiv",
+            "1 : 2 : 1, ca genotipurile",
+            "9 : 3 : 3 : 1, pe fenotipuri"
+          ],
+          "correct": 1,
+          "explain": "Aa × Aa dă ¼ AA, ½ Aa, ¼ aa; la dominanță completă AA și Aa arată la fel, deci 3 : 1 după fenotip (1 : 2 : 1 rămâne raportul genotipic). 1 : 1 e rezultatul retroîncrucișării, iar 9 : 3 : 3 : 1 apare la dihibridare.",
+          "tag": "Disjuncția în F2",
+          "tip": "calcul",
+          "noutate": "nou"
+        },
+        {
+          "q": "La ce folosește retroîncrucișarea cu părintele recesiv?",
+          "opts": [
+            "Deosebește heterozigoții de homozigoții dominanți",
+            "Deosebește alelele codominante de cele recesive",
+            "Arată dacă două gene sunt situate pe cromozomi diferiți",
+            "Produce hibrizi uniformi în prima generație"
+          ],
+          "correct": 0,
+          "explain": "Încrucișat cu un recesiv aa, un homozigot AA dă numai urmași dominanți, iar un heterozigot Aa dă jumătate recesivi: așa se află genotipul unui individ cu fenotip dominant. Uniformitatea hibrizilor ține de încrucișarea a doi homozigoți diferiți, iar poziția genelor pe cromozomi se vede din dihibridare.",
+          "tag": "Retroîncrucișarea",
+          "tip": "metoda",
+          "noutate": "nou"
+        },
+        {
+          "q": "Prin ce se deosebește codominanța de dominanța incompletă?",
+          "opts": [
+            "La codominanță heterozigotul are un fenotip intermediar",
+            "La codominanță ambele alele se văd, fără intermediar",
+            "La codominanță o alelă o maschează pe cealaltă",
+            "La codominanță există mai mult de două alele"
+          ],
+          "correct": 1,
+          "explain": "La codominanță ambele alele se manifestă în fenotipul heterozigotului, fără să se domine (grupa AB, grupa MN); la dominanța incompletă heterozigotul are un fenotip intermediar (părul ondulat). Mascarea unei alele descrie dominanța completă, iar mai mult de două alele pe locus înseamnă polialelie.",
+          "tag": "Codominanța",
+          "tip": "concept",
+          "noutate": "nou"
+        },
+        {
+          "q": "Ce raport fenotipic apare la urmașii a doi heterozigoți, în dominanța incompletă?",
+          "opts": [
+            "1 : 2 : 1, ca raportul genotipic",
+            "3 : 1, ca la dominanța completă",
+            "1 : 1, ca la retroîncrucișare",
+            "9 : 3 : 3 : 1, ca la dihibridare"
+          ],
+          "correct": 0,
+          "explain": "Heterozigotul are fenotip propriu (intermediar), deci fiecare genotip se vede: 1 AA : 2 Aa : 1 aa, de pildă păr creț, ondulat, neted. Raportul 3 : 1 cere ca heterozigotul să arate ca homozigotul dominant.",
+          "tag": "Dominanța incompletă",
+          "tip": "calcul",
+          "noutate": "nou"
+        },
+        {
+          "q": "Ce anticorpi are în ser o persoană cu grupa sanguină O?",
+          "opts": [
+            "Numai anti-A",
+            "Numai anti-B",
+            "Nu are anticorpi",
+            "Anti-A și anti-B"
+          ],
+          "correct": 3,
+          "explain": "Grupa O nu are antigene pe hematii, iar în ser are anticorpi împotriva ambelor antigene absente: anti-A și anti-B. Numai anti-A are grupa B, numai anti-B grupa A, iar grupa AB nu are niciunul dintre acești anticorpi.",
+          "tag": "Alelele ABO",
+          "tip": "concept",
+          "noutate": "nou"
+        },
+        {
+          "q": "Ce relație există între alelele Lᴬ, Lᴮ și l ale sistemului ABO?",
+          "opts": [
+            "Lᴬ e dominantă față de Lᴮ, iar Lᴮ e dominantă față de l",
+            "Cele trei sunt codominante, două câte două",
+            "l e dominantă față de Lᴬ și față de Lᴮ",
+            "Lᴬ și Lᴮ sunt codominante și dominante față de l"
+          ],
+          "correct": 3,
+          "explain": "Lᴬ și Lᴮ se manifestă împreună la heterozigotul LᴬLᴮ (grupa AB), deci sunt codominante, dar fiecare o domină pe l, care împiedică formarea antigenelor: Lᴬl are grupa A, Lᴮl grupa B. Dacă l ar fi codominantă, Lᴬl ar avea un fenotip propriu.",
+          "tag": "Alelele ABO",
+          "tip": "concept",
+          "noutate": "nou"
+        },
+        {
+          "q": "Ce afirmă principiul reciprocității în încrucișările mendeliene?",
+          "opts": [
+            "Rezultatul nu depinde de sensul încrucișării",
+            "Mama transmite fiului, iar tatăl fiicei",
+            "Hibrizii din F1 sunt uniformi ca fenotip",
+            "Gameții conțin o singură alelă din pereche"
+          ],
+          "correct": 0,
+          "explain": "Indiferent care părinte are caracterul dominant, rezultatul e același: acțiunea genei nu depinde de originea ei maternă sau paternă. „Mama transmite fiului, tatăl fiicei” e prejudecata eredității încrucișate; uniformitatea hibrizilor și puritatea gameților sunt alte principii.",
+          "tag": "Principiul reciprocității",
+          "tip": "principiu",
+          "noutate": "nou"
+        },
+        {
+          "q": "Ce afirmă legea I a lui Mendel?",
+          "opts": [
+            "Heterozigoții au un fenotip intermediar între părinți",
+            "Hibrizii din F1 arată toți caracterul recesiv",
+            "Alelele se amestecă la urmași în variante noi",
+            "Gameții sunt puri: au o singură alelă din pereche"
+          ],
+          "correct": 3,
+          "explain": "Legea segregării și purității gameților: fiecare gamet conține o singură genă din perechea de alele, iar prin unirea întâmplătoare a gameților apare în F2 segregarea 3 : 1. Fenotipul intermediar ține de dominanța incompletă, hibrizii arată caracterul dominant, iar alelele nu se amestecă.",
+          "tag": "Legea I: puritatea gameților",
+          "tip": "principiu",
+          "noutate": "nou"
+        },
+        {
+          "q": "Ce rezultă, ca fenotipuri, în a doua generație a unei dihibridări cu dominanță completă?",
+          "opts": [
+            "Trei fenotipuri, în raport 1 : 2 : 1",
+            "Patru fenotipuri, în raport 9 : 3 : 3 : 1",
+            "Două fenotipuri, în raport 3 : 1",
+            "Nouă fenotipuri, câte unul pe genotip"
+          ],
+          "correct": 1,
+          "explain": "Din 16 combinații de gameți rezultă 9 genotipuri, dar numai 4 fenotipuri: ambele caractere dominante (9/16), câte unul dominant (3/16 și 3/16), ambele recesive (1/16). Fiecare caracter luat separat dă 3 : 1; nouă e numărul genotipurilor, nu al fenotipurilor.",
+          "tag": "Raportul 9:3:3:1",
+          "tip": "calcul",
+          "noutate": "nou"
+        },
+        {
+          "q": "Prin ce apare polialelia la un locus?",
+          "opts": [
+            "Prin recombinarea genelor de pe locusuri diferite",
+            "Prin crossing-over între cromozomii omologi",
+            "Prin mutații consecutive ale aceleiași gene",
+            "Prin codominanța a două alele la heterozigot"
+          ],
+          "correct": 2,
+          "explain": "Polialelia (alelismul multiplu) înseamnă mai mult de două alele pe același locus, produse prin mutații consecutive ale unei gene (a₁, a₂, … aₙ), ca în sistemul ABO. Recombinarea și crossing-over-ul combină gene existente, iar codominanța e o relație între două alele.",
+          "tag": "Polialelia",
+          "tip": "concept",
+          "noutate": "nou"
+        },
+        {
+          "q": "Câte tipuri de gameți formează un dublu heterozigot AaBb, cu genele pe cromozomi diferiți?",
+          "opts": [
+            "Două, ca părinții lui",
+            "Patru, în proporții egale",
+            "Patru, recombinații fiind rari",
+            "Șaisprezece, câte o combinație"
+          ],
+          "correct": 1,
+          "explain": "Fiecare gamet primește o alelă din fiecare pereche, iar perechile se asortează independent: AB, Ab, aB, ab, câte ¼ (doi parentali, doi recombinați). Recombinații ar fi mai rari doar pentru gene apropiate pe același cromozom; 16 e numărul combinațiilor la fecundație.",
+          "tag": "Dihibridarea",
+          "tip": "calcul",
+          "noutate": "nou"
+        },
+        {
+          "q": "Ce poate stabili testarea grupelor sanguine într-o expertiză de paternitate?",
+          "opts": [
+            "Poate exclude un bărbat, dar nu-l poate confirma",
+            "Poate confirma tatăl, dacă grupele coincid",
+            "Poate confirma tatăl, dacă se adaugă Rh",
+            "Poate exclude mama, dar nu și pe tată"
+          ],
+          "correct": 0,
+          "explain": "Testarea grupelor (ABO, MN, Rh) e doar un test de excludere: mulți bărbați au alele compatibile cu ale copilului. Confirmarea paternității e posibilă prin testul ADN (amprenta genetică), oricâte sisteme de grupe s-ar adăuga.",
+          "tag": "Excluderea paternității",
+          "tip": "metoda",
+          "noutate": "nou"
+        },
+        {
+          "q": "Ce a adus nou Mendel față de crescătorii care observaseră deja separarea trăsăturilor la urmași?",
+          "opts": [
+            "Descoperirea cromozomilor purtători de gene",
+            "Identificarea ADN-ului ca suport ereditar",
+            "Numărarea urmașilor și calculul proporțiilor",
+            "Ideea că trăsăturile se amestecă la urmași"
+          ],
+          "correct": 2,
+          "explain": "Mendel, călugăr și matematician, a cuantificat rezultatele hibridărilor, ceea ce a permis previziuni statistice; fermierii nu se gândiseră să numere. Cromozomii și ADN-ul au fost descoperiți ulterior și i-au confirmat teoria, iar teoria amestecului e chiar cea pe care a infirmat-o.",
+          "tag": "Mendel și hibridarea",
+          "tip": "istoric",
+          "noutate": "nou"
+        },
+        {
+          "q": "Ce fel de celule rezultă din meioză?",
+          "opts": [
+            "Celule cu număr diploid de cromozomi",
+            "Celule cu un set de cromozomi dublat",
+            "Celule cu număr haploid de cromozomi",
+            "Celule identice cu celula din care provin"
+          ],
+          "correct": 2,
+          "explain": "Meioza e diviziunea prin care se formează gameții, cu număr haploid (înjumătățit) de cromozomi: din 2n = 46 rezultă n = 23. Setul diploid se reface la fecundație; celule identice cu celula-mamă rezultă din mitoză.",
+          "tag": "Meioza",
+          "tip": "structura",
+          "noutate": "nou"
+        }
+      ],
+      "ascunse": [
+        {
+          "q": "Ce deosebește un individ homozigot de unul heterozigot pentru un locus?",
+          "opts": [
+            "Are alele identice, respectiv diferite, pe acel locus",
+            "Are numai alele dominante, respectiv recesive, pe acel locus",
+            "Are un fenotip vizibil, respectiv unul ascuns",
+            "Are gene pe un cromozom, respectiv pe doi"
+          ],
+          "correct": 0,
+          "explain": "Homozigotul are două copii ale aceleiași alele pe cei doi cromozomi omologi (AA sau aa), heterozigotul două alele diferite (Aa). Un homozigot poate fi și recesiv (aa), deci deosebirea nu ține de dominanță, iar fenotipul heterozigotului nu e neapărat ascuns.",
+          "tag": "Homozigot și heterozigot",
+          "tip": "concept",
+          "noutate": "nou"
+        },
+        {
+          "q": "Prin ce diferă rezultatul ovogenezei de cel al spermatogenezei?",
+          "opts": [
+            "Un ovul și globuli polari, față de patru spermatozoizi",
+            "Patru ovule, față de un spermatozoid și globuli polari",
+            "Ovule diploide, față de spermatozoizi haploizi",
+            "Un ovul diploid, față de patru spermatozoizi"
+          ],
+          "correct": 0,
+          "explain": "Din oocitul primar rezultă un singur ovul matur, restul produselor fiind globuli polari; din spermatocitul primar rezultă patru spermatozoizi. Ambele tipuri de gameți sunt haploizi (n), pentru că ies din meioză.",
+          "tag": "Ovogeneza și spermatogeneza",
+          "tip": "structura",
+          "noutate": "nou"
+        },
+        {
+          "q": "Câte combinații de cromozomi materni și paterni pot apărea în gameții unui om, fără crossing-over?",
+          "opts": [
+            "23, câte una pentru fiecare pereche",
+            "46, câte una pentru fiecare cromozom",
+            "2⁴⁶, adică peste 70.000 de miliarde",
+            "2²³, adică peste 8 milioane"
+          ],
+          "correct": 3,
+          "explain": "Din fiecare dintre cele 23 de perechi intră în gamet, la întâmplare, cromozomul matern sau cel patern: 2²³ = 8.388.608 variante. 2⁴⁶ e numărul combinațiilor posibile la fecundație, prin unirea a doi gameți.",
+          "tag": "Diversitatea genetică",
+          "tip": "calcul",
+          "noutate": "nou"
+        },
+        {
+          "q": "Ce poate arăta distribuția alelelor ABO în populațiile de pe glob?",
+          "opts": [
+            "Vechimea mutațiilor apărute la om",
+            "Urma marilor migrații ale populațiilor",
+            "Gradul de consangvinizare al populațiilor",
+            "Proporția gemenilor dintr-o populație"
+          ],
+          "correct": 1,
+          "explain": "Frecvențele grupelor ABO diferă între populații (poate prin adaptare la bolile unei zone), iar modelul lor de distribuție permite adesea trasarea marilor migrații: alela B s-ar fi răspândit din Asia centrală, unde are frecvența maximă.",
+          "tag": "Grupele în populații",
+          "tip": "fenomen",
+          "noutate": "nou"
+        },
+        {
+          "q": "De ce e puțin probabil ca un comportament uman complex să fie determinat de o singură genă?",
+          "opts": [
+            "Comportamentul nu e un fenotip care să poată fi măsurat",
+            "Genele implicate în comportament sunt recesive",
+            "Comportamentele sunt adesea colecții heterogene și complexe",
+            "Mutațiile nu afectează funcționarea sistemului nervos"
+          ],
+          "correct": 2,
+          "explain": "Comportamentele sunt deseori colecții heterogene de comportamente diverse și complicate, deci cele complexe sunt rar monogenice. Comportamentul e totuși un fenotip măsurabil, iar la șoarece peste 300 de defecte neurologice țin de mutații, mai ales recesive.",
+          "tag": "Ipoteza genei unice",
+          "tip": "concept",
+          "noutate": "nou"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "eticheta": "Runda 2 · Aplicații",
+      "titlu": "Runda 2 — Scenarii și raționament",
+      "desc": "Situații cu mai mulți pași: calculezi probabilități, deduci genotipuri, faci diagnostice de paternitate.",
+      "intrebari": [
+        {
+          "q": "Un crescător are un șoarece cu fenotip dominant și vrea să afle dacă e AA sau Aa. Ce încrucișare face și ce rezultat ar arăta că e heterozigot?",
+          "opts": [
+            "Cu un șoarece aa; numai urmași cu fenotipul dominant",
+            "Cu un alt dominant; urmași dominanți și recesivi 3 : 1",
+            "Cu un heterozigot; urmași în raportul genotipic 1 : 2 : 1",
+            "Cu un șoarece aa; apariția unor urmași cu fenotip recesiv"
+          ],
+          "correct": 3,
+          "explain": "Retroîncrucișarea cu părintele recesiv deosebește heterozigoții de homozigoții dominanți: AA × aa dă numai urmași dominanți, Aa × aa dă jumătate recesivi. Numai urmași dominanți ar indica tocmai homozigotul; încrucișarea cu un dominant sau cu un heterozigot nu permite citirea directă a genotipului.",
+          "tag": "Retroîncrucișarea",
+          "tip": "metoda",
+          "noutate": "nou",
+          "exemplu_nou": true
+        },
+        {
+          "q": "Un părinte gustător brunet, homozigot pentru ambele caractere, are copii cu un partener negustător blond. Copiii lor (dublu heterozigoți) au, la rândul lor, copii cu parteneri la fel de dublu heterozigoți. Ce fracție din nepoți se așteaptă să fie gustători blonzi?",
+          "opts": [
+            "9/16",
+            "3/16",
+            "1/16",
+            "1/4"
+          ],
+          "correct": 1,
+          "explain": "Gustător (¾) și blond (¼), caractere care segregă independent: ¾ × ¼ = 3/16, una dintre cele două combinații noi din raportul 9 : 3 : 3 : 1. 9/16 sunt gustătorii bruneți, 1/16 negustătorii blonzi, iar ¼ e proporția blonzilor dacă se urmărește doar culoarea părului.",
+          "tag": "Raportul 9:3:3:1",
+          "tip": "calcul",
+          "noutate": "nou",
+          "exemplu_nou": false
+        },
+        {
+          "q": "În aceeași familie, printre nepoți apar gustători blonzi și negustători bruneți, combinații pe care nu le avea niciun bunic. Ce explică apariția lor?",
+          "opts": [
+            "Genele din perechi diferite de alele se combină independent",
+            "Mutații noi apărute la formarea gameților copiilor",
+            "Dominanța incompletă a alelelor pentru culoarea părului",
+            "Amestecarea caracterelor părinților în sângele tuturor urmașilor"
+          ],
+          "correct": 0,
+          "explain": "Legea a II-a: perechile de alele aflate pe cromozomi diferiți se asortează independent la formarea gameților, de aceea apar fenotipuri noi, recombinate. Mutațiile sunt rare și nu ar da proporții regulate; dominanța incompletă ar da fenotipuri intermediare, iar ideea amestecului e tocmai teoria respinsă de Mendel.",
+          "tag": "Legea a II-a: asortarea independentă",
+          "tip": "principiu",
+          "noutate": "nou",
+          "exemplu_nou": false
+        },
+        {
+          "q": "Un cercetător urmărește două trăsături ale căror gene se află foarte aproape una de alta, pe același cromozom. În a doua generație nu obține raportul 9 : 3 : 3 : 1. Cum explici?",
+          "opts": [
+            "Una dintre cele două trăsături are, probabil, dominanță incompletă",
+            "Legea I nu se aplică genelor de pe un același cromozom",
+            "Legea a II-a presupune gene situate pe cromozomi diferiți",
+            "Eșantionul e prea mare pentru proporțiile mendeliene"
+          ],
+          "correct": 2,
+          "explain": "Asortarea independentă se bazează pe separarea independentă a cromozomilor din perechi diferite în meioză; genele de pe același cromozom tind să treacă împreună. Fiecare trăsătură luată separat respectă în continuare legea I; dominanța incompletă ar schimba fenotipurile, dar nu e sugerată de premisă, iar proporțiile se verifică tocmai pe eșantioane mari.",
+          "tag": "Legea a II-a: asortarea independentă",
+          "tip": "principiu",
+          "noutate": "nou",
+          "exemplu_nou": true
+        },
+        {
+          "q": "Doi soți heterozigoți Gg au patru copii, toți negustători (gg). Un vecin conclude că legile lui Mendel „nu funcționează la oameni”. Ce îi răspunzi?",
+          "opts": [
+            "Copiii au probabil alt tată biologic decât cel declarat de mamă",
+            "Șansa se reia la fiecare sarcină; ratele apar doar pe multe familii",
+            "Alela g se comportă ca o alelă dominantă în această familie anume",
+            "Legile lui Mendel au fost stabilite și se aplică doar la mazăre"
+          ],
+          "correct": 1,
+          "explain": "Raportul 3 : 1 e o probabilitate, care se aplică independent la fiecare sarcină; într-o familie mică poate apărea orice combinație, iar ratele de segregare se verifică doar însumând datele din multe familii. Patru copii gg sunt posibili cu doi părinți Gg (probabilitate (¼)⁴), deci nu dovedesc altă paternitate sau o schimbare a dominanței.",
+          "tag": "Ratele de segregare",
+          "tip": "principiu",
+          "noutate": "nou",
+          "exemplu_nou": true
+        },
+        {
+          "q": "Un părinte are grupa A, celălalt grupa B, iar printre copiii lor există toate cele patru grupe: A, B, AB și O. Ce genotipuri au părinții?",
+          "opts": [
+            "LᴬLᴬ și LᴮLᴮ",
+            "Lᴬl și Lᴮl",
+            "LᴬLᴮ și ll",
+            "Lᴬl și LᴮLᴮ"
+          ],
+          "correct": 1,
+          "explain": "Un copil cu grupa O (ll) cere ca ambii părinți să poarte alela l, deci părintele A e Lᴬl, iar părintele B e Lᴮl; combinațiile dau A, B, AB și O. Doi homozigoți ar avea numai copii AB, iar LᴬLᴮ × ll nu corespunde fenotipurilor A și B ale părinților.",
+          "tag": "Alelele ABO",
+          "tip": "calcul",
+          "noutate": "nou",
+          "exemplu_nou": false
+        },
+        {
+          "q": "Mama are grupa AB, tatăl grupa O. Bunica se miră că niciunul dintre copii nu are grupa vreunuia dintre părinți. Ce i se poate explica?",
+          "opts": [
+            "Grupele părinților s-au amestecat la copii în grupe intermediare",
+            "Alela l a tatălui e dominantă față de Lᴬ și Lᴮ",
+            "Grupa AB nu se transmite, fiind codominantă",
+            "Fiecare copil primește Lᴬ sau Lᴮ de la mamă și l de la tată"
+          ],
+          "correct": 3,
+          "explain": "Mama LᴬLᴮ dă Lᴬ sau Lᴮ, tatăl ll dă l: copiii sunt Lᴬl (grupa A) sau Lᴮl (grupa B). Exemplul combate prejudecata că părinții transmit direct caracterele lor: se transmit gene, nu caractere. Alelele nu se amestecă, iar l e recesivă.",
+          "tag": "Părinți AB și O",
+          "tip": "principiu",
+          "noutate": "nou",
+          "exemplu_nou": false
+        },
+        {
+          "q": "Mama are grupa B, iar copilul grupa AB. În cauză sunt doi presupuși tați: unul cu grupa A, celălalt cu grupa B. Ce concluzie permit grupele ABO?",
+          "opts": [
+            "E exclus cel cu grupa A; cel cu grupa B rămâne posibil",
+            "E exclus cel cu grupa B; cel cu grupa A rămâne posibil",
+            "Sunt excluși amândoi; copilul AB cere un tată AB",
+            "Cel cu grupa A este confirmat ca tată biologic"
+          ],
+          "correct": 1,
+          "explain": "Copilul AB a primit Lᴮ de la mamă, deci de la tată a primit Lᴬ: bărbatul cu grupa B nu are Lᴬ și e exclus, iar cel cu grupa A o are. Un tată AB nu e necesar, iar grupele de sânge pot doar exclude, nu confirma paternitatea.",
+          "tag": "Excluderea paternității",
+          "tip": "calcul",
+          "noutate": "nou",
+          "exemplu_nou": false
+        },
+        {
+          "q": "Mama are grupele A și M, copilul O și M. Presupușii tați: primul are grupele A și M, al doilea O și N. Ce concluzie permit cele două sisteme de grupe luate împreună?",
+          "opts": [
+            "E exclus al doilea, care nu are alela M",
+            "E exclus primul, care nu poate da alela l",
+            "Rămân posibili amândoi, ca la ABO",
+            "E exclus al doilea, care nu poate da alela l"
+          ],
+          "correct": 0,
+          "explain": "Copilul M (MM) a primit M și de la tată; bărbatul cu grupa N (NN) nu are M, deci e exclus. După ABO singur nu ar fi fost exclus niciunul: copilul O (ll) poate primi l de la un tată O sau de la un tată A heterozigot. Combinarea sistemelor crește puterea de excludere.",
+          "tag": "Mai multe sisteme de grup",
+          "tip": "calcul",
+          "noutate": "nou",
+          "exemplu_nou": false
+        },
+        {
+          "q": "Pentru un bărbat, testele ABO și MN nu au dus la excludere. Avocatul lui susține că, prin urmare, paternitatea e dovedită. Ce greșește?",
+          "opts": [
+            "Grupele de sânge doar exclud; confirmarea cere testul ADN",
+            "Grupele confirmă paternitatea doar dacă se adaugă și sistemul Rh",
+            "ABO dovedește paternitatea, iar MN o poate doar exclude",
+            "Grupele de sânge ale copilului se schimbă în copilărie"
+          ],
+          "correct": 0,
+          "explain": "Testarea grupelor (ABO, MN, Rh etc.) e doar un test de excludere: mulți bărbați au alelele compatibile. Confirmarea e posibilă prin testul ADN (amprenta genetică). Niciun sistem de grupe nu dovedește singur paternitatea, iar grupele sunt determinate genetic, nu se schimbă.",
+          "tag": "Excluderea paternității",
+          "tip": "metoda",
+          "noutate": "nou",
+          "exemplu_nou": true
+        },
+        {
+          "q": "Șoareci „waltzing”, încrucișați între ei, au numai urmași waltzing. Încrucișați cu șoareci normali, dau 254 de urmași dintre care niciunul nu valsează; în a doua generație valsează aproximativ un sfert. Ce rezultă?",
+          "opts": [
+            "Comportamentul e determinat de o singură genă dominantă",
+            "Comportamentul e multifactorial, cu prag de manifestare",
+            "Comportamentul e determinat de o singură genă recesivă",
+            "Comportamentul e învățat de la mamele care valsează"
+          ],
+          "correct": 2,
+          "explain": "Linia waltzing e homozigotă; dispariția trăsăturii la hibrizi arată că alela waltzing e recesivă, iar raportul 3 : 1 în F2 (și proporțiile din back-cross) se potrivesc modelului mendelian monogenic. O genă dominantă ar apărea la hibrizi; un caracter multifactorial nu ar da proporții mendeliene regulate.",
+          "tag": "Șoarecii waltzing",
+          "tip": "fenomen",
+          "noutate": "nou",
+          "exemplu_nou": false
+        },
+        {
+          "q": "O cercetătoare observă că unii șoareci evită o soluție amară, iar alții nu. Vrea să testeze ipoteza că diferența ține de o singură genă. Ce plan urmează?",
+          "opts": [
+            "Compară perechi de gemeni monozigoți și dizigoți din aceeași crescătorie",
+            "Secvențiază genomul unui singur șoarece care evită soluția amară",
+            "Măsoară corelația dintre comportamentul părinților și al urmașilor",
+            "Linii homozigote, apoi F1, F2 și retroîncrucișare, comparând proporțiile"
+          ],
+          "correct": 3,
+          "explain": "Ipoteza genei unice se testează prin analiza segregării, ca la Mendel: linii pure încrucișate, hibrizi F1, F2 și back-cross; proporțiile 3 : 1 și 1 : 1 susțin determinismul monogenic (ca la gustul sucrozei octoacetat, al chininei și al stricninei la șoareci). Gemenii și corelațiile familiale sunt metode pentru caracterele multifactoriale.",
+          "tag": "Ipoteza genei unice",
+          "tip": "metoda",
+          "noutate": "nou",
+          "exemplu_nou": true
+        },
+        {
+          "q": "Un jurnalist scrie despre șoarecii waltzing că s-a descoperit „gena valsului”, care produce direct acest comportament. Ce corectură îi faci?",
+          "opts": [
+            "Valsul e învățat de la mamă, deci gena e doar un marker al lui",
+            "Gena e dominantă, deci titlul e corect măcar pentru hibrizii F1",
+            "Gena controlează producția unei proteine, nu comportamentul",
+            "Comportamentul nu poate urma tipare mendeliene la șoareci"
+          ],
+          "correct": 2,
+          "explain": "O genă nu produce direct un comportament particular, ci operează prin controlul producției de proteine; comportamentul rămâne un fenotip. Experimentele arată că trăsătura e monogenică și recesivă, deci comportamentul poate urma tipare mendeliene, dar nu e „scris” ca atare în genă.",
+          "tag": "Ipoteza genei unice",
+          "tip": "principiu",
+          "noutate": "nou",
+          "exemplu_nou": true
+        },
+        {
+          "q": "Un bunic gustător homozigot are cu o negustătoare numai copii gustători și conclude că alela „negustător” s-a pierdut. Copiii lui se căsătoresc cu parteneri tot heterozigoți. Ce se va vedea la nepoți?",
+          "opts": [
+            "Alela reapare slăbită, într-un fenotip intermediar",
+            "Alela s-a pierdut definitiv în copiii heterozigoți",
+            "Alela reapare nemodificată, la circa un sfert din nepoți",
+            "Alela reapare doar la nepoții de sex masculin"
+          ],
+          "correct": 2,
+          "explain": "Alelele nu se amestecă și nu se alterează: g rămâne intactă la heterozigoți, mascată de G, și reapare în F2 cu probabilitate ¼, cu fenotipul bunicii. Fenotipul intermediar ar ține de dominanța incompletă, iar o genă autozomală nu se manifestă diferit după sex.",
+          "tag": "Disjuncția în F2",
+          "tip": "principiu",
+          "noutate": "nou",
+          "exemplu_nou": false
+        },
+        {
+          "q": "Aproximativ 7% dintre oameni nu simt mirosul de mosc. Doi părinți care nu-l simt au numai copii care nu-l simt; doi părinți care îl simt au uneori și copii care nu-l simt. Presupunând un singur locus, cum se transmite abilitatea?",
+          "opts": [
+            "Dominant; părinții care o au pot purta alela recesivă",
+            "Recesiv; părinții care o au o mascau în stare heterozigotă",
+            "Codominant, cu fenotip intermediar la heterozigoți",
+            "Multifactorial, fără proporții mendeliene stabile"
+          ],
+          "correct": 0,
+          "explain": "Doi părinți fără abilitate au numai copii fără ea: sunt homozigoți recesivi. Când doi părinți cu abilitate au și copii fără ea, ei sunt heterozigoți, iar trăsătura „fără abilitate” e recesivă; deci abilitatea e dominantă. O trăsătură recesivă nu poate fi „mascată” la purtătorul ei.",
+          "tag": "Dominant și recesiv",
+          "tip": "calcul",
+          "noutate": "nou",
+          "exemplu_nou": false
+        }
+      ],
+      "ascunse": [
+        {
+          "q": "O femeie are un copil cu grupa O din prima căsătorie (soțul avea grupa A) și un copil cu grupa AB din a doua (soțul are grupa B). Ce grupă și ce genotip are femeia?",
+          "opts": [
+            "Grupa AB, genotipul LᴬLᴮ",
+            "Grupa A, genotipul Lᴬl",
+            "Grupa O, genotipul ll",
+            "Grupa A, genotipul LᴬLᴬ"
+          ],
+          "correct": 1,
+          "explain": "Copilul AB primește Lᴮ de la tatăl B, deci de la mamă Lᴬ; copilul O (ll) primește l de la mamă. Mama are deci Lᴬ și l: grupa A, genotip Lᴬl. Cu LᴬLᴮ nu ar fi putut avea un copil O, iar cu ll nu ar fi avut un copil AB.",
+          "tag": "Alelele ABO",
+          "tip": "calcul",
+          "noutate": "nou",
+          "exemplu_nou": false
+        },
+        {
+          "q": "Un bărbat cu grupa O se căsătorește cu o femeie cu grupa A, al cărei tată are grupa O. Care e probabilitatea ca un copil al lor să aibă grupa O?",
+          "opts": [
+            "1/4",
+            "3/4",
+            "1/2",
+            "1/8"
+          ],
+          "correct": 2,
+          "explain": "Femeia a primit l de la tatăl ei cu grupa O, deci e Lᴬl; bărbatul e ll. Copilul are grupa O dacă primește l de la mamă: ½. 1/4 ar fi răspunsul pentru doi părinți heterozigoți Lᴬl × Lᴬl.",
+          "tag": "Legea I: puritatea gameților",
+          "tip": "calcul",
+          "noutate": "nou",
+          "exemplu_nou": false
+        },
+        {
+          "q": "Ignorând crossing-over-ul, care e probabilitatea ca un gamet al unei persoane să conțină numai cromozomii primiți de la mama ei?",
+          "opts": [
+            "(½)²³, o valoare infimă",
+            "½, ca pentru o singură pereche",
+            "1/23, una din cele 23 de perechi",
+            "1/46, unul din cei 46 de cromozomi"
+          ],
+          "correct": 0,
+          "explain": "Pentru fiecare dintre cele 23 de perechi, cromozomul matern intră în gamet cu probabilitate ½, independent de celelalte; toți 23: (½)²³, aproximativ 1 la 8 milioane. Probabilitatea ½ e valabilă pentru o singură pereche.",
+          "tag": "Diversitatea genetică",
+          "tip": "calcul",
+          "noutate": "nou",
+          "exemplu_nou": false
+        },
+        {
+          "q": "Doi părinți au amândoi părul ondulat, trăsătură cu dominanță incompletă între părul creț și cel neted. Ce proporție din copiii lor se așteaptă să aibă părul creț?",
+          "opts": [
+            "1/4",
+            "1/2",
+            "3/4",
+            "1/3"
+          ],
+          "correct": 0,
+          "explain": "Părul ondulat e fenotipul heterozigotului; doi heterozigoți dau ¼ creț (homozigot), ½ ondulat și ¼ neted, raport 1 : 2 : 1, cu fenotipurile identice genotipurilor. ½ e proporția copiilor ondulați, ca părinții; ¾ ar fi proporția „dominantă” dintr-un raport 3 : 1, inexistent aici.",
+          "tag": "Dominanța incompletă",
+          "tip": "calcul",
+          "noutate": "nou",
+          "exemplu_nou": true
+        },
+        {
+          "q": "O psihologă constată că o trăsătură comportamentală rară apare în familii în proporțiile 3 : 1 și 1 : 1, exact ca în experimentele lui Mendel. Ce poate conchide?",
+          "opts": [
+            "Trăsătura e multifactorială, cu prag familial",
+            "Trăsătura e transmisă cultural în familie",
+            "Trăsătura e congenitală, fără cauză genetică",
+            "Trăsătura are o bază genetică, pe un singur locus"
+          ],
+          "correct": 3,
+          "explain": "E de ajuns ca o trăsătură umană să urmeze tiparele mendeliene de transmitere ca să fim siguri de baza ei genetică; caracterele mendeliene depind de genotipul de pe un singur locus (ereditate monogenică). Caracterele multifactoriale, din Cap. 1 (Introducere în genetică), au concentrare familială, dar fără proporții mendeliene.",
+          "tag": "Caractere mendeliene",
+          "tip": "concept",
+          "noutate": "nou",
+          "exemplu_nou": true
+        }
+      ]
+    }
+  ],
+  "harta": {
+    "centru": "Ereditatea mendeliană: legile lui Mendel",
+    "ramuri": [
+      {
+        "titlu": "Teoria mendeliană",
+        "noduri": [
+          {
+            "t": "Mendel și hibridarea",
+            "d": "Gregor Mendel, călugăr și matematician din Brno, a publicat în 1865 experiențele de hibridare (încrucișare între indivizi genetic diferiți) cu soiuri de mazăre. Noutatea: a numărat descendenții, deci a permis previziuni statistice. A văzut „factorii ereditari” (genele) ca particule distincte care nu se amestecă, contra teoriei amestecului. Teoria a fost confirmată de teoria cromozomială și de genetica moleculară."
+          },
+          {
+            "t": "Caractere mendeliene",
+            "d": "Cele mai simple caractere genetice: prezența lor depinde de genotipul de pe un singur locus (ereditate monogenică). Dacă o trăsătură umană urmează tiparele mendeliene, baza ei genetică e sigură."
+          },
+          {
+            "t": "Conceptele cheie",
+            "d": "Fiecare individ are o pereche de gene pentru o trăsătură (una de la mamă, una de la tată); fiecare descendent primește la întâmplare una dintre ele, cu probabilitate ½; alelele rămân distincte, „necontaminate”: o alelă A transmisă de un părinte AA nu diferă de una transmisă de un părinte Aa."
+          },
+          {
+            "t": "Homozigot și heterozigot",
+            "d": "Locus = poziția genei pe cromozom; alele = variantele de pe același locus, notate cu aceeași literă (A, a). Homozigot: două alele identice (AA, aa); heterozigot: două alele diferite (Aa). Cromozomi omologi: pereche cu aceeași morfologie și același conținut de gene."
+          }
+        ]
+      },
+      {
+        "titlu": "Monohibridarea și legea I",
+        "lat": true,
+        "figuri": [
+          {
+            "titlu": "Monohibridarea în trei generații (gustători PTC)",
+            "nota": "Redesenată după figura din manual. Albastru = fenotip dominant (gustător), portocaliu = recesiv (negustător).",
+            "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 340 300\" role=\"img\" aria-label=\"Monohibridarea: GG × gg dă în F1 numai Gg; Gg × Gg dă în F2 GG, Gg, Gg, gg, adică 3 la 1 după fenotip\" font-family=\"Georgia, serif\" font-size=\"13\"><text x=\"8.0\" y=\"44.0\" text-anchor=\"start\" fill=\"#6b6760\" font-size=\"10.8\" font-weight=\"bold\">P</text><text x=\"8.0\" y=\"122.0\" text-anchor=\"start\" fill=\"#6b6760\" font-size=\"10.8\" font-weight=\"bold\">F1</text><text x=\"8.0\" y=\"182.0\" text-anchor=\"start\" fill=\"#6b6760\" font-size=\"10.8\" font-weight=\"bold\">F1 × F1</text><text x=\"8.0\" y=\"254.0\" text-anchor=\"start\" fill=\"#6b6760\" font-size=\"10.8\" font-weight=\"bold\">F2</text><rect x=\"92.0\" y=\"26.0\" width=\"62.0\" height=\"28.0\" rx=\"5\" fill=\"#2a78d6\"/><text x=\"123.0\" y=\"44.2\" text-anchor=\"middle\" fill=\"#ffffff\" font-size=\"12.0\" font-weight=\"bold\">GG</text><text x=\"170.0\" y=\"44.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"14\">×</text><rect x=\"186.0\" y=\"26.0\" width=\"62.0\" height=\"28.0\" rx=\"5\" fill=\"#eb6834\"/><text x=\"217.0\" y=\"44.2\" text-anchor=\"middle\" fill=\"#ffffff\" font-size=\"12.0\" font-weight=\"bold\">gg</text><text x=\"123.0\" y=\"70.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">gameți G</text><text x=\"217.0\" y=\"70.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">gameți g</text><line x1=\"123.0\" y1=\"76.0\" x2=\"160.0\" y2=\"100.0\" stroke=\"#6b6760\" stroke-width=\"1.2\"/><polygon points=\"160.0,100.0 154.0,99.2 156.9,94.9\" fill=\"#6b6760\"/><line x1=\"217.0\" y1=\"76.0\" x2=\"180.0\" y2=\"100.0\" stroke=\"#6b6760\" stroke-width=\"1.2\"/><polygon points=\"180.0,100.0 183.1,94.9 186.0,99.2\" fill=\"#6b6760\"/><rect x=\"139.0\" y=\"104.0\" width=\"62.0\" height=\"28.0\" rx=\"5\" fill=\"#2a78d6\"/><text x=\"170.0\" y=\"122.2\" text-anchor=\"middle\" fill=\"#ffffff\" font-size=\"12.0\" font-weight=\"bold\">Gg</text><text x=\"212.0\" y=\"122.0\" text-anchor=\"start\" fill=\"#2c2a26\" font-size=\"10.8\">toți gustători</text><rect x=\"92.0\" y=\"164.0\" width=\"62.0\" height=\"28.0\" rx=\"5\" fill=\"#2a78d6\"/><text x=\"123.0\" y=\"182.2\" text-anchor=\"middle\" fill=\"#ffffff\" font-size=\"12.0\" font-weight=\"bold\">Gg</text><text x=\"170.0\" y=\"182.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"14\">×</text><rect x=\"186.0\" y=\"164.0\" width=\"62.0\" height=\"28.0\" rx=\"5\" fill=\"#2a78d6\"/><text x=\"217.0\" y=\"182.2\" text-anchor=\"middle\" fill=\"#ffffff\" font-size=\"12.0\" font-weight=\"bold\">Gg</text><text x=\"170.0\" y=\"208.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">fiecare formează gameți G și g, ½ – ½</text><line x1=\"170.0\" y1=\"214.0\" x2=\"87.0\" y2=\"234.0\" stroke=\"#6b6760\" stroke-width=\"1.2\"/><polygon points=\"87.0,234.0 91.6,230.2 92.9,235.3\" fill=\"#6b6760\"/><rect x=\"62.0\" y=\"236.0\" width=\"50.0\" height=\"26.0\" rx=\"5\" fill=\"#2a78d6\"/><text x=\"87.0\" y=\"253.2\" text-anchor=\"middle\" fill=\"#ffffff\" font-size=\"12.0\" font-weight=\"bold\">GG</text><line x1=\"170.0\" y1=\"214.0\" x2=\"147.0\" y2=\"234.0\" stroke=\"#6b6760\" stroke-width=\"1.2\"/><polygon points=\"147.0,234.0 149.4,228.5 152.8,232.4\" fill=\"#6b6760\"/><rect x=\"122.0\" y=\"236.0\" width=\"50.0\" height=\"26.0\" rx=\"5\" fill=\"#2a78d6\"/><text x=\"147.0\" y=\"253.2\" text-anchor=\"middle\" fill=\"#ffffff\" font-size=\"12.0\" font-weight=\"bold\">Gg</text><line x1=\"170.0\" y1=\"214.0\" x2=\"207.0\" y2=\"234.0\" stroke=\"#6b6760\" stroke-width=\"1.2\"/><polygon points=\"207.0,234.0 201.0,233.7 203.5,229.1\" fill=\"#6b6760\"/><rect x=\"182.0\" y=\"236.0\" width=\"50.0\" height=\"26.0\" rx=\"5\" fill=\"#2a78d6\"/><text x=\"207.0\" y=\"253.2\" text-anchor=\"middle\" fill=\"#ffffff\" font-size=\"12.0\" font-weight=\"bold\">Gg</text><line x1=\"170.0\" y1=\"214.0\" x2=\"267.0\" y2=\"234.0\" stroke=\"#6b6760\" stroke-width=\"1.2\"/><polygon points=\"267.0,234.0 261.2,235.5 262.2,230.4\" fill=\"#6b6760\"/><rect x=\"242.0\" y=\"236.0\" width=\"50.0\" height=\"26.0\" rx=\"5\" fill=\"#eb6834\"/><text x=\"267.0\" y=\"253.2\" text-anchor=\"middle\" fill=\"#ffffff\" font-size=\"12.0\" font-weight=\"bold\">gg</text><text x=\"170.0\" y=\"280.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.8\">genotip 1 GG : 2 Gg : 1 gg</text><text x=\"170.0\" y=\"295.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.8\">fenotip 3 gustători : 1 negustător</text></svg>"
+          },
+          {
+            "titlu": "Careul gameților: F1 × F1 și retroîncrucișarea",
+            "nota": "Redesenate după cele două careuri din manual. Retroîncrucișarea Gg × gg dă 1 : 1, iar GG × gg ar da numai gustători: așa se deosebește heterozigotul.",
+            "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 340 244\" role=\"img\" aria-label=\"Careul gameților: Gg × Gg dă un sfert GG, o jumătate Gg, un sfert gg; retroîncrucișarea Gg × gg dă jumătate Gg, jumătate gg\" font-family=\"Georgia, serif\" font-size=\"13\"><text x=\"90.0\" y=\"18.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.8\" font-weight=\"bold\">F1 × F1</text><text x=\"90.0\" y=\"32.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.8\">Gg × Gg</text><text x=\"64.0\" y=\"58.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.8\" font-weight=\"bold\">½ G</text><text x=\"116.0\" y=\"58.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.8\" font-weight=\"bold\">½ g</text><text x=\"32.0\" y=\"104.0\" text-anchor=\"end\" fill=\"#6b6760\" font-size=\"10.8\" font-weight=\"bold\">½ G</text><rect x=\"38.0\" y=\"74.0\" width=\"49.0\" height=\"49.0\" fill=\"#2a78d6\" fill-opacity=\"0.88\"></rect><text x=\"62.5\" y=\"103.0\" text-anchor=\"middle\" fill=\"#ffffff\" font-size=\"12.0\" font-weight=\"bold\">GG</text><rect x=\"90.0\" y=\"74.0\" width=\"49.0\" height=\"49.0\" fill=\"#2a78d6\" fill-opacity=\"0.88\"></rect><text x=\"114.5\" y=\"103.0\" text-anchor=\"middle\" fill=\"#ffffff\" font-size=\"12.0\" font-weight=\"bold\">Gg</text><text x=\"32.0\" y=\"156.0\" text-anchor=\"end\" fill=\"#6b6760\" font-size=\"10.8\" font-weight=\"bold\">½ g</text><rect x=\"38.0\" y=\"126.0\" width=\"49.0\" height=\"49.0\" fill=\"#2a78d6\" fill-opacity=\"0.88\"></rect><text x=\"62.5\" y=\"155.0\" text-anchor=\"middle\" fill=\"#ffffff\" font-size=\"12.0\" font-weight=\"bold\">Gg</text><rect x=\"90.0\" y=\"126.0\" width=\"49.0\" height=\"49.0\" fill=\"#eb6834\" fill-opacity=\"0.88\"></rect><text x=\"114.5\" y=\"155.0\" text-anchor=\"middle\" fill=\"#ffffff\" font-size=\"12.0\" font-weight=\"bold\">gg</text><text x=\"258.0\" y=\"18.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.8\" font-weight=\"bold\">Retroîncrucișare</text><text x=\"258.0\" y=\"32.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.8\">Gg × gg</text><text x=\"232.0\" y=\"58.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.8\" font-weight=\"bold\">½ G</text><text x=\"284.0\" y=\"58.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.8\" font-weight=\"bold\">½ g</text><text x=\"200.0\" y=\"104.0\" text-anchor=\"end\" fill=\"#6b6760\" font-size=\"10.8\" font-weight=\"bold\">g</text><rect x=\"206.0\" y=\"74.0\" width=\"49.0\" height=\"49.0\" fill=\"#2a78d6\" fill-opacity=\"0.88\"></rect><text x=\"230.5\" y=\"103.0\" text-anchor=\"middle\" fill=\"#ffffff\" font-size=\"12.0\" font-weight=\"bold\">Gg</text><rect x=\"258.0\" y=\"74.0\" width=\"49.0\" height=\"49.0\" fill=\"#eb6834\" fill-opacity=\"0.88\"></rect><text x=\"282.5\" y=\"103.0\" text-anchor=\"middle\" fill=\"#ffffff\" font-size=\"12.0\" font-weight=\"bold\">gg</text><text x=\"200.0\" y=\"156.0\" text-anchor=\"end\" fill=\"#6b6760\" font-size=\"10.8\" font-weight=\"bold\">g</text><rect x=\"206.0\" y=\"126.0\" width=\"49.0\" height=\"49.0\" fill=\"#2a78d6\" fill-opacity=\"0.88\"></rect><text x=\"230.5\" y=\"155.0\" text-anchor=\"middle\" fill=\"#ffffff\" font-size=\"12.0\" font-weight=\"bold\">Gg</text><rect x=\"258.0\" y=\"126.0\" width=\"49.0\" height=\"49.0\" fill=\"#eb6834\" fill-opacity=\"0.88\"></rect><text x=\"282.5\" y=\"155.0\" text-anchor=\"middle\" fill=\"#ffffff\" font-size=\"12.0\" font-weight=\"bold\">gg</text><text x=\"90.0\" y=\"198.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.8\">¼ GG · ½ Gg · ¼ gg</text><text x=\"90.0\" y=\"212.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.8\">3 : 1 după fenotip</text><text x=\"258.0\" y=\"198.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.8\">½ Gg · ½ gg</text><text x=\"258.0\" y=\"212.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.8\">1 : 1 după fenotip</text><rect x=\"52.0\" y=\"226.0\" width=\"10.0\" height=\"10.0\" fill=\"#2a78d6\"></rect><text x=\"66.0\" y=\"235.0\" text-anchor=\"start\" fill=\"#2c2a26\" font-size=\"10.8\">gustător (G_)</text><rect x=\"160.6\" y=\"226.0\" width=\"10.0\" height=\"10.0\" fill=\"#eb6834\"></rect><text x=\"174.6\" y=\"235.0\" text-anchor=\"start\" fill=\"#2c2a26\" font-size=\"10.8\">negustător (gg)</text></svg>"
+          }
+        ],
+        "noduri": [
+          {
+            "t": "Monohibridarea",
+            "d": "Încrucișarea între părinți care diferă printr-o singură pereche de caractere, urmărită pe mai multe generații. Exemplu: gustul amar al PTC (circa 70% gustători, 30% negustători la albi). P: GG × gg → F1: toți Gg → F1 × F1 → F2."
+          },
+          {
+            "t": "Uniformitatea hibrizilor din F1",
+            "d": "Toți hibrizii din F1 sunt la fel și arată caracterul dominant. Atenție la prejudecăți: părinții nu transmit direct caracterele, iar prezența genei nu asigură caracterul (g nu se manifestă la Gg)."
+          },
+          {
+            "t": "Dominant și recesiv",
+            "d": "Gena dominantă se manifestă la heterozigot (majusculă sau +); gena recesivă e mascată de alela dominantă și se manifestă doar la homozigot (literă mică sau −)."
+          },
+          {
+            "t": "Principiul reciprocității",
+            "d": "Sensul încrucișării nu contează: acțiunea genei nu depinde de originea maternă sau paternă („genele își uită originea”). Prejudecata „eredității încrucișate” (mama → fiu, tata → fiică) e valabilă doar pentru unele trăsături legate de X."
+          },
+          {
+            "t": "Disjuncția în F2",
+            "d": "În F2 reapar fenotipurile bunicilor alături de cele ale părinților: caracterul recesiv, dispărut la hibrizi, reapare nemodificat cu probabilitate 25%. Genotip 1 GG : 2 Gg : 1 gg; fenotip 3 : 1. Cunoașterea ratelor permite predicții (sfatul genetic)."
+          },
+          {
+            "t": "Legea I: puritatea gameților",
+            "d": "Gameții sunt puri genetic: conțin o singură alelă din pereche; heterozigotul formează două tipuri de gameți, în proporții egale. Separarea se produce în meioză, odată cu separarea cromozomilor omologi (Rostand: „părinții divorțează în celulele sexuale ale copiilor”). Unirea gameților la fecundație e probabilistică → 3 dominant : 1 recesiv în F2."
+          },
+          {
+            "t": "Ratele de segregare",
+            "d": "Probabilitatea acționează la fiecare sarcină; ratele nu se verifică într-o singură familie mică, ci însumând date din multe familii. Depind de tipul încrucișării: AA × AA, AA × Aa, Aa × aa, AA × aa, aa × aa, Aa × Aa."
+          },
+          {
+            "t": "Retroîncrucișarea",
+            "d": "Back-cross: hibrid (F1 sau F2) × părinte recesiv. Gg × gg dă 1 : 1 (½ Gg, ½ gg); GG × gg dă numai Gg. Deosebește astfel purtătorii heterozigoți ai genei dominante de homozigoți; e mult folosită în genetica experimentală."
+          }
+        ]
+      },
+      {
+        "titlu": "Gametogeneza și meioza",
+        "figuri": [
+          {
+            "titlu": "Gametogeneza: ovogeneză și spermatogeneză",
+            "nota": "Schemă simplificată după figura din manual (Strachan & Read, 2004). Meioza înjumătățește numărul de cromozomi: 2n → n.",
+            "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 380 330\" role=\"img\" aria-label=\"Gametogeneza: din oocitul primar rezultă un singur ovul și globuli polari; din spermatocitul primar rezultă patru spermatozoizi\" font-family=\"Georgia, serif\" font-size=\"13\"><text x=\"85.0\" y=\"16.0\" text-anchor=\"middle\" fill=\"#b5453a\" font-size=\"12.0\" font-weight=\"bold\">Ovogeneză</text><text x=\"295.0\" y=\"16.0\" text-anchor=\"middle\" fill=\"#2a78d6\" font-size=\"12.0\" font-weight=\"bold\">Spermatogeneză</text><line x1=\"10.0\" y1=\"64.0\" x2=\"370.0\" y2=\"64.0\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><line x1=\"10.0\" y1=\"132.0\" x2=\"370.0\" y2=\"132.0\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><line x1=\"10.0\" y1=\"200.0\" x2=\"370.0\" y2=\"200.0\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><line x1=\"10.0\" y1=\"268.0\" x2=\"370.0\" y2=\"268.0\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><text x=\"190.0\" y=\"80.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">mitoze, creștere</text><text x=\"190.0\" y=\"150.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\" font-weight=\"bold\">meioza I</text><text x=\"190.0\" y=\"218.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\" font-weight=\"bold\">meioza II</text><circle cx=\"85.0\" cy=\"42.0\" r=\"9\" fill=\"#b5453a\" fill-opacity=\"0.25\" stroke=\"#b5453a\" stroke-width=\"1.4\"/><circle cx=\"85.0\" cy=\"42.0\" r=\"2.9\" fill=\"#b5453a\"/><text x=\"85.0\" y=\"62.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.2\">oogonie</text><line x1=\"85.0\" y1=\"66.0\" x2=\"85.0\" y2=\"92.0\" stroke=\"#6b6760\" stroke-width=\"1.2\"/><polygon points=\"85.0,92.0 82.4,86.6 87.6,86.6\" fill=\"#6b6760\"/><circle cx=\"85.0\" cy=\"110.0\" r=\"15\" fill=\"#b5453a\" fill-opacity=\"0.25\" stroke=\"#b5453a\" stroke-width=\"1.4\"/><circle cx=\"85.0\" cy=\"110.0\" r=\"4.8\" fill=\"#b5453a\"/><text x=\"85.0\" y=\"138.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.2\">oocit primar</text><line x1=\"80.0\" y1=\"142.0\" x2=\"70.0\" y2=\"162.0\" stroke=\"#6b6760\" stroke-width=\"1.2\"/><polygon points=\"70.0,162.0 70.1,156.0 74.8,158.3\" fill=\"#6b6760\"/><line x1=\"92.0\" y1=\"142.0\" x2=\"122.0\" y2=\"166.0\" stroke=\"#6b6760\" stroke-width=\"1.2\"/><polygon points=\"122.0,166.0 116.2,164.7 119.4,160.6\" fill=\"#6b6760\"/><circle cx=\"62.0\" cy=\"178.0\" r=\"12\" fill=\"#b5453a\" fill-opacity=\"0.25\" stroke=\"#b5453a\" stroke-width=\"1.4\"/><circle cx=\"62.0\" cy=\"178.0\" r=\"3.8\" fill=\"#b5453a\"/><text x=\"62.0\" y=\"202.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.2\">oocit secundar</text><circle cx=\"128.0\" cy=\"172.0\" r=\"5\" fill=\"#b5453a\" fill-opacity=\"0.25\" stroke=\"#b5453a\" stroke-width=\"1.4\"/><text x=\"137.0\" y=\"176.0\" text-anchor=\"start\" fill=\"#6b6760\" font-size=\"10.2\">glob polar I</text><line x1=\"58.0\" y1=\"206.0\" x2=\"52.0\" y2=\"232.0\" stroke=\"#6b6760\" stroke-width=\"1.2\"/><polygon points=\"52.0,232.0 50.7,226.1 55.8,227.3\" fill=\"#6b6760\"/><line x1=\"68.0\" y1=\"206.0\" x2=\"96.0\" y2=\"234.0\" stroke=\"#6b6760\" stroke-width=\"1.2\"/><polygon points=\"96.0,234.0 90.3,232.0 94.0,228.3\" fill=\"#6b6760\"/><circle cx=\"48.0\" cy=\"248.0\" r=\"11\" fill=\"#b5453a\" fill-opacity=\"0.25\" stroke=\"#b5453a\" stroke-width=\"1.4\"/><circle cx=\"48.0\" cy=\"248.0\" r=\"3.5\" fill=\"#b5453a\"/><text x=\"48.0\" y=\"274.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.2\" font-weight=\"bold\">ovul</text><circle cx=\"102.0\" cy=\"244.0\" r=\"5\" fill=\"#b5453a\" fill-opacity=\"0.25\" stroke=\"#b5453a\" stroke-width=\"1.4\"/><text x=\"102.0\" y=\"262.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">glob polar II</text><text x=\"85.0\" y=\"300.0\" text-anchor=\"middle\" fill=\"#b5453a\" font-size=\"10.8\" font-weight=\"bold\">1 ovul matur</text><text x=\"85.0\" y=\"314.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">+ globuli polari</text><circle cx=\"295.0\" cy=\"42.0\" r=\"9\" fill=\"#2a78d6\" fill-opacity=\"0.25\" stroke=\"#2a78d6\" stroke-width=\"1.4\"/><circle cx=\"295.0\" cy=\"42.0\" r=\"2.9\" fill=\"#2a78d6\"/><text x=\"295.0\" y=\"62.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.2\">spermatogonie</text><line x1=\"295.0\" y1=\"66.0\" x2=\"295.0\" y2=\"92.0\" stroke=\"#6b6760\" stroke-width=\"1.2\"/><polygon points=\"295.0,92.0 292.4,86.6 297.6,86.6\" fill=\"#6b6760\"/><circle cx=\"295.0\" cy=\"110.0\" r=\"13\" fill=\"#2a78d6\" fill-opacity=\"0.25\" stroke=\"#2a78d6\" stroke-width=\"1.4\"/><circle cx=\"295.0\" cy=\"110.0\" r=\"4.2\" fill=\"#2a78d6\"/><text x=\"295.0\" y=\"136.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.2\">spermatocit primar</text><line x1=\"288.0\" y1=\"140.0\" x2=\"265.0\" y2=\"164.0\" stroke=\"#6b6760\" stroke-width=\"1.2\"/><polygon points=\"265.0,164.0 266.9,158.3 270.6,161.9\" fill=\"#6b6760\"/><line x1=\"302.0\" y1=\"140.0\" x2=\"325.0\" y2=\"164.0\" stroke=\"#6b6760\" stroke-width=\"1.2\"/><polygon points=\"325.0,164.0 319.4,161.9 323.1,158.3\" fill=\"#6b6760\"/><circle cx=\"260.0\" cy=\"178.0\" r=\"9\" fill=\"#2a78d6\" fill-opacity=\"0.25\" stroke=\"#2a78d6\" stroke-width=\"1.4\"/><circle cx=\"260.0\" cy=\"178.0\" r=\"2.9\" fill=\"#2a78d6\"/><circle cx=\"330.0\" cy=\"178.0\" r=\"9\" fill=\"#2a78d6\" fill-opacity=\"0.25\" stroke=\"#2a78d6\" stroke-width=\"1.4\"/><circle cx=\"330.0\" cy=\"178.0\" r=\"2.9\" fill=\"#2a78d6\"/><text x=\"295.0\" y=\"202.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.2\">2 spermatocite secundare</text><line x1=\"260.0\" y1=\"208.0\" x2=\"240.0\" y2=\"234.0\" stroke=\"#6b6760\" stroke-width=\"1.2\"/><polygon points=\"240.0,234.0 241.2,228.1 245.4,231.3\" fill=\"#6b6760\"/><circle cx=\"240.0\" cy=\"246.0\" r=\"6\" fill=\"#2a78d6\" fill-opacity=\"0.25\" stroke=\"#2a78d6\" stroke-width=\"1.4\"/><circle cx=\"240.0\" cy=\"246.0\" r=\"2.2\" fill=\"#2a78d6\"/><line x1=\"240.0\" y1=\"252.0\" x2=\"243.0\" y2=\"266.0\" stroke=\"#2a78d6\" stroke-width=\"1.2\"/><line x1=\"260.0\" y1=\"208.0\" x2=\"276.0\" y2=\"234.0\" stroke=\"#6b6760\" stroke-width=\"1.2\"/><polygon points=\"276.0,234.0 270.9,230.8 275.4,228.0\" fill=\"#6b6760\"/><circle cx=\"276.0\" cy=\"246.0\" r=\"6\" fill=\"#2a78d6\" fill-opacity=\"0.25\" stroke=\"#2a78d6\" stroke-width=\"1.4\"/><circle cx=\"276.0\" cy=\"246.0\" r=\"2.2\" fill=\"#2a78d6\"/><line x1=\"276.0\" y1=\"252.0\" x2=\"279.0\" y2=\"266.0\" stroke=\"#2a78d6\" stroke-width=\"1.2\"/><line x1=\"330.0\" y1=\"208.0\" x2=\"314.0\" y2=\"234.0\" stroke=\"#6b6760\" stroke-width=\"1.2\"/><polygon points=\"314.0,234.0 314.6,228.0 319.1,230.8\" fill=\"#6b6760\"/><circle cx=\"314.0\" cy=\"246.0\" r=\"6\" fill=\"#2a78d6\" fill-opacity=\"0.25\" stroke=\"#2a78d6\" stroke-width=\"1.4\"/><circle cx=\"314.0\" cy=\"246.0\" r=\"2.2\" fill=\"#2a78d6\"/><line x1=\"314.0\" y1=\"252.0\" x2=\"317.0\" y2=\"266.0\" stroke=\"#2a78d6\" stroke-width=\"1.2\"/><line x1=\"330.0\" y1=\"208.0\" x2=\"350.0\" y2=\"234.0\" stroke=\"#6b6760\" stroke-width=\"1.2\"/><polygon points=\"350.0,234.0 344.6,231.3 348.8,228.1\" fill=\"#6b6760\"/><circle cx=\"350.0\" cy=\"246.0\" r=\"6\" fill=\"#2a78d6\" fill-opacity=\"0.25\" stroke=\"#2a78d6\" stroke-width=\"1.4\"/><circle cx=\"350.0\" cy=\"246.0\" r=\"2.2\" fill=\"#2a78d6\"/><line x1=\"350.0\" y1=\"252.0\" x2=\"353.0\" y2=\"266.0\" stroke=\"#2a78d6\" stroke-width=\"1.2\"/><text x=\"295.0\" y=\"280.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.2\">spermatide → spermatozoizi</text><text x=\"295.0\" y=\"300.0\" text-anchor=\"middle\" fill=\"#2a78d6\" font-size=\"10.8\" font-weight=\"bold\">4 spermatozoizi</text><text x=\"295.0\" y=\"314.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">din fiecare spermatocit primar</text></svg>"
+          }
+        ],
+        "noduri": [
+          {
+            "t": "Meioza",
+            "d": "Diviziunea celulară prin care se formează gameții, cu număr haploid (înjumătățit) de cromozomi: din 2n = 46 rezultă n = 23. Separă cromozomii omologi, deci și alelele, în celule diferite."
+          },
+          {
+            "t": "Ovogeneza și spermatogeneza",
+            "d": "Ovogeneză: oogonie → oocit primar (2n) → meioza I: oocit secundar (n) + primul glob polar → meioza II: un ovul matur + al doilea glob polar. Spermatogeneză: spermatogonie → spermatocit primar (2n) → două spermatocite secundare (n) → patru spermatide → patru spermatozoizi."
+          }
+        ]
+      },
+      {
+        "titlu": "Alte relații între alele",
+        "noduri": [
+          {
+            "t": "Dominanța completă",
+            "d": "Heterozigotul Aa are același fenotip ca homozigotul AA; în F2 raportul fenotipic e 3 : 1."
+          },
+          {
+            "t": "Dominanța incompletă",
+            "d": "Heterozigoții au un fenotip intermediar; segregarea devine 1 AA : 2 Aa : 1 aa (păr creț, ondulat, neted)."
+          },
+          {
+            "t": "Codominanța",
+            "d": "Ambele alele se manifestă la heterozigot, fără să se domine (alele echipotente, notate cu majuscule vecine). Sistemul MN: M × N → toți MN; MN × MN → M : MN : N = 1 : 2 : 1, proporția fenotipurilor coincide cu cea a genotipurilor. Și grupa AB (Lᴬ și Lᴮ)."
+          }
+        ]
+      },
+      {
+        "titlu": "Polialelia: sistemul ABO",
+        "tabel": {
+          "cap": [
+            "Grupa (fenotip)",
+            "Antigen pe hematii",
+            "Anticorpi în ser",
+            "Genotip"
+          ],
+          "randuri": [
+            [
+              "O (I)",
+              "absent",
+              "anti-A, anti-B",
+              "ll"
+            ],
+            [
+              "A (II)",
+              "A",
+              "anti-B",
+              "LᴬLᴬ sau Lᴬl"
+            ],
+            [
+              "B (III)",
+              "B",
+              "anti-A",
+              "LᴮLᴮ sau Lᴮl"
+            ],
+            [
+              "AB (IV)",
+              "A și B",
+              "absenți",
+              "LᴬLᴮ"
+            ]
+          ]
+        },
+        "noduri": [
+          {
+            "t": "Polialelia",
+            "d": "Mai mult de două alele pe același locus, care determină variații ale aceluiași caracter; apar prin mutații consecutive ale unei gene (a₁, a₂, … aₙ). Exemplul tipic: sistemul ABO."
+          },
+          {
+            "t": "Alelele ABO",
+            "d": "Locusul ABO e pe brațele lungi ale cromozomului 9. Alelele (notate după Landsteiner) Lᴬ și Lᴮ sunt codominante între ele și dominante față de l, care împiedică formarea antigenelor. În ser apar anticorpi doar contra antigenului absent; reacția antigen–anticorp (aglutinarea) explică accidentele transfuzionale observate încă din 1667."
+          },
+          {
+            "t": "Grupele în populații",
+            "d": "Frecvențele diferă între populații, poate prin adaptare (imunitate la bolile unei zone). Ex.: grupa O ~69% la amerindieni, unde B și AB aproape lipsesc; la români A 41%, O 36%, B 16%, AB 7%. Alela B are frecvența maximă în Asia centrală, de unde s-ar fi răspândit: distribuția alelelor urmărește marile migrații."
+          }
+        ]
+      },
+      {
+        "titlu": "Dihibridarea și legea a II-a",
+        "lat": true,
+        "figuri": [
+          {
+            "titlu": "Dihibridarea: de la părinți la gameții din F1",
+            "nota": "Redesenată după figura din manual. Gameții Ab și aB, absenți la părinți, sunt recombinați.",
+            "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 340 200\" role=\"img\" aria-label=\"Dihibridarea: AABB × aabb dă în F1 AaBb, care formează patru tipuri de gameți, AB și ab parentali, Ab și aB recombinați\" font-family=\"Georgia, serif\" font-size=\"13\"><text x=\"8.0\" y=\"34.0\" text-anchor=\"start\" fill=\"#6b6760\" font-size=\"10.8\" font-weight=\"bold\">P</text><text x=\"8.0\" y=\"112.0\" text-anchor=\"start\" fill=\"#6b6760\" font-size=\"10.8\" font-weight=\"bold\">F1</text><text x=\"8.0\" y=\"172.0\" text-anchor=\"start\" fill=\"#6b6760\" font-size=\"10.8\" font-weight=\"bold\">gameți</text><rect x=\"86.0\" y=\"16.0\" width=\"70.0\" height=\"28.0\" rx=\"5\" fill=\"#2a78d6\"/><text x=\"121.0\" y=\"34.2\" text-anchor=\"middle\" fill=\"#ffffff\" font-size=\"12.0\" font-weight=\"bold\">AABB</text><text x=\"170.0\" y=\"34.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"14\">×</text><rect x=\"184.0\" y=\"16.0\" width=\"70.0\" height=\"28.0\" rx=\"5\" fill=\"#eb6834\"/><text x=\"219.0\" y=\"34.2\" text-anchor=\"middle\" fill=\"#ffffff\" font-size=\"12.0\" font-weight=\"bold\">aabb</text><text x=\"121.0\" y=\"62.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">gameți AB</text><text x=\"219.0\" y=\"62.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">gameți ab</text><line x1=\"121.0\" y1=\"68.0\" x2=\"160.0\" y2=\"92.0\" stroke=\"#6b6760\" stroke-width=\"1.2\"/><polygon points=\"160.0,92.0 154.0,91.4 156.8,86.9\" fill=\"#6b6760\"/><line x1=\"219.0\" y1=\"68.0\" x2=\"180.0\" y2=\"92.0\" stroke=\"#6b6760\" stroke-width=\"1.2\"/><polygon points=\"180.0,92.0 183.2,86.9 186.0,91.4\" fill=\"#6b6760\"/><rect x=\"135.0\" y=\"96.0\" width=\"70.0\" height=\"28.0\" rx=\"5\" fill=\"#2a78d6\"/><text x=\"170.0\" y=\"114.2\" text-anchor=\"middle\" fill=\"#ffffff\" font-size=\"12.0\" font-weight=\"bold\">AaBb</text><line x1=\"170.0\" y1=\"128.0\" x2=\"98.0\" y2=\"150.0\" stroke=\"#6b6760\" stroke-width=\"1.2\"/><polygon points=\"98.0,150.0 102.4,145.9 103.9,150.9\" fill=\"#6b6760\"/><rect x=\"74.0\" y=\"154.0\" width=\"48.0\" height=\"26.0\" rx=\"5\" fill=\"#2a78d6\"/><text x=\"98.0\" y=\"171.2\" text-anchor=\"middle\" fill=\"#ffffff\" font-size=\"12.0\" font-weight=\"bold\">AB</text><line x1=\"170.0\" y1=\"128.0\" x2=\"156.0\" y2=\"150.0\" stroke=\"#6b6760\" stroke-width=\"1.2\"/><polygon points=\"156.0,150.0 156.7,144.0 161.1,146.8\" fill=\"#6b6760\"/><rect x=\"132.0\" y=\"154.0\" width=\"48.0\" height=\"26.0\" rx=\"5\" fill=\"#1baf7a\"/><text x=\"156.0\" y=\"171.2\" text-anchor=\"middle\" fill=\"#ffffff\" font-size=\"12.0\" font-weight=\"bold\">Ab</text><line x1=\"170.0\" y1=\"128.0\" x2=\"214.0\" y2=\"150.0\" stroke=\"#6b6760\" stroke-width=\"1.2\"/><polygon points=\"214.0,150.0 208.0,149.9 210.3,145.2\" fill=\"#6b6760\"/><rect x=\"190.0\" y=\"154.0\" width=\"48.0\" height=\"26.0\" rx=\"5\" fill=\"#1baf7a\"/><text x=\"214.0\" y=\"171.2\" text-anchor=\"middle\" fill=\"#ffffff\" font-size=\"12.0\" font-weight=\"bold\">aB</text><line x1=\"170.0\" y1=\"128.0\" x2=\"272.0\" y2=\"150.0\" stroke=\"#6b6760\" stroke-width=\"1.2\"/><polygon points=\"272.0,150.0 266.2,151.4 267.3,146.3\" fill=\"#6b6760\"/><rect x=\"248.0\" y=\"154.0\" width=\"48.0\" height=\"26.0\" rx=\"5\" fill=\"#eb6834\"/><text x=\"272.0\" y=\"171.2\" text-anchor=\"middle\" fill=\"#ffffff\" font-size=\"12.0\" font-weight=\"bold\">ab</text><text x=\"98.0\" y=\"196.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">parental</text><text x=\"185.0\" y=\"196.0\" text-anchor=\"middle\" fill=\"#1baf7a\" font-size=\"10.2\" font-weight=\"bold\">recombinați</text><text x=\"272.0\" y=\"196.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">parental</text></svg>"
+          },
+          {
+            "titlu": "Careul dihibridării și raportul 9 : 3 : 3 : 1",
+            "nota": "Culoarea arată fenotipul. Fiecare caracter luat separat dă tot 3 : 1 (12 : 4).",
+            "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 340 318\" role=\"img\" aria-label=\"Careul dihibridării AaBb × AaBb: 16 combinații; fenotipurile A_B_, A_bb, aaB_, aabb apar în raport 9:3:3:1\" font-family=\"Georgia, serif\" font-size=\"13\"><text x=\"190.0\" y=\"12.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.8\" font-weight=\"bold\">F1 × F1: AaBb × AaBb (gameți câte ¼)</text><text x=\"82.0\" y=\"38.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.8\" font-weight=\"bold\">AB</text><text x=\"154.0\" y=\"38.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.8\" font-weight=\"bold\">Ab</text><text x=\"226.0\" y=\"38.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.8\" font-weight=\"bold\">aB</text><text x=\"298.0\" y=\"38.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.8\" font-weight=\"bold\">ab</text><text x=\"40.0\" y=\"75.0\" text-anchor=\"end\" fill=\"#6b6760\" font-size=\"10.8\" font-weight=\"bold\">AB</text><rect x=\"46.0\" y=\"46.0\" width=\"69.0\" height=\"47.0\" fill=\"#2a78d6\" fill-opacity=\"0.85\"></rect><text x=\"80.5\" y=\"74.0\" text-anchor=\"middle\" fill=\"#ffffff\" font-size=\"12.0\" font-weight=\"bold\">AABB</text><rect x=\"118.0\" y=\"46.0\" width=\"69.0\" height=\"47.0\" fill=\"#2a78d6\" fill-opacity=\"0.85\"></rect><text x=\"152.5\" y=\"74.0\" text-anchor=\"middle\" fill=\"#ffffff\" font-size=\"12.0\" font-weight=\"bold\">AABb</text><rect x=\"190.0\" y=\"46.0\" width=\"69.0\" height=\"47.0\" fill=\"#2a78d6\" fill-opacity=\"0.85\"></rect><text x=\"224.5\" y=\"74.0\" text-anchor=\"middle\" fill=\"#ffffff\" font-size=\"12.0\" font-weight=\"bold\">AaBB</text><rect x=\"262.0\" y=\"46.0\" width=\"69.0\" height=\"47.0\" fill=\"#2a78d6\" fill-opacity=\"0.85\"></rect><text x=\"296.5\" y=\"74.0\" text-anchor=\"middle\" fill=\"#ffffff\" font-size=\"12.0\" font-weight=\"bold\">AaBb</text><text x=\"40.0\" y=\"125.0\" text-anchor=\"end\" fill=\"#6b6760\" font-size=\"10.8\" font-weight=\"bold\">Ab</text><rect x=\"46.0\" y=\"96.0\" width=\"69.0\" height=\"47.0\" fill=\"#2a78d6\" fill-opacity=\"0.85\"></rect><text x=\"80.5\" y=\"124.0\" text-anchor=\"middle\" fill=\"#ffffff\" font-size=\"12.0\" font-weight=\"bold\">AABb</text><rect x=\"118.0\" y=\"96.0\" width=\"69.0\" height=\"47.0\" fill=\"#1baf7a\" fill-opacity=\"0.85\"></rect><text x=\"152.5\" y=\"124.0\" text-anchor=\"middle\" fill=\"#ffffff\" font-size=\"12.0\" font-weight=\"bold\">AAbb</text><rect x=\"190.0\" y=\"96.0\" width=\"69.0\" height=\"47.0\" fill=\"#2a78d6\" fill-opacity=\"0.85\"></rect><text x=\"224.5\" y=\"124.0\" text-anchor=\"middle\" fill=\"#ffffff\" font-size=\"12.0\" font-weight=\"bold\">AaBb</text><rect x=\"262.0\" y=\"96.0\" width=\"69.0\" height=\"47.0\" fill=\"#1baf7a\" fill-opacity=\"0.85\"></rect><text x=\"296.5\" y=\"124.0\" text-anchor=\"middle\" fill=\"#ffffff\" font-size=\"12.0\" font-weight=\"bold\">Aabb</text><text x=\"40.0\" y=\"175.0\" text-anchor=\"end\" fill=\"#6b6760\" font-size=\"10.8\" font-weight=\"bold\">aB</text><rect x=\"46.0\" y=\"146.0\" width=\"69.0\" height=\"47.0\" fill=\"#2a78d6\" fill-opacity=\"0.85\"></rect><text x=\"80.5\" y=\"174.0\" text-anchor=\"middle\" fill=\"#ffffff\" font-size=\"12.0\" font-weight=\"bold\">AaBB</text><rect x=\"118.0\" y=\"146.0\" width=\"69.0\" height=\"47.0\" fill=\"#2a78d6\" fill-opacity=\"0.85\"></rect><text x=\"152.5\" y=\"174.0\" text-anchor=\"middle\" fill=\"#ffffff\" font-size=\"12.0\" font-weight=\"bold\">AaBb</text><rect x=\"190.0\" y=\"146.0\" width=\"69.0\" height=\"47.0\" fill=\"#eb6834\" fill-opacity=\"0.85\"></rect><text x=\"224.5\" y=\"174.0\" text-anchor=\"middle\" fill=\"#ffffff\" font-size=\"12.0\" font-weight=\"bold\">aaBB</text><rect x=\"262.0\" y=\"146.0\" width=\"69.0\" height=\"47.0\" fill=\"#eb6834\" fill-opacity=\"0.85\"></rect><text x=\"296.5\" y=\"174.0\" text-anchor=\"middle\" fill=\"#ffffff\" font-size=\"12.0\" font-weight=\"bold\">aaBb</text><text x=\"40.0\" y=\"225.0\" text-anchor=\"end\" fill=\"#6b6760\" font-size=\"10.8\" font-weight=\"bold\">ab</text><rect x=\"46.0\" y=\"196.0\" width=\"69.0\" height=\"47.0\" fill=\"#2a78d6\" fill-opacity=\"0.85\"></rect><text x=\"80.5\" y=\"224.0\" text-anchor=\"middle\" fill=\"#ffffff\" font-size=\"12.0\" font-weight=\"bold\">AaBb</text><rect x=\"118.0\" y=\"196.0\" width=\"69.0\" height=\"47.0\" fill=\"#1baf7a\" fill-opacity=\"0.85\"></rect><text x=\"152.5\" y=\"224.0\" text-anchor=\"middle\" fill=\"#ffffff\" font-size=\"12.0\" font-weight=\"bold\">Aabb</text><rect x=\"190.0\" y=\"196.0\" width=\"69.0\" height=\"47.0\" fill=\"#eb6834\" fill-opacity=\"0.85\"></rect><text x=\"224.5\" y=\"224.0\" text-anchor=\"middle\" fill=\"#ffffff\" font-size=\"12.0\" font-weight=\"bold\">aaBb</text><rect x=\"262.0\" y=\"196.0\" width=\"69.0\" height=\"47.0\" fill=\"#b5453a\" fill-opacity=\"0.85\"></rect><text x=\"296.5\" y=\"224.0\" text-anchor=\"middle\" fill=\"#ffffff\" font-size=\"12.0\" font-weight=\"bold\">aabb</text><rect x=\"10.0\" y=\"254.0\" width=\"10.0\" height=\"10.0\" fill=\"#2a78d6\"></rect><text x=\"24.0\" y=\"263.0\" text-anchor=\"start\" fill=\"#2c2a26\" font-size=\"10.8\">A_B_ 9/16</text><rect x=\"93.8\" y=\"254.0\" width=\"10.0\" height=\"10.0\" fill=\"#1baf7a\"></rect><text x=\"107.8\" y=\"263.0\" text-anchor=\"start\" fill=\"#2c2a26\" font-size=\"10.8\">A_bb 3/16</text><rect x=\"10.0\" y=\"274.0\" width=\"10.0\" height=\"10.0\" fill=\"#eb6834\"></rect><text x=\"24.0\" y=\"283.0\" text-anchor=\"start\" fill=\"#2c2a26\" font-size=\"10.8\">aaB_ 3/16</text><rect x=\"93.8\" y=\"274.0\" width=\"10.0\" height=\"10.0\" fill=\"#b5453a\"></rect><text x=\"107.8\" y=\"283.0\" text-anchor=\"start\" fill=\"#2c2a26\" font-size=\"10.8\">aabb 1/16</text><text x=\"10.0\" y=\"306.0\" text-anchor=\"start\" fill=\"#2c2a26\" font-size=\"10.8\">16 combinații, 9 genotipuri, 4 fenotipuri: 9 : 3 : 3 : 1</text></svg>"
+          },
+          {
+            "titlu": "Asortarea independentă a cromozomilor în spermatogeneză",
+            "nota": "Redesenată după figura din manual (trei din cele cinci exemple). Crossing-over-ul, ignorat aici, mărește și mai mult numărul combinațiilor.",
+            "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 440 250\" role=\"img\" aria-label=\"Asortarea independentă: fiecare gamet primește la întâmplare cromozomul matern sau patern din fiecare din cele 23 de perechi\" font-family=\"Georgia, serif\" font-size=\"13\"><text x=\"220.0\" y=\"14.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.8\">Celula somatică (2n): fiecare pereche are un cromozom matern și unul patern</text><text x=\"60.0\" y=\"38.0\" text-anchor=\"end\" fill=\"#2c2a26\" font-size=\"10.8\" font-weight=\"bold\">matern</text><rect x=\"66.0\" y=\"24.0\" width=\"15.0\" height=\"20.0\" fill=\"#8a7f72\" stroke=\"#8a7f72\" stroke-width=\"1\"></rect><text x=\"73.5\" y=\"38.0\" text-anchor=\"middle\" fill=\"#ffffff\" font-size=\"10.2\">1</text><rect x=\"82.0\" y=\"24.0\" width=\"15.0\" height=\"20.0\" fill=\"#8a7f72\" stroke=\"#8a7f72\" stroke-width=\"1\"></rect><text x=\"89.5\" y=\"38.0\" text-anchor=\"middle\" fill=\"#ffffff\" font-size=\"10.2\">2</text><rect x=\"98.0\" y=\"24.0\" width=\"15.0\" height=\"20.0\" fill=\"#8a7f72\" stroke=\"#8a7f72\" stroke-width=\"1\"></rect><text x=\"105.5\" y=\"38.0\" text-anchor=\"middle\" fill=\"#ffffff\" font-size=\"10.2\">3</text><rect x=\"114.0\" y=\"24.0\" width=\"15.0\" height=\"20.0\" fill=\"#8a7f72\" stroke=\"#8a7f72\" stroke-width=\"1\"></rect><text x=\"121.5\" y=\"38.0\" text-anchor=\"middle\" fill=\"#ffffff\" font-size=\"10.2\">4</text><rect x=\"130.0\" y=\"24.0\" width=\"15.0\" height=\"20.0\" fill=\"#8a7f72\" stroke=\"#8a7f72\" stroke-width=\"1\"></rect><text x=\"137.5\" y=\"38.0\" text-anchor=\"middle\" fill=\"#ffffff\" font-size=\"10.2\">5</text><rect x=\"146.0\" y=\"24.0\" width=\"15.0\" height=\"20.0\" fill=\"#8a7f72\" stroke=\"#8a7f72\" stroke-width=\"1\"></rect><text x=\"153.5\" y=\"38.0\" text-anchor=\"middle\" fill=\"#ffffff\" font-size=\"10.2\">6</text><rect x=\"162.0\" y=\"24.0\" width=\"15.0\" height=\"20.0\" fill=\"#8a7f72\" stroke=\"#8a7f72\" stroke-width=\"1\"></rect><text x=\"169.5\" y=\"38.0\" text-anchor=\"middle\" fill=\"#ffffff\" font-size=\"10.2\">7</text><rect x=\"178.0\" y=\"24.0\" width=\"15.0\" height=\"20.0\" fill=\"#8a7f72\" stroke=\"#8a7f72\" stroke-width=\"1\"></rect><text x=\"185.5\" y=\"38.0\" text-anchor=\"middle\" fill=\"#ffffff\" font-size=\"10.2\">8</text><rect x=\"194.0\" y=\"24.0\" width=\"15.0\" height=\"20.0\" fill=\"#8a7f72\" stroke=\"#8a7f72\" stroke-width=\"1\"></rect><text x=\"201.5\" y=\"38.0\" text-anchor=\"middle\" fill=\"#ffffff\" font-size=\"10.2\">9</text><rect x=\"210.0\" y=\"24.0\" width=\"15.0\" height=\"20.0\" fill=\"#8a7f72\" stroke=\"#8a7f72\" stroke-width=\"1\"></rect><text x=\"217.5\" y=\"38.0\" text-anchor=\"middle\" fill=\"#ffffff\" font-size=\"10.2\">10</text><rect x=\"226.0\" y=\"24.0\" width=\"15.0\" height=\"20.0\" fill=\"#8a7f72\" stroke=\"#8a7f72\" stroke-width=\"1\"></rect><text x=\"233.5\" y=\"38.0\" text-anchor=\"middle\" fill=\"#ffffff\" font-size=\"10.2\">11</text><rect x=\"242.0\" y=\"24.0\" width=\"15.0\" height=\"20.0\" fill=\"#8a7f72\" stroke=\"#8a7f72\" stroke-width=\"1\"></rect><text x=\"249.5\" y=\"38.0\" text-anchor=\"middle\" fill=\"#ffffff\" font-size=\"10.2\">12</text><rect x=\"258.0\" y=\"24.0\" width=\"15.0\" height=\"20.0\" fill=\"#8a7f72\" stroke=\"#8a7f72\" stroke-width=\"1\"></rect><text x=\"265.5\" y=\"38.0\" text-anchor=\"middle\" fill=\"#ffffff\" font-size=\"10.2\">13</text><rect x=\"274.0\" y=\"24.0\" width=\"15.0\" height=\"20.0\" fill=\"#8a7f72\" stroke=\"#8a7f72\" stroke-width=\"1\"></rect><text x=\"281.5\" y=\"38.0\" text-anchor=\"middle\" fill=\"#ffffff\" font-size=\"10.2\">14</text><rect x=\"290.0\" y=\"24.0\" width=\"15.0\" height=\"20.0\" fill=\"#8a7f72\" stroke=\"#8a7f72\" stroke-width=\"1\"></rect><text x=\"297.5\" y=\"38.0\" text-anchor=\"middle\" fill=\"#ffffff\" font-size=\"10.2\">15</text><rect x=\"306.0\" y=\"24.0\" width=\"15.0\" height=\"20.0\" fill=\"#8a7f72\" stroke=\"#8a7f72\" stroke-width=\"1\"></rect><text x=\"313.5\" y=\"38.0\" text-anchor=\"middle\" fill=\"#ffffff\" font-size=\"10.2\">16</text><rect x=\"322.0\" y=\"24.0\" width=\"15.0\" height=\"20.0\" fill=\"#8a7f72\" stroke=\"#8a7f72\" stroke-width=\"1\"></rect><text x=\"329.5\" y=\"38.0\" text-anchor=\"middle\" fill=\"#ffffff\" font-size=\"10.2\">17</text><rect x=\"338.0\" y=\"24.0\" width=\"15.0\" height=\"20.0\" fill=\"#8a7f72\" stroke=\"#8a7f72\" stroke-width=\"1\"></rect><text x=\"345.5\" y=\"38.0\" text-anchor=\"middle\" fill=\"#ffffff\" font-size=\"10.2\">18</text><rect x=\"354.0\" y=\"24.0\" width=\"15.0\" height=\"20.0\" fill=\"#8a7f72\" stroke=\"#8a7f72\" stroke-width=\"1\"></rect><text x=\"361.5\" y=\"38.0\" text-anchor=\"middle\" fill=\"#ffffff\" font-size=\"10.2\">19</text><rect x=\"370.0\" y=\"24.0\" width=\"15.0\" height=\"20.0\" fill=\"#8a7f72\" stroke=\"#8a7f72\" stroke-width=\"1\"></rect><text x=\"377.5\" y=\"38.0\" text-anchor=\"middle\" fill=\"#ffffff\" font-size=\"10.2\">20</text><rect x=\"386.0\" y=\"24.0\" width=\"15.0\" height=\"20.0\" fill=\"#8a7f72\" stroke=\"#8a7f72\" stroke-width=\"1\"></rect><text x=\"393.5\" y=\"38.0\" text-anchor=\"middle\" fill=\"#ffffff\" font-size=\"10.2\">21</text><rect x=\"402.0\" y=\"24.0\" width=\"15.0\" height=\"20.0\" fill=\"#8a7f72\" stroke=\"#8a7f72\" stroke-width=\"1\"></rect><text x=\"409.5\" y=\"38.0\" text-anchor=\"middle\" fill=\"#ffffff\" font-size=\"10.2\">22</text><rect x=\"418.0\" y=\"24.0\" width=\"15.0\" height=\"20.0\" fill=\"#8a7f72\" stroke=\"#8a7f72\" stroke-width=\"1\"></rect><text x=\"425.5\" y=\"38.0\" text-anchor=\"middle\" fill=\"#ffffff\" font-size=\"10.2\">X</text><text x=\"60.0\" y=\"62.0\" text-anchor=\"end\" fill=\"#2c2a26\" font-size=\"10.8\" font-weight=\"bold\">patern</text><rect x=\"66.0\" y=\"48.0\" width=\"15.0\" height=\"20.0\" fill=\"#ffffff\" stroke=\"#8a7f72\" stroke-width=\"1\"></rect><text x=\"73.5\" y=\"62.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.2\">1</text><rect x=\"82.0\" y=\"48.0\" width=\"15.0\" height=\"20.0\" fill=\"#ffffff\" stroke=\"#8a7f72\" stroke-width=\"1\"></rect><text x=\"89.5\" y=\"62.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.2\">2</text><rect x=\"98.0\" y=\"48.0\" width=\"15.0\" height=\"20.0\" fill=\"#ffffff\" stroke=\"#8a7f72\" stroke-width=\"1\"></rect><text x=\"105.5\" y=\"62.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.2\">3</text><rect x=\"114.0\" y=\"48.0\" width=\"15.0\" height=\"20.0\" fill=\"#ffffff\" stroke=\"#8a7f72\" stroke-width=\"1\"></rect><text x=\"121.5\" y=\"62.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.2\">4</text><rect x=\"130.0\" y=\"48.0\" width=\"15.0\" height=\"20.0\" fill=\"#ffffff\" stroke=\"#8a7f72\" stroke-width=\"1\"></rect><text x=\"137.5\" y=\"62.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.2\">5</text><rect x=\"146.0\" y=\"48.0\" width=\"15.0\" height=\"20.0\" fill=\"#ffffff\" stroke=\"#8a7f72\" stroke-width=\"1\"></rect><text x=\"153.5\" y=\"62.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.2\">6</text><rect x=\"162.0\" y=\"48.0\" width=\"15.0\" height=\"20.0\" fill=\"#ffffff\" stroke=\"#8a7f72\" stroke-width=\"1\"></rect><text x=\"169.5\" y=\"62.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.2\">7</text><rect x=\"178.0\" y=\"48.0\" width=\"15.0\" height=\"20.0\" fill=\"#ffffff\" stroke=\"#8a7f72\" stroke-width=\"1\"></rect><text x=\"185.5\" y=\"62.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.2\">8</text><rect x=\"194.0\" y=\"48.0\" width=\"15.0\" height=\"20.0\" fill=\"#ffffff\" stroke=\"#8a7f72\" stroke-width=\"1\"></rect><text x=\"201.5\" y=\"62.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.2\">9</text><rect x=\"210.0\" y=\"48.0\" width=\"15.0\" height=\"20.0\" fill=\"#ffffff\" stroke=\"#8a7f72\" stroke-width=\"1\"></rect><text x=\"217.5\" y=\"62.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.2\">10</text><rect x=\"226.0\" y=\"48.0\" width=\"15.0\" height=\"20.0\" fill=\"#ffffff\" stroke=\"#8a7f72\" stroke-width=\"1\"></rect><text x=\"233.5\" y=\"62.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.2\">11</text><rect x=\"242.0\" y=\"48.0\" width=\"15.0\" height=\"20.0\" fill=\"#ffffff\" stroke=\"#8a7f72\" stroke-width=\"1\"></rect><text x=\"249.5\" y=\"62.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.2\">12</text><rect x=\"258.0\" y=\"48.0\" width=\"15.0\" height=\"20.0\" fill=\"#ffffff\" stroke=\"#8a7f72\" stroke-width=\"1\"></rect><text x=\"265.5\" y=\"62.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.2\">13</text><rect x=\"274.0\" y=\"48.0\" width=\"15.0\" height=\"20.0\" fill=\"#ffffff\" stroke=\"#8a7f72\" stroke-width=\"1\"></rect><text x=\"281.5\" y=\"62.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.2\">14</text><rect x=\"290.0\" y=\"48.0\" width=\"15.0\" height=\"20.0\" fill=\"#ffffff\" stroke=\"#8a7f72\" stroke-width=\"1\"></rect><text x=\"297.5\" y=\"62.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.2\">15</text><rect x=\"306.0\" y=\"48.0\" width=\"15.0\" height=\"20.0\" fill=\"#ffffff\" stroke=\"#8a7f72\" stroke-width=\"1\"></rect><text x=\"313.5\" y=\"62.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.2\">16</text><rect x=\"322.0\" y=\"48.0\" width=\"15.0\" height=\"20.0\" fill=\"#ffffff\" stroke=\"#8a7f72\" stroke-width=\"1\"></rect><text x=\"329.5\" y=\"62.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.2\">17</text><rect x=\"338.0\" y=\"48.0\" width=\"15.0\" height=\"20.0\" fill=\"#ffffff\" stroke=\"#8a7f72\" stroke-width=\"1\"></rect><text x=\"345.5\" y=\"62.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.2\">18</text><rect x=\"354.0\" y=\"48.0\" width=\"15.0\" height=\"20.0\" fill=\"#ffffff\" stroke=\"#8a7f72\" stroke-width=\"1\"></rect><text x=\"361.5\" y=\"62.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.2\">19</text><rect x=\"370.0\" y=\"48.0\" width=\"15.0\" height=\"20.0\" fill=\"#ffffff\" stroke=\"#8a7f72\" stroke-width=\"1\"></rect><text x=\"377.5\" y=\"62.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.2\">20</text><rect x=\"386.0\" y=\"48.0\" width=\"15.0\" height=\"20.0\" fill=\"#ffffff\" stroke=\"#8a7f72\" stroke-width=\"1\"></rect><text x=\"393.5\" y=\"62.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.2\">21</text><rect x=\"402.0\" y=\"48.0\" width=\"15.0\" height=\"20.0\" fill=\"#ffffff\" stroke=\"#8a7f72\" stroke-width=\"1\"></rect><text x=\"409.5\" y=\"62.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.2\">22</text><rect x=\"418.0\" y=\"48.0\" width=\"15.0\" height=\"20.0\" fill=\"#ffffff\" stroke=\"#8a7f72\" stroke-width=\"1\"></rect><text x=\"425.5\" y=\"62.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.2\">Y</text><text x=\"220.0\" y=\"92.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.8\">Câțiva spermatozoizi posibili (n): din fiecare pereche intră, la întâmplare, unul</text><text x=\"60.0\" y=\"118.0\" text-anchor=\"end\" fill=\"#2c2a26\" font-size=\"10.8\" font-weight=\"bold\">(A)</text><rect x=\"66.0\" y=\"104.0\" width=\"15.0\" height=\"20.0\" fill=\"#ffffff\" stroke=\"#8a7f72\" stroke-width=\"1\"></rect><text x=\"73.5\" y=\"118.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.2\">1</text><rect x=\"82.0\" y=\"104.0\" width=\"15.0\" height=\"20.0\" fill=\"#8a7f72\" stroke=\"#8a7f72\" stroke-width=\"1\"></rect><text x=\"89.5\" y=\"118.0\" text-anchor=\"middle\" fill=\"#ffffff\" font-size=\"10.2\">2</text><rect x=\"98.0\" y=\"104.0\" width=\"15.0\" height=\"20.0\" fill=\"#8a7f72\" stroke=\"#8a7f72\" stroke-width=\"1\"></rect><text x=\"105.5\" y=\"118.0\" text-anchor=\"middle\" fill=\"#ffffff\" font-size=\"10.2\">3</text><rect x=\"114.0\" y=\"104.0\" width=\"15.0\" height=\"20.0\" fill=\"#ffffff\" stroke=\"#8a7f72\" stroke-width=\"1\"></rect><text x=\"121.5\" y=\"118.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.2\">4</text><rect x=\"130.0\" y=\"104.0\" width=\"15.0\" height=\"20.0\" fill=\"#8a7f72\" stroke=\"#8a7f72\" stroke-width=\"1\"></rect><text x=\"137.5\" y=\"118.0\" text-anchor=\"middle\" fill=\"#ffffff\" font-size=\"10.2\">5</text><rect x=\"146.0\" y=\"104.0\" width=\"15.0\" height=\"20.0\" fill=\"#ffffff\" stroke=\"#8a7f72\" stroke-width=\"1\"></rect><text x=\"153.5\" y=\"118.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.2\">6</text><rect x=\"162.0\" y=\"104.0\" width=\"15.0\" height=\"20.0\" fill=\"#8a7f72\" stroke=\"#8a7f72\" stroke-width=\"1\"></rect><text x=\"169.5\" y=\"118.0\" text-anchor=\"middle\" fill=\"#ffffff\" font-size=\"10.2\">7</text><rect x=\"178.0\" y=\"104.0\" width=\"15.0\" height=\"20.0\" fill=\"#ffffff\" stroke=\"#8a7f72\" stroke-width=\"1\"></rect><text x=\"185.5\" y=\"118.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.2\">8</text><rect x=\"194.0\" y=\"104.0\" width=\"15.0\" height=\"20.0\" fill=\"#8a7f72\" stroke=\"#8a7f72\" stroke-width=\"1\"></rect><text x=\"201.5\" y=\"118.0\" text-anchor=\"middle\" fill=\"#ffffff\" font-size=\"10.2\">9</text><rect x=\"210.0\" y=\"104.0\" width=\"15.0\" height=\"20.0\" fill=\"#8a7f72\" stroke=\"#8a7f72\" stroke-width=\"1\"></rect><text x=\"217.5\" y=\"118.0\" text-anchor=\"middle\" fill=\"#ffffff\" font-size=\"10.2\">10</text><rect x=\"226.0\" y=\"104.0\" width=\"15.0\" height=\"20.0\" fill=\"#8a7f72\" stroke=\"#8a7f72\" stroke-width=\"1\"></rect><text x=\"233.5\" y=\"118.0\" text-anchor=\"middle\" fill=\"#ffffff\" font-size=\"10.2\">11</text><rect x=\"242.0\" y=\"104.0\" width=\"15.0\" height=\"20.0\" fill=\"#ffffff\" stroke=\"#8a7f72\" stroke-width=\"1\"></rect><text x=\"249.5\" y=\"118.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.2\">12</text><rect x=\"258.0\" y=\"104.0\" width=\"15.0\" height=\"20.0\" fill=\"#ffffff\" stroke=\"#8a7f72\" stroke-width=\"1\"></rect><text x=\"265.5\" y=\"118.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.2\">13</text><rect x=\"274.0\" y=\"104.0\" width=\"15.0\" height=\"20.0\" fill=\"#8a7f72\" stroke=\"#8a7f72\" stroke-width=\"1\"></rect><text x=\"281.5\" y=\"118.0\" text-anchor=\"middle\" fill=\"#ffffff\" font-size=\"10.2\">14</text><rect x=\"290.0\" y=\"104.0\" width=\"15.0\" height=\"20.0\" fill=\"#8a7f72\" stroke=\"#8a7f72\" stroke-width=\"1\"></rect><text x=\"297.5\" y=\"118.0\" text-anchor=\"middle\" fill=\"#ffffff\" font-size=\"10.2\">15</text><rect x=\"306.0\" y=\"104.0\" width=\"15.0\" height=\"20.0\" fill=\"#ffffff\" stroke=\"#8a7f72\" stroke-width=\"1\"></rect><text x=\"313.5\" y=\"118.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.2\">16</text><rect x=\"322.0\" y=\"104.0\" width=\"15.0\" height=\"20.0\" fill=\"#8a7f72\" stroke=\"#8a7f72\" stroke-width=\"1\"></rect><text x=\"329.5\" y=\"118.0\" text-anchor=\"middle\" fill=\"#ffffff\" font-size=\"10.2\">17</text><rect x=\"338.0\" y=\"104.0\" width=\"15.0\" height=\"20.0\" fill=\"#ffffff\" stroke=\"#8a7f72\" stroke-width=\"1\"></rect><text x=\"345.5\" y=\"118.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.2\">18</text><rect x=\"354.0\" y=\"104.0\" width=\"15.0\" height=\"20.0\" fill=\"#ffffff\" stroke=\"#8a7f72\" stroke-width=\"1\"></rect><text x=\"361.5\" y=\"118.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.2\">19</text><rect x=\"370.0\" y=\"104.0\" width=\"15.0\" height=\"20.0\" fill=\"#8a7f72\" stroke=\"#8a7f72\" stroke-width=\"1\"></rect><text x=\"377.5\" y=\"118.0\" text-anchor=\"middle\" fill=\"#ffffff\" font-size=\"10.2\">20</text><rect x=\"386.0\" y=\"104.0\" width=\"15.0\" height=\"20.0\" fill=\"#8a7f72\" stroke=\"#8a7f72\" stroke-width=\"1\"></rect><text x=\"393.5\" y=\"118.0\" text-anchor=\"middle\" fill=\"#ffffff\" font-size=\"10.2\">21</text><rect x=\"402.0\" y=\"104.0\" width=\"15.0\" height=\"20.0\" fill=\"#8a7f72\" stroke=\"#8a7f72\" stroke-width=\"1\"></rect><text x=\"409.5\" y=\"118.0\" text-anchor=\"middle\" fill=\"#ffffff\" font-size=\"10.2\">22</text><rect x=\"418.0\" y=\"104.0\" width=\"15.0\" height=\"20.0\" fill=\"#ffffff\" stroke=\"#8a7f72\" stroke-width=\"1\"></rect><text x=\"425.5\" y=\"118.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.2\">Y</text><text x=\"60.0\" y=\"146.0\" text-anchor=\"end\" fill=\"#2c2a26\" font-size=\"10.8\" font-weight=\"bold\">(B)</text><rect x=\"66.0\" y=\"132.0\" width=\"15.0\" height=\"20.0\" fill=\"#8a7f72\" stroke=\"#8a7f72\" stroke-width=\"1\"></rect><text x=\"73.5\" y=\"146.0\" text-anchor=\"middle\" fill=\"#ffffff\" font-size=\"10.2\">1</text><rect x=\"82.0\" y=\"132.0\" width=\"15.0\" height=\"20.0\" fill=\"#8a7f72\" stroke=\"#8a7f72\" stroke-width=\"1\"></rect><text x=\"89.5\" y=\"146.0\" text-anchor=\"middle\" fill=\"#ffffff\" font-size=\"10.2\">2</text><rect x=\"98.0\" y=\"132.0\" width=\"15.0\" height=\"20.0\" fill=\"#ffffff\" stroke=\"#8a7f72\" stroke-width=\"1\"></rect><text x=\"105.5\" y=\"146.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.2\">3</text><rect x=\"114.0\" y=\"132.0\" width=\"15.0\" height=\"20.0\" fill=\"#ffffff\" stroke=\"#8a7f72\" stroke-width=\"1\"></rect><text x=\"121.5\" y=\"146.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.2\">4</text><rect x=\"130.0\" y=\"132.0\" width=\"15.0\" height=\"20.0\" fill=\"#ffffff\" stroke=\"#8a7f72\" stroke-width=\"1\"></rect><text x=\"137.5\" y=\"146.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.2\">5</text><rect x=\"146.0\" y=\"132.0\" width=\"15.0\" height=\"20.0\" fill=\"#8a7f72\" stroke=\"#8a7f72\" stroke-width=\"1\"></rect><text x=\"153.5\" y=\"146.0\" text-anchor=\"middle\" fill=\"#ffffff\" font-size=\"10.2\">6</text><rect x=\"162.0\" y=\"132.0\" width=\"15.0\" height=\"20.0\" fill=\"#8a7f72\" stroke=\"#8a7f72\" stroke-width=\"1\"></rect><text x=\"169.5\" y=\"146.0\" text-anchor=\"middle\" fill=\"#ffffff\" font-size=\"10.2\">7</text><rect x=\"178.0\" y=\"132.0\" width=\"15.0\" height=\"20.0\" fill=\"#ffffff\" stroke=\"#8a7f72\" stroke-width=\"1\"></rect><text x=\"185.5\" y=\"146.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.2\">8</text><rect x=\"194.0\" y=\"132.0\" width=\"15.0\" height=\"20.0\" fill=\"#ffffff\" stroke=\"#8a7f72\" stroke-width=\"1\"></rect><text x=\"201.5\" y=\"146.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.2\">9</text><rect x=\"210.0\" y=\"132.0\" width=\"15.0\" height=\"20.0\" fill=\"#ffffff\" stroke=\"#8a7f72\" stroke-width=\"1\"></rect><text x=\"217.5\" y=\"146.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.2\">10</text><rect x=\"226.0\" y=\"132.0\" width=\"15.0\" height=\"20.0\" fill=\"#8a7f72\" stroke=\"#8a7f72\" stroke-width=\"1\"></rect><text x=\"233.5\" y=\"146.0\" text-anchor=\"middle\" fill=\"#ffffff\" font-size=\"10.2\">11</text><rect x=\"242.0\" y=\"132.0\" width=\"15.0\" height=\"20.0\" fill=\"#8a7f72\" stroke=\"#8a7f72\" stroke-width=\"1\"></rect><text x=\"249.5\" y=\"146.0\" text-anchor=\"middle\" fill=\"#ffffff\" font-size=\"10.2\">12</text><rect x=\"258.0\" y=\"132.0\" width=\"15.0\" height=\"20.0\" fill=\"#8a7f72\" stroke=\"#8a7f72\" stroke-width=\"1\"></rect><text x=\"265.5\" y=\"146.0\" text-anchor=\"middle\" fill=\"#ffffff\" font-size=\"10.2\">13</text><rect x=\"274.0\" y=\"132.0\" width=\"15.0\" height=\"20.0\" fill=\"#ffffff\" stroke=\"#8a7f72\" stroke-width=\"1\"></rect><text x=\"281.5\" y=\"146.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.2\">14</text><rect x=\"290.0\" y=\"132.0\" width=\"15.0\" height=\"20.0\" fill=\"#ffffff\" stroke=\"#8a7f72\" stroke-width=\"1\"></rect><text x=\"297.5\" y=\"146.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.2\">15</text><rect x=\"306.0\" y=\"132.0\" width=\"15.0\" height=\"20.0\" fill=\"#8a7f72\" stroke=\"#8a7f72\" stroke-width=\"1\"></rect><text x=\"313.5\" y=\"146.0\" text-anchor=\"middle\" fill=\"#ffffff\" font-size=\"10.2\">16</text><rect x=\"322.0\" y=\"132.0\" width=\"15.0\" height=\"20.0\" fill=\"#ffffff\" stroke=\"#8a7f72\" stroke-width=\"1\"></rect><text x=\"329.5\" y=\"146.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.2\">17</text><rect x=\"338.0\" y=\"132.0\" width=\"15.0\" height=\"20.0\" fill=\"#8a7f72\" stroke=\"#8a7f72\" stroke-width=\"1\"></rect><text x=\"345.5\" y=\"146.0\" text-anchor=\"middle\" fill=\"#ffffff\" font-size=\"10.2\">18</text><rect x=\"354.0\" y=\"132.0\" width=\"15.0\" height=\"20.0\" fill=\"#ffffff\" stroke=\"#8a7f72\" stroke-width=\"1\"></rect><text x=\"361.5\" y=\"146.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.2\">19</text><rect x=\"370.0\" y=\"132.0\" width=\"15.0\" height=\"20.0\" fill=\"#8a7f72\" stroke=\"#8a7f72\" stroke-width=\"1\"></rect><text x=\"377.5\" y=\"146.0\" text-anchor=\"middle\" fill=\"#ffffff\" font-size=\"10.2\">20</text><rect x=\"386.0\" y=\"132.0\" width=\"15.0\" height=\"20.0\" fill=\"#ffffff\" stroke=\"#8a7f72\" stroke-width=\"1\"></rect><text x=\"393.5\" y=\"146.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.2\">21</text><rect x=\"402.0\" y=\"132.0\" width=\"15.0\" height=\"20.0\" fill=\"#8a7f72\" stroke=\"#8a7f72\" stroke-width=\"1\"></rect><text x=\"409.5\" y=\"146.0\" text-anchor=\"middle\" fill=\"#ffffff\" font-size=\"10.2\">22</text><rect x=\"418.0\" y=\"132.0\" width=\"15.0\" height=\"20.0\" fill=\"#8a7f72\" stroke=\"#8a7f72\" stroke-width=\"1\"></rect><text x=\"425.5\" y=\"146.0\" text-anchor=\"middle\" fill=\"#ffffff\" font-size=\"10.2\">X</text><text x=\"60.0\" y=\"174.0\" text-anchor=\"end\" fill=\"#2c2a26\" font-size=\"10.8\" font-weight=\"bold\">(C)</text><rect x=\"66.0\" y=\"160.0\" width=\"15.0\" height=\"20.0\" fill=\"#8a7f72\" stroke=\"#8a7f72\" stroke-width=\"1\"></rect><text x=\"73.5\" y=\"174.0\" text-anchor=\"middle\" fill=\"#ffffff\" font-size=\"10.2\">1</text><rect x=\"82.0\" y=\"160.0\" width=\"15.0\" height=\"20.0\" fill=\"#8a7f72\" stroke=\"#8a7f72\" stroke-width=\"1\"></rect><text x=\"89.5\" y=\"174.0\" text-anchor=\"middle\" fill=\"#ffffff\" font-size=\"10.2\">2</text><rect x=\"98.0\" y=\"160.0\" width=\"15.0\" height=\"20.0\" fill=\"#8a7f72\" stroke=\"#8a7f72\" stroke-width=\"1\"></rect><text x=\"105.5\" y=\"174.0\" text-anchor=\"middle\" fill=\"#ffffff\" font-size=\"10.2\">3</text><rect x=\"114.0\" y=\"160.0\" width=\"15.0\" height=\"20.0\" fill=\"#ffffff\" stroke=\"#8a7f72\" stroke-width=\"1\"></rect><text x=\"121.5\" y=\"174.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.2\">4</text><rect x=\"130.0\" y=\"160.0\" width=\"15.0\" height=\"20.0\" fill=\"#8a7f72\" stroke=\"#8a7f72\" stroke-width=\"1\"></rect><text x=\"137.5\" y=\"174.0\" text-anchor=\"middle\" fill=\"#ffffff\" font-size=\"10.2\">5</text><rect x=\"146.0\" y=\"160.0\" width=\"15.0\" height=\"20.0\" fill=\"#ffffff\" stroke=\"#8a7f72\" stroke-width=\"1\"></rect><text x=\"153.5\" y=\"174.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.2\">6</text><rect x=\"162.0\" y=\"160.0\" width=\"15.0\" height=\"20.0\" fill=\"#8a7f72\" stroke=\"#8a7f72\" stroke-width=\"1\"></rect><text x=\"169.5\" y=\"174.0\" text-anchor=\"middle\" fill=\"#ffffff\" font-size=\"10.2\">7</text><rect x=\"178.0\" y=\"160.0\" width=\"15.0\" height=\"20.0\" fill=\"#8a7f72\" stroke=\"#8a7f72\" stroke-width=\"1\"></rect><text x=\"185.5\" y=\"174.0\" text-anchor=\"middle\" fill=\"#ffffff\" font-size=\"10.2\">8</text><rect x=\"194.0\" y=\"160.0\" width=\"15.0\" height=\"20.0\" fill=\"#ffffff\" stroke=\"#8a7f72\" stroke-width=\"1\"></rect><text x=\"201.5\" y=\"174.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.2\">9</text><rect x=\"210.0\" y=\"160.0\" width=\"15.0\" height=\"20.0\" fill=\"#8a7f72\" stroke=\"#8a7f72\" stroke-width=\"1\"></rect><text x=\"217.5\" y=\"174.0\" text-anchor=\"middle\" fill=\"#ffffff\" font-size=\"10.2\">10</text><rect x=\"226.0\" y=\"160.0\" width=\"15.0\" height=\"20.0\" fill=\"#ffffff\" stroke=\"#8a7f72\" stroke-width=\"1\"></rect><text x=\"233.5\" y=\"174.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.2\">11</text><rect x=\"242.0\" y=\"160.0\" width=\"15.0\" height=\"20.0\" fill=\"#8a7f72\" stroke=\"#8a7f72\" stroke-width=\"1\"></rect><text x=\"249.5\" y=\"174.0\" text-anchor=\"middle\" fill=\"#ffffff\" font-size=\"10.2\">12</text><rect x=\"258.0\" y=\"160.0\" width=\"15.0\" height=\"20.0\" fill=\"#ffffff\" stroke=\"#8a7f72\" stroke-width=\"1\"></rect><text x=\"265.5\" y=\"174.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.2\">13</text><rect x=\"274.0\" y=\"160.0\" width=\"15.0\" height=\"20.0\" fill=\"#ffffff\" stroke=\"#8a7f72\" stroke-width=\"1\"></rect><text x=\"281.5\" y=\"174.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.2\">14</text><rect x=\"290.0\" y=\"160.0\" width=\"15.0\" height=\"20.0\" fill=\"#8a7f72\" stroke=\"#8a7f72\" stroke-width=\"1\"></rect><text x=\"297.5\" y=\"174.0\" text-anchor=\"middle\" fill=\"#ffffff\" font-size=\"10.2\">15</text><rect x=\"306.0\" y=\"160.0\" width=\"15.0\" height=\"20.0\" fill=\"#ffffff\" stroke=\"#8a7f72\" stroke-width=\"1\"></rect><text x=\"313.5\" y=\"174.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.2\">16</text><rect x=\"322.0\" y=\"160.0\" width=\"15.0\" height=\"20.0\" fill=\"#8a7f72\" stroke=\"#8a7f72\" stroke-width=\"1\"></rect><text x=\"329.5\" y=\"174.0\" text-anchor=\"middle\" fill=\"#ffffff\" font-size=\"10.2\">17</text><rect x=\"338.0\" y=\"160.0\" width=\"15.0\" height=\"20.0\" fill=\"#ffffff\" stroke=\"#8a7f72\" stroke-width=\"1\"></rect><text x=\"345.5\" y=\"174.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.2\">18</text><rect x=\"354.0\" y=\"160.0\" width=\"15.0\" height=\"20.0\" fill=\"#8a7f72\" stroke=\"#8a7f72\" stroke-width=\"1\"></rect><text x=\"361.5\" y=\"174.0\" text-anchor=\"middle\" fill=\"#ffffff\" font-size=\"10.2\">19</text><rect x=\"370.0\" y=\"160.0\" width=\"15.0\" height=\"20.0\" fill=\"#8a7f72\" stroke=\"#8a7f72\" stroke-width=\"1\"></rect><text x=\"377.5\" y=\"174.0\" text-anchor=\"middle\" fill=\"#ffffff\" font-size=\"10.2\">20</text><rect x=\"386.0\" y=\"160.0\" width=\"15.0\" height=\"20.0\" fill=\"#8a7f72\" stroke=\"#8a7f72\" stroke-width=\"1\"></rect><text x=\"393.5\" y=\"174.0\" text-anchor=\"middle\" fill=\"#ffffff\" font-size=\"10.2\">21</text><rect x=\"402.0\" y=\"160.0\" width=\"15.0\" height=\"20.0\" fill=\"#ffffff\" stroke=\"#8a7f72\" stroke-width=\"1\"></rect><text x=\"409.5\" y=\"174.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.2\">22</text><rect x=\"418.0\" y=\"160.0\" width=\"15.0\" height=\"20.0\" fill=\"#ffffff\" stroke=\"#8a7f72\" stroke-width=\"1\"></rect><text x=\"425.5\" y=\"174.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.2\">Y</text><rect x=\"66.0\" y=\"196.0\" width=\"10.0\" height=\"10.0\" fill=\"#8a7f72\"></rect><text x=\"80.0\" y=\"205.0\" text-anchor=\"start\" fill=\"#2c2a26\" font-size=\"10.8\">de la mamă</text><rect x=\"186.0\" y=\"196.0\" width=\"10.0\" height=\"10.0\" fill=\"#ffffff\" stroke=\"#8a7f72\" stroke-width=\"1\"></rect><text x=\"200.0\" y=\"205.0\" text-anchor=\"start\" fill=\"#2c2a26\" font-size=\"10.8\">de la tată</text><text x=\"220.0\" y=\"232.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.8\" font-weight=\"bold\">2²³ = 8.388.608 gameți posibili; 2⁴⁶ zigoți (fără crossing-over)</text></svg>"
+          }
+        ],
+        "noduri": [
+          {
+            "t": "Dihibridarea",
+            "d": "Încrucișarea între organisme care diferă prin două perechi de caractere: AABB × aabb → F1 AaBb. F1 formează 4 tipuri de gameți: doi parentali (AB, ab) și doi recombinați (Ab, aB), fiecare cu un caracter de la un genitor și celălalt de la celălalt."
+          },
+          {
+            "t": "Raportul 9:3:3:1",
+            "d": "Din 4 × 4 gameți rezultă 16 combinații, 9 genotipuri și 4 fenotipuri: 9/16 cu ambele caractere dominante, 3/16 și 3/16 combinațiile noi, 1/16 cu ambele recesive. Exemplu: gustător/negustător × brunet/blond. Fiecare caracter luat separat dă tot 3 : 1 (12 : 4)."
+          },
+          {
+            "t": "Legea a II-a: asortarea independentă",
+            "d": "Genele din perechi diferite de alele se asortează (combină) independent la formarea gameților, cu condiția să fie pe cromozomi diferiți. La bază: asortarea independentă a cromozomilor materni și paterni din perechi diferite în meioză (recombinare cromozomială), primul nivel de diversitate genetică."
+          },
+          {
+            "t": "Diversitatea genetică",
+            "d": "2²³ = 8.388.608 variante de gameți; prin fecundație, 2⁴⁶ indivizi posibili (peste 70.000 de miliarde), fără a socoti crossing-over-ul (schimbul de segmente între omologi), care face numărul combinațiilor practic nelimitat. Reproducerea sexuată a fost un progres imens: variabilitatea genetică e „sine qua non”-ul evoluției."
+          }
+        ]
+      },
+      {
+        "titlu": "Genetica comportamentală mendeliană",
+        "noduri": [
+          {
+            "t": "Ipoteza genei unice",
+            "d": "Comportamentul e un fenotip măsurabil, dar adesea o colecție heterogenă de comportamente; e puțin probabil ca cele complexe să fie monogenice. Ipoteza unei gene se testează prin încrucișări controlate și analiza segregării (F1, F2, back-cross), de obicei la șoarece (ex.: gustul sucrozei octoacetat, al chininei, al stricninei). O genă nu produce direct un comportament: controlează producția de proteine."
+          },
+          {
+            "t": "Șoarecii waltzing",
+            "d": "Șoareci care își scutură capul și se rotesc rapid. Încrucișați între ei: urmași identici (linie homozigotă, consangvinizată). Cu șoareci normali: niciunul dintre 254 de urmași nu valsează → alela waltzing e recesivă. F2: 3 normali : 1 waltzing; back-cross-ul confirmă modelul monogenic. Peste 300 de defecte neurologice la șoarece țin mai ales de mutații recesive."
+          }
+        ]
+      },
+      {
+        "titlu": "Paternitatea și grupele sanguine",
+        "tabel": {
+          "cap": [
+            "Părinți",
+            "Copii posibili",
+            "Copii imposibili"
+          ],
+          "randuri": [
+            [
+              "O × O",
+              "O",
+              "A, B, AB"
+            ],
+            [
+              "A × O",
+              "A, O",
+              "B, AB"
+            ],
+            [
+              "B × O",
+              "B, O",
+              "A, AB"
+            ],
+            [
+              "A × A",
+              "A, O",
+              "B, AB"
+            ],
+            [
+              "B × B",
+              "B, O",
+              "A, AB"
+            ],
+            [
+              "A × B",
+              "A, B, AB, O",
+              "—"
+            ],
+            [
+              "AB × O",
+              "A, B",
+              "AB, O"
+            ],
+            [
+              "A × AB",
+              "A, B, AB",
+              "O"
+            ],
+            [
+              "B × AB",
+              "A, B, AB",
+              "O"
+            ],
+            [
+              "AB × AB",
+              "A, B, AB",
+              "O"
+            ]
+          ]
+        },
+        "noduri": [
+          {
+            "t": "Excluderea paternității",
+            "d": "Modul în care se moștenesc grupele sanguine permite stabilirea înrudirii. Testarea grupelor (ABO, MN, Rh) e doar un test de excludere: un bărbat poate fi exclus, dar nu confirmat. Confirmarea se face prin testul ADN (amprenta genetică)."
+          },
+          {
+            "t": "Părinți AB și O",
+            "d": "Părinții AB (LᴬLᴮ) și O (ll) au copii numai A (Lᴬl) sau B (Lᴮl), cu o grupă diferită de a ambilor părinți: contra prejudecății că părinții transmit direct caracterele."
+          },
+          {
+            "t": "Mai multe sisteme de grup",
+            "d": "Combinarea sistemelor (ABO cu MN) crește puterea de excludere: un bărbat compatibil după ABO poate fi exclus după MN (de pildă un tată N pentru un copil M)."
+          }
+        ]
+      }
+    ]
+  }
+}

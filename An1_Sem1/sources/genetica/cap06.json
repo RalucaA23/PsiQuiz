@@ -1,0 +1,980 @@
+{
+  "schema": "quiz-capitol-v3",
+  "capitol": 6,
+  "titlu": "Ereditatea multifactorială sau poligenică",
+  "sursa": "Genetica comportamentului uman, Unitatea 6, pp. 91–104",
+  "runde": [
+    {
+      "id": "1",
+      "eticheta": "Runda 1 · Bază",
+      "titlu": "Runda 1 — Concepte de bază",
+      "desc": "Teorie: poligenia, modelul cu prag, metodele (corelația familială, gemenii, adopția), heritabilitatea și riscul empiric, în întrebări directe.",
+      "intrebari": [
+        {
+          "q": "Prin ce se deosebește, în sens strict, ereditatea multifactorială de cea poligenică?",
+          "opts": [
+            "Cea poligenică include și gene cu efect major",
+            "Cea multifactorială privește doar boli, nu caractere normale",
+            "Cea multifactorială include și un efect al mediului",
+            "Cea poligenică privește un singur locus cu multe alele"
+          ],
+          "correct": 2,
+          "explain": "Poligenia cuprinde doar acțiunea aditivă a mai multor gene; multifactorialul adaugă o componentă de mediu (mezologică), deși în practică cele două nu se pot separa. Ambele privesc și caractere normale; un locus cu multe alele e polialelie, nu poligenie.",
+          "tag": "Poligenic vs multifactorial",
+          "tip": "concept",
+          "noutate": "nou"
+        },
+        {
+          "q": "De ce nu se pot studia caracterele cantitative prin pedigree-uri, ca cele mendeliene?",
+          "opts": [
+            "Genele lor sunt pe gonozomi, deci pedigree-ul înșală",
+            "Le avem toți, în grade diferite, fără clase distincte",
+            "Apar doar la adulți, deci generațiile nu se compară",
+            "Sunt produse de mutații noi, apărute în fiecare generație"
+          ],
+          "correct": 1,
+          "explain": "Analiza mendeliană cere caractere dicotomice (le ai sau nu); înălțimea sau inteligența variază continuu, deci nu poți marca purtători și nepurtători. Genele lor nu sunt în special pe gonozomi, iar mutațiile noi nu explică variația continuă.",
+          "tag": "Caractere cantitative",
+          "tip": "concept",
+          "noutate": "nou"
+        },
+        {
+          "q": "Ce a adus Galton în studiul caracterelor cu variație continuă?",
+          "opts": [
+            "Analiza lor statistică, prin biometrie",
+            "Primele rapoarte de segregare 3 : 1 la om",
+            "Descoperirea cromozomilor de sex",
+            "Prima hartă a genelor pentru talie"
+          ],
+          "correct": 0,
+          "explain": "În laboratorul antropometric din Londra, Galton a măsurat atribute fizice și le-a analizat statistic (biometria), stabilind corelația familială dintre rude, într-o școală rivală celei mendeliene. Rapoartele 3 : 1 sunt ale lui Mendel, iar genele taliei nu sunt cunoscute nici azi.",
+          "tag": "Galton și biometria",
+          "tip": "autor",
+          "noutate": "nou"
+        },
+        {
+          "q": "Ce a arătat Fisher în disputa dintre mendelieni și biometricieni?",
+          "opts": [
+            "Că legile lui Mendel nu se aplică la om",
+            "Că multe gene mendeliene dau variație continuă",
+            "Că variația continuă vine din amestecul sângelui",
+            "Că trăsăturile continue nu au bază genetică"
+          ],
+          "correct": 1,
+          "explain": "Fisher demonstrează că o trăsătură controlată de mulți factori mendelieni independenți are tocmai ce descriau biometricienii: natură continuă, variație cantitativă, corelație familială. Disputa se închide deci printr-o sinteză, nu prin respingerea uneia dintre școli.",
+          "tag": "Sinteza lui Fisher",
+          "tip": "autor",
+          "noutate": "nou"
+        },
+        {
+          "q": "Ce caracterizează poligenele care controlează un caracter cantitativ?",
+          "opts": [
+            "Efecte mici, aditive, la loci care segregă independent",
+            "Efecte mari, dominante, la loci înlănțuiți pe un cromozom",
+            "Mai multe alele ale aceluiași locus, cu dominanță",
+            "Efecte opuse, care se anulează la heterozigoți"
+          ],
+          "correct": 0,
+          "explain": "Fiecare poligenă stă pe un locus de trăsătură cantitativă și are un efect limitat, dar cumulativ; genele segregă independent, de obicei pe cromozomi diferiți. Alelele multiple ale unui locus înseamnă polialelie, din Cap. 2 (Ereditatea mendeliană: legile lui Mendel).",
+          "tag": "Poligenia",
+          "tip": "concept",
+          "noutate": "nou"
+        },
+        {
+          "q": "Ce arată faptul că un genotip are o normă de reacție largă?",
+          "opts": [
+            "Că are multe alele diferite pe același locus",
+            "Că se exprimă identic, oricare ar fi mediul",
+            "Că are penetranță completă în toate familiile",
+            "Că dă fenotipuri diferite în medii diferite"
+          ],
+          "correct": 3,
+          "explain": "Norma de reacție e șirul fenotipurilor pe care le dă același genotip într-o gamă de medii; una largă înseamnă un fenotip sensibil la mediu. Exprimarea identică ar fi o normă îngustă, iar penetranța, din Cap. 3 (Modele de transmitere a caracterelor monogenice (mendeliene) în familiile umane), privește o genă.",
+          "tag": "Norma de reacție",
+          "tip": "concept",
+          "noutate": "nou"
+        },
+        {
+          "q": "Ce raport fenotipic dă în F2 din mulatri modelul cu două perechi de gene aditive?",
+          "opts": [
+            "1 : 2 : 1",
+            "9 : 3 : 3 : 1",
+            "3 : 1",
+            "1 : 4 : 6 : 4 : 1"
+          ],
+          "correct": 3,
+          "explain": "Cu două perechi aditive contează numărul de alele dominante (0–4): cinci clase, de la alb la negru, în raport 1 : 4 : 6 : 4 : 1. Raportul 1 : 2 : 1 ar fi pentru o pereche cu dominanță incompletă, iar 9 : 3 : 3 : 1 pentru două perechi cu dominanță completă.",
+          "tag": "Raportul 1:4:6:4:1",
+          "tip": "calcul",
+          "noutate": "nou"
+        },
+        {
+          "q": "Ce se întâmplă cu distribuția fenotipurilor când crește numărul locilor implicați?",
+          "opts": [
+            "Se apropie de o curbă în formă de clopot",
+            "Se apropie de raportul 3 : 1 al lui Mendel",
+            "Se împarte în două clase net separate",
+            "Rămâne la trei clase, ca la un locus"
+          ],
+          "correct": 0,
+          "explain": "Fiecare locus în plus adaugă clase fenotipice, iar frecvențele lor se apropie de curba lui Gauss; o mică variație de mediu o netezește complet. Două clase separate descriu un caracter dicotomic, iar trei clase, un singur locus.",
+          "tag": "Mai mulți loci, mai multe clase",
+          "tip": "principiu",
+          "noutate": "nou"
+        },
+        {
+          "q": "Ce două concepte au permis extinderea teoriei poligenice la caracterele discontinue?",
+          "opts": [
+            "Penetranța incompletă și expresivitatea",
+            "Dominanța și recesivitatea",
+            "Heritabilitatea și norma de reacție",
+            "Susceptibilitatea genetică și pragul"
+          ],
+          "correct": 3,
+          "explain": "Predispoziția dată de multe gene de susceptibilitate, cu efect slab și aditiv, are distribuție continuă, iar boala apare doar dincolo de un prag. Penetranța, expresivitatea și dominanța descriu gene unice, din Cap. 3 (Modele de transmitere a caracterelor monogenice (mendeliene) în familiile umane).",
+          "tag": "Gene de susceptibilitate și prag",
+          "tip": "model",
+          "noutate": "nou"
+        },
+        {
+          "q": "De ce nu dovedește singură agregarea familială a unei trăsături un determinism genetic?",
+          "opts": [
+            "Rudele au prea puține gene în comun",
+            "Și factorii sociali se transmit în familie",
+            "Trăsăturile genetice nu apar în familii",
+            "Agregarea apare numai la bolile monogenice rare"
+          ],
+          "correct": 1,
+          "explain": "Familia împarte și mediul, nu doar genele: limbajul copilului seamănă cu al părinților fără să fie genetic. Condiția ar fi ca trăsătura să nu apară la neînrudiți în același mediu. Agregarea apare și la bolile multifactoriale.",
+          "tag": "Agregarea nu dovedește",
+          "tip": "principiu",
+          "noutate": "nou"
+        },
+        {
+          "q": "Ce indică faptul că frecvența unei boli multifactoriale diferă mult între populații?",
+          "opts": [
+            "Transmiterea ei după legile lui Mendel",
+            "Absența unei componente genetice",
+            "Intervenția unor factori favorizanți de mediu",
+            "Originea ei cromozomială, prin non-disjuncție"
+          ],
+          "correct": 2,
+          "explain": "Diferențele dintre populații arată factori de mediu care se adaugă unei susceptibilități genetice; nu exclud componenta genetică. Transmiterea mendeliană sau originea cromozomială nu explică variația legată de populație.",
+          "tag": "Variația între populații",
+          "tip": "principiu",
+          "noutate": "nou"
+        },
+        {
+          "q": "Ce rată de concordanță au gemenii monozigoți pentru o tulburare multifactorială?",
+          "opts": [
+            "100%, fiindcă au aceleași gene",
+            "Sub 100%, dar peste cea a dizigoților",
+            "Aceeași cu a dizigoților și a fraților",
+            "Sub a dizigoților, prin rolurile diferite"
+          ],
+          "correct": 1,
+          "explain": "La tulburările multifactoriale genele identice cresc concordanța MZ peste cea DZ, dar mediul o ține sub 100%. Concordanța de 100% e a tulburărilor monogenice și cromozomiale, iar egalitatea MZ = DZ arată o tulburare de mediu.",
+          "tag": "Tiparele de concordanță",
+          "tip": "principiu",
+          "noutate": "nou"
+        },
+        {
+          "q": "Ce avantaj au studiile pe gemeni monozigoți crescuți separat?",
+          "opts": [
+            "Despart efectul genelor de cel al mediului comun",
+            "Permit identificarea genelor implicate",
+            "Elimină diferențele genetice dintre gemeni",
+            "Măresc mult numărul de perechi disponibile pentru studiu"
+          ],
+          "correct": 0,
+          "explain": "MZ crescuți împreună au și gene, și mediu comune; separați curând după naștere, asemănarea lor rămasă ține de gene (o experiență a naturii și una a culturii). Gemenii nu identifică genele, iar MZ sunt oricum identici genetic.",
+          "tag": "Gemenii crescuți separat",
+          "tip": "metoda",
+          "noutate": "nou"
+        },
+        {
+          "q": "Ce măsoară heritabilitatea unui caracter?",
+          "opts": [
+            "Ce parte din caracterul unui om vine din gene",
+            "Cât de des apare caracterul la rudele de gradul I",
+            "Ce parte din variația lui are cauze genetice",
+            "Cât de des au ambii gemeni caracterul"
+          ],
+          "correct": 2,
+          "explain": "Heritabilitatea e proporția din variația caracterului într-o populație care ține de cauze genetice (h = 1: genetic; h = 0: mediu); nu se aplică unui individ. Frecvența la rude e corelația familială, iar apariția la ambii gemeni, concordanța.",
+          "tag": "Heritabilitatea (h)",
+          "tip": "concept",
+          "noutate": "nou"
+        },
+        {
+          "q": "Pe ce se bazează riscul de recurență dat în sfatul genetic pentru o boală multifactorială?",
+          "opts": [
+            "Pe legile lui Mendel aplicate genotipurilor ambilor părinți",
+            "Pe analiza pedigree-ului pe mai multe generații",
+            "Pe statistici populaționale din familii cu un afectat",
+            "Pe identificarea genelor de susceptibilitate"
+          ],
+          "correct": 2,
+          "explain": "Fiindcă nu se cunosc numărul genelor, alelele părinților și rolul mediului, riscul e empiric, din date populaționale ample. Calculul mendelian cere genotipuri cunoscute, iar cazurile sunt de obicei sporadice, deci pedigree-ul nu ajută.",
+          "tag": "Riscul empiric de recurență",
+          "tip": "metoda",
+          "noutate": "nou"
+        }
+      ],
+      "ascunse": [
+        {
+          "q": "Ce frecvență globală au bolile multifactoriale, față de cele monogenice?",
+          "opts": [
+            "Circa 15%, față de 1–2%",
+            "Circa 1–2%, față de 15%",
+            "Circa 0,5%, față de 5%",
+            "Circa 50%, față de 10%"
+          ],
+          "correct": 0,
+          "explain": "Bolile monogenice sunt rare (1–2% global), cele multifactoriale frecvente (circa 15%), de aceea sunt numite „comune”. Varianta inversată confundă cele două categorii.",
+          "tag": "Frecvența: 1–2% vs 15%",
+          "tip": "concept",
+          "noutate": "nou"
+        },
+        {
+          "q": "Ce afirmă modelul oligogenic propus pentru determinismul taliei?",
+          "opts": [
+            "Două gene majore, plus gene și mediu cu efecte mici",
+            "O singură genă majoră, cu dominanță incompletă",
+            "Patru perechi de gene egale, fără rol al mediului",
+            "Multe gene mici și egale, fără vreo genă cu efect major"
+          ],
+          "correct": 0,
+          "explain": "Modelul oligogenic propune două gene cu efect major, la care se adaugă componenta multifactorială: alte gene și factori de mediu cu efecte mici. Patru perechi de gene e modelul ulterior al culorii pielii; „multe gene mici” e modelul poligenic clasic.",
+          "tag": "Modelul oligogenic al taliei",
+          "tip": "model",
+          "noutate": "nou"
+        },
+        {
+          "q": "De ce nu pot studiile pe gemeni identifica genele unui caracter multifactorial?",
+          "opts": [
+            "Gemenii au prea puține gene în comun",
+            "Gemenii nu au caractere multifactoriale",
+            "Gemenii MZ au gene diferite în fiecare țesut",
+            "Arată ponderea genelor, nu care gene sunt"
+          ],
+          "correct": 3,
+          "explain": "Comparația MZ–DZ estimează cât contează genele, dar nu le localizează; locul gemenilor îl iau tehnologiile moderne de studiu direct al genelor. MZ au toate genele în comun, DZ jumătate.",
+          "tag": "Studiul direct al genelor",
+          "tip": "metoda",
+          "noutate": "nou"
+        },
+        {
+          "q": "Ce a arătat metoda co-geamănului despre coeficientul de inteligență?",
+          "opts": [
+            "E fixat la naștere, iar educația nu-l poate schimba",
+            "Educația îl crește; moștenim aptitudinea, nu IQ-ul",
+            "Depinde de mediu, nu și de gene",
+            "Crește doar la geamănul cu gene mai favorabile"
+          ],
+          "correct": 1,
+          "explain": "Un geamăn MZ primește intervenția, celălalt e martor: diferența arată efectul educației, deci nu moștenim un IQ anume, ci aptitudinea de a-l dezvolta. Gemenii MZ au aceleași gene, deci nu unul are gene mai favorabile.",
+          "tag": "Metoda co-geamănului",
+          "tip": "metoda",
+          "noutate": "nou"
+        },
+        {
+          "q": "De ce au gemenii monozigoți aceeași frecvență în toate populațiile, spre deosebire de dizigoți?",
+          "opts": [
+            "Provin dintr-o ovulație dublă, ereditară",
+            "Sunt mai des eliminați prin avort spontan",
+            "Apariția lor nu pare condiționată genetic",
+            "Depind de vârsta mamei, ca trisomia 21"
+          ],
+          "correct": 2,
+          "explain": "MZ apar prin scindarea unui zigot în primele 14 zile, cu frecvență constantă (0,3–0,4%), deci nu par condiționați genetic. Ovulația dublă e mecanismul dizigoților, care are concentrare familială și variază între populații.",
+          "tag": "Gemenii MZ și DZ",
+          "tip": "fenomen",
+          "noutate": "nou"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "eticheta": "Runda 2 · Aplicații",
+      "titlu": "Runda 2 — Scenarii și raționament",
+      "desc": "Situații cu mai mulți pași: calculezi clase fenotipice, interpretezi concordanțe și heritabilități, estimezi riscuri empirice.",
+      "intrebari": [
+        {
+          "q": "Doi mulatri, ambii heterozigoți pentru cele două perechi de gene ale modelului lui Davenport (P₁p₁P₂p₂), au mulți copii. Ce culori ale pielii pot apărea la copiii lor?",
+          "opts": [
+            "Numai mulatri, ca părinții lor",
+            "Mulatri de nuanțe diferite, fără albi sau negri",
+            "Albi, mulatri și negri, în raport 1 : 2 : 1",
+            "De la alb la negru, cele mai multe intermediare"
+          ],
+          "correct": 3,
+          "explain": "Fiecare părinte poate da gameți de la p₁p₂ la P₁P₂, deci copiii au între 0 și 4 alele dominante: albi, mulatri deschiși, mulatri, mulatri închiși, negri (1 : 4 : 6 : 4 : 1), cu majoritatea intermediari; reapar culorile bunicilor. Raportul 1 : 2 : 1 ar fi al unei singure perechi.",
+          "tag": "Modelul lui Davenport",
+          "tip": "calcul",
+          "noutate": "nou",
+          "exemplu_nou": false
+        },
+        {
+          "q": "Într-o populație cu multe căsătorii mixte, copiii a doi mulatri sunt mulatri în aproximativ 80% din cazuri. Ce concluzie permite această proporție?",
+          "opts": [
+            "Pigmentația ține de o pereche, cu dominanță",
+            "Pigmentația ține de mai multe perechi de gene",
+            "Pigmentația e determinată numai de mediu",
+            "Mulatrii sunt homozigoți pentru o alelă intermediară"
+          ],
+          "correct": 1,
+          "explain": "Cu o singură pereche, F2 ar avea 50% mulatri (1 : 2 : 1); 80% intermediari cer mai multe perechi aditive, cum a conchis Davenport. Homozigoții pentru o alelă intermediară ar avea numai copii mulatri, iar reapariția albilor și negrilor arată segregare genetică.",
+          "tag": "Ipoteza monogenică respinsă",
+          "tip": "ipoteza",
+          "noutate": "nou",
+          "exemplu_nou": false
+        },
+        {
+          "q": "În modelul lui Davenport, ce proporție din copiii a doi părinți P₁p₁P₂p₂ ar avea pielea la fel de deschisă ca a albilor?",
+          "opts": [
+            "1/16, fiindcă trebuie să fie p₁p₁p₂p₂",
+            "1/4, ca la un singur locus recesiv",
+            "1/8, jumătate din clasa cu o alelă",
+            "6/16, cât clasa intermediară"
+          ],
+          "correct": 0,
+          "explain": "Pielea albă cere zero alele dominante, adică p₁p₁ (1/4) și p₂p₂ (1/4): 1/4 × 1/4 = 1/16, prima clasă din 1 : 4 : 6 : 4 : 1. 1/4 ar fi valabil pentru un singur locus, iar 6/16 e clasa cu două alele dominante.",
+          "tag": "Raportul 1:4:6:4:1",
+          "tip": "calcul",
+          "noutate": "nou",
+          "exemplu_nou": true
+        },
+        {
+          "q": "Despicătura labio-palatină apare la 0,1% din populație, dar la 4% din rudele de gradul I ale unui afectat. Cum explică modelul cu prag diferența?",
+          "opts": [
+            "Rudele au o alelă dominantă cu penetranță mică",
+            "Rudele împart un mediu care produce malformația",
+            "Rudele au predispoziția deplasată spre prag",
+            "Rudele au un prag de boală mai coborât"
+          ],
+          "correct": 2,
+          "explain": "Rudele de gradul I au multe gene de susceptibilitate în comun cu afectatul, deci curba predispoziției lor e deplasată spre dreapta și mai mulți depășesc același prag; cu fiecare grad de rudenie curba revine spre populație. O alelă dominantă ar da rapoarte mendeliene.",
+          "tag": "Gene de susceptibilitate și prag",
+          "tip": "model",
+          "noutate": "nou",
+          "exemplu_nou": false
+        },
+        {
+          "q": "Două familii au câte un copil cu despicătură labio-palatină: în prima forma e unilaterală, în a doua bilaterală. Unde e mai mare riscul pentru următorul copil?",
+          "opts": [
+            "Egal, fiindcă boala e aceeași în ambele familii",
+            "În a doua, fiindcă forma probandului e mai severă",
+            "În prima, fiindcă formele ușoare sunt mai ereditare",
+            "Egal, cât frecvența bolii în populație"
+          ],
+          "correct": 1,
+          "explain": "Riscul de recurență crește cu gravitatea formei probandului: de la 2% la formele unilaterale la peste 6% la cele bilaterale (o formă gravă sugerează o predispoziție mai mare în familie). Riscul la frați e mult peste cel din populație.",
+          "tag": "Gravitatea formei",
+          "tip": "principiu",
+          "noutate": "nou",
+          "exemplu_nou": false
+        },
+        {
+          "q": "Un bărbat are un frate cu schizofrenie, iar o femeie are un văr primar cu aceeași boală. Pentru care dintre ei e riscul mai mare și de ce?",
+          "opts": [
+            "Egal: la bolile multifactoriale rudenia nu contează",
+            "Pentru bărbat: riscul scade rapid cu gradul de rudenie",
+            "Pentru femeie: verii au mai multe gene comune ca frații",
+            "Egal: amândoi au riscul din populația generală"
+          ],
+          "correct": 1,
+          "explain": "Fratele e rudă de gradul I (1/2 din gene), vărul primar de gradul III (1/8); la schizofrenie riscul e de 10–15% la gradul I și scade spre valoarea populației la gradele îndepărtate. Riscul rămâne totuși peste cel populațional la ambii.",
+          "tag": "Gradul de rudenie",
+          "tip": "calcul",
+          "noutate": "nou",
+          "exemplu_nou": true
+        },
+        {
+          "q": "O afecțiune are concordanța de 30% la gemenii monozigoți și tot de 30% la dizigoți, cât la frații obișnuiți. Ce sugerează aceste rate?",
+          "opts": [
+            "Afecțiunea e monogenică, cu penetranță mare",
+            "Afecțiunea e multifactorială, cu ereditate mare",
+            "Afecțiunea e cromozomială, prin non-disjuncție",
+            "Afecțiunea e determinată mai ales de mediu"
+          ],
+          "correct": 3,
+          "explain": "Dacă genele identice nu cresc concordanța MZ peste cea DZ, componenta genetică e mică: tiparul mezologic. Monogenicul și cromozomialul ar da 100% la MZ, iar o ereditate mare ar ridica MZ mult peste DZ.",
+          "tag": "Tiparele de concordanță",
+          "tip": "principiu",
+          "noutate": "nou",
+          "exemplu_nou": true
+        },
+        {
+          "q": "Pentru tulburarea bipolară, concordanța e 70% la gemenii MZ și 15% la DZ; pentru cancer, 17% la MZ și 11% la DZ. Ce poți conchide?",
+          "opts": [
+            "Cancerul e mai ereditar, fiindcă diferența e mai mică",
+            "Componenta genetică e mai puternică la bipolar",
+            "Sunt monogenice, fiindcă MZ depășesc DZ la amândouă",
+            "Mediul contează mai mult la tulburarea bipolară"
+          ],
+          "correct": 1,
+          "explain": "Cu cât concordanța MZ o depășește mai mult pe cea DZ, cu atât componenta ereditară e mai mare: 70 vs 15 la bipolar, față de 17 vs 11 la cancer. Ratele MZ sub 100% arată afecțiuni multifactoriale, nu monogenice.",
+          "tag": "Concordanța",
+          "tip": "calcul",
+          "noutate": "nou",
+          "exemplu_nou": false
+        },
+        {
+          "q": "Copiii unor părinți cu schizofrenie, adoptați de familii sănătoase, fac boala în 8–10% din cazuri, față de 1% la adoptații cu părinți sănătoși. Ce argument aduce comparația?",
+          "opts": [
+            "Un factor genetic important, separat de mediul familial",
+            "Un efect al mediului din familia adoptivă",
+            "O transmitere mendeliană dominantă a bolii",
+            "Un efect al stresului adopției asupra copiilor"
+          ],
+          "correct": 0,
+          "explain": "Ambele grupuri sunt adoptate în familii sănătoase, deci mediul și stresul adopției sunt comparabile; diferența ține de părinții biologici, adică de gene. O transmitere dominantă ar da riscuri de ordinul a 50%, nu 8–10%.",
+          "tag": "Studiile de adopție",
+          "tip": "design",
+          "noutate": "nou",
+          "exemplu_nou": false
+        },
+        {
+          "q": "Un articol afirmă: „Heritabilitatea IQ-ului e de 0,7, deci 70% din inteligența fiecăruia vine din gene.” Ce greșește autorul?",
+          "opts": [
+            "h privește variația dintr-o populație, nu individul",
+            "Valoarea pentru IQ e 0,078, nu 0,7",
+            "h = 0,7 arată că educația nu schimbă IQ-ul",
+            "Heritabilitatea se aplică doar caracterelor discontinue"
+          ],
+          "correct": 0,
+          "explain": "Heritabilitatea arată ce parte din diferențele dintre indivizii unei populații, într-un loc și timp dat, ține de genele lor; nu împarte inteligența unui om în procente. 0,078 e heritabilitatea greutății, iar metoda co-geamănului arată că educația crește IQ-ul.",
+          "tag": "Heritabilitatea (h)",
+          "tip": "eroare",
+          "noutate": "nou",
+          "exemplu_nou": true
+        },
+        {
+          "q": "Heritabilitatea înălțimii e de 0,80, iar a greutății de 0,078. Un nutriționist vrea să știe pe care o poate influența mai mult prin dietă, într-o populație dată. Ce îi spun datele?",
+          "opts": [
+            "Înălțimea, fiindcă e mai ușor de măsurat",
+            "Pe amândouă la fel, fiindcă sunt poligenice",
+            "Greutatea, a cărei variație ține mai ales de mediu",
+            "Înălțimea, fiindcă are heritabilitatea mai mare"
+          ],
+          "correct": 2,
+          "explain": "O heritabilitate mică (0,078) înseamnă că diferențele de greutate țin mai ales de mediu, deci schimbarea mediului le influențează cel mai mult; la înălțime, 80% din variație e genetică. Faptul că ambele sunt poligenice nu le face egal de sensibile la mediu.",
+          "tag": "Valori ale heritabilității",
+          "tip": "calcul",
+          "noutate": "nou",
+          "exemplu_nou": true
+        },
+        {
+          "q": "În anii ’40, un guvern a introdus la 11 ani un examen care împărțea elevii în trei tipuri de școli, pe baza unor studii pe gemeni ce dădeau IQ-ului o determinare genetică de 77%. Ce s-a aflat apoi despre studii?",
+          "opts": [
+            "Erau corecte, dar pe un eșantion prea mic",
+            "Arătau de fapt o determinare de mediu de 77%",
+            "Fuseseră făcute doar pe gemeni dizigoți",
+            "Datele fuseseră în mare parte fabricate"
+          ],
+          "correct": 3,
+          "explain": "Studiile lui Cyril Burt, care lega sărăcia de inteligența scăzută, s-au dovedit după moartea lui o fraudă: cele mai multe date fuseseră inventate. Examenul „unsprezece plus” rămâne un exemplu de politică întemeiată pe date false.",
+          "tag": "Frauda lui Burt",
+          "tip": "istoric",
+          "noutate": "nou",
+          "exemplu_nou": false
+        },
+        {
+          "q": "Doi gemeni monozigoți de 4 ani comunică între ei într-un limbaj pe care părinții nu-l înțeleg, iar unul preia mereu conducerea în joc. De ce trebuie să țină cont un psiholog care îi include într-un studiu?",
+          "opts": [
+            "Comportamentele diferite arată că nu sunt monozigoți",
+            "Limbajul propriu semnalează o anomalie cromozomială",
+            "Gemenii formează o lume aparte, care le modelează psihicul",
+            "Rolurile diferite dovedesc o heritabilitate nulă"
+          ],
+          "correct": 2,
+          "explain": "Gemenii se dezvoltă într-un context de gemeni: MZ își refuză sau își accentuează identitatea, își împart roluri (unul dominant) și au adesea un limbaj propriu, ceea ce complică interpretarea trăsăturilor psihice. Rolurile diferite nu contrazic identitatea genetică.",
+          "tag": "Lumea gemenilor",
+          "tip": "principiu",
+          "noutate": "nou",
+          "exemplu_nou": true
+        },
+        {
+          "q": "Pentru o gardă de elită formată numai din bărbați înalți, se aleg cupluri foarte înalte, în speranța unor fii la fel de înalți. De ce mulți fii ar ieși mai scunzi decât părinții lor?",
+          "opts": [
+            "Alelele pentru talie mare sunt recesive și se pierd",
+            "Talia fiilor e dată mai ales de genele mamei",
+            "Combinația de gene și mediu a părinților rar se repetă",
+            "Cuplurile alese sunt heterozigote pentru o genă"
+          ],
+          "correct": 2,
+          "explain": "Talia e poligenică și multifactorială: combinația favorabilă de gene și mediu a fiecărui părinte rar se regăsește la copil, deci fiii regresează spre medie (rămân totuși peste ea). Nu e vorba de o singură genă recesivă sau de una moștenită de la mamă.",
+          "tag": "Regresia spre medie",
+          "tip": "fenomen",
+          "noutate": "nou",
+          "exemplu_nou": false
+        },
+        {
+          "q": "O cercetătoare observă că un accent regional rar apare aproape numai în anumite familii, din generație în generație. Ce trebuie să verifice înainte să presupună o bază genetică?",
+          "opts": [
+            "Dacă apare și la neînrudiți din același mediu",
+            "Dacă proporțiile în familie sunt 3 : 1 sau 1 : 1",
+            "Dacă e mai frecvent la rude decât în populație",
+            "Dacă trăsătura are distribuție continuă"
+          ],
+          "correct": 0,
+          "explain": "Concentrarea familială poate veni din mediul comun: dacă neînrudiții crescuți în același loc au același accent, trăsătura e transmisă social. Frecvența mai mare la rude e chiar agregarea care trebuie explicată, iar distribuția nu decide între gene și mediu.",
+          "tag": "Agregarea nu dovedește",
+          "tip": "design",
+          "noutate": "nou",
+          "exemplu_nou": true
+        }
+      ],
+      "ascunse": [
+        {
+          "q": "La copiii cu deficit de atenție–hiperactivitate dintr-o familie se găsesc rezistență la hormonii tiroidieni și o mutație dominantă în gena receptorului acestor hormoni. Ce ilustrează cercetarea?",
+          "opts": [
+            "Un model cu prag în care genele nu se pot identifica",
+            "Studiul direct al genelor, care completează gemelologia",
+            "Un caz de mozaic cromozomial cu o linie celulară anormală",
+            "Un efect de mediu confundat cu unul genetic"
+          ],
+          "correct": 1,
+          "explain": "Pornind de la concentrarea familială și de la hiperactivitatea din rezistența la hormonii tiroidieni, s-a studiat gena receptorului (cromozomul 3): peste 30 de mutații dominante. E un exemplu de studiu direct al genelor, unde gemenii nu ajung; mecanismul rămâne neclar.",
+          "tag": "Studiul direct al genelor",
+          "tip": "metoda",
+          "noutate": "nou",
+          "exemplu_nou": false
+        },
+        {
+          "q": "Familia A are un copil cu stenoză pilorică, iar familia B are doi copii și un unchi cu aceeași boală. Pentru care familie e mai mare riscul empiric de recurență?",
+          "opts": [
+            "Egal, fiindcă riscul empiric ține doar de populație",
+            "Pentru A, fiindcă B și-a epuizat deja riscul",
+            "Pentru B, unde sunt mai mulți membri afectați",
+            "Egal, fiindcă stenoza pilorică e monogenică"
+          ],
+          "correct": 2,
+          "explain": "Riscul empiric crește cu numărul membrilor afectați: mai mulți afectați indică o încărcătură mai mare de gene de susceptibilitate în familie. Riscul nu se „epuizează”, iar stenoza pilorică e multifactorială.",
+          "tag": "Mai mulți membri afectați",
+          "tip": "principiu",
+          "noutate": "nou",
+          "exemplu_nou": true
+        },
+        {
+          "q": "Un studiu găsește o variantă genetică mai frecventă la persoanele cu un anumit comportament impulsiv, iar un ziar titrează „S-a descoperit gena bolii”. Ce corectură e potrivită?",
+          "opts": [
+            "Predispune într-un mediu dat, nu e patologică",
+            "Gena e patologică, dar cu penetranță incompletă",
+            "Gena e recesivă, deci nu se exprimă la purtători",
+            "Gena dovedește că acel comportament e monogenic"
+          ],
+          "correct": 0,
+          "explain": "La caracterele multifactoriale genele nu determină direct boala, ci o favorizează într-un context de mediu; o genă de predispoziție nu e o genă patologică. Penetranța și recesivitatea privesc boli monogenice, iar o singură variantă nu face comportamentul monogenic.",
+          "tag": "Predispoziția nu e boala",
+          "tip": "principiu",
+          "noutate": "nou",
+          "exemplu_nou": true
+        },
+        {
+          "q": "Într-un program care urmărește fii înalți din cupluri înalte, hrana copiilor diferă mult de la un oraș la altul și de la o familie la alta. Ce efect are asta asupra rezultatelor?",
+          "opts": [
+            "Mărește variația taliei, peste cea dată de gene",
+            "Nu are efect, fiindcă heritabilitatea e de 0,80",
+            "Schimbă genele transmise copiilor din orașele sărace",
+            "Face din talie un caracter discontinuu, cu prag"
+          ],
+          "correct": 0,
+          "explain": "Același genotip dă talii diferite în medii diferite (norma de reacție), deci hrana inegală adaugă variație peste cea genetică. Heritabilitatea de 0,80 e măsurată într-o populație și nu exclude efectul mediului; hrana nu schimbă genele.",
+          "tag": "Norma de reacție",
+          "tip": "principiu",
+          "noutate": "nou",
+          "exemplu_nou": false
+        },
+        {
+          "q": "Doi gemeni monozigoți separați la naștere, crescuți în orașe diferite, au la 45 de ani IQ-uri la fel de apropiate ca ale gemenilor MZ crescuți împreună. Ce concluzie se potrivește?",
+          "opts": [
+            "Mediul familial comun e decisiv și la adult",
+            "Gemenii erau de fapt dizigoți, cu gene diferite",
+            "Separarea a șters influența genelor asupra IQ-ului",
+            "La adult, genele contează mai mult decât mediul"
+          ],
+          "correct": 3,
+          "explain": "E rezultatul studiului Minnesota (Bouchard): adulții MZ nu sunt mai asemănători dacă au crescut împreună, iar influența genelor crește cu vârsta. Dacă mediul comun ar fi decisiv, gemenii crescuți împreună ar fi mai asemănători.",
+          "tag": "Studiul Minnesota (Bouchard)",
+          "tip": "design",
+          "noutate": "nou",
+          "exemplu_nou": true
+        }
+      ]
+    }
+  ],
+  "harta": {
+    "centru": "Ereditatea multifactorială sau poligenică",
+    "ramuri": [
+      {
+        "titlu": "Caracterele multifactoriale",
+        "lat": true,
+        "tabel": {
+          "cap": [
+            "Caractere normale",
+            "Malformații congenitale comune",
+            "Boli comune ale adultului"
+          ],
+          "randuri": [
+            [
+              "Greutatea",
+              "Despicătura labio-palatină",
+              "Diabetul zaharat"
+            ],
+            [
+              "Talia",
+              "Spina bifida",
+              "Glaucomul"
+            ],
+            [
+              "Tensiunea arterială",
+              "Piciorul strâmb congenital",
+              "Hipertensiunea arterială"
+            ],
+            [
+              "Dermatoglifele",
+              "Luxația congenitală de șold",
+              "Epilepsia"
+            ],
+            [
+              "Inteligența",
+              "Stenoza hipertrofică de pilor",
+              "Schizofrenia"
+            ],
+            [
+              "Culoarea pielii",
+              "Malformațiile cardiace congenitale",
+              "Boala coronariană"
+            ]
+          ]
+        },
+        "noduri": [
+          {
+            "t": "Determinism mixt",
+            "d": "Mai multe gene, de obicei necunoscute, și factori de mediu greu de precizat. Fiecare genă e mendeliană, dar interacțiunile șterg rapoartele de segregare, calculul riscului și pedigree-urile tipice."
+          },
+          {
+            "t": "Poligenic vs multifactorial",
+            "d": "Poligenic: doar acțiunea aditivă a două sau mai multe gene; multifactorial: plus o componentă de mediu (mezologică). În practică, diferențierea e imposibilă."
+          },
+          {
+            "t": "Continue vs discontinue",
+            "d": "Caracterele normale cantitative au distribuție continuă; malformațiile și bolile comune au distribuție discontinuă (bimodală): unii le au, alții nu."
+          },
+          {
+            "t": "Frecvența: 1–2% vs 15%",
+            "d": "Bolile monogenice sunt rare (frecvență globală 1–2%), cele multifactoriale sunt frecvente (circa 15%)."
+          }
+        ]
+      },
+      {
+        "titlu": "Galton, Fisher și poligenia",
+        "noduri": [
+          {
+            "t": "Caractere cantitative",
+            "d": "Greutatea, înălțimea, inteligența, tensiunea, dermatoglifele: le avem toți, în grade diferite, deci nu se pot face pedigree-uri și nu se împart în clase distincte, ca în analiza mendeliană."
+          },
+          {
+            "t": "Galton și biometria",
+            "d": "Galton, vărul lui Darwin, măsoară atribute fizice în laboratorul antropometric din Londra și le analizează statistic (biometria), într-o școală rivală celei mendeliene; stabilește corelația familială dintre rude."
+          },
+          {
+            "t": "Galton, fondator",
+            "d": "Publică „Hereditary Genius” în același an cu lucrarea lui Mendel; e considerat fondatorul geneticii comportamentale, al gemelologiei, biometriei și eugeniei, și inventatorul amprentelor digitale."
+          },
+          {
+            "t": "Sinteza lui Fisher",
+            "d": "Statisticianul Fisher tranșează disputa: o trăsătură controlată de mulți factori mendelieni independenți are tocmai ce descriau biometricienii: natură continuă, variație cantitativă, corelație familială."
+          },
+          {
+            "t": "Poligenia",
+            "d": "Mai multe gene independente (care segregă independent), cu efecte aditive, realizează un caracter cantitativ; fiecare stă pe un locus de trăsătură cantitativă și are un efect limitat, dar cumulativ."
+          }
+        ]
+      },
+      {
+        "titlu": "Distribuția și regresia spre medie",
+        "figuri": [
+          {
+            "titlu": "Distribuția înălțimii: curba lui Gauss",
+            "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 330 210\" role=\"img\" aria-label=\"Distribuția înălțimii la bărbați are formă de clopot (curba lui Gauss), cu majoritatea în jurul mediei\" font-family=\"Georgia, serif\" font-size=\"13\"><path d=\"M30.0,169.8 L32.8,169.7 L35.6,169.6 L38.4,169.5 L41.2,169.4 L44.0,169.2 L46.8,169.0 L49.6,168.8 L52.4,168.5 L55.2,168.1 L58.0,167.7 L60.8,167.2 L63.6,166.6 L66.4,165.9 L69.2,165.0 L72.0,164.0 L74.8,162.9 L77.6,161.5 L80.4,160.0 L83.2,158.3 L86.0,156.3 L88.8,154.1 L91.6,151.6 L94.4,148.8 L97.2,145.8 L100.0,142.4 L102.8,138.7 L105.6,134.7 L108.4,130.4 L111.2,125.8 L114.0,121.0 L116.8,115.9 L119.6,110.5 L122.4,104.9 L125.2,99.2 L128.0,93.4 L130.8,87.5 L133.6,81.6 L136.4,75.8 L139.2,70.1 L142.0,64.6 L144.8,59.4 L147.6,54.5 L150.4,50.0 L153.2,45.9 L156.0,42.4 L158.8,39.4 L161.6,37.1 L164.4,35.4 L167.2,34.3 L170.0,34.0 L172.8,34.3 L175.6,35.4 L178.4,37.1 L181.2,39.4 L184.0,42.4 L186.8,45.9 L189.6,50.0 L192.4,54.5 L195.2,59.4 L198.0,64.6 L200.8,70.1 L203.6,75.8 L206.4,81.6 L209.2,87.5 L212.0,93.4 L214.8,99.2 L217.6,104.9 L220.4,110.5 L223.2,115.9 L226.0,121.0 L228.8,125.8 L231.6,130.4 L234.4,134.7 L237.2,138.7 L240.0,142.4 L242.8,145.8 L245.6,148.8 L248.4,151.6 L251.2,154.1 L254.0,156.3 L256.8,158.3 L259.6,160.0 L262.4,161.5 L265.2,162.9 L268.0,164.0 L270.8,165.0 L273.6,165.9 L276.4,166.6 L279.2,167.2 L282.0,167.7 L284.8,168.1 L287.6,168.5 L290.4,168.8 L293.2,169.0 L296.0,169.2 L298.8,169.4 L301.6,169.5 L304.4,169.6 L307.2,169.7 L310.0,169.8 L310.0,170.0 L30.0,170.0 Z\" fill=\"#2a78d6\" fill-opacity=\"0.12\"/><polyline points=\"30.0,169.8 32.8,169.7 35.6,169.6 38.4,169.5 41.2,169.4 44.0,169.2 46.8,169.0 49.6,168.8 52.4,168.5 55.2,168.1 58.0,167.7 60.8,167.2 63.6,166.6 66.4,165.9 69.2,165.0 72.0,164.0 74.8,162.9 77.6,161.5 80.4,160.0 83.2,158.3 86.0,156.3 88.8,154.1 91.6,151.6 94.4,148.8 97.2,145.8 100.0,142.4 102.8,138.7 105.6,134.7 108.4,130.4 111.2,125.8 114.0,121.0 116.8,115.9 119.6,110.5 122.4,104.9 125.2,99.2 128.0,93.4 130.8,87.5 133.6,81.6 136.4,75.8 139.2,70.1 142.0,64.6 144.8,59.4 147.6,54.5 150.4,50.0 153.2,45.9 156.0,42.4 158.8,39.4 161.6,37.1 164.4,35.4 167.2,34.3 170.0,34.0 172.8,34.3 175.6,35.4 178.4,37.1 181.2,39.4 184.0,42.4 186.8,45.9 189.6,50.0 192.4,54.5 195.2,59.4 198.0,64.6 200.8,70.1 203.6,75.8 206.4,81.6 209.2,87.5 212.0,93.4 214.8,99.2 217.6,104.9 220.4,110.5 223.2,115.9 226.0,121.0 228.8,125.8 231.6,130.4 234.4,134.7 237.2,138.7 240.0,142.4 242.8,145.8 245.6,148.8 248.4,151.6 251.2,154.1 254.0,156.3 256.8,158.3 259.6,160.0 262.4,161.5 265.2,162.9 268.0,164.0 270.8,165.0 273.6,165.9 276.4,166.6 279.2,167.2 282.0,167.7 284.8,168.1 287.6,168.5 290.4,168.8 293.2,169.0 296.0,169.2 298.8,169.4 301.6,169.5 304.4,169.6 307.2,169.7 310.0,169.8\" fill=\"none\" stroke=\"#2a78d6\" stroke-width=\"2\"/><line x1=\"91.6\" y1=\"170.0\" x2=\"91.6\" y2=\"151.6\" stroke=\"#6b6760\" stroke-width=\"1\" stroke-dasharray=\"3 3\"/><line x1=\"130.8\" y1=\"170.0\" x2=\"130.8\" y2=\"87.5\" stroke=\"#6b6760\" stroke-width=\"1\" stroke-dasharray=\"3 3\"/><line x1=\"209.2\" y1=\"170.0\" x2=\"209.2\" y2=\"87.5\" stroke=\"#6b6760\" stroke-width=\"1\" stroke-dasharray=\"3 3\"/><line x1=\"248.4\" y1=\"170.0\" x2=\"248.4\" y2=\"151.6\" stroke=\"#6b6760\" stroke-width=\"1\" stroke-dasharray=\"3 3\"/><line x1=\"170.0\" y1=\"170.0\" x2=\"170.0\" y2=\"34.0\" stroke=\"#2c2a26\" stroke-width=\"1.2\"/><text x=\"170.0\" y=\"26.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.8\">media</text><text x=\"220.4\" y=\"62.0\" text-anchor=\"start\" fill=\"#6b6760\" font-size=\"10.2\">majoritatea</text><text x=\"220.4\" y=\"75.0\" text-anchor=\"start\" fill=\"#6b6760\" font-size=\"10.2\">în jurul mediei</text><text x=\"32.0\" y=\"120.0\" text-anchor=\"start\" fill=\"#6b6760\" font-size=\"10.2\">puțini</text><text x=\"32.0\" y=\"132.0\" text-anchor=\"start\" fill=\"#6b6760\" font-size=\"10.2\">foarte scunzi</text><text x=\"308.0\" y=\"120.0\" text-anchor=\"end\" fill=\"#6b6760\" font-size=\"10.2\">puțini</text><text x=\"308.0\" y=\"132.0\" text-anchor=\"end\" fill=\"#6b6760\" font-size=\"10.2\">foarte înalți</text><line x1=\"30.0\" y1=\"170.0\" x2=\"310.0\" y2=\"170.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><line x1=\"30.0\" y1=\"170.0\" x2=\"30.0\" y2=\"174.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><text x=\"30.0\" y=\"185.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">150</text><line x1=\"86.0\" y1=\"170.0\" x2=\"86.0\" y2=\"174.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><text x=\"86.0\" y=\"185.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">160</text><line x1=\"142.0\" y1=\"170.0\" x2=\"142.0\" y2=\"174.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><text x=\"142.0\" y=\"185.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">170</text><line x1=\"198.0\" y1=\"170.0\" x2=\"198.0\" y2=\"174.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><text x=\"198.0\" y=\"185.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">180</text><line x1=\"254.0\" y1=\"170.0\" x2=\"254.0\" y2=\"174.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><text x=\"254.0\" y=\"185.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">190</text><line x1=\"310.0\" y1=\"170.0\" x2=\"310.0\" y2=\"174.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><text x=\"310.0\" y=\"185.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">200</text><text x=\"170.0\" y=\"202.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">înălțimea (cm)</text></svg>",
+            "nota": "După figura manualului; media de 175 cm și împrăștierea sunt ilustrative."
+          }
+        ],
+        "noduri": [
+          {
+            "t": "Curba lui Gauss",
+            "d": "Caracterele poligenice, cu multe variante, au distribuție în formă de clopot: majoritatea indivizilor se grupează în jurul mediei, puțini la extreme."
+          },
+          {
+            "t": "Regresia spre medie",
+            "d": "Părinții foarte înalți au copii peste medie, dar mai puțin înalți ca ei: combinația lor de gene și mediu rareori se repetă la copil. La fel la talia mică; efectul e mai clar când părinții sunt extremi."
+          },
+          {
+            "t": "Modelul oligogenic al taliei",
+            "d": "Propune două gene cu efect major, la care se adaugă componenta multifactorială: alte gene și factori de mediu cu efecte mici."
+          },
+          {
+            "t": "Norma de reacție",
+            "d": "Șirul fenotipurilor pe care le dă același genotip într-o gamă de medii. O mică variație de mediu netezește clasele genetice într-o adevărată curbă gaussiană."
+          }
+        ]
+      },
+      {
+        "titlu": "Culoarea pielii: un model de poligenie",
+        "figuri": [
+          {
+            "titlu": "Numărul de loci și clasele fenotipice",
+            "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 330 302\" role=\"img\" aria-label=\"Cu cât sunt mai mulți loci, cu atât sunt mai multe clase fenotipice, iar distribuția se apropie de un clopot: 1:2:1 pentru un locus, 1:4:6:4:1 pentru doi, 1:6:15:20:15:6:1 pentru trei\" font-family=\"Georgia, serif\" font-size=\"13\"><text x=\"4.0\" y=\"18.0\" text-anchor=\"start\" fill=\"#2c2a26\" font-size=\"10.8\" font-weight=\"bold\">1 locus: 1 : 2 : 1 (raportul mendelian)</text><rect x=\"40.0\" y=\"54.0\" width=\"52.0\" height=\"26.0\" fill=\"#2a78d6\"><title>1/4</title></rect><rect x=\"144.0\" y=\"28.0\" width=\"52.0\" height=\"52.0\" fill=\"#2a78d6\"><title>2/4</title></rect><rect x=\"248.0\" y=\"54.0\" width=\"52.0\" height=\"26.0\" fill=\"#2a78d6\"><title>1/4</title></rect><line x1=\"30.0\" y1=\"80.0\" x2=\"310.0\" y2=\"80.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><text x=\"4.0\" y=\"108.0\" text-anchor=\"start\" fill=\"#2c2a26\" font-size=\"10.8\" font-weight=\"bold\">2 loci (Davenport): 1 : 4 : 6 : 4 : 1</text><rect x=\"40.0\" y=\"163.5\" width=\"28.9\" height=\"6.5\" fill=\"#2a78d6\"><title>1/16</title></rect><rect x=\"97.8\" y=\"144.0\" width=\"28.9\" height=\"26.0\" fill=\"#2a78d6\"><title>4/16</title></rect><rect x=\"155.6\" y=\"131.0\" width=\"28.9\" height=\"39.0\" fill=\"#2a78d6\"><title>6/16</title></rect><rect x=\"213.3\" y=\"144.0\" width=\"28.9\" height=\"26.0\" fill=\"#2a78d6\"><title>4/16</title></rect><rect x=\"271.1\" y=\"163.5\" width=\"28.9\" height=\"6.5\" fill=\"#2a78d6\"><title>1/16</title></rect><line x1=\"30.0\" y1=\"170.0\" x2=\"310.0\" y2=\"170.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><text x=\"4.0\" y=\"198.0\" text-anchor=\"start\" fill=\"#2c2a26\" font-size=\"10.8\" font-weight=\"bold\">3 loci: 1 : 6 : 15 : 20 : 15 : 6 : 1</text><rect x=\"40.0\" y=\"258.4\" width=\"20.0\" height=\"1.6\" fill=\"#2a78d6\"><title>1/64</title></rect><rect x=\"80.0\" y=\"250.2\" width=\"20.0\" height=\"9.8\" fill=\"#2a78d6\"><title>6/64</title></rect><rect x=\"120.0\" y=\"235.6\" width=\"20.0\" height=\"24.4\" fill=\"#2a78d6\"><title>15/64</title></rect><rect x=\"160.0\" y=\"227.5\" width=\"20.0\" height=\"32.5\" fill=\"#2a78d6\"><title>20/64</title></rect><rect x=\"200.0\" y=\"235.6\" width=\"20.0\" height=\"24.4\" fill=\"#2a78d6\"><title>15/64</title></rect><rect x=\"240.0\" y=\"250.2\" width=\"20.0\" height=\"9.8\" fill=\"#2a78d6\"><title>6/64</title></rect><rect x=\"280.0\" y=\"258.4\" width=\"20.0\" height=\"1.6\" fill=\"#2a78d6\"><title>1/64</title></rect><line x1=\"30.0\" y1=\"260.0\" x2=\"310.0\" y2=\"260.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><text x=\"40.0\" y=\"278.0\" text-anchor=\"start\" fill=\"#6b6760\" font-size=\"10.2\">mai puțin pigment</text><text x=\"310.0\" y=\"278.0\" text-anchor=\"end\" fill=\"#6b6760\" font-size=\"10.2\">mai mult pigment</text><text x=\"170.0\" y=\"294.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">clasele fenotipice (alele dominante: 0 … 2n)</text></svg>",
+            "nota": "Reunește schema monohibridării (1:2:1) și figura cu 1, 2 și 3 loci; rapoartele rezultă din modelul aditiv."
+          }
+        ],
+        "noduri": [
+          {
+            "t": "Ipoteza monogenică respinsă",
+            "d": "Cu o singură pereche P/p, F2 din mulatri ar da 1 negru : 2 mulatri : 1 alb (50% mulatri). Davenport (Jamaica, Bermude) găsește circa 80% mulatri, deci sunt implicate mai multe perechi de gene."
+          },
+          {
+            "t": "Modelul lui Davenport",
+            "d": "Două perechi de gene aditive, P₁p₁ și P₂p₂: negrii P₁P₁P₂P₂, albii p₁p₁p₂p₂. Culoarea depinde de numărul alelelor dominante (0–4), nu de care anume."
+          },
+          {
+            "t": "Raportul 1:4:6:4:1",
+            "d": "Din mulatri P₁p₁P₂p₂ rezultă în F2 cinci clase: albi, mulatri deschiși, mulatri, mulatri închiși, negri, în raport 1 : 4 : 6 : 4 : 1; reapar culorile bunicilor."
+          },
+          {
+            "t": "Mai mulți loci, mai multe clase",
+            "d": "Cu fiecare locus în plus cresc clasele fenotipice, iar distribuția se apropie de clopot. Fiecare genă rămâne mendeliană; doar rezultatul interacțiunii nu mai arată segregarea clasică."
+          },
+          {
+            "t": "Limitele modelului",
+            "d": "Davenport simplifică: ignoră variabilitatea din fiecare rasă și mediul. Stern (1960) analizează 2–20 de perechi; măsurătorile ulterioare duc la un model cu patru perechi."
+          }
+        ]
+      },
+      {
+        "titlu": "Caracterele discontinue: modelul cu prag",
+        "figuri": [
+          {
+            "titlu": "Modelul cu prag al predispoziției",
+            "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 330 192\" role=\"img\" aria-label=\"Predispoziția are distribuție continuă; boala apare dincolo de prag. La rudele de gradul I curba e deplasată spre dreapta, deci mai mulți depășesc pragul\" font-family=\"Georgia, serif\" font-size=\"13\"><path d=\"M227.2,166.0 L227.2,141.1 L228.7,143.2 L230.2,145.3 L231.6,147.2 L233.1,148.9 L234.6,150.6 L236.1,152.1 L237.6,153.5 L239.0,154.8 L240.5,156.0 L242.0,157.1 L243.5,158.0 L245.0,158.9 L246.4,159.7 L247.9,160.5 L249.4,161.1 L250.9,161.7 L252.4,162.2 L253.8,162.7 L255.3,163.1 L256.8,163.5 L258.3,163.8 L259.8,164.1 L261.2,164.4 L262.7,164.6 L264.2,164.8 L265.7,165.0 L267.2,165.1 L268.6,165.2 L270.1,165.4 L271.6,165.5 L273.1,165.5 L274.6,165.6 L276.0,165.7 L277.5,165.7 L279.0,165.8 L280.5,165.8 L282.0,165.8 L283.4,165.9 L284.9,165.9 L286.4,165.9 L287.9,165.9 L289.4,165.9 L290.8,165.9 L292.3,166.0 L293.8,166.0 L295.3,166.0 L296.8,166.0 L298.2,166.0 L299.7,166.0 L301.2,166.0 L302.7,166.0 L304.2,166.0 L305.6,166.0 L307.1,166.0 L308.6,166.0 L310.1,166.0 L311.6,166.0 L313.0,166.0 L314.5,166.0 L316.0,166.0 L316.0,166.0 Z\" fill=\"#b5453a\" fill-opacity=\"0.35\"/><polyline points=\"20.0,166.0 21.5,165.9 23.0,165.9 24.4,165.9 25.9,165.9 27.4,165.9 28.9,165.9 30.4,165.8 31.8,165.8 33.3,165.8 34.8,165.7 36.3,165.7 37.8,165.6 39.2,165.5 40.7,165.5 42.2,165.4 43.7,165.2 45.2,165.1 46.6,165.0 48.1,164.8 49.6,164.6 51.1,164.4 52.6,164.1 54.0,163.8 55.5,163.5 57.0,163.1 58.5,162.7 60.0,162.2 61.4,161.7 62.9,161.1 64.4,160.5 65.9,159.7 67.4,158.9 68.8,158.0 70.3,157.1 71.8,156.0 73.3,154.8 74.8,153.5 76.2,152.1 77.7,150.6 79.2,148.9 80.7,147.2 82.2,145.3 83.6,143.2 85.1,141.1 86.6,138.8 88.1,136.3 89.6,133.7 91.0,131.0 92.5,128.1 94.0,125.1 95.5,122.0 97.0,118.7 98.4,115.3 99.9,111.9 101.4,108.3 102.9,104.7 104.4,101.0 105.8,97.2 107.3,93.4 108.8,89.6 110.3,85.8 111.8,82.0 113.2,78.2 114.7,74.5 116.2,70.9 117.7,67.4 119.2,64.0 120.6,60.8 122.1,57.7 123.6,54.8 125.1,52.1 126.6,49.7 128.0,47.5 129.5,45.5 131.0,43.9 132.5,42.5 134.0,41.4 135.4,40.6 136.9,40.2 138.4,40.0 139.9,40.2 141.4,40.6 142.8,41.4 144.3,42.5 145.8,43.9 147.3,45.5 148.8,47.5 150.2,49.7 151.7,52.1 153.2,54.8 154.7,57.7 156.2,60.8 157.6,64.0 159.1,67.4 160.6,70.9 162.1,74.5 163.6,78.2 165.0,82.0 166.5,85.8 168.0,89.6 169.5,93.4 171.0,97.2 172.4,101.0 173.9,104.7 175.4,108.3 176.9,111.9 178.4,115.3 179.8,118.7 181.3,122.0 182.8,125.1 184.3,128.1 185.8,131.0 187.2,133.7 188.7,136.3 190.2,138.8 191.7,141.1 193.2,143.2 194.6,145.3 196.1,147.2 197.6,148.9 199.1,150.6 200.6,152.1 202.0,153.5 203.5,154.8 205.0,156.0 206.5,157.1 208.0,158.0 209.4,158.9 210.9,159.7 212.4,160.5 213.9,161.1 215.4,161.7 216.8,162.2 218.3,162.7 219.8,163.1 221.3,163.5 222.8,163.8 224.2,164.1 225.7,164.4 227.2,164.6 228.7,164.8 230.2,165.0 231.6,165.1 233.1,165.2 234.6,165.4 236.1,165.5 237.6,165.5 239.0,165.6 240.5,165.7 242.0,165.7 243.5,165.8 245.0,165.8 246.4,165.8 247.9,165.9 249.4,165.9 250.9,165.9 252.4,165.9 253.8,165.9 255.3,165.9 256.8,166.0 258.3,166.0 259.8,166.0 261.2,166.0 262.7,166.0 264.2,166.0 265.7,166.0 267.2,166.0 268.6,166.0 270.1,166.0 271.6,166.0 273.1,166.0 274.6,166.0 276.0,166.0 277.5,166.0 279.0,166.0 280.5,166.0 282.0,166.0 283.4,166.0 284.9,166.0 286.4,166.0 287.9,166.0 289.4,166.0 290.8,166.0 292.3,166.0 293.8,166.0 295.3,166.0 296.8,166.0 298.2,166.0 299.7,166.0 301.2,166.0 302.7,166.0 304.2,166.0 305.6,166.0 307.1,166.0 308.6,166.0 310.1,166.0 311.6,166.0 313.0,166.0 314.5,166.0 316.0,166.0\" fill=\"none\" stroke=\"#6b6760\" stroke-width=\"2\" stroke-dasharray=\"5 4\"/><polyline points=\"20.0,166.0 21.5,166.0 23.0,166.0 24.4,166.0 25.9,166.0 27.4,166.0 28.9,166.0 30.4,166.0 31.8,166.0 33.3,166.0 34.8,166.0 36.3,166.0 37.8,166.0 39.2,166.0 40.7,166.0 42.2,166.0 43.7,166.0 45.2,166.0 46.6,166.0 48.1,166.0 49.6,166.0 51.1,166.0 52.6,166.0 54.0,166.0 55.5,166.0 57.0,165.9 58.5,165.9 60.0,165.9 61.4,165.9 62.9,165.9 64.4,165.9 65.9,165.8 67.4,165.8 68.8,165.8 70.3,165.7 71.8,165.7 73.3,165.6 74.8,165.5 76.2,165.5 77.7,165.4 79.2,165.2 80.7,165.1 82.2,165.0 83.6,164.8 85.1,164.6 86.6,164.4 88.1,164.1 89.6,163.8 91.0,163.5 92.5,163.1 94.0,162.7 95.5,162.2 97.0,161.7 98.4,161.1 99.9,160.5 101.4,159.7 102.9,158.9 104.4,158.0 105.8,157.1 107.3,156.0 108.8,154.8 110.3,153.5 111.8,152.1 113.2,150.6 114.7,148.9 116.2,147.2 117.7,145.3 119.2,143.2 120.6,141.1 122.1,138.8 123.6,136.3 125.1,133.7 126.6,131.0 128.0,128.1 129.5,125.1 131.0,122.0 132.5,118.7 134.0,115.3 135.4,111.9 136.9,108.3 138.4,104.7 139.9,101.0 141.4,97.2 142.8,93.4 144.3,89.6 145.8,85.8 147.3,82.0 148.8,78.2 150.2,74.5 151.7,70.9 153.2,67.4 154.7,64.0 156.2,60.8 157.6,57.7 159.1,54.8 160.6,52.1 162.1,49.7 163.6,47.5 165.0,45.5 166.5,43.9 168.0,42.5 169.5,41.4 171.0,40.6 172.4,40.2 173.9,40.0 175.4,40.2 176.9,40.6 178.4,41.4 179.8,42.5 181.3,43.9 182.8,45.5 184.3,47.5 185.8,49.7 187.2,52.1 188.7,54.8 190.2,57.7 191.7,60.8 193.2,64.0 194.6,67.4 196.1,70.9 197.6,74.5 199.1,78.2 200.6,82.0 202.0,85.8 203.5,89.6 205.0,93.4 206.5,97.2 208.0,101.0 209.4,104.7 210.9,108.3 212.4,111.9 213.9,115.3 215.4,118.7 216.8,122.0 218.3,125.1 219.8,128.1 221.3,131.0 222.8,133.7 224.2,136.3 225.7,138.8 227.2,141.1 228.7,143.2 230.2,145.3 231.6,147.2 233.1,148.9 234.6,150.6 236.1,152.1 237.6,153.5 239.0,154.8 240.5,156.0 242.0,157.1 243.5,158.0 245.0,158.9 246.4,159.7 247.9,160.5 249.4,161.1 250.9,161.7 252.4,162.2 253.8,162.7 255.3,163.1 256.8,163.5 258.3,163.8 259.8,164.1 261.2,164.4 262.7,164.6 264.2,164.8 265.7,165.0 267.2,165.1 268.6,165.2 270.1,165.4 271.6,165.5 273.1,165.5 274.6,165.6 276.0,165.7 277.5,165.7 279.0,165.8 280.5,165.8 282.0,165.8 283.4,165.9 284.9,165.9 286.4,165.9 287.9,165.9 289.4,165.9 290.8,165.9 292.3,166.0 293.8,166.0 295.3,166.0 296.8,166.0 298.2,166.0 299.7,166.0 301.2,166.0 302.7,166.0 304.2,166.0 305.6,166.0 307.1,166.0 308.6,166.0 310.1,166.0 311.6,166.0 313.0,166.0 314.5,166.0 316.0,166.0\" fill=\"none\" stroke=\"#2a78d6\" stroke-width=\"2\"/><line x1=\"20.0\" y1=\"166.0\" x2=\"316.0\" y2=\"166.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><line x1=\"227.2\" y1=\"36.0\" x2=\"227.2\" y2=\"166.0\" stroke=\"#b5453a\" stroke-width=\"1.6\"/><text x=\"223.2\" y=\"48.0\" text-anchor=\"end\" fill=\"#b5453a\" font-size=\"10.8\">prag</text><text x=\"97.0\" y=\"52.0\" text-anchor=\"end\" fill=\"#6b6760\" font-size=\"10.2\">populația generală</text><text x=\"97.0\" y=\"64.0\" text-anchor=\"end\" fill=\"#6b6760\" font-size=\"10.2\">(0,1% afectați)</text><text x=\"236.1\" y=\"70.0\" text-anchor=\"start\" fill=\"#2a78d6\" font-size=\"10.2\">rude de gradul I</text><text x=\"236.1\" y=\"82.0\" text-anchor=\"start\" fill=\"#2a78d6\" font-size=\"10.2\">(4% afectați)</text><line x1=\"245.0\" y1=\"160.0\" x2=\"265.7\" y2=\"120.0\" stroke=\"#6b6760\" stroke-width=\"1\"/><text x=\"267.7\" y=\"116.0\" text-anchor=\"start\" fill=\"#2c2a26\" font-size=\"10.2\">afectați</text><text x=\"168.0\" y=\"184.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">predispoziția (gene de susceptibilitate + mediu)</text></svg>",
+            "nota": "După figura manualului; procentele sunt cele ale despicăturii labio-palatine din text, forma curbelor e ilustrativă."
+          }
+        ],
+        "noduri": [
+          {
+            "t": "Bolile comune",
+            "d": "Malformațiile congenitale comune și bolile multifactoriale ale adultului afectează peste 5% din populație; se concentrează în familii, dar fără pedigree-uri mendeliene (diabet, boli psihice, despicături palatine)."
+          },
+          {
+            "t": "Concentrarea familială",
+            "d": "Incidența la rude e mai mare decât în populație, dar mult sub cea mendeliană: buza de iepure apare la 0,1% din populație și la 4% din rudele de gradul I ale afectaților."
+          },
+          {
+            "t": "Agregarea nu dovedește",
+            "d": "Agregarea familială nu dovedește singură un determinism genetic: și factorii sociali se transmit în familie (limbajul copilului). Condiția: trăsătura să nu apară la neînrudiți în același mediu."
+          },
+          {
+            "t": "Variația între populații",
+            "d": "Frecvența caracterelor multifactoriale diferă de la o populație la alta, semn că factori favorizanți de mediu se adaugă susceptibilității genetice."
+          },
+          {
+            "t": "Gene de susceptibilitate și prag",
+            "d": "Predispoziția, dată de multe gene cu efect slab și aditiv, are distribuție continuă; boala apare doar peste un prag. La rudele afectaților curba e deplasată spre dreapta, deci mai mulți depășesc pragul."
+          },
+          {
+            "t": "Predispoziția nu e boala",
+            "d": "Genele nu determină direct boala (nici cea psihică), ci o favorizează într-un context de mediu dat; o genă de predispoziție pentru un comportament nu e o genă patologică."
+          }
+        ]
+      },
+      {
+        "titlu": "Corelația familială și gemenii",
+        "figuri": [
+          {
+            "titlu": "Concordanța gemenilor MZ și DZ",
+            "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 330 290\" role=\"img\" aria-label=\"Concordanța gemenilor monozigoți e mai mare decât a dizigoților la toate trăsăturile, dar sub 100%\" font-family=\"Georgia, serif\" font-size=\"13\"><rect x=\"150.0\" y=\"4.0\" width=\"10.0\" height=\"10.0\" fill=\"#2a78d6\"></rect><text x=\"164.0\" y=\"13.0\" text-anchor=\"start\" fill=\"#2c2a26\" font-size=\"10.8\">MZ</text><rect x=\"190.4\" y=\"4.0\" width=\"10.0\" height=\"10.0\" fill=\"#eb6834\"></rect><text x=\"204.4\" y=\"13.0\" text-anchor=\"start\" fill=\"#2c2a26\" font-size=\"10.8\">DZ</text><text x=\"146.0\" y=\"36.0\" text-anchor=\"end\" fill=\"#2c2a26\" font-size=\"10.2\">Despicătură labio-palatină</text><rect x=\"150.0\" y=\"26.0\" width=\"73.5\" height=\"7.0\" fill=\"#2a78d6\"><title>Despicătură labio-palatină: MZ 35%</title></rect><rect x=\"150.0\" y=\"34.0\" width=\"10.5\" height=\"7.0\" fill=\"#eb6834\"><title>Despicătură labio-palatină: DZ 5%</title></rect><text x=\"226.5\" y=\"33.0\" text-anchor=\"start\" fill=\"#6b6760\" font-size=\"10.2\">35</text><text x=\"146.0\" y=\"58.0\" text-anchor=\"end\" fill=\"#2c2a26\" font-size=\"10.2\">Spina bifida</text><rect x=\"150.0\" y=\"48.0\" width=\"12.6\" height=\"7.0\" fill=\"#2a78d6\"><title>Spina bifida: MZ 6%</title></rect><rect x=\"150.0\" y=\"56.0\" width=\"6.3\" height=\"7.0\" fill=\"#eb6834\"><title>Spina bifida: DZ 3%</title></rect><text x=\"165.6\" y=\"55.0\" text-anchor=\"start\" fill=\"#6b6760\" font-size=\"10.2\">6</text><text x=\"146.0\" y=\"80.0\" text-anchor=\"end\" fill=\"#2c2a26\" font-size=\"10.2\">Luxația congenitală de șold</text><rect x=\"150.0\" y=\"70.0\" width=\"86.1\" height=\"7.0\" fill=\"#2a78d6\"><title>Luxația congenitală de șold: MZ 41%</title></rect><rect x=\"150.0\" y=\"78.0\" width=\"6.3\" height=\"7.0\" fill=\"#eb6834\"><title>Luxația congenitală de șold: DZ 3%</title></rect><text x=\"239.1\" y=\"77.0\" text-anchor=\"start\" fill=\"#6b6760\" font-size=\"10.2\">41</text><text x=\"146.0\" y=\"102.0\" text-anchor=\"end\" fill=\"#2c2a26\" font-size=\"10.2\">Picior strâmb congenital</text><rect x=\"150.0\" y=\"92.0\" width=\"67.2\" height=\"7.0\" fill=\"#2a78d6\"><title>Picior strâmb congenital: MZ 32%</title></rect><rect x=\"150.0\" y=\"100.0\" width=\"6.3\" height=\"7.0\" fill=\"#eb6834\"><title>Picior strâmb congenital: DZ 3%</title></rect><text x=\"220.2\" y=\"99.0\" text-anchor=\"start\" fill=\"#6b6760\" font-size=\"10.2\">32</text><text x=\"146.0\" y=\"124.0\" text-anchor=\"end\" fill=\"#2c2a26\" font-size=\"10.2\">Lepra</text><rect x=\"150.0\" y=\"114.0\" width=\"126.0\" height=\"7.0\" fill=\"#2a78d6\"><title>Lepra: MZ 60%</title></rect><rect x=\"150.0\" y=\"122.0\" width=\"42.0\" height=\"7.0\" fill=\"#eb6834\"><title>Lepra: DZ 20%</title></rect><text x=\"279.0\" y=\"121.0\" text-anchor=\"start\" fill=\"#6b6760\" font-size=\"10.2\">60</text><text x=\"146.0\" y=\"146.0\" text-anchor=\"end\" fill=\"#2c2a26\" font-size=\"10.2\">Psoriazis</text><rect x=\"150.0\" y=\"136.0\" width=\"128.1\" height=\"7.0\" fill=\"#2a78d6\"><title>Psoriazis: MZ 61%</title></rect><rect x=\"150.0\" y=\"144.0\" width=\"27.3\" height=\"7.0\" fill=\"#eb6834\"><title>Psoriazis: DZ 13%</title></rect><text x=\"281.1\" y=\"143.0\" text-anchor=\"start\" fill=\"#6b6760\" font-size=\"10.2\">61</text><text x=\"146.0\" y=\"168.0\" text-anchor=\"end\" fill=\"#2c2a26\" font-size=\"10.2\">Artrita reumatoidă</text><rect x=\"150.0\" y=\"158.0\" width=\"63.0\" height=\"7.0\" fill=\"#2a78d6\"><title>Artrita reumatoidă: MZ 30%</title></rect><rect x=\"150.0\" y=\"166.0\" width=\"10.5\" height=\"7.0\" fill=\"#eb6834\"><title>Artrita reumatoidă: DZ 5%</title></rect><text x=\"216.0\" y=\"165.0\" text-anchor=\"start\" fill=\"#6b6760\" font-size=\"10.2\">30</text><text x=\"146.0\" y=\"190.0\" text-anchor=\"end\" fill=\"#2c2a26\" font-size=\"10.2\">Cancer</text><rect x=\"150.0\" y=\"180.0\" width=\"35.7\" height=\"7.0\" fill=\"#2a78d6\"><title>Cancer: MZ 17%</title></rect><rect x=\"150.0\" y=\"188.0\" width=\"23.1\" height=\"7.0\" fill=\"#eb6834\"><title>Cancer: DZ 11%</title></rect><text x=\"188.7\" y=\"187.0\" text-anchor=\"start\" fill=\"#6b6760\" font-size=\"10.2\">17</text><text x=\"146.0\" y=\"212.0\" text-anchor=\"end\" fill=\"#2c2a26\" font-size=\"10.2\">Epilepsie</text><rect x=\"150.0\" y=\"202.0\" width=\"77.7\" height=\"7.0\" fill=\"#2a78d6\"><title>Epilepsie: MZ 37%</title></rect><rect x=\"150.0\" y=\"210.0\" width=\"21.0\" height=\"7.0\" fill=\"#eb6834\"><title>Epilepsie: DZ 10%</title></rect><text x=\"230.7\" y=\"209.0\" text-anchor=\"start\" fill=\"#6b6760\" font-size=\"10.2\">37</text><text x=\"146.0\" y=\"234.0\" text-anchor=\"end\" fill=\"#2c2a26\" font-size=\"10.2\">Schizofrenie</text><rect x=\"150.0\" y=\"224.0\" width=\"94.5\" height=\"7.0\" fill=\"#2a78d6\"><title>Schizofrenie: MZ 45%</title></rect><rect x=\"150.0\" y=\"232.0\" width=\"25.2\" height=\"7.0\" fill=\"#eb6834\"><title>Schizofrenie: DZ 12%</title></rect><text x=\"247.5\" y=\"231.0\" text-anchor=\"start\" fill=\"#6b6760\" font-size=\"10.2\">45</text><text x=\"146.0\" y=\"256.0\" text-anchor=\"end\" fill=\"#2c2a26\" font-size=\"10.2\">Tulburarea bipolară</text><rect x=\"150.0\" y=\"246.0\" width=\"147.0\" height=\"7.0\" fill=\"#2a78d6\"><title>Tulburarea bipolară: MZ 70%</title></rect><rect x=\"150.0\" y=\"254.0\" width=\"31.5\" height=\"7.0\" fill=\"#eb6834\"><title>Tulburarea bipolară: DZ 15%</title></rect><text x=\"300.0\" y=\"253.0\" text-anchor=\"start\" fill=\"#6b6760\" font-size=\"10.2\">70</text><line x1=\"150.0\" y1=\"24.0\" x2=\"150.0\" y2=\"268.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><line x1=\"150.0\" y1=\"268.0\" x2=\"318.0\" y2=\"268.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><line x1=\"150.0\" y1=\"268.0\" x2=\"150.0\" y2=\"272.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><text x=\"150.0\" y=\"283.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">0%</text><line x1=\"192.0\" y1=\"268.0\" x2=\"192.0\" y2=\"272.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><text x=\"192.0\" y=\"283.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">20%</text><line x1=\"234.0\" y1=\"268.0\" x2=\"234.0\" y2=\"272.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><text x=\"234.0\" y=\"283.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">40%</text><line x1=\"276.0\" y1=\"268.0\" x2=\"276.0\" y2=\"272.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><text x=\"276.0\" y=\"283.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">60%</text><line x1=\"318.0\" y1=\"268.0\" x2=\"318.0\" y2=\"272.0\" stroke=\"#b9b0a0\" stroke-width=\"1\"/><text x=\"318.0\" y=\"283.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">80%</text></svg>",
+            "nota": "Datele tabelului din manual (coloanele, comasate în PDF, au fost puse în ordine)."
+          }
+        ],
+        "tabel": {
+          "cap": [
+            "Tulburarea",
+            "Concordanța MZ",
+            "Concordanța DZ"
+          ],
+          "randuri": [
+            [
+              "Monogenică",
+              "100%",
+              "ca la frați"
+            ],
+            [
+              "Cromozomială",
+              "100%",
+              "ca la frați"
+            ],
+            [
+              "Multifactorială",
+              "sub 100%, dar peste DZ",
+              "ca la frați"
+            ],
+            [
+              "Mezologică",
+              "ca la frați",
+              "ca la frați"
+            ]
+          ]
+        },
+        "lat": true,
+        "noduri": [
+          {
+            "t": "Corelația familială",
+            "d": "Frecvența trăsăturii la rudele unui afectat: scade odată cu proporția genelor comune, dar rămâne peste cea din populația generală."
+          },
+          {
+            "t": "Gemenii MZ și DZ",
+            "d": "MZ: același zigot, scindat în primele 14 zile; identici genetic, frecvență constantă (0,3–0,4%). DZ: ovulație dublă, cu concentrare familială și frecvență variabilă; au 1/2 din gene în comun."
+          },
+          {
+            "t": "Concordanța",
+            "d": "Ambii gemeni au trăsătura (concordanți) sau doar unul (discordanți). Cu cât concordanța MZ o depășește mai mult pe cea DZ, cu atât componenta ereditară e mai puternică."
+          },
+          {
+            "t": "Tiparele de concordanță",
+            "d": "Monogenic și cromozomial: MZ 100%, DZ ca frații. Multifactorial: MZ sub 100%, dar peste DZ. Mezologic: MZ ca DZ. În fapt, concordanța MZ e rar 100%."
+          },
+          {
+            "t": "Gemenii crescuți separat",
+            "d": "MZ crescuți împreună împart și mediul; separați curând după naștere, sunt o experiență a naturii (gemelaritatea) și una a culturii (adopția). Dacă MZ rămân mai concordanți decât DZ, rolul genelor e admis."
+          },
+          {
+            "t": "Studiile de adopție",
+            "d": "Copiii unor părinți schizofreni, adoptați de familii sănătoase, fac boala în 8–10% din cazuri, față de 1% la adoptații cu părinți sănătoși: argument pentru un factor genetic important."
+          },
+          {
+            "t": "Lumea gemenilor",
+            "d": "Gemenii cresc într-un context aparte: MZ își refuză sau își accentuează identitatea, își asumă roluri diferite (unul dominant), dezvoltă adesea un limbaj propriu; contează la caracterele psihice."
+          }
+        ]
+      },
+      {
+        "titlu": "Heritabilitatea și studiile despre inteligență",
+        "noduri": [
+          {
+            "t": "Heritabilitatea (h)",
+            "d": "Proporția din variația unui caracter datorată cauzelor genetice: h = 1, determinat genetic; h = 0, determinat de mediu. Se estimează din studii familiale, gemelologice și populaționale."
+          },
+          {
+            "t": "Valori ale heritabilității",
+            "d": "Înălțimea: 0,80; înălțimea șezând: 0,76; greutatea: doar 0,078. Pentru IQ există un consens puternic că e heritabil: în proporție de 60–70%, balanța înclină spre înnăscut."
+          },
+          {
+            "t": "Frauda lui Burt",
+            "d": "Cyril Burt susținea că IQ-ul e genetic în proporție de 77% și că sărăcia vine din inteligența scăzută; după moartea lui s-a dovedit că datele erau fabricate. Teoria dusese la examenul „unsprezece plus”."
+          },
+          {
+            "t": "Studiul Minnesota (Bouchard)",
+            "d": "Echipa lui Bouchard conchide că influența genelor asupra inteligenței crește cu vârsta, iar adulții MZ nu sunt mai asemănători dacă au crescut împreună decât separat."
+          },
+          {
+            "t": "Metoda co-geamănului",
+            "d": "Un geamăn MZ primește o intervenție, celălalt rămâne martor. Așa s-a văzut că educația crește IQ-ul: nu moștenim un IQ anume, ci aptitudinea de a-l dezvolta."
+          },
+          {
+            "t": "Studiul direct al genelor",
+            "d": "Gemenii arată ponderea genelor, nu genele; le găsesc tehnologiile moderne. Exemplu: hiperactivitatea cu deficit de atenție la rezistența la hormonii tiroidieni, cu peste 30 de mutații dominante ale receptorului (cromozomul 3)."
+          },
+          {
+            "t": "Ereditate și mediu împreună",
+            "d": "Comportamentul rezultă din jocul eredității cu mediul (stimulant-cooperator sau distructiv), iar tentativele de a le cuantifica separat au eșuat. Întrebarea cu sens privește diferențele dintre indivizii unei populații date."
+          }
+        ]
+      },
+      {
+        "titlu": "Sfatul genetic: riscul empiric",
+        "tabel": {
+          "cap": [
+            "Trăsătura",
+            "Rude gr. I",
+            "Rude gr. II",
+            "Rude gr. III",
+            "Populația"
+          ],
+          "randuri": [
+            [
+              "Buză de iepure",
+              "4%",
+              "0,6%",
+              "0,3%",
+              "0,1%"
+            ],
+            [
+              "Spina bifida / anencefalie",
+              "4%",
+              "1,5%",
+              "0,6%",
+              "0,3%"
+            ],
+            [
+              "Stenoză pilorică",
+              "2%",
+              "1%",
+              "0,4%",
+              "0,3%"
+            ],
+            [
+              "Epilepsie",
+              "5%",
+              "2,5%",
+              "1,5%",
+              "1%"
+            ],
+            [
+              "Schizofrenie",
+              "10%",
+              "4%",
+              "2%",
+              "1%"
+            ],
+            [
+              "Tulburare bipolară",
+              "15%",
+              "5%",
+              "3,5%",
+              "1%"
+            ]
+          ]
+        },
+        "noduri": [
+          {
+            "t": "Riscul empiric de recurență",
+            "d": "Nu se cunosc numărul genelor, alelele părinților și rolul mediului, deci riscul nu se calculează mendelian, ci empiric, din statistici populaționale ample, în familiile cu un afectat; pedigree-ul nu ajută."
+          },
+          {
+            "t": "Mai mulți membri afectați",
+            "d": "Riscul de recurență crește când în familie sunt mai mulți membri afectați."
+          },
+          {
+            "t": "Gravitatea formei",
+            "d": "Riscul e mai mare când probandul are o formă mai severă: la despicătura labio-palatină, de la 2% (unilaterală) la peste 6% (bilaterală)."
+          },
+          {
+            "t": "Sexul și consangvinitatea",
+            "d": "La bolile mai frecvente la un sex, riscul variază după sex; consangvinitatea amplifică riscul."
+          },
+          {
+            "t": "Gradul de rudenie",
+            "d": "Riscul scade rapid cu gradul de rudenie: schizofrenie 10–15% la gradul I, 3% la gradul II; autism infantil 4,5% (I), 0,1% (II), 0,05% (III), cât în populația generală."
+          },
+          {
+            "t": "Riscul diferă între populații",
+            "d": "Riscul de recurență variază de la o populație la alta, fiindcă diferă frecvența genelor mutante și factorii de mediu."
+          }
+        ]
+      }
+    ]
+  }
+}

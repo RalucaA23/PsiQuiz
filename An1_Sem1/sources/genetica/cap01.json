@@ -1,0 +1,837 @@
+{
+  "schema": "quiz-capitol-v3",
+  "capitol": 1,
+  "titlu": "Introducere în genetică",
+  "sursa": "Genetica comportamentului uman, Unitatea 1, pp. 7–21",
+  "runde": [
+    {
+      "id": "1",
+      "eticheta": "Runda 1 · Bază",
+      "titlu": "Runda 1 — Concepte de bază",
+      "desc": "Teorie: concepte, deosebiri și principii, în întrebări directe.",
+      "intrebari": [
+        {
+          "q": "Prin ce se deosebește un caracter congenital de unul ereditar?",
+          "opts": [
+            "Congenitalul e moștenit, dar se exprimă abia la vârsta adultă",
+            "Congenitalul e produs de mutații apărute în gameți",
+            "Congenitalul e prezent la naștere, oricare i-ar fi cauza",
+            "Congenitalul se transmite numai pe linie maternă"
+          ],
+          "correct": 2,
+          "explain": "„Congenital” nu are nicio conotație de cauză: caracterul e prezent la naștere și poate fi înnăscut sau dobândit în viața intrauterină (medicamente, radiații, virusuri). Un caracter moștenit care se exprimă abia la adult descrie invers situația unei boli ereditare necongenitale, iar mutațiile din gameți țin de bolile genetice.",
+          "tag": "Congenital",
+          "tip": "concept",
+          "noutate": "nou"
+        },
+        {
+          "q": "De ce nu orice boală genetică este și ereditară?",
+          "opts": [
+            "Poate fi produsă de un factor de mediu intrauterin",
+            "Poate apărea printr-o mutație nouă, fără părinți purtători",
+            "Poate rămâne mult timp nemanifestată, până la vârsta adultă",
+            "Poate fi tratată prin dietă sau prin hormoni"
+          ],
+          "correct": 1,
+          "explain": "O boală genetică e ereditară doar dacă e moștenită; dacă apare după o mutație nouă la embrion sau la gamet, fără ca părinții să fie purtători, e genetică dar neereditară (sindromul Down, de regulă). Factorul de mediu intrauterin explică un caracter congenital negenetic, debutul tardiv privește relația ereditar–congenital, iar tratamentul nu schimbă natura bolii.",
+          "tag": "Genetic",
+          "tip": "concept",
+          "noutate": "nou"
+        },
+        {
+          "q": "Care dintre următoarele boli e ereditară, dar nu congenitală?",
+          "opts": [
+            "Coreea Huntington",
+            "Sindromul Down",
+            "Sifilisul congenital",
+            "Buza de iepure"
+          ],
+          "correct": 0,
+          "explain": "Coreea Huntington e moștenită, dar anomalia din genom se exprimă mult după naștere, deci nu e congenitală. Sindromul Down e, de regulă, genetic dar neereditar; sifilisul congenital e dobândit prin contaminare feto-maternă; buza de iepure e o malformație congenitală multifactorială.",
+          "tag": "Ereditar",
+          "tip": "tulburare",
+          "noutate": "nou"
+        },
+        {
+          "q": "Ce principiu ilustrează exemplul fenilcetonuriei, prevenită prin depistare la naștere și dietă?",
+          "opts": [
+            "Congenital nu înseamnă ereditar",
+            "Ereditar nu înseamnă inevitabil",
+            "Genetic nu înseamnă ereditar",
+            "Familial nu înseamnă mendelian"
+          ],
+          "correct": 1,
+          "explain": "Fenilcetonuria e o boală ereditară care, netratată, duce la retard sever, dar se poate preveni printr-un regim fără fenilalanină: manifestarea unei boli genetice poate fi influențată de mediu. Celelalte trei distincții sunt reale, dar țin de alte exemple: sifilisul congenital, sindromul Down, bolile comune ale adultului.",
+          "tag": "Ereditar nu înseamnă inevitabil",
+          "tip": "principiu",
+          "noutate": "nou"
+        },
+        {
+          "q": "Ce caractere sunt folosite în expertiza paternității, fiind determinate strict genetic?",
+          "opts": [
+            "Grupele sanguine și grupele tisulare HLA",
+            "Talia și culoarea pielii",
+            "Dermatoglifele și dezvoltarea musculară",
+            "Enzimele și predispoziția la boli comune"
+          ],
+          "correct": 0,
+          "explain": "Caracterele individualității biologice (grupe sanguine, grupe tisulare, proteine serice, enzime) au determinism genetic, monogenic, și sunt foarte polimorfe, deci servesc la identificare și la expertiza paternității. Talia, dermatoglifele, culoarea pielii și dezvoltarea musculară sunt influențate și de mediu, iar predispoziția la boli comune e multifactorială.",
+          "tag": "Determinism exclusiv genetic",
+          "tip": "concept",
+          "noutate": "nou"
+        },
+        {
+          "q": "Ce rol au genele în bolile comune ale adultului, cum ar fi diabetul zaharat?",
+          "opts": [
+            "Produc singure boala, după un tipar mendelian dominant clasic",
+            "Au un rol neglijabil, boala ținând de stilul de viață",
+            "Produc boala de la naștere, cu manifestare tardivă",
+            "Dau o vulnerabilitate, care devine boală doar cu mediul"
+          ],
+          "correct": 3,
+          "explain": "În bolile comune ale adultului, factorii genetici realizează doar o predispoziție, care se transformă în boală prin interacțiunea cu mediul; nu toți cei predispuși se îmbolnăvesc. Boala nu se transmite mendelian, dar are concentrare familială, pentru că genele de susceptibilitate se transmit în familie: rolul lor nu e neglijabil.",
+          "tag": "Predispoziția genetică",
+          "tip": "fenomen",
+          "noutate": "nou"
+        },
+        {
+          "q": "Ce exprimă afirmația lui Claude Bernard: „microbul nu-i nimic, terenul este totul”?",
+          "opts": [
+            "Bolile infecțioase se transmit ereditar în familii",
+            "Mediul de viață al bolnavului contează mai mult decât microbul",
+            "Microbii produc mutații care devin apoi ereditare",
+            "Răspunsul la boală depinde de structura genetică a fiecăruia"
+          ],
+          "correct": 3,
+          "explain": "Chiar și bolile produse de agenți din mediu sunt influențate de structura genetică a fiecărui individ, care determină un răspuns specific: în epidemii nu se îmbolnăvesc toți expușii. De aceea aproape nu există caractere strict ecologice. Infecțiile nu se transmit ereditar, iar „terenul” nu înseamnă mediul de viață.",
+          "tag": "Determinism exclusiv ecologic",
+          "tip": "autor",
+          "noutate": "nou"
+        },
+        {
+          "q": "Care grup cuprinde caractere multifactoriale normale, produse de mai multe gene și mai mulți factori de mediu?",
+          "opts": [
+            "Înălțimea, greutatea și inteligența",
+            "Hemofilia, albinismul și acondroplazia",
+            "Diabetul, ulcerul și boala coronariană",
+            "Infecțiile, intoxicațiile și accidentele"
+          ],
+          "correct": 0,
+          "explain": "Caracterele cantitative (înălțimea, greutatea, inteligența) sunt exemplele de caractere multifactoriale normale: ereditatea dă doar un potențial. Diabetul, ulcerul și boala coronariană sunt tot multifactoriale, dar anormale; hemofilia, albinismul și acondroplazia sunt determinate genetic, iar infecțiile și accidentele țin de mediu.",
+          "tag": "Determinism eco-genetic",
+          "tip": "concept",
+          "noutate": "nou"
+        },
+        {
+          "q": "Ce rol au genele reglatoare, una dintre descoperirile care au schimbat conceptul de genă?",
+          "opts": [
+            "Codifică direct proteinele structurale și enzimele celulei",
+            "Sunt segmente necodante eliminate din mesaj",
+            "Poartă polimorfisme fără efecte vizibile",
+            "Activează sau suprimă acțiunea genelor codificatoare"
+          ],
+          "correct": 3,
+          "explain": "Genele reglatoare nu sunt traduse în proteine pe care să le putem urmări, ci activează sau suprimă acțiunea genelor codificatoare; s-au dovedit mai numeroase decât se credea. Proteinele sunt codificate de genele codificatoare, segmentele eliminate din mesaj sunt intronii, iar polimorfismele se acumulează în ADN-ul necodant.",
+          "tag": "Breșele dogmei centrale",
+          "tip": "concept",
+          "noutate": "nou"
+        },
+        {
+          "q": "Care sunt principalele surse ale variabilității genetice?",
+          "opts": [
+            "Mutațiile și influențele mediului intrauterin",
+            "Mutațiile și recombinările de la formarea gameților",
+            "Recombinările și diferențele de proteom",
+            "Influențele mediului și diferențele de educație"
+          ],
+          "correct": 1,
+          "explain": "Variabilitatea genetică are două surse: mutațiile și recombinările genetice care au loc la formarea gameților. Influențele mediului (intrauterin, educațional) produc variabilitate nongenetică, iar proteomul diferă între celulele aceluiași om fără ca genele să difere.",
+          "tag": "Variabilitatea genetică",
+          "tip": "concept",
+          "noutate": "nou"
+        },
+        {
+          "q": "Prin ce se deosebește fenotipul de genotip?",
+          "opts": [
+            "Fenotipul e constant, genotipul se schimbă cu vârsta",
+            "Fenotipul ține de ereditate, genotipul de mediu",
+            "Fenotipul e variabil, genotipul e constant toată viața",
+            "Fenotipul se deduce, genotipul se vede direct"
+          ],
+          "correct": 2,
+          "explain": "Genotipul se stabilește la fecundație și rămâne constant; fenotipul, potențial variabil, se află la confluența eredității cu mediul și descrie starea organismului la un moment dat. Genotipul e accesibil doar prin fenotip, nu invers, iar mediul acționează asupra fenotipului.",
+          "tag": "Fenotipul",
+          "tip": "concept",
+          "noutate": "nou"
+        },
+        {
+          "q": "Ce fenomen e considerat o dovadă indirectă a unicității genotipului fiecărui om?",
+          "opts": [
+            "Diferențele de înălțime dintre gemenii identici",
+            "Respingerea grefelor provenite de la alți oameni",
+            "Concentrarea familială a bolilor comune",
+            "Variația proteomului de la un țesut la altul"
+          ],
+          "correct": 1,
+          "explain": "„Xenofobia organică”, respingerea oricărui țesut străin și rezistența imunologică la grefe, arată că fiecare are o individualitate genetică unică. Diferențele dintre gemenii identici țin de mediu, deci de fenotip; concentrarea familială și variația proteomului nu privesc unicitatea genotipului.",
+          "tag": "Genotipul",
+          "tip": "concept",
+          "noutate": "nou"
+        },
+        {
+          "q": "Prin ce se deosebește genomul de proteom?",
+          "opts": [
+            "Genomul e același în toate celulele, proteomul diferă",
+            "Proteomul e același în toate celulele, genomul diferă",
+            "Genomul e ADN-ul codant, proteomul cel necodant",
+            "Genomul e moștenit, proteomul se formează din mediu"
+          ],
+          "correct": 0,
+          "explain": "Genomul, totalitatea informației genetice din ADN, e același în toate celulele organismului; proteomul, setul de proteine codificat de genom, diferă după tipul de celulă, țesut și etapa vieții, pentru că activitatea genelor e diferențiată. Proteomul nu e un tip de ADN și nu vine din mediu.",
+          "tag": "Genom și proteom",
+          "tip": "structura",
+          "noutate": "nou"
+        },
+        {
+          "q": "Cum tratează genetica comportamentală un comportament, de pildă timiditatea?",
+          "opts": [
+            "Ca genotip: constituția genetică a individului",
+            "Ca trăsătură moștenită ca atare de la părinți",
+            "Ca fenotip: o caracteristică observabilă și măsurabilă",
+            "Ca produs al mediului, fără vreo bază genetică"
+          ],
+          "correct": 2,
+          "explain": "Pentru genetica comportamentală, comportamentul e un fenotip: o caracteristică observabilă, pe care o putem măsura, chiar dacă dificil. Genotipul e accesibil doar prin fenotip; comportamentul nu e moștenit per se, dar nici nu e lipsit de bază ereditară.",
+          "tag": "Comportamentul ca fenotip",
+          "tip": "concept",
+          "noutate": "nou"
+        },
+        {
+          "q": "Cum se explică faptul că omul are doar de circa două ori mai multe gene decât musculița de oțet?",
+          "opts": [
+            "Multe gene umane nu au fost încă identificate",
+            "Complexitatea umană ține mai ales de cultură",
+            "Genele umane produc în medie câte trei proteine",
+            "Genele umane sunt mult mai lungi decât la insecte"
+          ],
+          "correct": 2,
+          "explain": "Rezultatele Programului Genomul Uman (25.000–35.000 de gene) se explică prin funcționarea foarte eficientă a genelor umane, care au mai multe funcții și produc în medie trei proteine pe genă, nu una, ca la alte specii. De aici și precauțiile legate de manipulările genetice la om.",
+          "tag": "Puține gene, multe proteine",
+          "tip": "concept",
+          "noutate": "nou"
+        }
+      ],
+      "ascunse": [
+        {
+          "q": "Ce susține Voltaire despre educație, în citatul folosit pentru psihogenetică?",
+          "opts": [
+            "Pune în valoare calitățile omului, dar nu le poate crea",
+            "Poate crea și calitățile care lipsesc omului pe cale ereditară",
+            "E inutilă acolo unde zestrea ereditară e săracă",
+            "Contează mai puțin decât selecția elevilor"
+          ],
+          "correct": 0,
+          "explain": "„O educație aleasă pune în valoare calitățile omului, dar nu poate să le creeze”: potențialul genetic se realizează doar într-un mediu adecvat. Psihogenetica nu vede o contradicție între influența genetică și educație, deci educația nu e inutilă, dar nici nu creează ce lipsește.",
+          "tag": "Psihogenetica",
+          "tip": "autor",
+          "noutate": "nou"
+        },
+        {
+          "q": "Ce stabilește Declarația Universală asupra Genomului Uman (UNESCO, 1997)?",
+          "opts": [
+            "Genomul e patrimoniu comun, fără discriminare genetică",
+            "Genomul aparține statului ale cărui laboratoare îl secvențiază",
+            "Testele genetice devin obligatorii la angajare",
+            "Clonarea umană e permisă în scop terapeutic"
+          ],
+          "correct": 0,
+          "explain": "Declarația consideră genomul uman patrimoniu comun al umanității, interzice discriminarea pe baza caracteristicilor genetice, fixează limite intervențiilor și respinge orice determinism genetic. Testele obligatorii sau proprietatea statului asupra genomului ar contrazice-o; clonarea e una dintre temele care provoacă îngrijorare.",
+          "tag": "Declarația Universală asupra Genomului Uman",
+          "tip": "istoric",
+          "noutate": "nou"
+        },
+        {
+          "q": "De ce se ocupă genetica formală?",
+          "opts": [
+            "De ereditatea la nivelul moleculelor de ADN",
+            "De secvențierea și analiza genomului uman",
+            "De setul de proteine codificat de genom",
+            "De legile transmiterii caracterelor ereditare"
+          ],
+          "correct": 3,
+          "explain": "Genetica formală tratează legile transmiterii caracterelor ereditare. Ereditatea la nivel molecular e domeniul geneticii moleculare, secvențierea genomului ține de genomică, iar studiul proteinelor, de proteomică.",
+          "tag": "Ramurile geneticii",
+          "tip": "concept",
+          "noutate": "nou"
+        },
+        {
+          "q": "Ce cuprinde mediul, în sensul larg folosit în genetica umană?",
+          "opts": [
+            "Factorii naturali: clima, hrana, agenții patogeni",
+            "Factori ecologici, psihologici și socio-culturali",
+            "Factorii fizici și chimici din viața intrauterină",
+            "Factorii socio-economici, fără cei ecologici"
+          ],
+          "correct": 1,
+          "explain": "Mediul nu înseamnă doar factorii naturali: cuprinde totalitatea factorilor ecologici (fizici, chimici, biologici) și mai ales psihologici și socio-culturali, inclusiv cultura, adică tot ce omul câștigă, nu moștenește. Concepția limitată la factorii naturali e numită unilaterală.",
+          "tag": "Mediul",
+          "tip": "concept",
+          "noutate": "nou"
+        },
+        {
+          "q": "Ce rezultă din mutația unei gene?",
+          "opts": [
+            "Un genotip nou, identic la toți urmașii",
+            "Un locus nou, plasat pe alt cromozom",
+            "O variantă genică nouă, numită alelă",
+            "Un fenotip nou, dobândit din mediu"
+          ],
+          "correct": 2,
+          "explain": "Modificarea bruscă a structurii moleculare a unei gene produce o variantă genică numită alelă, normală sau anormală, care se poate transmite urmașilor. Locusul e poziția genei pe cromozom și nu se schimbă prin mutație, iar o trăsătură dobândită din mediu nu e o mutație.",
+          "tag": "Mutația și alela",
+          "tip": "concept",
+          "noutate": "nou"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "eticheta": "Runda 2 · Aplicații",
+      "titlu": "Runda 2 — Scenarii și raționament",
+      "desc": "Situații cu mai mulți pași: interpretezi cazuri, corectezi raționamente, explici mecanisme.",
+      "intrebari": [
+        {
+          "q": "Într-o țară, înălțimea medie a recruților a crescut cu 8 cm în 60 de ani, timp în care populația s-a schimbat foarte puțin genetic. Un student conclude că înălțimea nu e ereditară. Unde greșește?",
+          "opts": [
+            "Creșterea arată că în populație au apărut mutații noi favorabile",
+            "Înălțimea e strict genetică, deci datele sunt eronate",
+            "Creșterea vine dintr-o recombinare genetică mai intensă",
+            "Ereditatea dă un potențial, mediul decide cât se realizează"
+          ],
+          "correct": 3,
+          "explain": "Înălțimea e un caracter multifactorial, condiționat genetic în proporție mare, dar atingerea limitei superioare depinde de mediu; de aceea a crescut peste tot unde condițiile socio-economice s-au îmbunătățit. Mutațiile și recombinarea nu schimbă media unei populații în două generații, iar ideea unui caracter strict genetic contrazice chiar datele.",
+          "tag": "Determinism eco-genetic",
+          "tip": "concept",
+          "noutate": "nou",
+          "exemplu_nou": true
+        },
+        {
+          "q": "Un medic află că pacientul său de 45 de ani are hipertensiune arterială primară, ca tatăl și bunicul lui. De ce își extinde atenția la frații și copiii pacientului?",
+          "opts": [
+            "Boala se transmite dominant, deci jumătate din rude vor fi afectate",
+            "Genele de susceptibilitate se transmit în familie, fără tipar mendelian",
+            "Hipertensiunea e congenitală și se poate depista încă de la naștere",
+            "Rudele au același mediu de viață, deci vor face sigur și ele aceeași boală"
+          ],
+          "correct": 1,
+          "explain": "Bolile comune ale adultului au concentrare familială pentru că genele de susceptibilitate (de obicei în număr necunoscut) se transmit în familie, deși nu după legile lui Mendel; de aceea atribuțiile medicului se extind de la bolnav la familie, pentru depistarea celor predispuși și evitarea factorilor de mediu. Un raport de 1/2 ar cere transmitere monogenică dominantă, iar predispoziția nu e o certitudine.",
+          "tag": "Predispoziția genetică",
+          "tip": "fenomen",
+          "noutate": "nou",
+          "exemplu_nou": false
+        },
+        {
+          "q": "Doi copii au aceeași boală metabolică ereditară care duce la retard. Primul e depistat la naștere și primește imediat dieta potrivită, al doilea nu e diagnosticat. Doar al doilea dezvoltă retard sever. Ce arată cazul?",
+          "opts": [
+            "Și o boală monogenică poate fi modelată de factori de mediu",
+            "Boala primului copil nu era, de fapt, una de natură ereditară",
+            "Retardul e produs de mediu, iar gena are un rol secundar",
+            "Mutația s-a corectat la copilul care a primit dieta"
+          ],
+          "correct": 0,
+          "explain": "Exemplul fenilcetonuriei: caracterele cu determinism genetic pot fi influențate de terapie, deci de condiții de mediu; „ereditar nu înseamnă inevitabil”. Ambii copii au aceeași mutație, care nu se corectează prin dietă; fără genă nu ar exista boala, deci nici explicația strict prin mediu nu ține.",
+          "tag": "Ereditar nu înseamnă inevitabil",
+          "tip": "principiu",
+          "noutate": "nou",
+          "exemplu_nou": false
+        },
+        {
+          "q": "La începutul secolului XX, un medic numea „eredosifilis” sifilisul unui nou-născut infectat de mamă în timpul sarcinii. În ce constă eroarea?",
+          "opts": [
+            "Boala era genetică, dar fără să fie și congenitală",
+            "Sifilisul e o boală ereditară cu debut tardiv",
+            "Confundă transmiterea feto-maternă cu transmiterea ereditară",
+            "Termenul potrivit ar fi fost cel de boală genetică, nu ereditară"
+          ],
+          "correct": 2,
+          "explain": "Sifilisul nou-născutului e congenital (prezent la naștere), dar produs de contaminarea feto-maternă, deci dobândit în viața intrauterină, nu moștenit prin gene. Nu e nici genetic, nici ereditar; boala nu ține de genom, iar debutul tardiv e trăsătura altui exemplu, coreea Huntington.",
+          "tag": "Congenital",
+          "tip": "concept",
+          "noutate": "nou",
+          "exemplu_nou": false
+        },
+        {
+          "q": "Un cuplu sănătos are un copil cu o boală genetică produsă de o mutație apărută în embrion. Rudele se tem că boala „e în familie” și că îi va afecta și pe ceilalți nepoți. Ce le poți spune?",
+          "opts": [
+            "E ereditară, deci unul dintre părinți e purtător ascuns",
+            "E genetică, dar nu moștenită: părinții nu sunt purtători",
+            "E congenitală, deci produsă de mediul din timpul sarcinii",
+            "E multifactorială, deci frații au un risc mult crescut"
+          ],
+          "correct": 1,
+          "explain": "O boală genetică poate să nu fie ereditară dacă apare după o mutație nouă la embrion sau la gamet, fără ca vreun părinte să fie purtător. A o numi congenitală spune doar că e prezentă la naștere, nu că e produsă de mediu; multifactorială ar fi o boală cu gene de susceptibilitate transmise în familie.",
+          "tag": "Genetic",
+          "tip": "concept",
+          "noutate": "nou",
+          "exemplu_nou": true
+        },
+        {
+          "q": "Un ziarist întreabă: „Cât la sută din agresivitatea unui adolescent vine din gene și cât din mediu?” Un genetician răspunde cu exemplul suprafeței unui dreptunghi. Ce vrea să arate?",
+          "opts": [
+            "Contribuțiile celor doi se pot aduna ca procente separate",
+            "Cei doi factori sunt necesari și se intercondiționează",
+            "Mediul contează doar acolo unde genele lipsesc",
+            "Genele fixează forma, iar mediul doar mărimea"
+          ],
+          "correct": 1,
+          "explain": "Suprafața nu există fără lungime și lățime și se schimbă dacă se schimbă oricare dintre ele: la fel, comportamentul e determinat de ereditate și de mediu, care interacționează și se intercondiționează. De aceea întrebarea „cât la sută” e greșit pusă: contribuțiile nu se adună separat, iar mediul nu intervine doar unde „lipsesc” genele.",
+          "tag": "Analogia dreptunghiului",
+          "tip": "principiu",
+          "noutate": "nou",
+          "exemplu_nou": true
+        },
+        {
+          "q": "Un inculpat invocă „genele lui” ca scuză pentru o faptă violentă, susținând că nu a fost liber să aleagă. Ce obiecție i se poate aduce din perspectiva lui Lewontin?",
+          "opts": [
+            "Genele violenței au fost găsite pe cromozomul X, deci scuza lui e valabilă",
+            "Comportamentul e moștenit ca atare, deci răspunderea e a părinților",
+            "Doar mediul social explică faptele, deci vinovată e societatea",
+            "Opusul libertății e coerciția, iar biologia ne face creatori ai mediului"
+          ],
+          "correct": 3,
+          "explain": "Lewontin arată că biologia umană (creierul, mâinile, limbajul) ne face independenți de multe caracteristici ale mediului și creatori care îl recreează: „biologia ne face liberi”; în plus, opusul libertății nu e determinismul, ci coerciția. Ideea unei gene pe cromozomul X amintește de speculațiile eugeniste ale lui Davenport, iar comportamentul nu e moștenit per se.",
+          "tag": "Lewontin: biologia ne face liberi",
+          "tip": "autor",
+          "noutate": "nou",
+          "exemplu_nou": true
+        },
+        {
+          "q": "Fratele vitreg al lui Leonardo da Vinci, care îl venera, s-a însurat cu o țărancă din Vinci asemănătoare mamei lui Leonardo, sperând să aibă un urmaș ca Leonardo. Fiul lor a devenit un sculptor de oarecare talent. Ce scapă din vedere acest „experiment”?",
+          "opts": [
+            "Talentul se transmite cultural, deci genele nu au contat",
+            "Fiecare urmaș primește o combinație genetică nouă, întâmplătoare",
+            "Trăsăturile tatălui trec mai ales la fiice, nu la fii",
+            "Mama aleasă nu avea, de fapt, genele mamei lui Leonardo"
+          ],
+          "correct": 1,
+          "explain": "La fiecare concepție, gameții părinților aduc altă combinație de gene, prin recombinare: fiecare om e o experiență unică, irepetabilă, decisă la fecundație, deci un urmaș nu poate fi „planificat” după un model. Chiar cu o mamă identică genetic, combinația ar fi fost alta. Talentul nu e strict cultural, iar „ereditatea încrucișată” e o prejudecată.",
+          "tag": "Variabilitatea genetică",
+          "tip": "principiu",
+          "noutate": "nou",
+          "exemplu_nou": false
+        },
+        {
+          "q": "Un ministru susține că toți copiii se nasc cu aceleași posibilități și că diferențele școlare vin numai din sărăcie și din familie. De aceea respinge orice formă de învățământ diferențiat. Ce orientare reflectă și ce i-ar obiecta genetica comportamentală?",
+          "opts": [
+            "Ambientalism; ignoră diferențele interindividuale ereditare",
+            "Eugenism; supraestimează rolul eredității în reușita școlară",
+            "Psihogenetică; neagă rolul educației în formarea aptitudinilor",
+            "Darwinism social; propune selecția elevilor după origine"
+          ],
+          "correct": 0,
+          "explain": "Doctrina uniformității esențiale a copiilor la naștere ține de teoriile ambientaliste (și de behaviorism), după care comportamentul e modelat decisiv de mediu. Genetica comportamentală răspunde că diferențele interindividuale au și bază ereditară, iar politica educațională ar trebui să diferențieze învățământul după posibilitățile elevilor. Eugenismul și darwinismul social spun opusul ministrului.",
+          "tag": "Eugenismul și ambientalismul",
+          "tip": "curent",
+          "noutate": "nou",
+          "exemplu_nou": true
+        },
+        {
+          "q": "O clientă e foarte anxioasă de mică, la fel ca mama ei. Psihoterapeutul nu încearcă să-i schimbe temperamentul, ci o ajută să găsească strategii care țin cont de el. Ce consecință a studierii diferențelor interindividuale aplică?",
+          "opts": [
+            "Identifică datele înnăscute, care nu se pot schimba, și caută alte căi",
+            "Tratează anxietatea ca rezultat al educației primite, deci reversibilă",
+            "Consideră anxietatea ereditară, deci inevitabilă și fără tratament posibil",
+            "Atribuie anxietatea unei gene unice a mamei, transmise mendelian"
+          ],
+          "correct": 0,
+          "explain": "Pentru psihoterapie, înțelegerea aspectelor înnăscute ale personalității duce la identificarea datelor care nu pot fi schimbate și la orientarea spre căi mai eficiente de rezolvare. A le trata drept simplu efect al educației ignoră baza ereditară; „ereditar” nu înseamnă însă „fără soluție”, iar o trăsătură complexă e puțin probabil monogenică.",
+          "tag": "Diferențele interindividuale",
+          "tip": "principiu",
+          "noutate": "nou",
+          "exemplu_nou": true
+        },
+        {
+          "q": "Doi copii au amândoi ochii căprui. Un student conclude că au, sigur, același genotip pentru culoarea ochilor. Ce-i scapă?",
+          "opts": [
+            "Culoarea ochilor ține mai ales de mediu, nu de genotip",
+            "Genotipul copiilor se modifică odată cu vârsta",
+            "Același fenotip poate ascunde genotipuri diferite",
+            "Fenotipul se moștenește direct, fără genotip"
+          ],
+          "correct": 2,
+          "explain": "Genotipul nu poate fi dedus cu precizie din structura morfologică: el e accesibil doar prin fenotip, dar fenotipul e starea finală a caracterului, care nu arată ce alele se află în spate (partitura față de simfonie). Genotipul e constant toată viața, iar culoarea ochilor e un caracter ereditar.",
+          "tag": "Genotipul se vede prin fenotip",
+          "tip": "concept",
+          "noutate": "nou",
+          "exemplu_nou": true
+        },
+        {
+          "q": "Un cercetător constată că aceeași secvență de ADN dă o proteină în ficat și alta în creier. Ce descoperire, care a schimbat chiar conceptul de genă, explică observația?",
+          "opts": [
+            "Genele reglatoare sunt traduse în proteine diferite în fiecare organ",
+            "Ficatul și creierul au genoame ușor diferite",
+            "O mutație a modificat gena în celulele creierului",
+            "Exonii sunt decupați și citiți diferit după tipul de celulă"
+          ],
+          "correct": 3,
+          "explain": "Decuparea și citirea segmentelor codante (exonii) depind de tipul de celulă sau de starea ei, iar o genă poate fi „citită” diferit și poate codifica proteine diferite; de aceea gena a devenit „o entitate funcțională labilă”. Genele reglatoare nu sunt traduse în proteine, iar genomul e același în toate celulele.",
+          "tag": "Breșele dogmei centrale",
+          "tip": "concept",
+          "noutate": "nou",
+          "exemplu_nou": true
+        },
+        {
+          "q": "Doi pacienți cu același diagnostic răspund foarte diferit la același medicament, deși genele enzimelor implicate sunt identice la ei. Unde ar căuta un genetician explicația, după constatările Programului Genomul Uman?",
+          "opts": [
+            "În numărul diferit de gene al celor doi",
+            "În proteomul, identic la toți oamenii",
+            "În polimorfismele ADN din zonele necodante",
+            "În cromozomii suplimentari ai unuia"
+          ],
+          "correct": 2,
+          "explain": "Variantele fără efecte vizibile care se acumulează în zonele necodante, polimorfismele ADN, sunt considerate probabil responsabile de susceptibilitatea la boli comune și de răspunsul diferențiat la medicamente. Numărul de gene e același la toți oamenii, proteomul diferă chiar între celulele aceluiași om, iar o anomalie cromozomială nu ar trece neobservată.",
+          "tag": "ADN-ul necodant",
+          "tip": "concept",
+          "noutate": "nou",
+          "exemplu_nou": true
+        },
+        {
+          "q": "Un student spune: „Dacă 99,9% din genom e identic la toți oamenii, diferențele dintre noi trebuie să fie doar de mediu.” Ce îi răspunzi?",
+          "opts": [
+            "Genomul a doi oameni neînrudiți diferă de fapt cu 10%",
+            "Diferențele vin din numărul diferit de cromozomi",
+            "Cele 0,1% înseamnă totuși milioane de nucleotide variabile",
+            "Diferențele țin numai de ADN-ul codant al fiecăruia"
+          ],
+          "correct": 2,
+          "explain": "Procentul de 0,1% care ne diferențiază înseamnă circa 3 milioane de nucleotide, variabile la rândul lor, cărora li se atribuie individualitatea și unicitatea fiecăruia. Ideea unei diferențe de 10% exagerează, numărul de cromozomi e același, iar variantele se găsesc mai ales în ADN-ul necodant.",
+          "tag": "99,9% identic",
+          "tip": "concept",
+          "noutate": "nou",
+          "exemplu_nou": false
+        },
+        {
+          "q": "Programul Genomul Uman a fost demarat în 1990, planificat pentru 15 ani, dar finalizarea a fost anunțată în aprilie 2003. Ce a permis devansarea?",
+          "opts": [
+            "Automatizarea, informatica și intrarea în scenă a Celera Genomics",
+            "Renunțarea la secvențierea ADN-ului necodant al genomului",
+            "Numărul de gene mult mai mic decât cel estimat inițial",
+            "Reglementările bioetice adoptate de UNESCO în anul 1997"
+          ],
+          "correct": 0,
+          "explain": "Finalizarea a fost devansată datorită progreselor automatizării și informaticii și intrării, alături de consorțiul public internațional coordonat de HUGO, a unei firme private americane, Celera Genomics. Numărul mic de gene e un rezultat al programului, nu o cauză a grăbirii; Declarația UNESCO privește etica, nu ritmul secvențierii.",
+          "tag": "Desfășurarea programului",
+          "tip": "istoric",
+          "noutate": "nou",
+          "exemplu_nou": false
+        }
+      ],
+      "ascunse": [
+        {
+          "q": "Doi cercetători se contrazic: unul afirmă că inteligența e „înnăscută”, celălalt că e „dobândită”, fiecare citând date care îi susțin poziția. Ce poziție susține genetica actuală?",
+          "opts": [
+            "Inteligența e jumătate înnăscută și jumătate dobândită, ca sume separate",
+            "Ereditatea și mediul interacționează, fiecare depinzând de celălalt",
+            "Înnăscutul și dobânditul se pot separa net, ca în teoriile clasice",
+            "Inteligența e dobândită, iar testele măsoară doar efectul școlii"
+          ],
+          "correct": 1,
+          "explain": "Teoriile clasice făceau o deosebire netă între înnăscut și dobândit; cercetările recente arată că cele două interacționează, fiecare depinzând de celălalt, mai ales în dezvoltarea creierului și a inteligenței. A le împărți „jumătate–jumătate” presupune tot că se pot separa, iar varianta strict ambientalistă ignoră potențialul genetic.",
+          "tag": "Interacțiunea ereditate–mediu",
+          "tip": "principiu",
+          "noutate": "nou",
+          "exemplu_nou": true
+        },
+        {
+          "q": "Un laborator trebuie să stabilească dacă doi gemeni de același sex sunt monozigoți sau dizigoți. Ce caractere compară și de ce?",
+          "opts": [
+            "Înălțimea și greutatea, condiționate puternic genetic",
+            "Inteligența, condiționată genetic și de mediu",
+            "Grupele sanguine și HLA, care nu depind de mediu",
+            "Tensiunea arterială, cu o componentă familială"
+          ],
+          "correct": 2,
+          "explain": "Diagnosticul diferențial al gemenilor monozigoți și dizigoți se face pe caractere determinate genetic, fără influența mediului: grupe sanguine, grupe tisulare, proteine serice. Înălțimea, greutatea, inteligența și tensiunea sunt multifactoriale, deci pot diferi și la gemeni identici crescuți diferit.",
+          "tag": "Determinism exclusiv genetic",
+          "tip": "metoda",
+          "noutate": "nou",
+          "exemplu_nou": true
+        },
+        {
+          "q": "Un istoric al psihologiei caută cine a propus primul să fie studiați gemenii și copiii adoptați pentru a separa rolul eredității de cel al mediului. La cine ajunge?",
+          "opts": [
+            "Francis Galton",
+            "Charles Darwin",
+            "Charles Davenport",
+            "Fuller și Thompson"
+          ],
+          "correct": 0,
+          "explain": "Galton a studiat „avant la lettre” ereditatea caracteristicilor mentale și a sugerat folosirea gemenilor și a copiilor adoptați. Darwin a scris despre expresia emoțiilor, Davenport a fost un eugenist, iar Fuller și Thompson au publicat în 1960 prima carte care a consacrat genetica comportamentală ca disciplină.",
+          "tag": "Genetica comportamentală",
+          "tip": "autor",
+          "noutate": "nou",
+          "exemplu_nou": false
+        },
+        {
+          "q": "Un laborator analizează ADN-ul de pe un pahar lăsat de o persoană la restaurant, la cererea unei rude, fără să o anunțe sau să-i ceară acordul. Ce principii ale bioeticii încalcă?",
+          "opts": [
+            "Autonomia, consimțământul informat și confidențialitatea",
+            "Patrimoniul comun al umanității și libertatea cercetării științifice",
+            "Medicina predictivă și screeningul genetic la naștere",
+            "Nediscriminarea genetică și dreptul la un transplant"
+          ],
+          "correct": 0,
+          "explain": "Mostrele de ADN pe care le lăsăm peste tot fac folosirea lor incontrolabilă dacă nu se respectă autonomia și consimțământul informat, precum și confidențialitatea. Medicina predictivă și screeningul sunt aplicații, nu principii, iar nediscriminarea privește tratamentul aplicat persoanei după aflarea datelor.",
+          "tag": "Principiile bioeticii",
+          "tip": "principiu",
+          "noutate": "nou",
+          "exemplu_nou": true
+        },
+        {
+          "q": "Un psihiatru speră ca, în viitor, eșantioanele de ADN să înlocuiască geamurile de unic sens folosite la observarea pacienților. Ce direcție de cercetare are în vedere?",
+          "opts": [
+            "Epidemiologia genetică a trăsăturilor normale",
+            "Analiza riscului de discriminare genetică",
+            "Genetica formală a încrucișărilor controlate",
+            "Scanarea genomului pentru gene de predispoziție"
+          ],
+          "correct": 3,
+          "explain": "Scanarea genomului urmărește localizarea genelor multiple de predispoziție pentru tulburări ca boala maniaco-depresivă, schizofrenia sau autismul; de aici speranța că ADN-ul va înlocui observarea. Epidemiologia genetică și problemele etice sunt celelalte două direcții, iar genetica formală nu lucrează cu tulburările psihice umane.",
+          "tag": "Direcții de cercetare",
+          "tip": "metoda",
+          "noutate": "nou",
+          "exemplu_nou": false
+        }
+      ]
+    }
+  ],
+  "harta": {
+    "centru": "Introducere în genetică",
+    "ramuri": [
+      {
+        "titlu": "Obiectul geneticii",
+        "noduri": [
+          {
+            "t": "Ereditatea",
+            "d": "Proprietatea organismelor de a transmite urmașilor caracteristici morfologice, fiziologice, biochimice și comportamentale. Nu caracterele se transmit direct, ci informația din genele gameților: ereditatea e un proces informațional de stocare, exprimare și transmitere. În practică are sens restrâns: cum se transmite o genă (dominant, recesiv, legat de sex). Termenul a intrat în biologie prin psihiatrul Prosper Lucas (1847); Mendel își numise legile „ale hibridării”."
+          },
+          {
+            "t": "Genetica",
+            "d": "Știința legilor eredității; azi, studiul structurii și funcției genelor și al relației lor cu mediul (intern și extern). Genetica umană studiază ereditatea și variabilitatea la om."
+          },
+          {
+            "t": "Gena",
+            "d": "Unitatea structurală și funcțională a materialului genetic: segment de ADN care codifică un polipeptid. ADN-ul e o macromoleculă din două lanțuri de nucleotide complementare, în dublu helix, aflată în cele 23 de perechi de cromozomi. Formula clasică „o genă → un caracter” a devenit „o genă → o proteină” („dogma centrală”)."
+          },
+          {
+            "t": "Breșele dogmei centrale",
+            "d": "Genele reglatoare (netraduse în proteine) activează sau suprimă genele codificatoare; genele sunt întrerupte de introni necodanți, eliminați din mesaj; decuparea și citirea exonilor depinde de tipul și starea celulei; există gene în interiorul altor gene. Aceeași genă poate fi citită diferit: gena devine „o entitate funcțională labilă”."
+          },
+          {
+            "t": "Mutația și alela",
+            "d": "Mutația = modificarea bruscă, uneori punctiformă, a structurii unei gene; produce o variantă numită alelă, normală sau anormală, care se poate transmite. Mutațiile sunt fenomene naturale și o sursă de variabilitate."
+          },
+          {
+            "t": "Variabilitatea genetică",
+            "d": "Ansamblul fenomenelor care produc diferențele genetice dintre indivizi și dintre populații. Surse: mutațiile și recombinările de la formarea gameților. Doi părinți pot da virtual 10²⁷⁰ combinații. I se adaugă variabilitatea nongenetică, produsă de mediu."
+          }
+        ]
+      },
+      {
+        "titlu": "Genotip și fenotip",
+        "noduri": [
+          {
+            "t": "Genotipul",
+            "d": "Constituția genetică stabilită la fecundație, constantă toată viața: individualitatea genetică. Dovadă indirectă a unicității ei: „xenofobia organică”, respingerea oricărui țesut străin (grefe, transplanturi)."
+          },
+          {
+            "t": "Fenotipul",
+            "d": "Totalitatea caracterelor vizibile, măsurabile: individualitatea biologică. Potențial variabil, la confluența eredității cu mediul; e starea organismului la un moment dat. Nu există doi indivizi identici, nici gemenii monozigoți."
+          },
+          {
+            "t": "Genotipul se vede prin fenotip",
+            "d": "Genotipul nu se poate deduce cu precizie din fenotip, dar nu e accesibil decât prin el. Jacquard: genotipul e „partitura”, fenotipul „simfonia” pe care o auzim. Analiza eredității începe prin a separa elementele constituționale de cele fenotipice."
+          },
+          {
+            "t": "Comportamentul ca fenotip",
+            "d": "Pentru genetica comportamentală, comportamentul e un fenotip: o caracteristică observabilă pe care o putem măsura. Rezumatul distinge trei niveluri: individualitate genetică (genotip), biologică (fenotip) și bio-psiho-socială."
+          }
+        ]
+      },
+      {
+        "titlu": "Determinismul caracterelor",
+        "lat": true,
+        "figuri": [
+          {
+            "titlu": "Ponderea eredității și a mediului în determinarea trăsăturilor",
+            "nota": "Redesenată după figura din manual: procentul arată cât din determinism revine eredității (restul, mediului). Pozițiile sunt aproximative; pentru înălțime textul dă o condiționare genetică de 76%. Chiar și la 0% răspunsul la agresiune depinde de „terenul” genetic.",
+            "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 340 400\" role=\"img\" aria-label=\"Ponderea eredității și a mediului în determinarea unor trăsături normale și anormale, de la 100% ereditate la 0%\" font-family=\"Georgia, serif\" font-size=\"13\"><defs><linearGradient id=\"g11\" x1=\"0\" y1=\"0\" x2=\"0\" y2=\"1\"><stop offset=\"0\" stop-color=\"#2a78d6\"/><stop offset=\"1\" stop-color=\"#eb6834\"/></linearGradient></defs><text x=\"170.0\" y=\"18.0\" text-anchor=\"middle\" fill=\"#2a78d6\" font-size=\"12.0\" font-weight=\"bold\">EREDITATE</text><text x=\"170.0\" y=\"390.0\" text-anchor=\"middle\" fill=\"#eb6834\" font-size=\"12.0\" font-weight=\"bold\">MEDIU</text><text x=\"144.0\" y=\"42.0\" text-anchor=\"end\" fill=\"#6b6760\" font-size=\"10.8\" font-style=\"italic\">Trăsături normale</text><text x=\"196.0\" y=\"42.0\" text-anchor=\"start\" fill=\"#6b6760\" font-size=\"10.8\" font-style=\"italic\">Trăsături anormale</text><rect x=\"152.0\" y=\"54\" width=\"36\" height=\"306\" rx=\"6\" fill=\"url(#g11)\"/><text x=\"170.0\" y=\"65.6\" text-anchor=\"middle\" fill=\"#ffffff\" font-size=\"10.2\" font-weight=\"bold\">100%</text><text x=\"170.0\" y=\"138.1\" text-anchor=\"middle\" fill=\"#ffffff\" font-size=\"10.2\" font-weight=\"bold\">75%</text><text x=\"170.0\" y=\"210.6\" text-anchor=\"middle\" fill=\"#ffffff\" font-size=\"10.2\" font-weight=\"bold\">50%</text><text x=\"170.0\" y=\"283.1\" text-anchor=\"middle\" fill=\"#ffffff\" font-size=\"10.2\" font-weight=\"bold\">25%</text><text x=\"170.0\" y=\"355.6\" text-anchor=\"middle\" fill=\"#ffffff\" font-size=\"10.2\" font-weight=\"bold\">0%</text><line x1=\"146.0\" y1=\"62.0\" x2=\"152.0\" y2=\"62.0\" stroke=\"#2c2a26\" stroke-width=\"1\"/><circle cx=\"146.0\" cy=\"62.0\" r=\"2.5\" fill=\"#2a78d6\" stroke=\"#faf8f3\" stroke-width=\"1.5\"></circle><text x=\"140.0\" y=\"66.0\" text-anchor=\"end\" fill=\"#2c2a26\" font-size=\"10.8\">Grupa sanguină</text><line x1=\"146.0\" y1=\"134.5\" x2=\"152.0\" y2=\"134.5\" stroke=\"#2c2a26\" stroke-width=\"1\"/><circle cx=\"146.0\" cy=\"134.5\" r=\"2.5\" fill=\"#2a78d6\" stroke=\"#faf8f3\" stroke-width=\"1.5\"></circle><text x=\"140.0\" y=\"132.0\" text-anchor=\"end\" fill=\"#2c2a26\" font-size=\"10.8\">Talia, dermatoglifele,</text><text x=\"140.0\" y=\"145.0\" text-anchor=\"end\" fill=\"#2c2a26\" font-size=\"10.8\">culoarea pielii</text><line x1=\"146.0\" y1=\"172.2\" x2=\"152.0\" y2=\"172.2\" stroke=\"#2c2a26\" stroke-width=\"1\"/><circle cx=\"146.0\" cy=\"172.2\" r=\"2.5\" fill=\"#2a78d6\" stroke=\"#faf8f3\" stroke-width=\"1.5\"></circle><text x=\"140.0\" y=\"176.2\" text-anchor=\"end\" fill=\"#2c2a26\" font-size=\"10.8\">Greutatea</text><line x1=\"146.0\" y1=\"207.0\" x2=\"152.0\" y2=\"207.0\" stroke=\"#2c2a26\" stroke-width=\"1\"/><circle cx=\"146.0\" cy=\"207.0\" r=\"2.5\" fill=\"#2a78d6\" stroke=\"#faf8f3\" stroke-width=\"1.5\"></circle><text x=\"140.0\" y=\"211.0\" text-anchor=\"end\" fill=\"#2c2a26\" font-size=\"10.8\">Inteligența</text><line x1=\"146.0\" y1=\"279.5\" x2=\"152.0\" y2=\"279.5\" stroke=\"#2c2a26\" stroke-width=\"1\"/><circle cx=\"146.0\" cy=\"279.5\" r=\"2.5\" fill=\"#2a78d6\" stroke=\"#faf8f3\" stroke-width=\"1.5\"></circle><text x=\"140.0\" y=\"283.5\" text-anchor=\"end\" fill=\"#2c2a26\" font-size=\"10.8\">Tensiunea arterială</text><line x1=\"146.0\" y1=\"317.2\" x2=\"152.0\" y2=\"317.2\" stroke=\"#2c2a26\" stroke-width=\"1\"/><circle cx=\"146.0\" cy=\"317.2\" r=\"2.5\" fill=\"#2a78d6\" stroke=\"#faf8f3\" stroke-width=\"1.5\"></circle><text x=\"140.0\" y=\"321.2\" text-anchor=\"end\" fill=\"#2c2a26\" font-size=\"10.8\">Dezvoltarea musculară</text><line x1=\"188.0\" y1=\"62.0\" x2=\"194.0\" y2=\"62.0\" stroke=\"#2c2a26\" stroke-width=\"1\"/><circle cx=\"194.0\" cy=\"62.0\" r=\"2.5\" fill=\"#b5453a\" stroke=\"#faf8f3\" stroke-width=\"1.5\"></circle><text x=\"200.0\" y=\"59.5\" text-anchor=\"start\" fill=\"#2c2a26\" font-size=\"10.8\">Albinism, hemofilie,</text><text x=\"200.0\" y=\"72.5\" text-anchor=\"start\" fill=\"#2c2a26\" font-size=\"10.8\">acondroplazie, sdr. Down</text><line x1=\"188.0\" y1=\"134.5\" x2=\"194.0\" y2=\"134.5\" stroke=\"#2c2a26\" stroke-width=\"1\"/><circle cx=\"194.0\" cy=\"134.5\" r=\"2.5\" fill=\"#b5453a\" stroke=\"#faf8f3\" stroke-width=\"1.5\"></circle><text x=\"200.0\" y=\"132.0\" text-anchor=\"start\" fill=\"#2c2a26\" font-size=\"10.8\">Schizofrenia,</text><text x=\"200.0\" y=\"145.0\" text-anchor=\"start\" fill=\"#2c2a26\" font-size=\"10.8\">buza de iepure</text><line x1=\"188.0\" y1=\"207.0\" x2=\"194.0\" y2=\"207.0\" stroke=\"#2c2a26\" stroke-width=\"1\"/><circle cx=\"194.0\" cy=\"207.0\" r=\"2.5\" fill=\"#b5453a\" stroke=\"#faf8f3\" stroke-width=\"1.5\"></circle><text x=\"200.0\" y=\"211.0\" text-anchor=\"start\" fill=\"#2c2a26\" font-size=\"10.8\">Diabetul zaharat</text><line x1=\"188.0\" y1=\"279.5\" x2=\"194.0\" y2=\"279.5\" stroke=\"#2c2a26\" stroke-width=\"1\"/><circle cx=\"194.0\" cy=\"279.5\" r=\"2.5\" fill=\"#b5453a\" stroke=\"#faf8f3\" stroke-width=\"1.5\"></circle><text x=\"200.0\" y=\"277.0\" text-anchor=\"start\" fill=\"#2c2a26\" font-size=\"10.8\">Ulcerul gastro-duodenal,</text><text x=\"200.0\" y=\"290.0\" text-anchor=\"start\" fill=\"#2c2a26\" font-size=\"10.8\">cardiopatia ischemică</text><line x1=\"188.0\" y1=\"352.0\" x2=\"194.0\" y2=\"352.0\" stroke=\"#2c2a26\" stroke-width=\"1\"/><circle cx=\"194.0\" cy=\"352.0\" r=\"2.5\" fill=\"#b5453a\" stroke=\"#faf8f3\" stroke-width=\"1.5\"></circle><text x=\"200.0\" y=\"349.5\" text-anchor=\"start\" fill=\"#2c2a26\" font-size=\"10.8\">Infecții, intoxicații,</text><text x=\"200.0\" y=\"362.5\" text-anchor=\"start\" fill=\"#2c2a26\" font-size=\"10.8\">accidente</text></svg>"
+          }
+        ],
+        "noduri": [
+          {
+            "t": "Determinism exclusiv genetic",
+            "d": "Caracterele de specie și cele ale individualității biologice (grupe sanguine, grupe tisulare HLA, proteine serice, enzime) și unele anormale (hemofilia, sindromul Down); determinism monogenic, transmitere mendeliană. Utile la identificare, paternitate, transfuzii, transplant, diagnosticul gemenilor monozigoți/dizigoți. Fiind polimorfe, fac din fiecare un unicat biologic."
+          },
+          {
+            "t": "Ereditar nu înseamnă inevitabil",
+            "d": "Și bolile genetice pot fi influențate de mediu, prin terapie: fenilcetonuria (evoluează spre retard sever) se previne prin depistare la naștere și dietă fără fenilalanină; hipotiroidismul se tratează cu hormoni de substituție. Contrazice prejudecata că bolile genetice nu se pot trata."
+          },
+          {
+            "t": "Determinism eco-genetic",
+            "d": "Caracterele multifactoriale: interacțiunea, în proporții diferite, dintre mai multe gene și mai mulți factori de mediu. Normale: înălțimea (condiționată genetic 76%; a crescut unde s-au ameliorat condițiile), greutatea, inteligența. Nu moștenim un IQ, ci abilitatea de a-l dezvolta; testele nu măsoară factorul ereditar."
+          },
+          {
+            "t": "Norma de reacție",
+            "d": "La caracterele multifactoriale normale, ereditatea condiționează doar un potențial, care se realizează sau nu după condiții: o normă de reacție la mediu care permite adaptarea, dar numai între anumite limite."
+          },
+          {
+            "t": "Predispoziția genetică",
+            "d": "Caracterele multifactoriale anormale: bolile comune ale adultului (hipertensiune arterială primară, diabet, boală coronariană, psihoza maniaco-depresivă, epilepsie) și malformațiile congenitale comune (de cord, luxația congenitală de șold, buza de iepure). Genele dau doar vulnerabilitate, care devine boală prin interacțiunea cu mediul. Fără transmitere mendeliană, au totuși concentrare familială, deci medicul privește și familia."
+          },
+          {
+            "t": "Determinism exclusiv ecologic",
+            "d": "Accidente, intoxicații, traumatisme, avitaminoze. Dar și aici răspunsul depinde de structura genetică: în epidemii nu se îmbolnăvesc toți expușii. Claude Bernard: „microbul nu-i nimic, terenul este totul”; Ambroise Paré: „nu există boli, există bolnavi” (extins: „familii de bolnavi”). Aproape nu există caractere strict ecologice."
+          }
+        ]
+      },
+      {
+        "titlu": "Relația ereditate–mediu",
+        "noduri": [
+          {
+            "t": "Interacțiunea ereditate–mediu",
+            "d": "Fiecare organism e, în egală măsură, produsul eredității și al mediului. Teoriile clasice separau net înnăscutul de dobândit; cercetările recente arată că interacționează, fiecare depinzând de celălalt, evident mai ales la dezvoltarea creierului și a inteligenței. Dobzhansky: „Omul este o parte a mediului său”; omul și cultura au evoluat sincron."
+          },
+          {
+            "t": "Mediul",
+            "d": "Nu doar factorii naturali: și condițiile socio-economice și cultura (cunoștințe, credințe, artă, morală, legi, obiceiuri — câștigate, nu moștenite). Mediul = totalitatea factorilor ecologici (fizici, chimici, biologici) și mai ales psihologici și socio-culturali."
+          },
+          {
+            "t": "Analogia dreptunghiului",
+            "d": "Suprafața unui dreptunghi nu există fără lungime și lățime și se schimbă dacă se schimbă oricare. La fel, comportamentul e determinat de ereditate și de mediu, între care există interacțiune și intercondiționare totală; întrebarea „cât la sută” e greșit pusă."
+          },
+          {
+            "t": "Lewontin: biologia ne face liberi",
+            "d": "Lewontin (1985): determinismul biologic spune că nu suntem liberi; dar creierul, mâinile și limbajul ne-au făcut independenți de multe trăsături ale mediului, creatori care îl recreează: „tocmai biologia noastră ne face liberi”. Opusul libertății nu e determinismul, ci coerciția; mulți invocă determinismul genetic ca să scape de responsabilitate."
+          }
+        ]
+      },
+      {
+        "titlu": "Congenital, ereditar, genetic",
+        "tabel": {
+          "cap": [
+            "Termen",
+            "Ce spune",
+            "Nu înseamnă",
+            "Exemplu"
+          ],
+          "randuri": [
+            [
+              "Congenital",
+              "prezent la naștere; fără conotație de cauză",
+              "că e moștenit",
+              "malformații prin medicamente, radiații, virusuri; sifilisul congenital (greșit numit „eredosifilis”)"
+            ],
+            [
+              "Ereditar",
+              "boală genetică moștenită de la părinți",
+              "că e prezentă la naștere",
+              "coreea Huntington: se exprimă târziu"
+            ],
+            [
+              "Genetic",
+              "ține de materialul genetic",
+              "că e moștenit",
+              "sindromul Down: de regulă accident cromozomial nou"
+            ]
+          ]
+        },
+        "noduri": [
+          {
+            "t": "Congenital",
+            "d": "Orice caracter, normal sau patologic, prezent la naștere, fără conotație etiologică: poate fi înnăscut sau dobândit intrauterin (radiații, medicamente, virusuri). Sifilisul congenital, contaminare feto-maternă, a fost greșit numit „eredosifilis”."
+          },
+          {
+            "t": "Ereditar",
+            "d": "Boală genetică moștenită de la părinți. O boală ereditară nu e congenitală dacă anomalia se exprimă mult după naștere (coreea Huntington)."
+          },
+          {
+            "t": "Genetic",
+            "d": "Orice boală ereditară e genetică, dar nu orice boală genetică e ereditară: poate apărea printr-o mutație nouă la embrion sau la gamet, fără ca părinții să fie purtători (sindromul Down, de regulă accident cromozomial)."
+          }
+        ]
+      },
+      {
+        "titlu": "Genetica și psihologia",
+        "noduri": [
+          {
+            "t": "Ramurile geneticii",
+            "d": "Genetica formală (legile transmiterii caracterelor), genetica moleculară (ereditatea la nivel molecular), genetica umană, care se întrepătrunde cu medicina, psihologia și etologia: genetica medicală, psihogenetica, genetica comportamentală."
+          },
+          {
+            "t": "Psihogenetica",
+            "d": "Ramură nouă, revendicată și de psihologi: rolul factorilor ereditari în viața psihică; servește pedagogiei. Între influența genetică și importanța educației nu e nicio contradicție. Voltaire: „O educație aleasă pune în valoare calitățile omului, dar nu poate să le creeze”."
+          },
+          {
+            "t": "Genetica comportamentală",
+            "d": "Disciplină distinctă odată cu prima carte, Fuller și Thompson (1960); creștere exponențială după anii ’70. Istoria ei începe cu Darwin („Expresia emoțiilor la om și animale”) și cu Galton, care a sugerat studiul gemenilor și al copiilor adoptați."
+          },
+          {
+            "t": "Eugenismul și ambientalismul",
+            "d": "La început de secol XX, comportamentul era văzut ca puternic ereditar; darwinismul social a dus la eugenism și la sterilizări (30 de state ale SUA). Davenport: „gena thalassophiliei” pe cromozomul X. Apoi, teoriile ambientaliste (mediul decisiv: sărăcie, educație), cu programe sociale costisitoare, abandonate. Behavioriștii (Skinner) au exclus o vreme genetica: doctrina uniformității copiilor la naștere."
+          },
+          {
+            "t": "Diferențele interindividuale",
+            "d": "Studiul lor contează pentru: politica educațională (învățământ diferențiat după posibilități și aptitudini), orientarea profesională („omul potrivit la locul potrivit”, fără risipă de aptitudini), psihoterapie (identificarea datelor înnăscute care nu pot fi schimbate și căutarea altor căi)."
+          },
+          {
+            "t": "Direcții de cercetare",
+            "d": "Niciun comportament nu a fost legat strict de markeri genetici: comportamentul nu e moștenit per se, dar zestrea ereditară poate facilita sau frâna învățarea. Teme: originea limbajului, personalitatea, boala mentală, agresiunea, diferențele de gen, inteligența. Direcții noi: epidemiologia genetică a bolilor psihice; scanarea genomului pentru gene de predispoziție (boala maniaco-depresivă, schizofrenie, Alzheimer, alcoolism, autism); problemele etice ale discriminării genetice."
+          }
+        ]
+      },
+      {
+        "titlu": "Bioetica",
+        "noduri": [
+          {
+            "t": "Bioetica",
+            "d": "Bios + ethos: etica științelor vieții; se ocupă de consecințele etice ale performanțelor biomedicale, mai ales genetice (teste genetice, profil genetic, OMG, clonare), și caută consensul dintre științific și etic. Reglementările devin repede caduce și se reexaminează. Jonas Salk: „Responsabilitatea noastră este să fim buni strămoși!”"
+          },
+          {
+            "t": "Declarația Universală asupra Genomului Uman",
+            "d": "Lansată în 1997 de Comitetul Internațional de Bioetică UNESCO (la 50 de ani de la Carta Drepturilor Omului), cu 186 de state. Genomul uman e patrimoniu comun al umanității; nimeni nu va fi discriminat după caracteristicile genetice; limite pentru intervenții, apărarea demnității, respingerea determinismului genetic."
+          },
+          {
+            "t": "Principiile bioeticii",
+            "d": "ADN-ul e „cartea noastră de identitate biologică”, iar mostre lăsăm peste tot; cu amprentele genetice banalizate, folosirea lor devine incontrolabilă dacă nu se respectă autonomia, consimțământul informat și confidențialitatea."
+          }
+        ]
+      },
+      {
+        "titlu": "Programul Genomul Uman",
+        "noduri": [
+          {
+            "t": "Genom și proteom",
+            "d": "Genom = totalitatea informației genetice din ADN, aceeași în toate celulele. Proteom = setul de proteine codificat; diferă între celule, pentru că activitatea genelor depinde de tipul de celulă, țesut, etapă a vieții. Genomica: cartografierea, secvențierea și analiza genomului (ordinea bazelor A, T, G, C, circa 3 miliarde de „litere”); proteomica: studiul proteinelor."
+          },
+          {
+            "t": "Desfășurarea programului",
+            "d": "Început în SUA în 1989, demarat în 1990 pe 15 ani, coordonat de HUGO, comparabil financiar cu programul Apollo. Finalizare anunțată în aprilie 2003, devansată datorită automatizării și informaticii și intrării firmei private Celera Genomics alături de consorțiul public."
+          },
+          {
+            "t": "Puține gene, multe proteine",
+            "d": "Doar 25.000–35.000 de gene, de circa două ori cât la musculița de oțet. Explicația: gene foarte eficiente, cu mai multe funcții, care produc în medie trei proteine. Peste 10.000 localizate pe cromozomi, circa 5000 cu funcție cunoscută."
+          },
+          {
+            "t": "ADN-ul necodant",
+            "d": "Gene distribuite neuniform (zone aglomerate și zone „deșertice”). Peste 90% din ADN nu codifică nicio genă, cu rost necunoscut; secvențele repetitive sunt un document fosil al evoluției. În zonele necodante se acumulează polimorfisme ADN, probabil legate de susceptibilitatea la boli comune și de răspunsul diferit la medicamente."
+          },
+          {
+            "t": "99,9% identic",
+            "d": "99,9% din secvențele genomului sunt identice la toți oamenii; 0,1% (circa 3 milioane de nucleotide) ne diferențiază și explică individualitatea. Urmează elucidarea funcțiilor genelor și medicina predictivă: „cunoaște-ți genomul”."
+          }
+        ]
+      }
+    ]
+  }
+}

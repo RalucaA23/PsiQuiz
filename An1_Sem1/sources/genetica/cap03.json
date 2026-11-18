@@ -1,0 +1,946 @@
+{
+  "schema": "quiz-capitol-v3",
+  "capitol": 3,
+  "titlu": "Modele de transmitere a caracterelor monogenice (mendeliene) în familiile umane",
+  "sursa": "Genetica comportamentului uman, Unitatea 3, pp. 38–60",
+  "runde": [
+    {
+      "id": "1",
+      "eticheta": "Runda 1 · Bază",
+      "titlu": "Runda 1 — Concepte de bază",
+      "desc": "Teorie: modelele de transmitere, excepțiile lor, consangvinitatea și ereditatea legată de sex, în întrebări directe.",
+      "intrebari": [
+        {
+          "q": "Ce face ca un caracter să fie monogenic?",
+          "opts": [
+            "Prezența lui depinde de gene de pe cromozomul X",
+            "Prezența lui depinde de mai multe gene și de mediu",
+            "Prezența lui depinde de un singur cuplu de gene",
+            "Prezența lui depinde de un cromozom întreg"
+          ],
+          "correct": 2,
+          "explain": "Un caracter monogenic (mendelian) e determinat de un singur locus, deci de un cuplu de alele, și segregă în proporții fixe. Genele de pe X dau doar un anumit model de transmitere, nu fac caracterul monogenic; mai multe gene plus mediu descriu ereditatea multifactorială.",
+          "tag": "Caracterul monogenic",
+          "tip": "concept",
+          "noutate": "nou"
+        },
+        {
+          "q": "Ce greșeală conține formula „persoana X are gena pentru boala Y”?",
+          "opts": [
+            "Gena bolii apare doar la purtătorii heterozigoți",
+            "Toți avem gena; bolnavul are o mutație a ei",
+            "Bolile monogenice sunt produse de cromozomi întregi",
+            "Gena bolii e activă doar în prezența mediului"
+          ],
+          "correct": 1,
+          "explain": "Toți oamenii au gena respectivă; bolnavul are o formă mutantă, uneori nefuncțională, a ei. A defini gena prin boală e ca a spune că ficatul există pentru ciroză. Purtătorii, cromozomii sau mediul nu schimbă faptul că gena normală e prezentă la toată lumea.",
+          "tag": "Gena definită prin boală",
+          "tip": "principiu",
+          "noutate": "nou"
+        },
+        {
+          "q": "Ce dificultate a omului ca obiect de studiu genetic se poate depăși cumulând datele din mai multe familii?",
+          "opts": [
+            "Numărul mic de membri ai unei familii",
+            "Intervalul mare dintre două generații",
+            "Imposibilitatea experiențelor genetice pe om",
+            "Diversitatea foarte mare a indivizilor"
+          ],
+          "correct": 0,
+          "explain": "Riscul mendelian se verifică doar în familii mari; datele din mai multe familii cu aceeași trăsătură se pot prelucra statistic împreună. Intervalul dintre generații și interdicția experiențelor rămân limite de neocolit, iar diversitatea (omul e un polihibrid) nu dispare prin cumulare.",
+          "tag": "Omul ca obiect de studiu genetic",
+          "tip": "principiu",
+          "noutate": "nou"
+        },
+        {
+          "q": "Ce cere o anchetă familială corectă?",
+          "opts": [
+            "Probandul și părinții lui, examinați direct",
+            "Membri cât mai mulți, pe cel puțin trei generații",
+            "Cel puțin cinci generații, examinate direct",
+            "Rudele afectate, pe două generații succesive"
+          ],
+          "correct": 1,
+          "explain": "Ancheta cere investigarea directă a cât mai multor membri, pe cel puțin trei generații, cu frații părinților și ascendenții lor. Cinci generații e maximul pe care îl poate vedea direct un observator în viața lui, nu o cerință; doar rudele afectate sau doar părinții nu arată modelul de transmitere.",
+          "tag": "Ancheta familială",
+          "tip": "metoda",
+          "noutate": "nou"
+        },
+        {
+          "q": "Ce doi factori decid modelul de pedigree al unui caracter monogenic?",
+          "opts": [
+            "Dominanța genei și cromozomul pe care se află",
+            "Numărul de gene implicate și influența mediului",
+            "Frecvența genei și mărimea familiilor studiate",
+            "Vârsta de debut și gravitatea bolii produse"
+          ],
+          "correct": 0,
+          "explain": "Modelul depinde de expresia genei (dominantă sau recesivă) și de locul ei (autozom sau gonozom), de unde cele patru modele de bază. Numărul de gene și mediul țin de ereditatea multifactorială; vârsta de debut și frecvența pot doar modifica aspectul unui model.",
+          "tag": "Cele patru modele de transmitere",
+          "tip": "principiu",
+          "noutate": "nou"
+        },
+        {
+          "q": "Ce semn de pedigree e tipic transmiterii autozomale dominante?",
+          "opts": [
+            "Bolnavi într-o singură generație, între frați",
+            "Transmitere oblică, prin femei purtătoare sănătoase",
+            "Bărbați bolnavi care transmit boala doar fiicelor",
+            "Continuitate pe verticală, în fiecare generație"
+          ],
+          "correct": 3,
+          "explain": "Mutația dominantă se vede la fiecare purtător, deci apare în fiecare generație: continuitate pe verticală. Bolnavii doar între frați (model orizontal) indică ereditatea recesivă autozomală, transmiterea oblică pe cea recesivă legată de X, iar tatăl care transmite doar fiicelor pe cea dominantă legată de X.",
+          "tag": "Criteriile transmiterii dominante",
+          "tip": "principiu",
+          "noutate": "nou"
+        },
+        {
+          "q": "De ce consangvinitatea nu e mai frecventă în familiile cu o boală autozomală dominantă?",
+          "opts": [
+            "Bolile dominante sunt eliminate repede de selecție",
+            "Mutațiile dominante apar mai ales ca mutații noi",
+            "Purtătorii sănătoși nu transmit mai departe gena",
+            "Un bolnav are copii bolnavi și cu un partener neînrudit"
+          ],
+          "correct": 3,
+          "explain": "La boala dominantă o singură alelă mutantă ajunge; un bolnav o transmite cu risc de 50% oricare ar fi partenerul, deci înrudirea nu contează. Consangvinitatea ajută doar unde trebuie să se întâlnească două alele recesive. Selecția, mutațiile noi și faptul că transmit doar afectații nu explică absența consangvinității.",
+          "tag": "Criteriile transmiterii dominante",
+          "tip": "principiu",
+          "noutate": "nou"
+        },
+        {
+          "q": "Ce arată faptul că la hipercolesterolemia familială homozigoții sunt mai grav afectați decât heterozigoții?",
+          "opts": [
+            "Semidominanța genei mutante",
+            "Penetranța incompletă a genei mutante",
+            "Influența sexului asupra expresiei genei",
+            "Heterogenitatea genetică a bolii"
+          ],
+          "correct": 0,
+          "explain": "Trei fenotipuri distincte (+/+ normal, +/− moarte ca adult tânăr, −/− moarte în copilărie) arată că heterozigotul e intermediar: semidominanță, ca în Cap. 2 (Ereditatea mendeliană: legile lui Mendel). Penetranța incompletă ar însemna purtători fără boală, influența sexului diferențe între bărbați și femei, iar heterogenitatea mutații diferite pentru același fenotip.",
+          "tag": "Homozigotul dominant",
+          "tip": "concept",
+          "noutate": "nou"
+        },
+        {
+          "q": "Prin ce se deosebește penetranța incompletă de expresivitatea variabilă?",
+          "opts": [
+            "Prima privește cât de intens se manifestă gena, a doua dacă",
+            "Prima e produsă de mediu, a doua de genotipul purtătorului",
+            "Prima apare la genele recesive, a doua la cele dominante",
+            "Prima privește dacă gena se manifestă, a doua cât de intens"
+          ],
+          "correct": 3,
+          "explain": "Penetranța e procentul purtătorilor care manifestă fenotipul (unii nu-l manifestă deloc: saltul unei generații); expresivitatea e gradul în care se manifestă la cei afectați (forme ușoare sau severe). Inversarea lor e confuzia tipică; ambele fenomene sunt descrise la gene dominante și niciunul nu e definit ca efect al mediului.",
+          "tag": "Expresivitatea variabilă",
+          "tip": "concept",
+          "noutate": "nou"
+        },
+        {
+          "q": "De ce o mutație care anulează o enzimă se manifestă de obicei recesiv?",
+          "opts": [
+            "Enzimele sunt codificate mai ales pe cromozomul X",
+            "O singură alelă normală asigură încă activitatea enzimei",
+            "Mutațiile enzimatice apar numai în timpul meiozei",
+            "Enzima mutantă blochează activitatea celei normale"
+          ],
+          "correct": 1,
+          "explain": "Pentru pierderea completă a activității enzimatice trebuie să lipsească ambele copii ale genei; heterozigotul, cu o copie normală, rămâne sănătos (fenilcetonurie, galactozemie). O enzimă mutantă care o blochează pe cea normală ar da tocmai un efect dominant; localizarea pe X sau momentul mutației nu explică recesivitatea.",
+          "tag": "Recesivitatea și enzimele",
+          "tip": "principiu",
+          "noutate": "nou"
+        },
+        {
+          "q": "Ce fenomen explică excepția de la regula că doi părinți cu aceeași boală recesivă au numai copii bolnavi?",
+          "opts": [
+            "Penetranța incompletă",
+            "Mutația de novo",
+            "Heterogenitatea genetică",
+            "Expresivitatea variabilă"
+          ],
+          "correct": 2,
+          "explain": "Aceeași boală poate fi produsă de mutații în gene diferite (4–5 forme de albinism, 20 de forme de surditate); părinții cu forme diferite au copii heterozigoți pentru ambele gene, deci sănătoși. Penetranța și expresivitatea privesc o singură genă, iar o mutație nouă ar explica un bolnav neașteptat, nu un copil sănătos.",
+          "tag": "Heterogenitatea genetică",
+          "tip": "fenomen",
+          "noutate": "nou"
+        },
+        {
+          "q": "Ce deosebește coeficientul de înrudire de coeficientul de consangvinitate?",
+          "opts": [
+            "Primul dă homozigoția copilului, al doilea genele comune rudelor",
+            "Primul dă genele comune rudelor, al doilea homozigoția copilului",
+            "Primul privește rudele de gradul I, al doilea rudele îndepărtate",
+            "Primul se calculează pentru părinți, al doilea pentru bunici"
+          ],
+          "correct": 1,
+          "explain": "Coeficientul de înrudire arată proporția de gene comune membrilor cuplului consangvin (frați: 1/2); coeficientul de consangvinitate F arată probabilitatea ca un copil al lor să primească ambele alele ale unei gene de la strămoșul comun (frați: 1/4). Ambii se calculează pentru orice grad de rudenie.",
+          "tag": "Coeficienții de înrudire și consangvinitate",
+          "tip": "concept",
+          "noutate": "nou"
+        },
+        {
+          "q": "De ce o mutație recesivă de pe X se manifestă la bărbați, dar nu la femeile heterozigote?",
+          "opts": [
+            "Bărbații au o singură copie a genelor de pe X",
+            "Cromozomul Y poartă perechea recesivă a genei",
+            "Femeile inactivează de regulă X-ul cu mutația",
+            "Gena e dominantă la bărbați și recesivă la femei"
+          ],
+          "correct": 0,
+          "explain": "Hemizigoția: bărbatul are un singur X, deci nicio alelă normală care să mascheze mutația; la femeie, alela normală de pe celălalt X o maschează. Y nu poartă perechea genelor de pe X, inactivarea unui X e întâmplătoare, nu țintită, iar o genă care își schimbă dominanța după sex descrie ereditatea influențată de sex.",
+          "tag": "Hemizigoția",
+          "tip": "concept",
+          "noutate": "nou"
+        },
+        {
+          "q": "Ce relație dintre dezgustul față de incest și legile care îl interzic susține ipoteza unui mecanism înnăscut?",
+          "opts": [
+            "Legile au creat dezgustul, la trecerea spre cultură",
+            "Dezgustul și legile au apărut independent unul de altul",
+            "Dezgustul a dus la legi, nu legile la dezgust",
+            "Legile apar doar în societățile fără acest dezgust"
+          ],
+          "correct": 2,
+          "explain": "Observațiile la primate (Jane Goodall) sugerează o aversiune înnăscută față de consangvinitate, din care ar fi rezultat legile. Varianta cu trecerea de la natură la cultură e poziția lui Claude Lévi-Strauss, pe care ipoteza o contrazice; celelalte nu leagă cele două fenomene.",
+          "tag": "Prohibiția incestului",
+          "tip": "autor",
+          "noutate": "nou"
+        },
+        {
+          "q": "Ce deosebește ereditatea influențată de sex de ereditatea legată de sex?",
+          "opts": [
+            "Gena e pe X și se exprimă doar la bărbații hemizigoți",
+            "Gena e pe Y și se transmite numai de la tată la fiu",
+            "Gena e pe un autozom, dar se exprimă diferit după sex",
+            "Gena e pe X, dar e inactivată la toate femeile purtătoare"
+          ],
+          "correct": 2,
+          "explain": "La ereditatea influențată de sex gena e autozomală, doar manifestarea diferă (guta și calviția frontală mai ales la bărbați, căderea precoce a dinților la femei). Gena de pe X sau de pe Y descrie ereditatea legată de sex, respectiv holandrică.",
+          "tag": "Ereditatea influențată de sex",
+          "tip": "concept",
+          "noutate": "nou"
+        }
+      ],
+      "ascunse": [
+        {
+          "q": "Ce explică frecvența mare a talasemiei în zonele cu malarie?",
+          "opts": [
+            "Heterozigoții rezistă la malarie și au mai mulți urmași",
+            "Malaria produce la purtători mutația care dă talasemia",
+            "Homozigoții bolnavi se vindecă mai repede de malarie",
+            "Căsătoriile dintre rude sunt mai dese în aceste sate"
+          ],
+          "correct": 0,
+          "explain": "Avantajul selectiv al heterozigoților: purtătorii talasemiei rezistă la malarie, iar homozigoții normali erau secerați de boală, deci alela s-a răspândit. Mediul nu produce mutația țintit, homozigoții au forma majoră, foarte gravă, iar consangvinitatea ar mări frecvența oricărei boli recesive, nu doar acolo unde e malarie.",
+          "tag": "Talasemia și malaria",
+          "tip": "fenomen",
+          "noutate": "nou"
+        },
+        {
+          "q": "De ce a eșuat în SUA screeningul purtătorilor de hemoglobină S?",
+          "opts": [
+            "Fără informare, populația s-a simțit discriminată",
+            "Mutația nu poate fi detectată la purtătorii sănătoși",
+            "Boala era rară în populația căreia i s-a oferit testul",
+            "Testul se putea face doar în timpul sarcinii, prenatal"
+          ],
+          "correct": 0,
+          "explain": "În lipsa unei campanii de informare, populația de culoare a refuzat testul. Screeningul talasemiei în Sardinia și cel pentru Tay-Sachs au reușit tocmai pentru că au fost precedate de informare și sfat genetic. Nedetectabilitatea e o limită reală, dar a altor mutații (albinismul).",
+          "tag": "Screeningul heterozigoților",
+          "tip": "istoric",
+          "noutate": "nou"
+        },
+        {
+          "q": "Ce trebuie să preceadă orice procedură de diagnostic genetic?",
+          "opts": [
+            "Un diagnostic prenatal făcut prin amniocenteză",
+            "Screeningul tuturor rudelor de gradul I ale persoanei",
+            "Stabilirea cariotipului tuturor membrilor familiei",
+            "Un sfat genetic, cu consimțământ informat"
+          ],
+          "correct": 3,
+          "explain": "Regula generală: diagnosticul genetic e precedat de sfat genetic, care include obligatoriu consimțământul informat. Diagnosticul prenatal e una dintre procedurile care urmează, nu condiția lor; testarea tuturor rudelor sau a cariotipurilor nu e cerută.",
+          "tag": "Consimțământul și diagnosticul prenatal",
+          "tip": "etapa",
+          "noutate": "nou"
+        },
+        {
+          "q": "Care a fost primul exemplu de genă atribuită unui cromozom anume?",
+          "opts": [
+            "Gena pentru brahidactilie, pe un autozom",
+            "Mutația pentru daltonism, pe cromozomul X",
+            "Mutația pentru hemofilie, pe cromozomul X",
+            "Gena SRY, pe brațul scurt al cromozomului Y"
+          ],
+          "correct": 1,
+          "explain": "În 1911, mutația pentru daltonism a fost repartizată cromozomului X, prima genă localizată pe un cromozom. Farabee (1905) arătase doar că brahidactilia se transmite dominant autozomal, fără să o localizeze; hemofilia și SRY sunt exemple ulterioare.",
+          "tag": "Daltonismul",
+          "tip": "istoric",
+          "noutate": "nou"
+        },
+        {
+          "q": "Ce tip de ereditate are o trăsătură transmisă numai de la tată la fiu?",
+          "opts": [
+            "Influențată de sex, pe un autozom",
+            "Recesivă, legată de cromozomul X",
+            "Holandrică, prin cromozomul Y",
+            "Dominantă, legată de cromozomul X"
+          ],
+          "correct": 2,
+          "explain": "Doar Y trece exclusiv de la tată la fiu: ereditatea holandrică. O genă de pe X nu se transmite niciodată de la tată la fiu (fiul primește de la tată Y), iar ereditatea influențată de sex ține de o genă autozomală, transmisă de ambii părinți.",
+          "tag": "Cromozomul Y și ereditatea holandrică",
+          "tip": "concept",
+          "noutate": "nou"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "eticheta": "Runda 2 · Aplicații",
+      "titlu": "Runda 2 — Scenarii și raționament",
+      "desc": "Situații cu mai mulți pași: citești pedigree-uri, deduci modelul și genotipurile, calculezi riscuri pentru sfatul genetic.",
+      "intrebari": [
+        {
+          "q": "Într-o familie, patru persoane sunt heterozigote pentru polidactilie (dominantă autozomală), dar una dintre ele nu are degete în plus. Care e riscul ca un copil al unui heterozigot cu un partener sănătos să aibă polidactilie?",
+          "opts": [
+            "50%",
+            "75%",
+            "25%",
+            "37,5%"
+          ],
+          "correct": 3,
+          "explain": "Penetranța e 3/4 = 75% (trei din patru purtători manifestă gena); riscul se obține înmulțind riscul mendelian cu penetranța: 0,50 × 0,75 = 0,375. 50% ar fi riscul fără penetranță incompletă, 75% e penetranța singură, iar 25% e riscul la doi purtători ai unei boli recesive.",
+          "tag": "Penetranța incompletă",
+          "tip": "calcul",
+          "noutate": "nou",
+          "exemplu_nou": false
+        },
+        {
+          "q": "Doi părinți de talie normală, fără boala în familie, au un copil cu acondroplazie (dominantă autozomală); tatăl avea 48 de ani la concepție. Ce risc are următorul copil al cuplului și ce risc vor avea copiii acestui copil?",
+          "opts": [
+            "25% pentru frate; 50% pentru copiii lui",
+            "Neglijabil pentru frate; 50% pentru copiii lui",
+            "50% pentru frate; 50% pentru copiii lui",
+            "Neglijabil pentru frate; 25% pentru copiii lui"
+          ],
+          "correct": 1,
+          "explain": "Cazul sporadic, cu tată vârstnic, indică o mutație de novo apărută într-un gamet: accidentul nu se repetă identic, deci frații au risc neglijabil, dar purtătorul o transmite mai departe cu 50%, ca la orice boală dominantă. 25% ar presupune o boală recesivă cu părinți purtători.",
+          "tag": "Mutația de novo",
+          "tip": "principiu",
+          "noutate": "nou",
+          "exemplu_nou": false
+        },
+        {
+          "q": "Doi părinți cu acondroplazie au doi copii: unul cu acondroplazie și unul de talie normală. Ce rezultă despre modul de transmitere și despre genotipuri?",
+          "opts": [
+            "Dominant autozomal; părinții sunt Mn, copilul normal nn",
+            "Recesiv autozomal; copilul normal arată heterogenitate",
+            "Dominant autozomal; părinții sunt MM, copilul normal Mn",
+            "Dominant cu penetranță incompletă; copilul normal e Mn"
+          ],
+          "correct": 0,
+          "explain": "Doi părinți bolnavi cu un copil sănătos: boala nu poate fi recesivă (părinți mm ar avea numai copii mm), deci e dominantă, iar părinții sunt heterozigoți Mn, fiecare dând copilului normal alela n. Cu MM toți copiii ar fi afectați; penetranța incompletă e posibilă în principiu, dar nu e cerută de date.",
+          "tag": "Criteriile transmiterii dominante",
+          "tip": "principiu",
+          "noutate": "nou",
+          "exemplu_nou": false
+        },
+        {
+          "q": "Doi soți au albinism oculo-cutanat, o trăsătură recesivă autozomală, și au trei copii, toți cu pigmentare normală. Ce explicație se potrivește cu genetica?",
+          "opts": [
+            "Ambii au aceeași mutație, iar copiii au primit câte o mutație inversă nouă",
+            "Copiii poartă alela albinismului, dar ea are la ei penetranță incompletă",
+            "Au forme de albinism date de gene diferite; copiii sunt dublu heterozigoți",
+            "Copiii au o fenocopie a pigmentării normale, produsă de expunerea la soare"
+          ],
+          "correct": 2,
+          "explain": "Heterogenitatea genetică: există 4–5 forme de albinism, din gene diferite. Fiecare părinte e homozigot recesiv pentru altă genă, iar copiii primesc o alelă normală pentru fiecare genă, deci sunt sănătoși. Trei mutații inverse la rând sunt improbabile, iar fenocopia imită o boală, nu o stare normală.",
+          "tag": "Heterogenitatea genetică",
+          "tip": "fenomen",
+          "noutate": "nou",
+          "exemplu_nou": true
+        },
+        {
+          "q": "Un copil are osteogeneză imperfectă (fracturi multiple, sclere albastre). Părinții par sănătoși, dar la examinare mama are sclere albastre, fără fracturi. Ce schimbă observația în sfatul genetic?",
+          "opts": [
+            "Boala e o mutație nouă: risc neglijabil pentru frați",
+            "Mama poartă probabil mutația: risc 50% la fiecare copil",
+            "Copilul are o fenocopie, care nu se va transmite",
+            "Mama e purtătoare recesivă: risc de 25% la fiecare copil"
+          ],
+          "correct": 1,
+          "explain": "Sclerele albastre sunt o formă frustă: aceeași mutație dominantă, cu expresivitate variabilă. Mama e deci purtătoare, iar riscul de transmitere e 50%. Fără examinare, cazul ar fi părut o mutație de novo, cu risc de recurență neglijabil pentru părinți; boala e dominantă, nu recesivă.",
+          "tag": "Formele fruste",
+          "tip": "principiu",
+          "noutate": "nou",
+          "exemplu_nou": false
+        },
+        {
+          "q": "Într-o familie, bunicul a avut primele simptome ale unei boli neurodegenerative la 58 de ani, fiica lui la 44, iar nepotul la 31. Ce explică acest șir?",
+          "opts": [
+            "Penetranța incompletă: gena sare peste unele generații",
+            "Anticipația: un triplet repetat se amplifică la fiecare transmitere",
+            "Ereditatea influențată de sex: boala e mai gravă la bărbați",
+            "Fenocopia: un factor de mediu comun produce boala tot mai devreme"
+          ],
+          "correct": 1,
+          "explain": "Debutul tot mai precoce în generații succesive e anticipația; substratul e o mutație dinamică, numărul de repetiții ale unui triplet (CAG în coreea Huntington) crescând în meioză. Nicio generație nu e sărită, femeia e și ea afectată, iar o fenocopie nu s-ar transmite.",
+          "tag": "Anticipația",
+          "tip": "fenomen",
+          "noutate": "nou",
+          "exemplu_nou": true
+        },
+        {
+          "q": "O boală dominantă și letală debutează în jurul vârstei de 50 de ani; alta, la fel de gravă, debutează în copilărie. Care se așteaptă să fie mai frecventă în populație și de ce?",
+          "opts": [
+            "Cea din copilărie: e diagnosticată mai ușor",
+            "Cea din copilărie: apare des prin mutații noi",
+            "Au aceeași frecvență: amândouă sunt dominante",
+            "Cea tardivă: purtătorii se reproduc înainte"
+          ],
+          "correct": 3,
+          "explain": "Bolile cu debut tardiv scapă selecției naturale: purtătorii se reproduc înainte să se îmbolnăvească, deci transmit gena (coreea Huntington). Boala letală din copilărie elimină purtătorii înainte de reproducere; mutațiile noi o fac să reapară, dar nu o fac mai frecventă.",
+          "tag": "Bolile cu debut tardiv",
+          "tip": "fenomen",
+          "noutate": "nou",
+          "exemplu_nou": true
+        },
+        {
+          "q": "În 1960, un nou-născut are membrele foarte scurte, prinse aproape direct de trunchi; mama luase la începutul sarcinii un medicament contra grețurilor. Ce se așteaptă la copiii lui, peste ani?",
+          "opts": [
+            "Jumătate dintre copii cu anomalie, ca la o boală dominantă",
+            "Copii fără anomalie, fiindcă ea nu e ereditară",
+            "Un sfert dintre copii cu anomalie, ca la o boală recesivă",
+            "Copii cu anomalie doar dacă partenera îi e rudă"
+          ],
+          "correct": 1,
+          "explain": "Talidomida, un teratogen, a produs anomalii ca în focomelie: o fenocopie, adică o modificare de mediu care imită o boală genetică. Fenocopiile nu se transmit, deși clinic nu se deosebesc de boala imitată; riscurile de 50% sau 25% ar presupune o mutație.",
+          "tag": "Fenocopiile",
+          "tip": "concept",
+          "noutate": "nou",
+          "exemplu_nou": false
+        },
+        {
+          "q": "Doi părinți sănătoși au un copil cu galactozemie (recesivă autozomală). Fratele sănătos al copilului vrea să știe ce probabilitate are să fie purtător. Ce îi răspunde geneticianul?",
+          "opts": [
+            "2/3",
+            "1/2",
+            "1/4",
+            "3/4"
+          ],
+          "correct": 0,
+          "explain": "Copilul bolnav e mm, deci părinții sunt Nm. Copiii lor sunt ¼ NN, ½ Nm, ¼ mm; știind că fratele e sănătos, rămân NN și Nm în raport 1 : 2, deci 2/3 purtător. 1/2 e proporția Nm din toți copiii, 1/4 riscul de boală, 3/4 șansa de a fi sănătos.",
+          "tag": "Încrucișarea purtător × purtător",
+          "tip": "calcul",
+          "noutate": "nou",
+          "exemplu_nou": false
+        },
+        {
+          "q": "Un cuplu de purtători sănătoși ai bolii Tay-Sachs are deja trei copii afectați și crede că, după atâtea cazuri, următorul copil va fi sigur sănătos. Ce le spune geneticianul?",
+          "opts": [
+            "Riscul rămâne 1/4 și la sarcina următoare",
+            "Riscul a scăzut, cazurile s-au „consumat”",
+            "Riscul a crescut la 1/2, după trei cazuri",
+            "Riscul e 3/4, cât proporția de copii sănătoși"
+          ],
+          "correct": 0,
+          "explain": "Fiecare sarcină e independentă: riscul genetic rămâne același, indiferent câți copii afectați s-au născut deja. Ideea că riscul se „consumă” sau crește după cazuri anterioare e o eroare de raționament; 3/4 e probabilitatea unui copil sănătos.",
+          "tag": "Riscul de recurență",
+          "tip": "principiu",
+          "noutate": "nou",
+          "exemplu_nou": true
+        },
+        {
+          "q": "O boală recesivă rară apare la un copil ai cărui părinți, sănătoși, sunt veri primari; nimeni din familie nu a mai avut boala. Ce rol a avut înrudirea părinților?",
+          "opts": [
+            "A produs mutația, fiindcă rudele au gene prea asemănătoare",
+            "Nu a avut rol: bolile recesive rare apar prin mutații noi",
+            "A crescut șansa ca ambii să poarte aceeași mutație de la bunic",
+            "A transformat o alelă recesivă într-una dominantă la copil"
+          ],
+          "correct": 2,
+          "explain": "Consangvinitatea mărește probabilitatea ca doi heterozigoți pentru aceeași genă să se întâlnească, fiindcă au primit-o de la un strămoș comun; așa apar homozigoții afectați. Înrudirea nu creează mutații și nu schimbă dominanța; o boală recesivă poate trece tăcut prin purtători multe generații.",
+          "tag": "Consangvinitatea",
+          "tip": "principiu",
+          "noutate": "nou",
+          "exemplu_nou": true
+        },
+        {
+          "q": "În familiile regale europene din secolul al XIX-lea, hemofilia a fost mult mai frecventă decât în populația generală (1/10 000), deși bolnavii erau aproape numai bărbați. Ce explicație se potrivește?",
+          "opts": [
+            "Bărbații bolnavi au transmis boala fiilor, din generație în generație",
+            "Boala era o fenocopie produsă de modul de viață al acestor familii",
+            "Alela hemofiliei a devenit dominantă în aceste familii înrudite",
+            "Căsătoriile între rude au răspândit un X mutant, purtat de femei"
+          ],
+          "correct": 3,
+          "explain": "Hemofilia e recesivă legată de X: femeile purtătoare o transmit fiilor, iar căsătoriile repetate între familiile regale au răspândit X-ul mutant (risc de 50% pentru fiecare fiu al unei purtătoare). Tatăl nu-și transmite X-ul fiului, o fenocopie nu s-ar moșteni, iar dominanța nu se schimbă prin înrudire.",
+          "tag": "Transmiterea recesivă legată de X",
+          "tip": "principiu",
+          "noutate": "nou",
+          "exemplu_nou": false
+        },
+        {
+          "q": "Un bărbat cu un defect al smalțului dentar și o femeie normală au opt copii: cele cinci fete au defectul, cei trei băieți nu. Ce model de transmitere sugerează familia?",
+          "opts": [
+            "Recesiv legat de X",
+            "Holandric, legat de Y",
+            "Dominant legat de X",
+            "Influențat de sex, autozomal"
+          ],
+          "correct": 2,
+          "explain": "Tatăl afectat transmite X-ul tuturor fiicelor și Y-ul tuturor fiilor: dacă gena e dominantă pe X, toate fetele sunt afectate și niciun băiat (amelogeneza imperfectă). Recesiv pe X, fetele ar fi doar purtătoare; holandric, ar fi afectați băieții; o genă autozomală n-ar separa atât de net sexele.",
+          "tag": "Transmiterea dominantă legată de X",
+          "tip": "principiu",
+          "noutate": "nou",
+          "exemplu_nou": false
+        },
+        {
+          "q": "Într-un pedigree, o boală rară apare în trei generații la rând, la bărbați și la femei, iar un tată bolnav are un fiu bolnav. Ce model de transmitere e cel mai probabil?",
+          "opts": [
+            "Recesiv legat de X",
+            "Dominant legat de X",
+            "Dominant autozomal",
+            "Recesiv autozomal"
+          ],
+          "correct": 2,
+          "explain": "Continuitatea pe verticală și ambele sexe afectate indică dominanța autozomală, iar transmiterea de la tată la fiu exclude o genă de pe X (fiul primește de la tată Y). O boală recesivă rară nu ar apărea în trei generații la rând.",
+          "tag": "Criteriile transmiterii dominante",
+          "tip": "principiu",
+          "noutate": "nou",
+          "exemplu_nou": true
+        },
+        {
+          "q": "Într-o familie cu o genă dominantă pentru degete permanent flexate, unii purtători au un deget afectat, alții patru, iar un purtător sigur (are copii afectați) nu are niciun deget afectat. Ce arată familia?",
+          "opts": [
+            "Penetranță incompletă și expresivitate variabilă",
+            "Expresivitate variabilă, fără penetranță incompletă",
+            "Penetranță incompletă, fără expresivitate variabilă",
+            "Heterogenitate genetică, nu una dintre acestea"
+          ],
+          "correct": 0,
+          "explain": "Camptodactilia: purtătorul fără degete afectate arată penetranța incompletă, iar numărul diferit de degete afectate la ceilalți arată expresivitatea variabilă. Cele două fenomene pot coexista la aceeași genă; heterogenitatea ar cere gene diferite, dar aici e o singură genă în familie.",
+          "tag": "Expresivitatea variabilă",
+          "tip": "fenomen",
+          "noutate": "nou",
+          "exemplu_nou": false
+        }
+      ],
+      "ascunse": [
+        {
+          "q": "Un bărbat daltonist are copii cu o femeie cu vedere normală, al cărei tată era daltonist. Ce proporție dintre fiicele lor se așteaptă să fie daltoniste?",
+          "opts": [
+            "0",
+            "1/2",
+            "1/4",
+            "1"
+          ],
+          "correct": 1,
+          "explain": "Femeia a primit X-ul tatălui daltonist, deci e purtătoare (XᴰXᵈ). Fiicele primesc Xᵈ de la tată și, cu probabilitate ½, Xᵈ de la mamă: jumătate daltoniste, jumătate purtătoare. 0 ar fi dacă mama n-ar fi purtătoare, 1/4 e proporția din toți copiii, iar 1 ar cere o mamă daltonistă.",
+          "tag": "Transmiterea recesivă legată de X",
+          "tip": "calcul",
+          "noutate": "nou",
+          "exemplu_nou": true
+        },
+        {
+          "q": "Într-o familie, trei din cei șase copii ai unor părinți sănătoși, băieți și fete, au aceeași boală; nici bunicii, nici unchii, nici copiii bolnavilor nu o au. Ce model de transmitere e cel mai probabil?",
+          "opts": [
+            "Dominant autozomal cu debut tardiv",
+            "Dominant legat de X",
+            "Recesiv autozomal",
+            "Recesiv legat de X"
+          ],
+          "correct": 2,
+          "explain": "Bolnavii doar într-o fratrie, din părinți sănătoși, la ambele sexe: modelul orizontal al eredității recesive autozomale. O boală dominantă ar apărea și la un părinte (debutul tardiv nu explică bunicii sănătoși peste tot), cea recesivă legată de X ar afecta aproape numai băieți.",
+          "tag": "Criteriile transmiterii recesive",
+          "tip": "principiu",
+          "noutate": "nou",
+          "exemplu_nou": true
+        },
+        {
+          "q": "Un om de știință s-a căsătorit cu verișoara lui primară și au avut zece copii sănătoși, dintre care unii au devenit academicieni. Ce arată cazul despre consangvinizare?",
+          "opts": [
+            "Riscul ei depinde de mutațiile din familie, nu e un rău în sine",
+            "Verii primari nu au gene comune moștenite de la strămoși",
+            "Consangvinizarea protejează urmașii de bolile recesive",
+            "Riscul ei apare abia după două generații consangvine"
+          ],
+          "correct": 0,
+          "explain": "Familia lui Darwin arată că unei eredități sănătoase îi corespunde o consangvinitate sănătoasă: riscul vine din mutațiile recesive purtate în familie. Verii primari au 1/8 din gene comune, iar consangvinizarea crește, nu scade, riscul pentru bolile recesive.",
+          "tag": "Consangvinizarea nu e un rău în sine",
+          "tip": "principiu",
+          "noutate": "nou",
+          "exemplu_nou": false
+        },
+        {
+          "q": "Un bărbat cu galactozemie (recesivă autozomală), tratat de mic, vrea copii cu o femeie sănătoasă, fără boala în familie. Ce se așteaptă la copiii lor?",
+          "opts": [
+            "Toți sănătoși și toți purtători",
+            "Jumătate bolnavi, jumătate purtători",
+            "Un sfert bolnavi, restul sănătoși",
+            "Bolnavi, fiindcă tatăl e homozigot"
+          ],
+          "correct": 0,
+          "explain": "mm × NN dă numai copii Nm: sănătoși, dar purtători. Jumătate bolnavi ar cere o mamă purtătoare (Nm × mm), un sfert doi părinți purtători; homozigoția tatălui nu ajunge, copilul primește de la mamă alela normală.",
+          "tag": "Criteriile transmiterii recesive",
+          "tip": "calcul",
+          "noutate": "nou",
+          "exemplu_nou": true
+        },
+        {
+          "q": "Un bărbat cu hemofilie, tratat, are copii cu o femeie care nu e purtătoare. Ce se așteaptă la copiii lor?",
+          "opts": [
+            "Jumătate din fii bolnavi; fiicele sănătoase",
+            "Toți fiii bolnavi; jumătate din fiice purtătoare",
+            "Fii și fiice purtători în proporții egale",
+            "Fii sănătoși; toate fiicele purtătoare"
+          ],
+          "correct": 3,
+          "explain": "Fiii primesc de la tată Y, deci sunt sănătoși; fiicele primesc X-ul patern cu mutația, deci toate sunt purtătoare și pot transmite boala mai departe. Jumătate din fii bolnavi ar fi situația unei mame purtătoare; un bărbat nu poate fi purtător sănătos al unei gene de pe X.",
+          "tag": "Transmiterea recesivă legată de X",
+          "tip": "calcul",
+          "noutate": "nou",
+          "exemplu_nou": false
+        }
+      ]
+    }
+  ],
+  "harta": {
+    "centru": "Modele de transmitere a caracterelor monogenice în familiile umane",
+    "ramuri": [
+      {
+        "titlu": "Caracterele monogenice",
+        "noduri": [
+          {
+            "t": "Caracterul monogenic",
+            "d": "Determinat de un singur cuplu de gene (un locus); segregă în proporții mendeliene fixe. Un genotip anume e atunci necesar și suficient pentru caracter."
+          },
+          {
+            "t": "Catalogul OMIM (McKusick)",
+            "d": "„Mendelian Inheritance in Man”, inițiat de Victor McKusick în 1966 cu 400 de caractere; azi peste 6000 de caractere normale și patologice, consultabil online."
+          },
+          {
+            "t": "Gena definită prin boală",
+            "d": "Eroare frecventă: „X are gena bolii”. Toți avem gena; bolnavul are o mutație a ei. E ca și cum ai spune că ficatul există ca să producă ciroza."
+          },
+          {
+            "t": "Frecvența bolilor monogenice",
+            "d": "Peste 6000 de boli distincte descrise, cu o frecvență globală de 1–2% dintre nou-născuții vii."
+          }
+        ],
+        "tabel": {
+          "cap": [
+            "Transmitere",
+            "Trăsături normale",
+            "Trăsături patologice"
+          ],
+          "randuri": [
+            [
+              "Dominantă autozomală",
+              "gustător PTC, diastemă (strungăreață), lobul urechii liber",
+              "brahidactilie, polidactilie, acondroplazie, hipercolesterolemie familială, coreea Huntington, sindromul de Habsburg, rinichi polichistic"
+            ],
+            [
+              "Recesivă autozomală",
+              "negustător PTC, lobul urechii atașat",
+              "albinism, fenilcetonurie, galactozemie, beta-talasemie, hipotiroidism, surditate congenitală"
+            ],
+            [
+              "Recesivă legată de X",
+              "—",
+              "daltonism, hemofilia A și B, distrofia musculară Duchenne"
+            ]
+          ]
+        }
+      },
+      {
+        "titlu": "Ancheta familială și pedigree-ul",
+        "noduri": [
+          {
+            "t": "Omul ca obiect de studiu genetic",
+            "d": "Dificultăți: diversitate mare, caractere de interes rare, generații lungi (un observator vede direct cel mult 5), familii mici, fără experiențe. Familiile mici se compensează cumulând date din mai multe familii."
+          },
+          {
+            "t": "Ancheta familială",
+            "d": "Singura cale de a urmări la om caracterele în descendență. Cere cât mai mulți membri examinați direct, pe cel puțin trei generații, cu frații părinților și ascendenții lor."
+          },
+          {
+            "t": "Pedigree-ul (arborele genealogic)",
+            "d": "Reprezentarea grafică a rudeniei, cu simboluri internaționale: generații cu cifre romane, indivizi cu cifre arabe. Din model se deduce natura genetică a trăsăturii."
+          },
+          {
+            "t": "Proband, consultand, fratrie",
+            "d": "Proband (propositus, caz index): primul bolnav descoperit. Consultand: persoană sănătoasă care cere sfat genetic. Fratrie: frații și surorile. Notă: o dată, textul numește proband persoana care cere sfatul."
+          },
+          {
+            "t": "Cele patru modele de transmitere",
+            "d": "Depind de doi factori: gena e dominantă sau recesivă; e pe un autozom sau pe un gonozom. Rezultă: autozomal dominant, autozomal recesiv, dominant legat de X, recesiv legat de X."
+          }
+        ],
+        "figuri": [
+          {
+            "titlu": "Simbolurile pedigree-ului",
+            "nota": "Simbolurile standard internaționale, redesenate; setul din manual poate diferi în detalii.",
+            "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 326\" role=\"img\" aria-label=\"Simbolurile pedigree-ului: pătrat bărbat, cerc femeie, plin afectat, jumătate plin heterozigot, punct purtătoare X, linie oblică decedat, săgeată proband, linie dublă căsătorie consangvină\" font-family=\"Georgia, serif\" font-size=\"13\"><rect x=\"15.0\" y=\"17.0\" width=\"18\" height=\"18\" fill=\"#ffffff\" stroke=\"#2c2a26\" stroke-width=\"1.4\"/><text x=\"42.0\" y=\"30.0\" text-anchor=\"start\" fill=\"#2c2a26\" font-size=\"10.8\">bărbat</text><circle cx=\"182.0\" cy=\"26.0\" r=\"9.0\" fill=\"#ffffff\" stroke=\"#2c2a26\" stroke-width=\"1.4\"/><text x=\"200.0\" y=\"30.0\" text-anchor=\"start\" fill=\"#2c2a26\" font-size=\"10.8\">femeie</text><rect x=\"15.0\" y=\"55.0\" width=\"18\" height=\"18\" fill=\"#b5453a\" stroke=\"#2c2a26\" stroke-width=\"1.4\"/><text x=\"42.0\" y=\"68.0\" text-anchor=\"start\" fill=\"#2c2a26\" font-size=\"10.8\">bărbat afectat</text><circle cx=\"182.0\" cy=\"64.0\" r=\"9.0\" fill=\"#b5453a\" stroke=\"#2c2a26\" stroke-width=\"1.4\"/><text x=\"200.0\" y=\"68.0\" text-anchor=\"start\" fill=\"#2c2a26\" font-size=\"10.8\">femeie afectată</text><rect x=\"15.0\" y=\"93.0\" width=\"18\" height=\"18\" fill=\"#ffffff\" stroke=\"#2c2a26\" stroke-width=\"1.4\"/><rect x=\"15.0\" y=\"93.0\" width=\"9.0\" height=\"18\" fill=\"#b5453a\"/><rect x=\"15.0\" y=\"93.0\" width=\"18\" height=\"18\" fill=\"none\" stroke=\"#2c2a26\" stroke-width=\"1.4\"/><text x=\"42.0\" y=\"106.0\" text-anchor=\"start\" fill=\"#2c2a26\" font-size=\"10.8\">heterozigot (purtător)</text><circle cx=\"182.0\" cy=\"102.0\" r=\"9.0\" fill=\"#ffffff\" stroke=\"#2c2a26\" stroke-width=\"1.4\"/><circle cx=\"182.0\" cy=\"102.0\" r=\"2.6\" fill=\"#b5453a\"/><text x=\"200.0\" y=\"106.0\" text-anchor=\"start\" fill=\"#2c2a26\" font-size=\"10.8\">purtătoare a unei gene de pe X</text><rect x=\"15.0\" y=\"131.0\" width=\"18\" height=\"18\" fill=\"#ffffff\" stroke=\"#2c2a26\" stroke-width=\"1.4\"/><line x1=\"11.0\" y1=\"153.0\" x2=\"37.0\" y2=\"127.0\" stroke=\"#2c2a26\" stroke-width=\"1.4\"/><text x=\"42.0\" y=\"144.0\" text-anchor=\"start\" fill=\"#2c2a26\" font-size=\"10.8\">decedat</text><circle cx=\"182.0\" cy=\"140.0\" r=\"9.0\" fill=\"#b5453a\" stroke=\"#2c2a26\" stroke-width=\"1.4\"/><line x1=\"157.0\" y1=\"161.0\" x2=\"171.0\" y2=\"148.0\" stroke=\"#2c2a26\" stroke-width=\"1.4\"/><polygon points=\"171.0,148.0 168.8,153.6 165.3,149.8\" fill=\"#2c2a26\"/><text x=\"200.0\" y=\"144.0\" text-anchor=\"start\" fill=\"#2c2a26\" font-size=\"10.8\">proband (caz index)</text><rect x=\"11.0\" y=\"169.0\" width=\"18\" height=\"18\" fill=\"#ffffff\" stroke=\"#2c2a26\" stroke-width=\"1.4\"/><circle cx=\"64.0\" cy=\"178.0\" r=\"9.0\" fill=\"#ffffff\" stroke=\"#2c2a26\" stroke-width=\"1.4\"/><line x1=\"29.0\" y1=\"178.0\" x2=\"55.0\" y2=\"178.0\" stroke=\"#2c2a26\" stroke-width=\"1.3\"/><text x=\"82.0\" y=\"182.0\" text-anchor=\"start\" fill=\"#2c2a26\" font-size=\"10.8\">căsătorie</text><rect x=\"169.0\" y=\"169.0\" width=\"18\" height=\"18\" fill=\"#ffffff\" stroke=\"#2c2a26\" stroke-width=\"1.4\"/><circle cx=\"222.0\" cy=\"178.0\" r=\"9.0\" fill=\"#ffffff\" stroke=\"#2c2a26\" stroke-width=\"1.4\"/><line x1=\"187.0\" y1=\"176.0\" x2=\"213.0\" y2=\"176.0\" stroke=\"#2c2a26\" stroke-width=\"1.3\"/><line x1=\"187.0\" y1=\"180.0\" x2=\"213.0\" y2=\"180.0\" stroke=\"#2c2a26\" stroke-width=\"1.3\"/><text x=\"240.0\" y=\"182.0\" text-anchor=\"start\" fill=\"#2c2a26\" font-size=\"10.8\">consangvină</text><rect x=\"11.0\" y=\"211.0\" width=\"18\" height=\"18\" fill=\"#ffffff\" stroke=\"#2c2a26\" stroke-width=\"1.4\"/><circle cx=\"64.0\" cy=\"220.0\" r=\"9.0\" fill=\"#ffffff\" stroke=\"#2c2a26\" stroke-width=\"1.4\"/><line x1=\"29.0\" y1=\"220.0\" x2=\"55.0\" y2=\"220.0\" stroke=\"#2c2a26\" stroke-width=\"1.3\"/><line x1=\"42.0\" y1=\"220.0\" x2=\"42.0\" y2=\"241.5\" stroke=\"#2c2a26\" stroke-width=\"1.3\"/><line x1=\"14.0\" y1=\"241.5\" x2=\"70.0\" y2=\"241.5\" stroke=\"#2c2a26\" stroke-width=\"1.3\"/><line x1=\"14.0\" y1=\"241.5\" x2=\"14.0\" y2=\"263.0\" stroke=\"#2c2a26\" stroke-width=\"1.3\"/><line x1=\"42.0\" y1=\"241.5\" x2=\"42.0\" y2=\"263.0\" stroke=\"#2c2a26\" stroke-width=\"1.3\"/><line x1=\"70.0\" y1=\"241.5\" x2=\"70.0\" y2=\"263.0\" stroke=\"#2c2a26\" stroke-width=\"1.3\"/><circle cx=\"14.0\" cy=\"272.0\" r=\"9.0\" fill=\"#ffffff\" stroke=\"#2c2a26\" stroke-width=\"1.4\"/><rect x=\"33.0\" y=\"263.0\" width=\"18\" height=\"18\" fill=\"#ffffff\" stroke=\"#2c2a26\" stroke-width=\"1.4\"/><rect x=\"61.0\" y=\"263.0\" width=\"18\" height=\"18\" fill=\"#ffffff\" stroke=\"#2c2a26\" stroke-width=\"1.4\"/><text x=\"94.0\" y=\"254.0\" text-anchor=\"start\" fill=\"#2c2a26\" font-size=\"10.8\">fratrie: frații și surorile</text><text x=\"94.0\" y=\"269.0\" text-anchor=\"start\" fill=\"#2c2a26\" font-size=\"10.8\">dintr-un cuplu (sibling)</text><text x=\"222.0\" y=\"290.0\" text-anchor=\"start\" fill=\"#2c2a26\" font-size=\"10.8\"></text><text x=\"14.0\" y=\"304.0\" text-anchor=\"start\" fill=\"#6b6760\" font-size=\"10.2\">Generațiile: cifre romane (I, II, III), de sus în jos;</text><text x=\"14.0\" y=\"318.0\" text-anchor=\"start\" fill=\"#6b6760\" font-size=\"10.2\">indivizii unei generații: cifre arabe, de la stânga (III₁, III₂).</text></svg>"
+          }
+        ]
+      },
+      {
+        "titlu": "Modelul autozomal dominant",
+        "lat": true,
+        "noduri": [
+          {
+            "t": "Farabee și brahidactilia",
+            "d": "Prima dovadă că o malformație se transmite dominant autozomal (1905): degetele scurte, urmărite la 36 de persoane din 5 familii."
+          },
+          {
+            "t": "Încrucișarea bolnav × sănătos",
+            "d": "Mn × nn, cazul obișnuit în patologia umană: ½ Mn bolnavi, ½ nn sănătoși, deci risc de 50% la fiecare sarcină."
+          },
+          {
+            "t": "Homozigotul dominant",
+            "d": "MM e rar (din doi heterozigoți) și adesea mai grav sau letal (acondroplazie). Hipercolesterolemia familială: +/+ normal, +/− moarte ca adult tânăr, −/− în copilărie, deci semidominanță."
+          },
+          {
+            "t": "Criteriile transmiterii dominante",
+            "d": "Continuitate pe verticală; transmite doar părintele afectat; risc 50%; sexe afectate egal (sex ratio = 1); doi părinți bolnavi heterozigoți pot avea copii sănătoși; consangvinitate obișnuită."
+          }
+        ],
+        "figuri": [
+          {
+            "titlu": "Diagrama eredității autozomale dominante",
+            "nota": "Redesenată după manual: M = gena mutantă dominantă, n = alela normală. Încrucișarea cea mai frecventă, bolnav heterozigot × sănătos.",
+            "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 340 226\" role=\"img\" aria-label=\"Ereditatea autozomală dominantă: Mn × nn dă jumătate copii Mn bolnavi și jumătate nn sănătoși\" font-family=\"Georgia, serif\" font-size=\"13\"><text x=\"8.0\" y=\"36.0\" text-anchor=\"start\" fill=\"#6b6760\" font-size=\"10.8\" font-weight=\"bold\">Părinți</text><text x=\"8.0\" y=\"86.0\" text-anchor=\"start\" fill=\"#6b6760\" font-size=\"10.8\" font-weight=\"bold\">Gameți</text><text x=\"8.0\" y=\"158.0\" text-anchor=\"start\" fill=\"#6b6760\" font-size=\"10.8\" font-weight=\"bold\">Copii</text><rect x=\"92.0\" y=\"18.0\" width=\"66.0\" height=\"28.0\" rx=\"5\" fill=\"#b5453a\"/><text x=\"125.0\" y=\"36.2\" text-anchor=\"middle\" fill=\"#ffffff\" font-size=\"12.0\" font-weight=\"bold\">Mn</text><text x=\"178.0\" y=\"37.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"15\">×</text><rect x=\"198.0\" y=\"18.0\" width=\"66.0\" height=\"28.0\" rx=\"5\" fill=\"#1baf7a\"/><text x=\"231.0\" y=\"36.2\" text-anchor=\"middle\" fill=\"#ffffff\" font-size=\"12.0\" font-weight=\"bold\">nn</text><line x1=\"125.0\" y1=\"48.0\" x2=\"100.0\" y2=\"72.0\" stroke=\"#6b6760\" stroke-width=\"1.2\"/><polygon points=\"100.0,72.0 102.1,66.4 105.7,70.1\" fill=\"#6b6760\"/><circle cx=\"100\" cy=\"84\" r=\"11\" fill=\"none\" stroke=\"#6b6760\" stroke-width=\"1.2\"/><text x=\"100.0\" y=\"88.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.8\">M</text><line x1=\"125.0\" y1=\"48.0\" x2=\"150.0\" y2=\"72.0\" stroke=\"#6b6760\" stroke-width=\"1.2\"/><polygon points=\"150.0,72.0 144.3,70.1 147.9,66.4\" fill=\"#6b6760\"/><circle cx=\"150\" cy=\"84\" r=\"11\" fill=\"none\" stroke=\"#6b6760\" stroke-width=\"1.2\"/><text x=\"150.0\" y=\"88.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.8\">n</text><line x1=\"231.0\" y1=\"48.0\" x2=\"231.0\" y2=\"72.0\" stroke=\"#6b6760\" stroke-width=\"1.2\"/><polygon points=\"231.0,72.0 228.4,66.6 233.6,66.6\" fill=\"#6b6760\"/><circle cx=\"231\" cy=\"84\" r=\"11\" fill=\"none\" stroke=\"#6b6760\" stroke-width=\"1.2\"/><text x=\"231.0\" y=\"88.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.8\">n</text><line x1=\"178.0\" y1=\"100.0\" x2=\"74.0\" y2=\"136.0\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><rect x=\"48.0\" y=\"140.0\" width=\"52.0\" height=\"28.0\" rx=\"5\" fill=\"#b5453a\"/><text x=\"74.0\" y=\"158.2\" text-anchor=\"middle\" fill=\"#ffffff\" font-size=\"10.8\" font-weight=\"bold\">Mn</text><line x1=\"178.0\" y1=\"100.0\" x2=\"136.0\" y2=\"136.0\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><rect x=\"110.0\" y=\"140.0\" width=\"52.0\" height=\"28.0\" rx=\"5\" fill=\"#b5453a\"/><text x=\"136.0\" y=\"158.2\" text-anchor=\"middle\" fill=\"#ffffff\" font-size=\"10.8\" font-weight=\"bold\">Mn</text><line x1=\"178.0\" y1=\"100.0\" x2=\"198.0\" y2=\"136.0\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><rect x=\"172.0\" y=\"140.0\" width=\"52.0\" height=\"28.0\" rx=\"5\" fill=\"#1baf7a\"/><text x=\"198.0\" y=\"158.2\" text-anchor=\"middle\" fill=\"#ffffff\" font-size=\"10.8\" font-weight=\"bold\">nn</text><line x1=\"178.0\" y1=\"100.0\" x2=\"260.0\" y2=\"136.0\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><rect x=\"234.0\" y=\"140.0\" width=\"52.0\" height=\"28.0\" rx=\"5\" fill=\"#1baf7a\"/><text x=\"260.0\" y=\"158.2\" text-anchor=\"middle\" fill=\"#ffffff\" font-size=\"10.8\" font-weight=\"bold\">nn</text><text x=\"178.0\" y=\"192.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.8\">½ Mn bolnavi : ½ nn sănătoși</text><text x=\"178.0\" y=\"207.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.8\">riscul e 50% la fiecare sarcină</text></svg>"
+          },
+          {
+            "titlu": "Pedigree tipic autozomal dominant",
+            "nota": "Pedigree ilustrativ, construit după criteriile din manual.",
+            "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 340 240\" role=\"img\" aria-label=\"Pedigree tipic autozomal dominant: boala apare în fiecare generație, la ambele sexe, transmisă doar de părinții afectați\" font-family=\"Georgia, serif\" font-size=\"13\"><text x=\"10.0\" y=\"34.0\" text-anchor=\"start\" fill=\"#6b6760\" font-size=\"10.8\" font-weight=\"bold\">I</text><text x=\"10.0\" y=\"104.0\" text-anchor=\"start\" fill=\"#6b6760\" font-size=\"10.8\" font-weight=\"bold\">II</text><text x=\"10.0\" y=\"174.0\" text-anchor=\"start\" fill=\"#6b6760\" font-size=\"10.8\" font-weight=\"bold\">III</text><rect x=\"151.0\" y=\"21.0\" width=\"18\" height=\"18\" fill=\"#b5453a\" stroke=\"#2c2a26\" stroke-width=\"1.4\"/><circle cx=\"210.0\" cy=\"30.0\" r=\"9.0\" fill=\"#ffffff\" stroke=\"#2c2a26\" stroke-width=\"1.4\"/><line x1=\"169.0\" y1=\"30.0\" x2=\"201.0\" y2=\"30.0\" stroke=\"#2c2a26\" stroke-width=\"1.3\"/><line x1=\"185.0\" y1=\"30.0\" x2=\"185.0\" y2=\"60.5\" stroke=\"#2c2a26\" stroke-width=\"1.3\"/><line x1=\"75.0\" y1=\"60.5\" x2=\"200.0\" y2=\"60.5\" stroke=\"#2c2a26\" stroke-width=\"1.3\"/><line x1=\"75.0\" y1=\"60.5\" x2=\"75.0\" y2=\"91.0\" stroke=\"#2c2a26\" stroke-width=\"1.3\"/><line x1=\"115.0\" y1=\"60.5\" x2=\"115.0\" y2=\"91.0\" stroke=\"#2c2a26\" stroke-width=\"1.3\"/><line x1=\"155.0\" y1=\"60.5\" x2=\"155.0\" y2=\"91.0\" stroke=\"#2c2a26\" stroke-width=\"1.3\"/><line x1=\"200.0\" y1=\"60.5\" x2=\"200.0\" y2=\"91.0\" stroke=\"#2c2a26\" stroke-width=\"1.3\"/><circle cx=\"75.0\" cy=\"100.0\" r=\"9.0\" fill=\"#b5453a\" stroke=\"#2c2a26\" stroke-width=\"1.4\"/><rect x=\"106.0\" y=\"91.0\" width=\"18\" height=\"18\" fill=\"#ffffff\" stroke=\"#2c2a26\" stroke-width=\"1.4\"/><circle cx=\"155.0\" cy=\"100.0\" r=\"9.0\" fill=\"#ffffff\" stroke=\"#2c2a26\" stroke-width=\"1.4\"/><rect x=\"191.0\" y=\"91.0\" width=\"18\" height=\"18\" fill=\"#b5453a\" stroke=\"#2c2a26\" stroke-width=\"1.4\"/><rect x=\"33.0\" y=\"91.0\" width=\"18\" height=\"18\" fill=\"#ffffff\" stroke=\"#2c2a26\" stroke-width=\"1.4\"/><line x1=\"51.0\" y1=\"100.0\" x2=\"66.0\" y2=\"100.0\" stroke=\"#2c2a26\" stroke-width=\"1.3\"/><circle cx=\"250.0\" cy=\"100.0\" r=\"9.0\" fill=\"#ffffff\" stroke=\"#2c2a26\" stroke-width=\"1.4\"/><line x1=\"209.0\" y1=\"100.0\" x2=\"241.0\" y2=\"100.0\" stroke=\"#2c2a26\" stroke-width=\"1.3\"/><line x1=\"58.5\" y1=\"100.0\" x2=\"58.5\" y2=\"130.5\" stroke=\"#2c2a26\" stroke-width=\"1.3\"/><line x1=\"45.0\" y1=\"130.5\" x2=\"85.0\" y2=\"130.5\" stroke=\"#2c2a26\" stroke-width=\"1.3\"/><line x1=\"45.0\" y1=\"130.5\" x2=\"45.0\" y2=\"161.0\" stroke=\"#2c2a26\" stroke-width=\"1.3\"/><line x1=\"85.0\" y1=\"130.5\" x2=\"85.0\" y2=\"161.0\" stroke=\"#2c2a26\" stroke-width=\"1.3\"/><rect x=\"36.0\" y=\"161.0\" width=\"18\" height=\"18\" fill=\"#b5453a\" stroke=\"#2c2a26\" stroke-width=\"1.4\"/><circle cx=\"85.0\" cy=\"170.0\" r=\"9.0\" fill=\"#ffffff\" stroke=\"#2c2a26\" stroke-width=\"1.4\"/><line x1=\"225.0\" y1=\"100.0\" x2=\"225.0\" y2=\"130.5\" stroke=\"#2c2a26\" stroke-width=\"1.3\"/><line x1=\"190.0\" y1=\"130.5\" x2=\"270.0\" y2=\"130.5\" stroke=\"#2c2a26\" stroke-width=\"1.3\"/><line x1=\"190.0\" y1=\"130.5\" x2=\"190.0\" y2=\"161.0\" stroke=\"#2c2a26\" stroke-width=\"1.3\"/><line x1=\"230.0\" y1=\"130.5\" x2=\"230.0\" y2=\"161.0\" stroke=\"#2c2a26\" stroke-width=\"1.3\"/><line x1=\"270.0\" y1=\"130.5\" x2=\"270.0\" y2=\"161.0\" stroke=\"#2c2a26\" stroke-width=\"1.3\"/><rect x=\"181.0\" y=\"161.0\" width=\"18\" height=\"18\" fill=\"#b5453a\" stroke=\"#2c2a26\" stroke-width=\"1.4\"/><circle cx=\"230.0\" cy=\"170.0\" r=\"9.0\" fill=\"#b5453a\" stroke=\"#2c2a26\" stroke-width=\"1.4\"/><circle cx=\"270.0\" cy=\"170.0\" r=\"9.0\" fill=\"#ffffff\" stroke=\"#2c2a26\" stroke-width=\"1.4\"/><text x=\"170.0\" y=\"206.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">continuitate pe verticală · ambele sexe · tată → fiu posibil</text><rect x=\"30.0\" y=\"220.0\" width=\"12\" height=\"12\" fill=\"#b5453a\" stroke=\"#2c2a26\" stroke-width=\"1.4\"/><text x=\"47.0\" y=\"230.0\" text-anchor=\"start\" fill=\"#2c2a26\" font-size=\"10.2\">afectat (Mn)</text><rect x=\"125.8\" y=\"220.0\" width=\"12\" height=\"12\" fill=\"#ffffff\" stroke=\"#2c2a26\" stroke-width=\"1.4\"/><text x=\"142.8\" y=\"230.0\" text-anchor=\"start\" fill=\"#2c2a26\" font-size=\"10.2\">sănătos (nn)</text></svg>"
+          }
+        ]
+      },
+      {
+        "titlu": "Excepții de la modelul dominant",
+        "noduri": [
+          {
+            "t": "Mutația de novo",
+            "d": "Mutație nouă în gametul unui părinte sănătos (80% din acondroplazii, mai ales la tați vârstnici). Risc neglijabil pentru părinți și frați; 50% pentru copiii probandului."
+          },
+          {
+            "t": "Penetranța incompletă",
+            "d": "Unii purtători nu manifestă boala: „saltul unei generații”. Riscul = riscul mendelian × penetranța (polidactilie cu 3 din 4 purtători afectați: 0,50 × 0,75)."
+          },
+          {
+            "t": "Expresivitatea variabilă",
+            "d": "Purtătorii afectați au boala în grade diferite (degete: uni- sau bilateral, ușor sau grav). Camptodactilia arată și penetranță incompletă, și expresivitate variabilă."
+          },
+          {
+            "t": "Formele fruste",
+            "d": "Manifestări foarte ușoare (osteogeneza imperfectă doar cu sclere albastre). La un părinte, deosebesc o mutație moștenită (risc 50%) de una nouă (risc neglijabil)."
+          },
+          {
+            "t": "Ereditatea influențată de sex",
+            "d": "O genă autozomală se manifestă mai des la un sex: guta și calviția frontală la bărbați, căderea precoce a dinților la femei."
+          },
+          {
+            "t": "Anticipația",
+            "d": "Boala debutează tot mai devreme în generații succesive. Cauza: mutații dinamice, un triplet repetat care se amplifică în meioză (CAG în coreea Huntington)."
+          },
+          {
+            "t": "Bolile cu debut tardiv",
+            "d": "Purtătorii par sănătoși până târziu (coreea Huntington: 35–65 de ani). Boala apare de obicei după reproducere, deci scapă selecției naturale și persistă."
+          },
+          {
+            "t": "Fenocopiile",
+            "d": "Modificări produse de mediu care imită o boală ereditară și nu se transmit (talidomida, 1956–1961: membre ca în focomelie). Clinic nu se deosebesc de boala imitată."
+          }
+        ],
+        "figuri": [
+          {
+            "titlu": "Mutația de novo",
+            "nota": "Pedigree ilustrativ, după figura din manual.",
+            "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 340 228\" role=\"img\" aria-label=\"Mutația de novo: un copil afectat din părinți sănătoși; boala se transmite apoi dominant la jumătate din descendenții lui\" font-family=\"Georgia, serif\" font-size=\"13\"><text x=\"10.0\" y=\"34.0\" text-anchor=\"start\" fill=\"#6b6760\" font-size=\"10.8\" font-weight=\"bold\">I</text><text x=\"10.0\" y=\"104.0\" text-anchor=\"start\" fill=\"#6b6760\" font-size=\"10.8\" font-weight=\"bold\">II</text><text x=\"10.0\" y=\"174.0\" text-anchor=\"start\" fill=\"#6b6760\" font-size=\"10.8\" font-weight=\"bold\">III</text><rect x=\"111.0\" y=\"21.0\" width=\"18\" height=\"18\" fill=\"#ffffff\" stroke=\"#2c2a26\" stroke-width=\"1.4\"/><circle cx=\"180.0\" cy=\"30.0\" r=\"9.0\" fill=\"#ffffff\" stroke=\"#2c2a26\" stroke-width=\"1.4\"/><line x1=\"129.0\" y1=\"30.0\" x2=\"171.0\" y2=\"30.0\" stroke=\"#2c2a26\" stroke-width=\"1.3\"/><line x1=\"150.0\" y1=\"30.0\" x2=\"150.0\" y2=\"60.5\" stroke=\"#2c2a26\" stroke-width=\"1.3\"/><line x1=\"60.0\" y1=\"60.5\" x2=\"180.0\" y2=\"60.5\" stroke=\"#2c2a26\" stroke-width=\"1.3\"/><line x1=\"60.0\" y1=\"60.5\" x2=\"60.0\" y2=\"91.0\" stroke=\"#2c2a26\" stroke-width=\"1.3\"/><line x1=\"120.0\" y1=\"60.5\" x2=\"120.0\" y2=\"91.0\" stroke=\"#2c2a26\" stroke-width=\"1.3\"/><line x1=\"180.0\" y1=\"60.5\" x2=\"180.0\" y2=\"91.0\" stroke=\"#2c2a26\" stroke-width=\"1.3\"/><circle cx=\"60.0\" cy=\"100.0\" r=\"9.0\" fill=\"#ffffff\" stroke=\"#2c2a26\" stroke-width=\"1.4\"/><rect x=\"111.0\" y=\"91.0\" width=\"18\" height=\"18\" fill=\"#ffffff\" stroke=\"#2c2a26\" stroke-width=\"1.4\"/><rect x=\"171.0\" y=\"91.0\" width=\"18\" height=\"18\" fill=\"#b5453a\" stroke=\"#2c2a26\" stroke-width=\"1.4\"/><line x1=\"155.0\" y1=\"121.0\" x2=\"169.0\" y2=\"108.0\" stroke=\"#2c2a26\" stroke-width=\"1.4\"/><polygon points=\"169.0,108.0 166.8,113.6 163.3,109.8\" fill=\"#2c2a26\"/><circle cx=\"240.0\" cy=\"100.0\" r=\"9.0\" fill=\"#ffffff\" stroke=\"#2c2a26\" stroke-width=\"1.4\"/><line x1=\"189.0\" y1=\"100.0\" x2=\"231.0\" y2=\"100.0\" stroke=\"#2c2a26\" stroke-width=\"1.3\"/><line x1=\"210.0\" y1=\"100.0\" x2=\"210.0\" y2=\"130.5\" stroke=\"#2c2a26\" stroke-width=\"1.3\"/><line x1=\"180.0\" y1=\"130.5\" x2=\"260.0\" y2=\"130.5\" stroke=\"#2c2a26\" stroke-width=\"1.3\"/><line x1=\"180.0\" y1=\"130.5\" x2=\"180.0\" y2=\"161.0\" stroke=\"#2c2a26\" stroke-width=\"1.3\"/><line x1=\"220.0\" y1=\"130.5\" x2=\"220.0\" y2=\"161.0\" stroke=\"#2c2a26\" stroke-width=\"1.3\"/><line x1=\"260.0\" y1=\"130.5\" x2=\"260.0\" y2=\"161.0\" stroke=\"#2c2a26\" stroke-width=\"1.3\"/><circle cx=\"180.0\" cy=\"170.0\" r=\"9.0\" fill=\"#b5453a\" stroke=\"#2c2a26\" stroke-width=\"1.4\"/><rect x=\"211.0\" y=\"161.0\" width=\"18\" height=\"18\" fill=\"#ffffff\" stroke=\"#2c2a26\" stroke-width=\"1.4\"/><rect x=\"251.0\" y=\"161.0\" width=\"18\" height=\"18\" fill=\"#b5453a\" stroke=\"#2c2a26\" stroke-width=\"1.4\"/><text x=\"218.0\" y=\"26.0\" text-anchor=\"start\" fill=\"#6b6760\" font-size=\"10.2\">părinți sănătoși: mutația</text><text x=\"218.0\" y=\"39.0\" text-anchor=\"start\" fill=\"#6b6760\" font-size=\"10.2\">a apărut într-un gamet</text><text x=\"14.0\" y=\"205.0\" text-anchor=\"start\" fill=\"#6b6760\" font-size=\"10.2\">Frații probandului: risc neglijabil (mutația nu se repetă).</text><text x=\"14.0\" y=\"219.0\" text-anchor=\"start\" fill=\"#6b6760\" font-size=\"10.2\">Copiii probandului: risc 50%, ca la orice boală dominantă.</text></svg>"
+          }
+        ]
+      },
+      {
+        "titlu": "Modelul autozomal recesiv",
+        "lat": true,
+        "noduri": [
+          {
+            "t": "Recesivitatea și enzimele",
+            "d": "Vine de obicei dintr-o deficiență enzimatică: o alelă normală produce încă destulă enzimă, deci boala apare doar la homozigot (eroare înnăscută de metabolism)."
+          },
+          {
+            "t": "Erori înnăscute tratabile",
+            "d": "Fenilcetonurie: dietă fără fenilalanină din prima lună, evită retardul. Galactozemie: lactatele înlocuite cu produse speciale. Hipotiroidism: hormon de substituție."
+          },
+          {
+            "t": "Încrucișarea purtător × purtător",
+            "d": "Nm × Nm: ¼ NN, ½ Nm, ¼ mm, deci risc ¼ la fiecare sarcină; dintre copiii sănătoși, ⅔ sunt purtători. De aici provin cei mai mulți bolnavi."
+          },
+          {
+            "t": "Criteriile transmiterii recesive",
+            "d": "Model orizontal (bolnavi doar într-o fratrie); părinți sănătoși purtători; risc ¼; sexe afectate egal; doi părinți bolnavi au numai copii bolnavi; consangvinizare frecventă."
+          },
+          {
+            "t": "Heterogenitatea genetică",
+            "d": "Același fenotip produs de gene diferite (4–5 forme de albinism, 20 de surdități). Așa pot avea copii sănătoși doi părinți cu aceeași boală recesivă."
+          },
+          {
+            "t": "Etnicitatea",
+            "d": "Unele boli recesive sunt frecvente doar în anumite populații: Tay-Sachs la evreii așkenazi, anemia cu celule în seceră (hemoglobina S) la populațiile de origine africană."
+          }
+        ],
+        "figuri": [
+          {
+            "titlu": "Diagrama eredității autozomale recesive",
+            "nota": "Redesenată după manual: m = gena mutantă recesivă, N = alela normală.",
+            "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 340 226\" role=\"img\" aria-label=\"Ereditatea autozomală recesivă: doi purtători Nm dau un sfert de copii mm bolnavi\" font-family=\"Georgia, serif\" font-size=\"13\"><text x=\"8.0\" y=\"36.0\" text-anchor=\"start\" fill=\"#6b6760\" font-size=\"10.8\" font-weight=\"bold\">Părinți</text><text x=\"8.0\" y=\"86.0\" text-anchor=\"start\" fill=\"#6b6760\" font-size=\"10.8\" font-weight=\"bold\">Gameți</text><text x=\"8.0\" y=\"158.0\" text-anchor=\"start\" fill=\"#6b6760\" font-size=\"10.8\" font-weight=\"bold\">Copii</text><rect x=\"92.0\" y=\"18.0\" width=\"66.0\" height=\"28.0\" rx=\"5\" fill=\"#1baf7a\"/><text x=\"125.0\" y=\"36.2\" text-anchor=\"middle\" fill=\"#ffffff\" font-size=\"12.0\" font-weight=\"bold\">Nm</text><text x=\"178.0\" y=\"37.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"15\">×</text><rect x=\"198.0\" y=\"18.0\" width=\"66.0\" height=\"28.0\" rx=\"5\" fill=\"#1baf7a\"/><text x=\"231.0\" y=\"36.2\" text-anchor=\"middle\" fill=\"#ffffff\" font-size=\"12.0\" font-weight=\"bold\">Nm</text><line x1=\"125.0\" y1=\"48.0\" x2=\"100.0\" y2=\"72.0\" stroke=\"#6b6760\" stroke-width=\"1.2\"/><polygon points=\"100.0,72.0 102.1,66.4 105.7,70.1\" fill=\"#6b6760\"/><circle cx=\"100\" cy=\"84\" r=\"11\" fill=\"none\" stroke=\"#6b6760\" stroke-width=\"1.2\"/><text x=\"100.0\" y=\"88.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.8\">N</text><line x1=\"125.0\" y1=\"48.0\" x2=\"150.0\" y2=\"72.0\" stroke=\"#6b6760\" stroke-width=\"1.2\"/><polygon points=\"150.0,72.0 144.3,70.1 147.9,66.4\" fill=\"#6b6760\"/><circle cx=\"150\" cy=\"84\" r=\"11\" fill=\"none\" stroke=\"#6b6760\" stroke-width=\"1.2\"/><text x=\"150.0\" y=\"88.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.8\">m</text><line x1=\"231.0\" y1=\"48.0\" x2=\"206.0\" y2=\"72.0\" stroke=\"#6b6760\" stroke-width=\"1.2\"/><polygon points=\"206.0,72.0 208.1,66.4 211.7,70.1\" fill=\"#6b6760\"/><circle cx=\"206\" cy=\"84\" r=\"11\" fill=\"none\" stroke=\"#6b6760\" stroke-width=\"1.2\"/><text x=\"206.0\" y=\"88.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.8\">N</text><line x1=\"231.0\" y1=\"48.0\" x2=\"256.0\" y2=\"72.0\" stroke=\"#6b6760\" stroke-width=\"1.2\"/><polygon points=\"256.0,72.0 250.3,70.1 253.9,66.4\" fill=\"#6b6760\"/><circle cx=\"256\" cy=\"84\" r=\"11\" fill=\"none\" stroke=\"#6b6760\" stroke-width=\"1.2\"/><text x=\"256.0\" y=\"88.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.8\">m</text><line x1=\"178.0\" y1=\"100.0\" x2=\"74.0\" y2=\"136.0\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><rect x=\"48.0\" y=\"140.0\" width=\"52.0\" height=\"28.0\" rx=\"5\" fill=\"#1baf7a\"/><text x=\"74.0\" y=\"158.2\" text-anchor=\"middle\" fill=\"#ffffff\" font-size=\"10.8\" font-weight=\"bold\">NN</text><line x1=\"178.0\" y1=\"100.0\" x2=\"136.0\" y2=\"136.0\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><rect x=\"110.0\" y=\"140.0\" width=\"52.0\" height=\"28.0\" rx=\"5\" fill=\"#1baf7a\"/><text x=\"136.0\" y=\"158.2\" text-anchor=\"middle\" fill=\"#ffffff\" font-size=\"10.8\" font-weight=\"bold\">Nm</text><line x1=\"178.0\" y1=\"100.0\" x2=\"198.0\" y2=\"136.0\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><rect x=\"172.0\" y=\"140.0\" width=\"52.0\" height=\"28.0\" rx=\"5\" fill=\"#1baf7a\"/><text x=\"198.0\" y=\"158.2\" text-anchor=\"middle\" fill=\"#ffffff\" font-size=\"10.8\" font-weight=\"bold\">Nm</text><line x1=\"178.0\" y1=\"100.0\" x2=\"260.0\" y2=\"136.0\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><rect x=\"234.0\" y=\"140.0\" width=\"52.0\" height=\"28.0\" rx=\"5\" fill=\"#b5453a\"/><text x=\"260.0\" y=\"158.2\" text-anchor=\"middle\" fill=\"#ffffff\" font-size=\"10.8\" font-weight=\"bold\">mm</text><text x=\"178.0\" y=\"192.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.8\">¼ NN : ½ Nm : ¼ mm</text><text x=\"178.0\" y=\"207.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.8\">¾ sănătoși (⅔ dintre ei purtători), ¼ bolnavi</text></svg>"
+          },
+          {
+            "titlu": "Pedigree-uri autozomal recesive",
+            "nota": "Pedigree-uri ilustrative, după cele două modele din manual (orizontal și cu consangvinizare). Purtătorii se văd ca atare doar după analiză; în familie par sănătoși.",
+            "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 250\" role=\"img\" aria-label=\"Pedigree-uri autozomal recesive: a) bolnavi doar într-o fratrie, din părinți purtători sănătoși; b) copil bolnav dintr-o căsătorie între veri primari\" font-family=\"Georgia, serif\" font-size=\"13\"><text x=\"10.0\" y=\"14.0\" text-anchor=\"start\" fill=\"#2c2a26\" font-size=\"10.8\" font-weight=\"bold\">a) model orizontal</text><text x=\"10.0\" y=\"46.0\" text-anchor=\"start\" fill=\"#6b6760\" font-size=\"10.8\" font-weight=\"bold\">I</text><text x=\"10.0\" y=\"112.0\" text-anchor=\"start\" fill=\"#6b6760\" font-size=\"10.8\" font-weight=\"bold\">II</text><rect x=\"61.0\" y=\"33.0\" width=\"18\" height=\"18\" fill=\"#ffffff\" stroke=\"#2c2a26\" stroke-width=\"1.4\"/><rect x=\"61.0\" y=\"33.0\" width=\"9.0\" height=\"18\" fill=\"#b5453a\"/><rect x=\"61.0\" y=\"33.0\" width=\"18\" height=\"18\" fill=\"none\" stroke=\"#2c2a26\" stroke-width=\"1.4\"/><circle cx=\"130.0\" cy=\"42.0\" r=\"9.0\" fill=\"#ffffff\" stroke=\"#2c2a26\" stroke-width=\"1.4\"/><path d=\"M130.0,33.0 A9.0,9.0 0 0,0 130.0,51.0 Z\" fill=\"#b5453a\"/><circle cx=\"130.0\" cy=\"42.0\" r=\"9.0\" fill=\"none\" stroke=\"#2c2a26\" stroke-width=\"1.4\"/><line x1=\"79.0\" y1=\"42.0\" x2=\"121.0\" y2=\"42.0\" stroke=\"#2c2a26\" stroke-width=\"1.3\"/><line x1=\"100.0\" y1=\"42.0\" x2=\"100.0\" y2=\"70.5\" stroke=\"#2c2a26\" stroke-width=\"1.3\"/><line x1=\"40.0\" y1=\"70.5\" x2=\"160.0\" y2=\"70.5\" stroke=\"#2c2a26\" stroke-width=\"1.3\"/><line x1=\"40.0\" y1=\"70.5\" x2=\"40.0\" y2=\"99.0\" stroke=\"#2c2a26\" stroke-width=\"1.3\"/><line x1=\"70.0\" y1=\"70.5\" x2=\"70.0\" y2=\"99.0\" stroke=\"#2c2a26\" stroke-width=\"1.3\"/><line x1=\"100.0\" y1=\"70.5\" x2=\"100.0\" y2=\"99.0\" stroke=\"#2c2a26\" stroke-width=\"1.3\"/><line x1=\"130.0\" y1=\"70.5\" x2=\"130.0\" y2=\"99.0\" stroke=\"#2c2a26\" stroke-width=\"1.3\"/><line x1=\"160.0\" y1=\"70.5\" x2=\"160.0\" y2=\"99.0\" stroke=\"#2c2a26\" stroke-width=\"1.3\"/><circle cx=\"40.0\" cy=\"108.0\" r=\"9.0\" fill=\"#ffffff\" stroke=\"#2c2a26\" stroke-width=\"1.4\"/><rect x=\"61.0\" y=\"99.0\" width=\"18\" height=\"18\" fill=\"#b5453a\" stroke=\"#2c2a26\" stroke-width=\"1.4\"/><circle cx=\"100.0\" cy=\"108.0\" r=\"9.0\" fill=\"#ffffff\" stroke=\"#2c2a26\" stroke-width=\"1.4\"/><path d=\"M100.0,99.0 A9.0,9.0 0 0,0 100.0,117.0 Z\" fill=\"#b5453a\"/><circle cx=\"100.0\" cy=\"108.0\" r=\"9.0\" fill=\"none\" stroke=\"#2c2a26\" stroke-width=\"1.4\"/><rect x=\"121.0\" y=\"99.0\" width=\"18\" height=\"18\" fill=\"#ffffff\" stroke=\"#2c2a26\" stroke-width=\"1.4\"/><circle cx=\"160.0\" cy=\"108.0\" r=\"9.0\" fill=\"#b5453a\" stroke=\"#2c2a26\" stroke-width=\"1.4\"/><text x=\"100.0\" y=\"140.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">bolnavii: doar între frați</text><text x=\"186.0\" y=\"14.0\" text-anchor=\"start\" fill=\"#2c2a26\" font-size=\"10.8\" font-weight=\"bold\">b) consangvinizare</text><rect x=\"229.0\" y=\"27.0\" width=\"18\" height=\"18\" fill=\"#ffffff\" stroke=\"#2c2a26\" stroke-width=\"1.4\"/><rect x=\"229.0\" y=\"27.0\" width=\"9.0\" height=\"18\" fill=\"#b5453a\"/><rect x=\"229.0\" y=\"27.0\" width=\"18\" height=\"18\" fill=\"none\" stroke=\"#2c2a26\" stroke-width=\"1.4\"/><circle cx=\"282.0\" cy=\"36.0\" r=\"9.0\" fill=\"#ffffff\" stroke=\"#2c2a26\" stroke-width=\"1.4\"/><line x1=\"247.0\" y1=\"36.0\" x2=\"273.0\" y2=\"36.0\" stroke=\"#2c2a26\" stroke-width=\"1.3\"/><line x1=\"260.0\" y1=\"36.0\" x2=\"260.0\" y2=\"54.5\" stroke=\"#2c2a26\" stroke-width=\"1.3\"/><line x1=\"226.0\" y1=\"54.5\" x2=\"294.0\" y2=\"54.5\" stroke=\"#2c2a26\" stroke-width=\"1.3\"/><line x1=\"226.0\" y1=\"54.5\" x2=\"226.0\" y2=\"73.0\" stroke=\"#2c2a26\" stroke-width=\"1.3\"/><line x1=\"294.0\" y1=\"54.5\" x2=\"294.0\" y2=\"73.0\" stroke=\"#2c2a26\" stroke-width=\"1.3\"/><rect x=\"217.0\" y=\"73.0\" width=\"18\" height=\"18\" fill=\"#ffffff\" stroke=\"#2c2a26\" stroke-width=\"1.4\"/><rect x=\"217.0\" y=\"73.0\" width=\"9.0\" height=\"18\" fill=\"#b5453a\"/><rect x=\"217.0\" y=\"73.0\" width=\"18\" height=\"18\" fill=\"none\" stroke=\"#2c2a26\" stroke-width=\"1.4\"/><circle cx=\"294.0\" cy=\"82.0\" r=\"9.0\" fill=\"#ffffff\" stroke=\"#2c2a26\" stroke-width=\"1.4\"/><path d=\"M294.0,73.0 A9.0,9.0 0 0,0 294.0,91.0 Z\" fill=\"#b5453a\"/><circle cx=\"294.0\" cy=\"82.0\" r=\"9.0\" fill=\"none\" stroke=\"#2c2a26\" stroke-width=\"1.4\"/><circle cx=\"198.0\" cy=\"82.0\" r=\"9.0\" fill=\"#ffffff\" stroke=\"#2c2a26\" stroke-width=\"1.4\"/><line x1=\"207.0\" y1=\"82.0\" x2=\"217.0\" y2=\"82.0\" stroke=\"#2c2a26\" stroke-width=\"1.3\"/><rect x=\"317.0\" y=\"73.0\" width=\"18\" height=\"18\" fill=\"#ffffff\" stroke=\"#2c2a26\" stroke-width=\"1.4\"/><line x1=\"303.0\" y1=\"82.0\" x2=\"317.0\" y2=\"82.0\" stroke=\"#2c2a26\" stroke-width=\"1.3\"/><line x1=\"212.0\" y1=\"82.0\" x2=\"212.0\" y2=\"100.5\" stroke=\"#2c2a26\" stroke-width=\"1.3\"/><line x1=\"212.0\" y1=\"100.5\" x2=\"236.0\" y2=\"100.5\" stroke=\"#2c2a26\" stroke-width=\"1.3\"/><line x1=\"236.0\" y1=\"100.5\" x2=\"236.0\" y2=\"119.0\" stroke=\"#2c2a26\" stroke-width=\"1.3\"/><line x1=\"310.0\" y1=\"82.0\" x2=\"310.0\" y2=\"100.5\" stroke=\"#2c2a26\" stroke-width=\"1.3\"/><line x1=\"310.0\" y1=\"100.5\" x2=\"286.0\" y2=\"100.5\" stroke=\"#2c2a26\" stroke-width=\"1.3\"/><line x1=\"286.0\" y1=\"100.5\" x2=\"286.0\" y2=\"119.0\" stroke=\"#2c2a26\" stroke-width=\"1.3\"/><rect x=\"227.0\" y=\"119.0\" width=\"18\" height=\"18\" fill=\"#ffffff\" stroke=\"#2c2a26\" stroke-width=\"1.4\"/><rect x=\"227.0\" y=\"119.0\" width=\"9.0\" height=\"18\" fill=\"#b5453a\"/><rect x=\"227.0\" y=\"119.0\" width=\"18\" height=\"18\" fill=\"none\" stroke=\"#2c2a26\" stroke-width=\"1.4\"/><circle cx=\"286.0\" cy=\"128.0\" r=\"9.0\" fill=\"#ffffff\" stroke=\"#2c2a26\" stroke-width=\"1.4\"/><path d=\"M286.0,119.0 A9.0,9.0 0 0,0 286.0,137.0 Z\" fill=\"#b5453a\"/><circle cx=\"286.0\" cy=\"128.0\" r=\"9.0\" fill=\"none\" stroke=\"#2c2a26\" stroke-width=\"1.4\"/><line x1=\"245.0\" y1=\"126.0\" x2=\"277.0\" y2=\"126.0\" stroke=\"#2c2a26\" stroke-width=\"1.3\"/><line x1=\"245.0\" y1=\"130.0\" x2=\"277.0\" y2=\"130.0\" stroke=\"#2c2a26\" stroke-width=\"1.3\"/><line x1=\"261.0\" y1=\"128.0\" x2=\"261.0\" y2=\"146.5\" stroke=\"#2c2a26\" stroke-width=\"1.3\"/><line x1=\"241.0\" y1=\"146.5\" x2=\"281.0\" y2=\"146.5\" stroke=\"#2c2a26\" stroke-width=\"1.3\"/><line x1=\"241.0\" y1=\"146.5\" x2=\"241.0\" y2=\"165.0\" stroke=\"#2c2a26\" stroke-width=\"1.3\"/><line x1=\"281.0\" y1=\"146.5\" x2=\"281.0\" y2=\"165.0\" stroke=\"#2c2a26\" stroke-width=\"1.3\"/><circle cx=\"241.0\" cy=\"174.0\" r=\"9.0\" fill=\"#b5453a\" stroke=\"#2c2a26\" stroke-width=\"1.4\"/><rect x=\"272.0\" y=\"165.0\" width=\"18\" height=\"18\" fill=\"#ffffff\" stroke=\"#2c2a26\" stroke-width=\"1.4\"/><text x=\"261.0\" y=\"204.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">veri primari, purtători ai</text><text x=\"261.0\" y=\"217.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">aceleiași gene de la bunic</text><rect x=\"14.0\" y=\"230.0\" width=\"12\" height=\"12\" fill=\"#b5453a\" stroke=\"#2c2a26\" stroke-width=\"1.4\"/><text x=\"31.0\" y=\"240.0\" text-anchor=\"start\" fill=\"#2c2a26\" font-size=\"10.2\">afectat (mm)</text><rect x=\"109.8\" y=\"230.0\" width=\"12\" height=\"12\" fill=\"#ffffff\" stroke=\"#2c2a26\" stroke-width=\"1.4\"/><rect x=\"109.8\" y=\"230.0\" width=\"6.0\" height=\"12\" fill=\"#b5453a\"/><rect x=\"109.8\" y=\"230.0\" width=\"12\" height=\"12\" fill=\"none\" stroke=\"#2c2a26\" stroke-width=\"1.4\"/><text x=\"126.8\" y=\"240.0\" text-anchor=\"start\" fill=\"#2c2a26\" font-size=\"10.2\">purtător (Nm)</text><rect x=\"211.0\" y=\"230.0\" width=\"12\" height=\"12\" fill=\"#ffffff\" stroke=\"#2c2a26\" stroke-width=\"1.4\"/><text x=\"228.0\" y=\"240.0\" text-anchor=\"start\" fill=\"#2c2a26\" font-size=\"10.2\">sănătos</text></svg>"
+          }
+        ]
+      },
+      {
+        "titlu": "Consangvinitatea",
+        "noduri": [
+          {
+            "t": "Consangvinitatea",
+            "d": "Părinți cu strămoși comuni (inbreeding; endogamie = uniuni într-o populație închisă). Crește șansa ca ambii să poarte aceeași mutație recesivă (albinism: 1/38 000 în SUA, 18–24% la familiile Hopi)."
+          },
+          {
+            "t": "Coeficienții de înrudire și consangvinitate",
+            "d": "Înrudirea: proporția de gene comune rudelor. Consangvinitatea (F): probabilitatea ca un copil al cuplului să primească ambele alele ale unei gene de la strămoșul comun."
+          },
+          {
+            "t": "Consangvinizarea nu e un rău în sine",
+            "d": "Riscul depinde de mutațiile din familie: Darwin, căsătorit cu verișoara primară, a avut 10 copii sănătoși. Totuși, fiecare om poartă câteva (2–4) mutații recesive."
+          },
+          {
+            "t": "Prohibiția incestului",
+            "d": "Interzis peste tot (excepție: faraonii). Ipoteza unui mecanism înnăscut (Jane Goodall, la primate): dezgustul a dus la legi. Lévi-Strauss: prohibiția marchează trecerea de la natură la cultură."
+          }
+        ],
+        "tabel": {
+          "cap": [
+            "Cuplu consangvin",
+            "Coef. de înrudire",
+            "Coef. de consangvinitate (F)",
+            "Risc (în manual)"
+          ],
+          "randuri": [
+            [
+              "frați",
+              "1/2",
+              "1/4",
+              "1/8"
+            ],
+            [
+              "frați vitregi; unchi – nepoată; mătușă – nepot",
+              "1/4",
+              "1/8",
+              "1/16"
+            ],
+            [
+              "veri primari",
+              "1/8",
+              "1/16",
+              "1/32"
+            ],
+            [
+              "unchi – nepoată de văr; mătușă – nepot de văr",
+              "1/16",
+              "1/32",
+              "1/64"
+            ],
+            [
+              "veri de gradul II",
+              "1/32",
+              "1/64",
+              "1/128"
+            ]
+          ]
+        }
+      },
+      {
+        "titlu": "Screening și sfat genetic",
+        "noduri": [
+          {
+            "t": "Screeningul genetic",
+            "d": "Cercetarea sistematică a unui grup cu risc: nou-născuți (postnatal), sarcini (prenatal), purtători sănătoși (al heterozigoților). Limite: unele mutații nu se pot detecta (albinism)."
+          },
+          {
+            "t": "Talasemia și malaria",
+            "d": "Talasemia e frecventă în bazinul mediteranean (până la 40% purtători în unele sate din Sardinia): heterozigoții rezistă mai bine la malarie și au mai mulți urmași."
+          },
+          {
+            "t": "Screeningul heterozigoților",
+            "d": "Reușit cu informare și sfat genetic: talasemia în Sardinia, Tay-Sachs la evreii așkenazi. Eșuat în SUA pentru hemoglobina S: fără informare, populația s-a simțit discriminată."
+          },
+          {
+            "t": "Pașii sfatului genetic",
+            "d": "Diagnostic precis; pedigree complet, încadrat într-unul din cele patru modele; genotipurile membrilor familiei; probabilitățile calculate după legile lui Mendel."
+          },
+          {
+            "t": "Riscul de recurență",
+            "d": "Rămâne același la fiecare sarcină, indiferent câți copii bolnavi există deja. Părinți sănătoși cu un copil mm: risc ¼ pentru încă un copil bolnav."
+          },
+          {
+            "t": "Consimțământul și diagnosticul prenatal",
+            "d": "Orice diagnostic genetic e precedat de sfat genetic, cu consimțământ informat. Diagnosticul prenatal (amniocenteză, teste moleculare) compensează faptul că sfatul dă doar probabilități."
+          }
+        ]
+      },
+      {
+        "titlu": "Ereditatea legată de sex",
+        "lat": true,
+        "noduri": [
+          {
+            "t": "Cromozomii de sex",
+            "d": "Bărbatul e heterogametic (XY: gameți X și Y), femeia homogametică (XX). La păsări și fluturi e invers (femela WZ). De la mamă primim mereu un X."
+          },
+          {
+            "t": "Cromozomul Y și ereditatea holandrică",
+            "d": "Y e mic, aproape inert, masculinizant prin gena SRY. Transmiterea exclusiv tată → fiu se numește holandrică (exemplul citat, hipertricoza urechilor, e incert)."
+          },
+          {
+            "t": "Hemizigoția",
+            "d": "Bărbatul are o singură copie a genelor de pe X, deci orice mutație recesivă de pe X se manifestă la el; la femeia heterozigotă e mascată de alela normală."
+          },
+          {
+            "t": "Daltonismul",
+            "d": "Atribuit cromozomului X în 1911: prima genă localizată pe un cromozom anume. Numele vine de la Dalton, care avea boala. 8% la caucazieni, foarte rar la eschimoși."
+          },
+          {
+            "t": "Transmiterea recesivă legată de X",
+            "d": "Bărbat bolnav → fiice purtătoare → nepoți bolnavi (oblic). Mama purtătoare: ½ din fii bolnavi, ½ din fiice purtătoare. Nu trece de la tată la fiu."
+          },
+          {
+            "t": "Femeile heterozigote parțial afectate",
+            "d": "Prin inactivarea întâmplătoare a unui X, unele purtătoare au simptome ușoare, când în celulele de interes a rămas activ X-ul cu mutația."
+          },
+          {
+            "t": "Transmiterea dominantă legată de X",
+            "d": "De două ori mai frecventă la femei. Tatăl afectat o transmite tuturor fiicelor și niciunui fiu (rahitismul vitamino-rezistent, amelogeneza imperfectă)."
+          }
+        ],
+        "figuri": [
+          {
+            "titlu": "Transmiterea recesivă legată de X (hemofilia)",
+            "nota": "Redesenată după manual: Xᴴ = alela normală dominantă, Xʰ = alela hemofiliei.",
+            "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 340 226\" role=\"img\" aria-label=\"Ereditatea recesivă legată de X: mama purtătoare și tatăl sănătos au fiice sănătoase, jumătate purtătoare, și jumătate din fii bolnavi\" font-family=\"Georgia, serif\" font-size=\"13\"><text x=\"8.0\" y=\"36.0\" text-anchor=\"start\" fill=\"#6b6760\" font-size=\"10.8\" font-weight=\"bold\">Părinți</text><text x=\"8.0\" y=\"86.0\" text-anchor=\"start\" fill=\"#6b6760\" font-size=\"10.8\" font-weight=\"bold\">Gameți</text><text x=\"8.0\" y=\"158.0\" text-anchor=\"start\" fill=\"#6b6760\" font-size=\"10.8\" font-weight=\"bold\">Copii</text><rect x=\"92.0\" y=\"18.0\" width=\"66.0\" height=\"28.0\" rx=\"5\" fill=\"#1baf7a\"/><text x=\"125.0\" y=\"36.2\" text-anchor=\"middle\" fill=\"#ffffff\" font-size=\"12.0\" font-weight=\"bold\">XᴴXʰ</text><text x=\"178.0\" y=\"37.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"15\">×</text><rect x=\"198.0\" y=\"18.0\" width=\"66.0\" height=\"28.0\" rx=\"5\" fill=\"#2a78d6\"/><text x=\"231.0\" y=\"36.2\" text-anchor=\"middle\" fill=\"#ffffff\" font-size=\"12.0\" font-weight=\"bold\">XᴴY</text><line x1=\"125.0\" y1=\"48.0\" x2=\"100.0\" y2=\"72.0\" stroke=\"#6b6760\" stroke-width=\"1.2\"/><polygon points=\"100.0,72.0 102.1,66.4 105.7,70.1\" fill=\"#6b6760\"/><circle cx=\"100\" cy=\"84\" r=\"11\" fill=\"none\" stroke=\"#6b6760\" stroke-width=\"1.2\"/><text x=\"100.0\" y=\"88.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.8\">Xᴴ</text><line x1=\"125.0\" y1=\"48.0\" x2=\"150.0\" y2=\"72.0\" stroke=\"#6b6760\" stroke-width=\"1.2\"/><polygon points=\"150.0,72.0 144.3,70.1 147.9,66.4\" fill=\"#6b6760\"/><circle cx=\"150\" cy=\"84\" r=\"11\" fill=\"none\" stroke=\"#6b6760\" stroke-width=\"1.2\"/><text x=\"150.0\" y=\"88.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.8\">Xʰ</text><line x1=\"231.0\" y1=\"48.0\" x2=\"206.0\" y2=\"72.0\" stroke=\"#6b6760\" stroke-width=\"1.2\"/><polygon points=\"206.0,72.0 208.1,66.4 211.7,70.1\" fill=\"#6b6760\"/><circle cx=\"206\" cy=\"84\" r=\"11\" fill=\"none\" stroke=\"#6b6760\" stroke-width=\"1.2\"/><text x=\"206.0\" y=\"88.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.8\">Xᴴ</text><line x1=\"231.0\" y1=\"48.0\" x2=\"256.0\" y2=\"72.0\" stroke=\"#6b6760\" stroke-width=\"1.2\"/><polygon points=\"256.0,72.0 250.3,70.1 253.9,66.4\" fill=\"#6b6760\"/><circle cx=\"256\" cy=\"84\" r=\"11\" fill=\"none\" stroke=\"#6b6760\" stroke-width=\"1.2\"/><text x=\"256.0\" y=\"88.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.8\">Y</text><line x1=\"178.0\" y1=\"100.0\" x2=\"74.0\" y2=\"136.0\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><rect x=\"48.0\" y=\"140.0\" width=\"52.0\" height=\"28.0\" rx=\"5\" fill=\"#1baf7a\"/><text x=\"74.0\" y=\"158.2\" text-anchor=\"middle\" fill=\"#ffffff\" font-size=\"10.8\" font-weight=\"bold\">XᴴXᴴ</text><line x1=\"178.0\" y1=\"100.0\" x2=\"136.0\" y2=\"136.0\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><rect x=\"110.0\" y=\"140.0\" width=\"52.0\" height=\"28.0\" rx=\"5\" fill=\"#1baf7a\"/><text x=\"136.0\" y=\"158.2\" text-anchor=\"middle\" fill=\"#ffffff\" font-size=\"10.8\" font-weight=\"bold\">XᴴXʰ</text><line x1=\"178.0\" y1=\"100.0\" x2=\"198.0\" y2=\"136.0\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><rect x=\"172.0\" y=\"140.0\" width=\"52.0\" height=\"28.0\" rx=\"5\" fill=\"#2a78d6\"/><text x=\"198.0\" y=\"158.2\" text-anchor=\"middle\" fill=\"#ffffff\" font-size=\"10.8\" font-weight=\"bold\">XᴴY</text><line x1=\"178.0\" y1=\"100.0\" x2=\"260.0\" y2=\"136.0\" stroke=\"#e6e0d4\" stroke-width=\"1\"/><rect x=\"234.0\" y=\"140.0\" width=\"52.0\" height=\"28.0\" rx=\"5\" fill=\"#b5453a\"/><text x=\"260.0\" y=\"158.2\" text-anchor=\"middle\" fill=\"#ffffff\" font-size=\"10.8\" font-weight=\"bold\">XʰY</text><text x=\"178.0\" y=\"192.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.8\">fiice: toate sănătoase, jumătate purtătoare</text><text x=\"178.0\" y=\"207.0\" text-anchor=\"middle\" fill=\"#2c2a26\" font-size=\"10.8\">fii: jumătate afectați (hemofilie)</text></svg>"
+          },
+          {
+            "titlu": "Pedigree-uri legate de X",
+            "nota": "Pedigree-uri ilustrative, construite după criteriile din manual.",
+            "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 250\" role=\"img\" aria-label=\"Pedigree-uri legate de X: a) recesiv, de la bunicul bolnav prin fiica purtătoare la nepot; b) dominant, tatăl afectat are toate fiicele afectate și fiii sănătoși\" font-family=\"Georgia, serif\" font-size=\"13\"><text x=\"10.0\" y=\"14.0\" text-anchor=\"start\" fill=\"#2c2a26\" font-size=\"10.8\" font-weight=\"bold\">a) recesiv legat de X</text><text x=\"10.0\" y=\"44.0\" text-anchor=\"start\" fill=\"#6b6760\" font-size=\"10.8\" font-weight=\"bold\">I</text><text x=\"10.0\" y=\"108.0\" text-anchor=\"start\" fill=\"#6b6760\" font-size=\"10.8\" font-weight=\"bold\">II</text><text x=\"10.0\" y=\"172.0\" text-anchor=\"start\" fill=\"#6b6760\" font-size=\"10.8\" font-weight=\"bold\">III</text><rect x=\"51.0\" y=\"31.0\" width=\"18\" height=\"18\" fill=\"#b5453a\" stroke=\"#2c2a26\" stroke-width=\"1.4\"/><circle cx=\"110.0\" cy=\"40.0\" r=\"9.0\" fill=\"#ffffff\" stroke=\"#2c2a26\" stroke-width=\"1.4\"/><line x1=\"69.0\" y1=\"40.0\" x2=\"101.0\" y2=\"40.0\" stroke=\"#2c2a26\" stroke-width=\"1.3\"/><line x1=\"85.0\" y1=\"40.0\" x2=\"85.0\" y2=\"67.5\" stroke=\"#2c2a26\" stroke-width=\"1.3\"/><line x1=\"60.0\" y1=\"67.5\" x2=\"110.0\" y2=\"67.5\" stroke=\"#2c2a26\" stroke-width=\"1.3\"/><line x1=\"60.0\" y1=\"67.5\" x2=\"60.0\" y2=\"95.0\" stroke=\"#2c2a26\" stroke-width=\"1.3\"/><line x1=\"110.0\" y1=\"67.5\" x2=\"110.0\" y2=\"95.0\" stroke=\"#2c2a26\" stroke-width=\"1.3\"/><rect x=\"51.0\" y=\"95.0\" width=\"18\" height=\"18\" fill=\"#ffffff\" stroke=\"#2c2a26\" stroke-width=\"1.4\"/><circle cx=\"110.0\" cy=\"104.0\" r=\"9.0\" fill=\"#ffffff\" stroke=\"#2c2a26\" stroke-width=\"1.4\"/><circle cx=\"110.0\" cy=\"104.0\" r=\"2.6\" fill=\"#b5453a\"/><rect x=\"141.0\" y=\"95.0\" width=\"18\" height=\"18\" fill=\"#ffffff\" stroke=\"#2c2a26\" stroke-width=\"1.4\"/><line x1=\"119.0\" y1=\"104.0\" x2=\"141.0\" y2=\"104.0\" stroke=\"#2c2a26\" stroke-width=\"1.3\"/><line x1=\"130.0\" y1=\"104.0\" x2=\"130.0\" y2=\"131.5\" stroke=\"#2c2a26\" stroke-width=\"1.3\"/><line x1=\"60.0\" y1=\"131.5\" x2=\"165.0\" y2=\"131.5\" stroke=\"#2c2a26\" stroke-width=\"1.3\"/><line x1=\"60.0\" y1=\"131.5\" x2=\"60.0\" y2=\"159.0\" stroke=\"#2c2a26\" stroke-width=\"1.3\"/><line x1=\"95.0\" y1=\"131.5\" x2=\"95.0\" y2=\"159.0\" stroke=\"#2c2a26\" stroke-width=\"1.3\"/><line x1=\"130.0\" y1=\"131.5\" x2=\"130.0\" y2=\"159.0\" stroke=\"#2c2a26\" stroke-width=\"1.3\"/><line x1=\"165.0\" y1=\"131.5\" x2=\"165.0\" y2=\"159.0\" stroke=\"#2c2a26\" stroke-width=\"1.3\"/><rect x=\"51.0\" y=\"159.0\" width=\"18\" height=\"18\" fill=\"#b5453a\" stroke=\"#2c2a26\" stroke-width=\"1.4\"/><circle cx=\"95.0\" cy=\"168.0\" r=\"9.0\" fill=\"#ffffff\" stroke=\"#2c2a26\" stroke-width=\"1.4\"/><circle cx=\"95.0\" cy=\"168.0\" r=\"2.6\" fill=\"#b5453a\"/><rect x=\"121.0\" y=\"159.0\" width=\"18\" height=\"18\" fill=\"#ffffff\" stroke=\"#2c2a26\" stroke-width=\"1.4\"/><circle cx=\"165.0\" cy=\"168.0\" r=\"9.0\" fill=\"#ffffff\" stroke=\"#2c2a26\" stroke-width=\"1.4\"/><text x=\"100.0\" y=\"200.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">bunic → fiică purtătoare → nepot</text><text x=\"100.0\" y=\"213.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">(transmitere oblică)</text><text x=\"200.0\" y=\"14.0\" text-anchor=\"start\" fill=\"#2c2a26\" font-size=\"10.8\" font-weight=\"bold\">b) dominant legat de X</text><rect x=\"231.0\" y=\"31.0\" width=\"18\" height=\"18\" fill=\"#b5453a\" stroke=\"#2c2a26\" stroke-width=\"1.4\"/><circle cx=\"300.0\" cy=\"40.0\" r=\"9.0\" fill=\"#ffffff\" stroke=\"#2c2a26\" stroke-width=\"1.4\"/><line x1=\"249.0\" y1=\"40.0\" x2=\"291.0\" y2=\"40.0\" stroke=\"#2c2a26\" stroke-width=\"1.3\"/><line x1=\"270.0\" y1=\"40.0\" x2=\"270.0\" y2=\"67.5\" stroke=\"#2c2a26\" stroke-width=\"1.3\"/><line x1=\"220.0\" y1=\"67.5\" x2=\"325.0\" y2=\"67.5\" stroke=\"#2c2a26\" stroke-width=\"1.3\"/><line x1=\"220.0\" y1=\"67.5\" x2=\"220.0\" y2=\"95.0\" stroke=\"#2c2a26\" stroke-width=\"1.3\"/><line x1=\"255.0\" y1=\"67.5\" x2=\"255.0\" y2=\"95.0\" stroke=\"#2c2a26\" stroke-width=\"1.3\"/><line x1=\"290.0\" y1=\"67.5\" x2=\"290.0\" y2=\"95.0\" stroke=\"#2c2a26\" stroke-width=\"1.3\"/><line x1=\"325.0\" y1=\"67.5\" x2=\"325.0\" y2=\"95.0\" stroke=\"#2c2a26\" stroke-width=\"1.3\"/><circle cx=\"220.0\" cy=\"104.0\" r=\"9.0\" fill=\"#b5453a\" stroke=\"#2c2a26\" stroke-width=\"1.4\"/><rect x=\"246.0\" y=\"95.0\" width=\"18\" height=\"18\" fill=\"#ffffff\" stroke=\"#2c2a26\" stroke-width=\"1.4\"/><circle cx=\"290.0\" cy=\"104.0\" r=\"9.0\" fill=\"#b5453a\" stroke=\"#2c2a26\" stroke-width=\"1.4\"/><rect x=\"316.0\" y=\"95.0\" width=\"18\" height=\"18\" fill=\"#ffffff\" stroke=\"#2c2a26\" stroke-width=\"1.4\"/><text x=\"272.0\" y=\"136.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">tatăl afectat: toate</text><text x=\"272.0\" y=\"149.0\" text-anchor=\"middle\" fill=\"#6b6760\" font-size=\"10.2\">fiicele afectate, fiii nu</text><rect x=\"14.0\" y=\"230.0\" width=\"12\" height=\"12\" fill=\"#b5453a\" stroke=\"#2c2a26\" stroke-width=\"1.4\"/><text x=\"31.0\" y=\"240.0\" text-anchor=\"start\" fill=\"#2c2a26\" font-size=\"10.2\">afectat</text><circle cx=\"88.8\" cy=\"236.0\" r=\"6.0\" fill=\"#ffffff\" stroke=\"#2c2a26\" stroke-width=\"1.4\"/><circle cx=\"88.8\" cy=\"236.0\" r=\"1.7\" fill=\"#b5453a\"/><text x=\"99.8\" y=\"240.0\" text-anchor=\"start\" fill=\"#2c2a26\" font-size=\"10.2\">purtătoare sănătoasă</text><rect x=\"221.8\" y=\"230.0\" width=\"12\" height=\"12\" fill=\"#ffffff\" stroke=\"#2c2a26\" stroke-width=\"1.4\"/><text x=\"238.8\" y=\"240.0\" text-anchor=\"start\" fill=\"#2c2a26\" font-size=\"10.2\">sănătos</text></svg>"
+          }
+        ]
+      }
+    ]
+  }
+}

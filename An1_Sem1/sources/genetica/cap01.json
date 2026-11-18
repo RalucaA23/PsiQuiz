@@ -316,7 +316,7 @@
           "exemplu_nou": true
         },
         {
-          "q": "Un medic află că pacientul său de 45 de ani are hipertensiune arterială primară, ca tatăl și bunicul lui. De ce își extinde atenția la frații și copiii pacientului?",
+          "q": "Un medic află că pacientul său de 45 de ani are hipertensiune arterială esențială, ca tatăl și bunicul lui. De ce își extinde atenția la frații și copiii pacientului?",
           "opts": [
             "Boala se transmite dominant, deci jumătate din rude vor fi afectate",
             "Genele de susceptibilitate se transmit în familie, fără tipar mendelian",
@@ -687,7 +687,7 @@
           },
           {
             "t": "Predispoziția genetică",
-            "d": "Caracterele multifactoriale anormale: bolile comune ale adultului (hipertensiune arterială primară, diabet, boală coronariană, psihoza maniaco-depresivă, epilepsie) și malformațiile congenitale comune (de cord, luxația congenitală de șold, buza de iepure). Genele dau doar vulnerabilitate, care devine boală prin interacțiunea cu mediul. Fără transmitere mendeliană, au totuși concentrare familială, deci medicul privește și familia."
+            "d": "Caracterele multifactoriale anormale: bolile comune ale adultului (hipertensiune arterială esențială — precizare, nu din manual: „esențială” = fără o cauză anume identificată, numită și primară —, diabet, boală coronariană, psihoza maniaco-depresivă, epilepsie) și malformațiile congenitale comune (de cord, luxația congenitală de șold, buza de iepure). Genele dau doar vulnerabilitate, care devine boală prin interacțiunea cu mediul. Fără transmitere mendeliană, au totuși concentrare familială, deci medicul privește și familia."
           },
           {
             "t": "Determinism exclusiv ecologic",

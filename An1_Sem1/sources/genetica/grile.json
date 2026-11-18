@@ -1,0 +1,1370 @@
+{
+ "schema": "quiz-grile-v1",
+ "titlu": "GRILE",
+ "nota": "din genetica grile.docx",
+ "desc": "120 de grile din documentul „genetica grile.docx”, câte 20 pe unitate, cu răspunsurile din cheia documentului (trei răspunsuri greșite din cheie au fost corectate; explicația o spune). Variantele apar în ordinea din document.",
+ "seturi": [
+  {
+   "id": "u1",
+   "eticheta": "Unitatea 1",
+   "titlu": "Unitatea 1 – Introducere în genetică",
+   "intrebari": [
+    {
+     "q": "Obiectul de studiu al geneticii vizează:",
+     "opts": [
+      "Studiul structurii și funcțiilor organismelor vii.",
+      "Studiul exclusiv al eredității.",
+      "Studiul fenomenelor și legilor eredității și variabilității.",
+      "Studiul interacțiunilor sociale și al mediului."
+     ],
+     "correct": 2,
+     "explain": ""
+    },
+    {
+     "q": "Care este definiția corectă a termenului de 'Genom' în genetica umană?",
+     "opts": [
+      "Totalitatea caracterelor morfologice și funcționale ale unui individ.",
+      "Individualitatea genetică stabilită la concepție.",
+      "Setul de proteine codificate de materialul genetic.",
+      "Totalitatea informației genetice conținute în celulele unui organism."
+     ],
+     "correct": 3,
+     "explain": ""
+    },
+    {
+     "q": "Individualitatea genetică a unui individ, care rămâne constantă pe tot parcursul vieții, este denumită:",
+     "opts": [
+      "Fenotip.",
+      "Genom.",
+      "Genotip.",
+      "Cariotip."
+     ],
+     "correct": 2,
+     "explain": ""
+    },
+    {
+     "q": "Fenotipul reprezintă:",
+     "opts": [
+      "Doar caracterele morfologice ale unui individ.",
+      "Constituția genetică unică a individului.",
+      "Totalitatea caracterelor bio-psiho-sociale, rezultate din interacțiunea ereditate-mediu.",
+      "Totalitatea genelor dominante exprimate."
+     ],
+     "correct": 2,
+     "explain": ""
+    },
+    {
+     "q": "Un caracter exclusiv genetic (monofactorial) este, prin definiție:",
+     "opts": [
+      "Influențat în mare măsură de mediu.",
+      "Determinat de o singură genă și de factori de mediu.",
+      "Determinat strict de o singură genă, neinfluențat de mediu.",
+      "Determinat de mai multe gene."
+     ],
+     "correct": 2,
+     "explain": ""
+    },
+    {
+     "q": "Psihogenetica (Genetica Comportamentală) studiază:",
+     "opts": [
+      "Exclusiv bolile psihiatrice grave.",
+      "Rolul factorilor de mediu în dezvoltarea psihică.",
+      "Rolul factorilor ereditari în viața psihică, în geneza caracterelor normale și patologice.",
+      "Doar inteligența și aptitudinile."
+     ],
+     "correct": 2,
+     "explain": ""
+    },
+    {
+     "q": "Ce caracter are un determinism predominant (aproape exclusiv) ecologic?",
+     "opts": [
+      "Grupa sanguină ABO.",
+      "Limba maternă.",
+      "Culoarea ochilor.",
+      "Sindromul Down (Trisomia 21)."
+     ],
+     "correct": 1,
+     "explain": ""
+    },
+    {
+     "q": "Programul Genomul Uman (Human Genome Project) a avut ca obiectiv principal:",
+     "opts": [
+      "Dezvoltarea de noi terapii genice.",
+      "Secvențierea (descifrarea) întregului ADN uman.",
+      "Studiul exclusiv al genelor responsabile de cancer.",
+      "Clonarea de celule umane."
+     ],
+     "correct": 1,
+     "explain": ""
+    },
+    {
+     "q": "Care dintre următoarele domenii face parte din determinismul caracterelor umane, conform clasificării din modul?",
+     "opts": [
+      "Exclusiv ecologic.",
+      "Exclusiv biochimic.",
+      "Exclusiv sociocultural.",
+      "Exclusiv proteomic."
+     ],
+     "correct": 0,
+     "explain": ""
+    },
+    {
+     "q": "Genele sunt situate pe:",
+     "opts": [
+      "Citoplasmă.",
+      "Ribozomi.",
+      "Cromozomi.",
+      "Membrana celulară."
+     ],
+     "correct": 2,
+     "explain": ""
+    },
+    {
+     "q": "Ereditatea și variabilitatea sunt:",
+     "opts": [
+      "Fenomene complet independente.",
+      "Două procese complementare studiate de genetică.",
+      "Fenomene care afectează doar populațiile animale.",
+      "Fenomene studiate exclusiv de biochimie."
+     ],
+     "correct": 1,
+     "explain": ""
+    },
+    {
+     "q": "Care dintre următoarele perechi de termeni reprezintă relația fundamentală în genetică?",
+     "opts": [
+      "Proteom și Ecosistem.",
+      "Genotip și Mediu.",
+      "Genom și Climat.",
+      "Fenotip și Societate."
+     ],
+     "correct": 1,
+     "explain": ""
+    },
+    {
+     "q": "Ce reprezintă 'variabilitatea' în contextul geneticii?",
+     "opts": [
+      "Capacitatea organismelor de a-și transmite caracterele la descendenți.",
+      "Capacitatea organismelor de a se deosebi între ele.",
+      "Procesul de replicare a ADN-ului.",
+      "Totalitatea genelor recesive."
+     ],
+     "correct": 1,
+     "explain": "Variabilitatea e capacitatea organismelor de a se deosebi între ele; transmiterea caracterelor la descendenți e ereditatea, iar replicarea ADN-ului e doar un proces celular. Cheia din document indica „c”; răspunsul a fost corectat."
+    },
+    {
+     "q": "Un caracter de tip 'eco-genetic' este:",
+     "opts": [
+      "Determinat exclusiv de mediu.",
+      "Determinat de o singură genă, fără influență ambientală.",
+      "Determinat de interacțiunea dintre ereditate și mediu.",
+      "Determinat doar de genele de pe cromozomii sexuali."
+     ],
+     "correct": 2,
+     "explain": ""
+    },
+    {
+     "q": "Ce este o 'alelă'?",
+     "opts": [
+      "Un cromozom sexual.",
+      "O moleculă de ARN.",
+      "O variantă a unei gene la un anumit locus.",
+      "O mutație letală."
+     ],
+     "correct": 2,
+     "explain": ""
+    },
+    {
+     "q": "Bioetica, în raport cu genetica, se ocupă cu:",
+     "opts": [
+      "Finanțarea cercetărilor genetice.",
+      "Doar aspectele tehnice ale secvențierii ADN-ului.",
+      "Aspectele morale, sociale și legale ale dezvoltării științelor vieții.",
+      "Studiul evoluției speciilor."
+     ],
+     "correct": 2,
+     "explain": ""
+    },
+    {
+     "q": "Rezultatul interacțiunii dintre genotip și mediu este denumit:",
+     "opts": [
+      "Genom.",
+      "Proteom.",
+      "Cariotip.",
+      "Fenotip."
+     ],
+     "correct": 3,
+     "explain": ""
+    },
+    {
+     "q": "Unul dintre scopurile Programului Genomul Uman a fost:",
+     "opts": [
+      "Identificarea bolilor infecțioase.",
+      "Analiza exclusivă a ARN-ului.",
+      "Identificarea tuturor genelor umane (aproximativ 20.000 - 25.000).",
+      "Producerea de alimente modificate genetic."
+     ],
+     "correct": 2,
+     "explain": ""
+    },
+    {
+     "q": "Locul specific al unei gene pe un cromozom se numește:",
+     "opts": [
+      "Centromer.",
+      "Telomer.",
+      "Locus.",
+      "Cromatidă."
+     ],
+     "correct": 2,
+     "explain": ""
+    },
+    {
+     "q": "Care dintre următoarele nu este un obiectiv al Geneticii Comportamentale?",
+     "opts": [
+      "Evaluarea contribuției genetice la diferențele interindividuale.",
+      "Identificarea genelor care influențează anumite trăsături psihice.",
+      "Studierea structurii și funcției genomului.",
+      "Analiza interacțiunii Ereditate-Mediu."
+     ],
+     "correct": 2,
+     "explain": ""
+    }
+   ]
+  },
+  {
+   "id": "u2",
+   "eticheta": "Unitatea 2",
+   "titlu": "Unitatea 2 – Ereditatea mendeliană: legile lui Mendel",
+   "intrebari": [
+    {
+     "q": "Câte alele pentru o anumită genă (caracter) se găsesc într-un gamet, conform primei legi a lui Mendel (a segregării)?",
+     "opts": [
+      "Două, câte una de la fiecare părinte.",
+      "Trei, în cazul polialeliei.",
+      "Niciuna, gameții sunt fără alele.",
+      "O singură alelă, gameții sunt puri din punct de vedere genetic."
+     ],
+     "correct": 3,
+     "explain": ""
+    },
+    {
+     "q": "Când un individ posedă două alele diferite la un anumit locus, acesta este denumit:",
+     "opts": [
+      "Homozigot.",
+      "Dominant.",
+      "Recesiv.",
+      "Heterozigot."
+     ],
+     "correct": 3,
+     "explain": ""
+    },
+    {
+     "q": "Legea a II-a a lui Mendel (Asortării Independente) se aplică pentru genele:",
+     "opts": [
+      "Situate pe același cromozom.",
+      "Situate pe cromozomi diferiți.",
+      "Care manifestă dominanță incompletă.",
+      "Care sunt letale."
+     ],
+     "correct": 1,
+     "explain": ""
+    },
+    {
+     "q": "Care este raportul fenotipic obținut în urma unei încrucișări dihibride (AaBb x AaBb) în condiții de dominanță completă (Legea a II-a)?",
+     "opts": [
+      "3:1.",
+      "1:2:1.",
+      "9:3:3:1.",
+      "1:1."
+     ],
+     "correct": 2,
+     "explain": ""
+    },
+    {
+     "q": "Fenomenul de Polialelie se referă la:",
+     "opts": [
+      "O singură genă care afectează mai multe caractere (Pleiotropie).",
+      "Mai multe gene care afectează un singur caracter (Poligenie).",
+      "Existența mai multor alele (trei sau mai multe) pentru aceeași genă (locus).",
+      "Interacțiunea dintre două gene diferite."
+     ],
+     "correct": 2,
+     "explain": ""
+    },
+    {
+     "q": "Care dintre următoarele reprezintă un exemplu de Codominanță la om?",
+     "opts": [
+      "Daltonismul.",
+      "Boala Huntington.",
+      "Grupele sanguine din sistemul ABO (alelele Iᴬ și Iᴮ).",
+      "Albinismul."
+     ],
+     "correct": 2,
+     "explain": ""
+    },
+    {
+     "q": "Un individ homozigot recesiv pentru o genă (a) are genotipul:",
+     "opts": [
+      "AA",
+      "Aa.",
+      "aa",
+      "A"
+     ],
+     "correct": 2,
+     "explain": ""
+    },
+    {
+     "q": "Legea Segregării și Purității Gameților (Legea I a lui Mendel) vizează studiul:",
+     "opts": [
+      "Dihibridării.",
+      "Trihibridării.",
+      "Monohibridării.",
+      "Ereditatea poligenică."
+     ],
+     "correct": 2,
+     "explain": ""
+    },
+    {
+     "q": "Ce înseamnă că o alelă este 'dominantă'?",
+     "opts": [
+      "Se manifestă fenotipic doar în stare homozigotă.",
+      "Se manifestă fenotipic atât în stare homozigotă, cât și heterozigotă.",
+      "Este mascată de alela recesivă.",
+      "Este situată doar pe cromozomul Y."
+     ],
+     "correct": 1,
+     "explain": ""
+    },
+    {
+     "q": "În cazul Dominanței Incomplete, fenotipul heterozigotului Aa este:",
+     "opts": [
+      "Identic cu cel al homozigotului dominant AA",
+      "Identic cu cel al homozigotului recesiv aa",
+      "Intermediar între cele două fenotipuri homozigote.",
+      "Nou, complet diferit de ambele fenotipuri parentale."
+     ],
+     "correct": 2,
+     "explain": ""
+    },
+    {
+     "q": "Dacă genotipurile IᴬIᴬ și Iᴬi determină aceeași Grupă Sanguină A înseamnă că alela Iᴬ este față de alela i:",
+     "opts": [
+      "Recesivă.",
+      "Codominantă.",
+      "Dominantă.",
+      "Intermediară."
+     ],
+     "correct": 2,
+     "explain": ""
+    },
+    {
+     "q": "Fenomenul prin care o singură genă produce efecte multiple, aparent fără legătură, asupra unor caractere diferite, se numește:",
+     "opts": [
+      "Polialelie.",
+      "Pleiotropie.",
+      "Poligenie.",
+      "Linkage."
+     ],
+     "correct": 1,
+     "explain": ""
+    },
+    {
+     "q": "Care este genotipul unei persoane cu Grupa Sanguină O în sistemul ABO?",
+     "opts": [
+      "IᴬIᴮ",
+      "Iᴬi sau IᴬIᴬ",
+      "ii",
+      "Iᴮi sau IᴮIᴮ"
+     ],
+     "correct": 2,
+     "explain": ""
+    },
+    {
+     "q": "Legea a II-a (Asortării Independente) nu este valabilă pentru:",
+     "opts": [
+      "Genele dominante.",
+      "Genele recesive.",
+      "Genele situate pe cromozomi diferiți.",
+      "Genele situate pe același cromozom (linkage)."
+     ],
+     "correct": 3,
+     "explain": ""
+    },
+    {
+     "q": "Ce tip de segregare se obține în urma unui test-cross (încrucișarea unui heterozigot cu un homozigot recesiv)?",
+     "opts": [
+      "3:1.",
+      "9:3:3:1.",
+      "1:1 (sau 1:1:1:1 în dihibridare).",
+      "100% homozigoți dominanți."
+     ],
+     "correct": 2,
+     "explain": ""
+    },
+    {
+     "q": "Dacă un caracter recesiv (a) apare într-un descendent, se poate trage concluzia că:",
+     "opts": [
+      "Doar unul dintre părinți a fost purtător.",
+      "Ambii părinți au fost homozigoți dominanți.",
+      "Ambii părinți au contribuit cu alela 'a' (fie fiind purtători, fie afectați).",
+      "Caracterul este întotdeauna X-linkat."
+     ],
+     "correct": 2,
+     "explain": ""
+    },
+    {
+     "q": "Conceptul de puritate a gameților (Legea I) se referă la faptul că:",
+     "opts": [
+      "Gameții nu conțin gene mutante.",
+      "Gameții se formează numai din celule homozigote.",
+      "Gameții conțin doar una dintre cele două alele din perechea parentală.",
+      "Gameții sunt întotdeauna sănătoși."
+     ],
+     "correct": 2,
+     "explain": ""
+    },
+    {
+     "q": "Un individ cu genotipul AABb poate produce următoarele tipuri de gameți:",
+     "opts": [
+      "Doar AB.",
+      "AB și aB.",
+      "AB și Ab.",
+      "Ab și ab"
+     ],
+     "correct": 2,
+     "explain": ""
+    },
+    {
+     "q": "Fenotipul rezultat din Dominanța Incompletă:",
+     "opts": [
+      "Este identic cu cel al Dominanței Complete.",
+      "Confirmă Legea I a lui Mendel, dar modifică raportul fenotipic.",
+      "Nu confirmă niciuna dintre Legile lui Mendel.",
+      "Este o excepție de la regulile segregării."
+     ],
+     "correct": 1,
+     "explain": ""
+    },
+    {
+     "q": "Care dintre următoarele NU este un tip de relație inter-alelică?",
+     "opts": [
+      "Dominanță completă.",
+      "Codominanță.",
+      "Translocație.",
+      "Dominanță incompletă."
+     ],
+     "correct": 2,
+     "explain": ""
+    }
+   ]
+  },
+  {
+   "id": "u3",
+   "eticheta": "Unitatea 3",
+   "titlu": "Unitatea 3 – Modele de transmitere a caracterelor monogenice (mendeliene) în familiile umane",
+   "intrebari": [
+    {
+     "q": "În ereditatea Autozomal Dominantă, un subiect afectat are, de obicei:",
+     "opts": [
+      "Ambii părinți sănătoși și purtători.",
+      "Unul dintre părinți afectat.",
+      "Părinți consangvini.",
+      "Doar frați și surori afectați."
+     ],
+     "correct": 1,
+     "explain": ""
+    },
+    {
+     "q": "O caracteristică tipică a eredității Autozomal Recesive este:",
+     "opts": [
+      "Transmiterea bolii de la tată la toți fiii.",
+      "Continuitatea bolii de la o generație la alta (transmitere verticală).",
+      "Apariția bolii la descendenți din părinți, de obicei, sănătoși (transmitere orizontală).",
+      "Afectarea predominantă a femeilor."
+     ],
+     "correct": 2,
+     "explain": ""
+    },
+    {
+     "q": "Ce rol joacă Consangvinitatea (înrudirea) în bolile recesiv autozomale rare?",
+     "opts": [
+      "Nu are nicio influență.",
+      "Diminuează riscul de apariție a bolii.",
+      "Crește probabilitatea ca ambii părinți să fie purtători ai aceleiași gene mutante rare.",
+      "Determină manifestarea bolii în stare heterozigotă."
+     ],
+     "correct": 2,
+     "explain": ""
+    },
+    {
+     "q": "În ereditatea X-linkată Recesivă, un bărbat afectat (hemizigot) transmite boala:",
+     "opts": [
+      "Tuturor fiilor săi.",
+      "Niciunui fiu, dar toate fiicele sunt purtătoare obligate.",
+      "Tuturor fiicelor sale (care devin afectate).",
+      "Niciunei fiice și niciunui fiu."
+     ],
+     "correct": 1,
+     "explain": ""
+    },
+    {
+     "q": "Fenomenul de 'Penetranță Incompletă' se referă la:",
+     "opts": [
+      "O singură genă care determină mai multe efecte fenotipice.",
+      "Variația severității manifestării bolii la indivizi cu același genotip.",
+      "Neapariția fenotipului bolii la toți indivizii cu genotipul corespunzător (e.g., dominant).",
+      "Apariția fenotipului bolii doar în anumite condiții de mediu."
+     ],
+     "correct": 2,
+     "explain": ""
+    },
+    {
+     "q": "Care este tipul de ereditate în care boala se manifestă la fiecare generație și sexele sunt afectate în mod egal?",
+     "opts": [
+      "X-linkată Recesivă.",
+      "Autozomal Recesivă.",
+      "X-linkată Dominantă.",
+      "Autozomal Dominantă."
+     ],
+     "correct": 3,
+     "explain": ""
+    },
+    {
+     "q": "Ce este o 'Fenocopie'?",
+     "opts": [
+      "O mutație genetică care imită o boală de mediu.",
+      "O afecțiune determinată de mediu care imită un fenotip determinat genetic.",
+      "O boală determinată de un agent patogen.",
+      "Un caracter cu transmitere mitocondrială."
+     ],
+     "correct": 1,
+     "explain": ""
+    },
+    {
+     "q": "Riscul unui descendent de a fi afectat (bolnav) atunci când ambii părinți sunt purtători sănătoși (heterozigoți) pentru o boală Autozomal Recesivă este de:",
+     "opts": [
+      "100%.",
+      "75%.",
+      "50%.",
+      "25%."
+     ],
+     "correct": 3,
+     "explain": ""
+    },
+    {
+     "q": "Arborele genealogic (Pedigree-ul) este un instrument esențial în genetica umană pentru:",
+     "opts": [
+      "Măsurarea coeficientului de inteligență.",
+      "Calcularea riscului empiric de recurență.",
+      "Determinarea modului de transmitere ereditară a unui caracter în familie.",
+      "Diagnosticarea bolilor cromozomiale."
+     ],
+     "correct": 2,
+     "explain": ""
+    },
+    {
+     "q": "În ereditatea X-linkată Recesivă, o femeie purtătoare (heterozigotă) are un risc de a avea un fiu afectat de:",
+     "opts": [
+      "100%.",
+      "75%.",
+      "50%.",
+      "25%."
+     ],
+     "correct": 2,
+     "explain": ""
+    },
+    {
+     "q": "'Expresivitatea Variabilă' se referă la:",
+     "opts": [
+      "Faptul că gena se manifestă doar la unul dintre sexe.",
+      "Variația vârstei de debut a bolii.",
+      "Variația gradului de manifestare clinică (severitate) a bolii la indivizii cu același genotip.",
+      "Modificarea genotipului sub influența mediului."
+     ],
+     "correct": 2,
+     "explain": ""
+    },
+    {
+     "q": "Care dintre următoarele este un exemplu de boală cu transmitere Autozomal Dominantă?",
+     "opts": [
+      "Boala Huntington.",
+      "Fibroza chistică.",
+      "Hemofilia A.",
+      "Daltonismul."
+     ],
+     "correct": 0,
+     "explain": ""
+    },
+    {
+     "q": "Ce este o 'mutație de novo'?",
+     "opts": [
+      "O mutație care a apărut la un strămoș îndepărtat.",
+      "O mutație care apare pentru prima dată în gametul unuia dintre părinți sau în zigot.",
+      "O mutație care afectează doar celulele somatice.",
+      "O mutație recesivă mascată de o alelă dominantă."
+     ],
+     "correct": 1,
+     "explain": ""
+    },
+    {
+     "q": "Scopul 'Screening-ului Heterozigoților' este de a:",
+     "opts": [
+      "Identifica bolnavii din populație.",
+      "Identifica indivizii sănătoși, dar purtători ai unei gene recesive.",
+      "Diagnostica bolile dominante.",
+      "Măsura penetranța incompletă."
+     ],
+     "correct": 1,
+     "explain": ""
+    },
+    {
+     "q": "Un model de transmitere în care o femeie afectată are o probabilitate de 50% de a transmite boala la fiecare descendent, indiferent de sex, este cel:",
+     "opts": [
+      "X-linkat Recesiv.",
+      "Autozomal Recesiv.",
+      "X-linkat Dominant.",
+      "Y-linkat."
+     ],
+     "correct": 2,
+     "explain": ""
+    },
+    {
+     "q": "Ce metodă stă la baza alcătuirii arborelui genealogic?",
+     "opts": [
+      "Analiza biochimică.",
+      "Ancheta familială.",
+      "Studiul gemenilor.",
+      "Cariotiparea."
+     ],
+     "correct": 1,
+     "explain": ""
+    },
+    {
+     "q": "Consilierea Genetică (Sfatul Genetic) are ca scop principal:",
+     "opts": [
+      "Eliminarea bolilor genetice din populație.",
+      "Furnizarea informațiilor despre riscul de recurență și opțiunile de prevenire/tratament.",
+      "A decide în locul familiei.",
+      "Efectuarea de experimente genetice."
+     ],
+     "correct": 1,
+     "explain": ""
+    },
+    {
+     "q": "Un caracter X-linkat dominant are ca particularitate:",
+     "opts": [
+      "Afectează doar sexul masculin.",
+      "Femeile sunt mai frecvent afectate (având doi cromozomi X).",
+      "Se transmite de la tată la toți fiii.",
+      "Părinții sănătoși pot avea copii afectați."
+     ],
+     "correct": 1,
+     "explain": ""
+    },
+    {
+     "q": "O boală Autozomal Recesivă este mai frecvent întâlnită în populațiile cu:",
+     "opts": [
+      "Migrație intensă.",
+      "Rate mari de consangvinitate.",
+      "Rata de mutație mare.",
+      "Incidență mare a mutațiilor \"de novo\"."
+     ],
+     "correct": 1,
+     "explain": ""
+    },
+    {
+     "q": "Care este genotipul unei persoane sănătoase, dar purtătoare, pentru o boală Autozomal Recesivă (cu alela bolii 'a')?",
+     "opts": [
+      "AA.",
+      "Aa.",
+      "aa.",
+      "A."
+     ],
+     "correct": 1,
+     "explain": ""
+    }
+   ]
+  },
+  {
+   "id": "u4",
+   "eticheta": "Unitatea 4",
+   "titlu": "Unitatea 4 – Bazele cromozomiale ale eredității. Cromozomii umani: morfologie, structură, funcție",
+   "intrebari": [
+    {
+     "q": "Teoria Cromozomială a Eredității, formulată de T. H. Morgan, postulează că:",
+     "opts": [
+      "Genele sunt plasate pe citoplasmă.",
+      "Genele sunt localizate liniar pe cromozomi.",
+      "Ereditatea este complet independentă de cromozomi.",
+      "Doar cromozomul X poartă gene."
+     ],
+     "correct": 1,
+     "explain": ""
+    },
+    {
+     "q": "Ciclul celular este format din două etape principale:",
+     "opts": [
+      "Profază și metafază.",
+      "Mitoză și meioză.",
+      "Interfază și diviziunea celulară (Mitoză sau Meioză).",
+      "Replicare și transcriere."
+     ],
+     "correct": 2,
+     "explain": ""
+    },
+    {
+     "q": "În ce etapă a ciclului celular are loc replicarea ADN-ului, rezultând cromozomi cu două cromatide?",
+     "opts": [
+      "Faza M (Mitoza).",
+      "Faza S (Sinteză) din Interfază.",
+      "Faza G_1.",
+      "Telofaza."
+     ],
+     "correct": 1,
+     "explain": ""
+    },
+    {
+     "q": "Care este numărul normal de cromozomi în celulele somatice umane?",
+     "opts": [
+      "23 de cromozomi.",
+      "46 de cromozomi.",
+      "48 de cromozomi.",
+      "23 de perechi de autozomi."
+     ],
+     "correct": 1,
+     "explain": ""
+    },
+    {
+     "q": "Cariotipul este:",
+     "opts": [
+      "Totalitatea genelor unui individ.",
+      "Reprezentarea grafică sau fotografică ordonată a setului de cromozomi metafazici al unui individ.",
+      "Un cromozom sexual.",
+      "Regiunea centrală a cromozomului."
+     ],
+     "correct": 1,
+     "explain": ""
+    },
+    {
+     "q": "Cromozomii se clasifică, în funcție de poziția centromerului, în:",
+     "opts": [
+      "Dominanți și recesivi.",
+      "Alele și locusuri.",
+      "Metacentrici, submetacentrici, acrocentrici și telocentrici.",
+      "Mari și mici."
+     ],
+     "correct": 2,
+     "explain": ""
+    },
+    {
+     "q": "Ce sunt Autozomii?",
+     "opts": [
+      "Cromozomii care determină sexul (perechea 23).",
+      "Cromozomii (perechile 1-22) care nu determină sexul.",
+      "Cromozomii care au suferit o mutație.",
+      "Cromozomii cu două brațe egale."
+     ],
+     "correct": 1,
+     "explain": ""
+    },
+    {
+     "q": "Procesul de Lyonizare (Inactivarea Cromozomului X) se referă la:",
+     "opts": [
+      "Activarea ambilor cromozomi X la femei.",
+      "Inactivarea unui singur cromozom X (la întâmplare) la femele pentru compensarea dozajului genic.",
+      "Inactivarea cromozomului Y la bărbați.",
+      "Separarea cromozomilor în timpul anafazei."
+     ],
+     "correct": 1,
+     "explain": ""
+    },
+    {
+     "q": "Corpusculul Barr (Cromatina de sex X) este:",
+     "opts": [
+      "Un cromozom Y inactiv.",
+      "Cromozomul X activ la femei.",
+      "Cromozomul X inactivat și condensat (heterocromatinizat).",
+      "O mitocondrie."
+     ],
+     "correct": 2,
+     "explain": ""
+    },
+    {
+     "q": "În cadrul Meiozei, are loc un eveniment cheie care asigură recombinarea materialului genetic. Acesta este:",
+     "opts": [
+      "Non-disjuncția.",
+      "Replicarea ADN-ului în Faza S.",
+      "Crossing-over-ul (schimbul de segmente între cromozomi omologi).",
+      "Separarea cromatidelor surori în Meioza I."
+     ],
+     "correct": 2,
+     "explain": ""
+    },
+    {
+     "q": "Mitoza are ca rezultat:",
+     "opts": [
+      "Patru celule haploide (gameți).",
+      "Două celule fiice haploide.",
+      "Două celule fiice diploide, identice genetic cu celula mamă.",
+      "O celulă mare și una mică."
+     ],
+     "correct": 2,
+     "explain": ""
+    },
+    {
+     "q": "Care dintre următoarele reprezintă brațul scurt al unui cromozom?",
+     "opts": [
+      "Brațul q.",
+      "Telomerul.",
+      "Brațul p.",
+      "Centromerul."
+     ],
+     "correct": 2,
+     "explain": ""
+    },
+    {
+     "q": "Organizarea cromozomilor în cariotip se face pe baza:",
+     "opts": [
+      "Culoarei cromozomilor.",
+      "Numărului de gene.",
+      "Mărimii, poziției centromerului și modelului de benzi (bandare).",
+      "Vechimii lor."
+     ],
+     "correct": 2,
+     "explain": ""
+    },
+    {
+     "q": "Ce eveniment are loc în Anafaza Mitozei?",
+     "opts": [
+      "Formarea plăcii metafazice.",
+      "Condensarea cromozomilor.",
+      "Separarea cromatidelor surori (devenind cromozomi individuali) și migrarea lor spre poli.",
+      "Formarea nucleului."
+     ],
+     "correct": 2,
+     "explain": ""
+    },
+    {
+     "q": "Numărul de cromozomi în celulele sexuale (gameți) umane este:",
+     "opts": [
+      "2n (diploid) adică 46.",
+      "n (haploid) adică 23.",
+      "3n (triploid).",
+      "4n (tetraploid)."
+     ],
+     "correct": 1,
+     "explain": ""
+    },
+    {
+     "q": "Meioza II (Diviziunea ecvațională) este similară cu:",
+     "opts": [
+      "Meioza I.",
+      "Mitoza.",
+      "Fecundația.",
+      "Replicarea ADN."
+     ],
+     "correct": 1,
+     "explain": ""
+    },
+    {
+     "q": "Cromozomii omologi sunt:",
+     "opts": [
+      "Cromozomi identici din punct de vedere genetic.",
+      "Doi cromozomi diferiți dintr-o celulă.",
+      "Cromozomii ce formează o pereche (unul de la mamă, unul de la tată).",
+      "Doar cromozomii sexuali."
+     ],
+     "correct": 2,
+     "explain": ""
+    },
+    {
+     "q": "Ce se înțelege prin 'Compensarea Dozajului Genic' în contextul cromozomilor X la femei?",
+     "opts": [
+      "Egalizarea concentrației de gene de pe X între bărbați (XY) și femei (XX).",
+      "Repararea mutațiilor de pe cromozomul X.",
+      "Înmulțirea cromozomilor X.",
+      "Fenomenul de Codominanță."
+     ],
+     "correct": 0,
+     "explain": ""
+    },
+    {
+     "q": "O celulă somatică a unei femei are formula cromozomială:",
+     "opts": [
+      "22 + XX.",
+      "44 + Y.",
+      "44 + XX.",
+      "44 + XY."
+     ],
+     "correct": 2,
+     "explain": ""
+    },
+    {
+     "q": "Care dintre următoarele este rolul Telomerelor?",
+     "opts": [
+      "Stabilizarea și protecția capetelor cromozomilor.",
+      "Unirea cromozomilor în placa metafazică.",
+      "Sinteza de ARN.",
+      "Inițierea crossing-over-ului."
+     ],
+     "correct": 0,
+     "explain": ""
+    }
+   ]
+  },
+  {
+   "id": "u5",
+   "eticheta": "Unitatea 5",
+   "titlu": "Unitatea 5 – Anomaliile cromozomiale și consecințele lor clinice",
+   "intrebari": [
+    {
+     "q": "Anomaliile cromozomiale numerice se numesc, în general:",
+     "opts": [
+      "Mutații genice.",
+      "Aneuploidii (inclusiv trisomii și monosomii) și Poliploidii.",
+      "Translocații.",
+      "Deletii."
+     ],
+     "correct": 1,
+     "explain": ""
+    },
+    {
+     "q": "Trisomia 21 (Sindromul Down) este o anomalie care implică:",
+     "opts": [
+      "Un cromozom X în plus.",
+      "O deletie a brațului scurt al cromozomului 21.",
+      "Prezența unei copii suplimentare a cromozomului 21.",
+      "Absența unui cromozom 21."
+     ],
+     "correct": 2,
+     "explain": ""
+    },
+    {
+     "q": "Mecanismul celular cel mai frecvent responsabil de apariția trisomiilor (precum Sindromul Down) este:",
+     "opts": [
+      "Mutageneza chimică.",
+      "Inactivarea X.",
+      "Non-disjuncția cromozomială în timpul meiozei.",
+      "Crossing-over-ul."
+     ],
+     "correct": 2,
+     "explain": ""
+    },
+    {
+     "q": "Sindromul Klinefelter are formula cromozomială:",
+     "opts": [
+      "45, X.",
+      "47, XYY.",
+      "47, XXY.",
+      "47, XXX"
+     ],
+     "correct": 2,
+     "explain": ""
+    },
+    {
+     "q": "Care dintre următoarele anomalii cromozomiale este o Monosomie?",
+     "opts": [
+      "Trisomia 13.",
+      "Sindromul Down.",
+      "Sindromul Turner (45, X).",
+      "Sindromul Patau."
+     ],
+     "correct": 2,
+     "explain": ""
+    },
+    {
+     "q": "Un factor de risc major în apariția Sindromului Down și a altor aneuploidii autozomale este:",
+     "opts": [
+      "Vârsta paternă avansată.",
+      "Vârsta maternă avansată.",
+      "Consangvinitatea.",
+      "Infecțiile virale în copilărie."
+     ],
+     "correct": 1,
+     "explain": ""
+    },
+    {
+     "q": "Ce este o 'Translocație' (anomalie structurală)?",
+     "opts": [
+      "Pierderea unui segment cromozomial.",
+      "Schimbul de segmente între doi cromozomi non-omologi.",
+      "Inversarea unui segment cromozomial.",
+      "Prezența unui cromozom suplimentar."
+     ],
+     "correct": 1,
+     "explain": ""
+    },
+    {
+     "q": "Sindromul Turner se caracterizează, printre altele, prin:",
+     "opts": [
+      "Un exces de caractere sexuale masculine.",
+      "Formula cromozomială 45, X.",
+      "Prezența a doi Corpusculi Barr.",
+      "Statură înaltă."
+     ],
+     "correct": 1,
+     "explain": ""
+    },
+    {
+     "q": "Ce este 'Mozaicismul' (din punct de vedere genetic)?",
+     "opts": [
+      "Prezența unui singur tip de celulă în organism.",
+      "Prezența a două sau mai multe linii celulare cu cariotip diferit, derivate din același zigot.",
+      "Schimbul de segmente cromozomiale.",
+      "O mutație genică."
+     ],
+     "correct": 1,
+     "explain": ""
+    },
+    {
+     "q": "Un bărbat cu cariotipul 47, XYY (Sindromul XYY) prezintă:",
+     "opts": [
+      "Un nivel sever de retard mental.",
+      "O statură, de regulă, mai înaltă.",
+      "Infertilitate certă.",
+      "Un risc crescut de daltonism."
+     ],
+     "correct": 1,
+     "explain": ""
+    },
+    {
+     "q": "Diagnosticul prenatal al anomaliilor cromozomiale se poate realiza prin:",
+     "opts": [
+      "Analiza salivei.",
+      "Amniocenteză sau biopsia de vilozități coriale, urmată de cariotipare.",
+      "Tomografie computerizată.",
+      "Analiza exclusivă a ADN-ului mitocondrial."
+     ],
+     "correct": 1,
+     "explain": ""
+    },
+    {
+     "q": "Fenomenul de 'Chimerism' se referă la:",
+     "opts": [
+      "Prezența a două sau mai multe linii celulare derivate din zigot diferit (fuziune de zigoți sau transfuzii).",
+      "Inactivarea cromozomului X.",
+      "Transmiterea bolilor X-linkate.",
+      "Apariția unei mutații de novo."
+     ],
+     "correct": 0,
+     "explain": ""
+    },
+    {
+     "q": "Care este cea mai frecventă anomalie cromozomială la nou-născuții vii, ce determină și retard mental?",
+     "opts": [
+      "Sindromul Turner.",
+      "Sindromul Klinefelter.",
+      "Trisomia 21 (Sindromul Down).",
+      "Trisomia 13."
+     ],
+     "correct": 2,
+     "explain": ""
+    },
+    {
+     "q": "Anomaliile structurale includ:",
+     "opts": [
+      "Trisomiile.",
+      "Deletiile, Duplicațiile și Inversiile.",
+      "Monosomiile.",
+      "Poliploidiile."
+     ],
+     "correct": 1,
+     "explain": ""
+    },
+    {
+     "q": "Poliploidia (e.g., Triploidia 3n) înseamnă:",
+     "opts": [
+      "Absența unei perechi de cromozomi.",
+      "Un cromozom în plus într-o pereche.",
+      "Prezența unui număr n de seturi haploide suplimentare (e.g., 3 seturi).",
+      "O translocație echilibrată."
+     ],
+     "correct": 2,
+     "explain": ""
+    },
+    {
+     "q": "Sindromul Down (Trisomia 21) datorat Translocației Robertsoniene (moștenit) are o probabilitate de recurență:",
+     "opts": [
+      "Mult mai mică decât cel datorat non-disjuncției.",
+      "Mult mai mare, mai ales dacă un părinte este purtător.",
+      "Este imposibil de moștenit.",
+      "Este întotdeauna de 100%."
+     ],
+     "correct": 1,
+     "explain": "Când un părinte e purtător echilibrat al unei translocații robertsoniene, riscul de recurență e mult mai mare decât la trisomia 21 prin non-disjuncție (accident întâmplător, legat de vârsta mamei). Cheia din document indica „a”; răspunsul a fost corectat."
+    },
+    {
+     "q": "Indivizii cu Sindromul Klinefelter (47, XXY) sunt, de obicei:",
+     "opts": [
+      "Femei fertile.",
+      "Bărbați înalți, cu hipogonadism și sterilitate.",
+      "Bărbați cu retard mental sever.",
+      "Femei cu statură mică."
+     ],
+     "correct": 1,
+     "explain": ""
+    },
+    {
+     "q": "Un caz de Sindrom Down 46,XX / 47,XX,+21 reprezintă:",
+     "opts": [
+      "O translocație.",
+      "O deleție.",
+      "Un mozaicism.",
+      "O mutație \"de novo\" pură."
+     ],
+     "correct": 2,
+     "explain": ""
+    },
+    {
+     "q": "Care este funcția esențială a cariotipării?",
+     "opts": [
+      "Secvențierea ADN-ului.",
+      "Detectarea anomaliilor cromozomiale numerice și structurale.",
+      "Măsurarea heritabilității.",
+      "Identificarea alelelor recesive."
+     ],
+     "correct": 1,
+     "explain": ""
+    },
+    {
+     "q": "Sindromul Cri-du-chat (plânsul de pisică) este un exemplu de anomalie structurală de tip:",
+     "opts": [
+      "Inversie.",
+      "Trisomie.",
+      "Deleție (a brațului scurt al cromozomului 5).",
+      "Duplicație."
+     ],
+     "correct": 2,
+     "explain": ""
+    }
+   ]
+  },
+  {
+   "id": "u6",
+   "eticheta": "Unitatea 6",
+   "titlu": "Unitatea 6 – Ereditatea multifactorială sau poligenică",
+   "intrebari": [
+    {
+     "q": "Caracterele multifactoriale sunt determinate de:",
+     "opts": [
+      "O singură genă și factori de mediu.",
+      "Mai multe gene (poligenie) și factori de mediu.",
+      "Doar factori de mediu.",
+      "Mutații cromozomiale."
+     ],
+     "correct": 1,
+     "explain": ""
+    },
+    {
+     "q": "Un caracter cantitativ se definește prin:",
+     "opts": [
+      "O distribuție discontinuă (prezent/absent).",
+      "O variație continuă în populație (e.g., înălțimea, QI).",
+      "Determinism exclusiv monogenic.",
+      "Răspândire doar la unul dintre sexe."
+     ],
+     "correct": 1,
+     "explain": ""
+    },
+    {
+     "q": "Distribuția frecvenței caracterelor cantitative în populație se înscrie, de obicei, în forma:",
+     "opts": [
+      "Curbei exponențiale.",
+      "Curbei lui Gauss (distribuție normală).",
+      "Segregării 3:1.",
+      "Unui grafic bară."
+     ],
+     "correct": 1,
+     "explain": ""
+    },
+    {
+     "q": "Conceptul de 'Prag' (Threshold) este specific:",
+     "opts": [
+      "Bolilor monogenice dominante.",
+      "Caracterelor cantitative cu variație continuă.",
+      "Bolilor comune (discontinue) cu determinism multifactorial.",
+      "Bolilor X-linkate."
+     ],
+     "correct": 2,
+     "explain": ""
+    },
+    {
+     "q": "Heritabilitatea (h²) reprezintă:",
+     "opts": [
+      "Proporția din variabilitatea fenotipică datorată mediului.",
+      "Proporția din variabilitatea fenotipică datorată factorilor genetici aditivi.",
+      "Riscul de recurență într-o familie.",
+      "Numărul de gene implicate într-un caracter."
+     ],
+     "correct": 1,
+     "explain": ""
+    },
+    {
+     "q": "Principalele metode de studiu ale eredității multifactoriale sunt:",
+     "opts": [
+      "Cariotiparea.",
+      "Studiul migrațiilor.",
+      "Studiile de agregare familială și Gemelologia (studiul gemenilor).",
+      "Test-cross-ul."
+     ],
+     "correct": 2,
+     "explain": ""
+    },
+    {
+     "q": "Dacă rata de concordanță a unei trăsături este de 90% la gemenii Monozigoți (MZ) și de 40% la gemenii Dizigoți (DZ), se poate concluziona că:",
+     "opts": [
+      "Factorii de mediu sunt exclusivi.",
+      "Trăsătura are o puternică componentă genetică.",
+      "Trăsătura este Autozomal Recesivă.",
+      "Trăsătura este determinată doar de o mutație \"de novo\"."
+     ],
+     "correct": 1,
+     "explain": ""
+    },
+    {
+     "q": "Gemenii monozigoți (MZ) sunt:",
+     "opts": [
+      "Frați care împart 50% din materialul genetic (la fel ca frații obișnuiți).",
+      "Indivizi identici genetic, proveniți dintr-un singur zigot.",
+      "Indivizi cu cariotipuri diferite.",
+      "Indivizi care sunt întotdeauna de sexe diferite."
+     ],
+     "correct": 1,
+     "explain": ""
+    },
+    {
+     "q": "Gemenii dizigoți (DZ) sunt:",
+     "opts": [
+      "Indivizi identici genetic.",
+      "Indivizi proveniți din două zigoturi diferite, care seamănă genetic cu frații obișnuiți (50% gene comune).",
+      "Gemenii care sunt întotdeauna de același sex.",
+      "Rezultatul unei singure fecundări urmată de o împărțire târzie."
+     ],
+     "correct": 1,
+     "explain": ""
+    },
+    {
+     "q": "Ce se înțelege prin 'Efect Aditiv' în contextul poligeniei?",
+     "opts": [
+      "Efectul unei gene maschează efectul alteia.",
+      "Efectul fenotipic este dat de suma (sau acumularea) efectelor fiecărei gene implicate.",
+      "Efectul genetic este întotdeauna dublat de mediu.",
+      "Efectul se observă doar la un anumit prag."
+     ],
+     "correct": 1,
+     "explain": ""
+    },
+    {
+     "q": "Calculul 'Riscului Empiric de Recurență' este necesar pentru:",
+     "opts": [
+      "Bolile monogenice.",
+      "Bolile cromozomiale.",
+      "Bolile multifactoriale (bazat pe date observaționale/statistice).",
+      "Caracterele exclusiv ecologice."
+     ],
+     "correct": 2,
+     "explain": ""
+    },
+    {
+     "q": "Un coeficient de heritabilitate (h²) apropiat de 1.0 (sau 100%) sugerează:",
+     "opts": [
+      "O influență de 100% a mediului.",
+      "O influență genetică dominantă.",
+      "O influență de 100% a factorilor genetici.",
+      "Un QI foarte ridicat."
+     ],
+     "correct": 1,
+     "explain": "O heritabilitate apropiată de 1 arată că diferențele dintre indivizi țin în cea mai mare parte de gene (influență genetică dominantă); 100% ar corespunde doar valorii h² = 1. Cheia din document indica „c”; răspunsul a fost corectat."
+    },
+    {
+     "q": "Caracterele umane discontinue (boli comune) cu determinism multifactorial includ:",
+     "opts": [
+      "Grupa sanguină ABO.",
+      "Boala Huntington.",
+      "Diabetul, Schizofrenia, Hipertensiunea arterială.",
+      "Daltonismul."
+     ],
+     "correct": 2,
+     "explain": ""
+    },
+    {
+     "q": "Corelația familială în studiul trăsăturilor multifactoriale arată, de regulă, că:",
+     "opts": [
+      "Riscul este același pentru toți membrii familiei.",
+      "Riscul scade pe măsură ce gradul de rudenie cu subiectul afectat se îndepărtează.",
+      "Riscul este mai mare la bunici.",
+      "Riscul nu depinde de gradul de rudenie."
+     ],
+     "correct": 1,
+     "explain": ""
+    },
+    {
+     "q": "Diferențele de QI (Coeficient de Inteligență) între indivizi, deși cu o puternică componentă genetică, au o heritabilitate care:",
+     "opts": [
+      "Nu este influențată de mediu.",
+      "Scade pe măsură ce copiii cresc.",
+      "Crește pe măsură ce copiii cresc, pe măsură ce influențele genetice devin mai dominante.",
+      "Este aceeași indiferent de vârstă."
+     ],
+     "correct": 2,
+     "explain": ""
+    },
+    {
+     "q": "Ce înseamnă că o boală multifactorială este 'discontinuă' (de tip prag)?",
+     "opts": [
+      "Boala apare intermitent.",
+      "Boala apare doar dacă susceptibilitatea genetică totală plus factorii de mediu depășesc un anumit nivel (prag).",
+      "Boala este transmisă de pe un cromozom sexual.",
+      "Boala nu are nicio cauză genetică."
+     ],
+     "correct": 1,
+     "explain": ""
+    },
+    {
+     "q": "Cine au cel mai mare risc de a dezvolta o boală multifactorială, dacă un frate este deja afectat?",
+     "opts": [
+      "Rudele de gradul IV.",
+      "Nepoții.",
+      "Rudele de gradul I (părinți, frați, copii).",
+      "Oamenii fără nicio rudă afectată."
+     ],
+     "correct": 2,
+     "explain": ""
+    },
+    {
+     "q": "Un dezavantaj al studiului gemenilor MZ și DZ este că:",
+     "opts": [
+      "Nu pot fi găsiți suficienți gemeni.",
+      "Gemenii MZ și DZ nu sunt întotdeauna expuși la medii perfect egale.",
+      "Nu pot fi folosiți pentru studii de heritabilitate.",
+      "Gemenii DZ nu au gene în comun."
+     ],
+     "correct": 1,
+     "explain": ""
+    },
+    {
+     "q": "Pentru un caracter cu o puternică componentă genetică, dar care este influențat și de mediu, heritabilitatea va avea o valoare:",
+     "opts": [
+      "h² = 0.",
+      "h² = 1.",
+      "0 < h² < 1.",
+      "h² < 0."
+     ],
+     "correct": 2,
+     "explain": ""
+    },
+    {
+     "q": "Care dintre următoarele este un exemplu de caracter cantitativ cu determinism multifactorial?",
+     "opts": [
+      "Existența a șase degete la mână (Polidactilia).",
+      "Culoarea pielii.",
+      "Fibroza Chistică.",
+      "Hemofilia."
+     ],
+     "correct": 1,
+     "explain": ""
+    }
+   ]
+  }
+ ]
+}
